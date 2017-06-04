@@ -2,7 +2,6 @@ package server
 
 import (
 	"github.com/labstack/echo"
-	"net/http"
 )
 
 func Run(addr string) {
