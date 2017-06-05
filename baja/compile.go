@@ -45,16 +45,21 @@ func createHome(page Page) {
 	}
 }
 
-func createIssue(issue Issue) {
-	t, err := template.ParseFiles("themes/yeo/layout.tmpl", "themes/yeo/issue.tmpl")
+func createIssue(layout string, issue Issue) {
+	t, err := template.ParseFiles("themes/yeo/"+layout+".tmpl", "themes/yeo/issue.tmpl")
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	os.Mkdir("./public/issues/"+issue.Name, 0755)
-	f, err := os.Create("./public/issues/" + issue.Name + "/index.html")
+	directory := "./public/issues/" + issue.Name
+	if layout == "email" {
+		directory = "./public/issues/email/" + issue.Name
+	}
+	os.MkdirAll(directory, 0755)
+
+	f, err := os.Create(directory + "/index.html")
 	if err != nil {
-		log.Println("Error creating file", err)
+		log.Fatalf("Error creating file", err)
 	}
 
 	page := &Page{
@@ -102,7 +107,8 @@ func createIssues(page Page) {
 	}
 
 	for _, issue := range page.Issues {
-		createIssue(issue)
+		createIssue("layout", issue)
+		createIssue("email", issue)
 	}
 
 	//var tpl bytes.Buffer
