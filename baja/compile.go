@@ -121,6 +121,7 @@ func loadIssue(f os.FileInfo) (Issue, error) {
 	}
 
 	err = yaml.Unmarshal([]byte(data), &issue)
+	log.Println(issue)
 	return issue, nil
 }
 

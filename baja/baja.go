@@ -30,9 +30,10 @@ type Link struct {
 type Issues []Issue
 
 type Issue struct {
-	Name  string
-	Time  time.Time
-	Links []Link `yaml:"links"`
+	Name    string `yaml:"name"`
+	Time    string `yaml:"time"`
+	PubTime time.Time
+	Links   []Link `yaml:"links"`
 }
 
 func (issue Issues) Len() int {
