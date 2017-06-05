@@ -7,12 +7,12 @@
 <section class="hero is-medium has-text-centered">
 	<div class="hero-body">
 		<div class="container">
-			<h1 class="title">Better Dev Links</h1>
+			<h1 class="title is-1">Better Dev Link</h1>
 			<h2 class="subtitle">Weekly links to become a better developer!</h2>
 			<p>
 			<strong>BetterDev.Link</strong> collects links around the web that aim to help you learn something news. The topic isn't tight to any
-			specific programming languages, technologies, frameworks but attempt to include resource that you will be usually learn
-			a thing or two from reading them.
+			specific programming languages, technologies, frameworks but attempt to include resource that you may usually learn
+			a thing or two from them.
 			</p>
 		</div>
 	</div>
@@ -29,27 +29,10 @@
 				<div class="issue-preview__inner">
 					<div style="background: #fff; padding: 50px 0; text-align: center">
 						<h1 class="title">Better Dev Link</h1>
-						<h2 class="subtitle">Issue #1 - May 30, 2017</h2>
+						<h2 class="subtitle">Issue #1 - June 6, 2017</h2>
           </div>
 
-					<div class="issue-links">
-						<div style="padding: 1.5rem 1.5rem 0rem 1.5rem;" class="issue-link">
-							<p>
-							<a style="font-size: 1.125rem; text-decoration: underline;" href="https://github.com/rrrene/credo/blob/master/CHANGELOG.md" target="_blank">Credo v0.8.0 released</a><br>
-
-							<span style="color: #666;">Credo is a static code analysis tool emphasizing code consistency and teaching. This release introduces major internal refactorings which result in less memory consumption and an overall faster analysis.</span>
-
-							</p>
-						</div>
-
-						<div style="padding: 0 1.5rem;">
-							<div style="border: 1px solid #f1f1f1; margin: 1.5rem 0;"></div>
-							That's it for this round, have a great day! If you like this newsletter, please tell the world!<br>
-							<br>
-							You can <a href="https://betterdev.link/issues/1">view this issue in your web browser</a>.
-						</div>
-
-					</div>
+          {{ template "issue" .Issue  }}
 
 				</div>
 			</div>
