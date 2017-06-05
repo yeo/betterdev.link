@@ -1,5 +1,6 @@
 body {
-  font-family: Helvetica,Arial,sans-serif
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 1.2rem;
 }
 
 .container {
@@ -50,14 +51,16 @@ a {
   background: #fff;
 }
 
+.intro {
+}
+
 .light {
   border-radius: 2px;
   color: rgba(0,0,0,0.48);
-  font-size: 0.8em;
+  font-size: 0.9em;
   font-weight: normal;
   line-height: 1.2;
   opacity: 0.5;
   padding: 2px 4px;
-  text-transform: lowercase;
   white-space: nowrap;
 }

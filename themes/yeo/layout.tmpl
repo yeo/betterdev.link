@@ -52,7 +52,7 @@
     <footer class="footer">
     <section class="container">
       <p>Public by Vinh (@kureikain). Contact me at vinh@thisdomain for any thing.</p>
-      <p>I just hate spam as much as you are. I'll never ever sell your email or use your email for cold email purpose</p>
+      <p>I just hate spam as much as you are. I'll never ever sell your email.</p>
     </section>
     </footer>
 
@@ -77,7 +77,7 @@
 			<div id="mc_embed_signup" class="columns is-vcentered">
 				<div class="column is-one-third is-left">
 					<p class="title">Better Dev Link</p>
-					<p class="subtitle">Every Tuesday at 5:16AM</p>
+					<p class="subtitle">Every Tuesday</p>
 				</div>
 
 				<div class="column">
@@ -113,7 +113,7 @@
 				<div class="issue-preview__inner">
 					<div style="background: #fff; padding: 50px 0; text-align: center">
 						<h1 class="title">Better Dev Link</h1>
-            <h2 class="subtitle">Issue {{ .Name }} - June 6, 2017</h2>
+            <h2 class="subtitle">Issue {{ .Name }} - {{ .Time }}</h2>
           </div>
 
           <div class="issue-links">
@@ -130,7 +130,7 @@
               <div style="border: 1px solid #f1f1f1; margin: 1.5rem 0;"></div>
               That's it for this round, have a great day! If you like this newsletter, please tell the world!<br>
               <br>
-              You can <a href="https://betterdev.link/issues/1">view this issue in your web browser</a>.
+              You can <a href="https://betterdev.link/issues/{{ .Name }}">view this issue in your web browser</a>.
             </div>
           </div>
 
