@@ -10,7 +10,7 @@ body {
 }
 
 .hero.is-primary {
-  background-color: #9b4dca;
+  background-color: #f36c3d;
 }
 
 a {
@@ -20,7 +20,7 @@ a {
 .octocat {
   border: 0;
   color: #f4f5f6;
-  fill: #9b4dca;
+  fill: #f36c3d;
   height: 5.2rem;
   position: fixed;
   right: 0;

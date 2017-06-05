@@ -76,6 +76,9 @@ a {
 
       {{ template "content" . }}
 
+      <div style="text-align: center">
+         *|REWARDS|* 
+      </div>
     </body>
   </html>
 {{ end }}
@@ -110,6 +113,8 @@ a {
                 That's it for this round, have a great day! If you like this newsletter, please tell the world!<br>
                 <br>
                 You can <a href="https://betterdev.link/issues/{{ .Name }}">view this issue in your web browser</a>.
+                <br>
+                No longer want to receive these emails? <a href="*|UNSUB|*">Unsubscribe</a>
               </div>
             </div>
 
