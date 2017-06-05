@@ -10,11 +10,21 @@ import (
 	"io/ioutil"
 	"os"
 	"path/filepath"
+	"strings"
 	"time"
 )
 
 //TODO Move theme reference to config with DI
 func Compile(source string) error {
+	createHome()
+	createIssues()
+
+	CopyDir("themes/yeo/assets", "public/assets")
+
+	return nil
+}
+
+func createHome() {
 	t, err := template.ParseFiles("themes/yeo/layout.tmpl", "themes/yeo/index.tmpl")
 	if err != nil {
 		log.Fatal(err)
@@ -24,17 +34,76 @@ func Compile(source string) error {
 	if err != nil {
 		log.Println("Error creating file", err)
 	}
-	log.Println("Done", source)
 
-	page := &Page{time.Now()}
+	lastIssue := Issue{}
+	page := &Page{time.Now(), lastIssue}
+	//var tpl bytes.Buffer
+	if err := t.ExecuteTemplate(f, "base", &page); err != nil {
+		log.Fatal(err)
+	}
+}
+
+func createIssue(issue *Issue) {
+	t, err := template.ParseFiles("themes/yeo/layout.tmpl", "themes/yeo/issue.tmpl")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	os.Mkdir("./public/issues/"+issue.Name, 0755)
+	f, err := os.Create("./public/issues/" + issue.Name + "/index.html")
+	if err != nil {
+		log.Println("Error creating file", err)
+	}
+
+	page := &Page{
+		Time:  time.Now(),
+		Issue: Issue{},
+	}
 	//var tpl bytes.Buffer
 	if err := t.ExecuteTemplate(f, "base", &page); err != nil {
 		log.Fatal(err)
 	}
 
-	CopyDir("themes/yeo/assets", "public/assets")
+}
 
-	return nil
+func createIssues() {
+	issues := make([]*Issue, 10, 100)
+
+	files, _ := ioutil.ReadDir("./content/issues/")
+	for _, f := range files {
+		if issue := loadIssue(f); issue != nil {
+			createIssue(issue)
+			issues = append(issues, issue)
+		}
+	}
+
+	t, err := template.ParseFiles("themes/yeo/layout.tmpl", "themes/yeo/issues.tmpl")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	os.Mkdir("./public/issues/", 0755)
+	f, err := os.Create("./public/issues/index.html")
+	if err != nil {
+		log.Println("Error creating file", err)
+	}
+
+	page := &Page{
+		Time: time.Now(),
+	}
+	//var tpl bytes.Buffer
+	if err := t.ExecuteTemplate(f, "base", &page); err != nil {
+		log.Fatal(err)
+	}
+}
+
+func loadIssue(f os.FileInfo) *Issue {
+	fmt.Println(f.Name())
+	name := strings.Split(f.Name(), ".")
+	issue := Issue{
+		Name: name[0],
+	}
+	return &issue
 }
 
 func CopyFile(src, dst string) (err error) {
