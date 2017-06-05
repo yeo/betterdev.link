@@ -23,6 +23,7 @@ links:
 
   - url: https://github.com/karan/Projects
     title:  A list of practical projects that anyone can solve in any programming language.
+    description: A very good way to consolidate your algorithms skill, or an excuse to learn a new programming language
 
   - url: http://www.craftinginterpreters.com/
     title: Crafting Interpreters
