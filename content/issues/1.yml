@@ -28,17 +28,27 @@ links:
     title: Crafting Interpreters
     description: "A handbook for making programming languages. This book contains everything you need to implement a full-featured, efficient scripting language. You’ll learn both high-level concepts around parsing and semantics and gritty details like bytecode representation and garbage collection"
 
-  - url: https://hardbin.com/ipfs/QmUGFZAWzWEaHjC1dHAUQ8aKCuKupKsX9vLzhGZV9PLknu
-    title: hardbin - The world's most secure encrypted pastebin, guaranteed
-    description: "Hardbin is an encrypted pastebin, with the decryption key passed in the URL fragment, and the code and data served securely with IPFS. (IPFS is a distributed content-addressable storage system that is web-compatible; it's basically bittorrent for the web)."
-
   - url: https://github.com/brendangregg/perf-tools
-    title: Performance analysis tools based on Linux perf_events (aka perf) and ftrace
+    title: "Performance analysis tools based on Linux perf_events (aka perf) and ftrace"
 
   - url: http://blog.christianposta.com/microservices/00-microservices-patterns-with-envoy-proxy-series/
-    title: Microservices Patterns With Envoy Sidecar Proxy: The series
+    title: "Microservices Patterns With Envoy Sidecar Proxy: The series"
     description: "A series of posts looking deeper at Envoy Proxy and Istio.io and how it enables a more elegant way to connect and manage microservices."
 
   - url: https://github.com/spolu/warp?attempt=8
     title: "Secure and simple terminal sharing"
     description: The code is small enough at this point and you can dive into it to learn how to implement a terminal sharing app in Go
+
+  - url: https://codeascraft.com/2017/05/30/reducing-image-file-size-at-etsy/
+    title: Reducing Image File Size at Etsy
+    description: Great post from etsy explain how they achieve a smaller size for user upload image
+
+  - url: https://engineering.instagram.com/sharding-ids-at-instagram-1cf5a71e5a5c
+    title: Sharding & IDs at Instagram
+    description: "With more than 25 photos and 90 likes every second, we store a lot of data here at Instagram. To make sure all of our important data fits into memory and is available quickly for our users, we’ve begun to shard our data — in other words, place the data in many smaller buckets, each holding a part of the data"
+
+  - url: https://hardbin.com/ipfs/QmUGFZAWzWEaHjC1dHAUQ8aKCuKupKsX9vLzhGZV9PLknu
+    title: hardbin - The world's most secure encrypted pastebin, guaranteed
+    description: "Hardbin is an encrypted pastebin, with the decryption key passed in the URL fragment, and the code and data served securely with IPFS. (IPFS is a distributed content-addressable storage system that is web-compatible; it's basically bittorrent for the web)."
+
+
