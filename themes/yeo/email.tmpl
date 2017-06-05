@@ -1,15 +1,121 @@
 {{define "base"}}
-<!DOCTYPE html><html lang="en">
+  <!DOCTYPE html><html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style type="text/css">
 
-  <body>
-    {{ template "content" . }}
+body {
+  font-family: Helvetica , Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
 
-  </body>
-</html>
+a {
+  color: #9b4dca;
+}
+
+.section {
+  background: #fff;
+  padding: 9rem 1.5rem;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+  display: block;
+  padding: 1.25rem;
+}
+      .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 800px;
+      }
+
+
+
+
+      .issues, .issue {
+        background: #f6f6f6;
+        border-radius: 10px;
+        text-align: left;
+        padding: 1.5rem 0;
+      }
+      .issue-preview {
+            margin: 0 1.5rem;
+      }
+
+
+      .issue-links {
+        background: #fff;
+      }
+
+      .title {
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 1.125;
+        color: #fff;
+      }
+
+      .subtitle {
+        color: #fff;
+        font-size: 1.25rem;
+        font-weight: 300;
+        line-height: 1.25;
+      }
+
+      </style>
+
+    </head>
+
+    <body>
+
+      {{ template "content" . }}
+
+    </body>
+  </html>
 {{ end }}
+
+
+{{ define "scripts" }}{{ end }}
+  {{ define "post_scripts"}} {{ end }}
+    {{ define "subscribe_form"}} {{ end }}
+
+
+    {{ define "issue" }}
+      <div class="issue">
+        <div class="issue-preview">
+          <div class="issue-preview__inner">
+            <div style="background: #f36c3d; padding: 50px 0; text-align: center">
+              <h1 class="title" style="color: #fff;">Better Dev Link</h1>
+              <h2 class="subtitle" style="color: #fff;">Issue {{ .Name }} - {{ .Time }}</h2>
+            </div>
+
+            <div class="issue-links">
+              {{ range $key, $link := .Links }}
+                <div style="padding: 1.5rem 1.5rem 0rem 1.5rem;" class="issue-link">
+                  <p>
+                  <a style="font-size: 1.125rem; font-weight: 300; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a><br>
+                  <span style="color: #666; font-weight: 300;">{{ $link.Description }}</span>
+                  </p>
+                </div>
+              {{ end }}
+
+              <div style="padding: 0 1.5rem;">
+                <div style="border: 1px solid #f1f1f1; margin: 1.5rem 0;"></div>
+                That's it for this round, have a great day! If you like this newsletter, please tell the world!<br>
+                <br>
+                You can <a href="https://betterdev.link/issues/{{ .Name }}">view this issue in your web browser</a>.
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    {{ end }}

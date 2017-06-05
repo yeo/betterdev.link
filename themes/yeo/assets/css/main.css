@@ -37,6 +37,10 @@ a {
   fill: #f4f5f6
 }
 
+.issue-links {
+  background: #fff;
+}
+
 .issues, .issue {
   background: #f6f6f6;
   border-radius: 10px;

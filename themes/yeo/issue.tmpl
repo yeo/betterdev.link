@@ -6,30 +6,8 @@
 
 <section class="section is-medium">
 	<div class="container">
-
-    <h3 class="title is-2  has-text-centered">Issues {{ .Issue.Name }}</h3>
-    <div class="box">
-    <div class="issue-links">
-    {{ range $key, $link := .Issue.Links }}
-    <div style="padding: 1.5rem 1.5rem 0rem 1.5rem;" class="issue-link">
-      <p>
-        <a style="font-size: 1.125rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a><br>
-        <span style="color: #666;">{{ $link.Description }}.</span>
-      </p>
-    </div>
-    {{ end }}
-
-    <div style="padding: 0 1.5rem;">
-      <div style="border: 1px solid #f1f1f1; margin: 1.5rem 0;"></div>
-      That's it for this round. Have a great day! If you like this newsletter, please tell the world!<br>
-      <br>
-      You can <a href="/issues/{{ .Issue.Name }}">view this issue in your web browser</a>.
-    </div>
+    {{ template "issue" .Issue  }}
   </div>
-
-    </div>
-
-	</div>
 </section>
 
 {{ template "subscribe_form" . }}
