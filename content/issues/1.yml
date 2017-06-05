@@ -6,7 +6,7 @@ links:
     description: How Reddit implemented counting at scale.
 
   - url: https://www.destroyallsoftware.com/compendium/network-protocols?share_key=97d3ba4c24d21147
-    title: Network protocolsFor programmers who know at least one programming language
+    title: Network protocols for programmers who know at least one programming language
     description: The network stack does several seemingly-impossible things. It does reliable transmission over our unreliable networks, usually without any detectable hiccups. It adapts smoothly to network congestion. It provides addressing to billions of active nodes. It routes packets around damaged network infrastructure, reassembling them in the correct order on the other side even if they arrived out of order. It accommodates esoteric analog hardware needs, like balancing the charge on the two ends of an Ethernet cable. This all works so well that users never hear of it, and even most programmers don't know how it works.
 
   - url: https://medium.com/technology-learning/event-sourcing-and-cqrs-a-look-at-kafka-e0c1b90d17d8
