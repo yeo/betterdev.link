@@ -5,26 +5,30 @@ import (
 
 	//"bytes"
 	"fmt"
+	"gopkg.in/yaml.v2"
 	"html/template"
 	"io"
 	"io/ioutil"
 	"os"
 	"path/filepath"
+	"sort"
 	"strings"
 	"time"
 )
 
 //TODO Move theme reference to config with DI
 func Compile(source string) error {
-	createHome()
-	createIssues()
+	page := buildPage()
+
+	createHome(page)
+	createIssues(page)
 
 	CopyDir("themes/yeo/assets", "public/assets")
 
 	return nil
 }
 
-func createHome() {
+func createHome(page Page) {
 	t, err := template.ParseFiles("themes/yeo/layout.tmpl", "themes/yeo/index.tmpl")
 	if err != nil {
 		log.Fatal(err)
@@ -35,11 +39,6 @@ func createHome() {
 		log.Println("Error creating file", err)
 	}
 
-	lastIssue := Issue{}
-	page := &Page{
-		Time:  time.Now(),
-		Issue: lastIssue,
-	}
 	//var tpl bytes.Buffer
 	if err := t.ExecuteTemplate(f, "base", &page); err != nil {
 		log.Fatal(err)
@@ -60,7 +59,7 @@ func createIssue(issue Issue) {
 
 	page := &Page{
 		Time:  time.Now(),
-		Issue: Issue{},
+		Issue: issue,
 	}
 	//var tpl bytes.Buffer
 	if err := t.ExecuteTemplate(f, "base", &page); err != nil {
@@ -69,7 +68,11 @@ func createIssue(issue Issue) {
 
 }
 
-func createIssues() {
+func buildPage() Page {
+	page := Page{
+		Time: time.Now(),
+	}
+
 	var issues []Issue
 	files, _ := ioutil.ReadDir("./content/issues/")
 	for _, f := range files {
@@ -79,6 +82,15 @@ func createIssues() {
 		}
 	}
 
+	// Sort Issue
+	sort.Sort(Issues(issues))
+
+	page.Issues = issues
+	page.Issue = page.Issues[len(page.Issues)-1]
+	return page
+}
+
+func createIssues(page Page) {
 	t, err := template.ParseFiles("themes/yeo/layout.tmpl", "themes/yeo/issues.tmpl")
 	if err != nil {
 		log.Fatal(err)
@@ -90,10 +102,6 @@ func createIssues() {
 		log.Println("Error creating file", err)
 	}
 
-	page := &Page{
-		Time:   time.Now(),
-		Issues: issues,
-	}
 	//var tpl bytes.Buffer
 	if err := t.ExecuteTemplate(f, "base", &page); err != nil {
 		log.Fatal(err)
@@ -101,11 +109,18 @@ func createIssues() {
 }
 
 func loadIssue(f os.FileInfo) (Issue, error) {
-	fmt.Println(f.Name())
 	name := strings.Split(f.Name(), ".")
 	issue := Issue{
 		Name: name[0],
 	}
+
+	data, err := ioutil.ReadFile("./content/issues/" + f.Name())
+	if err != nil {
+		log.Fatal("Fail to parse issue", f.Name(), err)
+		return issue, err
+	}
+
+	err = yaml.Unmarshal([]byte(data), &issue)
 	return issue, nil
 }
 

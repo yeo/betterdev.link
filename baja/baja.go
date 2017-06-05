@@ -1,6 +1,7 @@
 package baja
 
 import (
+	"strconv"
 	"time"
 )
 
@@ -17,16 +18,41 @@ type Page struct {
 	Site   Site
 	Time   time.Time
 	Issue  Issue
-	Issues []Issue
+	Issues Issues
 }
 
 type Link struct {
-	URI   string
-	Title string
+	URI         string `yaml:"url"`
+	Title       string `yaml:"title"`
+	Description string `yaml:"description"`
 }
+
+type Issues []Issue
 
 type Issue struct {
 	Name  string
 	Time  time.Time
-	Links []Link
+	Links []Link `yaml:"links"`
+}
+
+func (issue Issues) Len() int {
+	return len(issue)
+}
+
+func (issue Issues) Less(i, j int) bool {
+	i1, err := strconv.ParseInt(issue[i].Name, 10, 32)
+	if err != nil {
+		i1 = 0
+	}
+
+	j1, err := strconv.ParseInt(issue[j].Name, 10, 32)
+	if err != nil {
+		j1 = 0
+	}
+
+	return i1 < j1
+}
+
+func (issue Issues) Swap(ii, j int) {
+	issue[ii], issue[j] = issue[j], issue[ii]
 }
