@@ -36,14 +36,17 @@ func createHome() {
 	}
 
 	lastIssue := Issue{}
-	page := &Page{time.Now(), lastIssue}
+	page := &Page{
+		Time:  time.Now(),
+		Issue: lastIssue,
+	}
 	//var tpl bytes.Buffer
 	if err := t.ExecuteTemplate(f, "base", &page); err != nil {
 		log.Fatal(err)
 	}
 }
 
-func createIssue(issue *Issue) {
+func createIssue(issue Issue) {
 	t, err := template.ParseFiles("themes/yeo/layout.tmpl", "themes/yeo/issue.tmpl")
 	if err != nil {
 		log.Fatal(err)
@@ -67,11 +70,10 @@ func createIssue(issue *Issue) {
 }
 
 func createIssues() {
-	issues := make([]*Issue, 10, 100)
-
+	var issues []Issue
 	files, _ := ioutil.ReadDir("./content/issues/")
 	for _, f := range files {
-		if issue := loadIssue(f); issue != nil {
+		if issue, err := loadIssue(f); err == nil {
 			createIssue(issue)
 			issues = append(issues, issue)
 		}
@@ -89,7 +91,8 @@ func createIssues() {
 	}
 
 	page := &Page{
-		Time: time.Now(),
+		Time:   time.Now(),
+		Issues: issues,
 	}
 	//var tpl bytes.Buffer
 	if err := t.ExecuteTemplate(f, "base", &page); err != nil {
@@ -97,13 +100,13 @@ func createIssues() {
 	}
 }
 
-func loadIssue(f os.FileInfo) *Issue {
+func loadIssue(f os.FileInfo) (Issue, error) {
 	fmt.Println(f.Name())
 	name := strings.Split(f.Name(), ".")
 	issue := Issue{
 		Name: name[0],
 	}
-	return &issue
+	return issue, nil
 }
 
 func CopyFile(src, dst string) (err error) {
