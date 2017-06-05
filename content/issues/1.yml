@@ -1,0 +1,17 @@
+---
+links:
+  - url: https://redditblog.com/2017/05/24/view-counting-at-reddit/
+    title: View Counting at Reddit
+    description: How Reddit implemented counting at scale.
+  - url: https://www.destroyallsoftware.com/compendium/network-protocols?share_key=97d3ba4c24d21147
+    title: Network protocolsFor programmers who know at least one programming language
+    description: The network stack does several seemingly-impossible things. It does reliable transmission over our unreliable networks, usually without any detectable hiccups. It adapts smoothly to network congestion. It provides addressing to billions of active nodes. It routes packets around damaged network infrastructure, reassembling them in the correct order on the other side even if they arrived out of order. It accommodates esoteric analog hardware needs, like balancing the charge on the two ends of an Ethernet cable. This all works so well that users never hear of it, and even most programmers don't know how it works.
+  - url: https://medium.com/technology-learning/event-sourcing-and-cqrs-a-look-at-kafka-e0c1b90d17d8
+    title: Building Scalable Applications Using Event Sourcing and CQRS(2016)
+    description: Discussing event sourcing, cqrs, kafka and how to use it to build scalable data driven infrastructure
+  - url: https://ukcloud.pro/aws-vpc-subnetting-and-addressing-6dd627a0ef50
+    title: Footgun Prevention with AWS VPC Subnetting and Addressing
+    description: This post is for folks who are using AWS but might not realise they are now Cloud Network Engineers :) VPCs are simple when you know them, but we’re all Donald Rumsfeld at some point: we don’t know what we don’t know (until it bites us in the proverbial).
+  - url: https://istio.io/
+    title: An open platform to connect, manage, and secure microservices
+    description: Istio provides an easy way to create a network of deployed services with load balancing, service-to-service authentication, monitoring, and more, without requiring any changes in service code. You add Istio support to services by deploying a special sidecar proxy throughout your environment that intercepts all network communication between microservices, configured and managed using Istio’s control plane functionality.

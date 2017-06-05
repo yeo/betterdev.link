@@ -77,7 +77,6 @@ func buildPage() Page {
 	files, _ := ioutil.ReadDir("./content/issues/")
 	for _, f := range files {
 		if issue, err := loadIssue(f); err == nil {
-			createIssue(issue)
 			issues = append(issues, issue)
 		}
 	}
@@ -96,10 +95,14 @@ func createIssues(page Page) {
 		log.Fatal(err)
 	}
 
-	os.Mkdir("./public/issues/", 0755)
+	os.Mkdir("./public/issues", 0755)
 	f, err := os.Create("./public/issues/index.html")
 	if err != nil {
 		log.Println("Error creating file", err)
+	}
+
+	for _, issue := range page.Issues {
+		createIssue(issue)
 	}
 
 	//var tpl bytes.Buffer

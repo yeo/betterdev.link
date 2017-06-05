@@ -5,6 +5,6 @@ import (
 )
 
 func Deploy(source string) error {
-	log.Println("deploy")
+	log.Println("Deploy with ssh to")
 	return nil
 }
