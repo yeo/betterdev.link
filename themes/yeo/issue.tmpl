@@ -4,17 +4,29 @@
 
 {{ define "content" }}
 
-<section class="section is-medium has-text-centered">
+<section class="section is-medium">
 	<div class="container">
 
-    <h3 class="title is-2">Issues {{ .Issue.Name }}</h3>
+    <h3 class="title is-2  has-text-centered">Issues {{ .Issue.Name }}</h3>
     <div class="box">
-    <ul>
-        <li class="issue-item">
-          <a class="finder-item-link" href="/issues/1">Issues #1</a>
-          <span class="light light--meta">June 6, 2017</span>
-        </li>
-    </ul>
+    <div class="issue-links">
+    <div style="padding: 1.5rem 1.5rem 0rem 1.5rem;" class="issue-link">
+      <p>
+      <a style="font-size: 1.125rem; text-decoration: underline;" href="https://github.com/rrrene/credo/blob/master/CHANGELOG.md" target="_blank">Credo v0.8.0 released</a><br>
+
+      <span style="color: #666;">Credo is a static code analysis tool emphasizing code consistency and teaching. This release introduces major internal refactorings which result in less memory consumption and an overall faster analysis.</span>
+
+      </p>
+    </div>
+
+    <div style="padding: 0 1.5rem;">
+      <div style="border: 1px solid #f1f1f1; margin: 1.5rem 0;"></div>
+      That's it for this round, have a great day! If you like this newsletter, please tell the world!<br>
+      <br>
+      You can <a href="https://betterdev.link/issues/1">view this issue in your web browser</a>.
+    </div>
+  </div>
+
     </div>
 
 	</div>

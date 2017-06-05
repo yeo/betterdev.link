@@ -4,16 +4,18 @@
 
 {{ define "content" }}
 
-<section class="section is-medium has-text-centered">
+<section class="section is-medium">
 	<div class="container">
 
-		<h3 class="title is-2">Issues Archive</h3>
+		<h3 class="title is-2  has-text-centered">Issues Archive</h3>
     <div class="box">
     <ul>
+      {{ range $key, $issue := .Issues }}
         <li class="issue-item">
-          <a class="finder-item-link" href="/issues/1">Issues #1</a>
-          <span class="light light--meta">June 6, 2017</span>
+          <a class="finder-item-link" href="/issues/{{ $issue.Name }}">Issues #{{ $issue.Name }}</a>
+          <span class="light light--meta">{{ $issue.Time }}</span>
         </li>
+      {{ end }}
     </ul>
     </div>
 
