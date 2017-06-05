@@ -124,7 +124,9 @@ func loadIssue(f os.FileInfo) (Issue, error) {
 	}
 
 	err = yaml.Unmarshal([]byte(data), &issue)
-	log.Println(issue)
+	if err != nil {
+		log.Println("Error unmarshal yaml", err)
+	}
 	return issue, nil
 }
 
