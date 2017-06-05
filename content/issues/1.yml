@@ -20,3 +20,25 @@ links:
   - url: https://istio.io/
     title: An open platform to connect, manage, and secure microservices
     description: "Istio provides an easy way to create a network of deployed services with load balancing, service-to-service authentication, monitoring, and more, without requiring any changes in service code. You add Istio support to services by deploying a special sidecar proxy throughout your environment that intercepts all network communication between microservices, configured and managed using Istio’s control plane functionality."
+
+  - url: https://github.com/karan/Projects
+    title:  A list of practical projects that anyone can solve in any programming language.
+
+  - url: http://www.craftinginterpreters.com/
+    title: Crafting Interpreters
+    description: "A handbook for making programming languages. This book contains everything you need to implement a full-featured, efficient scripting language. You’ll learn both high-level concepts around parsing and semantics and gritty details like bytecode representation and garbage collection"
+
+  - url: https://hardbin.com/ipfs/QmUGFZAWzWEaHjC1dHAUQ8aKCuKupKsX9vLzhGZV9PLknu
+    title: hardbin - The world's most secure encrypted pastebin, guaranteed
+    description: "Hardbin is an encrypted pastebin, with the decryption key passed in the URL fragment, and the code and data served securely with IPFS. (IPFS is a distributed content-addressable storage system that is web-compatible; it's basically bittorrent for the web)."
+
+  - url: https://github.com/brendangregg/perf-tools
+    title: Performance analysis tools based on Linux perf_events (aka perf) and ftrace
+
+  - url: http://blog.christianposta.com/microservices/00-microservices-patterns-with-envoy-proxy-series/
+    title: Microservices Patterns With Envoy Sidecar Proxy: The series
+    description: "A series of posts looking deeper at Envoy Proxy and Istio.io and how it enables a more elegant way to connect and manage microservices."
+
+  - url: https://github.com/spolu/warp?attempt=8
+    title: "Secure and simple terminal sharing"
+    description: The code is small enough at this point and you can dive into it to learn how to implement a terminal sharing app in Go
