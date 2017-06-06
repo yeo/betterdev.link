@@ -25,6 +25,7 @@ type Link struct {
 	URI         string `yaml:"url"`
 	Title       string `yaml:"title"`
 	Description string `yaml:"description"`
+	Category    string `yaml:"category"`
 }
 
 type Issues []Issue

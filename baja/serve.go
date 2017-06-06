@@ -4,6 +4,8 @@ import (
 	"github.com/yeospace/better-dev.link/baja/server"
 )
 
-func Serve(addr string) {
+func Serve(cwd, addr string) {
+	watcher := NewWatcher(cwd)
+	go watcher.Run()
 	server.Run(addr)
 }
