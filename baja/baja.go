@@ -35,6 +35,7 @@ type Issue struct {
 	Links   []Link    `yaml:"links"`
 	Name    string    `yaml:"name"`
 	PubTime time.Time `yaml:"pub_time"`
+	Draft   bool      `yaml:"draft"`
 }
 
 func (issue Issues) Len() int {

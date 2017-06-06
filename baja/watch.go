@@ -21,6 +21,9 @@ func NewWatcher(cwd string) *Watcher {
 }
 
 func (w *Watcher) Run() {
+	log.Println("Precompile")
+	Compile(w.cwd)
+
 	directories := [2]string{"./content", "./themes"}
 	for _, d := range directories {
 		if err := w.watcher.AddRecursive(d); err != nil {

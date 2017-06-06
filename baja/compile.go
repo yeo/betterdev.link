@@ -52,8 +52,12 @@ func createIssue(layout string, issue Issue) {
 	}
 
 	directory := "./public/issues/" + issue.Name
+	if issue.Draft == true {
+		directory = "./public/issues/" + issue.Name + "/draft"
+	}
+
 	if layout == "email" {
-		directory = "./public/issues/email/" + issue.Name
+		directory = "./public/issues/" + issue.Name + "/email"
 	}
 	os.MkdirAll(directory, 0755)
 
