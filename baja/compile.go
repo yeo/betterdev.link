@@ -94,7 +94,12 @@ func buildPage() Page {
 	sort.Sort(Issues(issues))
 
 	page.Issues = issues
-	page.Issue = page.Issues[len(page.Issues)-1]
+	for k := len(page.Issues) - 1; k >= 0; k-- {
+		page.Issue = page.Issues[k]
+		if page.Issue.Draft == false {
+			break
+		}
+	}
 	return page
 }
 
