@@ -21,7 +21,6 @@ func NewWatcher(cwd string) *Watcher {
 }
 
 func (w *Watcher) Run() {
-	log.Println("Precompile")
 	Compile(w.cwd)
 
 	directories := [2]string{"./content", "./themes"}
@@ -35,7 +34,7 @@ func (w *Watcher) Run() {
 		for {
 			select {
 			case event := <-w.watcher.Event:
-				fmt.Println("Receiv:", event) // Print the event's info.
+				fmt.Println("Recv", event) // Print the event's info.
 				Compile(w.cwd)
 			case err := <-w.watcher.Error:
 				log.Fatalln(err)

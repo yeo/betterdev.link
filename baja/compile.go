@@ -20,6 +20,7 @@ import (
 func Compile(source string) error {
 	page := buildPage()
 
+	createRSS(page)
 	createHome(page)
 	createIssues(page)
 
@@ -28,6 +29,21 @@ func Compile(source string) error {
 	return nil
 }
 
+func createRSS(page Page) {
+	t, err := template.ParseFiles("themes/yeo/rss.tmpl")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	f, err := os.Create("./public/rss.xml")
+	if err != nil {
+		log.Println("Error creating file", err)
+	}
+
+	if err := t.ExecuteTemplate(f, "base", &page); err != nil {
+		log.Fatal(err)
+	}
+}
 func createHome(page Page) {
 	t, err := template.ParseFiles("themes/yeo/layout.tmpl", "themes/yeo/index.tmpl")
 	if err != nil {
