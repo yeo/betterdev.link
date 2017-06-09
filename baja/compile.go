@@ -131,12 +131,18 @@ func createIssues(page Page) {
 		log.Println("Error creating file", err)
 	}
 
+	var publicableIssue Issues
 	for _, issue := range page.Issues {
+		if issue.Draft == false {
+			publicableIssue = append(publicableIssue, issue)
+		}
+
 		createIssue("layout", issue)
 		createIssue("email", issue)
 	}
 
 	//var tpl bytes.Buffer
+	page.Issues = publicableIssue
 	if err := t.ExecuteTemplate(f, "base", &page); err != nil {
 		log.Fatal(err)
 	}
