@@ -4,7 +4,11 @@
 
 {{ define "content" }}
 
+<section class="section is-medium issue-links">
+	<div class="container">
 {{ template "issue" .Issue  }}
+  </div>
+</section>
 
 {{ template "subscribe_form" . }}
 
