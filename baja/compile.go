@@ -170,6 +170,10 @@ func loadIssue(f os.FileInfo) (Issue, error) {
 	if err != nil {
 		log.Println("Error unmarshal yaml", err)
 	}
+
+	if issue.PubTime, err = time.Parse("Jan 2, 2006 15:04:05 -0700", issue.Time+" 05:19:00 -0700"); err != nil {
+		log.Fatal("Cannot parse time", err)
+	}
 	return issue, nil
 }
 
