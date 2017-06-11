@@ -4,11 +4,7 @@
 
 {{ define "content" }}
 
-<section class="section is-medium is-paddingless">
-	<div class="container">
-    {{ template "issue" .Issue  }}
-  </div>
-</section>
+{{ template "issue" .Issue  }}
 
 {{ template "subscribe_form" . }}
 

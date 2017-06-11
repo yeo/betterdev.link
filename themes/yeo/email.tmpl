@@ -12,6 +12,8 @@ body {
   line-height: 1.5;
   font-size: 1.2rem;
   font-weight: 400;
+  margin: 1rem 0;
+  padding: 0;
 }
 
 a {
@@ -20,7 +22,7 @@ a {
 
 .section {
   background: #fff;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1rem;
 }
 
 .box {
@@ -43,16 +45,20 @@ a {
         background: #f6f6f6;
         border-radius: 10px;
         text-align: left;
-        padding: 1.5rem 0;
+        padding: 1rem 0;
         font-size: 1.1rem;
       }
       .issue-preview {
-            margin: 0 1.5rem;
+            margin: 0 1rem;
       }
 
 
       .issue-links {
         background: #fff;
+      }
+
+      .issue-link {
+        padding: 1rem 1rem 0rem 1rem;
       }
 
       .title {
@@ -89,7 +95,6 @@ a {
   {{ define "post_scripts"}} {{ end }}
     {{ define "subscribe_form"}} {{ end }}
 
-
     {{ define "issue" }}
       <div class="issue">
         <div class="issue-preview">
@@ -101,7 +106,7 @@ a {
 
             <div class="issue-links">
               {{ range $key, $link := .Links }}
-                <div style="padding: 1.5rem 1.5rem 0rem 1.5rem;" class="issue-link">
+                <div class="issue-link">
                   <p>
                   <a style="font-size: 1.3rem; font-weight: 300; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a><br>
                   <span style="color: #666; font-weight: 300;">{{ $link.Description }}</span>
@@ -114,7 +119,7 @@ a {
                 That's it for this round, have a great day! If you like this newsletter, please tell the world!<br>
                 <br>
                 You can <a href="https://betterdev.link/issues/{{ .Name }}">view this issue in web browser</a>.
-                <br>
+                <br><br>
                 No longer want to receive these emails? <a href="*|UNSUB|*">Unsubscribe</a>
               </div>
             </div>

@@ -23,7 +23,11 @@
     <meta name="twitter:image" content="/assets/images/thumbnail.png">
 
     {{ template "title" . }}
-    <link rel="icon" href="images/icon.png"><link rel="apple-touch-icon" href="images/icon.png">
+    <link rel="icon" href="/images/icon.png">
+		<link rel="apple-touch-icon" href="/images/icon.png">
+  	<link rel="icon" type="image/png" href="/images/icon.png">
+  	<link rel="shortcut icon" href="/images/icon.png">
+
     <link rel="canonical" href="https://betterdev.link">
     <link rel="image_src" href="/assets/images/thumbnail.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css">
@@ -50,7 +54,7 @@
 
     <footer class="footer">
     <section class="container">
-      <p>Public by Vinh (@kureikain). Contact me at vinh@yeo.space for anything.</p>
+      <p>Public by Vinh (@kureikain). Sponsor by <a href="https://noty.im">noty.im</a>. Contact me at vinh@yeo.space for anything.</p>
       <p>I just hate spam as much as you are. I'll never ever sell your email.</p>
     </section>
     </footer>
@@ -118,35 +122,33 @@
 
 
 {{ define "issue" }}
-  <div class="issue">
-			<div class="issue-preview">
-				<div class="issue-preview__inner">
-					<div style="background: #f36c3d; padding: 50px 0; text-align: center">
-						<h1 class="title" style="color: #fff;">Better Dev Link</h1>
-            <h2 class="subtitle" style="color: #fff;">Issue {{ .Name }} - {{ .Time }}</h2>
-          </div>
-
-          <div class="issue-links">
-            {{ range $key, $link := .Links }}
-            <div style="padding: 1.5rem 1.5rem 0rem 1.5rem;" class="issue-link">
-              <p>
-                <a style="font-size: 1.3rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a><br>
-                <span style="color: #666;">{{ $link.Description }}</span>
-              </p>
+    <div class="issue">
+        <div class="issue-preview">
+          <div class="issue-preview__inner">
+            <div style="background: #f36c3d; padding: 50px 0; text-align: center">
+              <h1 class="title" style="color: #fff;">Better Dev Link</h1>
+              <h2 class="subtitle" style="color: #fff;">Issue {{ .Name }} - {{ .Time }}</h2>
             </div>
-            {{ end }}
 
-            <div style="padding: 0 1.5rem;">
-              <div style="border: 1px solid #f1f1f1; margin: 1.5rem 0;"></div>
-              That's it for this round, have a great day! If you like this newsletter, please tell the world!<br>
-              <br>
-              You can <a href="https://betterdev.link/issues/{{ .Name }}">view this issue in your web browser</a>.
+            <div >
+              {{ range $key, $link := .Links }}
+              <div style="padding: 1.5rem 1.5rem 0rem 1.5rem;" class="issue-link">
+                <p>
+                  <a style="font-size: 1.3rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a><br>
+                  <span style="color: #666;">{{ $link.Description }}</span>
+                </p>
+              </div>
+              {{ end }}
+
+              <div style="padding: 0 1.5rem;">
+                <div style="border: 1px solid #f1f1f1; margin: 1.5rem 0;"></div>
+                That's it for this round, have a great day! If you like this newsletter, please tell the world!<br>
+                <br>
+                You can <a href="https://betterdev.link/issues/{{ .Name }}">view this issue in your web browser</a>.
+              </div>
             </div>
-          </div>
 
+        </div>
       </div>
     </div>
-  </div>
-
-
 {{ end }}

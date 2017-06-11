@@ -41,6 +41,13 @@ a {
   background: #fff;
 }
 
+@media screen and (max-width: 1000px) {
+  .issue-links {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 .issues, .issue {
   background: #f6f6f6;
   border-radius: 10px;
@@ -69,3 +76,5 @@ a {
   padding: 2px 4px;
   white-space: nowrap;
 }
+
+
