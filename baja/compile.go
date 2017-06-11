@@ -25,6 +25,7 @@ func Compile(source string) error {
 	createIssues(page)
 
 	CopyDir("themes/yeo/assets", "public/assets")
+	CopyDir("static/", "public/")
 
 	return nil
 }
