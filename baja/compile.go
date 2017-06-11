@@ -30,16 +30,21 @@ func Compile(source string) error {
 }
 
 func createRSS(page Page) {
-	t, err := template.ParseFiles("themes/yeo/rss.tmpl")
-	if err != nil {
-		log.Fatal(err)
-	}
-
 	f, err := os.Create("./public/rss.xml")
 	if err != nil {
 		log.Println("Error creating file", err)
 	}
 
+	funcMap := template.FuncMap{
+		"attr": func(s string) template.HTMLAttr {
+			return template.HTMLAttr(s)
+		},
+		"safe": func(s string) template.HTML {
+			return template.HTML(s)
+		},
+	}
+
+	t := template.Must(template.New("").Funcs(funcMap).ParseFiles("themes/yeo/rss.tmpl"))
 	if err := t.ExecuteTemplate(f, "base", &page); err != nil {
 		log.Fatal(err)
 	}

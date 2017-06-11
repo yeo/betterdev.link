@@ -31,11 +31,12 @@ type Link struct {
 type Issues []Issue
 
 type Issue struct {
-	Time    string    `yaml:"time"`
-	Links   []Link    `yaml:"links"`
-	Name    string    `yaml:"name"`
-	PubTime time.Time `yaml:"pub_time"`
-	Draft   bool      `yaml:"draft"`
+	Time        string    `yaml:"time"`
+	Links       []Link    `yaml:"links"`
+	Name        string    `yaml:"name"`
+	PubTime     time.Time `yaml:"pub_time"`
+	Draft       bool      `yaml:"draft"`
+	Description string    `yaml:"description"`
 }
 
 func (issue Issues) Len() int {
