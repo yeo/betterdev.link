@@ -1,26 +1,34 @@
-{{ define "base" }}
-<?xml version="1.0" encoding="UTF-8" ?>
+{{ define "base" }}{{ "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>" | safe }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-  <title>UX und Tollerei</title>
-    <link>http://uxundtollerei.com</link>
+  <title>Better Dev Link</title>
+    <link>https://betterdev.link</link>
     <description>Better Dev Link - Resource around the web on becoming a better programmer, published every Monday and sent directly to your inbox.</description>
     <language>en</language>
-    <copyright>2016</copyright>
+    <copyright>2017</copyright>
     <atom:link href="https://betterdev.link/rss.xml" rel="self" type="application/rss+xml" />
-
-    <item>
-      <title>Issue 100 - December 2016</title>
-      <link>http://uxundtollerei.com/issue/100</link>
-      <guid>http://uxundtollerei.com/issue/100</guid>
-      <pubDate>Mon, 19 December 2016 21:20:00 GMT</pubDate>
-    </item>
-    <description>
-      <![CDATA[
-      
-      ]]>
-    </description>
-
+    {{ range $key, $issue := .Issues }}
+      <item>
+        <title>Issues #{{ $issue.Name }} {{ $issue.Time }}</title>
+        <link>https://betterdev.link/issues/{{ $issue.Name }}</link>
+        <guid>https://betterdev.link/issues/{{ $issue.Name }}</guid>
+        <pubDate>{{ $issue.PubTime }}</pubDate>
+				<description>
+					{{ "<![CDATA[" | safe }}<h1>Better Dev Link - Resource around the web on becoming a better programmer</h1>
+					<p>{{ $issue.Description }}</p>
+					<ul>
+						{{ range $key, $link := $issue.Links }}
+						<li>
+							<a href="{{ $link.URI }}">{{ $link.Title }}</a>
+							<p>
+								{{ $link.Description }}
+							</p>
+						</li>
+						{{ end }}
+					</ul>{{ "]]>" | safe }}
+				</description>
+      </item>
+    {{ end }}
   </channel>
 </rss>
 {{ end }}
