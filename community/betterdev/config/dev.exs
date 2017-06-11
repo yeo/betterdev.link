@@ -51,7 +51,7 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :betterdev, Betterdev.Repo,
   adapter: Ecto.Adapters.MySQL,
-  username: "root",
+  username: "dev",
   password: "",
   database: "betterdev_dev",
   hostname: "localhost",
