@@ -1,5 +1,5 @@
 ---
-time: June 5, 2017
+time: Jun 5, 2017
 links:
   - url: https://redditblog.com/2017/05/24/view-counting-at-reddit/
     title: View Counting at Reddit
@@ -51,5 +51,3 @@ links:
   - url: https://hardbin.com/ipfs/QmUGFZAWzWEaHjC1dHAUQ8aKCuKupKsX9vLzhGZV9PLknu
     title: hardbin - The world's most secure encrypted pastebin, guaranteed
     description: "Hardbin is an encrypted pastebin, with the decryption key passed in the URL fragment, and the code and data served securely with IPFS. (IPFS is a distributed content-addressable storage system that is web-compatible; it's basically bittorrent for the web)."
-
-
