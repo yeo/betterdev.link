@@ -59,7 +59,6 @@ links:
     title: "Let's build a browser engine!"
     description: "This is an old serie(2014). Though they were using Rust in the example, you may still get lots of ideas about what it would take to build a browser engine and improve your knowledge on DOM/CSS parsing."
 
-	- url: https://csswizardry.com/2017/05/little-things-i-like-to-do-with-git/
-		title: Little Things I Like to Do with Git
-		description: "Some pretty good Git tricks to end this issue"
-
+  - url: https://csswizardry.com/2017/05/little-things-i-like-to-do-with-git/
+    title: "Little Things I Like to Do with Git"
+    description: "Some pretty good Git tricks to end this issue"
