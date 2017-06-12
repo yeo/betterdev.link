@@ -36,6 +36,14 @@ func createRSS(page Page) {
 		log.Println("Error creating file", err)
 	}
 
+	var publicableIssue Issues
+	for _, issue := range page.Issues {
+		if issue.Draft == false {
+			publicableIssue = append(publicableIssue, issue)
+		}
+	}
+	page.Issues = publicableIssue
+
 	funcMap := template.FuncMap{
 		"attr": func(s string) template.HTMLAttr {
 			return template.HTMLAttr(s)
