@@ -1,11 +1,19 @@
 ---
 time: Jun 12, 2017
 description: "Hi all, here is the second issue. I hope you enjoy the links. Let me know any kind of content you want to receive more in next issue"
-draft: true
+draft: false
 links:
+  - url: http://goyalankit.com/blog/linux-bridge
+    title: Linux Bridge - how it works
+    description: "Linux bridge is a layer 2 virtual device that on its own cannot receive or transmit anything unless you bind one or more real devices to it. It can be used to connect two or more physical Ethernet together to form one bigger (logical) Ethernet."
+
+  - url: https://www.youtube.com/watch?v=a-BtWlU55kk&mkt_tok=eyJpIjoiTURrMk9UVmtZVGMzWWpBNSIsInQiOiJmWHdNN2c2WG5xc1ZcL3JGdjI3YzF5TFlEVm5jZ3ZnVVpXb2Y4RFo4bkVBSUZKQXp4Q2FlQlFTdDRvSmwyMGtnWWY3UDFYOEpkQW9CbWxxamYrWDBtUXhFZHdoc0RPUUdmdjNCKzhWUE1IZVpJcVJoNGRyeGREYTJNdm5EWjRPM1EifQ%3D%3D
+    title: "Efficient analytics with Redis Bitmaps(Youtube Video)"
+    description: "This is a 3:19 minutes video introduce Redis Bitmaps as an efficent way to do some simple analytics for tracking user activity."
+
   - url: https://ducktypelabs.com/4-ways-to-secure-authentication/
     title: 4 Ways to Secure Your Authentication System
-    description: This is for Ruby. But you can still apply those rules to your own stack
+    description: This is for Ruby. But you can still apply those rules to your own stack.
 
   - url: https://semaphoreci.com/community/tutorials/creating-a-heroku-like-deployment-solution-with-docker
     title: Creating a Heroku-like Deployment Solution with Docker
@@ -13,49 +21,45 @@ links:
 
   - url: http://jrsinclair.com/articles/2017/faster-better-cheaper-art-of-making-software/
     title: Faster, better, cheaper - the art of making software
-    description: "Almost every programmers is bad at estimating cost and time of delivering software. This is a good post attempt at what we can do to improve that"
+    description: "Almost every programmers is bad at estimating cost and time of delivering software. This is a good post attempt at what we can do to improve that."
 
   - url: http://webaim.org/blog/user-agent-string-history/
     title: History of the browser user-agent string
-    description: "If you are ever wonder why every user-agent start with Mozzila no matter it's IE, Safari or Chrome, then spend 5 minute. to read this. Fun fact: I'm still confuse after reading it!!"
-
-  - url: https://realpython.com/blog/python/face-recognition-with-python/
-    title: Face Recognition With Python, in Under 25 Lines of Code
-    description: "A quick introduction into OpenCV to do face recognition. The code is in Python, but as long as you get the concept of OpenCV. It's pretty easy to apply to your own language since OpenCV has lots of binding for other language."
+    description: "If you are ever wonder why every user-agent start with Mozzila no matter it's IE, Safari or Chrome, then spend 5 minutes to read this. "
 
   - url: http://gafferongames.com/networking-for-game-programmers/
     title: A series of post about networking in game.
     description: "However, they can also applied for anything. They are a great resource to improve your knowledge on networking: tcp vs udp, how the data is send over the wire. They are long but check them out."
 
+  - url: https://realpython.com/blog/python/face-recognition-with-python/
+    title: Face Recognition With Python, in Under 25 Lines of Code
+    description: "A quick introduction into OpenCV to do face recognition. The code is in Python, but as long as you get the concept of OpenCV. It's pretty easy to apply to your own language since OpenCV has lots of binding for other language."
+
   - url: https://www.jackkinsella.ie/books/confessions_of_an_unintentional_cto
     title: Confessions of an unintentional cto.
     description: "Seven years of brutally pragmatic lessons in growing and maintaining a web app."
 
-  - url: http://goyalankit.com/blog/linux-bridge
-    title: Linux Bridge - how it works
-    description: "Linux bridge is a layer 2 virtual device that on its own cannot receive or transmit anything unless you bind one or more real devices to it."
-
   - url: https://tomharrisonjr.com/uuid-or-guid-as-primary-keys-be-careful-7b2aa3dcb439
     title: UUID or GUID as Primary Keys? Be Careful!
-    description: "In tradition RDBMS, the primary keys are almost always in incremental number. In recent year, UUID os started to use more and more in distribute database system such as (MongoDB, RethinkDB, ElasticSearch). This post mentions some issue can occure when using UUID as primary key."
+    description: "In tradition RDBMS, the primary keys are almost always in incremental number. In recent years, UUID has been using more and more in distribute database system (such as MongoDB, RethinkDB, ElasticSearch). This post mentions some issue can occur when using UUID as primary key."
 
   - url: https://segment.com/blog/a-brief-history-of-the-uuid/
     title: A Brief History of the UUID
-    description: "Continue with the reading of UUID above, let's also dive big deeper into history of UUID."
-
-  - url: https://fly.io/articles/pragmatic-api-versioning/
-    title: Pragmatic API Versioning
-    description: "API design is a spicy topic! Many a wise word 1, 2, 3, 4 has been written about the best way to structure and version an API. This article takes a dip into the conflicting schools of API-design, establish a pragmatic middle-ground, then demonstrate how they use Fly to bring our middle-ground to life."
+    description: "Continuing with the reading of UUID above, let's also dive in a bit deeper into history of UUID."
 
   - url: https://philipwalton.com/articles/the-google-analytics-setup-i-use-on-every-site-i-build/
     title: The Google Analytics Setup I Use on Every Site I Build
-    description: "Some good way to use and setup google analytic."
+    description: "Some good ways to use and setup google analytic."
 
   - url: https://github.com/woodruffw/kbsecret
     title: A secret manager backed by Keybase and KBFS(Not production ready)
-    description: "Every developer have to solve problem of storing secret securely while still maintain the easiness of reading the secret. This tool approach by store secret on Keybase file system, a distributed file system with end-to-end encryption. The code is quite small and you can skim over in a few hour to learn a bit more about Keybase FS too"
+    description: "Every developer has to solve problem of storing secrets securely while still maintaining the easiness of reading the secret. This tool approaches the problem by storing secret on Keybase file system, a distributed file system with end-to-end encryption. The code is quite small, and you can skim over in a few hours to learn a bit more about Keybase FS."
 
   - url: https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html
-    title: Let's build a browser engine!
-    description: "This is an old serie(2014). Though they are using Rust in the example. However, you may still get lots of idea about what it takes to build a browser engine and improve your knowledge on DOM/CSS parsering."
+    title: "Let's build a browser engine!"
+    description: "This is an old serie(2014). Though they were using Rust in the example, you may still get lots of ideas about what it would take to build a browser engine and improve your knowledge on DOM/CSS parsing."
+
+	- url: https://csswizardry.com/2017/05/little-things-i-like-to-do-with-git/
+		title: Little Things I Like to Do with Git
+		description: "Some pretty good Git tricks to end this issue"
 
