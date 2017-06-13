@@ -11,6 +11,9 @@ defmodule Betterdev.Web.Router do
 
   pipeline :api do
     plug :accepts, ["json"]
+    plug Joken.Plug,
+      verify: &Betterdev.JWTHelpers.verify/0,
+      on_error: &Betterdev.JWTHelpers.error/2
   end
 
   scope "/", Betterdev.Web do
@@ -20,7 +23,10 @@ defmodule Betterdev.Web.Router do
   end
 
   # Other scopes may use custom stacks.
-  # scope "/api", Betterdev.Web do
-  #   pipe_through :api
-  # end
+  scope "/api", Betterdev.Web do
+    pipe_through :api
+
+    get "/status", StatusController, :index
+    resources "/links", LinkController, except: [:new, :edit]
+  end
 end

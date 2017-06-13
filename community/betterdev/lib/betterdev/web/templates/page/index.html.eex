@@ -1,6 +1,29 @@
 <div class="jumbotron">
   <h2><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h2>
   <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
+
+  <script src="https://cdn.auth0.com/js/lock/10.16/lock.min.js"></script>
+  <script>
+var lock = new Auth0Lock('a-wb-XWRmIfAm9v0U9eUbfawoJKsGG99', 'yeo.auth0.com', {
+  auth: {
+    redirect: false,
+    //redirectUrl: 'http://127.0.0.1:4000',
+    //responseType: 'token',
+    responseType: 'id_token',
+    params: {
+      scope: 'openid email' // Learn about scopes: https://auth0.com/docs/scopes
+    }
+  }
+})
+
+lock.on("authenticated", function(authResult) {
+  console.log(authResult.idToken)
+  localStorage.setItem('accessToken', authResult.idToken);
+});
+
+  </script>
+  <button onclick="lock.show();">Login</button>
+
 </div>
 
 <div class="row marketing">
