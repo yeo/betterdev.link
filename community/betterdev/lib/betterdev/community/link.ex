@@ -2,19 +2,21 @@ defmodule Betterdev.Community.Link do
   use Ecto.Schema
   import Ecto.Changeset
   alias Betterdev.Community.Link
+  alias Betterdev.Accounts.User
 
 
   schema "community_links" do
     field :title, :string
     field :uri, :string
 
+    belongs_to :user, User
     timestamps()
   end
 
   @doc false
   def changeset(%Link{} = link, attrs) do
     link
-    |> cast(attrs, [:title, :uri])
+    |> cast(attrs, [:title, :uri, :user])
     |> validate_required([:title, :uri])
   end
 end
