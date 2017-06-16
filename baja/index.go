@@ -21,7 +21,7 @@ func (i *Indexer) Index(dir string) {
 	for _, issue := range page.Issues {
 		for _, link := range issue.Links {
 			objects = append(objects, algoliasearch.Object{
-				"ObjectID":    issue.Name + link.URI,
+				"objectID":    issue.Name + "-" + link.URI,
 				"Title":       link.Title,
 				"Description": link.Description,
 			})
