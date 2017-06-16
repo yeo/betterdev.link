@@ -60,18 +60,20 @@
 
     <footer class="footer">
     <section class="container">
-      <p>Public by Vinh (@kureikain). Sponsor by <a href="https://noty.im">noty.im</a>. Contact me at vinh@yeo.space for anything.</p>
+      <p>Public by Vinh (@kureikain). Sponsored by <a href="https://noty.im">noty.im</a>. Contact me at vinh@yeo.space for anything.</p>
       <p>I just hate spam as much as you are. I'll never ever sell your email.</p>
     </section>
     </footer>
 
    {{ template "scripts" . }}
    {{ template "post_scripts" . }}
+   {{ template "page_scripts" . }}
   </body>
 </html>
 {{ end }}
 
 
+{{ define "page_scripts" }}{{ end }}
 {{ define "scripts" }}{{ end }}
 {{ define "post_scripts"}}
 	<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
