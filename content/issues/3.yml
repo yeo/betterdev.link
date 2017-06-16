@@ -1,0 +1,36 @@
+---
+time: Jun 19, 2017
+description: "I hope you enjoy the links. Let me know any kind of content you want to receive more in next issue"
+draft: true
+links:
+  - url: https://blog.acolyer.org/2017/06/16/why-your-encrypted-database-is-not-secure/
+    title: "Why your encrypted database is not secure"
+    description: "Database such as MySQL, MongoDB support encryption, either storage encryption at rest, or network traffic encryption with TLS. Amazone event makes it much more easier by simply toggle an option with RDS. However, is it really that secure? This is a good read to improve knowledge on datbase encryption generaly."
+
+  - url: http://www.ilikebigbits.com/blog/2017/6/1/float-or-double
+    title: "Float or double?"
+    description: "In scientific computation we use floating point numbers a lot. When programming, we probably didn't give much though on this, especially if we are using a dynamic language such as Ruby or PHP. This article is a guide to picking the right floating point representation for you."
+
+  - url: https://heap.engineering/running-10-million-postgresql-indexes-in-production/
+    title: "Running 10 Million PostgreSQL Indexes In Production (And Counting) (2016)"
+    description: "Database 101 tells us that we need to use index to speed the query to avoid full table scan over all data. However, we should not use lots of index because it will affect inserting, also index need memory. Hence, we need to be balance on what to index and how. In this post, Heap analytic writes about how they manage to speed up query with over 10 million indexes. It's a good read in database engineering."
+
+  - url: https://0x00sec.org/t/re-guide-for-beginners-methodology-and-tools/2242
+    title: "Reverse engineering guide for beginners: Methodology and tools"
+    description: "In software, reverse engineering can be understand process of disassembly a binary to understand how it works without accessing to its source code. By nature of it, this is usually consider a hard thing to do. However, with the right tool, a good methodology and some basic knowledge, you can get into this field."
+
+  - url: https://dev.mikamai.com/2017/06/15/technical-debt-definition-and-practical-approach/
+    title: "Technical Debt: Definition and Practical Approach"
+    description: "I know this post doesn’t invent anything new and you may have read about technical debt other hundred of times. This post is just another take on the Technical Debt matter, with the description of the practical approach we follow in Mikamai."
+
+  - url: https://increment.com/on-call/on-call-at-any-size/
+    title: "HOW TO SCALE ON-CALL FROM ONE ENGINEER TO TENS OF THOUSANDS"
+    description: "Creating and running an on-call rotation is the very first step in building truly reliable infrastructure at any scale, but it’s far from the last. As a company grows and scales, the systems that it builds and runs grow in complexity and require more sophisticated on-call practices. While there is no universal approach, there are industry best practices for setting up on-call and incident response at any and every size."
+
+  - url: https://axelclark.com/home-weather-display-project/
+    title: "Home Weather Display with Nerves and GrovePi"
+    description: "Many programmer have a Raspberry PI laying around. Nerves is a project allow to run Elixir on Raspberry PI. This posts guide you throught some quick steps to build "
+
+  - url: https://github.com/git-tips/tips
+    title: "Most commonly used git tips and tricks"
+    description: "Git is widely use nowadays. Almost every company adopts it. Hence, mastering Git helps you boost your workflow. This repository is a collection of useful git tricks. They aren't that long and you can spend 30 minutes to read them"
