@@ -3,6 +3,12 @@
 	"ignore": "test",
 	"package": [
 		{
+			"checksumSHA1": "XtBfxwxDlJH/pxTeenfqCi6CSgM=",
+			"path": "github.com/algolia/algoliasearch-client-go/algoliasearch",
+			"revision": "99a58b624928559d5104dcbffd82953b55e001fe",
+			"revisionTime": "2017-06-06T13:28:42Z"
+		},
+		{
 			"checksumSHA1": "HG7tiJjsuIzryxtrGS+oJecq2CQ=",
 			"path": "github.com/radovskyb/watcher",
 			"revision": "bbc1ad0f6c5b7b0b75838ba2afad018724cc40a5",
