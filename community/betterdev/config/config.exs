@@ -31,6 +31,10 @@ config :betterdev, :auth0,
   app_id: System.get_env("AUTH0_APP_ID"),
   app_secret: "AUTH0_APP_SECRET"
     |> System.get_env
-    |> Kernel.||("")
-    |> Base.url_decode64
-    |> elem(1)
+    # We only need this if it's base64
+    #|> Kernel.||("")
+    #|> Base.url_decode64
+    #|> elem(1)
+
+config :nadia,
+  token: "TELEGRAM_BOT_TOKEN" |> System.get_env
