@@ -17,7 +17,7 @@ defmodule Betterdev.Mixfile do
   # Type `mix help compile.app` for more information.
   def application do
     [mod: {Betterdev.Application, []},
-     extra_applications: [:logger, :runtime_tools, :nadia]]
+     extra_applications: [:logger, :runtime_tools, :nadia, :exbot]]
   end
 
   # Specifies which paths to compile per environment.
@@ -37,6 +37,7 @@ defmodule Betterdev.Mixfile do
      {:gettext, "~> 0.11"},
      {:joken, "~> 1.1"},
      {:nadia, "~> 0.4.2"},
+     {:exbot, ">= 0.0.1"},
      {:cowboy, "~> 1.0"}]
   end
 

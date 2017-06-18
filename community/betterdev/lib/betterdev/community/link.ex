@@ -8,6 +8,9 @@ defmodule Betterdev.Community.Link do
   schema "community_links" do
     field :title, :string
     field :uri, :string
+		field :picture, :string
+		field :status, :string
+		field :description, :string
 
     belongs_to :user, User
     timestamps()

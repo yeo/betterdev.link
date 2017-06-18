@@ -38,3 +38,6 @@ config :betterdev, :auth0,
 
 config :nadia,
   token: "TELEGRAM_BOT_TOKEN" |> System.get_env
+
+config :exbot,
+  token: "TELEGRAM_BOT_TOKEN" |> System.get_env
