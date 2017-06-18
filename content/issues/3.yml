@@ -29,7 +29,7 @@ links:
 
   - url: https://axelclark.com/home-weather-display-project/
     title: "Home Weather Display with Nerves and GrovePi"
-    description: "Many programmer have a Raspberry PI laying around. Nerves is a project allow to run Elixir on Raspberry PI. This posts guide you throught some quick steps to build "
+    description: "Many programmer have a Raspberry PI laying around. Nerves is a project allow to run Elixir on Raspberry PI. This posts will get you familarity with Raspbeery PI and its toolkit, reading/writing data to display/sensor. Plus you gain a bit good read on Elixir"
 
   - url: https://github.com/git-tips/tips
     title: "Most commonly used git tips and tricks"
@@ -43,10 +43,6 @@ links:
     title: Writing Efficient Queries
     description: "Writing efficient queries that balance performance and memory footprint is the most crucial part of writing good software. Doing this is not super easy, but keeping an eye on logs and how your queries are executed under the hood will definitely help you a lot."
 
-  - url: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-    title: "A Complete Guide to Flexbox"
-    description: "Even you are working as backend engineer, who never has to touch CSS, change is you still have to write some CSS sometime, such as for your personal website. So let's recap your knowledge on css flexbox, a layout mode intended to accommodate different screen sizes and different display devices"
-
   - url: https://css-tricks.com/introduction-fr-css-unit/
     title: "An Introduction to the `fr` CSS unit"
     description: "Many programmers maintain a blog or a website. Hence even if you aren't a front-end developer, you still have to work with CSS. Recently, browser has rapidly improving support for `fr` CSS length unit. Let's take a quick look into it"
@@ -57,5 +53,12 @@ links:
 
   - url: https://blog.statsbot.co/time-series-anomaly-detection-algorithms-1cef5519aef2
     title: "Time Series Anomaly Detection Algorithms"
-    description: "Anomay detection is used to detect spike or supsicious activy based on volume of event. In this post, Statsbot gives overview of the most popular anomaly detection algorithms for time series and their pros and cons."
+    description: "Anomaly detection is used to detect spikes or supsicious activities based on volume of amount of events. In this post, Statsbot gives overview of the most popular anomaly detection algorithms for time series and their pros and cons."
 
+  - url: https://github.com/samdeeplearning/The-Terrible-Deep-Learning-List
+    title: "15 working examples to get you started with Deep Learning without learning any of the math."
+    description: "AI, Machine Learning, Deep Learning are all buzzword nowadays. However, ignore the trending, it's worth to see what we can achieve with machine learning. Quick search of Deep Learning exposes lots o resource and we'll get overwheelm at what to start. This repository includes just that, example with working models, scripts that we can download, follow and run to experiment what Deep Learning can do."
+
+  - url: https://www.codeproject.com/articles/1107279/writing-a-mysql-storage-engine-from-scratch
+    title: "Writing a MySQL storage engine from scratch"
+    description: "MySQL, or its drop-in replacement, MariaDB has a concept of storage engine, which acts as an adapter to read write data on different kind of storage. Such as, in MariaDB you can use CSV storage engine to manipulate csv file with SQL query. But is writing your own storage engine hard? It turns out you can get started pretty easily."
