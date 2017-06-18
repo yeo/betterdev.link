@@ -38,6 +38,7 @@ defmodule Betterdev.Mixfile do
      {:joken, "~> 1.1"},
      {:nadia, "~> 0.4.2"},
      {:exbot, ">= 0.0.1"},
+     {:scrape, "~> 2.0.0"},
      {:cowboy, "~> 1.0"}]
   end
 

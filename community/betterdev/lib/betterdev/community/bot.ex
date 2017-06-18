@@ -20,7 +20,11 @@ defmodule Betterdev.Community.Bot do
     IO.puts "Import #{text}"
     String.split(text, "\n") |> Enum.map(fn (line) ->
       case Regex.run(~r/(http|https):\/\/([^\s\t\n]+)/, text, global: true) do
-        [url | _] -> %Link{user_id: 1, title: url, uri: url, status: "posted"} |> Repo.insert()
+        [url | _] ->
+          w = Scrape.website(url)
+          if w.title do
+            %Link{user_id: 1, title: w.title || url, uri: url, description: w.description, picture: w.image || w.favicon, status: "published", } |> Repo.insert()
+          end
       end
     end)
   end
@@ -31,7 +35,7 @@ defmodule Betterdev.Community.Bot do
     last_message = messages |> List.last
     messages |> Enum.filter_map(&(&1.message && &1.message.chat.id == -1001120191455 && &1.message.text), &(import_link(&1.message.text)))
     next = if last_message == nil do
-      :timer.sleep(5000)
+      :timer.sleep(10000)
       if start > 0 do
         next = start
       else
