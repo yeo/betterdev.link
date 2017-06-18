@@ -1,59 +1,37 @@
-<div class="jumbotron">
-  <h2><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h2>
-  <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
+<div class="columns">
+	<div class="column col-12">
+		<div class="tile">
+			<div class="tile-icon">
+				<figure class="avatar avatar-lg">
+					<img src="img/avatar-3.png">
+				</figure>
+			</div>
+			<div class="tile-content">
+				<p class="tile-title">The Avengers</p>
+				<label class="chip"> Elixir </label>
+				<label class="chip"> Pi </label>
 
-  <script src="https://cdn.auth0.com/js/lock/10.16/lock.min.js"></script>
-  <script>
-var lock = new Auth0Lock('a-wb-XWRmIfAm9v0U9eUbfawoJKsGG99', 'yeo.auth0.com', {
-  auth: {
-    redirect: false,
-    //redirectUrl: 'http://127.0.0.1:4000',
-    //responseType: 'token',
-    responseType: 'id_token',
-    params: {
-      scope: 'openid email' // Learn about scopes: https://auth0.com/docs/scopes
-    }
-  }
-})
-
-lock.on("authenticated", function(authResult) {
-  console.log(authResult.idToken)
-  localStorage.setItem('accessToken', authResult.idToken);
-});
-
-  </script>
-  <button onclick="lock.show();">Login</button>
-
-</div>
-
-<div class="row marketing">
-  <div class="col-lg-6">
-    <h4>Resources</h4>
-    <ul>
-      <li>
-        <a href="http://phoenixframework.org/docs/overview">Guides</a>
-      </li>
-      <li>
-        <a href="https://hexdocs.pm/phoenix">Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-    </ul>
-  </div>
-
-  <div class="col-lg-6">
-    <h4>Help</h4>
-    <ul>
-      <li>
-        <a href="http://groups.google.com/group/phoenix-talk">Mailing list</a>
-      </li>
-      <li>
-        <a href="http://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">@elixirphoenix</a>
-      </li>
-    </ul>
-  </div>
+				<p class="tile-subtitle">Earth's Mightiest Heroes joined forces to take on threats that were too big for any one hero to tackle...</p>
+			</div>
+			<div class="tile-action">
+				<button class="btn btn-primary">Fav</button>
+			</div>
+		</div>
+	</div>
+	<div class="column col-12">
+		<div class="tile">
+			<div class="tile-icon">
+				<figure class="avatar avatar-lg">
+					<img src="img/avatar-2.png">
+				</figure>
+			</div>
+			<div class="tile-content">
+				<p class="tile-title">The S.H.I.E.L.D.</p>
+				<p class="tile-subtitle">The Strategic Homeland Intervention, Enforcement, and Logistics Division...</p>
+			</div>
+			<div class="tile-action">
+				<button class="btn btn-primary">Fav</button>
+			</div>
+		</div>
+	</div>
 </div>

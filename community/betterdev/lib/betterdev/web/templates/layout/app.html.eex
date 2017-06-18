@@ -1,35 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
 
-    <title>Hello Betterdev!</title>
-    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
-  </head>
+		<title>Better Dev - Community</title>
 
-  <body>
-    <div class="container">
-      <header class="header">
-        <nav role="navigation">
-          <ul class="nav nav-pills pull-right">
-            <li><a href="http://www.phoenixframework.org/docs">Get Started</a></li>
-          </ul>
-        </nav>
-        <span class="logo"></span>
-      </header>
+		<link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+	</head>
 
-      <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
-      <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
+	<body>
+		<section class="section section-header bg-gray">
+			<section class="grid-header container grid-960">
+				<nav class="navbar">
+					<section class="navbar-section">
+						<a href="#sidebar" class="btn btn-lg btn-link btn-action show-sm"><i class="icon icon-menu"></i></a>
+						<a href="index.html" class="navbar-brand mr-10">BetterDev</a>
+						<a href="index.html" class="btn btn-link">Issue</a>
+					</section>
+					<section class="navbar-section">
+						<a onclick="lock.show();" href="#" target="_blank" class="btn btn-primary">Login</a>
+					</section>
+				</nav>
+			</section>
+		</section>
 
-      <main role="main">
-        <%= render @view_module, @view_template, assigns %>
-      </main>
+<section class="section section-hero bg-gray">
+    <section id="overview" class="grid-hero container grid-960 text-center">
+      <h1>Become a better developer - together</h1>
+      <h2><u>No bullshit</u>, <u>link</u> and <u>collector</u> community</h2>
+      <div class="columns">
+        <div class="column">
+          <a href="index.html#introduction" class="btn btn-primary">Add bot</a>
+          <a href="https://github.com/picturepan2/spectre" target="_blank" class="btn btn-primary">Community</a>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column col-4 col-xs-12">
+          <div class="card text-center">
+            <div class="card-header">
+              <span class="card-title">Always learning</span>
+            </div>
+            <div class="card-body">
+							Learn something today? Share it to help others learn from it!
+            </div>
+          </div>
+        </div>
+        <div class="column col-4 col-xs-12">
+          <div class="card text-center">
+            <div class="card-header">
+              <span class="card-title">Simple Workflow</span>
+            </div>
+            <div class="card-body">
+							Post links in your own Slack channel. Add out bot. That's it.
+            </div>
+          </div>
+        </div>
+        <div class="column col-4 col-xs-12">
+          <div class="card text-center">
+            <div class="card-header">
+              <span class="card-title">No bullshit</span>
+            </div>
+            <div class="card-body">
+							No point. No comment. All links are downloaded, indexed and searchable.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
 
-    </div> <!-- /container -->
-    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
-  </body>
+		<p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
+		<p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
+
+		<main class="container grid-960">
+			<%= render @view_module, @view_template, assigns %>
+		</main>
+
+		<footer class="bg-gray">
+			<section id="copyright" class="grid-footer container grid-960">
+				<p>
+				<a href="index.html#introduction" target="_blank">Documents</a> | <a href="https://github.com/yeospace/betterdev-link" target="_blank">GitHub Repo</a> | <a href="https://twitter.com/notyim" target="_blank">Twitter</a> | Version <span class="version"></span>
+				</p>
+				<p>Designed and built with ♥ by <a href="https://noty.im" target="_blank">Vinh</a>. Sponsored by <a href="https://noty.im" target="_blank">noty.im</a>.</p>
+			</section>
+		</footer>
+
+		<script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+
+<script src="https://cdn.auth0.com/js/lock/10.16/lock.min.js"></script>
+<script>
+var lock = new Auth0Lock('a-wb-XWRmIfAm9v0U9eUbfawoJKsGG99', 'yeo.auth0.com', {
+	auth: {
+		redirect: false,
+		//redirectUrl: 'http://127.0.0.1:4000',
+		//responseType: 'token',
+		responseType: 'id_token',
+		params: {
+			scope: 'openid email' // Learn about scopes: https://auth0.com/docs/scopes
+		}
+	}
+})
+
+lock.on("authenticated", function(authResult) {
+	console.log(authResult.idToken)
+		localStorage.setItem('accessToken', authResult.idToken);
+});
+
+</script>
+
+	</body>
 </html>
