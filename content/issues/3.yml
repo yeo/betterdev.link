@@ -55,6 +55,10 @@ links:
     title: "Time Series Anomaly Detection Algorithms"
     description: "Anomaly detection is used to detect spikes or supsicious activities based on volume of amount of events. In this post, Statsbot gives overview of the most popular anomaly detection algorithms for time series and their pros and cons."
 
+  - url: https://www.datascience.com/blog/introduction-to-k-means-clustering-algorithm-learn-data-science-tutorials
+    title: "Introduction to K-means Clustering"
+    description: "K-means clustering is a type of unsupervised learning, which is used when you have unlabeled data. The goal of this algorithm is to find groups in the data, with the number of groups represented by the variable K. The algorithm works iteratively to assign each data point to one of K groups based on the features that are provided."
+
   - url: https://github.com/samdeeplearning/The-Terrible-Deep-Learning-List
     title: "15 working examples to get you started with Deep Learning without learning any of the math."
     description: "AI, Machine Learning, Deep Learning are all buzzword nowadays. However, ignore the trending, it's worth to see what we can achieve with machine learning. Quick search of Deep Learning exposes lots o resource and we'll get overwheelm at what to start. This repository includes just that, example with working models, scripts that we can download, follow and run to experiment what Deep Learning can do."
