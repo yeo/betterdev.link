@@ -5,55 +5,55 @@ draft: true
 links:
   - url: https://blog.acolyer.org/2017/06/16/why-your-encrypted-database-is-not-secure/
     title: "Why your encrypted database is not secure"
-    description: "Database such as MySQL, MongoDB support encryption, either storage encryption at rest, or network traffic encryption with TLS. Amazone event makes it much more easier by simply toggle an option with RDS. However, is it really that secure? This is a good read to improve knowledge on datbase encryption generaly."
+    description: "Databases such as MySQL and MongoDB support encryption, either storage encryption at rest or network traffic encryption with TLS. Amazon RDS makes it much more easier by simply toggling an option with RDS. However, is it really that secure? This is a good read to improve knowledge on database encryption generally."
 
   - url: http://www.ilikebigbits.com/blog/2017/6/1/float-or-double
     title: "Float or double?"
-    description: "In scientific computation we use floating point numbers a lot. When programming, we probably didn't give much though on this, especially if we are using a dynamic language such as Ruby or PHP. This article is a guide to picking the right floating point representation for you."
+    description: "In scientific computation we use floating point numbers a lot. When programming, we don't give much thought on this, especially if we are using a dynamic language such as Ruby or PHP. This article is a guide to picking the right floating point representation for you."
 
   - url: https://heap.engineering/running-10-million-postgresql-indexes-in-production/
     title: "Running 10 Million PostgreSQL Indexes In Production (And Counting) (2016)"
-    description: "Database 101 tells us that we need to use index to speed the query to avoid full table scan over all data. However, we should not use lots of index because it will affect inserting, also index need memory. Hence, we need to be balance on what to index and how. In this post, Heap analytic writes about how they manage to speed up query with over 10 million indexes. It's a good read in database engineering."
+    description: "Database 101 tells us that we need to use index to speed the query to avoid full table scan over all our data. However, we should not overuse them because it will affect INSERT performance and requires more memory. Hence, we need to be balance on what to index and how. In this post, Heap analytic writes about how they manage to speed up query with over 10 million indexes. It's a good read in database engineering."
 
   - url: https://0x00sec.org/t/re-guide-for-beginners-methodology-and-tools/2242
     title: "Reverse engineering guide for beginners: Methodology and tools"
-    description: "In software, reverse engineering can be understand process of disassembly a binary to understand how it works without accessing to its source code. By nature of it, this is usually consider a hard thing to do. However, with the right tool, a good methodology and some basic knowledge, you can get into this field."
+    description: "In software, reverse engineering can be understood as the process of disassembling a binary to understand how it works without accessing to its source code. By the very nature of this, it is usually considered a hard thing to do, however, with the right tools, a good methodology and some basic knowledge, you can get into this field."
 
   - url: https://dev.mikamai.com/2017/06/15/technical-debt-definition-and-practical-approach/
     title: "Technical Debt: Definition and Practical Approach"
-    description: "I know this post doesn’t invent anything new and you may have read about technical debt other hundred of times. This post is just another take on the Technical Debt matter, with the description of the practical approach we follow in Mikamai."
+    description: "This post doesn’t present anything new, and you may have read about technical debt a hundred times, but this post is focused on Technical Debt matters with the description of the practical approach we follow in Mikamai."
 
   - url: https://increment.com/on-call/on-call-at-any-size/
-    title: "HOW TO SCALE ON-CALL FROM ONE ENGINEER TO TENS OF THOUSANDS"
-    description: "Creating and running an on-call rotation is the very first step in building truly reliable infrastructure at any scale, but it’s far from the last. As a company grows and scales, the systems that it builds and runs grow in complexity and require more sophisticated on-call practices. While there is no universal approach, there are industry best practices for setting up on-call and incident response at any and every size."
+    title: "On-call at any size - How to Scale On-call from One Engineer to Tens of Thousands"
+    description: "Creating and running an on-call rotation is the very first step in building truly reliable infrastructure at any scale, but it’s far from the last. As a company grows and scales, the systems that it builds and runs grows in complexity and require more sophisticated on-call practices. While there is no universal approach, there are industry best practices for setting up on-call and incident response at any and every size."
 
   - url: https://axelclark.com/home-weather-display-project/
     title: "Home Weather Display with Nerves and GrovePi"
-    description: "Many programmer have a Raspberry PI laying around. Nerves is a project allow to run Elixir on Raspberry PI. This posts will get you familarity with Raspbeery PI and its toolkit, reading/writing data to display/sensor. Plus you gain a bit good read on Elixir"
+    description: "Many programmers have a Raspberry PI laying around. Nerves is a project that allows you to run Elixir on Raspberry PI. This posts will get you familar with Raspberry PI and its toolkit and reading/writing data to display/sensor. Plus, a good read on Elixir."
 
   - url: https://github.com/git-tips/tips
-    title: "Most commonly used git tips and tricks"
-    description: "Git is widely use nowadays. Almost every company adopts it. Hence, mastering Git helps you boost your workflow. This repository is a collection of useful git tricks. They aren't that long and you can spend 30 minutes to read them"
+    title: "Most commonly used Git tips and tricks"
+    description: "Git is widely use nowadays, almost every company adopts it as their preferred version control. Hence, mastering Git helps you boost your workflow. This repository is a collection of useful Git tricks. They aren't that long and you can get through them in 30 minutes."
 
   - url: https://stripe.com/blog/rate-limiters
     title: "Scaling your API with rate limiters"
-    description: "An API is usually use in a stateless manner, hence it's harded to protected from rate limiting. In a normal web app, we will have user session, CSRF token before it's officially execute action code. With API, it is a bit different, an client can misbehave and send lots of request, for instance. In this post, Stripe shares how they do their API rate limiting."
+    description: "An API is usually used in a stateless manner, so it's more difficult to protect from rate limiting. In a normal web app, we will have user session and a CSRF token check before it's executed. With an API, it is a bit different, a client can misbehave and send lots of unwanted requests, for instance. In this post, Stripe shares how they do their API rate limiting."
 
   - url: https://blog.codeship.com/writing-efficient-queries/
     title: Writing Efficient Queries
-    description: "Writing efficient queries that balance performance and memory footprint is the most crucial part of writing good software. Doing this is not super easy, but keeping an eye on logs and how your queries are executed under the hood will definitely help you a lot."
+    description: "Writing efficient queries that balance performance and memory footprint is the most crucial part of writing good software. Doing this is not easy, but keeping an eye on logs and how your queries are executed under the hood will definitely help you a lot."
 
   - url: https://css-tricks.com/introduction-fr-css-unit/
     title: "An Introduction to the `fr` CSS unit"
-    description: "Many programmers maintain a blog or a website. Hence even if you aren't a front-end developer, you still have to work with CSS. Recently, browser has rapidly improving support for `fr` CSS length unit. Let's take a quick look into it"
+    description: "Many programmers maintain a blog or a website. So even if you aren't a front-end developer, you still likely have to work with CSS. Recently, browsers have rapidly improving support for `fr` CSS length unit. Let's take a quick look into it."
 
   - url: https://medium.com/the-thinkmill/adopting-flow-typescript-3549a3a36d51
     title: "Adopting Flow & TypeScript"
-    description: "If you see lots of NaN, undefined error in JavaScript, that means a type checker may help you to prevent these in production. People started to adopt strong type in JavaScript by leveraging external tool or a different language that compile down to JavaScript. This post compares two solution: Flow which is a tool to add static typing to JavaScript, and TypeScript which is another programming language."
+    description: "If you see lots of NaN or undefined errors in JavaScript, a type checker may help you to prevent these issues in production. People started to adopt strong type in JavaScript by leveraging external tool or a different language that compiles down to JavaScript. This post compares two solutions: Flow, which is a tool to add static typing to JavaScript, and TypeScript, which is another programming language."
 
   - url: https://blog.statsbot.co/time-series-anomaly-detection-algorithms-1cef5519aef2
     title: "Time Series Anomaly Detection Algorithms"
-    description: "Anomaly detection is used to detect spikes or supsicious activities based on volume of amount of events. In this post, Statsbot gives overview of the most popular anomaly detection algorithms for time series and their pros and cons."
+    description: "Anomaly detection is used to detect spikes or supsicious activities based on volume of certain events. In this post, Statsbot gives overview of the most popular anomaly detection algorithms for time series, and their pros and cons."
 
   - url: https://www.datascience.com/blog/introduction-to-k-means-clustering-algorithm-learn-data-science-tutorials
     title: "Introduction to K-means Clustering"
@@ -61,8 +61,8 @@ links:
 
   - url: https://github.com/samdeeplearning/The-Terrible-Deep-Learning-List
     title: "15 working examples to get you started with Deep Learning without learning any of the math."
-    description: "AI, Machine Learning, Deep Learning are all buzzword nowadays. However, ignore the trending, it's worth to see what we can achieve with machine learning. Quick search of Deep Learning exposes lots o resource and we'll get overwheelm at what to start. This repository includes just that, example with working models, scripts that we can download, follow and run to experiment what Deep Learning can do."
+    description: "AI, Machine Learning, Deep Learning are all common buzzwords nowadays. However, aside from the trend, it's worth seeing what we can achieve with machine learning. A quick search of Deep Learning exposes lots of resources and you can be overwhelmed at where to start. This repository includes just that: examples with working models and scripts that to download. Follow and run experiments to see what Deep Learning can do."
 
   - url: https://www.codeproject.com/articles/1107279/writing-a-mysql-storage-engine-from-scratch
     title: "Writing a MySQL storage engine from scratch"
-    description: "MySQL, or its drop-in replacement, MariaDB has a concept of storage engine, which acts as an adapter to read write data on different kind of storage. Such as, in MariaDB you can use CSV storage engine to manipulate csv file with SQL query. But is writing your own storage engine hard? It turns out you can get started pretty easily."
+    description: "MySQL, or its drop-in replacement, MariaDB, has a concept of storage engine, which acts as an adapter to read/write data on different kind of storage. For example, in MariaDB you can use a CSV storage engine to manipulate CSV files with SQL queries. But is writing your own storage engine hard? It turns out you can get started pretty easily."
