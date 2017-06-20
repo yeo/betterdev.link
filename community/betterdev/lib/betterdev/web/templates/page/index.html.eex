@@ -1,37 +1,24 @@
 <div class="columns">
+	<%= for {posting, index} <- Enum.with_index(@postings) do %>
 	<div class="column col-12">
 		<div class="tile">
 			<div class="tile-icon">
-				<figure class="avatar avatar-lg">
-					<img src="img/avatar-3.png">
-				</figure>
+				<figure class="avatar avatar-lg"> <img src="<%= posting.picture %>" style="width: 48px; height: 48px;" width=48 height=48> </figure>
 			</div>
 			<div class="tile-content">
-				<p class="tile-title">The Avengers</p>
+				<p class="tile-title"><a target="blank" href="<%= posting.uri %>" class=""><%= posting.title %></a></p>
+
 				<label class="chip"> Elixir </label>
 				<label class="chip"> Pi </label>
 
-				<p class="tile-subtitle">Earth's Mightiest Heroes joined forces to take on threats that were too big for any one hero to tackle...</p>
-			</div>
+				<p class="tile-subtitle"><%= posting.description %></p>
+      
+      </div>
 			<div class="tile-action">
-				<button class="btn btn-primary">Fav</button>
+				<a target="blank" href="<%= posting.uri %>" class="btn btn-primary">Visit→</a>
+				<button class="btn btn-primary">♥</button>
 			</div>
 		</div>
 	</div>
-	<div class="column col-12">
-		<div class="tile">
-			<div class="tile-icon">
-				<figure class="avatar avatar-lg">
-					<img src="img/avatar-2.png">
-				</figure>
-			</div>
-			<div class="tile-content">
-				<p class="tile-title">The S.H.I.E.L.D.</p>
-				<p class="tile-subtitle">The Strategic Homeland Intervention, Enforcement, and Logistics Division...</p>
-			</div>
-			<div class="tile-action">
-				<button class="btn btn-primary">Fav</button>
-			</div>
-		</div>
-	</div>
+	<% end %>
 </div>

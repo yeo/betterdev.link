@@ -25,6 +25,7 @@ defmodule Betterdev.Community.Bot do
           if w.title do
             %Link{user_id: 1, title: w.title || url, uri: url, description: w.description, picture: w.image || w.favicon, status: "published", } |> Repo.insert()
           end
+				_ -> IO.puts "#{text} has no url"
       end
     end)
   end

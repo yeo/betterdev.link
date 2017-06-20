@@ -20,10 +20,12 @@
 						<a href="#sidebar" class="btn btn-lg btn-link btn-action show-sm"><i class="icon icon-menu"></i></a>
 						<a href="index.html" class="navbar-brand mr-10">BetterDev</a>
 						<a href="index.html" class="btn btn-link">Issue</a>
-					</section>
-					<section class="navbar-section">
-						<a onclick="lock.show();" href="#" target="_blank" class="btn btn-primary">Login</a>
-					</section>
+          </section>
+          <div id="app-nav">
+					<section class="navbar-section" id="profile-menu">
+						<a onclick="lock.show();" href="#" target="" class="btn btn-primary">Login</a>
+          </section>
+          </div>
 				</nav>
 			</section>
 		</section>
@@ -90,27 +92,6 @@
 		</footer>
 
 		<script src="<%= static_path(@conn, "/js/app.js") %>"></script>
-
-<script src="https://cdn.auth0.com/js/lock/10.16/lock.min.js"></script>
-<script>
-var lock = new Auth0Lock('a-wb-XWRmIfAm9v0U9eUbfawoJKsGG99', 'yeo.auth0.com', {
-	auth: {
-		redirect: false,
-		//redirectUrl: 'http://127.0.0.1:4000',
-		//responseType: 'token',
-		responseType: 'id_token',
-		params: {
-			scope: 'openid email' // Learn about scopes: https://auth0.com/docs/scopes
-		}
-	}
-})
-
-lock.on("authenticated", function(authResult) {
-	console.log(authResult.idToken)
-		localStorage.setItem('accessToken', authResult.idToken);
-});
-
-</script>
-
+    <script src="https://cdn.auth0.com/js/lock/10.16/lock.min.js"></script>
 	</body>
 </html>

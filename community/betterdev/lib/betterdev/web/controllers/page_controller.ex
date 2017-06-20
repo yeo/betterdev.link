@@ -1,7 +1,13 @@
 defmodule Betterdev.Web.PageController do
   use Betterdev.Web, :controller
 
+  alias Betterdev.Community
+
   def index(conn, _params) do
-    render conn, "index.html"
+    assigns =
+    [
+      postings: Community.list_links
+    ]
+    render conn, "index.html", assigns
   end
 end
