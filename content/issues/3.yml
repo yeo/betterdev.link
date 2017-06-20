@@ -1,7 +1,7 @@
 ---
 time: Jun 19, 2017
 description: "I hope you enjoy the links. Let me know any kind of content you want to receive more in next issue"
-draft: true
+draft: false
 links:
   - url: https://blog.acolyer.org/2017/06/16/why-your-encrypted-database-is-not-secure/
     title: "Why your encrypted database is not secure"
