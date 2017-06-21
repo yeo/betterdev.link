@@ -18,20 +18,13 @@ import "phoenix_html"
 // Local files can be imported directly using relative
 // paths "./socket" or full ones "web/static/js/socket".
 
-// import socket from "./socket"<
-import Auth0Lock from 'auth0-lock'
-const lock = window.lock = new Auth0Lock('a-wb-XWRmIfAm9v0U9eUbfawoJKsGG99', 'yeo.auth0.com', {
-	auth: {
-		redirect: false,
-		//redirectUrl: 'http://127.0.0.1:4000',
-		//responseType: 'token',
-		responseType: 'id_token',
-		params: {
-			scope: 'openid email'
-		}
-	}
-})
+// import socket from "./socket"
+import session from '../session'
 
-lock.on("authenticated", function(authResult) {
-	localStorage.setItem('accessToken', authResult.idToken);
-})
+import profileView from './view/profile'
+import appView from './view/app'
+
+const m = require('mithril')
+
+m.mount(document.getElementById("app-wrapper"), appView)
+m.mount(document.getElementById("app-nav"), profileView)
