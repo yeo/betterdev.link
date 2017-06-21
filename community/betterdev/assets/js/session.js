@@ -4,6 +4,11 @@ const jwtDecode = require('jwt-decode')
 
 class Session {
   static load(token) {
+    this.currentUser = {}
+    if (!token) {
+      return
+    }
+
     const user = jwtDecode(token)
     console.log(user)
     if (user.email) {

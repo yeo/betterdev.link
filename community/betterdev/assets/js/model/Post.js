@@ -5,7 +5,6 @@ import session from '../session'
 const Post = {
   list: [],
   loadList: () => {
-    console.log(localStorage.accessToken)
     return m.request({
       method: "GET",
       url: "/api/links",
@@ -15,10 +14,17 @@ const Post = {
       }
     })
     .then(function(result) {
-      Post.list = result
+      if (result && result.data) {
+        Post.list = result.data
+      }
     })
+    .catch((e) => { console.log("Error", e) })
+  },
+
+  draft: "",
+  loadDraft: () => {
+    Post.draft = ""
   }
 }
 
-Post.loadList()
 export default Post

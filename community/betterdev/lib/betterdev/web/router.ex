@@ -1,6 +1,8 @@
 defmodule Betterdev.Web.Router do
   use Betterdev.Web, :router
 
+  @skip_token_verification %{joken_skip: true}
+
   pipeline :browser do
     plug :accepts, ["html"]
     plug :fetch_session
@@ -11,9 +13,9 @@ defmodule Betterdev.Web.Router do
 
   pipeline :api do
     plug :accepts, ["json"]
-    plug Joken.Plug,
-      verify: &Betterdev.JWTHelpers.verify/0,
-      on_error: &Betterdev.JWTHelpers.error/2
+    #plug Joken.Plug,
+    #  verify: &Betterdev.JWTHelpers.verify/0,
+    #  on_error: &Betterdev.JWTHelpers.error/2
   end
 
   scope "/", Betterdev.Web do

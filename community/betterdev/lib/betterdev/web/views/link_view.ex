@@ -13,6 +13,8 @@ defmodule Betterdev.Web.LinkView do
   def render("link.json", %{link: link}) do
     %{id: link.id,
       title: link.title,
+      picture: link.picture || "https://betterdev.link/images/icon-64.png",
+      description: link.description,
       uri: link.uri}
   end
 end

@@ -13,3 +13,5 @@ const lock = window.lock = new Auth0Lock('a-wb-XWRmIfAm9v0U9eUbfawoJKsGG99', 'ye
 })
 
 lock.on("authenticated", (authResult) => localStorage.setItem('accessToken', authResult.idToken) )
+
+export { lock as default }

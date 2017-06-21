@@ -1,5 +1,6 @@
 const m = require('mithril')
 import session from '../session'
+import lock from '../util/lock'
 
 const avatarView = {
   view: () => {

@@ -22,65 +22,62 @@
 						<a href="index.html" class="btn btn-link">Issue</a>
           </section>
           <div id="app-nav">
-					<section class="navbar-section" id="profile-menu">
-						<a onclick="lock.show();" href="#" target="" class="btn btn-primary">Login</a>
-          </section>
+            <section class="navbar-section" id="profile-menu"> <a onclick="lock.show();" href="#" target="" class="btn btn-primary">Login</a> </section>
           </div>
 				</nav>
 			</section>
 		</section>
 
-<section class="section section-hero bg-gray">
-    <section id="overview" class="grid-hero container grid-960 text-center">
-      <h1>Become a better developer - together</h1>
-      <h2><u>No bullshit</u>, <u>link</u> and <u>collector</u> community</h2>
-      <div class="columns">
-        <div class="column">
-          <a href="index.html#introduction" class="btn btn-primary">Add bot</a>
-          <a href="https://github.com/picturepan2/spectre" target="_blank" class="btn btn-primary">Community</a>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column col-4 col-xs-12">
-          <div class="card text-center">
-            <div class="card-header">
-              <span class="card-title">Always learning</span>
-            </div>
-            <div class="card-body">
-							Learn something today? Share it to help others learn from it!
-            </div>
-          </div>
-        </div>
-        <div class="column col-4 col-xs-12">
-          <div class="card text-center">
-            <div class="card-header">
-              <span class="card-title">Simple Workflow</span>
-            </div>
-            <div class="card-body">
-							Post links in your own Slack channel. Add out bot. That's it.
-            </div>
-          </div>
-        </div>
-        <div class="column col-4 col-xs-12">
-          <div class="card text-center">
-            <div class="card-header">
-              <span class="card-title">No bullshit</span>
-            </div>
-            <div class="card-body">
-							No point. No comment. All links are downloaded, indexed and searchable.
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </section>
-
 		<p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
 		<p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
 
-		<main class="container grid-960">
-			<%= render @view_module, @view_template, assigns %>
-		</main>
+    <section class="section section-hero bg-gray" id="onboard">
+      <section id="overview" class="grid-hero container grid-960 text-center">
+        <h1>Become a better developer - together</h1>
+        <h2><u>No bullshit</u>, <u>link</u> and <u>collector</u> community</h2>
+        <div class="columns">
+          <div class="column">
+            <a href="index.html#introduction" class="btn btn-primary">Add bot</a>
+            <a href="https://github.com/picturepan2/spectre" target="_blank" class="btn btn-primary">Community</a>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column col-4 col-xs-12">
+            <div class="card text-center">
+              <div class="card-header">
+                <span class="card-title">Always learning</span>
+              </div>
+              <div class="card-body">
+                Learn something today? Share it to help others learn from it!
+              </div>
+            </div>
+          </div>
+          <div class="column col-4 col-xs-12">
+            <div class="card text-center">
+              <div class="card-header">
+                <span class="card-title">Simple Workflow</span>
+              </div>
+              <div class="card-body">
+                Post links in your own Slack channel. Add out bot. That's it.
+              </div>
+            </div>
+          </div>
+          <div class="column col-4 col-xs-12">
+            <div class="card text-center">
+              <div class="card-header">
+                <span class="card-title">No bullshit</span>
+              </div>
+              <div class="card-body">
+                No point. No comment. All links are downloaded, indexed and searchable.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <main class="container grid-960" id="app-wrapper">
+      <%= render @view_module, @view_template, assigns %>
+    </main>
 
 		<footer class="bg-gray">
 			<section id="copyright" class="grid-footer container grid-960">

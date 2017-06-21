@@ -19,11 +19,8 @@ import "phoenix_html"
 // paths "./socket" or full ones "web/static/js/socket".
 
 // import socket from "./socket"
-import session from '../session'
-
 import profileView from './view/profile'
 import appView from './view/app'
-
 const m = require('mithril')
 
 m.mount(document.getElementById("app-wrapper"), appView)
