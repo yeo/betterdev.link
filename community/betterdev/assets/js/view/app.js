@@ -37,7 +37,7 @@ const Postform = {
   view: () => {
     return [
       m('header.text-center', m('h4', "Share a link! Help other dev learn!")),
-      m('div.input-group',[
+      m('div.input-group', [
         m('input.form-input.input-lg', {
           type: 'text', placeholder: 'http://awesome.link/', value: Post.draft,
           oninput: m.withAttr("value", function(value) {Post.draft = value})
@@ -51,7 +51,7 @@ const Postform = {
 const AppView = {
   view: () => {
     return m("div.columns", [
-      m("section.container", m(Postform)),
+      m("section.container.post-form", session.isSignedIn() ? m(Postform)),
       m("section.cotainer", m(PostlistView))
     ])
   }

@@ -1,4 +1,5 @@
 import lock from './util/lock'
+const m = require('mithril')
 
 const jwtDecode = require('jwt-decode')
 
@@ -10,7 +11,7 @@ class Session {
     }
 
     const user = jwtDecode(token)
-    console.log(user)
+		console.log(user, '2')
     if (user.email) {
       this.currentUser = {
         email: user.email,
@@ -22,8 +23,24 @@ class Session {
         this.currentUser.avatar = `https://avatars1.githubusercontent.com/u/${this.currentUser.userId}?v=3&s=64`
       } else {
       }
+			this.validate()
+		} else {
+			localStorage.removeItem('accessToken')
     }
   }
+
+	static validate() {
+		m.request({
+			method: "GET",
+      url: "/api/me",
+      withCredentials: true,
+      headers: {
+        Authorization: `Bearer ${localStorage.accessToken}`
+      }
+		}).then(data => {
+			console.log(data)
+		}).catch(e => console.log(e))
+	}
 
   static isSignedIn() {
     return this.currentUser && this.currentUser.email

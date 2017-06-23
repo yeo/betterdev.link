@@ -88,7 +88,7 @@
 			</section>
 		</footer>
 
-		<script src="<%= static_path(@conn, "/js/app.js") %>"></script>
     <script src="https://cdn.auth0.com/js/lock/10.16/lock.min.js"></script>
+		<script src="<%= static_path(@conn, "/js/app.js") %>"></script>
 	</body>
 </html>

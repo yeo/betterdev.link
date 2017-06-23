@@ -29,6 +29,7 @@ defmodule Betterdev.Web.Router do
     pipe_through :api
 
     get "/status", StatusController, :index
+    get "/me", MeController, :index
     resources "/links", LinkController, except: [:new, :edit]
   end
 end
