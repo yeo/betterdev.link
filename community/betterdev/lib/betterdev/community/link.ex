@@ -19,7 +19,7 @@ defmodule Betterdev.Community.Link do
   @doc false
   def changeset(%Link{} = link, attrs) do
     link
-    |> cast(attrs, [:title, :uri])
-    |> validate_required([:title, :uri])
+    |> cast(attrs, [:title, :uri, :user])
+    |> validate_required([:title, :uri, :user])
   end
 end

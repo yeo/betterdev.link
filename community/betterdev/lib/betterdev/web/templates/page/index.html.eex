@@ -21,5 +21,9 @@
 	</div>
   <% end %>
 
-  <%= paginate @conn, @kerosene %>
+  <div class="columns">
+    <div class="column">
+      <%= paginate @conn, @kerosene %>
+    </div>
+  </div>
 </div>

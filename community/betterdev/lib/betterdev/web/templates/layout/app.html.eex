@@ -18,9 +18,15 @@
 				<nav class="navbar">
 					<section class="navbar-section">
 						<a href="#sidebar" class="btn btn-lg btn-link btn-action show-sm"><i class="icon icon-menu"></i></a>
-						<a href="index.html" class="navbar-brand mr-10">BetterDev</a>
-						<a href="index.html" class="btn btn-link">Issue</a>
+						<a href="#" class="navbar-brand mr-10">BetterDev</a>
           </section>
+					<section class="navbar-section">
+						<div class="input-group input-inline">
+							<input class="form-input" type="text" placeholder="search" />
+							<button class="btn btn-primary input-group-btn">Search</button>
+						</div>
+					</section>
+
           <div id="app-nav">
             <section class="navbar-section" id="profile-menu"> <a onclick="lock.show();" href="#" target="" class="btn btn-primary">Login</a> </section>
           </div>
@@ -34,7 +40,7 @@
     <section class="section section-hero bg-gray" id="onboard">
       <section id="overview" class="grid-hero container grid-960 text-center">
         <h1>Become a better developer - together</h1>
-        <h2><u>No bullshit</u>, <u>link</u> and <u>collector</u> community</h2>
+        <h2><u>Share</u> a link, <u>help</u> other developer learn</h2>
         <div class="columns">
           <div class="column">
             <a href="index.html#introduction" class="btn btn-primary">Add bot</a>
@@ -55,20 +61,20 @@
           <div class="column col-4 col-xs-12">
             <div class="card text-center">
               <div class="card-header">
-                <span class="card-title">Simple Workflow</span>
+                <span class="card-title">Flexible Workflow</span>
               </div>
               <div class="card-body">
-                Post links in your own Slack channel. Add out bot. That's it.
+                Wanna help out? But don't have time to go here? Install our bot, send link right from there.
               </div>
             </div>
           </div>
           <div class="column col-4 col-xs-12">
             <div class="card text-center">
               <div class="card-header">
-                <span class="card-title">No bullshit</span>
+                <span class="card-title">Helpful</span>
               </div>
               <div class="card-body">
-                No point. No comment. All links are downloaded, indexed and searchable.
+                No pin, no point, no favor. All links are equal, downloaded, indexed and searchable
               </div>
             </div>
           </div>
@@ -76,6 +82,7 @@
       </section>
     </section>
     <main class="container grid-960" id="app-wrapper">
+      <div id="app-postform" class='post-form'></div>
       <%= render @view_module, @view_template, assigns %>
     </main>
 

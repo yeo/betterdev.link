@@ -4,6 +4,6 @@ defmodule Betterdev.Web.MeController do
 
   def index(conn, _params) do
     user = conn.assigns.current_user
-    render(conn, "status.json", status: %{"email" => user.email, "sub" => user.jwt_sub})
+    render(conn, "status.json", status: %{"id" => user.id, "email" => user.email, "sub" => user.jwt_sub})
   end
 end
