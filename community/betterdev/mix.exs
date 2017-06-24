@@ -39,6 +39,7 @@ defmodule Betterdev.Mixfile do
      {:nadia, "~> 0.4.2"},
      {:exbot, ">= 0.0.1"},
      {:scrape, "~> 2.0.0"},
+     {:kerosene, "~> 0.7.0"},
      {:cowboy, "~> 1.0"}]
   end
 

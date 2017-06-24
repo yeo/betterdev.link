@@ -8,6 +8,9 @@ defmodule Betterdev.Accounts.User do
     field :email, :string
     field :name, :string
 
+    field :jwt_sub, :string
+    field :jwt_aud, :string
+
     has_many :links, Link
     timestamps()
   end
@@ -15,7 +18,7 @@ defmodule Betterdev.Accounts.User do
   @doc false
   def changeset(%User{} = user, attrs) do
     user
-    |> cast(attrs, [:email, :name])
+    |> cast(attrs, [:email, :name, :jwt_aud, :jwt_sub])
     |> validate_required([:email, :name])
   end
 end

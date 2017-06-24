@@ -2,6 +2,7 @@ defmodule Betterdev.Web.LinkController do
   use Betterdev.Web, :controller
 
   alias Betterdev.Community
+  alias Betterdev.Accounts
   alias Betterdev.Community.Link
 
   action_fallback Betterdev.Web.FallbackController

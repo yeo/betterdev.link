@@ -12,7 +12,6 @@
 				<label class="chip"> Pi </label>
 
 				<p class="tile-subtitle"><%= posting.description %></p>
-      
       </div>
 			<div class="tile-action">
 				<a target="blank" href="<%= posting.uri %>" class="btn btn-primary">Visit→</a>
@@ -20,5 +19,7 @@
 			</div>
 		</div>
 	</div>
-	<% end %>
+  <% end %>
+
+  <%= paginate @conn, @kerosene %>
 </div>

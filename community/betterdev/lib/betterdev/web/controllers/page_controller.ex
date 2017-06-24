@@ -3,11 +3,12 @@ defmodule Betterdev.Web.PageController do
 
   alias Betterdev.Community
 
-  def index(conn, _params) do
-    assigns =
-    [
-      postings: Community.list_links
+  def index(conn, params) do
+    {postings, kerosene} = Community.list_links(params)
+    assigns = [
+      postings: postings,
+      kerosene: kerosene
     ]
-    render conn, "index.html", assigns
+  render conn, "index.html", assigns
   end
 end

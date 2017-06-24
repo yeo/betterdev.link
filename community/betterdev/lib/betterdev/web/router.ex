@@ -13,9 +13,10 @@ defmodule Betterdev.Web.Router do
 
   pipeline :api do
     plug :accepts, ["json"]
-    #plug Joken.Plug,
-    #  verify: &Betterdev.JWTHelpers.verify/0,
-    #  on_error: &Betterdev.JWTHelpers.error/2
+    plug Joken.Plug,
+      verify: &Betterdev.JWTHelpers.verify/0,
+      on_error: &Betterdev.JWTHelpers.error/2
+    plug Betterdev.Helper.CurrentUser
   end
 
   scope "/", Betterdev.Web do

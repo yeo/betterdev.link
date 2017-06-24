@@ -82,9 +82,9 @@
 		<footer class="bg-gray">
 			<section id="copyright" class="grid-footer container grid-960">
 				<p>
-				<a href="index.html#introduction" target="_blank">Documents</a> | <a href="https://github.com/yeospace/betterdev-link" target="_blank">GitHub Repo</a> | <a href="https://twitter.com/notyim" target="_blank">Twitter</a> | Version <span class="version"></span>
+				<a href="https://betterdev.link" target="_blank">Weekly News Letter</a> | <a href="https://twitter.com/notyim" target="_blank">Twitter</a> | Version <span class="version"></span>
 				</p>
-				<p>Designed and built with ♥ by <a href="https://noty.im" target="_blank">Vinh</a>. Sponsored by <a href="https://noty.im" target="_blank">noty.im</a>.</p>
+				<p>Code while learning by <a href="https://noty.im" target="_blank">Vinh</a>. Design by <a href="https://lapa.ninja" target="_blank">Tinh</a>. Sponsored by <a href="https://noty.im" target="_blank">noty.im</a>.</p>
 			</section>
 		</footer>
 

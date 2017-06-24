@@ -101,4 +101,15 @@ defmodule Betterdev.Accounts do
   def change_user(%User{} = user) do
     User.changeset(user, %{})
   end
+
+  @doc """
+  Create or retreive an user from the jwt token
+  """
+  def user_from_token(token) do
+    # TODO map field into jwt
+    case Repo.get_by(Betterdev.Accounts.User, email: token["email"]) do
+      nil ->  create_user(token |> Map.put("name", token["email"] ))
+      u -> u
+    end
+  end
 end

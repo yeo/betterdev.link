@@ -17,8 +17,9 @@ defmodule Betterdev.Community do
       [%Link{}, ...]
 
   """
-  def list_links do
-    Repo.all(Link)
+  def list_links(params \\ %{}) do
+    #Link |> Repo.all
+    Link |> Repo.paginate(params)
   end
 
   @doc """
@@ -49,10 +50,22 @@ defmodule Betterdev.Community do
       {:error, %Ecto.Changeset{}}
 
   """
+   ## %Link{user_id: 1, title: w.title || url, uri: url, description: w.description, picture: w.image || w.favicon, status: "published", } |> Repo.insert()
   def create_link(attrs \\ %{}) do
     %Link{}
     |> Link.changeset(attrs)
     |> Repo.insert()
+  end
+
+  @doc """
+  Create a link with uri only. We will parse title, description from the link
+  """
+  def post_link(url) do
+    # TODO Use task/job queue and return to client instantly via web socket
+    w = Scrape.website(url)
+    if w.title do
+      %{"user_id": 1, title: w.title || url, uri: url, description: w.description, picture: w.image || w.favicon, status: "published", } |> Repo.insert()
+    end
   end
 
   @doc """
