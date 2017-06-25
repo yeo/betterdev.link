@@ -4,6 +4,25 @@ const m = require('mithril')
 const jwtDecode = require('jwt-decode')
 
 class Session {
+  static flash(message) {
+    if (message) {
+      if (!Session._flash) {
+        Session._flash = []
+      }
+      Session._flash.concat(message)
+      return Session._flash
+    }
+
+    setTimeout(() => {
+      Session._flash = []
+    }, 10000)
+    if (Session._flash) {
+      return Session._flash
+    }
+    return []
+  }
+
+
   static load(token) {
     this.currentUser = {}
 
@@ -57,14 +76,13 @@ class Session {
 
   static logout(e) {
     e.preventDefault()
-    session.clear()
-    lock.logout({returnTo: "/"})
+    Session.clear()
+    lock.logout({returnTo: document.URL})
   }
 
   static login(e) {
-    console.log('Login')
     e.preventDefault()
-    lock.show()
+    lock.show({autoclose: true})
   }
 }
 

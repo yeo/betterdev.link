@@ -26,8 +26,12 @@ const Post = {
         Post.list = result.data
         Post.pagination = result.pagination
       }
+      Post.postStatus = 'ready'
     })
-    .catch((e) => { console.log("Error", e) })
+    .catch((e) => {
+      Post.errors = ["Cannot fetch links from server. Try again"]
+      Post.postStatus = 'ready'
+    })
   },
 
   postStatus: "init",
@@ -37,6 +41,7 @@ const Post = {
   },
 
   create: (uri) => {
+    Post.postStatus = "posting"
     return m.request({
       method: "POST",
       url: "/api/links",
@@ -45,7 +50,18 @@ const Post = {
         Authorization: `Bearer ${localStorage.accessToken}`
       },
       data: {link: {uri: uri}},
-    }).catch((e) => { Post.errors.append("Cannot save");console.log(e) })
+    }).then(response => {
+      Post.draft = ""
+      Post.postStatus = "ready"
+      session.flash({message: "Thank you for sharing knowledge with community", type: 'success'})
+      //{"data":{"uri":"https://github.com/bryanjos/joken","title":"GitHub","picture":"https://avatars1.githubusercontent.com/u/1257573?v=3&s=400","id":44,"description":"joken - Elixir JWT library"}}
+      Post.list = [response.data].concat(Post.list)
+    }).catch((e) => {
+      Post.errors = ["Cannot save"]
+      Post.draft = ""
+      Post.postStatus = "ready"
+      session.flash({message: "Your link cannot save now. Please contact us", type: 'error'})
+    })
   }
 }
 

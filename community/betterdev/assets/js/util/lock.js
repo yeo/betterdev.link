@@ -1,4 +1,5 @@
 import Auth0Lock from 'auth0-lock'
+import session from '../session'
 
 const lock = window.lock = new Auth0Lock('a-wb-XWRmIfAm9v0U9eUbfawoJKsGG99', 'yeo.auth0.com', {
 	auth: {
@@ -12,6 +13,10 @@ const lock = window.lock = new Auth0Lock('a-wb-XWRmIfAm9v0U9eUbfawoJKsGG99', 'ye
 	}
 })
 
-lock.on("authenticated", (authResult) => localStorage.setItem('accessToken', authResult.idToken) )
+lock.on("authenticated", (authResult) => {
+  localStorage.setItem('accessToken', authResult.idToken)
+  session.load(authResult.idToken)
+  session.flash({message: "Login succesfully", type: 'success'})
+})
 
 export { lock as default }

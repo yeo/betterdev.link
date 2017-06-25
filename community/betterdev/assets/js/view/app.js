@@ -4,6 +4,7 @@ import session from '../session'
 import lock from '../util/lock'
 import Post from '../model/Post'
 import ErrorView from './error'
+import FlashView from './shared/flash'
 import PostFormView from './shared/postform'
 import Pagination from './shared/pagination'
 
@@ -34,11 +35,11 @@ const PostlistView = {
 
 const AppView = {
   view: () => {
-    return m("div.columns", [
+    return m("div.columns", [m(FlashView)].concat(
     	m("section.container.post-form", m(PostFormView)),
       m("section.container", m(PostlistView)),
       m("section.container", m(Pagination, {pages: Post.pagination}))
-    ])
+    ))
   }
 }
 export { AppView as default }

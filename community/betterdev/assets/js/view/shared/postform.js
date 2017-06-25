@@ -11,7 +11,9 @@ const Postform = {
   },
 
   createPost: ()  => {
-    Post.create(Post.draft)
+    if (Post.draft != "") {
+      Post.create(Post.draft)
+    }
   },
 
   view: () => {
@@ -23,7 +25,7 @@ const Postform = {
           type: 'url', placeholder: 'http://awesome.link/', value: Post.draft,
           oninput: m.withAttr("value", function(value) {Post.draft = value})
         }),
-        m('button.btn.btn-primary.btn-action.btn-lg', {onclick: (e) => Post.create(Post.draft)}, m('i.icon.icon-plus'))
+        m('button.btn.btn-primary.btn-action.btn-lg' + (Post.postStatus == "posting" ? ".loading" : ''), {onclick: (e) => Post.create(Post.draft)}, m('i.icon.icon-plus'))
       ]),
     ]
   }
@@ -33,7 +35,7 @@ const LoginRemind = {
   view: () => {
     return m('header.text-center', [
       m('h4', "Login to share links! Help people learn!"),
-      m('a.btn.btn-primary', {}, 'Login')
+      m('a.btn.btn-primary', {onclick: session.login}, 'Login with Github')
     ])
   }
 }
