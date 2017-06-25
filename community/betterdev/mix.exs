@@ -17,7 +17,7 @@ defmodule Betterdev.Mixfile do
   # Type `mix help compile.app` for more information.
   def application do
     [mod: {Betterdev.Application, []},
-     extra_applications: [:logger, :runtime_tools, :nadia, :exbot]]
+     extra_applications: [:logger, :runtime_tools, :exbot, :exq, :exq_ui]]
   end
 
   # Specifies which paths to compile per environment.
@@ -36,10 +36,12 @@ defmodule Betterdev.Mixfile do
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
      {:joken, "~> 1.1"},
-     {:nadia, "~> 0.4.2"},
      {:exbot, ">= 0.0.1"},
      {:scrape, "~> 2.0.0"},
      {:kerosene, "~> 0.7.0"},
+     {:exq, "~> 0.9.0"},
+     {:exq_ui, "~> 0.9.0"},
+		 {:algolia, git: "https://github.com/yeolabs/algolia-elixir.git"},
      {:cowboy, "~> 1.0"}]
   end
 
