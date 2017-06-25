@@ -1,14 +1,21 @@
 const m = require('mithril')
 
 import session from '../session'
+import Url from '../util/url'
 
 const Post = {
   errors: [],
   list: [],
+  pagination: [],
+
+  params : {},
+
   loadList: () => {
+    Post.postStatus = 'loading'
+
     return m.request({
       method: "GET",
-      url: "/api/links",
+      url: "/api/links" + Url.serialize(Post.params),
       withCredentials: true,
       headers: {
         Authorization: `Bearer ${localStorage.accessToken}`
@@ -17,11 +24,13 @@ const Post = {
     .then(function(result) {
       if (result && result.data) {
         Post.list = result.data
+        Post.pagination = result.pagination
       }
     })
     .catch((e) => { console.log("Error", e) })
   },
 
+  postStatus: "init",
   draft: "",
   loadDraft: () => {
     Post.draft = ""
@@ -35,7 +44,7 @@ const Post = {
       headers: {
         Authorization: `Bearer ${localStorage.accessToken}`
       },
-      data: {links: {uri: uri, title: uri}},
+      data: {link: {uri: uri}},
     }).catch((e) => { Post.errors.append("Cannot save");console.log(e) })
   }
 }

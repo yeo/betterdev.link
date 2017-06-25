@@ -7,13 +7,14 @@ defmodule Betterdev.Web.LinkController do
 
   action_fallback Betterdev.Web.FallbackController
 
-  def index(conn, _params) do
-    links = Community.list_links()
-    render(conn, "index.json", links: links)
+  def index(conn, params) do
+    {postings, kerosene} = Community.list_links(params)
+    render(conn, "index.json", links: postings, kerosene: kerosene)
   end
 
   def create(conn, %{"link" => link_params}) do
-    with {:ok, %Link{} = link} <- Community.create_link(link_params) do
+    #with {:ok, %Link{} = link} <- Community.create_link(link_params, conn.assigns.current_user) do
+    with {:ok, %Link{} = link} <- Community.user_post_link(conn.assigns.current_user, link_params) do
       conn
       |> put_status(:created)
       |> put_resp_header("location", link_path(conn, :show, link))

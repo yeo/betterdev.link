@@ -1,9 +1,10 @@
 defmodule Betterdev.Web.LinkView do
   use Betterdev.Web, :view
   alias Betterdev.Web.LinkView
+  import Kerosene.JSON
 
-  def render("index.json", %{links: links}) do
-    %{data: render_many(links, LinkView, "link.json")}
+  def render("index.json", %{links: links, conn: conn, kerosene: kerosene}) do
+    %{data: render_many(links, LinkView, "link.json"),  pagination: paginate(conn, kerosene)}
   end
 
   def render("show.json", %{link: link}) do

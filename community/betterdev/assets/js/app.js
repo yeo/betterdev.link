@@ -19,9 +19,17 @@ import "phoenix_html"
 // paths "./socket" or full ones "web/static/js/socket".
 
 // import socket from "./socket"
+const m = require('mithril')
 import profileView from './view/profile'
 import appView from './view/app'
-const m = require('mithril')
+import postFormView from './view/shared/postform'
+//import mylinksView from './view/mylinks'
 
-m.mount(document.getElementById("app-wrapper"), appView)
+//m.mount(document.getElementById("app-wrapper"), appView)
+//m.mount(document.getElementById("app-postform"), postFormView)
 m.mount(document.getElementById("app-nav"), profileView)
+
+m.route(document.getElementById("app-wrapper"), "/", {
+  "/": appView, // defines `http://localhost/#!/home`
+//  //"/mylinks": mylinksView, // defines `http://localhost/#!/home`
+})

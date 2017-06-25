@@ -6,12 +6,12 @@ const jwtDecode = require('jwt-decode')
 class Session {
   static load(token) {
     this.currentUser = {}
+
     if (!token) {
       return
     }
 
     const user = jwtDecode(token)
-		console.log(user, '2')
     if (user.email) {
       this.currentUser = {
         email: user.email,
@@ -22,28 +22,49 @@ class Session {
       if (this.currentUser.provider == 'github') {
         this.currentUser.avatar = `https://avatars1.githubusercontent.com/u/${this.currentUser.userId}?v=3&s=64`
       } else {
+        this.currentUser.avatar = `https://avatars1.githubusercontent.com/u/${this.currentUser.userId}?v=3&s=64`
       }
-			this.validate()
-		} else {
-			localStorage.removeItem('accessToken')
+      this.validate()
+    } else {
+      localStorage.removeItem('accessToken')
     }
   }
 
-	static validate() {
-		m.request({
-			method: "GET",
+  static validate() {
+    m.request({
+      method: "GET",
       url: "/api/me",
       withCredentials: true,
       headers: {
         Authorization: `Bearer ${localStorage.accessToken}`
       }
-		}).then(data => {
-			console.log(data)
-		}).catch(e => console.log(e))
-	}
+    }).then(data => {
+      this.currentUser.id = data.id
+    }).catch(e => {
+      this.currentUser = {}
+      localStorage.removeItem('accessToken')
+    })
+  }
 
   static isSignedIn() {
     return this.currentUser && this.currentUser.email
+  }
+
+  static clear() {
+    this.currentUser = {}
+    localStorage.removeItem('accessToken')
+  }
+
+  static logout(e) {
+    e.preventDefault()
+    session.clear()
+    lock.logout({returnTo: "/"})
+  }
+
+  static login(e) {
+    console.log('Login')
+    e.preventDefault()
+    lock.show()
   }
 }
 

@@ -14,7 +14,11 @@ defmodule Betterdev.Helper.CurrentUser do
   """
   def detect(conn, opts \\ []) do
     claims = Map.get(conn.assigns, :joken_claims)
-    user = Accounts.user_from_token(conn.assigns.joken_claims)
-    conn |> assign(:current_user, user)
+    case claims do
+      nil -> conn
+      _ ->
+        user = Accounts.user_from_token(conn.assigns.joken_claims)
+        conn |> assign(:current_user, user)
+    end
   end
 end

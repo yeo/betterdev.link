@@ -60,11 +60,15 @@ defmodule Betterdev.Community do
   @doc """
   Create a link with uri only. We will parse title, description from the link
   """
-  def post_link(url) do
+  def user_post_link(user, attrs) do
     # TODO Use task/job queue and return to client instantly via web socket
-    w = Scrape.website(url)
+    uri = attrs["uri"]
+    w = Scrape.website(uri)
     if w.title do
-      %{"user_id": 1, title: w.title || url, uri: url, description: w.description, picture: w.image || w.favicon, status: "published", } |> Repo.insert()
+      #%{user: user, title: w.title || url, uri: url, description: w.description, picture: w.image || w.favicon, status: "published", } |> Repo.insert()
+      %Link{user: user}
+        |> Link.changeset(%{title: w.title, uri: uri, description: w.description, picture: w.image || w.favicon, status: "published"})
+        |> Repo.insert()
     end
   end
 

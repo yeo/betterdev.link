@@ -41,3 +41,6 @@ config :nadia,
 
 config :exbot,
   token: "TELEGRAM_BOT_TOKEN" |> System.get_env
+
+config :kerosene,
+  theme: :bootstrap4

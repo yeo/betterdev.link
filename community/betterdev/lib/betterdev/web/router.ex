@@ -31,6 +31,9 @@ defmodule Betterdev.Web.Router do
 
     get "/status", StatusController, :index
     get "/me", MeController, :index
-    resources "/links", LinkController, except: [:new, :edit]
+
+    get "/links", LinkController, :index, private: @skip_token_verification
+    post "/links", LinkController, :create
+    #resources "/links", LinkController, except: [:new, :edit]
   end
 end

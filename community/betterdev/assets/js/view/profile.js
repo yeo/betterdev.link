@@ -1,6 +1,5 @@
 const m = require('mithril')
 import session from '../session'
-import lock from '../util/lock'
 
 const avatarView = {
   view: () => {
@@ -14,12 +13,18 @@ const ProfileView = {
   },
 	view: () => {
     if (session.isSignedIn()) {
-		  return m("section.navbar-section", {id: "profile-menu"}, m("div.form-group", {}, [
-          m("a.btn.btn-primary", {onclick: (e) => { }, href: '#'}, "+"),
-          m("figure.avatar", [m("img", {src: session.currentUser.avatar})])
+		  return m("section.navbar-section", {id: "profile-menu"}, m("div.form-group.dropdown", [
+          m("a.dropdown-toggle", {tabindex: 0}, [
+            m("figure.avatar", m("img", {src: session.currentUser.avatar})),
+            m('i.icon.icon-caret')
+          ]),
+          m('ul.menu', [
+            m('li.menu-item', m('a', {href: '#mylink'}, 'My links')),
+            m('li.menu-item', m('a', {href: '#', onclick: session.logout }, 'Logout'))
+          ])
       ]))
     } else {
-		  return m("section.navbar-section", {id: "profile-menu"}, m("a.btn.btn-primary", {onclick: (e) => { lock.show(); e.preventDefault()  }, href: "#"}, "Login"))
+		  return m("section.navbar-section", {id: "profile-menu"}, m("a.btn.btn-primary", {onclick: session.login, href: "#"}, "Login"))
     }
 	}
 }

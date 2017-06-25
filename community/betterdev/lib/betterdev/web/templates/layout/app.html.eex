@@ -7,7 +7,7 @@
 		<meta name="description" content="">
 		<meta name="author" content="">
 
-		<title>Better Dev - Community</title>
+		<title>Become a better developer - together</title>
 
 		<link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
 	</head>
@@ -20,9 +20,10 @@
 						<a href="#sidebar" class="btn btn-lg btn-link btn-action show-sm"><i class="icon icon-menu"></i></a>
 						<a href="#" class="navbar-brand mr-10">BetterDev</a>
           </section>
-					<section class="navbar-section">
-						<div class="input-group input-inline">
-							<input class="form-input" type="text" placeholder="search" />
+          <section class="navbar-section">
+            <div class="input-group input-inline has-icon-left">
+                <input class="form-input" type="text" placeholder="search" />
+                <i class="form-icon icon icon-search"></i>
 							<button class="btn btn-primary input-group-btn">Search</button>
 						</div>
 					</section>
@@ -37,24 +38,36 @@
 		<p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
 		<p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
 
+    <!--
     <section class="section section-hero bg-gray" id="onboard">
       <section id="overview" class="grid-hero container grid-960 text-center">
-        <h1>Become a better developer - together</h1>
+        <h1>Help developer become better by sharing useful links</h1>
         <h2><u>Share</u> a link, <u>help</u> other developer learn</h2>
         <div class="columns">
           <div class="column">
-            <a href="index.html#introduction" class="btn btn-primary">Add bot</a>
-            <a href="https://github.com/picturepan2/spectre" target="_blank" class="btn btn-primary">Community</a>
+            <a href="#" class="btn btn-primary">Login to share</a>
+            <a href="#" target="_blank" class="btn btn-primary">Share with Slack</a>
+            <a href="https://telegram.me/yeolinks_bot" target="_blank" class="btn btn-primary">Share with Telegram</a>
           </div>
         </div>
         <div class="columns">
           <div class="column col-4 col-xs-12">
             <div class="card text-center">
               <div class="card-header">
-                <span class="card-title">Always learning</span>
+                <span class="card-title">Useful</span>
               </div>
               <div class="card-body">
-                Learn something today? Share it to help others learn from it!
+                We hope to create
+              </div>
+            </div>
+          </div>
+          <div class="column col-4 col-xs-12">
+            <div class="card text-center">
+              <div class="card-header">
+                <span class="card-title">Equal</span>
+              </div>
+              <div class="card-body">
+                No pin, no point, no favor. All links are equal, downloaded, indexed and searchable.
               </div>
             </div>
           </div>
@@ -64,23 +77,14 @@
                 <span class="card-title">Flexible Workflow</span>
               </div>
               <div class="card-body">
-                Wanna help out? But don't have time to go here? Install our bot, send link right from there.
-              </div>
-            </div>
-          </div>
-          <div class="column col-4 col-xs-12">
-            <div class="card text-center">
-              <div class="card-header">
-                <span class="card-title">Helpful</span>
-              </div>
-              <div class="card-body">
-                No pin, no point, no favor. All links are equal, downloaded, indexed and searchable
+                Wanna help out but don't have time to go here! Install our bot, post link right from there.
               </div>
             </div>
           </div>
         </div>
       </section>
     </section>
+    -->
     <main class="container grid-960" id="app-wrapper">
       <div id="app-postform" class='post-form'></div>
       <%= render @view_module, @view_template, assigns %>
