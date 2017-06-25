@@ -17,7 +17,7 @@ defmodule Betterdev.Mixfile do
   # Type `mix help compile.app` for more information.
   def application do
     [mod: {Betterdev.Application, []},
-     extra_applications: [:logger, :runtime_tools, :exbot, :exq, :exq_ui]]
+     extra_applications: [:logger, :runtime_tools, :exbot, :algolia, :exq, :exq_ui]]
   end
 
   # Specifies which paths to compile per environment.
