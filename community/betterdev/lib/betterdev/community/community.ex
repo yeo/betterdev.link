@@ -84,21 +84,33 @@ defmodule Betterdev.Community do
    - process tag
   """
   def post_process_link(link) do
+    IO.puts "Post process for #{link.uri} #{link.id}"
     w = Scrape.article(link.uri)
     r = %{ objectID: link.id, id: link.id, title: link.title, description: link.description, content: w.fulltext, }
     "community" |> save_object(r)
 
     # Insert tag
     tags = w.tags |> Enum.filter_map(&(&1[:accuracy] >= 0.13), &(&1[:name]))
-    tags |> Enum.map(fn (t) ->
-      t = %Tag{title: t, type: "autogen"} |> Repo.insert!()
+    tags |> Enum.map(fn (title) ->
+      t = retreive_tag(title)
       # http://blog.roundingpegs.com/an-example-of-many-to-many-associations-in-ecto-and-phoenix/
       # We need preload to preapre for changset below
       t = t |> Repo.preload(:links)
       link = link |> Repo.preload(:tags)
-      changeset = Ecto.Changeset.change(link) |> Ecto.Changeset.put_assoc(:tags, [t])
-      Repo.update!(changeset)
+      try do
+        changeset = Ecto.Changeset.change(link) |> Ecto.Changeset.put_assoc(:tags, [t])
+        Repo.update!(changeset)
+      rescue
+        e in RuntimeError -> e
+      end
     end)
+  end
+
+  def retreive_tag(t) do
+    case Repo.get_by(Tag, title: t) do
+      nil -> %Tag{title: t, type: "autogen"} |> Repo.insert!()
+      tag -> tag
+    end
   end
 
   @doc """
