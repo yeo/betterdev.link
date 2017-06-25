@@ -7,6 +7,8 @@ defmodule Betterdev.Community do
   alias Betterdev.Repo
 
   alias Betterdev.Community.Link
+  alias Betterdev.Community.Tag
+  import Algolia
 
   @doc """
   Returns the list of links.
@@ -19,7 +21,8 @@ defmodule Betterdev.Community do
   """
   def list_links(params \\ %{}) do
     #Link |> Repo.all
-    Link |> Repo.paginate(params)
+    link = from p in Link, order_by: [desc: :id]
+    link |> Repo.paginate(params)
   end
 
   @doc """
@@ -63,13 +66,39 @@ defmodule Betterdev.Community do
   def user_post_link(user, attrs) do
     # TODO Use task/job queue and return to client instantly via web socket
     uri = attrs["uri"]
-    w = Scrape.website(uri)
+    w = Scrape.article(uri)
     if w.title do
       #%{user: user, title: w.title || url, uri: url, description: w.description, picture: w.image || w.favicon, status: "published", } |> Repo.insert()
-      %Link{user: user}
+      link = %Link{user: user}
         |> Link.changeset(%{title: w.title, uri: uri, description: w.description, picture: w.image || w.favicon, status: "published"})
         |> Repo.insert()
+      Task.async(fn -> post_process_link(link) end)
     end
+  end
+
+  @doc """
+  Post processing once a link is submited.
+
+  We will:
+   - index to algolia
+   - process tag
+  """
+  def post_process_link(link) do
+    w = Scrape.article(link.uri)
+    r = %{ objectID: link.id, id: link.id, title: link.title, description: link.description, content: w.fulltext, }
+    "community" |> save_object(r)
+
+    # Insert tag
+    tags = w.tags |> Enum.filter_map(&(&1[:accuracy] >= 0.13), &(&1[:name]))
+    tags |> Enum.map(fn (t) ->
+      t = %Tag{title: t, type: "autogen"} |> Repo.insert!()
+      # http://blog.roundingpegs.com/an-example-of-many-to-many-associations-in-ecto-and-phoenix/
+      # We need preload to preapre for changset below
+      t = t |> Repo.preload(:links)
+      link = link |> Repo.preload(:tags)
+      changeset = Ecto.Changeset.change(link) |> Ecto.Changeset.put_assoc(:tags, [t])
+      Repo.update!(changeset)
+    end)
   end
 
   @doc """
