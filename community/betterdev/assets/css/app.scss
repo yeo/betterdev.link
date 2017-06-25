@@ -1,3 +1,7 @@
 $space: 5px;
 
-.post-form { margin: $space * 4 auto; }
+#app-wrapper {
+  margin-top: 10em;
+}
+
+.post-form { margin: ($space * 10) auto; }
