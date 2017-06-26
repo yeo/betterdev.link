@@ -3,21 +3,17 @@ time: "Jun 26, 2017"
 description: "I hope you enjoy the links. Let me know any kind of content you want to receive more in next issue"
 #draft: false
 links:
-  - url: https://google.github.io/styleguide/shell.xml
-    title: "Google Shell Guide"
-    description: "Bash is everywhere, on your Mac or your server. It's very useful as a scripting language. If you write Bash a lot, you know the 'gotchas', and the necessiity of a style guide. You can adopt this guide quickly to improve safety and readability of your Bash code."
-
-  - url: http://marklodato.github.io/visual-git-guide/index-en.html
-    title: "Visual Git Guide"
-    description: "Git is very easy to pickup to the point that many miss some more other useful features, such as cherry-pick and rebase because add, commit, merge serve us so well. Chances are you're using Git every day, so if you haven't haven't had time to dive deeper into Git, this short visual guide will be very useful."
-
   - url: https://kndrck.co/indexing-faces-on-instagram.html
     title: "Indexing Faces on Instagram"
     description: "This article is about how to build a face search engine by indexing faces on Instagram. It's similar to fuzzy string search, but with picture of faces instead of string. You will get a better understanding of computer vision via this article: how to standarize data, the technique to turn images into data, and detecting similarity of data. It's a good read and fun to play with. It's also completely open-source."
 
-  - url: https://hacks.mozilla.org/2017/06/a-crash-course-in-memory-management
-    title: "A Crash Course in Memory Management"
-    description: "We almost never  need to worry about memory in JavaScript. We can create an array and put different kind of data in it, despite the size of every object is totally different. The trend of client side apps makes us want to have better JavaScript performance. JavaScript now gives us ArrayBuffer, which is used to represent a generic, fixed-length raw binary data buffer. This series include three parts about memory management and introduces us to ArrayBuffer and ShareArray Buffer."
+  - url: https://stackoverflow.com/questions/1108/how-does-database-indexing-work
+    title: "How does Database Index Work?"
+    description: "Usually, we just add an index and call it a day. But what does the underlying data storage looks like? Are there different type of index? This StackOverflow question is a nice summation. Make sure you read all the answers, especially about hash index and b-tree index."
+
+  - url: https://google.github.io/styleguide/shell.xml
+    title: "Google Shell Guide"
+    description: "Bash is everywhere, on your Mac or your server. It's very useful as a scripting language. If you write Bash a lot, you know the 'gotchas', and the necessiity of a style guide. You can adopt this guide quickly to improve safety and readability of your Bash code."
 
   - url: https://www.rubytapas.com/2016/12/05/refactoring-ruby-dry-domain-models-struct-table/
     title: "Refactoring Ruby: DRY up your Domain Models Using a Struct Table"
@@ -31,9 +27,14 @@ links:
     title: "Linux Performance Tool as an Image"
     description: "Set this as your desktop image. It's a list of tools that are used to measure performance of different components, from hardware to software on Linux. It brings you quick insights of what we can use to troubleshoot performance of your system: is the disk slow, or is it the network or the CPU that is being bottle neck here..."
 
-  - url: https://stackoverflow.com/questions/1108/how-does-database-indexing-work
-    title: "How does Database Index Work?"
-    description: "Usually, we just add an index and call it a day. But what does the underlying data storage looks like? Are there different type of index? This StackOverflow question is a nice summation. Make sure you read all the answers, especially about hash index and b-tree index."
+  - url: http://marklodato.github.io/visual-git-guide/index-en.html
+    title: "Visual Git Guide"
+    description: "Git is very easy to pickup to the point that many miss some more other useful features, such as cherry-pick and rebase because add, commit, merge serve us so well. Chances are you're using Git every day, so if you haven't haven't had time to dive deeper into Git, this short visual guide will be very useful."
+
+  - url: https://hacks.mozilla.org/2017/06/a-crash-course-in-memory-management
+    title: "A Crash Course in Memory Management"
+    description: "We almost never  need to worry about memory in JavaScript. We can create an array and put different kind of data in it, despite the size of every object is totally different. The trend of client side apps makes us want to have better JavaScript performance. JavaScript now gives us ArrayBuffer, which is used to represent a generic, fixed-length raw binary data buffer. This series include three parts about memory management and introduces us to ArrayBuffer and ShareArray Buffer."
+
 
   - url: http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/
     title: "The JavaScript Event Loop: Explained (2013)"
