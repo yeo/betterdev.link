@@ -1,7 +1,7 @@
 ---
-time: Jun 26, 2017
+time: "Jun 26, 2017"
 description: "I hope you enjoy the links. Let me know any kind of content you want to receive more in next issue"
-draft: false
+#draft: false
 links:
   - url: https://google.github.io/styleguide/shell.xml
     title: "Google Shell Guide"
@@ -27,7 +27,7 @@ links:
     title: "Performance Checklists for SREs 2016"
     description: "This is an short summary of a video record at a conference about Linux performance. You can also just go through the checklist, it includes some nice tools to check performance."
 
-- url: http://www.brendangregg.com/Perf/linux_perf_tools_full.png
+  - url: http://www.brendangregg.com/Perf/linux_perf_tools_full.png
     title: "Linux Performance Tool as an Image"
     description: "Set this as your desktop image. It's a list of tools that are used to measure performance of different components, from hardware to software on Linux. It brings you quick insights of what we can use to troubleshoot performance of your system: is the disk slow, or is it the network or the CPU that is being bottle neck here..."
 
