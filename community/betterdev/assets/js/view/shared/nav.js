@@ -1,5 +1,5 @@
 const m = require('mithril')
-import session from '../session'
+import session from '../../session'
 import SearchView from './search'
 
 const avatarView = {
@@ -12,7 +12,7 @@ const ProfileView = {
   oninit: () => {
     session.load(localStorage.accessToken)
   },
-	view: () => {
+	view: (vnode) => {
     if (session.isSignedIn()) {
 		  return m("section.navbar-section", {id: "profile-menu"}, m("div.form-group.dropdown", [
           m("a.dropdown-toggle", {tabindex: 0}, [
@@ -31,14 +31,14 @@ const ProfileView = {
 }
 
 const NavView = {
-  view: () => {
-    return [
-      m("section.navbar-section", [
-          m("a.btn.btn-lg.btn-link.btn-action.show-sm", {href: "#sidebar"}, m("i.icon.icon-menu")),
-					m("a.navbar-brand.mr-10", {href: '#'}, 'BetterDev')]),
-      m("section.navbar-section", m(SearchView)),
-      m(ProfileView)
-      ]
+  view: (vnode) => {
+    return m('section.section.section-header.bg-gray', m('section.grid-header.container.grid-960', m('nav.navbar', [
+        m("section.navbar-section", [
+            m("a.btn.btn-lg.btn-link.btn-action.show-sm", {href: "#sidebar"}, m("i.icon.icon-menu")),
+            m("a.navbar-brand.mr-10", {href: '#'}, 'BetterDev')]),
+        m("section.navbar-section", m(SearchView)),
+        m(ProfileView)
+      ])))
   }
 }
 

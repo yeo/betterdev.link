@@ -20,14 +20,7 @@ import "phoenix_html"
 
 // import socket from "./socket"
 const m = require('mithril')
-import navView from './view/profile'
 import appView from './view/app'
-import postFormView from './view/shared/postform'
-//import mylinksView from './view/mylinks'
-
-//m.mount(document.getElementById("app-wrapper"), appView)
-//m.mount(document.getElementById("app-postform"), postFormView)
-m.mount(document.getElementById("app-nav"), navView)
 
 m.route(document.getElementById("app-wrapper"), "/", {
   "/": appView, // defines `http://localhost/#!/home`

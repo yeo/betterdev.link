@@ -7,7 +7,6 @@ const algoliasearch = require('algoliasearch');
 const client = algoliasearch('1IJ9XZZUG3', '01be01b58275689361a7c16ea5f12cfc')
 const index = client.initIndex('community')
 
-
 const Post = {
   errors: [],
   list: [],
@@ -16,15 +15,20 @@ const Post = {
   params : {},
 
   search: (q) => {
+    console.log("Search", q)
+    Post.postStatus = "searching"
     index.search(q, {
       attributesToRetrieve: ['id', 'uri', 'title', 'description', 'picture'],
       hitsPerPage: 100
-    }, function searchDone(err, content) {
+    }, (err, content) => {
       if (err) {
-        console.error(err);
+        console.log("get error", err)
         return;
       }
       Post.list = content.hits
+      Post.postStatus = "ready"
+      Post.pagination = []
+      m.redraw()
     })
   },
 

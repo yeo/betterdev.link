@@ -7,6 +7,7 @@ import ErrorView from './error'
 import FlashView from './shared/flash'
 import PostFormView from './shared/postform'
 import Pagination from './shared/pagination'
+import NavView from './shared/nav'
 
 const PostlistView = {
   oninit: () => {
@@ -35,11 +36,14 @@ const PostlistView = {
 
 const AppView = {
   view: () => {
-    return m("div.columns", [m(FlashView)].concat(
-    	m("section.container.post-form", m(PostFormView)),
-      m("section.container", m(PostlistView)),
-      m("section.container", m(Pagination, {pages: Post.pagination}))
-    ))
+    return [
+      m(NavView, {Post: Post}),
+      m('main.container.grid-960', m("div.columns", [m(FlashView)].concat(
+        m("section.container.post-form", m(PostFormView)),
+        m("section.container", m(PostlistView)),
+        m("section.container", m(Pagination, {pages: Post.pagination}))
+      )))
+    ]
   }
 }
 export { AppView as default }
