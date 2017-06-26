@@ -9,13 +9,12 @@ defmodule Betterdev.Helper.Classifier do
     {:linux, ["linux", "bash", "vim", "terminal", "server", "system", "configuration", "gdb", "ssh"]},
     {:algorithm, ["algorithm", "code", "interview", "programming", "tree", "stack", "queue", "question", "job", "crawl", "scrape", "structure"]},
     {:design, ["design", "css", "typography", "typeface"]},
+    {:css, ["css", "html"]},
   ]
 
   def extract(content) do
-    Enum.flat_map(@taxonomy, fn ({term, words}) ->
-      IO.inspect term
-      IO.inspect words
-      Enum.reduce(words, 0, fn (w, acc) ->
+    Enum.map(@taxonomy, fn ({term, words}) ->
+      score = Enum.reduce(words, 0, fn (w, acc) ->
         IO.inspect w
         IO.inspect acc
         case String.contains?(content, w) do
@@ -23,6 +22,7 @@ defmodule Betterdev.Helper.Classifier do
           false -> acc
         end
       end)
-    end)
+      {term, score}
+    end) |> Enum.filter_map(fn ({term, score}) -> score >=3 end, fn({term, score}) -> term end)
   end
 end

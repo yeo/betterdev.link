@@ -21,7 +21,7 @@ defmodule Betterdev.Community do
   """
   def list_links(params \\ %{}) do
     #Link |> Repo.all
-    link = from p in Link, order_by: [desc: :id]
+    link = from(p in Link, order_by: [desc: :id], preload: :tags)
     link |> Repo.paginate(params)
   end
 
@@ -89,8 +89,9 @@ defmodule Betterdev.Community do
     r = %{ objectID: link.id, id: link.id, title: link.title, description: link.description, content: w.fulltext, }
     "community" |> save_object(r)
 
+    tags = Betterdev.Helper.Classifier.extract(w.fulltext)
     # Insert tag
-    tags = w.tags |> Enum.filter_map(&(&1[:accuracy] >= 0.13), &(&1[:name]))
+    tags = tags ++ (w.tags |> Enum.filter_map(&(&1[:accuracy] >= 0.7), &(&1[:name])))
     tags |> Enum.map(fn (title) ->
       t = retreive_tag(title)
       # http://blog.roundingpegs.com/an-example-of-many-to-many-associations-in-ecto-and-phoenix/
