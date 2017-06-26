@@ -5,60 +5,60 @@ draft: true
 links:
   - url: https://github.com/bahamas10/bash-style-guide
     title: "Bash Style Guide"
-    description: "Bash is everywhere, on your Mac development machine, or your server, most of time. They're veryuseful as a scritping language with that popularity. If you write Bash a lots, you know some gotcha about it and the necessary of some short of style guide. This guide is a very short one which you can adopt quickly to improve safety and readability of your Bash code"
+    description: "Bash is everywhere, on your Mac or your server. It's very useful as a scripting language. If you write Bash a lot, you know the 'gotchas', and the necessiity of a style guide. You can adopt this guide quickly to improve safety and readability of your Bash code."
 
   - url: https://google.github.io/styleguide/shell.xml
-    title: "Google shell guide"
-    description: "This is another Shell code style guide, from Google. They are more completed than above. It's worth to see how Googler write shell script"
+    title: "Google Shell Guide"
+    description: "This is another Shell code style guide from Google. It's even more complete than the Bash guide. It's worth to see how Googlers write shell script."
 
   - url: http://marklodato.github.io/visual-git-guide/index-en.html
     title: "Visual Git Guide"
-    description: "Git is very easy to pickup, to the point that many miss some more other userful feature such as cherry-pick and rebase because add, commit, merge server us so well. Chance is, Git is what you are using everyday. So if you haven't have time to learn a bit deep about Git, this short visual guide will be very useful"
+    description: "Git is very easy to pickup to the point that many miss some more other useful features, such as cherry-pick and rebase because add, commit, merge serve us so well. Chances are you're using Git every day, so if you haven't haven't had time to dive deeper into Git, this short visual guide will be very useful."
 
   - url: https://kndrck.co/indexing-faces-on-instagram.html
     title: "Indexing Faces on Instagram"
-    description: "This article is about how to build an face search engine, by indexing faces on Instagram. It's similar to fuzzy string search, but with picture of faces instead of string. The code is open source. You will get a better understanding of computer vision via this article: how to standarize data, the technique to turn image into data, detecting similarity of these data. Good read and fun to play with."
+    description: "This article is about how to build a face search engine by indexing faces on Instagram. It's similar to fuzzy string search, but with picture of faces instead of string. You will get a better understanding of computer vision via this article: how to standarize data, the technique to turn images into data, and detecting similarity of data. It's a good read and fun to play with. It's also completely open-source."
 
   - url: https://hacks.mozilla.org/2017/06/a-crash-course-in-memory-management
-    title: "A crash course in memory management"
-    description: "We almost never worry about memory in JavaScript generally. Example, We can create an array and put different kind of data in it, despite the size of every object is tottally different. The trend of client side app makes us want to have better JavaScript performance. JavaScript now gives us ArrayBuffer, which is used to represent a generic, fixed-length raw binary data buffer. This series include 3 parts, about memory management and introduce us to ArrayBuffer and ShareArray Buffer"
+    title: "A Crash Course in Memory Management"
+    description: "We almost never  need to worry about memory in JavaScript. We can create an array and put different kind of data in it, despite the size of every object is totally different. The trend of client side apps makes us want to have better JavaScript performance. JavaScript now gives us ArrayBuffer, which is used to represent a generic, fixed-length raw binary data buffer. This series include three parts about memory management and introduces us to ArrayBuffer and ShareArray Buffer."
 
   - url: https://www.rubytapas.com/2016/12/05/refactoring-ruby-dry-domain-models-struct-table/
-    title: "Refactoring Ruby: DRY up your domain models using a struct table"
-    description: "It's very usual for an application to have some sort of enum type, and we again, usually put them in model or some sort of class, with a property name represent its meaning to avoid magic value. Then more stuff will be added eventually and thing is harder and harder to understand since those can also reference from other place outside of that class. This article helps us dry that. It also has some great rule about naming thing. So, let's read and watch it."
+    title: "Refactoring Ruby: DRY up your Domain Models Using a Struct Table"
+    description: "It's very usual for an application to have some sort of enum type, we usually put them in model or some sort of class with a property name representing it's meaning to avoid magic value. Then more information will be added, and it becomes harder and harder to understand since those data can also be referenced from other places outside of that class. This article helps us DRY (Don't Repeat Yourself) that. It also has some great rules about naming. Check it out!"
 
   - url: http://www.brendangregg.com/Perf/linux_perf_tools_full.png
-    title: "Linux performance tool as an image"
-    description: "Set this as your desktop image. It's a list of tools which are used to measure performance of different components, from hardware to software on Linux. It bring you a quick insight of what we can use to troubleshoot performance of system: is the disk slow, or is it the network or the cpu is being bottle neck here..."
+    title: "Linux Performance Tool as an Image"
+    description: "Set this as your desktop image. It's a list of tools that are used to measure performance of different components, from hardware to software on Linux. It brings you quick insights of what we can use to troubleshoot performance of your system: is the disk slow, or is it the network or the CPU that is being bottle neck here..."
 
   - url: http://www.brendangregg.com/blog/2016-05-04/srecon2016-perf-checklists-for-sres.html
     title: "Performance Checklists for SREs 2016"
-    description: "This is an short summarizer of an video record at a conference about Linux performance. You can also just go through the check list, he includes some nice tools to instrument performance."
+    description: "This is an short summary of a video record at a conference about Linux performance. You can also just go through the checklist, it includes some nice tools to check performance."
 
   - url: https://developers.google.com/web/updates/2017/04/headless-chrome
-    title: "Getting Started with Headless Chrome, replacement for PhantomJS"
-    description: "Before we only have PhantomJS as a headless browser to do some kind of automation such as scraping page with JavaScript, intergration test, take screenshot of site automatically to ensure CSS isn't break. But PhantomJS is based on QtWebkit which isn't what porwer Chrome or FireFox. Now, we can run Chrome in a headless environment, allow us to use it instead of PhantomJS because it's what our visitor is using nowsaday"
+    title: "Getting Started with Headless Chrome, a Replacement for PhantomJS"
+    description: "Before we only had PhantomJS as a headless browser to do automation such as scraping pages with JavaScript, intergration tests, or to take screenshots of a site automatically to ensure CSS isn't broken. But PhantomJS is based on QtWebkit which isn't what powers Chrome or FireFox. Now, we can run Chrome in a headless environment, which allow us to use it instead of PhantomJS because it's what our visitors are using today."
 
   - url: https://medium.com/airbnb-engineering/tracking-the-money-scaling-financial-reporting-at-airbnb-6d742b80f040
     title: "Tracking the Money — Scaling Financial Reporting at Airbnb"
-    description: "How AirBNB switch their MySQL based financial system to Apache Spark based system, written in Scala. They also talk about the limitation of SQL for complicated business data flow."
+    description: "How AirBNB switched their MySQL based financial system to Apache Spark based system written in Scala. The article also talks about the limitation of SQL for complicated business data flow."
 
   - url: https://stackoverflow.com/questions/1108/how-does-database-indexing-work
-    title: "How does database index work?"
-    description: "Usually, we just add an index and call it a day. However, what is the underlying data storage looks like? Are there different type of index? This stackoverflow is a nice sum up. Make sure you read all the answers, especially about hash index and b-tree index"
+    title: "How does Database Index Work?"
+    description: "Usually, we just add an index and call it a day. But what does the underlying data storage looks like? Are there different type of index? This StackOverflow question is a nice summation. Make sure you read all the answers, especially about hash index and b-tree index."
 
   - url: https://www.justwatch.com/blog/post/debugging-postgresql-performance-the-hard-way/
-    title: "Debugging PostgreSQL performance, the hard way"
-    description: "It doesn't matter if you use Mysql or PostgreSQL. You will definetly get something out from this post. ABout the technique, process someone use to debug the database performance, which many of us(including myself) consider a blackbox"
+    title: "Debugging PostgreSQL Performance, The Hard Way"
+    description: "It doesn't matter if you use Mysql or PostgreSQL. You will definitely get something out from this post about techniques, and especially the part about debugging."
 
   - url: https://danielmiessler.com/study/vim/#gs.GK28jgI
     title: "A vim Tutorial and Primer"
-    description: "Invest time in tooling, learn to understand your tool better is one of way to become a better developer. Vim is an editor that's usually being consider as unfriendly. This tutorial presents Vim as English, where you construct any action by follow nouns, verbs, adverbs. Take a bit of time to learn them, and you will realize Vim is much easier than you think"
+    description: "Investing time in tooling and learning to understand your tools better is one of best ways to become a better developer. Vim is an editor that's typically considered as unfriendly. This tutorial presents vim as the English language, where you construct any action by follow nouns, verbs, adverbs. Taking a bit of time to learn them, you will realize vim is much easier than you think."
 
   - url: http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/
-    title: "The JavaScript Event Loop: Explained(2013)"
-    description: "With JavaScript approaching near-ubiquity as the scripting language of the web browser, it benefits you to have a basic understanding of its event-driven interaction model and how it differs from the request-response model typically found in languages like Ruby, Python, and Java. In this post, I’ll explain some core concepts of the JavaScript concurrency model, including its event loop and message queue in hopes of improving your understanding of a language you’re probably already writing but perhaps don’t fully understand"
+    title: "The JavaScript Event Loop: Explained (2013)"
+    description: "With JavaScript approaching near-ubiquity as *the* scripting language of the web browser, it will benefit you to have a strong understanding of its event-driven interaction model and how it differs from the request-response model typically found in languages like Ruby, Python, or Java. In this post, we explain some core concepts of the JavaScript concurrency model, including it's event loop and message queue in hopes of improving your understanding of a language you’re definitely already writing, but perhaps don’t fully understand."
 
   - url: http://interactivepython.org/runestone/static/pythonds/index.html
     title: "Problem Solving with Algorithms and Data Structures using Python"
-    description: "Even if you don't know or like Python, the basic algorithm and data structure are just same. You can learn about stack, tree, queue, etc..when to use them and how. Then apply them into your own favourite programming language. Also, being a programmer, lots of time we will have to work with thing that we aren't familiar with. So, let's give them some short read even you aren't writing Python"
+    description: "This is a book. Even if you don't know or even like Python, the basic algorithms and data structure are just same. You can learn about: stack, trees, queues, and when and how to use them. From there, you can apply them into your own favourite programming language. As a programmer, you will spend lots of time working on something that we aren't familiar with. Give this a short read even if you aren't writing Python."
