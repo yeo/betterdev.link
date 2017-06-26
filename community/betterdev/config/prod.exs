@@ -69,7 +69,7 @@ config :betterdev, Betterdev.Web.Endpoint,
 # Configure your database
 config :betterdev, Betterdev.Repo,
   adapter: Ecto.Adapters.MySQL,
-  username: SYSTEM.get_env("DB_USER"),
-  password: SYSTEM.get_env("DB_PASSWORD"),
+  username: System.get_env("DB_USER"),
+  password: System.get_env("DB_PASSWORD"),
   database: "betterdev_prod",
   pool_size: 50
