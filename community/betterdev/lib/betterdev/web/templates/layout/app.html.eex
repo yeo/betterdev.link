@@ -15,7 +15,7 @@
 	<body>
 		<section class="section section-header bg-gray">
 			<section class="grid-header container grid-960">
-				<nav class="navbar">
+				<nav class="navbar" id="app-nav">
 					<section class="navbar-section">
 						<a href="#sidebar" class="btn btn-lg btn-link btn-action show-sm"><i class="icon icon-menu"></i></a>
 						<a href="#" class="navbar-brand mr-10">BetterDev</a>
@@ -27,10 +27,7 @@
 							<button class="btn btn-primary input-group-btn">Search</button>
 						</div>
 					</section>
-
-          <div id="app-nav">
-            <section class="navbar-section" id="profile-menu"> <a onclick="lock.show();" href="#" target="" class="btn btn-primary">Login</a> </section>
-          </div>
+          <section class="navbar-section" id="profile-menu"> <a onclick="lock.show();" href="#" target="" class="btn btn-primary">Login</a> </section>
 				</nav>
 			</section>
 		</section>

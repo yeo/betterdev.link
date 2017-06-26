@@ -3,12 +3,30 @@ const m = require('mithril')
 import session from '../session'
 import Url from '../util/url'
 
+const algoliasearch = require('algoliasearch');
+const client = algoliasearch('1IJ9XZZUG3', '01be01b58275689361a7c16ea5f12cfc')
+const index = client.initIndex('community')
+
+
 const Post = {
   errors: [],
   list: [],
   pagination: [],
 
   params : {},
+
+  search: (q) => {
+    index.search(q, {
+      attributesToRetrieve: ['id', 'uri', 'title', 'description', 'picture'],
+      hitsPerPage: 100
+    }, function searchDone(err, content) {
+      if (err) {
+        console.error(err);
+        return;
+      }
+      Post.list = content.hits
+    })
+  },
 
   loadList: () => {
     Post.postStatus = 'loading'

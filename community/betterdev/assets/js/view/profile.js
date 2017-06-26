@@ -1,5 +1,6 @@
 const m = require('mithril')
 import session from '../session'
+import SearchView from './search'
 
 const avatarView = {
   view: () => {
@@ -29,4 +30,16 @@ const ProfileView = {
 	}
 }
 
-export {ProfileView as default}
+const NavView = {
+  view: () => {
+    return [
+      m("section.navbar-section", [
+          m("a.btn.btn-lg.btn-link.btn-action.show-sm", {href: "#sidebar"}, m("i.icon.icon-menu")),
+					m("a.navbar-brand.mr-10", {href: '#'}, 'BetterDev')]),
+      m("section.navbar-section", m(SearchView)),
+      m(ProfileView)
+      ]
+  }
+}
+
+export {NavView as default}

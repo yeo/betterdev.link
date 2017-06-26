@@ -18,7 +18,7 @@ const PostlistView = {
         m("div.tile", [
           m("div.tile-icon", m("figure.avatar.avatar-lg", m("img", {src: p.picture, style: "width: 48px; height: 48px;", width: 48, height: 48}))),
           m('div.tile-content', [
-            m('p.tile-title', m('a', {target: 'bank', href: p.uri}, p.title)),
+            m('h5.tile-title', m('a', {target: 'bank', href: p.uri}, p.title)),
             m('label.chip', 'Elixir'),
             m('label.chip', 'Pi'),
             m('p.tile-subtitle', p.description)
