@@ -12,7 +12,9 @@
 		<link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
 	</head>
 
-	<body>
+  <body>
+
+    <div id="app-wrapper">
 		<section class="section section-header bg-gray">
 			<section class="grid-header container grid-960">
 				<nav class="navbar" id="app-nav">
@@ -82,10 +84,11 @@
       </section>
     </section>
     -->
-    <main class="container grid-960" id="app-wrapper">
+    <main class="container grid-960">
       <div id="app-postform" class='post-form'></div>
       <%= render @view_module, @view_template, assigns %>
     </main>
+    </div>
 
 		<footer class="bg-gray">
 			<section id="copyright" class="grid-footer container grid-960">

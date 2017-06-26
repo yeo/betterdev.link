@@ -69,10 +69,11 @@ defmodule Betterdev.Community do
     w = Scrape.article(uri)
     if w.title do
       #%{user: user, title: w.title || url, uri: url, description: w.description, picture: w.image || w.favicon, status: "published", } |> Repo.insert()
-      link = %Link{user: user}
+      {:ok, link} = %Link{user: user}
         |> Link.changeset(%{title: w.title, uri: uri, description: w.description, picture: w.image || w.favicon, status: "published"})
         |> Repo.insert()
-      Task.async(fn -> post_process_link(link) end)
+      Task.start_link(fn -> post_process_link(link) end)
+      {:ok, link}
     end
   end
 
@@ -84,7 +85,6 @@ defmodule Betterdev.Community do
    - process tag
   """
   def post_process_link(link) do
-    IO.puts "Post process for #{link.uri} #{link.id}"
     w = Scrape.article(link.uri)
     r = %{ objectID: link.id, id: link.id, title: link.title, description: link.description, content: w.fulltext, }
     "community" |> save_object(r)
