@@ -15,7 +15,7 @@ use Mix.Config
 # which you typically run after static files are built.
 config :betterdev, Betterdev.Web.Endpoint,
   on_init: {Betterdev.Web.Endpoint, :load_from_system_env, []},
-  url: [host: "example.com", port: 80],
+  url: [host: "one.betterdev.link", port: 80],
   cache_static_manifest: "priv/static/cache_manifest.json"
 
 # Do not print debug messages in production
@@ -72,4 +72,5 @@ config :betterdev, Betterdev.Repo,
   username: System.get_env("DB_USER"),
   password: System.get_env("DB_PASSWORD"),
   database: "betterdev_prod",
-  pool_size: 50
+  pool_size: 50,
+  hostname: "127.0.0.1"
