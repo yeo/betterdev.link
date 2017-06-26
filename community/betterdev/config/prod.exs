@@ -61,4 +61,15 @@ config :logger, level: :info
 
 # Finally import the config/prod.secret.exs
 # which should be versioned separately.
-import_config "prod.secret.exs"
+#import_config "prod.secret.exs"
+
+config :betterdev, Betterdev.Web.Endpoint,
+  secret_key_base: System.get_env("SECRET_KEY_BASE")
+
+# Configure your database
+config :betterdev, Betterdev.Repo,
+  adapter: Ecto.Adapters.MySQL,
+  username: SYSTEM.get_env("DB_USER"),
+  password: SYSTEM.get_env("DB_PASSWORD"),
+  database: "betterdev_prod",
+  pool_size: 50
