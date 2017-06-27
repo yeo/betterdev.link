@@ -42,20 +42,20 @@ config :exbot,
 config :kerosene,
   theme: :bootstrap4
 
-config :exq,
-  name: Exq,
-  host: "127.0.0.1",
-  port: 6379,
-  namespace: "exq",
-  concurrency: :infinite,
-  queues: ["default", "criticl", "low"],
-  poll_timeout: 50,
-  scheduler_poll_timeout: 200,
-  scheduler_enable: true,
-  max_retries: 25,
-  shutdown_timeout: 5000
-
-config :exq_ui,
-  web_port: 4040,
-  web_namespace: "",
-  server: true
+  #config :exq,
+  #  name: Exq,
+  #  host: "127.0.0.1",
+  #  port: 6379,
+  #  namespace: "exq",
+  #  concurrency: :infinite,
+  #  queues: ["default", "criticl", "low"],
+  #  poll_timeout: 50,
+  #  scheduler_poll_timeout: 200,
+  #  scheduler_enable: true,
+  #  max_retries: 25,
+  #  shutdown_timeout: 5000
+  #
+  #config :exq_ui,
+  #  web_port: 4040,
+  #  web_namespace: "",
+  #  server: true
