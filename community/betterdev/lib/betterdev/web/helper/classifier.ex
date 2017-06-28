@@ -15,8 +15,6 @@ defmodule Betterdev.Helper.Classifier do
   def extract(content) do
     Enum.map(@taxonomy, fn ({term, words}) ->
       score = Enum.reduce(words, 0, fn (w, acc) ->
-        IO.inspect w
-        IO.inspect acc
         case String.contains?(content, w) do
           true -> acc + 1
           false -> acc

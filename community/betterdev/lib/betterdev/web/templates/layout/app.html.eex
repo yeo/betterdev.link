@@ -37,7 +37,6 @@
 		<p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
 		<p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
 
-    <!--
     <section class="section section-hero bg-gray" id="onboard">
       <section id="overview" class="grid-hero container grid-960 text-center">
         <h1>Help developer become better by sharing useful links</h1>
@@ -56,7 +55,7 @@
                 <span class="card-title">Useful</span>
               </div>
               <div class="card-body">
-                We hope to create
+                We hope to create an useful link sharing service focus on high quality content
               </div>
             </div>
           </div>
@@ -83,7 +82,7 @@
         </div>
       </section>
     </section>
-    -->
+
     <main class="container grid-960">
       <div id="app-postform" class='post-form'></div>
       <%= render @view_module, @view_template, assigns %>

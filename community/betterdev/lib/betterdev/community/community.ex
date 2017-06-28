@@ -73,6 +73,7 @@ defmodule Betterdev.Community do
         |> Link.changeset(%{title: w.title, uri: uri, description: w.description, picture: w.image || w.favicon, status: "published"})
         |> Repo.insert()
       Task.start_link(fn -> post_process_link(link) end)
+      link = link |> Repo.preload(:tags)
       {:ok, link}
     end
   end
@@ -86,7 +87,7 @@ defmodule Betterdev.Community do
   """
   def post_process_link(link) do
     w = Scrape.article(link.uri)
-    r = %{ objectID: link.id, id: link.id, title: link.title, description: link.description, content: w.fulltext, }
+    r = %{ objectID: link.id, id: link.id, title: link.title, description: link.description, content: w.fulltext, uri: link.uri }
     "community" |> save_object(r)
 
     tags = Betterdev.Helper.Classifier.extract(w.fulltext)
