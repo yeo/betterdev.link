@@ -18,7 +18,7 @@ defmodule Betterdev.Mixfile do
   def application do
     [mod: {Betterdev.Application, []},
       #extra_applications: [:logger, :runtime_tools, :exbot, :algolia, :exq, :exq_ui]]
-     extra_applications: [:logger, :runtime_tools, :exbot, :algolia,]]
+     extra_applications: [:new_relic, :logger, :runtime_tools, :exbot, :algolia,]]
   end
 
   # Specifies which paths to compile per environment.
@@ -44,6 +44,7 @@ defmodule Betterdev.Mixfile do
      #{:exq, "~> 0.9.0"},
      #{:exq_ui, "~> 0.9.0"},
 		 {:algolia, git: "https://github.com/yeolabs/algolia-elixir.git"},
+     {:new_relic, git: "https://github.com/runtastic/newrelic-elixir.git"},
      {:cowboy, "~> 1.0"}]
   end
 

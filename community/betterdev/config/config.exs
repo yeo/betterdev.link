@@ -59,3 +59,8 @@ config :kerosene,
   #  web_port: 4040,
   #  web_namespace: "",
   #  server: true
+
+config :new_relic,
+  application_name: System.get_env("NEWRELIC_APP_NAME"),
+  license_key: System.get_env("NEWRELIC_LICENSE_KEY"),
+  poll_interval: 10_000

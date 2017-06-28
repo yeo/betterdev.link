@@ -22,6 +22,8 @@ defmodule Betterdev.Web do
       import Plug.Conn
       import Betterdev.Web.Router.Helpers
       import Betterdev.Web.Gettext
+
+      plug NewRelic.Instrumentation.Plug
     end
   end
 
