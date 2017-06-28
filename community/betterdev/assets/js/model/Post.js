@@ -15,7 +15,6 @@ const Post = {
   params : {},
 
   search: (q) => {
-    console.log("Search", q)
     Post.postStatus = "searching"
     index.search(q, {
       attributesToRetrieve: ['id', 'uri', 'title', 'description', 'picture'],
@@ -79,9 +78,9 @@ const Post = {
       //{"data":{"uri":"https://github.com/bryanjos/joken","title":"GitHub","picture":"https://avatars1.githubusercontent.com/u/1257573?v=3&s=400","id":44,"description":"joken - Elixir JWT library"}}
       Post.list = [response.data].concat(Post.list)
     }).catch((e) => {
-      Post.errors = ["Cannot save"]
       Post.draft = ""
       Post.postStatus = "ready"
+      Post.errors = ["Your link cannot save now. Please contact us vinh@yeo.space"]
       session.flash({message: "Your link cannot save now. Please contact us", type: 'error'})
     })
   }

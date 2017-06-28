@@ -20,9 +20,10 @@ import "phoenix_html"
 
 // import socket from "./socket"
 const m = require('mithril')
-import appView from './view/app'
+import AppView from './view/app'
+import MyLinksView from './view/app'
 
 m.route(document.getElementById("app-wrapper"), "/", {
-  "/": appView, // defines `http://localhost/#!/home`
-//  //"/mylinks": mylinksView, // defines `http://localhost/#!/home`
+  "/": AppView,
+  "/mylinks": MyLinksView,
 })

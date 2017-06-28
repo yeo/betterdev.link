@@ -20,8 +20,7 @@ const PostlistView = {
           m("div.tile-icon", m("figure.avatar.avatar-lg", m("img", {src: p.picture, style: "width: 48px; height: 48px;", width: 48, height: 48}))),
           m('div.tile-content', [
             m('h5.tile-title', m('a', {target: 'bank', href: p.uri}, p.title)),
-            m('label.chip', 'Elixir'),
-            m('label.chip', 'Pi'),
+            m('span', p.tags ? p.tags.map((tag) => m('label.chip', tag.tag)) : null),
             m('p.tile-subtitle', p.description)
           ]),
           m('div.tile-action', [
@@ -34,11 +33,12 @@ const PostlistView = {
   }
 }
 
-const AppView = {
-  view: () => {
+class AppView {
+  view() {
     return [
       m(NavView, {Post: Post}),
       m('main.container.grid-960', m("div.columns", [m(FlashView)].concat(
+        m(ErrorView),
         m("section.container.post-form", m(PostFormView)),
         m("section.container", m(PostlistView)),
         m("section.container", m(Pagination, {pages: Post.pagination}))

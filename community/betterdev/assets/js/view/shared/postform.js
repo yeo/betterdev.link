@@ -1,12 +1,9 @@
 const m = require('mithril')
 import session from '../../session'
-import ErrorView from '../error'
 import Post from '../../model/Post'
 
 const Postform = {
-  error: false,
   oninit: () => {
-    //TOOD: store in localstorage and reload?
     Post.loadDraft()
   },
 
@@ -18,7 +15,6 @@ const Postform = {
 
   view: () => {
     return [
-      m(ErrorView, {errors: Post.errors}),
       m('header.text-center', m('h4', "Share a link! Help other dev learn!")),
       m('div.input-group', [
         m('input.form-input.input-lg', {
