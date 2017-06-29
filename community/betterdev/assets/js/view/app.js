@@ -11,14 +11,25 @@ import Pagination from './shared/pagination'
 import NavView from './shared/nav'
 
 class AddToCollectionView {
-  static view () {
-    return m(".dropdown", [
-      m("a.btn.btn-link.dropdown-toggle", {tabindex: 0, href: '#'}, ["Add to collection", m('i.icon.icon-caret')]),
+  static view (vnode) {
+    return m(".dropdown.dropdown-right", [
+      m("a.btn.dropdown-toggle.btn-primary", {tabindex: 0, href: '#', onclick: (e) => {
+        e.preventDefault()
+        Post.postStatus = "AddToCollectionCompose"
+        Post.draftItem = vnode.attrs.link
+      }}, ["Add to collection", m('i.icon.icon-caret')]),
       m('ul.menu', Collection.list.map((c) => {
-        return m('li.menu-item', m('a', c.name))
-      }))
+        return m('li.menu-item', m('a',{href: '#', onclick: (e) => {
+          e.preventDefault()
+          console.log("Will add",vnode.attrs.link , "to", c)
+        }}, c.name))
+      }).concat(m('li.menu-item', m('input[type=text][placeholder=Or create new collection]', {
+        onclick: (e) => {
+        }
+      }))))
     ])
   }
+
 }
 
 const PostlistView = {
@@ -39,11 +50,7 @@ const PostlistView = {
           ]),
           m('div.tile-action', [
             m('a.btn.btn-primary', {target: 'blank', href: p.uri}, 'Visit→'),
-            m('button.btn.btn-primary', {onclick: (e) => {
-              Post.postStatus = "AddToCollectionCompose"
-              Post.draftItem = p
-            }}, 'Add to Collection'),
-            Post.postStatus == "AddToCollectionCompose" ? m(AddToCollectionView) : null
+            m(AddToCollectionView, {link: p}),
           ])
         ])
       ])
