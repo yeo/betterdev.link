@@ -3,6 +3,7 @@ defmodule Betterdev.Accounts.User do
   import Ecto.Changeset
   alias Betterdev.Accounts.User
   alias Betterdev.Community.Link
+  alias Betterdev.Community.Collection
 
   schema "accounts_users" do
     field :email, :string
@@ -12,6 +13,8 @@ defmodule Betterdev.Accounts.User do
     field :jwt_aud, :string
 
     has_many :links, Link
+    has_many :collections, Collection
+
     timestamps()
   end
 

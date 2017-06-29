@@ -36,6 +36,7 @@ defmodule Betterdev.Web.Router do
     post "/links", LinkController, :create
     get  "/links/:id", LinkController, :show
     #resources "/links", LinkController, except: [:new, :edit]
+    resources "/collections", CollectionController, except: [:new, :edit]
   end
 
 
