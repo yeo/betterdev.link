@@ -14,13 +14,15 @@ const ProfileView = {
   },
 	view: (vnode) => {
     if (session.isSignedIn()) {
-		  return m("section.navbar-section", {id: "profile-menu"}, m("div.form-group.dropdown", [
+		  return m("section.navbar-section", {id: "profile-menu"}, m("div.form-group.dropdown.dropdown-right", [
           m("a.dropdown-toggle", {tabindex: 0}, [
             m("figure.avatar", m("img", {src: session.currentUser.avatar})),
             m('i.icon.icon-caret')
           ]),
           m('ul.menu', [
             m('li.menu-item', m('a', {href: '#mylinks'}, 'My links')),
+            m('li.menu-item', m('a', {href: '#mylinks'}, 'My collections')),
+            m('li.divider'),
             m('li.menu-item', m('a', {href: '#', onclick: session.logout }, 'Logout'))
           ])
       ]))

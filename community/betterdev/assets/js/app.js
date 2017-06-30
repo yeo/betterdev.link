@@ -22,8 +22,10 @@ import "phoenix_html"
 const m = require('mithril')
 import AppView from './view/app'
 import MyLinksView from './view/app'
+import CollectionView from './view/collection'
 
 m.route(document.getElementById("app-wrapper"), "/", {
   "/": AppView,
+  "/collection/:id": CollectionView,
   "/mylinks": MyLinksView,
 })

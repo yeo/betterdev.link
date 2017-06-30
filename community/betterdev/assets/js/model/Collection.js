@@ -28,7 +28,19 @@ const Collection = {
     })
   },
 
-  append: (link) => {
+  append: (link, collection) => {
+    return m.request({
+      method: "PATCH",
+      url: `api/collections/${collection.id}`,
+      data: {link_id: link.id },
+      headers: {
+        Authorization: `Bearer ${localStorage.accessToken}`
+      },
+    }).then(function(result) {
+      console.log(result)
+    }).catch((e) => {
+      console.log(e)
+    })
   }
 }
 

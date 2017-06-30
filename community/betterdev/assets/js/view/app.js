@@ -13,20 +13,28 @@ import NavView from './shared/nav'
 class AddToCollectionView {
   static view (vnode) {
     return m(".dropdown.dropdown-right", [
+
       m("a.btn.dropdown-toggle.btn-primary", {tabindex: 0, href: '#', onclick: (e) => {
         e.preventDefault()
         Post.postStatus = "AddToCollectionCompose"
         Post.draftItem = vnode.attrs.link
-      }}, ["Add to collection", m('i.icon.icon-caret')]),
-      m('ul.menu', Collection.list.map((c) => {
-        return m('li.menu-item', m('a',{href: '#', onclick: (e) => {
-          e.preventDefault()
-          console.log("Will add",vnode.attrs.link , "to", c)
-        }}, c.name))
-      }).concat(m('li.menu-item', m('input[type=text][placeholder=Or create new collection]', {
-        onclick: (e) => {
-        }
-      }))))
+      }}, ["Save", m('i.icon.icon-caret')]),
+
+      Post.postStatus == "AddToCollectionCompose" ?
+        m('ul.menu', [
+          Collection.list.map((c) => {
+            return m('li.menu-item', m('a',{href: '#', onclick: (e) => {
+              e.preventDefault()
+              Collection.append(vnode.attrs.link, c)
+            }}, c.name))
+          }),
+          m('li.divider'),
+          m('li.menu-item', m('.form-group', [
+            m('input.form-input[type=text][placeholder=New Collection]', {}),
+            m('li.menu-item', m('button.btn.btn-primary', 'Save')),
+          ]))
+        ]) : null
+
     ])
   }
 
@@ -41,18 +49,17 @@ const PostlistView = {
   view: () => {
     return Post.list.map((p) => {
       return m("div.column.col-12", [
-        m("div.tile", [
+        m(".article",m('div.tile', [
           m("div.tile-icon", m("figure.avatar.avatar-lg", m("img", {src: p.picture, style: "width: 48px; height: 48px;", width: 48, height: 48}))),
           m('div.tile-content', [
-            m('h5.tile-title', m('a', {target: 'bank', href: p.uri}, p.title)),
-            m('span', p.tags ? p.tags.map((tag) => m('label.chip', tag.tag)) : null),
-            m('p.tile-subtitle', p.description)
+            m('h6.tile-title', m('a', {target: 'bank', href: p.uri}, p.title)),
+            m('p.tile-subtitle.article-title', p.description),
+            m('p.tile-subtitle', ['26 mins ago ', m('a', {href: '#'}, "by Vinh"),p.tags ? p.tags.map((tag) => m('span.label', tag.tag)) : null]),
           ]),
-          m('div.tile-action', [
-            m('a.btn.btn-primary', {target: 'blank', href: p.uri}, 'Visit→'),
+          m('.tile-action', [
             m(AddToCollectionView, {link: p}),
           ])
-        ])
+        ]))
       ])
     })
   }
