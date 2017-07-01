@@ -1,0 +1,38 @@
+---
+time: "Jul 3, 2017"
+description: "I hope you enjoy the links. Let me know any kind of content you want to receive more in next issue"
+draft: true
+links:
+  - url: https://danielmiessler.com/study/vim/#gs.GK28jgI
+    title: "A vim Tutorial and Primer"
+    description: "Investing time in tooling and learning to understand your tools better is one of best ways to become a better developer. Vim is an editor that's typically considered as unfriendly. This tutorial presents vim as the English language, where you construct any action by follow nouns, verbs, adverbs. Taking a bit of time to learn them, you will realize vim is much easier than you think."
+
+  - url: https://medium.springboard.com/a-designers-guide-to-selecting-colors-for-your-product-9944756838d4
+
+  - url: https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
+    
+  - url: https://www.rolando.cl/blog/2017/06/13/playing-with-zfs-encryption/
+  - url: http://www.bradcypert.com/a-brief-introduction-to-tries/
+  - url: https://www.petekeen.net/dns-the-good-parts
+
+  - url: https://hackernoon.com/wtf-is-the-blockchain-1da89ba19348
+    title: WTF is The Blockchain?
+
+  - url: https://medium.freecodecamp.org/an-animated-guide-to-flexbox-d280cf6afc35
+
+  - url: https://www.justwatch.com/blog/post/debugging-postgresql-performance-the-hard-way/
+    title: "Debugging PostgreSQL Performance, The Hard Way"
+    description: "It doesn't matter if you use Mysql or PostgreSQL. You will definitely get something out from this post about techniques, and especially the part about debugging."
+
+  - url: https://blog.cloudflare.com/ssdp-100gbps/
+    title: Stupidly Simple DDoS Protocol (SSDP) generates 100 Gbps DDoS
+
+  - url: https://landave.io/2017/06/avast-antivirus-remote-stack-buffer-overflow-with-magic-numbers/
+
+    #- url: https://medium.com/airbnb-engineering/tracking-the-money-scaling-financial-reporting-at-airbnb-6d742b80f040
+    #- title: "Tracking the Money — Scaling Financial Reporting at Airbnb"
+    #- description: "How AirBNB switched their MySQL based financial system to Apache Spark based system written in Scala. The article also talks about the limitation of SQL for complicated business data flow."
+
+    #- url: http://interactivepython.org/runestone/static/pythonds/index.html
+    #- title: "Problem Solving with Algorithms and Data Structures using Python"
+    #- description: "This is a book. Even if you don't know or even like Python, the basic algorithms and data structure are just same. You can learn about: stack, trees, queues, and when and how to use them. From there, you can apply them into your own favourite programming language. As a programmer, you will spend lots of time working on something that we aren't familiar with. Give this a short read even if you aren't writing Python."
