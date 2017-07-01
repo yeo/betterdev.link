@@ -32,7 +32,7 @@ const Collection = {
     return m.request({
       method: "PATCH",
       url: `api/collections/${collection.id}`,
-      data: {link_id: link.id },
+      data: {link_id: link.id},
       headers: {
         Authorization: `Bearer ${localStorage.accessToken}`
       },

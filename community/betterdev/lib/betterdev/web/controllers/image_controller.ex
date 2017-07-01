@@ -1,7 +1,7 @@
 defmodule Betterdev.Web.ImageController do
   use Betterdev.Web, :controller
 
-  def index(conn, params}) do
+  def index(conn, params) do
     url = params["url"]
     case url do
       nil ->

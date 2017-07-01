@@ -50,7 +50,7 @@ const PostlistView = {
     return Post.list.map((p) => {
       return m("div.column.col-12", [
         m(".article",m('div.tile', [
-          m("div.tile-icon", m("figure.avatar.avatar-lg", m("img", {src: p.picture, style: "width: 48px; height: 48px;", width: 48, height: 48}))),
+          m("div.tile-icon", m("figure.avatar.avatar-lg", m("img", {src: "/img?url=" + p.picture, style: "width: 48px; height: 48px;", width: 48, height: 48}))),
           m('div.tile-content', [
             m('h6.tile-title', m('a', {target: 'bank', href: p.uri}, p.title)),
             m('p.tile-subtitle.article-title', p.description),
