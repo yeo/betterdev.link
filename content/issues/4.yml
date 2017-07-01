@@ -3,7 +3,7 @@ time: "Jun 26, 2017"
 description: "I hope you enjoy the links. Let me know any kind of content you want to receive more in next issue"
 #draft: false
 links:
-  - url: https://kndrck.co/indexing-faces-on-instagram.html
+  - url: https://kndrck.co/indexing-faces-on-selfie-central.html
     title: "Indexing Faces on Instagram"
     description: "This article is about how to build a face search engine by indexing faces on Instagram. It's similar to fuzzy string search, but with picture of faces instead of string. You will get a better understanding of computer vision via this article: how to standarize data, the technique to turn images into data, and detecting similarity of data. It's a good read and fun to play with. It's also completely open-source."
 
