@@ -8,19 +8,35 @@ links:
     description: "Investing time in tooling and learning to understand your tools better is one of best ways to become a better developer. Vim is an editor that's typically considered as unfriendly. This tutorial presents vim as the English language, where you construct any action by follow nouns, verbs, adverbs. Taking a bit of time to learn them, you will realize vim is much easier than you think."
 
   - url: https://medium.springboard.com/a-designers-guide-to-selecting-colors-for-your-product-9944756838d4
+    title: "Eight rules about color palettes that everyone should know"
+    description: "Usually, a backend developer has a hard time when coming to design their own project. Hence, developer usually opt for minmal design. But we still have to answer the question of how much space between elements? Which colors to use? This guide is very well suited for developer to made these decision."
 
-  - url: https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
-    
-  - url: https://www.rolando.cl/blog/2017/06/13/playing-with-zfs-encryption/
-  - url: http://www.bradcypert.com/a-brief-introduction-to-tries/
-  - url: https://www.petekeen.net/dns-the-good-parts
-
-  - url: https://hackernoon.com/wtf-is-the-blockchain-1da89ba19348
-    title: WTF is The Blockchain?
+  - url: https://thomasbyttebier.be/blog/the-best-icon-is-a-text-label
+    title: "The best icon is a text label"
+    description: "Icon is still a trending thing nowadays. Lots of open source icon project comes after each other. So what is the best icon? The answer was, a text label. When we limited out choice, it helps to push project out faster. If you're building your own side project, and want to find a perfect icon for a while, then it maybe a text label."
 
   - url: https://medium.freecodecamp.org/an-animated-guide-to-flexbox-d280cf6afc35
+    title: "How Flexbox works — explained with big, colorful, animated gifs"
+    description: "Flexbox promises to save us from the evils of plain CSS (like vertical alignment).Flexbox does deliver on that goal. But mastering its new mental model can be challenging."
 
-  - url: https://www.justwatch.com/blog/post/debugging-postgresql-performance-the-hard-way/
+  - url: https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
+    title: "Dynamic Programming – From Novice to Advanced"
+    description: "Recursion is widely used in solve problem as first approach since they're easy. However, the computation of some input can occur multiple time, leads to in-efficient and stackover flow. Dynamic programming is a technique that attempt to solve a sub set of problem, then using that knowledge to build up result for large problem until reach the final result. Usually, when we are using recursion to solve a problem, we can apply dynamic programming to solve problem in a more efficient way"
+
+
+  - url: http://www.bradcypert.com/a-brief-introduction-to-tries/
+    title: "Trie is a kind of search tree. It's commonly used for storing and searching single characters that make up one or more strings. One of we may see a tries is in routing layer of a web framework. Or, when we want to see which IP address belong to a class. These are some partiular use case of trie. This articular give some brief introduce into trie and hope you can find more place to apply it after this."
+
+  - url: https://www.petekeen.net/dns-the-good-parts
+    title: "DNS: The Good Parts"
+    description: "Frequently I come across confusion with domain names. Why doesn't my website work? Why is this stupid thing broken, everything I try fails, I just want it to work!! Invariably the question asker either doesn't know what DNS is or doesn't understand how something fundamental works. More generally, people think that DNS is scary or complicated. This article is an attempt at quelling that fear. DNS is easy once you understand a few basic concepts."
+
+  - url: https://hackernoon.com/wtf-is-the-blockchain-1da89ba19348
+    title: "The ultimate 3500-word guide in plain English to understand Blockchain."
+    description: ""
+
+
+    - url: https://www.justwatch.com/blog/post/debugging-postgresql-performance-the-hard-way/
     title: "Debugging PostgreSQL Performance, The Hard Way"
     description: "It doesn't matter if you use Mysql or PostgreSQL. You will definitely get something out from this post about techniques, and especially the part about debugging."
 
@@ -28,6 +44,19 @@ links:
     title: Stupidly Simple DDoS Protocol (SSDP) generates 100 Gbps DDoS
 
   - url: https://landave.io/2017/06/avast-antivirus-remote-stack-buffer-overflow-with-magic-numbers/
+
+  - url: https://www.privateinternetaccess.com/blog/2016/01/linux-networking-stack-from-the-ground-up-part-1/?utm_source=cronweekly.com
+
+  - url: https://medium.com/@ageitgey/quick-tip-speed-up-your-python-data-processing-scripts-with-process-pools-cf275350163a
+
+  - url: https://sysdig.com/blog/container-isolation-gone-wrong/
+    title: Container isolation gone wrong
+    description: Docker is still trending right now. One of the main advantages of embracing containers is “lightweight virtualization”. Since each container is just a thin layer around the containerized processes, The user gains enormous efficiencies, for example by increasing the container density per host, or by spinning containers up and down at a very fast pace.
+
+  - url: https://www.rolando.cl/blog/2017/06/13/playing-with-zfs-encryption/
+    title: "Playing With ZFS (on Linux) Encryption"
+    description: "ZFS is a file ssytem
+
 
     #- url: https://medium.com/airbnb-engineering/tracking-the-money-scaling-financial-reporting-at-airbnb-6d742b80f040
     #- title: "Tracking the Money — Scaling Financial Reporting at Airbnb"
