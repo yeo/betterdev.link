@@ -3,7 +3,20 @@ time: "Jul 3, 2017"
 description: "I hope you enjoy the links. Let me know any kind of content you want to receive more in next issue"
 draft: true
 links:
-  - url: https://danielmiessler.com/study/vim/#gs.GK28jgI
+  - url: https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
+    title: "Dynamic Programming – From Novice to Advanced"
+    description: "Recursion is widely used in solve problem as first approach since they're easy. However, the computation of some input can occur multiple time, leads to in-efficient and stackover flow. Dynamic programming is a technique that attempt to solve a sub set of problem, then using that knowledge to build up result for large problem until reach the final result. Usually, when we are using recursion to solve a problem, we can apply dynamic programming to solve problem in a more efficient way"
+
+  - url: http://www.bradcypert.com/a-brief-introduction-to-tries/
+    title: "A brief introduction to tries"
+    description: "Trie is a kind of search tree. It's commonly used for storing and searching single characters that make up one or more strings. One of we may see a tries is in routing layer of a web framework. Or, when we want to see which IP address belong to a class. These are some partiular use case of trie. This articular give some brief introduce into trie and hope you can find more place to apply it after this."
+
+  - url: https://vincent.bernat.im/en/blog/2017-ipv4-route-lookup-linux
+    title: "IPv4 route lookup on Linux"
+    description: "Now that you are familiar with a tries. Let's look into its real life usage. When you connect to a network, your computer has to deal with ip routing. It's process of figure out where to send the IP package to for the communication between you computer and other computer or device on network. On Linux, with its implementation of IPv4 routing tables using LPC-tries, Linux offers good lookup performance (50 ns for a full view) and low memory usage (64 MiB for a full view)."
+
+
+  - url: https://danielmiessler.com/study/vim/
     title: "A vim Tutorial and Primer"
     description: "Investing time in tooling and learning to understand your tools better is one of best ways to become a better developer. Vim is an editor that's typically considered as unfriendly. This tutorial presents vim as the English language, where you construct any action by follow nouns, verbs, adverbs. Taking a bit of time to learn them, you will realize vim is much easier than you think."
 
@@ -19,49 +32,34 @@ links:
     title: "How Flexbox works — explained with big, colorful, animated gifs"
     description: "Flexbox promises to save us from the evils of plain CSS (like vertical alignment).Flexbox does deliver on that goal. But mastering its new mental model can be challenging."
 
-  - url: https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
-    title: "Dynamic Programming – From Novice to Advanced"
-    description: "Recursion is widely used in solve problem as first approach since they're easy. However, the computation of some input can occur multiple time, leads to in-efficient and stackover flow. Dynamic programming is a technique that attempt to solve a sub set of problem, then using that knowledge to build up result for large problem until reach the final result. Usually, when we are using recursion to solve a problem, we can apply dynamic programming to solve problem in a more efficient way"
-
-
-  - url: http://www.bradcypert.com/a-brief-introduction-to-tries/
-    title: "Trie is a kind of search tree. It's commonly used for storing and searching single characters that make up one or more strings. One of we may see a tries is in routing layer of a web framework. Or, when we want to see which IP address belong to a class. These are some partiular use case of trie. This articular give some brief introduce into trie and hope you can find more place to apply it after this."
-
   - url: https://www.petekeen.net/dns-the-good-parts
     title: "DNS: The Good Parts"
     description: "Frequently I come across confusion with domain names. Why doesn't my website work? Why is this stupid thing broken, everything I try fails, I just want it to work!! Invariably the question asker either doesn't know what DNS is or doesn't understand how something fundamental works. More generally, people think that DNS is scary or complicated. This article is an attempt at quelling that fear. DNS is easy once you understand a few basic concepts."
 
   - url: https://hackernoon.com/wtf-is-the-blockchain-1da89ba19348
     title: "The ultimate 3500-word guide in plain English to understand Blockchain."
-    description: ""
+    description: "Bitcoin, Etherum, Blockchain are trending these days. However, what is Blockchain? This is an non technical guide to understand that"
 
+  - url: https://sgoedecke.github.io/blockchain-for-beginners/
+    title: "Block chain for beginners"
+    description: "Continuing on the blockchain. This is another great introduction to blockchain, more on technical side. I found it great, becasue it explains what problem blockchain wants to solve for a developer. As in, what happens when we want to design an application without a central database to store everything. At the end, it has an JavaScript implementation for blockchain. You can easily read the code and understand more about blockchain"
 
-    - url: https://www.justwatch.com/blog/post/debugging-postgresql-performance-the-hard-way/
+  - url: https://www.justwatch.com/blog/post/debugging-postgresql-performance-the-hard-way/
     title: "Debugging PostgreSQL Performance, The Hard Way"
-    description: "It doesn't matter if you use Mysql or PostgreSQL. You will definitely get something out from this post about techniques, and especially the part about debugging."
+    description: "It doesn't matter if you use Mysql or PostgreSQL. You will definitely get something out from this post about techniques, and especially the part about debugging process."
 
   - url: https://blog.cloudflare.com/ssdp-100gbps/
-    title: Stupidly Simple DDoS Protocol (SSDP) generates 100 Gbps DDoS
-
-  - url: https://landave.io/2017/06/avast-antivirus-remote-stack-buffer-overflow-with-magic-numbers/
-
-  - url: https://www.privateinternetaccess.com/blog/2016/01/linux-networking-stack-from-the-ground-up-part-1/?utm_source=cronweekly.com
+    title: "Stupidly Simple DDoS Protocol (SSDP) generates 100 Gbps DDoS"
+    description: "Last month CloudFlare shared statistics on some popular reflection attacks. Back then, the largest SSDP they record was: 30 Mpps (millions of packets per second), 80 Gbps (billions of bits per second), using 940k reflector IPs. Then recently they noticed  an unusually large SSDP amplification, it crossed the symbolic threshold of 100 Gbps. Beside the information, we can also learn about the method and tool they use to analyze the attack"
 
   - url: https://medium.com/@ageitgey/quick-tip-speed-up-your-python-data-processing-scripts-with-process-pools-cf275350163a
+    title: "Quick Tip: Speed up your Python data processing scripts with Process Pools"
+    description: "Python is a great programming language for crunching data and automating repetitive tasks. Got a few gigs of web server logs to process or a million images that need resizing? No problem! You can almost always find a helpful Python library that makes the job easy. But while Python makes coding fun, it’s not always the quickest to run. Let’s learn how to take advantage of the full processing power of your computer by running Python functions in parallel."
 
   - url: https://sysdig.com/blog/container-isolation-gone-wrong/
     title: Container isolation gone wrong
-    description: Docker is still trending right now. One of the main advantages of embracing containers is “lightweight virtualization”. Since each container is just a thin layer around the containerized processes, The user gains enormous efficiencies, for example by increasing the container density per host, or by spinning containers up and down at a very fast pace.
+    description: "Docker is still trending right now. One of the main advantages of embracing containers is “lightweight virtualization”. Since each container is just a thin layer around the containerized processes, The user gains enormous efficiencies, for example by increasing the container density per host, or by spinning containers up and down at a very fast pace."
 
-  - url: https://www.rolando.cl/blog/2017/06/13/playing-with-zfs-encryption/
-    title: "Playing With ZFS (on Linux) Encryption"
-    description: "ZFS is a file ssytem
-
-
-    #- url: https://medium.com/airbnb-engineering/tracking-the-money-scaling-financial-reporting-at-airbnb-6d742b80f040
-    #- title: "Tracking the Money — Scaling Financial Reporting at Airbnb"
-    #- description: "How AirBNB switched their MySQL based financial system to Apache Spark based system written in Scala. The article also talks about the limitation of SQL for complicated business data flow."
-
-    #- url: http://interactivepython.org/runestone/static/pythonds/index.html
-    #- title: "Problem Solving with Algorithms and Data Structures using Python"
-    #- description: "This is a book. Even if you don't know or even like Python, the basic algorithms and data structure are just same. You can learn about: stack, trees, queues, and when and how to use them. From there, you can apply them into your own favourite programming language. As a programmer, you will spend lots of time working on something that we aren't familiar with. Give this a short read even if you aren't writing Python."
+  - url: https://blog.sqreen.io/docker-security/?utm_source=cronweekly.com
+    title: "Docker Security Best Practices"
+    description: "Docker accelerates your development and deployment cycles, letting you push code out faster than ever before. But it also comes with an unexpected set of security implications that you should be aware of. This article gives five common scenarios where deploying Docker images open up new kinds of security issues you might not have considered, and some great tools and advice that you can use to ensure you aren’t leaving the barn doors open when you deploy."
