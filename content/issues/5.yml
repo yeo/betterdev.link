@@ -5,16 +5,15 @@ draft: true
 links:
   - url: https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
     title: "Dynamic Programming – From Novice to Advanced"
-    description: "Recursion is widely used in solve problem as first approach since they're easy. However, the computation of some input can occur multiple time, leads to in-efficient and stackover flow. Dynamic programming is a technique that attempt to solve a sub set of problem, then using that knowledge to build up result for large problem until reach the final result. Usually, when we are using recursion to solve a problem, we can apply dynamic programming to solve problem in a more efficient way"
+    description: "Recursion is widely used in solving problem as first approach since they're easy. However, some computation can occur multiple times, leads to inefficient and stack overflow. Dynamic programming is a technique that attempt to solve a sub set of problem, then using that knowledge to build up result for large problem until reach the final result. Usually, when we are using recursion to solve a problem, we can apply dynamic programming to solve problem in a more efficient way."
 
   - url: http://www.bradcypert.com/a-brief-introduction-to-tries/
     title: "A brief introduction to tries"
-    description: "Trie is a kind of search tree. It's commonly used for storing and searching single characters that make up one or more strings. One of we may see a tries is in routing layer of a web framework. Or, when we want to see which IP address belong to a class. These are some partiular use case of trie. This articular give some brief introduce into trie and hope you can find more place to apply it after this."
+    description: "Trie is a kind of search tree. It's commonly used for storing and searching single characters that make up one or more strings. Some suecase we may see tries are in routing layer of a web framework, to see which IP address belong to a class. This articular gives some brief introduce into trie and hope you can find more place to apply it after this. "
 
   - url: https://vincent.bernat.im/en/blog/2017-ipv4-route-lookup-linux
     title: "IPv4 route lookup on Linux"
-    description: "Now that you are familiar with a tries. Let's look into its real life usage. When you connect to a network, your computer has to deal with ip routing. It's process of figure out where to send the IP package to for the communication between you computer and other computer or device on network. On Linux, with its implementation of IPv4 routing tables using LPC-tries, Linux offers good lookup performance (50 ns for a full view) and low memory usage (64 MiB for a full view)."
-
+    description: "Now that you are familiar with a trie. Let's look into its real life usage. When you connect to a network, your computer has to deal with ip routing. It's process of figure out where to send the IP package to for the communication between you computer and other computer or device on network. On Linux, with its implementation of IPv4 routing tables using LPC-tries, Linux offers good lookup performance (50 ns for a full view) and low memory usage (64 MiB for a full view)."
 
   - url: https://danielmiessler.com/study/vim/
     title: "A vim Tutorial and Primer"
@@ -38,11 +37,11 @@ links:
 
   - url: https://hackernoon.com/wtf-is-the-blockchain-1da89ba19348
     title: "The ultimate 3500-word guide in plain English to understand Blockchain."
-    description: "Bitcoin, Etherum, Blockchain are trending these days. However, what is Blockchain? This is an non technical guide to understand that"
+    description: "Bitcoin, Etherum, Blockchain are trending these days. However, what is Blockchain? This is a non technical guide to understand that"
 
   - url: https://sgoedecke.github.io/blockchain-for-beginners/
     title: "Block chain for beginners"
-    description: "Continuing on the blockchain. This is another great introduction to blockchain, more on technical side. I found it great, becasue it explains what problem blockchain wants to solve for a developer. As in, what happens when we want to design an application without a central database to store everything. At the end, it has an JavaScript implementation for blockchain. You can easily read the code and understand more about blockchain"
+    description: "Continuing on the blockchain. This is another great introduction to blockchain, more on technical side. I found it great, becasue it explains what problem blockchain wants to solve for a developer. As in, what happens when we want to design an application without a central database to store everything. At the end, it has a JavaScript implementation for blockchain. You can easily read the code and understand more about blockchain"
 
   - url: https://www.justwatch.com/blog/post/debugging-postgresql-performance-the-hard-way/
     title: "Debugging PostgreSQL Performance, The Hard Way"

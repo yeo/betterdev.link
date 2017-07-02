@@ -1,0 +1,24 @@
+---
+time: "Jun 26, 2017"
+description: "I hope you enjoy the links. Let me know any kind of content you want to receive more in next issue"
+draft: true
+links:
+  - url: https://landave.io/2017/06/avast-antivirus-remote-stack-buffer-overflow-with-magic-numbers/
+    title: "Avast Antivirus: Remote Stack Buffer Overflow with Magic Numbers"
+    description: "Buffer overflow"
+
+  - url: https://www.privateinternetaccess.com/blog/2016/01/linux-networking-stack-from-the-ground-up-part-1/
+    title: "Linux networking stack from the ground up"
+    description: "This multi-part blog series aims to outline the path of a packet from the wire through the network driver and kernel until it reaches the receive queue for a socket. This information pertains to the Linux kernel, release 3.13.0. Links to source code on GitHub are provided throughout to help with context."
+
+  - url: https://www.rolando.cl/blog/2017/06/13/playing-with-zfs-encryption/
+    title: "Playing With ZFS (on Linux) Encryption"
+    description: "ZFS is a file ssytem"
+
+    #- url: https://medium.com/airbnb-engineering/tracking-the-money-scaling-financial-reporting-at-airbnb-6d742b80f040
+    #- title: "Tracking the Money — Scaling Financial Reporting at Airbnb"
+    #- description: "How AirBNB switched their MySQL based financial system to Apache Spark based system written in Scala. The article also talks about the limitation of SQL for complicated business data flow."
+
+    #- url: http://interactivepython.org/runestone/static/pythonds/index.html
+    #- title: "Problem Solving with Algorithms and Data Structures using Python"
+    #- description: "This is a book. Even if you don't know or even like Python, the basic algorithms and data structure are just same. You can learn about: stack, trees, queues, and when and how to use them. From there, you can apply them into your own favourite programming language. As a programmer, you will spend lots of time working on something that we aren't familiar with. Give this a short read even if you aren't writing Python."
