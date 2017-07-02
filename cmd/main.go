@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/yeospace/better-dev.link/baja"
+	"github.com/yeo/betterdev.link/baja"
 	"log"
 	"os"
 )

@@ -1,7 +1,7 @@
 package baja
 
 import (
-	"github.com/yeospace/better-dev.link/baja/server"
+	"github.com/yeo/betterdev.link/baja/server"
 )
 
 func Serve(cwd, addr string) {
