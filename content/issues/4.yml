@@ -40,22 +40,6 @@ links:
     title: "The JavaScript Event Loop: Explained (2013)"
     description: "With JavaScript approaching near-ubiquity as *the* scripting language of the web browser, it will benefit you to have a strong understanding of its event-driven interaction model and how it differs from the request-response model typically found in languages like Ruby, Python, or Java. In this post, we explain some core concepts of the JavaScript concurrency model, including it's event loop and message queue in hopes of improving your understanding of a language you’re definitely already writing, but perhaps don’t fully understand."
 
-  #  - url: https://developers.google.com/web/updates/2017/04/headless-chrome
-  #    title: "Getting Started with Headless Chrome, a Replacement for PhantomJS"
-  #    description: "Before we only had PhantomJS as a headless browser to do automation such as scraping pages with JavaScript, intergration tests, or to take screenshots of a site automatically to ensure CSS isn't broken. But PhantomJS is based on QtWebkit which isn't what powers Chrome or FireFox. Now, we can run Chrome in a headless environment, which allow us to use it instead of PhantomJS because it's what our visitors are using today."
-
-    #- url: https://danielmiessler.com/study/vim/#gs.GK28jgI
-    #- title: "A vim Tutorial and Primer"
-    #- description: "Investing time in tooling and learning to understand your tools better is one of best ways to become a better developer. Vim is an editor that's typically considered as unfriendly. This tutorial presents vim as the English language, where you construct any action by follow nouns, verbs, adverbs. Taking a bit of time to learn them, you will realize vim is much easier than you think."
-
-    #- url: https://www.justwatch.com/blog/post/debugging-postgresql-performance-the-hard-way/
-    #- title: "Debugging PostgreSQL Performance, The Hard Way"
-    #- description: "It doesn't matter if you use Mysql or PostgreSQL. You will definitely get something out from this post about techniques, and especially the part about debugging."
-
-    #- url: https://medium.com/airbnb-engineering/tracking-the-money-scaling-financial-reporting-at-airbnb-6d742b80f040
-    #- title: "Tracking the Money — Scaling Financial Reporting at Airbnb"
-    #- description: "How AirBNB switched their MySQL based financial system to Apache Spark based system written in Scala. The article also talks about the limitation of SQL for complicated business data flow."
-
     #- url: http://interactivepython.org/runestone/static/pythonds/index.html
     #- title: "Problem Solving with Algorithms and Data Structures using Python"
     #- description: "This is a book. Even if you don't know or even like Python, the basic algorithms and data structure are just same. You can learn about: stack, trees, queues, and when and how to use them. From there, you can apply them into your own favourite programming language. As a programmer, you will spend lots of time working on something that we aren't familiar with. Give this a short read even if you aren't writing Python."

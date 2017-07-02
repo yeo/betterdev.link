@@ -5,11 +5,11 @@ draft: true
 links:
   - url: https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
     title: "Dynamic Programming – From Novice to Advanced"
-    description: "Recursion is widely used in solving problem as first approach since they're easy. However, some computation can occur multiple times, leads to inefficient and stack overflow. Dynamic programming is a technique that attempt to solve a sub set of problem, then using that knowledge to build up result for large problem until reach the final result. Usually, when we are using recursion to solve a problem, we can apply dynamic programming to solve problem in a more efficient way."
+    description: "Recursion is widely used in solving problems at first approach becuase they're easy to come up. However, some computations may occur multiple times, leads to inefficient and stack overflow. Dynamic programming is a technique that attempt to solve a sub set of problems, then using that knowledge to build up result for large problem until reach the final result. Usually, when we are using recursion to solve a problem, we can apply dynamic programming to solve that problem in a more efficient way."
 
   - url: http://www.bradcypert.com/a-brief-introduction-to-tries/
     title: "A brief introduction to tries"
-    description: "Trie is a kind of search tree. It's commonly used for storing and searching single characters that make up one or more strings. Some suecase we may see tries are in routing layer of a web framework, to see which IP address belong to a class. This articular gives some brief introduce into trie and hope you can find more place to apply it after this. "
+    description: "Trie is a kind of search tree. It's commonly used for storing and searching single characters that make up one or more strings. Some usecases are in routing layer of a web framework, to see which IP address belong to a class. This article gives some brief introductuon to trie. Hope you can find more places to apply it after this."
 
   - url: https://vincent.bernat.im/en/blog/2017-ipv4-route-lookup-linux
     title: "IPv4 route lookup on Linux"
@@ -21,15 +21,15 @@ links:
 
   - url: https://medium.springboard.com/a-designers-guide-to-selecting-colors-for-your-product-9944756838d4
     title: "Eight rules about color palettes that everyone should know"
-    description: "Usually, a backend developer has a hard time when coming to design their own project. Hence, developer usually opt for minmal design. But we still have to answer the question of how much space between elements? Which colors to use? This guide is very well suited for developer to made these decision."
+    description: "Backend developers often has a hard time when coming to design their own project. Hence, We opt for minimal design. But we still have to answer the question of how much space between elements? Which colors to use? This guide is very well suited to made these decision better without investing deeply into design field."
 
   - url: https://thomasbyttebier.be/blog/the-best-icon-is-a-text-label
     title: "The best icon is a text label"
-    description: "Icon is still a trending thing nowadays. Lots of open source icon project comes after each other. So what is the best icon? The answer was, a text label. When we limited out choice, it helps to push project out faster. If you're building your own side project, and want to find a perfect icon for a while, then it maybe a text label."
+    description: "Lots of open source icon projects comes after each other. So what is the best icon? The answer may be just a text label. When we limited out choice on thing we don't master, it helps to make a good enough decision. If you're building your own side project, and want to find a perfect icon for a while, then it maybe a text label."
 
   - url: https://medium.freecodecamp.org/an-animated-guide-to-flexbox-d280cf6afc35
     title: "How Flexbox works — explained with big, colorful, animated gifs"
-    description: "Flexbox promises to save us from the evils of plain CSS (like vertical alignment).Flexbox does deliver on that goal. But mastering its new mental model can be challenging."
+    description: "Flexbox promises to save us from the evils of plain CSS (like vertical alignment). Flexbox does deliver on that goal. But mastering its new mental model can be challenging."
 
   - url: https://www.petekeen.net/dns-the-good-parts
     title: "DNS: The Good Parts"
