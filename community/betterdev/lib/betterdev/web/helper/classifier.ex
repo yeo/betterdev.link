@@ -22,7 +22,7 @@ defmodule Betterdev.Helper.Classifier do
     {:linux, ["linux", "bash", "vim", "terminal", "server", "system", "configuration", "gdb", "ssh", "systemd", ]},
     {:algorithm, ["algorithm", "code", "interview", "programming", "tree", "stack", "queue", "question", "job", "crawler", "scrape", "structure", "tdd"]},
     {:design, ["design", "css", "typography", "typeface", "font", "bootstrap", "foundation", "purecss", "svg", "icon", "fontawesome", "webfont", "ttf", "otf", "flexbox", "float"]},
-    {:css, ["css", "html", "css3"]},
+    {:css, ["css", "html", "css3", "flexbox", "bootstrap", "purecss"]},
     {:devops, ["aws", "cloudformation", "ansible", "chef", "puppet", "cloudfront", "cloudflare", "nginx", "haproxy", "cache"]},
     {:database, ["mysql", "postgres", "sql", "mongodb", "rethinkdb", "query", "index", "group by", "table", ]},
     {:python, ["py", "python", "django", "flask", "jinja", "python3", "pip", "easy_install", "pypi", "bottle"]},
@@ -43,5 +43,6 @@ defmodule Betterdev.Helper.Classifier do
   def extract(content) do
     tags = extract(@super_taxonomy, 2, content)
     unsure_tags = extract(@taxonomy, 3, content)
+    tags ++ unsure_tags
   end
 end

@@ -27,5 +27,6 @@ import CollectionView from './view/collection'
 m.route(document.getElementById("app-wrapper"), "/", {
   "/": AppView,
   "/collection/:id": CollectionView,
+  "/collections": CollectionView,
   "/mylinks": MyLinksView,
 })

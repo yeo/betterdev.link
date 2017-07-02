@@ -45,6 +45,7 @@ defmodule Betterdev.Mixfile do
      #{:exq_ui, "~> 0.9.0"},
 		 {:algolia, git: "https://github.com/yeolabs/algolia-elixir.git"},
      {:new_relic, git: "https://github.com/runtastic/newrelic-elixir.git"},
+     {:timex, "~> 3.0"},
      {:cowboy, "~> 1.0"}]
   end
 

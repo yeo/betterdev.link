@@ -14,6 +14,7 @@ defmodule Betterdev.Application do
       supervisor(Betterdev.Web.Endpoint, []),
       # Start your own worker by calling: Betterdev.Worker.start_link(arg1, arg2, arg3)
       # worker(Betterdev.Worker, [arg1, arg2, arg3]),
+      # supervisor(Betterdev.Community.Bot, []),
     ]
 
     # See http://elixir-lang.org/docs/stable/elixir/Supervisor.html

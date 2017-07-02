@@ -19,7 +19,9 @@ defmodule Betterdev.Web.LinkView do
       picture: link.picture || "https://betterdev.link/images/icon-64.png",
       description: link.description,
       tags: render_many(link.tags || [], LinkView, "tag.json"),
-      uri: link.uri}
+      uri: link.uri,
+      user: %{name: List.first(String.split(link.user.email, "@"))},
+      inserted_at: link.inserted_at |> Timex.format!("%F %T%:z", :strftime),}
   end
 
   def render("tag.json", %{link: tag}) do

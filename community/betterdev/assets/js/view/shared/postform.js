@@ -23,6 +23,10 @@ const Postform = {
         }),
         m('button.btn.btn-primary.btn-action.btn-lg' + (Post.postStatus == "posting" ? ".loading" : ''), {onclick: (e) => Post.create(Post.draft)}, m('i.icon.icon-plus'))
       ]),
+      m('footer.text-center', [
+        m('h4', 'Or share with our bot'),
+        m('p', m('a.btn.btn-primary', {href: 'https://telegram.me/BetterdevBot'},'Telegram'))
+      ])
     ]
   }
 }

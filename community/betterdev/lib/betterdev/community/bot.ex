@@ -1,10 +1,14 @@
 defmodule Betterdev.Community.Bot do
+  import Supervisor.Spec
   alias Betterdev.Account
   alias Betterdev.Community.Link
 
   alias Exbot.Request.Update
   alias Betterdev.Repo
 
+  def start_link do
+    start
+  end
 
   def start do
     listen(-100)
@@ -17,7 +21,6 @@ defmodule Betterdev.Community.Bot do
   end
 
   def import_link(text) do
-    IO.puts "Import #{text}"
     String.split(text, "\n") |> Enum.map(fn (line) ->
       case Regex.run(~r/(http|https):\/\/([^\s\t\n]+)/, text, global: true) do
         [url | _] ->

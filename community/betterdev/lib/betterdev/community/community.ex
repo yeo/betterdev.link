@@ -20,8 +20,7 @@ defmodule Betterdev.Community do
 
   """
   def list_links(params \\ %{}) do
-    #Link |> Repo.all
-    link = from(p in Link, order_by: [desc: :id], preload: :tags)
+    link = from(p in Link, order_by: [desc: :id], preload: [:tags, :user])
     link |> Repo.paginate(params)
   end
 
@@ -39,7 +38,10 @@ defmodule Betterdev.Community do
       ** (Ecto.NoResultsError)
 
   """
-  def get_link!(id), do: Repo.get!(Link, id)
+  def get_link!(id) do
+    link = Repo.preload(Link, :user)
+    Repo.get!(link, id)
+  end
 
   @doc """
   Creates a link.
@@ -98,7 +100,7 @@ defmodule Betterdev.Community do
       # http://blog.roundingpegs.com/an-example-of-many-to-many-associations-in-ecto-and-phoenix/
       # We need preload to preapre for changset below
       t = t |> Repo.preload(:links)
-      link = link |> Repo.preload(:tags)
+      link = link |> Repo.preload(:tags) |> Repo.preload(:user)
       try do
         changeset = Ecto.Changeset.change(link) |> Ecto.Changeset.put_assoc(:tags, [t])
         Repo.update!(changeset)
@@ -210,6 +212,9 @@ defmodule Betterdev.Community do
 
   """
   def create_collection(user, attrs \\ %{}) do
+    IO.puts attrs
+    collection = Repo.get(Collection, 100)
+
     %Collection{user: user}
     |> Collection.changeset(attrs)
     |> Repo.insert()

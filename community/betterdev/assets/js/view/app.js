@@ -54,7 +54,7 @@ const PostlistView = {
           m('div.tile-content', [
             m('h6.tile-title', m('a', {target: 'bank', href: p.uri}, p.title)),
             m('p.tile-subtitle.article-title', p.description),
-            m('p.tile-subtitle', ['26 mins ago ', m('a', {href: '#'}, "by Vinh"),p.tags ? p.tags.map((tag) => m('span.label', tag.tag)) : null]),
+            m('p.tile-subtitle', [m('a', {href: '#'}, p.user.name), ' post at ', p.inserted_at, p.tags.length > 0 ? ' in ' : '',p.tags ? p.tags.map((tag) => m('span.label', tag.tag)) : null]),
           ]),
           m('.tile-action', [
             m(AddToCollectionView, {link: p}),
