@@ -5,64 +5,64 @@ draft: true
 links:
   - url: https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
     title: "Dynamic Programming – From Novice to Advanced"
-    description: "Recursion is widely used in solving problems at first approach becuase they're easy to come up. However, some computations may occur multiple times, leads to inefficient and stack overflow. Dynamic programming is a technique that attempt to solve a sub set of problems, then using that knowledge to build up result for large problem until reach the final result. Usually, when we are using recursion to solve a problem, we can apply dynamic programming to solve that problem in a more efficient way."
+    description: "Recursion is widely used in solving problems during your first approach because they're easy to implement. However, some computation may occur multiple times, this leads to inefficient and stack overflow. Dynamic programming is a technique that attempts to solve a subset of problems then using that knowledge to develop results for larger problems until you've reached the final result. When we are using recursion to solve a problem, we can apply dynamic programming to solve that problem in a more efficient way."
 
   - url: http://www.bradcypert.com/a-brief-introduction-to-tries/
-    title: "A brief introduction to tries"
-    description: "Trie is a kind of search tree. It's commonly used for storing and searching single characters that make up one or more strings. Some usecases are in routing layer of a web framework, to see which IP address belong to a class. This article gives some brief introductuon to trie. Hope you can find more places to apply it after this."
+    title: "A brief Introduction to Tries"
+    description: "Trie is a kind of search tree. It's commonly used for storing and searching single characters that make up one or more strings. A use-case of this is in the routing layer of a web framework to see which IP address belong to a class. This article gives some brief introductuon to trie. Hope you can find more places to apply it after this."
 
   - url: https://vincent.bernat.im/en/blog/2017-ipv4-route-lookup-linux
-    title: "IPv4 route lookup on Linux"
-    description: "Now that you are familiar with a trie. Let's look into its real life usage. When you connect to a network, your computer has to deal with ip routing. It's process of figure out where to send the IP package to for the communication between you computer and other computer or device on network. On Linux, with its implementation of IPv4 routing tables using LPC-tries, Linux offers good lookup performance (50 ns for a full view) and low memory usage (64 MiB for a full view)."
+    title: "IPv4 Route Lookup on Linux"
+    description: "Now that you are familiar with a trie. Let's look into its real life usage. When you connect to a network, your computer has to deal with IP routing, it's process of determining where to send the IP package for the communication between your computer and other device on network. Linux, with its implementation of IPv4 routing tables using LPC-tries, offers good lookup performance (50 ns for a full view) and low memory usage (64 MiB for a full view)."
 
   - url: https://danielmiessler.com/study/vim/
-    title: "A vim Tutorial and Primer"
-    description: "Investing time in tooling and learning to understand your tools better is one of best ways to become a better developer. Vim is an editor that's typically considered as unfriendly. This tutorial presents vim as the English language, where you construct any action by follow nouns, verbs, adverbs. Taking a bit of time to learn them, you will realize vim is much easier than you think."
+    title: "A Vim Tutorial and Primer"
+    description: "Investing time in tooling and learning to understand your tools better is one of best ways to become a better developer. Vim is an editor that's typically considered as unfriendly. This tutorial presents Vim as the English language, you construct any action by follow nouns, verbs, adverbs. Taking a bit of time to learn, you'll will realize Vim is much easier than you think."
 
   - url: https://medium.springboard.com/a-designers-guide-to-selecting-colors-for-your-product-9944756838d4
-    title: "Eight rules about color palettes that everyone should know"
-    description: "Backend developers often has a hard time when coming to design their own project. Hence, We opt for minimal design. But we still have to answer the question of how much space between elements? Which colors to use? This guide is very well suited to made these decision better without investing deeply into design field."
+    title: "Eight Rules About Color Palettes That Everyone Should Know"
+    description: "Backend developers often have a hard time when it comes to designing their own project. While we tend to opt for simple designs, we still have to determine how much space is needed between elements? Which colors to use? Etc. This guide is very well suited to make these decisions easier without investing delving deeply into the design field."
 
   - url: https://thomasbyttebier.be/blog/the-best-icon-is-a-text-label
-    title: "The best icon is a text label"
-    description: "Lots of open source icon projects comes after each other. So what is the best icon? The answer may be just a text label. When we limited out choice on thing we don't master, it helps to make a good enough decision. If you're building your own side project, and want to find a perfect icon for a while, then it maybe a text label."
+    title: "The Best Icon is a Text Label"
+    description: "What is the best icon? The answer may be just a text label. When we limit out choice on things we don't master, it helps us to make a 'good enough' decision. If you're building your own side project and want to find a perfect icon for a while, then consider using text label."
 
   - url: https://medium.freecodecamp.org/an-animated-guide-to-flexbox-d280cf6afc35
-    title: "How Flexbox works — explained with big, colorful, animated gifs"
-    description: "Flexbox promises to save us from the evils of plain CSS (like vertical alignment). Flexbox does deliver on that goal. But mastering its new mental model can be challenging."
+    title: "How Flexbox Works — Explained with Big, Colorful, Animated GIFs"
+    description: "Flexbox promises to save us from the evils of plain CSS (like vertical alignment). It delivers on that goal, but mastering its new mental model can be challenging."
 
   - url: https://www.petekeen.net/dns-the-good-parts
     title: "DNS: The Good Parts"
-    description: "Frequently I come across confusion with domain names. Why doesn't my website work? Why is this stupid thing broken, everything I try fails, I just want it to work!! Invariably the question asker either doesn't know what DNS is or doesn't understand how something fundamental works. More generally, people think that DNS is scary or complicated. This article is an attempt at quelling that fear. DNS is easy once you understand a few basic concepts."
+    description: "I frequently come across confusion with domain names and DNS. Why doesn't my website work? Why is this stupid thing broken? Everything I try fails, I just want it to work! Invariably, the question asker either doesn't know what DNS is or doesn't understand how it fundamentally works. More generally, people think that DNS is scary or complicated. This article is an attempt at quelling that fear. DNS is easy once you understand a few basic concepts."
 
   - url: https://hackernoon.com/wtf-is-the-blockchain-1da89ba19348
-    title: "The ultimate 3500-word guide in plain English to understand Blockchain."
-    description: "Bitcoin, Etherum, Blockchain are trending these days. However, what is Blockchain? This is a non technical guide to understand that"
+    title: "The Ultimate 3500-Word Guide in Plain English to Understand Blockchain."
+    description: "Bitcoin, Etherum, and Blockchain are trending these days. However, what is Blockchain? This is a non-technical guide to understand them."
 
   - url: https://sgoedecke.github.io/blockchain-for-beginners/
-    title: "Block chain for beginners"
-    description: "Continuing on the blockchain. This is another great introduction to blockchain, more on technical side. I found it great, becasue it explains what problem blockchain wants to solve for a developer. As in, what happens when we want to design an application without a central database to store everything. At the end, it has a JavaScript implementation for blockchain. You can easily read the code and understand more about blockchain"
+    title: "Blockchain for Beginners"
+    description: "Continuing on the theme of Blockchain, This is another great introduction to blockchain, though more on the technical side. I found it great, becauase it explains what problems Blockchain wants to solve for a developer. Like what happens when we want to design an application without a central database to store everything. At the end, it has a JavaScript implementation for Blockchain. You can easily read the code and understand more about Blockchain."
 
   - url: https://www.justwatch.com/blog/post/debugging-postgresql-performance-the-hard-way/
     title: "Debugging PostgreSQL Performance, The Hard Way"
-    description: "It doesn't matter if you use Mysql or PostgreSQL. You will definitely get something out from this post about techniques, and especially the part about debugging process."
+    description: "It doesn't matter if you use MySQL or PostgreSQL. You will definitely get something out from this post about techniques, especially the part about debugging process."
 
   - url: https://blog.cloudflare.com/ssdp-100gbps/
-    title: "Stupidly Simple DDoS Protocol (SSDP) generates 100 Gbps DDoS"
-    description: "Last month CloudFlare shared statistics on some popular reflection attacks. Back then, the largest SSDP they record was: 30 Mpps (millions of packets per second), 80 Gbps (billions of bits per second), using 940k reflector IPs. Then recently they noticed  an unusually large SSDP amplification, it crossed the symbolic threshold of 100 Gbps. Beside the information, we can also learn about the method and tool they use to analyze the attack"
+    title: "Stupidly Simple DDoS Protocol (SSDP) Generates 100 Gbps DDoS"
+    description: "Last month CloudFlare shared statistics on some popular reflection attacks. Back then, the largest SSDP they recorded was: 30 Mpps (millions of packets per second), 80 Gbps (billions of bits per second), using 940k reflector IPs. Then recently they noticed an unusually large SSDP amplification that crossed the symbolic threshold of 100 Gbps. Beside the information, we can also learn about the method and tools they use to analyze the attack."
 
   - url: https://medium.com/@ageitgey/quick-tip-speed-up-your-python-data-processing-scripts-with-process-pools-cf275350163a
     title: "Quick Tip: Speed up your Python data processing scripts with Process Pools"
     description: "Python is a great programming language for crunching data and automating repetitive tasks. Got a few gigs of web server logs to process or a million images that need resizing? No problem! You can almost always find a helpful Python library that makes the job easy. But while Python makes coding fun, it’s not always the quickest to run. Let’s learn how to take advantage of the full processing power of your computer by running Python functions in parallel."
 
   - url: https://sysdig.com/blog/container-isolation-gone-wrong/
-    title: Container isolation gone wrong
-    description: "Docker is still trending right now. One of the main advantages of embracing containers is “lightweight virtualization”. Since each container is just a thin layer around the containerized processes, The user gains enormous efficiencies, for example by increasing the container density per host, or by spinning containers up and down at a very fast pace."
+    title: Container Isolation Gone Wrong
+    description: "Docker is still trending right now. One of the main advantages of embracing containers is “lightweight virtualization”. Since each container is just a thin layer around the containerized processes, the user gains enormous efficiencies like by increasing the container density per host, or by spinning containers up and down at a very fast pace."
 
   - url: https://blog.sqreen.io/docker-security/?utm_source=cronweekly.com
     title: "Docker Security Best Practices"
-    description: "Docker accelerates your development and deployment cycles, letting you push code out faster than ever before. But it also comes with an unexpected set of security implications that you should be aware of. This article gives five common scenarios where deploying Docker images open up new kinds of security issues you might not have considered, and some great tools and advice that you can use to ensure you aren’t leaving the barn doors open when you deploy."
+    description: "Docker accelerates your development and deployment cycles letting you push code out faster than ever before. But it also comes with an unexpected set of security implications that you should be aware of. This article gives five common scenarios where deploying Docker images open up new kinds of security issues you might not have considered and some great tools and advice that you can use to ensure you aren’t leaving the barn doors open when you deploy."
 
   - url: http://www.zeroequalsfalse.press/2017/02/20/hashtables
-    title: "Know your Times Tables, but... do you know your \"Hash Tables\"?"
-    description: "Diving into the world of Hash Tables and understanding the underlying mechanics is extremely interesting, and very rewarding. So lets get into it and get started from the beginning."
+    title: "Know your Times Tables, But... Do You Know Your \"Hash Tables\"?"
+    description: "Diving into the world of Hash Tables and understanding the underlying mechanics is extremely interesting and very rewarding. So lets get into it and get started from the beginning."
