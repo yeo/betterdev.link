@@ -46,6 +46,7 @@ defmodule Betterdev.Mixfile do
 		 {:algolia, git: "https://github.com/yeolabs/algolia-elixir.git"},
      {:new_relic, git: "https://github.com/runtastic/newrelic-elixir.git"},
      {:timex, "~> 3.0"},
+     {:slack, "~> 0.11.0"},
      {:cowboy, "~> 1.0"}]
   end
 
