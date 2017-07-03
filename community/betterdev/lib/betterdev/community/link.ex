@@ -3,6 +3,7 @@ defmodule Betterdev.Community.Link do
   import Ecto.Changeset
   alias Betterdev.Community.Link
   alias Betterdev.Community.Tag
+  alias Betterdev.Community.Collection
   alias Betterdev.Accounts.User
 
 
@@ -15,6 +16,7 @@ defmodule Betterdev.Community.Link do
 
     belongs_to :user, User
     many_to_many :tags, Tag, join_through: "community_link_tags"
+    many_to_many :collections, Collection, join_through: "community_collection_links"
     timestamps()
   end
 

@@ -8,6 +8,8 @@ defmodule Betterdev.Community do
 
   alias Betterdev.Community.Link
   alias Betterdev.Community.Tag
+  alias Betterdev.Community.Collection
+
   import Algolia
 
   @doc """
@@ -212,9 +214,6 @@ defmodule Betterdev.Community do
 
   """
   def create_collection(user, attrs \\ %{}) do
-    IO.puts attrs
-    collection = Repo.get(Collection, 100)
-
     %Collection{user: user}
     |> Collection.changeset(attrs)
     |> Repo.insert()
@@ -237,6 +236,18 @@ defmodule Betterdev.Community do
     |> Collection.changeset(attrs)
     |> Repo.update()
   end
+
+  def add_link_to_collection(user, collection_id, link_id) do
+    # Fix n+1 issue
+    link = Repo.get!(Link, link_id)
+    collection = Repo.get!(from(c in Collection, preload: [:links, :user]), collection_id)
+
+    changeset = Ecto.Changeset.change(collection) |> Ecto.Changeset.put_assoc(:links, [link])
+    changeset |> Repo.update!
+
+    {:ok, collection}
+  end
+
 
   @doc """
   Deletes a Collection.

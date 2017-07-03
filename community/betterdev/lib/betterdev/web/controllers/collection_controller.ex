@@ -33,6 +33,13 @@ defmodule Betterdev.Web.CollectionController do
     end
   end
 
+  def update(conn, %{"id" => id, "link" => link}) do
+    with {:ok, %Collection{} = collection} <- Community.add_link_to_collection(conn.assigns.current_user, id, link) do
+      render(conn, "show.json", collection: collection)
+    end
+  end
+
+
   def delete(conn, %{"id" => id}) do
     collection = Community.get_collection!(id)
     with {:ok, %Collection{}} <- Community.delete_collection(collection) do

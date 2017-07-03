@@ -3,11 +3,14 @@ defmodule Betterdev.Community.Collection do
   import Ecto.Changeset
   alias Betterdev.Community.Collection
   alias Betterdev.Accounts.User
+  alias Betterdev.Community.Link
 
 
   schema "community_collections" do
     field :name, :string
     belongs_to :user, User
+
+    many_to_many :links, Link, join_through: "community_collection_links"
     timestamps()
   end
 
