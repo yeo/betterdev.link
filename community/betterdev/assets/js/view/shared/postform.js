@@ -25,7 +25,11 @@ const Postform = {
       ]),
       m('footer.text-center', [
         m('h4', 'Or share with our bot'),
-        m('p', m('a.btn.btn-primary', {href: 'https://telegram.me/BetterdevBot'},'Telegram'))
+        m('p', [
+          m('a.btn.btn-lg', {href: 'https://telegram.me/BetterdevBot'},'Telegram'),
+          //' ',
+          //m('a.btn.btn-lg', {href: "https://slack.com/oauth/authorize?&client_id=73737491668.207721165366&scope=bot,incoming-webhook,chat:write:bot,links:read"}, 'Slack')
+        ])
       ])
     ]
   }

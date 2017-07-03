@@ -1,7 +1,18 @@
 $space: 5px;
 
+body {
+
+}
+
+a {
+  color: #ee6156;
+}
+
 #app-wrapper {
   margin-top: 10em;
 }
 
 .post-form { margin: ($space * 10) auto; }
+
+.article { margin: $space * 2 auto;}
+.article .article-title { color: #727e96; }

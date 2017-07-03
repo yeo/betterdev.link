@@ -4,6 +4,7 @@ import session from '../session'
 import Url from '../util/url'
 
 const Collection = {
+  draftCollection: "",
   loaded: false,
   errors: [],
   list: [],
@@ -28,11 +29,32 @@ const Collection = {
     })
   },
 
+  create: (e) => {
+    if (Collection.draftCollection == "") {
+      return
+    }
+
+    return m.request({
+      method: "POST",
+      url: `api/collections/`,
+      data: {collection: {name: Collection.draftCollection }},
+      headers: {
+        Authorization: `Bearer ${localStorage.accessToken}`
+      },
+    }).then(function(result) {
+      Collection.loadList()
+    }).catch((e) => {
+      Post.errors = [{message: "Cannot create collection"}]
+      m.redraw()
+    })
+
+  },
+
   append: (link, collection) => {
     return m.request({
       method: "PATCH",
       url: `api/collections/${collection.id}`,
-      data: {link_id: link.id},
+      data: {link: link.id},
       headers: {
         Authorization: `Bearer ${localStorage.accessToken}`
       },

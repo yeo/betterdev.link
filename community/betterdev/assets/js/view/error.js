@@ -7,7 +7,7 @@ const ErrorView = {
       return m('.toast.toast-primary.toast-warning', [
         m('button.btn.btn-clear.float-right', {onclick: () => { Post.errors = [] }}), e
       ])
-    })
+    }) 
   }
 }
 

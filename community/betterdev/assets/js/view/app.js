@@ -23,15 +23,14 @@ class AddToCollectionView {
       Post.postStatus == "AddToCollectionCompose" ?
         m('ul.menu', [
           Collection.list.map((c) => {
-            return m('li.menu-item', m('a',{href: '#', onclick: (e) => {
-              e.preventDefault()
+            return m('li.menu-item', [m('button.btn.btn-sm',{onclick: (e) => {
               Collection.append(vnode.attrs.link, c)
-            }}, c.name))
+            }}, m('i.icon.icon-plus')), ' ', c.name])
           }),
           m('li.divider'),
-          m('li.menu-item', m('.form-group', [
-            m('input.form-input[type=text][placeholder=New Collection]', {}),
-            m('li.menu-item', m('button.btn.btn-primary', 'Save')),
+          m('li.menu-item', m('.input-group', [
+            m('input.form-input[type=text][placeholder=New Collection]', { oninput: m.withAttr("value", function(value) { Collection.draftCollection = value })}),
+            m('button.btn.btn-primary.input-group-btn', {onclick: Collection.create}, 'Create'),
           ]))
         ]) : null
 
@@ -50,7 +49,7 @@ const PostlistView = {
     return Post.list.map((p) => {
       return m("div.column.col-12", [
         m(".article",m('div.tile', [
-          m("div.tile-icon", m("figure.avatar.avatar-lg", m("img", {src: "/img?url=" + p.picture, style: "width: 48px; height: 48px;", width: 48, height: 48}))),
+          m("div.tile-icon", m("figure.avatar.avatar-lg", m("img", {src: p.picture.startsWith("https") ? p.picture : "/img?url=" + p.picture, style: "width: 48px; height: 48px;", width: 48, height: 48}))),
           m('div.tile-content', [
             m('h6.tile-title', m('a', {target: 'bank', href: p.uri}, p.title)),
             m('p.tile-subtitle.article-title', p.description),
