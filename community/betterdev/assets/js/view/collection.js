@@ -12,13 +12,19 @@ import NavView from './shared/nav'
 import AppView from './app'
 
 class CollectionView extends AppView {
+  oninit() {
+    Collection.loadList()
+  }
+
   view() {
     return [
       m(NavView, {Post: Post}),
       m('main.container.grid-960', m("div.columns", [m(FlashView)].concat(
         m(ErrorView),
         m("section.container.post-form", m(PostFormView)),
-        m("section", m("p", 'link'))
+        m("section", m('ul.menu', Collection.list.map((c) => {
+          return m("li.menu-item", m('a', {href: '#!/collections/' + c.id}, c.name))
+        })))
       )))
     ]
   }
