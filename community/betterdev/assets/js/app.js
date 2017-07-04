@@ -21,12 +21,14 @@ import "phoenix_html"
 // import socket from "./socket"
 const m = require('mithril')
 import AppView from './view/app'
+import LinkView from './view/link'
 import MyLinksView from './view/app'
 import CollectionView from './view/collection'
 
 m.route(document.getElementById("app-wrapper"), "/", {
   "/": AppView,
-  "/collection/:id": CollectionView,
+  "/user_links/:user_id": LinkView,
+  "/collections/:collection_id": LinkView,
   "/collections": CollectionView,
   "/mylinks": MyLinksView,
 })

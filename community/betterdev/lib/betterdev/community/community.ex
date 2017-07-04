@@ -30,6 +30,11 @@ defmodule Betterdev.Community do
       %{"user_id" => uid} ->
         link = from p in link,
           where: p.user_id == ^(uid)
+      %{"collection" => collection_id} ->
+        link = from p in link,
+          #preload: [:collections],
+          left_join: lc in "community_collection_links", on: lc.link_id == p.id,
+          where: lc.collection_id == ^(collection_id)
       _ -> link = link
     end
 

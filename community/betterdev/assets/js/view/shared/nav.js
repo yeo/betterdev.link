@@ -20,7 +20,7 @@ const ProfileView = {
             m('i.icon.icon-caret')
           ]),
           m('ul.menu', [
-            m('li.menu-item', m('a', {href: '#!/mylinks'}, 'My links')),
+            m('li.menu-item', m('a', {href: '#!/user_links/' + session.currentUser.id}, 'My links')),
             m('li.menu-item', m('a', {href: '#!/collections'}, 'My collections')),
             m('li.divider'),
             m('li.menu-item', m('a', {href: '#', onclick: session.logout }, 'Logout'))

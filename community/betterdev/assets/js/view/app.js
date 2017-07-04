@@ -41,6 +41,20 @@ class AddToCollectionView {
 
 const PostlistView = {
   oninit: () => {
+    console.log(m.route.param('user_id'))
+    if (m.route.param('user_id')) {
+      Post.params['user_id'] = m.route.param('user_id')
+    } else {
+      console.log("delete")
+      delete Post.params.user_id
+    }
+
+    if (m.route.param('collection_id')) {
+      Post.params['collection'] = m.route.param('collection_id')
+    } else {
+      delete Post.params.collection
+    }
+
     Post.loadList()
     //TODO: Collection load should go to app init states
     Collection.loadList()
@@ -53,7 +67,7 @@ const PostlistView = {
           m('div.tile-content', [
             m('h6.tile-title', m('a', {target: 'bank', href: p.uri}, p.title)),
             m('p.tile-subtitle.article-title', p.description),
-            m('p.tile-subtitle', [m('a', {href: '#'}, p.user.name), ' post at ', p.inserted_at, p.tags.length > 0 ? ' in ' : '',p.tags ? p.tags.map((tag) => m('span.label', tag.tag)) : null]),
+            m('p.tile-subtitle', [m('a', {href: '#!/user_links/' + p.user.id, onclick: (e) => { Post.switchUser(p.user.id) }}, p.user.name), ' post at ', p.inserted_at, p.tags.length > 0 ? ' in ' : '', p.tags ? p.tags.map((tag) => m('span.label', tag.tag)) : null]),
           ]),
           m('.tile-action', [
             m(AddToCollectionView, {link: p}),

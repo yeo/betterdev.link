@@ -31,6 +31,11 @@ const Post = {
     })
   },
 
+  switchUser: (id) => {
+    Post.params["user_id"] = id
+    Post.loadList()
+  },
+
   loadList: () => {
     Post.postStatus = 'loading'
 
