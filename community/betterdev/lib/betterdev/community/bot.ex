@@ -37,7 +37,7 @@ defmodule Betterdev.Community.Bot do
     IO.puts "Listen with #{start}"
     messages =  Exbot.get_updates(&(&1 |> Update.with_offset(start)))
     last_message = messages |> List.last
-    messages |> Enum.filter_map(&(&1.message && &1.message.chat.id == -1001120191455 && &1.message.text), &(import_link(&1.message.text)))
+    messages |> Enum.filter_map(&(&1.message && &1.message.text), &(import_link(&1.message.text)))
     next = if last_message == nil do
       :timer.sleep(10000)
       if start > 0 do
