@@ -20,7 +20,7 @@ defmodule Betterdev.Web.LinkView do
       description: link.description,
       tags: render_many(link.tags || [], LinkView, "tag.json"),
       uri: link.uri,
-      user: %{name: List.first(String.split(link.user.name, "@"))},
+      user: %{id: link.user.id, name: List.first(String.split(link.user.name, "@"))},
       inserted_at: link.inserted_at |> Timex.format!("%F %T%:z", :strftime),}
   end
 

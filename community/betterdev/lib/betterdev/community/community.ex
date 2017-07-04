@@ -22,7 +22,17 @@ defmodule Betterdev.Community do
 
   """
   def list_links(params \\ %{}) do
-    link = from(p in Link, order_by: [desc: :id], preload: [:tags, :user])
+    link = from p in Link,
+      order_by: [desc: :id],
+      preload: [:tags, :user]
+
+    case params do
+      %{"user_id" => uid} ->
+        link = from p in link,
+          where: p.user_id == ^(uid)
+      _ -> link = link
+    end
+
     link |> Repo.paginate(params)
   end
 
