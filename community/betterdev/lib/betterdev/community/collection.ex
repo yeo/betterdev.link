@@ -10,7 +10,7 @@ defmodule Betterdev.Community.Collection do
     field :name, :string
     belongs_to :user, User
 
-    many_to_many :links, Link, join_through: "community_collection_links"
+    many_to_many :links, Link, join_through: "community_collection_links", on_replace: :delete
     timestamps()
   end
 

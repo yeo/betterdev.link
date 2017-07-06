@@ -22,20 +22,22 @@ defmodule Betterdev.Community do
 
   """
   def list_links(params \\ %{}) do
+    collection_query = from c in Collection, where: c.user_id == 3
     link = from p in Link,
       order_by: [desc: :id],
-      preload: [:tags, :user, :collections]
+      preload: [:tags, :user, collections: ^collection_query]
+      #link = Repo.preload(link, [collections: ^collection_query])
 
-    case params do
+    link = case params do
       %{"user_id" => uid} ->
-        link = from p in link,
+        from p in link,
           where: p.user_id == ^(uid)
       %{"collection" => collection_id} ->
-        link = from p in link,
+        from p in link,
           #preload: [:collections],
           left_join: lc in "community_collection_links", on: lc.link_id == p.id,
           where: lc.collection_id == ^(collection_id)
-      _ -> link = link
+      _ -> link
     end
 
     link |> Repo.paginate(params)
@@ -254,11 +256,19 @@ defmodule Betterdev.Community do
 
   def add_link_to_collection(user, collection_id, link_id) do
     # Fix n+1 issue
-    link = Repo.get!(Link, link_id)
+    collection_query = from c in Collection, where: c.user_id == ^(user.id)
+    link = from l in Link,
+              preload: [:user, :collections]
+    link = Repo.get!(link, link_id)
+    #link |> Repo.preload(link, [collections: ^collection_query])
+
+    IO.inspect link
+    link = link |> Repo.preload(:collections)
+
     collection = Repo.get!(from(c in Collection, preload: [:links, :user]), collection_id)
 
     changeset = Ecto.Changeset.change(collection) |> Ecto.Changeset.put_assoc(:links, [link])
-    changeset |> Repo.update!
+    changeset |> Repo.update
 
     {:ok, collection}
   end
