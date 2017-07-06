@@ -24,7 +24,7 @@ defmodule Betterdev.Community do
   def list_links(params \\ %{}) do
     link = from p in Link,
       order_by: [desc: :id],
-      preload: [:tags, :user]
+      preload: [:tags, :user, :collections]
 
     case params do
       %{"user_id" => uid} ->

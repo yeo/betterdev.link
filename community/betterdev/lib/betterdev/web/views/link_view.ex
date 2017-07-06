@@ -21,7 +21,8 @@ defmodule Betterdev.Web.LinkView do
       tags: render_many(link.tags || [], LinkView, "tag.json"),
       uri: link.uri,
       user: %{id: link.user.id, name: List.first(String.split(link.user.name, "@"))},
-      inserted_at: link.inserted_at |> Timex.format!("%F %T%:z", :strftime),}
+      inserted_at: link.inserted_at |> Timex.format!("%F %T%:z", :strftime),
+      collections: Enum.map(link.collections, &(&1.id)),}
   end
 
   def render("tag.json", %{link: tag}) do
