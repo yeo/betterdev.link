@@ -15,7 +15,7 @@ defmodule Betterdev.Community.Link do
 		field :description, :string
 
     belongs_to :user, User
-    many_to_many :tags, Tag, join_through: "community_link_tags"
+    many_to_many :tags, Tag, join_through: "community_link_tags", on_replace: :delete
     many_to_many :collections, Collection, join_through: "community_collection_links"
     timestamps()
   end

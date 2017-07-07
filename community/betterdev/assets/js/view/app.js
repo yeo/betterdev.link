@@ -25,7 +25,7 @@ class AddToCollectionView {
           Collection.list.map((c) => {
             return m('li.menu-item', [m('button.btn.btn-sm',{onclick: (e) => {
               Collection.append(vnode.attrs.link, c)
-            }}, m('i.icon' + vnode.attrs.link.collections.indexOf(c.id) >= 0 ? '.icon-plus' : '.icon.minus')), ' ', c.name])
+            }}, m('i.icon' + vnode.attrs.link.collections.indexOf(c.id) >= 0 ? '.icon-plus' : '.icon-minus')), ' ', c.name])
           }),
           m('li.divider'),
           m('li.menu-item', m('.input-group', [
