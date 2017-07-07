@@ -60,6 +60,8 @@ config :kerosene,
   #  web_namespace: "",
   #  server: true
 
+config :tirexs, :uri, "http://127.0.0.1:9200"
+
 config :new_relic,
   application_name: System.get_env("NEWRELIC_APP_NAME"),
   license_key: System.get_env("NEWRELIC_LICENSE_KEY"),

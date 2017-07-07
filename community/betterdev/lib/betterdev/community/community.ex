@@ -10,7 +10,7 @@ defmodule Betterdev.Community do
   alias Betterdev.Community.Tag
   alias Betterdev.Community.Collection
 
-  import Algolia
+  import Tirexs.HTTP
 
   @doc """
   Returns the list of links.
@@ -103,23 +103,25 @@ defmodule Betterdev.Community do
   Post processing once a link is submited.
 
   We will:
-   - index to algolia
+   - index to elasticsearch
    - process tag
   """
   def post_process_link(link) do
     w = Scrape.article(link.uri)
-    r = %{ objectID: link.id, id: link.id, title: link.title, description: link.description, content: w.fulltext, uri: link.uri }
-    "community" |> save_object(r)
+    r = [id: link.id, title: link.title, description: link.description, content: w.fulltext, uri: link.uri]
+
+    # index
+    put("/betterdev/link/#{link.id}", r)
 
     tags = Betterdev.Helper.Classifier.extract(w.fulltext)
     # Insert tag
+    link = link |> Repo.preload(:tags) |> Repo.preload(:user)
     tags = tags ++ (w.tags |> Enum.filter_map(&(&1[:accuracy] >= 0.7), &(&1[:name])))
     tags |> Enum.map(fn (title) ->
       t = retreive_tag(title)
       # http://blog.roundingpegs.com/an-example-of-many-to-many-associations-in-ecto-and-phoenix/
       # We need preload to preapre for changset below
       t = t |> Repo.preload(:links)
-      link = link |> Repo.preload(:tags) |> Repo.preload(:user)
       try do
         changeset = Ecto.Changeset.change(link) |> Ecto.Changeset.put_assoc(:tags, [t])
         Repo.update!(changeset)
@@ -129,7 +131,8 @@ defmodule Betterdev.Community do
     end)
   end
 
-  def retreive_tag(t) do
+  def retreive_tag(t) when is_atom(t), do: retreive_tag(to_string(t))
+  def retreive_tag(t)  do
     case Repo.get_by(Tag, title: t) do
       nil -> %Tag{title: t, type: "autogen"} |> Repo.insert!()
       tag -> tag
