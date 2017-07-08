@@ -11,6 +11,8 @@ defmodule Betterdev.Community do
   alias Betterdev.Community.Collection
 
   import Tirexs.HTTP
+	import Tirexs.Search
+	alias Tirexs.Search
 
   @doc """
   Returns the list of links.
@@ -29,6 +31,11 @@ defmodule Betterdev.Community do
       #link = Repo.preload(link, [collections: ^collection_query])
 
     link = case params do
+			%{"q" => q} ->
+				link_ids = search_links(q)
+        IO.inspect(link_ids)
+        from p in link,
+          where: p.id in ^(link_ids)
       %{"user_id" => uid} ->
         from p in link,
           where: p.user_id == ^(uid)
@@ -42,6 +49,19 @@ defmodule Betterdev.Community do
 
     link |> Repo.paginate(params)
   end
+
+  def search_links(q) do
+		query = Search.search [index: "betterdev"] do
+			query do
+				match "_all", q
+			end
+		end
+
+		case Tirexs.Query.create_resource(query) do
+			{:ok, status, %{hits: %{hits: hits}}} -> Enum.map(hits, &(&1._source.id))
+			_ -> []
+		end
+	end
 
   @doc """
   Gets a single link.
