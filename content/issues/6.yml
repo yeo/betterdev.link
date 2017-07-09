@@ -1,8 +1,13 @@
 ---
 time: "Jun 26, 2017"
-description: "I hope you enjoy the links. Let me know any kind of content you want to receive more in next issue"
+description: "Hi all, last week we have quite a bit of algorythm stuff. This week, let's switch gear a bit and get a bit heavier on the Ops side."
 draft: true
 links:
+  - url: https://github.com/wearehive/project-guidelines
+  - url: https://developer.atlassian.com/blog/2017/07/kubernetes-infra-on-aws
+  - url: https://medium.com/@deathmood/how-to-write-your-own-virtual-dom-ee74acc13060
+  - url: http://elixirbridge.org/02_Intro_to_Elixir/01-why-program-why-elixir.html
+
   - url: https://landave.io/2017/06/avast-antivirus-remote-stack-buffer-overflow-with-magic-numbers/
     title: "Avast Antivirus: Remote Stack Buffer Overflow with Magic Numbers"
     description: "Buffer overflow"
