@@ -13,20 +13,37 @@
         <link>https://betterdev.link/issues/{{ $issue.Name }}</link>
         <guid>https://betterdev.link/issues/{{ $issue.Name }}</guid>
         <pubDate>{{ $issue.PubTime }}</pubDate>
-				<description>
-					{{ "<![CDATA[" | safe }}<h1>Better Dev Link - Resource around the web on becoming a better programmer</h1>
-					<p>{{ $issue.Description }}</p>
-					<ul>
-						{{ range $key, $link := $issue.Links }}
-						<li>
-							<a href="{{ $link.URI }}">{{ $link.Title }}</a>
-							<p>
-								{{ $link.Description }}
-							</p>
-						</li>
-						{{ end }}
-					</ul>{{ "]]>" | safe }}
-				</description>
+        <description>
+         {{ "<![CDATA[" | safe }}<h1>Better Dev Link - Resource around the web on becoming a better programmer</h1>
+         <p>{{ $issue.Description }}</p>
+         <ul>
+          {{ range $key, $link := $issue.Links }}
+          <li>
+           <a href="{{ $link.URI }}">{{ $link.Title }}</a>
+           <p>
+            {{ $link.Description }}
+           </p>
+          </li>
+          {{ end }}
+         </ul>
+          {{ if .CodeToRead }}
+            <h3 class="subtitle"><strong>Code to read</strong></h3>
+            <ul>
+            {{ range $key, $link := .CodeToRead }}
+              <li><a style="font-size: 1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a></li>
+            {{ end }}
+            </ul>
+          {{ end }}
+
+          {{ if .Tools }}
+            <h3 class="subtitle"><strong>Tools</strong></h3>
+            <ul>
+            {{ range $key, $link := .Tools }}
+              <li><a style="font-size: 1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a></li>
+            {{ end }}
+            </ul>
+          {{ end }}{{ "]]>" | safe }}
+        </description>
       </item>
     {{ end }}
   </channel>

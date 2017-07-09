@@ -106,6 +106,14 @@ a {
               <h2 class="subtitle" style="color: #fff;">Issue #{{ .Name }} - {{ .Time }}</h2>
             </div>
 
+            {{ if .Description }}
+            <div>
+              <div style="padding: 1.5rem 1.5rem 0rem 1.5rem; font-size: 1.1rem;" class="issue-intro">
+                <p>{{ .Description }}</p>
+              </div>
+            </div>
+            {{ end }}
+
             <div class="issue-links">
               {{ range $key, $link := .Links }}
                 <div class="issue-link">
