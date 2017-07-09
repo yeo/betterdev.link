@@ -74,7 +74,7 @@ read_code:
   - url: https://github.com/coells/100days
     title: "The author set the challenge for himself to implement algorithmes by algorithmes, day by day, until the number reaches 100."
 
-tools:
+tool:
   - url: https://github.com/ankane/dexter
     title: "The automatic indexer for Postgres"
 
