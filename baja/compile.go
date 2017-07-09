@@ -5,7 +5,6 @@ import (
 
 	//"bytes"
 	"fmt"
-	"gopkg.in/yaml.v2"
 	"html/template"
 	"io"
 	"io/ioutil"
@@ -14,6 +13,8 @@ import (
 	"sort"
 	"strings"
 	"time"
+
+	"gopkg.in/yaml.v2"
 )
 
 //TODO Move theme reference to config with DI
@@ -37,7 +38,8 @@ func createRSS(page Page) {
 	}
 
 	var publicableIssue Issues
-	for _, issue := range page.Issues {
+	for i := len(page.Issues) - 1; i >= 0; i-- {
+		issue := page.Issues[i]
 		if issue.Draft == false {
 			publicableIssue = append(publicableIssue, issue)
 		}
