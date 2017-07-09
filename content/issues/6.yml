@@ -1,6 +1,6 @@
 ---
 time: "Jul 10, 2017"
-description: "Hey Everyone, hope you all had a great weekend. This week, I'm adding something new, aiming at making us a better developer: I'm adding code to read and tool sections. If you have any recomendtions, please reply to this email. Also, If you learn anything from our links, and come up with some code or some articles, please let me know. I'll share with our reders in next issue."
+description: "Hi everyone, hope you all had a great weekend. This week, I'm adding something new, aiming at making us a better developer: code to read and tool sections. If you have any recomendations, please reply to this email. Also, If you learn anything from our links, and come up with some code or some articles, please let me know too. I'll share with our readers in next issue."
 draft: true
 links:
   - url: http://jlongster.com/How-I-Became-Better-Programmer
@@ -72,11 +72,11 @@ read_code:
     title: "A Ruby gem that beautifies the terminal's ls command, with color and font-awesome icons"
 
   - url: https://github.com/coells/100days
-    title: "The author set the challenge for himself to implement algorithmes by algorithmes, day by day, until the number reaches 100."
+    title: "100 days of algorithms"
 
 tool:
   - url: https://github.com/ankane/dexter
     title: "The automatic indexer for Postgres"
 
   - url: https://github.com/MrRio/vtop
-    title: "A graphical activity monitor for the command line. Similar to top"
+    title: "A graphical activity monitor for the command line. Similar to Linux's `top`."
