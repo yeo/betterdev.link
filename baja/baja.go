@@ -33,6 +33,8 @@ type Issues []Issue
 type Issue struct {
 	Time        string    `yaml:"time"`
 	Links       []Link    `yaml:"links"`
+	CodeToRead  []Link    `yaml:"read_code"`
+	Tools       []Link    `yaml:"tool"`
 	Name        string    `yaml:"name"`
 	PubTime     time.Time `yaml:"pub_time"`
 	Draft       bool      `yaml:"draft"`

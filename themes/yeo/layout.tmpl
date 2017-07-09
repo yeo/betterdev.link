@@ -157,6 +157,28 @@
               </div>
               {{ end }}
 
+              {{ if .CodeToRead }}
+              <div style="padding: 1.5rem 1.5rem 0rem 1.5rem; font-size: 1.1rem;">
+                <h3 class="subtitle"><strong>Code to read</strong></h3>
+                {{ range $key, $link := .CodeToRead }}
+                <div style="padding: 0 0 0.5rem 0" class="issue-link">
+                  <a style="font-size: 1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a><br>
+                </div>
+                {{ end }}
+              </div>
+              {{ end }}
+
+              {{ if .Tools }}
+              <div style="padding: 1.5rem 1.5rem 0rem 1.5rem; font-size: 1.1rem;">
+                <h3 class="subtitle"><strong>Tools</strong></h3>
+                {{ range $key, $link := .Tools }}
+                <div style="padding: 0 0 0.5rem 0" class="issue-link">
+                  <a style="font-size: 1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a><br>
+                </div>
+                {{ end }}
+              </div>
+              {{ end }}
+
               <div style="padding: 0 1.5rem;">
                 <div style="border: 1px solid #f1f1f1; margin: 1.5rem 0;"></div>
                 That's it for this round, have a great day! If you like this newsletter, please tell the world!<br>

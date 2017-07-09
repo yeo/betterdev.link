@@ -65,14 +65,16 @@ a {
         font-size: 2rem;
         font-weight: 300;
         line-height: 1.125;
-        color: #fff;
+        color: #f36c3d;
+        word-break: break-word;
       }
 
       .subtitle {
-        color: #fff;
+        color: #f36c3d;
         font-size: 1.25rem;
         font-weight: 300;
         line-height: 1.25;
+        word-break: break-word;
       }
 
       </style>
@@ -112,6 +114,29 @@ a {
                   <span style="color: #666; font-weight: 300;">{{ $link.Description }}</span>
                   </p>
                 </div>
+              {{ end }}
+
+
+              {{ if .CodeToRead }}
+              <div style="padding: 1rem 1rem 0rem 1rem; font-size: 1.1rem;">
+                <h3 class="subtitle"><strong>Code to read</strong></h3>
+                {{ range $key, $link := .CodeToRead }}
+                <div style="padding: 0 0 0.5rem 0" class="issue-link">
+                  <a style="font-size: 1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a><br>
+                </div>
+                {{ end }}
+              </div>
+              {{ end }}
+
+              {{ if .Tools }}
+              <div style="padding: 1rem 1rem 0rem 1rem; font-size: 1.1rem;">
+                <h3 class="subtitle"><strong>Tools</strong></h3>
+                {{ range $key, $link := .Tools }}
+                <div style="padding: 0 0 0.5rem 0" class="issue-link">
+                  <a style="font-size: 1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a><br>
+                </div>
+                {{ end }}
+              </div>
               {{ end }}
 
               <div style="padding: 0 1.5rem;">
