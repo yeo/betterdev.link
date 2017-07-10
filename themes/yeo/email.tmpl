@@ -46,7 +46,7 @@ a {
         border-radius: 10px;
         text-align: left;
         padding: 1rem 0;
-        font-size: 0.9rem;
+        font-size: 0.95rem;
       }
       .issue-preview {
             margin: 0 1rem;
@@ -117,7 +117,7 @@ a {
             <div class="issue-links">
               {{ range $key, $link := .Links }}
                 <div class="issue-link">
-                  <a style="font-size: 1.3rem; font-weight: 300; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a><br>
+                  <a style="font-size: 1.2rem; font-weight: 300; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a><br>
                   <span style="color: #666; font-weight: 300;">{{ $link.Description }}</span>
                 </div>
               {{ end }}
