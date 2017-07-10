@@ -23,22 +23,6 @@ links:
     title: How To Write Your Own Virtual DOM
     description: "There are two things you need to know to build your own Virtual DOM. You do not even need to dive into React’s source or into the source code of any other Virtual DOM implementations. They are so large and complex — but in reality the main part of Virtual DOM can be written in less than 50 lines of code… 50. Lines. Of. Code!!!"
 
-  - url: http://elixirbridge.org/02_Intro_to_Elixir/01-why-program-why-elixir.html
-    title: "Why Program? Why Elixir?"
-    description: "Erlang is what powers WhatsApp. It's fascinating to see what it offers. However, Erlang syntax is a bit \"unfriendly\". Elixir is a language that run on ErlangVM and it has a pretty easy to understand syntax, relative to some languages. Right at the start, Elixir is fast. It runs as well as or better than any other language at its level of abstraction, that is, how far away it is from machine code. It’s designed to work with modern computers that have many CPU cores that run in parallel, and even across networks."
-
-  - url: https://githubengineering.com/mysql-testing-automation-at-github/
-    title: MySQL Infrastructure Testing Automation At GitHub
-    description: "Databases are the heart of many web applications and usually where the bottlenecks are. Recently, Gitlab lost some data due to a database incident and the backup wasn't working properly. It's a chance to look back and see what we're currently doing with our database for backing up and disaster recovery. In this article, Github shares what they do to automate every aspect of operating a database: from backups, restoring to a failover, and cloning a production database for testing purpose."
-
-  - url: https://engineeringblog.yelp.com/2017/06/moving-yelps-core-business-search-to-elasticsearch.html
-    title: "Moving Yelp's Core Business Search to Elasticsearch"
-    description: "While newer search engines at Yelp typically use Elasticsearch as a backend, Yelp’s core business search used its own custom backend, built directly on top of Lucene. This system was one of the oldest systems at Yelp to still be deployed in production."
-
-  - url: https://airbrake.io/blog/ruby-exception-handling/ruby-exception-classes
-    title: "Ruby Exception Handling: Error Class Hierarchy"
-    description: "Ruby features a plethora of built-in classes to dramatically simplify exception handling and management. At the top-most level of the exception class hierarchy resides the Exception class, the monolithic parent class of over a half-dozen subclasses which typically regulate the grunt work of Ruby exception handling."
-
   - url: https://medium.com/@jackappleby/does-bem-work-945c523116c
     title: "Does BEM Work?"
     description: "BEM (Block, Element, Modifier) is a component-based approach to web development. The idea behind it is to divide the user interface into independent blocks. This makes interface development fast and easy even with a complex UI, and it allows the reuse of existing code without copying and pasting. But does it work? For the author of article, it does."
@@ -47,18 +31,6 @@ links:
     title: "You Do Not Need A CSS Grid Based Grid System"
     description: "In the last couple of weeks I have started to see CSS Grid layout-based frameworks and grid systems appearing. I’m actually surprised as to how long it has taken, but I am yet to see one that adds any value at all over just using CSS Grid Layout."
 
-  - url: https://aws.amazon.com/blogs/ai/tuning-your-dbms-automatically-with-machine-learning
-    title: "Tuning Your DBMS Automatically with Machine Learning"
-    description: "OtterTune, a new tool that’s being developed by students and researchers in the Carnegie Mellon Database Group, can automatically find good settings for a DBMS’s configuration knobs. The goal is to make it easier for anyone to deploy a DBMS, even those without any expertise in database administration."
-
-  - url: https://dev.to/rpalo/microdecisions
-    title: "The Importance Of Microdecisions"
-    description: "When writing code, we have to make many small decisions when a problem can be solved in different ways. The author thinks that the teeny tiny decisions that don't really matter are actually some of the most important ones. If there are no reasons to choose one version over another, take the time to find a reason to pick one."
-
-  - url: https://blog.vivekpanyam.com/scaling-a-web-service-load-balancing/
-    title: "Scaling A Web Service: Load Balancing"
-    description: "This post is going to look at one aspect of how sites like Facebook handle billions of requests and stay highly available: load balancing."
-
   - url: http://blog.teamtreehouse.com/go-interfaces-awesome
     title: "Why Go Interfaces Are Awesome"
     description: "You don’t have to declare that a Go type (which can be used kind of like a “class” in other languages) implements an interface, like you do in C# or Java. You just declare the interface, and then any type that happens to have those methods can be used anywhere that interface is required."
@@ -66,6 +38,10 @@ links:
   - url: https://dev.to/vincecampanale/what-is-javascripts-new-keyword-doing-under-the-hood
     title: "What is Javascript's `new` keyword doing under the hood?"
     description: "I'll start with some context and background about Constructor functions and the class keyword, then I will explain exactly what the `new` keyword is doing under the hood. Next, I will show how it does what it does by implementing it in code. Finally, I will explain why it does these things and give a couple arguments for avoiding this approach to JavaScript object creation altogether in most situations."
+
+  - url: https://dev.to/rpalo/microdecisions
+    title: "The Importance Of Microdecisions"
+    description: "When writing code, we have to make many small decisions when a problem can be solved in different ways. The author thinks that the teeny tiny decisions that don't really matter are actually some of the most important ones. If there are no reasons to choose one version over another, take the time to find a reason to pick one."
 
 read_code:
   - url: https://github.com/athityakumar/colorls
