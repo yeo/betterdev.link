@@ -18,7 +18,8 @@ defmodule Betterdev.Mixfile do
   def application do
     [mod: {Betterdev.Application, []},
       #extra_applications: [:logger, :runtime_tools, :exbot, :algolia, :exq, :exq_ui]]
-     extra_applications: [:new_relic, :logger, :runtime_tools, :exbot, :tirexs, :uberauth]]
+     extra_applications: [:new_relic, :logger, :runtime_tools, :exbot, :tirexs],
+     applications: [:uberauth]]
   end
 
   # Specifies which paths to compile per environment.
