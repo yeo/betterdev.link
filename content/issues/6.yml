@@ -1,7 +1,7 @@
 ---
 time: "Jul 10, 2017"
 description: "Hi everyone, hope you all had a great weekend. This week, I'm adding something new, aiming at making us a better developers: 'Code to Read' and 'Tools'. If you have any recommendations, please reply to this email. Also, if you learn anything from our links and come up with some code or some articles you'd like to share, please let me know too. I'll share with our readers in next issue."
-draft: true
+draft: false
 links:
   - url: http://jlongster.com/How-I-Became-Better-Programmer
     title: "How I Became a Better Programmer"
