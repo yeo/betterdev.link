@@ -46,7 +46,7 @@ a {
         border-radius: 10px;
         text-align: left;
         padding: 1rem 0;
-        font-size: 1rem;
+        font-size: 0.9rem;
       }
       .issue-preview {
             margin: 0 1rem;
@@ -58,7 +58,7 @@ a {
       }
 
       .issue-link {
-        padding: 1rem 1rem 0rem 1rem;
+        padding: 0.5rem 1rem 0rem 1rem;
       }
 
       .title {
@@ -108,8 +108,8 @@ a {
 
             {{ if .Description }}
             <div>
-              <div style="padding: 1.5rem 1.5rem 0rem 1.5rem; font-size: 1.1rem;" class="issue-intro">
-                <p>{{ .Description }}</p>
+              <div style="padding: 1rem 1.5rem 0rem 1.5rem; font-size: 1rem;" class="issue-intro">
+                <p style="color: #666">{{ .Description }}</p>
               </div>
             </div>
             {{ end }}
@@ -117,16 +117,14 @@ a {
             <div class="issue-links">
               {{ range $key, $link := .Links }}
                 <div class="issue-link">
-                  <p>
                   <a style="font-size: 1.3rem; font-weight: 300; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a><br>
                   <span style="color: #666; font-weight: 300;">{{ $link.Description }}</span>
-                  </p>
                 </div>
               {{ end }}
 
 
               {{ if .CodeToRead }}
-              <div style="padding: 1rem 1rem 0rem 1rem; font-size: 1.1rem;">
+              <div style="padding: 1rem 1rem 0rem 1rem; font-size: 1rem;">
                 <h3 class="subtitle"><strong>Code to read</strong></h3>
                 {{ range $key, $link := .CodeToRead }}
                 <div style="padding: 0 0 0.5rem 0" class="issue-link">
@@ -137,7 +135,7 @@ a {
               {{ end }}
 
               {{ if .Tools }}
-              <div style="padding: 1rem 1rem 0rem 1rem; font-size: 1.1rem;">
+              <div style="padding: 1rem 1rem 0rem 1rem; font-size: 1rem;">
                 <h3 class="subtitle"><strong>Tools</strong></h3>
                 {{ range $key, $link := .Tools }}
                 <div style="padding: 0 0 0.5rem 0" class="issue-link">
