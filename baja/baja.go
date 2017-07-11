@@ -41,6 +41,10 @@ type Issue struct {
 	Description string    `yaml:"description"`
 }
 
+func (issue Issue) FormatPubTime() string {
+	return issue.PubTime.Format("Mon, 2 Jan 2006 15:04:05 MST")
+}
+
 func (issue Issues) Len() int {
 	return len(issue)
 }

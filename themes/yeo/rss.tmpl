@@ -12,7 +12,7 @@
         <title>Issues #{{ $issue.Name }} {{ $issue.Time }}</title>
         <link>https://betterdev.link/issues/{{ $issue.Name }}</link>
         <guid>https://betterdev.link/issues/{{ $issue.Name }}</guid>
-        <pubDate>{{ $issue.PubTime }}</pubDate>
+        <pubDate>{{ $issue.FormatPubTime }}</pubDate>
         <description>
          {{ "<![CDATA[" | safe }}<h1>Better Dev Link - Resource around the web on becoming a better programmer</h1>
          <p>{{ $issue.Description }}</p>
