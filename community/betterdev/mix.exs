@@ -18,8 +18,7 @@ defmodule Betterdev.Mixfile do
   def application do
     [mod: {Betterdev.Application, []},
       #extra_applications: [:logger, :runtime_tools, :exbot, :algolia, :exq, :exq_ui]]
-     extra_applications: [:new_relic, :logger, :runtime_tools, :exbot, :tirexs],
-     applications: [:uberauth]]
+     extra_applications: [:new_relic, :logger, :runtime_tools, :exbot, :tirexs],]
   end
 
   # Specifies which paths to compile per environment.
@@ -48,7 +47,6 @@ defmodule Betterdev.Mixfile do
      {:new_relic, git: "https://github.com/runtastic/newrelic-elixir.git"},
      {:timex, "~> 3.0"},
      {:slack, "~> 0.11.0"},
-     {:ueberauth, "~> 0.4"},
      {:cowboy, "~> 1.0"}]
   end
 
