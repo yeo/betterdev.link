@@ -1,7 +1,7 @@
 import Auth0Lock from 'auth0-lock'
 import session from '../session'
 
-const lock = window.lock = new Auth0Lock('a-wb-XWRmIfAm9v0U9eUbfawoJKsGG99', 'yeo.auth0.com', {
+const lock = window.lock = new Auth0Lock('dN3hp6MDmXoLD412wEFkdQHjbXbSp6ZT', 'yeo.auth0.com', {
 	auth: {
 		redirect: false,
 		//redirectUrl: 'http://127.0.0.1:4000',
@@ -10,7 +10,11 @@ const lock = window.lock = new Auth0Lock('a-wb-XWRmIfAm9v0U9eUbfawoJKsGG99', 'ye
 		params: {
 			scope: 'openid email'
 		}
-	}
+	},
+  theme: {
+    logo: '/images/icon-s.png',
+    primaryColor: '#f36c3d'
+  }
 })
 
 lock.on("authenticated", (authResult) => {
