@@ -114,7 +114,7 @@ defmodule Betterdev.Community do
         |> Link.changeset(%{title: w.title, uri: uri, description: w.description, picture: w.image || w.favicon, status: "published"})
         |> Repo.insert()
       Task.start_link(fn -> post_process_link(link) end)
-      link = link |> Repo.preload(:tags)
+      link = link |> Repo.preload(:tags) |> Repo.preload(:collections)
       {:ok, link}
     end
   end
@@ -127,6 +127,8 @@ defmodule Betterdev.Community do
    - process tag
   """
   def post_process_link(link) do
+    IO.puts "Post process link"
+
     w = Scrape.article(link.uri)
     r = [id: link.id, title: link.title, description: link.description, content: w.fulltext, uri: link.uri]
 
