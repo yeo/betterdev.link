@@ -66,9 +66,3 @@ config :new_relic,
   application_name: System.get_env("NEWRELIC_APP_NAME"),
   license_key: System.get_env("NEWRELIC_LICENSE_KEY"),
   poll_interval: 10_000
-
-config :ueberauth, Ueberauth,
-  providers: [
-    facebook: { Ueberauth.Strategy.Facebook, [ opt1: "value", opts2: "value" ] },
-    github: { Ueberauth.Strategy.Github, [ opt1: "value", opts2: "value" ] }
-  ]
