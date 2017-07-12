@@ -107,8 +107,16 @@ defmodule Betterdev.Accounts do
   """
   def user_from_token(token) do
     # TODO map field into jwt
-    case Repo.get_by(Betterdev.Accounts.User, email: token["email"]) do
-      nil ->  create_user(token |> Map.put("name", token["email"] ))
+
+    email = if is_nil(token["email"]) do
+      token["sub"] <> "@fake-twitter.betterdev.link"
+    else
+      token["email"]
+    end
+
+    case Repo.get_by(Betterdev.Accounts.User, email: email) do
+      nil -> {:ok, u} = create_user(token |> Map.put("email", email))
+              u
       u -> u
     end
   end

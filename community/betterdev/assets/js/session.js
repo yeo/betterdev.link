@@ -31,22 +31,19 @@ class Session {
     }
 
     const user = jwtDecode(token)
-    if (user.email) {
-      this.currentUser = {
-        email: user.email,
-        provider: user.sub.split("|")[0],
-        userId: user.sub.split("|")[1],
-        nonce: user.nonce,
-      }
-      if (this.currentUser.provider == 'github') {
-        this.currentUser.avatar = `https://avatars1.githubusercontent.com/u/${this.currentUser.userId}?v=3&s=64`
-      } else {
-        this.currentUser.avatar = `https://avatars1.githubusercontent.com/u/${this.currentUser.userId}?v=3&s=64`
-      }
-      this.validate()
-    } else {
-      localStorage.removeItem('accessToken')
+    this.currentUser = {
+      email: user.email || user.sub,
+      provider: user.sub.split("|")[0],
+      userId: user.sub.split("|")[1],
+      nonce: user.nonce,
     }
+    if (this.currentUser.provider == 'github') {
+      this.currentUser.avatar = `https://avatars1.githubusercontent.com/u/${this.currentUser.userId}?v=3&s=64`
+    } else {
+      // Twitter has profile
+      this.currentUser.avatar = user.picture
+    }
+    this.validate()
   }
 
   static validate() {

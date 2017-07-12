@@ -8,13 +8,16 @@ const lock = window.lock = new Auth0Lock('dN3hp6MDmXoLD412wEFkdQHjbXbSp6ZT', 'ye
 		//responseType: 'token',
 		responseType: 'id_token',
 		params: {
-			scope: 'openid email'
+			scope: 'openid email profile'
 		}
 	},
   theme: {
     logo: '/images/icon-s.png',
     primaryColor: '#f36c3d'
-  }
+  },
+  languageDictionary: {
+    title: "Share, Save, Help!"
+  },
 })
 
 lock.on("authenticated", (authResult) => {
