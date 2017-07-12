@@ -39,7 +39,7 @@ const LoginRemind = {
   view: () => {
     return m('header.text-center', [
       m('h4', "Login to share links! Help people learn!"),
-      m('a.btn.btn-primary', {onclick: session.login}, 'Login with Github')
+      m('a.btn.btn-primary', {onclick: session.login}, 'Login')
     ])
   }
 }

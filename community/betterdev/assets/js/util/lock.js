@@ -1,5 +1,6 @@
 import Auth0Lock from 'auth0-lock'
 import session from '../session'
+const m = require('mithril')
 
 const lock = window.lock = new Auth0Lock('dN3hp6MDmXoLD412wEFkdQHjbXbSp6ZT', 'yeo.auth0.com', {
 	auth: {
@@ -24,6 +25,7 @@ lock.on("authenticated", (authResult) => {
   localStorage.setItem('accessToken', authResult.idToken)
   session.load(authResult.idToken)
   session.flash({message: "Login succesfully", type: 'success'})
+  m.redraw()
 })
 
 export { lock as default }
