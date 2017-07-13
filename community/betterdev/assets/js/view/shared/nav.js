@@ -37,7 +37,7 @@ const NavView = {
     return m('section.section.section-header.bg-gray', m('section.grid-header.container.grid-960', m('nav.navbar', [
         m("section.navbar-section", [
             m("a.btn.btn-lg.btn-link.btn-action.show-sm", {href: "#sidebar"}, m("i.icon.icon-menu")),
-            m("a.navbar-brand.mr-10", {href: '#'}, 'BetterDev')]),
+            m("a.navbar-brand.mr-10.hide-sm", {href: '#'}, 'BetterDev')]),
         m("section.navbar-section", m(SearchView)),
         m(ProfileView)
       ])))

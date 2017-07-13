@@ -7,16 +7,20 @@ const Search = {
     return m(".input-group.input-inline", [
       m("input.form-input.input-group-addon", {
         type: "text", placeholder: "search",
-        oninput: m.withAttr("value", function(value) { query = value })
+        oninput: m.withAttr("value", (value) => { query = value })
       }),
       m("button.btn.btn-primary.input-group-btn" + (Post.postStatus == "searching" ? ".loading" : ''), {
         onclick: (e) => {
           if (query != "") {
-            return Post.search(query)
+            Post.params["q"] = query
+            return Post.loadList()
+          } else {
+            delete Post.params.q
+            return Post.loadList()
           }
         }
       }, "Search"),
-      query == "" ? null : m("button.btn.btn-primary.input-group-btn", {onclick: () => { query = ""; Post.loadList()}}, "Reset")
+      query == "" ? null : m("button.btn.btn-primary.input-group-btn", {onclick: () => { delete Post.params.q; Post.loadList(); query = ""; }}, "Reset")
     ])
   }
 }
