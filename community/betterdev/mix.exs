@@ -47,6 +47,7 @@ defmodule Betterdev.Mixfile do
      {:new_relic, git: "https://github.com/runtastic/newrelic-elixir.git"},
      {:timex, "~> 3.0"},
      {:slack, "~> 0.11.0"},
+     {:html_sanitize_ex, "~> 1.3.0-rc"},
      {:cowboy, "~> 1.0"}]
   end
 

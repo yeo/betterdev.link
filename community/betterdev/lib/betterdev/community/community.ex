@@ -30,12 +30,13 @@ defmodule Betterdev.Community do
       preload: [:tags, :user, collections: ^collection_query]
       #link = Repo.preload(link, [collections: ^collection_query])
 
+    if params["q"] do
+      link_ids = search_links(params["q"])
+      link = from p in link,
+        where: p.id in ^(link_ids)
+    end
+
     link = case params do
-			%{"q" => q} ->
-				link_ids = search_links(q)
-        IO.inspect(link_ids)
-        from p in link,
-          where: p.id in ^(link_ids)
       %{"user_id" => uid} ->
         from p in link,
           where: p.user_id == ^(uid)
@@ -130,12 +131,17 @@ defmodule Betterdev.Community do
     IO.puts "Post process link"
 
     w = Scrape.article(link.uri)
-    r = [id: link.id, title: link.title, description: link.description, content: w.fulltext, uri: link.uri]
+    body = case HTTPoison.get(link.uri,  [], [ ssl: [{:versions, [:'tlsv1.2']}] ]) do
+      {:ok,  %HTTPoison.Response{body: b}} -> HtmlSanitizeEx.strip_tags(b)
+      _ -> w.fulltext
+    end
+
+    r = [id: link.id, title: link.title, description: link.description, content: body, uri: link.uri]
 
     # index
     put("/betterdev/link/#{link.id}", r)
 
-    tags = Betterdev.Helper.Classifier.extract(w.fulltext)
+    tags = Betterdev.Helper.Classifier.extract(body)
     # Insert tag
     link = link |> Repo.preload(:tags) |> Repo.preload(:user)
     tags = tags ++ (w.tags |> Enum.filter_map(&(&1[:accuracy] >= 0.7), &(&1[:name])))
