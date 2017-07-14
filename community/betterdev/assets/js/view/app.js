@@ -25,7 +25,7 @@ class AddToCollectionView {
           Collection.list.map((c) => {
             return m('li.menu-item', [m('button.btn.btn-sm',{onclick: (e) => {
               Collection.append(vnode.attrs.link, c)
-            }}, m('i.icon' + vnode.attrs.link.collections.indexOf(c.id) >= 0 ? '.icon-plus' : '.icon-minus')), ' ', c.name])
+            }}, m('i.icon.' + (vnode.attrs.link.collections.indexOf(c.id) >= 0 ? 'icon-minus' : 'icon-plus'))), ' ', c.name])
           }),
           m('li.divider'),
           m('li.menu-item', m('.input-group', [
@@ -60,6 +60,10 @@ const PostlistView = {
     Collection.loadList()
   },
   view: () => {
+    if (Post.list.length == 0) {
+      return m('p', 'Sadly we found no result for this. Please use different search term')
+    }
+
     return Post.list.map((p) => {
       return m("div.column.col-12", [
         m(".article",m('div.tile', [
