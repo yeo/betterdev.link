@@ -49,7 +49,15 @@ defmodule Betterdev.Community.Bot do
     IO.puts "Listen with #{start}"
     messages =  Exbot.get_updates(&(&1 |> Update.with_offset(start)))
     last_message = messages |> List.last
-    messages |> Enum.filter_map(&(&1.message && &1.message.text), &(import_link(&1.message.text)))
+
+    try do
+      messages |> Enum.filter_map(&(&1.message && &1.message.text), &(import_link(&1.message.text)))
+    rescue
+      # TODO: We may want to report to some monitoring system
+      # We don't want it to break this process. Hence ignore error and continue
+      e in RuntimeError -> IO.inspect e
+    end
+
     if last_message == nil do
       if start > 0 do
         next = start
