@@ -1,7 +1,7 @@
 defmodule Betterdev.Community.Bot do
   use GenServer
 
-  @interval 3000
+  @interval 10000
 
   alias Betterdev.Account
   alias Betterdev.Community.Link
@@ -26,14 +26,6 @@ defmodule Betterdev.Community.Bot do
     next = listen(state)
     schedule_work() # Reschedule once more
     {:noreply, next}
-  end
-
-
-
-  def start do
-    listen(-100)
-    #Enum.map(links , &(Link.changeset(%Link{}, %{user: import_user, title: &1, uri: &1}) |> Repo.insert()))
-    #Enum.map(links , &(Link.changeset(%Link{}, %{user: import_user, title: &1, uri: &1}) |> Repo.insert()))
   end
 
   def import_user do
