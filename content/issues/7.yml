@@ -1,0 +1,65 @@
+---
+time: "Jul 17, 2017"
+description: "Hi everyone, this week we have some cool stuff on reverse engineering API. It also a great way to see what we can do to improve our API security. We also focus a bit more on database, the heart of almost all web application. "
+draft: true
+links:
+  - url: https://blog.tendigi.com/starbucks-should-really-make-their-apis-public-6b64a1c2e923
+    title: "Starbucks should really make their APIs public"
+    description: "Starbucks doesn't have a public api. The author reverses engineering their mobile app in order to make API call to starbuck on his own. It's a great read about tooling, process, strategy in reverese engineering."
+
+  - url: https://www.alexkras.com/reverse-engineering-one-line-of-javascript/
+    title: Reverse Engineering One Line of JavaScript
+    description: "Author reversed engineering a single line of JavaScript that render an animation image"
+
+  - url: https://dev.to/ruidfigueiredo/briefish-explanation-of-how-https-works
+    title: "Brief(ish) explanation of how https works"
+    description: "Explaining HTTPS by explaining how communications are made secure, namely how Diffie-Hellman key exchange and digital certificates work."
+
+  - url: https://www.citusdata.com/blog/2017/07/16/customizing-my-postgres-shell-using-psqlrc/
+    title: Customizing Your Postgres Shell
+    description: "Developer spend lots of time in terminal, database shell isn't an exception. Let's look into what we can customize to improve usability for database shell."
+
+  - url: https://blog.vivekpanyam.com/scaling-a-web-service-load-balancing/
+    title: "Scaling A Web Service: Load Balancing"
+    description: "This post is going to look at one aspect of how sites like Facebook handle billions of requests and stay highly available: load balancing."
+
+  - url: https://brandur.org/postgres-queues
+    title: "Postgres Job Queues & Failure By MVCC"
+    description: "How Postgres' concurrency model coupled with long-lived transactions can degrade the performance of indexes on hot tables in your database."
+
+  - url: https://aws.amazon.com/blogs/ai/tuning-your-dbms-automatically-with-machine-learning
+    title: "Tuning Your DBMS Automatically with Machine Learning"
+    description: "OtterTune can automatically find good settings for a DBMS’s configuration knobs. The goal is to make it easier for anyone to deploy a DBMS, even those without any expertise in database administration."
+
+  - url: https://githubengineering.com/mysql-testing-automation-at-github/
+    title: MySQL Infrastructure Testing Automation At GitHub
+    description: "Recently, Gitlab lost some data due to a database incident and the backups weren't working properly. In this article, Github shares what they do to automate every aspect of operating a database: from backups, restoring to a failover, and cloning a production database for testing purpose."
+
+  - url: https://engineeringblog.yelp.com/2017/06/moving-yelps-core-business-search-to-elasticsearch.html
+    title: "Moving Yelp's Core Business Search to Elasticsearch"
+    description: "Yelp typically uses Elasticsearch as a backend, however Yelp’s core business search used its own custom backend, built directly on top of Lucene. Learn how they migrate it to Elasticsearch too."
+
+  - url: https://www.howtographql.com/
+    title: "The Fullstack Tutorial for GraphQL"
+    description: "The free and open-source tutorial to learn all around GraphQL to go from zero to production."
+
+  - url: http://elixirbridge.org/02_Intro_to_Elixir/01-why-program-why-elixir.html
+    title: "An Elixir lang guide"
+    description: "Erlang is what powers WhatsApp. It's power is in low-latency, distributed and fault-tolerant system. Elixir leverages ErlangVM with a more \"friendly\" syntax, relative to some languages. It’s designed to work with modern computers that have many CPU cores that run in parallel, and even across networks. This guide is a great start to get started with Elixir quickly."
+
+read_code:
+  - url: https://github.com/robinmonjo/blockchain
+    tite: "Naive blockchain implementation in Elixir."
+
+  - url: https://www.eliotsykes.com/real-world-rails-background-jobs
+    title: "Real World Rails Background Jobs from open source github project."
+
+  - url: https://github.com/DutchGraa/crackcoin
+    title: "Very basic blockchain-free cryptocurrency PoC in Python."
+
+tool:
+  - url: https://seashells.io/
+    title: "Seashells lets you pipe output from command-line programs to the web in real-time"
+
+  - url: https://github.com/geekplux/markvis
+    title: "Make visualizations in Markdown"
