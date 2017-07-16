@@ -1,23 +1,23 @@
 ---
 time: "Jul 17, 2017"
-description: "Hi everyone, this week we have some cool stuff on reverse engineering API. It also a great way to see what we can do to improve our API security. We also focus a bit more on database, the heart of almost all web application. "
+description: "Hi everyone, this week we have some cool stuff on reverse engineering APIs, Providing a great way to see what we can do to improve our API security. We also focus on database, the heart of almost all web applications. "
 draft: true
 links:
   - url: https://blog.tendigi.com/starbucks-should-really-make-their-apis-public-6b64a1c2e923
-    title: "Starbucks should really make their APIs public"
-    description: "Starbucks doesn't have a public api. The author reverses engineering their mobile app in order to make API call to starbuck on his own. It's a great read about tooling, process, strategy in reverese engineering."
+    title: "Starbucks Should Really Make Their APIs Public"
+    description: "Starbucks doesn't have a public API. The author must reverse engineering their mobile app in order to make API call to Starbucks on their own. This is a great read about tooling, process, and strategy in reverse engineering."
 
   - url: https://www.alexkras.com/reverse-engineering-one-line-of-javascript/
     title: Reverse Engineering One Line of JavaScript
-    description: "Author reversed engineering a single line of JavaScript that render an animation image"
+    description: "The author of this article reverse engineered a single line of JavaScript that renders an animation image."
 
   - url: https://dev.to/ruidfigueiredo/briefish-explanation-of-how-https-works
-    title: "Brief(ish) explanation of how https works"
-    description: "Explaining HTTPS by explaining how communications are made secure, namely how Diffie-Hellman key exchange and digital certificates work."
+    title: "Brief(ish) Explanation Of How HTTPS Works"
+    description: "Explaining HTTPS by showing how communications are made secure, namely how Diffie-Hellman key exchange and digital certificates work."
 
   - url: https://www.citusdata.com/blog/2017/07/16/customizing-my-postgres-shell-using-psqlrc/
-    title: Customizing Your Postgres Shell
-    description: "Developer spend lots of time in terminal, database shell isn't an exception. Let's look into what we can customize to improve usability for database shell."
+    title: "Customizing Your Postgres Shell"
+    description: "Developers spend lots of time in Terminal and database shell isn't an exception. Let's look into what we can customize to improve usability for database shell."
 
   - url: https://blog.vivekpanyam.com/scaling-a-web-service-load-balancing/
     title: "Scaling A Web Service: Load Balancing"
@@ -44,8 +44,8 @@ links:
     description: "The free and open-source tutorial to learn all around GraphQL to go from zero to production."
 
   - url: http://elixirbridge.org/02_Intro_to_Elixir/01-why-program-why-elixir.html
-    title: "An Elixir lang guide"
-    description: "Erlang is what powers WhatsApp. It's power is in low-latency, distributed and fault-tolerant system. Elixir leverages ErlangVM with a more \"friendly\" syntax, relative to some languages. It’s designed to work with modern computers that have many CPU cores that run in parallel, and even across networks. This guide is a great start to get started with Elixir quickly."
+    title: "An Elixir lang guide."
+    description: "Erlang is what powers WhatsApp. Its power is in low-latency, distributed and fault-tolerant system. Elixir leverages ErlangVM with a more \"friendly\" syntax, relative to some languages. It’s designed to work with modern computers that have many CPU cores that run in parallel, and even across networks. This guide is a great start to get started with Elixir quickly."
 
 read_code:
   - url: https://github.com/robinmonjo/blockchain
