@@ -1,7 +1,7 @@
 ---
 time: "Jul 17, 2017"
 description: "Hi everyone, this week we have some cool stuff on reverse engineering APIs, Providing a great way to see what we can do to improve our API security. We also focus on database, the heart of almost all web applications. "
-draft: true
+#draft: true
 links:
   - url: https://blog.tendigi.com/starbucks-should-really-make-their-apis-public-6b64a1c2e923
     title: "Starbucks Should Really Make Their APIs Public"
