@@ -49,7 +49,7 @@ links:
 
 read_code:
   - url: https://github.com/robinmonjo/blockchain
-    tite: "Naive blockchain implementation in Elixir."
+    title: "Naive blockchain implementation in Elixir."
 
   - url: https://www.eliotsykes.com/real-world-rails-background-jobs
     title: "Real World Rails Background Jobs from open source github project."
