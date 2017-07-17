@@ -38,7 +38,8 @@ defmodule Betterdev.Community.Bot do
         [url | _] ->
           w = Scrape.website(url)
           if w.title do
-            %Link{user_id: 1, title: w.title || url, uri: url, description: w.description, picture: w.image || w.favicon, status: "published", } |> Repo.insert()
+            link = %Link{user_id: 1, title: w.title || url, uri: url, description: w.description, picture: w.image || w.favicon, status: "published", } |> Repo.insert()
+            Task.start_link(fn -> Community.post_process_link(link) end)
           end
           _ -> IO.puts "#{text} has no url"
       end
