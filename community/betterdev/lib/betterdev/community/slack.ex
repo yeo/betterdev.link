@@ -1,5 +1,6 @@
 defmodule Betterdev.Community.SlackRtm do
   use Slack
+  alias Betterdev.Community.Bot
 
   def handle_connect(slack, state) do
     IO.puts "Connected as #{slack.me.name}"
@@ -7,7 +8,9 @@ defmodule Betterdev.Community.SlackRtm do
   end
 
   def handle_event(message = %{type: "message"}, slack, state) do
-    send_message("I got a message!", message.channel, slack)
+    IO.inspect message
+    Bot.import_link(message.text)
+    send_message("Thanks. I have imported it. View it on https://one.betterdev.link", message.channel, slack)
     {:ok, state}
   end
   def handle_event(_, _, state), do: {:ok, state}
