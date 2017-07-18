@@ -22,7 +22,7 @@
   "hackney": {:hex, :hackney, "1.8.6", "21a725db3569b3fb11a6af17d5c5f654052ce9624219f1317e8639183de4a423", [:rebar3], [{:certifi, "1.2.1", [hex: :certifi, optional: false]}, {:idna, "5.0.2", [hex: :idna, optional: false]}, {:metrics, "1.0.1", [hex: :metrics, optional: false]}, {:mimerl, "1.0.2", [hex: :mimerl, optional: false]}, {:ssl_verify_fun, "1.1.1", [hex: :ssl_verify_fun, optional: false]}]},
   "html5ever": {:hex, :html5ever, "0.1.1", "ff873663f8c1e1da60cbcc752b1aff1734354882691208dfa6d6c440525675ae", [:mix], [{:rustler, "~> 0.7", [hex: :rustler, optional: false]}]},
   "html_sanitize_ex": {:hex, :html_sanitize_ex, "1.3.0", "f005ad692b717691203f940c686208aa3d8ffd9dd4bb3699240096a51fa9564e", [:mix], [{:mochiweb, "~> 2.15", [hex: :mochiweb, optional: false]}]},
-  "httpoison": {:hex, :httpoison, "0.11.2", "9e59f17a473ef6948f63c51db07320477bad8ba88cf1df60a3eee01150306665", [:mix], [{:hackney, "~> 1.8.0", [hex: :hackney, optional: false]}]},
+  "httpoison": {:hex, :httpoison, "0.12.0", "8fc3d791c5afe6beb0093680c667dd4ce712a49d89c38c3fe1a43100dd76cf90", [:mix], [{:hackney, "~> 1.8.0", [hex: :hackney, optional: false]}]},
   "idna": {:hex, :idna, "5.0.2", "ac203208ada855d95dc591a764b6e87259cb0e2a364218f215ad662daa8cd6b4", [:rebar3], [{:unicode_util_compat, "0.2.0", [hex: :unicode_util_compat, optional: false]}]},
   "jiffy": {:hex, :jiffy, "0.14.7", "9f33b893edd6041ceae03bc1e50b412e858cc80b46f3d7535a7a9940a79a1c37", [:make, :rebar], []},
   "joken": {:hex, :joken, "1.5.0", "42a0953e80bd933fc98a0874e156771f78bf0e92abe6c3a9c22feb6da28efb0b", [:mix], [{:jose, "~> 1.8", [hex: :jose, optional: false]}, {:plug, "~> 1.0", [hex: :plug, optional: true]}, {:poison, "~> 1.5 or ~> 2.0 or ~> 3.0", [hex: :poison, optional: true]}]},
@@ -53,7 +53,7 @@
   "redix": {:hex, :redix, "0.6.1", "20986b0e02f02b13e6f53c79a1ae70aa83147488c408f40275ec261f5bb0a6d0", [:mix], [{:connection, "~> 1.0", [hex: :connection, repo: "hexpm", optional: false]}], "hexpm"},
   "rustler": {:hex, :rustler, "0.9.0", "6fa87ac78f48f70aa8ecfb6e16b8af41c398989d33de41d292b5581d6a2eeb5a", [:mix], []},
   "scrape": {:hex, :scrape, "2.0.0", "ded4faddab76e18d8837cf503b38dfcecb27d677398a49a484fbf6eb8865ab25", [:mix], [{:codepagex, "~> 0.1.4", [hex: :codepagex, optional: false]}, {:floki, "~> 0.14", [hex: :floki, optional: false]}, {:html5ever, "~> 0.1.0", [hex: :html5ever, optional: false]}, {:httpoison, "~> 0.11", [hex: :httpoison, optional: false]}, {:parallel, "~> 0.0.3", [hex: :parallel, optional: false]}, {:timex, "~> 3.0", [hex: :timex, optional: false]}]},
-  "slack": {:hex, :slack, "0.11.0", "9353db9fe2ad9de2222862361869f214dfc8d2dfb793d056fdfbf3c43ce9a244", [:mix], [{:exjsx, "~> 3.2.0", [hex: :exjsx, optional: false]}, {:httpoison, "~> 0.11", [hex: :httpoison, optional: false]}, {:websocket_client, "~> 1.1.0", [hex: :websocket_client, optional: false]}]},
+  "slack": {:hex, :slack, "0.12.0", "a305f87adca043e056a86f92151d085a8c359718f9c4ca7f1d1012d67b75db8a", [:mix], [{:httpoison, "~> 0.11", [hex: :httpoison, optional: false]}, {:poison, "~> 3.0", [hex: :poison, optional: false]}, {:websocket_client, "~> 1.2.4", [hex: :websocket_client, optional: false]}]},
   "ssl_verify_fun": {:hex, :ssl_verify_fun, "1.1.1", "28a4d65b7f59893bc2c7de786dec1e1555bd742d336043fe644ae956c3497fbe", [:make, :rebar], []},
   "statman": {:hex, :statman, "0.5.0", "3b130ed01bca478d34631752f678dc43ffe09d46d2e526554e285673c3497270", [:rebar3], [{:decorators, "0.1.0", [hex: :decorators, optional: false]}]},
   "timex": {:hex, :timex, "3.1.15", "94abaec8fef2436ced4d0e1b4ed50c8eaa5fb9138fc0699946ddee7abf5aaff2", [:mix], [{:combine, "~> 0.7", [hex: :combine, optional: false]}, {:gettext, "~> 0.10", [hex: :gettext, optional: false]}, {:tzdata, "~> 0.1.8 or ~> 0.5", [hex: :tzdata, optional: false]}]},
@@ -62,4 +62,4 @@
   "ueberauth": {:hex, :ueberauth, "0.4.0", "bc72d5e5a7bdcbfcf28a756e34630816edabc926303bdce7e171f7ac7ffa4f91", [:mix], [{:plug, "~> 1.2", [hex: :plug, optional: false]}]},
   "unicode_util_compat": {:hex, :unicode_util_compat, "0.2.0", "dbbccf6781821b1c0701845eaf966c9b6d83d7c3bfc65ca2b78b88b8678bfa35", [:rebar3], []},
   "uuid": {:hex, :uuid, "1.1.7", "007afd58273bc0bc7f849c3bdc763e2f8124e83b957e515368c498b641f7ab69", [:mix], [], "hexpm"},
-  "websocket_client": {:hex, :websocket_client, "1.1.0", "c1ac9162a2286d3ca747417b1717090e762becba1f9f0bde359cb0318b066636", [:rebar3], []}}
+  "websocket_client": {:hex, :websocket_client, "1.2.4", "14ec1ca4b6d247b44ccd9a80af8f6ca98328070f6c1d52a5cb00bc9d939d63b8", [:rebar3], []}}

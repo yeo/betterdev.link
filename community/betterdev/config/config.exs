@@ -66,3 +66,8 @@ config :new_relic,
   application_name: System.get_env("NEWRELIC_APP_NAME"),
   license_key: System.get_env("NEWRELIC_LICENSE_KEY"),
   poll_interval: 10_000
+
+config :slack,
+  client_id: System.get_env("SLACK_CLIENT_ID"),
+  client_secret: System.get_env("SLACK_CLIENT_SECRET"),
+  client_token: System.get_env("SLACK_CLIENT_TOKEN")

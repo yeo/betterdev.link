@@ -24,6 +24,7 @@ defmodule Betterdev.Web.Router do
 
     get "/", PageController, :index
     get "/img", ImageController, :index
+    get "bot/slack", SlackController, :index
   end
 
   # Other scopes may use custom stacks.
