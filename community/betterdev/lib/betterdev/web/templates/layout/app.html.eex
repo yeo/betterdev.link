@@ -9,7 +9,20 @@
 
 		<title>Become a better developer - together</title>
 
-		<link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+    <script>
+    window.app = {
+      config: {
+        slack: {
+          client_id: '73737491668.207721165366',
+        },
+        telegram: {
+          bot: 'BetterdevBot'
+          token: ''
+        },
+      }
+    }
+    </script>
 	</head>
 
   <body>

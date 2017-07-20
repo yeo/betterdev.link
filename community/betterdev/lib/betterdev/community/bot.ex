@@ -34,6 +34,7 @@ defmodule Betterdev.Community.Bot do
 
   def import_link(text) do
     String.split(text, "\n") |> Enum.map(fn (line) ->
+      IO.inspect line
       case Regex.run(~r/(http|https):\/\/([^\s\t\n]+)/, text, global: true) do
         [url | _] ->
           w = Scrape.website(url)
