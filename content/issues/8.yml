@@ -1,0 +1,62 @@
+---
+time: "Jul 17, 2017"
+description: "This week, Stripe releases second issue of Increment magazine, lots of cloud infrastructure story. Check them out. Crazy and Etherum are also crazy this week. I include some links about technical challenge they have to solve now."
+draft: true
+links:
+   - url: https://increment.com/cloud/
+     title: "Increment Cloud - covering the state of software engineering"
+     description: "This second issue focuses on the state of cloud computing and cloud best practices for companies both large and small."
+
+  - url: https://testing.googleblog.com/2017/07/code-health-to-comment-or-not-to-comment.html
+    title: "Code Health: To Comment or Not to Comment?"
+    description: "Code Health is an Google's Internal Code Quality Efforts. In this, they discuss some methods to remove comment and make the code self-explanatory."
+
+  - url: https://blog.alexellis.io/track-flights-with-rpi/
+    title: 'Get eyes on the sky with Raspberry Pi'
+    description: 'By capturing radio signals emitted from planesto 250 miles away from your location, you can track flights and it only takes a few minutes and a cheap USB TV stick to get started.'
+
+  - url: https://about.sourcegraph.com/go/grpc-in-production-alan-shreve
+    title: 'gRPC in Production'
+    description: "Today, microservice mostly use RESTful API to communicate. Being HTTP based, it's hard to do stream, bi-directional, hard to get many resource(hence we have GraphQL). gRPC is an universal RPC framework. We define services in  Interface Definition Language, and gRPC generate client code and server stub for us in 7 languages."
+
+  - url: http://www.corsix.org/content/converting-floats-to-strings-part-1
+    title: 'Converting floats to strings, part 1'
+    description: "Much has been written about this problem. It's often frame as 'converting a floating point number to the shortest possible decimal string representation'. The Author considers a much simpler framing: 'convert a double-precision floating point number to a decimal string'"
+
+  - url: http://250bpm.com/blog:95
+    title: 'Linguistics and Programming Languages'
+    description: 'It is quite common to use computers to analyse natural languages. Author discuss about the other way: the hope that one day we will be able to communicate with computers in natural language.'
+
+  - url: http://www.practicalai.io/implementing-classification-using-a-svm-in-ruby/
+    title: 'Implementing classification using a SVM in Ruby'
+    description: 'How implement a support vector machine (SVM) in Ruby, and how to use it to solve a simple classification problem. How to setup a SVM, train it and make predictions in a minutes.'
+
+  - url: https://www.byte.nl/blog/dont-run-this-on-any-system-you-expect-to-be-up-they-said-but-we-did-it-anyway?utm_source=cronweekly.com
+    title: "Upgrading over 2000 Ubuntu production servers"
+    description: "They install the OS in memory, wiping the root disk, and bring the OS back on disk from RAM. Pretty impressive work."
+
+  - url: https://medium.freecodecamp.org/a-hacker-stole-31m-of-ether-how-it-happened-and-what-it-means-for-ethereum-9e5dc29e33ce
+    title: 'A hacker stole $31M of Ether — how it happened, and what it means for Ethereum'
+    description: 'An attacker exploited a critical flaw on Ethereum network, hack over $31,000,000 worth of Ether in a matter of minutes. The white-hats hacked all of the remaining at-risk wallets, preventing the attacker from reaching any of the remaining $150,000,000.'
+
+  - url: https://medium.com/@muneeb/solar-storm-a-serious-security-exploit-with-ethereum-not-just-the-dao-a03d797d98fa
+    title: 'A security issue with Ethereum’s Solidity language, not just the DAO'
+    description: 'Another issue in Solidity, a JavaScript-like language that Ethereum uses for smart contracts, has been discovered that can impact any Ethereum contract, not just the DAO.'
+
+  - url: https://ocalog.com/post/10/
+    title: 'Ethereum from scratch - Part 1: Ping'
+    description: "Ethereum is a cryptocurrency where code can be executed on the blockchain. This capability allows 'smart contracts' to be written which execute themselves automatically. In this post, the author implements ping on the Ethereum network. Make sure you checkout part 2 as well."
+
+  - url: https://cranklin.wordpress.com/2017/07/11/lets-create-our-own-cryptocurrency/
+    title: 'Let’s Create Our Own Cryptocurrency'
+    description: "We had seen the raise of cryptocurrency with BitCoint and Etherum in recent years. How will you desigm your own cryptocurrency from scrach. The author scrach his own itch and share with us the process. It's Python but can also be an exercise for you to reimplement in your favourite language."
+
+read_code:
+  - url: https://github.com/robinmonjo/blockchain
+    title: "Naive blockchain implementation in Elixir"
+
+  - url: https://github.com/mattvonrocketstein/elixir-microservice-architecture
+    title: "This is a sketch of a microservice architecture using Elixir, Redis, HAProxy, and docker-compose. It showcases a kind of command/query responsibility separation, a load-balanced web API, and clustered queue-workers that are capable of message-passing amongst themselves. "
+tool:
+  - url: https://github.com/sheetsu/sheetsu-web-client
+    title: "Using Google Spreadsheets as a website database. With few lines of code you can read and write data to Google Spreadsheets."
