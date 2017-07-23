@@ -1,4 +1,4 @@
----
+--
 time: "Jul 17, 2017"
 description: "This week, Stripe releases second issue of Increment magazine, lots of cloud infrastructure story. Check them out. Crazy and Etherum are also crazy this week. I include some links about technical challenge they have to solve now."
 draft: true
@@ -52,11 +52,15 @@ links:
     description: "We had seen the raise of cryptocurrency with BitCoint and Etherum in recent years. How will you desigm your own cryptocurrency from scrach. The author scrach his own itch and share with us the process. It's Python but can also be an exercise for you to reimplement in your favourite language."
 
 read_code:
-  - url: https://github.com/robinmonjo/blockchain
-    title: "Naive blockchain implementation in Elixir"
+  - url: https://github.com/lafikl/consistent
+    title: "Using consistent hashing, when hash table resizes, only a partial of keys need to be remap. This Go library implements Consistent Hashing and Consistent Hashing With Bounded Loads."
 
   - url: https://github.com/mattvonrocketstein/elixir-microservice-architecture
-    title: "This is a sketch of a microservice architecture using Elixir, Redis, HAProxy, and docker-compose. It showcases a kind of command/query responsibility separation, a load-balanced web API, and clustered queue-workers that are capable of message-passing amongst themselves. "
+    title: "A sketch of a microservice architecture using Elixir, Redis, HAProxy, and docker-compose. It showcases a kind of command/query responsibility separation, a load-balanced web API, and clustered queue-workers that are capable of message-passing amongst themselves."
+
 tool:
   - url: https://github.com/sheetsu/sheetsu-web-client
     title: "Using Google Spreadsheets as a website database. With few lines of code you can read and write data to Google Spreadsheets."
+
+  - url: https://research.googleblog.com/2017/07/facets-open-source-visualization-tool.html
+    title: "Facets: An Open Source Visualization Tool for Machine Learning Training Data"
