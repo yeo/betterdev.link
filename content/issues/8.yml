@@ -1,62 +1,62 @@
 ---
 time: "Jul 24, 2017"
-description: "This week, Stripe releases second issue of Increment magazine, lots of cloud infrastructure story. Check them out. BitCoint and Etherum also had a crazy week. I includes some links about technical challenges they have to solve now."
+description: "This week, Stripe releases second issue of Increment magazine with lots of cloud infrastructure information. BitCoin and Etherum also had a crazy week. I includes some links about some interesting technical challenges both have to solve now."
 draft: true
 links:
   - url: https://increment.com/cloud/
-    title: "Increment Cloud - covering the state of software engineering"
-    description: "This second issue focuses on the state of cloud computing and cloud best practices for companies both large and small."
+    title: "Increment Cloud - Covering The State Of Software Engineering"
+    description: "This second issue from Increment Cloud focuses on the state of cloud computing and best practices for companies both small and large."
 
   - url: https://testing.googleblog.com/2017/07/code-health-to-comment-or-not-to-comment.html
     title: "Code Health: To Comment or Not to Comment?"
-    description: "Code Health is an Google's Internal Code Quality Efforts. They discuss some methods to remove comment and make the code self-explanatory."
+    description: "Code Health is Google's internal code quality effort. They discuss methods to remove comments and make the code more self-explanatory."
 
   - url: https://blog.alexellis.io/track-flights-with-rpi/
-    title: 'Get eyes on the sky with Raspberry PI'
+    title: 'Get Eyes on the Sky with Raspberry PI'
     description: 'By capturing radio signals emitted from planes up to 250 miles away from your location, you can track flights and it only takes a few minutes and a cheap USB TV stick to get started.'
 
   - url: https://about.sourcegraph.com/go/grpc-in-production-alan-shreve
     title: 'gRPC in Production'
-    description: "Today, microservices mostly use RESTful API to communicate. Being HTTP based, it's hard to do stream, bi-directional, and to get many resources(hence we have GraphQL). gRPC is an universal RPC framework. We define services in Interface Definition Language, and gRPC generates client code and server stub for us in 7 languages."
+    description: "Today, micro services mostly use RESTful APIs to communicate. Being HTTP-based, it's hard to do stream bi-directional, and to get many resources (hence we have GraphQL). gRPC is a universal RPC framework. We define services in Interface Definition Language, and gRPC generates client code and server stubs for us in 7 languages."
 
   - url: http://www.corsix.org/content/converting-floats-to-strings-part-1
-    title: 'Converting floats to strings, part 1'
-    description: "It's often frame as 'converting a floating point number to the shortest possible decimal string representation'. The author considers a much simpler framing: 'convert a double-precision floating point number to a decimal string'"
+    title: 'Converting Floats to Strings, Part 1'
+    description: "While it's often framed as 'converting a floating point number to the shortest possible decimal string representation', the author considers a much simpler framing: 'convert a double-precision floating point number to a decimal string'."
 
   - url: http://250bpm.com/blog:95
     title: 'Linguistics and Programming Languages'
-    description: 'It is quite common to use computers to analyse natural languages. The author discussed about the other way: the hope that one day we will be able to communicate with computers in natural language.'
+    description: 'It is quite common to use computers to analyze natural languages. The author invisions this in the other way: the hope that one day we will be able to communicate with computers in natural language.'
 
   - url: http://www.practicalai.io/implementing-classification-using-a-svm-in-ruby/
-    title: 'Implementing classification using a SVM in Ruby'
-    description: 'How implement a support vector machine (SVM) in Ruby, and how to use it to solve a simple classification problem. How to setup a SVM, train it and make predictions in a minutes.'
+    title: 'Implementing Classification Using a SVM in Ruby'
+    description: 'How implement a support vector machine (SVM) in Ruby, and how to use it to solve a simple classification problem. Learn how to setup a SVM, train it, and make predictions in a manner of minutes.'
 
-  - url: https://www.byte.nl/blog/dont-run-this-on-any-system-you-expect-to-be-up-they-said-but-we-did-it-anyway?utm_source=cronweekly.com
-    title: "Upgrading over 2000 Ubuntu production servers"
+  - url: https://www.byte.nl/blog/dont-run-this-on-any-system-you-expect-to-be-up-they-said-but-we-did-it-anyway
+    title: "Upgrading over 2000 Ubuntu Production Servers"
     description: "They install the OS in memory, wiping the root disk, and bring the OS back on disk from RAM. Pretty impressive work."
 
   - url: https://medium.freecodecamp.org/a-hacker-stole-31m-of-ether-how-it-happened-and-what-it-means-for-ethereum-9e5dc29e33ce
-    title: 'A hacker stole $31M of Ether — how it happened, and what it means for Ethereum'
-    description: 'Over $31,000,000 worth of Ether were stolen in a matter of minutes. The white-hats hacked all of the remaining at-risk wallets, preventing the attacker from reaching any of the remaining $150,000,000.'
+    title: 'A Hacker Stole $31M of Ether — How it Happened, and What it Means for Ethereum'
+    description: 'Over $31,000,000 worth of Ether was stolen in a matter of minutes. The white-hats hacked all of the remaining at-risk wallets, preventing the attacker from reaching any of the remaining $150,000,000.'
 
   - url: https://medium.com/@muneeb/solar-storm-a-serious-security-exploit-with-ethereum-not-just-the-dao-a03d797d98fa
-    title: 'A security issue with Ethereum’s Solidity language, not just the DAO'
+    title: 'A Security Issue with Ethereum’s Solidity Language, Not Just the DAO'
     description: 'Another issue in Solidity, a JavaScript-like language that Ethereum uses for smart contracts, has been discovered that can impact any Ethereum contract, not just the DAO.'
 
   - url: https://ocalog.com/post/10/
-    title: 'Ethereum from scratch - Part 1: Ping'
-    description: "Ethereum is a cryptocurrency where code can be executed on the blockchain. This capability allows 'smart contracts' to be written which execute themselves automatically. The author implements ping on the Ethereum network. Make sure you checkout part 2 as well."
+    title: 'Ethereum from Scratch - Part 1: Ping'
+    description: "Ethereum is a cryptocurrency where code can be executed on the blockchain. This capability allows 'smart contracts' to be written which execute themselves automatically. The author implements ping on the Ethereum network. Make sure you checkout part two as well."
 
   - url: https://cranklin.wordpress.com/2017/07/11/lets-create-our-own-cryptocurrency/
     title: 'Let’s Create Our Own Cryptocurrency'
-    description: "BitCoint and Etherum are raising in recent years. How will you design your own cryptocurrency from scrach? The author scrach his own itch and share with us the process. It's Python but can also be an exercise for you to reimplement in your favourite language."
+    description: "BitCoin and Etherum are becoming more and more known in recent years. How would you design your own cryptocurrency? The author scratches his own itch and shares with us his process. It's done in Python, but can also be an exercise for you to re-implement in your favorite language."
 
 read_code:
   - url: https://github.com/lafikl/consistent
-    title: "Consistent hashing, when hash table resizes, only a partial of keys need to be remap. This Go library implements Consistent Hashing."
+    title: "With consistent hashing, when a hash table resizes, only a partial of keys need to be remapped. This Go library implements consistent hashing."
 
   - url: https://github.com/mattvonrocketstein/elixir-microservice-architecture
-    title: "A microservice architecture using Elixir, Redis, HAProxy, and docker-compose."
+    title: "A micro service architecture using Elixir, Redis, HAProxy, and Docker Compose."
 
 tool:
   - url: https://github.com/sheetsu/sheetsu-web-client
