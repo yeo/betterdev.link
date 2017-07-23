@@ -9,19 +9,19 @@ links:
 
   - url: https://testing.googleblog.com/2017/07/code-health-to-comment-or-not-to-comment.html
     title: "Code Health: To Comment or Not to Comment?"
-    description: "Code Health is an Google's Internal Code Quality Efforts. In this, they discuss some methods to remove comment and make the code self-explanatory."
+    description: "Code Health is an Google's Internal Code Quality Efforts. They discuss some methods to remove comment and make the code self-explanatory."
 
   - url: https://blog.alexellis.io/track-flights-with-rpi/
-    title: 'Get eyes on the sky with Raspberry Pi'
-    description: 'By capturing radio signals emitted from planesto 250 miles away from your location, you can track flights and it only takes a few minutes and a cheap USB TV stick to get started.'
+    title: 'Get eyes on the sky with Raspberry PI'
+    description: 'By capturing radio signals emitted from planes up to 250 miles away from your location, you can track flights and it only takes a few minutes and a cheap USB TV stick to get started.'
 
   - url: https://about.sourcegraph.com/go/grpc-in-production-alan-shreve
     title: 'gRPC in Production'
-    description: "Today, microservice mostly use RESTful API to communicate. Being HTTP based, it's hard to do stream, bi-directional, hard to get many resource(hence we have GraphQL). gRPC is an universal RPC framework. We define services in  Interface Definition Language, and gRPC generate client code and server stub for us in 7 languages."
+    description: "Today, microservices mostly use RESTful API to communicate. Being HTTP based, it's hard to do stream, bi-directional, and to get many resources(hence we have GraphQL). gRPC is an universal RPC framework. We define services in Interface Definition Language, and gRPC generates client code and server stub for us in 7 languages."
 
   - url: http://www.corsix.org/content/converting-floats-to-strings-part-1
     title: 'Converting floats to strings, part 1'
-    description: "Much has been written about this problem. It's often frame as 'converting a floating point number to the shortest possible decimal string representation'. The Author considers a much simpler framing: 'convert a double-precision floating point number to a decimal string'"
+    description: "Much has been written about this problem. It's often frame as 'converting a floating point number to the shortest possible decimal string representation'. The author considers a much simpler framing: 'convert a double-precision floating point number to a decimal string'"
 
   - url: http://250bpm.com/blog:95
     title: 'Linguistics and Programming Languages'
