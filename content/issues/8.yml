@@ -1,7 +1,7 @@
 ---
 time: "Jul 24, 2017"
 description: "This week, Stripe releases second issue of Increment magazine with lots of cloud infrastructure information. BitCoin and Etherum also had a crazy week. I includes some links about some interesting technical challenges both have to solve now."
-draft: true
+draft: false
 links:
   - url: https://increment.com/cloud/
     title: "Increment Cloud - Covering The State Of Software Engineering"
