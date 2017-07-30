@@ -1,0 +1,34 @@
+---
+time: "Jul 31, 2017"
+description: "This week, Stripe releases second issue of Increment magazine with lots of cloud infrastructure information. BitCoin and Etherum also had a crazy week. I includes some links about some interesting technical challenges both have to solve now."
+draft: true
+links:
+  - url: http://jfg-mysql.blogspot.nl/2017/07/how-far-with-mysql-mariadb.html
+  - url: http://docs.knapsackpro.com/2017/when-distributed-locks-might-be-helpful-in-ruby-on-rails-application
+  - url: https://medium.com/@sent0hil/consistent-hashing-a-guide-go-implementation-fe3421ac3e8f
+  - url: https://www.compose.com/articles/use-all-the-databases-part-1/
+  - url: https://medium.com/javascript-scene/why-composition-is-harder-with-classes-c3e627dcd0aa
+  - url: https://www.amberbit.com/blog/2017/7/27/how-learning-elixir-made-me-better-ruby-developer/?utm_source=betterdev&utm_medium=email
+  - url: https://www.youtube.com/channel/UCFKQ85T69sYhifDHF7dnPgw/videos
+  - url: http://ruder.io/deep-learning-nlp-best-practices/
+  - url: https://stackshare.io/circleci/how-circleci-processes-4-5-million-builds-per-month
+  - url: https://dev.to/thepracticaldev/introduction-to-neural-networks
+  - url: https://dev.to/theodesp/understanding-solid-principles-dependency-injection
+  - url: http://the-paper-trail.org/blog/exactly-not-atomic-broadcast-still-impossible-kafka/
+  - url: https://mijailovic.net/2017/07/29/go-fuzz/
+  - url: https://blog.yadutaf.fr/2017/07/28/tracing-a-packet-journey-using-linux-tracepoints-perf-ebpf/
+
+read_code:
+  - url: https://github.com/dthree/addicta
+  - url: https://github.com/janko-m/down
+  - url: https://medium.com/@matryer/introducing-vice-go-channels-across-many-machines-bcac1147d7e2
+  - url: https://github.com/fiatjaf/coisas
+
+tool:
+  - url: https://github.com/workflowproducts/postage
+  - url: https://github.com/graphcool/chromeless
+  - url: https://medium.com/@Pinterest_Engineering/soundwave-an-open-source-configuration-management-database-df75b31b8f5a
+  - url: https://github.com/dirtbags/pcapdb?utm_source=betterdev.link
+  - url: https://github.com/clangen/musikcube
+  - url: https://www.passbolt.com/?utm_source=betterdev.link
+  - url: https://blog.box.com/blog/introducing-memsniff-robust-memcache-traffic-analyzer/?utm_source=betterdev.link
