@@ -1,34 +1,82 @@
 ---
 time: "Jul 31, 2017"
-description: "This week, Stripe releases second issue of Increment magazine with lots of cloud infrastructure information. BitCoin and Etherum also had a crazy week. I includes some links about some interesting technical challenges both have to solve now."
+description: ""
 draft: true
 links:
   - url: http://jfg-mysql.blogspot.nl/2017/07/how-far-with-mysql-mariadb.html
+    title: "How far can you go with MySQL or MariaDB ?"
+    description: "Theoretical, MyISAM permits data and index files to grow up to 256 TiB by default, but this limit can be changed up to the maximum permissible size of 65,536 TiB (256^7 − 1 bytes). But what can be done in practice?"
+
   - url: http://docs.knapsackpro.com/2017/when-distributed-locks-might-be-helpful-in-ruby-on-rails-application
+    title: "When distributed locks might be helpful in Ruby on Rails application"
+    description: "Knapsack Pro creator show us how to detect if application might have a concurrency problem and how to solve it."
+
   - url: https://medium.com/@sent0hil/consistent-hashing-a-guide-go-implementation-fe3421ac3e8f
-  - url: https://www.compose.com/articles/use-all-the-databases-part-1/
-  - url: https://medium.com/javascript-scene/why-composition-is-harder-with-classes-c3e627dcd0aa
-  - url: https://www.amberbit.com/blog/2017/7/27/how-learning-elixir-made-me-better-ruby-developer/?utm_source=betterdev&utm_medium=email
-  - url: https://www.youtube.com/channel/UCFKQ85T69sYhifDHF7dnPgw/videos
-  - url: http://ruder.io/deep-learning-nlp-best-practices/
-  - url: https://stackshare.io/circleci/how-circleci-processes-4-5-million-builds-per-month
+    title: "Consistent hashing, a guide & Go library"
+    description: "Consistent hashing is deceptively simple yet very powerful. Given K keys N slots, when hash table resize, only K/n keys need to be remap to slots."
+
+  - url: https://www.amberbit.com/blog/2017/7/27/how-learning-elixir-made-me-better-ruby-developer/
+    title: "How learning Elixr made me a better Ruby developer"
+    description: "The author write more functional code, avoid mutating data and side effects in methods, do not shy away from (modern) concurrency primitives, and he  explored alternative deployment options."
+
   - url: https://dev.to/thepracticaldev/introduction-to-neural-networks
-  - url: https://dev.to/theodesp/understanding-solid-principles-dependency-injection
-  - url: http://the-paper-trail.org/blog/exactly-not-atomic-broadcast-still-impossible-kafka/
-  - url: https://mijailovic.net/2017/07/29/go-fuzz/
+    title: "Introduction to Neural Networks"
+    description: "Keeyon Ebrahimi, Machine Learning Engineer at Clarifai, walks through how neural networks actually work, and what they did before neural networks"
+
   - url: https://blog.yadutaf.fr/2017/07/28/tracing-a-packet-journey-using-linux-tracepoints-perf-ebpf/
+    title: "Tracing a packet journey using Linux tracepoints, perf and eBPF"
+    description: "perf is a the baseline tool for every performance related analysis on Linux. eBPF is a relatively recent addition to the Linux Kernel.With these building blocks, author show us build a tool to track: \"Hey, I've seen your packet: It’s gone this way, on this interface, in this network namespace\""
+
+  - url: https://mijailovic.net/2017/07/29/go-fuzz/
+    title: "Going down the rabbit hole with go-fuzz"
+    description: "Nemanja Mijailovic shows us how to use go-fuzz in Golang to find bug, crash in practice. He has found a bug even in Golang standard library with this method."
+
+  - url: https://dev.to/theodesp/understanding-solid-principles-dependency-injection
+    title: "Understanding SOLID Principles: Dependency Inversion"
+    description: "First part of a series of understanding SOLID Principles where we explore what is Dependency Inversion and why it helps deliver software that is loosely coupled and testable."
+
+  - url: http://the-paper-trail.org/blog/exactly-not-atomic-broadcast-still-impossible-kafka/
+    title: "Exactly-once or not, atomic broadcast is still impossible in Kafka – or anywhere"
+    description: "There’s been a bit of a side story about what exactly ‘exactly-once’ means, and what Kafka can actually do."
+
+  - url: https://www.youtube.com/channel/UCFKQ85T69sYhifDHF7dnPgw/videos
+    title: "Learning Elixir Youtube Channel"
+    description: "Free video helps you learn Elixir tip and trick"
+
+  - url: https://www.compose.com/articles/use-all-the-databases-part-1/
+    title: "Use all the Databases - Part 1"
+    description: "Loren Sands-Ramshaw, author of GraphQL: The New REST, shows how to combine data from multiple sources using GraphQL in this Write Stuff two-part series."
+
+  - url: https://medium.com/@matryer/introducing-vice-go-channels-across-many-machines-bcac1147d7e2
+    title: "Introducing vice: Go channels across many machines"
+    description: "Go channels are perfect for enabling multiple concurrent goroutines to safely communicate within a single process. How can we use them on many machines? Vice abstracts message queue technologies and gives you plain old Go channels through which you can communicate instead."
+
+  - url: http://ruder.io/deep-learning-nlp-best-practices/
+    title: "Deep Learning for NLP Best Practices"
+    description: "a collection of best practices for using neural networks in Natural Language Processing."
 
 read_code:
-  - url: https://github.com/dthree/addicta
+  - url: https://github.com/dthree/addict
+    title: "Get a full Active Directory REST API in 30 seconds"
+
   - url: https://github.com/janko-m/down
-  - url: https://medium.com/@matryer/introducing-vice-go-channels-across-many-machines-bcac1147d7e2
+    title: "Your companion for file downloads in Ruby"
+
   - url: https://github.com/fiatjaf/coisas
+    title: "a client-side CMS for static sites hosted on GitHub"
 
 tool:
-  - url: https://github.com/workflowproducts/postage
-  - url: https://github.com/graphcool/chromeless
   - url: https://medium.com/@Pinterest_Engineering/soundwave-an-open-source-configuration-management-database-df75b31b8f5a
-  - url: https://github.com/dirtbags/pcapdb?utm_source=betterdev.link
-  - url: https://github.com/clangen/musikcube
-  - url: https://www.passbolt.com/?utm_source=betterdev.link
+    title: "Soundwave: an open source configuration management database"
+
   - url: https://blog.box.com/blog/introducing-memsniff-robust-memcache-traffic-analyzer/?utm_source=betterdev.link
+    title: "Introducing Memsniff: A Robust Memcache Traffic Analyzer"
+
+  - url: https://github.com/workflowproducts/postage
+    title: "Postage - A fast replacement for PGAdmin. "
+
+  - url: https://github.com/graphcool/chromeless
+    title: "Chrome automation made simple. Runs locally or headless on AWS Lambda."
+
+  - url: https://github.com/dirtbags/pcapdb?utm_source=betterdev.link
+    title: "A Distributed, Search-Optimized Full Packet Capture System"
