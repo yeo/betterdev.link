@@ -1,7 +1,7 @@
 defmodule Betterdev.Community.Bot do
   use GenServer
 
-  @interval 10000
+  @interval 30000
 
   alias Betterdev.Account
   alias Betterdev.Community.Link
@@ -48,7 +48,6 @@ defmodule Betterdev.Community.Bot do
   end
 
   def listen(start \\ -100) do
-    IO.puts "Listen with #{start}"
     messages =  Exbot.get_updates(&(&1 |> Update.with_offset(start)))
     last_message = messages |> List.last
 

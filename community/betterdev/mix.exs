@@ -39,6 +39,7 @@ defmodule Betterdev.Mixfile do
      {:gettext, "~> 0.11"},
      {:joken, "~> 1.1"},
      {:exbot, ">= 0.0.1"},
+     {:readability, git: "https://github.com/yeolabs/readability.git"},
      {:scrape, "~> 2.0.0"},
      {:kerosene, "~> 0.7.0"},
      #{:exq, "~> 0.9.0"},
