@@ -10,20 +10,7 @@
 		<title>Become a better developer - together</title>
 
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
-    <script>
-    window.app = {
-      config: {
-        slack: {
-          client_id: '73737491668.207721165366',
-        },
-        telegram: {
-          bot: 'BetterdevBot'
-          token: ''
-        },
-      }
-    }
-    </script>
-	</head>
+  </head>
 
   <body>
 
@@ -112,6 +99,21 @@
 		</footer>
 
     <script src="https://cdn.auth0.com/js/lock/10.16/lock.min.js"></script>
+    <script type="text/javascript">
+    (function () {
+      var app = window.app = {
+        config: {
+          slack: {
+            client_id: '73737491668.207721165366',
+          },
+          telegram: {
+            bot: 'BetterdevBot',
+            token: ''
+          },
+        }
+      }
+    })()
+    </script>
 		<script src="<%= static_path(@conn, "/js/app.js") %>"></script>
 	</body>
 </html>
