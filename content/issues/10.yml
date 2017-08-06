@@ -68,6 +68,8 @@ links:
     description: "In this blog post we will solve a unsupervised clustering problem in Ruby. We will be using the rubygem kmeans-clusterer to setup the problem and cluster the data using the k-mean clustering algorithm."
 
 read_code:
+  - url: https://github.com/mimoo/NoiseGo
+    title: "This is a readable implementation of the Noise Protocol Framework"
   - url: https://github.com/jannishuebl/orchparty
     title: "Write your own orchestration config with a Ruby DSL that allows you to have mixins, imports and variables."
 
