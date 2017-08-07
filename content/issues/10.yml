@@ -9,15 +9,15 @@ links:
 
   - url: https://charukiewi.cz/posts/elm
     title: "Elm In Production: 25,000 Lines Later"
-    description: "A reflection of using Elm in production. In author's case, has been a been a very successful endeavor at Roompact. Their latest project, with a front end written solely in Elm, has exceeded all expectations, both those of users as well as their own."
+    description: "A reflection of using Elm in production. In author's case, this has been a very successful endeavor at Roompact. Their latest project with a front end written solely in Elm, has exceeded all expectations, both those of users as well as of their own."
 
   - url: https://github.com/denysdovhan/wtfjs
     title: "What the f*ck JavaScript? A list of funny and tricky examples of JavaScript"
     description: "JavaScript is a quite funny language with tricky parts. Some of them can quickly turn our everyday job into hell, some of them can make us laugh out loud."
 
   - url: https://www.tuleap.org/delivering-rpm-packages-securely-and-continuously-jenkins-and-hashicorp-vault
-    title: "Delivering RPM packages securely and continuously with Jenkins and Hashicorp Vault"
-    description: "A very good post shows us how to automate signing RPM packages, and store the GPG keys securely."
+    title: "Delivering RPM Packages Securely and Continuously with Jenkins and Hashicorp Vault"
+    description: "A very good post that shows us how to automate signing RPM packages and how to store the GPG keys securely."
 
   - url: https://thenewstack.io/size-mongodb-clusters/
     title: "How to Size Your MongoDB Clusters"
@@ -25,11 +25,11 @@ links:
 
   - url: https://medium.freecodecamp.org/million-websockets-and-go-cc58418460bb
     title: "A Million WebSockets and Go"
-    description: "Mail.Ru switches HTTP polling to web socket to reduce server load. A very detail post on implementation of such service and architecture consideration."
+    description: "Mail.Ru switches HTTP polling to web socket to reduce server load. This is a very detailed post on implementation of such a service and the architecture considerations."
 
   - url: https://francisstokes.wordpress.com/2017/07/20/16-bit-vm-in-javascript/
     title: "16-BIT VM in JavasSript"
-    description: "Author shared what he learned when working on a 16 bit virtual machine running in node. You will learn lots of stuff from virtual hardware to assembly."
+    description: "The author shared what he learned when working on a 16-bit virtual machine running in Node. You will learn lots from virtual hardware to assembly."
 
   - url: http://felixge.de/2017/07/27/implementing-state-machines-in-postgresql.html
     title: "Implementing State Machines in PostgreSQL"
@@ -37,56 +37,55 @@ links:
 
   - url: http://philcalcado.com/2017/08/03/pattern_service_mesh.html
     title: "Pattern: Service Mesh"
-    description: "Servie mesh is a dedicated infrastructure layer for handling service-to-service communication. In practice, it's typically implemented as an array of lightweight network proxies that are deployed alongside application code, without the application needing to be aware."
+    description: "Service mesh is a dedicated infrastructure layer for handling service-to-service communication. In practice, it's typically implemented as an array of lightweight network proxies that are deployed alongside application code, without the application needing to be aware."
 
   - url: https://dev.to/dangolant/things-i-brushed-up-on-this-week-the-http-request-lifecycle-
     title: "Things I Brushed Up On This Week: The HTTP Request Lifecycle"
-    description: "Daniel Golant has been interviewing for jobs recently, So he decided to start posting walkthroughs of what he brush up on. This artcile is about HTTP request."
+    description: "Daniel Golant has been interviewing for jobs recently, So he decided to start posting walkthroughs of what he brush up on. This article is about HTTP requests."
 
   - url: https://blog.plan99.net/modern-garbage-collection-911ef4f8bd8e
-    title: "Modern garbage collection(GC)"
-    description: "Mike Hearn shares his thought about Go GC, especially he believes that Go GC does not really implement any new ideas or research"
+    title: "Modern Garbage Collection (GC)"
+    description: "Mike Hearn shares his thought about Go GC, specifically that he believes that Go GC does not really implement any new ideas or research."
 
   - url: http://loup-vaillant.fr/articles/implemented-my-own-crypto
-    title: "How I implemented my own crypto"
+    title: "How I Implemented My Own Crypto"
     description: "The author writes his own crypto library, call Monocypher, which is done and ready for production. He shares his process and what he learned."
 
   - url: https://hackernoon.com/strace-in-60-lines-of-go-b4b76e3ecd64
     title: "Liz Rice - Strace in 60 lines of Go"
-    description: "This post is a walk-through of the simple strace implementation author wrote during her GopherCon talk, A Go Programmer’s Guide to Syscalls."
+    description: "This post is a walk-through of the simple strace implementation the author wrote during her GopherCon talk, ‘A Go Programmer’s Guide to Syscalls’."
 
   - url: https://www.youtube.com/watch?v=01w7viEZzXQ&index=20&list=PL2ntRZ1ySWBdD9bru6IR-_WXUgJqvrtx9
     title: "Liz Rice - A Go Programmer's Guide to Syscalls(35 mins video)"
-    description: "She covers what people mean when they talk about libc/glibc, and look at what syscalls have to do with privileges and permissions, with plenty of demos to illustrate what's happening."
+    description: "Liz Rice covers what people mean when they talk about libc/glibc, and looks at what syscalls have to do with privileges and permissions, along with plenty of demos to illustrate what's happening."
 
   - url: https://jvns.ca/blog/2017/08/05/how-kubernetes-certificates-work/
-    title: "How Kubernetes certificate authorities work"
+    title: "How Kubernetes Certificate Authorities Work"
     description: "This blog post is about how to take your own requirements about how certificate authorities + private keys should be organized and set up your Kubernetes cluster the way you need to."
 
   - url: http://www.practicalai.io/unsupervised-learning-using-k-means-clustering-in-ruby/
-    title: "Unsupervised learning using k-means clustering in Ruby"
-    description: "In this blog post we will solve a unsupervised clustering problem in Ruby. We will be using the rubygem kmeans-clusterer to setup the problem and cluster the data using the k-mean clustering algorithm."
+    title: "Unsupervised Learning Using K-Means Clustering In Ruby"
+    description: "In this blog post, we will solve a unsupervised clustering problem in Ruby. We will be using the rubygem kmeans-clusterer to setup the problem and cluster the data using the k-mean clustering algorithm."
 
 read_code:
   - url: https://github.com/mimoo/NoiseGo
-    title: "This is a readable implementation of the Noise Protocol Framework"
+    title: "A readable implementation of the Noise Protocol Framework."
+
   - url: https://github.com/jannishuebl/orchparty
-    title: "Write your own orchestration config with a Ruby DSL that allows you to have mixins, imports and variables."
+    title: "Write your own orchestration config with a Ruby DSL that allows you to have mix-ins, imports and variables."
 
   - url: https://github.com/muesli/crunchy
     title: "Finds common flaws in passwords. Like cracklib, but written in Go."
 
 tool:
   - url: http://tatiyants.com/postgres-query-plan-visualization/
-    title: "Postgres query plan visualization"
+    title: "Postgres query plan visualization."
 
   - url: https://github.com/aptible/supercronic
     title: "Supercronic is a crontab-compatible job runner, designed specifically to run in containers."
 
   - url: https://github.com/hootsuite/atlantis
-    title: "A unified workflow for collaborating on Terraform through GitHub"
+    title: "A unified workflow for collaborating on Terraform through GitHub."
 
   - url: https://github.com/dthree/mailit
     title: "A tiny drop-in REST API to send emails."
-
-
