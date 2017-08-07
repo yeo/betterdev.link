@@ -29,7 +29,7 @@ defmodule Betterdev.Mixfile do
   #
   # Type `mix help deps` for examples and options.
   defp deps do
-    [{:phoenix, "~> 1.3.0-rc"},
+    [{:phoenix, "~> 1.3.0"},
      {:phoenix_pubsub, "~> 1.0"},
      {:phoenix_ecto, "~> 3.2"},
      {:ecto, "~> 2.0"},
@@ -39,8 +39,10 @@ defmodule Betterdev.Mixfile do
      {:gettext, "~> 0.11"},
      {:joken, "~> 1.1"},
      {:exbot, ">= 0.0.1"},
+     {:floki, "~> 0.15.0"},
      {:readability, git: "https://github.com/yeolabs/readability.git"},
-     {:scrape, "~> 2.0.0"},
+     #{:scrape, "~> 2.0.0"},
+
      {:kerosene, "~> 0.7.0"},
      #{:exq, "~> 0.9.0"},
      #{:exq_ui, "~> 0.9.0"},

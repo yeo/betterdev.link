@@ -108,13 +108,13 @@ defmodule Betterdev.Community do
   def user_post_link(user, attrs) do
     # TODO Use task/job queue and return to client instantly via web socket
     uri = attrs["uri"]
-    w = Scrape.article(uri)
+    w = Readability.summarize(uri)
     if w.title do
       #%{user: user, title: w.title || url, uri: url, description: w.description, picture: w.image || w.favicon, status: "published", } |> Repo.insert()
       {:ok, link} = %Link{user: user}
-        |> Link.changeset(%{title: w.title, uri: uri, description: w.description, picture: w.image || w.favicon, status: "published"})
+        |> Link.changeset(%{title: w.title, uri: uri, description: w.article_text, picture: w.top_image, status: "published"})
         |> Repo.insert()
-      Task.start_link(fn -> post_process_link(link) end)
+      Task.start_link(fn -> post_process_link(link, w) end)
       link = link |> Repo.preload(:tags) |> Repo.preload(:collections)
       {:ok, link}
     end
@@ -127,21 +127,20 @@ defmodule Betterdev.Community do
    - index to elasticsearch
    - process tag
   """
-  def post_process_link(link) do
+  def post_process_link(link, w) do
     IO.puts "Post process link"
 
-    w = Scrape.article(link.uri)
-    body = case HTTPoison.get(link.uri,  [], [ ssl: [{:versions, [:'tlsv1.2']}] ]) do
-      {:ok,  %HTTPoison.Response{body: b}} -> HtmlSanitizeEx.strip_tags(b)
-      _ -> w.fulltext
-    end
+    #body = case HTTPoison.get(link.uri,  [], [ ssl: [{:versions, [:'tlsv1.2']}] ]) do
+    #  {:ok,  %HTTPoison.Response{body: b}} -> HtmlSanitizeEx.strip_tags(b)
+    #_ -> w.fulltext
+    #end
 
-    r = [id: link.id, title: link.title, description: link.description, content: body, uri: link.uri]
+    r = [id: link.id, title: w.title, description: w.article_text, content: w.article_text, uri: link.uri]
 
     # index
     put("/betterdev/link/#{link.id}", r)
 
-    tags = Betterdev.Helper.Classifier.extract(body)
+    tags = Betterdev.Helper.Classifier.extract(w.article_text)
     # Insert tag
     link = link |> Repo.preload(:tags) |> Repo.preload(:user)
     tags = tags ++ (w.tags |> Enum.filter_map(&(&1[:accuracy] >= 0.7), &(&1[:name])))
