@@ -22,10 +22,21 @@ type Page struct {
 }
 
 type Link struct {
-	URI         string `yaml:"url"`
-	Title       string `yaml:"title"`
-	Description string `yaml:"description"`
-	Category    string `yaml:"category"`
+	URI         string   `yaml:"url"`
+	Title       string   `yaml:"title"`
+	Description string   `yaml:"description"`
+	Category    []string `yaml:"category"`
+	Action      string   `yaml:"action"`
+}
+
+func (l *Link) IsSponsor() bool {
+	for _, c := range l.Category {
+		if c == "sponsor" {
+			return true
+		}
+	}
+
+	return false
 }
 
 type Issues []Issue
