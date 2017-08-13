@@ -58,7 +58,30 @@ a {
       }
 
       .issue-link {
-        padding: 0.5rem 1rem 0rem 1rem;
+        padding: 0.5rem 0.5rem 0rem 0.5rem;
+      }
+
+      .issue-description {
+        color: #666;
+        font-weight: 300;
+      }
+
+      .issue-sponsor {
+        margin: 0.5rem 0;
+        padding: 0rem 0.5rem;
+        border-left: 2px solid #9b4dca;
+      }
+      .issue-sponsor .sponsor-action {
+        background: #ffffd9;
+        padding: 0.25rem;
+        color: #666;
+        font-weight: 400;
+        font-size: 0.95rem;
+        text-decoration: none;
+      }
+      .issue-sponsor .issue-description {
+        margin: 0;
+        color: #333;
       }
 
       .title {
@@ -103,14 +126,14 @@ a {
         <div class="issue-preview">
           <div class="issue-preview__inner">
             <div style="background: #f36c3d; padding: 1rem 0; text-align: center">
-              <h1 class="title" style="color: #fff; text-align: left;">Better Dev #{{ .Name }}
+              <h1 class="title" style="color: #fff; text-align: left; margin: 0.5rem;">Better Dev #{{ .Name }}
                 <span class="subtitle" style="color: #fff; float: right; dipslay: block; margin: 0.5rem 0 0 0">{{ .Time }}</span>
               </h1>
             </div>
 
             {{ if .Description }}
             <div>
-              <div style="padding: 1rem 1.5rem 0rem 1.5rem; font-size: 1rem;" class="issue-intro">
+              <div style="padding: 1rem 0.5rem 0rem 0.5rem; font-size: 1rem;" class="issue-intro">
                 <p style="color: #666">{{ .Description }}</p>
               </div>
             </div>
@@ -118,10 +141,19 @@ a {
 
             <div class="issue-links">
               {{ range $key, $link := .Links }}
-                <div class="issue-link">
-                  <a style="font-size: 1.2rem; font-weight: 300; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a><br>
-                  <span style="color: #666; font-weight: 300;">{{ $link.Description }}</span>
+                {{ if $link.IsSponsor }}
+                <div class="issue-sponsor">
+                  <a style="font-size: 1.2rem; font-weight: 400; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a> <span style="color: #f36c3d;">(SPONSOR)</span>
+                  <p class="issue-description">{{ $link.Description }}</p>
+                  <a class='sponsor-action' href ="{{ $link.URI }}" target='_blank'>{{ $link.Action }}</a>
                 </div>
+                {{ else }}
+                <div class="issue-link">
+                  <a style="font-size: 1.2rem; font-weight: 400; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a><br>
+                  <span style="color: #333; font-weight: 300;">{{ $link.Description }}</span>
+                </div>
+                {{ end }}
+
               {{ end }}
 
 
