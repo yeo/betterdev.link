@@ -1,0 +1,64 @@
+---
+time: "Aug 14, 2017"
+description: ""
+draft: false
+links:
+  - url: https://securedorg.github.io/RE102/
+
+  - url: https://medium.freecodecamp.org/hash-table-attack-8e4371fc5261
+
+  - url: https://oleb.net/blog/2017/07/mental-models-in-api-design/
+
+  - url: https://uxplanet.org/typography-in-ui-guide-for-beginners-7ee9bdbc4833
+
+  - url: https://blog.jetbrains.com/idea/2017/08/code-smells-null
+    title: "Code Smells: Null"
+    description: ""
+
+  - url: https://robots.thoughtbot.com/a-crash-course-in-analyzing-memory-usage-in-ruby
+
+  - url: http://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html
+
+  - url: http://www.jonkensy.com/832-tb-zfs-on-linux-project-cheap-and-deep-part-1/
+
+  - url: https://www.stationx.net/nmap-cheat-sheet/
+
+  - url: https://www.smashingmagazine.com/2017/08/ai-chatbot-web-speech-api-node-js/
+
+  - url: https://unwttng.com/compression-decompressed
+
+  - url: https://medium.com/square-corner-blog/always-be-closing-3d5fda0e00da
+
+  - url: https://github.com/karllhughes/side-project-marketing/blob/master/marketing-checklist.md
+    title: Side Project Marketing Checklist
+
+  - url: https://medium.com/rubyinside/a-deep-dive-into-csrf-protection-in-rails-19fa0a42c0ef
+  - url: https://blog.codeship.com/4-ways-to-secure-your-authentication-system-in-rails/
+  - url: https://medium.com/onfido-tech/from-zero-to-production-elixir-in-1-month-2-2-1deca839be14
+  - url: http://blog.88mph.io/2017/07/28/understanding-service-workers/
+  - url: http://alexpetralia.com/posts/2017/7/19/more-dangerous-subtleties-of-joins-in-sql
+  - url: https://maryrosecook.com/blog/post/git-from-the-inside-out
+  - url: https://www.zeroequalsfalse.press/2017/08/10/ml/
+  - url: https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56
+
+video:
+  - url: 
+
+read_code:
+  - url: https://github.com/mpolden/ipd?utm_source=golangweekly&utm_medium=email
+
+tool:
+  - url: https://github.com/faizann24/Fwaf-Machine-Learning-driven-Web-Application-Firewall
+
+  - url: https://medium.com/netscape/open-sourcing-graphql-guru-server-366b3ec67028
+
+  - url: https://kinvolk.io/blog/2017/08/introducing-kube-spawn-a-tool-to-create-local-multi-node-kubernetes-clusters/
+    title: "kube-spawn"
+    description: "minikube is a tool to spin up a local, single-node kubernetes cluster. kube-spawn do samething but supports multi node, bring the production experience closer to local development"
+
+  - url: https://gnunn1.github.io/tilix-web/
+
+sponsor:
+  - url: https://thesizzle.com.au/betterdev/
+    title: The Sizzle - Daily Curated Tech News
+    description: "Struggling to keep up with the tsunami of tech news? Need to improve your signal to noise ratio? One email a day, five must read tech news stories, sent in time for your commute home. Stay in the loop without burning all your free time."
