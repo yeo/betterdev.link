@@ -4,59 +4,105 @@ description: ""
 draft: false
 links:
   - url: https://securedorg.github.io/RE102/
-
-  - url: https://medium.freecodecamp.org/hash-table-attack-8e4371fc5261
-
-  - url: https://oleb.net/blog/2017/07/mental-models-in-api-design/
-
-  - url: https://uxplanet.org/typography-in-ui-guide-for-beginners-7ee9bdbc4833
-
-  - url: https://blog.jetbrains.com/idea/2017/08/code-smells-null
-    title: "Code Smells: Null"
-    description: ""
-
-  - url: https://robots.thoughtbot.com/a-crash-course-in-analyzing-memory-usage-in-ruby
-
-  - url: http://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html
-
-  - url: http://www.jonkensy.com/832-tb-zfs-on-linux-project-cheap-and-deep-part-1/
-
-  - url: https://www.stationx.net/nmap-cheat-sheet/
-
-  - url: https://www.smashingmagazine.com/2017/08/ai-chatbot-web-speech-api-node-js/
-
-  - url: https://unwttng.com/compression-decompressed
-
-  - url: https://medium.com/square-corner-blog/always-be-closing-3d5fda0e00da
+    title: "Reverse Engineering Malware 10"
+    description: "Reverse engineering is fun. But the tutorrial is usually just basic building block. This is a great reverse engineering workshop on a real malware. You will also learn to setup an flow for malware analysis."
 
   - url: https://github.com/karllhughes/side-project-marketing/blob/master/marketing-checklist.md
     title: Side Project Marketing Checklist
+    description: "We as a developer, build side project all the time but how do we market it to the world? Let's learn it in this check list"
+
+  - url: https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56
+    title: Web Developer Security Checklist
+    description: "Developing secure, robust web applications in the cloud is hard, very hard. This's a simple check list for some starting points to secure your application better"
+
+  - url: https://medium.freecodecamp.org/hash-table-attack-8e4371fc5261
+    title: "Every Server In The World Is Vulnerable"
+    description: "What if someone told us every server is vulnerable? The problem lays in foundation block.of almost every language: Hash table, hash map, dictionary or anything similar that allow O(1) access set of data with a key."
+
+  - url: https://oleb.net/blog/2017/07/mentamodels-in-api-design/
+    title: 'Mental models in API design'
+    description: "Normal points out two mental model for product design: user's mental model, and product's designer metal model. Goal of product designer is to provider an accurate metanl model. Same thing apply to APIs design. We go through Swift APIs, to see different between two models"
+
+  - url: https://uxplanet.org/typography-in-ui-guide-for-beginners-7ee9bdbc4833
+    title: 'Typography: Guide for Beginners'
+    description: 'Text are main building block of content. To create effective UI and clear UX, learning basics of typographic is necessary.'
+
+  - url: http://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html
+    title: 'Linux Load Averages: Solving the Myster'
+    description: "Linux load averages track not just runnable tasks, but also tasks in the uninterruptible sleep state. Why? Let's sove this mystery and summarize lad averages"
+
+  - url: https://medium.com/square-corner-blog/always-be-closing-3d5fda0e00da
+    title: "Always Be Closing: A Go Resource Leak"
+    description: "Not closing resource after use is way to accumulate leaking due to resources are being retain in memory. Always closing is better than relying on automatically close by timeout. This post dive deep into how Square team figured out resource leak, use various tools and debug techniques."
+
+  - url: http://alexpetralia.com/posts/2017/7/19/more-dangerous-subtleties-of-joins-in-sql
+    title: 'More Dangerous subtleties of JOINs in SQL'
+    description: "Semantic errors are especially insidious because they can remain undetected for months until people happen to look in the right places. The post cover two major semantic errors: join duplications and join misses"
+
+  - url: https://unwttng.com/compression-decompressed
+    title: 'Compression Decompressed'
+    description: "Compression is everywhere. But what really happens to make something smaller thant it's? Will the compress algorithm can ever wrong, make thing bigger than it is? Let's get to work"
+
+  - url: http://www.jonkensy.com/832-tb-zfs-on-linux-project-cheap-and-deep-part-1/
+    title: '832 TB – ZFS on Linux'
+    description: 'A project to store 832TB of data cheaply with ZFS: from choosing file system to build out server/'
+
+  - url: https://maryrosecook.com/blog/post/git-from-the-inside-out
+    title: 'Git from the inside out'
+    description: "Git's very easy to get started with. But it gets in your way in complex situation. In this post, we look at Git via its graph data structure. and build our mental model on the truth rather than on hypotheses constructed from evidence gathered while experimenting with the API"
+
+  - url: http://blog.88mph.io/2017/07/28/understanding-service-workers/
+    title: 'Understanding Service Workers'
+    description: "Service Workers is a script browser runs in background separate from a web page. It open the doors to some nice feature such as: add offline availability to your app, enhance performance, push notification. Let's see what they can do and how"
+
+  - url: https://www.zeroequalsfalse.press/2017/08/10/ml/
+    title: 'Predict the future with Machine Learning'
+    description: "Machine Learning is fundamentalyy software that works like our brain. In this post I’ll take a top-down approach attempting to make it crystal clear, what it is, and what it can be used for in the real world"
 
   - url: https://medium.com/rubyinside/a-deep-dive-into-csrf-protection-in-rails-19fa0a42c0ef
-  - url: https://blog.codeship.com/4-ways-to-secure-your-authentication-system-in-rails/
-  - url: https://medium.com/onfido-tech/from-zero-to-production-elixir-in-1-month-2-2-1deca839be14
-  - url: http://blog.88mph.io/2017/07/28/understanding-service-workers/
-  - url: http://alexpetralia.com/posts/2017/7/19/more-dangerous-subtleties-of-joins-in-sql
-  - url: https://maryrosecook.com/blog/post/git-from-the-inside-out
-  - url: https://www.zeroequalsfalse.press/2017/08/10/ml/
-  - url: https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56
+    title: 'A Deep Dive into CSRF Protection'
+    description: "Rails developer uses CSRF all the time. Let's deep dive into Rails codebase to understand how the feature has been implemented"
 
-video:
-  - url: 
+  - url: https://robots.thoughtbot.com/a-crash-course-in-analyzing-memory-usage-in-ruby
+    title: 'Analyzing Memory Usage in Ruby'
+    description: 'A crash course of how we measure memory impact in Ruby app.'
+
+  - url: https://medium.com/onfido-tech/from-zero-to-production-elixir-in-1-month-2-2-1deca839be14
+    title: "Zero to Production Elixir in 1 month"
+    description: "Story of migration a production upload and retrieive document system from Ruby(paperclip) to Elixir. It's 2 part series. An interesting point is retrieve the file right after uploading directly from memory without hitting S3."
+
+  - url: https://www.smashingmagazine.com/2017/08/ai-chatbot-web-speech-api-node-js/
+    title: 'A Simple Chatbot With Web Speech API'
+    description: "A simple project to learn abit of web speech API. It's fun to play around with voice on your computer"
+
+  - url: https://blog.codeship.com/4-ways-to-secure-your-authentication-system-in-rails/
+    title: 'Secure Your Authentication System in Rails'
+    description: 'Some simple steps you can take to enhance security of authentication system'
 
 read_code:
-  - url: https://github.com/mpolden/ipd?utm_source=golangweekly&utm_medium=email
+  - url: https://github.com/mpolden/ipd
+    title: 'IP address lookup service'
+    description: 'This is code power https://ifconfig.co'
 
 tool:
-  - url: https://github.com/faizann24/Fwaf-Machine-Learning-driven-Web-Application-Firewall
+  - url: https://medium.com/@tjholowaychuk/up-b3db1ca930ee
+    title: 'Up — Deploy serverless apps in seconds'
+    description: 'You can think of Up as self-hosted Heroku style user experience for a fraction of the price, with the security, flexibility, and scalability of AWS.'
+
+  - url: https://www.stationx.net/nmap-cheat-sheet/
+    title: 'Nmap Cheat Sheet'
+    description: "nmap is a powerful tool with so many parameter. Let's level up our nmap with this cheat sheet"
 
   - url: https://medium.com/netscape/open-sourcing-graphql-guru-server-366b3ec67028
+    title: 'Open Sourcing GraphQL Guru Server'
+
+  - url: https://github.com/faizann24/Fwaf-Machine-Learning-driven-Web-Application-Firewall
+    title: "Machine learning in firewall"
+    description: "Machine learning driven web application firewall to detect malicious queries with high accuracy"
 
   - url: https://kinvolk.io/blog/2017/08/introducing-kube-spawn-a-tool-to-create-local-multi-node-kubernetes-clusters/
     title: "kube-spawn"
     description: "minikube is a tool to spin up a local, single-node kubernetes cluster. kube-spawn do samething but supports multi node, bring the production experience closer to local development"
-
-  - url: https://gnunn1.github.io/tilix-web/
 
 sponsor:
   - url: https://thesizzle.com.au/betterdev/
