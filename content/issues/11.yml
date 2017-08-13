@@ -84,6 +84,10 @@ read_code:
     title: 'IP address lookup service'
     description: 'This is code power https://ifconfig.co'
 
+  - url: https://github.com/rakyll/hey
+    title: 'A tiny tool to load testing your app'
+    description: "It's similar to Apache Bench or wrk. It's code base also small enough to read and see how to write these kind of tool"
+
 tool:
   - url: https://medium.com/@tjholowaychuk/up-b3db1ca930ee
     title: 'Up — Deploy serverless apps in seconds'
