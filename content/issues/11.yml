@@ -11,6 +11,13 @@ links:
     title: Side Project Marketing Checklist
     description: "We as a developer, build side project all the time but how do we market it to the world? Let's learn it in this check list"
 
+  - url: https://thesizzle.com.au/betterdev/
+    title: The Sizzle - Daily Curated Tech News
+    description: "Struggling to keep up with the tsunami of tech news? Need to improve your signal to noise ratio? One email a day, five must read tech news stories, sent in time for your commute home. Stay in the loop without burning all your free time."
+    action: "Read the first two weeks for free"
+    category:
+      - sponsor
+
   - url: https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56
     title: Web Developer Security Checklist
     description: "Developing secure, robust web applications in the cloud is hard, very hard. This's a simple check list for some starting points to secure your application better"
@@ -114,8 +121,3 @@ tool:
   - url: https://kinvolk.io/blog/2017/08/introducing-kube-spawn-a-tool-to-create-local-multi-node-kubernetes-clusters/
     title: "kube-spawn"
     description: "minikube is a tool to spin up a local, single-node kubernetes cluster. kube-spawn do samething but supports multi node, bring the production experience closer to local development"
-
-sponsor:
-  - url: https://thesizzle.com.au/betterdev/
-    title: The Sizzle - Daily Curated Tech News
-    description: "Struggling to keep up with the tsunami of tech news? Need to improve your signal to noise ratio? One email a day, five must read tech news stories, sent in time for your commute home. Stay in the loop without burning all your free time."
