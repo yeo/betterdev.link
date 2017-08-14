@@ -1,7 +1,7 @@
 ---
 time: "Aug 14, 2017"
 description: "Hi all, we have lots of goodies for you in this issue. It’ll be a busy week to learn all these new things! It's always a good thing to learn something new and expand your skills. Enjoy!"
-draft: true
+draft: false
 links:
   - url: https://securedorg.github.io/RE102/
     title: "Reverse Engineering Malware 10"
@@ -10,6 +10,13 @@ links:
   - url: https://github.com/karllhughes/side-project-marketing/blob/master/marketing-checklist.md
     title: Side Project Marketing Checklist
     description: "As developers, we build side project all the time, but how do we market it to the world? Bookmark this handy check list."
+
+  - url: https://thesizzle.com.au/betterdev/
+    title: The Sizzle - Daily Curated Tech News
+    description: "Struggling to keep up with the tsunami of tech news? Need to improve your signal to noise ratio? One email a day, five must-read tech news stories, sent just in time for your commute home. Stay in the loop without burning all your free time."
+    action: "Read the first two weeks for free"
+    category:
+      - sponsor
 
   - url: https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56
     title: Web Developer Security Checklist
