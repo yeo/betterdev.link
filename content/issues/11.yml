@@ -119,7 +119,7 @@ tool:
     description: "Machine learning-driven web application firewall to detect malicious queries with high accuracy."
 
   - url: https://kinvolk.io/blog/2017/08/introducing-kube-spawn-a-tool-to-create-local-multi-node-kubernetes-clusters/
-    title: "kube-spawn - local, multi-node kubernetes cluster"
+    title: "Kube-spawn - Local, Multi-node Kubernetes Cluster"
     description: "Minikube is a tool to spin up a local, single-node kubernetes cluster. kube-spawn do the same thing, but support multi-node and bring the production experience closer to local development."
 
 sponsor:
