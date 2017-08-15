@@ -8,6 +8,7 @@ defmodule Betterdev.Community.Bot do
 
   alias Exbot.Request.Update
   alias Betterdev.Repo
+  alias Betterdev.Bot.Accounts, as: BotUser
 
   def start_link do
     :gen_server.start_link(__MODULE__, [], [])
@@ -28,18 +29,17 @@ defmodule Betterdev.Community.Bot do
     {:noreply, next}
   end
 
-  def import_user do
-    user = Accounts.get_user!(1)
-  end
+  def import_user do: user = Accounts.get_user!(1)
+  def import_user(u) do: BotUser.retreive_from_bot_user(u)
 
-  def import_link(text) do
+  def import_link(text, user) do
     String.split(text, "\n") |> Enum.map(fn (line) ->
       IO.inspect line
       case Regex.run(~r/(http|https):\/\/([^\s\t\n]+)/, text, global: true) do
         [url | _] ->
           w = Scrape.website(url)
           if w.title do
-            link = %Link{user_id: 1, title: w.title || url, uri: url, description: w.description, picture: w.image || w.favicon, status: "published", } |> Repo.insert()
+            link = %Link{user: import_user(user), title: w.title || url, uri: url, description: w.description, picture: w.image || w.favicon, status: "published", } |> Repo.insert()
             Task.start_link(fn -> Community.post_process_link(link) end)
           end
           _ -> IO.puts "#{text} has no url"
@@ -47,12 +47,13 @@ defmodule Betterdev.Community.Bot do
     end)
   end
 
+  def retri
   def listen(start \\ -100) do
     messages =  Exbot.get_updates(&(&1 |> Update.with_offset(start)))
     last_message = messages |> List.last
 
     try do
-      messages |> Enum.filter_map(&(&1.message && &1.message.text), &(import_link(&1.message.text)))
+      messages |> Enum.filter_map(&(&1.message && &1.message.text), &(import_link(&1.message.text, &1.message.from)))
     rescue
       # TODO: We may want to report to some monitoring system
       # We don't want it to break this process. Hence ignore error and continue

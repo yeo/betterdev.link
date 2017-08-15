@@ -15,6 +15,9 @@ defmodule Betterdev.Accounts.User do
     has_many :links, Link
     has_many :collections, Collection
 
+    field :channel, :string
+    field :channel_user_id, :string
+
     timestamps()
   end
 
