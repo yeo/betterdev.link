@@ -29,8 +29,8 @@ defmodule Betterdev.Community.Bot do
     {:noreply, next}
   end
 
-  def import_user do: user = Accounts.get_user!(1)
-  def import_user(u) do: BotUser.retreive_from_bot_user(u)
+  def import_user, do: user = Accounts.get_user!(1)
+  def import_user(u), do: BotUser.retreive_from_bot_user(u)
 
   def import_link(text, user) do
     String.split(text, "\n") |> Enum.map(fn (line) ->

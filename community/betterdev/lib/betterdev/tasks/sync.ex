@@ -12,6 +12,6 @@ defmodule Betterdev.Tasks.Sync do
   defp one(link) do
     IO.inspect link
     link = link |> Repo.preload(:tags) |> Repo.preload(:collections)
-    Community.post_process_link(&1)
+    Community.post_process_link(link)
   end
 end
