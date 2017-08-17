@@ -41,11 +41,9 @@ class AddToCollectionView {
 
 const PostlistView = {
   oninit: () => {
-    console.log(m.route.param('user_id'))
     if (m.route.param('user_id')) {
       Post.params['user_id'] = m.route.param('user_id')
     } else {
-      console.log("delete")
       delete Post.params.user_id
     }
 

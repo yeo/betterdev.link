@@ -23,14 +23,6 @@ const Postform = {
         }),
         m('button.btn.btn-primary.btn-action.btn-lg' + (Post.postStatus == "posting" ? ".loading" : ''), {onclick: (e) => Post.create(Post.draft)}, m('i.icon.icon-plus'))
       ]),
-      m('footer.text-center', [
-        m('h4', 'Or share with our bot'),
-        m('p', [
-          m('a.btn.btn-lg', {href: `https://telegram.me/${window.app.config.telegram.bot}`},'Telegram'),
-          ' ',
-          m('a.btn.btn-lg', {href: `https://slack.com/oauth/authorize?&client_id=${window.app.config.slack.client_id}&scope=bot,chat:write:bot,links:read,incoming-webhook&redirect_uri=http://127.0.0.1:4000/bot/slack`}, 'Slack')
-        ])
-      ])
     ]
   }
 }
@@ -39,7 +31,16 @@ const LoginRemind = {
   view: () => {
     return m('header.text-center', [
       m('h4', "Login to share links! Help people learn!"),
-      m('a.btn.btn-primary', {onclick: session.login}, 'Login')
+      m('a.btn.btn-primary', {onclick: session.login}, 'Login'),
+      m('footer.text-center', [
+        m('h4', 'Or share with our bot'),
+        m('p', [
+          m('a.btn.btn-lg', {href: `https://telegram.me/${window.app.config.telegram.bot}`},'Telegram'),
+          ' ',
+          m('a.btn.btn-lg', {href: `https://slack.com/oauth/authorize?&client_id=${window.app.config.slack.client_id}&scope=bot,chat:write:bot,links:read,incoming-webhook&redirect_uri=http://127.0.0.1:4000/bot/slack`}, 'Slack')
+        ])
+      ]),
+
     ])
   }
 }
