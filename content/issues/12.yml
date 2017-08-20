@@ -26,6 +26,10 @@ links:
     category:
       - sponsor
 
+  - url: https://blog.carbonfive.com/2017/07/18/evented-rails-decoupling-complex-domains-in-rails-with-domain-events/
+    title: "Decoupling complex domains in Rails with Domain Events"
+    description: "A serie about domain driven design in Rails. This part is about decoupling bounded contexts with Domain Events. You should also check out previous posts too"
+
   - url: https://insimpleterms.blog/2017/08/07/the-tech-leads-new-project-checklist/
     title: "The Tech Lead’s New Project Checklist"
     description: Clare Sudbery shares notes from a session on what a tech lead needs to do and know when arriving on a new project.
@@ -114,6 +118,9 @@ read_code:
     title: "zsh-histdb - Store ZSH history in sqlite3 database"
 
 tool:
+  - url: https://github.com/jthomas/serverless-pwned-passwords
+    title: "Checking 320M passwords in milliseconds with serverless bloom filters"
+
   - url: http://dev-sec.io/
     title: "DevSec - Set of Chef/Ansible/Puppet repo to harden infrastructures"
 
