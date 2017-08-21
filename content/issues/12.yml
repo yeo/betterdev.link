@@ -26,10 +26,6 @@ links:
     category:
       - sponsor
 
-  - url: https://blog.carbonfive.com/2017/07/18/evented-rails-decoupling-complex-domains-in-rails-with-domain-events/
-    title: "Decoupling Complex Domains In Rails With Domain Events"
-    description: "A series about domain-driven design in Rails. This part is about decoupling bounded contexts with Domain Events. You should also check out their previous posts too."
-
   - url: https://insimpleterms.blog/2017/08/07/the-tech-leads-new-project-checklist/
     title: "The Tech Lead’s New Project Checklist"
     description: "Clare Sudbery shares notes from a session on what a tech leads need to know and do when arriving on a new project."
@@ -69,6 +65,10 @@ links:
   - url: https://githubengineering.com/kubernetes-at-github/
     title: "Kubernetes At GitHub"
     description: "It's great to see how large companies like GitHub design their infrastructure and the strategy they use when rolling out Kubernetes."
+
+  - url: https://blog.carbonfive.com/2017/07/18/evented-rails-decoupling-complex-domains-in-rails-with-domain-events/
+    title: "Decoupling Complex Domains In Rails With Domain Events"
+    description: "A series about domain-driven design in Rails. This part is about decoupling bounded contexts with Domain Events. You should also check out their previous posts too."
 
   - url: https://medium.com/@ageitgey/machine-learning-is-fun-part-8-how-to-intentionally-trick-neural-networks-b55da32b7196
     title: "Machine Learning Is Fun"
