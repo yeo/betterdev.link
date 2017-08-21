@@ -1,7 +1,7 @@
 ---
 time: "Aug 21, 2017"
 description: ""
-draft: true
+draft: false
 links:
   - url: https://github.com/jiayihu/pretty-algorithms
     title: "Pretty, Common And Useful Algorithms"
