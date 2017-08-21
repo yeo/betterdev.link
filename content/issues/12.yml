@@ -110,6 +110,10 @@ links:
     title: "TensorFlow tutorials and best practices"
     description: "Lots of tips and tricks on how to use TensorFlow effectively."
 
+  - url: https://cmdchallenge.com
+    title: "CMD Challenge"
+    description: "Are you up for the command line challenge? Solve the tasks in a single line of bash."
+
 read_code:
   - url: http://cryptopals.com/sets/1
     title: "A set of challenge about crypto. Doing these challenges definitely improve your knowledge on crypto."
