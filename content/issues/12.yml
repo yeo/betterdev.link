@@ -4,141 +4,140 @@ description: ""
 draft: true
 links:
   - url: https://github.com/jiayihu/pretty-algorithms
-    title: "Pretty, common and useful algorithms"
-    description: "Common useful algorithms written in modern, pretty and easy-to-understand Javascript along with real-world usage examples. All the algorithms are also tested using Jest with the help of custom beautiful snapshots."
+    title: "Pretty, Common And Useful Algorithms"
+    description: "Common, useful algorithms written in modern and easy-to-understand JavaScript along with real-world usage examples. All the algorithms shown are also tested using Jest with the help of custom beautiful snapshots."
 
   - url: https://nicoleorchard.com/blog/compilers
-    title: An Intro to Compilers
-    description: A compiler is just a program that translates soure code into machine code. Let's learn about LLVM, a widely used compiler in Rust and Swift too
+    title: "An Intro To Compilers"
+    description: "A compiler is just a program that translates source code into machine code. Let's learn about LLVM, a widely used compiler in Rust and Swift too."
 
   - url: https://francisstokes.wordpress.com/2017/08/16/programming-language-from-scratch/
-    title: 3 Easy Steps To An Interpreter
-    description: Francis Stokes created a 16 bit virtual machine in JavaScript before. Now he created a progrmming language that compile to 16bitjs assembly and run on that VM.
+    title: "3 Easy Steps To An Interpreter"
+    description: "Francis Stokes created a 16-bit virtual machine (VM) in JavaScript before. Now he created a programming language that compiles to 16bitjs assembly and runs on that VM."
 
   - url: http://www.brynosaurus.com/pub/net/p2pnat/
-    title: Peer-to-Peer Communication with NAT
-    description: "NAT causes well-known difficulties for peer-to-peer (P2P) communication, since the peers involved may not be reachable at any globally valid IP address. This paper documents and analyzes a NAT traversal techniques, hole punching."
+    title: "Peer-to-Peer Communication With NAT"
+    description: "NAT causes well-known difficulties for peer-to-peer (P2P) communication, since the peers involved may not be reachable at any globally valid IP address. This paper documents and analyzes a NAT traversal techniques."
 
   - url: https://thesizzle.com.au/betterdev/
-    title: The Sizzle - Daily Curated Tech News
+    title: "The Sizzle - Daily Curated Tech News"
     description: "Struggling to keep up with the tsunami of tech news? Need to improve your signal to noise ratio? One email a day, five must-read tech news stories, sent just in time for your commute home. Stay in the loop without burning all your free time."
-    action: "Read the first two weeks for free"
+    action: "Read the first two weeks for free!"
     category:
       - sponsor
 
   - url: https://blog.carbonfive.com/2017/07/18/evented-rails-decoupling-complex-domains-in-rails-with-domain-events/
-    title: "Decoupling complex domains in Rails with Domain Events"
-    description: "A serie about domain driven design in Rails. This part is about decoupling bounded contexts with Domain Events. You should also check out previous posts too"
+    title: "Decoupling Complex Domains In Rails With Domain Events"
+    description: "A series about domain-driven design in Rails. This part is about decoupling bounded contexts with Domain Events. You should also check out their previous posts too."
 
   - url: https://insimpleterms.blog/2017/08/07/the-tech-leads-new-project-checklist/
     title: "The Tech Lead’s New Project Checklist"
-    description: Clare Sudbery shares notes from a session on what a tech lead needs to do and know when arriving on a new project.
+    description: "Clare Sudbery shares notes from a session on what a tech leads need to know and do when arriving on a new project."
 
   - url: https://brandur.org/postgres-atomicity$a
     title: "How Postgres Makes Transactions Atomic"
-    description: This article looks into how Postgres keeps the books on its transactions, how they’re committed atomically, and some concepts that are key to understanding it all
+    description: "This article looks into how Postgres keeps the books on its transactions, how they’re committed atomically, and some concepts that are key to understanding how it’s all happening."
 
   - url: https://blog.acolyer.org/2017/08/17/on-the-design-of-distributed-programming-models/amp/
-    title: "The design of distributed programming models"
+    title: "The Design Of Distributed Programming Models"
     description: "Distributed programming, while superficially believed to be an extension of concurrent programming, has its own fundamental challenges that must be overcome."
 
   - url: https://blog.mapbox.com/right-way-visualize-data-945d6010fab0
-    title: Dots vs. polygons visualization
-    description: "Amy Lee Walton share how to choose dot and polygon in data visulization with example about map."
+    title: "Dots vs. Polygons Visualization"
+    description: "Amy Lee Walton shares how to choose dot and polygons in data visualization with example using maps."
 
   - url: https://medium.com/@michaelaranda0/ssh-public-key-encryption-the-simple-explanation-youve-been-looking-for-9b71d0a9d4d8
     title: "SSH + Public Key Authentication Explanation"
-    description: "We use SSH + Public Key authentication everyday: from remotely login to server working with Git. This post is a simple explanation explain how it works"
+    description: "We use SSH + Public Key authentication every day like remotely logging into servers or working with Git. This post is a simple explanation explain how it works."
 
   - url: https://matthias-endler.de/2017/makefiles
     title: "Afraid of Makefiles? Don't be!"
-    description: "Matthias think that we shouldn't afraid of makefile and attempt to give some brief introduction to it"
+    description: "Matthias thinks that we shouldn't afraid of makefile and attempts to give a brief introduction to them."
 
   - url: https://medium.freecodecamp.org/vim-isnt-that-scary-here-are-5-free-resources-you-can-use-to-learn-it-ab78f5726f8d
-    title: "5 Free Resource to Learn Vim"
-    description: "Fatos gives reasons why to learn Vim and resource to do that"
+    title: "5 Free Resource To Learn Vim"
+    description: "Fatos gives reasons why to learn Vim and resources to do so."
 
   - url: https://medium.com/dailyjs/understanding-v8s-bytecode-317d46c94775
     title: "Understanding V8’s Bytecode"
-    description: "V8 is Google’s open source JavaScript engine. Chrome, Node.js, and many other applications use V8. This article explains V8’s bytecode format"
+    description: "V8 is Google’s open source JavaScript engine. Chrome, Node.js, and many other applications use V8. This article explains V8’s bytecode format."
 
   - url: https://www.snellman.net/blog/archive/2017-08-19-slow-ps4-downloads/
-    title: "Why PS4 Downloads Are so Slow"
-    description: "A very interesting research into why downloading in PS4 is slow. Basically due to an artificially restricting speed when any application is running."
+    title: "Why PS4 Downloads Are So Slow"
+    description: "A very interesting research into why downloading in PS4 is slow. Basically, it comes down to artificially restricting speed when any application is running."
 
   - url: https://githubengineering.com/kubernetes-at-github/
-    title: "Kubernetes at GitHub"
-    description: "It's great to see how large company like Github design their infrastructure, and the strategy they use when rolling out Kubernetes"
+    title: "Kubernetes At GitHub"
+    description: "It's great to see how large companies like GitHub design their infrastructure and the strategy they use when rolling out Kubernetes."
 
   - url: https://medium.com/@ageitgey/machine-learning-is-fun-part-8-how-to-intentionally-trick-neural-networks-b55da32b7196
-    title: "Machine Learning is Fun"
-    description: "This is part 8 of a series. In this, we lean how to intentionally trick a neural networks. Make sure you checkout other part as well"
+    title: "Machine Learning Is Fun"
+    description: "This is part 8 of this series. In this, we learn how to intentionally trick neural networks. Make sure you checkout other parts as well."
 
   - url: https://jvns.ca/blog/2017/08/06/learning-at-work/
-    title: "Learning at Work"
-    description: "What if you want to become awesome, but don’t want to spend a lot of time basically doing extra work after hours? Julia shares her tip& tricks"
+    title: "Learning At Work"
+    description: "What if you want to become awesome, but don’t want to spend a lot of time doing extra work after hours? Julia shares her tips & tricks."
 
   - url: https://medium.com/wemake-services/testing-bash-applications-85512e7fe2de
     title: "Testing Bash Applications"
-    description: "Bash doesn't have a defactor test framework like other language. This article goes through some solutions to test Bash, especially Bats, the tool the author chose"
+    description: "Bash doesn't have a defacto test framework like other languages. This article goes through some solutions to test Bash, especially Bats, the tool the author’s personal choice."
 
   - url: http://digitalfreepen.com/2017/08/16/elixir-in-depth-notes.html
     title: "Elixir In Depth"
-    description: "Elixir is a hot and trendy topic nowadays. Of course, nothing is silve bullet. But it's worth to look into other programming language and see how they solve problems. This is a list of reading, notes, article to really understand Elixir"
+    description: "Elixir is a hot and trendy topic nowadays. Of course, it’s not a silver bullet. It's worth looking into other programming languages and see how they solve problems. This is a list of reading, notes, and articles to really understand Elixir."
 
   - url: https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12
-    title: "HomepageMachine Learning for Humans"
-    description: "Simple, plain-English explanations accompanied by math, code, and real-world examples"
+    title: "Machine Learning For Humans"
+    description: "Simple, plain-English explanations accompanied by math, code, and real-world examples."
 
   - url: https://blog.risingstack.com/designing-microservices-architecture-for-failure/
-    title: "Designing a Microservices Architecture for Failure"
-    description: "Microservice makes it possible to isolate failures through well-defined service boundaries. To minimize the impact of partial outages we need to build fault tolerant services that can gracefully respond to certain types of outages"
+    title: "Designing A Microservices Architecture For Failure"
+    description: "Microservices make it possible to isolate failures through well-defined service boundaries. To minimize the impact of partial outages, we need to build fault-tolerant services that can gracefully respond to certain types of outages."
 
   - url: https://gist.github.com/lattner/31ed37682ef1576b16bca1432ea9f782
-    title: "Task-based concurrency manifesto draft"
-    description: "Chris Lattner, Swift creator intoduce an approach to concurency in Swift. Even if you aren't using Swift, we belive you can leanr alot by reading this. Chris write about async/await, actor model and learn from other language"
+    title: "Task-Based Concurrency Manifesto Draft"
+    description: "Chris Lattner, a Swift creator introduces an approach to concurrency in Swift. Even if you aren't using Swift, we believe you can learn a lot by reading this. Chris write about async/await, the actor model, and learning from other languages."
 
   - url: https://marmelab.com/blog/2017/02/06/react-is-slow-react-is-fast.html
-    title: "Optimizing React Apps in Practice"
-    description: "François Zaninotto wrote about measuring performane, find the bottle neck and how to fix them to improve React performance"
+    title: "Optimizing React Apps In Practice"
+    description: "François Zaninotto wrote about measuring performance, finding the bottle necks, and how to fix them to improve React performance."
 
   - url: https://blog.filippo.io/rustgo
-    title: "RUSTGO: Calling Rust from Go"
-    description: "Go can call into assembly. However, writing assembly code is hard. How can we write code in higer level language and call them from Go. This post is an experiment of calling Rust from Go"
+    title: "RUSTGO: Calling Rust From Go"
+    description: "Go can call into assembly, however, writing assembly code is hard. How can we write code in a higher-level language and call them from Go? This post is an experiment of calling Rust from Go."
 
   - url: https://github.com/vahidk/EffectiveTensorflow
     title: "TensorFlow tutorials and best practices"
-    description: "Lots of tip and trick to use TensorFlow effectively"
+    description: "Lots of tips and tricks on how to use TensorFlow effectively."
 
 read_code:
   - url: http://cryptopals.com/sets/1
-    title: "A set of challenge about crypto. Doing this challenge defenitely improves your knowledge on crypto"
+    title: "A set of challenge about crypto. Doing these challenges definitely improve your knowledge on crypto."
 
   - url: https://github.com/larkery/zsh-histdb
-    title: "zsh-histdb - Store ZSH history in sqlite3 database"
+    title: "zsh-histdb - Store ZSH history in sqlite3 database."
 
 tool:
   - url: https://github.com/jthomas/serverless-pwned-passwords
-    title: "Checking 320M passwords in milliseconds with serverless bloom filters"
+    title: "Checking 320M passwords in milliseconds with server-less bloom filters."
 
   - url: http://dev-sec.io/
-    title: "DevSec - Set of Chef/Ansible/Puppet repo to harden infrastructures"
+    title: "DevSec - Set of Chef/Ansible/Puppet repo to harden infrastructures."
 
   - url: http://bubb.surge.sh/
-    title: "Bubb Infotip - Tooltips with no dependencies"
+    title: "Bubb Infotip - Tooltips with no dependencies."
 
   - url: https://github.com/ripienaar/rotrep
-    title: "rotrep - capture and report on file checksums with an aim to report bit rot"
+    title: "rotrep - capture and report on file checksums with an aim to report bit rot."
 
   - url: https://notabug.org/akkartik/basic-build
-    title: "basic-build - Minimal build system for small C projects"
+    title: "basic-build - Minimal build system for small C projects."
 
   - url: https://github.com/cliffe/SecGen
-    title: "SecGen - creates vulnerable virtual machines to learn security penetration testing techniques"
+    title: "SecGen - creates vulnerable virtual machines to learn security penetration testing techniques."
 
   - url: https://github.com/GoogleChrome/puppeteer
-    title: "puppeteer - Headless Chrome Node API"
+    title: "puppeteer - Headless Chrome Node API."
 
   - url: https://mldatageek.herokuapp.com/questions/tags:amazon/
-    title: "Machine Learning & Data Science technical interview questions"
-
+    title: "Machine Learning & Data Science technical interview questions."
