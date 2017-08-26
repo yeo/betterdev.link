@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func main() {
+func deploy() {
 	dest := os.Getenv("BAJA_DEPLOY_TO")
 	host := os.Getenv("BAJA_DEPLOY_HOST")
 	log.Println("Deploy to", host, dest)

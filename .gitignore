@@ -8,3 +8,5 @@ erl_crash.dump
 public/*
 env.run
 backup
+bd
+env.sh

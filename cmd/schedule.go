@@ -7,7 +7,7 @@ import (
 	"github.com/yeo/betterdev.link/baja"
 )
 
-func main() {
+func schedule() {
 	var issue = flag.Int("issue", 0, "Issue #")
 	flag.Parse()
 

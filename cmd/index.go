@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func main() {
+func buildIndex() {
 	cwd, err := os.Getwd()
 	if err != nil {
 		log.Fatal("Cannot fetch current dir", err)
