@@ -1,0 +1,108 @@
+---
+time: "Aug 29, 2017"
+description: ""
+draft: false
+links:
+  - url: https://github.com/jamesroutley/write-a-hash-table
+    title: "Write a hash table in C"
+    description: "Hash table or map, dictionary, or associate array allow quick and scalable insert, search and delete make them relevant to a large number of computer science problems, basically have O(1) read/write time."
+
+  - url: http://staff.polito.it/silvano.rivoira/HowToWriteYourOwnCompiler.htm
+    title: "How to write your own compiler"
+    description: "An old article, however it made user of LLVM for backend to generate code. It describes a complete compiler for a real programming language and is organized to demonstrate how to design and implement the successive phases of the compilation process"
+
+  - url: https://ericdouglas.github.io/2017/08/24/practicing-the-elixir-language/
+    title: "Practicing Elixir or any programming language"
+    description: "A good way to learn any programming language is to repeat the same process in other language. The author shares a skeleton process to do this, focus on algorithm, TDD, structure the code, learn the tool."
+
+  - url: https://medium.com/@dailydrip/an-introduction-to-the-crystal-programming-language-b9e0222b5b5e
+    title: "An Introduction to the Crystal Programming Language"
+    description: "Crystal is a statically-typed, compiled language, that achieves performance close to c/c++ while having a syntax as readable as Ruby"
+
+  - url: https://stripe.com/blog/api-versioning
+    title: "APIs as infrastructure at Stripe"
+    description: "Learn how Stripe manage their API: future-proofing with versioning"
+
+  - url: https://googleprojectzero.blogspot.com/2017/05/exploiting-linux-kernel-via-packet.html
+    title: "Exploiting the Linux kernel via packet sockets"
+    description: "This post describes how a bug in packet sockets was found and how to exploit it to escalate privileges"
+
+  - url: https://googleprojectzero.blogspot.com/2017/08/bypassing-virtualbox-process-hardening.html
+    title: "Bypassing VirtualBox Process Hardening on Windows"
+    description: "This blog post will describe the implementation of Oracle’s VirtualBox protected process and detail three different, but now fixed, ways of bypassing the protection and injecting arbitrary code into the process"
+
+  - url: https://v8project.blogspot.com/2017/08/about-that-hash-flooding-vulnerability.html
+    title: "Hash flooding vulnerability in Node.js"
+    description: "In July, Node.js released a fix for hash flooding vulnerability. This post give some background and history on the vulnerability and the eventual solution."
+
+  - url: https://toshellandback.com/2017/08/16/mousejack/
+    title: "Exploiting wireless peripherals.: Mousejacking"
+    description: "What if I say someone can hijack your wireless mouse and click on your behalf? This post describe this kind of attack"
+
+    title: "Serverless Raspberry Pi cluster with Docker"
+    description: "The author recently release OpenFaas, a serverless framework for Docker & Kubernetes. Now he show how to create your own Serverless Raspberry Pi cluster with that tools"
+
+  - url: https://www.youtube.com/watch?v=e2QVjmN5IF4&utm_source=golangweekly&utm_medium=email
+    title: Why Go Scales(Video)
+    description: "What exactly makes Go programs cale?  In this session we'll look at the design of the Go language and runtime, compare it to other technologies"
+
+  - url: http://engineering.gusto.com/how-ach-works-a-developer-perspective-part-1/
+    title: "How ACH Works: A Developer Perspective"
+    description: "The Automatic Clearing House (ACH) network is the primary way money moves electronically through the banking system today."
+
+  - url: https://hamidreza-s.github.io/erlang%20garbage%20collection%20memory%20layout%20soft%20realtime/2015/08/24/erlang-garbage-collection-details-and-why-it-matters.html
+    title: "Erlang Garbage Collection Details and Why It Matters"
+    description: "Erlang has a fast GC mechanims that doesn't stop the system from responding in a timely manner. Given its immutable nature, this will produce a high rate of garbage. So how does it's GC work?"
+
+  - url: https://medium.com/@elkentaro/hackerchip-v-1-part-1-of-n-59804d27c245
+    title: "HackerChip V.1 - building a small linux terminal"
+    description: "A super cool hardware project, build a small terminal with keyboard and screen so you can use for some remote work."
+
+  - url: https://blog.apnic.net/2016/08/22/ipv6-performance-revisited/
+    title: "IPv6 Performance Revisited"
+    description: "In this article, the author reports the results of a large-scale measurement of IPv4 and IPv6 performance looking at the relativities of IPv6 and IPv4 performance"
+
+  - url: https://medium.com/picsrush/a-guide-to-minimalist-web-design-9c14503eeec4
+    title: "A Guide to Minimalist Web Design"
+    description: "In this article, we are going to explore the meaning of minimalism in the context of Web design"
+
+  - url: https://elifesciences.org/labs/5b56aff6/sciencebeam-using-computer-vision-to-extract-pdf-data
+    title: "Using computer vision to extract pdf data"
+    description: "Outline a new project to convert PDF to XML with high accuracy by complementing existing tools with computer vision technology"
+
+  - url: https://www.calhoun.io/securing-cookies-in-go
+    title: "Securing cookies in Go"
+
+  - url: https://blog.bethselamin.de/posts/latency-matters.html
+    title: "Latency matters"
+    description: "Can we really perceive a difference between 5 ms latency and 45 ms latency? Turn out we can in case of the author."
+
+  - url: https://engineering.universe.com/introduction-to-concurrency-models-with-ruby-part-i-550d0dbb970
+    title: "Introduction to Concurrency Models with Ruby. Part I"
+    description: "Learn the differences between Processes, Threads, what the GIL is, EventMachine and Fibers in Ruby. When to use which of the models, which open-source projects use them, what the pros and cons are"
+
+  - url: https://css-tricks.com/paint-timing-api/
+    title: "Pain Timing API in Chrome 60"
+    description: "Yet another addition to the burgeoning Performance API, but instead of capturing page and resource timings, this new API allows you to capture metrics on when a page begins painting."
+
+tools:
+  - url: https://github.com/zammad/zammad
+    title: "Zammad: web based open source helpdesk/customer support system "
+
+  - url: https://github.com/filmor/ierl
+    title: "BEAM Jupyter Kernels Tool"
+
+  - url: https://github.com/Otann/powerline-go
+    title: "Powerline-shell in Go"
+
+  - url: https://github.com/tockins/realize
+    title: "Realize: Golang build system with file watchers and live reload"
+
+  - url: http://cssnano.co/
+    title: "CSSNANO: Deliver your webites's styles faster"
+
+  - url: https://github.com/GoogleChrome/rendertron
+    title: "A dockerized, headless Chrome rendering solution"
+
+  - url: https://github.com/codesenberg/bombardier
+    title: "bombardier: Fast cross-platform HTTP benchmarking tool"
