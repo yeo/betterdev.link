@@ -102,7 +102,7 @@ links:
     title: "Pain Timing API in Chrome 60"
     description: "Yet another addition to the burgeoning Performance API, but instead of capturing page and resource timings, this new API allows you to capture metrics on when a page begins painting."
 
-tools:
+tool:
   - url: https://github.com/zammad/zammad
     title: "Zammad: web based open source helpdesk/customer support system "
 
