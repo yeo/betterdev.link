@@ -1,18 +1,18 @@
 ---
 time: "Aug 29, 2017"
 description: ""
-draft: false
+draft: true
 links:
   - url: https://github.com/jamesroutley/write-a-hash-table
-    title: "Write a hash table in C"
+    title: "Write a Hash Table in C"
     description: "Hash table or map, dictionary, or associate array allow quick and scalable insert, search and delete make them relevant to a large number of computer science problems, basically have O(1) read/write time."
 
   - url: http://staff.polito.it/silvano.rivoira/HowToWriteYourOwnCompiler.htm
-    title: "How to write your own compiler"
+    title: "How to Write Your Own Compiler"
     description: "An old article, however it made user of LLVM for backend to generate code. It describes a complete compiler for a real programming language and is organized to demonstrate how to design and implement the successive phases of the compilation process"
 
   - url: https://ericdouglas.github.io/2017/08/24/practicing-the-elixir-language/
-    title: "Practicing Elixir or any programming language"
+    title: "Practicing Elixir or any Programming Language"
     description: "A good way to learn any programming language is to repeat the same process in other language. The author shares a skeleton process to do this, focus on algorithm, TDD, structure the code, learn the tool."
 
   - url: https://medium.com/@dailydrip/an-introduction-to-the-crystal-programming-language-b9e0222b5b5e
@@ -20,30 +20,42 @@ links:
     description: "Crystal is a statically-typed, compiled language, that achieves performance close to c/c++ while having a syntax as readable as Ruby"
 
   - url: https://stripe.com/blog/api-versioning
-    title: "APIs as infrastructure at Stripe"
+    title: "APIs as Infrastructure at Stripe"
     description: "Learn how Stripe manage their API: future-proofing with versioning"
 
   - url: https://googleprojectzero.blogspot.com/2017/05/exploiting-linux-kernel-via-packet.html
-    title: "Exploiting the Linux kernel via packet sockets"
+    title: "Exploiting the Linux Kernel Via Packet Sockets"
     description: "This post describes how a bug in packet sockets was found and how to exploit it to escalate privileges"
-
   - url: https://googleprojectzero.blogspot.com/2017/08/bypassing-virtualbox-process-hardening.html
     title: "Bypassing VirtualBox Process Hardening on Windows"
     description: "This blog post will describe the implementation of Oracle’s VirtualBox protected process and detail three different, but now fixed, ways of bypassing the protection and injecting arbitrary code into the process"
 
   - url: https://v8project.blogspot.com/2017/08/about-that-hash-flooding-vulnerability.html
-    title: "Hash flooding vulnerability in Node.js"
+    title: "Hash Flooding Vulnerability in Node.js"
     description: "In July, Node.js released a fix for hash flooding vulnerability. This post give some background and history on the vulnerability and the eventual solution."
 
   - url: https://toshellandback.com/2017/08/16/mousejack/
-    title: "Exploiting wireless peripherals.: Mousejacking"
+    title: "Exploiting Wireless Peripherals: Mousejacking"
     description: "What if I say someone can hijack your wireless mouse and click on your behalf? This post describe this kind of attack"
 
-    title: "Serverless Raspberry Pi cluster with Docker"
+  - url: https://www.tablix.org/~avian/blog/archives/2017/08/on_piping_curl_to_apt_key
+    title: "On Piping Curl to apt-key"
+    description: "piping curl to bash is dangerous. Mmany projects no longer advertise this installation method. But what can also go wrong with piping curl to apt-key?"
+
+  - url: http://davidad.github.io/blog/2014/04/24/an-osi-layer-model-for-the-21st-century
+    title: "An OSI Layer Model for the 21st Century"
+    description: "On the modern Internet, cryptography is typically squeezed into a single, incredibly complex layer, TLS, which has 3 entirely unrelated discover in last few month. What is  cryptographic functions were spread out into more layers?"
+
+  - url: https://medium.com/google-cloud/kubernetes-configmaps-and-secrets-68d061f7ab5b
+    title: "Kubernetes ConfigMaps and Secrets"
+    description: "Two parts series about management configurationw ith ConfigMap an Secrets"
+
+  - url: https://blog.alexellis.io/your-serverless-raspberry-pi-cluster/
+    title: "Serverless Raspberry Pi Cluster with Docker"
     description: "The author recently release OpenFaas, a serverless framework for Docker & Kubernetes. Now he show how to create your own Serverless Raspberry Pi cluster with that tools"
 
   - url: https://www.youtube.com/watch?v=e2QVjmN5IF4&utm_source=golangweekly&utm_medium=email
-    title: Why Go Scales(Video)
+    title: "Why Go Scales(Video)"
     description: "What exactly makes Go programs cale?  In this session we'll look at the design of the Go language and runtime, compare it to other technologies"
 
   - url: http://engineering.gusto.com/how-ach-works-a-developer-perspective-part-1/
@@ -55,7 +67,7 @@ links:
     description: "Erlang has a fast GC mechanims that doesn't stop the system from responding in a timely manner. Given its immutable nature, this will produce a high rate of garbage. So how does it's GC work?"
 
   - url: https://medium.com/@elkentaro/hackerchip-v-1-part-1-of-n-59804d27c245
-    title: "HackerChip V.1 - building a small linux terminal"
+    title: "HackerChip V.1 - Building a Small Linux Terminal"
     description: "A super cool hardware project, build a small terminal with keyboard and screen so you can use for some remote work."
 
   - url: https://blog.apnic.net/2016/08/22/ipv6-performance-revisited/
@@ -67,11 +79,12 @@ links:
     description: "In this article, we are going to explore the meaning of minimalism in the context of Web design"
 
   - url: https://elifesciences.org/labs/5b56aff6/sciencebeam-using-computer-vision-to-extract-pdf-data
-    title: "Using computer vision to extract pdf data"
+    title: "Using Computer Vision to Extract PDF Data"
     description: "Outline a new project to convert PDF to XML with high accuracy by complementing existing tools with computer vision technology"
 
   - url: https://www.calhoun.io/securing-cookies-in-go
-    title: "Securing cookies in Go"
+    title: "Securing Cookies in Go"
+    description: "John Calhoun explains about potential issues with cookie and how to mitigate them. It's in Go but the ideal can be applied into anything"
 
   - url: https://blog.bethselamin.de/posts/latency-matters.html
     title: "Latency matters"
@@ -81,6 +94,10 @@ links:
     title: "Introduction to Concurrency Models with Ruby. Part I"
     description: "Learn the differences between Processes, Threads, what the GIL is, EventMachine and Fibers in Ruby. When to use which of the models, which open-source projects use them, what the pros and cons are"
 
+  - url: https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e
+    title: "How JavaScript works"
+    description: "inside the V8 engine + 5 tips on how to write optimized code"
+
   - url: https://css-tricks.com/paint-timing-api/
     title: "Pain Timing API in Chrome 60"
     description: "Yet another addition to the burgeoning Performance API, but instead of capturing page and resource timings, this new API allows you to capture metrics on when a page begins painting."
@@ -88,6 +105,15 @@ links:
 tools:
   - url: https://github.com/zammad/zammad
     title: "Zammad: web based open source helpdesk/customer support system "
+
+  - url: https://github.com/tarantool/tarantool
+    title: "Tarantool: in-memory database and application server, drop in replacement for LUA, based on LUAJit 2.1"
+
+  - url: https://github.com/solo-io/squash
+    title: "Squash: the dubugger for microservices"
+
+  - url: https://github.com/kbrsh/moon
+    title: "Moon: A minimal, blazing fast UI library"
 
   - url: https://github.com/filmor/ierl
     title: "BEAM Jupyter Kernels Tool"
@@ -106,3 +132,6 @@ tools:
 
   - url: https://github.com/codesenberg/bombardier
     title: "bombardier: Fast cross-platform HTTP benchmarking tool"
+
+  - url: https://github.com/Laverna/laverna
+    title: "Laverna: note taking application with Markdown editor and encryption support"
