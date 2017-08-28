@@ -1,7 +1,7 @@
 ---
 time: "Aug 29, 2017"
 description: ""
-draft: true
+draft: false
 links:
   - url: https://github.com/jamesroutley/write-a-hash-table
     title: "Write a Hash Table in C"
