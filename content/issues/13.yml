@@ -5,58 +5,59 @@ draft: true
 links:
   - url: https://github.com/jamesroutley/write-a-hash-table
     title: "Write a Hash Table in C"
-    description: "Hash table or map, dictionary, or associate array allow quick and scalable insert, search and delete make them relevant to a large number of computer science problems, basically have O(1) read/write time."
+    description: "Hash tables allow quick and scalable insert, search and delete, and are relevant to a large number of computer science problems."
 
   - url: http://staff.polito.it/silvano.rivoira/HowToWriteYourOwnCompiler.htm
     title: "How to Write Your Own Compiler"
-    description: "An old article, however it made user of LLVM for backend to generate code. It describes a complete compiler for a real programming language and is organized to demonstrate how to design and implement the successive phases of the compilation process"
+    description: "While an older article, it made use of LLVM as a backend to generate code. It describes a complete compiler for a real programming language and is organized to demonstrate how to design and implement the successive phases of the compilation process."
 
   - url: https://ericdouglas.github.io/2017/08/24/practicing-the-elixir-language/
-    title: "Practicing Elixir or any Programming Language"
-    description: "A good way to learn any programming language is to repeat the same process in other language. The author shares a skeleton process to do this, focus on algorithm, TDD, structure the code, learn the tool."
+    title: "Practicing Elixir or Any Programming Language"
+    description: "A good way to learn any programming language is to repeat the same process in other languages. The author shares a skeleton process to do this by focusing on algorithm, TDD, structuring code, and learning the tool."
 
   - url: https://medium.com/@dailydrip/an-introduction-to-the-crystal-programming-language-b9e0222b5b5e
     title: "An Introduction to the Crystal Programming Language"
-    description: "Crystal is a statically-typed, compiled language, that achieves performance close to c/c++ while having a syntax as readable as Ruby"
+    description: "Crystal is a statically-typed, compiled language that achieves performance close to C/C++ while having a syntax as readable as Ruby."
 
   - url: https://stripe.com/blog/api-versioning
     title: "APIs as Infrastructure at Stripe"
-    description: "Learn how Stripe manage their API: future-proofing with versioning"
+    description: "Learn how Stripe manage their API: future-proofing with versioning."
 
   - url: https://googleprojectzero.blogspot.com/2017/05/exploiting-linux-kernel-via-packet.html
     title: "Exploiting the Linux Kernel Via Packet Sockets"
-    description: "This post describes how a bug in packet sockets was found and how to exploit it to escalate privileges"
+    description: "This post describes how a bug in packet sockets was found and how to exploit it to escalate privileges."
+
   - url: https://googleprojectzero.blogspot.com/2017/08/bypassing-virtualbox-process-hardening.html
     title: "Bypassing VirtualBox Process Hardening on Windows"
-    description: "This blog post will describe the implementation of Oracle’s VirtualBox protected process and detail three different, but now fixed, ways of bypassing the protection and injecting arbitrary code into the process"
+    description: "This blog post will describe the implementation of Oracle’s VirtualBox protected process and detail three different, (but now fixed), ways of bypassing the protection and injecting arbitrary code into the process."
 
   - url: https://v8project.blogspot.com/2017/08/about-that-hash-flooding-vulnerability.html
     title: "Hash Flooding Vulnerability in Node.js"
-    description: "In July, Node.js released a fix for hash flooding vulnerability. This post give some background and history on the vulnerability and the eventual solution."
+    description: "In July, Node.js released a fix for a hash flooding vulnerability. This post provides some background and history on the vulnerability and the eventual solution."
 
   - url: https://toshellandback.com/2017/08/16/mousejack/
     title: "Exploiting Wireless Peripherals: Mousejacking"
-    description: "What if I say someone can hijack your wireless mouse and click on your behalf? This post describe this kind of attack"
+    description: "What if I told you someone could hijack your wireless mouse and click on your behalf? This post describe this kind of attack."
 
   - url: https://www.tablix.org/~avian/blog/archives/2017/08/on_piping_curl_to_apt_key
-    title: "On Piping Curl to apt-key"
-    description: "piping curl to bash is dangerous. Mmany projects no longer advertise this installation method. But what can also go wrong with piping curl to apt-key?"
+    title: "On Piping curl to apt-key"
+    description: "Piping curl to bash is dangerous. Many projects no longer advertise this installation method. But what could go wrong with piping curl to apt-key?"
 
   - url: http://davidad.github.io/blog/2014/04/24/an-osi-layer-model-for-the-21st-century
     title: "An OSI Layer Model for the 21st Century"
-    description: "On the modern Internet, cryptography is typically squeezed into a single, incredibly complex layer, TLS, which has 3 entirely unrelated discover in last few month. What is  cryptographic functions were spread out into more layers?"
+    description: "On the modern Internet, cryptography is typically squeezed into a single, incredibly complex layer, TLS, which had three entirely unrelated bugs discovered in three months in 2014. What if cryptographic functions were spread out over more layers?"
 
   - url: https://medium.com/google-cloud/kubernetes-configmaps-and-secrets-68d061f7ab5b
     title: "Kubernetes ConfigMaps and Secrets"
-    description: "Two parts series about management configurationw ith ConfigMap an Secrets"
+    description: "Two parts series about management configuration with ConfigMap and Secrets."
 
   - url: https://blog.alexellis.io/your-serverless-raspberry-pi-cluster/
     title: "Serverless Raspberry Pi Cluster with Docker"
-    description: "The author recently release OpenFaas, a serverless framework for Docker & Kubernetes. Now he show how to create your own Serverless Raspberry Pi cluster with that tools"
+    description: "The author recently released OpenFaas, a serverless framework for Docker & Kubernetes. Now he shows us how to create our own Serverless Raspberry Pi cluster with those tools."
 
-  - url: https://www.youtube.com/watch?v=e2QVjmN5IF4&utm_source=golangweekly&utm_medium=email
-    title: "Why Go Scales(Video)"
-    description: "What exactly makes Go programs cale?  In this session we'll look at the design of the Go language and runtime, compare it to other technologies"
+  - url: https://www.youtube.com/watch?v=e2QVjmN5IF4
+    title: "How Go Scales (Video)"
+    description: "What exactly makes Go program scale? In this session, we'll look at the design of the Go language and runtime, and compare it to other technologies."
 
   - url: http://engineering.gusto.com/how-ach-works-a-developer-perspective-part-1/
     title: "How ACH Works: A Developer Perspective"
@@ -64,53 +65,53 @@ links:
 
   - url: https://hamidreza-s.github.io/erlang%20garbage%20collection%20memory%20layout%20soft%20realtime/2015/08/24/erlang-garbage-collection-details-and-why-it-matters.html
     title: "Erlang Garbage Collection Details and Why It Matters"
-    description: "Erlang has a fast GC mechanims that doesn't stop the system from responding in a timely manner. Given its immutable nature, this will produce a high rate of garbage. So how does it's GC work?"
+    description: "Erlang has a fast GC mechanism that doesn't stop the system from responding in a timely manner. Given its immutable nature, this will produce a high rate of garbage. So how does its GC work?"
 
   - url: https://medium.com/@elkentaro/hackerchip-v-1-part-1-of-n-59804d27c245
     title: "HackerChip V.1 - Building a Small Linux Terminal"
-    description: "A super cool hardware project, build a small terminal with keyboard and screen so you can use for some remote work."
+    description: "A super cool hardware project, build a small terminal with a keyboard and screen so you can perform some remote work."
 
   - url: https://blog.apnic.net/2016/08/22/ipv6-performance-revisited/
     title: "IPv6 Performance Revisited"
-    description: "In this article, the author reports the results of a large-scale measurement of IPv4 and IPv6 performance looking at the relativities of IPv6 and IPv4 performance"
+    description: "In this article, the author reports the results of a large-scale measurement of IPv4 and IPv6 performance looking at the relativities of IPv6 and IPv4 performance."
 
   - url: https://medium.com/picsrush/a-guide-to-minimalist-web-design-9c14503eeec4
     title: "A Guide to Minimalist Web Design"
-    description: "In this article, we are going to explore the meaning of minimalism in the context of Web design"
+    description: "In this article, we explore the meaning of minimalism in the context of web design."
 
   - url: https://elifesciences.org/labs/5b56aff6/sciencebeam-using-computer-vision-to-extract-pdf-data
     title: "Using Computer Vision to Extract PDF Data"
-    description: "Outline a new project to convert PDF to XML with high accuracy by complementing existing tools with computer vision technology"
+    description: "Outline a new project to convert PDF to XML with high accuracy by complementing existing tools with computer vision technology."
 
   - url: https://www.calhoun.io/securing-cookies-in-go
     title: "Securing Cookies in Go"
-    description: "John Calhoun explains about potential issues with cookie and how to mitigate them. It's in Go but the ideal can be applied into anything"
+    description: "John Calhoun explains about potential issues with cookie and how to mitigate them. It's in Go but the theory can be applied to any language."
 
   - url: https://blog.bethselamin.de/posts/latency-matters.html
-    title: "Latency matters"
-    description: "Can we really perceive a difference between 5 ms latency and 45 ms latency? Turn out we can in case of the author."
+    title: "Latency Matters"
+    description: "Can we really perceive a difference between 5 ms latency and 45 ms latency? Turns out we can, presents the author."
 
   - url: https://engineering.universe.com/introduction-to-concurrency-models-with-ruby-part-i-550d0dbb970
-    title: "Introduction to Concurrency Models with Ruby. Part I"
-    description: "Learn the differences between Processes, Threads, what the GIL is, EventMachine and Fibers in Ruby. When to use which of the models, which open-source projects use them, what the pros and cons are"
+    title: "Introduction to Concurrency Models with Ruby, Part I"
+    description: "Learn the differences between Processes, Threads, what the GIL is, EventMachine and Fibers in Ruby. When to use which of the models, which open-source projects use them, and what the pros and cons are."
 
   - url: https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e
-    title: "How JavaScript works"
-    description: "inside the V8 engine + 5 tips on how to write optimized code"
+    title: "How JavaScript Works"
+    description: "Inside the V8 engine + 5 tips on how to write optimized code."
 
   - url: https://css-tricks.com/paint-timing-api/
-    title: "Pain Timing API in Chrome 60"
+    title: "Paint Timing API in Chrome 60"
     description: "Yet another addition to the burgeoning Performance API, but instead of capturing page and resource timings, this new API allows you to capture metrics on when a page begins painting."
 
 tool:
   - url: https://github.com/zammad/zammad
-    title: "Zammad: web based open source helpdesk/customer support system "
+    title: "Zammad: web-based open-source helpdesk/customer support system"
 
   - url: https://github.com/tarantool/tarantool
-    title: "Tarantool: in-memory database and application server, drop in replacement for LUA, based on LUAJit 2.1"
+    title: "Tarantool: in-memory database and application server, a drop in replacement for LUA based on LUAJit 2.1"
 
   - url: https://github.com/solo-io/squash
-    title: "Squash: the dubugger for microservices"
+    title: "Squash: the debugger for microservices"
 
   - url: https://github.com/kbrsh/moon
     title: "Moon: A minimal, blazing fast UI library"
@@ -125,7 +126,7 @@ tool:
     title: "Realize: Golang build system with file watchers and live reload"
 
   - url: http://cssnano.co/
-    title: "CSSNANO: Deliver your webites's styles faster"
+    title: "CSSNANO: Deliver your website's styles faster"
 
   - url: https://github.com/GoogleChrome/rendertron
     title: "A dockerized, headless Chrome rendering solution"
