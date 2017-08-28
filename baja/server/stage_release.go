@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/labstack/echo"
 	"net/http"
-	"os"
+	//"os"
 	"strings"
 	"sync"
 )
@@ -54,7 +54,7 @@ func (s *Server) StageRelease(c echo.Context) error {
 
 // sync a git repo to local, refetch if not existing
 
-func syncRepo(repo) {
+func syncRepo(repo string) {
 
 }
 
