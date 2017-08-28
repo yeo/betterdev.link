@@ -4,13 +4,15 @@ VERSION ?= 0.1
 release:
 	cd cmd && go build -ldflags "-X main.Version=$(VERSION) -X main.GitCommit=$(GIT_COMMIT)" -o ../bd
 
+install:
+	cp ./bd ~/bin/bd
+	chmod +x ~/bin/bd
 
 server:
 	go run cmd/server.go
 
 build:
-	#go cmd/main.go
-	./bd
+	bd
 
 upload:
 	rsync -rap public/* $(DEPLOY_USER)@$(DEPLOY_PATH)
