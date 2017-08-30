@@ -34,6 +34,7 @@ func main() {
 		clean()
 	case "serve", "server":
 		serve()
-		break
+	case "dupe":
+		detectDupe()
 	}
 }
