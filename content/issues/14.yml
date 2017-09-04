@@ -1,0 +1,110 @@
+---
+time: "September 4, 2017"
+description: ""
+draft: false
+links:
+  - url: https://github.com/CHYbeta/Software-Security-Learning
+    title: "Software Security Learning"
+    description: "A repository with resource(link, course) to lean about security"
+
+  - url: https://kev.inburke.com/kevin/node-js-string-encoding/
+    title: "Javascript string encoding"
+    description: "JavaScript string encoding is all over the place. Let's try to straighten out how it works"
+
+  - url: https://brandur.org/ruby-memory
+    title: "The Limits of Copy-on-write: How Ruby Allocates Memory"
+    description: "Why Ruby's scheme for memory allocation doesn't play nicely with copy-on-write, and how a compacting garbage collector will help"
+
+  - url: https://www.nasseri.io/posts/1.html
+    title: "The Structure and Interpretation of Ruby Programs"
+    description: "An explanation covering the tokenization, parsing, and compilation of Ruby programs"
+
+  - url: https://chrxs.net/articles/2017/09/01/consistent-selenium-testing/
+    title: "Consistent Selenium Testing"
+    description: "Selenium is a way to do end to end test, where a real browser performs tasks as if a real user. This is a post about configuring and writing selenium test"
+
+  - url: https://hipmunk.github.io/posts/2017/Aug/16/a-fare-cache-in-a-sharded-data-cluster/
+    title: "A Fare Cache in a Sharded Data Cluster"
+    description: "HipMuck strategy to shard data into many sub-tables, select which table to query or even query many of them. Small tables can be put on different smaller instances, Read/Write can happen parallel"
+
+  - url: http://antirez.com/news/113
+    title: "Doing the FizzleFade effect using a Feistel network"
+    description: "Redis creator implements a fade effect with Feistel Network"
+
+  - url: https://v8project.blogspot.com/2017/08/fast-properties.html
+    title: "Fast Properties in V8"
+    description: "In this blog post we would like to explain how V8 handles JavaScript properties internally."
+
+  - url: http://www.cybertec.at/experimenting-scaling-full-parallelism-postgresql/
+    title: "Experimenting with scaling and full parallelism in PostgreSQL"
+    description: "PostgreSQL 9.6 was the first release, which allowed to run a query on many nodes or CPUs. Let's experiment with this feature"
+
+  - url: https://storeofvalue.github.io/posts/cryptocurrency-hacks-so-far-august-24th/
+    title: "List Of High Profile Cryptocurrency Hacks"
+    description: "Although blockchain technology is fundamentally more secure than centralized database systems, the ecosystem is still incredibly young and has many security vulnerabilities, especially with systems built around blockchains."
+
+  - url: https://davidmurdoch.com/2017/09/02/the-grave-accent-and-xss/
+    title: "The JavaScript back-tich and XSS"
+    title: "JavaScritp uses `, or back-tick for template literals. Let learn how to use multi-line strings to bypass Reflective XSS Protection"
+
+  - url: http://lpan.io/what-i-learnt-from-viw/
+    title: "What I learnt from coding a text editor in C"
+    description: "The author implements a VI-like editor in C"
+
+  - url: https://blog.filippo.io/restic-cryptography/
+    title: "Restic Cryptography"
+    description: "Filippo looks into Restic, a backup solution written in Go, and review its encryption model"
+
+  - url: http://www.devsecops.cc/devsecops/hardening_docker_hosts.html
+    title: "Hardening Docker Hosts and Containers"
+    description: "Using UserNamespace to separe host root user from docker root user"
+
+  - url: https://medium.com/@Cvrsor/how-to-make-a-diy-home-alarm-system-with-a-raspberry-pi-and-a-webcam-2d5a2d61da3d
+    title: "DIY home alarm system with a raspberry pi and a webcam"
+    description: "Convert a simple webcam to a fancy digital peephole viewer with motion detection features"
+
+read_code:
+  - url: https://github.com/jdevelop/go-coin-ticker
+    title: "Raspberry Pi BTC/ETH monitoring daemon, LCD 16x2 & LED indicators"
+
+tool:
+  - url: https://github.com/checkr/codeflow
+    title: "Codeflow: a deploy pipeline that implements 12-factor apps on Kubernetes"
+
+  - url: https://github.com/minio/concert
+    title: "Concert: a console based Letsencrypt certificate generation tool"
+
+  - url: https://github.com/lileio/lile
+    title: "Lile: Easily create gRPC services in Go"
+
+  - url: https://github.com/Motion-Project/motion
+    title: "Motion: a software motion detector"
+
+  - url: https://github.com/muesli/smartcrop
+    title: "Smartcrop finds good image crops for arbitrary crop sizes"
+
+  - url: https://github.com/knoxite/knoxite
+    title: "Knoxite: A Data Storage & Backup tool"
+
+  - url: https://github.com/muesli/beehive
+    title: "Beehive: A flexible event/agent & automation system"
+
+  - url: https://github.com/justwatchcom/gopass
+    title: "Gopass: standard unix password manager"
+
+  - url: https://github.com/c-bata/go-prompt
+    title: "Go-Prompt: Building a powerful interactive prompt in Go"
+
+  - url: https://github.com/c-bata/kube-prompt
+    title: "Kube: An interactive kubernetes client featuring auto-complete using go-prompt"
+
+  - url: https://github.com/alexellis/faas-netes
+    title: "Netes: 
+  - url: https://github.com/digota/digota
+    title: "Digota: ecommerce microservice"
+
+  - url: https://github.com/cf-unik/unik
+    title: "Unik: The Unikernel Compilation and Deployment Platform"
+
+  - url: https://github.com/solo-io/squash
+    title: "Squash: The debugger for microservices"
