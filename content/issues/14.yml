@@ -1,5 +1,5 @@
 ---
-time: "September 4, 2017"
+time: "Sep 4, 2017"
 description: ""
 draft: false
 links:
@@ -45,7 +45,7 @@ links:
 
   - url: https://davidmurdoch.com/2017/09/02/the-grave-accent-and-xss/
     title: "The JavaScript back-tich and XSS"
-    title: "JavaScritp uses `, or back-tick for template literals. Let learn how to use multi-line strings to bypass Reflective XSS Protection"
+    description: "JavaScritp uses `, or back-tick for template literals. Let learn how to use multi-line strings to bypass Reflective XSS Protection"
 
   - url: http://lpan.io/what-i-learnt-from-viw/
     title: "What I learnt from coding a text editor in C"
@@ -98,8 +98,6 @@ tool:
   - url: https://github.com/c-bata/kube-prompt
     title: "Kube: An interactive kubernetes client featuring auto-complete using go-prompt"
 
-  - url: https://github.com/alexellis/faas-netes
-    title: "Netes: 
   - url: https://github.com/digota/digota
     title: "Digota: ecommerce microservice"
 
