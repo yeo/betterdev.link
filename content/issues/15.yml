@@ -4,64 +4,64 @@ description: ""
 draft: true
 links:
   - url: https://github.com/mr-mig/every-programmer-should-know
-    title: "Every Programmer Should Know"
+    title: "Every Programmer Should Know…"
     description: "A collection of (mostly) technical things every software developer should know."
 
   - url: https://cstack.github.io/db_tutorial/
     title: "Let's Build a Simple Database"
-    description: "Writing a sqlite clone from scratch in C. We will learn how to save data to disk, implement index, transaction and parse SQL"
+    description: "Writing a SQLite clone from scratch in C. We will learn how to save data to disk, implement indexes, and to transact and parse SQL."
 
   - url: https://tomassetti.me/parse-tree-abstract-syntax-tree/
     title: "Building a Compiler for Your Own Language"
-    description: "This is a 8 parts serie to describe how to create a useful language and all the supporting tools"
+    description: "This is an eight part series on how to create a useful language and all the supporting tools."
 
   - url: https://diogomonica.com/2017/08/31/two-metrics-that-matter-for-host-security/
     title: "The Two Metrics that Matter for Host Security"
-    description: "As companies move toward microservices, it's time to rethink how we measure host security with reverse uptime and golden image freshness"
+    description: "As more companies move toward microservices, it's time to rethink how we measure host security with reverse uptime and VM golden image freshness."
 
   - url: https://diogomonica.com/2017/08/31/two-metrics-that-matter-for-host-security/
     title: "Obscurity is a Valid Security Layer"
-    description: "Security by obscurity is bad in itself. However, when adding to a system that already has decent controls in place, obsecurity may added some more strong benefit"
+    description: "Security by obscurity is bad in itself. However, when adding to a system that already has intelligent controls in place, security by obscurity may be a great benefit."
 
   - url: https://blogs.dropbox.com/tech/2017/09/optimizing-web-servers-for-high-throughput-and-low-latency/
-    title: "Optimizing web servers for high throughput and low latency"
-    description: "A very detail post about optimization web server, load balancer, Linux network stack"
+    title: "Optimizing Web Servers for High Throughput and Low Latency"
+    description: "A very detailed post about optimizing a web server, load balancer, and Linux network stack."
 
   - url: https://githubengineering.com/keeping-an-eye-on-our-network/
-    title: "Keeping an eye on our network"
-    description: "Visibility is essential to effectively operating complex systems. As our network has grown, we’ve had to improve the the way we collect data about it to keep up"
+    title: "Keeping an Eye on our Network"
+    description: "Visibility is essential to effectively operating complex systems. As Github has grown, they’ve had to improve the way they collect data about their network."
 
   - url: http://davidwong.fr/goasm/
     title: "Go Assembly by Example"
-    description: "Go Assembly by Example is a hands-on introduction to Go's Assembly language using annotated example programs"
+    description: "Go Assembly by Example is a hands-on introduction to Go's Assembly language using annotated example programs."
 
   - url: https://hackernoon.com/6-simple-tips-on-how-to-start-writing-clean-code-d66c241aa268
     title: "6 Simple Tips on How to Start Writing Clean Code"
-    description: "Alex showed us six tips, or practices, for writing clean code developers use most often"
+    description: "Alex showed us six tips and practices for writing clean code that developers can use in most cases."
 
   - url: https://medium.com/@jolson88/its-time-for-makefiles-to-make-a-comeback-36cbc358bb0a
     title: "Time for Makefiles to Make a Comeback"
-    description: "Do we really need to be learning a new task runner or build system every 18 months as JavaScript frameworks come go? Jason doesn't think so"
+    description: "Do we really need to be learning a new task runner or build system every 18 months as JavaScript frameworks come and go? Jason doesn't think so."
 
   - url: https://www.datadoghq.com/blog/elasticsearch-game-day/
-    title: "3 lessons learned from an Elasticsearch game day"
-    description: "DataDog stores APM data in Elasticsearch. They set out to dive into Elasticsearch internal: master election, client failover"
+    title: "3 Lessons Learned from an Elasticsearch Game Day"
+    description: "DataDog stores APM data in Elasticsearch. They set out to dive into Elasticsearch internal: master election, client failover."
 
   - url: https://media.ccc.de/c/SHA2017
-    title: "SHA2017: Still Hacking Anyway(Video)"
-    description: "All video from this hacker camp, you will learn a lot about security, DDOS..."
+    title: "SHA2017: Still Hacking Anyway (Video)"
+    description: "A great video from this hacker camp to learn a lot about security."
 
   - url: https://medium.freecodecamp.org/how-does-blockchain-really-work-i-built-an-app-to-show-you-6b70cd4caf7d
-    title: "How does Blockchain really Work?"
-    description: "Sean Han built an app to show us how blockchain works. We can run it in browser or from CLI as well"
+    title: "How does Blockchain Really Work?"
+    description: "Sean Han built an app to show us how blockchain works. We can run it in browser or from CLI as well."
 
   - url: https://dev.to/ericnormand/programming-paradigms-and-the-procedural-paradox
     title: "Programming Paradigms and the Procedural Paradox"
-    description: "Eric tells us how he think about paradigms of procedural programming and object oriented programming"
+    description: "Eric shares with us how he thinks about paradigms of procedural programming and object oriented programming."
 
   - url: https://www.youtube.com/watch?v=7FZ6ZyzGex0
-    title: "grpc: From Tutorial to Production(Video)"
-    description: "We take a crash course use Go tutorial code to address the advanced concerns of deploying grpc in production including monitoring, balancing, errors"
+    title: "grpc: From Tutorial to Production (Video)"
+    description: "We take a crash course using Go tutorial code to address the advanced concerns of deploying grpc in production, including monitoring, balancing, and error handling."
 
 read_code:
   - url: https://github.com/delvedor/find-my-way
@@ -69,16 +69,16 @@ read_code:
 
 tool:
   - url: https://github.com/posener/complete
-    title: "Complete: A tool for bash writing bash completion in go"
+    title: "Complete: A tool for bash writing bash completion in Go"
 
   - url: http://blog.terranillius.com/post/pumba_docker_chaos_testing/
     title: "Pumba: Chaos Testing for Docker"
 
   - url: https://github.com/TurboLabIt/zzupdate
-    title: "ZZUpdate: simple command to fully update an Ubuntu PC/server via apt"
+    title: "ZZUpdate: simple command to fully update an Ubuntu PC/server via APT"
 
   - url: https://github.com/facebook/fbctf
-    title: "fbctl: Platform to host Capture the Flag competitions"
+    title: "fbctl: Platform to host capture the flag competitions"
 
   - url: https://github.com/vincentchu/eth-private-net
     title: "/eth-private-net: Create your own Ethereum private net"
