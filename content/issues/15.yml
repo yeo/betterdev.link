@@ -52,7 +52,7 @@ links:
     description: "All video from this hacker camp, you will learn a lot about security, DDOS..."
 
   - url: https://medium.freecodecamp.org/how-does-blockchain-really-work-i-built-an-app-to-show-you-6b70cd4caf7d
-    title: "How does blockchain really work?"
+    title: "How does Blockchain really Work?"
     description: "Sean Han built an app to show us how blockchain works. We can run it in browser or from CLI as well"
 
   - url: https://dev.to/ericnormand/programming-paradigms-and-the-procedural-paradox
