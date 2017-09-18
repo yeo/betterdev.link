@@ -19,7 +19,7 @@ links:
     title: "The Two Metrics that Matter for Host Security"
     description: "As more companies move toward microservices, it's time to rethink how we measure host security with reverse uptime and VM golden image freshness."
 
-  - url: https://diogomonica.com/2017/08/31/two-metrics-that-matter-for-host-security/
+  - url: https://danielmiessler.com/study/security-by-obscurity/
     title: "Obscurity is a Valid Security Layer"
     description: "Security by obscurity is bad in itself. However, when adding to a system that already has intelligent controls in place, security by obscurity may be a great benefit."
 
