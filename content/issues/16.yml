@@ -4,65 +4,65 @@ description: "Hi guys, we introduce more links in read code section per language
 draft: true
 links:
   - url: https://stackoverflow.com/questions/11227809/why-is-it-faster-to-process-a-sorted-array-than-an-unsorted-array?m=1
-    title: "Why is it faster to process a sorted array than an unsorted array"
-    description: "A stackoverflow question turns into a very detail theory about CPU processing"
+    title: "Why is it Faster to Process a Sorted Array Than an Unsorted Array"
+    description: "A Stack Overflow question turns into a very detailed theory about CPU processing."
 
   - url: https://concurrencyfreaks.blogspot.com/2017/08/why-is-memory-reclamation-so-important.html
     title: "Why is Memory Reclamation so Important?"
-    description: "Object lifetime tracking (or Memory Reclamation as I prefer to call it) is the current most difficult open problem in shared memory concurrency"
+    description: "Object lifetime tracking (or Memory Reclamation as I prefer to call it), is the current most difficult problem in shared memory concurrency."
 
   - url: https://medium.com/startup-grind/what-every-software-engineer-should-know-about-search-27d1df99f80d
-    title: "What every Software Engineer Should Know about Search"
-    description: "At some point in a programmer career, we have to deal with search. This is a collection of insights and resources for building searh experiences"
+    title: "What Every Software Engineer Should Know About Search"
+    description: "At some point in a programmer’s career, we have to deal with search. This is a collection of insights and resources for building search experiences."
 
   - url: https://brandur.org/http-transactions
     title: "Using Atomic Transactions to Power an Idempotent API"
-    description: "Part one of a series on getting easy data correctness by building APIs on the transactional machinery of Postgres."
+    description: "Part one of a series on achieving simple data correctness by building APIs on the transactional machinery of Postgres."
 
   - url: https://japaric.github.io/discovery/
     title: "Discover the World of Microcontrollers through Rust!"
-    description: "A fund hardware project: learn Rust by interating with a microcontroller"
+    description: "A fun hardware project: learn Rust by integrating with a microcontroller."
 
   - url: https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec
     title: "How JavaScript Works: Memory Management and Common Memory Leak"
-    description: "Two part series focus on focused on providing an overview of the engine, the runtime, the call stack, and internal of V8 engine"
+    description: "A two-part series focused on providing an overview of the engine, the runtime, the call stack, and internal of V8 engine."
 
   - url: https://dougvitale.wordpress.com/2011/12/21/deprecated-linux-networking-commands-and-their-replacements/
-    title: "Deprecated Linux Networking Commands and Their Replacements"
-    description: "You may surprise when found lots of familar command such as ifconfig, netstat is not found in latest release of many distro. They are being replace with ip utility"
+    title: "Deprecated Linux Networking Commands and their Replacements"
+    description: "You may have been surprised when you found many familiar commands such as ifconfig, netstat are not found in latest release of many distros. They are being replaced with ip utility."
 
   - url: https://medium.com/cxinnovations/programming-languages-and-innovation-8785ad72be2
     title: "Programming Languages and Innovation"
-    description: "The story of three attempts at introducing new programming languages in the workplace and their cross-pollination effects"
+    description: "The story of three attempts at introducing new programming languages in the workplace and their cross-pollination effects."
 
   - url: https://goiabada.blog/improving-spec-speed-in-a-huge-old-rails-app-8f3ab05a33f9
     title: "Improving Spec Speed in a Huge, old Rails App"
-    description: "The story of improving a test suite speed by 41% in a huge, 6-year-old Rails project"
+    description: "The story of improving a test suite speed by 41% in a huge, 6-year-old Rails project."
 
   - url: http://medium.freecodecamp.org/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf
-    title: "So What’s This GraphQL Thing I Keep Hearing about"
-    description: "Sacha shares his reaction with GraphQL from dismissal to learn about it"
+    title: "So What’s This GraphQL Thing I Keep Hearing About?"
+    description: "Sacha shares his reaction with GraphQL from dismissing it to learning all about it."
 
   - url: https://medium.com/@fox/talk-the-state-of-the-web-3e12f8e413b3
     title: "A Guide to Impactful Performance Improvements"
-    description: "The web is moving fast and we fail to reflect on greater picture of connectivity. Not everyone has access to fast internet, and bandwidth is not cheap either. What can we do to improve this"
+    description: "The web is moving fast and we sometimes fail to reflect on greater picture of connectivity. Not everyone has access to fast internet and bandwidth is not cheap either. What can we do to improve this?"
 
   - url: https://justintimecoder.com/tips-to-retain-strong-typing-in-tests-with-typescript/
     title: "4 Tips for Retaining Strong-typing in Tests with TypeScript"
-    description: "Testing with TypeScript while trying to maintain strong typing can be a bit of a challenge. This post include some techniques to address that"
+    description: "Testing with TypeScript while trying to maintain strong typing can be a bit of a challenge. This post include some techniques to address that."
 
 read_code:
   - url: https://github.com/ankane/strong_migrations
-    title: "Catch unsafe migrations at dev time(Ruby)"
+    title: "Catch unsafe migrations at dev time (Ruby)"
 
   - url: https://github.com/tmc/pqstream
-    title: "pqstream turns your postgres database into an event stream(Golang)"
+    title: "pqstream turns your postgres database into an event stream (Golang)"
 
   - url: http://github.com/ApoorvSaxena/lozad.js
-    title: "Hightly performance lazy loader in Pure JavaScript, no dependencies"
+    title: "High-performance lazy loader written in pure JavaScript, no dependencies"
 
   - url: https://github.com/pyupio/pyup
-    title: "A tool to update your project dependencies(Python)"
+    title: "A tool to update your project dependencies (Python)"
 
   - url: https://github.com/sindresorhus/p-progres
     title: "Create a promise that reports progress"
