@@ -1,0 +1,23 @@
+---
+time: "Sep 18, 2017"
+description: "Hi guys, we introduce more links in read code section per language from our feedback. Enjoy."
+draft: false
+links:
+  - url: https://media.ccc.de/v/SHA2017-174-ddos_attack_and_defense#video&t=1242
+    title: DDoS and mitigation techniques(Video)
+    description: In this talk you'll be given a very technical overview of DDoS and mitigation techniques; their effectiveness will be evaluated with real-life examples
+
+  - url: https://blog.acolyer.org/2017/09/19/to-type-or-not-to-type-quantifying-detectable-bugs-in-javascript/
+
+code_to_read:
+  - 
+tool:
+  https://godotengine.org/
+  - https://github.com/Mirantis/kubeadm-dind-cluster
+  
+  - url: https://github.com/appscode/voyager
+    title: voyager HAProxy backed secure L7 and L4 ingress controller for Kubernetes
+
+  - https://github.com/thepowersgang/mrustc
+
+
