@@ -1,7 +1,7 @@
 ---
-time: "Sep 18, 2017"
-description: "Hi guys, we introduce more links in read code section per language from our feedback. Enjoy."
-draft: false
+time: "Sep 25, 2017"
+description: ""
+draft: true
 links:
   - url: https://code.facebook.com/posts/300798627056246
     title: "What Every Programmer Should Know about Memory"
