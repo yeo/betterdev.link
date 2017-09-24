@@ -3,21 +3,79 @@ time: "Sep 18, 2017"
 description: "Hi guys, we introduce more links in read code section per language from our feedback. Enjoy."
 draft: false
 links:
+  - url: https://code.facebook.com/posts/300798627056246
+    title: "What Every Programmer Should Know about Memory"
+    description: "A 9 parts series deep dive into memory: RAM, CPU cache, DMA"
+
+  - url: https://segment.com/blog/allocation-efficiency-in-high-performance-go-services/
+    title: "Allocation Efficiency in High-Performance Go Services"
+    description: "Segment shares their learning about tuning Go Garbage Collector"
+
+  - url: http://danlebrero.com/2017/04/06/documenting-your-architecture-wireshark-plantuml-and-a-repl/
+    title: "Documenting Your Architecture: Wireshark, PlantUML and a REPL to glue them all"
+    description: "Instead of drawing UML diagrams, why not generate them from a network traffic capture of the running system?"
+
   - url: https://media.ccc.de/v/SHA2017-174-ddos_attack_and_defense#video&t=1242
-    title: DDoS and mitigation techniques(Video)
-    description: In this talk you'll be given a very technical overview of DDoS and mitigation techniques; their effectiveness will be evaluated with real-life examples
+    title: "DDoS and Mitigation Techniques(Video)"
+    description: "You'll be given a very technical overview of DDoS and mitigation techniques; their effectiveness will be evaluated with real-life examples"
 
   - url: https://blog.acolyer.org/2017/09/19/to-type-or-not-to-type-quantifying-detectable-bugs-in-javascript/
+    title: "To Type or not to Type: Quantifying Detectable Bugs in JavaScript"
+    description: "Is it worth the extra effort to add static type annotations to a JavaScript project?"
+
+  - url: https://dev.to/pbeekums/performance-vs-scalability
+    title: "Performance Vs Scalability"
+    description: "Beeky talks about the different between performance and scalability"
+
+  - url: https://drive.google.com/file/d/0BzRE_fwreoDQNzUybnRFOHpWZTA/view
+    title: "Monitoring Cloudflare's planet-scale edge network with Prometheus"
+    description: "Cloudflare shares how they utilize Prometheus"
+  - url: http://www.east5th.co/blog/2017/09/18/exploring-the-bitcoin-blockchain-with-elixir-and-phoenix/
+    title: "Exploring the Bitcoin Blockchain with Elixir and Phoenix"
+    description: "Two birds with one store: learn Blockchain and Elixir at same time with a small project"
+
+  - url: https://arslan.io/2017/09/14/the-ultimate-guide-to-writing-a-go-tool/
+    title: "The Ultimate Guide to writing a Go Tool"
+    description: "Fatih Arslan wrotes a tool to add JSON tag for struct in Go. He explains in detail the full process"
+
+  - url: https://caitiem.com/2017/09/07/getting-started-with-distributed-systems/
+    title: "Resources for Getting Started with Distributed Systems"
+    description: "Author documents their path and some of the resources they found most helpful when doing distributed system."
 
 code_to_read:
-  - 
+  - url: https://github.com/srt32/hkpg
+    title: "hkpg: Automated Archiving of Heroku Postgres Backups to S3(Go)"
+
+  - url: https://github.com/matsuu/kataribe
+    title: "kataribe: Nginx/Apache/Varnishncsa Log Analyzer(Go)"
+
+  - url: https://github.com/susam/uncap
+    title: "Uncap: Map Caps Lock to Escape, or any key to any key(C)"
+
+  - url: https://github.com/saintedlama/microq
+    title: "Micro job queue built on mongo(JavaScript)"
+
+  - url: https://github.com/piscolomo/ruby-patterns
+    title: "ruby-patterns: Examples of Patterns in Ruby"
+
 tool:
-  https://godotengine.org/
-  - https://github.com/Mirantis/kubeadm-dind-cluster
-  
+  - url: https://github.com/jaegertracing/jaeger
+    title: "Jaeger, a Distributed Tracing System"
+
+  - url: https://github.com/wireapp/wire-server
+    title: "wire-server: an open source secure messenger. This is the server component"
+
+  - url: https://github.com/HVF/franchise
+    title: "Franchise: a lightweight but powerful SQL tool with a notebook interface"
+
+  - url: https://github.com/Mirantis/kubeadm-dind-cluster
+    title: "kubeadm-dind-cluster: Kubernetes multi-node test cluster based on kubeadm"
+
+  - url: https://godotengine.org/
+    title: "godotengine: "
+
   - url: https://github.com/appscode/voyager
-    title: voyager HAProxy backed secure L7 and L4 ingress controller for Kubernetes
+    title: "voyager HAProxy backed secure L7 and L4 ingress controller for Kubernetes"
 
-  - https://github.com/thepowersgang/mrustc
-
-
+  - url: https://github.com/bitnami/minideb
+    title: "Minideb: A small image based on Debian designed for use in containers"
