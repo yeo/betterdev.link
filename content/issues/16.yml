@@ -64,7 +64,7 @@ read_code:
   - url: https://github.com/pyupio/pyup
     title: "A tool to update your project dependencies (Python)"
 
-  - url: https://github.com/sindresorhus/p-progres
+  - url: https://github.com/sindresorhus/p-progress
     title: "Create a promise that reports progress"
 
 tool:

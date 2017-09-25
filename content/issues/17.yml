@@ -1,7 +1,7 @@
 ---
 time: "Sep 25, 2017"
 description: ""
-draft: true
+draft: false
 links:
   - url: https://code.facebook.com/posts/300798627056246
     title: "What Every Programmer Should Know About Memory"
@@ -43,7 +43,7 @@ links:
     title: "Resources for Getting Started with Distributed Systems"
     description: "The author documents their path and some of the resources they found most helpful when using distributed systems."
 
-code_to_read:
+read_code:
   - url: https://github.com/srt32/hkpg
     title: "hkpg: Automated Archiving of Heroku Postgres Backups to S3 (Go)"
 
