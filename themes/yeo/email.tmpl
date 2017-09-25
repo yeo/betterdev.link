@@ -17,7 +17,7 @@ body {
 }
 
 a {
-  color: #333;
+  color: #f36c3d;
 }
 
 .section {
@@ -58,12 +58,15 @@ a {
       }
 
       .issue-link {
-        padding: 0.5rem 0.5rem 0rem 0.5rem;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
       }
 
       .issue-description {
         color: #666;
         font-weight: 300;
+      }
+
+      .codereads, .tools {
       }
 
       .issue-sponsor {
@@ -161,8 +164,8 @@ a {
               <div style="padding: 1rem 1rem 0rem 1rem; font-size: 1rem;">
                 <h3 class="subtitle"><strong>Code to read</strong></h3>
                 {{ range $key, $link := .CodeToRead }}
-                <div style="padding: 0 0 0.5rem 0" class="issue-link">
-                  <a style="font-size: 1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a><br>
+                <div style="padding: 0 0 1rem 0" class="issue-link">
+                  <a class="codereads" style="font-size: 1.1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a><br>
                 </div>
                 {{ end }}
               </div>
@@ -172,8 +175,8 @@ a {
               <div style="padding: 1rem 1rem 0rem 1rem; font-size: 1rem;">
                 <h3 class="subtitle"><strong>Tools</strong></h3>
                 {{ range $key, $link := .Tools }}
-                <div style="padding: 0 0 0.5rem 0" class="issue-link">
-                  <a style="font-size: 1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a><br>
+                <div style="padding: 0 0 1rem 0" class="issue-link">
+                  <a class="tools" style="font-size: 1.1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
                 </div>
                 {{ end }}
               </div>
