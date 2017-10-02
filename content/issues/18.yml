@@ -5,11 +5,11 @@ draft: false
 links:
   - url: https://medium.freecodecamp.org/how-i-hacked-hundreds-of-companies-through-their-helpdesk-b7680ddc2d4c
     title: "How I Hacked Hundreds of Companies through Their Helpdesk"
-    description: "Many companies allow access to their private resouces on a third party tool when signining up with company email. A common feature on many SaaS application is allow email forwarding from their domain to your account. Here go the flaw because you suddenly have an email with that company domain."
+    description: "Many companies allow access to their private resources on a third party tool when signing up with company email. A common feature on many SaaS application is allow email forwarding from their domain to your account. Now, you suddenly have an email with that company’s domain."
 
   - url: https://www.ncsc.gov.uk/guidance/email-security-and-anti-spoofing
     title: "Email Security and Anti-spoofing"
-    description: "This guidance is intended to help you secure your organisation's email in two distinct ways: protecting email content and prevent faking sender addres."
+    description: "This guide is intended to help you secure your organization's email in two distinct ways: protecting email content and to prevent faking sender addresses."
 
   - url: http://fabiensanglard.net/floating_point_visually_explained/
     title: "Floating Point Visually Explained"
@@ -17,15 +17,15 @@ links:
 
   - url: https://medium.com/netflix-techblog/linux-performance-analysis-in-60-000-milliseconds-accc10403c55
     title: "Linux Performance Analysis in 60,000 Milliseconds"
-    description: "You log in to a Linux server with a performance issue: what do you check in the first minute? Netflix shares their flow to check performan in first 60 seconds."
+    description: "You log in to a Linux server with a performance issue: what do you check in the first minute? Netflix shares their flow to check performance in first 60 seconds."
 
   - url: https://blog.timescale.com/why-sql-beating-nosql-what-this-means-for-future-of-data-time-series-database-348b777b847a
-    title: "Why SQL is beating NoSQL, and what this means for the future of data"
+    title: "SQL is beating NoSQL"
     description: "After years of being left for dead, SQL today is making a comeback. How come? And what effect will this have on the data community?"
 
   - url: https://highlyscalable.wordpress.com/2012/09/18/distributed-algorithms-in-nosql-databases/
     title: "Distributed Algorithms in NoSQL Databases"
-    description: "The article's trying to provide more or less systematic description of techniques related to distributed operations in NoSQL databases."
+    description: "The article provides a systematic description of techniques related to distributed operations in NoSQL databases."
 
   - url: https://tomassetti.me/guide-parsing-algorithms-terminology/
     title: "A Guide to Parsing: Algorithms and Terminology"
@@ -33,15 +33,15 @@ links:
 
   - url: http://tenderlovemaking.com/2017/09/27/visualizing-your-ruby-heap.html
     title: "Visualizing Your Ruby Heap"
-    description: "How does Ruby store data on heap? How does it looks like when we draw them out. In this article, Aaron shares a program to visualize the layout and fragment of a Ruby heap dump."
+    description: "How does Ruby store data on heap? What does it look like when we draw them out? In this article, Aaron shares a program to visualize the layout and fragment of a Ruby heap dump."
 
   - url: http://googleprojectzero.blogspot.com/2017/09/over-air-vol-2-pt-1-exploiting-wi-fi.html
     title: "Over The Air - Vol. 2, Pt. 1: Exploiting The Wi-Fi Stack on Apple Devices"
     description: "A remote code execution on the iPhone 7 up to iOS 10.3."
 
   - url: https://hackernoon.com/learn-blockchains-by-building-one-117428612f46
-    title: "Learn Blockchains by Building One"
-    description: "Understanding blockchain can be overwhelm nowsaday. Let's learn by building one so we can understand how they really works."
+    title: "Learn Blockchain by Building One"
+    description: "Understanding blockchain can be overwhelm nowadays. Let's learn by building one so we can understand how they really work."
 
   - url: https://www.youtube.com/watch?v=8T3VxGrrJwc
     title: "Can you write an OS kernel in Go (Video)"
@@ -49,7 +49,7 @@ links:
 
   - url: https://developers.redhat.com/blog/2017/09/26/low-risk-monolith-microservice-evolution-part/
     title: "Low-risk Monolith to Microservice Evolution Part I"
-    description: "This is a material from a 2-day workshop for microservice evolutions"
+    description: "This is a material from a 2-day workshop for micro service evolutions."
 
 read_code:
   - url: https://github.com/thecodershub/algorithms
@@ -59,7 +59,7 @@ read_code:
     title: "For creating distributed jobs using AWS Lambda functions"
 
   - url: http://2017.js13kgames.com/#winners
-    title: "Js13kGames Winners. The good thing is they all open-source(JavaScript)"
+    title: "Js13kGames Winners. All open-source (JavaScript)"
 
   - url: https://github.com/lestrrat/kubesh
     title: "Spawn a shell for a particular kubectl context (Bash)"
@@ -71,7 +71,7 @@ read_code:
     title: "Nginx/Apache/Varnishncsa Log Analyzer (Go)"
 
   - url: https://github.com/esimov/triangle
-    title: "Convert images to computer generated art using delaunay triangulation(Java)"
+    title: "Convert images to computer generated art using delaunay triangulation (Java)"
 
   - url: https://github.com/Ivoah/minimap
     title: "minimap: Generate mini map of your code (Python)"
@@ -81,7 +81,7 @@ tool:
     title: "Fast and secure standalone server for resizing and converting remote images"
 
   - url: https://github.com/Tylous/SniffAir
-    title: "SniffAir: A framework for wireless pentesting provides the ability to easily parse passively collected wireless data as well as launch sophisticated wireless attack"
+    title: "SniffAir: A framework for wireless penetration testing provides the ability to easily parse passively collected wireless data as well as launch sophisticated wireless attack."
 
   - url: https://github.com/remind101/empire
     title: "Empire: A PaaS built on top of Amazon EC2 Container Service (ECS)"
