@@ -1,5 +1,5 @@
 ---
-time: "Sep 25, 2017"
+time: "Oct 2, 2017"
 description: ""
 draft: false
 links:
@@ -47,6 +47,10 @@ links:
     title: "Can you write an OS kernel in Go (Video)"
     description: "Yes, we will learn how to write one that runs within QEMU. We'll learn a bit about OS kernel, userland code, Ring-0"
 
+  - url: https://developers.redhat.com/blog/2017/09/26/low-risk-monolith-microservice-evolution-part/
+    title: "Low-risk Monolith to Microservice Evolution Part I"
+    description: "This is a material from a 2-day workshop for microservice evolutions"
+
 read_code:
   - url: https://github.com/thecodershub/algorithms
     title: "Collection of algorithms in multiple programming languages"
@@ -73,6 +77,9 @@ read_code:
     title: "minimap: Generate mini map of your code (Python)"
 
 tool:
+  - url: https://github.com/DarthSim/imgproxy
+    title: "Fast and secure standalone server for resizing and converting remote images"
+
   - url: https://github.com/Tylous/SniffAir
     title: "SniffAir: A framework for wireless pentesting provides the ability to easily parse passively collected wireless data as well as launch sophisticated wireless attack"
 
