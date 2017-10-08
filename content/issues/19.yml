@@ -1,0 +1,95 @@
+---
+time: "Oct 9, 2017"
+description: ""
+draft: true
+links:
+  - url: http://www.averylaird.com/programming/the%20text%20editor/2017/09/30/the-piece-table/
+    title: "Text Editor: Data Structures"
+    description: "The author implements a text editor and research data structures to do this"
+
+  - url: https://github.com/ukncsc/secure-development-and-deployment/
+    title: "Guidance for Secure Development and Deployment"
+    description: "8 Principles to help you improve and evaluate your development practices, or those of your suppliers"
+
+  - url: https://thenewstack.io/linkedin-code-review/
+    title: "LinkedIn’s Tips for Highly Effective Code Review"
+    description: "The head of the social networking service’s tooling shared a few learned lessons along the way."
+
+  - url: http://blog.arkency.com/one-simple-trick-to-make-event-sourcing-click/
+    title: "One Simple Trick to Make Event Sourcing Click"
+    description: "Event Sourcing is like having two methods when previously there was one"
+
+  - url: https://porgionesanke.wordpress.com/2016/07/11/a-comparison-of-four-algorithms-textbooks/
+    title: "A Comparison of Four Algorithms Textbooks"
+    description: "What textbook should we used? The author shares his analysis"
+
+  - url: https://sites.google.com/site/prologsite/prolog-problems
+    title: "99 Prolog Problem"
+    description: "But nothing prevents us from impelment them in another language as a way to practice algorithm"
+
+  - url: http://0pointer.net/blog/dynamic-users-with-systemd.html
+    title: "Dynamic Users with systemd"
+    description: "A very neat tip to create user dynamically in systemd unit file"
+
+  - url: http://www.scylladb.com/2017/10/05/io-access-methods-scylla/
+    title: "Different I/O Access Methods for Linux, What We Chose for Scylla, and Why"
+    description: "Why disk I/O is important in database. The article describes the available choices and their tradeoffs "
+
+  - url: https://blog.discordapp.com/lessons-from-migrating-a-large-codebase-to-react-16-e60e49102aa6
+    title: "Lessons from Migrating a Large Codebase to React 16"
+    describes: "Discord team shares their lession when uprgrading a large code base to React 16, a new big release from Facebook"
+
+  - url: https://kellysutton.com/2017/09/13/embracing-functional-programming-in-ruby.html
+    title: "Embracing Functional Programming in Ruby"
+    description: "Techniques we can use to embreace functional programming in a very object oriented focus language."
+
+  - url: https://drive.google.com/file/d/0B7kFkt5WxLeDTml5cTFsWXFCb1U/view
+    title: "Report from the SNAFUcatchers Workshop on Coping With Complexity"
+    description: "A consortium workshop of high end techs reviewed postmortems to better understand how engineers cope with the complexity of anomalies"
+
+  - url: https://medium.com/@nathankpeck/microservice-testing-unit-tests-d795194fe14e
+    title: "Microservice Testing: Unit Tests"
+    description: "How to build and use unit tests for distributed systems"
+
+readcode:
+  - url: https://github.com/clintonwoo/hackernews-react-graphql
+    title: "Learn more React and GraphQL at same time by building a Hacker News clone(JavaScript)"
+
+  - url: https://github.com/renderedtext/render_async
+    title: "render_async lets you include pages asynchronously with AJAX(Ruby)"
+
+  - url: https://github.com/asciimoo/colly
+    title: "Colly: Lightning Fast and Elegant Scraping Framework(Golang)"
+
+  - url: https://github.com/robinmonjo/coincoin
+    title: "Blockchain based cryptocurrency proof-of-concept(Elixir)"
+
+  - url: https://github.com/westoncb/HNDesktop
+    title: "Hacker Desktop(Kotlin)"
+
+  - url: https://github.com/agermanidis/livepython
+    title: "Livepython: Visually trace your Python code in real time"
+
+tools:
+  - url: https://github.com/Azure/autorest
+    title: "Autorest: generates client libraries for accessing RESTful web services"
+
+  - url: https://github.com/gen2brain/cam2ip
+    title: "cam2ip: Turn any webcam into an IP camera"
+
+  - url: https://github.com/weaveworks/cortex
+    title: "Cortex: https://github.com/weaveworks/cortex"
+
+  - url: https://github.com/TENDIGI/ezpaas-cli
+    title: "EzPaaS: A miniature Heroku clone for easy in-house deployments, powered by Docker"
+
+  - url: https://github.com/dependabot/dependabot-core
+    title: "Dependabot Core: a collection of helper classes for automating dependency updating in Ruby, JavaScript, Python and PHP"
+
+  - url: https://github.com/pemrouz/fero
+    title: "Fero: light, fast, scalable, streaming microservices made easy"
+
+  - url: https://github.com/fnproject/fn
+    title: "Fn is an event-driven, open source, functions-as-a-service compute platform that you can run anywhere, any language"
+
+  - url: http://www.seastar-project.org/
