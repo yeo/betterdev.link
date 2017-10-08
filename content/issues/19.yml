@@ -41,7 +41,7 @@ links:
 
   - url: https://kellysutton.com/2017/09/13/embracing-functional-programming-in-ruby.html
     title: "Embracing Functional Programming in Ruby"
-    description: "Techniques we can use to embreace functional programming in a very object oriented focus language."
+    description: "Techniques we can use to embrace functional programming in a very object oriented focus language"
 
   - url: https://drive.google.com/file/d/0B7kFkt5WxLeDTml5cTFsWXFCb1U/view
     title: "Report from the SNAFUcatchers Workshop on Coping With Complexity"
@@ -91,5 +91,3 @@ tools:
 
   - url: https://github.com/fnproject/fn
     title: "Fn is an event-driven, open source, functions-as-a-service compute platform that you can run anywhere, any language"
-
-  - url: http://www.seastar-project.org/
