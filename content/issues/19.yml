@@ -1,7 +1,7 @@
 ---
 time: "Oct 9, 2017"
 description: ""
-draft: true
+draft: false
 links:
   - url: http://www.averylaird.com/programming/the%20text%20editor/2017/09/30/the-piece-table/
     title: "Text Editor: Data Structures"
@@ -51,7 +51,7 @@ links:
     title: "Microservice Testing: Unit Tests"
     description: "How to build and use unit tests for distributed systems."
 
-readcode:
+read_code:
   - url: https://github.com/clintonwoo/hackernews-react-graphql
     title: "Learn more React and GraphQL at same time by building a Hacker News clone (JavaScript)"
 
@@ -70,7 +70,7 @@ readcode:
   - url: https://github.com/agermanidis/livepython
     title: "Livepython: Visually trace your Python code in real time"
 
-tools:
+tool:
   - url: https://github.com/Azure/autorest
     title: "Autorest: generates client libraries for accessing RESTful web services"
 
