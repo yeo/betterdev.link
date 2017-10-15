@@ -1,6 +1,6 @@
 ---
-time: "Oct 9, 2017"
-description: ""
+time: "Oct 16, 2017"
+description: "Hi all, some of readers reaching out about email filering as spam in Gmail. We're sending our news letter from vinh@yeo.space. It seems if you add our email address to the contact list, it may help prevent that false positive. Thank you."
 draft: true
 
 links:
@@ -37,11 +37,11 @@ links:
     description: "Daniel wrote a machine learning book. In the book, he build a neural network from scratch in Go. In this article, he shares that neural net."
 
   - url: https://jvns.ca/blog/2017/10/10/operating-a-kubernetes-network/
-    title: "Operating a Kubernetes network"
+    title: "Operating a Kubernetes Network"
     description: "We usually leave out Kubernetes network to whatever powers it. In this post, Julia shares what we need to know to operate K8S network"
 
   - url: https://dev.to/mikeralphson/nodejs---a-tale-of-two-bugs-18c
-    title: "Node.js - a tale of two bugs"
+    title: "Node.js - a Tale of Two Bugs"
     description: A story about finding a slowness in new NodeJS Version, and method to figure out if anything related to it
 
   - url: https://github.com/vitalysim/Awesome-Hacking-Resources
