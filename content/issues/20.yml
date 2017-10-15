@@ -1,0 +1,85 @@
+---
+time: "Oct 9, 2017"
+description: ""
+draft: true
+
+links:
+  - url: https://cocoaengineering.com/2017/10/08/reverse-engineering-macos-high-sierra-supplemental-update/
+    title: "Reverse Engineering macOS High Sierra Supplemental Update"
+    description: "In macOS High Sierra, an programming error exposed passwords of encrypted volumes as password hints. Apple released a fix. The author apply binary diffing technique to learn more about the root cause of the bug."
+
+  - url: http://georgemauer.net/2017/10/07/csv-injection.html
+    title: "The Absurdly Underestimated Dangers of CSV Injection"
+    description: "CSV is often overlooked when coming to security. Here is a list of CSV injection attack, you will be surprise when they execute shell."
+
+  - url: https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5
+    title: "How JavaScript event loop and the rise of Async programming"
+    description: "Part 4 of a series dedicated to exploring JavaScript and its building components. This part talk about drawback of single-threaded environment and how to overcome them."
+
+  - url: https://anchore.com/blog/breakdown-of-operating-systems-of-dockerhub/
+    title: "A Breakdown of Operating Systems of Dockerhub"
+    description: "What OS is the most used for Dockerimage? This analyse Dockerhub Dockerfile to compare popularity, image size."
+
+  - url: http://www.east5th.co/blog/2017/10/09/learning-to-crawl-building-a-bare-bones-web-crawler-with-elixir/
+    title: "Learning to Crawl - Building a Bare Bones Web Crawler with Elixir"
+    description: "Writing a crawler is fun as a programming exercise. It requires understanding of distribute, concurent, rate limiting, dedupe, deep link. It can go as deep as we want. Pete shares his own approach."
+
+  - url: https://engineering.bitnami.com/articles/implementing-kubernetes-integration-tests-in-travis.html
+    title: "How to do TDD for Kubernetes infrastructure"
+    description: "Developer writes test. Devops should too. It's hard because we need a K8S cluster. This explores the feasible ways create such a cluster in Travis CI"
+
+  - url: https://medium.com/@vaclav.loffelmann/the-worlds-first-middle-out-compression-for-time-series-data-part-1-1e5ad5312757
+    title: "The World’s First Middle-Out Compression for Time-series Data"
+    description: "Time-series data requires lot of space due to high volume of data. But they are usually very compress-able due to similarness of data. Let's learn about a new compress method to in this field."
+
+  - url: http://www.datadan.io/building-a-neural-net-from-scratch-in-go/
+    title: "Building a Neural Net from Scratch in Go"
+    description: "Daniel wrote a machine learning book. In the book, he build a neural network from scratch in Go. In this article, he shares that neural net."
+
+  - url: https://jvns.ca/blog/2017/10/10/operating-a-kubernetes-network/
+    title: "Operating a Kubernetes network"
+    description: "We usually leave out Kubernetes network to whatever powers it. In this post, Julia shares what we need to know to operate K8S network"
+
+  - url: https://dev.to/mikeralphson/nodejs---a-tale-of-two-bugs-18c
+    title: "Node.js - a tale of two bugs"
+    description: A story about finding a slowness in new NodeJS Version, and method to figure out if anything related to it
+
+  - url: https://github.com/vitalysim/Awesome-Hacking-Resources
+    title: "Awesome Hacking Resources"
+    description: "A collection of hacking / penetration testing resources to make you better"
+
+code_read:
+  - url: https://github.com/rkrage/pg_party
+    title: "ActiveRecord PostgreSQL Partitioning(Ruby)"
+
+  - url: https://github.com/date-fns/date-fns
+    title: "date-fns: Modern JavaScript date utility. The structure makes it looks massive but the real code is quite small to read"
+
+  - url: https://github.com/esimov/diagram
+    title: "Diagram: generate hand drawn diagrams from ASCII art(Go)"
+
+  - url: https://github.com/kz26/mailproxy
+    title: "mailproxy: a simple SMTP proxy(Python)"
+
+  - url: https://github.com/sanity-io/litter
+    title: "Litter: a pretty printer library to aid in debugging and testing(Go)"
+
+tools:
+  - url: http://osgameclones.com/
+    title: "Open Source Game Clones"
+
+  - url: http://nsjail.com/
+    title: "nsjail: A light-weight process isolation tool, making use of Linux namespaces and seccomp-bpf syscall filters"
+
+  - url: https://github.com/jetstack/tarmak
+    title: "Tarmak: a toolkit for Kubernetes cluster provisioning and management"
+
+  - url: https://github.com/uber/luma.gl
+    title: "luma.gl: JavaScript WebGL Framework for Data Visualization"
+
+  - url: https://github.com/rhysd/gocaml
+    title: "gocaml: subset of OCaml in Go based on MinCaml using LLVM"
+
+  - url: https://github.com/azuqua/clusterluck
+    title: "Clusterluck: A library for writing distributed systems that use a gossip protocol"
+
