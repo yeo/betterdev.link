@@ -1,7 +1,7 @@
 ---
 time: "Oct 16, 2017"
 description: "Hi all, some of readers have reached out saying our emails have been marked as spam in Gmail. We're sending our newsletter from vinh@yeo.space. If you add our email address to your contact list, it may help prevent that false positive. Thank you."
-draft: true
+draft: false
 
 links:
   - url: https://cocoaengineering.com/2017/10/08/reverse-engineering-macos-high-sierra-supplemental-update/
