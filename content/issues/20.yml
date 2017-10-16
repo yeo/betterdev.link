@@ -48,7 +48,7 @@ links:
     title: "Awesome Hacking Resources"
     description: "A collection of hacking / penetration testing resources to make you better."
 
-code_read:
+read_code:
   - url: https://github.com/rkrage/pg_party
     title: "ActiveRecord PostgreSQL Partitioning (Ruby)"
 
@@ -64,7 +64,7 @@ code_read:
   - url: https://github.com/sanity-io/litter
     title: "Litter: a pretty printer library to aid in debugging and testing (Go)"
 
-tools:
+tool:
   - url: http://osgameclones.com/
     title: "Open Source Game Clones"
 
