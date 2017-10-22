@@ -14,7 +14,7 @@ links:
 
   - url: http://3zanders.co.uk/2017/10/13/writing-a-bootloader/
     title: "Writing a Bootloader"
-    description: "A series explain how to build a tiny 32-bit x86 operating system kernel. The kernel only print out 'Hello world' when booting. So it's a small enough series to follow to understand more about how computer boot and run"
+    description: "A serie explains how to build a tiny 32-bit x86 operating system kernel. The kernel only print out 'Hello world' when booting. So it's a small enough series to follow to understand more about how computer boot and run"
 
   - url: https://increment.com/development/center-stage-best-practices-for-staging-environments/
     title: "Best Practices for Staging Environments"
@@ -37,10 +37,10 @@ links:
     description: "How to Create a Private Ethereum Blockchain from Ground-up. Author takes us through the steps required in setting up a fully functioning private ethereum blockchain, inside our own local network."
 
   - url: https://rushter.com/blog/python-garbage-collector/
-    title: "Things you need to know about garbage collection in Python"
+    title: "Things You Need to Know about Garbage Collection in Python"
     description: "Understanding how GC works can help us write better Python programs."
 
-code_read:
+read_code:
   - url: https://github.com/davecheney/httpstat
     title: "httpstat: It's like curl -v, with colours"
     type: Go
@@ -69,7 +69,7 @@ code_read:
     title: "A collection of player contributed walkthroughs for Hackers Challenge puzzles"
     type: Python
 
-tools:
+tool:
   - url: https://github.com/pingcap/tidb
     title: "TiDB: a distributed NewSQL database compatible with MySQL protocol"
 
