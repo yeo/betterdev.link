@@ -85,7 +85,8 @@ tool:
   - url: https://quilljs.com/
     title: "QuilJS: Your powerful, rich text editor"
 
-  - http://owen.cymru/fzf-ripgrep-navigate-with-bash-faster-than-ever-before/
+  - url: http://owen.cymru/fzf-ripgrep-navigate-with-bash-faster-than-ever-before/
+    title: "fzf and ripgrep: navigate with bash faster than ever before"
 
   - url: https://github.com/boazsegev/iodine
     title: "iodine: HTTP/Websocket Server with Pub/Sub support, optimized for Ruby MRI"
