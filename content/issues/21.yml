@@ -1,0 +1,92 @@
+---
+time: "Oct 23, 2017"
+description: ""
+draft: true
+
+links:
+  - url: https://blog.phusion.nl/2017/10/13/why-ruby-app-servers-break-on-macos-high-sierra-and-what-can-be-done-about-it/
+    title: "Why Ruby app servers break on macOS High Sierra and what can be done about it?"
+    description: "macOS high sierra has a good intention by failing fast instead of silently allowing corruption on behaviour of fork. This cause the application crash immediately. Luckily Phusion Passenger guys has work-around."
+
+  - url: https://www.speedshop.co/2017/10/12/appserver.html
+    title: "Configuring Puma, Unicorn and Passenger for Maximum Efficiency"
+    description: "Let's talk about the most important setting that can make a major impact on the throughput and performance-per-dollar of Ruby application."
+
+  - url: http://3zanders.co.uk/2017/10/13/writing-a-bootloader/
+    title: "Writing a Bootloader"
+    description: "A series explain how to build a tiny 32-bit x86 operating system kernel. The kernel only print out 'Hello world' when booting. So it's a small enough series to follow to understand more about how computer boot and run"
+
+  - url: https://increment.com/development/center-stage-best-practices-for-staging-environments/
+    title: "Best Practices for Staging Environments"
+    description: "A staging environment is supposed to mimick production. But it's challenging, such as we cannot duplicate report emails to same customer. And should we provision at same scale as production?"
+
+  - url: https://outcrawl.com/image-recognition-api-go-tensorflow/
+    title: "Build an Image Recognition API with Go and TensorFlow"
+    description: "The service will run inside a Docker container, use TensorFlow Go package to process images and return labels that best describe them."
+
+  - url: https://increment.com/development/an-introduction-to-local-development-with-containers/
+    title: "An Introduction to Local Development with Containers"
+    description: "Containers enable a workflow for your code that allows you to develop and test locally, push to upstream, and ensure what you build locally will likely work in production, too."
+
+  - url: https://martinmelhus.com/web-audio-modem/
+    title: "Web Audio Modem"
+    description: "A super interesting project. Using web audio to broadcast and retrieve data"
+
+  - url: https://medium.facilelogin.com/build-your-own-blockchain-b8eaeea2f891
+    title: "Build Your Own Blockchain"
+    description: "How to Create a Private Ethereum Blockchain from Ground-up. Author takes us through the steps required in setting up a fully functioning private ethereum blockchain, inside our own local network."
+
+  - url: https://rushter.com/blog/python-garbage-collector/
+    title: "Things you need to know about garbage collection in Python"
+    description: "Understanding how GC works can help us write better Python programs."
+
+code_read:
+  - url: https://github.com/davecheney/httpstat
+    title: "httpstat: It's like curl -v, with colours"
+    type: Go
+
+  - url: https://github.com/strzibny/invoice_printer
+    title: "Invoice Printer"
+    type: Ruby
+
+  - url: https://github.com/blkchain/pg_blkchain#
+    title: "PostgreSQL Blockchain Extension"
+    type: C
+
+  - url: https://github.com/lukeed/tinydate
+    title: "tinydate: A tiny (337B) reusable date formatter"
+    type: JavaScript
+
+  - url: https://github.com/zanonnicola/react-device-battery
+    title: "React Device Battery"
+    type: JavaScript
+
+  - url: https://github.com/ghuiii/Fruit
+    title: "Fruit for Html just like Gson for Json"
+    type: Java
+
+  - url: https://github.com/utahsaint-org/Hackers-Challenge-Walkthroughs
+    title: "A collection of player contributed walkthroughs for Hackers Challenge puzzles"
+    type: Python
+
+tools:
+  - url: https://github.com/pingcap/tidb
+    title: "TiDB: a distributed NewSQL database compatible with MySQL protocol"
+
+  - url: https://github.com/gka/schnack
+    title: "schnack: Disqus-like drop-in commenting on static websites"
+
+  - url: https://devdocs.io/
+    title: "DevDocs: API Documentation"
+
+  - url: https://github.com/tmeasday/create-graphql-server/
+    title: "a scaffolding tool that lets you generate a new Mongo/Express/Node.js GraphQL project"
+
+  - url: https://quilljs.com/
+    title: "QuilJS: Your powerful, rich text editor"
+
+  - http://owen.cymru/fzf-ripgrep-navigate-with-bash-faster-than-ever-before/
+
+  - url: https://github.com/boazsegev/iodine
+    title: "iodine: HTTP/Websocket Server with Pub/Sub support, optimized for Ruby MRI"
+
