@@ -43,31 +43,38 @@ links:
 read_code:
   - url: https://github.com/davecheney/httpstat
     title: "httpstat: It's like curl -v, with colours"
-    type: Go
+    category:
+      - Go
 
   - url: https://github.com/strzibny/invoice_printer
     title: "Invoice Printer"
-    type: Ruby
+    category:
+      - Ruby
 
   - url: https://github.com/blkchain/pg_blkchain#
     title: "PostgreSQL Blockchain Extension"
-    type: C
+    category:
+      - C
 
   - url: https://github.com/lukeed/tinydate
     title: "tinydate: A tiny (337B) reusable date formatter"
-    type: JavaScript
+    category:
+      - JavaScript
 
   - url: https://github.com/zanonnicola/react-device-battery
     title: "React Device Battery"
-    type: JavaScript
+    category:
+      - JavaScript
 
   - url: https://github.com/ghuiii/Fruit
     title: "Fruit for Html just like Gson for Json"
-    type: Java
+    category:
+      - Java
 
   - url: https://github.com/utahsaint-org/Hackers-Challenge-Walkthroughs
     title: "A collection of player contributed walkthroughs for Hackers Challenge puzzles"
-    type: Python
+    category:
+      - Python
 
 tool:
   - url: https://github.com/pingcap/tidb
