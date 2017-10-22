@@ -104,6 +104,15 @@ a {
         word-break: break-word;
       }
 
+      .tag {
+        background: #845ec2;
+        padding: .15rem .45rem;
+        display: inline-block;
+        border-radius: 2px;
+        color: #fff;
+        margin-left: .5rem;
+      }
+
       </style>
 
     </head>
@@ -165,7 +174,7 @@ a {
                 <h3 class="subtitle"><strong>Code to read</strong></h3>
                 {{ range $key, $link := .CodeToRead }}
                 <div style="padding: 0 0 1rem 0" class="issue-link">
-                  <a class="codereads" style="font-size: 1.1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a><br>
+                  <a class="codereads" style="font-size: 1.1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>{{ range $ci, $category := .Category }}<span class='tag'>{{ $category }}</span>{{ end }}<br>
                 </div>
                 {{ end }}
               </div>
