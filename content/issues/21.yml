@@ -1,7 +1,7 @@
 ---
 time: "Oct 23, 2017"
 description: ""
-draft: true
+draft: false
 
 links:
   - url: https://blog.phusion.nl/2017/10/13/why-ruby-app-servers-break-on-macos-high-sierra-and-what-can-be-done-about-it/
