@@ -1,0 +1,91 @@
+---
+time: "Oct 20, 2017"
+description: "Sometimes we have article that seems target a particular language. Howe"
+draft: false
+
+links:
+  - url: https://github.com/learnbyexample/Command-line-text-processing/blob/master/gnu_awk.md
+    title: "Lean Command Line Text Processing with Awk by Example"
+    description: "Common use case for awk is to extract text by a separator. But it's way more powerful than that, leaning awk is useful to quickly analyze text data."
+
+  - url: https://blog.cloudflare.com/the-sad-state-of-linux-socket-balancing
+    title: "Why does one NGINX worker take all the load"
+    description: "Scaling up TCP servers is usually straightforward. Most deployments does it by spin up multiple process, usually same amount of CPU cores and hope they balance the load. Turning out it wasn't 100% correct."
+
+  - url: https://blog.cloudflare.com/performing-preventing-ssl-stripping-a-plain-english-primer/
+    title: "Performing & Preventing SSL Stripping: A Plain-English Primer"
+    description: "HTTPS was created to allow HTTP traffic to be transmitted in encrypted form, however the authors of the KRACK Attack presented how the encryption could be completely stripped away(despite the website supporting HTTPS). This blog post presents a plain-english primer on how HTTPS protection can be stripped and mechanisms for mitigating this."
+
+  - url: https://medium.com/@peterxjang/comparing-frontend-frameworks-part-6-elm-578714526164
+    title: "Comparing Frontend Approaches Part 6"
+    description: "Frontend moves so fast with many approaches. Peter had a look at jQuery, Vue.js, React, and Elm in this series to compare between them."
+
+  - url: https://medium.freecodecamp.org/lets-enhance-how-we-found-rogerkver-s-1000-wallet-obfuscated-private-key-8514e74a5433
+    title: "How We Found @rogerkver’s $1,000 Wallet Obfuscated Private Key"
+    description: "We could have simply named this post “How great QR code are and how we recovered one from almost nothing.” But it’s much more interesting when the QR code is the key to a $1000 Bitcoin Cash wallet."
+
+  - url: https://redfin.engineering/i-watched-all-of-the-chrome-dev-summit-2017-videos-so-you-dont-have-to-9b62a593c3cb
+    title: "I Watched All of the Chrome Dev Summit 2017 Videos So You Don’t Have To"
+    description: "The problem with Video is it's hard to quickly go through them since they are audio/video. So Dan wathched and summarize them very nicely"
+
+  - url: https://lonesysadmin.net/2011/11/08/ssh-escape-sequences-aka-kill-dead-ssh-sessions/
+    title: "SSH Escape Sequences (aka Kill Dead SSH Sessions)"
+    description: "Did you know that when you’re using OpenSSH from the command line you have a variety of escape sequences available to you?"
+
+  - url: https://medium.com/@unmeshvjoshi/service-discovery-with-crdts-fb02bb48cfff
+    title: "Service Discovery With Conflict Free Replicated Datasets(CRDT)"
+    description: "This post compares available service discovery frameworks and compares CRDT based service discovery mechanism with those."
+
+  - url: https://www.percona.com/blog/2017/10/23/mysql-point-in-time-recovery-right-way/
+    title: "MySQL Point in Time Recovery the Right Way"
+    description: "Point in Time Recovery allows us to restore data to a given time. Percona talks about the pitfall of common approach and solutions."
+
+  - url: https://medium.com/@mdlayher/network-protocol-breakdown-ethernet-and-go-de985d726cc1
+    title: "Network Protocol Breakdown: Ethernet and Go"
+    description: "There is a great deal to be said about how Ethernet works at the physical level, this post will focus on Ethernet II frames"
+
+read_code:
+  - url: https://github.com/ecthros/uncaptcha
+    title: "Defeating Google's audio reCaptcha with 85% accuracy"
+    category:
+      - Python
+
+  - url: https://github.com/ivanilves/lstags
+    title: "lstags: Compare & Sync Docker tags/images between registries"
+    category:
+      - Go
+
+  - url: https://github.com/palkan/action-cable-testing
+    title: "Action Cable testing utils"
+    category:
+      - Ruby
+
+  - url: https://github.com/vitalets/websocket-as-promised
+    title: "Promise-based API for WebSockets"
+    category:
+      - JavaScript
+
+tool:
+  - url: http://www.akitaonrails.com/2017/10/24/replacing-rvm-rbenv-nvm-etc-for-asdf
+    title: "Replacing RVM/Rbenv/Nvm/VirtualEnv/etc for ASDF. An amazing tool that manage version of multiple language by plugin architecture"
+
+  - url: http://www.mikeperham.com/2017/10/24/introducing-faktory/
+    title: "A new background job framework by Sidekiq's creator"
+
+  - url: https://github.com/exoframejs/exoframe
+    title: "Exoframe: a self-hosted tool that allows simple one-command deployments using Docker"
+
+  - url: https://github.com/azure/brigade/
+    title: "Brigade: Event-based Scripting for Kubernetes"
+
+  - url: https://github.com/vagrant-landrush/landrush
+    title: "Landrush: A Vagrant plugin that provides a simple DNS server"
+
+  - url: https://github.com/sonarwhal/sonar
+    title: "Sonar: A linting tool for the web"
+
+  - url: http://www.omgubuntu.co.uk/2017/08/gping-ping-graph-linux
+    title: "gping: like regular ping, but with a graph"
+
+  - url: https://github.com/strapi/strapi
+    title: "Strapi: Node.js Content Management Framework (headless-CMS) to build powerful API with no effort"
