@@ -6,15 +6,15 @@ draft: false
 links:
   - url: https://github.com/learnbyexample/Command-line-text-processing/blob/master/gnu_awk.md
     title: "Lean Command Line Text Processing with Awk by Example"
-    description: "Common use case for awk is to extract text by a separator. But it's way more powerful than that, leaning awk is useful to quickly analyze text data."
+    description: "Common use-case for awk is to extract text by a separator. It's way more powerful than that, learning awk is useful to quickly analyze text data."
 
   - url: https://blog.cloudflare.com/the-sad-state-of-linux-socket-balancing
-    title: "Why does one NGINX worker take all the load"
-    description: "Scaling up TCP servers is usually straightforward. Most deployments does it by spin up multiple process, usually same amount of CPU cores and hope they balance the load. Turning out it wasn't 100% correct."
+    title: "Why Does One NGINX Worker Take All The Load?"
+    description: "Scaling up TCP servers is usually straightforward. Most deployments do it by spinning up multiple processes, usually same amount of CPU cores, and hope they balance the load. Turns out it’s not 100% correct."
 
   - url: https://blog.cloudflare.com/performing-preventing-ssl-stripping-a-plain-english-primer/
     title: "Performing & Preventing SSL Stripping: A Plain-English Primer"
-    description: "HTTPS was created to allow HTTP traffic to be transmitted in encrypted form, however the authors of the KRACK Attack presented how the encryption could be completely stripped away(despite the website supporting HTTPS). This blog post presents a plain-english primer on how HTTPS protection can be stripped and mechanisms for mitigating this."
+    description: "HTTPS was created to allow HTTP traffic to be transmitted in encrypted form, however the authors of the KRACK Attack presented how the encryption could be completely stripped away (despite the website supporting HTTPS). This blog post presents a plain-English primer on how HTTPS protection can be stripped and mechanisms for mitigating this."
 
   - url: https://medium.com/@peterxjang/comparing-frontend-frameworks-part-6-elm-578714526164
     title: "Comparing Frontend Approaches Part 6"
@@ -22,27 +22,27 @@ links:
 
   - url: https://medium.freecodecamp.org/lets-enhance-how-we-found-rogerkver-s-1000-wallet-obfuscated-private-key-8514e74a5433
     title: "How We Found @rogerkver’s $1,000 Wallet Obfuscated Private Key"
-    description: "We could have simply named this post “How great QR code are and how we recovered one from almost nothing.” But it’s much more interesting when the QR code is the key to a $1000 Bitcoin Cash wallet."
+    description: "We could have simply named this post “How great QR code are and how we recovered one from almost nothing.” But it’s much more interesting when the QR code is the key to a $1,000 Bitcoin Cash wallet."
 
   - url: https://redfin.engineering/i-watched-all-of-the-chrome-dev-summit-2017-videos-so-you-dont-have-to-9b62a593c3cb
     title: "I Watched All of the Chrome Dev Summit 2017 Videos So You Don’t Have To"
-    description: "The problem with Video is it's hard to quickly go through them since they are audio/video. So Dan wathched and summarize them very nicely"
+    description: "The problem with video is it's hard to quickly go through them since they are audio/video. So Dan watched and summarized them very nicely."
 
   - url: https://lonesysadmin.net/2011/11/08/ssh-escape-sequences-aka-kill-dead-ssh-sessions/
     title: "SSH Escape Sequences (aka Kill Dead SSH Sessions)"
-    description: "Did you know that when you’re using OpenSSH from the command line you have a variety of escape sequences available to you?"
+    description: "Did you know that when you’re using OpenSSH from the command line, you have a variety of escape sequences available to you?"
 
   - url: https://medium.com/@unmeshvjoshi/service-discovery-with-crdts-fb02bb48cfff
-    title: "Service Discovery With Conflict Free Replicated Datasets(CRDT)"
-    description: "This post compares available service discovery frameworks and compares CRDT based service discovery mechanism with those."
+    title: "Service Discovery With Conflict Free Replicated Datasets (CRDT)"
+    description: "This post compares available service discovery frameworks and compares CRDT-based service discovery mechanism with them."
 
   - url: https://www.percona.com/blog/2017/10/23/mysql-point-in-time-recovery-right-way/
     title: "MySQL Point in Time Recovery the Right Way"
-    description: "Point in Time Recovery allows us to restore data to a given time. Percona talks about the pitfall of common approach and solutions."
+    description: "Point in Time Recovery allows us to restore data to a given time. Percona talks about the pitfalls of common approaches and solutions."
 
   - url: https://medium.com/@mdlayher/network-protocol-breakdown-ethernet-and-go-de985d726cc1
     title: "Network Protocol Breakdown: Ethernet and Go"
-    description: "There is a great deal to be said about how Ethernet works at the physical level, this post will focus on Ethernet II frames"
+    description: "There is a great deal to be said about how Ethernet works at the physical level, this post will focus on Ethernet II frames."
 
 read_code:
   - url: https://github.com/ecthros/uncaptcha
