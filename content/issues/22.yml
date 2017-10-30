@@ -5,7 +5,7 @@ draft: false
 
 links:
   - url: https://github.com/learnbyexample/Command-line-text-processing/blob/master/gnu_awk.md
-    title: "Lean Command Line Text Processing with Awk by Example"
+    title: "Learn Command Line Text Processing with Awk by Example"
     description: "Common use-case for awk is to extract text by a separator. It's way more powerful than that, learning awk is useful to quickly analyze text data."
 
   - url: https://blog.cloudflare.com/the-sad-state-of-linux-socket-balancing
