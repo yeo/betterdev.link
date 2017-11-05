@@ -1,54 +1,111 @@
 ---
 time: "Nov 6, 2017"
 description: ""
-draft: false
+draft: true
 
 links:
-    - url: https://opensource.com/article/17/10/making-raspberry-pi-powered-ai-play-piano
-      title: "How Go and Raspberry Pi power piano-playing AI"
-      description: 'Learn how a developer used Go and a Raspberry Pi to create AI specifically tuned to his own style.'
+  - url: https://opensource.com/article/17/10/making-raspberry-pi-powered-ai-play-piano
+    title: "How Go and Raspberry Pi power piano-playing AI"
+    description: "Learn how a developer used Go and a Raspberry Pi to create AI specifically tuned to his own style."
 
-    - url: http://tech.marksblogg.com/sqlite3-tutorial-and-guide.html
-      title: "A Minimalist Guide to SQLite"
-      description: "SQLite is a SQL database that you can embedded right into your program. It has binding in almost language"
+  - url: http://tech.marksblogg.com/sqlite3-tutorial-and-guide.html
+    title: "A Minimalist Guide to SQLite"
+    description: "SQLite is a SQL database that you can embedded right into your program. It has binding in many languages so almost available every where."
 
-    - url: https://www.percona.com/blog/2017/11/02/mysql-vs-mariadb-reality-check/
-      title: "MySQL vs. MariaDB: Reality Check"
-      description: "Evaluating, at a higher level, MySQL, MariaDB and Percona Server for MySQL side-by-side to better inform the decision making process."
+  - url: https://www.percona.com/blog/2017/11/02/mysql-vs-mariadb-reality-check/
+    title: "MySQL vs. MariaDB: Reality Check"
+    description: "Evaluating, at a higher level, MySQL, MariaDB and Percona Server for MySQL side-by-side to better inform the decision making process."
 
-    - url: http://markburgess.org/blog_reactive.html
-      title: "Microservices, the future of society, and all that..."
-      description: "Modularity for introverts and extroverts ...or what it means that large things are an accumulation of small things..."
+  - url: https://blog.lizzie.io/linux-containers-in-500-loc.html
+    title: "Linux Containers in 500 Lines of Code"
+    description: "It's actually 570 LOC. However, the point is to wire together kernel component to create container. It's written in literate programming style so it's pretty to follow"
 
-    - url: https://github.com/arun-gupta/kubernetes-aws-workshop
-      title: "Kubernetes on AWS Workshop"
-      description: "This workshop is designed for attendees on Development and Operations teams who would like to get started with Kubernetes on Amazon Web Services."
+  - url: https://haiderm.com/linux-privilege-escalation-using-weak-nfs-permissions/
+    title: "Linux Privilege Escalation using weak NFS permissions"
+    description: "A researcher was able to get Linux Privilege Escalation using weak NFS permissions in /etc/exports."
 
-    - url: https://github.com/i0natan/nodebestpractices
-      title: "NodeJS best practice"
-      description: "The largest Node.JS best practices list. Curated from the top ranked articles and always updated"
+  - url: http://markburgess.org/blog_reactive.html
+    title: "Microservices, The future of Society, and All That..."
+    description: "Modularity for introverts and extroverts ...or what it means that large things are an accumulation of small things..."
 
-    - url: https://about.gitlab.com/2017/10/02/scaling-the-gitlab-database/
-      title: "Scaling the GitLab database"
-      description: "An in-depth look at the challenges faced when scaling the GitLab database and the solutions we applied to help solve the problems with our database setup."
+  - url: https://github.com/arun-gupta/kubernetes-aws-workshop
+    title: "Kubernetes on AWS Workshop"
+    description: "This workshop is designed for attendees on Development and Operations teams who would like to get started with Kubernetes on Amazon Web Services."
+
+  - url: https://medium.com/the-renaissance-developer/learning-tree-data-structure-27c6bb363051
+    title: "Learning Tree Data Structure"
+    description: "We will learn about what is a tree, examples of it, its terminology, how it works, and a technical implementation"
+
+  - url: https://about.gitlab.com/2017/10/02/scaling-the-gitlab-database/
+    title: "Scaling the GitLab database"
+    description: "An in-depth look at the challenges faced when scaling the GitLab database and the solutions we applied to help solve the problems with our database setup."
+
+  - url: http://engineering.wingify.com/posts/leveraging-kafka-streams-to-reduce-db-hits/
+    title: "Leveraging Kafka Streams to reduce DB Hits"
+    description: "Kafka Streams enables capturing flow of events and changes caused by these events, and store these to other data systems. The author convert multiple updates to the backend stores into a single update/insert to reduce DB load."
 
 read_code:
-    - url: https://github.com/timest/goscan
-      title: "goscan: a simple and efficient IPv4 network scanner on local subnet"
-      category:
-        - Go
-    - url: 
+  - url: https://github.com/timest/goscan
+    title: "goscan: a simple and efficient IPv4 network scanner on local subnet"
+    category:
+      - Go
+
+  - url: https://github.com/serradura/request_via
+    title: "RequestVia: A Functional HTTP Client That Wraps Net::HTTP"
+    category:
+      - Ruby
+
+  - url: https://github.com/postwill/postwill/
+    title: "postwill: Posting to the most popular social media from Ruby "
+    category:
+      - Ruby
+  - url: https://github.com/UltimateHackers/Blazy
+    title: "Blazy: a modern login bruteforcer which also tests for CSRF, Clickjacking, Cloudflare and WAF"
+    category:
+      - Python
+  - url: https://github.com/i0natan/nodebestpractices
+    title: "NodeJS best practice"
+    category:
+      - NodeJS
+
+  - url: https://github.com/meyercm/ghoul
+    title: "An undead cleanup crew for your processes."
+    category:
+      - Elixir
 
 tool:
-    - url: https://github.com/frappe/charts
-      title: "Simple, responsive, modern SVG Charts with zero dependencies"
-      category:
-        - JavaScript
+  - url: https://github.com/hyrise/hyrise
+    title: "hyrise: A research in-memory database"
+    category:
+      - C++
 
-    - url: https://github.com/Netflix/rend
-      title: "A memcached proxy that manages data chunking and L1 / L2 cache"
-      category:
-        - Go
+  - url: https://github.com/graphcool/framework
+    title: "Framework to develop & deploy serverless GraphQL backends"
+    category:
+      - Scala
 
-    - url: https://github.com/go-ego/riot
-      title: "Riot: Open Source, Distributed, Simple and efficient Search Engine"
+  - url: https://github.com/frappe/charts
+    title: "Simple, responsive, modern SVG Charts with zero dependencies"
+    category:
+      - JavaScript
+
+  - url: https://github.com/Netflix/rend
+    title: "A memcached proxy that manages data chunking and L1 / L2 cache"
+    category:
+      - Go
+
+  - url: https://github.com/thestackshack/cim
+    title: "CIM takes the pain out of Infrastructure as Code and CloudFormation"
+    category:
+      - JavaScript
+
+  - url: https://github.com/go-ego/riot
+    category:
+      - Go
+
+   title: "Riot: Open Source, Distributed, Simple and efficient Search Engine"
+
+  - url: https://github.com/cosmtrek/air
+    title: "Air: live reload for Go App"
+    category:
+      - Go
