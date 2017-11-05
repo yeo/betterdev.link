@@ -59,19 +59,26 @@ read_code:
     title: "postwill: Posting to the most popular social media from Ruby "
     category:
       - Ruby
+
   - url: https://github.com/UltimateHackers/Blazy
     title: "Blazy: a modern login bruteforcer which also tests for CSRF, Clickjacking, Cloudflare and WAF"
     category:
       - Python
+
   - url: https://github.com/i0natan/nodebestpractices
     title: "NodeJS best practice"
     category:
       - NodeJS
 
   - url: https://github.com/meyercm/ghoul
-    title: "An undead cleanup crew for your processes."
+    title: "An undead cleanup crew for your processes"
     category:
       - Elixir
+
+  - url: https://github.com/laoqiren/mlhelper
+    title: "Algorithms and utils for Machine Learning in JavaScript"
+    category:
+      - TypeScript
 
 tool:
   - url: https://github.com/hyrise/hyrise
