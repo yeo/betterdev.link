@@ -1,0 +1,54 @@
+---
+time: "Nov 6, 2017"
+description: ""
+draft: false
+
+links:
+    - url: https://opensource.com/article/17/10/making-raspberry-pi-powered-ai-play-piano
+      title: "How Go and Raspberry Pi power piano-playing AI"
+      description: 'Learn how a developer used Go and a Raspberry Pi to create AI specifically tuned to his own style.'
+
+    - url: http://tech.marksblogg.com/sqlite3-tutorial-and-guide.html
+      title: "A Minimalist Guide to SQLite"
+      description: "SQLite is a SQL database that you can embedded right into your program. It has binding in almost language"
+
+    - url: https://www.percona.com/blog/2017/11/02/mysql-vs-mariadb-reality-check/
+      title: "MySQL vs. MariaDB: Reality Check"
+      description: "Evaluating, at a higher level, MySQL, MariaDB and Percona Server for MySQL side-by-side to better inform the decision making process."
+
+    - url: http://markburgess.org/blog_reactive.html
+      title: "Microservices, the future of society, and all that..."
+      description: "Modularity for introverts and extroverts ...or what it means that large things are an accumulation of small things..."
+
+    - url: https://github.com/arun-gupta/kubernetes-aws-workshop
+      title: "Kubernetes on AWS Workshop"
+      description: "This workshop is designed for attendees on Development and Operations teams who would like to get started with Kubernetes on Amazon Web Services."
+
+    - url: https://github.com/i0natan/nodebestpractices
+      title: "NodeJS best practice"
+      description: "The largest Node.JS best practices list. Curated from the top ranked articles and always updated"
+
+    - url: https://about.gitlab.com/2017/10/02/scaling-the-gitlab-database/
+      title: "Scaling the GitLab database"
+      description: "An in-depth look at the challenges faced when scaling the GitLab database and the solutions we applied to help solve the problems with our database setup."
+
+read_code:
+    - url: https://github.com/timest/goscan
+      title: "goscan: a simple and efficient IPv4 network scanner on local subnet"
+      category:
+        - Go
+    - url: 
+
+tool:
+    - url: https://github.com/frappe/charts
+      title: "Simple, responsive, modern SVG Charts with zero dependencies"
+      category:
+        - JavaScript
+
+    - url: https://github.com/Netflix/rend
+      title: "A memcached proxy that manages data chunking and L1 / L2 cache"
+      category:
+        - Go
+
+    - url: https://github.com/go-ego/riot
+      title: "Riot: Open Source, Distributed, Simple and efficient Search Engine"
