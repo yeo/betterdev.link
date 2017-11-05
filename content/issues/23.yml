@@ -8,6 +8,10 @@ links:
     title: "How Go and Raspberry Pi power piano-playing AI"
     description: "Learn how a developer used Go and a Raspberry Pi to create AI specifically tuned to his own style."
 
+  - url: https://gettalong.org/blog/2017/memory-conscious-programming-in-ruby.html
+    title: "Memory Conscious Programming in Ruby"
+    description: "When programming in Ruby many people think that egregious memory usage is the norm and unavoidable. However, there are ways and strategies to keep memory usage down/"
+
   - url: http://tech.marksblogg.com/sqlite3-tutorial-and-guide.html
     title: "A Minimalist Guide to SQLite"
     description: "SQLite is a SQL database that you can embedded right into your program. It has binding in many languages so almost available every where."
