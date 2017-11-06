@@ -5,16 +5,16 @@ draft: true
 
 links:
   - url: https://opensource.com/article/17/10/making-raspberry-pi-powered-ai-play-piano
-    title: "How Go and Raspberry Pi power piano-playing AI"
+    title: "How Go and Raspberry Pi Power Piano-Playing AI"
     description: "Learn how a developer used Go and a Raspberry Pi to create AI specifically tuned to his own style."
 
   - url: https://gettalong.org/blog/2017/memory-conscious-programming-in-ruby.html
     title: "Memory Conscious Programming in Ruby"
-    description: "When programming in Ruby many people think that egregious memory usage is the norm and unavoidable. However, there are ways and strategies to keep memory usage down/"
+    description: "When programming in Ruby many people think that egregious memory usage is the norm and unavoidable. However, there are ways and strategies to keep memory usage down."
 
   - url: http://tech.marksblogg.com/sqlite3-tutorial-and-guide.html
     title: "A Minimalist Guide to SQLite"
-    description: "SQLite is a SQL database that you can embedded right into your program. It has binding in many languages so almost available every where."
+    description: "SQLite is a SQL database that you can embedded right into your program. It has binding in many languages so it is available almost everywhere."
 
   - url: https://www.percona.com/blog/2017/11/02/mysql-vs-mariadb-reality-check/
     title: "MySQL vs. MariaDB: Reality Check"
@@ -22,31 +22,31 @@ links:
 
   - url: https://blog.lizzie.io/linux-containers-in-500-loc.html
     title: "Linux Containers in 500 Lines of Code"
-    description: "It's actually 570 LOC. However, the point is to wire together kernel component to create container. It's written in literate programming style so it's pretty to follow"
+    description: "It's actually 570 LOC. However, the point is to wire together kernel component to create container. It's written in literate programming style so it's pretty to follow."
 
   - url: https://haiderm.com/linux-privilege-escalation-using-weak-nfs-permissions/
-    title: "Linux Privilege Escalation using weak NFS permissions"
+    title: "Linux Privilege Escalation using Weak NFS Permissions"
     description: "A researcher was able to get Linux Privilege Escalation using weak NFS permissions in /etc/exports."
 
   - url: http://markburgess.org/blog_reactive.html
-    title: "Microservices, The future of Society, and All That..."
-    description: "Modularity for introverts and extroverts ...or what it means that large things are an accumulation of small things..."
+    title: "Microservices, The Future of Society, and All That..."
+    description: "Modularity for introverts and extroverts... or what it means that large things are an accumulation of small things..."
 
   - url: https://github.com/arun-gupta/kubernetes-aws-workshop
     title: "Kubernetes on AWS Workshop"
-    description: "This workshop is designed for attendees on Development and Operations teams who would like to get started with Kubernetes on Amazon Web Services."
+    description: "This workshop is designed for attendees on development and operations teams who would like to get started with Kubernetes on Amazon Web Services."
 
   - url: https://medium.com/the-renaissance-developer/learning-tree-data-structure-27c6bb363051
     title: "Learning Tree Data Structure"
-    description: "We will learn about what is a tree, examples of it, its terminology, how it works, and a technical implementation"
+    description: "We will learn about what is a tree, its terminology, how it works, examples, and a technical implementation."
 
   - url: https://about.gitlab.com/2017/10/02/scaling-the-gitlab-database/
-    title: "Scaling the GitLab database"
+    title: "Scaling the GitLab Database"
     description: "An in-depth look at the challenges faced when scaling the GitLab database and the solutions we applied to help solve the problems with our database setup."
 
   - url: http://engineering.wingify.com/posts/leveraging-kafka-streams-to-reduce-db-hits/
-    title: "Leveraging Kafka Streams to reduce DB Hits"
-    description: "Kafka Streams enables capturing flow of events and changes caused by these events, and store these to other data systems. The author convert multiple updates to the backend stores into a single update/insert to reduce DB load."
+    title: "Leveraging Kafka Streams to Reduce DB Hits"
+    description: "Kafka Streams enables capturing flow of events and changes caused by these events, and stores these to other data systems. The author convert multiple updates of the backend stores into a single update/insert to reduce DB load."
 
 read_code:
   - url: https://github.com/timest/goscan
@@ -55,7 +55,7 @@ read_code:
       - Go
 
   - url: https://github.com/serradura/request_via
-    title: "RequestVia: A Functional HTTP Client That Wraps Net::HTTP"
+    title: "RequestVia: A functional HTTP client that wraps Net::HTTP"
     category:
       - Ruby
 
@@ -70,7 +70,7 @@ read_code:
       - Python
 
   - url: https://github.com/i0natan/nodebestpractices
-    title: "NodeJS best practice"
+    title: "NodeJS best practices"
     category:
       - NodeJS
 
@@ -80,7 +80,7 @@ read_code:
       - Elixir
 
   - url: https://github.com/laoqiren/mlhelper
-    title: "Algorithms and utils for Machine Learning in JavaScript"
+    title: "Algorithms and utils for machine learning in JavaScript"
     category:
       - TypeScript
 
@@ -91,7 +91,7 @@ tool:
       - C++
 
   - url: https://github.com/graphcool/framework
-    title: "Framework to develop & deploy serverless GraphQL backends"
+    title: "Framework to develop & deploy server-less GraphQL backends"
     category:
       - Scala
 
@@ -111,10 +111,9 @@ tool:
       - JavaScript
 
   - url: https://github.com/go-ego/riot
+    title: "Riot: Open Source, Distributed, Simple and efficient Search Engine"
     category:
       - Go
-
-   title: "Riot: Open Source, Distributed, Simple and efficient Search Engine"
 
   - url: https://github.com/cosmtrek/air
     title: "Air: live reload for Go App"
