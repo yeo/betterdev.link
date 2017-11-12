@@ -36,6 +36,10 @@ links:
     title: "Popular Machine Learning Algorithms"
     description: "Any machine learning algorithm is a hypothesis set which is taken before considering the training data and which is used for finding the optimal model. Machine learning algorithms can be divided into 3 broad categories. In this post we will have a high level description of some of the common and popular machine learning algorithms and have an elevated view of them."
 
+  - url: https://blog.sessionstack.com/how-javascript-works-deep-dive-into-websockets-and-http-2-with-sse-how-to-pick-the-right-path-584e6b8e3bf7
+    title:  "How JavaScript works: Deep dive into WebSockets and HTTP/2 with SSE + how to pick the right path"
+    description: "This time we'll dive into the world of communication protocols, mapping and discussing their attributes and building parts on the way. We'll offer a quick comparison of WebSockets and HTTP/2"
+
   - url: http://svgpocketguide.com/book/
     title: "Pocket Guide to Writing SVG"
     description: "SVG is powerful. It's crisp on any display, has a manipulatable DOM and many more. This guide is meant to provide a quick but thorough introduction to building SVG inline, and while it in no way covers all the available features."
