@@ -8,29 +8,17 @@ links:
     title: "How Netflix Works: The (hugely simplified) Complex Stuff That Happens Every Time You Hit Play"
     description: "Streaming around 250 million hours of video per day to around 98 million paying subscribers in 190 countries, at that scale, providing quality entertainment in a matter of a few seconds to every user is no joke."
 
-  - url: https://www.percona.com/blog/2017/11/09/mysql-linux-context-switches/
-    title: "MySQL and Linux Context Switches"
-    description: "When using thread, we heard about term 'context switching' and that too many threads cause huge context switch and reduce performance. In MySQL case, what is the normal number of context switch between MySQL and Linux kernel?"
+  - url: https://getstream.io/blog/building-instagram-discovery-engine-step-step-tutorial/
+    title: "Building Your Own Instagram Discovery Engine: A Step-By-Step Tutorial"
+    description: "With 400M active users and 80M photos posted daily, how does Instagram decide what to put on your explore section. Let's explore the key factors Instagram uses to determine scores for posts in your Instagram timeline and explore section. "
+
+  - url: https://github.com/k88hudson/git-flight-rules
+    title: "A guide for astronauts (now, programmers using git) about what to do when things go wrong."
+    description: "When is the last time you do something wrong, push and want to undo it in Git. This repos cover lots of use-case like that."
 
   - url: https://evilmartians.com/chronicles/partition-and-conquer
     title: "Partition and Conquer Large Postgres Table"
     description: "We'll learn how to break down a gigantic table that is slowing down your application in production Ruby on Rails and PostgreSQL, in our case"
-
-  - url: http://svgpocketguide.com/book/
-    title: "Pocket Guide to Writing SVG"
-    description: "SVG is powerful. It's crisp on any display, has a manipulatable DOM and many more. This guide is meant to provide a quick but thorough introduction to building SVG inline, and while it in no way covers all the available features."
-
-  - url: https://blog.kotlin-academy.com/multiplatform-native-development-in-kotlin-now-with-ios-a8546f436eec
-    title: "Multiplatform Native Development in Kotlin. Now with iOS!"
-    description: "Developers always look for a cross platform language. Still in early day, Kotlon has already shown promising future. After KotlinConf, an announcement was made: Kotlin/Native started supporting iOS. This article is a summarize of what we can do and the future"
-
-  - url: https://blog.newrelic.com/2017/11/06/infrastructure-ntp-migration/
-    title: "Lost in Time: Searching for Rogue Devices During an NTP Migration"
-    description: "Most of time, we as developer just configuring ntp by pointing it to some ntp pool and call it a day. What is the complexity to run and build a NTP cluster?"
-
-  - url: https://getstream.io/blog/building-instagram-discovery-engine-step-step-tutorial/
-    title: "Building Your Own Instagram Discovery Engine: A Step-By-Step Tutorial"
-    description: "With 400M active users and 80M photos posted daily, how does Instagram decide what to put on your explore section. Let's explore the key factors Instagram uses to determine scores for posts in your Instagram timeline and explore section. "
 
   - url: https://spin.atomicobject.com/2017/11/10/readline-productivity/
     title: "Improving Command Line Productivity with GNU Readline"
@@ -40,6 +28,26 @@ links:
     title: "Upgrading Kickstarter to Rails 5"
     description: "Big company shares their real experienece is good since we know how people do thing in real world. Let's look at how Kickstarter upgrade their application"
 
+  - url: http://lucasmreis.github.io/blog/simple-react-patterns/
+    title: "Simple React Patterns: Dealing With Side-Effects In React"
+    description: "Lucas review these patterns which will summarize about 99% of the React code I write every day"
+
+  - url: https://medium.com/technology-nineleaps/popular-machine-learning-algorithms-a574e3835ebb
+    title: "Popular Machine Learning Algorithms"
+    description: "Any machine learning algorithm is a hypothesis set which is taken before considering the training data and which is used for finding the optimal model. Machine learning algorithms can be divided into 3 broad categories. In this post we will have a high level description of some of the common and popular machine learning algorithms and have an elevated view of them."
+
+  - url: http://svgpocketguide.com/book/
+    title: "Pocket Guide to Writing SVG"
+    description: "SVG is powerful. It's crisp on any display, has a manipulatable DOM and many more. This guide is meant to provide a quick but thorough introduction to building SVG inline, and while it in no way covers all the available features."
+
+  - url: https://www.percona.com/blog/2017/11/09/mysql-linux-context-switches/
+    title: "MySQL and Linux Context Switches"
+    description: "When using thread, we heard about term 'context switching' and that too many threads cause huge context switch and reduce performance. In MySQL case, what is the normal number of context switch between MySQL and Linux kernel?"
+
+  - url: https://blog.newrelic.com/2017/11/06/infrastructure-ntp-migration/
+    title: "Lost in Time: Searching for Rogue Devices During an NTP Migration"
+    description: "Most of time, we as developer just configuring ntp by pointing it to some ntp pool and call it a day. What is the complexity to run and build a NTP cluster?"
+
   - url: https://lemire.me/blog/2017/11/10/how-should-you-build-a-high-performance-column-store-for-the-2020s/
     title: "How Should You Build a High-performance Column Store for The 2020s"
     description: "Columnar storage store columns, not rows, together. Compare with row oriented, it's like array of structs or struct of arrays. This article is actually an open-ended discussion of questions, techniques to design high performance column store"
@@ -47,10 +55,6 @@ links:
   - url: http://ourmachinery.com/post/virtual-memory-tricks/
     title: "Virtual Memory Tricks"
     description: "As programmers, we know that it's there, but we tend to forget about it, perhaps because it’s not directly exposed in our programming language. But, it turns out, if you actually make use of what virtual memory can do, you can achieve some pretty cool things."
-
-  - url: http://lucasmreis.github.io/blog/simple-react-patterns/
-    title: "Simple React Patterns: Dealing With Side-Effects In React"
-    description: "Lucas review these patterns which will summarize about 99% of the React code I write every day"
 
   - url: https://bigishdata.com/2017/11/02/build-your-own-blockchain-part-3-writing-nodes-that-mine
     title: "How to Build Your Own Blockchain Part 3 — Writing Nodes that Mine and Talk"
