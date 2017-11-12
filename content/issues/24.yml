@@ -13,7 +13,7 @@ links:
     description: "With 400M active users and 80M photos posted daily, how does Instagram decide what to put on your explore section. Let's explore the key factors Instagram uses to determine scores for posts in your Instagram timeline and explore section. "
 
   - url: https://github.com/k88hudson/git-flight-rules
-    title: "A guide for astronauts (now, programmers using git) about what to do when things go wrong."
+    title: "A Guide for Astronauts (Now, Programmers Using Git) about What to Do When Things go wrong."
     description: "When is the last time you do something wrong, push and want to undo it in Git. This repos cover lots of use-case like that."
 
   - url: https://evilmartians.com/chronicles/partition-and-conquer
@@ -82,6 +82,9 @@ read_code:
     category: ['C']
 
 tool:
+  - url: https://github.com/palkan/wsdirector
+    title: 'wsdirector: Command line tool for testing websocket servers using scenarios.'
+
   - url: https://dramatiq.io/
     title: "Dramatiq: a distributed task processing library for Python with a focus on simplicity, reliability and performance."
 
