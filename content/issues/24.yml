@@ -5,7 +5,7 @@ draft: false
 
 links:
   - url: https://medium.com/refraction-tech-everything/how-netflix-works-the-hugely-simplified-complex-stuff-that-happens-every-time-you-hit-play-3a40c9be254b
-    title: "How Netflix works: the (hugely simplified) complex stuff that happens every time you hit Play"
+    title: "How Netflix Works: The (hugely simplified) Complex Stuff That Happens Every Time You Hit Play"
     description: "Streaming around 250 million hours of video per day to around 98 million paying subscribers in 190 countries, at that scale, providing quality entertainment in a matter of a few seconds to every user is no joke."
 
   - url: https://www.percona.com/blog/2017/11/09/mysql-linux-context-switches/
@@ -13,7 +13,7 @@ links:
     description: "When using thread, we heard about term 'context switching' and that too many threads cause huge context switch and reduce performance. In MySQL case, what is the normal number of context switch between MySQL and Linux kernel?"
 
   - url: https://evilmartians.com/chronicles/partition-and-conquer
-    title: "Partition and conquer large Postgres table"
+    title: "Partition and Conquer Large Postgres Table"
     description: "We'll learn how to break down a gigantic table that is slowing down your application in production Ruby on Rails and PostgreSQL, in our case"
 
   - url: http://svgpocketguide.com/book/
@@ -21,7 +21,7 @@ links:
     description: "SVG is powerful. It's crisp on any display, has a manipulatable DOM and many more. This guide is meant to provide a quick but thorough introduction to building SVG inline, and while it in no way covers all the available features."
 
   - url: https://blog.kotlin-academy.com/multiplatform-native-development-in-kotlin-now-with-ios-a8546f436eec
-    title: "Multiplatform native development in Kotlin. Now with iOS!"
+    title: "Multiplatform Native Development in Kotlin. Now with iOS!"
     description: "Developers always look for a cross platform language. Still in early day, Kotlon has already shown promising future. After KotlinConf, an announcement was made: Kotlin/Native started supporting iOS. This article is a summarize of what we can do and the future"
 
   - url: https://blog.newrelic.com/2017/11/06/infrastructure-ntp-migration/
@@ -41,7 +41,7 @@ links:
     description: "Big company shares their real experienece is good since we know how people do thing in real world. Let's look at how Kickstarter upgrade their application"
 
   - url: https://lemire.me/blog/2017/11/10/how-should-you-build-a-high-performance-column-store-for-the-2020s/
-    title: "How should you build a high-performance column store for the 2020s"
+    title: "How Should You Build a High-performance Column Store for The 2020s"
     description: "Columnar storage store columns, not rows, together. Compare with row oriented, it's like array of structs or struct of arrays. This article is actually an open-ended discussion of questions, techniques to design high performance column store"
 
   - url: http://ourmachinery.com/post/virtual-memory-tricks/
@@ -89,5 +89,5 @@ tool:
   - url: https://github.com/uber/pyro
     title: "pyro: Deep universal probabilistic programming with Python and PyTorch"
 
-   - url: https://github.com/alexsicart/Decentralized-Cloud
-     title: "The simplest way to send your files around the world using IPFS."
+  - url: https://github.com/alexsicart/Decentralized-Cloud
+    title: "The simplest way to send your files around the world using IPFS."
