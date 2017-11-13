@@ -1,68 +1,68 @@
 ---
 time: "Nov 13, 2017"
-description: "Programming is a beautiful thing. Let's learn about all these beautiful thing, don't let down something because it isn't writen in our favourite language or stack. We can always get some good out of it, then apply and improve."
+description: "Programming is a beautiful thing. Let's learn about all these wonderful concepts and practices. Don't be let down if a lesson isn't written in our favorite language or stack. We can always get some good out of learning, apply the knowledge and you will improve."
 draft: false
 
 links:
   - url: https://medium.com/refraction-tech-everything/how-netflix-works-the-hugely-simplified-complex-stuff-that-happens-every-time-you-hit-play-3a40c9be254b
-    title: "How Netflix Works: The (hugely simplified) Complex Stuff That Happens Every Time You Hit Play"
-    description: "Streaming around 250 million hours of video per day to around 98 million paying subscribers in 190 countries, at that scale, providing quality entertainment in a matter of a few seconds to every user is no joke."
+    title: "How Netflix Works: The (Hugely Simplified) Complex Stuff That Happens Every Time You Hit Play"
+    description: "Streaming around 250 million hours of video per day to around 98 million paying subscribers in 190 countries. At that scale, providing quality entertainment in a matter of a few seconds to every user is no joke."
 
   - url: https://getstream.io/blog/building-instagram-discovery-engine-step-step-tutorial/
     title: "Building Your Own Instagram Discovery Engine: A Step-By-Step Tutorial"
-    description: "With 400M active users and 80M photos posted daily, how does Instagram decide what to put on your explore section. Let's explore the key factors Instagram uses to determine scores for posts in your Instagram timeline and explore section. "
+    description: "With 400M active users and 80M photos posted daily, how does Instagram decide what to put on your explore section? Let's explore the key factors Instagram uses to determine scores for posts in your Instagram timeline and the explore section."
 
   - url: https://github.com/k88hudson/git-flight-rules
-    title: "A Guide for Astronauts (Now, Programmers Using Git) about What to Do When Things go wrong."
-    description: "When is the last time you do something wrong, push and want to undo it in Git. This repos cover lots of use-case like that."
+    title: "A Guide for Astronauts (Now, Programmers Using Git) About What to Do When Things Go Wrong."
+    description: "When is the last time you did something wrong, pushed your commit and want to undo it? This repo cover lots of use-cases like that."
 
   - url: https://evilmartians.com/chronicles/partition-and-conquer
     title: "Partition and Conquer Large Postgres Table"
-    description: "We'll learn how to break down a gigantic table that is slowing down your application in production Ruby on Rails and PostgreSQL, in our case"
+    description: "We'll learn how to break down a gigantic table that is slowing down your application in production Ruby on Rails and PostgreSQL."
 
   - url: https://spin.atomicobject.com/2017/11/10/readline-productivity/
     title: "Improving Command Line Productivity with GNU Readline"
-    description: "GNU Readline powers many features when we interactive with command line. Dan shares a few very simple Readline tools that he has picked up over time and continue to use to improve productivity"
+    description: "GNU Readline powers many features when we interact with command line. Dan shares a few very simple Readline tools that he has picked up over time and continues to use to improve his productivity."
 
   - url: https://kickstarter.engineering/upgrading-kickstarter-to-rails-5-e8203f93df55
     title: "Upgrading Kickstarter to Rails 5"
-    description: "Big company shares their real experienece is good since we know how people do thing in real world. Let's look at how Kickstarter upgrade their application"
+    description: "Big companies that share their experiences is really good for us, so we know how people use these tools in the real world. Let's look at how Kickstarter upgraded their Rails application."
 
   - url: http://lucasmreis.github.io/blog/simple-react-patterns/
     title: "Simple React Patterns: Dealing With Side-Effects In React"
-    description: "Lucas review these patterns which will summarize about 99% of the React code I write every day"
+    description: "Lucas reviews these patterns which will summarize about 99% of the React code we  write every day."
 
   - url: https://medium.com/technology-nineleaps/popular-machine-learning-algorithms-a574e3835ebb
     title: "Popular Machine Learning Algorithms"
-    description: "Any machine learning algorithm is a hypothesis set which is taken before considering the training data and which is used for finding the optimal model. Machine learning algorithms can be divided into 3 broad categories. In this post we will have a high level description of some of the common and popular machine learning algorithms and have an elevated view of them."
+    description: "In this post we will have a high level description of some of the common and popular machine learning algorithms and have an elevated view of them."
 
   - url: https://blog.sessionstack.com/how-javascript-works-deep-dive-into-websockets-and-http-2-with-sse-how-to-pick-the-right-path-584e6b8e3bf7
-    title:  "How JavaScript works: Deep dive into WebSockets and HTTP/2 with SSE + how to pick the right path"
-    description: "This time we'll dive into the world of communication protocols, mapping and discussing their attributes and building parts on the way. We'll offer a quick comparison of WebSockets and HTTP/2"
+    title:  "How JavaScript works: Deep dive into WebSockets and HTTP/2 with SSE"
+    description: "Dive into the world of communication protocols, mapping and discussing their attributes and building parts on the way. The tutorial offers a quick comparison of WebSockets and HTTP/2."
 
   - url: http://svgpocketguide.com/book/
     title: "Pocket Guide to Writing SVG"
-    description: "SVG is powerful. It's crisp on any display, has a manipulatable DOM and many more. This guide is meant to provide a quick but thorough introduction to building SVG inline, and while it in no way covers all the available features."
+    description: "SVG is powerful. It's crisp on any display, has a manipulatable DOM and much more. This guide is meant to provide a quick, but thorough, introduction to building SVG inline."
 
   - url: https://www.percona.com/blog/2017/11/09/mysql-linux-context-switches/
     title: "MySQL and Linux Context Switches"
-    description: "When using thread, we heard about term 'context switching' and that too many threads cause huge context switch and reduce performance. In MySQL case, what is the normal number of context switch between MySQL and Linux kernel?"
+    description: "When using threads, we heard about term 'context switching' and that too many threads cause huge context switch and reduce performance. In the case of MySQL, what is the normal number of context switches between MySQL and Linux kernel?"
 
   - url: https://blog.newrelic.com/2017/11/06/infrastructure-ntp-migration/
     title: "Lost in Time: Searching for Rogue Devices During an NTP Migration"
-    description: "Most of time, we as developer just configuring ntp by pointing it to some ntp pool and call it a day. What is the complexity to run and build a NTP cluster?"
+    description: "Most of time, we as developers just configure NTP by pointing it to some NTP pool and call it a day. What is the complexity to run and build a NTP cluster?"
 
   - url: https://lemire.me/blog/2017/11/10/how-should-you-build-a-high-performance-column-store-for-the-2020s/
     title: "How Should You Build a High-performance Column Store for The 2020s"
-    description: "Columnar storage store columns, not rows, together. Compare with row oriented, it's like array of structs or struct of arrays. This article is actually an open-ended discussion of questions, techniques to design high performance column store"
+    description: "Columnar storage store columns, not rows, together. Compared with row oriented, it's like an array of structs or struct of arrays. This article is actually an open-ended discussion of questions and techniques to design high performance column stores."
 
   - url: http://ourmachinery.com/post/virtual-memory-tricks/
     title: "Virtual Memory Tricks"
-    description: "As programmers, we know that it's there, but we tend to forget about it, perhaps because it’s not directly exposed in our programming language. But, it turns out, if you actually make use of what virtual memory can do, you can achieve some pretty cool things."
+    description: "As programmers, we know that virtual memory is there, but we tend to forget about it perhaps because it’s not directly exposed in our programming language. But it turns out, if you actually make use of what virtual memory can do, you can achieve some pretty cool things."
 
   - url: https://bigishdata.com/2017/11/02/build-your-own-blockchain-part-3-writing-nodes-that-mine
     title: "How to Build Your Own Blockchain Part 3 — Writing Nodes that Mine and Talk"
-    description: "A great serie so far on blockchain. It's the easiest way to understand blockchain and avoid on the buzz about blockchain right now by diving deep into tech stack. This time we learn how mining works."
+    description: "A great series so far on blockchain. It's the easiest way to understand blockchain and avoid on the buzz by diving deep into the tech stack. This time we learn how mining works."
 
 read_code:
   - url: https://github.com/TimothyYe/skm
@@ -78,15 +78,15 @@ read_code:
     category: ['Ruby']
 
   - url: https://github.com/lammertb/libhttp
-    title: Multi platform HTTP and HTTPS library
+    title: Multi-platform HTTP and HTTPS library
     category: ['C']
 
 tool:
   - url: https://github.com/palkan/wsdirector
-    title: 'wsdirector: Command line tool for testing websocket servers using scenarios.'
+    title: 'wsdirector: Command line tool for testing websocket servers using scenarios'
 
   - url: https://dramatiq.io/
-    title: "Dramatiq: a distributed task processing library for Python with a focus on simplicity, reliability and performance."
+    title: "Dramatiq: a distributed task processing library for Python with a focus on simplicity, reliability and performance"
 
   - url: https://github.com/appscode/voyager
     title: "Secure Ingress Controller for Kubernetes"
