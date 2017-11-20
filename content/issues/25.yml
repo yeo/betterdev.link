@@ -14,49 +14,49 @@ links:
 
   - url: https://medium.com/basecs
     title: "Exploring the basics of computer science, every Monday, for a year."
-    description: "If you want to dive deep into algorithm, this serie by Vaidehi Joshi is super useful. It covers from basic to advance in a practical way, not the way you see in textbook. Beside, she also has a podcast: https://www.codenewbie.org/basecs. Check it out"
+    description: "If you want to dive deep into algorithm, this serie by Vaidehi Joshi is super useful. It covers from basic to advance in a practical way, not the way you see in textbook. Beside, she also has a podcast at https://www.codenewbie.org/basecs. Check it out."
 
   - url: https://opensource.com/article/17/10/10-layers-container-security
     title: "10 layers of Linux container security"
-    description: "Securing containers is a lot like securing any running process. You need to think about security throughout the layers of the solution stack before you deploy and run your container"
+    description: "Securing containers is a lot like securing any running process. You need to think about security throughout the layers of the solution stack before you deploy and run your container."
 
   - url: https://jcs.org/2017/11/17/bitwarden
     title: "Switching from 1Password to Bitwarden"
-    description: "An amazing story of developer want to get better control of password manager. Dev found an open source tool, see that it's written in .NET without API document, decide to intercept the client and build another open source backend that compatible with .NET one, built tool to import 1password into their own backend. Checkout their code."
+    description: "An amazing story of developer want to get better control of password manager. He found an open source tool, see that it's written in .NET without API document, decide to intercept the client and build another open source backend that compatible with .NET one, built tool to import 1password into their own backend."
 
-  - uri: https://github.com/avivace/awesome-gbdev
+  - url: https://github.com/avivace/awesome-gbdev
     title: "Awesome Game Boy Development"
     description: "A curated list of awesome Game Boy (Color) Development resources, tools, docs, related projects and open-source ROMs. They also have discord channel"
 
-  - uri: https://hspazio.github.io/2017/worker-pool/
+  - url: https://hspazio.github.io/2017/worker-pool/
     title: "Implementing a worker pool"
     description: "In order to improve performance of an application without using tonnes of resources the Worker Pool is a simple and efficient solution that powers many concurrency patterns."
 
-  - uri: https://medium.freecodecamp.org/using-svg-as-placeholders-more-image-loading-techniques-bed1b810ab2c
-    tite: "How to use SVG as a Placeholder, and Other Image Loading Techniques"
+  - url: https://medium.freecodecamp.org/using-svg-as-placeholders-more-image-loading-techniques-bed1b810ab2c
+    title: "How to use SVG as a Placeholder, and Other Image Loading Techniques"
     description: "When working with image on the web, we want to solve problem: what to show when image hasn't loaded yet? Use low-ress version, blurry version etc are easy to think of. Let's explore other technique that use SVG"
 
-  - uri: https://jmperezperez.com/medium-image-progressive-loading-placeholder/
+  - url: https://jmperezperez.com/medium-image-progressive-loading-placeholder/
     title: "How Medium does progressive image loading"
     description: "Continue on above topic, let's see how Medium solves this problem because medium post usually feature huge picture"
 
-  - uri: http://stackabuse.com/using-machine-learning-to-predict-the-weather-part-1/
+  - url: http://stackabuse.com/using-machine-learning-to-predict-the-weather-part-1/
     title: "Using Machine Learning(ML) to Predict the Weather: Part 1"
     description: "Web developer may not have change to practice machine learning a lot. This is a fun serie to collect historical weather from some weahter API service, then process them with Panda"
 
-  - uri: https://github.com/IBM/elasticsearch-spark-recommender
+  - url: https://github.com/IBM/elasticsearch-spark-recommender
     title: "Building a Recommender with Apache Spark & Elasticsearch"
     description: "Continue on ML, let's build a recomendation engine with Apache Spark and ElasticSearch(ES). We learn how to ingest data into ES and Spark Dataframe then use Spark's machine learning library to train the model"
 
   - url: https://blog.statsbot.co/neural-networks-for-beginners-d99f2235efca
     title: "Neural networks for beginners: popular types and applications"
-    description: ""
+    description: "Explaining what neural networks are, the main challenges for beginners of working on them, popular types of neural networks, and their applications. We'll also describe how you can apply neural networks in different industries and department."
 
   - url: https://siddontang.gitbooks.io/leetcode-solution/
     title: "Leetcode solution book and discusstion"
     description: "Solution in form of an ebook explain the implementation. This is in Chinese but I found I can use Google translate to read it quite well"
 
-code_to_read:
+read_code:
   - url: https://github.com/okbob/pspg
     title: 'pspg - Postgres Pager. less is fine but this is built specifically for Postgres with column, fancy color'
     category: ['C']
