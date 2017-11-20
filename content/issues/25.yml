@@ -8,6 +8,10 @@ links:
     title: "Debugging Memory Leaks and Memory Bloat in Node.js"
     description: "Memory leak is usually consider some hard bug or a blackbox. The goal of this article is to efficiently get to the bottom of any memory issues and make them no more of a problem than your average bug"
 
+  - url: https://engineering.riotgames.com/news/determinism-league-legends-introduction
+    title: "Determinism in League of Legends game - Part 1"
+    description: "Riot game talk about how they gave themselves the power to turn back the hands of time in League of Legends. They make LoL game server deterministic so they could re-play a recorded game and restore the server to the exact state it was in at an earlier time. Which is very similar to a database transaction log where we can re-play the log."
+
   - url: https://blog.kentcdodds.com/classes-complexity-and-functional-programming-a8dd86903747
     title: "Classes, Complexity, and Functional Programming"
     description: "We all want to have simple code that's easier to maintain. Where we often really disagree is how to accomplish that. In this blog post I'm going to talk about how I see functions, objects, and classes fitting into that."
@@ -23,10 +27,6 @@ links:
   - url: https://jcs.org/2017/11/17/bitwarden
     title: "Switching from 1Password to Bitwarden"
     description: "An amazing story of developer want to get better control of password manager. He found an open source tool, see that it's written in .NET without API document, decide to intercept the client and build another open source backend that compatible with .NET one, built tool to import 1password into their own backend."
-
-  - url: https://engineering.riotgames.com/news/determinism-league-legends-introduction
-    title: "Determinism in League of Legends game"
-    description: "A series Riot game talk about how they gave themselves the power to turn back the hands of time in League of Legends. They make LoL game server deterministic so they could re-play a recorded game and restore the server to the exact state it was in at an earlier time. Which is very similar to a database transaction log where we can re-play the log."
 
   - url: https://github.com/avivace/awesome-gbdev
     title: "Awesome Game Boy Development"
