@@ -1,6 +1,6 @@
 ---
 time: "Nov 20, 2017"
-description: "This week is a short week. Happy thanksgiving everyone. I always enjoy understanding more about some low level stuff such as memory, how to optimize image loading, or CS algorythm so this week I include some of them. Hope holiday gives us a bit more time to enjoy these links!"
+description: "Happy thanksgiving everyone!!! I always enjoy understanding more about some low level stuff such as memory, how to optimize image loading, or CS algorithms so this week I include some of them. Hope holiday gives us a bit more time to enjoy these links!"
 draft: false
 
 links:
@@ -24,9 +24,13 @@ links:
     title: "Switching from 1Password to Bitwarden"
     description: "An amazing story of developer want to get better control of password manager. He found an open source tool, see that it's written in .NET without API document, decide to intercept the client and build another open source backend that compatible with .NET one, built tool to import 1password into their own backend."
 
+  - url: https://engineering.riotgames.com/news/determinism-league-legends-introduction
+    title: "Determinism in League of Legends game"
+    description: "A series Riot game talk about how they gave themselves the power to turn back the hands of time in League of Legends. They make LoL game server deterministic so they could re-play a recorded game and restore the server to the exact state it was in at an earlier time. Which is very similar to a database transaction log where we can re-play the log."
+
   - url: https://github.com/avivace/awesome-gbdev
     title: "Awesome Game Boy Development"
-    description: "A curated list of awesome Game Boy (Color) Development resources, tools, docs, related projects and open-source ROMs. They also have discord channel"
+    description: "A curated list of awesome Game Boy (Color) Development resources, tools, docs, related projects and open-source ROMs. They also have discord channel."
 
   - url: https://hspazio.github.io/2017/worker-pool/
     title: "Implementing a worker pool"
@@ -34,15 +38,15 @@ links:
 
   - url: https://medium.freecodecamp.org/using-svg-as-placeholders-more-image-loading-techniques-bed1b810ab2c
     title: "How to use SVG as a Placeholder, and Other Image Loading Techniques"
-    description: "When working with image on the web, we want to solve problem: what to show when image hasn't loaded yet? Use low-ress version, blurry version etc are easy to think of. Let's explore other technique that use SVG"
+    description: "When working with image on the web, we want to solve problem: what to show when image hasn't loaded yet? Use low-ress version, blurry version etc are easy to think of. Let's explore other technique that use SVG."
 
   - url: https://jmperezperez.com/medium-image-progressive-loading-placeholder/
     title: "How Medium does progressive image loading"
-    description: "Continue on above topic, let's see how Medium solves this problem because medium post usually feature huge picture"
+    description: "Continue on above topic, let's see how Medium solves this problem because medium post usually uses huge picture."
 
   - url: http://stackabuse.com/using-machine-learning-to-predict-the-weather-part-1/
     title: "Using Machine Learning(ML) to Predict the Weather: Part 1"
-    description: "Web developer may not have change to practice machine learning a lot. This is a fun serie to collect historical weather from some weahter API service, then process them with Panda"
+    description: "A developer may not have many chance to practice machine learning. This is a fun ML project that collects historical weather from some weather API, then process them with Panda"
 
   - url: https://github.com/IBM/elasticsearch-spark-recommender
     title: "Building a Recommender with Apache Spark & Elasticsearch"
@@ -54,7 +58,7 @@ links:
 
   - url: https://siddontang.gitbooks.io/leetcode-solution/
     title: "Leetcode solution book and discusstion"
-    description: "Solution in form of an ebook explain the implementation. This is in Chinese but I found I can use Google translate to read it quite well"
+    description: "Solutions in form of an ebook that explains the implementation. This is in Chinese but I found I can use Google translate to read it quite well"
 
 read_code:
   - url: https://github.com/okbob/pspg
