@@ -1,0 +1,110 @@
+---
+time: "Nov 27, 2017"
+description: "aa"
+draft: false
+links:
+	- url: https://medium.com/@peterxjang/a-minimalist-guide-to-tmux-13675fb160fa
+		title: "A Minimalist Guide to Tmux"
+		description: "When SSH into a machine and connection is lost, your session is lost as well such as long running command, a VIM session. Or to run another thing you have to open a new tab for a new SSH session. Tmux solves all that."
+
+	- url: "https://securitynewsletter.co/?utm_source=betterdev"
+		title: "A Weekly Email with Security News"
+		description: "Here’s a weekly newsletter that digests last week’s security news into a shortlist of useful articles. It reports on events like new large-scale attacks, exploits, new security features and just interesting infosec articles."
+		category:
+			- sponsor
+
+	- url: http://stackabuse.com/using-machine-learning-to-predict-the-weather-part-2/
+		title: "Using Machine Learning to Predict the Weather - Part 2"
+		description: "Continue of part 2 from last issue. It's fall and started to rain a lot here in San Francisco Bay Area. Let's see how well we can predict weather :-)"
+
+	- url: https://codeburst.io/performance-tuning-a-react-application-f480f46dc1a2
+		title: "Performance-tuning a React Application"
+		description: "The author works on an open source app to track and manage TV show. This blog post is a case-study in the specific techniques he tried, and how well they worked to improve performance by 50%"
+
+	- url: https://embano1.github.io/post/scratch/
+		title: "Inside Docker's \"FROM scratch\""
+		description: "Scrach is a special base image in docker where many images are built on top of it. It's very bare-bone and minimal. But what is actually in this base image?"
+
+	- url: https://medium.com/quickblox-engineering/troubleshooting-mongodb-100-cpu-load-and-slow-queries-da622c6e1339
+		title: "Troubleshooting MongoDB 100% CPU load and slow queries"
+		description: "One of the thing I like about MongoDB is it has a very easy way to inspect current state of server operation. Here, we Igor shares how he goes through steps to figuring out the issue when MongoDB spike CPU load and become slow"
+
+	- url: https://medium.com/blablacar-tech/the-expendables-backends-high-availability-at-blablacar-8cea3b95b26b
+		title: "High Availability at BlaBlaCar with Docker container"
+		description: "BlaBlaCar emphasizes the ability to restart every element of the infrastructure at any time without any impact on the app. Stateless service is easy to restart or even migrate to other node? Stateful is different since they have associate data. They share how they done that by picking right data solution, service discovery..."
+
+	- url: http://cslibrary.stanford.edu/105/LinkedListProblems.pdf
+		title: "Linked List Problems (2002 - Stanford)"
+		description: "Linked list may not pop up a lot in our daily work, but understand them level up our skill. This document  reviews basic linked list code techniques and then works through 18 linked list problems covering a wide range of difficulty"
+
+	- url: https://github.com/vincentbernat/network-lab
+		title: "Networking lab using root-less VM"
+		description: "An interesting repository to spin up VM and experiment with network stuff. Also checkout blog post https://vincent.bernat.im/en/blog/2012-network-lab-kvm"
+
+	- url: http://mishadoff.com/blog/clojure-design-patterns/
+		title: "Clojure Design Patterns"
+		description: "Clojure is a Lisp-dialect so you may not heard a lot about them. It's a functional programing language and emphasize immutability. Have you ever write a class with a single method for some pattern? This worth a read even you aren't writing Clojure because it cuts out all boiler plate code and make us realize all we need is the ability to pass or wrap function around"
+
+	- url: https://github.com/stereobooster/ruby-memory-issues
+		title: "Ruby Memory Issues and Where to Find Them"
+		description: "A summarize of Ruby memory leaking: symtoms, examples"
+
+	- url: https://gophercises.com/
+		title: "Coding exercises for budding gophers"
+		description: "If you have wanted to learn some Go, try this resource. They are collection of real problem to solve with Go. Plus they are usually fun"
+
+	- url: https://statuscode.ch/2017/11/from-markdown-to-rce-in-atom/
+		title: "From Markdown to RCE in Atom"
+		description: "The author took a look at Atom, a text editor by GitHub. With a little bit of work, the author was able to chain multiple vulnerabilities in Atom into an actual Remote Code Execution."
+
+	- url: https://blog.codeship.com/improving-ruby-performance-with-rust/
+		title: "Improve Ruby performance with Rust"
+		description: "Rust becomes the rescue of many dynamic language since we can rewrtie some hot code in Rust and interact with it via Rust FFI. This demonstrate that technique in Ruby by rewrite code that get run a lot"
+
+	- url: https://developers.redhat.com/blog/2017/11/16/speed-python-using-rust/
+		title: "Speed up your Python using Rust"
+		description: "Continue above technique but this time for Python"
+
+	- url: https://blog.risingstack.com/node-js-native-modules-with-rust/
+		title: "Writing fast and safe native Node.js modules with Rust"
+		description: "In the same spirit, let's continue with NodeJS and Rust"
+
+code_read:
+	- url: https://github.com/joshwcomeau/Tello
+		title: "Tello: A simple and delightful way to track and manage TV shows"
+		category: ['JavaScript', 'React']
+
+	- url: https://github.com/rakyll/hey
+		title: "hey: HTTP load generator, ApacheBench (ab) replacement"
+		category: ['Go']
+
+	- url: https://github.com/matteocargnelutti/jean-pierre
+		title: "A Raspberry Pi robot that helps people make their grocery list"
+		category: ['Python']
+
+	- url: https://github.com/callahanrts/dbmgr
+		title: "dbmgr: Command line tool to back up, restore, and provision development databases"
+		category: ['Ruby']
+
+	- url: https://github.com/tomhodgins/qss
+		title: "QSS: a simple query syntax for CSS element queries"
+		category: ['JavaScript']
+
+tool:
+	- url: https://github.com/42wim/matterbridge
+		title: "matterbridge: bridge between mattermost, IRC, gitter, xmpp, slack, discord, telegram, rocket.chat,hipchat (via xmpp), steam and matrix with REST API"
+
+	- url: https://mitmproxy.org/
+		title: "mitmproxy: An interactive console program that allows traffic flows to be intercepted, inspected, modified and replayed"
+
+	- url: https://z-pattern-matching.github.io/
+		title: "Z Native Pattern Matching for Javascript"
+
+	- url: https://simpleicons.org/
+		title: "simpleicons: Free SVG icons for popular brands"
+
+	- url: https://github.com/edent/SuperTinyIcons
+		title: "SuperTinyIcons: Under 1KB each! Super Tiny Icons are miniscule SVG versions of your favourite website and app logos"
+
+	- url: https://github.com/jung-kurt/gofpdf
+		title: "gofpdf: A PDF document generator with high level support for text, drawing and images"
