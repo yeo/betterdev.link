@@ -157,7 +157,7 @@ a {
                 <div class="issue-sponsor">
                   <a style="font-size: 1.2rem; font-weight: 400; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a> <span style="color: #f36c3d;">(SPONSOR)</span>
                   <p class="issue-description">{{ $link.Description }}</p>
-                  <a class='sponsor-action' href ="{{ $link.URI }}" target='_blank'>{{ $link.Action }}</a>
+                  {{ if $link.Action }}<a class='sponsor-action' href ="{{ $link.URI }}" target='_blank'>{{ $link.Action }}</a>{{ end }}
                 </div>
                 {{ else }}
                 <div class="issue-link">
