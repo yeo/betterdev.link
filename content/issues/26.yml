@@ -22,6 +22,10 @@ links:
     title: "Performance-tuning a React Application"
     description: "The author works on an open source app to track and manage TV show. This blog post is a case-study in the specific techniques he tried, and how well they worked to improve performance by 50%"
 
+  - url: https://amplitude.engineering/how-a-single-postgresql-config-change-improved-slow-query-performance-by-50x-85593b8991b0
+    title: "How a single PostgreSQL config change improved slow query performance by 50x"
+    description: "A simple query was super slow in some case. The query itself is quite simple. What will we do in this case? Pavan shares the whole process to figure out slowness using explain and experiment with Postgres setting"
+
   - url: https://embano1.github.io/post/scratch/
     title: "Inside Docker's \"FROM scratch\""
     description: "Scrach is a special base image in docker where many images are built on top of it. It's very bare-bone and minimal. But what is actually in this base image?"
