@@ -1,0 +1,67 @@
+---
+time: "Nov 27, 2017"
+description: "The world is not stop during holiday here so we still have lots of stuff to catch up. We have some nice sutff with tmux, machine learning, and performance enhancement "
+draft: false
+
+links:
+  - url: https://objective-see.com/blog/blog_0x24.html
+    title: "Why <blank> Gets You Root"
+    description: "In case you haven't heard the news there is a massive security flaw which affects the latest version of macOS (High Sierra). Essentially, bug allows anybody to log into the root account with a blank, or password of their choosing. Patrick decided to track down it's root cause!"
+
+  - url: https://github.com/norvig/pytudes
+    title: "Python programs to practice or demonstrate skills"
+    description: "This is an awesome project contains solution to many algorithms problems. Many of them are in format of Jupyter notebook so you can easily follow and read the reasoning about the solution"
+
+  - url: https://dexecure.com/blog/http2-push-vs-http-preload/
+    title: "HTTP/2 PUSH vs HTTP Preload"
+    description: "HTTP/2 PUSH lets a server push resources to the client. HTTP Preload indicates to the browser resources it would require while loading the current page. In this post, we will discuss the key differences between PUSH and Preload, with a detailed explanation of which one to choose based on your use case."
+
+  - url: https://www.schneems.com/2017/11/29/say-no-to-randos-in-your-database/
+    title: "Say No to Randos (in Your Database)"
+    description: "It's so easy to get a record out of table randoly with `random` but turning out it has a performance issue."
+
+  - url: https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad
+    title: "Debugging React performance with React 16 and Chrome Devtools"
+    description: "Ben use Chrome DevTools to demonstrate powerful new performance tracking features and how you can use them to diagnose slow rendering components"
+
+  - url: https://github.com/GitInPractice/GitInPractice
+    title: "An opinionated intermediate/advanced Git book"
+    description: "This is a nice Git book from Manning by Mike McQuai but we can read free via this Git repository. It's s a collection of 66 tested techniques that will optimize the way you and your team manage your development projects."
+      
+  - url: https://www.sitepoint.com/javascript-performance-optimization-tips-an-overview/
+    title: 
+
+  - url: https://blog.fugue.co/2015-11-11-guide-to-emacs.html
+    
+
+
+  https://robots.thoughtbot.com/talking-to-actioncable-without-rails
+
+read_code:
+  
+
+
+  - url: https://github.com/softprops/cargo-thanks
+    title: "Give thanks (in the form of github stars) to your fellow Rustaceans"
+    category: ['Rust']
+
+  - url: https://github.com/zwilias/elm-thanks
+    title: "Say thanks to everyone who helps build and maintain your Elm dependencies"
+    category: ['JavaScript', 'Elm']
+
+  - url: https://github.com/eth0izzle/bucket-stream
+    title: "bucket-stream: Find interesting Amazon S3 Buckets by watching certificate transparency logs"
+    category: ['JavaScript']
+
+tool:
+  - url: https://getgophish.com/
+    title: "Gophish: a powerful, open-source phishing framework that makes it easy to test your organization's exposure to phishing"
+
+  - url: https://github.com/resin-io/etcher
+    title: "Etcher: Flash OS images to SD cards & USB drives, safely and easily"
+
+  - url: https://github.com/laurent22/joplin
+    title: "Joplin - a note taking and to-do application with synchronization capabilities for Windows, macOS, Linux, Android and iOS"
+
+  - url:
+  https://github.com/aws/aws-amplify/blob/master/packages/aws-amplify/src/Auth/Auth.ts
