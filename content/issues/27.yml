@@ -27,7 +27,11 @@ links:
   - url: https://github.com/GitInPractice/GitInPractice
     title: "An opinionated intermediate/advanced Git book"
     description: "This is a nice Git book from Manning by Mike McQuai but we can read free via this Git repository. It's s a collection of 66 tested techniques that will optimize the way you and your team manage your development projects."
-      
+
+  - url: https://www.leejamesrobinson.com/blog/how-stripe-designs-beautiful-websites/
+    title: "How Stripe Designs Beautiful Websites"
+    description: "Stripe is a payment processing company but their design is always solid. Lee Robinson break down how Stripe creates these beautiful designs and give some tips and tricks to web designers and developers alike."
+
   - url: https://www.sitepoint.com/javascript-performance-optimization-tips-an-overview/
     title: 
 
@@ -54,6 +58,9 @@ read_code:
     category: ['JavaScript']
 
 tool:
+  - url: https://github.com/bendc/animateplus
+    title: "JavaScript animation module for the modern web. weighs less than 2KB"
+
   - url: https://getgophish.com/
     title: "Gophish: a powerful, open-source phishing framework that makes it easy to test your organization's exposure to phishing"
 
