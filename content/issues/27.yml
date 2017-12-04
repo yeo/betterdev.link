@@ -1,68 +1,68 @@
 ---
 time: "Dec 04, 2017"
-description: "It's getting cold here in San Jose. Despite of that, I'm stil getting tons of stuff for us. As always a mix of multiple language/resources, hope you enjoy them. If you have feed back, feel free to reply to me. We have quite a bitch of performance read this week since I heard some anecdotes about people run server in their home to generate heat in winter."
+description: "It's getting cold here in San Jose. Despite that, I'm still getting tons of stuff to share with you. As always, here’s a mix of multiple language/resources. I hope you enjoy them. If you have any feedback, feel free to reply to this email. We have quite a bunch of performance reads this week since I heard some anecdotes about people who run servers in their home to generate heat in winter."
 draft: true
 
 links:
   - url: https://objective-see.com/blog/blog_0x24.html
     title: "Why <blank> Gets You Root"
-    description: "In case you haven't heard the news there is a massive security flaw which affects the latest version of macOS (High Sierra). Essentially, bug allows anybody to log into the root account with a blank, or password of their choosing. Patrick decided to track down it's root cause!"
+    description: "In case you haven't heard the news, there is a massive security flaw which effects the latest version of macOS (High Sierra). Essentially, the bug allows anybody to log into the root account with a blank, or password of their choosing. Patrick decided to track down its root cause!"
 
   - url: https://dexecure.com/blog/http2-push-vs-http-preload/
     title: "HTTP/2 PUSH vs HTTP Preload"
-    description: "HTTP/2 PUSH lets a server push resources to the client. HTTP Preload indicates to the browser resources it would require while loading the current page. In this post, we will discuss the key differences between PUSH and Preload, with a detailed explanation of which one to choose based on your use case."
+    description: "HTTP/2 PUSH lets a server push resources to the client. HTTP Preload indicates to the browser the resources it would require while loading the current page. In this post, we will discuss the key differences between PUSH and Preload, with a detailed explanation of which one to choose based on your use case."
 
   - url: https://www.schneems.com/2017/11/29/say-no-to-randos-in-your-database/
-    title: "Say No to Randos (in Your Database)"
-    description: "It's so easy to get a record out of table randoly with `random` but turning out it has a performance issue."
+    title: "Say No to Randos (In Your Database)"
+    description: "It's so easy to get a record out of table randomly with `random`, but turns out it has a performance issue."
 
   - url: https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad
-    title: "Debugging React performance with React 16 and Chrome Devtools"
-    description: "Ben use Chrome DevTools to demonstrate powerful new performance tracking features and how you can use them to diagnose slow rendering components"
+    title: "Debugging React Performance with React 16 and Chrome DevTools"
+    description: "Ben uses Chrome DevTools to demonstrate powerful new performance tracking features and how you can use them to diagnose slow rendering components."
 
   - url: https://ponyfoo.com/articles/an-introduction-to-speculative-optimization-in-v8
     title: "An Introduction to Speculative Optimization in V8"
-    description: "Benedikt Meurer explains how V8 engine works, the process of taking the code, generate the byte code, feed it into TurboFan engine for optimization and compile it then run the code in CPU"
+    description: "Benedikt Meurer explains how V8 engine works. The process of taking the code, generating the byte code, feeding it into TurboFan engine for optimization, compiling it, then running the code in CPU."
 
   - url: https://github.com/GitInPractice/GitInPractice
-    title: "An opinionated intermediate/advanced Git book"
-    description: "This is a nice Git book from Manning by Mike McQuai but we can read free via this Git repository. It's s a collection of 66 tested techniques that will optimize the way you and your team manage your development projects."
+    title: "An Opinionated Intermediate/Advanced Git book"
+    description: "This is a nice Git book from Manning by Mike McQuai, we can read free via this Git repository. It's a collection of 66 tested techniques that will optimize the way you and your team manage your development projects."
 
   - url: https://www.leejamesrobinson.com/blog/how-stripe-designs-beautiful-websites/
     title: "How Stripe Designs Beautiful Websites"
-    description: "Stripe is a payment processing company but their design is always solid. Lee Robinson break down how Stripe creates these beautiful designs and give some tips and tricks to web designers and developers alike."
+    description: "Stripe is a payment processing company but their designs are always solid. Lee Robinson breaks down how Stripe creates these beautiful designs and give some tips and tricks to web designers and developers alike."
 
   - url: http://varun.ca/metaballs/
     title: "SVG Metaballs rendering"
-    description: "Metaballs, are organic looking squishy gooey blobs, from a mathematical perspective they are an iso-surface, can be rendered using some math equation such as: f(x,y,z) = r / ((x - x0)^2 + (y - y0)^2 + (z - z0)^2). Varun discover another approch to generate metaballs by connecting two circles with a membrane. It's very cool and fun to read"
+    description: "Metaballs are organic looking squishy gooey blobs, from a mathematical perspective they are an iso-surface that can be rendered using some math equation such as: f(x,y,z) = r / ((x - x0)^2 + (y - y0)^2 + (z - z0)^2). Varun discovers another approach to generate metaballs by connecting two circles with a membrane. It's very cool and fun to read."
 
   - url: https://andreas.github.io/2017/11/29/type-safe-graphql-with-ocaml-part-1/
-    title: "Type-Safe GraphQL with OCaml (part 1)"
-    description: "Andreas spends sometime working on a GraphQL in Go. He experience some pain point and switch to OCaml. His intent is to write a number of blog posts, which describe that journey. You can learn about how to implement a GraphQL server too."
+    title: "Type-Safe GraphQL with OCaml (Part 1)"
+    description: "Andreas spends sometime working on a GraphQL in Go. He experienced some pain points and switch to OCaml. His intent is to write a number of blog posts to describe his journey. You can learn about how to implement a GraphQL server too."
 
   - url: https://blog.demofox.org/2017/11/21/floating-point-precision
     title: "Demystifying Floating Point Precision"
-    description: "Do you know that 0.2 + 0.4 = 0.6000000000000001. That's floating point numbers precision limitation. This post aims to answer questions: 1) What precision do I have at a number? 2) When will I hit precision issues?"
+    description: "Do you know that 0.2 + 0.4 = 0.6000000000000001. That's floating point numbers precision limitation. This post aims to answer questions: 1) What level of precision do I have at a number? 2) When will I hit precision issues?"
 
   - url: https://nickdrane.com/build-your-own-regex/
     title: "Build a Regex Engine in Less than 40 Lines of Code"
-    description: "Regex has a bad reputation in many developer eyes. But in fact, building a simple regex engine wasn't that hard and a way to help us not afraid of using regex. The engine we built support many syntax: a, *, ?, ., ^, $."
+    description: "Regex has a bad reputation in many developer eyes. But in fact, building a simple regex engine wasn't that hard and a way to help us to not be afraid of using regex. The engine we built supports many syntax: a, *, ?, ., ^, $."
 
   - url: https://medium.freecodecamp.org/regex-was-taking-5-days-flashtext-does-it-in-15-minutes-55f04411025f
-    title: "Regex was taking 5 days to run. So I built a tool that did it in 15 minutes"
-    description: "Vikash use Regex to normalize data. It's super slow, he wrote a library call FlashText in Python to solve this and explain how it works and why it is fast"
+    title: "Regex Was Taking 5 Days to Run. So I Built a Tool That Did it in 15 Minutes"
+    description: "Vikash use Regex to normalize data. It's super slow, so he wrote a library call FlashText in Python to solve this and explains how it works and why it is fast."
 
   - url: https://blog.fugue.co/2015-11-11-guide-to-emacs.html
     title: "A CEO's Guide to Emacs"
-    description: "The development of so many modern IDE such as VSCode, Atom, JetBrain makes many devs switch to them. Old editor like Vim or Emacs still has their place. This post is another guide to Emacs"
+    description: "The development of so many modern IDEs such as VSCode, Atom, JetBrain make many devs switch to them. Old editors like Vim or Emacs still have their place. This post is another guide to Emacs."
 
   - url: https://hackernoon.com/interactive-charts-with-go-gl-7a30a40162a0
     title: "Interactive Charts with Go and MongoDB"
-    description: "A small and fun project uses Go to parse MongoDB log file and render chart natively(without use HTML, JS, CSS technology like D3.JS). Author writes about process of finding the library does its job and wire thing together. Can be useful as a way to learn Go or some funthing to re-do in your own language"
+    description: "A small and fun project uses Go to parse MongoDB log files and render charts natively (without use HTML, JS, CSS technology like D3.JS). The author writes about process of finding the library does its job and wires things together. A useful way to learn Go or a fun technique to re-do in your own language."
 
 read_code:
   - url: https://github.com/norvig/pytudes
-    title: "pytudes: an awesome project contains solution to many algorithms problems such for exersicing purpose."
+    title: "pytudes: an awesome project contains solution to many algorithms problems such for exercising purpose."
     category: ['Python']
 
   - url: https://github.com/softprops/cargo-thanks
@@ -90,10 +90,10 @@ tool:
     title: "graphPlayground: Make Graphs/Networks and run Algorithms"
 
   - url: https://github.com/bendc/animateplus
-    title: "animateplus: JavaScript animation module for the modern web. weighs less than 2KB"
+    title: "animateplus: JavaScript animation module for the modern web. Weighs less than 2KB"
 
   - url: https://github.com/tenta-browser/tenta-dns
-    title: "tenta-dns: Recursive and authoritative DNS server in go, including DNSSEC and DNS-over-TLS"
+    title: "tenta-dns: Recursive and authoritative DNS server in Go, including DNSSEC and DNS-over-TLS"
 
   - url: https://getgophish.com/
     title: "Gophish: a powerful, open-source phishing framework that makes it easy to test your organization's exposure to phishing"
@@ -108,4 +108,4 @@ tool:
     title: "Lite Editor: a simple JavaScript WYSIWYG Editor focuses on inline elements"
 
   - url: https://github.com/hspazio/elastic_notifier
-    title: "elastic_notifier: A Ruby exception notifier for ElasticSearch"
+    title: "elastic_notifier: A Ruby exception notification for ElasticSearch"
