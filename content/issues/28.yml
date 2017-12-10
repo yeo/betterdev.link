@@ -38,10 +38,6 @@ links:
     title: "Gocardless PostGres Incident review: API and Dashboard outage"
     description: "No lesson beats real world experience. Gocardless shares detail about their high availability PostGres setup and failure of promoting primary. They analyze and provide setup and solution for future"
 
-  - url: https://github.com/chris-short/DevOps-README.md
-    title: "What to Read to Learn More About DevOps"
-    description: "Don't be overwhelm and don't read them in order. Just pick whatever you like and you will sure learn a thing or two from it"
-
   - url: https://slack.engineering/scaling-slacks-job-queue-687222e9d100
     title: "Scaling Slack’s Job Queue"
     description: "Robustly Handling Billions of Tasks in Milliseconds Using Kafka and Redis"
@@ -61,6 +57,10 @@ links:
   - url: http://mysqlserverteam.com/storing-uuid-values-in-mysql-tables/
     title: "Storing UUID Values in MySQL Tables(2015)"
     description: "This is an old but good post. It discuss how to store UUID more efficiently with some tricks"
+
+  - url: https://github.com/chris-short/DevOps-README.md
+    title: "What to Read to Learn More About DevOps"
+    description: "Don't be overwhelm and don't read them in order. Just pick whatever you like and you will sure learn a thing or two from it"
 
 read_code:
   - url: https://github.com/buildkite/sockguard
