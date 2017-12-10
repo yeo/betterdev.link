@@ -38,8 +38,6 @@ links:
     title: "Gocardless PostGres Incident review: API and Dashboard outage"
     description: "No lesson beats real world experience. Gocardless shares detail about their high availability PostGres setup and failure of promoting primary. They analyze and provide setup and solution for future"
 
-  # - url: https://jakearchibald.com/2017/await-vs-return-vs-return-await/
-
   - url: https://github.com/chris-short/DevOps-README.md
     title: "What to Read to Learn More About DevOps"
     description: "Don't be overwhelm and don't read them in order. Just pick whatever you like and you will sure learn a thing or two from it"
