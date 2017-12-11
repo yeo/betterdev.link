@@ -6,25 +6,23 @@ draft: true
 links:
   - url: https://marcan.st/2017/12/debugging-an-evil-go-runtime-bug/
     title: "Debugging an Evil Go Runtime Bug"
-    description: "A story of awesome hacking skill go down all the way to assembly and hardware level. It isn't that much about Go but the process is what we learn from this post: technique to debug thing, flow of though to figuring out problem"
+    description: "A story of awesome hacking skills go down all the way to assembly and hardware level. It isn't as much about Go, but the process is what we learn from this post: techniques to debugging and the thought-process to figuring out the problem."
 
   - url: https://www.gamasutra.com/blogs/DoctorLudos/20171207/311143/Making_a_Game_Boy_game_in_2017_A_quotSheep_It_Upquot_PostMortem_part_12.php
     title: "Making a Game Boy Game in 2017: A \"Sheep It Up!\" Post-Mortem"
-    description: |
-      To put thing in original words:
-      Everyone has childhood dreams. Mine was to make a game for my fist console: the Nintendo Game Boy. Today, I fulfilled this dream, by releasing my first Game Boy game on a actual cartridge: Sheep It Up! In this article, I'll present the tools I used, and some pitfalls a newcomer like me had to overcome to make this project a reality
+    description: "In this article, the author presents the tools used, and some pitfalls they had to overcome to make this project a reality."
 
   - url: https://www.byu.io/2017/12/07/counting-people-with-ml
-    title: "Counting People with Machine Learning(ML)"
-    description: "ML is eating the world. The article describe process of building a project that collect camera image, and process them with YOLO to count people in picture. Code is available in Github"
+    title: "Counting People with Machine Learning (ML)"
+    description: "ML is eating the world. The article describes the process of building a project that collects camera images, and processes them with YOLO to count people in picture. Code is available in Github."
 
   - url: https://jeanfrancoismaes.github.io/work-adventures/penetration-testing/pwningdockervm/
     title: "Pentest: Owning a Docker Host"
-    description: "A fun exercise breaking our docker container using a shell exploit from WordPress run in container. You will know how to deploy more secure container. You can practice it with their provided VM too."
+    description: "A fun exercise breaking our Docker container using a shell exploit from WordPress ran in the container. You will know learn to deploy more secure container. You can practice it with their provided VM too."
 
   - url: https://pgexercises.com/
     title: "PostgreSQL Exercises"
-    description: "In life of developer, I'm sure it has time we have to learn thing quickly. This is a great way to learn PostGres in a short time. They provide sample data so we can dive right in without setting and feeding sample data."
+    description: "In life of a developer, we have to learn things quickly. This is a great way to learn PostGres in a short time. They provide sample data, so we can dive right in without setting and feeding sample data."
 
   - url: http://blog.bloomca.me/2017/12/04/how-to-cancel-your-promise.html
     title: "How to Cancel Your Promise"
@@ -32,43 +30,43 @@ links:
 
   - url: http://2ality.com/2017/12/alternate-this.html
     title: "A Different Way of Understanding This in JavaScript"
-    description: "The author of \"Exploring JS\" book takes a different approach to explaining `this` in JavaScript. He pretend that arrow functions are the real functions and ordinary functions a special construct for methods."
+    description: "The author of \"Exploring JS\" book takes a different approach to explaining `this` in JavaScript. He pretends that arrow functions are the real functions and ordinary functions a special construct for methods."
 
   - url: https://gocardless.com/blog/incident-review-api-and-dashboard-outage-on-10th-october/
     title: "Gocardless PostGres Incident review: API and Dashboard outage"
-    description: "No lesson beats real world experience. Gocardless shares detail about their high availability PostGres setup and failure of promoting primary. They analyze and provide setup and solution for future"
+    description: "No lesson beats real world experience. Gocardless shares detail about their high availability PostGres setup and failure of promoting primary. They analyze and provide setup and solution for future."
 
   - url: https://slack.engineering/scaling-slacks-job-queue-687222e9d100
     title: "Scaling Slack’s Job Queue"
-    description: "Robustly Handling Billions of Tasks in Milliseconds Using Kafka and Redis"
+    description: "Robustly handling billions of tasks in milliseconds using Kafka and Redis."
 
   - url: https://medium.com/rubyinside/class-methods-in-ruby-a-thorough-review-and-why-i-define-them-using-class-self-af677ede9596
     title: "Class Methods In Ruby: a Thorough Review & Why I Define Them Using class << self"
-    description: "Ruby, being Ruby, has several ways to define class method. Sometimes we just go with whatever project style chose and call it a day. This post explains the reason why `class << self` is better from author's point of view"
+    description: "Ruby, being Ruby, has several ways to define class method. Sometimes we just go with whatever the project style guide outlines and call it a day. This post explains the reason why `class << self` is better from author's point of view."
 
   - url: https://blog.phusion.nl/2017/12/01/how-dishwashers-ruin-ruby-apps/
     title: "How Dishwashers Ruin Ruby Apps"
-    description: "Phusion Passenger authors describe how different app servers handle apps that defer work (such as resizing an uploaded profile picture, or removing temporary files generated during the request) out of the standard request-response cycle until after the complete response has been written back, and problems associated with different approaches."
+    description: "Phusion Passenger author describes how different app servers handle apps that defer work (such as resizing an uploaded profile picture, or removing temporary files generated during the request) out of the standard request-response cycle until after the complete response has been written back, and problems associated with different approaches."
 
   - url: https://medium.com/@jeffochoa/writing-and-testing-api-specifications-with-api-blueprint-dreed-and-apiary-df138accce5a
     title: "Writing and Testing API Specifications with API Blueprint, Dreed and Apiary"
-    description: "We are going to learn how to create API’s specifications using API Blueprint, running automated tests against the back-end implementation using Dreed, and how to use Apiary to build an API prototype without even writing a single line of code."
+    description: "We are going to learn how to create API specifications using API Blueprint, running automated tests against the back-end implementation using Dreed, and how to use Apiary to build an API prototype without even writing a single line of code."
 
   - url: http://mysqlserverteam.com/storing-uuid-values-in-mysql-tables/
-    title: "Storing UUID Values in MySQL Tables(2015)"
-    description: "This is an old but good post. It discuss how to store UUID more efficiently with some tricks"
+    title: "Storing UUID Values in MySQL Tables"
+    description: "This is an old (2015) but good post. It discuss how to store UUID more efficiently with some tricks."
 
   - url: https://github.com/chris-short/DevOps-README.md
     title: "What to Read to Learn More About DevOps"
-    description: "Don't be overwhelm and don't read them in order. Just pick whatever you like and you will sure learn a thing or two from it"
+    description: "Don't be overwhelmed and don't read them in order. Just pick whatever you like and you will likely learn a thing or two from it."
 
 read_code:
   - url: https://github.com/buildkite/sockguard
-    title: "Sockguard: A proxy for docker.sock that enforces access control and isolated privileges. A good way to learn about docker socket"
+    title: "Sockguard: A proxy for docker.sock that enforces access control and isolated privileges. A good way to learn about Docker socket."
     category: ['Go']
 
   - url: https://github.com/danilopolani/gocialite
-    title: "gocialite: Social oAuth login in Go with multiple driver for: amazon, github, bitbucket and more"
+    title: "gocialite: Social oAuth login in Go with multiple drivers for: amazon, github, bitbucket and more"
     category: ['Go']
 
   - url: https://github.com/mikker/passwordless
