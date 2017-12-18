@@ -1,7 +1,7 @@
 ---
 time: "Dec 11, 2017"
 description: ""
-draft: true
+draft: false
 
 links:
   - url: https://marcan.st/2017/12/debugging-an-evil-go-runtime-bug/
