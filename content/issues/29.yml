@@ -1,0 +1,91 @@
+---
+time: "Dec 18, 2017"
+description: "It's almost Chrismas. Lots of people already plan for their vacations. We hope you have a great holiday and we will always send you links no matter holiday or not."
+draft: false
+
+links:
+  - url: http://www.coranac.com/documents/geomatrix/
+    title: "Matrices from a geometric perspective"
+    description: "Fear of matrices? What do adding, substraction and multiply mean? We may know how to do these but what is their purpose? This article explains them from a geometry angle. Nice and fun to learn some math and clear myth about matrices."
+
+  - url: https://github.com/reinterpretcat/lfs
+    title: "Docker configuration for building Linux From Scratch system"
+    description: "Nowsday everything is on cloud and we no longer has to deal with building our own Linux kernel anymore. But it's a fun excercise and you can learn a lot by bulding Linux from scrach. This repository is a docker image demonstrate how to build bootable ISO image."
+
+  - url: https://gregoryszorc.com/blog/2017/12/11/high-level-problems-with-git-and-how-to-fix-them
+    title: "High-level Problems with Git and How to Fix Them"
+    description: "A deep Git analysis. The author first pro-git, then learn Mercurial and become a Mercurial contributor. With the knowledge of both, the author discussed several problems of Git."
+
+  - url: https://hackernoon.com/thorough-introduction-to-apache-kafka-6fbf2989bbc1
+    title: "Thorough Introduction to Apache Kafka™"
+    description: "Kafka in a nut shell is a distributed commit log. Using Kafka isn't hard but manage Kafka is a complicated task. This article talks about Kafka features like distributed, horizontal scale, fault tolerant."
+
+  - url: https://hackernoon.com/a-user-encounters-a-javascript-error-youll-never-guess-what-happens-next-dc1a6f725490
+    title: "Capturing and Reporting User Interactions for Better Debugging"
+    description: "A user encounters a JavaScript error. You’ll never guess what happens next!! Let's setup a workflow allow us to capture the actions replay them. Full code is available on Github."
+
+  - url: https://www.datadoghq.com/blog/postgresql-monitoring/
+    title: "Key metrics for PostgreSQL monitoring"
+    description: "A depth guide on how to monitor Postgres. We learn what metrics to what and why we do that."
+
+  - url: https://dev.to/scottshipp/avoid-getters-and-setters-whenever-possible-c8m
+    title: "Avoid getters and setters whenever possible"
+    description: "The post is about Java but they can apply to any OOP language such as Ruby, PHP, JavaScript."
+
+  - url: https://medium.com/@ageitgey/how-to-break-a-captcha-system-in-15-minutes-with-machine-learning-dbebb035a710
+    title: "How to break a CAPTCHA system in 15 minutes with Machine Learning"
+    description: "Let’s hack the world’s most popular Wordpress CAPTCHA Plug-in. Real worlds, real example, real code."
+
+  - url: http://www.tannerhelland.com/4660/dithering-eleven-algorithms-source-code/
+    title: "Image Dithering: Eleven Algorithms and Source Code"
+    description: "Let's learn some graphic progcessing. We may not use it a lot in our daily life but it's very useful to know: basic discussion of how image dithering works, and how to write a general purpose dithering engine."
+
+  - url: https://images.guide/
+    title: "Essential image optimization"
+    description: "Images are still the number one cause of bloat on the web. Let's find ways to optimize them and automate this process."
+
+  - url: https://dev.to/sophiedebenedetto/smarter-rails-services-with-active-model-modules-17o
+    title: "Smarter Rails Services with Active Model Modules"
+    description: "A service object is a simple PORO class (plain old ruby object) designed to wrap up complex business logic in your Rails application. We can then call these service to do thing instead of putting them in controller or model."
+
+read_code:
+  - url: https://github.com/jpmens/jo
+    title: "jo: JSON output from a shell"
+    category: ["C"]
+
+  - url: https://github.com/gen2brain/beeep
+    title: "beep: Go cross-platform library for sending desktop notifications and beeps"
+    category: ["Golang"]
+
+  - url: https://github.com/socketry/lightio
+    title: "LightIO is a ruby networking library, that combines ruby fiber and fast IO event loop"
+    category: ["Ruby"]
+
+  - url: https://github.com/julienr/ipynb_playground/blob/master/bitcoin/dumbcoin/dumbcoin.ipynb
+    title: "Dumbcoin: An educational python implementation of a bitcoin-like blockchain"
+    category: ["Python"]
+
+  - url: https://github.com/popmotion/popmotion
+    title: "Popmotion: The JavaScript motion engine. Create unique animations and interactions with tweens, physics and input tracking"
+    category: ["JavaScript"]
+
+  - url: https://github.com/sindresorhus/emittery
+    title: "emittery: Simple and modern async event emitter"
+    category: ["JavaScript"]
+
+tool:
+  - url: https://github.com/transceptor-technology/siridb-server
+    title: "SiriDB is a highly-scalable, robust and super fast time series database"
+
+  - url: https://github.com/celrenheit/sandglass
+    title: "Sandglass is a distributed, horizontally scalable, persistent, time sorted message queue"
+
+  - url: https://mat.tm/joy/
+    title: "Joy: A fast 1:1 Go to Javascript compiler"
+
+  - url: https://github.com/Klathmon/imagemin-webpack-plugin
+    title: "imagemin: Plugin to compress images with imagemin"
+
+  - url: https://github.com/asciimoo/wuzz/
+    title: "wuzz: Interactive cli tool for HTTP inspection"
+
