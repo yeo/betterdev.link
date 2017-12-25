@@ -1,0 +1,53 @@
+---
+time: "Dec 25, 2017"
+description: "Merry Chrismas! I cannot belive I'm doing this on Chrismas day. But because I love this stuff so much, here I am with this special edition. This contains the best links of the year instead of new links because we want you to take a break this week and looking back the best things of the year."
+draft: false
+
+links:
+  - url: https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
+    title: "Dynamic Programming – From Novice to Advanced"
+    description: "Recursion is widely used in solving problems during your first approach because they're easy to implement. However, some computation may occur multiple times, this leads to inefficient and stack overflow. Dynamic programming is a technique that attempts to solve a subset of problems then using that knowledge to develop results for larger problems until you've reached the final result. When we are using recursion to solve a problem, we can apply dynamic programming to solve that problem in a more efficient way."
+
+  - url: http://jlongster.com/How-I-Became-Better-Programmer
+    title: "How I Became a Better Programmer"
+    description: "Several people at React Conf asked me for advice on becoming a better programmer. For some reason, people see me as a pretty advanced programmer worth listening to. I thought it would be worthwhile to write down my \"mental model\" for how I have approached programming over the years."
+
+  - url: https://dev.to/ruidfigueiredo/briefish-explanation-of-how-https-works
+    title: "Brief(ish) Explanation Of How HTTPS Works"
+    description: "Explaining HTTPS by showing how communications are made secure, namely how Diffie-Hellman key exchange and digital certificates work."
+
+  - url: https://testing.googleblog.com/2017/07/code-health-to-comment-or-not-to-comment.html
+    title: "Code Health: To Comment or Not to Comment?"
+    description: "Code Health is Google's internal code quality effort. They discuss methods to remove comments and make the code more self-explanatory."
+
+  - url: https://dev.to/theodesp/understanding-solid-principles-dependency-injection
+    title: "Understanding SOLID Principles: Dependency Inversion"
+    description: "First part of a series of understanding SOLID Principles where we explore what is Dependency Inversion and why it helps deliver software that is loosely coupled and testable."
+
+  - url: https://github.com/denysdovhan/wtfjs
+    title: "What the f*ck JavaScript? A list of funny and tricky examples of JavaScript"
+    description: "JavaScript is a quite funny language with tricky parts. Some of them can quickly turn our everyday job into hell, some of them can make us laugh out loud."
+
+  - url: https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56
+    title: Web Developer Security Checklist
+    description: "Developing secure, robust web applications in the cloud is hard… very hard. This is a simple check list with some starting points to secure your application better."
+
+  - url: https://github.com/jiayihu/pretty-algorithms
+    title: "Pretty, Common And Useful Algorithms"
+    description: "Common, useful algorithms written in modern and easy-to-understand JavaScript along with real-world usage examples. All the algorithms shown are also tested using Jest with the help of custom beautiful snapshots."
+
+  - url: https://github.com/mr-mig/every-programmer-should-know
+    title: "Every Programmer Should Know…"
+    description: "A collection of (mostly) technical things every software developer should know."
+
+  - url: https://github.com/CHYbeta/Software-Security-Learning
+    title: "Software Security Learning"
+    description: "A repository with resource(link, course) to lean about security"
+
+  - url: https://blog.kentcdodds.com/classes-complexity-and-functional-programming-a8dd86903747
+    title: "Classes, Complexity, and Functional Programming"
+    description: "We all want to have simple code that's easier to maintain. Where we often really disagree is how to accomplish that. In this blog post I'm going to talk about how I see functions, objects, and classes fitting into that."
+
+  - url: https://github.com/GitInPractice/GitInPractice
+    title: "An Opinionated Intermediate/Advanced Git book"
+    description: "This is a nice Git book from Manning by Mike McQuai, we can read free via this Git repository. It's a collection of 66 tested techniques that will optimize the way you and your team manage your development projects."
