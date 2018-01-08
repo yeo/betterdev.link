@@ -1,0 +1,86 @@
+---
+time: "Jan 7, 2018"
+description: "Happy new year every one. First week of 2018. Lots of stuff happens this week, especially the Meltdown and Spectre on many CPU. We won't include many links about this because it may too bloat and infact I found it isn't easy to understad 100% of this, at least for me. The best advice is to keep update and be on top of it."
+draft: true
+
+links:
+  - url: http://kroah.com/log/blog/2018/01/06/meltdown-status/
+    title: "Meltdown and Spectre Linux Kernel Status"
+    description: "This post from the stable kernel release manager is worth reading, and has good links to other sources too."
+
+  - url: https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5?gi=518ffa9a5245
+    title: "I’m harvesting credit card numbers and passwords from your site. Here’s how."
+    description: "Maybe this is posted because the NPM incident recently. Regardless this is true or not, it's scary because it's quite possible. The fact is JavaScript lacks standard librarys leads us to use many small packages."
+
+  - url: https://routley.io/tech/2017/12/28/hand-writing-dns-messages.html
+    title: "Let's hand write DNS messages"
+    description: "In this post, we’ll explore the Domain Name Service (DNS) binary message format, and we’ll write one by hand. This is deeper than you need to use DNS, but I think it’s fun and educational to see how these things work under the hood."
+
+  - url: https://blog.kroy.io/monitoring-home-power-consumption-for-less-than-25/
+    title: "Monitoring Home Power Consumption for less than $25"
+    description: "Have you ever think of monitoring power consumption? Quick google search will say about buying equipment, hook up into power grid and read the result or using some smart device with API access. What if I told you we can get this data using radio signal? So no hassle dealing with wiring up electical wire. This is a super cool project. I encourage everyone try to play around with it."
+
+  - url: https://air.ghost.io/js-things-i-never-knew-existed/
+    title: "JS things I never knew existed"
+    description: "The author was reading through the MDN docs the other day and found these JS features and APIs that they never knew existed. So here is a short list of those things, useful or not - learning JS seemingly never ends."
+
+  - url: http://www.smashingmagazine.com/2018/01/rise-state-machines/
+    title: "The Rise Of The State Machines"
+    description: "During the search for the holy grail architecture in front-end, the author discover state machine. It’s an abstract concept whereby the machine can have different states, but at a given time fulfills only one of them."
+
+  - url: https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/
+    title: "Ten Things I Wish I’d Known About bash"
+    description: "Bash is every where. We tend to use it to many thing because it almost requires not have to install any run time. The author wrotes a book about bash and write about thing that confused him in bash."
+
+  - url: https://paragonie.com/blog/2017/12/2018-guide-building-secure-php-software
+    title: "The 2018 Guide to Building Secure PHP Software"
+    description: "They are for PHP but also general rules which can extract information for other language too"
+
+  - url: http://colah.github.io/posts/2015-09-NN-Types-FP/
+    title: "Neural Networks, Types, and Functional Programming(2015)"
+    description: "Deep Learning 30 Years in the Future? This essay extends the representations narrative to a new answer: deep learning studies a connection between optimization and functional programming."
+
+  - url: http://jcdav.is/2016/09/01/How-the-JVM-compares-your-strings/
+    title: "How the JVM compares your strings using the craziest x86 instruction you've never heard of"
+    description: "In C, to compare string we have to compare bit by bit. IN higher level language, we can simply compare with equal `==`  operator and forgot about what is behind the scene. This article look at a special, interesting implementation using assembly."
+
+  - url: https://www.dailydrip.com/blog/essential-programmer-s-guide-to-cryptocurrencies
+    title: "Essential Programmer's Guide to Cryptocurrencies"
+    description: "Let's ignore all the buzz about cryptocurrencies in term of money. When looking at technolgies aspect, they are solving cool problem. But do you really understand what they are and how they work? What can we do to program for interacting with blockchain?"
+
+read_code:
+  - url: http://sshtron.zachlatta.com/
+    title: "Play Tron over SSH"
+    category: ['Go']
+
+  - url: https://gist.github.com/enricofoltran/10b4a980cd07cb02836f70a4ab3e72d7
+    title: "129 line of code to demonstrate a simple, minimal golang web server with basic logging, tracing, health check, graceful shutdown and zero dependencies"
+    category: ['Go']
+
+  - url: https://github.com/oliver006/elasticsearch-gmail
+    title: "Elasticsearch For Beginners: Indexing your Gmail Inbox"
+    category: ['Python']
+
+  - url: https://github.com/DenisKolodin/yew
+    title: "Rust framework for making client web apps"
+    category: ['Rust']
+
+  - url: https://github.com/wende/elchemy
+    title: "Write Elixir code using Elm-like syntax (elm-make compatible)"
+    category: ['Elm', 'Elixir']
+
+tools:
+  - url: https://github.com/fireworq/fireworq
+    title: "Fireworq is a lightweight, high-performance, language-independent job queue system."
+
+  - url: https://github.com/Manisso/fsociety
+    title: "fsociety Hacking Tools Pack – A Penetration Testing Framework"
+
+  - url: http://ncase.me/joy/
+    title: "A tool to make interactive, playful, programmable tool"
+    category: ['JavaScript']
+
+  - url: https://github.com/johnmccabe/openfaas-bitbar
+
+  - url: https://github.com/cirocosta/cr
+    title: "Runs your tasks at maximum concurrency"
