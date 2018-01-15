@@ -1,0 +1,103 @@
+---
+time: "Jan 15, 2018"
+description: "2018 continue to"
+draft: false
+
+links:
+  - url: https://github.com/IAIK/meltdown
+    title: "This repository contains several applications, demonstrating the Meltdown bug"
+    description: "Five demo with video and C code. The demo show that Meltdown can be used to spy in realtime on a password input, grab photo, leaks uncached memory."
+
+  - url: http://www.dwmkerr.com/the-death-of-microservice-madness-in-2018/
+    title: "The Death of Microservice Madness in 2018"
+    description: "Microservices became a very popular topic in over the last couple of years, due to succesful deployment of comapny like Netflix, Uber,...The author describes in detail what microservices are, why the pattern is so appealing, and also some of the key challenges that they present."
+
+  - url: https://thestyleofelements.org/the-art-of-the-error-message-9f878d0bff80
+    title: "The art of the error message"
+    description: "Writing clear, helpful copy for when things go wrong"
+
+  - url: https://medium.com/learning-the-go-programming-language/lets-make-an-ntp-client-in-go-287c4b9a969f
+    title: "Let’s Make an NTP Client in Go"
+    description: "NTP is every where. It what keep server time accurate. But how does it work? By implementing a client we will know its protocol, data format."
+
+  - url: https://blog.newrelic.com/2018/01/03/mobile-ui-react
+    title: "How We Architected the New Relic Mobile Web UI in React"
+    description: "NewRelic is a complex application that can easily instrument our code. It tracks performance, exception, and event alerting. The dashboard is complex because it has so many feature. In this post, they write about how they architecture it, and a nice screenshot of their directory structure."
+
+  - url: https://solarianprogrammer.com/2018/01/12/writing-minimal-x86-64-jit-compiler-cpp-part-2/
+    title: "Writing a minimal x86-64 JIT compiler in C++ - Part 2"
+    description: "A serie on writing a minimal, bare-bones, x86-64 JIT compiler in C++ that runs on macOS, Linux. We learn how to generate machine code for a function at run time, put them into memory and execute."
+
+  - url: https://www.dataquest.io/blog/postgres-internals/
+    title: "Postgres Internals: Building a Description Tool"
+    description: "We usually use a library which can be native in the language or a C binding wrap to access Postgres. It sounds complicated if we have to write a driver for the database. This post teach us how Postgres stores its own internal data, then we use that knowledge to write our own  version of a database description tool in Python."
+
+  - url: https://www.youtube.com/playlist?list=PLSE8ODhjZXjYgTIlqf4Dy9KQpQ7kn1Tl0
+    title: "Advanced Database Systems of Carnegie Mellon University Spring 2017(Video)"
+    description: "This is collection of video, slide, document, reading list about database system. Database is a critical part in almost every infrastructure. Yet, we are as developer has limited view on how they really work. This video course are great to dive deep into them. We learn about in-memory database, concurency challenge..."
+
+  - url: https://jaredforsyth.com/2018/01/13/making-a-cross-platform-mobile-game-in-reason-ocaml/
+    title: "Making a cross-platform mobile game in Reason/OCaml"
+    description: "If you want to move away from JavaScript and look into aleternative. This is a great article to get started. Reason/OCaml is great because they kind of closer to JavaScript eco system than Elm. Example, we have ReasonReact binding. Other nice thing about OCaml is that you can compile to native. The author describe his setup and open source his game which written in OCaml for web, iOS, Android and MacOS"
+
+  - url: https://blog.rebased.pl/2017/12/27/writing-c-and-sharing-memory.html
+    title: "Writing C and Sharing Memory... in Ruby!"
+    description: "In this episode of “Doing terrible things in the name of science” we will look into how we can write C extensions for Ruby. We will look into sharing memory between two Ruby processes and two-way communication."
+
+  - url: https://github.com/getify/Functional-Light-JS
+    title: "Pragmatic, balanced FP in JavaScript."
+    description: "An open source book that explores the core principles of functional programming (FP) as they are applied to JavaScript. What makes this book different is that we approach these principles without drowning in all the heavy terminology"
+
+  - url: https://segment.com/blog/5-advanced-testing-techniques-in-go/
+    title: "5 Advanced Testing Techniques in Go"
+    description: "Segment team discusses a handful of strategies to level up your Go testing. They have learned from experience on their large Go codebase that these strategies work to save time and effort maintaining the code"
+
+read_code:
+  - url: https://github.com/igorkulman/SwiftPascalInterpreter
+    title: "Simple Swift interpreter for the Pascal language inspired by the Let’s Build A Simple Interpreter article series."
+    category: ["Swift"]
+
+  - url: https://github.com/srid/slownews
+    title: "A web app that aggregates best news during last week from sites like reddit and Hacker News"
+    category: ["Haskell"]
+
+  - url: https://github.com/MichaelJWelsh/cdsa
+    title: "A library of generic intrusive data structures and algorithms in ANSI C"
+    category: ["C"]
+
+  - url: https://github.com/lirantal/dockly
+    title: "Docker console UI and Dashboard for quick managing and inspecting of Containers and Images"
+    category: ["JavaScript"]
+
+  - url: https://github.com/davidjpeacock/kurly
+    title: "kurly is an alternative to the widely popular curl program"
+    category: ["Golang"]
+
+  - url: https://github.com/projectriff/riff
+    title: "A FaaS for Kubernetes. Yes, in bash, all I want to tell you is read the source"
+    category: ["Bash"]
+
+tool:
+  - url: https://github.com/speed47/spectre-meltdown-checker
+    title: "A bash script to check for Spectre & Meltdown vulnerability/mitigation on Linux"
+
+  - url: https://github.com/nuclio/nuclio
+    title: "nuclio - Serverless for Real-Time Events and Data Processing"
+
+  - url: https://opensource.googleblog.com/2018/01/container-structure-tests-unit-tests.html
+    title: "Container Structure Tests: Unit Tests for Docker Images"
+
+  - url: https://github.com/gencebay/httplive
+    title: "httplive:  is a tool to develop and test applications faster without being dependent on any server or backend applications."
+
+  - url: https://github.com/nhnent/tui.editor
+    title: "Markdown WYSIWYG Editor. Chart & UML in markdown syntax."
+
+  - url: https://github.com/quicktype/quicktype
+    title: "Quicktype: Generate types and converters from JSON, Schema, and GraphQL"
+
+  - url: https://github.com/mozilla/sops
+    title: "Sops: Secrets management stinks, use some sops!"
+
+  - url: https://github.com/facebook/docusaurus
+    title: "Docusaurus: a project for easily building, deploying, and maintaining document website"
