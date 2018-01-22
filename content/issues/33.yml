@@ -1,0 +1,136 @@
+---
+time: "Jan 22, 2018"
+description: "Have ever though of running your own ISP? Sound crazy but turn out quite do-able. Graham writes about technical part, cost analysis. Very cool even if we don't do it. On the DevOps side, what problem we run into when scale to thousands servers? And more goodies, what Slack does to speed up Webpack. And writing an emulator. Hard core stuff. Sound fund. Have a good week everyone."
+draft: false
+
+links:
+  - url: https://startyourownisp.com/
+    title: "Start Your Own Wireless ISP(WISP)"
+    description: "Wow, sound crazy but it's actually very practical. This guide is focused on the very earliest stages of starting a WISP - determining feasibility up through connecting the first few customers. You may not start a real ISP, but knowing the process and the infrastructure is useful knowledge."
+
+  - url: https://github.com/dwyl/learn-elm
+    title: "Discover why people are switching to Elm and how you can get started today!"
+    description: "If you aren't happy with JavaScript and are looking into switch to Elm, this is a great guide. Elm is pure functional, immutable, much faster, less concept to learn. It's developed with emphasis on usability, performance, and robustness"
+
+  - url: https://engineering.wpengine.com/building-8-bit-emulator-in-golang/
+    title: "Building 8-bit emulator in golang"
+    description: "Let learn Go by building an emulatior. How awesome that sound? Whole code is on Github, and suprisingly it isn't that complex."
+
+  - url: https://medium.freecodecamp.org/https-explained-with-carrier-pigeons-7029d2193351
+    title: "HTTPS explained with carrier pigeons"
+    description: "Carrier pigeons transport letters in plain sight. Any activity on the internet comes down to sending and receiving messages to and from a server. How come we can secure them? This is another attempt to explain HTTPS in simpler term."
+
+  - url: https://banzaicloud.com/blog/java-resource-limits/
+    title: "Why my Java application is OOMKilled"
+    description: "Those who already ran Java application inside Docker have probably came across the problem of the JVM incorrectly detecting the available memory when running inside of the container. The JVM rather sees the available memory of the machine instead of the memory available only to the Docker container."
+
+  - url: https://blog.openai.com/scaling-kubernetes-to-2500-nodes/
+    title: "Scaling Kubernetes to 2,500 Nodes"
+    description: "OpenAI scales their K8S cluster and share solution for problem that they run into in large scale deployment"
+
+  - url: https://dendibakh.github.io/blog/2018/01/18/Code_alignment_issues
+    title: "Code alignment issues"
+    description: "Could you imagine just because you remove a function `foo`, which has nothing to do with function `bar`, yet suddenly `bar` performan goes donw 10%. Let's see why."
+
+  - url: https://github.com/larsp/co2monitor
+    title: "Simple CO₂ monitor in your office"
+    description: "A simple hardware project to collect CO₂ with a device found for ~116USD on Amazon. A Go binary to run on a Raspberry PI, read data from the device via USB."
+
+  - url: https://zwischenzugs.com/2018/01/21/ten-more-things-i-wish-id-known-about-bash/
+    title: "Ten More Things I Wish I’d Known About bash"
+    description: "In Issue #31, we learn about ten thing the author wish he known about bash. Now, he follows up with, yes, ten more things"
+
+  - url: https://hackernoon.com/understanding-the-react-source-code-initial-rendering-simple-component-i-80263fe46cf1
+    title: "Understanding The React Source Code — Initial Rendering (Simple Component)"
+    description: "A series to understand how React work internally by diving into its code and understand its core concept by walking through code."
+
+  - url: https://slack.engineering/keep-webpack-fast-a-field-guide-for-better-build-performance-f56a5995e8f1
+    title: "Keep webpack Fast: A Field Guide for Better Build Performance"
+    description: "webpack is a brilliant tool for bundling frontend assets. But when project becomes large, it becomes slow. Slack teams improve this with measuring to identify bottle neck, parallelize, reduce the workload."
+
+  - url: https://javascriptreport.com/the-ultimate-guide-to-javascript-frameworks/
+    title: "The Ultimate Guide to JavaScript Frameworks"
+    description: "Keeping up with JavaScript frameworks can be a challenge. There are a lot of them, and seemingly another one every month. How do you know which ones might be right for your project?"
+
+  - url: https://medium.com/@iacobson/crypto-curry-with-elixir-1c98a8b5f23
+    title: "Crypto Curry with Elixir - (Even More) Functional Elixir"
+    description: "Similar to the author, I like Elixir and cryptocurrencies so enjoy this quite a bit. let’s build a small crypto price checker. Then we will refactor it using FP concepts such as currying, function composing and pointfree functions"
+
+  - url: http://www.recursion.org/incremental-rails-upgrade/
+    title: "Upgrading a Rails application incrementally"
+    description: "Rails made lots of huge change recently: webpack intergration, drop jQuery...What is strategy we can use to incrementail update Rails safely and effectively?"
+
+  - url: https://blog.kontena.io/event-driven-microservices-with-rabbitmq-and-ruby/
+    title: "Event-Driven Microservices with RabbitMQ and Ruby"
+    description: "Kontena team describes how they do event sourcing with RabbitMQ tie all together among: APIs in Ruby, front-end in TypeScript and datastorage with Redis, MongoDB, PostgreSQL"
+
+  - url: https://towardsdatascience.com/time-series-analysis-in-python-an-introduction-70d5a5b1d52a
+    title: "Time Series Analysis in Python: An Introduction"
+    description: "This post will walk through an introductory example of creating an additive model for financial time-series data using Python and the Prophet forecasting package developed by Facebook."
+
+  - url: http://www.akitaonrails.com/2018/01/09/my-notes-about-a-production-grade-ruby-on-rails-deployment-on-google-cloud-kubernetes-engine
+    title: "Notes about a Production-grade Ruby on Rails Deployment on GKE"
+    description: "Akita shares his personal note on running Rails on GKE, which can also apply to any Kubernetes cluster."
+
+  - url: https://rushter.com/blog/pickle-serialization-internals/
+    title: "How does pickle work in Python?"
+    description: "The pickle module implements serialization protocol, which provides an ability to save and later load Python objects using special binary format. It can also store references to functions and classes, as well as the state of class instances."
+
+#  http://dawn.cs.stanford.edu/2018/01/11/index-baselines/
+#  https://web.stanford.edu/class/cs140e/
+#  - url: https://0day.work/using-a-yubikey-for-gpg-and-ssh/
+#  - url: https://github.com/chriskrycho/newrustacean.com
+
+read_code:
+  - url: https://github.com/xo/usql
+    title: "usql: A universal command-line interface for PostgreSQL, MySQL, Oracle Database, SQLite3, Microsoft SQL Server, and other SQL databases"
+    category: ['Golang']
+
+  - url: https://cssgrid.io/
+    title: "A free course to learn css grid with wes bos in 25 pretty good videos(Don't miss it)"
+    category: ['CSS']
+
+  - url: https://github.com/DeviaVir/zenbot
+    title: "Zenbot is a command-line cryptocurrency trading bot using Node.js and MongoDB"
+    category: ['NodeJs']
+
+  - url: https://github.com/dansbits/lurn
+    title: "lurn: A ruby gem for elegant data science and machine learning"
+    category: ['Ruby']
+
+  - url: https://github.com/NicolasLM/bplustree
+    title: An on-disk B+tree for Python 3
+    category: ['Python']
+
+  - url: https://github.com/simonmulser/simcoin
+    title: "Blockchain simulation framework with Docker and Python"
+    category: ['Python']
+
+  - url: https://github.com/twitchtv/twirp
+    title: "twirp: A simple RPC framework with protobuf service definitions"
+    category: ["Golang"]
+
+tool:
+  - url: https://objective-see.com/products/lulu.html
+    title: "LuLu: the free open-source macOS firewall that aims to block unknown outgoing connections, unless explicitly approved by the user"
+
+  - url: http://opencensus.io/
+    title: "OpenCensus: A single distribution of libraries that automatically collects traces and metrics from your app, displays them locally, and sends them to any analysis tool."
+
+  - url: https://github.com/zouhir/jarvis
+    title: "J.A.R.V.I.S.: A very intelligent browser based Webpack dashboard"
+
+  - url: https://yuzu-emu.org/
+    title: "Yuzu is an experimental open-source emulator for the Nintendo Switch from the creators of Citra"
+
+  - url: https://github.com/graphile/graphile-build
+    title: "Graphile-Build: Build a high-performance easily-extensible GraphQL schema by combining plugins"
+
+  - url: https://github.com/tamlok/vnote
+    title: "vnote: A Vim-inspired note-taking application, especially for Markdown"
+
+  - url: https://plan.io/redmine-security-scanner/
+    title: "Redmine Security Scanner: list all known security vulnerabilities, check your server configuration to make sure it's secure"
+
+  - url: https://github.com/viyadb/viyadb
+    title: "ViyaDB in-memory columnar analytical data store"
