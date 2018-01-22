@@ -56,6 +56,10 @@ links:
     title: "Crypto Curry with Elixir - (Even More) Functional Elixir"
     description: "Similar to the author, I like Elixir and cryptocurrencies so enjoy this quite a bit. let’s build a small crypto price checker. Then we will refactor it using FP concepts such as currying, function composing and pointfree functions"
 
+  - url: https://medium.com/@mattklein123/meltdown-spectre-explained-6bc8634cc0c2
+    title: "Meltdown and Spectre, explained"
+    description: "Yet another meltdown/spectre explanation from author of Envoy proxy"
+
   - url: http://www.recursion.org/incremental-rails-upgrade/
     title: "Upgrading a Rails application incrementally"
     description: "Rails made lots of huge change recently: webpack intergration, drop jQuery...What is strategy we can use to incrementail update Rails safely and effectively?"
