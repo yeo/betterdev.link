@@ -1,6 +1,6 @@
 ---
 time: "Jan 15, 2018"
-description: "2018 continue to"
+description: "Meltdown is more real now with demonstration code and video. It reminds us again that knowledge of low level components(CPU in this case) is so useful. That's why in this issue I includes a handful link of low level thing like how database work, how compiler work. Hope you enjoy and have fun reading these in the holiday."
 draft: false
 
 links:
@@ -23,6 +23,10 @@ links:
   - url: https://blog.newrelic.com/2018/01/03/mobile-ui-react
     title: "How We Architected the New Relic Mobile Web UI in React"
     description: "NewRelic is a complex application that can easily instrument our code. It tracks performance, exception, and event alerting. The dashboard is complex because it has so many feature. In this post, they write about how they architecture it, and a nice screenshot of their directory structure."
+
+  - url: https://norasandler.com/2017/11/29/Write-a-Compiler.html
+    title: "Writing a C Compiler, Part 1"
+    description: "You’ll learn about abstract syntax trees (ASTs) and how programs can represent and manipulate other programs. Handy for working with linters, static analyzers, and metaprogramming of all sorts.  You’ll learn about assembly, calling conventions, and all the gritty, low-level details of how computers, like, do stuff. It seems like an impossibly hard project (but isn’t!), so writing one will make you feel like a badass."
 
   - url: https://solarianprogrammer.com/2018/01/12/writing-minimal-x86-64-jit-compiler-cpp-part-2/
     title: "Writing a minimal x86-64 JIT compiler in C++ - Part 2"

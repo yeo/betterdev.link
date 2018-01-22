@@ -1,7 +1,7 @@
 ---
-time: "Jan 7, 2018"
+time: "Jan 8, 2018"
 description: "Happy new year every one. First week of 2018. Lots of stuff happens this week, especially the Meltdown and Spectre on many CPU. We won't include many links about this because it may too bloat and infact I found it isn't easy to understad 100% of this, at least for me. The best advice is to keep update and be on top of it."
-draft: true
+draft: false
 
 links:
   - url: http://kroah.com/log/blog/2018/01/06/meltdown-status/
@@ -49,6 +49,10 @@ links:
     description: "Let's ignore all the buzz about cryptocurrencies in term of money. When looking at technolgies aspect, they are solving cool problem. But do you really understand what they are and how they work? What can we do to program for interacting with blockchain?"
 
 read_code:
+  - url: https://picturepan2.github.io/instagram.css/
+    title: "Instagram.css: Complete set of Instagram filters in pure CSS"
+    category: ['CSS']
+
   - url: http://sshtron.zachlatta.com/
     title: "Play Tron over SSH"
     category: ['Go']
@@ -69,7 +73,14 @@ read_code:
     title: "Write Elixir code using Elm-like syntax (elm-make compatible)"
     category: ['Elm', 'Elixir']
 
-tools:
+  - url: https://github.com/mweststrate/immer
+    title: "immer: Create the next immutable state by mutating the current one"
+    category: ['JavaScript']
+
+tool:
+  - url: https://github.com/labbati/mysqlbinlog-to-json
+    title: "A docker image to export mysqlbinlog data to a pretty printed json formar"
+
   - url: https://github.com/fireworq/fireworq
     title: "Fireworq is a lightweight, high-performance, language-independent job queue system."
 
@@ -80,7 +91,8 @@ tools:
     title: "A tool to make interactive, playful, programmable tool"
     category: ['JavaScript']
 
-  - url: https://github.com/johnmccabe/openfaas-bitbar
-
   - url: https://github.com/cirocosta/cr
     title: "Runs your tasks at maximum concurrency"
+
+  - url: https://umo.ci/
+    title: "umoci: a tool for manipulating and interacting with container images in the standardised Open Container Initiative’s image format"
