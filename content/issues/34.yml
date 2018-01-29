@@ -1,0 +1,101 @@
+---
+time: "Jan 29, 2018"
+description: "Amazone, Google, and even Apple now has their equivalent of Amazon Echo. Machine learning, Artificial intelligent will continue to be a hot topic for 2018. Let's learn some of these."
+draft: false
+
+links:
+  - url: https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e
+    title: "How to solve 90% of NLP problems: a step-by-step guide"
+    description: "The science of extracting meaning and learning from text data is an active topic of research called Natural Language Processing (NLP). NLP produces new and exciting results on a daily basis, and is a very large field."
+
+  - url: https://medium.com/applied-data-science/how-to-build-your-own-alphazero-ai-using-python-and-keras-7f664945c188
+    title: "How to build your own AlphaZero AI using Python and Keras"
+    description: "Teach a machine to learn Connect4 strategy through self-play and deep learning. AlphaZero is a massive step forward for Artificial Intelligence."
+
+  - url: https://rollbar.com/blog/top-10-javascript-errors/
+    title: "Top 10 JavaScript errors from 1000+ projects (and how to avoid them)"
+    description: |
+      Rollbar looked at their database of thousands of projects and found the top 10 errors in JavaScript. They’re going to show us what causes them and how to prevent them from happening. If you avoid these "gotchas," it'll make you a better developer
+
+  - url: https://pocketgophers.com/concurrency-slower/
+    title: "Concurrency Slower?"
+    description: "Go lang makes concurency very easy with go routine. However, they are not free. Since there is a cost, there needs to be a return on that investment. Balancing the costs and the benefits is the real trick."
+
+  - url: https://blog.rapid7.com/2018/01/16/taking-a-message-based-approach-to-logging/
+    title: "Taking a Message-Based Approach to Logging"
+    description: "A log entry is really nothing more than a message that describes an event. As such, taking a message-based approach to logging by utilizing messaging technologies makes sense. Messaging creates the loose coupling that allows a logging system to be adaptable to the needs at hand and extensible over time."
+
+  - url: https://www.creepywizard.com/x/you-cant-save-everyone/
+    title: "You Can't Save Everyone: Some Exceptions Should Be Left Alone"
+    description: |
+      While exceptions are an important tool, they also introduce what is arguably the least intuitive form of control flow in mainstream languages. Exceptions are far harder to reason about. The code raising an exception is not tied to the code that will be handling it. In a dynamic language like Ruby, identifying how a given exception is going to be caught can be super hard.
+
+  - url: https://rushter.com/blog/python-class-internals/
+    title: "Understanding internals of Python classes"
+    description: "The goal of this series is to describe internals and general concepts behind the class object in Python 3.6. In this part, I will explain how Python stores and lookups attributes. I assume that you already have a basic understanding of object-oriented concepts in Python."
+
+  - url: https://github.com/leandromoreira/ffmpeg-libav-tutorial/blob/master/README.md
+    title: "Learn FFmpeg libav the Hard Way"
+    description: "As a normal programmer, we probably don't interact with video/audio processing a lot. So I think learning how to use these library is very interesting and fun. I enjoy learn this a lot."
+
+  - url: https://blog.sessionstack.com/how-javascript-works-the-building-blocks-of-web-workers-5-cases-when-you-should-use-them-a547c0757f6a
+    title: "How JavaScript works: The building blocks of Web Workers + 5 cases when you should use them"
+    description: "This is post # 7 of the series dedicated to exploring JavaScript and its building components. In the process of identifying and describing the core elements, we also share some rules of thumb we use when building SessionStack, a lightweight JavaScript application that has to be robust and highly-performant to help users see and reproduce their web app defects real-time."
+
+  - url: https://tenderlovemaking.com/2018/01/23/reducing-memory-usage-in-ruby.html
+    title: "Reducing Memory Usage in Ruby"
+    description: "I've been working on building a compacting garbage collector in Ruby for a while now, and one of the biggest hurdles for implementing a compacting GC is updating references. For example, if Object A points to Object B, but the compacting GC moves Object B, how do we make sure that Object A points to the new location?"
+
+  - url: https://medium.com/@dan_manges/the-modular-monolith-rails-architecture-fb1023826fc4
+    title: "The Modular Monolith: Rails Architecture"
+    description: "Another Rails architecture approach to split Rails app usig gem and engine instead of going for microservice. They divide code into stand alone Gem that doesn't depend on Rails and egine that depends on Rails. You can take this approach and re-implement in any stack."
+
+  - url: https://samsaffron.com/archive/2018/01/18/my-production-ruby-on-rails-cpu-is-at-100-now-what
+    title: "Debugging 100% CPU usage in production Ruby on Rails systems"
+    description: "How do you go about debugging high CPU usage in a production Rails system? What code consume the CPU resource most?"
+
+  - url: https://medium.com/actualize-network/a-minimalist-guide-to-tmux-13675fb160fa
+    title: "A minimalist guide to tmux"
+    description: "Tmux allows you to share window/panel in same terminal session. What this means is in a single SSH session, you can open vim, run long running process, `tail -f` without open other terminal tab. Or we can save the whole working session and come back to it without re-run command or re-open vim. Even if you don't need tmux, it's still a valuable tool to have under your belt"
+
+read_code:
+  - url: https://github.com/mtojek/aws-lambda-go-proxy
+    title: "aws-lambda-go-proxy: Pass Lambda events to the application running on your machine"
+    category: ['Go']
+
+  - url: https://github.com/aptible/supercronic
+    title: "supercronic: a crontab-compatible job runner, designed specifically to run in containers"
+    category: ['Go']
+
+  - url: https://github.com/christophetd/CloudFlair
+    title: "CloudFlair:  Find origin servers of websites behind by CloudFlare using Internet-wide scan data from Censys"
+    category: ['Python']
+
+  - url: https://github.com/Shopify/erb-lint
+    title: "erb-lint is a tool to help lint your ERB or HTML files using the included linters or by writing your own"
+    category: ['Ruby']
+
+  - url: https://github.com/dnasseri/fir
+    title: "Fir is a ruby repl that is an alternative to IRB"
+    category: ['Ruby']
+
+  - url: https://github.com/grantcarthew/node-console-probe
+    title: "node-console-probe: Inspect JavaScript object methods and properties in the console"
+    category: ['JavaScript']
+
+  - url: https://github.com/lorenzofox3/zora
+    title: "zora: Fast javascript test runner for nodejs and browsers"
+    category: ['JavaScript']
+
+tool:
+  - url: https://github.com/kountable/pssh
+    title: "pssh: A shell for the EC2 Parameter Store"
+
+  - url: https://github.com/IBM/css-gridish
+    title: "css-gridish: Automatically build your grid design's CSS Grid code, CSS Flexbox fallback code, Sketch artboards, and Chrome extension"
+
+  - url: https://github.com/xo/usql
+    title: "usql:  a universal command-line interface for SQL databases"
+
+  - url: https://github.com/Shopify/kubernetes-deploy
+    title: "kubernetes-deploy: a command line tool that helps you ship changes to a Kubernetes namespace and understand the result"
