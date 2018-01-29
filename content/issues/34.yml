@@ -1,7 +1,7 @@
 ---
 time: "Jan 29, 2018"
 description: "Amazone, Google, and even Apple now has their equivalent of Amazon Echo. Machine learning, Artificial intelligent will continue to be a hot topic for 2018. Let's learn some of these."
-draft: false
+draft: true
 
 links:
   - url: https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e
@@ -11,6 +11,17 @@ links:
   - url: https://medium.com/applied-data-science/how-to-build-your-own-alphazero-ai-using-python-and-keras-7f664945c188
     title: "How to build your own AlphaZero AI using Python and Keras"
     description: "Teach a machine to learn Connect4 strategy through self-play and deep learning. AlphaZero is a massive step forward for Artificial Intelligence."
+
+  - url: https://softwareengineeringdaily.com/sponsor/
+    title: "Software Engineering Daily(SED) is looking for sponsor"
+    description: "SED is a podcast with ~23,000 engineers listening every day. The show is supported by advertisers who are looking to reach developers. Our 2018 shows are focused on topics like serverless, Kubernetes, cryptocurrencies, data science, and DevOps. If you are interested (or even just curious), I'd love to chat with you."
+    action: "Current sponsors include Microsoft and Google"
+    category:
+      - sponsor
+
+  - url: https://www.viget.com/articles/make-your-site-faster-with-preconnect-hints
+    title: "Make Your Site Faster with Preconnect Hints"
+    description: "Requesting an external resource on a website or application incurs several round-trips before the browser can actually start to download the resource. These round-trips include the DNS lookup, TCP handshake, and TLS negotiation (if SSL is being used)."
 
   - url: https://rollbar.com/blog/top-10-javascript-errors/
     title: "Top 10 JavaScript errors from 1000+ projects (and how to avoid them)"
@@ -42,6 +53,10 @@ links:
     title: "How JavaScript works: The building blocks of Web Workers + 5 cases when you should use them"
     description: "This is post # 7 of the series dedicated to exploring JavaScript and its building components. In the process of identifying and describing the core elements, we also share some rules of thumb we use when building SessionStack, a lightweight JavaScript application that has to be robust and highly-performant to help users see and reproduce their web app defects real-time."
 
+  - url: https://medium.com/@zanker/finding-a-ruby-bug-with-gdb-56d6b321bc86
+    title: "Finding a Ruby bug with GDB"
+    description: "A story how to use GDB to find a bug in Ruby. Let's learn some GDB trick too."
+
   - url: https://tenderlovemaking.com/2018/01/23/reducing-memory-usage-in-ruby.html
     title: "Reducing Memory Usage in Ruby"
     description: "I've been working on building a compacting garbage collector in Ruby for a while now, and one of the biggest hurdles for implementing a compacting GC is updating references. For example, if Object A points to Object B, but the compacting GC moves Object B, how do we make sure that Object A points to the new location?"
@@ -49,6 +64,10 @@ links:
   - url: https://medium.com/@dan_manges/the-modular-monolith-rails-architecture-fb1023826fc4
     title: "The Modular Monolith: Rails Architecture"
     description: "Another Rails architecture approach to split Rails app usig gem and engine instead of going for microservice. They divide code into stand alone Gem that doesn't depend on Rails and egine that depends on Rails. You can take this approach and re-implement in any stack."
+
+  - url: https://blog.envoyproxy.io/introduction-to-modern-network-load-balancing-and-proxying-a57f6ff80236
+    title: "Introduction to modern network load balancing and proxying"
+    description: "Load balancing is one of the core concepts required for building reliable distributed systems. In this post the author attempts to rectify the lack of information by providing a gentle introduction to modern network load balancing and proxying."
 
   - url: https://samsaffron.com/archive/2018/01/18/my-production-ruby-on-rails-cpu-is-at-100-now-what
     title: "Debugging 100% CPU usage in production Ruby on Rails systems"
@@ -99,3 +118,6 @@ tool:
 
   - url: https://github.com/Shopify/kubernetes-deploy
     title: "kubernetes-deploy: a command line tool that helps you ship changes to a Kubernetes namespace and understand the result"
+
+  - url: https://github.com/otobus/event_bus
+    title: "Traceable, extendable and minimalist event bus implementation for Elixir with built-in event store and event watcher based on ETS"
