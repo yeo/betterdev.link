@@ -117,8 +117,10 @@ func buildPage() Page {
 	var issues []Issue
 	files, _ := ioutil.ReadDir("./content/issues/")
 	for _, f := range files {
-		if issue, err := loadIssue(f); err == nil {
-			issues = append(issues, issue)
+		if strings.HasSuffix(f.Name(), ".yml") {
+			if issue, err := loadIssue(f); err == nil {
+				issues = append(issues, issue)
+			}
 		}
 	}
 
@@ -178,12 +180,12 @@ func loadIssue(f os.FileInfo) (Issue, error) {
 
 	err = yaml.Unmarshal([]byte(data), &issue)
 	if err != nil {
-		log.Println("Error unmarshal yaml", err)
+		log.Println("Error unmarshal yaml of issue", issue.Name, err)
 	}
 
 	//Thu, 06 Jul 2017 17:42:26 +0000
 	if issue.PubTime, err = time.Parse("Jan 2, 2006 15:04:05 -0700", issue.Time+" 05:19:00 -0700"); err != nil {
-		log.Println("Cannot parse time on issue ", issue.Name, issue.Time, err)
+		log.Println("Cannot parse time on issue ", name, issue.Name, issue.Time, err)
 	}
 	return issue, nil
 }
