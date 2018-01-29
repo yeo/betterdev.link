@@ -1,16 +1,12 @@
 ---
 time: "Jan 29, 2018"
 description: "Amazone, Google, and even Apple now has their equivalent of Amazon Echo. Machine learning, Artificial intelligent will continue to be a hot topic for 2018. Let's learn some of these."
-draft: true
+draft: false
 
 links:
   - url: https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e
     title: "How to solve 90% of NLP problems: a step-by-step guide"
     description: "The science of extracting meaning and learning from text data is an active topic of research called Natural Language Processing (NLP). NLP produces new and exciting results on a daily basis, and is a very large field."
-
-  - url: https://medium.com/applied-data-science/how-to-build-your-own-alphazero-ai-using-python-and-keras-7f664945c188
-    title: "How to build your own AlphaZero AI using Python and Keras"
-    description: "Teach a machine to learn Connect4 strategy through self-play and deep learning. AlphaZero is a massive step forward for Artificial Intelligence."
 
   - url: https://softwareengineeringdaily.com/sponsor/
     title: "Software Engineering Daily(SED) is looking for sponsor"
@@ -18,6 +14,14 @@ links:
     action: "Current sponsors include Microsoft and Google"
     category:
       - sponsor
+
+  - url: https://www.rdegges.com/2018/please-stop-using-local-storage/
+    title: "Please Stop Using Local Storage"
+    description: "The dangerous of local storage is any JavaScript on the page can access it, even JavaScript on different domain. Local storage isn't limited to same domain rule like cookie. The post go deep into detail of why and what alternatives"
+
+  - url: https://medium.com/applied-data-science/how-to-build-your-own-alphazero-ai-using-python-and-keras-7f664945c188
+    title: "How to build your own AlphaZero AI using Python and Keras"
+    description: "Teach a machine to learn Connect4 strategy through self-play and deep learning. AlphaZero is a massive step forward for Artificial Intelligence."
 
   - url: https://www.viget.com/articles/make-your-site-faster-with-preconnect-hints
     title: "Make Your Site Faster with Preconnect Hints"
