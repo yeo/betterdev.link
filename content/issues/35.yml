@@ -5,84 +5,84 @@ draft: true
 
 links:
   - url: https://medium.freecodecamp.org/here-are-some-amazing-advantages-of-go-that-you-dont-hear-much-about-1af99de3b23a
-    title: "Here are some amazing advantages of Go that you don’t hear much about"
-    description: "Golang is a programming language you might have heard about a lot during the last couple years. Even though it was created back in 2009, it has started to gain popularity only in recent years. I would like to present to you some rather small but still significant features that you only get to know after you’ve decided to give Go a try."
+    title: "The Amazing Advantages of Go"
+    description: "Even though it was created back in 2009, it has started to gain popularity only in recent years. Here are some small but still significant features that you only get to know after you’ve decided to give Go a try."
 
   - url: https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
-    title: "The introduction to Reactive Programming you've been missing"
-    description: "To put this in the word of author: The hardest part of the learning journey is thinking in Reactive. It's a lot about letting go of old imperative and stateful habits of typical programming, and forcing your brain to work in a different paradigm. I hope this helps you."
+    title: "The Introduction to Reactive Programming You've Been Missing"
+    description: "To put this in the word of author: The hardest part of the learning journey is thinking in Reactive. It's a lot about letting go of old imperative and stateful habits of typical programming, and forcing your brain to work in a different paradigm."
 
   - url: https://medium.freecodecamp.org/the-authoritative-guide-to-blockchain-development-855ab65b58bc
-    title: "The authoritative guide to blockchain development"
-    description: "Cryptocurrencies, ICOs, magic internet money. It all sounds exciting. But getting startm with blockchain development is a blur line. Information get burried in get rich story and ignore its technical part. Haseeb Qureshi, a full-time blockchain dev creat a guide on how to get into blockchain engineering."
+    title: "The Authoritative Guide to Blockchain Development"
+    description: "Cryptocurrencies, ICOs, magic internet money. It all sounds exciting. But getting started with blockchain development is a blur line. Haseeb Qureshi, a full-time blockchain dev created a guide on how to get into blockchain engineering."
 
   - url: http://holmeshe.me/understanding-react-js-source-code-initial-rendering-VII/
-    title: "Understanding The React Source Code - UI Updating (Transactions) VII"
-    description: "Continue on understanding the react source code. Last time we discussed the core Transaction class and ReactDefaultBatchingStrategyTransaction. In this post, we are going to examine the other Transactions which, together with ReactDefaultBatchingStrategyTransaction, outline the UI updating processing logic"
+    title: "Understanding React Source Code - UI Updating (Transactions) VII"
+    description: "In this post, we are going to examine the other Transactions which, together with ReactDefaultBatchingStrategyTransaction, outline the UI updating processing logic."
 
   - url: https://sausheong.github.io/posts/space-invaders-with-go/
     title: "Writing Space Invaders with Go"
-    description: "Probably lots of us grow up with Pacman, Space Invaders, Galaxian...As with many aspiring programmers starting out, one of secret dreams was always to recreate that magic, to write the next big game. The author tried to made the grand old dame of arcade video games – Space Invaders."
+    description: "Lots of us grow up with Pacman, Space Invaders, Galaxian. Like many aspiring programmers starting out, a common dream is to recreate that magic… to write the next big game."
 
   - url: https://rcoh.me/posts/postgres-indexes-under-the-hood/
     title: "Postgres Indexes Under the Hood"
-    description: "Yet another post to explain how index works. If you read this news letter regularly, you probably know this by now but it's good to see how different people explain same concept. We'll learn B-Tree: What, Why, How."
+    description: "B-Tree: What, Why, How."
 
   - url: http://www.fast.ai/2018/01/26/v2-launch/
     title: "Practical Deep Learning for Coders 2018"
-    description: "I always want to learn more about AI and Machine Learning. This is a free course from fast.ai. The only requirements are 1 year of programming and high school math. It is about 15 hours of video and some interactive note book so we can learn at our pace."
+    description: "I always want to learn more about AI and Machine Learning. This is a free course from fast.ai. The only requirements is one year of programming and high school math. It is about 15 hours of video and some interactive notes, so we can learn at our own pace."
 
   - url: https://engineering.tumblr.com/post/170040992289/how-i-review-code
-    title: "How I review code"
-    description: "Code review is a part of many company development flow to ensure code quality and knowledge sharing. The author works at Tumblr and share how he reviews code. It touchs on thing like understand PR scope, sympathy with the author's mindset and everyone's mindset."
+    title: "How I Review Code"
+    description: "Code review is a part of many development workflow to ensure code quality and knowledge sharing. The author works at Tumblr and shares how he reviews code. He touches on things like understanding PR scope, sympathy with the author's and everyone's mindset."
 
   - url: https://medium.com/@baphemot/understanding-cors-18ad6b478e2b
     title: "Understanding CORS"
-    description: "Browser implement same-origin policy to block request to different domain. The idea is to protect our sensitive data so that third party script cannot make a request to say, send money to other user. CORS is a machenism which aims to allow requests made on behalf of us so we can whileist who can make request to us from other domain."
+    description: "Browsers implement same-origin policy to block request to different domain. The idea is to protect our sensitive data so that third party scripts cannot make a request to, say, send money to another user. CORS is a mechanism which aims to allow requests made on behalf of us, so we can whilelist who can make requests to us from other domain."
 
   - url: https://medium.com/@joomiguelcunha/react-performance-tips-5fa199a450b2
-    title: "React performance tips"
-    description: "React allows you to start building apps with ease, small or complex app. As applications evolve, you will eventually need to boost some performance out of your app. This post lists some problems you might encounter and luckily for you it’s not hard to improve!"
+    title: "React Performance Tips"
+    description: "React allows you to start building apps with ease, small or complex app. As applications evolve, you will eventually need to boost performance in your app. This post lists some problems you might encounter and luckily for you it’s not hard to improve!"
 
   - url: https://medium.com/netflix-techblog/scaling-time-series-data-storage-part-i-ec2b6d44ba39
     title: "Scaling Time Series Data Storage — Part I"
-    description: "Time series database is an interesting topic. Every company needs them to track metric or analytic data for performance monitoring or business intelligence. For small company we usually just pick some open source one instead of building our own. Let's see how big company like Netflix design their own time series database"
+    description: "Time series databases are an interesting topic. Every company needs them to track metric or analytic data for performance monitoring or business intelligence. For small companies, we usually just use an open source edition instead of building our own. Let's see how a big company like Netflix designs their own time series database."
 
   - url: http://iridakos.com/tutorials/2018/01/25/creating-a-gtk-todo-application-with-ruby
-    title: "Creating a simple GTK+ ToDo application with Ruby"
-    description: "Could you imagine write desktop app in Ruby? The author wrote a tutorial introducing this functionality. In this post we are going to create a simple ToDo application (something like what we created here with Ruby on Rails) using the gtk3 gem a.k.a. the GTK+ Ruby bindings."
+    title: "Creating a Simple GTK+ ToDo Application with Ruby"
+    description: "Could you imagine write desktop apps in Ruby? The author wrote a tutorial introducing this functionality."
 
   - url: https://hackernoon.com/part-2-how-to-stop-me-harvesting-credit-card-numbers-and-passwords-from-your-site-844f739659b9
-    title: "Part 2: How to stop me harvesting credit card numbers and passwords from your site"
-    description: "Continue on story about deploying a harvesting credit card tool, which is scary but interesting to read, the author laid out what we can do to prevent getting harvesting credit card"
+    title: "Part 2: How to Stop Me Harvesting Credit Card Numbers and Passwords from your Site"
+    description: "Continue the story about deploying a harvesting credit card tool, the author laid out what we can do to prevent getting our credit cards harvested."
 
   - url: https://medium.com/@lilactown/25-days-of-reasonml-a4b20a7e8c6
     title: "25 Days of ReasonML"
-    description: "Advent of Code is a programming challenge release everyday from 1st to 25th of december. The author use it as a way to practice ReasonML. ReasonML is a statically typed language of the ML family that compiles to both JavaScript as well as native executables. I myself enjoy ReasonML a lot and will learn them beside Elm."
+    description: "Advent of Code is a programming challenge release every day from 1st to 25th of December. The author used it as a way to practice ReasonML. ReasonML is a statically typed language of the ML family that compiles to both JavaScript as well as native executables. I myself enjoy ReasonML a lot and will learn them beside Elm."
 
   - url: https://jvns.ca/blog/2018/01/31/spying-on-a-ruby-process-s-memory-allocations/
-    title: "Spying on a Ruby process's memory allocations with eBPF"
-    description: "Julia works on a awesome Ruby profiler. The goal of it to profile without affecting production performance. This part she shares about spying on Ruby memory allocations with eBPF."
+    title: "Spying on a Ruby Process' Memory Allocations with eBPF"
+    description: "Julia works on an awesome Ruby profiler. The goal is to profile without affecting production performance. In this part, she shares about spying on Ruby memory allocations with eBPF."
 
   - url: https://hackernoon.com/kubernetes-for-dev-infrastructure-40b9175cb8c0
-    title: "Kubernetes for dev infrastructure"
-    description: "Kubernetes is one of the hottest open-source projects these days. It’s a production-grade container orchestration system, inspired by Google’s own Borg and released into the wild in 2014"
+    title: "Kubernetes for Dev Infrastructure"
+    description: "Kubernetes is one of the hottest open-source projects these days. It’s a production-grade container orchestration system, inspired by Google’s own Borg and released into the wild in 2014."
 
   - url: https://blog.patricktriest.com/text-search-docker-elasticsearch/
     title: "Building a Full-Text Search App Using Docker And Elasticsearch"
-    description: "If you're looking to impelement search with Elasticsearch, this is some good practical example of full process from getting data, import into Elasticsearch and create mapping."
+    description: "If you're looking to implement search with Elasticsearch, this is some good practical example of full process from getting data, import into Elasticsearch and create mapping."
 
   - url: https://medium.com/javascript-scene/graphql-at-the-rest-aurant-f4091054e82a
     title: "GraphQL at the REST-aurant"
-    description: "A very practical introduction to GraphQL, with use case in a restaurant, and it's tasty too :)"
+    description: "A very practical introduction to GraphQL, with use case in a restaurant, and it's tasty too :)."
 
   - url: http://lisp-univ-etc.blogspot.com/2018/01/minimal-perfect-hash-tables-in-common.html
     title: "Minimal Perfect Hash-Tables in Common Lisp"
-    description: "Hash tables are everywhere. This topic isn't too much about Lisp but about understanding building a hash table"
+    description: "Hash tables are everywhere. This topic isn't too much about Lisp but about understanding building a hash table."
 
 read_code:
   - url: https://github.com/esimov/caire
-    title: "caire: content aware image resize library, a very cool way to resize picture"
+    title: "caire: Content-aware image resize library, a very cool way to resize pictures"
     category: ["Golang"]
 
   - url: https://github.com/gen2brain/cam2ip
