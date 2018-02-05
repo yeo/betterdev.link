@@ -8,9 +8,17 @@ links:
     title: "Here are some amazing advantages of Go that you don’t hear much about"
     description: "Golang is a programming language you might have heard about a lot during the last couple years. Even though it was created back in 2009, it has started to gain popularity only in recent years. I would like to present to you some rather small but still significant features that you only get to know after you’ve decided to give Go a try."
 
+  - url: https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
+    title: "The introduction to Reactive Programming you've been missing"
+    description: "To put this in the word of author: The hardest part of the learning journey is thinking in Reactive. It's a lot about letting go of old imperative and stateful habits of typical programming, and forcing your brain to work in a different paradigm. I hope this helps you."
+
   - url: https://medium.freecodecamp.org/the-authoritative-guide-to-blockchain-development-855ab65b58bc
     title: "The authoritative guide to blockchain development"
     description: "Cryptocurrencies, ICOs, magic internet money. It all sounds exciting. But getting startm with blockchain development is a blur line. Information get burried in get rich story and ignore its technical part. Haseeb Qureshi, a full-time blockchain dev creat a guide on how to get into blockchain engineering."
+
+  - url: https://sausheong.github.io/posts/space-invaders-with-go/
+    title: "Writing Space Invaders with Go"
+    description: "Probably lots of us grow up with Pacman, Space Invaders, Galaxian...As with many aspiring programmers starting out, one of secret dreams was always to recreate that magic, to write the next big game. The author tried to made the grand old dame of arcade video games – Space Invaders."
 
   - url: https://rcoh.me/posts/postgres-indexes-under-the-hood/
     title: "Postgres Indexes Under the Hood"
@@ -104,6 +112,10 @@ read_code:
   - url: https://github.com/davecgh/go-spew
     title: "go-spew: Implements a deep pretty printer for Go data structures to aid in debugging"
     category: ["Golang"]
+
+  - url: https://github.com/sacert/Hex
+    title: "Hex: Reproducing images using hex values. a fun tool"
+    category: ["Python"]
 
 tool:
   - url: https://github.com/sdwolfe32/slimhttp
