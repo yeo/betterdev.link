@@ -16,6 +16,10 @@ links:
     title: "The authoritative guide to blockchain development"
     description: "Cryptocurrencies, ICOs, magic internet money. It all sounds exciting. But getting startm with blockchain development is a blur line. Information get burried in get rich story and ignore its technical part. Haseeb Qureshi, a full-time blockchain dev creat a guide on how to get into blockchain engineering."
 
+  - url: http://holmeshe.me/understanding-react-js-source-code-initial-rendering-VII/
+    title: "Understanding The React Source Code - UI Updating (Transactions) VII"
+    description: "Continue on understanding the react source code. Last time we discussed the core Transaction class and ReactDefaultBatchingStrategyTransaction. In this post, we are going to examine the other Transactions which, together with ReactDefaultBatchingStrategyTransaction, outline the UI updating processing logic"
+
   - url: https://sausheong.github.io/posts/space-invaders-with-go/
     title: "Writing Space Invaders with Go"
     description: "Probably lots of us grow up with Pacman, Space Invaders, Galaxian...As with many aspiring programmers starting out, one of secret dreams was always to recreate that magic, to write the next big game. The author tried to made the grand old dame of arcade video games – Space Invaders."
