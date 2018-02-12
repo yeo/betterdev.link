@@ -42,11 +42,11 @@ links:
 
   - url: https://lexi-lambda.github.io/blog/2018/02/10/an-opinionated-guide-to-haskell-in-2018/
     title: "An opinionated guide to Haskell in 2018"
-    description: "I don't think I will use Haskell as my main language but I have seen other language adopt some features from Haskell. I think it's worth to try to learn Haskel sometime and apply some of its idea into your own programming language"
+    description: "I don't think I will use Haskell as my main language but I have seen other language adopt some features from Haskell. I think it's worth to try Haskel sometime and apply some of its idea into your own programming language"
 
   - url: http://reasonmlhub.com/exploring-reasonml/
     title: "Exploring ReasonML and Functional Programming"
-    description: "A free to read online book by Dr. Axel Rauschmayer, who also write Exploring ES6 book, now he writes about ReasonML, another language that compile down to JavaScript."
+    description: "A free to read online book by Dr. Axel Rauschmayer, who also write Exploring ES6 book, now he writes about ReasonML, another language that compile down to JavaScript. ReasonML is what power 50% of Facebook's messenger code."
 
   - url: https://alex.dzyoba.com/blog/go-prometheus-service/
     title: "Instrumenting a Go Service for Prometheus"
@@ -80,6 +80,10 @@ read_code:
   - url: https://github.com/visionmedia/page.js
     title: "page.js: Tiny Express-inspired client-side router"
     category: ["JavaScript"]
+
+  - url: https://github.com/ncthbrt/nact
+    title: "nact: Nact is redux but for the server"
+    category: ["JavaScript", "ReasonML"]
 
   - url: https://github.com/lfittl/pg_query
     title: "Ruby extension to parse, deparse and normalize SQL queries using the PostgreSQL query parser"
