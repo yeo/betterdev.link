@@ -1,0 +1,110 @@
+---
+time: "Feb 12, 2018"
+description: ""
+draft: false
+
+links:
+  - url: http://www.brendangregg.com/blog/2018-02-09/kpti-kaiser-meltdown-performance.html
+    title: "KPTI/KAISER Meltdown Initial Performance Regressions"
+    description: "A detail look at the Linux kernel page table isolation (KPTI) patches that workaround Meltdown: what overheads to expect, and ways to tune them."
+
+  - url: https://medium.com/discovering-data-science-a-chronicle/predicting-starting-pitcher-salaries-4b7a4a26cb65
+    title: "Predicting Starting Pitcher Salaries"
+    description: "The post focuses on applying linear regression techniques to a less-than-ideal dataset. A professional baseball team, is interested in offering a contract to a free agent starting pitcher and wants a recommendation for the annual salary it should propose."
+
+  - url: https://auth0.com/blog/developing-games-with-react-redux-and-svg-part-1/
+    title: "Developing Games with React, Redux, and SVG - Part 1"
+    description: "Learn how to make React and Redux control a bunch of SVG elements to create a game. This is a fun excercise to learn Redux and SVG too."
+
+  - url: https://engineeringblog.yelp.com/2018/02/making-30x-performance-improvements-on-yelps-mysqlstreamer.html
+    title: "Making 30x performance improvements on Yelp’s MySQLStreamer"
+    description: "This post will outline a step-by-step approach to optimizing performance of a Real-Time Python Application, outlining the key lessons we learned in the process of getting the MySQLStreamer to process tens of thousands of messages per second"
+
+  - url: https://blog.bugsnag.com/grpc-and-microservices-architecture/
+    title: "Building scalable microservices with gRPC"
+    description: "Bugsnag reachs limit of REST API design and re-design their system into microservice using gRPC. This post is about gRPC tooling, community, general introduction."
+
+  - url: https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525
+    title: "Modern CSS Explained For Dinosaurs"
+    description: "This article provide a historical context of how CSS approaches and tooling have evolved to what they are today in 2018. By understanding this history, it will be easier to understand each approach and how to use them to your benefit."
+
+  - url: https://rcoh.me/posts/cache-oblivious-datastructures/
+    title: "Maximize Cache Performance with this One Weird Trick: An Introduction to Cache-Oblivious Data Structures"
+    description: "Continuation of postgres indexes under the hood, we now look into different way of laying out B-Tree in memory."
+
+  - url: https://engineering.riotgames.com/news/profiling-measurement-and-analysis
+    title: "Profiling: Measurement and Analysis"
+    description: "A walk through of profiler basics and analyse some example C++ code. We’ll start at a very high level and delve deeper and deeper into the bowels of the CPU step by step. Once we identify opportunities for optimisation in this article, we’ll implement changes and explore some real-world examples from the League of Legends codebase in a future article."
+
+  - url: https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3
+    title: "An Overview of JavaScript Testing in 2018"
+    description: "JavaScript moves quite fast and has a lots of tooling to a problem. This post compares some tools and advocate the use of Jest for unit and integration test, and TestCafe for UI test."
+
+  - url: https://lexi-lambda.github.io/blog/2018/02/10/an-opinionated-guide-to-haskell-in-2018/
+    title: "An opinionated guide to Haskell in 2018"
+    description: "I don't think I will use Haskell as my main language but I have seen other language adopt some features from Haskell. I think it's worth to try to learn Haskel sometime and apply some of its idea into your own programming language"
+
+  - url: http://reasonmlhub.com/exploring-reasonml/
+    title: "Exploring ReasonML and Functional Programming"
+    description: "A free to read online book by Dr. Axel Rauschmayer, who also write Exploring ES6 book, now he writes about ReasonML, another language that compile down to JavaScript."
+
+  - url: https://alex.dzyoba.com/blog/go-prometheus-service/
+    title: "Instrumenting a Go Service for Prometheus"
+    description: "Let's do some DevOps practice by adding instrument to our service. We will learn about Prometheus scrapes metric model and its format to expose metric endpoint in our service."
+
+  - url: https://samsaffron.com/archive/2018/02/02/instrumenting-rails-with-prometheus
+    title: "Instrumenting Rails with Prometheus"
+    description: "Sam shares the detail of his setup on a Rails app to scrape performance metric with Prometheus. The challenge is that Rails app usually run multiple process so we can not simply expose a HTTP endpoint because the metric will be for a random process."
+
+  - url: https://blog.hasura.io/the-ultimate-guide-to-writing-dockerfiles-for-go-web-apps-336efad7012c
+    title: "The Ultimate Guide to Writing Dockerfiles for Go Web-apps"
+    description: "Despite Go compile to a single static binary, a docker-based workflow is still helpful since it requires not Go toolchain on the host. This guide is about writing a Dockerfile with support for live reload, package management, single or multi stage production build."
+
+  - url: http://engineering.appfolio.com/appfolio-engineering/2018/1/2/how-ruby-uses-memory
+    title: "CRuby Memory Slots: See Them, Tweak Them, Make Them Fast"
+    description: "When we're optimizing, we need to know about specific of how Ruby manages memory. We'll talk about the Slots that Ruby uses - what they are, how you check them and how you optimize them"
+
+read_code:
+  - url: https://github.com/guptarohit/cryptoCMD
+    title: "cryptoCMD: Cryptocurrency historical market price data library"
+    category: ["Python"]
+
+  - url: https://github.com/trustedsec/hate_crack
+    title: "hate_crack: A tool for automating cracking methodologies through Hashcat from the TrustedSec team"
+    category: ["Python"]
+
+  - url: https://github.com/FeeiCN/GSIL
+    tite: "GSIL: Monitor Github sensitive information leaks in near real time and send alert notifications."
+    category: ["Python"]
+
+  - url: https://github.com/visionmedia/page.js
+    title: "page.js: Tiny Express-inspired client-side router"
+    category: ["JavaScript"]
+
+  - url: https://github.com/lfittl/pg_query
+    title: "Ruby extension to parse, deparse and normalize SQL queries using the PostgreSQL query parser"
+    category: ["Ruby"]
+
+  - url: https://github.com/coinbase/traffic_jam
+    title: "traffic_jam: Ruby library for time-based rate limiting"
+    category: ["Ruby"]
+
+  - url: https://github.com/gen2brain/goiv
+    title: "goiv: small and simple image viewer written in pure Go"
+    category: ["Golang"]
+
+tool:
+  - url: https://github.com/dotmesh-io/dotmesh
+    title: "dotmesh: git for your data volumes (databases, files etc) in Docker and Kubernetes"
+
+  - url: https://github.com/jondot/hygen
+    title: "hygen: The simple, fast, and scalable code generator that lives in your project."
+
+  - url: https://github.com/automerge/automerge
+    title: "automerge: A JSON-like data structure that can be modified concurrently  and merged again automatically"
+
+  - url: https://github.com/cam-inc/viron
+    title: "viron: Automated Design-based Management Console"
+
+  - url: https://devhints.io/
+    title: "devhints: a modest collection of cheatsheets"
