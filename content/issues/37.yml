@@ -1,0 +1,93 @@
+---
+time: "Feb 12, 2018"
+description: ""
+draft: false
+
+links:
+  - url: https://www.fullstackinterviewing.com/2018/02/02/the-ultimate-guide-to-kicking-ass-on-take-home-coding-challenges.html
+    title: ""
+
+  - url: https://zwischenzugs.com/2011/08/29/my-favourite-secret-weapon-strace/
+    title: "My Favourite Secret Weapon – strace"
+    description: "strace is a tool allow you to see what system call your program is making. Ruby, Python, NodeJs, you can use strace on any process. To figure out why a process hang, or not starting and fail silently."
+
+  - url: https://github.com/yangshun/front-end-interview-handbook#explain-how-this-works-in-javascript
+    title: "Front End Interview Handbook"
+    description: "Lots of very interesting front-end question, way better than the average Google front-end interview question have for you. Test yourself or just ignore it."
+
+  - url: https://www.mike-gualtieri.com/posts/stealing-data-with-css-attack-and-defense
+    title: "Stealing Data With CSS: Attack and Defense"
+    description: "This isn't as scary as it sound. But it's an very creative way to steal data on a page use only CSS. It works by generate bunch of CSS selector based on field value and set background image which trigger a HTTP request with the target input value."
+
+  - url: https://medium.com/@nathan.hubens/handwritten-digit-recognizer-on-ios-with-keras-and-core-ml-using-the-mnist-dataset-8564f5d6f4ba
+    title: "Handwritten digit recognizer on iOS with Keras and Core ML using the MNIST dataset"
+    description: "CoreML is a new machine learning framework developed by Apple, bundle in iOS 11. This article is a hello world to learn Deep Learning with"
+
+  - url: https://developers.google.com/web/fundamentals/performance/webpack/
+    title: "Web Performance Optimization with webpack"
+    description: "A walk throught by Addy Osmani to effectively optimize site resources using webpack."
+
+  - url: http://halunke.jetzt/
+    title: "Halunke is a dynamic, object-oriented language that has a simple grammar inspired by Smalltalk and Lisp"
+    description: "If you read this news letter for a while, you know me like desing programming language. This is written in Ruby. You can learn how to to implment a small toy language from this"
+
+  - url: https://gorails.com/episodes/building-a-hosting-platform-in-ruby
+    title: "Building A Hosting Platform in Ruby(Video)"
+    description: "The author works on Hatchbox.io, a hosting platform for Ruby, share how he design the code and feature of platform"
+
+  - url: https://ops.tips/blog/nginx-http2-server-push/
+    title: "Nginx HTTP2 Server Push"
+    design: "NGINX just added server push to mainline. Checkout a NGINX HTTP2 server push example using the latest code from source integrating with an HTTP1 Golang web server."
+
+read_code:
+  - url: https://github.com/DerWaldi/youtube-video-face-swap
+    title: "youtube-video-face-swap: perform a face swap on a youtube video almost automatically"
+    category: ["Python"]
+
+  - url: https://github.com/sweetalert2/sweetalert2
+    title: "Sweetalert2: A beautiful, responsive, customizable, accessible (WAI-ARIA) replacement for JavaScript's popup boxes"
+    category: ["JavaScript"]
+
+  - url: https://github.com/vincit/objection.js
+    title: "objection.js: An SQL-friendly ORM"
+    category: ["NodeJS"]
+
+  - url: https://github.com/nebrius/request-inspector
+    title: "request-inspector: A request timing diagnostic tool"
+    category: ["NodeJS"]
+
+  - url: https://github.com/socketry/lightio
+    title: "lightio: provide green thread to ruby. Like Golang's goroutine, or Crystal's fiber"
+    category: ["Ruby"]
+
+  - url: https://github.com/giving-a-fuck-about-climate-change/carbondoomsday
+    title: "carbondoomsday: A RESTish web API for climate change related data"
+    category: ["Python"]
+
+  - url: https://github.com/alash3al/wsify
+    title: "wsify: a tiny, simple and realtime pub/sub messaging service"
+    category: ["Golang"]
+
+  - url: https://github.com/mitchellh/go-server-timing
+    title: "go-server-timing:  library for creating and consuming HTTP Server-Timing headers"
+    category: ["Golang"]
+
+
+tool:
+  - url: https://github.com/vektah/gqlgen
+    title: "gqlgen: go generate based graphql server library"
+
+  - url: https://github.com/cknadler/vim-anywhere
+    title: "vim-anywhere: Use Vim everywhere you've always wanted to"
+
+  - url: https://blotter.js.org/
+    title: "blotter: A JavaScript API for drawing unconventional text effects on the web"
+
+  - url: https://github.com/photonstorm/phaser
+    title: "Phaser - HTML5 Game Framework"
+
+  - url: https://github.com/imsnif/synp
+    title: "synp: Convert yarn.lock to package-lock.json and vice versa"
+
+  - url: https://github.com/udhos/goben
+    title: "goben: a golang tool to measure TCP/UDP transport layer throughput between hosts"
