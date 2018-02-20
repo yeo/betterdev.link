@@ -1,31 +1,31 @@
 ---
 time: "Feb 12, 2018"
 description: ""
-draft: false
+draft: true
 
 links:
   - url: https://idea-instructions.com/
-    title: "idea: An ongoing series of nonverbal algorithm assembly instructions."
+    title: "IDEA: An ongoing Series of nonverbal Algorithm assembly Instructions."
     description: "Explain computer concept such as public key crypto, binary search in simple visualization for easier to understand."
 
   - url: http://blog.krum.io/k-d-trees/
-    title: "Using k-d trees to efficiently calculate nearest neighbors in 3D vector space"
+    title: "Using k-d Trees to Efficiently Calculate nearest Neighbors in 3D Vector Space"
     description: "Name CSS color is pre-defined hex value we can use with name string like reg, magenta, purple. What happen if the entire worlds will be in these named color only? We will use k-d tree to find the closet color to a named color and reduce picture color to only of these."
 
   - url: https://tenderlovemaking.com/2018/02/12/speeding-up-ruby-with-shared-strings.html
-    title: "Speeding up ruby with shared string"
+    title: "Speeding up Ruby with Shared String"
     description: "An deep analysis on how use shared string to re-present string and its sub string without allocated new memory helps improve performance and reduce memory consumption."
 
   - url: https://medium.com/teads-engineering/easy-cassandra-scaling-with-terraform-chef-rundeck-9443e0375aa7
-    title: "Easy Cassandra scaling"
+    title: "Easy Cassandra Scaling"
     description: "Let's learn how to glue Chef, Terraform and Rundeck to automate process of scaling Cassandra with 150 nodes"
 
   - url: https://l0rd.github.io/containerspatterns/
-    title: "Containers patterns"
+    title: "Containers Patterns"
     description: "There are thousdand way to use containers. This presents various common container patterns, from spoofing hosts to multi-stage builds and from sidecar containers to mounting sources at runtime."
 
   - url: http://richg42.blogspot.sg/2018/02/some-lessons-learned-while-developing.html
-    title: "Lessons learned while developing Age of Empires 1 Definitive Edition"
+    title: "Lessons Learned while Developing Age of Empires 1 Definitive Edition"
     description: "Rich Geldreich shares 13 lessons he learned while developing the game Age of Empires 1 Definitive Edition. Top lessons: get networking and multiplayer working early, develop and use strong out of sync tools."
 
   - url: https://zwischenzugs.com/2011/08/29/my-favourite-secret-weapon-strace/
@@ -45,12 +45,20 @@ links:
     description: "This isn't as scary as it sound. But it's an very creative way to steal data on a page use only CSS. It works by generate bunch of CSS selector based on field value and set background image which trigger a HTTP request with the target input value."
 
   - url: https://medium.com/@nathan.hubens/handwritten-digit-recognizer-on-ios-with-keras-and-core-ml-using-the-mnist-dataset-8564f5d6f4ba
-    title: "Handwritten digit recognizer on iOS with Keras and Core ML using the MNIST dataset"
+    title: "Handwritten Digit Recognizer on iOS with Keras and Core ML Using the MNIST Dataset"
     description: "CoreML is a new machine learning framework developed by Apple, bundle in iOS 11. This article is a hello world to learn Deep Learning with"
 
   - url: https://developers.google.com/web/fundamentals/performance/webpack/
-    title: "Web Performance Optimization with webpack"
+    title: "Web Performance Optimization with Webpack"
     description: "A walk throught by Addy Osmani to effectively optimize site resources using webpack."
+
+  - url: https://ops.tips/blog/nginx-http2-server-push/
+    title: "Nginx HTTP2 Server Push"
+    description: "NGINX just added server push to mainline. Checkout a NGINX HTTP2 server push example using the latest code from source integrating with an HTTP1 Golang web server."
+
+  - url: https://beta.observablehq.com/@dhotson/drawing-better-looking-curves
+    title: "Drawing better looking curves"
+    description: "A good read on graphic processing to draw curves"
 
   - url: http://halunke.jetzt/
     title: "Halunke is a dynamic, object-oriented language that has a simple grammar inspired by Smalltalk and Lisp"
@@ -59,14 +67,6 @@ links:
   - url: https://gorails.com/episodes/building-a-hosting-platform-in-ruby
     title: "Building A Hosting Platform in Ruby(Video)"
     description: "The author works on Hatchbox.io, a hosting platform for Ruby, share how he design the code and feature of platform"
-
-  - url: https://ops.tips/blog/nginx-http2-server-push/
-    title: "Nginx HTTP2 Server Push"
-    description: "NGINX just added server push to mainline. Checkout a NGINX HTTP2 server push example using the latest code from source integrating with an HTTP1 Golang web server."
-
-  - url: https://beta.observablehq.com/@dhotson/drawing-better-looking-curves
-    title: "Drawing better looking curves"
-    description: "A good reach on computer graphic process to draw curves"
 
 read_code:
   - url: https://github.com/keredson/gnomecast
