@@ -104,6 +104,10 @@ links:
     title: "Reducing String duplication in Ruby"
     description: "Some ways to make Rails app use less memory by string deduplication."
 
+  - url: https://hackernoon.com/how-to-build-an-audio-processor-in-your-browser-302cb7aa502a
+    title: "How To Build An Audio Processor In Your Browser"
+    description: "Alvin takes us through my thought process and show how to generalize the code we wrote to build an audio processing framework in the browser."
+
 read_code:
   - url: https://github.com/zricethezav/gitleaks
     title: "gitleaks: Searches full repo history for secrets and keys"
@@ -111,6 +115,10 @@ read_code:
 
   - url: https://github.com/git-chglog/git-chglog
     title: "git-chglog: CHANGELOG generator"
+    category: ["Go"]
+
+  - url: https://github.com/jckuester/weather-station
+    title: "A Prometheus exporter for 433 MHz temperature/humidity sensors"
     category: ["Go"]
 
   - url: https://github.com/JacobEvelyn/git-self-blame
