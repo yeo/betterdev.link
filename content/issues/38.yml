@@ -1,0 +1,145 @@
+---
+time: "Feb 20, 2018"
+description: "Hi everyone, I delayed this issue one day because of the holiday. We're back now with lots of cool stuff about scaling cassandra, optimize Ruby, debug live process with strace and more."
+draft: false
+
+links:
+  - url: https://idea-instructions.com/
+    title: "IDEA: An ongoing Series of nonverbal Algorithm assembly Instructions."
+    description: "Explain computer concept such as public key crypto, binary search in simple visualization for easier to understand."
+
+  - url: http://blog.krum.io/k-d-trees/
+    title: "Using k-d Trees to Efficiently Calculate nearest Neighbors in 3D Vector Space"
+    description: "Name CSS color is pre-defined hex value we can use with name string like reg, magenta, purple. What happen if the entire worlds will be in these named color only? We will use k-d tree to find the closet color to a named color and reduce picture color to only of these."
+
+  - url: https://tenderlovemaking.com/2018/02/12/speeding-up-ruby-with-shared-strings.html
+    title: "Speeding up Ruby with Shared String"
+    description: "An deep analysis on how use shared string to re-present string and its sub string without allocated new memory helps improve performance and reduce memory consumption."
+
+  - url: https://medium.com/teads-engineering/easy-cassandra-scaling-with-terraform-chef-rundeck-9443e0375aa7
+    title: "Easy Cassandra Scaling"
+    description: "Let's learn how to glue Chef, Terraform and Rundeck to automate process of scaling Cassandra with 150 nodes"
+
+  - url: https://l0rd.github.io/containerspatterns/
+    title: "Containers Patterns"
+    description: "There are thousdand way to use containers. This presents various common container patterns, from spoofing hosts to multi-stage builds and from sidecar containers to mounting sources at runtime."
+
+  - url: http://richg42.blogspot.sg/2018/02/some-lessons-learned-while-developing.html
+    title: "Lessons Learned while Developing Age of Empires 1 Definitive Edition"
+    description: "Rich Geldreich shares 13 lessons he learned while developing the game Age of Empires 1 Definitive Edition. Top lessons: get networking and multiplayer working early, develop and use strong out of sync tools."
+
+  - url: https://zwischenzugs.com/2011/08/29/my-favourite-secret-weapon-strace/
+    title: "My Favourite Secret Weapon – strace"
+    description: "strace is a tool allow you to see what system call your program is making. Ruby, Python, NodeJs, you can use strace on any process. To figure out why a process hang, or not starting and fail silently."
+
+  - url: https://github.com/yangshun/front-end-interview-handbook#explain-how-this-works-in-javascript
+    title: "Front End Interview Handbook"
+    description: "Lots of very interesting front-end question, way better than the average Google front-end interview question have for you. Test yourself or just ignore it."
+
+  - url: https://github.com/arialdomartini/Back-End-Developer-Interview-Questions
+    title: "Back-End Developer Interview Questions"
+    description: "Similar to above but for backend, no answer though. Use it to test yourself :)"
+
+  - url: https://www.mike-gualtieri.com/posts/stealing-data-with-css-attack-and-defense
+    title: "Stealing Data With CSS: Attack and Defense"
+    description: "This isn't as scary as it sound. But it's an very creative way to steal data on a page use only CSS. It works by generate bunch of CSS selector based on field value and set background image which trigger a HTTP request with the target input value."
+
+  - url: https://medium.com/@nathan.hubens/handwritten-digit-recognizer-on-ios-with-keras-and-core-ml-using-the-mnist-dataset-8564f5d6f4ba
+    title: "Handwritten Digit Recognizer on iOS with Keras and Core ML Using the MNIST Dataset"
+    description: "CoreML is a new machine learning framework developed by Apple, bundle in iOS 11. This article is a hello world to learn Deep Learning with"
+
+  - url: https://developers.google.com/web/fundamentals/performance/webpack/
+    title: "Web Performance Optimization with Webpack"
+    description: "A walk throught by Addy Osmani to effectively optimize site resources using webpack."
+
+  - url: https://ops.tips/blog/nginx-http2-server-push/
+    title: "Nginx HTTP2 Server Push"
+    description: "NGINX just added server push to mainline. Checkout a NGINX HTTP2 server push example using the latest code from source integrating with an HTTP1 Golang web server."
+
+  - url: https://beta.observablehq.com/@dhotson/drawing-better-looking-curves
+    title: "Drawing better looking curves"
+    description: "A good read on graphic processing to draw curves"
+
+  - url: http://halunke.jetzt/
+    title: "Halunke is a dynamic, object-oriented language that has a simple grammar inspired by Smalltalk and Lisp"
+    description: "If you read this news letter for a while, you know me like desing programming language. This is written in Ruby. You can learn how to to implment a small toy language from this"
+
+  - url: https://gorails.com/episodes/building-a-hosting-platform-in-ruby
+    title: "Building A Hosting Platform in Ruby(Video)"
+    description: "The author works on Hatchbox.io, a hosting platform for Ruby, share how he design the code and feature of platform"
+
+read_code:
+  - url: https://github.com/keredson/gnomecast
+    title: "gnomecast: A native Linux Chromecast GUI that supports transcoding and subtitles"
+    category: ["Python"]
+
+  - url: https://github.com/DerWaldi/youtube-video-face-swap
+    title: "youtube-video-face-swap: perform a face swap on a youtube video almost automatically"
+    category: ["Python"]
+
+  - url: https://github.com/sweetalert2/sweetalert2
+    title: "Sweetalert2: A beautiful, responsive, customizable, accessible (WAI-ARIA) replacement for JavaScript's popup boxes"
+    category: ["JavaScript"]
+
+  - url: https://github.com/vincit/objection.js
+    title: "objection.js: An SQL-friendly ORM"
+    category: ["NodeJS"]
+
+  - url: https://github.com/nebrius/request-inspector
+    title: "request-inspector: A request timing diagnostic tool"
+    category: ["NodeJS"]
+
+  - url: https://github.com/socketry/lightio
+    title: "lightio: provide green thread to ruby. Like Golang's goroutine, or Crystal's fiber"
+    category: ["Ruby"]
+
+  - url: https://github.com/giving-a-fuck-about-climate-change/carbondoomsday
+    title: "carbondoomsday: A RESTish web API for climate change related data"
+    category: ["Python"]
+
+  - url: https://github.com/alash3al/wsify
+    title: "wsify: a tiny, simple and realtime pub/sub messaging service"
+    category: ["Golang"]
+
+  - url: https://github.com/mitchellh/go-server-timing
+    title: "go-server-timing:  library for creating and consuming HTTP Server-Timing headers"
+    category: ["Golang"]
+
+  - url: https://github.com/ultradark/ultradark
+    title: "ultradark: A fast, anonymous, and scriptable blockchain written in Elixir"
+    category: ["Elixir"]
+
+  - url: https://github.com/koczkatamas/onelang
+    title: "onelang: A POC web IDE that generates code for like 10 other languages"
+    category: ["TypeScript", "JavaScript"]
+
+tool:
+  - url: https://github.com/vedetta-com/caesonia
+    title: "caesonia: self-hosted OpenBSD Email Service"
+
+  - url: https://github.com/forward3d/alpinist
+    title: "alpinish: Automatic Alpine Linux Package Repository Generation using AWS Lambda, S3 & SSM Parameter Store"
+
+  - url: https://github.com/heewa/mongotime
+    title: "mongotime: See what MongoDB is spending time on"
+
+  - url: https://github.com/vektah/gqlgen
+    title: "gqlgen: go generate based graphql server library"
+
+  - url: https://github.com/cknadler/vim-anywhere
+    title: "vim-anywhere: Use Vim everywhere you've always wanted to"
+
+  - url: https://blotter.js.org/
+    title: "blotter: A JavaScript API for drawing unconventional text effects on the web"
+
+  - url: https://github.com/photonstorm/phaser
+    title: "Phaser - HTML5 Game Framework"
+
+  - url: https://github.com/imsnif/synp
+    title: "synp: Convert yarn.lock to package-lock.json and vice versa"
+
+  - url: https://github.com/udhos/goben
+    title: "goben: a golang tool to measure TCP/UDP transport layer throughput between hosts"
+
+  - url: https://github.com/stdlib/lib
+    title: "stdlib:  a standard library for microservices"
