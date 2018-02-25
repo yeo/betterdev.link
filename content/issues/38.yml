@@ -1,6 +1,6 @@
 ---
 time: "Feb 26, 2018"
-description: "We got some great resouces: free book of Ethereum and free video to learn Elixir."
+description: "Hi all, Thanks you for supporting from you. We're growing fast and it's getting expensive for me to send email. I'm going to move away from Mailchimp(and I'll share this process in next issue). To ensure the delivery, please help me by adding vinh@yeo.space to your address book so my email won't be marked as spam. From last 6 months, you can see I never send spam."
 draft: true
 
 links:
@@ -103,6 +103,7 @@ links:
   - url: https://samsaffron.com/archive/2018/02/16/reducing-string-duplication-in-ruby
     title: "Reducing String duplication in Ruby"
     description: "Some ways to make Rails app use less memory by string deduplication."
+
 read_code:
   - url: https://github.com/zricethezav/gitleaks
     title: "gitleaks: Searches full repo history for secrets and keys"
