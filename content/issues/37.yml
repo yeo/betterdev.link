@@ -1,135 +1,145 @@
 ---
-time: "Feb 26, 2018"
-description: "We got some great resouces: free book of Ethereum and free video to learn Elixir."
-draft: true
+time: "Feb 20, 2018"
+description: ""
+draft: false
 
 links:
-  - url: https://medium.freecodecamp.org/i-dont-understand-graph-theory-1c96572a1401
-    title: "How to think in graphs: an illustrative introduction to Graph Theory and its applications"
-    description: "A graph at its code is simple. It's just vector and edge, which we all learn. But how many time we come across a practical use of graph? Let's look at some various applications of graph theory."
+  - url: https://idea-instructions.com/
+    title: "IDEA: An ongoing Series of nonverbal Algorithm assembly Instructions."
+    description: "Explain computer concept such as public key crypto, binary search in simple visualization for easier to understand."
 
-  - url: https://textslashplain.com/2018/02/14/understanding-the-limitations-of-https/
-    title: "Understanding the Limitations of HTTPS"
-    description: "Generally HTTPS solve problem of browser web on public wifi. But to what degree it protects us? Which information is still not encrypted? What is the limitation at what level, like can hosting company read my traffic? Can customer on the same server under same load balancer read it?"
+  - url: http://blog.krum.io/k-d-trees/
+    title: "Using k-d Trees to Efficiently Calculate nearest Neighbors in 3D Vector Space"
+    description: "Name CSS color is pre-defined hex value we can use with name string like reg, magenta, purple. What happen if the entire worlds will be in these named color only? We will use k-d tree to find the closet color to a named color and reduce picture color to only of these."
 
-  - url: https://medium.com/@cvitullo/overly-defensive-programming-e7a1b3d234c2
-    title: "Overly defensive programming"
-    description: "I have to confess I write a lot of \"just to be safe\" code. This post hit the exact spot, arguing that the needs to write defensive code is a signal to unknow problem and encourage using error handling, logging when verify data from internal app."
+  - url: https://tenderlovemaking.com/2018/02/12/speeding-up-ruby-with-shared-strings.html
+    title: "Speeding up Ruby with Shared String"
+    description: "An deep analysis on how use shared string to re-present string and its sub string without allocated new memory helps improve performance and reduce memory consumption."
 
-  - url: https://learnk8s.io/blog/smaller-docker-images
-    title: "3 simple tricks for smaller Docker images"
-    description: "We will learn how to squash multiple layers, use distro-less based image, and multi stage docker build to reduce size."
+  - url: https://medium.com/teads-engineering/easy-cassandra-scaling-with-terraform-chef-rundeck-9443e0375aa7
+    title: "Easy Cassandra Scaling"
+    description: "Let's learn how to glue Chef, Terraform and Rundeck to automate process of scaling Cassandra with 150 nodes"
 
-  - url: https://www.sohamkamani.com/blog/2018/02/18/golang-data-race-and-how-to-fix-it/
-    title: "Data race in Golang and how to fix"
-    description: "Go is known for how easy it is to build concurrent programs in it. But, with all this concurrency, comes the possibility of the dreaded data race – one of the hardest bugs to debug if you’re ever unfortunate enough to encounter it in your code."
+  - url: https://l0rd.github.io/containerspatterns/
+    title: "Containers Patterns"
+    description: "There are thousdand way to use containers. This presents various common container patterns, from spoofing hosts to multi-stage builds and from sidecar containers to mounting sources at runtime."
 
-  - url: http://blog.colinbreck.com/from-a-time-series-database-to-a-key-operational-technology-for-the-enterprise-part-i/
-    title: "From a Time-Series Database(TDSDB) to a Key Operational Technology for the Enterprise"
-    description: "A TSDB stores values attach to a timestamp and very effectivel to give information about application or server run on a data center. We can access the informaiton in a near-realtime to monitor and alerting. What can we do to take the TSDB to next level and power entire enterprise as an operational technology, instead of just being a tool for monitoring infrastructure only."
+  - url: http://richg42.blogspot.sg/2018/02/some-lessons-learned-while-developing.html
+    title: "Lessons Learned while Developing Age of Empires 1 Definitive Edition"
+    description: "Rich Geldreich shares 13 lessons he learned while developing the game Age of Empires 1 Definitive Edition. Top lessons: get networking and multiplayer working early, develop and use strong out of sync tools."
 
-  - url: https://www.contino.io/insights/a-model-for-scaling-terraform-workflows-in-a-large-complex-organization
-    title: "A Model for Scaling Terraform Workflows in a Large, Complex Organization"
-    description: "Terraform allows us to express Cloudresource in code and execute/apply them to create/modify these resource. Getting started is very easy. But the organize them when scaling is a bit of challenge. We needs to do lots of check like: only create this on prod, not on qa, how to re-use the code by abstract them into module."
+  - url: https://zwischenzugs.com/2011/08/29/my-favourite-secret-weapon-strace/
+    title: "My Favourite Secret Weapon – strace"
+    description: "strace is a tool allow you to see what system call your program is making. Ruby, Python, NodeJs, you can use strace on any process. To figure out why a process hang, or not starting and fail silently."
 
-  - url: https://github.com/ethereumbook/ethereumbook
-    title: "Mastering Ethereum, an open source book by Andreas M. Antonopoulos, Gavin Wood"
-    description: "Mastering Ethereum is a book for developers, offering a guide to the operation and use of the Ethereum, Ethereum Classic, RootStock (RSK) and other compatible EVM-based open blockchains."
+  - url: https://github.com/yangshun/front-end-interview-handbook#explain-how-this-works-in-javascript
+    title: "Front End Interview Handbook"
+    description: "Lots of very interesting front-end question, way better than the average Google front-end interview question have for you. Test yourself or just ignore it."
 
-  - url: https://elixircasts.io/learn-elixir
-    title: "Episodes in the Learn Elixir series"
-    description: "Collection of free episodes is a great place to start learning Elixir. You'll get an introduction to essential features of Elixir like pattern matching, Plug, and GenServer."
+  - url: https://github.com/arialdomartini/Back-End-Developer-Interview-Questions
+    title: "Back-End Developer Interview Questions"
+    description: "Similar to above but for backend, no answer though. Use it to test yourself :)"
 
-  - url: http://yourbasic.org/golang/your-basic-func/
-    title: "Unexpected functional programming in Go"
-    description: "This text is about the implementation of a Go tool based entirely on functions – the API contains only immutable data types, and the code is built on top of a struct with five func fields."
+  - url: https://www.mike-gualtieri.com/posts/stealing-data-with-css-attack-and-defense
+    title: "Stealing Data With CSS: Attack and Defense"
+    description: "This isn't as scary as it sound. But it's an very creative way to steal data on a page use only CSS. It works by generate bunch of CSS selector based on field value and set background image which trigger a HTTP request with the target input value."
 
-  - url: http://greyblake.com/blog/2018/02/19/how-to-fix-intermittent-test-failures/
-    title: "How to Fix Intermittent Test Failures"
-    description: "intermittent tests could be divided into two major groups: order dependent tests and intermittent tests by themselves. Let's divide them up, see how to re-produce some intermittent and strategy to fix them. This is Ruby, but I'm sure we can apply to anything else."
+  - url: https://medium.com/@nathan.hubens/handwritten-digit-recognizer-on-ios-with-keras-and-core-ml-using-the-mnist-dataset-8564f5d6f4ba
+    title: "Handwritten Digit Recognizer on iOS with Keras and Core ML Using the MNIST Dataset"
+    description: "CoreML is a new machine learning framework developed by Apple, bundle in iOS 11. This article is a hello world to learn Deep Learning with"
 
-  - url: https://www.citusdata.com/blog/2018/02/15/when-postgresql-blocks
-    title: "PostgreSQL rocks, except when it blocks: Understanding locks"
-    description: "Learn how to avoid using the query that lock the whole table."
+  - url: https://developers.google.com/web/fundamentals/performance/webpack/
+    title: "Web Performance Optimization with Webpack"
+    description: "A walk throught by Addy Osmani to effectively optimize site resources using webpack."
 
-  - url: https://blog.couchbase.com/high-throughput-low-latency-master-slave-replication/
-    title: "High Throughput and Low Latency Master Slave Replication"
-    description: "The article explains how master-slave replication can be done with (1) Delta Snapshots or with (2) Point-in-time snapshots, the trade-offs between them and when it is best to use one over the other."
+  - url: https://ops.tips/blog/nginx-http2-server-push/
+    title: "Nginx HTTP2 Server Push"
+    description: "NGINX just added server push to mainline. Checkout a NGINX HTTP2 server push example using the latest code from source integrating with an HTTP1 Golang web server."
 
-  - url: https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68
-    title: "The 5 Clustering Algorithms Data Scientists Need to Know"
-    description: "Clustering is a technique that involves the grouping of data points. Given a set of data points, we can use a clustering algorithm to classify each data point into a specific group. We can fed data and see which groups the data points fall into to gain insight."
+  - url: https://beta.observablehq.com/@dhotson/drawing-better-looking-curves
+    title: "Drawing better looking curves"
+    description: "A good read on graphic processing to draw curves"
 
-  - url: https://samsaffron.com/archive/2018/02/16/reducing-string-duplication-in-ruby
-    title: "Reducing String duplication in Ruby"
-    description: "Some ways to make Rails app use less memory by string deduplication."
+  - url: http://halunke.jetzt/
+    title: "Halunke is a dynamic, object-oriented language that has a simple grammar inspired by Smalltalk and Lisp"
+    description: "If you read this news letter for a while, you know me like desing programming language. This is written in Ruby. You can learn how to to implment a small toy language from this"
 
-  - url: https://medium.com/dailyjs/decoupling-business-logic-using-async-generators-cc257f80ab33
-    title: "Decouple Business Logic using Async Generators"
-    description: "Async generators provides a simple, easy to use but very powerful tool for splitting programs into smaller parts, making sources easier to write, read, maintain and test. The article shows this using an example. It implements a typical front-end component, namely drag and drop operations."
-
-  - url: http://www.mattzeunert.com/2018/01/25/v8-javascript-memory-quiz.html
-    title: "V8 memory quiz"
-    description: "V8 is the JavaScript engine that Chrome and Node use to run JavaScript code. Take this quiz to discover some interesting implementation details about how V8 stores values in memory."
-
-  - url: https://deadbeef.me/2018/01/go-gotchas
-    title: "Common go gotchas"
-    description: "Some of the common gotchas in Go that any beginner can run into."
-
-  - url: http://markdotto.com/2018/02/07/github-system-fonts
-    title: "Shipping system fonts to GitHub.com"
-    description: "System fonts are pretty good nowsaday. This post explains how Github take advantage of best font possible based on your operating system or device."
+  - url: https://gorails.com/episodes/building-a-hosting-platform-in-ruby
+    title: "Building A Hosting Platform in Ruby(Video)"
+    description: "The author works on Hatchbox.io, a hosting platform for Ruby, share how he design the code and feature of platform"
 
 read_code:
-  - url: https://github.com/zricethezav/gitleaks
-    title: "gitleaks: Searches full repo history for secrets and keys"
-    category: ["Go"]
-
-  - url: https://github.com/git-chglog/git-chglog
-    title: "git-chglog: CHANGELOG generator"
-    category: ["Go"]
-
-  - url: https://github.com/JacobEvelyn/git-self-blame
-    title: "it-self-blame is a simple git plugin that lets you take the blame for code you didn't write"
-    category: ["Bash"]
-
-  - url: https://github.com/yujiosaka/headless-chrome-crawler
-    title: "Distributed crawler powered by Headless Chrome: can crawler SPA too"
-    category: ["JavaScript"]
-
-  - url: https://github.com/funkia/list
-    title: "list: An extremely fast immutable lists with a comprehensive functional API"
-    category: ["JavaScript", "TypeScript"]
-
-  - url: https://github.com/igorkasyanchuk/log_analyzer
-    title: "log_analyzer: Rails logs analyzer (see how fast your views are rendering)"
-    category: ["Ruby"]
-
-  - url: https://github.com/nesaulov/surrealist
-    title: "Surrealize: "
-
-  - url: https://github.com/emehrkay/Pypher
-    title: "Pypher: Python Cypher Querybuilder"
+  - url: https://github.com/keredson/gnomecast
+    title: "gnomecast: A native Linux Chromecast GUI that supports transcoding and subtitles"
     category: ["Python"]
 
+  - url: https://github.com/DerWaldi/youtube-video-face-swap
+    title: "youtube-video-face-swap: perform a face swap on a youtube video almost automatically"
+    category: ["Python"]
+
+  - url: https://github.com/sweetalert2/sweetalert2
+    title: "Sweetalert2: A beautiful, responsive, customizable, accessible (WAI-ARIA) replacement for JavaScript's popup boxes"
+    category: ["JavaScript"]
+
+  - url: https://github.com/vincit/objection.js
+    title: "objection.js: An SQL-friendly ORM"
+    category: ["NodeJS"]
+
+  - url: https://github.com/nebrius/request-inspector
+    title: "request-inspector: A request timing diagnostic tool"
+    category: ["NodeJS"]
+
+  - url: https://github.com/socketry/lightio
+    title: "lightio: provide green thread to ruby. Like Golang's goroutine, or Crystal's fiber"
+    category: ["Ruby"]
+
+  - url: https://github.com/giving-a-fuck-about-climate-change/carbondoomsday
+    title: "carbondoomsday: A RESTish web API for climate change related data"
+    category: ["Python"]
+
+  - url: https://github.com/alash3al/wsify
+    title: "wsify: a tiny, simple and realtime pub/sub messaging service"
+    category: ["Golang"]
+
+  - url: https://github.com/mitchellh/go-server-timing
+    title: "go-server-timing:  library for creating and consuming HTTP Server-Timing headers"
+    category: ["Golang"]
+
+  - url: https://github.com/ultradark/ultradark
+    title: "ultradark: A fast, anonymous, and scriptable blockchain written in Elixir"
+    category: ["Elixir"]
+
+  - url: https://github.com/koczkatamas/onelang
+    title: "onelang: A POC web IDE that generates code for like 10 other languages"
+    category: ["TypeScript", "JavaScript"]
+
 tool:
-  - url: https://github.com/ks888/LambStatus
-    title: "LamdStatus: Serverless Status Page System"
+  - url: https://github.com/vedetta-com/caesonia
+    title: "caesonia: self-hosted OpenBSD Email Service"
 
-  - url: https://github.com/gnuns/fio
-    title: "fio: Simple socket relay tool"
+  - url: https://github.com/forward3d/alpinist
+    title: "alpinish: Automatic Alpine Linux Package Repository Generation using AWS Lambda, S3 & SSM Parameter Store"
 
-  - url: http://cockpit-project.org/
-    title: "Cockpit: a server manager that makes it easy to administer your GNU/Linux servers via a web browser"
+  - url: https://github.com/heewa/mongotime
+    title: "mongotime: See what MongoDB is spending time on"
 
-  - url: https://github.com/jiajunhuang/guard
-    title: "guard: A generic high performance circuit breaker & proxy server written in Go"
+  - url: https://github.com/vektah/gqlgen
+    title: "gqlgen: go generate based graphql server library"
 
-  - url: https://github.com/jessfraz/img
-    title: "Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder"
+  - url: https://github.com/cknadler/vim-anywhere
+    title: "vim-anywhere: Use Vim everywhere you've always wanted to"
 
-  - url: https://github.com/micrometer-metrics/micrometer
-    title: "micrometer: An application metrics facade for the most popular monitoring tools"
+  - url: https://blotter.js.org/
+    title: "blotter: A JavaScript API for drawing unconventional text effects on the web"
 
-  - url: https://github.com/sdegutis/AppGrid
-    title: "AppGrid: macOS window manager with Vim–like hotkeys"
+  - url: https://github.com/photonstorm/phaser
+    title: "Phaser - HTML5 Game Framework"
+
+  - url: https://github.com/imsnif/synp
+    title: "synp: Convert yarn.lock to package-lock.json and vice versa"
+
+  - url: https://github.com/udhos/goben
+    title: "goben: a golang tool to measure TCP/UDP transport layer throughput between hosts"
+
+  - url: https://github.com/stdlib/lib
+    title: "stdlib:  a standard library for microservices"
