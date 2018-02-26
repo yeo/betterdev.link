@@ -68,6 +68,10 @@ links:
     title: "Node.JS Process Is On Fire"
     description: "A 12 minute video on how to debug performance of NodeJS process: techniques and tools."
 
+  - url: https://medium.com/springworks-engineering/node-js-profiling-event-loop-lag-flame-charts-539e04723e84
+    title: "Node.js Profiling, Event Loop Lag & Flame Charts"
+    description: "We need to be aware of how the event loop work in Node.js. Kristofer share how you can use profiling to understand the behavior of a Node application: Monitoring the event loop, and understand flame graph."
+
   - url: https://www.hergertarian.com/detecting-toxic-comments-with-multitask-deep-learning
     title: "Detecting toxic comments with multi-task Deep Learning"
     description: "Surfacing toxic Wikipedia comments, by training an NLP deep learning model utilizing multi-task learning and evaluating a variety of deep learning architectures."
