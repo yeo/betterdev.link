@@ -72,6 +72,10 @@ links:
     title: "Detecting toxic comments with multi-task Deep Learning"
     description: "Surfacing toxic Wikipedia comments, by training an NLP deep learning model utilizing multi-task learning and evaluating a variety of deep learning architectures."
 
+  - url: https://www.antoniomallia.it/lets-implement-a-gaussian-naive-bayes-classifier-in-python.html
+    title: "Let's implement a Gaussian Naive Bayes classifier in Python"
+    description: "A typical example of problem ML tries to solve is classification. It can be expressed as the ability, given some input data, to assign a ‘class label’ to a sample."
+
   - url: https://medium.com/dailyjs/decoupling-business-logic-using-async-generators-cc257f80ab33
     title: "Decouple Business Logic using Async Generators"
     description: "Async generators provides a simple, easy to use but very powerful tool for splitting programs into smaller parts, making sources easier to write, read, maintain and test. The article shows this using an example. It implements a typical front-end component, namely drag and drop operations."
