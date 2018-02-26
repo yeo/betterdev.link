@@ -1,40 +1,40 @@
 ---
 time: "Feb 26, 2018"
-description: "Hi all, Thanks you for supporting from you. We're growing fast and it's getting expensive for me to send email. I'm going to move away from Mailchimp(and I'll share this process in next issue). To ensure the delivery, please help me by adding vinh@yeo.space to your address book so my email won't be marked as spam. From last 6 months, you can see I never send you spam. If you have any feedback, question about delivery, please ping me."
+description: "Hi all, thank you for supporting us. We're growing fast and it's getting expensive to send email. We’re going to move away from Mailchimp (and I'll share this process in next issue). To ensure the correct delivery, please add vinh@yeo.space to your address book, so the email won't be marked as spam. From last six months, you can see that we will never send you spam. If you have any feedback, questions about delivery, please ping me."
 draft: true
 
 links:
   - url: https://medium.freecodecamp.org/i-dont-understand-graph-theory-1c96572a1401
     title: "How to think in graphs: an illustrative introduction to Graph Theory and its applications"
-    description: "A graph at its code is simple. It's just vector and edge, which we all learn. But how many time we come across a practical use of graph? Let's look at some various applications of graph theory."
+    description: "A graph in code is simple. It's just vector and edges. But how many time we come across a practical use of graphs? Let's look at some various applications of graph theory."
 
   - url: https://textslashplain.com/2018/02/14/understanding-the-limitations-of-https/
     title: "Understanding the Limitations of HTTPS"
-    description: "Generally HTTPS solve problem of browser web on public wifi. But to what degree it protects us? Which information is still not encrypted? What is the limitation at what level, like can hosting company read my traffic? Can customer on the same server under same load balancer read it?"
+    description: "Generally HTTPS solves the problem of browsing the web on public wifi. But to what degree does it protects us? What information is still not encrypted? What are the limitations, and at what level? Can a hosting company read my traffic? Can customers on the same server under same load balancer read it?"
 
   - url: https://medium.com/@cvitullo/overly-defensive-programming-e7a1b3d234c2
     title: "Overly defensive programming"
-    description: "I have to confess I write a lot of \"just to be safe\" code. This post hit the exact spot, arguing that the needs to write defensive code is a signal to unknow problem and encourage using error handling, logging when verify data from internal app."
+    description: "I have to confess I write a lot of \"just to be safe\" code. This post hit the exact spot, arguing that the need to write defensive code is a signal to unknown problems and encourage using error handling and logging."
 
   - url: https://learnk8s.io/blog/smaller-docker-images
     title: "3 simple tricks for smaller Docker images"
-    description: "We will learn how to squash multiple layers, use distro-less based image, and multi stage docker build to reduce size."
+    description: "We will learn how to squash multiple layers, use distro-less based image, and multi-stage Docker build to reduce size."
 
   - url: https://www.sohamkamani.com/blog/2018/02/18/golang-data-race-and-how-to-fix-it/
     title: "Data race in Golang and how to fix"
     description: "Go is known for how easy it is to build concurrent programs in it. But, with all this concurrency, comes the possibility of the dreaded data race – one of the hardest bugs to debug if you’re ever unfortunate enough to encounter it in your code."
 
   - url: http://blog.colinbreck.com/from-a-time-series-database-to-a-key-operational-technology-for-the-enterprise-part-i/
-    title: "From a Time-Series Database(TDSDB) to a Key Operational Technology for the Enterprise"
-    description: "A TSDB stores values attach to a timestamp and very effectivel to give information about application or server run on a data center. We can access the informaiton in a near-realtime to monitor and alerting. What can we do to take the TSDB to next level and power entire enterprise as an operational technology, instead of just being a tool for monitoring infrastructure only."
+    title: "From a Time-Series Database (TSDB) to a Key Operational Technology for the Enterprise"
+    description: "What can we do to take the TSDB to next level and power entire enterprise as an operational technology instead of just being a tool for monitoring infrastructure only."
 
   - url: https://www.contino.io/insights/a-model-for-scaling-terraform-workflows-in-a-large-complex-organization
     title: "A Model for Scaling Terraform Workflows in a Large, Complex Organization"
-    description: "Terraform allows us to express Cloudresource in code and execute/apply them to create/modify these resource. Getting started is very easy. But the organize them when scaling is a bit of challenge. We needs to do lots of check like: only create this on prod, not on qa, how to re-use the code by abstract them into module."
+    description: "Terraform allows us to express Cloud resource in code and execute/apply them to create/modify these resource. Getting started is very easy. But the organization of them when scaling is a bit of challenge. We need to do lots of checks like: only create this on prod, not on QA, how to re-use the code by abstracting them into modules."
 
   - url: https://github.com/ethereumbook/ethereumbook
     title: "Mastering Ethereum, an open source book by Andreas M. Antonopoulos, Gavin Wood"
-    description: "Mastering Ethereum is a book for developers, offering a guide to the operation and use of the Ethereum, Ethereum Classic, RootStock (RSK) and other compatible EVM-based open blockchains."
+    description: "Mastering Ethereum is a book for developers, offering a guide to the operation and use of the Ethereum, Ethereum Classic, RootStock (RSK) and other compatible EVM-based open block chains."
 
   - url: https://elixircasts.io/learn-elixir
     title: "Episodes in the Learn Elixir series"
@@ -46,7 +46,7 @@ links:
 
   - url: http://greyblake.com/blog/2018/02/19/how-to-fix-intermittent-test-failures/
     title: "How to Fix Intermittent Test Failures"
-    description: "intermittent tests could be divided into two major groups: order dependent tests and intermittent tests by themselves. Let's divide them up, see how to re-produce some intermittent and strategy to fix them. This is Ruby, but I'm sure we can apply to anything else."
+    description: "Intermittent tests could be divided into two major groups: order dependent tests and intermittent tests by themselves. Let's divide them up, see how to re-produce some intermittent and strategy to fix them. This is in Ruby, but we can apply to anything else."
 
   - url: https://www.citusdata.com/blog/2018/02/15/when-postgresql-blocks
     title: "PostgreSQL rocks, except when it blocks: Understanding locks"
@@ -62,7 +62,7 @@ links:
 
   - url: https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68
     title: "The 5 Clustering Algorithms Data Scientists Need to Know"
-    description: "Clustering is a technique that involves the grouping of data points. Given a set of data points, we can use a clustering algorithm to classify each data point into a specific group. We can fed data and see which groups the data points fall into to gain insight."
+    description: "Clustering is a technique that involves the grouping of data points. Given a set of data points, we can use a clustering algorithm to classify each data point into a specific group. We can feed data and see which groups the data points fall into to gain insight."
 
   - url: https://www.youtube.com/watch?v=G9Vkpe55Gu8
     title: "Node.JS Process Is On Fire"
@@ -78,11 +78,11 @@ links:
 
   - url: https://www.antoniomallia.it/lets-implement-a-gaussian-naive-bayes-classifier-in-python.html
     title: "Let's implement a Gaussian Naive Bayes classifier in Python"
-    description: "A typical example of problem ML tries to solve is classification. It can be expressed as the ability, given some input data, to assign a ‘class label’ to a sample."
+    description: "A typical example of problem ML tries to solve is classification. It can be expressed as the ability, (given some input data), to assign a ‘class label’ to a sample."
 
   - url: https://medium.com/dailyjs/decoupling-business-logic-using-async-generators-cc257f80ab33
     title: "Decouple Business Logic using Async Generators"
-    description: "Async generators provides a simple, easy to use but very powerful tool for splitting programs into smaller parts, making sources easier to write, read, maintain and test. The article shows this using an example. It implements a typical front-end component, namely drag and drop operations."
+    description: "Async generators provide a simple, easy to use, but very powerful tool for splitting programs into smaller parts, making sources easier to write, read, maintain and test. The article shows this using an example. It implements a typical front-end component, namely drag and drop operations."
 
   - url: http://www.mattzeunert.com/2018/01/25/v8-javascript-memory-quiz.html
     title: "V8 memory quiz"
@@ -94,7 +94,7 @@ links:
 
   - url: http://markdotto.com/2018/02/07/github-system-fonts
     title: "Shipping system fonts to GitHub.com"
-    description: "System fonts are pretty good nowsaday. This post explains how Github take advantage of best font possible based on your operating system or device."
+    description: "System fonts are pretty good nowadays. This post explains how Github take advantage of best font possible based on your operating system or device."
 
   - url: https://m.signalvnoise.com/on-writing-software-well-aee3780767a6
     title: "On Writing Software Well"
@@ -106,7 +106,7 @@ links:
 
   - url: https://ieftimov.com/golang-datastructures-linked-lists
     title: "Data structures in Go: Linked lists"
-    description: "Let's see how to impelement some common data structure like linked list, stack, queue in Go"
+    description: "Let's see how to implement some common data structure like linked list, stack, queue in Go"
 
   - url: https://samsaffron.com/archive/2018/02/16/reducing-string-duplication-in-ruby
     title: "Reducing String duplication in Ruby"
