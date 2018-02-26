@@ -179,9 +179,6 @@ tool:
   - url: https://github.com/jiajunhuang/guard
     title: "guard: A generic high performance circuit breaker & proxy server written in Go"
 
-  - url: https://github.com/jessfraz/img
-    title: "Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder"
-
   - url: https://github.com/micrometer-metrics/micrometer
     title: "micrometer: An application metrics facade for the most popular monitoring tools"
 
