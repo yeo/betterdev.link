@@ -137,7 +137,7 @@ defmodule Betterdev.Community do
 
     r = [id: link.id, title: w.title, description: w.article_text, content: w.article_text, uri: link.uri]
 
-    # index
+    # index to elasticsearch
     put("/betterdev/link/#{link.id}", r)
 
     tags = Betterdev.Helper.Classifier.extract(w.article_text)

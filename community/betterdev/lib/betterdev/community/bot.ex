@@ -34,7 +34,6 @@ defmodule Betterdev.Community.Bot do
 
   def import_link(text, user) do
     String.split(text, "\n") |> Enum.map(fn (line) ->
-      IO.inspect line
       case Regex.run(~r/(http|https):\/\/([^\s\t\n]+)/, text, global: true) do
         [url | _] ->
           w = Scrape.website(url)
@@ -47,7 +46,7 @@ defmodule Betterdev.Community.Bot do
     end)
   end
 
-  def retri
+  # def retri
   def listen(start \\ -100) do
     messages =  Exbot.get_updates(&(&1 |> Update.with_offset(start)))
     last_message = messages |> List.last
