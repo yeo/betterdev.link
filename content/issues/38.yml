@@ -1,7 +1,7 @@
 ---
 time: "Feb 26, 2018"
 description: "Hi all, thank you for supporting us. We're growing fast and it's getting expensive to send email. We’re going to move away from Mailchimp (and I'll share this process in next issue). To ensure the correct delivery, please add vinh@yeo.space to your address book, so the email won't be marked as spam. From last six months, you can see that we will never send you spam. If you have any feedback, questions about delivery, please ping me."
-draft: true
+draft: false
 
 links:
   - url: https://medium.freecodecamp.org/i-dont-understand-graph-theory-1c96572a1401

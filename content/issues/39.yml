@@ -1,0 +1,117 @@
+---
+time: "Mar 5, 2018"
+description: "Hi all, to ensure the correct delivery, please add vinh@yeo.space to your address book, so the email won't be marked as spam. From last nine months, you can see that we will never send you spam. If you have any feedback, questions about delivery, please ping me."
+draft: false
+
+links:
+  - url: https://randomascii.wordpress.com/2018/02/25/compiler-bug-linker-bug-windows-kernel-bug/
+    title: "Compiler bug? Linker bug? Windows Kernel bug."
+    description: "Story about a investigation spanned twenty months for a flaky failures. There was a linker bug, a Windows kernel bug which is triggered by linkers!"
+
+  - url: https://github.com/SSYGEN/blog/issues/31
+    title: "Programming lessons learned from making my first game"
+    description: "SSYGEN develops game with LÖVE. After his first game BYTEPATH, he write down soft and hard lession and why he's going to make his own engine"
+
+  - url: https://github.com/enocom/gopher-reading-list
+    title: "A Gopher's Reading List"
+    description: "A reading list of blog posts about Golang. It aspires to include only the most useful and relevant material that anyone writing Go should eventually read."
+
+  - url: https://teamgaslight.com/blog/elm-elixir-and-phoenix-reflecting-on-a-functional-full-stack-project
+    title: "Elm, Elixir, and Phoenix: Reflecting on a Functional Full-Stack Project"
+    description: "Zack build an open source Poker on Phoenix, and the front-end in Elm. In his words: Elm and Elixir - A Match Made in Functional Heaven. The is a story of how to structure the project, the challenges, the roadblocks and the future."
+
+  - url: https://blog.travelex.io/blazing-fast-microservice-with-go-and-lambda-d30d95290f28
+    title: "Blazing Fast Microservice with Go and Lambda"
+    description: "A story from Kotlin to Go: rewriting a micro-service. Tricks how to provision resource effectively since the price of lambda is based on mem, cpu and execution time. Some great gotcha too: AWS VPC & Concurrency due to limit of ENI, database& concurency, especiall connection pool which is a challenge for lambda."
+
+  - url: http://raganwald.com/2018/02/23/forde.html
+    title: "How I Learned to Stop Worrying and ❤️ the State Machine"
+    description: "Most of time we program by build up a model with states, and logic around this state to transform them. Algorithms + Data Structures = Programs. By recognizing when domain models should be represented first and foremost as state machines–or recognizing when to refactor domain models into state machines–we keep our models understandable and workable."
+
+  - url: https://geowarin.github.io/what-i-did-wrong-as-a-cto/
+    title: "What I Did Wrong as a CTO"
+    description: "Good decision: Kotlin, JooQ/Flyway, Postgres, TypeScript, no microservice, no webpack. Bad: Server-side rendering, service layer, REST is may not a good choice and GraphQL should be considered."
+
+  - url: https://developers.google.com/machine-learning/crash-course/
+    title: "Machine Learning(ML) Crash Course"
+    description: "Google's fast-paced, practical introduction to ML. Video lessions, notes, documents, very well organized to get started"
+
+  - url: https://www.mikeperham.com/2018/02/28/ruby-optimization-with-one-magic-comment/
+    title: "Ruby Optimization with One Magic Comment"
+    description: "Software performance optimization is simple: find a way to do less. Sidekiq's author shares trick using a single comment to improve performance"
+
+  - url: https://github.com/dgryski/go-perfbook
+    title: "Best Practices for Writing High-Performance Go Code"
+    description: "Still in WIP mode. First sections cover writing optimized code in any language. The later sections cover Go-specific techniques."
+
+  - url: https://github.com/andrew--r/frontend-case-studies
+    title: "A curated list of technical talks and articles about real-world enterprise frontend development"
+    description: "Articles like “Building a simple todo list with [framework or technology name]” won't teach you how that framework or technology solves real-world problems and works at a large scale. This is a curated list of technical talks and articles about real-world enterprise frontend development."
+
+  - url: https://blog.dnsimple.com/2018/02/server-timing-with-phoenix/
+    title: "Phoenix performance metrics within the browser developer tools"
+    description: "Server-Timing allows us to return time metrics in response headers. Chrome dev tools supports this and can display these nicely. This is a POC implementation for Phoenix framework. But the idea apply to any framework/application"
+
+  - url: https://hackernoon.com/how-to-script-an-automatic-token-airdrop-for-40k-subscribers-e40c8b1a02c6
+    title: "How To Script An Automatic Token Airdrop for 40k subscribers"
+    description: "Writing a node.js script that performs an automatic token distribution/airdrop to a list of Ethereum addresses. The code is taken from Polymath Token Distribution."
+
+read_code:
+  - url: https://github.com/rumlang/rum
+    title: "rumlang: functional language, easily extensible and possible (Lua features with LISP syntax and functional)"
+    category: ["Go"]
+
+  - url: https://github.com/scoutapp/ruby_server_timing
+    title: "Bring Rails server-side performance metrics to Chrome's Developer Tools via the Server Timing API"
+    category: ["Ruby"]
+
+  - url: https://github.com/terkelg/prompts
+    title: "Lightweight, beautiful and user-friendly interactive prompts"
+    category: ["JavaScript"]
+
+  - url: https://github.com/hchasestevens/bellybutton
+    title: "bellybutton: Custom Python linting through AST expressions"
+    category: ["Python"]
+
+  - url: https://atomiks.github.io/30-seconds-of-css/
+    title: Collection of Useful CSS Snippets
+    category: ["CSS"]
+
+  - url: https://github.com/Neilpang/acme.sh
+    title: "A pure Unix shell script implementing ACME client protocol"
+    category: ["Bash"]
+
+  - url: https://github.com/rs/jplot
+    title: "jplot: iTerm2 expvar/JSON monitoring tool"
+    category: ["Go"]
+
+tool:
+  - url: https://github.com/bettercap/bettercap
+    title: "bettercap: The state of the art network attack and monitoring framework"
+
+  - url: https://github.com/soutaro/steep
+    title: "steep: Gradual Typing for Ruby with type annoatation in comment"
+
+  - url: https://github.com/zalando/skipper
+    title: "skipper: An HTTP router and reverse proxy for service composition"
+
+  - url: https://github.com/RadhiFadlillah/shiori
+    title: "shiori: Simple bookmark manager built with Go"
+
+  - url: https://github.com/erroneousboat/slack-term
+    title: "slack-term: Slack client for your terminal"
+
+  - url: https://github.com/google/gops
+    title: "gops: ps of go, list and diagnose Go processes currently running on your system"
+
+  - url: https://github.com/rakyll/hey
+    title: "hey: HTTP load generator, ApacheBench (ab) replacement"
+
+  - url: https://github.com/fabiomcosta/thebugger
+    title: "thebugger: debug a nodejs process without inspect flags"
+
+  - url: https://github.com/Te-k/harpoon
+    title: "harpoon: CLI tool for open source and threat intelligence"
+
+  - url: https://konvajs.github.io/
+    title: "konvajs: HTML5 2d canvas library for desktop and mobile applications"
