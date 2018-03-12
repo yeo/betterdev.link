@@ -1,6 +1,6 @@
 ---
 time: "Mar 12, 2018"
-description: "Hi all, DST begins yesterday at 2:00AM local time. I'm sure many developer/sysadmin has to do some migration to move time over for the system, or solve some bugs around this. I guess many tests are failed too. That's fine. We are always learning. I hope by reading this news letter we can learn more about edge cases of programming, the fast evolution of technologies, or a new JavaScript framework everyday. Good new: we get more day light to read now :). Have a good week everyone!"
+description: "Hi all, DST began yesterday at 2:00AM local time. I'm sure many developers/sysadmins had to do some migration to move time over for the system, or solve some bugs around this. I'd guess many tests failed too! That's fine, we are always learning. I hope by reading this newsletter we can learn more about edge cases of programming, the fast evolution of technologies, or a new JavaScript framework everyday. Good news: we get more daylight to read now :). Have a good week everyone!"
 draft: false
 
 links:
@@ -14,19 +14,19 @@ links:
 
   - url: https://blog.heptio.com/on-securing-the-kubernetes-dashboard-16b09b1b7aca
     title: "On Securing the Kubernetes Dashboard"
-    description: "Tesla got hack becausse the accidently let kubernetes dashboard open to public. This post summarizes what happens and how they got into that situation. We will learn how to secure dashboard with an oauth2 proxy on top of dashboard to protect it."
+    description: "Tesla got hacked because they accidentally had their Kubernetes dashboard open to public. This post summarizes what happened and how they got into that situation. We will learn how to secure dashboards with an oauth2 proxy on top of the dashboard to protect it."
 
   - url: http://www.olioapps.com/blog/the-lost-art-of-the-makefile/
     title: "The Lost Art of the Makefile"
-    description: "To run a modern JavaScript project nowsaday, you're very likely needs webpack, babel, transpiling rule, and a bunch of other plugins to glue thing up, and even npm script to make shortcut command. This articule explains when to use Webpack, why we need it, when we can just use a Makefile. Then a practical example of a Makefile introduction."
+    description: "To run a modern JavaScript project now-a-days, you very likely needs webpack, babel, transpiling rules, and a bunch of other plugins to glue things up. Even npm script to make shortcut commands. This article explains when to use Webpack, why we need it, when we can just use a Makefile. Then, a practical example of a Makefile introduction."
 
   - url: http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/
     title: "Notes for new Make users"
-    description: "If you are more into Make, and above isn't enough..."
+    description: "If you are new into Make, and previous article wasn't enough..."
 
   - url: https://medium.com/@Arafat./solving-captchas-with-tensorflow-and-ruby-bc704c6ab92c
     title: "Solving CAPTCHAs with TensorFlow and Ruby"
-    description: "Lots of Machine learning project/tutorial uses TensorFlow, but it's only available in Python. Arafat Khan made a gem for TensorFlow. In this, he brief how we will use it to solve CAPTCHAs. This is huge for Ruby dev to have TensorFlow binding for Ruby."
+    description: "Lots of Machine learning project/tutorial uses TensorFlow, but it's only available in Python. Arafat Khan made a gem for TensorFlow. In this, he briefs how we will use it to solve CAPTCHAs. This is huge for Ruby dev to have TensorFlow binding for Ruby."
 
   - url: https://topologyeyewear.github.io/engineering-blog/2018/03/07/heap_corruption/
     title: "Solving a Mysterious Heap Corruption Crash"
@@ -42,31 +42,31 @@ links:
 
   - url: https://dev.to/hajimehoshi/go-packages-we-developed-for-our-games--4cl9
     title: "Go Packages we developed for our games"
-    description: "Go single static binary build makes it very easy to write and deploy small game. By using Go and GopherJS the game can easily target multiple platform from desktop to web. He list the public Go packages they developed and used for the games!"
+    description: "Go single static binary build makes it very easy to write and deploy small games. By using Go and GopherJS, the game can easily target multiple platform from desktop to web. The author lists the public Go packages they developed and used for the games!"
 
   - url: https://github.com/teh-cmc/go-internals/tree/master/chapter1_assembly_primer
     title: "A Primer on Go Assembly"
-    description: "This is a book of internal of Golang. This is chapter for developing some familiarity with Go's abstract assembly language"
+    description: "This is a book of internal Golang. This is chapter for developing some familiarity with Go's abstract assembly language."
 
   - url: http://dist-prog-book.com/chapter/3/message-passing.html
     title: "Message Passing and the Actor Model"
-    description: "This is chapter 3 of a free book. Message passing programming models have essentially been discussed since the beginning of distributed computing and as a result message passing can be taken to mean a lot of things. Communicating Sequential Processes is used in Go, Clojure to achieve concurency. Another way is actor model, which this post explains what and why"
+    description: "This is chapter 3 of a free eBook. Message passing programming models have essentially been discussed since the beginning of distributed computing, and as a result, message passing can be taken to mean a lot of things. Communicating Sequential Processes is used in Go, Clojure to achieve concurency. Another way is actor model, this post explains the what and why."
 
   - url: https://towardsdatascience.com/distributed-transactions-and-why-you-should-care-116b6da8d72
     title: "Distributed transactions and why you should care"
-    description: "Many distributed database are eventual-consistency and have no support for ACID. But why it has to be that way? Why should I as an application developer concern myself with making sure that the transactions made by my application are propagated consistently and atomically across shards"
+    description: "Many distributed databases are eventual-consistency and have no support for ACID. But why it has to be that way? Why should I, as an application developer, concern myself with making sure that the transactions made by my application are propagated consistently and atomically across shards?"
 
   - url: https://blog.cloudflare.com/http-analytics-for-6m-requests-per-second-using-clickhouse/
     title: "HTTP Analytics for 6M requests per second using ClickHouse"
-    description: "Learn how CloudFlare teams migrate data analytic from Postgres/Citus to ClickHouse, an open source column-oriented database management system capable of real time generation of analytical data reports,"
+    description: "Learn how CloudFlare teams migrate data analytic from Postgres/Citus to ClickHouse, an open source column-oriented database management system capable of real time generation of analytical data reports."
 
   - url: https://www.researchgate.net/publication/322968502_Cache-tries_concurrent_lock-free_hash_tries_with_constant-time_operations
     title: "Cache-tries: concurrent lock-free hash tries with constant-time operations"
-    description: "A research paper on a hash trie that is augmented with a quiescently consistent cache, which permits the basic operations to run in expected O(1) time"
+    description: "A research paper on hash tries that is augmented with a quiescently consistent cache, which permits the basic operations to run in expected O(1) time."
 
   - url: https://hacks.mozilla.org/2018/03/how-to-write-css-that-works-in-every-browser-even-the-old-ones/
     title: "How to Write CSS That Works in Every Browser, Even the Old Ones"
-    description: "A serie of videos about how to write css that target browser by using thing like Can I Use, Feature Queries..."
+    description: "A series of videos about how to write CSS that target browsers by using thing like Can I Use, Feature Queries..."
 
 read_code:
   - url: https://github.com/stratis-storage/stratisd
@@ -75,7 +75,7 @@ read_code:
       - Rust
 
   - url: https://github.com/learnbyexample/Command-line-text-processing/blob/master/ruby_one_liners.md
-    title: "A collection of Ruby one liner to invoke right from command line with ruby -p"
+    title: "A collection of Ruby one liners to invoke right from command line with ruby -p"
     category:
       - Ruby
 
