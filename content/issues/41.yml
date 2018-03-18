@@ -1,48 +1,63 @@
 ---
 time: "Mar 19, 2018"
 version: 1.0
-description: |
-  Hi all, this week I'm starting to move a small amount of user to our own email platform.
-
+description: ""
 draft: false
 
 links:
-  - url: https://cloudplatform.googleblog.com/2018/03/introducing-Agones-open-source-multiplayer-dedicated-game-server-hosting-built-on-Kubernetes.html
-    title: "Agones: Open-source, multiplayer, dedicated game-server hosting built on Kubernetes"
+  - url: https://kateheddleston.com/blog/becoming-a-10x-developer?utm_source=programmingdigest&utm_medium=email&utm_campaign=featured
+    title: "Becoming a 10x Developer"
     description: |
-      A game server by Google team, run on Kubernetes and scale dedicated game servers.
+      We all want to become a better dev. Great players make everyone around them look like great players. This is 10 ways to be a better teammate.
 
   - url: https://towardsdatascience.com/how-i-implemented-iphone-xs-faceid-using-deep-learning-in-python-d5dbaa128e1d
-    title: "How I implemented iPhone X’s FaceID using Deep Learning in Python"
+    title: "Implement iPhone X’s FaceID using Deep Learning in Python"
     description: |
-      Reverse engineering iPhone X’s new unlocking mechanism. Reimplement with Keras.
+      Reverse engineering iPhone X’s new unlocking mechanism and reimplement with Keras.
+
+  - url: https://blog.sessionstack.com/how-javascript-works-the-rendering-engine-and-tips-to-optimize-its-performance-7b95553baeda
+    title: "How JavaScript works: the rendering engine and tips to optimize its performance"
+    description: |
+      Continuation of this series about internal mechanism of JavaScript. This article focus on process of rendering HTML into browser.
+  - url: https://codeburst.io/taming-huge-collections-of-dom-nodes-bebafdba332
+    title: "Work with thousands of DOM nodes using pure JavaScript and DOM API"
+    description: |
+      DOM is slow. Repaints and reflows are even slower. Keep the number of DOM nodes down. Cache created DOM node, and use them as a pool of pre-assembled elements.
+
+  - url: https://keminglabs.com/blog/building-a-fast-electron-app-with-rust/
+    title: "Building a fast Electron app with Rust"
+    description: |
+      Electron has bad rep of heavy, slowness. Kevin utilized Rust to make it fast, respond to all user input in < 16ms.
+
+  - url: https://segment.com/blog/secure-access-to-100-aws-accounts/
+    title: "Secure Access to 100 AWS Accounts"
+    description: |
+      Whoever manage AWS understand the pain to manage many AWS users, and the API key where developer put in their laptop. Segment design a system where noone has AWS keys.
 
   - url: https://medium.com/@mycoralhealth/code-your-own-blockchain-mining-algorithm-in-go-82c6a71aba1f
     title: "Code your own blockchain mining algorithm in Go"
     description: |
       You hear wild stories of people filling up warehouses with GPUs. What exactly is cryptocurrency mining? How can I try coding my own mining algorithm?
 
-  - url: https://blog.sessionstack.com/how-javascript-works-the-rendering-engine-and-tips-to-optimize-its-performance-7b95553baeda
-    title: "How JavaScript works: the rendering engine and tips to optimize its performance"
-    description: "Continuation of this series about internal mechanism of JavaScript. This article focus on process of rendering HTML into browser."
+  - url: http://xillybus.com/tutorials/pci-express-tlp-pcie-primer-tutorial-guide-1
+    title: "Down to the TLP: How PCI express devices talk"
+    description: |
+      Let's dust up some knowledge on hardware. A bit dry but I guarantee it's interesting topic to understand more about computer internally.
 
   - url: https://pawelurbanek.com/slow-rails-queries
-    title: "How to Track Down and Fix Slow Active Record SQL Queries in Rails"
-    description: "Before you decide that “Rails doesn’t scale!” and start a rewrite to a tech stack with potentially more performance, maybe you should double check your database queries first."
+    title: "Track Down and Fix Slow Active Record SQL Queries in Rails"
+    description: |
+      Before you decide that “Rails doesn’t scale!” and start a rewrite to a tech stack with potentially more performance, maybe you should double check your database queries first.
 
   - url: https://ret2got.wordpress.com/2018/01/19/how-your-ethereum-can-be-stolen-using-dns-rebinding/
     title: "How your ethereum can be stolen through DNS rebinding"
     description: |
-      From a technical point of view, Ethereum is a potential project. In this, we will see how DNS rebinding can be utilized
-      to steal Ethereum. The gist is by using short TTL, we can change the target IP address to a local service to fetch data
+      By using short TTL, we can change the target IP address to a local service to fetch data. Since Ethereum run a full node on local on port 8545, we can target at that.
 
   - url: http://adilmoujahid.com/posts/2018/03/intro-blockchain-bitcoin-python/
     title: "A Practical Introduction to Blockchain with Python"
-    description: "We're progammber, lets ignore the hype around Bitcoin. As its core, a blockchain is a distributed database that allows direct transactions between two parties without the need of a central authority."
-
-  - url: https://vstinner.github.io/python37-gil-change.html
-    title: "How I fixed a very old GIL race condition in Python 3.7"
-
+    description: |
+      We're progammber, lets ignore the hype around Bitcoin. As its core, a blockchain is a distributed database that allows direct transactions between two parties without the need of a central authority.
 
   - url: http://www.tedinski.com/2018/03/13/how-compilers-are-designed.html
     title: "What can we learn from how compilers are designed"
@@ -51,22 +66,26 @@ links:
 
   - url: https://medium.com/secjuice/how-to-hide-your-ports-with-port-knocking-cb7f244849e7
     title: "How To Hide Your Ports With Port Knocking"
-    description: "Port 22 has to open for SSH access, unless we have other VPN solution, which is another attack vector on its own. One way to hide them is using port knocking. The idea is that port 22 is closed by default, and only open after a certain ports are knocked."
+    description: |
+      Port 22 has to open for SSH access, unless we have other VPN solution, which is another attack vector on its own. One way to hide them is using port knocking. The idea is that port 22 is closed by default, and only open after a certain ports are knocked.
 
   - url: http://raganwald.com/2018/03/03/reflections.html
     title: "More State Machine ❤️: From Reflection to Statecharts"
-    description: ""
+    description: |
+      We looked at how state machine help organizing the behaviour of domain models, ensure it's state is always in exactly one of pre-defined number of states, and use method to transition to other state. Now, We look at the interface a state machine has with the entities that use it.
 
   - url: https://web.stanford.edu/class/cs140e/assignments/0-blinky/
     title: "Write an LED blinky program for Raspberry Pi"
     description: |
       Getting some extra Raspberry Pi around? Time to have some fun, a small program that blink an LED via GPIO. This is also a course of operating system if you want to learn more
 
+brief:
   - url: https://medium.baqend.com/web-performance-made-simple-fc61d81d0c0e
     title: "Web Performance Made Simple"
-    description: "A short summary of what/when/why/how on web performance"
 
-brief:
+  - url: http://beckje01.com/talks/greach-2018-zipkin-light.html#/
+    title: "Hands on debugging in microservices with Zipkin"
+
   - url: http://brendanjryan.com/golang/profiling/2018/02/28/profiling-go-applications.html
     title: "Profiling Go Application"
 
@@ -75,6 +94,9 @@ brief:
 
   - url: https://zwischenzugs.com/2018/03/14/five-key-git-concepts-explained-the-hard-way/
     title: "Five Key Git Concepts Explained the Hard Way"
+
+  - url: https://vstinner.github.io/python37-gil-change.html
+    title: "How I fixed a very old GIL race condition in Python 3.7"
 
 video:
   - url: https://www.youtube.com/watch?v=VBrnmciV9fM&list=PLrEMgOSrS_3fghr8ez63xKFNF-BA6Pz13
@@ -86,7 +108,23 @@ video:
   - url: https://www.youtube.com/watch?v=wgWR6N5PfHQ
     title: "Develop a Messenger Bot in Pure Ruby"
 
+  - url: https://www.twitch.tv/pervognsen
+    title: "Create the software/hardware stack for a computer from scratch"
+
+  - url: https://www.youtube.com/watch?v=2SUBRE6wGiA&list=PLSE8ODhjZXjY0GMWN4X8FIkYNfiu8_Wl9&index=1
+    title: "Time Series Database Lectures #1 - Paul Dix (InfluxDB)"
+
 read_code:
+  - url: https://github.com/iridakos/goto
+    title: "goto: quickly navigate to aliased directories supporting auto-completion"
+    category:
+      - Bash
+
+  - url: https://github.com/jinzhu/now
+    title: "now: a time toolkit"
+    category:
+      - Golang
+
   - url: https://github.com/Spotifyd/spotifyd
     title: "spotifyd: An open source Spotify client running as a UNIX daemon"
     category:
@@ -121,12 +159,22 @@ read_code:
       - KV-Store
 
 tool:
+  - url: https://github.com/appleboy/gorush
+    title: "gorush: A push notification server"
+    category:
+      - Golang
+
   - url: https://github.com/alpacahq/marketstore
     title: "marketstore: DataFrame Server for Financial Timeseries Data"
     category:
       - Golang
       - Timeseries
       - Database
+
+  - url: https://github.com/hasura/gitkube
+    title: "Gitkube: Build and deploy docker images to Kubernetes using git push"
+    category:
+      - Golang
 
   - url: https://github.com/keel-hq/keel
     title: "keel: Automated Kubernetes deployment updates"
@@ -172,3 +220,18 @@ tool:
 
   - url: https://github.com/parse-community/parse-server
     title: "parse-server: Parse-compatible API server module for Node/Express"
+
+  - url: https://github.com/boz/kail
+    title: "kail: kubernetes log viewer"
+
+  - url: https://github.com/uber-common/metta
+    title: "metta: An information security preparedness tool to do adversarial simulation"
+    category:
+      - Python
+
+  - url: https://cloudplatform.googleblog.com/2018/03/introducing-Agones-open-source-multiplayer-dedicated-game-server-hosting-built-on-Kubernetes.html
+    title: "Agones: Open-source, multiplayer, dedicated game-server hosting built on Kubernetes"
+    category:
+      - Golang
+
+
