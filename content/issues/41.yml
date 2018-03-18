@@ -5,7 +5,7 @@ description: ""
 draft: false
 
 links:
-  - url: https://kateheddleston.com/blog/becoming-a-10x-developer?utm_source=programmingdigest&utm_medium=email&utm_campaign=featured
+  - url: https://kateheddleston.com/blog/becoming-a-10x-developer
     title: "Becoming a 10x Developer"
     description: |
       We all want to become a better dev. Great players make everyone around them look like great players. This is 10 ways to be a better teammate.
@@ -13,12 +13,13 @@ links:
   - url: https://towardsdatascience.com/how-i-implemented-iphone-xs-faceid-using-deep-learning-in-python-d5dbaa128e1d
     title: "Implement iPhone X’s FaceID using Deep Learning in Python"
     description: |
-      Reverse engineering iPhone X’s new unlocking mechanism and reimplement with Keras.
+      Reverse engineering iPhone X’s new unlocking mechanism and re-implement with Keras.
 
   - url: https://blog.sessionstack.com/how-javascript-works-the-rendering-engine-and-tips-to-optimize-its-performance-7b95553baeda
     title: "How JavaScript works: the rendering engine and tips to optimize its performance"
     description: |
-      Continuation of this series about internal mechanism of JavaScript. This article focus on process of rendering HTML into browser.
+      Continuation of this series about the internal mechanisms of JavaScript. This article focuses on process of rendering HTML into the browser.
+
   - url: https://codeburst.io/taming-huge-collections-of-dom-nodes-bebafdba332
     title: "Work with thousands of DOM nodes using pure JavaScript and DOM API"
     description: |
@@ -27,7 +28,7 @@ links:
   - url: https://keminglabs.com/blog/building-a-fast-electron-app-with-rust/
     title: "Building a fast Electron app with Rust"
     description: |
-      Electron has bad rep of heavy, slowness. Kevin utilized Rust to make it fast, respond to all user input in < 16ms.
+      Electron has bad reputation for being heavy and slow. Kevin utilized Rust to make it fast and respond to all user inputs in < 16ms.
 
   - url: https://segment.com/blog/secure-access-to-100-aws-accounts/
     title: "Secure Access to 100 AWS Accounts"
@@ -35,14 +36,14 @@ links:
       Whoever manages AWS understand the pain to manage AWS users, together with API keys that developers put in their laptop. Segment designs a system where noone has AWS keys.
 
   - url: https://medium.com/@mycoralhealth/code-your-own-blockchain-mining-algorithm-in-go-82c6a71aba1f
-    title: "Code your own blockchain mining algorithm in Go"
+    title: "Code your own Blockchain mining algorithm in Go"
     description: |
       You hear wild stories of people filling up warehouses with GPUs. What exactly is cryptocurrency mining? How can I try coding my own mining algorithm?
 
   - url: http://xillybus.com/tutorials/pci-express-tlp-pcie-primer-tutorial-guide-1
     title: "Down to the TLP: How PCI express devices talk"
     description: |
-      Let's dust up some knowledge on hardware. A bit dry but I guarantee it's interesting topic to understand more about computer internally.
+      Let's dust up some knowledge on hardware. A bit dry but I guarantee it’s an important topic to understand more about computers internally.
 
   - url: https://pawelurbanek.com/slow-rails-queries
     title: "Track Down and Fix Slow Active Record SQL Queries in Rails"
@@ -50,19 +51,19 @@ links:
       Before you decide that “Rails doesn’t scale!” and start a rewrite to a tech stack with potentially more performance, maybe you should double check your database queries first.
 
   - url: https://ret2got.wordpress.com/2018/01/19/how-your-ethereum-can-be-stolen-using-dns-rebinding/
-    title: "How your ethereum can be stolen through DNS rebinding"
+    title: "How your Ethereum can be stolen through DNS rebinding"
     description: |
-      By using short TTL, we can change the target IP address to a local service to fetch data. Since Ethereum run a full node on local on port 8545, we can target at that.
+      By using short TTL, we can change the target IP address to a local service to fetch data. Since Ethereum runs a full node on local on port 8545, we can target that.
 
   - url: http://adilmoujahid.com/posts/2018/03/intro-blockchain-bitcoin-python/
     title: "A Practical Introduction to Blockchain with Python"
     description: |
-      We're progammber, lets ignore the hype around Bitcoin. As its core, a blockchain is a distributed database that allows direct transactions between two parties without the need of a central authority.
+      We're programmers, let’s ignore the hype around Bitcoin. As its core, a Blockchain is a distributed database that allows direct transactions between two parties without the need of a central authority.
 
   - url: http://www.tedinski.com/2018/03/13/how-compilers-are-designed.html
     title: "What can we learn from how compilers are designed"
     description: |
-      Compiler are big program, noone argue that. And design them is pretty well solved. We can see how well GCC, LLVM, Go, Java compiler works.  One key idea is that compilers consists of a pipeline of transformations from one form of data to the next.
+      Compiler are big programs, no one argues that. And designing them is pretty well solved. We can see how well GCC, LLVM, Go, Java compiler works.  One key idea is that compilers consists of a pipeline of transformations from one form of data to the next.
 
   - url: https://medium.com/secjuice/how-to-hide-your-ports-with-port-knocking-cb7f244849e7
     title: "How To Hide Your Ports With Port Knocking"
@@ -72,12 +73,12 @@ links:
   - url: http://raganwald.com/2018/03/03/reflections.html
     title: "More State Machine ❤️: From Reflection to Statecharts"
     description: |
-      We looked at how state machine help organizing the behaviour of domain models, ensure it's state is always in exactly one of pre-defined number of states, and use method to transition to other state. Now, We look at the interface a state machine has with the entities that use it.
+      We looked at how state machine help organizing the behaviour of domain models, ensure its state is always in exactly one of pre-defined number of states, and used method to transition to other state. Now, we look at the interface a state machine has with the entities that use it.
 
   - url: https://web.stanford.edu/class/cs140e/assignments/0-blinky/
     title: "Write an LED blinky program for Raspberry Pi"
     description: |
-      Getting some extra Raspberry Pi around? Time to have some fun, a small program that blink an LED via GPIO. This is also a course of operating system if you want to learn more
+      Getting some extra Raspberry Pi around? Time to have some fun, a small program that blink an LED via GPIO. This is also a course on operating systems if you want to learn more.
 
 brief:
   - url: https://medium.baqend.com/web-performance-made-simple-fc61d81d0c0e
@@ -233,5 +234,3 @@ tool:
     title: "Agones: Open-source, multiplayer, dedicated game-server hosting built on Kubernetes"
     category:
       - Golang
-
-
