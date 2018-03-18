@@ -2,13 +2,20 @@
 time: "Mar 19, 2018"
 version: 1.0
 description: |
-  Hi all, this week I'm starting to move a small amount of user to BetterDev own email platform.
-  Beside, I migrated my server from Paris to Silicon Vallery, in a Kubernetes cluster run on vult.
+  Hi all, this week I'm starting to move a small amount of user to our own email platform.
 
-draft: true
+draft: false
 
 links:
-  - url: http://brendanjryan.com/golang/profiling/2018/02/28/profiling-go-applications.html
+  - url: https://cloudplatform.googleblog.com/2018/03/introducing-Agones-open-source-multiplayer-dedicated-game-server-hosting-built-on-Kubernetes.html
+    title: "Introducing Agones: Open-source, multiplayer, dedicated game-server hosting built on Kubernetes"
+    description: |
+      A game server by Google team, run on Kubernetes and scale dedicated game servers.
+
+  - url: https://medium.com/@mycoralhealth/code-your-own-blockchain-mining-algorithm-in-go-82c6a71aba1f
+    title: "Code your own blockchain mining algorithm in Go"
+    description: |
+      For newcomers to this space, they hear wild stories of people filling up warehouses with GPUs making millions of dollars worth of cryptocurrencies a month. What exactly is cryptocurrency mining? How can I try coding my own mining algorithm?
 
   - url: https://blog.sessionstack.com/how-javascript-works-the-rendering-engine-and-tips-to-optimize-its-performance-7b95553baeda
     title: "How JavaScript works: the rendering engine and tips to optimize its performance"
@@ -48,32 +55,30 @@ links:
 
   - url: http://raganwald.com/2018/03/03/reflections.html
     title: "More State Machine ❤️: From Reflection to Statecharts"
-    description: |
-      
+    description: ""
 
   - url: https://web.stanford.edu/class/cs140e/assignments/0-blinky/
     title: "Write an LED blinky program for Raspberry Pi"
     description: |
       Getting some extra Raspberry Pi around? Time to have some fun, a small program that blink an LED via GPIO. This is also a course of operating system if you want to learn more
 
-
-      https://itnext.io/you-can-build-a-neural-network-in-javascript-even-if-you-dont-really-understand-neural-networks-e63e12713a3
-
-
   - url: https://medium.baqend.com/web-performance-made-simple-fc61d81d0c0e
     title: "Web Performance Made Simple"
     description: "A short summary of what/when/why/how on web performance"
 
+brief:
+  - url: http://brendanjryan.com/golang/profiling/2018/02/28/profiling-go-applications.html
+    title: "Profiling Go Application"
+
+  - url: https://itnext.io/you-can-build-a-neural-network-in-javascript-even-if-you-dont-really-understand-neural-networks-e63e12713a3
+    title: "Build a neural network in JavaScript"
+
   - url: https://zwischenzugs.com/2018/03/14/five-key-git-concepts-explained-the-hard-way/
     title: "Five Key Git Concepts Explained the Hard Way"
-    description: |
-      Learn about Ref in git? Why can we do git checkout to anything? What does ‘Detached Head’ mean?
-
 
 video:
   - url: https://www.youtube.com/watch?v=VBrnmciV9fM&list=PLrEMgOSrS_3fghr8ez63xKFNF-BA6Pz13
-    title: "Writing System Software"
-    description: "Antirez, creator of Redis started this youtube channel where he explore how/why things are done that way in Redis code base"
+    title: "Writing System Software by Redis creator"
 
   - url: https://www.scylladb.com/2018/03/08/how-to-build-time-series-database/
     title: "Learn How to Build a Time Series Database"
@@ -116,6 +121,13 @@ read_code:
       - KV-Store
 
 tool:
+  - url: https://github.com/alpacahq/marketstore
+    title: "marketstore: DataFrame Server for Financial Timeseries Data"
+    category:
+      - Golang
+      - Timeseries
+      - Database
+
   - url: https://github.com/keel-hq/keel
     title: "keel: Automated Kubernetes deployment updates"
     category:
