@@ -8,18 +8,23 @@ draft: false
 
 links:
   - url: https://cloudplatform.googleblog.com/2018/03/introducing-Agones-open-source-multiplayer-dedicated-game-server-hosting-built-on-Kubernetes.html
-    title: "Introducing Agones: Open-source, multiplayer, dedicated game-server hosting built on Kubernetes"
+    title: "Agones: Open-source, multiplayer, dedicated game-server hosting built on Kubernetes"
     description: |
       A game server by Google team, run on Kubernetes and scale dedicated game servers.
+
+  - url: https://towardsdatascience.com/how-i-implemented-iphone-xs-faceid-using-deep-learning-in-python-d5dbaa128e1d
+    title: "How I implemented iPhone X’s FaceID using Deep Learning in Python"
+    description: |
+      Reverse engineering iPhone X’s new unlocking mechanism. Reimplement with Keras.
 
   - url: https://medium.com/@mycoralhealth/code-your-own-blockchain-mining-algorithm-in-go-82c6a71aba1f
     title: "Code your own blockchain mining algorithm in Go"
     description: |
-      For newcomers to this space, they hear wild stories of people filling up warehouses with GPUs making millions of dollars worth of cryptocurrencies a month. What exactly is cryptocurrency mining? How can I try coding my own mining algorithm?
+      You hear wild stories of people filling up warehouses with GPUs. What exactly is cryptocurrency mining? How can I try coding my own mining algorithm?
 
   - url: https://blog.sessionstack.com/how-javascript-works-the-rendering-engine-and-tips-to-optimize-its-performance-7b95553baeda
     title: "How JavaScript works: the rendering engine and tips to optimize its performance"
-    description: "Continuation of this series about internal mechanism of JavaScript. Checkout previos if you aren't."
+    description: "Continuation of this series about internal mechanism of JavaScript. This article focus on process of rendering HTML into browser."
 
   - url: https://pawelurbanek.com/slow-rails-queries
     title: "How to Track Down and Fix Slow Active Record SQL Queries in Rails"
@@ -34,11 +39,6 @@ links:
   - url: http://adilmoujahid.com/posts/2018/03/intro-blockchain-bitcoin-python/
     title: "A Practical Introduction to Blockchain with Python"
     description: "We're progammber, lets ignore the hype around Bitcoin. As its core, a blockchain is a distributed database that allows direct transactions between two parties without the need of a central authority."
-
-  - url: https://towardsdatascience.com/how-i-implemented-iphone-xs-faceid-using-deep-learning-in-python-d5dbaa128e1d
-    title: "How I implemented iPhone X’s FaceID using Deep Learning in Python"
-    description: |
-      Reverse engineering iPhone X’s new unlocking mechanism. Reimplement with Keras.
 
   - url: https://vstinner.github.io/python37-gil-change.html
     title: "How I fixed a very old GIL race condition in Python 3.7"
@@ -146,7 +146,9 @@ tool:
       - Chart
 
   - url: https://lettier.github.io/gifcurry/
-    title: "giftcurry: Your open source video to GIF maker built with Haskell"
+    title: "giftcurry: open source video to GIF maker"
+    category:
+      - Hashkell
 
   - url: https://github.com/typeintandem/tandem
     title: "tandem: decentralized, cross-editor, collaborative text-editing"
@@ -154,13 +156,13 @@ tool:
       - Python
 
   - url: https://github.com/facebookexperimental/mononoke
-    title: "monomoke: A Mercurial source control server, specifically designed to support large monorepos"
+    title: "monomoke: A Mercurial source control server, designed for large monorepos"
     category:
       - Rust
       - SCM
 
   - url: https://github.com/jaredreich/pell
-    title: "pell: the simplest and smallest WYSIWYG text editor for web, with no dependencies"
+    title: "pell: WYSIWYG text editor for web, with no dependencies"
     category:
       - JavaScript
       - Editor
