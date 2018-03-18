@@ -1,7 +1,7 @@
 # Better Dev Link
 
-A weekly/daily news letter of resource/article around the web which is
-language/framework agnostic to help reader builder a better
+A weekly/daily news letter of resources/articles around the web which is
+language/framework agnostic to help readers build a better
 understanding of programming in general.
 
 # Submit Content
@@ -36,6 +36,6 @@ go run cmd/deploy.go
 ```
 go run cmd/publish.go issue-number
 
-## Oficial sendout email
+## Official sendout email
 go run cmd/publish.go issue-number --send
 ```
