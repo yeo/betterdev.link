@@ -185,7 +185,7 @@ a {
                 <h3 class="subtitle"><strong>Tools</strong></h3>
                 {{ range $key, $link := .Tools }}
                 <div style="padding: 0 0 1rem 0" class="issue-link">
-                  <a class="tools" style="font-size: 1.1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
+                  <a class="tools" style="font-size: 1.1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>{{ range $ci, $category := .Category }}<span class='tag'>{{ $category }}</span>{{ end }}<br>
                 </div>
                 {{ end }}
               </div>
