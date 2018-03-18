@@ -96,6 +96,11 @@ a {
         margin: 0.5em;
       }
 
+      .title a {
+        color: #fff;
+        text-decoration: none;
+      }
+
       .subtitle {
         color: #f36c3d;
         font-size: 0.95rem;
@@ -138,7 +143,8 @@ a {
         <div class="issue-preview">
           <div class="issue-preview__inner">
             <div style="background: #f36c3d; padding: 1rem 0; text-align: center">
-              <h1 class="title" style="color: #fff; text-align: left; margin: 0.5rem;">Better Dev #{{ .Name }}
+              <h1 class="title" style="color: #fff; text-align: left; margin: 0.5rem;">
+                <a href="https://betterdev.link/issues/{{ .Name }}">Better Dev #{{ .Name }}</a>
                 <span class="subtitle" style="color: #fff; float: right; dipslay: block; margin: 0.5rem 0 0 0">{{ .Time }}</span>
               </h1>
             </div>
@@ -169,10 +175,32 @@ a {
               {{ end }}
 
 
+              {{ if .Briefs }}
+              <div style="padding: 1rem 1rem 0rem 1rem; font-size: 1rem;">
+                <h3 class="subtitle"><strong>Brief</strong></h3>
+                {{ range $key, $link := .Briefs }}
+                <div style="padding: 0 0 1rem 0" class="issue-link">
+                  <a class="codereads" style="font-size: 1.1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>{{ range $ci, $category := .Category }}<span class='tag'>{{ $category }}</span>{{ end }}<br>
+                </div>
+                {{ end }}
+              </div>
+              {{ end }}
+
               {{ if .CodeToRead }}
               <div style="padding: 1rem 1rem 0rem 1rem; font-size: 1rem;">
                 <h3 class="subtitle"><strong>Code to read</strong></h3>
                 {{ range $key, $link := .CodeToRead }}
+                <div style="padding: 0 0 1rem 0" class="issue-link">
+                  <a class="codereads" style="font-size: 1.1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>{{ range $ci, $category := .Category }}<span class='tag'>{{ $category }}</span>{{ end }}<br>
+                </div>
+                {{ end }}
+              </div>
+              {{ end }}
+
+              {{ if .Videos }}
+              <div style="padding: 1rem 1rem 0rem 1rem; font-size: 1rem;">
+                <h3 class="subtitle"><strong>Video</strong></h3>
+                {{ range $key, $link := .Videos }}
                 <div style="padding: 0 0 1rem 0" class="issue-link">
                   <a class="codereads" style="font-size: 1.1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>{{ range $ci, $category := .Category }}<span class='tag'>{{ $category }}</span>{{ end }}<br>
                 </div>
