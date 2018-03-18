@@ -30,6 +30,8 @@ func main() {
 	}
 
 	switch os.Args[1] {
+	case "build":
+		baja.Compile(cwd)
 	case "clean":
 		clean()
 	case "serve", "server":
