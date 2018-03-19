@@ -46,6 +46,8 @@ type Issue struct {
 	Links       []Link    `yaml:"links"`
 	CodeToRead  []Link    `yaml:"read_code"`
 	Tools       []Link    `yaml:"tool"`
+	Briefs      []Link    `yaml:"brief"`
+	Videos      []Link    `yaml:"video"`
 	Name        string    `yaml:"name"`
 	PubTime     time.Time `yaml:"pub_time"`
 	Draft       bool      `yaml:"draft"`
