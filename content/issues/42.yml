@@ -1,7 +1,9 @@
 ---
 time: "Mar 26, 2018"
 version: 1.0
-description: ""
+description: |
+  Hi all, you're reading this email from a new BetterDev platform. I also wrap thing up and will open source the whole code.
+  In this issue, we have some good read for database optimization, migration
 draft: false
 
 links:
@@ -54,6 +56,11 @@ links:
     description: |
       Socket activation listens on behalf of application, on incoming traffic, start the application, pass down the socket handler. We can restart
       the service while keeping socket around, therefore achieve zero downtime.
+
+  - url: https://hackernoon.com/the-best-architecture-with-docker-and-kubernetes-myth-or-reality-77b4f8f3804d
+    title: "The best architecture with Docker and Kubernetes — myth or reality?"
+    description: |
+      Does docker and kubernetes deliver their promise? Simplifing how we run application. To me(Vinh), it's me. But I think it's an open-ended question depends on your perspective.
 
   - url: https://samsaffron.com/archive/2018/03/22/managing-db-schema-changes-without-downtime
     title: "Managing db schema changes without downtime"
@@ -123,6 +130,11 @@ read_code:
       - Ruby
 
 tool:
+  - url: https://gokrazy.org/
+    title: "gokrazy: a pure-Go userland for your Raspberry Pi 3 appliances"
+    category:
+      - Golang
+
   - url: https://github.com/appbaseio/dejavu
     title: "dejavu: The Missing Web UI for Elasticsearch"
     category:
@@ -152,6 +164,14 @@ tool:
 
   - url: https://github.com/kubeapps/kubeapps
     title: "kubeapps: a dashboard to deploy k8s app in a single click"
+    category:
+      - Golang
 
   - url: https://github.com/lileio/lile
     title: "Easily generate gRPC services in Go"
+
+  - url: https://github.com/vmware/tern
+    title: "keep track of what installed in docker to meet open source compliance"
+    category:
+      - Python
+
