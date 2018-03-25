@@ -1,0 +1,157 @@
+---
+time: "Mar 26, 2018"
+version: 1.0
+description: ""
+draft: false
+
+links:
+  - url: https://www.imperva.com/blog/2018/03/deep-dive-database-attacks-scarlett-johanssons-picture-used-for-crypto-mining-on-postgre-database/
+    title: "Why Scarlett Johansson’s Picture Got My Postgres Database to Start Mining Monero"
+    description: |
+      By just having access to a database, someone can create creative payload to download a picture that embed shell code and trigger database to
+      execute it to mine monero.
+
+  - url: http://allyouneedisbackend.com/blog/2017/09/24/the-sql-i-love-part-1-scanning-large-table/
+    title: "Efficient pagination of a table with 100M records"
+    description: |
+      A nice serie about interesting problem and solution with SQL.
+
+  - url: https://engineering.squarespace.com/blog/2018/building-on-solid-ground-getting-postgres-foundations-right-with-pgbedrock
+    title: "Building On Solid Ground: Getting Postgres Foundations Right With pgbedrock"
+    description: |
+      Manage user permission in database is hard. Developer join and leave. Cross team needs to access data for analytics purpose. This quickly
+      make permission become a mess and no one dare to delete anything. Squarespace build a solution by sync a YAML config to database permission
+
+  - url: https://dev.to/tomerbendavid/git-configurations-2ngi
+    title: "Oh git configurations! Let's simplify"
+    description: |
+      Git is complex. This article forcus on 3 Git config layer: system, global, and local.
+
+  - url: https://mzucker.github.io/2016/09/20/noteshrink.html
+    title: "Compressing and enhancing hand-written notes"
+    description: |
+      How can we use Machine Learning in daily life? Clean up scans of handwritten notes while simultaneously reducing file size.
+
+  - url: https://begriffs.com/posts/2018-03-20-user-defined-order.html
+    title: "User-defined Order in SQL"
+    description: |
+      Look into different way to implement user-defined order(such as a list of item where user can re-order them or insert new item). We will
+      find a solution that: Efficiency in space and time, Robustness, Elegance.
+
+  - url: https://blog.manifold.co/migrating-to-kubernetes-with-zero-downtime-the-why-and-how-d64ba9a92619
+    title: "Migrating to Kubernetes with zero downtime: the why and how"
+    description: |
+      If it ain't broke, why fix it? We'll get to see the motivation on why manifold do that. The process and challenge are explained very well.
+      And some nice kops tips.
+
+  - url: https://www.sqreen.io/checklists/saas-cto-security-checklist
+    title: "The Saas CTO Security Checklist"
+    description: |
+      If you're building a Saas, look into this checklist, it's design to fit into many stage: seed, series A and post-series A.
+
+  - url: https://vincent.bernat.im/en/blog/2018-systemd-golang-socket-activation
+    title: "Integration of a Go service with systemd: socket activation"
+    description: |
+      Socket activation listens on behalf of application, on incoming traffic, start the application, pass down the socket handler. We can restart
+      the service while keeping socket around, therefore achieve zero downtime.
+
+  - url: https://samsaffron.com/archive/2018/03/22/managing-db-schema-changes-without-downtime
+    title: "Managing db schema changes without downtime"
+    description: |
+      Database migration is one of the most common reasons for outage or downtime schedule. Sam, Discourse co-founder, shares technique to mitigate.
+
+brief:
+  - url: https://www.citusdata.com/blog/2016/03/30/five-ways-to-paginate/
+    title: "Five ways to paginate in Postgres, from the basic to the exotic"
+
+  - url: https://behind.pretix.eu/2018/03/20/high-available-cdn/
+    title: "Building a high-available file storage with nginx, haproxy and lsyncd"
+
+  - url: https://realpython.com/python-speech-recognition/
+    title: "The Ultimate Guide To Speech Recognition With Python"
+
+  - url: http://www.sheshbabu.com/posts/tips-for-using-eslint-in-a-legacy-codebase/
+    title: "Tips for using ESLint in a legacy codebase"
+
+video:
+  - url: https://www.youtube.com/watch?v=Yd3j3ZEx6DU
+    title: "On Writing Software Well: Move the specifics down as far as it'll go when evolving codebase"
+
+  - url: https://courses.knowthen.com/p/elm-for-beginners
+    title: "Elm for beginners"
+
+  - url: https://www.youtube.com/watch?v=U2mpUQTWRhI
+    title: "Become a hacker: Read CVE and write Go code to exploit"
+
+  - url: https://www.youtube.com/watch?v=uolTUtioIrc
+    title: "gRPC Basics: learn how to define API on protobufs"
+
+  - url: https://www.youtube.com/watch?v=UOn0b5kn3jk
+    title: "Using Chrome’s ‘Local Overrides’ to Test Performance Hypotheses"
+
+  - url: https://knowthen.com/ramda/
+    title: "Ramda: A Functional Programming Library for JavaScript"
+
+  - url: https://www.youtube.com/watch?v=NQta2urK3zk
+    title: "10 tips for React Redux At Scale "
+
+read_code:
+  - url: https://github.com/markstory/lint-review
+    title: "lint-review: bot to run linting on PR and make inline comment"
+    category:
+      - Python
+
+  - url: https://github.com/oclif/oclif
+    title: "oclif: The Open CLI Framework from Heroku"
+    category:
+      - TypeScript
+
+  - url: https://github.com/JoshuaWise/better-sqlite3
+    title: "The fastest and simplest library for SQLite3 in Node.js"
+    category:
+      - JavaScript
+      - C++
+
+  - url: https://github.com/anaskhan96/litfs
+    title: "litfs: A FUSE file system in Go extended with persistent file storage"
+    category:
+      - Go
+
+  - url: https://github.com/QyuTeam/qyu
+    title: "Qyu: Distributed task execution system for complex workflows"
+    category:
+      - Ruby
+
+tool:
+  - url: https://github.com/appbaseio/dejavu
+    title: "dejavu: The Missing Web UI for Elasticsearch"
+    category:
+      - JavaScript
+      - ElasticSearch
+
+  - url: https://github.com/marktext/marktext
+    title: "marktext: Markdown editor build with Electron and Vue"
+    category:
+      - JavaScript
+
+  - url: https://github.com/mlabouardy/komiser
+    title: "komiser: a nice dashboard to inspect your AWS environment"
+    category:
+      - Golang
+      - TypeScript
+      - DevOps
+
+  - url: https://github.com/iawia002/annie
+    title: "annie:  A fast, simple and clean video downloader"
+
+  - url: https://github.com/mkearney/botrnot
+    title: "botrnot: R package for detecting Twitter bots via machine learning"
+
+  - url: https://github.com/soccerties/cassandra-monitoring
+    title: "Cassandra monitoring with Prometheus and Grafana"
+
+  - url: https://github.com/kubeapps/kubeapps
+    title: "kubeapps: a dashboard to deploy k8s app in a single click"
+
+  - url: https://github.com/lileio/lile
+    title: "Easily generate gRPC services in Go"
