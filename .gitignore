@@ -10,3 +10,4 @@ env.run
 backup
 bd
 env.sh
+vendor
