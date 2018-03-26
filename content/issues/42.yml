@@ -17,6 +17,11 @@ links:
     description: |
       A nice series about interesting problems and solutions with SQL.
 
+  - url: https://tapoueh.org/blog/2018/03/database-modelization-anti-patterns/
+    title: "Database Modelization Anti-Patterns"
+    description: |
+     Looks into three classic anti-patterns: the infamous EAV, using multiple values in a single column, and how using UUIDs might be an anti-pattern too.
+
   - url: https://engineering.squarespace.com/blog/2018/building-on-solid-ground-getting-postgres-foundations-right-with-pgbedrock
     title: "Building On Solid Ground: Getting Postgres Foundations Right With pgbedrock"
     description: |
@@ -130,6 +135,12 @@ read_code:
       - Ruby
 
 tool:
+  - url: https://github.com/pascalw/dashbling
+    title: "Hackable React based dashboards for developers, inspired by Dashing"
+    category:
+      - TypeScript
+      - ReactJS
+
   - url: https://gokrazy.org/
     title: "gokrazy: a pure-Go userland for your Raspberry Pi 3 appliances"
     category:
