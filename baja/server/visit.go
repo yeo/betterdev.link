@@ -10,6 +10,7 @@ import (
 	// "sync"
 
 	"github.com/labstack/echo"
+	log "github.com/sirupsen/logrus"
 )
 
 // Allow us to view any branch of code from any accessible git repository
@@ -17,9 +18,16 @@ func (s *Server) VisitLink(c echo.Context) error {
 	url64 := c.Param("url")
 	url, err := base64.StdEncoding.DecodeString(url64)
 
-	if err == nil {
+	if err != nil {
 		return c.HTML(http.StatusNotAcceptable, "Invalid link")
 	}
 
-	return c.Redirect(http.StatusTemporaryRedirect, string(url))
+	link := string(url)
+
+	s.log.WithFields(log.Fields{
+		"url":   link,
+		"email": c.QueryParam("email"),
+	}).Info("Open URL")
+
+	return c.Redirect(http.StatusTemporaryRedirect, link)
 }

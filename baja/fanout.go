@@ -26,7 +26,7 @@ func customEmail(doc *goquery.Document, email string) (string, error) {
 
 		linkId := base64.StdEncoding.EncodeToString([]byte(href))
 		if ok {
-			link.SetAttr("href", fmt.Sprintf("https://betterdev.link/links/%s?email=%s", linkId, email))
+			link.SetAttr("href", fmt.Sprintf("https://open.betterdev.link/links/%s?email=%s", linkId, email))
 		}
 	})
 
@@ -86,12 +86,12 @@ func sendTo(svc *ses.SES, doc *goquery.Document, subject, email string) (*ses.Se
 			case ses.ErrCodeConfigurationSetDoesNotExistException:
 				fmt.Println(ses.ErrCodeConfigurationSetDoesNotExistException, aerr.Error())
 			default:
-				fmt.Println(aerr.Error())
+				log.Println("Fail to send", email, aerr.Error())
 			}
 		} else {
 			// Print the error, cast err to awserr.Error to get the Code and
 			// Message from an error.
-			fmt.Println(err.Error())
+			log.Println("Fail to send", email, err.Error())
 		}
 		return nil, err
 	}
@@ -123,6 +123,8 @@ func Fanout(issue string, mode string) {
 	}
 
 	svc := ses.New(session.New())
+
+	// Iterator throught the list and fanout email
 	count := 0
 	for {
 		record, err := r.Read()
@@ -135,13 +137,17 @@ func Fanout(issue string, mode string) {
 		if err == io.EOF {
 			break
 		}
-		log.Printf("Process at %s %v\n", count, record)
+		log.Printf("Process at %d %v\n", count, record)
 
 		if err != nil {
 			log.Fatal(err)
 		}
 
 		result, err := sendTo(svc, doc, subject, record[0])
-		log.Println(result)
+		if err == nil {
+			log.Println("Send to", record[0], "succesfully", result)
+		} else {
+			log.Println("Fail to fanout", record[0], err)
+		}
 	}
 }
