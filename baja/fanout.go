@@ -29,7 +29,7 @@ func customEmail(doc *goquery.Document, email string) (string, error) {
 	doc.Find("a").Each(func(_ int, link *goquery.Selection) {
 		href, ok := link.Attr("href")
 
-		linkId := base64.StdEncoding.EncodeToString([]byte(href))
+		linkId := base64.URLEncoding.EncodeToString([]byte(href))
 		if ok {
 			link.SetAttr("href", fmt.Sprintf("https://open.betterdev.link/links/%s?email=%x", linkId, h.Sum(nil)))
 		}
