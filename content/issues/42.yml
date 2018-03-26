@@ -2,70 +2,65 @@
 time: "Mar 26, 2018"
 version: 1.0
 description: |
-  Hi all, you're reading this email from a new BetterDev platform. I also wrap thing up and will open source the whole code.
-  In this issue, we have some good read for database optimization, migration
+  Hi there, you're reading this email on our new BetterDev platform. Once we wrap things up, we will open source the whole codebase.
+  In this issue, we have some good reads on database optimization as well as DB migration.
 draft: false
 
 links:
   - url: https://www.imperva.com/blog/2018/03/deep-dive-database-attacks-scarlett-johanssons-picture-used-for-crypto-mining-on-postgre-database/
     title: "Why Scarlett Johansson’s Picture Got My Postgres Database to Start Mining Monero"
     description: |
-      By just having access to a database, someone can create creative payload to download a picture that embed shell code and trigger database to
-      execute it to mine monero.
+      By just having access to a database, someone can create creative payload to download a picture that embed shell code and trigger database to execute it to mine monero.
 
   - url: http://allyouneedisbackend.com/blog/2017/09/24/the-sql-i-love-part-1-scanning-large-table/
     title: "Efficient pagination of a table with 100M records"
     description: |
-      A nice serie about interesting problem and solution with SQL.
+      A nice series about interesting problems and solutions with SQL.
 
   - url: https://engineering.squarespace.com/blog/2018/building-on-solid-ground-getting-postgres-foundations-right-with-pgbedrock
     title: "Building On Solid Ground: Getting Postgres Foundations Right With pgbedrock"
     description: |
-      Manage user permission in database is hard. Developer join and leave. Cross team needs to access data for analytics purpose. This quickly
-      make permission become a mess and no one dare to delete anything. Squarespace build a solution by sync a YAML config to database permission
+      Managing user permissions in databases is hard. Developers can come and go. Other teams need to access the data for analytics and other purposes. This can quickly make permissions management a mess and no one dares to delete anything. Squarespace built a solution by syncing a YAML config to database permissions.
 
   - url: https://dev.to/tomerbendavid/git-configurations-2ngi
     title: "Oh git configurations! Let's simplify"
     description: |
-      Git is complex. This article forcus on 3 Git config layer: system, global, and local.
+      Git is complex. This article focuses on three Git config layers: system, global, and local.
 
   - url: https://mzucker.github.io/2016/09/20/noteshrink.html
     title: "Compressing and enhancing hand-written notes"
     description: |
-      How can we use Machine Learning in daily life? Clean up scans of handwritten notes while simultaneously reducing file size.
+      How can we use Machine Learning in daily life? The example this article uses is cleaning up scans of handwritten notes while simultaneously reducing file size.
 
   - url: https://begriffs.com/posts/2018-03-20-user-defined-order.html
     title: "User-defined Order in SQL"
     description: |
-      Look into different way to implement user-defined order(such as a list of item where user can re-order them or insert new item). We will
-      find a solution that: Efficiency in space and time, Robustness, Elegance.
+      This article looks into different way to implement user-defined order (such as a list of items where users can re-order them or insert new items).
 
   - url: https://blog.manifold.co/migrating-to-kubernetes-with-zero-downtime-the-why-and-how-d64ba9a92619
     title: "Migrating to Kubernetes with zero downtime: the why and how"
     description: |
-      If it ain't broke, why fix it? We'll get to see the motivation on why manifold do that. The process and challenge are explained very well.
-      And some nice kops tips.
+      If it ain't broke, why fix it? We'll get to see the motivation on why manifold did that. The process and challenges are explained very well, plus we see some nice kops tips.
 
   - url: https://www.sqreen.io/checklists/saas-cto-security-checklist
-    title: "The Saas CTO Security Checklist"
+    title: "The SaaS CTO Security Checklist"
     description: |
-      If you're building a Saas, look into this checklist, it's design to fit into many stage: seed, series A and post-series A.
+      If you're building a SaaS, look into this checklist. It's designed to fit into many stages: seed, series A and post-series A.
 
   - url: https://vincent.bernat.im/en/blog/2018-systemd-golang-socket-activation
     title: "Integration of a Go service with systemd: socket activation"
     description: |
-      Socket activation listens on behalf of application, on incoming traffic, start the application, pass down the socket handler. We can restart
-      the service while keeping socket around, therefore achieve zero downtime.
+      Socket activation listens on behalf of an application on incoming traffic, starting the application, and passing down the socket handler. We can restart the service while keeping socket around, therefore achieving zero downtime.
 
   - url: https://hackernoon.com/the-best-architecture-with-docker-and-kubernetes-myth-or-reality-77b4f8f3804d
     title: "The best architecture with Docker and Kubernetes — myth or reality?"
     description: |
-      Does docker and kubernetes deliver their promise? Simplifing how we run application. To me(Vinh), it's me. But I think it's an open-ended question depends on your perspective.
+      Do Docker and Kubernetes deliver on their promise - simplifying how we run applications? I think it's an open-ended question that depends on your perspective.
 
   - url: https://samsaffron.com/archive/2018/03/22/managing-db-schema-changes-without-downtime
-    title: "Managing db schema changes without downtime"
+    title: "Managing DB schema changes without downtime"
     description: |
-      Database migration is one of the most common reasons for outage or downtime schedule. Sam, Discourse co-founder, shares technique to mitigate.
+      Database migration is one of the most common reasons for outage or scheduled downtime. Sam, Discourse co-founder, shares techniques to mitigate.
 
 brief:
   - url: https://www.citusdata.com/blog/2016/03/30/five-ways-to-paginate/
@@ -174,4 +169,3 @@ tool:
     title: "keep track of what installed in docker to meet open source compliance"
     category:
       - Python
-
