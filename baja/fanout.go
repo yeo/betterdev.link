@@ -45,7 +45,17 @@ func customEmail(doc *goquery.Document, email string) (string, error) {
 	return body, nil
 }
 
-func sendTo(svc *ses.SES, doc *goquery.Document, subject, email string) (*ses.SendEmailOutput, error) {
+func sendTo(svc *ses.SES, issue, subject, email string) (*ses.SendEmailOutput, error) {
+	buf := bytes.NewBuffer(nil)
+	f, _ := os.Open(fmt.Sprintf("./public/issues/%s/email/index.html", issue)) // Error handling elided for brevity.
+	io.Copy(buf, f)                                                            // Error handling elided for brevity.
+	f.Close()
+
+	doc, err := goquery.NewDocumentFromReader(bytes.NewReader(buf.Bytes()))
+	if err != nil {
+		log.Fatal("Fail to parse email", err)
+	}
+
 	emailBody, err := customEmail(doc, email)
 	if err != nil {
 		log.Fatal("Fail to build custom email")
@@ -113,16 +123,6 @@ func sendTo(svc *ses.SES, doc *goquery.Document, subject, email string) (*ses.Se
 }
 
 func Fanout(issue string, mode string) {
-	buf := bytes.NewBuffer(nil)
-	f, _ := os.Open(fmt.Sprintf("./public/issues/%s/email/index.html", issue)) // Error handling elided for brevity.
-	io.Copy(buf, f)                                                            // Error handling elided for brevity.
-	f.Close()
-
-	doc, err := goquery.NewDocumentFromReader(bytes.NewReader(buf.Bytes()))
-	if err != nil {
-		log.Fatal("Fail to parse email", err)
-	}
-
 	log.Printf("Start to parse export contact from %s\n", mode)
 	contacts, err := ioutil.ReadFile(fmt.Sprintf("./content/%s.csv", mode))
 	if err != nil {
@@ -140,10 +140,10 @@ func Fanout(issue string, mode string) {
 	// Iterator throught the list and fanout email
 	count := 0
 	for {
+		count = count + 1
 		record, err := r.Read()
-		if count == 0 {
+		if count <= 1 {
 			log.Println("Skip header")
-			count += 1
 			continue
 		}
 
@@ -156,7 +156,7 @@ func Fanout(issue string, mode string) {
 			log.Fatal(err)
 		}
 
-		result, err := sendTo(svc, doc, subject, record[0])
+		result, err := sendTo(svc, issue, subject, record[0])
 		if err == nil {
 			log.Println("Send to", record[0], "succesfully", result)
 		} else {
