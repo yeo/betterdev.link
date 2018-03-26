@@ -2,16 +2,118 @@
 
 
 [[projects]]
-  name = "github.com/algolia/algoliasearch-client-go"
-  packages = ["algoliasearch"]
-  revision = "d861d05bc355caa2733913e3948a7b87e60a9ee9"
-  version = "2.21.3"
+  name = "github.com/PuerkitoBio/goquery"
+  packages = ["."]
+  revision = "a86ea073017a6beddef78c8659e7224e8ca634b0"
+  version = "v1.4.0"
+
+[[projects]]
+  name = "github.com/andybalholm/cascadia"
+  packages = ["."]
+  revision = "901648c87902174f774fac311d7f176f8647bdaa"
+  version = "v1.0.0"
+
+[[projects]]
+  name = "github.com/aws/aws-sdk-go"
+  packages = ["aws","aws/awserr","aws/awsutil","aws/client","aws/client/metadata","aws/corehandlers","aws/credentials","aws/credentials/ec2rolecreds","aws/credentials/endpointcreds","aws/credentials/stscreds","aws/defaults","aws/ec2metadata","aws/endpoints","aws/request","aws/session","aws/signer/v4","internal/shareddefaults","private/protocol","private/protocol/query","private/protocol/query/queryutil","private/protocol/rest","private/protocol/xml/xmlutil","service/ses","service/sts"]
+  revision = "5b4d64c21c9af31b5c870528001cd2e3ef37bfe0"
+  version = "v1.10.34"
+
+[[projects]]
+  name = "github.com/go-ini/ini"
+  packages = ["."]
+  revision = "6333e38ac20b8949a8dd68baa3650f4dee8f39f0"
+  version = "v1.33.0"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/jaytaylor/html2text"
+  packages = ["."]
+  revision = "64a82a6d140778896f13303121a49d8cb8007034"
+
+[[projects]]
+  name = "github.com/jmespath/go-jmespath"
+  packages = ["."]
+  revision = "3433f3ea46d9f8019119e7dd41274e112a2359a9"
+  version = "0.2.2"
+
+[[projects]]
+  name = "github.com/labstack/echo"
+  packages = ["."]
+  revision = "a5d81b8d4a627f3f49dcb3164ef2bb5239682227"
+  version = "3.3.4"
+
+[[projects]]
+  name = "github.com/labstack/gommon"
+  packages = ["color","log"]
+  revision = "6fe1405d73ec4bd4cd8a4ac8e2a2b2bf95d03954"
+  version = "0.2.4"
+
+[[projects]]
+  name = "github.com/mattn/go-colorable"
+  packages = ["."]
+  revision = "167de6bfdfba052fa6b2d3664c8f5272e23c9072"
+  version = "v0.0.9"
+
+[[projects]]
+  name = "github.com/mattn/go-isatty"
+  packages = ["."]
+  revision = "0360b2af4f38e8d38c7fce2a9f4e702702d73a39"
+  version = "v0.0.3"
+
+[[projects]]
+  name = "github.com/mattn/go-runewidth"
+  packages = ["."]
+  revision = "9e777a8366cce605130a531d2cd6363d07ad7317"
+  version = "v0.0.2"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/olekukonko/tablewriter"
+  packages = ["."]
+  revision = "b8a9be070da40449e501c3c4730a889e42d87a9e"
 
 [[projects]]
   name = "github.com/radovskyb/watcher"
   packages = ["."]
   revision = "6145e1439b9de93806925353403f91d2abbad8a5"
   version = "v1.0.2"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/ssor/bom"
+  packages = ["."]
+  revision = "6386211fdfcf24c0bfbdaceafd02849ed9a8a509"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/valyala/bytebufferpool"
+  packages = ["."]
+  revision = "e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/valyala/fasttemplate"
+  packages = ["."]
+  revision = "dcecefd839c4193db0d35b88ec65b4c12d360ab0"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/crypto"
+  packages = ["acme","acme/autocert"]
+  revision = "88942b9c40a4c9d203b82b3731787b672d6e809b"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/net"
+  packages = ["html","html/atom"]
+  revision = "6078986fec03a1dcc236c34816c71b0e05018fda"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/sys"
+  packages = ["unix"]
+  revision = "91ee8cde435411ca3f1cd365e8f20131aed4d0a1"
 
 [[projects]]
   name = "gopkg.in/yaml.v2"
@@ -22,6 +124,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "f7cede275310f97c47728612cce9c2a814353aeb2dda75e50b6df5d4fba93591"
+  inputs-digest = "bc18698453dababb9bed3d814fcce0eb06213dc4e2427d9792342090198ae6ef"
   solver-name = "gps-cdcl"
   solver-version = 1

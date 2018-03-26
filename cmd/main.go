@@ -21,8 +21,6 @@ func main() {
 		return
 	}
 
-	log.Println(os.Args)
-
 	if len(os.Args) == 1 {
 		log.Println("-> Compile")
 		baja.Compile(cwd)
@@ -38,5 +36,7 @@ func main() {
 		serve()
 	case "dupe":
 		detectDupe()
+	case "fanout":
+		fanout(os.Args[2], os.Args[3])
 	}
 }
