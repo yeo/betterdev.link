@@ -52,6 +52,11 @@ links:
     description: |
       Socket activation listens on behalf of an application on incoming traffic, starting the application, and passing down the socket handler. We can restart the service while keeping socket around, therefore achieving zero downtime.
 
+  - url: https://medium.com/@mccode/understanding-how-uid-and-gid-work-in-docker-containers-c37a01d01cf
+    title: "Understanding how uid and gid work in Docker containers"
+    description: |
+      Understanding how usernames, group names, user ids (uid) and group ids (gid) map between the processes running inside a container and the host system is important to building a secure system.
+
   - url: https://hackernoon.com/the-best-architecture-with-docker-and-kubernetes-myth-or-reality-77b4f8f3804d
     title: "The best architecture with Docker and Kubernetes — myth or reality?"
     description: |
