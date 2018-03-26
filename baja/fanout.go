@@ -9,9 +9,10 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
-	// "strings"
+	"strings"
 	// "text/template"
 
+	"crypto/sha256"
 	"github.com/PuerkitoBio/goquery"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
@@ -21,16 +22,27 @@ import (
 )
 
 func customEmail(doc *goquery.Document, email string) (string, error) {
+	// We just want to obfuscato email
+	h := sha256.New()
+	h.Write([]byte(email))
+
 	doc.Find("a").Each(func(_ int, link *goquery.Selection) {
 		href, ok := link.Attr("href")
 
 		linkId := base64.StdEncoding.EncodeToString([]byte(href))
 		if ok {
-			link.SetAttr("href", fmt.Sprintf("https://open.betterdev.link/links/%s?email=%s", linkId, email))
+			link.SetAttr("href", fmt.Sprintf("https://open.betterdev.link/links/%s?email=%x", linkId, h.Sum(nil)))
 		}
 	})
 
-	return goquery.OuterHtml(doc.Selection)
+	body, err := goquery.OuterHtml(doc.Selection)
+	if err != nil {
+		return "", err
+	}
+
+	//TODO: Refactor
+	body = strings.Replace(body, "*|EMAIL_HASH|*", fmt.Sprintf("%x", h.Sum(nil)), -1)
+	return body, nil
 }
 
 func sendTo(svc *ses.SES, doc *goquery.Document, subject, email string) (*ses.SendEmailOutput, error) {
@@ -40,6 +52,7 @@ func sendTo(svc *ses.SES, doc *goquery.Document, subject, email string) (*ses.Se
 	}
 
 	emailText, err := html2text.FromString(emailBody, html2text.Options{PrettyTables: true})
+
 	if err != nil {
 		log.Fatal("Cannot convert HTML email to Text")
 	}

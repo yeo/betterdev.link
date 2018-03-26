@@ -27,6 +27,7 @@ func (s *Server) VisitLink(c echo.Context) error {
 	s.log.WithFields(log.Fields{
 		"url":   link,
 		"email": c.QueryParam("email"),
+		"ip":    string(c.RealIP()),
 	}).Info("Open URL")
 
 	return c.Redirect(http.StatusTemporaryRedirect, link)
