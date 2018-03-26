@@ -16,7 +16,7 @@ import (
 // Allow us to view any branch of code from any accessible git repository
 func (s *Server) VisitLink(c echo.Context) error {
 	url64 := c.Param("url")
-	url, err := base64.StdEncoding.DecodeString(url64)
+	url, err := base64.URLEncoding.WithPadding(base64.NoPadding).DecodeString(url64)
 
 	if err != nil {
 		return c.HTML(http.StatusNotAcceptable, "Invalid link")
