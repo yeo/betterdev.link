@@ -73,6 +73,9 @@ links:
       Database migration is one of the most common reasons for outage or scheduled downtime. Sam, Discourse co-founder, shares techniques to mitigate.
 
 brief:
+  - url: https://flaviocopes.com/chrome-devtools-tips/
+    title: "A list of cool chrome devtools tips and tricks"
+
   - url: https://www.citusdata.com/blog/2016/03/30/five-ways-to-paginate/
     title: "Five ways to paginate in Postgres, from the basic to the exotic"
 
