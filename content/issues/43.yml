@@ -44,7 +44,12 @@ links:
     description: |
       This isn't a technical post but more about method and strategy. I think
       it send out a right message to make us become better.
-
+  - url: https://hackernoon.com/the-effective-tech-lead-is-a-100x-engineer-fe49c0372a63
+    title: "The Effective Tech Lead is a 100x Engineer"
+    description: |
+      Hyperbolic click-bait title aside, I wish to convince you that the effective
+      Tech Lead is a force-multiplier and a unicorn-cousin of the famed 10x engineer
+      
   - url: https://martinfitzpatrick.name/article/wemos-heart-rate-sensor-display-micropython/
     title: "Building a MicroPython heart rate monitor"
     description:
