@@ -1,0 +1,185 @@
+---
+time: "Apr 2, 2018"
+description: ""
+draft: false
+
+links:
+  - url: https://jdow.io/blog/2018/03/18/web-application-penetration-testing-methodology/
+    title: "Web Application Penetration Testing Cheat Sheet"
+    description: |
+      This cheatsheet is intended to run down the typical steps performed when
+      conducting a web application penetration test. Author breaks these steps
+      down into sub-tasks and describe the tools they recommend using at each
+      level.
+
+  - url: https://courses.csail.mit.edu/6.042/spring17/mcs.pdf
+    title: "Mathematics for Computer Science"
+    description: |
+      As a programmer, we may forget all thing about math. Or if you're a
+      self-taugh developer, you may not get expose to math. This is a good PDF
+      file to learn math. We will know about number theory, RSA encryption,...
+
+  - url: http://www.jimhester.com/2018/03/30/debugging-journey/
+    title: "A debugging journey"
+    description: |
+      A weird error when accessing file system for a R package. The error is
+      gone by disable logging. Exact cause is still unsure though.
+
+  - url: https://bdupras.github.io/filter-tutorial/
+    title: "Probabilistic Filters By Example"
+    description: |
+      Probablistic filters are high-speed, space-efficient data structures that
+      support set-membership tests with a one-sided error. Positive responses
+      incur a small false positive probability (FPP).
+
+  - url: https://ziutek.github.io/2018/03/30/go_on_very_small_hardware.html
+    title: "Go on very small hardware (Part 1)"
+    description: |
+      Sometimes take a break from software and hack on hardware is fun. We
+      see how to compile Go for a special CPU on very small hardware and
+      doing hardware hello world: blink led.
+
+  - url: http://muratbuffalo.blogspot.com/2018/03/master-your-tools.html
+    title: "Master your tools"
+    description: |
+      This isn't a technical post but more about method and strategy. I think
+      it send out a right message to make us become better.
+
+  - url: https://martinfitzpatrick.name/article/wemos-heart-rate-sensor-display-micropython/
+    title: "Building a MicroPython heart rate monitor"
+    description:
+      Finding the beat in HR sensor data. We'll take a Pulsesensor and using it
+      to build a working heart monitor with OLED pulse, BPM and trace display,
+      using MicroPython on a Wemos D1.
+
+  - url: https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/
+    title: "ES modules: A cartoon deep-dive"
+    description: |
+      A deep look at what problem ES modules solve and how they are different
+      from modules in other module systems.
+
+  - url: https://developers.redhat.com/blog/2018/03/22/ruby-3x3-performance-goal/
+    title: "Towards The Ruby 3×3 Performance Goal"
+    description: |
+      Lots of work on the goal of Ruby 3 with 3x performance. Even if you are
+      not writing Ruby, you're still get lots of knowledge about JIT, RTL
+      Instructions...
+
+  - url: https://medium.com/@Drowzy/implementing-ssh-tunnels-in-elixir-e7ad9d1af01a
+    title: "Implementing SSH tunnels in Elixir"
+    description: |
+      DevOps probably has to deal with SSH tunnels a lot to access some private
+      service on LAN/Local only without a VPN. In this, we try to implement
+      in Elixir because Erlang has an SSH application.
+
+brief:
+  - url: http://www.techiedelight.com/list-of-problems/
+    title: "500+ data structure and algorithm problems"
+
+  - url: https://studio3t.com/whats-new/mongodb-query-performance/
+    title: "How to Investigate MongoDB Query Performance"
+
+  - url: https://zwischenzugs.com/2018/03/26/git-log-the-good-parts
+    title: "git log – the Good Parts"
+
+  - url: https://olivierlacan.com/posts/cd-is-wasting-your-time/
+    title: "`cd` is Wasting Your Time"
+
+  - url: https://medium.freecodecamp.org/how-to-make-responsiveness-super-simple-with-css-variables-8c90ebf80d7f
+    title: "How to make responsiveness super simple with CSS Variables"
+
+  - url: https://blog.alexellis.io/prometheus-monitoring/
+    title: "Monitor your applications with Prometheus"
+
+  - url: https://hackernoon.com/a-beginners-guide-to-ipfs-20673fedd3f
+    title: "A Beginner’s Guide to IPFS: a peer-to-peer filesharing system"
+
+  - url: https://www.speedshop.co/2018/03/28/nginx-unit-for-ruby.html
+    title: "A New Ruby Application Server: NGINX Unit"
+
+video:
+  - url: https://www.youtube.com/watch?v=ZKi87Bx4YNQ
+    title: "A Pragmatists's Guide to ReasonML"
+
+  - url: https://www.youtube.com/watch?v=yszygk1cpEc
+    title: "Advanced Testing with Go"
+
+read_code:
+  - url: https://github.com/controlplaneio/netassert
+    title: "network security testing for DevSecOps workflows"
+    category:
+      - Bash
+      - Security
+
+  - url: https://github.com/ValveSoftware/GameNetworkingSockets
+    title: "Reliable & unreliable messages over UDP from Valve Software"
+    category:
+      - "C++"
+
+  - url: https://github.com/nzoschke/gofaas
+    title: "A boilerplate Go and AWS Lambda app"
+    category:
+      - Go
+      - FaaS
+
+  - url: https://github.com/jaywcjlove/hotkeys/
+    title: "A robust Javascript library for capturing keyboard input"
+    category:
+      - JavaScript
+
+  - url: https://github.com/alki-project/alki
+    title: "Alki: a Dependency Injection framework for Ruby"
+
+  - url: https://github.com/minimaxir/person-blocker
+    title: "Automatically 'block' people in images using a pretrained neural network"
+    category:
+      - Python
+      - ML
+
+tool:
+  - url: https://github.com/evait-security/envizon
+    title: "Envizon: network visualization tool with focus on red / blue team requirements"
+    category:
+      - Ruby
+      - Network
+
+  - url: https://github.com/zevv/lsofgraph
+    title: "pipe `lsof` to graphviz"
+    category:
+      - Lua
+      - Network
+
+  - url: https://github.com/uber-common/metta
+    title: "metta: an information security preparedness tool"
+    category:
+      - Python
+
+  - url: https://github.com/jadjoubran/webdash
+    title: "webdash: A customizable web dashboard to orchestrate web app"
+
+  - url: https://github.com/orgmanager/orgmanager
+    title: "orgmnager: Invite System for GitHub Organizations"
+    category:
+      - PHP
+
+  - url: https://mozilla-lockbox.github.io/
+    title: "lockbox: A simple stand-alone password manager you can secure with your Firefox"
+
+  - url: https://github.com/rs/zerolog
+    title: Zero Allocation JSON Logger
+    category:
+      - Go
+
+  - url: https://github.com/oragono/oragono
+    title: "A modern IRC server written in Go"
+
+  - url: https://github.com/simonepri/sympact
+    title: "sympact: Simple stupid CPU/MEM 'Profiler' for your JS code."
+
+  - url: https://github.com/pavelkuligin/chart
+    tile: "Create the most popular types of charts by real or random data"
+    category:
+      - JavaScript
+
+  - url: https://github.com/djrobstep/migra
+    title: "migra: Like diff but for PostgreSQL schemas"
