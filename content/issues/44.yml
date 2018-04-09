@@ -1,0 +1,169 @@
+---
+time: "Apr 9, 2018"
+description: |
+  Kubernetes is going big right now, every day I saw a new K8S article. I run
+  k8s for betterdev.link too :D. We're a static site but recently add some
+  dynamic features. I think as a programmer, we should spend sometime to learn
+  K8S because it isn't that hard. I includes some interesting k8s article in
+  this issue. Hope you like them!
+draft: true
+
+links:
+  - url: https://medium.freecodecamp.org/finding-time-to-become-a-better-developer-eebc154881b2
+    title: "Finding Time to Become a Better Developer"
+    description: |
+      I used to think that the only way to be a great developer was to work
+      myself sick. My health, friendships, and family all suffered because of
+      it. Understanding 5 truths about time management for a developer is what
+      saved me.
+
+  - url: http://www.davefarley.net/?p=247
+    title: "Continuous Integration and Feature Branching"
+    description: |
+      When it comes to release software? The debate of branch comes up? Git flow
+      or trunk base? I myself agree with the author of not branching. The post
+      has strong opinion and you may not agree with it but it's another angle
+      of development shared from somone who are successful with that method.
+
+  - url: https://blog.sqreen.io/buffer-under-read-ruby/
+    title: "An in-depth look at CVE-2018-8778: Buffer under-read in String#unpack"
+    description: |
+      Looking into CVE improves lot of knowledge on how something works, how
+      they are stored in memory. What’s a buffer under-read and how it affects.
+      Then we write code to exploit.
+
+  - url: https://github.com/Fewbytes/rubber-docker
+    title: A workshop on Linux containers: Rebuild Docker from Scratch
+    description: |
+      We will learn Linux syscalls and glibc wrappers, chroot vs pivit_root,
+      namespac, cgroups. The author feel the only way to truly understand
+      something to build it from scratch.
+
+  - url: https://medium.com/@etienne_24233/comparing-kubernetes-authentication-methods-6f538d834ca7
+    title: "Comparing Kubernetes Authentication Methods"
+    description: |
+      Kubectl is like the new SSH for kubernetes. But the knowledge to secure them
+      isn't widely spread out. This post summarizes some options and suggest the
+      best one is OIDC.
+
+  - url: https://blog.openshift.com/executing-commands-in-pods-using-k8s-api/
+    title: "Executing commands in Pods using K8s API"
+    description: |
+      When running `kubectl exec` we can run `/bin/bash` to attach shell. Feel
+      like SSH but it is actually a websocket connetion. We'll look into the
+      low level protocol to understand its mechanism.
+
+  - url: https://jamesmunns.com/update/2018/04/01/tinyrocket.html
+    title: "Building Tiny Rust Binaries for Embedded Linux"
+    description: |
+      IoT devices has limited storage space. This post laid out steps to make
+      6.4MB binary to 816KB. While it's target Rust, it has some interesting
+      tools and approach which we can apply to other places.
+
+  - url: https://medium.freecodecamp.org/here-are-examples-of-everything-new-in-ecmascript-2016-2017-and-2018-d52fa3b5a70e
+    title: "Examples of everything new in ECMAScript 2016, 2017, and 2018"
+    description: |
+      Cover all 18 features that are listed in the TC39’s finished proposals that were added in ES2016, ES2017, and ES2018 (final draft) and show them with useful examples.
+
+  - url: https://medium.com/@parsyval/javascript-prototype-vs-class-a7015d5473b
+    title: "Javascript : Prototype vs Class"
+    description: |
+      Class in JavaScript still has lot of confusion, especially with the
+      `class` syntax in ES6. Let's dive in to see why class is still prototype.
+
+brief:
+  - url: https://github.com/floyernick/Data-Structures-and-Algorithms
+    title: "Data Structures and Algorithms implementation in Go"
+
+  - url: https://github.com/toidiu/learn-rust
+    title: "An interactive guide to learning Rust: doc, web, IRC"
+
+  - url: https://mml-book.github.io/
+    title: "Mathematics for Machine Learning"
+
+  - url: https://github.com/rShetty/awesome-podcasts
+    title: "Awesome list of Important Podcasts for software engineers"
+
+  - url: https://github.com/openblockchains/programming-blockchains-step-by-step
+    title: "Programming Blockchains Step-by-Step guide"
+    category:
+      - Ruby
+
+  - url: https://github.com/dependabot/elixir-security-advisories
+    title: "Public database of Elixir security advisories"
+    category:
+      - Elixir
+
+video:
+  - url: https://www.youtube.com/watch?v=W0BR_tWZChQ
+    title: "The Hitchhiker's Guide to the Unexpected Bugs"
+    category:
+      - Erlang
+
+  - url: https://www.youtube.com/watch?v=PhggNGsSQyg
+    title: "Learn RxJS in 60 Minutes for Beginners"
+    category:
+      - JavaScript
+
+  - url: https://www.driftingruby.com/episodes/activerecord-tricks
+    title: "ActiveRecord Tricks for building better queries"
+    category:
+      - Ruby
+
+  - url: https://www.youtube.com/watch?v=LeGuJo7QBbI
+    title: "Building a Google Home Action in Go"
+
+  - url: https://www.youtube.com/watch?v=2gee5oUAO14
+    title: "A deep dive into the Pymongo MongoDB driver"
+    category:
+      - Python
+
+read_code:
+  - url: https://github.com/discourse/rails_multisite
+    title: "Multi tenancy for Rails applications"
+    category:
+      - Ruby
+      - Rails
+
+  - url: https://github.com/ShivamSarodia/ShivyC
+    title: "C compiler created in Python"
+
+  - url: https://github.com/rbaron/awesomenes
+    title: "A NES emulator written in Go"
+
+  - url: https://github.com/CanonicalLtd/dqlite
+    title: "Distributed SQLite for Go applications"
+
+  - url: https://github.com/filamentgroup/imaging-heap
+    title: "measure the efficiency of responsive image markup across viewport sizes and device pixel ratios"
+    category:
+      - JavaScript
+
+tool:
+  - url: https://github.com/avwo/whistle
+    title: "HTTP, HTTPS, WebSocket debugging proxy"
+
+  - url: https://github.com/feliixx/mongoplayground
+    title: "mongoplayground: a simple sandbox to test and share MongoDB queries"
+
+  - url: https://github.com/tomnomnom/gron/
+    title: "gron: make json grepable"
+
+  - url: https://github.com/nanopack/shaman
+    title: "shaman: Small, lightweight, api-driven dns server"
+
+  - url: https://github.com/dinedal/textql
+    title: "Execute SQL against structured text like CSV or TSV"
+
+  - url: https://github.com/baverman/vial-http
+    title: "http REST tool for vim: like postman, but for Vim"
+
+  - url: https://github.com/messutied/colors.sh
+    title: "color.sh: add color and format to your shell script"
+
+  - url: https://github.com/OliverSwift/Promys
+    title: "Promys: build a similar Chromecast with Raspberry Pi"
+
+  - url: https://github.com/trulia/cidr-house-rules
+    title: "A lightweight API and collection system to centralize important AWS resource information across multiple accounts"
+
