@@ -5,8 +5,8 @@ description: |
   k8s for betterdev.link too :D. We're a static site but recently add some
   dynamic features. I think as a programmer, we should spend sometime to learn
   K8S because it isn't that hard. I includes some interesting k8s article in
-  this issue. Hope you like them!
-draft: true
+  this issue. Enjoy! ❤️
+draft: false
 
 links:
   - url: https://medium.freecodecamp.org/finding-time-to-become-a-better-developer-eebc154881b2
@@ -33,7 +33,7 @@ links:
       Then we write code to exploit.
 
   - url: https://github.com/Fewbytes/rubber-docker
-    title: A workshop on Linux containers: Rebuild Docker from Scratch
+    title: "A workshop on Linux containers: Rebuild Docker from Scratch"
     description: |
       We will learn Linux syscalls and glibc wrappers, chroot vs pivit_root,
       namespac, cgroups. The author feel the only way to truly understand
@@ -71,6 +71,11 @@ links:
       Class in JavaScript still has lot of confusion, especially with the
       `class` syntax in ES6. Let's dive in to see why class is still prototype.
 
+  - url: https://medium.com/teads-engineering/give-meaning-to-100-billion-analytics-events-a-day-d6ba09aa8f44
+    title: Give Meaning to 100 Billion Analytics Events a Day
+    description: |
+      Real world usage of Kafka, Dataflow and BigQuery to ingest data
+      and together to ingest and transform a large stream of events.
 brief:
   - url: https://github.com/floyernick/Data-Structures-and-Algorithms
     title: "Data Structures and Algorithms implementation in Go"
