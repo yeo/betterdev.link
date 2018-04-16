@@ -10,7 +10,8 @@ import (
 	// "sync"
 
 	"github.com/labstack/echo"
-	log "github.com/sirupsen/logrus"
+
+	"github.com/yeo/betterdev.link/baja/dts"
 )
 
 // Allow us to view any branch of code from any accessible git repository
@@ -24,11 +25,8 @@ func (s *Server) VisitLink(c echo.Context) error {
 
 	link := string(url)
 
-	s.log.WithFields(log.Fields{
-		"url":   link,
-		"email": c.QueryParam("email"),
-		"ip":    string(c.RealIP()),
-	}).Info("Open URL")
+	tracker := dts.TrackerService{s.db}
+	tracker.OpenURL(link, c.QueryParam("email"), string(c.RealIP()))
 
 	return c.Redirect(http.StatusTemporaryRedirect, link)
 }

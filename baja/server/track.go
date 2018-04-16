@@ -3,27 +3,20 @@ package server
 import (
 	"encoding/base64"
 	"net/http"
-	// "errors"
-	// "fmt"
-	// "os"
-	// "strings"
-	// "sync"
+
+	"github.com/yeo/betterdev.link/baja/dts"
 
 	"github.com/labstack/echo"
-	log "github.com/sirupsen/logrus"
 )
 
 const base64GifPixel = "R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs="
 
-// Allow us to view any branch of code from any accessible git repository
+// Track returns a 1x1 transparent gif pixel for tracking purpose
 func (s *Server) Track(c echo.Context) error {
 	issue := c.Param("issue")
 
-	s.log.WithFields(log.Fields{
-		"issue": issue,
-		"email": c.QueryParam("email"),
-		"ip":    string(c.RealIP()),
-	}).Info("Open Issue")
+	tracker := dts.TrackerService{s.db}
+	tracker.LoadIssue(issue, c.QueryParam("email"), string(c.RealIP()))
 
 	c.Response().Header().Set(echo.HeaderContentType, "image/gif")
 	img, _ := base64.StdEncoding.DecodeString(base64GifPixel)

@@ -20,6 +20,12 @@
   version = "v1.10.34"
 
 [[projects]]
+  name = "github.com/davecgh/go-spew"
+  packages = ["spew"]
+  revision = "346938d642f2ec3594ed81d874461961cd0faa76"
+  version = "v1.1.0"
+
+[[projects]]
   name = "github.com/dgrijalva/jwt-go"
   packages = ["."]
   revision = "06ea1031745cb8b3dab3f6a236daf2b0aa468b7e"
@@ -30,6 +36,12 @@
   packages = ["."]
   revision = "6333e38ac20b8949a8dd68baa3650f4dee8f39f0"
   version = "v1.33.0"
+
+[[projects]]
+  name = "github.com/go-stack/stack"
+  packages = ["."]
+  revision = "259ab82a6cad3992b4e21ff5cac294ccb06474bc"
+  version = "v1.7.0"
 
 [[projects]]
   branch = "master"
@@ -74,10 +86,22 @@
   version = "v0.0.2"
 
 [[projects]]
+  name = "github.com/mongodb/mongo-go-driver"
+  packages = ["bson","bson/builder","bson/decimal","bson/elements","bson/objectid","mongo","mongo/connstring","mongo/internal","mongo/internal/auth/gssapi","mongo/internal/feature","mongo/model","mongo/private/auth","mongo/private/cluster","mongo/private/conn","mongo/private/msg","mongo/private/ops","mongo/private/options","mongo/private/server","mongo/readconcern","mongo/readpref","mongo/writeconcern"]
+  revision = "4dccfa06a22dc6d6f77c9828e12c8ebb6ec502a4"
+  version = "v0.0.2"
+
+[[projects]]
   branch = "master"
   name = "github.com/olekukonko/tablewriter"
   packages = ["."]
   revision = "b8a9be070da40449e501c3c4730a889e42d87a9e"
+
+[[projects]]
+  name = "github.com/pmezard/go-difflib"
+  packages = ["difflib"]
+  revision = "792786c7400a136282c1664665ae0a8db921c6c2"
+  version = "v1.0.0"
 
 [[projects]]
   name = "github.com/radovskyb/watcher"
@@ -104,6 +128,12 @@
   revision = "6386211fdfcf24c0bfbdaceafd02849ed9a8a509"
 
 [[projects]]
+  name = "github.com/stretchr/testify"
+  packages = ["assert","require"]
+  revision = "12b6f73e6084dad08a7c6e575284b177ecafbc71"
+  version = "v1.2.1"
+
+[[projects]]
   branch = "master"
   name = "github.com/valyala/bytebufferpool"
   packages = ["."]
@@ -118,7 +148,7 @@
 [[projects]]
   branch = "master"
   name = "golang.org/x/crypto"
-  packages = ["acme","acme/autocert","ssh/terminal"]
+  packages = ["acme","acme/autocert","pbkdf2","ssh/terminal"]
   revision = "88942b9c40a4c9d203b82b3731787b672d6e809b"
 
 [[projects]]
@@ -148,6 +178,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "58ab1aadc1e7e2118af7f6c729bbeccfd56a8f32a79c54345c3fb6aa605ba9be"
+  inputs-digest = "6856a45a2e7cc8e98937029183179b63ae7705c5c5bdd8fd3ac207156cbd3e21"
   solver-name = "gps-cdcl"
   solver-version = 1
