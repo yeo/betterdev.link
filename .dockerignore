@@ -2,3 +2,4 @@
 backup
 community
 vendor
+content/*.csv
