@@ -24,3 +24,7 @@ chmod:
 	ssh kurei@betterdev.link "$(DEPLOY_CMD)"
 
 deploy: build upload chmod
+
+docker:
+	docker build -t yeospace/betterdev .
+
