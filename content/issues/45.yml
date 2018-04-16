@@ -81,6 +81,9 @@ brief:
   - url: https://stevedonovan.github.io/rust-gentle-intro/readme.html#a-gentle-introduction-to-rust
     title: "A Gentle Introduction To Rust"
 
+  - title: https://nerves.build/posts/photo_flow
+    url: "Photo Processing with GenStage and Flow"
+
   - url: http://blog.functorial.com/posts/2018-04-08-Incrementally-Improving-The-DOM.html
     title: "Incrementally Improving The DOM"
 
