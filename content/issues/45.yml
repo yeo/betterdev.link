@@ -56,11 +56,10 @@ links:
       project does as well.
 
   - url: https://medium.com/@stackshareio/tech-stack-roundup-2-march-2017-b6996f5f792
-    title: "A list of top tech stack blog from: Uber, Spotify, Stripe, Discord, Segment, WePay, Sentry, Dropbox"
+    title: "A list of top tech stack blog from big companies"
     description: |
-      What's going on the tech stack at big companies? Since they are real world example,
-      production code. It's very good to reach their tech stack blog to see what we can
-      learn from them.
+      Uber, Spotify, Stripe, Discord, Segment, WePay, Sentry, Dropbox. Let's
+      see what in their tech stack and how they design their infrastructure
 
   - url: https://blog.wallaroolabs.com/2018/04/choosing-elixirs-phoenix-to-power-a-real-time-web-ui/
     title: "Choosing Elixir's Phoenix to power a real-time Web UI"
@@ -78,11 +77,14 @@ links:
        async/await. Also checkout [How to escape async/await hell](https://medium.freecodecamp.org/avoiding-the-async-await-hell-c77a0fb71c4c)
 
 brief:
+  - url: https://github.com/freach/kubernetes-security-best-practice
+    title: "Kubernetes Security - Best Practice Guide"
+
   - url: https://stevedonovan.github.io/rust-gentle-intro/readme.html#a-gentle-introduction-to-rust
     title: "A Gentle Introduction To Rust"
 
-  - title: https://nerves.build/posts/photo_flow
-    url: "Photo Processing with GenStage and Flow"
+  - url: https://nerves.build/posts/photo_flow
+    title: "Photo Processing with GenStage and Flow"
 
   - url: http://blog.functorial.com/posts/2018-04-08-Incrementally-Improving-The-DOM.html
     title: "Incrementally Improving The DOM"
