@@ -1,0 +1,205 @@
+---
+time: "Apr 16, 2018"
+description: ""
+draft: true
+
+links:
+  - url: http://jamie-wong.com/post/color/
+    title: "Color: From Hexcodes to Eyeballs"
+    description: |
+      This is one of those questions where I thought I’d known the answer for a
+      long time, but as I inspected my understanding, I realized there were
+      pretty significant gaps.
+
+  - url: https://www.anishathalye.com/2018/04/03/macbook-touchscreen/
+    title: "Turning a MacBook into a Touchscreen with $1 of Hardware"
+    description: |
+      Turn a MacBook into a touchscreen using only $1 of hardware and a little
+      bit of computer vision. The proof-of-concept, dubbed “Project Sistine”
+      prototyped by in about 16 hours.
+
+  - url: https://pingcap.com/blog/chaos-practice-in-tidb/
+    title: "From Chaos to Order -- Tools and Techniques for Testing TiDB, A Distributed NewSQL Database"
+    description: |
+      TiDB is a distributed HTAP database compatible with the MySQL protocol.
+      They apply Chaos Engineering to observe the state of system, make
+      hypothesis, conduct experiments, and verify those hypothesis with real
+      results. The post include their 5-steps Chao methodology.
+
+  - url: https://mordrax.gitbooks.io/elm-at-phd/content/
+    title: "Elm at Pacific Health Dynamics"
+    description: |
+      This is a story of a guy who left it all to chase Elm full time, the
+      technical trials and tribulations he faced, the euphoric and … not so
+      euphoric bits of writing a SPA in Elm.
+
+  - url: https://medium.com/@minimarcel/effect-of-cpu-caches-57db81490a7f
+    title: "Effects of CPU caches"
+    description: |
+      Array or Linked List? Except for the cost of the pointers linking the
+      element between them, there was no other cost when iterating over a linked
+      list compared to an array. But things are not that simple.
+
+  - url: https://severalnines.com/blog/my-favorite-postgresql-queries-and-why-they-matter
+    title: "My Favorite PostgreSQL Queries and Why They Matter"
+    description: |
+      A combination of 8 differing queries or types of queries I have found
+      interesting and engaging to explore, study, learn, or otherwise
+      manipulate data sets
+
+  - url: https://github.com/sigalor/whatsapp-web-reveng/blob/master/README.md
+    title: "WhatsApp Web reverse engineered"
+    description: |
+      This project intends to provide a complete description and
+      re-implementation of the WhatsApp Web API, which will eventually lead to a
+      custom client. WhatsApp Web internally works using WebSockets; this
+      project does as well.
+
+  - url: https://medium.com/@stackshareio/tech-stack-roundup-2-march-2017-b6996f5f792
+    title: "A list of top tech stack blog from: Uber, Spotify, Stripe, Discord, Segment, WePay, Sentry, Dropbox"
+    description: |
+      What's going on the tech stack at big companies? Since they are real world example,
+      production code. It's very good to reach their tech stack blog to see what we can
+      learn from them.
+
+  - url: https://blog.wallaroolabs.com/2018/04/choosing-elixirs-phoenix-to-power-a-real-time-web-ui/
+    title: "Choosing Elixir's Phoenix to power a real-time Web UI"
+    description: |
+      In this post, WallarooLabs take a deeper dive into their monitoring
+      problem and how Phoenix and Elixir helped solve their specific issues.
+      Also, don't forgot to checkout this: [Yet another “Why my company chose Elixir” story](https://medium.com/navigating-the-conversation/yet-another-why-my-company-chose-elixir-story-a5f5bef286f)
+
+  - url: http://thecodebarbarian.com/write-your-own-node-js-promise-library-from-scratch.html
+    title: "Write Your Own Node.js Promise Library from Scratch"
+    description: |
+       Async/await solve callback hell, and it's based on promises, so you need
+       to understand promises to master async/await. This walks you through
+       writing your own promise library and demonstrate using it with
+       async/await. Also checkout [How to escape async/await hell](https://medium.freecodecamp.org/avoiding-the-async-await-hell-c77a0fb71c4c)
+
+brief:
+  - url: https://stevedonovan.github.io/rust-gentle-intro/readme.html#a-gentle-introduction-to-rust
+    title: "A Gentle Introduction To Rust"
+
+  - url: http://blog.functorial.com/posts/2018-04-08-Incrementally-Improving-The-DOM.html
+    title: "Incrementally Improving The DOM"
+
+  - url: https://blog.cloudflare.com/how-we-built-spectrum/
+    title: "Abusing Linux's firewall: the hack that allowed us to build Spectrum"
+
+  - url: https://realpython.com/python-debugging-pdb/
+    title: "Python Debugging With Pdb"
+
+  - url: http://www.alexedwards.net/blog/serverless-api-with-go-and-aws-lambda
+    title: "How to build a Serverless API with Go and AWS Lambda"
+
+  - url: https://varnull.adityamukerjee.net/2018/04/05/observing-kubernetes-services-with-veneur/
+    title: "Observing Kubernetes Services With Veneur"
+
+  - url: https://open.nytimes.com/building-a-text-editor-for-a-digital-first-newsroom-f1cb8367fc21
+    title: "Building a Text Editor for a Digital-First Newsroom"
+
+  - url: https://github.com/ankane/the-ultimate-guide-to-ruby-timeouts
+    title: "The Ultimate Guide to Ruby Timeouts"
+
+  - url: https://medium.com/@tjdracz/interactive-debug-sessions-in-rspec-with-capybara-6c4dec2619d3
+    title: "Interactive debug sessions in RSpec with Capybara"
+
+  - url: https://github.com/serhii-londar/open-source-mac-os-apps
+    title: "Awesome list of open source applications for macOS"
+
+  - url: https://drive.google.com/file/d/1GRSNCFgni5e0ILchvTHccmmesz8IVXqh/view
+    title: "Continuous Kubernetes Security Slide"
+
+  - url: https://www.joyfulbikeshedding.com/blog/2018-03-26-studying-the-kubernetes-ingress-system.html
+    title: "Studying the Kubernetes Ingress system"
+
+  - url: http://2ality.com/2018/04/type-notation-typescript.html
+    title: "Understanding TypeScript’s type notation"
+
+  - url: https://sysdig.com/blog/debug-kubernetes-crashloopbackoff/
+    title: "Debug Kubernetes CrashLoopBackOff Events"
+
+video:
+  - url: https://www.youtube.com/watch?v=OEx-g4hvgyA
+    title: "Design Decisions #4: Reviewing a big feature at length"
+
+  - url: https://www.youtube.com/watch?v=YtrA7eauSSg0
+    title: "Continuous Kubernetes Security "
+
+  - url: https://www.youtube.com/watch?v=MzTcsI6tn-0
+    title: "Golang best practices"
+
+read_code:
+  - url: https://github.com/intoli/remote-browser/
+    title: "remote-browser: A low-level browser automation framework built on top of the Web Extensions API standard"
+
+  - url: https://github.com/litl/backoff/
+    title: "backoff: Python library providing function decorators for configurable backoff and retry"
+
+  - url: https://github.com/nebulet/nebulet
+    title: "nebulet: A microkernel that implements a WebAssembly \"usermode\" that runs in Ring 0"
+    category:
+      - Rust
+
+  - url: https://github.com/breser/git2consul
+    title: "Mirrors the contents of a git repository into Consul KVs"
+    category:
+      - JavaScript
+
+  - url: https://github.com/NozeIO/redi-s
+    title: "A performant Redis server implemented in SwiftNIO"
+    category:
+      - Swift
+
+  - url: https://github.com/Softmotions/iowow
+    title: "The skiplist based persistent key/value storage engine"
+    category:
+      - C
+
+  - url: https://github.com/baweaver/qo
+    title: "Qo - Query Object - Pattern matching and fluent querying"
+    category:
+      - Ruby
+
+  - url: https://github.com/buraksezer/gsocks5
+    title: "Secure SOCKS5 server in Go"
+    category:
+      - Golang
+
+  - url: https://github.com/roughike/inKino
+    title: "inKino - A cross platform movie and showtime browser for Finnkino cinemas"
+    category:
+      - Flutter
+      - Dart
+tool:
+  - url: https://tabler.github.io/
+    title: "Tabler: An Open Source Bootstrap Admin Panel Theme"
+
+  - url: https://github.com/cjbassi/gotop
+    title: "A terminal based graphical activity monitor inspired by gtop and vtop"
+
+  - url: https://github.com/dmulholland/ironclad
+    title: "A command line password manager"
+    category:
+      - Go
+
+  - url: https://github.com/lirantal/dockly
+    title: "dockly: Docker console UI and Dashboard for quickly managing and inspecting Containers and Services"
+
+  - url: https://github.com/asdine/storm
+    title: "storm: Simple and powerful toolkit for BoltDB"
+
+  - url: https://github.com/usnistgov/OSCAL
+    title: "Open Security Controls Assessment Language"
+
+  - url: https://github.com/argoproj/argo
+    title: "Argo: The Workflow Engine for Kubernetes"
+
+  - url: https://github.com/bitnami-labs/sealed-secrets
+    title: "A Kubernetes controller and tool for one-way encrypted Secrets"
+
+  - url: https://github.com/ayoubserti/js-mysql
+    title: "Execute Javascript into SQL queries"
+    category:
+      - C++
