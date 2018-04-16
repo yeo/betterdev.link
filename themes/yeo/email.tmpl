@@ -61,6 +61,13 @@ a {
         padding: 0.5rem 0.5rem 0.5rem 0.5rem;
       }
 
+      .issue-link p {
+        color: #333;
+        font-weight: 300;
+        margin: 0;
+        padding: 0;
+      }
+
       .issue-description {
         color: #666;
         font-weight: 300;
@@ -162,8 +169,8 @@ a {
                 </div>
                 {{ else }}
                 <div class="issue-link">
-                  <a style="font-size: 1.2rem; font-weight: 400; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a><br>
-                  <span style="color: #333; font-weight: 300;">{{ $link.Description }}</span>
+                  <a style="font-size: 1.2rem; font-weight: 400; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
+                  {{ $link.Description }}
                 </div>
                 {{ end }}
 

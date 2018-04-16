@@ -141,7 +141,7 @@
             {{ if .Description }}
             <div>
               <div style="padding: 1.5rem 1.5rem 0rem 1.5rem; font-size: 1.1rem;" class="issue-intro">
-                <p>{{ .Description }}</p>
+              {{ .Description }}
               </div>
             </div>
             {{ end }}
@@ -151,7 +151,7 @@
                 {{ if $link.IsSponsor }}
                   <div class="issue-sponsor">
                     <a style="font-size: 1.3rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a> <span style="color: #f36c3d;">(SPONSOR)</span>
-                    <p class="issue-description">{{ $link.Description }}</p>
+                    <article class="issue-description">{{ $link.Description }}</article>
                     {{ if $link.Action }}<a class='sponsor-action' href ="{{ $link.URI }}" target='_blank'>{{ $link.Action }}</a>{{ end }}
 
                   </div>
