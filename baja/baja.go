@@ -1,6 +1,7 @@
 package baja
 
 import (
+	"html/template"
 	"strconv"
 	"time"
 )
@@ -22,11 +23,11 @@ type Page struct {
 }
 
 type Link struct {
-	URI         string   `yaml:"url"`
-	Title       string   `yaml:"title"`
-	Description string   `yaml:"description"`
-	Category    []string `yaml:"category"`
-	Action      string   `yaml:"action"`
+	URI         string        `yaml:"url"`
+	Title       string        `yaml:"title"`
+	Description template.HTML `yaml:"description"`
+	Category    []string      `yaml:"category"`
+	Action      string        `yaml:"action"`
 }
 
 func (l *Link) IsSponsor() bool {
@@ -42,16 +43,16 @@ func (l *Link) IsSponsor() bool {
 type Issues []Issue
 
 type Issue struct {
-	Time        string    `yaml:"time"`
-	Links       []Link    `yaml:"links"`
-	CodeToRead  []Link    `yaml:"read_code"`
-	Tools       []Link    `yaml:"tool"`
-	Briefs      []Link    `yaml:"brief"`
-	Videos      []Link    `yaml:"video"`
-	Name        string    `yaml:"name"`
-	PubTime     time.Time `yaml:"pub_time"`
-	Draft       bool      `yaml:"draft"`
-	Description string    `yaml:"description"`
+	Time        string        `yaml:"time"`
+	Links       []Link        `yaml:"links"`
+	CodeToRead  []Link        `yaml:"read_code"`
+	Tools       []Link        `yaml:"tool"`
+	Briefs      []Link        `yaml:"brief"`
+	Videos      []Link        `yaml:"video"`
+	Name        string        `yaml:"name"`
+	PubTime     time.Time     `yaml:"pub_time"`
+	Draft       bool          `yaml:"draft"`
+	Description template.HTML `yaml:"description"`
 }
 
 func (issue Issue) FormatPubTime() string {

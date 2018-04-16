@@ -14,6 +14,7 @@ import (
 	"strings"
 	"time"
 
+	"gopkg.in/russross/blackfriday.v2"
 	"gopkg.in/yaml.v2"
 )
 
@@ -186,6 +187,14 @@ func loadIssue(f os.FileInfo) (Issue, error) {
 	//Thu, 06 Jul 2017 17:42:26 +0000
 	if issue.PubTime, err = time.Parse("Jan 2, 2006 15:04:05 -0700", issue.Time+" 05:19:00 -0700"); err != nil {
 		log.Println("Cannot parse time on issue ", name, issue.Name, issue.Time, err)
+	}
+
+	issue.Description = template.HTML(string(blackfriday.Run([]byte(issue.Description))))
+
+	if issue.Links != nil {
+		for i := range issue.Links {
+			issue.Links[i].Description = template.HTML(string(blackfriday.Run([]byte(issue.Links[i].Description))))
+		}
 	}
 	return issue, nil
 }
