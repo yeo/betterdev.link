@@ -28,3 +28,6 @@ deploy: build upload chmod
 docker:
 	docker build -t yeospace/betterdev .
 
+nginx:
+	docker build -t yeospace/betterdev:static -f Dockerfile-static .
+	docker push yeospace/betterdev:static

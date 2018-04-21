@@ -1,0 +1,23 @@
+kind: Deployment
+apiVersion: extensions/v1beta1
+metadata:
+  name: betterdev
+  namespace: yeo
+  labels:
+    app: betterdev
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: betterdev
+  template:
+    metadata:
+      labels:
+        app: betterdev
+        name: betterdev
+    spec:
+      terminationGracePeriodSeconds: 60
+      containers:
+      - image: yeospace/betterdev:static
+        imagePullPolicy: Always
+        name: betterdev

@@ -1,0 +1,51 @@
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: betterdev
+  namespace: yeo
+spec:
+  selector:
+    app: betterdev
+  ports:
+    - protocol: TCP
+      port: 80
+      name: web
+
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: bd-ingress
+  annotations:
+    kubernetes.io/tls-acme: "true" # enable certificates
+    kubernetes.io/yeo.class: "nginx"
+  namespace: yeo
+spec:
+  tls: # specify domains to fetch certificates for
+  - hosts:
+    - betterdev.link
+    - www.betterdev.link
+    secretName: bd-tls
+  rules:
+  - host: betterdev.link
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: betterdev
+          servicePort: web
+  - host: www.betterdev.link
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: betterdev
+          servicePort: web
+  - host: open.betterdev.link
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: betterdev
+          servicePort: web
