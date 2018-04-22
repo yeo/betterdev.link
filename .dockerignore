@@ -3,3 +3,4 @@ backup
 community
 vendor
 content/*.csv
+*.env
