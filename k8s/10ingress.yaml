@@ -11,6 +11,7 @@ spec:
     - protocol: TCP
       port: 80
       name: web
+      targetPort: 1605
 
 ---
 apiVersion: extensions/v1beta1
@@ -26,6 +27,7 @@ spec:
   - hosts:
     - betterdev.link
     - www.betterdev.link
+    - open.betterdev.link
     secretName: bd-tls
   rules:
   - host: betterdev.link

@@ -18,6 +18,11 @@ spec:
     spec:
       terminationGracePeriodSeconds: 60
       containers:
-      - image: yeospace/betterdev:static
+      - image: yeospace/betterdev
         imagePullPolicy: Always
         name: betterdev
+        ports:
+        - containerPort: 1605
+        env:
+          - name: MONGO_URI
+            value: "mongodb://yeo.mongodb:27017"
