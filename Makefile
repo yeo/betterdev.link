@@ -28,7 +28,7 @@ deploy: build upload chmod
 
 docker:
 	docker build -t ${DOCKER_REPO}:${GIT_COMMIT} .
-	docker tag ${DOCKER_REPO}:latest ${DOCKER_REPO}:${GIT_COMMIT}
+	docker tag ${DOCKER_REPO}:${GIT_COMMIT} ${DOCKER_REPO}:latest
 	docker push ${DOCKER_REPO}:${GIT_COMMIT}
 	docker push ${DOCKER_REPO}:latest
 
