@@ -1,7 +1,8 @@
 ---
 time: "Apr 23, 2018"
-description: ""
-draft: true
+description: |
+  Hi all, I migrated this site into K8S. You can see the code on [betterdev](https://github.com/yeo/betterdev.link) together with [k8s manifest](https://github.com/yeo/betterdev.link/tree/master/k8s). I'll add more docs in next week. Any contribution are welcome
+draft: false
 
 links:
   - url: https://blog.0x74696d.com/posts/software-defined-culture/
