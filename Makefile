@@ -1,7 +1,8 @@
 GIT_COMMIT := $(shell git rev-list -1 HEAD)
 VERSION ?= 0.1
+DOCKER_REPO := yeospace/betterdev
 
-release:
+osx:
 	cd cmd && go build -ldflags "-X main.Version=$(VERSION) -X main.GitCommit=$(GIT_COMMIT)" -o ../bd
 
 linux:
@@ -26,8 +27,16 @@ chmod:
 deploy: build upload chmod
 
 docker:
-	docker build -t yeospace/betterdev .
+	docker build -t ${DOCKER_REPO}:${GIT_COMMIT} .
+	docker tag ${DOCKER_REPO}:latest ${DOCKER_REPO}:${GIT_COMMIT}
+	docker push ${DOCKER_REPO}:${GIT_COMMIT}
+	docker push ${DOCKER_REPO}:latest
+
+k8s-deploy:
+	kubectl -n yeo set image deployment/betterdev betterdev=${DOCKER_REPO}:${GIT_COMMIT}
+
+release: linux docker k8s-deploy
 
 nginx:
-	docker build -t yeospace/betterdev:static -f Dockerfile-static .
-	docker push yeospace/betterdev:static
+	docker build -t ${DOCKER_REPO}:static -f Dockerfile-static .
+	docker push ${DOCKER_REPO}:static

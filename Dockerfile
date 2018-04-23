@@ -6,6 +6,8 @@ WORKDIR /app
 RUN mkdir -p /var/log/bd/ && \
     mkdir -p /app
 
+USER nobody
+
 ADD content /app/content
 ADD public /app/public
 ADD static /app/static
