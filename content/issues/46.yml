@@ -1,0 +1,197 @@
+---
+time: "Apr 23, 2018"
+description: ""
+draft: true
+
+links:
+  - url: https://blog.0x74696d.com/posts/software-defined-culture/
+    title: "Software Defined Culture"
+    description: |
+      Simply using the tools by themselves doesn't mean you're going to make the
+      cultural transformation. 4 guideline for software defined culture:
+      Reliability, Operability, Observability, Responsibility.
+
+  - url: http://blog.codepipes.com/testing/software-testing-antipatterns.html
+    title: "Software Testing Anti-patterns"
+    description: |
+      Take a step back and catalog some high-level testing anti-patterns that
+      are technology agnostic. Hopefully you will recognize some of these
+      patterns regardless of your favorite programming language.
+
+  - url: http://seriot.ch/parsing_json.php
+    title: "Parsing JSON is a Minefield 💣"
+    description: |
+      JSON is the de-facto standard? But how well do you really know JSON?
+      We'll read the specifications and write test cases together
+
+  - url: https://dave.cheney.net/2014/06/07/five-things-that-make-go-fast
+    title: "Five things that make Go fast"
+    description: |
+      Use Go or not, the article is sound. It dives into how Go store data
+      structure, make use of CPU cache, inline function, dead code elimination,
+      and Go routine and more...
+
+  - url: https://medium.com/@bokuweb17/writing-an-nes-emulator-with-rust-and-webassembly-d64de101c49d
+    title: "Writing An NES Emulator with Rust and WebAssembly"
+    description: |
+      Author wrote the NES emulator with Rust and WebAssembly to learn Rust.
+      It’s not perfect and have some audio bugs, but it’s good enough to play
+      Super Mario bros. Learn Rust and NES both at same time.
+
+  - url: https://mycode.doesnot.run/2018/04/11/pivot/
+    title: "Incrementally improving the performance until nothing makes sense"
+    description: |
+      Do you think by putting code into a function make it faster thant leave
+      code in global scope?
+
+  - url: https://blog.jez.io/union-types-flow-reason/
+    title: "Union Types in Flow & Reason"
+    description: |
+      The author refactored more of code to use union types then  noticed that
+      our bundle size has been steadily increasing! Why so? We’ll start with a
+      problem which union types can solve, then examine the cost.
+
+  - url: http://babich.biz/7-rules-of-buttons/
+    title: 7 Basic Rules for Button Design
+    description: |
+      I love button. Who doesn't like ability to push and let it does the thing.
+      The author review seven basic principles you need to know to create effective
+      buttons.
+
+
+brief:
+  - url: https://blog.anayrat.info/en/2018/04/16/postgresqls-developments-for-high-volumes-processing/
+    title: "PostgreSQL's developments for high volumes processing"
+    category:
+      - PostgreSQL
+
+  - url: https://medium.com/@javierwchavarri/performance-of-records-in-bucklescript-ecf6566fff5c
+    title: "Performance of records in BuckleScript"
+    category:
+      - ReasonML
+      - BuckleScript
+
+  - url: https://hackernoon.com/ethereum-smart-contracts-in-python-a-comprehensive-ish-guide-771b03990988
+    title: "Ethereum Smart Contracts in Python: a comprehensive(ish) guide"
+    category:
+      - Python
+      - Ethereum
+
+  - url: https://medium.com/@hasssaaannn/building-single-source-of-truth-using-serverless-and-nosql-bca6c9d45eeb
+    title: "Building single source of truth using Serverless and NoSQL"
+    category:
+      - Architecture
+
+  - url: https://cloudplatform.googleblog.com/2018/04/exploring-container-security-protecting-and-Defending-your-Kubernetes-Engine-network.html
+    title: "Exploring container security: Protecting and defending your Kubernetes Engine network"
+    category:
+      - Kubernetes
+
+  - url: https://lwn.net/Articles/749992/
+    title: "A look at terminal emulators"
+    category:
+      - Linux
+      - DevOps
+
+  - url: https://cilium.io/blog/2018/04/17/why-is-the-kernel-community-replacing-iptables/
+    title: "Why is the kernel community replacing iptables with BPF?"
+    category:
+      - Linux
+      - DevOpsSec
+
+  - url: https://zellwk.com/blog/dom-traversals/
+    title: "Traversing the DOM with JavaScript"
+
+  - url: https://ericasadun.com/2018/04/15/writing-swift-adventures-in-compiler-mods
+    title: "Writing Swift: Adventures in Compiler Mods"
+
+  - url: https://martinmitrevski.com/2018/04/14/detecting-whisky-brands-with-core-ml-and-ibm-watson-services/
+    title: "Detecting Whisky brands with Core ML and IBM Watson services"
+    category:
+      - CoreML
+      - Swift
+
+  - url: http://kirshatrov.com/2018/04/13/debugging-ruby-in-kubernetes/
+    title: "Debugging Ruby processes in Kubernetes"
+    category:
+      - Ruby
+      - Kubernetes
+
+video:
+  - url: https://www.youtube.com/watch?v=o6wWSPxYueU
+    title: "Building a Ruby profiler"
+
+  - url: https://www.youtube.com/watch?v=HULaOA5oJMY
+    title: "V8 Internals for JS Developers"
+
+read_code:
+  - url: https://github.com/mpangburn/FunctionKit
+    title: "A framework for functional types and operation"
+    category:
+      - Swift
+
+  - url: https://github.com/text-mask/text-mask
+    title: "Text Mask: an input mask library, support phone, date, currency and literally anything!"
+    category:
+      - JavaScript
+
+  - url: https://github.com/Buroni/booksoup
+    title: "Booksoup: analyse, traverse downloaded facebook data, sentiment analysis and message frequency"
+    category:
+      - Python
+
+  - url: https://github.com/boyter/scc
+    title: "scc: a very fast accurate code counter with complexity calculations and COCOMO estimates"
+    category:
+      - Go
+
+  - url: https://github.com/palkan/action_policy
+    title: "ActionPolicy\" an authorization framework for Ruby and Rails applications"
+    category:
+      - Ruby
+
+tool:
+  - url: https://github.com/bcicen/ctop
+    title: "Top-like interface for container metrics"
+    category:
+      - Go
+      - Docker
+
+  - url: https://github.com/deptno/dynamon
+    title: "😈 Dynamon is GUI client for DynamoDB"
+    category:
+      - TypeScript
+      - DynamoDB
+
+  - url: https://github.com/yongman/tidis
+    title: "tidis: Distributed NoSQL database, Redis protocol compatible using tikv as backend"
+
+  - url: https://github.com/blockstack/gaia
+    title: "gaia: A decentralized high-performance storage system"
+
+  - url: https://github.com/Canner/slate-md-editor
+    title: "slate-md-editor: live edit markdown based on slatejs"
+
+  - url: https://github.com/danger/danger
+    title: "danger: run in CI to ensure your code follow certain standard"
+
+  - url: https://github.com/GoogleContainerTools/kaniko
+    title: "kaniko: Build Container Images In Kubernetes"
+
+  - url: https://github.com/salihciftci/liman
+    title: "liman: Basic docker monitoring web application"
+
+  - url: https://github.com/mjl-/duit
+    title: "pure go, cross-platform, MIT-licensed ui toolkit"
+    category:
+      - Go
+
+  - url: https://github.com/strapi/strapi
+    title: "Node.js Content Management Framework"
+    category:
+      - JavaScript
+
+  - url: https://github.com/resin-os/balena
+    title: "Moby-based Container Engine for Embedded, IoT, and Edge uses"
+    category:
+      - Go
