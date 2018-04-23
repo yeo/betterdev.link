@@ -60,22 +60,15 @@ links:
 
 
 brief:
+  - url: https://auth0.com/blog/common-threats-in-web-app-security/
+    title: "Common Threats in Web Application Security"
+    category:
+      - Security
+
   - url: https://blog.anayrat.info/en/2018/04/16/postgresqls-developments-for-high-volumes-processing/
     title: "PostgreSQL's developments for high volumes processing"
     category:
       - PostgreSQL
-
-  - url: https://medium.com/@javierwchavarri/performance-of-records-in-bucklescript-ecf6566fff5c
-    title: "Performance of records in BuckleScript"
-    category:
-      - ReasonML
-      - BuckleScript
-
-  - url: https://hackernoon.com/ethereum-smart-contracts-in-python-a-comprehensive-ish-guide-771b03990988
-    title: "Ethereum Smart Contracts in Python: a comprehensive(ish) guide"
-    category:
-      - Python
-      - Ethereum
 
   - url: https://medium.com/@hasssaaannn/building-single-source-of-truth-using-serverless-and-nosql-bca6c9d45eeb
     title: "Building single source of truth using Serverless and NoSQL"
@@ -99,17 +92,30 @@ brief:
       - Linux
       - DevOpsSec
 
-  - url: https://zellwk.com/blog/dom-traversals/
-    title: "Traversing the DOM with JavaScript"
-
-  - url: https://ericasadun.com/2018/04/15/writing-swift-adventures-in-compiler-mods
-    title: "Writing Swift: Adventures in Compiler Mods"
-
   - url: https://martinmitrevski.com/2018/04/14/detecting-whisky-brands-with-core-ml-and-ibm-watson-services/
     title: "Detecting Whisky brands with Core ML and IBM Watson services"
     category:
       - CoreML
       - Swift
+
+  - url: https://hackernoon.com/ethereum-smart-contracts-in-python-a-comprehensive-ish-guide-771b03990988
+    title: "Ethereum Smart Contracts in Python: a comprehensive(ish) guide"
+    category:
+      - Python
+      - Ethereum
+
+
+  - url: https://medium.com/@javierwchavarri/performance-of-records-in-bucklescript-ecf6566fff5c
+    title: "Performance of records in BuckleScript"
+    category:
+      - ReasonML
+      - BuckleScript
+
+  - url: https://zellwk.com/blog/dom-traversals/
+    title: "Traversing the DOM with JavaScript"
+
+  - url: https://ericasadun.com/2018/04/15/writing-swift-adventures-in-compiler-mods
+    title: "Writing Swift: Adventures in Compiler Mods"
 
   - url: http://kirshatrov.com/2018/04/13/debugging-ruby-in-kubernetes/
     title: "Debugging Ruby processes in Kubernetes"
