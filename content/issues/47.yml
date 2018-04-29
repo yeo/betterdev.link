@@ -14,6 +14,8 @@ links:
     title: "Monitor And Correlate Logs, Metrics, And Request Traces In One Platform With Datadog!"
     description: "Track and alert on 200+ apps and services at any scale, in any environment. Get deep insights into health and performance with built-in dashboards, end-to-end request tracing, and logs in one integrated platform. Sign up for a free 14-day trial."
     action: "Sign Up For A Free Datadog Trial"
+    category:
+      - sponsor
 
   - url: http://blog.fogus.me/2011/09/08/10-technical-papers-every-programmer-should-read-at-least-twice/
     title: "10 Technical Papers Every Programmer Should Read"
@@ -49,7 +51,7 @@ links:
 
   - url: https://blogs.dropbox.com/tech/2018/04/4696/
     title: "MacOS monitoring the open source way"
-    describe: |
+    description: |
       See how Dropbox use open source component to monitor their Mac laptop.
 
   - url: https://rollbar.com/blog/top-10-ruby-on-rails-errors/
@@ -61,13 +63,12 @@ links:
   - url: https://launchbylunch.com/posts/2014/Feb/16/sql-naming-conventions/
     title: "How I Write SQL, Part 1: Naming Conventions"
     description: |
-      There are only two hard problems in Computer Science: cache invalidation and naming things.
-      This post describe naming conventions for database objects.
+      Some best practices on naming table, column and SQL object.
 
   - url: https://chipsandbits.blog/2018/04/22/esp8266-garage-door-monitor-controller-part-1/
     title: "ESP8266 Garage Door Monitor/Controller [part 1]"
     description: |
-      DIY style a system that detects the door is opened or closed and close it automatically if there hasn’t
+      DIY hardwre system that detects the door is opened or closed and close it automatically if there hasn’t
       been any activity.  Manual remote-control with a phone too.
 
 brief:
