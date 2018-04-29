@@ -1,0 +1,198 @@
+---
+time: "Apr 30, 2018"
+description: ""
+draft: false
+
+links:
+  - url: https://blog.benjojo.co.uk/post/scan-ping-the-internet-hilbert-curve
+    title: "Mapping the whole internet with Hilbert curves"
+    description: |
+      Impressive work to map out the whole internet by scan all IPV4 address on the internet in a
+      day. Then visualize on a heatmap to show how many system(IPAddress) are online at that time.
+
+  - url: https://www.datadoghq.com/lpg/?utm_source=Advertisement&utm_medium=Advertisement&utm_campaign=BetterDev-Newsletter
+    title: "Monitor And Correlate Logs, Metrics, And Request Traces In One Platform With Datadog!"
+    description: "Track and alert on 200+ apps and services at any scale, in any environment. Get deep insights into health and performance with built-in dashboards, end-to-end request tracing, and logs in one integrated platform. Sign up for a free 14-day trial."
+    action: "Sign Up For A Free Datadog Trial"
+
+  - url: http://blog.fogus.me/2011/09/08/10-technical-papers-every-programmer-should-read-at-least-twice/
+    title: "10 Technical Papers Every Programmer Should Read"
+    description: |
+      I confess I don't often read tech paper. They are over my head. However, sometimes I force myself
+      to read some of them and I realized I always learn something from them. Probably because they're
+      slow to read and force me to think more.
+
+  - url: https://medium.com/@copyconstruct/iterative-refactoring-of-apis-with-proxies-d78a2ba7e6ed
+    title: "API versioning and evolution with proxies"
+    description: |
+      The way app supports many API version is by having some form of versioning scheme(url or header)
+      and maintaining multiple codepaths, endpoints of the underlying business logic. This article has
+      another approach to use proxy and consider version is just a routing matter.
+
+  - url: https://heartbeat.fritz.ai/introduction-to-decision-tree-learning-cd604f85e236
+    title: "Introduction to Decision Tree Learning"
+    description: |
+      Learn what is a decision tree, how to construct a decision tree, and construct a decision tree using Python
+
+  - url: http://blog.scottlogic.com/2018/04/26/webassembly-by-hand.html
+    title: "Writing WebAssembly By Hand"
+    description: |
+      WebAssembly is a compilation target for an ever-growing range of languages including C/C++, Rust, Go,...
+      However, it is actually possible to write WebAssembly directly by hand which is an educational and
+      enjoyable process.
+
+  - url: https://kickstarter.engineering/event-sourcing-made-simple-4a2625113224
+    title: "Event Sourcing made Simple"
+    description: |
+      Event Sourcing is to data what Git is to code. KickStarter implemented a minimal event sourcing framework
+      to power d.rip
+
+  - url: https://blogs.dropbox.com/tech/2018/04/4696/
+    title: "MacOS monitoring the open source way"
+    describe: |
+      See how Dropbox use open source component to monitor their Mac laptop.
+
+  - url: https://rollbar.com/blog/top-10-ruby-on-rails-errors/
+    title: "Top 10 errors from 1000+ on Rails projects"
+    description: |
+      Rollbar looked at their database of thousands of projects and found the top 10 errors in Rails projects.
+      They are showing the cause and how to prevent. If you avoid these, it'll make you a better developer.
+
+  - url: https://launchbylunch.com/posts/2014/Feb/16/sql-naming-conventions/
+    title: "How I Write SQL, Part 1: Naming Conventions"
+    description: |
+      There are only two hard problems in Computer Science: cache invalidation and naming things.
+      This post describe naming conventions for database objects.
+
+  - url: https://chipsandbits.blog/2018/04/22/esp8266-garage-door-monitor-controller-part-1/
+    title: "ESP8266 Garage Door Monitor/Controller [part 1]"
+    description: |
+      DIY style a system that detects the door is opened or closed and close it automatically if there hasn’t
+      been any activity.  Manual remote-control with a phone too.
+
+brief:
+  - url: https://brandur.org/redis-cluster
+    title: "Scaling a High-traffic Rate Limiting Stack With Redis Cluster"
+
+  - url: https://medium.com/@nathangitter/exploring-apps-without-jailbreaking-e932904f9863
+    title: "Exploring Apps Without Jailbreaking: see how they're built"
+
+  - url: https://levelup.gitconnected.com/code-less-think-more-incrementally-98adee22df9b
+    title: "Code Less, Think More… Incrementally!"
+
+  - url: https://medium.com/confrere/gone-in-1100-seconds-hunting-bugs-on-the-edge-of-webrtc-132a186c45dd
+    title: "Gone in 1100 seconds: A story of hunting bugs on the Edge of WebRTC"
+
+  - url: http://www.blacktm.com/blog/ruby-on-webassembly
+    title: "Ruby on WebAssembly"
+
+  - url: https://tech.coffeemeetsbagel.com/testing-django-with-pytest-debugging-a-teardown-failure-acfa4103aa67
+    title: "pytest: debugging a teardown failure"
+
+  - url: https://teivah.io/blog/good-code-vs-bad-code-in-golang/
+    title: "Good Code vs Bad Code in Golang"
+
+  - url: https://medium.com/@peter.gtz/how-to-write-better-unit-tests-in-go-using-mocks-4dd05e867b17
+    title: "How to Write Better Unit Tests in Go Using Mocks"
+
+  - url: https://medium.com/@sweetpalma/gooact-react-in-160-lines-of-javascript-44e0742ad60f
+    title: "Simple React Clone in 160 lines of JavaScript"
+
+video:
+  - url: https://www.xaprb.com/slides/index-postgresql-database-postgresconf-2018/#3
+    title: "How to index your database(slide)"
+
+  - url: https://speakerdeck.com/radar/exploding-rails
+    title: "Exploding Rails(slide)"
+
+  - url: https://www.youtube.com/watch?v=bT_k06Xg-BE
+    title: "Writing FreeBSD Malware"
+
+  - url: https://www.youtube.com/watch?v=ZZmUwXEiPm4
+    title: "Designing very large JavaScript applications"
+
+read_code:
+  - url: https://github.com/buraksezer/olricdb
+    title: "Embeddable, in-memory and distributed key/value store"
+    category:
+      - Go
+
+  - url: https://github.com/amperser/proselint/
+    title: "proselint: a linter for English prose"
+    category:
+      - Python
+
+  - url: https://github.com/jvillarejo/embedded
+    title: "embedded: plugin to make value objects embedded into ActiveRecord object"
+    category:
+      - Ruby
+
+  - url: https://github.com/francoispqt/gojay
+    title: "highly performant JSON encoder/decoder for Golang"
+    category:
+      - Go
+
+  - url: https://recurss.github.io/
+    title: "a collection of recursive css specimens"
+    category:
+      - CSS
+
+  - url: https://github.com/ianstormtaylor/permit
+    title: "An unopinionated authentication library for building Node.js APIs"
+    category:
+      - JavaScript
+
+  - url: https://github.com/JohnSundell/SwiftTips/blob/master/README.md
+    title: "79 Swift tips & tricks"
+    category:
+      - Swift
+
+  - url: https://github.com/Dooskington/GameLad
+    title: "An (almost) fully featured Game Boy emulator"
+    category:
+      - C++
+
+  - url: https://github.com/facebookincubator/fastmod
+    title: "A fast partial replacement for the codemod tool"
+    category:
+      - Rust
+
+tool:
+  - url: https://github.com/serhii-londar/open-source-mac-os-apps
+    title: "Awesome list of open source applications for macOS"
+
+  - url: https://github.com/getstream/winds
+    title: "A Beautiful Open Source RSS & Podcast App"
+    category:
+      - JavaScript
+
+  - url: https://kubeformation.sh/
+    title: "kubeformation: create declarative cluster specifications for managed Kubernetes"
+    category:
+      - Kubernetes
+      - Go
+
+  - url: https://github.com/Azure/brigade
+    title: "Brigade: Event-based Scripting for Kubernetes"
+    category:
+      - Go
+
+  - url: https://github.com/raviqqe/muffet
+    title: "Fast website link checker"
+    category:
+      - Go
+
+  - url: https://github.com/Netflix/titus
+    title: "titus: the Netflix container management platform"
+    category:
+      - Go
+      - Java
+
+  - url: http://css-blocks.com/
+    title: "ergonomic, component-oriented CSS authoring system that produces high-performance stylesheets"
+
+  - url: https://github.com/census-instrumentation/opencensus-go
+    title: "A stats collection and distributed tracing framework"
+
+  - url: https://akutz.wordpress.com/2018/04/20/memconn/
+    title: "MemConn: an in-memory network stack for Go"
