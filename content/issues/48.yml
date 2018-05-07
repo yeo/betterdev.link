@@ -67,6 +67,12 @@ links:
       password in plaintext, how can we implement a process to log securely?
       This is in Go but you can extract the technique.
 
+  - url: https://opensource.com/article/18/4/introduction-python-bytecode
+    title: "An introduction to Python bytecode"
+    description: |
+      Learn what Python bytecode is, how Python uses it to execute your code.
+      What is in a .pyc file? and look into Python virtual machine.
+
 brief:
   - url: https://zwischenzugs.com/2018/04/23/unprivileged-docker-builds-a-proof-of-concept/
     title: "Unprivileged Docker Builds – A Proof of Concept"
