@@ -1,0 +1,189 @@
+---
+time: "May 7, 2018"
+description: ""
+draft: false
+
+links:
+  - url: http://www.interdb.jp/pg/
+    title: "The Internals of PostgreSQL for database administrators and system developer"
+    description: |
+      Understanding of the internal mechanism is crucial for both administration
+      and integration. This free book has 11 chapers of process and memory,
+      query processing, vacuum, Heap Only Tuple (HOT), Index-Only Scans, Write
+      Ahead Logging, Point-In-Time Recovery...
+
+  - url: https://www.datadoghq.com/lpg/?utm_source=Advertisement&utm_medium=Advertisement&utm_campaign=BetterDev-Newsletter
+    title: "Monitor And Correlate Logs, Metrics, And Request Traces In One Platform With Datadog!"
+    description: "Track and alert on 200+ apps and services at any scale, in any environment. Get deep insights into health and performance with built-in dashboards, end-to-end request tracing, and logs in one integrated platform. Sign up for a free 14-day trial."
+    action: "Sign Up For A Free Datadog Trial"
+    category:
+      - sponsor
+
+  - url: https://cses.fi/book.pdf
+    title: "Competitive Programmer’s Handbook"
+    description: |
+      A free book give you a thorough introduction to competitive programming.
+      It covers a handful algorithm of sorting, search, data structure,
+      time complexity and graph.
+
+  - url: https://www.math.dartmouth.edu/~pw/solutions.pdf
+    title: Seven Puzzles You Think You Must Not Have Heard Correctly(PDF)
+    description: |
+      These are super tricky mathematical problem. They also include solution.
+      I don't know where I can applied these knowledge yet but it's interesting
+      to read.
+
+  - url: https://blog.nelhage.com/post/three-kinds-of-leaks/
+    title: "Three kinds of memory leaks"
+    description: |
+      To understand memory leaks, we need to identify them. The author divide
+      into three broad categories, provide tools and techniques for figuring out
+      both which type we’re dealing with, and how to find the leak.
+
+  - url: https://blog.figma.com/rust-in-production-at-figma-e10a0ec31929
+    title: "Rust in production at Figma"
+    description: |
+      Figma rewrite multiplayer server in Rust. They explains the issue with
+      NodeJS single threaded: a single slow operation would lock up the entire
+      worker until it was complete. The Rust backend is 10x faster, 3.8x smaller
+      in term of memory.
+
+  - url: https://opensource.com/article/18/4/cpu-utilization-wrong
+    title: "CPU utilization is wrong"
+    description: |
+      Everyone uses %CPU to measure performance, but everyone is wrong, says
+      Netflix's Brendan Gregg in his UpSCALE Lightning Talk.
+
+  - url: https://www.enlightenment.org/docs/c/start
+    title: "A practical primer of C"
+    description: |
+      Even you don't use or need C now, some knowledge on it can be very
+      valuable.
+
+  - url: https://zvelo.com/securely-logging-tracing-http-requests-go/
+    title: "Securely Logging & Tracing HTTP Requests in Go"
+    description: |
+      With the recent incident from Github and Twitter for a bug that log
+      password in plaintext, how can we implement a process to log securely?
+      This is in Go but you can extract the technique.
+
+brief:
+  - url: https://zwischenzugs.com/2018/04/23/unprivileged-docker-builds-a-proof-of-concept/
+    title: "Unprivileged Docker Builds – A Proof of Concept"
+
+  - url: https://asatarin.github.io/testing-distributed-systems/
+    title: "Testing Distributed Systems"
+
+  - url: https://medium.com/@niruragu/so-you-want-to-be-a-security-engineer-d8775976afb7
+    title: "A guide for security engineering "
+
+  - url: https://cacm.acm.org/magazines/2018/4/226371-lessons-from-building-static-analysis-tools-at-google/fulltext
+    title: "Lessons from Building Static Analysis Tools at Google"
+
+  - url: https://sendgrid.com/blog/when-writing-unit-tests-dont-use-mocks/
+    title: "When Writing Unit Tests, Don’t Use Mocks"
+
+  - url: http://2ality.com/2018/04/extracting-loops.html
+    title: "Extracting loop functionality with via callbacks and generators"
+
+  - url: https://itnext.io/achieving-parallelism-in-javascript-using-web-workers-8f921f2d26db
+    title: "Parallel programming in JavaScript"
+
+  - url: https://aws.amazon.com/blogs/opensource/provision-aws-services-kubernetes-aws-service-broker/
+    title: "Provision AWS Services Through Kubernetes Using the AWS Service Broker"
+
+  - url: https://go101.org/article/concurrent-common-mistakes.html
+    title: "Some Common Concurrent Programming Mistakes"
+
+video:
+  - url: https://www.youtube.com/watch?v=0SBtAjUauOc&list=PLQY2H8rRoyvwLbzbnKJ59NkZvQAW9wLbx
+    title: "TensorFlow Lite for iOS"
+
+  - url: https://www.youtube.com/watch?v=xWPMfcjhts8
+    title: "Accessibility debugging with Chrome DevTools (14mins)"
+
+  - url: https://www.youtube.com/playlist?list=PLNnAcB93JKV9iZ2cwk9MEx3_JG8BRikMP
+    title: "Playlist to lean building a Flutter app"
+
+  - url: https://www.youtube.com/watch?v=Dg76cNaeB4s
+    title: "Taking Storage for a Ride with Uber"
+
+read_code:
+  - url: https://github.com/sharkdp/bat
+    title: "bat – a `cat` clone with syntax highlighting and Git integration"
+    category:
+      - Rust
+
+  - url: https://github.com/sindresorhus/ow
+    title: "Function argument validation for humans"
+    category:
+      - TypeScript
+
+  - url: https://github.com/arturgrigor/CloudKitGDPR
+    title: "CloudKitGDPR: framework for allowing users to manage data stored in iCloud"
+    category:
+      - Swift
+
+  - url: https://github.com/prey/gdpr_rails
+    title: "Rails Engine for the GDPR compliance"
+    category:
+      - Ruby
+
+  - url: https://github.com/xgi/castero
+    title: "castero: a podcast client for the command line"
+    category:
+      - Python
+
+  - url: https://elliot.land/post/elo-rating-system-implemented-in-single-sql-select
+    title: "Elo rating system implemented in single sql select"
+    category:
+      - SQL
+
+  - url: https://github.com/valhalla/valhalla
+    title: "valhalla: Open Source Routing Engine for OpenStreetMap"
+    category:
+      - "C++"
+
+  - url: https://github.com/ocochard/graphpath
+    title: "Graphpath: generates an ASCII network diagram from the route table"
+
+tool:
+  - url: https://github.com/lambci/docker-lambda
+    title: "Docker images and test runners that replicate the live AWS Lambda environment"
+
+  - url: https://github.com/ballerina-platform/ballerina-lang
+    title: "Ballerina: statically-typed, interaction-centric programming language where microservices, APIs, and streams are first-class constructs"
+
+  - url: https://github.com/facebook/dataloader
+    title: "DataLoader: a data fetching layer utility over various remote data sources via batching and caching"
+
+  - url: https://github.com/service-bot/servicebot
+    title: "servicebot: Open-source subscription management & billing automation system"
+
+  - url: http://github.com/kusti8/proton-native
+    title: "proton-native: A React environment for cross platform native apps"
+
+  - url: https://github.com/bcongdon/corral
+    title: "corral: A serverless MapReduce framework written for AWS Lambda"
+
+  - url: https://github.com/operator-framework
+    title: "Operator Framework: open source toolkit to manage Kubernetes native application"
+
+  - url: https://github.com/google/gvisor
+    title: "gvisor: Container Runtime Sandbox by Google"
+
+  - url: https://github.com/gruntwork-io/terratest
+    title: "Terratest write automated tests for your Terraform"
+
+  - url: https://asylo.dev/
+    title: "Asylo: an open-source framework for confidential computing"
+
+  - url: https://arc.codes/
+    title: "arc: Lambda functions simplified for defining next generation cloud infrastructure"
+
+  - url: https://www.datadoghq.com/lpg/?utm_source=Advertisement&utm_medium=Advertisement&utm_campaign=BetterDev-Newsletter
+    title: "Monitor And Correlate Logs, Metrics, And Request Traces In One Platform With Datadog!"
+    description: "Track and alert on 200+ apps and services at any scale, in any environment. Get deep insights into health and performance with built-in dashboards, end-to-end request tracing, and logs in one integrated platform. Sign up for a free 14-day trial."
+    action: "Sign Up For A Free Datadog Trial"
+    category:
+      - sponsor
