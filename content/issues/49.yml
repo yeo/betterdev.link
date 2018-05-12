@@ -1,0 +1,150 @@
+---
+time: "May 14, 2018"
+description: |
+  This issue sponsor is datadog. Big thank for datadog's support and a solid monitoring tool.
+  Check them out.
+draft: false
+
+links:
+  - url: https://medium.com/@ckoster22/advanced-types-in-elm-extensible-records-67e9d804030d
+    title: "Advanced Types in Elm - Extensible Records"
+
+  - url: https://hackernoon.com/securing-your-linux-web-server-2be683c223eb
+    title: "Securing your Linux web server"
+
+  - url: https://hackernoon.com/deploy-a-swarm-cluster-with-alexa-ae5fa8b8dffa
+    title: "Deploy a Swarm Cluster with Alexa"
+    description: |
+      How cool it's to tell Alexa launch a cluster? Let's do this with Go and Lambda.
+
+  - url: https://sites.google.com/a/athaydes.com/renato-athaydes/posts/buildingamobilefrontendforagoapplicationusingflutter
+    title: "Building a mobile frontend for a Go application using Flutter"
+
+  - url: https://www.helpnetsecurity.com/2018/05/08/gdpr-rails/
+    title: "GDPR Rails: Community GDPR compliance tool"
+
+  - url: https://medium.com/@zhongwencool/erlang-observer-cli-d10b60e512c1
+    title: "Troubleshooting On Running System in Erlang"
+
+  - url: https://gist.github.com/gaearon/d85dccba72b809f56a9553972e5c33c4
+    title: "A Gentle Introduction to Prepack (Part 1)"
+    description: |
+     Some code can be evaluate at build time. Prepack lets you write normal JavaScript code
+     and outputs equivalent JavaScript code that runs faster, by precompute something.
+
+  - url: https://techbeacon.com/hackers-guide-kubernetes-security
+    title: "A hacker's guide to Kubernetes security"
+
+  - url: https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5
+
+  - url: http://martiancraft.com/blog/2018/05/dealing-with-dates/
+    title: "DEALING WITH DATES"
+  - url: http://davedelong.com/blog/2018/05/09/the-laws-of-core-data
+
+  - url: https://www.cybertec-postgresql.com/en/avoid-or-for-better-performance/
+    title: "AVOIDING “OR” FOR BETTER QUERY PERFORMANCE"
+
+  - url: https://medium.com/observability/debugging-latency-in-go-1-11-9f97a7910d68
+    title: "Debugging Latency in Go 1.11"
+
+  - url: https://towardsdatascience.com/how-to-build-a-gesture-controlled-web-based-game-using-tensorflow-object-detection-api-587fb7e0f907
+    title: "How to build a Gesture Controlled Web based Game using Tensorflow Object Detection Api"
+
+  - url: https://blog.opendigerati.com/reading-plan-recommendations-using-python-and-apache-spark-e1d20c560a69
+    title: "Reading Plan Recommendations using Python and Apache Spark"
+
+  - url: https://medium.com/rubyinside/https-medium-com-wintermeyer-caching-in-ruby-on-rails-5-2-d72e1ddf848c
+    title: "Caching in Ruby on Rails 5.2"
+
+brief:
+  - url: https://hackernoon.com/12-manager-readmes-from-silicon-valleys-top-tech-companies-26588a660afe
+    title: "12 “Manager READMEs” from Silicon Valley’s Top Tech Companies"
+
+  - url: https://kubernetes.io/blog/2018/05/04/announcing-kubeflow-0.1/
+    title: "kubeflow machine learning in K8S"
+
+  - url: https://sysdig.com/blog/kubernetes-security-kubelet-etcd/
+    title: "Securing Kubernetes components: kubelet, etcd and Docker registry"
+
+  - url: http://www.avanderlee.com/workflow/capture-ios-simulator-video-app-preview/
+    title: "Capture iOS simulator video for App Preview"
+
+
+
+video:
+  - url: https://www.youtube.com/watch?v=l3VgbSgo71E
+    title: "Building beautiful systems with Phoenix contexts"
+
+  - url: https://www.youtube.com/watch?v=X7mBjas9vtE
+    title: "Kubernetes Runtime Security: What Happens if a Container Goes Bad?"
+
+  - url: https://www.youtube.com/watch?v=c2PGgkCIjEA
+    title: "How JavaScript \"Named Params\" Destructuring Works(5mins)"
+
+  - url: https://www.youtube.com/watch?v=04Kq_9scT1E
+    title: "Exploding Rails"
+
+  - url: https://web-crunch.com/lets-build-dribbble-clone-with-ruby-on-rails/
+    title: "Let’s Build A Dribbble Clone With Ruby on Rails"
+
+read_code:
+  - url: https://github.com/isomorphic-git/isomorphic-git
+    title: "A pure JavaScript implementation of git for node and browsers!"
+    category:
+      - JavaScript
+
+  - url: https://github.com/jeremyevans/rodauth
+    title: "rodauth: Authentication and Account Management Framework for Rack Applications "
+    category:
+      - Ruby
+
+  - url: https://github.com/SoftInstigate/restheart
+    title: "RESTHeart, the Web API for MongoDB "
+    category:
+      - Java
+
+  - url: https://github.com/odarriba/elixir_jobs
+    title: "An open source Elixir job board with Telegram"
+    category:
+      - Elixir
+
+  - url: https://github.com/zippoxer/bow
+    title: "bow: a minimal embedded database"
+    category:
+      - Go
+
+  - url: https://github.com/wayfair/statsdcc
+    title: "A Statsd-compatible high performance multi-threaded network daemon"
+    category:
+      - C++
+
+tool:
+  - url: https://github.com/draios/falco
+    title: "Falco: Behavioral Activity Monitoring With Container Suppor"
+
+  - url: https://github.com/siddontang/go-mysql-elasticsearch
+    title: "Sync MySQL data into elasticsearch"
+
+  - url: https://github.com/radondb/radon
+    title: "RadonDB is an open source, cloud-native MySQL database for building global, scalable cloud services "
+    category:
+      - Go
+
+  - url: https://github.com/ClusterWS/ClusterWS
+    title: "Lightweight, fast and powerful framework for building scalable WebSockets applications in Node.js"
+
+  - url: https://github.com/mapbox/flamebearer
+    title: "flamebearer: Blazing fast flame graph tool for V8 and Node"
+
+  - url: https://github.com/ortuman/jackal
+    title: "jackal: An XMPP server written in Go"
+
+  - url: https://github.com/sirko-io/engine
+    title: "Sirko Engine: learn user navitation habit to precaches resources"
+
+  - url: https://www.datadoghq.com/lpg/?utm_source=Advertisement&utm_medium=Advertisement&utm_campaign=BetterDev-Newsletter
+    title: "Monitor And Correlate Logs, Metrics, And Request Traces In One Platform With Datadog!"
+    description: "Track and alert on 200+ apps and services at any scale, in any environment. Get deep insights into health and performance with built-in dashboards, end-to-end request tracing, and logs in one integrated platform. Sign up for a free 14-day trial."
+    action: "Sign Up For A Free Datadog Trial"
+    category:
+      - sponsor
