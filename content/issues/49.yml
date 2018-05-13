@@ -20,6 +20,12 @@ links:
       turn out cause performance issue. How to rewrite them with "IN", and
       "LIKE" with "ANY ARRAY".
 
+  - url: https://blog.timescale.com/scalable-postgresql-high-availability-read-scalability-streaming-replication-fb95023e2af
+    title: "High availability and scalable reads in PostgreSQL"
+    description: |
+      A detail look into PostgreSQL streaming replication to scale read and provide
+      HA. We look into write ahead log and different replication modes.
+
   - url: https://techbeacon.com/hackers-guide-kubernetes-security
     title: "A hacker's guide to Kubernetes security"
     description: |
@@ -57,33 +63,27 @@ links:
       thin glue-code layer written in the platform's native language (in our
       case, Kotlin on Android, Swift on iOS).
 
-  - url: https://krasimir.gitbooks.io/react-in-patterns/content/
-    title: "React in patterns"
+  - url: https://hackernoon.com/consensus-mechanisms-as-detailed-and-concise-as-possible-b3da79f85f66
+    title: "Consensus Mechanisms — As Detailed and Concise as possible!"
     description: |
-      A book about common design patterns used while developing with React. It includes techniques for composition, data flow, dependency management and more.
-
-  - url: https://gist.github.com/gaearon/d85dccba72b809f56a9553972e5c33c4
-    title: "A Gentle Introduction to Prepack (Part 1)"
-    description: |
-     Some code can be evaluate at build time. Prepack lets you write normal JavaScript code
-     and outputs equivalent JavaScript code that runs faster, by precompute something.
+      Look into different popular consensus mechanisms of today work: Proof of
+      work, proof of stake and Delegated Byzantine Fault Tolerance.
 
 brief:
-  - url: https://medium.com/observability/debugging-latency-in-go-1-11-9f97a7910d68
-    title: "Debugging Latency in Go 1.11"
+  - url: https://hackernoon.com/graphql-3-years-in-and-lessons-learned-34e8cd3fcfdd
+    title: "GraphQL: 3 Years in, and lessons learned"
 
-  - url: https://medium.com/@zhongwencool/erlang-observer-cli-d10b60e512c1
-    title: "Troubleshooting On Running System in Erlang"
+  - url: http://martiancraft.com/blog/2018/05/dealing-with-dates/
+    title: "Dealing with dates"
 
+  - url: https://krasimir.gitbooks.io/react-in-patterns/content/
+    title: "React in patterns: free book of commont design pattern"
 
   - url: https://medium.com/rubyinside/https-medium-com-wintermeyer-caching-in-ruby-on-rails-5-2-d72e1ddf848c
     title: "Caching in Ruby on Rails 5.2"
 
   - url: https://levelup.gitconnected.com/build-time-travel-debugging-in-redux-from-scratch-665fea8fc6cc
     title: "Build time travel debugging in Redux from scratch"
-
-  - url: http://martiancraft.com/blog/2018/05/dealing-with-dates/
-    title: "Dealing with dates"
 
   - url: https://hackernoon.com/12-manager-readmes-from-silicon-valleys-top-tech-companies-26588a660afe
     title: "12 “Manager READMEs” from Silicon Valley’s Top Tech Companies"
@@ -93,7 +93,7 @@ brief:
 
 video:
   - url: https://www.youtube.com/watch?v=l3VgbSgo71E
-    title: "Building beautiful systems with Phoenix contexts"
+    title: "Domain Driven Design with Phoenix"
 
   - url: https://www.youtube.com/watch?v=X7mBjas9vtE
     title: "Kubernetes Runtime Security: What Happens if a Container Goes Bad?"
@@ -144,20 +144,23 @@ read_code:
       - C++
 
 tool:
+  - url: https://github.com/slackhq/goSDL
+    title: "Web tool that serves as a self-service entry point for following a Security Development Lifecycle checklist"
+
   - url: https://www.bettercap.org/
-    title: "bettercap is the Swiss army knife for network attacks and monitoring"
+    title: "bettercap: the Swiss army knife for network attacks and monitoring"
 
   - url: https://github.com/draios/falco
     title: "Falco: Behavioral Activity Monitoring With Container Suppor"
 
   - url: https://kubernetes.io/blog/2018/05/04/announcing-kubeflow-0.1/
-    title: "kubeflow machine learning in K8S"
+    title: "kubeflow: machine learning in K8S"
 
   - url: https://github.com/siddontang/go-mysql-elasticsearch
     title: "Sync MySQL data into elasticsearch"
 
   - url: https://github.com/radondb/radon
-    title: "RadonDB is an open source, cloud-native MySQL database for building global, scalable cloud services "
+    title: "RadonDB: an open source, cloud-native MySQL database for building global, scalable cloud services "
 
   - url: https://github.com/ClusterWS/ClusterWS
     title: "Lightweight, fast and powerful framework for building scalable WebSockets applications in Node.js"
