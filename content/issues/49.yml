@@ -70,6 +70,9 @@ links:
       work, proof of stake and Delegated Byzantine Fault Tolerance.
 
 brief:
+  - url: https://github.com/Mayeu/awesome-open-source-organizations
+    title: "A list of organizations that have open sourced everything they do"
+
   - url: https://hackernoon.com/graphql-3-years-in-and-lessons-learned-34e8cd3fcfdd
     title: "GraphQL: 3 Years in, and lessons learned"
 
