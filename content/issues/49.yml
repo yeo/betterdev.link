@@ -20,6 +20,14 @@ links:
       turn out cause performance issue. How to rewrite them with "IN", and
       "LIKE" with "ANY ARRAY".
 
+  - url: http://www.catonmat.net/blog/low-level-bit-hacks-you-absolutely-must-know/
+    title: "Low Level Bit Hacks You Absolutely Must Know"
+    description: |
+      Bit hacks are ingenious little programming tricks that manipulate integers in
+      a smart and efficient manner. Instead of performing some operation by looping
+      over individual bits, these programming nuggets do the same with one or two
+      carefully chosen bitwise operations.
+
   - url: https://blog.timescale.com/scalable-postgresql-high-availability-read-scalability-streaming-replication-fb95023e2af
     title: "High availability and scalable reads in PostgreSQL"
     description: |
@@ -147,6 +155,9 @@ read_code:
       - C++
 
 tool:
+  - url: https://github.com/facebook/pyre-check
+    title: "pyre-check: Performant type-checking for python"
+
   - url: https://github.com/slackhq/goSDL
     title: "Web tool that serves as a self-service entry point for following a Security Development Lifecycle checklist"
 
