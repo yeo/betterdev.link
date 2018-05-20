@@ -1,0 +1,194 @@
+---
+time: "May 21, 2018"
+description: |
+  This issue is sponsored by Datadog. Big thank for datadog's support and a solid
+  monitoring tool for logs, metric and request traces. [Check them out](https://www.datadoghq.com/lpg/?utm_source=Advertisement&utm_medium=Advertisement&utm_campaign=BetterDev-Newsletter).
+
+draft: true
+
+links:
+  - url: https://programmingisterrible.com/post/173883533613/code-to-debug
+    title: "Write code that’s easy to delete, and easy to debug too"
+    description: |
+      On a large enough project, you’ll eventually bump into code that you
+      don’t understand. The only way to understand is by run and debug it.
+
+  - url: https://www.datadoghq.com/lpg/?utm_source=Advertisement&utm_medium=Advertisement&utm_campaign=BetterDev-Newsletter
+    title: "Monitor And Correlate Logs, Metrics, And Request Traces In One Platform With Datadog!"
+    description: "Track and alert on 200+ apps and services at any scale, in any environment. Get deep insights into health and performance with built-in dashboards, end-to-end request tracing, and logs in one integrated platform. Sign up for a free 14-day trial."
+    action: "Sign Up For A Free Datadog Trial"
+    category:
+      - sponsor
+
+  - url: https://code.joejag.com/2016/anti-if-the-missing-patterns.html
+    title: "Anti-If: The missing patterns"
+    description: |
+      How on earth would you make a useful program without using an if statement?
+      Do you remember that heavily nested code you had to understand last week?
+      Let’s look at the problem that if statements pose and pattern we can use
+      to repalce if.
+
+  - url: https://medium.com/@Arafat./introducing-dataviz-a-data-structure-visualization-library-for-golang-f6e60663bc9d
+    title: "Introducing DataViz a data-structure visualization library for Golang"
+    description: |
+      Dataviz is a library that helps to build and understand standard data
+      structures with added visualizations developed by Graphviz. It’s
+      supplemented with many examples to help you learn and visualize how data
+      structures work.
+
+  - url: http://canonical.org/~kragen/memory-models/
+    title: "The memory models that underlie programming languages"
+    description: |
+      There are about six major of memory models. Three derive from languages of
+      the 1950s — COBOL, LISP, and FORTRAN — and the other three derive from the
+      three historically important data storage systems: magnetic tape,
+      Unix-style hierarchical filesystems, and relational databases.
+
+  - url: https://medium.com/acing-ai/how-i-build-an-ai-to-play-dino-run-e37f37bdf153
+    title: "Built an AI to play Dino Run in Chrome"
+    description: |
+      Chrome display a dinosaur game when in offline mode. It's similar to how
+      a child learning to walk? Using Reinforcement Learning and Q-Learning and
+      selenium to play the game.
+
+  - url: https://webuild.envato.com/blog/migrating-edge-providers/
+    title: "Migrating edge network providers"
+    description: |
+      Any migration has a higher risks than other code change, especilly network
+      provider. This blog post layout a strategy to build out a test framework
+      and use it as a way to assert the new system is good and strategy for
+      cut-over.
+
+  - url: http://aosabook.org/en/500L/dagoba-an-in-memory-graph-database.html
+    title: "Dagoba: an in-memory graph database"
+    description: |
+      We're going to explore the problem space, generate multiple solutions for
+      our design decisions, compare those solutions to understand the tradeoffs
+      between them, and finally choose the right solution for our system.
+
+  - url: http://www.moderndescartes.com/essays/deep_dive_mcts/
+    title: "A Deep Dive into Monte Carlo Tree Search"
+    description: |
+      Despite replacing all human heuristics, AlphaGoZero still uses tree search
+      algorithms at its core. I hope to convince you that AlphaGoZero’s success
+      is as much due to this algorithm as it is due to machine learning.
+
+brief:
+  - url: https://queue.acm.org/detail.cfm?id=3220266
+    title: "Algorithms Behind Modern Storage Systems"
+
+  - url: http://matpalm.com/blog/counting_bees/
+    title: "Counting bees on a rasp pi with a conv net"
+
+  - url: https://www.fastly.com/blog/headers-we-dont-want
+    title: "The HTTP headers we don't want"
+
+  - url: http://thoughts.davisjeff.com/2009/08/02/what-is-the-deal-with-nulls/
+    title: "Understand SQL NULLs"
+
+  - url: https://fabxc.org/tsdb/
+    title: "Writing a Time Series Database from Scratch"
+
+  - url: http://blog.refdash.com/dynamic-programming-tutorial-example/
+    title: "Dynamic Programming – 7 Steps to Solve any DP Interview Problem"
+
+  - url: https://medium.com/observability/want-to-debug-latency-7aa48ecbe8f7
+    title: "How to Debug Latency?"
+
+  - url: https://github.com/frol/completely-unscientific-benchmarks
+    title: "Naive performance comparison of a few programming languages"
+
+  - url: http://www.normankoren.com/Tutorials/MTF.html
+    title: "Understanding image sharpness: Introduction to resolution and MTF curves"
+
+read_code:
+  - url: https://github.com/zyedidia/micro
+    title: "micro: pure Go code editor"
+    category:
+      - Go
+
+  - url: https://github.com/yongman/tidis
+    title: "tidis: NoSQL database, Redis protocol compatible using tikv as backend"
+    category:
+      - Go
+
+  - url: https://github.com/TiBeN/shortcutd
+    title: "shortcutd: Launch commands when pressing keyboard keys combinations"
+    category:
+      - JavaScript
+
+  - url: https://github.com/petergeoghegan/pg_hexedit
+    title: "PostgreSQL relation files in a hex editor with tags and annotations"
+    category:
+      - C
+
+  - url: https://github.com/sjmog/ralyxa
+    title: "ralyxa: Ruby framework for interacting with Amazon Alexa"
+    category:
+      - Ruby
+
+  - url: https://github.com/joncatanio/cannoli
+    title: "Cannoli: compiler subset of Python 3.5 to Rust"
+    category:
+      - Rust
+      - Python
+
+video:
+  - url: https://skillsmatter.com/skillscasts/11903-an-introduction-to-event-sourcing
+    title: "An Introduction to Event Sourcing"
+
+  - url: https://engineers.sg/video/efficient-data-loading-in-elixir-using-the-deferrable-pattern-build-super-fast-graphql-resolvers--2568
+    title: "Efficient data loading in Elixir using the deferrable pattern - build super fast GraphQL resolvers"
+
+  - url: https://www.youtube.com/watch?v=Mv-l3-tJgGk
+    title: "Web performance made easy"
+
+  - url: https://www.youtube.com/watch?v=ihP7lQivA6M
+    title: "Plotting Data with gonum/plot"
+
+tool:
+  - url: https://blog.openebs.io/litmus-release-a-chaos-monkey-on-your-kubernetes-stateful-workloads-6345e01b637d
+    title: "Litmus: Release a chaos monkey on your Kubernetes Stateful Workloads"
+
+  - url: https://www.ostechnix.com/pacvim-a-cli-game-to-learn-vim-commands/
+    title: "PacVim – A CLI Game To Learn Vim Commands"
+
+  - url: https://github.com/radondb/radon
+    title: "RadonDB: an open source, cloud-native MySQL database for building global, scalable cloud services"
+
+  - url: https://github.com/umputun/remark
+    title: "remark: self-hosted disquis clone"
+
+  - url: https://github.com/gocolly/colly
+    title: "colly: Elegant Scraper and Crawler Framework"
+
+  - url: https://github.com/segmentio/terraform-docs
+    title: "Generate docs from terraform modules"
+
+  - url: https://github.com/saadq/lynt
+    title: "lynt: zero config JavaScript linter with support for Typescript, Flow, and React"
+
+  - url: https://improbable.io/games/blog/thanos-prometheus-at-scale
+    title: "Introducing Thanos: Prometheus at Scale"
+
+  - url: https://github.com/alexandrst88/terraform-variables-generator
+    title:  Generate Variables file from Terraform Configuratio
+
+  - url: https://github.com/jaywcjlove/hotkeys
+    title: "hotkeys: library for capturing keyboard input with no dependencies"
+
+  - url: https://github.com/andlabs/libui
+    title: "libui: native, portable GUI library in C"
+
+  - url: https://github.com/aviaviavi/curl-runnings
+    title: "A framework for writing declarative, curl based tests for your APIs"
+
+  - url: https://github.com/gardener/etcd-backup-restore
+    title: "Collection of componentes to backup and restore the Etcd"
+
+  - url: https://www.datadoghq.com/lpg/?utm_source=Advertisement&utm_medium=Advertisement&utm_campaign=BetterDev-Newsletter
+    title: "Monitor And Correlate Logs, Metrics, And Request Traces In One Platform With Datadog!"
+    description: "Track and alert on 200+ apps and services at any scale, in any environment. Get deep insights into health and performance with built-in dashboards, end-to-end request tracing, and logs in one integrated platform. Sign up for a free 14-day trial."
+    action: "Sign Up For A Free Datadog Trial"
+    category:
+      - sponsor
