@@ -28,6 +28,23 @@ links:
       Let’s look at the problem that if statements pose and pattern we can use
       to repalce if.
 
+  - url: https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md
+    title: "Safe ways to do things in bash"
+    description: |
+      Bash is almost everywhere, together with Linux utilities make it shine
+      when we want to wire thing together. But Bash is not a language where the
+      correct way to do something is also the easiest. If there is anything like
+      a driver's license for safe bash coding, it must be rule zero of
+      BashPitfalls: Always use quotes
+
+  - url: https://blog.arkency.com/rewriting-deprecated-apis-with-parser-gem/
+    title: "Rewriting deprecated APIs with parser gem"
+    description: |
+      Deprecating APIs seems easy — issue warning on old method call, suggest
+      new usage. Then use `sed` to replac all :D. This works for simple method
+      call. How can we make it better? Write Ruby code that re-write your Ruby
+      code.
+
   - url: https://medium.com/@Arafat./introducing-dataviz-a-data-structure-visualization-library-for-golang-f6e60663bc9d
     title: "Introducing DataViz a data-structure visualization library for Golang"
     description: |
@@ -74,15 +91,6 @@ links:
       is as much due to this algorithm as it is due to machine learning.
 
 brief:
-  - url: https://queue.acm.org/detail.cfm?id=3220266
-    title: "Algorithms Behind Modern Storage Systems"
-
-  - url: http://matpalm.com/blog/counting_bees/
-    title: "Counting bees on a rasp pi with a conv net"
-
-  - url: https://www.fastly.com/blog/headers-we-dont-want
-    title: "The HTTP headers we don't want"
-
   - url: http://thoughts.davisjeff.com/2009/08/02/what-is-the-deal-with-nulls/
     title: "Understand SQL NULLs"
 
@@ -92,8 +100,17 @@ brief:
   - url: http://blog.refdash.com/dynamic-programming-tutorial-example/
     title: "Dynamic Programming – 7 Steps to Solve any DP Interview Problem"
 
+  - url: http://www.sqreen.io/checklists/devops-security-checklist.html
+    title: "The DevOps Security Checklist"
+
+  - url: https://queue.acm.org/detail.cfm?id=3220266
+    title: "Algorithms Behind Modern Storage Systems"
+
+  - url: https://www.fastly.com/blog/headers-we-dont-want
+    title: "The HTTP headers we don't want"
+
   - url: https://medium.com/observability/want-to-debug-latency-7aa48ecbe8f7
-    title: "How to Debug Latency?"
+    title: "How to Debug Latency"
 
   - url: https://github.com/frol/completely-unscientific-benchmarks
     title: "Naive performance comparison of a few programming languages"
@@ -118,7 +135,7 @@ read_code:
       - JavaScript
 
   - url: https://github.com/petergeoghegan/pg_hexedit
-    title: "PostgreSQL relation files in a hex editor with tags and annotations"
+    title: "PostgreSQL relation files hex editor with tags and annotations"
     category:
       - C
 
@@ -150,6 +167,9 @@ tool:
   - url: https://blog.openebs.io/litmus-release-a-chaos-monkey-on-your-kubernetes-stateful-workloads-6345e01b637d
     title: "Litmus: Release a chaos monkey on your Kubernetes Stateful Workloads"
 
+  - url: https://github.com/src-d/gitbase
+    title: "gitbase: SQL interface to Git repositories"
+
   - url: https://www.ostechnix.com/pacvim-a-cli-game-to-learn-vim-commands/
     title: "PacVim – A CLI Game To Learn Vim Commands"
 
@@ -162,17 +182,11 @@ tool:
   - url: https://github.com/gocolly/colly
     title: "colly: Elegant Scraper and Crawler Framework"
 
-  - url: https://github.com/segmentio/terraform-docs
-    title: "Generate docs from terraform modules"
-
   - url: https://github.com/saadq/lynt
     title: "lynt: zero config JavaScript linter with support for Typescript, Flow, and React"
 
   - url: https://improbable.io/games/blog/thanos-prometheus-at-scale
     title: "Introducing Thanos: Prometheus at Scale"
-
-  - url: https://github.com/alexandrst88/terraform-variables-generator
-    title:  Generate Variables file from Terraform Configuratio
 
   - url: https://github.com/jaywcjlove/hotkeys
     title: "hotkeys: library for capturing keyboard input with no dependencies"
