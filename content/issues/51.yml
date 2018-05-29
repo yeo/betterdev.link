@@ -1,0 +1,122 @@
+---
+time: "May 29, 2018"
+description: |
+  This issue is sponsored by Datadog. Big thank for datadog's support and a solid
+  monitoring tool for logs, metric and request traces. [Check them out](https://www.datadoghq.com/lpg/?utm_source=Advertisement&utm_medium=Advertisement&utm_campaign=BetterDev-Newsletter).
+
+draft: false
+
+links:
+  - url: https://github.com/trekhleb/javascript-algorithms#readme
+    title: "JavaScript Algorithms and Data Structures"
+    description: |
+      A github repository contains JavaScript based examples of many popular algorithms and data structures.
+
+  - url: https://www.datadoghq.com/lpg/?utm_source=Advertisement&utm_medium=Advertisement&utm_campaign=BetterDev-Newsletter
+    title: "Monitor And Correlate Logs, Metrics, And Request Traces In One Platform With Datadog!"
+    description: "Track and alert on 200+ apps and services at any scale, in any environment. Get deep insights into health and performance with built-in dashboards, end-to-end request tracing, and logs in one integrated platform. Sign up for a free 14-day trial."
+    action: "Sign Up For A Free Datadog Trial"
+    category:
+      - sponsor
+
+  - url: https://severalnines.com/blog/understanding-deadlocks-mysql-postgresql
+    title: "Understanding Deadlocks in MySQL & PostgreSQL"
+    description: |
+      There are several types of locks but, the important thing about them, is how they interact with each other. Because two transactions cannot hold locks of conflicting modes on the same object at the same time. And a non minor detail, once acquired, a lock is normally held till end of transaction.
+
+  - url: https://blog.benjojo.co.uk/post/bgp-battleships
+    title: "Playing battleships over BGP"
+    description: |
+      BGP normally gets a bad rep, mainly because of its default trusting nature of peers, and the hard task of verifying a routes legitimacy. However to understand this, you also have to understand how the topology of the internet works. Then we learn how to use BGP to play battleships, with demo code in Go.
+
+  - url: https://jacquesmattheij.com/gdpr-hysteria
+    title: "GDPR Hysteria"
+    description: |
+      This post is an attempt to calm the nerves of those that feel that the(ir) world is about to come to an end, the important first principle when it comes to dealing with any laws, including this one is Don’t Panic. Part 2 has more actionable advices.
+
+  - url: https://medium.com/@caspervonb/hello-webassembly-882bba5c9fb7
+    title: "A Look at Webassembly Through a Fantasy Console"
+    description: |
+      What WebAssembly is, shows a hello world app and then shows how to start building a neat ‘fantasy console’.
+
+  - url: http://azer.bike/journal/elm/
+    title: "The Hitchhiker's Guide to Elm"
+    description: |
+      Elm syntax doesn't look like JavaScript so it has a learning curve. In fact, Elm is smaller and simpler than JavaScript, and it shouldn't take longer than 8 hours to go through all this documentation, including doing some exercises. I belive it's a good investment, plus it's fun.
+
+  - url: http://www.lihaoyi.com/post/ZeroOverheadTreeProcessingwiththeVisitorPattern.html?a=1
+    title: "Zero-Overhead Tree Processing with the Visitor Pattern"
+    description: |
+      The Visitor Pattern has a reputation as a slightly roundabout technique for doing simple processing on simple trees, it is actually an advanced tool for a specific use case: flexible, streaming, zero-overhead processing of complex data structures. This blog post will dive into what makes the Visitor Pattern special, and why it has a unique place in your toolkit regardless of what language or environment you are programming in.
+
+  - url: https://nullprogram.com/blog/2018/05/27/
+    title: "When FFI Function Calls Beat Native C"
+    description: |
+      An interesting performance benchmark for function calls of various Foreign Function Interfaces. LuaJIT’s FFI is substantially faster than C.
+
+brief:
+  - url: https://medium.com/simple-security/web-developer-security-checklist-f2e4f43c9c56
+    title: "Web Developer Security Checklist"
+
+  - url: https://drive.google.com/file/d/1i7hrTGtk_abE1-L68Mr6VH5V6LwjQuYD/view
+    title: "A presentation containing tips for running data-driven post mortems, and an example of a real-world incident"
+
+  - url: https://www.monterail.com/blog/actionable-tips-to-improve-web-performance-with-rails
+    title: "Actionable Tips to Improve Web Performance with Rails"
+
+  - url: https://ds26gte.github.io/tyscheme/
+    title: "Teach Yourself Scheme in Fixnum Day"
+
+  - url: https://medium.com/@mattholt/packaging-a-go-application-for-macos-f7084b00f6b5
+    title: "Packaging a Go application for macOS without Xcode"
+
+read_code:
+  - url: https://github.com/rails-engine/role_core
+    title: "RoleCore: a Rails engine which could provide essential industry of Role-based access control"
+    category:
+      - Ruby
+
+  - url: https://github.com/edgedb/edgedb
+    title: "edgedb: The next generation object-relational database"
+    category:
+      - Python
+
+  - url: https://github.com/marblejs/marble
+    title: "Marble.js - functional reactive HTTP middleware framework"
+    category:
+      - TypeScript
+
+  - url: https://github.com/tobgu/qframe
+    title: "qframe: Immutable data frame for Go"
+    category:
+      - Go
+
+video:
+  - url: https://www.youtube.com/watch?v=ZKwqNgG-Sv4
+    title: Explains Bitcoin for general audiences without skipping the key technical insight(24 mins)
+
+tool:
+  - url: https://github.com/dwmkerr/mongo-monitor
+    title: "CLI to monitor the status of a MongoDB cluster real-time"
+
+  - url: https://github.com/hellostealth/stealth
+    title: "stealth: An open source Ruby framework for conversational voice and text chatbots"
+
+  - url: https://github.com/alangpierce/sucrase
+    title: "surcrase: Super-fast alternative to Babel for modern JS runtimes"
+
+  - url: https://github.com/google/docker-explorer/
+    title: "docker-explorer: A tool to help forensicate offline docker acquisitions forensics"
+
+  - url: https://wiredjs.com/
+    title: "Common UI elements with a hand-drawn, sketchy look"
+
+  - url: https://www.datadoghq.com/lpg/?utm_source=Advertisement&utm_medium=Advertisement&utm_campaign=BetterDev-Newsletter
+    title: "Monitor And Correlate Logs, Metrics, And Request Traces In One Platform With Datadog!"
+    description: "Track and alert on 200+ apps and services at any scale, in any environment. Get deep insights into health and performance with built-in dashboards, end-to-end request tracing, and logs in one integrated platform. Sign up for a free 14-day trial."
+    action: "Sign Up For A Free Datadog Trial"
+    category:
+      - sponsor
+
+  - url: https://github.com/ChrisCindy/node-web-console
+    title: "A simple web-based SSH, remote shell in your browser built with Node.js"
