@@ -7,6 +7,11 @@ description: |
 draft: false
 
 links:
+  - url: https://azeria-labs.com/the-importance-of-deep-work-the-30-hour-method-for-learning-a-new-skill/
+    title: "The importance of deep work & the 30-hour method for learning a new skill"
+    description: |
+      We all know this feeling when we want to learn something new. We wait until motivation strikes us out of nowhere, then we tinker around for a few hours without a clear direction, checking notifications, and as soon as we realize that we’re not getting anywhere, we get discouraged and give up. Side note: if you wait for motivation, you’re doing it wrong. The formula to induce motivation, in my experience, starts with action, which sparks inspiration, which sparks motivation, which leads to action, and the loop continues.
+
   - url: https://github.com/trekhleb/javascript-algorithms#readme
     title: "JavaScript Algorithms and Data Structures"
     description: |

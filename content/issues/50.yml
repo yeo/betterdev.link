@@ -4,7 +4,7 @@ description: |
   This issue is sponsored by Datadog. Big thank for datadog's support and a solid
   monitoring tool for logs, metric and request traces. [Check them out](https://www.datadoghq.com/lpg/?utm_source=Advertisement&utm_medium=Advertisement&utm_campaign=BetterDev-Newsletter).
 
-draft: true
+draft: false
 
 links:
   - url: https://programmingisterrible.com/post/173883533613/code-to-debug
