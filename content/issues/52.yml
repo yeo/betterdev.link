@@ -1,0 +1,147 @@
+---
+time: "Jun 5, 2018"
+description: |
+  This issue is sponsored by Datadog. Big thank for datadog's support and a solid
+  monitoring tool for logs, metric and request traces. [Check them out](https://www.datadoghq.com/lpg/?utm_source=Advertisement&utm_medium=Advertisement&utm_campaign=BetterDev-Newsletter).
+
+draft: false
+
+links:
+  - url: https://ownyourbits.com/2018/05/23/the-real-power-of-linux-executables/
+    title: "The real power of Linux executables"
+    description: |
+      What happens when a file gets executed in Linux? What does it mean that a file is executable? Can we only execute compiled binaries? What about shell scripts then? If I can execute shell scripts, what else can I execute?
+
+  - url: https://hackertarget.com/tcpdump-examples/
+    title: "Tcpdump Examples"
+    description: |
+      Practical tcpdump examples to lift your network troubleshooting and security testing game. Commands and tips to not only use tcpdump but master ways to know your network.
+
+  - url: https://geeks.uniplaces.com/mastering-branches-in-git-f20cb2d0c51f
+    title: "Mastering git branches"
+    description: |
+      Branches are one of the most misunderstood concepts in git and yet they are so simple to understand. How many uncomfortable situations have you been when dealing with branches?
+
+  - url: http://blog.monyog.com/improve-mariadb-performance-using-query-profiling/
+    title: "Improve MariaDB Performance using Query Profiling"
+    description: |
+      A few useful query profiling techniques that exploit MariaDB server’s own built-in tools: the Slow Query Log and the Performance Schema to determine the exact sources and causes of bottlenecks and sluggish performance
+
+  - url: http://ciml.info/
+    title: "A Course in Machine Learning"
+    description: |
+      Introductory materials that covers most major aspects of modern machine learning (supervised learning, unsupervised learning, large margin methods, probabilistic modeling, learning theory, etc.). It's focus is on broad applications with a rigorous backbone. A subset can be used for an undergraduate course; a graduate course could probably cover the entire material and then some.
+
+  - url: https://www.joshwcomeau.com/posts/dynamic-bezier-curves
+    title: "Dynamic Bézier Curves"
+    description: |
+      Interactive documents on SVG, Bezier curves with ReactJS.
+
+  - url: http://tech.opentable.co.uk//blog/2018/05/10/monads-explained-by-a-imperative-programmer/
+    title: "Monads explained by a imperative programmer"
+    description: |
+      A monad is any type construct that follows a specific pattern. They're defined by having two methods: the bind method (also commonly called fmap), and the unit method (also commonly known as pure or from).
+
+  - url: https://evilmartians.com/chronicles/testprof-2-factory-therapy-for-your-ruby-tests-rspec-minitest
+    title: "TestProf: Factory therapy for your Ruby tests"
+    description: |
+      Learn how to bring your Ruby test suite back to full health, and full speed, with TestProf—a bag of powerful tools to diagnose all test-related problems. This article focus on factories.
+
+brief:
+  - url: http://kadekillary.work/post/cli-4-ds/
+    title: "Command line tricks for data processing in Linux"
+
+  - url: https://chris.de/posts/an-algorithm-to-generate-color-palettes/
+    title: "An Algorithm to Generate Color Palettes"
+
+  - url: https://hackernoon.com/applying-security-to-the-twelve-factor-app-753ce9a30379
+    title: "Applying security to the Twelve-Factor App"
+
+  - url: https://boyter.org/posts/sloc-cloc-code/
+    title: "Sloc Cloc and Code - What happened on the way to faster Cloc"
+
+  - url: https://www.ncsc.gov.uk/blog-post/protect-your-management-interfaces
+    title: "Protect your management interfaces"
+
+  - url: https://dave.cheney.net/2018/05/29/how-the-go-runtime-implements-maps-efficiently-without-generics
+    title: "How the Go runtime implements maps efficiently (without generics)"
+
+  - url: https://medium.com/myntra-engineering/my-journey-with-golang-web-services-4d922a8c9897
+    title: "Bulding Scalable Web Services in Golang"
+
+video:
+  - url: https://www.youtube.com/watch?v=IvsANO0qZEg
+    title: "API Throwdown: RPC vs REST vs GraphQL, Iterate 2018"
+
+  - url: https://www.youtube.com/watch?v=MTT1Jl4Fs-E
+    title: "Let's do Elixir and Phoenix together(45mins)"
+
+read_code:
+  - url: https://github.com/felixangell/phi
+    title: "phi code-editor"
+    category:
+      - Go
+
+  - url: https://github.com/spacejam/sled
+    title: "sled:  modern embedded database"
+    category:
+      - Rust
+
+  - url: https://github.com/SpinaCMS/Spina
+    title: "Spina: A beautiful CMS for Rails developers"
+    category:
+      - Ruby
+
+  - url: https://github.com/healthchecks/healthchecks
+    title: "Healthchecks – a watchdog for your cron jobs"
+    category:
+      - Python
+
+  - url: https://github.com/verdaccio/verdaccio
+    title: "📦🔐A lightweight private npm proxy registry"
+    category:
+      - JavaScript
+
+  - url: https://github.com/senorprogrammer/wtf
+    title: "wtf: A personal information dashboard for your terminal"
+    category:
+      - Go
+
+  - url: https://github.com/oridb/mc
+    title: "A a practical, small language aim for control and simplicity"
+    category:
+      - C
+
+  - url: https://github.com/patternfly/patternfly
+    title: "PatternFly:  a web UI framework by RedHat"
+    category:
+      - CSS
+
+tool:
+  - url: https://github.com/Hack-with-Github/Awesome-Hacking
+    title: "A collection of various awesome lists for hackers, pentesters and security researchers"
+
+  - url: https://github.com/fatedier/frp
+    title: "ftp: A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet"
+
+  - url: https://github.com/AJInteractive/InterviewJS
+    title: "InterviewJS: Turn interviews into shareable and embeddable interactive chats"
+
+  - url: https://github.com/mint-lang/mint
+    title: "mint: 🍃 A refreshing programming language for the front-end web."
+
+  - url: https://github.com/threat9/routersploit
+    title: "routersploit:Exploitation Framework for Embedded Devices"
+
+  - url: https://github.com/yandex/odyssey
+    title: "odyssey: Scalable PostgreSQL connection pooler"
+
+  - url: https://github.com/mre/awesome-static-analysis
+    title: "A curated list of static analysis tools, linters and code quality checkers"
+
+  - url: https://github.com/gardener/gardener
+    title: "gardener: Kubernetes API server extension and controller manager providing conformant Kubernetes clusters (Shoots) as a service on AWS, Azure, GCP, and OpenStack."
+
+  - url: https://github.com/contentjet/contentjet-api
+    title: "contentjet-api: Headless API-first content management system"
+
