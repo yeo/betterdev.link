@@ -1,0 +1,130 @@
+---
+time: "Jun 11, 2018"
+description: |
+  This issue is sponsored by Datadog. Big thank for datadog's support and a solid
+  monitoring tool for logs, metric and request traces. [Check them out](https://www.datadoghq.com/lpg/?utm_source=Advertisement&utm_medium=Advertisement&utm_campaign=BetterDev-Newsletter).
+
+draft: false
+
+links:
+  - url: https://povilasv.me/go-memory-management/
+    title: "Go Memory Management"
+    description: |
+      Although it's about Go but if you want to explore VSZ, RSS, or how a program get loaded on Linux, memory basic, ELF then it's worth a read for non-Go user.
+
+  - url: https://jamchamb.github.io/2018/06/09/animal-crossing-developer-mode.html
+    title: "Reverse engineering Animal Crossing's developer mode"
+    description: |
+      Reverse engineering Animal Crossing for the GameCube to explore the possibility of creating mods for the game. The post explore the developer debugging features that are still left in the game, and how author discovered a cheat combo that can be used to unlock them.
+
+  - url: https://www.citusdata.com/blog/2018/06/01/fun-with-sql-window-functions-in-postgresql/
+    title: "Fun with SQL: Window functions in Postgres"
+    description: |
+      The latest post in our ‘Fun with SQL’ series. Window functions allow you to compare values between rows that are somehow related to the current row. Example: Finding the first time all users performed some action, Find where all users ranked for some sub-grouping
+
+  - url: https://www.evonide.com/side-channel-attacking-browsers-through-css3-features/
+    title: "Side-channel attacking browsers through CSS3 features"
+    description: |
+      A vulnerability in browser implementations of the CSS3 feature “mix-blend-mode” which allowed to leak visual content from cross-origin iframe. Exploitation allowed to leak the profile picture, username and likes of unsuspecting visitors all while requiring no additional user interaction.
+
+  - url: https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/
+    title: "A cartoon intro to DNS over HTTPS"
+    description: |
+      DNS query up to now is in plaintext. Mozilla implements DNS over HTTPS, a new IETF standards, and Trusted Recursive Resolver, a new secure way to resolve DNS.
+
+  - url: http://katafrakt.me/2018/06/06/hidden-jewels-ruby-stdlib/
+    title: "Hidden jewels of Ruby stdlib"
+    description: |
+      Ruby comes distributed with a vast standard library. We only use a fraction of it, usually. Everyone knows date, set, json, maybe even csv. But there are many more things hidden there.
+
+brief:
+  - url: https://ml5js.org/
+    title: "Friendly Machine Learning for the Web"
+
+  - url: https://monkeylearn.com/blog/getting-started-in-natural-language-processing-nlp/
+    title: "Getting started in Natural Language Processing (NLP)"
+
+  - url: http://nullprogram.com/blog/2018/06/10/
+    title: "Minimalist C Libraries(should read regardless you're using C or not)"
+
+  - url: https://itnext.io/deep-dive-into-how-kubernetes-rest-api-works-517c86f1640b
+    title: "Deep dive into how Kubernetes REST API works"
+
+video:
+  - url: https://www.youtube.com/watch?v=rxzcx4HaCQo
+    title: "Build Your Own Distributed Database With Go"
+
+  - url: https://www.youtube.com/watch?v=z25CPqJMFUk
+    title: "Building Light weight Microservices Using Redis"
+
+  - url: https://www.youtube.com/watch?v=M3BM9TB-8yA
+    title: "10 Things I Regret About Node.js - Ryan Dahl"
+
+  - url: https://www.youtube.com/watch?v=ar9WRwCiSr0
+    title: "Reverse emulating the NES to give it SUPER POWERS!"
+
+  - url: https://developer.apple.com/videos/play/wwdc2018/412/
+    title: "Advanced Debugging with Xcode and LLDB"
+
+read_code:
+  - url: https://github.com/newtools/zsocket
+    title: "zsocket: Zero-copy sockets for Linux"
+    category:
+      - Golang
+
+  - url: https://github.com/golangci/golangci-lint
+    title: "Linters Runner for Go integrate with Github PR"
+    category:
+      - Golang
+
+  - url: https://github.com/asottile/pyupgrade
+    title: "pyupgrade: A tool (and pre-commit hook) to automatically upgrade syntax for newer versions"
+    category:
+      - Python
+
+  - url: https://github.com/SciRuby/rubex
+    title: "rubex: A Ruby-like language for writing Ruby C extensions"
+    category:
+      - Ruby
+
+  - url: https://github.com/s-matyukevich/raspberry-pi-os
+    title: "Learning operating system development using Linux kernel and Raspberry Pi"
+    category:
+      - C
+
+  - url: https://github.com/pinterest/rocksplicator
+    title: "RocksDB Replication"
+    category:
+      - C++
+
+tool:
+  - url: https://trackingjs.com/
+    title: "trackingjs: A modern approach for Computer Vision on the web"
+
+  - url: https://github.com/arsham/blush
+    title: "blush: grep with code color"
+
+  - url: https://github.com/Hack-with-Github/Awesome-Hacking
+    title: "A collection of various awesome lists for hackers, pentesters and security researchers"
+
+  - url: https://github.com/locustio/locust
+    title: "locust: Scalable user load testing tool "
+
+  - url: https://github.com/fatedier/frp
+    title: "ftp: A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet"
+
+  - url: https://github.com/mint-lang/mint
+    title: "mint: 🍃 A refreshing programming language for the front-end web."
+
+  - url: https://github.com/threat9/routersploit
+    title: "routersploit:Exploitation Framework for Embedded Devices"
+
+  - url: https://github.com/yandex/odyssey
+    title: "odyssey: Scalable PostgreSQL connection pooler"
+
+  - url: https://github.com/mre/awesome-static-analysis
+    title: "A curated list of static analysis tools, linters and code quality checkers"
+
+  - url: https://github.com/gardener/gardener
+    title: "gardener: Kubernetes API server extension and controller manager on AWS, Azure, GCP, and OpenStack"
+
