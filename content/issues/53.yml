@@ -27,6 +27,11 @@ links:
     description: |
       A vulnerability in browser implementations of the CSS3 feature “mix-blend-mode” which allowed to leak visual content from cross-origin iframe. Exploitation allowed to leak the profile picture, username and likes of unsuspecting visitors all while requiring no additional user interaction.
 
+  - url: https://brandur.org/graphql
+    title: "Living APIs, and the Case for GraphQL"
+    description: |
+      GraphQL’s biggest problem may be that although it’s better, it’s not “better enough”. The bar set by REST is low, but it’s high enough to work, and is adequate for most purposes.
+
   - url: https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/
     title: "A cartoon intro to DNS over HTTPS"
     description: |
@@ -38,6 +43,9 @@ links:
       Ruby comes distributed with a vast standard library. We only use a fraction of it, usually. Everyone knows date, set, json, maybe even csv. But there are many more things hidden there.
 
 brief:
+  - url: https://itnext.io/deep-dive-into-how-kubernetes-rest-api-works-517c86f1640b
+    title: "Deep dive into how Kubernetes REST API works"
+
   - url: https://ml5js.org/
     title: "Friendly Machine Learning for the Web"
 
@@ -46,9 +54,6 @@ brief:
 
   - url: http://nullprogram.com/blog/2018/06/10/
     title: "Minimalist C Libraries(should read regardless you're using C or not)"
-
-  - url: https://itnext.io/deep-dive-into-how-kubernetes-rest-api-works-517c86f1640b
-    title: "Deep dive into how Kubernetes REST API works"
 
 video:
   - url: https://www.youtube.com/watch?v=rxzcx4HaCQo
