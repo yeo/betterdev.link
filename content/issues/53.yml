@@ -12,6 +12,11 @@ links:
     description: |
       Although it's about Go but if you want to explore VSZ, RSS, or how a program get loaded on Linux, memory basic, ELF then it's worth a read for non-Go user.
 
+  - url: http://ruder.io/optimizing-gradient-descent/index.html
+    title: "An overview of gradient descent optimization algorithms"
+    description: |
+      Gradient descent is one of the most popular algorithms to perform optimization and by far the most common way to optimize neural networks. This blog post aims at providing you with intuitions towards the behaviour of different algorithms for optimizing gradient descent that will help you put them to use.
+
   - url: https://jamchamb.github.io/2018/06/09/animal-crossing-developer-mode.html
     title: "Reverse engineering Animal Crossing's developer mode"
     description: |
@@ -72,6 +77,11 @@ video:
     title: "Advanced Debugging with Xcode and LLDB"
 
 read_code:
+  - url: https://github.com/s-matyukevich/raspberry-pi-os
+    title: "Learning operating system development using Linux kernel and Raspberry Pi"
+    category:
+      - C
+
   - url: https://github.com/newtools/zsocket
     title: "zsocket: Zero-copy sockets for Linux"
     category:
@@ -91,11 +101,6 @@ read_code:
     title: "rubex: A Ruby-like language for writing Ruby C extensions"
     category:
       - Ruby
-
-  - url: https://github.com/s-matyukevich/raspberry-pi-os
-    title: "Learning operating system development using Linux kernel and Raspberry Pi"
-    category:
-      - C
 
   - url: https://github.com/pinterest/rocksplicator
     title: "RocksDB Replication"
