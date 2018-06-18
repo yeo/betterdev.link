@@ -1,0 +1,151 @@
+---
+time: "Jun 18, 2018"
+description: ''
+
+draft: false
+
+links:
+  - url: https://adrianmejia.com/blog/2018/05/14/data-structures-for-beginners-graphs-time-complexity-tutorial/
+    title: "Graph Data Structures for Beginners"
+    description: |
+      Adrian Mejia has created a series that focuses on Data Structures for Beginners. This part focus on graph. Make sure to check all other article in this serie.
+
+  - url: http://discrete.gr/complexity/
+    title: "A Gentle Introduction to Algorithm Complexity Analysis"
+    description: |
+      Targeting at programmers who know their art but who don't have any theoretical computer science background, I will present one of the most pragmatic tools of computer science: Big O notation and algorithm complexity analysis.
+
+  - url: https://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/
+    title: "Let's code a TCP/IP stack, 1: Ethernet & ARP"
+    description: |
+      Writing your own TCP/IP stack may seem like a daunting task. Indeed, TCP has accumulated many specifications over its lifetime of more than thirty years. The core specification, however, is seemingly compact1 - the important parts being TCP header parsing, the state machine, congestion control and retransmission timeout computation.
+
+  - url: https://medium.com/@sargun/systems-languages-an-experience-report-d008b2b12628
+    title: "Systems Languages: An Experience Report"
+    description: |
+      We will learn what is a system language from author's point of view. Implement a POSIX signal helper in Pony, Rust, Nim, Ocaml, Go.
+
+  - url: https://www.xtof.info/blog/?p=985
+    title: "The 640K memory limit of MS-DOS"
+    description: |
+      No matter how much physical memory you had in your box, the utter most important Conventional Memory was limited to 640 KiB! The Legend teaches us that Bill Gates once declared that "640 KB ought to be enough for anybody".The truth is of course a little more complicated than that.
+
+  - url: https://medium.com/@bellmar/the-land-before-binary-cc705d5bdd70
+    title: "The Land Before Binary"
+    description: |
+      Computers did not always use base 2. Computers did not always operate on just an on/off value. There were other things, different things that were tried and eventually abandoned.
+
+  - url: https://mathiasbynens.be/notes/shapes-ics
+    title: "JavaScript engine fundamentals: Shapes and Inline Caches"
+    description: |
+      This article describes some key fundamentals that are common to all JavaScript engines. As a JavaScript developer, having a deeper understanding of how JavaScript engines work helps you reason about the performance characteristics of your code.
+
+  - url: https://quii.gitbook.io/learn-go-with-tests/build-an-application/http-server
+    title: "Learn Go with tests"
+    description: |
+      Or learn test-driven development with Go? Explore the Go language by writing tests. This part focus on HTTP server.
+
+  - url: https://distributed-systems-observability-ebook.humio.com/
+    title: "Free e-book: Distributed Systems Observability"
+    description: |
+      In this practical e-book(only 36 pages), author Cindy Sridharan examines new monitoring tools that, while promising, bring their own set of technical and organizational challenges.
+
+video:
+  - url: https://www.youtube.com/watch?v=q-TjrRoxTc0&feature=youtu.be
+    title: "Extending a CMS with markdown and regex"
+
+  - url: https://speakerdeck.com/ianlewis/kubernetes-security-best-practices?slide=1
+    title: "Kubernetes Security Best Practices(Slide)"
+
+brief:
+  - url: https://gregable.com/2010/09/why-you-should-know-just-little-awk.html
+    title: "Why you should learn just a little Awk"
+
+  - url: https://about.gitlab.com/2018/06/07/keeping-git-commit-history-clean/
+    title: "How (and why!) to keep your Git commit history clean"
+
+  - url: https://www.bloomingpassword.fun/
+    title: "Blooming Password:  Banned Password Check using a bloom filter built from the Have I been pwned 2.0 db"
+
+  - url: https://www.cybertec-postgresql.com/en/index-decreases-select-performance/
+    title: "Adding an index can decrease select performance"
+
+  - url: https://medium.com/@val_deleplace/go-code-refactoring-the-23x-performance-hunt-156746b522f7
+    title: "Go code refactoring : the 23x performance hunt"
+
+  - url: https://medium.com/@bradford_hamilton/write-your-own-blockchain-and-pow-algorithm-using-crystal-d53d5d9d0c52
+    title: "Write your own blockchain and PoW algorithm using Crystal"
+
+  - url: https://github.com/ZoranPandovski/al-go-rithms
+    title: "🎵 Algorithms written in different programming languages"
+
+  - url: https://dev.to/ycmjason/let-me-explain-to-you-what-is-this-javascript-44ja
+    title: "Let me explain to you what is `this` in (Javascript)"
+
+  - url: https://dev.to/indy_singh_uk/strings-are-evil-9f9
+    title: "Strings Are Evil: Reducing memory allocations from 7.5GB to 32KB"
+
+  - url: https://www.howtographql.com/
+    title: "The Fullstack Tutorial for GraphQL"
+
+  - url: https://www.smashingmagazine.com/2018/06/nodejs-tools-techniques-performance-servers
+    title: "Tools, Techniques, And Tips For Making High-Performance Node.js Servers"
+
+  - url: https://v8project.blogspot.com/2018/06/concurrent-marking.html
+    title: "Concurrent garbage collection marking in V8"
+
+read_code:
+  - url: https://github.com/z7zmey/php-parser
+    title: "PHP parser written in Go"
+
+  - url: https://github.com/h2o/quicly
+    title: "quicly: QUIC implementation, to be used within the H2O HTTP server"
+    category:
+      - C
+
+  - url: https://github.com/Yelp/detect-secrets
+    title: "detect-secret: An enterprise friendly way of detecting and preventing secrets in code"
+    category:
+      - Python
+
+  - url: https://github.com/square/kochiku
+    title: "kochiku: Shard your builds for fun and profit"
+    category:
+      - Ruby
+
+  - url: https://github.com/graphql-rust/juniper
+    title: "GraphQL server library for Rust"
+
+  - url: https://github.com/Netflix/pollyjs/
+    title: "pollyjs: Record, Replay, and Stub HTTP Interactions"
+    category:
+      - Javascript
+
+#  - url: https://github.com/google/gif-for-cli
+#    title: "gif-for-cli: "
+#    https://github.com/moshen/gotermimg
+#    https://github.com/esimov/gifter
+#    https://github.com/davidmerfield/Blot
+#  - url: https://github.com/hasura/graphql-bench/
+
+tool:
+  - url: https://github.com/biokoda/actordb
+    title: "ActorDB distributed SQL database"
+
+  - url: https://github.com/NationalSecurityAgency/lemongraph
+    title: "Log-based transactional graph engine"
+
+  - url: https://ml5js.org/
+    title: "lm5js: Friendly Machine Learning for the Web"
+
+  - url: https://github.com/zalora/sproxy
+    title: "sproxy: HTTP proxy for authenticating users via OAuth2"
+
+  - url: https://github.com/pedronauck/docz
+    title: "Docz – it has never been so easy to document your things"
+
+  - url: https://gengo.ai/articles/the-50-best-free-datasets-for-machine-learning/
+    title: "The 50 Best Free Datasets for Machine Learning"
+#- url: https://artillery.io/
+#    https://loader.io/
+
