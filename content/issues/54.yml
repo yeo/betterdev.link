@@ -51,12 +51,17 @@ links:
       In this practical e-book(only 36 pages), author Cindy Sridharan examines new monitoring tools that, while promising, bring their own set of technical and organizational challenges.
 
 video:
+  - url: https://www.youtube.com/watch?v=U72b4Nl0Ftw
+    title: "Resolving Outages Faster With Better Debugging Strategies(29 mins)"
+
   - url: https://www.youtube.com/watch?v=q-TjrRoxTc0&feature=youtu.be
-    title: "Extending a CMS with markdown and regex"
+    title: "Extending a CMS with markdown and regex(36 mins)"
 
   - url: https://speakerdeck.com/ianlewis/kubernetes-security-best-practices?slide=1
     title: "Kubernetes Security Best Practices(Slide)"
 
+  - url: https://www.youtube.com/watch?v=NgKI7-3j2hc
+    title: "Telling stories with traceroute!(10 mins)
 brief:
   - url: https://gregable.com/2010/09/why-you-should-know-just-little-awk.html
     title: "Why you should learn just a little Awk"
