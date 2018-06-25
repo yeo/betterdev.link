@@ -1,5 +1,5 @@
 ---
-time: "Jun 18, 2018"
+time: "Jun 24, 2018"
 description: ''
 
 draft: false
@@ -134,7 +134,7 @@ read_code:
   - url: https://github.com/m242/maildrop
     title: "maildrop: an open-source, scalable, high-performance version of Mailinator"
     category:
-      - Scala
+      - Java
 
 tool:
   - url: https://pgtune.leopard.in.ua/#/
