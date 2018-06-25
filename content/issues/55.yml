@@ -1,0 +1,139 @@
+---
+time: "Jun 18, 2018"
+description: ''
+
+draft: false
+
+links:
+  - url: https://github.com/dylanaraps/pure-bash-bible
+    title: "pure bash bible: A collection of pure bash alternatives to external processes"
+    description: |
+      A free to read book to document known and unknown methods of doing various tasks using only built-in bash features. Using the snippets from this bible can help to remove unneeded dependencies from scripts and in most cases make them that little bit faster.
+
+  - url: https://letsencrypt.org/docs/certificates-for-localhost/
+    title: "Certificates for localhost"
+    description: |
+      Running HTTPS during development helps to have more identical dev vs prod environment?
+      How do we get a certificate for localhost without getting the big warning? How do you get the green lock locally?
+
+  - url: https://jvns.ca/blog/2018/06/19/what-i-use-wireshark-for/?v=1
+    title: "How I use Wireshark"
+    description: |
+      Wireshark is a really powerful and complicated tool, but in practice I only know how to do a very small number of things with it, and those things are really useful! So in this blog post, I’ll explain the 5 main things I use Wireshark for, and hopefully you’ll have a slightly clearer idea of why it’s useful.
+
+  - url: https://githubengineering.com/mysql-high-availability-at-github/
+    title: "MySQL High Availability at GitHub"
+    description: |
+      This post illustrates GitHub’s MySQL high availability and master service discovery solution, which allows us to reliably run a cross-data-center operation, be tolerant of data center isolation, and achieve short outage times on a failure.
+
+  - url: https://brianketelsen.com/web-assembly-and-go-a-look-to-the-future/
+    title: "Web Assembly and Go: A look to the future"
+    description: |
+      I've been watching Web Assembly with anticipation for quite some time, with the hope that it would allow me to write web applications without the typical Javascript build process.
+      When Web Assembly(wasm) support landed in Go recently, I knew that the time was ripe for some experimentation
+
+  - url: https://syslog.ravelin.com/go-in-a-scratch-vm-a28c14e82a51
+    title: "Go in a scratch VM"
+    description: |
+      Go code can be statically linked, and so requires no installed libraries. How about VM?
+      Could you have a VM that’s just a linux kernel and your Go binary? I suspect it is not
+      vulnerable to many known linux security issues as it contains zero standard user-space
+      components.
+
+  - url: http://www.r2d3.us/visual-intro-to-machine-learning-part-2/
+    title: "A visual introduction to machine learning"
+    description: |
+      A very interactice and visual way to learn machine learning concepts.
+
+video:
+  - url: https://www.youtube.com/watch?v=gpxnbly9bz4
+    title: "D. Richard Hipp - SQLite [The Databaseology Lectures - CMU Fall 2015]"
+
+  - url: https://www.youtube.com/c/LevelLive
+    title: "A serie about building level.app, a Slack-ish app in Elixir/Elm"
+
+  - url: https://www.youtube.com/watch?v=zEf6iUIkjf4
+    title: "Watch Matz(Ruby creator) live code a game at RubyKaigi 2018"
+
+  - url: https://www.youtube.com/watch?v=63I-mEuSvGA&t=15s&app=desktop
+    title: "The Cost Of JavaScript - Addy Osmani - Fluent 2018"
+
+brief:
+  - url: https://github.com/torokmark/design_patterns_in_typescript
+    title: "Design pattern implementations in TypeScript"
+
+  - url: https://www.scylladb.com/2018/06/21/impact-virtualization-database/
+    title: "The Impact of Virtualization on Your Database"
+
+  - url: https://pgdash.io/blog/postgres-features.html
+    title: "PostgreSQL Features You May Not Have Tried But Should"
+
+  - url: https://doesitmutate.xyz/
+    title: "Quick guide on which function mutate in JavaScript"
+
+  - url: https://read.reduxbook.com/
+    title: "HUman Redux book"
+
+  - url: https://www.learnenvoy.io/
+    title: "Practical Envoy: learn envoy proxy"
+
+read_code:
+  - url: https://transfer.sh/
+    title: "transfer.sh: Easy file sharing from the command line"
+    category:
+      - Go
+
+  - url: https://github.com/google/gitprotocolio
+    title: "A git protocol parser"
+    category:
+      - Go
+
+  - url: https://github.com/markets/maily
+    title: "maily: 📫 Rails Engine to preview emails in the browser"
+    category:
+      - Ruby
+
+  - url: https://github.com/yzhao062/Pyod
+    title: "Pyod: A Python Toolkit for Outlier Detection (Anomaly Detection)"
+    category:
+      - Python
+
+  - url: https://github.com/microlinkhq/async-ratelimiter
+    title: "Rate limit made simple, easy, async"
+    category:
+      - JavaScript
+
+  - url: https://github.com/marcobambini/gravity
+    title: "gravity:  a powerful, dynamically typed, lightweight, embeddable programming language"
+    category:
+      - C
+
+  - url: https://github.com/m242/maildrop
+    title: "maildrop: an open-source, scalable, high-performance version of Mailinator"
+    category:
+      - Scala
+
+tool:
+  - url: https://github.com/usefathom/fathom
+    title: "Fathom. Simple, trustworthy website analytics. Built with Golang & Preact"
+
+  - url: https://github.com/kasper/phoenix/
+    title: "phonix: A macOS/OS X window scriptable with JavaScript"
+
+  - url: https://github.com/hasura/pgdeltastream
+    title: "Streaming Postgres logical replication changes atleast-once over websockets"
+
+  - url: https://github.com/miniflux/miniflux
+    title: "Minimalist feed reader written in Go and Postgresql"
+
+  - url: https://github.com/gluon-lang/gluon
+    title: "gluon: A static, type inferred and embeddable language written in Rust"
+
+  - url: https://github.com/pulumi
+    title: "pulumi: A multi-language, multi-cloud development platform -- your code, your cloud, your team"
+
+  - url: https://github.com/crate/crate
+    title: "CrateDB: a distributed SQL database aim at store and analyze machine data in real-time"
+
+  - url: https://github.com/o1lab/xmysql
+    title: "One command to generate REST APIs for any MySql Database"
