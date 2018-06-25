@@ -5,6 +5,11 @@ description: ''
 draft: false
 
 links:
+  - url: https://cs.uwaterloo.ca/~plragde/flaneries/FDS/
+    title: "Functional Data Structures"
+    description: |
+      This Flâneur is a stroll through intermediate data structures and their associated algorithms, from the point of view of functional programming.
+
   - url: https://github.com/dylanaraps/pure-bash-bible
     title: "pure bash bible: A collection of pure bash alternatives to external processes"
     description: |
@@ -16,21 +21,36 @@ links:
       Running HTTPS during development helps to have more identical dev vs prod environment?
       How do we get a certificate for localhost without getting the big warning? How do you get the green lock locally?
 
-  - url: https://jvns.ca/blog/2018/06/19/what-i-use-wireshark-for/?v=1
-    title: "How I use Wireshark"
+  - url: https://medium.com/@brannondorsey/attacking-private-networks-from-the-internet-with-dns-rebinding-ea7098a2d325
+    title: "Attacking Private Networks from the Internet with DNS Rebinding"
     description: |
-      Wireshark is a really powerful and complicated tool, but in practice I only know how to do a very small number of things with it, and those things are really useful! So in this blog post, I’ll explain the 5 main things I use Wireshark for, and hopefully you’ll have a slightly clearer idea of why it’s useful.
+      DNS rebinding use very short-ttl dns entry. It allows a remote attacker to bypass a victim’s network firewall and use their web browser as a proxy to communicate directly with devices on their private home network.
+
+  - url: https://jvns.ca/blog/2018/06/19/what-i-use-wireshark-for/?v=1
+    title: "How Julia use Wireshark"
+    description: |
+      Julia explains the 5 main things she use Wireshark for, and hopefully you’ll have a slightly clearer idea of why it’s useful.
 
   - url: https://githubengineering.com/mysql-high-availability-at-github/
     title: "MySQL High Availability at GitHub"
     description: |
       This post illustrates GitHub’s MySQL high availability and master service discovery solution, which allows us to reliably run a cross-data-center operation, be tolerant of data center isolation, and achieve short outage times on a failure.
 
+  - url: http://srobb.net/pf.html
+    title: "A Beginner's Guide To Firewalling with pf"
+    description: |
+      This guide is written for the person very new to firewalling. Hope that this give you enough of a grasp of using pf so that you will then be able to go to those more advanced guides and perfect your firewalling skills.
+
+  - url: https://medium.com/booking-com-infrastructure/linux-kernel-bug-hunting-35f648c8dbb7
+    title: "Linux Kernel bug hunting"
+    description: |
+      “Our k8s master servers are rebooting randomly every day!” How do we troubleshoot this kind of issue?
+
   - url: https://brianketelsen.com/web-assembly-and-go-a-look-to-the-future/
     title: "Web Assembly and Go: A look to the future"
     description: |
-      I've been watching Web Assembly with anticipation for quite some time, with the hope that it would allow me to write web applications without the typical Javascript build process.
-      When Web Assembly(wasm) support landed in Go recently, I knew that the time was ripe for some experimentation
+      Web Assembly bring hope that it would allow us to write web applications without the typical Javascript build process.
+      When Web Assembly(wasm) support landed in Go recently, I knew that the time was ripe for some experimentation.
 
   - url: https://syslog.ravelin.com/go-in-a-scratch-vm-a28c14e82a51
     title: "Go in a scratch VM"
@@ -40,10 +60,6 @@ links:
       vulnerable to many known linux security issues as it contains zero standard user-space
       components.
 
-  - url: http://www.r2d3.us/visual-intro-to-machine-learning-part-2/
-    title: "A visual introduction to machine learning"
-    description: |
-      A very interactice and visual way to learn machine learning concepts.
 
 video:
   - url: https://www.youtube.com/watch?v=gpxnbly9bz4
@@ -58,7 +74,13 @@ video:
   - url: https://www.youtube.com/watch?v=63I-mEuSvGA&t=15s&app=desktop
     title: "The Cost Of JavaScript - Addy Osmani - Fluent 2018"
 
+  - url: https://www.slideshare.net/MichaelDucy/securing-your-container-environment-with-open-source
+    title: "Securing your Container Environment with Open Source(Slide)"
+
 brief:
+  - url: http://www.r2d3.us/visual-intro-to-machine-learning-part-2/
+    title: "A visual introduction to machine learning"
+
   - url: https://github.com/torokmark/design_patterns_in_typescript
     title: "Design pattern implementations in TypeScript"
 
@@ -68,21 +90,22 @@ brief:
   - url: https://pgdash.io/blog/postgres-features.html
     title: "PostgreSQL Features You May Not Have Tried But Should"
 
+  - url: http://rkirsling.github.io/modallogic/
+    title: "Modal logic playground"
+
   - url: https://doesitmutate.xyz/
     title: "Quick guide on which function mutate in JavaScript"
 
+  - url: https://github.com/llSourcell/learn_math_fast
+    title: "The Curriculum for \"How to Learn Mathematics Fast\""
+
   - url: https://read.reduxbook.com/
-    title: "HUman Redux book"
+    title: "Human Redux book"
 
   - url: https://www.learnenvoy.io/
     title: "Practical Envoy: learn envoy proxy"
 
 read_code:
-  - url: https://transfer.sh/
-    title: "transfer.sh: Easy file sharing from the command line"
-    category:
-      - Go
-
   - url: https://github.com/google/gitprotocolio
     title: "A git protocol parser"
     category:
@@ -114,6 +137,12 @@ read_code:
       - Scala
 
 tool:
+  - url: https://pgtune.leopard.in.ua/#/
+    title: "PGTune: calculate configuration for PostgreSQL for maximum performance"
+
+  - url: https://transfer.sh/
+    title: "transfer.sh: Easy file sharing from the command line"
+
   - url: https://github.com/usefathom/fathom
     title: "Fathom. Simple, trustworthy website analytics. Built with Golang & Preact"
 
