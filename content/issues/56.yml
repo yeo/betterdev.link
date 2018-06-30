@@ -1,0 +1,127 @@
+---
+time: "Jun 24, 2018"
+description: ''
+
+draft: false
+
+links:
+  - url: https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471
+    title: "Machine Learning is Fun"
+    description: |
+      This guide is for anyone who is curious about machine learning but has no idea where to start. I imagine there are a lot of people who tried reading the wikipedia article, got frustrated and gave up wishing someone would just give them a high-level explanation.
+
+  - url: http://nullprogram.com/blog/2018/06/23/
+    title: "Intercepting and Emulating Linux System Calls with Ptrace"
+    description: |
+      The ptrace(2) system call is usually associated with debugging. It’s the primary mechanism through which native debuggers monitor debuggees on unix-like systems. It’s also the usual approach for implementing strace — system call trace. With Ptrace, tracers can pause tracees, inspect and set registers and memory, monitor system calls, or even intercept system calls.
+
+  - url: https://blog.plaid.com/scaling-a-monitoring-platform/
+    title: "Scaling a monitoring platform to over 9,600 bank integrations"
+    description: |
+      Plaid increasingly found that logs-based monitoring system isn't scaleable for them. They struggled to determine what the right replacement would be and how to get it built. This post dives into how we answered these questions and what they had learn.
+
+  - url: https://os.phil-opp.com/cpu-exceptions/
+    title: "CPU Exceptions"
+    description: |
+      Exceptions occur in various erroneous situations, for example when accessing an invalid memory address or when dividing by zero. To catch them, we have to set up an interrupt descriptor table that provides handler functions.
+
+  - url: https://www.verypossible.com/blog/aws-development-dark-art-of-vpc-networking
+    title: "AWS Development: The Dark Art of VPC Networking"
+    description: |
+      Walk through an entire setup focused around VPC networking, private/public subnets, and NAT gateways.
+
+  - url: https://www.interviewcake.com/data-structures-reference
+    title: "Data Structures Reference"
+    description: |
+      A quick reference of the big O costs and core properties of every data structure: array, dynamic array, linked list, queue, stack, hash table, tree, graph.
+
+  - url: https://medium.com/@netscylla/pentesters-guide-to-postgresql-hacking-59895f4f007
+    title: "Pentesters Guide to PostgreSQL Hacking"
+    description: |
+      Quick guide to do pen testing Postgres with Metasploit
+
+  - url: https://blog.acolyer.org/2018/06/28/how-_not_-to-structure-your-database-backed-web-applications-a-study-of-performance-bugs-in-the-wild
+    title: "How not to structure your database-backed web applications"
+    description: |
+      A fascinating study of the problems people get into when using ORMs to handle persistence concerns in their web application.
+      Visiting links randomly for 2 hour, parse the log and break down database processing time.
+
+  - url: http://www.mikedrivendevelopment.com/2018/06/what-i-learned-making-my-own-jit.html
+    title: "What I Learned Making My Own JIT Language"
+    description: |
+      JIT is a hot topic nowsday. It's how JavaScript get fast. The author create their own JIT language call Vaiven: GC, an interpreter, a first pass assembler, and hot code gets optimized via an SSA optimization pipeline.
+
+  - url: http://explained.ai/matrix-calculus/index.html
+    title: "The Matrix Calculus You Need For Deep Learning"
+    description: |
+      This paper is an attempt to explain all the matrix calculus you need in order to understand the training of deep neural networks. We assume no math knowledge beyond what you learned in calculus 1, and provide links to help you refresh the necessary math where needed
+
+video:
+  - url: https://www.youtube.com/watch?v=P3fqetErxjA
+    title: "Readable Code"
+
+brief:
+  - url: https://dmitri.shuralyov.com/blog/26
+    title: "Rendering a Triangle with Apple's Metal API, using Go"
+
+  - url: https://www.scylladb.com/2018/06/21/impact-virtualization-database/
+    title: "The Impact of Virtualization on Your Database"
+
+  - url: https://hackernoon.com/how-immutable-data-structures-e-g-immutable-js-are-optimized-using-structural-sharing-e4424a866d56
+    title: "How Immutable Data Structures (E.g. Immutable.js) are Optimized"
+
+  - url: https://www.begin.re/
+    title: "Reverse Engineering for Beginners"
+
+  - url: https://auth0.com/blog/four-types-of-leaks-in-your-javascript-code-and-how-to-get-rid-of-them/
+    title: "4 Types of Memory Leaks in JavaScript and How to Get Rid Of Them"
+
+  - url: https://www.obeythetestinggoat.com/pages/book.html#toc
+    title: "Test-Driven Web Development with Python(free book)"
+
+  - url: https://g1thubhub.github.io/data-structure-zoo.html
+    title: "Phil’s Data Structure Zoo"
+
+read_code:
+  - url: https://github.com/lunemec/nanny
+    title: "Nanny is a monitoring tool that monitors the absence of activity"
+    category:
+      - Go
+
+  - url: https://github.com/tigranpetrossian/hacker-news-redesigned
+    title: "Redesigned Hacker News clone written with React and GraphQL"
+    category:
+      - JavaScript
+
+  - url: https://github.com/danielpclark/rutie
+    title: "Ruby in Rust, or Rust in Ruby"
+    category:
+      - Ruby
+      - Rust
+
+  - url: https://github.com/crossoverJie/Java-Interview
+    title: "Java related : basic, concurrent, algorithm"
+    category:
+      - Java
+
+  - url: https://github.com/Plume-org/Plume
+    title: "Federated blog engine (Medium but with ActivityPub)"
+    category:
+      - Rust
+
+  - url: https://github.com/skywalker212/tiny-shell
+    title: "A bash-like shell that performs basic functions of a shell"
+    category:
+      - C
+tool:
+  - url: https://github.com/FiloSottile/mkcert
+    title: "mkcert: tools to make locally-trusted development certificates"
+
+  - url: https://github.com/TylerBrock/saw
+    title: "Fast, multi-purpose tool for AWS CloudWatch Logs"
+
+  - url: https://github.com/ridiculousfish/cdecl-blocks
+    title: "cdecl: C gibberish ↔ English"
+
+  - url: https://github.com/pedronauck/docz
+    title: "docz: a document tool with JSX support"
