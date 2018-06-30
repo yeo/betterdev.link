@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+
 # TODO: Switch to scrtach and multistage build
 # TODO: Switch to non root user
 
@@ -9,7 +9,7 @@ ADD content /app/content
 ADD public /app/public
 ADD static /app/static
 ADD themes /app/themes
-ADD bd /app
+ADD linux /app/bd
 
 # Once docker fix bugs about USER we can remove chown
 RUN chown -R nobody /app
