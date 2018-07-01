@@ -113,9 +113,21 @@ read_code:
     title: "A bash-like shell that performs basic functions of a shell"
     category:
       - C
+
+  - url: https://github.com/sourcerer-io/sourcerer-app
+    title: "Sourcerer app makes a visual profile from your GitHub and git repositories"
+    category:
+      - Kotlin
+
 tool:
+  - url: https://github.com/harababurel/gcsf
+    title: "gcsf: a FUSE file system based on Google Drive"
+
   - url: https://github.com/FiloSottile/mkcert
     title: "mkcert: tools to make locally-trusted development certificates"
+
+  - url: https://github.com/meqio/meq
+    title: "meq: modern messaging platform for Message Push, IoT"
 
   - url: https://github.com/TylerBrock/saw
     title: "Fast, multi-purpose tool for AWS CloudWatch Logs"
