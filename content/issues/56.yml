@@ -60,6 +60,9 @@ video:
   - url: https://www.youtube.com/watch?v=P3fqetErxjA
     title: "Readable Code"
 
+  - url: https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb
+    title: "C++ playlist"
+
 brief:
   - url: https://dmitri.shuralyov.com/blog/26
     title: "Rendering a Triangle with Apple's Metal API, using Go"
