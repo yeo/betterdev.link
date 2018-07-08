@@ -1,0 +1,131 @@
+---
+time: "Jul 9, 2018"
+description: |
+  Hi all, If you like this newsletter and enjoy the content. Consider
+  help me out by [spread words on twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fbetterdev.link%2Fissues%2F57&via=kureikain&text=%23BetterDev%2057%3A%20drop%2010mil%20packet%20per%20second%2C%20join%2023k%20x%20faster%2C%20update%20ks8s%20etcd%20).
+
+draft: false
+
+links:
+  - url: https://blog.cloudflare.com/how-to-drop-10-million-packets/
+    title: "How to drop 10 million packets per second"
+    description: |
+      Being able to quickly discard packets is very important to withstand DDoS attacks.
+      This blog post we'll review all the techniques cloudflare tried: iptables input/prerouting,
+      tc ingress, BPF, conntrack,..
+
+  - url: https://crate.io/a/lab-notes-how-we-made-joins-23-thousand-times-faster-part-two/
+    title: "How Crate Made Joins 23 Thousand Times Faster"
+    description: |
+      Part two of a three-part miniseries that looks at how CrateDB improved join performance.
+      The secret sauce is "block hash join algorithm".
+
+  - url: https://medium.com/launch-by-adobe/an-http-caching-strategy-for-static-assets-the-problem-36d5c324b577
+    title: "An HTTP Caching Strategy For Static Assets"
+    description: |
+      Four-part series about HTTP caching: default browser behaviour, generate content-addressed asset, configure
+       nginx and testing.
+
+  - url: https://www.bennadel.com/blog/3467-the-not-so-dark-art-of-designing-database-indexes-reflections-from-an-average-software-engineer.htm
+    title: "The Not-So-Dark Art Of Designing Database Indexes"
+    description: |
+      Reflections From An Average Software Engineer. Designing a good index doesn't have to be a "dark art." It just requires a little pragmatism and an understanding of how your application needs to access data.
+
+  - url: https://github.com/bradfitz/homelab
+    title: "Brad's homelab setup"
+    description: |
+      If you like networking, like a homelab setup, this is a good read from Brad Fitzpatrick.
+      You will have a highly-available home Internet setup, with no SPOF and fun.
+
+  - url: https://medium.com/@cfatechblog/bare-metal-k8s-clustering-at-chick-fil-a-scale-7b0607bd3541
+    title: "Bare Metal K8s Clustering at Chick-fil-A Scale"
+    description: |
+      Imagine running K8S not on your cloud provider, but at the Edge of your device?
+      This company run K8S direcly on the device that sell to their customer. Lots of challenge
+      and interesting consideration.
+
+  - url: https://gravitational.com/blog/kubernetes-and-offline-etcd-upgrades?
+    title: "The Horrors of Upgrading Etcd Beneath Kubernetes"
+    description: |
+      Etcd is a core component of K8S. All state go there. Anything can be down, except Etcd.
+      This post digs into the horrors of in-place etcd upgrades and rollbacks within autonomous and inaccessible air-gapped clusters.
+
+video:
+  - url: https://www.youtube.com/watch?v=NmM9HA2MQGI
+    title: "Secret Key Exchange (Diffie-Hellman)"
+
+  - url: https://www.youtube.com/watch?v=X0tjziAQfNQ
+    title: "10 Tips for failing badly at Microservices"
+
+  - url: https://www.youtube.com/watch?v=SrNQS8J67zc
+    title: "Asynchrony: Under the Hood"
+
+  - url: https://www.youtube.com/watch?v=81_p6PSu064
+    title: "ClojureScript: A Great Place for React"
+
+brief:
+  - url: https://medium.com/makingtuenti/writing-a-scalable-api-client-in-swift-4-b3c6f7f3f3fb
+    title: "Writing a Scalable API Client in Swift 4"
+
+  - url: https://medium.com/@jmanrubia/escaping-the-spa-rabbit-hole-with-turbolinks-903f942bf52c
+    title: "Escaping the SPA rabbit hole with modern Rails"
+
+  - url: https://justinscholz.de/2018/06/15/an-extensive-zfs-setup-on-macos/
+    title: "An extensive ZFS setup on MacOS"
+
+  - url: https://jmperezperez.com/medium-image-progressive-loading-placeholder/
+    title: "How Medium does progressive image loading"
+
+  - url: https://medium.zenika.com/go-1-11-webassembly-for-the-gophers-ae4bb8b1ee03
+    title: "Go 1.11: WebAssembly for the gophers"
+
+read_code:
+  - url: https://github.com/uprt/labean
+    title: "labean: HTTP/HTTPS port knocker for GNU/Linux"
+    category:
+      - Go
+
+  - url: https://github.com/cannadayr/git-sqlite
+    title: "git-sqlite: A custom diff and merge driver for sqlite"
+    category:
+      - Bash
+
+  - url: https://github.com/abhishekcode/word-tetris
+    title: "tetris word: Tetris Game but using words"
+
+  - url: https://github.com/yonaskolb/Mint
+    title: "Mint: A package manager that installs and runs Swift command line tools"
+    category:
+      - Swift
+
+  - url: https://github.com/nbedos/termtosvg
+    title: "Record terminal sessions as SVG animations"
+    category:
+      - Python
+
+  - url: https://github.com/kigster/sym
+    title: "Sym — Light-weight Symmetric Encryption for Humans"
+    category:
+      - Ruby
+
+tool:
+  - url: https://github.com/salihciftci/liman
+    title: "liman: Web application for monitoring docker"
+
+  - url: https://eng.uber.com/h3/
+    title: "h3: Uber’s Hexagonal Hierarchical Spatial Index"
+
+  - url: https://github.com/octavore/lightproxy
+    title: "lightproxy: map local domain to port"
+
+  - url: https://cyrusimap.org/
+    title: "cyrusimap: open source email, contacts and calendar server"
+
+  - url: https://github.com/git-up/GitUp
+    title: "GitUP: Git client UI for Mac"
+
+  - url: https://github.com/aldor007/mort
+    title: "mort: Storage and image processing server in Go"
+
+  - url: https://github.com/snibox/snibox
+    title: "snibox: Self-hosted code snippets manager"
