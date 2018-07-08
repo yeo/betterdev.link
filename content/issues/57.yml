@@ -14,17 +14,16 @@ links:
       This blog post we'll review all the techniques cloudflare tried: iptables input/prerouting,
       tc ingress, BPF, conntrack,..
 
+  - url: https://zwischenzugs.com/2018/06/08/anatomy-of-a-linux-dns-lookup-part-i/
+    title: "Anatomy of a Linux DNS Lookup"
+    description: |
+      Break down how a program decides how it gets an IP address on a Linux host, and the components that can get involved
+
   - url: https://crate.io/a/lab-notes-how-we-made-joins-23-thousand-times-faster-part-two/
     title: "How Crate Made Joins 23 Thousand Times Faster"
     description: |
       Part two of a three-part miniseries that looks at how CrateDB improved join performance.
       The secret sauce is "block hash join algorithm".
-
-  - url: https://medium.com/launch-by-adobe/an-http-caching-strategy-for-static-assets-the-problem-36d5c324b577
-    title: "An HTTP Caching Strategy For Static Assets"
-    description: |
-      Four-part series about HTTP caching: default browser behaviour, generate content-addressed asset, configure
-       nginx and testing.
 
   - url: https://www.bennadel.com/blog/3467-the-not-so-dark-art-of-designing-database-indexes-reflections-from-an-average-software-engineer.htm
     title: "The Not-So-Dark Art Of Designing Database Indexes"
@@ -64,6 +63,9 @@ video:
     title: "ClojureScript: A Great Place for React"
 
 brief:
+  - url: https://medium.com/launch-by-adobe/an-http-caching-strategy-for-static-assets-the-problem-36d5c324b577
+    title: "An HTTP Caching Strategy For Static Assets"
+
   - url: https://medium.com/makingtuenti/writing-a-scalable-api-client-in-swift-4-b3c6f7f3f3fb
     title: "Writing a Scalable API Client in Swift 4"
 
@@ -84,6 +86,11 @@ read_code:
     title: "labean: HTTP/HTTPS port knocker for GNU/Linux"
     category:
       - Go
+
+  - url: https://github.com/harababurel/gcsf
+    title: "gcsf: a FUSE file system based on Google Drive"
+    category:
+      - Rust
 
   - url: https://github.com/cannadayr/git-sqlite
     title: "git-sqlite: A custom diff and merge driver for sqlite"
@@ -111,6 +118,12 @@ read_code:
 tool:
   - url: https://github.com/salihciftci/liman
     title: "liman: Web application for monitoring docker"
+
+  - url: https://github.com/codahale/sneaker
+    title: "sneaker: A tool for securely storing secrets on S3 using Amazon KMS"
+
+  - url: https://github.com/genuinetools/reg
+    title: "reg: Docker registry v2 command line client"
 
   - url: https://eng.uber.com/h3/
     title: "h3: Uber’s Hexagonal Hierarchical Spatial Index"
