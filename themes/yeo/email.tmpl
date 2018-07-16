@@ -214,16 +214,25 @@ a {
               <div style="padding: 1rem 1rem 0rem 1rem; font-size: 1rem;">
                 <h3 class="subtitle"><strong>Tools</strong></h3>
                 {{ range $key, $link := .Tools }}
-                <div style="padding: 0 0 1rem 0" class="issue-link">
-                  <a class="tools" style="font-size: 1.1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>{{ range $ci, $category := .Category }}<span class='tag'>{{ $category }}</span>{{ end }}<br>
-                </div>
+                  {{ if $link.IsSponsor }}
+                  <div class="issue-sponsor">
+                    <a style="font-size: 1.2rem; font-weight: 400; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a> <span style="color: #f36c3d;">(SPONSOR)</span>
+                    <p class="issue-description">{{ $link.Description }}</p>
+                    {{ if $link.Action }}<a class='sponsor-action' href ="{{ $link.URI }}" target='_blank'>{{ $link.Action }}</a>{{ end }}
+                  </div>
+                  {{ else }}
+                  <div style="padding: 0 0 1rem 0" class="issue-link">
+                    <a class="tools" style="font-size: 1.1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>{{ range $ci, $category := .Category }}<span class='tag'>{{ $category }}</span>{{ end }}<br>
+                  </div>
+                  {{ end }}
                 {{ end }}
               </div>
               {{ end }}
 
               <div style="padding: 0 1.5rem;">
                 <div style="border: 1px solid #f1f1f1; margin: 1.5rem 0;"></div>
-                That's it for this round, have a great day! If you like this newsletter, please tell the world!<br>
+                That's it for this round, have a great day! If you like this newsletter, please tell the world or
+                <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fbetterdev.link%2Fissues%2F58&via=kureikain&text=BetterDev%20Issue%20%23{{ .Name }})">tweet about this</a>!
                 <br>
                 You can <a href="https://betterdev.link/issues/{{ .Name }}">view this issue in web browser</a>.
 
