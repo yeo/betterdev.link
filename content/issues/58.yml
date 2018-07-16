@@ -2,7 +2,9 @@
 time: "Jul 16, 2018"
 description: |
   Welcome to issue #58. This week I learn a trick with Git, just want to share with you.
-  You can use `git checkout -` to toggle between 2 branches. Try it out.
+  You can use `git checkout - ` (Yes, it has a `-` at the end) to toggle between 2 branches.
+  Try it out. And enjoy the links for this week. If you like this news letter, please help
+  [tweet about this](https://twitter.com/intent/tweet?url=https%3A%2F%2Fbetterdev.link%2Fissues%2F58&via=kureikain&text=BetterDev%20Issue%20%2358).
 
 draft: false
 
