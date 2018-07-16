@@ -1,0 +1,146 @@
+---
+time: "Jul 16, 2018"
+description: |
+  Welcome to issue #58. This week I learn a trick with Git, just want to share with you.
+  You can use `git checkout -` to toggle between 2 branches. Try it out.
+
+draft: false
+
+links:
+  - url: https://engineering.videoblocks.com/web-architecture-101-a3224e126947
+    title: "Web Architecture 101"
+    description: |
+      A 101 full stack architecture includes DNS, load balancer, database, caching, job, cloudstorage,
+      data warehouse.
+
+  - url: https://github.com/donnemartin/system-design-primer
+    title: "Learn how to design large-scale systems"
+    description: |
+     System design is a broad topic. This repo is an organized collection of resources to help you learn how to build systems at scale.
+     It has Anki card as well.
+
+  - url: https://mpc.sh/blog/monads-made-simple/
+    title: "Monads Made Simple"
+    description: |
+      Monad always generate lot of discussion. I think partly because many discussion focus on a specific type of Monad
+      such as Maybe or Either. This is another article try to explain monad. If you do Ruby, this is [another one](http://codon.com/refactoring-ruby-with-monads).
+
+  - url: https://eli.thegreenplace.net/2018/basics-of-futexes/
+    title: "Basics of Futexes"
+    description: |
+      have you ever run ptrace on a stuck process and see futex? What is it? The futex  was proposed by Linux contributors from IBM in 2002. It's  a low-level feature of the Linux kernel, suitable for use in foundational runtime components like the C/C++ standard libraries.
+
+  - url: https://objective-see.com/blog/blog_0x34.html
+    title: "A Remote iOS Bug"
+    description: |
+      Apple wrote code to appease the chinese government ...it was buggy and crash whenever Taiwanese
+      is render under certain region/locale setting.
+
+  - url: https://medium.com/247sports-engineering/highly-available-grafana-running-on-aws-fargate-and-rds-aurora-2bbea9d41b50
+    title: "Highly Available Grafana running on AWS Fargate and RDS Aurora"
+    description: |
+      Grafana default to SQLite so we cannot do HA. This setup is interesting since it made use of
+      Aurora which is automatic failover in less than 30s, and AWS Fargate instead of running an EC2 instance.
+
+video:
+  - url: https://www.youtube.com/watch?v=hnpzNAPiC0E
+    title: "scaling instagram infrastructure"
+
+  - url: https://www.youtube.com/watch?v=ADT25tuAx4A
+    title: "Discuss performance of Go"
+
+  - url: https://www.youtube.com/watch?v=CZ3wIuvmHeM
+    title: "Mastering Chaos - A Netflix Guide to Microservices"
+
+brief:
+  - url: https://cloudplatform.googleblog.com/2018/07/7-best-practices-for-building-containers.html
+    title: "7 best practices for building containers"
+
+  - url: https://www.arangodb.com/2018/07/time-traveling-with-graph-databases/
+    title: "Time traveling with graph databases"
+
+  - url: https://gdstechnology.blog.gov.uk/2018/07/13/building-a-tool-to-improve-our-github-security/
+    title: "Building a tool to improve your GitHub organization security"
+
+  - url: https://saveriomiroddi.github.io/Using-scripts-in-any-language-for-bash-zsh-tab-completion/
+    title: "Using scripts in any language for Bash/Zsh tab completion"
+
+  - url: https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/reflection
+    title: "Learn Go with test: Reflection"
+
+  - url: http://en.tldp.org/HOWTO/Software-Release-Practice-HOWTO/
+    title: "Software Release Practice HOWTO"
+
+  - url: https://cturt.github.io/cinoop.html
+    title: "Writing a Game Boy emulator, Cinoop"
+
+  - url: https://apsdehal.in/blog/chrome-developer-tools-to-master
+    title: "Essential Chrome Developer Tools: Beginner to Master"
+
+  - url: https://medium.freecodecamp.org/how-to-dockerize-your-end-to-end-acceptance-tests-dbb593acb8e0
+    title: "How to Dockerize your End-to-End acceptance tests"
+
+read_code:
+  - url: https://github.com/rabbitstack/rabbitc
+    title: "rabbitc: Micro container runtime"
+    category:
+      - Rust
+
+  - url: https://github.com/browsh-org/browsh
+    title: "A fully-modern text-based browser, rendering to TTY and browsers"
+    category:
+      - Go
+      - JavaScript
+
+  - url: https://github.com/dylanaraps/neofetch
+    title: "A command-line system information tool written in bash 3.2+"
+    category:
+      - Bash
+
+  - url: https://github.com/rtr7/router7
+    title: "pure-Go small home internet router"
+    category:
+      - Go
+
+  - url: https://github.com/janko-m/down
+    title: "down: Streaming downloads using net/http, http.rb or wget"
+    category:
+      - Ruby
+
+  - url: https://github.com/chubin/cheat.sh
+    title: "Unified access to the best community-driven cheat sheets repositories"
+    category:
+      - Python
+
+  - url: https://github.com/thomas4019/pgmongo
+    title: "pgmongo: Replace MongoDB with PosgreSQL using jsonb fields"
+    category:
+      - JavaScript
+
+tool:
+  - url: https://github.com/adamcooke/staytus
+    title: "statytus: a status page for your service"
+
+  - url: https://github.com/usefathom/fathom
+    title: "fathom: Simple, trustworthy website analytics built with Golang & Preact"
+
+  - url: https://github.com/ory/oathkeeper
+    title: "Oathkeeper is an Identity & Access Proxy (IAP) inspired by Google BeyondCorp"
+
+  - url: https://github.com/gotoz/runq
+    title: "runq: Run regular Docker images in KVM/Qemu"
+
+  - url: https://github.com/weaveworks/kubediff
+    title: "kubediff: diff k8s yaml between running state and version controlled configuration"
+
+  - url: https://github.com/tidwall/buntdb
+    title: "buntdb: an embeddable, in-memory key/value database for Go with custom indexing and geospatial support"
+
+  - url: https://github.com/ioquatix/relaxo
+    title: "relaxo: a transactional document database built on top of git"
+
+  - url: https://github.com/axic/mango
+    title: "Mango: Git, completely decentralised"
+
+  - url: https://github.com/chubin/wttr.in
+    title: "wttr.in: fun way to check the weather"
