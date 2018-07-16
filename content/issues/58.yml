@@ -21,6 +21,11 @@ links:
      System design is a broad topic. This repo is an organized collection of resources to help you learn how to build systems at scale.
      It has Anki card as well.
 
+  - url: https://blog.asrpo.com/making_a_low_level_debugger_part_3
+    title: "Making a low level (Linux) debugger"
+    description: |
+      This continues a series where we make a debugger and live editor for (re)creating assembly and C programs. We learn about registers and memory, single step, single instruction execution, function call, breakpoint, memory allocation and more.
+
   - url: https://mpc.sh/blog/monads-made-simple/
     title: "Monads Made Simple"
     description: |
@@ -32,17 +37,16 @@ links:
     description: |
       have you ever run ptrace on a stuck process and see futex? What is it? The futex  was proposed by Linux contributors from IBM in 2002. It's  a low-level feature of the Linux kernel, suitable for use in foundational runtime components like the C/C++ standard libraries.
 
+  - url: https://lab.wallarm.com/how-to-trick-csp-in-letting-you-run-whatever-you-want-73cb5ff428aa
+    title: "Neatly bypassing CSP"
+    description: |
+      How to trick CSP in letting you run whatever you want.
+
   - url: https://objective-see.com/blog/blog_0x34.html
     title: "A Remote iOS Bug"
     description: |
       Apple wrote code to appease the chinese government ...it was buggy and crash whenever Taiwanese
       is render under certain region/locale setting.
-
-  - url: https://medium.com/247sports-engineering/highly-available-grafana-running-on-aws-fargate-and-rds-aurora-2bbea9d41b50
-    title: "Highly Available Grafana running on AWS Fargate and RDS Aurora"
-    description: |
-      Grafana default to SQLite so we cannot do HA. This setup is interesting since it made use of
-      Aurora which is automatic failover in less than 30s, and AWS Fargate instead of running an EC2 instance.
 
 video:
   - url: https://www.youtube.com/watch?v=hnpzNAPiC0E
@@ -57,6 +61,9 @@ video:
 brief:
   - url: https://cloudplatform.googleblog.com/2018/07/7-best-practices-for-building-containers.html
     title: "7 best practices for building containers"
+
+  - url: https://medium.com/247sports-engineering/highly-available-grafana-running-on-aws-fargate-and-rds-aurora-2bbea9d41b50
+    title: "Highly Available Grafana running on AWS Fargate and RDS Aurora"
 
   - url: https://www.arangodb.com/2018/07/time-traveling-with-graph-databases/
     title: "Time traveling with graph databases"
