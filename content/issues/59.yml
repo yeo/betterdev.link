@@ -1,0 +1,157 @@
+---
+time: "Jul 23, 2018"
+description: |
+  Hi all, how we all have a great weekend. This week, I found this (free Flutter couse)[https://www.udemy.com/flutters-beginners-course/?couponCode=VOIDREALMS1000] on udemy. The copuponCode is in there. Maybe it's a good time to quickly try out flutter.
+draft: false
+
+links:
+  - url: https://opnsec.com/2018/07/into-the-borg-ssrf-inside-google-production-network/
+    title: "SSRF inside Google production network"
+    description: |
+      CSRF is very common but SSRF is something we overlooked. If our app fetches remote content
+      such as taking screenshot of website, do health check, our app maybe tricked into loading
+      resource in internal infrastructure.
+
+  - url: https://kubernetes.io/blog/2018/07/18/11-ways-not-to-get-hacked/
+    title: "11 Ways (Not) to Get Hacked in Kubernetes"
+    description: |
+      Starting with the control plane, building up through workload and network security, and finishing with a projection into the future of security, here is a list of handy tips to help harden your clusters and increase their resilience if compromised.
+
+  - url: https://www.rainerhahnekamp.com/en/javascript-essentials-the-engine/
+    title: "JavaScript Essentials: The Engine"
+    description: |
+      What a software developer, who uses JavaScript to write applications, should know about engines so that the written code executes properly. Mind blwoing when just by adding a single property to each object, we end up with a performance drop of more than 700%!
+
+  - url: https://yurichev.com/writings/AL4B-EN.pdf
+    title: "Assembly Language for Beginners [pdf]"
+    description: |
+      Probably not many reader of betterdev write assembly, but this give insight into how computer works: CPU, register, machine code,
+      numeral system and more.
+
+  - url: https://engineering.riotgames.com/news/riots-approach-anti-cheat
+    title: "Riot games approach to anti-cheat"
+    description: |
+      Combating cheats is an ever-evolving arms race. The scope and complexity of cheat development grows every year along with the stakes in online gaming. The pressure is on for game studios to level up when it comes to detecting and preventing bad actors
+
+  - url: https://robertheaton.com/2018/07/09/how-tinder-keeps-your-location-a-bit-private/
+    title: "How Tinder keeps your exact location (a bit) private"
+    description: |
+      The Tinder app tracks its users’ locations in order to tell potential matches how far away they are from each other.
+      Tinder has 2 innovations to protect this: divides the city up into grid squares, very roughly 1 mile by 1 mile in size,
+      and  calculates distances using what appears to be an entirely custom formula.
+
+  - url: https://tech.gotinder.com/geosharded-recommendations-part-1-sharding-approach-2/
+    title: "Geosharded Recommendations Part 1: Sharding Approach"
+    description: |
+      Tinder shards their database by storing users who are physically near each other in the same shard. They share about the
+      design and its outcome: load balance, score and shard size and eventually use Google's S2 Cell & Geosharding Algorithm
+      with hilbert curve.
+
+  - url: https://medium.com/chaosiq/exploring-multi-level-weaknesses-using-automated-chaos-experiments-aa30f0605ce
+    title: "Exploring Multi-level Weaknesses using Automated Chaos Experiments"
+    description: |
+      Chaos engineering’s goal is to discover and help you overcome weaknesses across the entire sociotechnical system of software development
+
+video:
+  - url: https://www.youtube.com/watch?v=kPes3rvT1UM
+    title: "Full flow of Using Jenkins X on Kubernetes(10mins)"
+
+  - url: https://www.youtube.com/watch?v=0Gr1XSyxZy0
+    title: "9 Biggest Mistakes with CSS Grid(15mins)"
+
+  - url: https://soundcloud.com/helpnetsecurity/george-gerchow-cso-at-sumo-logic-our-strategy-for-container-security
+    title: "George Gerchow, CSO at Sumo Logic: Our strategy for container security(8mins)"
+
+  - url: https://www.youtube.com/watch?v=qgKlu5gFsJM
+    title: "Evented Autonomous Services in Ruby(30mins)"
+
+  - url: https://thenewstack.io/google-reveals-the-secrets-of-devops/
+    title: "Google Reveals the Secrets of DevOps(podcast 20mins)"
+
+brief:
+  - url: https://medium.com/airbnb-engineering/operationalizing-node-js-for-server-side-rendering-c5ba718acfc9
+    title: "Operationalizing Node.js for Server Side Rendering"
+
+  - url: http://wordsandbuttons.online/programmers_introduction_to_linear_equations.html
+    title: "Programmer's introduction to linear equations"
+
+  - url: https://medium.com/netlify/migrating-netlifys-continuous-deployment-infra-to-kubernetes-and-everything-we-learned-along-the-1e5989254269
+    title: "Migrating Netlify’s Continuous Deployment infra to Kubernetes"
+
+  - url: https://blog.usejournal.com/lean-testing-or-why-unit-tests-are-worse-than-you-think-b6500139a009
+    title: "Lean Testing or Why Unit Tests are Worse than You Think"
+
+  - url: https://medium.com/@wesharehoodies/lets-build-a-customizable-rich-text-editor-with-slate-and-react-beefd5d441f2
+    title: "Build a fast, slick and customizable rich text editor with Slate and React"
+
+  - url: https://fly.io/articles/lighthouse-how-to-reduce-render-blocking-scripts/
+    title: "Lighthouse: how to reduce render-blocking scripts"
+
+  - url: https://gist.github.com/swalkinshaw/3a33e2d292b60e68fcebe12b62bbb3e2
+    title: "Designing a GraphQL API by Shopify for internal purpose"
+
+  - url: http://tonsky.me/blog/dsl/
+    title: "Designing good DSL"
+
+  - url: https://blog.golang.org/ismmkeynote
+    title: "Getting to Go: The Journey of Go's Garbage Collector"
+
+  - url: https://github.com/tpn/pdfs
+    title: "Technically-oriented PDF Collection (Papers, Specs, Decks, Manuals, etc)"
+
+read_code:
+  - url: https://github.com/alecthomas/participle
+    title: "Participle: A parser library for Go"
+    category:
+      - Go
+
+  - url: https://github.com/peterburk/pagefish
+    title: "pagefish: Search engine with a static webserver"
+    category:
+      - C
+
+  - url: https://github.com/pmusolino/Wormholy#readme
+    title: "wormholy: iOS network debugging, like a wizard"
+    category:
+      - Swift
+
+  - url: https://github.com/airbnb/hypernova
+    title: "hypernova: server-side rendering your JavaScript views"
+    category:
+      - JavaScript
+
+  - url: https://github.com/facebookincubator/xar
+    title: "XAR: lpackage many files into a single self-contained executable file"
+    category:
+      - Python
+
+  - url: https://github.com/tonsser/ya_enum
+    title: "ya_enum: Enums for Ruby that aren't just symbols"
+    category:
+      - Ruby
+
+tool:
+  - url: https://github.com/liftbridge-io/liftbridge
+    title: "Liftbridge: Lightweight, Fault-Tolerant Message Streams like Kafka"
+
+  - url: https://github.com/hasura/graphql-engine
+    title: "graphql-engine: GraphQL APIs on Postgres with fine grained access control"
+
+  - url: https://github.com/manifoldco/heighliner
+    title: "heighliner: Continuous Delivery from GitHub to your Kubernetes cluster"
+
+  - url: https://nabla-containers.github.io/
+    title: "Nabla: a new approach to container isolation"
+
+  - url: https://github.com/GoogleChromeLabs/ndb
+    title: "ndb: is an improved debugging experience for Node.js"
+
+  - url: https://www.interviewbit.com/
+    title: "interviewbit: Practice Coding Interview Questions"
+
+  - url: https://github.com/jdkato/prose
+    title: "prose: a natural language processing library (English only, at the moment) in pure Go"
+
+  - url: https://una.im/CSSgram/
+    title: "CSSgram: A tiny library for recreating Instagram filters with CSS"
+
