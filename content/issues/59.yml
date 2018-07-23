@@ -1,7 +1,7 @@
 ---
 time: "Jul 23, 2018"
 description: |
-  Hi all, how we all have a great weekend. This week, I found this (free Flutter couse)[https://www.udemy.com/flutters-beginners-course/?couponCode=VOIDREALMS1000] on udemy. The copuponCode is in there. Maybe it's a good time to quickly try out flutter.
+  Hi all, how we all have a great weekend. This week, I found this [Flutter couse](https://www.udemy.com/flutters-beginners-course/?couponCode=VOIDREALMS1000) on udemy. It's free if you use my links with couponcode. Maybe it's a good time to quickly try out flutter.
 draft: false
 
 links:
@@ -75,9 +75,6 @@ brief:
   - url: http://wordsandbuttons.online/programmers_introduction_to_linear_equations.html
     title: "Programmer's introduction to linear equations"
 
-  - url: https://medium.com/netlify/migrating-netlifys-continuous-deployment-infra-to-kubernetes-and-everything-we-learned-along-the-1e5989254269
-    title: "Migrating Netlify’s Continuous Deployment infra to Kubernetes"
-
   - url: https://blog.usejournal.com/lean-testing-or-why-unit-tests-are-worse-than-you-think-b6500139a009
     title: "Lean Testing or Why Unit Tests are Worse than You Think"
 
@@ -95,9 +92,6 @@ brief:
 
   - url: https://blog.golang.org/ismmkeynote
     title: "Getting to Go: The Journey of Go's Garbage Collector"
-
-  - url: https://github.com/tpn/pdfs
-    title: "Technically-oriented PDF Collection (Papers, Specs, Decks, Manuals, etc)"
 
 read_code:
   - url: https://github.com/alecthomas/participle
