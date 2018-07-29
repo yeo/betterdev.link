@@ -1,0 +1,141 @@
+---
+time: "Jul 30, 2018"
+description: ""
+draft: false
+
+links:
+  - url: http://www.emulator101.com/
+    title: "Emulator 101"
+    description: |
+      Writing an arcade game emulator is an awesome learning project, and this tutorial will take you through the entire process in a very detailed way. Want to really learn how a CPU works? Writing an emulator is the best way to learn about it.
+
+  - url: https://nodesource.com/blog/why-the-new-v8-is-so-damn-fast
+    title: "Why the New V8 is so Damn Fast"
+    description: |
+      May improvement in Garbage Collector. TurboFan replaced Crankshaft, and Orinoco now collects garbage in parallel.
+
+  - url: https://sysdig.com/blog/container-security-docker-image-scanning/
+    title: "Docker Image Scanning – How to Implement Open Source Container Security"
+    description: |
+      In virtual machine, it only a single server we have to worry about. in Docker world, we have to do
+      it for every container. This article cover Docker image scanning with open source container security / image scanning tools.
+
+  - url: https://eng.uber.com/autonomous-rollouts-regression-analysis/#utm_source=rss&utm_medium=rss&utm_campaign=autonomous-rollouts-regression-analysis
+    title: "Building Automated Feature Rollouts on Robust Regression Analysis"
+    description: |
+       Uber leverage their experimentation platform, a tool that monitor how each new feature affects software and systems through a staged rollout process.
+
+  - url: https://medium.com/@cdiggins/beyond-regular-expressions-an-introduction-to-parsing-context-free-grammars-ee77bdab5a92
+    title: "Beyond Regular Expressions: An Introduction to Parsing Context Free Grammars"
+    description: |
+      RegEx is powerful but they fall shot when process HTML, open/close brace. To parse these types of patterns we need something more powerful called context free grammars.
+
+  - url: https://developers.soundcloud.com/blog/keeping-counts-in-sync
+    title: "Keeping Counts In Sync"
+    description: |
+      Track play count sounds easy. But when breaking down into detail, it's more complex, such as count in a period of time.
+      SoundCloud build this system with: kafka, memcached, cassandra, HDFS, Lambda and bunch of batchjobs. [Pinterest has their own
+      user action counting too](https://medium.com/@Pinterest_Engineering/building-a-real-time-user-action-counting-system-for-ads-88a60d9c9a)
+
+  - url: https://medium.com/thousandeyes-engineering/evolution-of-infrastructure-monitoring-at-thousandeyes-engineering-be1c343881a7
+    title: "Evolution of Infrastructure Monitoring at ThousandEyes Engineering"
+    description: |
+      Real world example of monitoring. Moving from nagios/check_mk to Prometheus, Grafana. The interesting part is highly avaiable alerting and the VPN setup of their current on-premise data center and the cloud provider.
+
+  - url: https://matt.sh/netmatt
+    title: "Replacing 90s C Linux Utilities With Python"
+    description: |
+      The implementation is in Python but the core is you know where to pull out the data of netstat. Since in Linux everthing
+      is a file. Now you can read those and process them with your favoutire language.
+
+video:
+  - url: https://www.youtube.com/playlist?list=PLhixgUqwRTjywPzsTYz28I-qezFOSaUYz
+    title: "CTF video write-ups. Let's learn some security"
+
+  - url: https://aws.amazon.com/this-is-my-architecture/
+    title: "Collection of how big companies build their AWS infrastructure"
+
+  - url: https://launchdarkly.com/blog/testing-in-production-the-netflix-way/
+    title: "Testing in Production the Netflix Way"
+
+brief:
+  - url: https://dzone.com/articles/kubernetes-anti-patterns-lets-do-gitops-not-ciops
+    title: "Kubernetes Anti-Patterns: GitOps, Not CIOps"
+
+  - url: https://itnext.io/kubernetes-networking-behind-the-scenes-39a1ab1792bb
+    title: "Kubernetes Networking: Behind the scenes"
+
+  - url: http://technosophos.com/2018/07/04/be-nice-and-write-stable-code.html
+    title: "Be Nice And Write Stable Code"
+
+  - url: https://www.percona.com/blog/2018/07/26/tuning-innodb-primary-keys/
+    title: "Tuning InnoDB Primary Keys"
+
+  - url: https://terriblecode.com/blog/how-docker-images-work-union-file-systems-for-dummies/
+    title: "How docker images work: union file systems for dummies"
+
+  - url: https://medium.freecodecamp.org/how-to-write-a-good-software-design-document-66fcf019569c
+    title: "How to write a good software design doc"
+
+  - url: https://css-tricks.com/debugging-tips-tricks/
+    title: "Debugging Tips and Tricks for JavaScript"
+
+  - url: https://github.com/adaptivecapacitylabs/Resilience-Engineering-Resources
+    title: "A collection of readings, talks, and other bits regarding the field of Resilience Engineering"
+
+  - url: https://github.com/colental/byob/blob/master/README.md
+    title: "Build Your Own Botnet"
+
+  - url: https://uxdesign.cc/crafting-beautiful-ux-with-api-requests-56e7dcc2f58e
+    title: "Crafting beautiful UX with API requests"
+
+  - url: https://itnext.io/4-css-tricks-ive-learnt-the-hard-way-aab1e7e8ff44
+    title: "4 CSS tricks I’ve learnt the hard way"
+
+read_code:
+  - url: https://github.com/securego/gosec
+    title: "gosec -Golang Security Checker"
+    category:
+      - Go
+
+  - url: https://github.com/toptal/crystalball/
+    title: "Crystalball: only run rspec test that you need"
+    category:
+      - Ruby
+
+  - url: https://github.com/avidLearnerInProgress/pyCAIR
+    title: "pyCAIR: Content aware image resizing"
+    category:
+      - Python
+
+  - url: https://github.com/cozmo/jsQR
+    title: "jsQR: A pure javascript QR code reading library"
+    category:
+      - JavaScript
+
+  - url: https://github.com/typedruby/typedruby
+    title: "typedruby: Gradual static typing for Ruby written in Rust"
+    category:
+      - Rust
+
+tool:
+  - url: https://github.com/coreos/fero
+    title: "fero: YubiHSM2-backed signing server"
+
+  - url: https://github.com/ga0/netgraph
+    title: "Netgraph: captures HTTP traffuc, and display them in web page"
+
+  - url: https://github.com/manifoldco/heighliner
+    title: "heighliner: Continuous Delivery from GitHub to Kubernetes"
+
+  - url: https://github.com/faressoft/terminalizer
+    title: "terminalizer: Record your terminal and generate animated gif images"
+
+  - url: https://github.com/liftbridge-io/liftbridge
+    title: "liftbridge: Lightweight, fault-tolerant message streams"
+
+  - url: https://github.com/google/go-cloud
+    title: "go-cloud: write once, works on any cloud providers"
+
+  - url: https://github.com/s0md3v/Photon
+    title: "Photon: fast crawler which extracts urls, emails, files"
