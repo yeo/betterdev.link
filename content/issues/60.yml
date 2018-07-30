@@ -14,6 +14,12 @@ links:
     description: |
       May improvement in Garbage Collector. TurboFan replaced Crankshaft, and Orinoco now collects garbage in parallel.
 
+  - url: https://os.phil-opp.com/double-fault-exceptions/
+    title: "Writing an OS in Rust: Double Faults"
+    description: |
+      We have linked to this series a lost. This is a new one about handling error where the error handle throw another
+      exception. By handling this exception we avoid fatal triple faults that cause a system reset
+
   - url: https://sysdig.com/blog/container-security-docker-image-scanning/
     title: "Docker Image Scanning – How to Implement Open Source Container Security"
     description: |
@@ -37,11 +43,6 @@ links:
       SoundCloud build this system with: kafka, memcached, cassandra, HDFS, Lambda and bunch of batchjobs. [Pinterest has their own
       user action counting too](https://medium.com/@Pinterest_Engineering/building-a-real-time-user-action-counting-system-for-ads-88a60d9c9a)
 
-  - url: https://medium.com/thousandeyes-engineering/evolution-of-infrastructure-monitoring-at-thousandeyes-engineering-be1c343881a7
-    title: "Evolution of Infrastructure Monitoring at ThousandEyes Engineering"
-    description: |
-      Real world example of monitoring. Moving from nagios/check_mk to Prometheus, Grafana. The interesting part is highly avaiable alerting and the VPN setup of their current on-premise data center and the cloud provider.
-
   - url: https://matt.sh/netmatt
     title: "Replacing 90s C Linux Utilities With Python"
     description: |
@@ -64,6 +65,9 @@ video:
 brief:
   - url: https://uxdesign.cc/crafting-beautiful-ux-with-api-requests-56e7dcc2f58e
     title: "Crafting beautiful UX with API requests"
+
+  - url: https://rob.conery.io/2018/07/23/setting-up-a-fast-comprehensive-search-routine-with-postgresql/
+    title: "Setting up a fast, comprehensive search routine with postgresql"
 
   - url: https://dzone.com/articles/kubernetes-anti-patterns-lets-do-gitops-not-ciops
     title: "Kubernetes Anti-Patterns: GitOps, Not CIOps"
