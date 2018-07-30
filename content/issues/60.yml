@@ -110,8 +110,8 @@ read_code:
     category:
       - Ruby
 
-  - url: https://github.com/avidLearnerInProgress/pyCAIR
-    title: "pyCAIR: Content aware image resizing"
+  - url: https://nicolargo.github.io/glances/
+    title: "glances: a cross-platform system monitoring export to InfluxDB and Grafana"
     category:
       - Python
 
