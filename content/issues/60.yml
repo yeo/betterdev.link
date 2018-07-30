@@ -52,6 +52,9 @@ video:
   - url: https://www.youtube.com/playlist?list=PLhixgUqwRTjywPzsTYz28I-qezFOSaUYz
     title: "CTF video write-ups. Let's learn some security"
 
+  - url: https://www.infoq.com/presentations/control-planes-design-infrastructure
+    title: "Control Planes: Designing Infrastructure for Rapid Iteration"
+
   - url: https://aws.amazon.com/this-is-my-architecture/
     title: "Collection of how big companies build their AWS infrastructure"
 
@@ -59,11 +62,17 @@ video:
     title: "Testing in Production the Netflix Way"
 
 brief:
+  - url: https://uxdesign.cc/crafting-beautiful-ux-with-api-requests-56e7dcc2f58e
+    title: "Crafting beautiful UX with API requests"
+
   - url: https://dzone.com/articles/kubernetes-anti-patterns-lets-do-gitops-not-ciops
     title: "Kubernetes Anti-Patterns: GitOps, Not CIOps"
 
   - url: https://itnext.io/kubernetes-networking-behind-the-scenes-39a1ab1792bb
     title: "Kubernetes Networking: Behind the scenes"
+
+  - url: https://terriblecode.com/blog/how-docker-images-work-union-file-systems-for-dummies/
+    title: "How docker images work: union file systems for dummies"
 
   - url: http://technosophos.com/2018/07/04/be-nice-and-write-stable-code.html
     title: "Be Nice And Write Stable Code"
@@ -71,23 +80,17 @@ brief:
   - url: https://www.percona.com/blog/2018/07/26/tuning-innodb-primary-keys/
     title: "Tuning InnoDB Primary Keys"
 
-  - url: https://terriblecode.com/blog/how-docker-images-work-union-file-systems-for-dummies/
-    title: "How docker images work: union file systems for dummies"
-
   - url: https://medium.freecodecamp.org/how-to-write-a-good-software-design-document-66fcf019569c
     title: "How to write a good software design doc"
-
-  - url: https://css-tricks.com/debugging-tips-tricks/
-    title: "Debugging Tips and Tricks for JavaScript"
-
-  - url: https://github.com/adaptivecapacitylabs/Resilience-Engineering-Resources
-    title: "A collection of readings, talks, and other bits regarding the field of Resilience Engineering"
 
   - url: https://github.com/colental/byob/blob/master/README.md
     title: "Build Your Own Botnet"
 
-  - url: https://uxdesign.cc/crafting-beautiful-ux-with-api-requests-56e7dcc2f58e
-    title: "Crafting beautiful UX with API requests"
+  - url: https://github.com/adaptivecapacitylabs/Resilience-Engineering-Resources
+    title: "A collection of readings, talks, and other bits regarding the field of Resilience Engineering"
+
+  - url: https://css-tricks.com/debugging-tips-tricks/
+    title: "Debugging Tips and Tricks for JavaScript"
 
   - url: https://itnext.io/4-css-tricks-ive-learnt-the-hard-way-aab1e7e8ff44
     title: "4 CSS tricks I’ve learnt the hard way"
