@@ -1,7 +1,7 @@
 ---
 time: "Aug 06, 2018"
 description: |
-  Hi all, WebAssembly is trending now. I have look into it quite a bit and also learn about virtual machine, language design a lot. Hope you like them.
+  Hi all, in last few weeks WebAssembly are all over. Many attempt to do them in Rust, in Go. I have puts few link about WA, also time to go a bit deep into virtual machine, programming language design.
 draft: false
 
 links:
@@ -16,21 +16,16 @@ links:
       A serie which We’re going to write an application that pretends to be a CPU, and executes programs we write for it. Which, of course, means we’ll have to invent a language too.
 
   - url: https://medium.com/dm03514-tech-blog/sre-debugging-simple-memory-leaks-in-go-e0a9e6d63d4d
-    title: "SRE - Debugging Simple Memory Leaks in Go"
+    title: "Debugging Simple Memory Leaks in Go"
     description: |
       I like how the author approach memory leak debugging: ask question, form a hypothesis, analyze hypothesis and repeat
       until the root cause is found. Even if you don't write Go, you will be able to extract value from it.
 
   - url: https://blog.cloudflare.com/how-we-scaled-nginx-and-saved-the-world-54-years-every-day/
-    title: "How we scaled nginx and saved the world 54 years every day"
+    title: "Scaled nginx to 10 million requests a second"
     description: |
       CloudFlare dive deep into Nginx event loops, DiskIO vs Network IO and SSD Performance and how to
       spread load between nginx worker.
-
-  - url: https://8thlight.com/blog/sam-szreter/2018/07/24/inversion-of-control-container.html
-    title: "Don't call us, we'll call you: Inversion of Control Containers"
-    description: |
-      Dependency injection is an alternative to using global instances. Injecting dependencies simply means passing instances in as parameters to the constructors of the classes that use them.
 
   - url: https://nullprogram.com/blog/2018/07/31/
     title: "Prospecting for Hash Functions"
@@ -41,6 +36,17 @@ links:
     title: "Modern SAT solvers"
     description: |
       SAT is the problem of deciding whether a formula in boolean logic is satisfiable. What makes SAT interesting is that a variant of it was the first problem to be proven NP-complete.
+
+  - url: https://medium.com/nikeengineering/hit-the-ground-running-with-distributed-tracing-core-concepts-ff5ad47c7058
+    title: "Distributed Tracing(DT) Core Concepts"
+    description: |
+      An attempt to boil down and demystify distributed tracing so its core concepts can be quickly absorbed by anybody, regardless of skill, experience, or interest level in DT.
+
+  - url: https://labs.getninjas.com.br/pain-points-of-graphql-7e83ba5ddef7
+    title: "Pain Points of GraphQL and Solutions"
+    description: |
+      Cover three main types of concerns/problems: Almost impossible to solve, Hard to solve and When not to use GraphQL. Eg:
+      Query In Indefinite Depth, Specific Response Structure, Cache at Network Level, File upload.
 
 video:
   - url: https://www.youtube.com/watch?v=lkCL9Kd4znU&index=23&list=PLdTaEgcmPg9Kl539gyIFtWL0-cqk3m7v9
@@ -53,17 +59,23 @@ video:
     title: "Building Go Applications for the Open Cloud"
 
 brief:
+  - url: https://medium.com/@robert.balicki_2494/writing-a-front-end-webassembly-framework-in-rust-lessons-learned-7cc48ed27d96
+    title: "Writing a front-end WebAssembly framework in Rust"
+
   - url: https://cloudplatform.googleblog.com/2018/08/repairing-network-hardware-at-scale-with-sre-principles.html
     title: "Repairing network hardware at scale with SRE principles"
-
-  - url: https://labs.getninjas.com.br/pain-points-of-graphql-7e83ba5ddef7
-    title: "Pain Points of GraphQL and Solutions"
 
   - url: https://github.com/GoogleCloudPlatform/tensorflow-without-a-phd
     title: "Tensorflow and deep learning without a PhD"
 
+  - url: https://towardsdatascience.com/predicting-hotel-bookings-with-user-search-parameters-8c570ab24805
+    title: "Predicting Hotel Bookings with User Search Parameters"
+
   - url: https://services.google.com/fh/files/misc/the-site-reliability-workbook-next18.pdf
     title: "The Site Reliability Workbook from Google — Freely downloadable until August 23"
+
+  - url: https://medium.freecodecamp.org/the-top-data-structures-you-should-know-for-your-next-coding-interview-36af0831f5e3
+    title: "The top data structures you should know for your next coding interview"
 
   - url: https://brandur.org/interfaces
     title: "Learning From Terminals to Design the Future of User Interfaces"
@@ -135,7 +147,8 @@ read_code:
 tool:
   - url: https://github.com/argoproj/argo
     title: "argo"
-    description: "Container-native workflows for Kubernetes"
+    description: |
+      Container-native workflows for Kubernetes
 
   - url: https://github.com/apexcharts/apexcharts.js
     title: "apexchart"
