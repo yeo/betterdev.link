@@ -41,6 +41,18 @@ a {
   background: #fff;
 }
 
+.issue-link a {
+  text-decoration: none;
+  border-bottom-width: 1px !important;
+  border-bottom-color: #ddd !important;
+  border-bottom-style: solid !important;
+}
+
+.issue-link p {
+  display: inline;
+  color: #666;
+}
+
 @media screen and (max-width: 1000px) {
   .issue-links {
     margin: 0;

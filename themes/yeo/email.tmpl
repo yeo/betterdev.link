@@ -18,6 +18,7 @@ body {
 
 a {
   color: #f36c3d;
+  text-decoration: none;
 }
 
 .section {
@@ -61,7 +62,15 @@ a {
         padding: 0.5rem 0.5rem 0.5rem 0.5rem;
       }
 
+      .issue-link a {
+        text-decoration: none;
+        border-bottom-width: 1px !important;
+        border-bottom-color: #ddd !important;
+        border-bottom-style: solid !important;
+      }
+
       .issue-link p {
+        display: inline;
         color: #333;
         font-weight: 300;
         margin: 0;
@@ -164,13 +173,13 @@ a {
                 {{ if $link.IsSponsor }}
                 <div class="issue-sponsor">
                   <a style="font-size: 1.2rem; font-weight: 400; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a> <span style="color: #f36c3d;">(SPONSOR)</span>
-                  <p class="issue-description">{{ $link.Description }}</p>
+                  <p>{{ $link.Description }}</p>
                   {{ if $link.Action }}<a class='sponsor-action' href ="{{ $link.URI }}" target='_blank'>{{ $link.Action }}</a>{{ end }}
                 </div>
                 {{ else }}
                 <div class="issue-link">
-                  <a style="font-size: 1.2rem; font-weight: 400; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
-                  {{ $link.Description }}
+                  <a style="font-size: 1.2rem; font-weight: 400;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
+                  <p>{{ $link.Description }}</p>
                 </div>
                 {{ end }}
 
@@ -182,7 +191,8 @@ a {
                 <h3 class="subtitle"><strong>Brief</strong></h3>
                 {{ range $key, $link := .Briefs }}
                 <div style="padding: 0 0 1rem 0" class="issue-link">
-                  <a class="codereads" style="font-size: 1.1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>{{ range $ci, $category := .Category }}<span class='tag'>{{ $category }}</span>{{ end }}<br>
+                  <a class="codereads" style="font-size: 1.1rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
+                  <p>{{ $link.Description }}</p>{{ range $ci, $category := .Category }}<span class='tag'>{{ $category }}</span>{{ end }}<br>
                 </div>
                 {{ end }}
               </div>
@@ -193,7 +203,8 @@ a {
                 <h3 class="subtitle"><strong>Code to read</strong></h3>
                 {{ range $key, $link := .CodeToRead }}
                 <div style="padding: 0 0 1rem 0" class="issue-link">
-                  <a class="codereads" style="font-size: 1.1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>{{ range $ci, $category := .Category }}<span class='tag'>{{ $category }}</span>{{ end }}<br>
+                  <a class="codereads" style="font-size: 1.1rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
+                  <p>{{ $link.Description }}</p>{{ range $ci, $category := .Category }}<span class='tag'>{{ $category }}</span>{{ end }}<br>
                 </div>
                 {{ end }}
               </div>
@@ -204,7 +215,8 @@ a {
                 <h3 class="subtitle"><strong>Video</strong></h3>
                 {{ range $key, $link := .Videos }}
                 <div style="padding: 0 0 1rem 0" class="issue-link">
-                  <a class="codereads" style="font-size: 1.1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>{{ range $ci, $category := .Category }}<span class='tag'>{{ $category }}</span>{{ end }}<br>
+                  <a class="codereads" style="font-size: 1.1rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
+                  <p>{{ $link.Description }}</p>{{ range $ci, $category := .Category }}<span class='tag'>{{ $category }}</span>{{ end }}<br>
                 </div>
                 {{ end }}
               </div>
@@ -216,13 +228,15 @@ a {
                 {{ range $key, $link := .Tools }}
                   {{ if $link.IsSponsor }}
                   <div class="issue-sponsor">
-                    <a style="font-size: 1.2rem; font-weight: 400; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a> <span style="color: #f36c3d;">(SPONSOR)</span>
+                    <a style="font-size: 1.2rem; font-weight: 400;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a> <span style="color: #f36c3d;">(SPONSOR)</span>
                     <p class="issue-description">{{ $link.Description }}</p>
                     {{ if $link.Action }}<a class='sponsor-action' href ="{{ $link.URI }}" target='_blank'>{{ $link.Action }}</a>{{ end }}
                   </div>
                   {{ else }}
                   <div style="padding: 0 0 1rem 0" class="issue-link">
-                    <a class="tools" style="font-size: 1.1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>{{ range $ci, $category := .Category }}<span class='tag'>{{ $category }}</span>{{ end }}<br>
+                    <a class="tools" style="font-size: 1.1rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
+                    <p>{{ $link.Description }}</p>
+                    {{ range $ci, $category := .Category }}<span class='tag'>{{ $category }}</span>{{ end }}<br>
                   </div>
                   {{ end }}
                 {{ end }}
@@ -247,6 +261,4 @@ a {
           </div>
         </div>
       </div>
-
-
     {{ end }}
