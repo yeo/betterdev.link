@@ -1,24 +1,25 @@
 ---
 time: "Aug 06, 2018"
 description: |
-  Hi all, not sure why I end up with a bunch of virtual machine and programming language design this week. They may not close
-  to what we do daily but hey, let's learn some, they are fun after all.
+  Hi all, WebAssembly is trending now. I have look into it quite a bit and also learn about virtual machine, language design a lot. Hope you like them.
 draft: false
 
 links:
   - url: https://blog.rjmetrics.com/2013/10/09/our-logo-looks-like-underpants-a-case-study-in-internationalization/
     title: "Our Logo Looks Like Underpants"
     description: |
-      This is about logo design. It's a superfun story but the moral of story is sound. Give it some laugh on monday.
+      This is about logo design. It's a superfun story and the moral of story is sound. Give it some laugh on monday.
 
   - url: https://blog.subnetzero.io/post/building-language-vm-part-00/
     title: "Build a VM step by step with Rust"
     description: |
       A serie which We’re going to write an application that pretends to be a CPU, and executes programs we write for it. Which, of course, means we’ll have to invent a language too.
 
-  - url: https://karthikkaranth.me/blog/generating-random-points-in-a-sphere/
-    title: "Generating Random Points in a Sphere"
-    description: ""
+  - url: https://medium.com/dm03514-tech-blog/sre-debugging-simple-memory-leaks-in-go-e0a9e6d63d4d
+    title: "SRE - Debugging Simple Memory Leaks in Go"
+    description: |
+      I like how the author approach memory leak debugging: ask question, form a hypothesis, analyze hypothesis and repeat
+      until the root cause is found. Even if you don't write Go, you will be able to extract value from it.
 
   - url: https://blog.cloudflare.com/how-we-scaled-nginx-and-saved-the-world-54-years-every-day/
     title: "How we scaled nginx and saved the world 54 years every day"
@@ -26,51 +27,49 @@ links:
       CloudFlare dive deep into Nginx event loops, DiskIO vs Network IO and SSD Performance and how to
       spread load between nginx worker.
 
-  - url: https://github.com/nasa-jpl/open-source-rover
-    title: "Ever want to build your own Mar rover"
+  - url: https://8thlight.com/blog/sam-szreter/2018/07/24/inversion-of-control-container.html
+    title: "Don't call us, we'll call you: Inversion of Control Containers"
     description: |
-      You can build it in less than 2,500USD. The design and every steps
-      are laid out. Project is intended to be a teaching and learning experience for those who want to get involved in mechanical engineering, software, electronics, or robotics.
-
-  - url: https://medium.com/perlin-network/life-a-secure-blazing-fast-cross-platform-webassembly-vm-in-go-ea3b31fa6e09
-    title: "Life: A secure, blazing-fast, cross-platform WebAssembly VM in Go"
+      Dependency injection is an alternative to using global instances. Injecting dependencies simply means passing instances in as parameters to the constructors of the classes that use them.
 
   - url: https://nullprogram.com/blog/2018/07/31/
     title: "Prospecting for Hash Functions"
     description: |
       I wanted to better understand how hash functions work, and the best way to learn is to do. For years I’d been treating them like magic, shoving input into it and seeing random-looking, but deterministic, output come out the other end.
 
-  - url: https://brandur.org/interfaces
-    title: "Learning From Terminals to Design the Future of User Interfaces"
-
   - url: https://codingnest.com/modern-sat-solvers-fast-neat-underused-part-1-of-n/
     title: "Modern SAT solvers"
     description: |
-      fast, neat and underused. (SAT) is the problem of deciding whether a formula in boolean logic is satisfiable. What makes SAT interesting is that a variant of it was the first problem to be proven NP-complete.
+      SAT is the problem of deciding whether a formula in boolean logic is satisfiable. What makes SAT interesting is that a variant of it was the first problem to be proven NP-complete.
 
 video:
   - url: https://www.youtube.com/watch?v=lkCL9Kd4znU&index=23&list=PLdTaEgcmPg9Kl539gyIFtWL0-cqk3m7v9
     title: "Scaling Postgres Episode 23 | UUIDs"
 
   - url: https://www.youtube.com/watch?v=wz1Sy5C039M
-    title: "my Performance Debugging with DevTools"
+    title: "Performance Debugging with DevTools"
 
   - url: https://www.youtube.com/watch?v=_2ZwhvIkgek
-    title: "Building Go Applications for the Open Cloud: run on any cloud provider"
+    title: "Building Go Applications for the Open Cloud"
 
 brief:
+  - url: https://cloudplatform.googleblog.com/2018/08/repairing-network-hardware-at-scale-with-sre-principles.html
+    title: "Repairing network hardware at scale with SRE principles"
+
+  - url: https://labs.getninjas.com.br/pain-points-of-graphql-7e83ba5ddef7
+    title: "Pain Points of GraphQL and Solutions"
+
   - url: https://github.com/GoogleCloudPlatform/tensorflow-without-a-phd
     title: "Tensorflow and deep learning without a PhD"
 
   - url: https://services.google.com/fh/files/misc/the-site-reliability-workbook-next18.pdf
-    title: |
-      The Site Reliability Workbook from Google — Freely downloadable until August 23.
+    title: "The Site Reliability Workbook from Google — Freely downloadable until August 23"
 
-  - url: https://www.pyimagesearch.com/2018/07/30/opencv-object-tracking/
-    title: "OpenCV Object Tracking"
+  - url: https://brandur.org/interfaces
+    title: "Learning From Terminals to Design the Future of User Interfaces"
 
   - url: http://bob.cs.sonoma.edu/IntroCompOrg-x64/book.html
-    title: "Introduction to Computer Organization with  x86-64 Assembly Language"
+    title: "Introduction to Computer Organization with x86-64 Assembly Language"
 
   - url: https://github.com/thedaviddias/Front-End-Performance-Checklist/blob/master/README.md
     title: "Front-End Performance Checklist"
@@ -79,9 +78,11 @@ brief:
     title: "23+ Node.js security best practices"
 
 read_code:
-  - url: https://github.com/vialer/vialer-js
-    title: "VialierJS"
-    description: "Pluggable WebRTC communication platform. Very cool I must say"
+  - url: https://github.com/acarl005/join-monster
+    title: "join-monster"
+    description: "GraphQL to SQL query execution layer for query planning and batch data fetching"
+    category:
+      - JavaScript
 
   - url: https://github.com/evincarofautumn/kitten/
     title: "kitten"
@@ -113,9 +114,9 @@ read_code:
     category:
       - Go
 
-  - url: https://github.com/jaakkopasanen/AutoEq
-    title: "autoeq"
-    description: "Automatic headphone equalization from frequency responses"
+  - url: https://github.com/kitao/pyxel
+    title: "pyxel"
+    description: "A retro game development environment in Python"
     category:
       - Python
 
@@ -132,9 +133,25 @@ read_code:
       - Crystal
 
 tool:
+  - url: https://github.com/argoproj/argo
+    title: "argo"
+    description: "Container-native workflows for Kubernetes"
+
   - url: https://github.com/apexcharts/apexcharts.js
     title: "apexchart"
     description: "JavaScript lib to build interactive charts and visualizations"
+
+  - url: https://github.com/vialer/vialer-js
+    title: "VialierJS"
+    description: "Pluggable WebRTC communication platform. Very cool I must say"
+
+  - url: https://github.com/argoproj/argo-cd
+    title: "argo-cd"
+    description: "Declarative Continuous Delivery for Kubernetes"
+
+  - url: https://github.com/klauscfhq/taskbook
+    title: "taskbook"
+    description: "📓 Tasks, boards & notes for the command-line habitat"
 
   - url: https://github.com/dtan4/terraforming
     title: "terraforming"
