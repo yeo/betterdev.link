@@ -48,6 +48,11 @@ links:
       Cover three main types of concerns/problems: Almost impossible to solve, Hard to solve and When not to use GraphQL. Eg:
       Query In Indefinite Depth, Specific Response Structure, Cache at Network Level, File upload.
 
+  - url: https://gist.github.com/EdOverflow/922549f610b258f459b219a32f92d10b
+    title: "GitHub for Bug Bounty Hunters"
+    description: |
+      Want to practice some real-life security? This gist has some interesting info about toolings and methods.
+
 video:
   - url: https://www.youtube.com/watch?v=lkCL9Kd4znU&index=23&list=PLdTaEgcmPg9Kl539gyIFtWL0-cqk3m7v9
     title: "Scaling Postgres Episode 23 | UUIDs"
@@ -59,6 +64,9 @@ video:
     title: "Building Go Applications for the Open Cloud"
 
 brief:
+  - url: https://kinbiko.com/vim/my-shiniest-vim-gems/
+    title: "Some good old vim tips"
+
   - url: https://medium.com/@robert.balicki_2494/writing-a-front-end-webassembly-framework-in-rust-lessons-learned-7cc48ed27d96
     title: "Writing a front-end WebAssembly framework in Rust"
 
