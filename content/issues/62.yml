@@ -1,0 +1,208 @@
+---
+time: "Aug 13, 2018"
+description: |
+  Hi all, This week [homebrew is hack](https://medium.com/@vesirin/how-i-gained-commit-access-to-homebrew-in-30-minutes-2ae314df03ab) because a writeable GitHub api token is stored in a public readable Jenkins. It's so important to get the basic security right, so I include quite a bit of DevOps, best practice for production, security tools in this issue.
+
+
+  And thank you for subscribing to BetterDev. If you have a moment, please share this newsletter to friends.
+draft: false
+
+links:
+  - url: https://rhinosecuritylabs.com/aws/cloudgoat-vulnerable-design-aws-environment/
+    title: "CloudGoat: The ‘Vulnerable-by-Design’ AWS Environment"
+    description: |
+      An inexpensive, simple, vulnerable-by-design AWS environment that can be deployed and shutdown at will. So that you can try
+      to attack this special environment and learn how to better secure your system.
+
+  - url: https://ayende.com/blog/184066-C/reading-the-nsas-codebase-lemongraph-review-part-i-storing-nodes
+    title: "LemonGraph review serie"
+    description: |
+      A few months ago the NSA released LemonGraph, a graph database based on LMDB. Ayende read the code in lexical order, and mostly trying to figure out where things are happening and what the code is doing. It's very interesting to see how expert explore a new codebase.
+
+  - url: https://blog.bugsnag.com/bug-day-race-condition-therac-25/
+    title: "The Worst Computer Bugs in History: Race conditions in Therac-25"
+    description: |
+      These stories are more extreme than most software bugs engineers will encounter during their careers, they are worth studying for the insights they can offer into software development and deployment.
+
+  - url: https://medium.com/@adhorn/patterns-for-resilient-architecture-part-1-d3b60cd8d2b6
+    title: "Patterns for Resilient Architecture — Part 1"
+    description: |
+      The art of managing systems at scale lies in embracing failure and being at the edge — pushing the limits of your system and software performance ‘almost’ to breaking point, yet still being able to recover.
+
+  - url: https://medium.com/@cazzer/designing-the-most-performant-row-level-security-strategy-in-postgres-a06084f31945
+    title: "Designing the most performant Row Level Security(RLS) schema in Postgres"
+    description: |
+       The main hypothesis is that we should be able to prevent access to specific rows of data based on a policy. That means our application logic only has to worry about SELECT * FROM my_table and RLS will handle the WHERE user_id = my_user_id part automagically.
+
+  - url: https://medium.com/@billbuchanan_27654/the-beginning-of-the-end-of-wpa-2-cracking-wpa-2-just-got-a-whole-lot-easier-55d7775a7a5a
+    title: "The Beginning of the End of WPA-2"
+    description: |
+      WPA-2 (802.11i) has some fundamental security problems, and these have thus led to the creation of WPA-3. A core problem is around the 4-way handshake, and here is me cracking WPA-2 by listening to the handshake with just a Raspberry PI and a $10 wi-fi transceiver
+
+  - url: https://blog.coinbase.com/how-were-scaling-our-platform-for-spikes-in-customer-demand-4a047cb3139c
+    title: "How CoinBase are scaling for spikes in customer demand"
+    description: |
+      As always, I like the article of real-world scaling. This is how CoinBase scale their infrastructure
+      by keep upgrading to new version, build better tooling to identify the bottle neck, capture and replay traffic.
+      The issue of user-device many to many relationship is interesting too.
+
+  - url: https://developers.google.com/web/updates/2018/07/page-lifecycle-api
+    title: "Page Lifecycle API"
+    description: |
+      The API, shipping in Chrome 68, provides lifecycle hooks so your pages can safely handle these browser interventions without affecting the user experience, just similar to how Android, iOS can started and stopped app anytime to reallocate resources.
+
+video:
+  - url: https://www.youtube.com/watch?v=PnnsDf3zEMw
+    title: "Top Algorithms for the Coding Interview"
+
+  - url: https://research.fb.com/the-facebook-field-guide-to-machine-learning-video-series/
+    title: "Introducing the Facebook Field Guide to Machine Learning"
+
+  - url: https://www.youtube.com/watch?v=40d26ZGfhR8
+    title: "The Robustness of Go"
+
+  - url: https://www.youtube.com/watch?v=i6ws1JpvNs0
+    title: "MongoDB and CryptoMania"
+
+brief:
+  - url: https://www.hillelwayne.com/post/divide-by-zero/
+    title: "Some reasoning about why 1/0 = 0 in Pony lang"
+
+  - url: https://engineering.upside.com/synchronizing-kubernetes-secrets-with-lastpass-584d564ba176
+    title: "Synchronizing Kubernetes Secrets with LastPass"
+    description: "No more putting secret in env file on local laptop"
+
+  - url: https://enterprisecraftsmanship.com/2016/07/21/unit-testing-anti-patterns-structural-inspection/
+    title: "Unit testing anti-patterns: Structural Inspection"
+
+  - url: https://githubengineering.com/glb-director-open-source-load-balancer/
+    title: "GLB: GitHub's open source load balancer"
+
+  - url: https://plato.stanford.edu/entries/causal-models/
+    title: "Causal Models"
+    description: mathematical models representing causal relationships within an individual system or population
+
+  - url: http://muratbuffalo.blogspot.com/2018/08/the-many-faces-of-consistency.html
+    title: "The many faces of consistency"
+    description: state consistency and operation consistency
+
+  - url: https://john-millikin.com/unix-syscalls
+    title: "UNIX Syscall overview"
+
+  - url: https://tech.target.com/2018/08/08/running-cassandra-in-kubernetes-across-1800-stores.html
+    title: "Running Cassandra in Kubernetes Across 1,800 Stores"
+
+  - url: https://www.infoq.com/articles/envoy-service-mesh-cascading-failure
+    title: "Envoy Service Mesh Case Study"
+    description: "Mitigating Cascading Failure at Lyft"
+
+  - url: https://jrsinclair.com/articles/2018/how-to-deal-with-dirty-side-effects-in-your-pure-functional-javascript/
+    title: "Deal with dirty side effects in pure functional JavaScript"
+
+  - url: https://read.acloud.guru/why-you-cant-effectively-debug-your-modern-systems-with-dashboards-57fe3ecd26bf
+    title: "You can’t debug systems with dashboards"
+
+  - url: http://blog.christianposta.com/microservices/application-safety-and-correctness-cannot-be-offloaded-to-istio-or-any-service-mesh/
+    title: "Application Safety and Correctness Cannot Be Offloaded to Service Mesh"
+
+  - url: https://llvllatrix.wordpress.com/2018/08/06/sql-nested-window-functions-and-time-series/
+    title: "SQL: Nested Window Functions and Time Series"
+
+  - url: https://blog.pythian.com/choosing-best-index-mongodb-query/
+    title: "Choosing Best Index For Your MongoDB Query"
+
+  - url: https://github.com/ankane/production_rails
+    title: "Best practices for running Rails in production"
+
+  - url: https://portswigger.net/blog/practical-web-cache-poisoning
+    title: "Practical Web Cache Poisoning"
+
+  - url: ahttps://github.com/i0natan/nodebestpractices
+    title: "Node.JS best practices list (August 2018)"
+
+  - url: https://www.netgate.com/docs/pfsense/book/
+    title: "pfsense book"
+
+read_code:
+  - url: https://github.com/niieani/bash-oo-framework
+    title: "Bash Infinity"
+    description: "modular and lightweight standard library framework for bash"
+    category:
+      - Bash
+
+  - url: https://github.com/CraneStation/cranelift
+    title: "cranelift"
+    description: translates a target-independent intermediate representation into executable machine code
+    category:
+      - Rust
+
+  - url: https://github.com/thepracticaldev/dev.to
+    title: dev.to
+    description: "open source code of dev.to platform"
+    category:
+      - Ruby
+
+  - url: https://github.com/prakhar21/100-Days-of-ML
+    title: "100 days of ML"
+    category:
+      - Machine Learning
+
+  - url: https://github.com/arachnys/cabot
+    title: "cabot"
+    description: "Self-hosted, easily-deployable monitoring and alerts service like PagerDuty"
+    category:
+      - Python
+
+
+  - url: https://github.com/anthonynsimon/bild
+    title: "bild"
+    description: "A collection of parallel image processing algorithms in pure Go"
+    category:
+      - Go
+
+  - url: https://tom.js.org/
+    title: "Tom"
+    description: "creates customers, subscriptions plans & send notifications"
+    category:
+      - JavaScript
+
+tool:
+  - url: https://github.com/theory/pgenv
+    title: "pgenv"
+    description: "manage different Postgres version"
+
+  - url: https://github.com/timescale/tsbs
+    title: "tsbs"
+    description: "Time Series Benchmark Suite"
+
+  - url: https://github.com/ncw/rclone
+    title: "rclone"
+    description: rsync for cloud storage
+
+  - url: https://github.com/magefile/mage
+    title: "mage"
+    description: a Make/rake-like build tool using Go
+
+  - url: https://github.com/runatlantis/atlantis
+    title: "atlantis"
+    description: "Terraform Automation By Pull Request"
+
+  - url: https://github.com/WorldBrain/Memex
+    title: "Memex"
+    description: "Browser Extension to full-text search your browsing history & bookmarks"
+
+  - url: https://github.com/UIUC-PPL/charmpy/blob/master/docs/index.rst
+    title: "CharmPy"
+    description: high-level parallel and distributed programming framework build on top of C/C++
+
+  - url: https://github.com/Picovoice/Porcupine
+    title: "Porcupine"
+    description: "On-device wake word detection engine powered by deep learning"
+
+  - url: https://eng.uber.com/m3/?utm_source=hacker_news&utm_medium=Social&utm_campaign=SocW
+    title: "M3: Uber’s Open Source"
+    description: "Large-scale Metrics Platform for Prometheus"
+
+  - url: https://github.com/darlinghq/darling
+    title: "darling"
+    description: "Darwin/macOS emulation layer for Linux"
