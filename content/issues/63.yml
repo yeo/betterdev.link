@@ -1,0 +1,226 @@
+---
+time: "Aug 20, 2018"
+description: |
+  And thank you for subscribing to BetterDev. If you have a moment, please share this newsletter to friends.
+draft: false
+
+links:
+  - url: https://blog.cloudflare.com/rfc-8446-aka-tls-1-3/
+    title: "A Detailed Look at RFC 8446 (a.k.a. TLS 1.3)"
+    description: |
+      The main issues that drove the design of TLS 1.3 are reducing handshake latency,
+         encrypting more of the handshake,
+         improving resiliency to cross-protocol attacks,
+         removing legacy features
+
+  - url: https://programmingisterrible.com/post/162346490883/how-do-you-cut-a-monolith-in-half
+    title: "How do you cut a monolith in half?"
+    description: |
+      We just read what big companies do and end up with a message broker.
+      This post breaks thing quite nice to explain why that might not a good idea.
+      It takes a step back, not focus on tools but on the abstraction.
+
+  - url: https://sausheong.github.io/posts/cross-platform-games-with-go/
+    title: "Create a simple cross-platform desktop game with Go"
+    description: |
+      Chang Sau Sheong wrote a game run in terminal. Then he want it to run on desktop, without
+      using Electron. Its secret sauce is a webview that show frame from a web app.
+
+  - url: https://www.altoros.com/blog/kubernetes-networking-writing-your-own-simple-cni-plug-in-with-bash/
+    title: "Kubernetes Networking: How to Write Your Own CNI Plug-in with Bash"
+    description: |
+      How pods deployed to different physical nodes can communicate directly with each other using IP addresses allocated from a single subnet? How Kubernetes services work? How load balancing is implemented? How much overhead Kubernetes overlay networking adds? This post explains them all
+
+  - url: https://nikhilm.github.io/uvbook/
+    title: "An Introduction to libuv"
+    description: |
+      This ‘book’ is a small set of tutorials about using libuv as a high performance evented I/O library which offers the same API on Windows and Unix.
+
+  - url: https://shopifyengineering.myshopify.com/blogs/engineering/e-commerce-at-scale-inside-shopifys-tech-stack
+    title: "E-Commerce at Scale: Inside Shopify's Tech Stack"
+    description: |
+      Shopify powers 600K merchants and serves 80K requests per second at peak. How they scale from a single Rails app
+      on a single MySQL/Redis to a shareded architecture. Leverage modern tools like GraphQL and how they design their CI/CD.
+
+  - url: https://medium.com/@lizrice/a-debugger-from-scratch-part-1-7f55417bc85f
+    title: "A debugger from scratch — part 1"
+    description: |
+      Have you ever wondered how debuggers work? What happens when you set a breakpoint? How does the debugger control the flow of your program, or change values in variables? Let’s find out by writing a basic debugger in Go! we’ll start by using the ptrace system call to get control of a target program.
+
+  - url: https://mathiasbynens.be/notes/prototypes
+    title: "JavaScript engine fundamentals: optimizing prototype"
+    description: |
+      This article describes some key fundamentals that are common to all JavaScript engines. Having a deeper understanding of how JavaScript engines work helps you reason about the performance characteristics of your code.
+
+  - url: http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html
+    title: "Introduction to A*"
+    description: |
+      The pathfinding algorithms from computer science textbooks work on graphs in the mathematical sense―a set of vertices with edges connecting them. A* is the most popular choice for pathfinding, despite of building on top of the heuristic, A* can guarantee a shortest path.
+
+video:
+  - url: https://www.youtube.com/watch?v=8VxIBHWfoP4
+    title: "Handling Security Objections to DevOps - AWS"
+
+  - url: https://www.youtube.com/watch?v=fnediEWRuyI&t=370s
+    title: "Functional / Microservices in Real-Time Financials"
+
+  - url: https://www.youtube.com/watch?v=95YjlIODFwg
+    title: "Document Databases, Domain Driven Design, and Microservices"
+    category:
+      - MongoDB
+
+  - url: https://www.youtube.com/watch?v=2NDr57QERYA
+    title: "Tips and Tricks for Avoiding Common Query Pitfalls"
+    category:
+      - MongoDB
+
+brief:
+  - url: https://molily.de/robust-javascript/
+    title: "Robust Client-Side JavaScript(Free book, epub available)"
+
+  - url: https://blog.zen.ly/geospatial-indexing-on-hilbert-curves-2379b929addc
+    title: "Geospatial indexing on Hilbert curves"
+
+  - url: https://blog.2ndquadrant.com/what-is-select-skip-locked-for-in-postgresql-9-5/
+    title: "Use Postgres SKIP LOCKED to build a simple, reliable and efficient work queues"
+
+  - url: https://interestingengineering.com/15-of-the-most-important-algorithms-that-helped-define-mathematics-computing-and-physics
+    title: "15 of the Most Important Algorithms That Helped Define Mathematics, Computing, and Physics"
+
+  - url: https://github.com/thisredone/rb
+    title: "9 lines of Ruby to process text in terminal"
+
+  - url: https://medium.com/@copyconstruct/health-checks-in-distributed-systems-aa8a0e8c1672
+    title: "Health Checks and Graceful Degradation in Distributed Systems"
+
+  - url: https://www.percona.com/blog/2018/08/10/tuning-autovacuum-in-postgresql-and-autovacuum-internals/
+    title: "Tuning Autovacuum in PostgreSQL and Autovacuum Internals"
+
+  - url: https://www.brianlikespostgres.com/cost-of-a-join.html
+    title: "Cost of a Join"
+
+  - url: https://hackernoon.com/ethereum-dapp-infrastructure-2b4f1e6bfa38
+    title: "DApp Infrastructure Design (Part I)"
+    description: "Reliable Ethereum Event Tracking with Kubernetes, Docker, and Parity"
+
+  - url: https://codingnest.com/modern-sat-solvers-fast-neat-and-underused-part-2-of-n/
+    title: "Modern SAT solvers: fast, neat and underused (part 2)"
+
+  - url: https://v8project.blogspot.com/2018/08/embedded-builtins.html
+    title: "V8 JavaScript Engine: reduced the median V8 heap size per website by 19%"
+
+  - url: https://blog.risingstack.com/how-to-debug-a-node-js-app-in-a-docker-container/
+    title: "How to Debug a Node.js app in a Docker Container"
+
+  - url: https://engineering.quora.com/Automated-Infrastructure-Cost-Optimization-at-Scale-with-AWS-EC2-Reserved-Instances?share=1
+    title: "Automated Infrastructure Cost Optimization at Scale with AWS EC2 Reserved Instances"
+
+read_code:
+  - url: https://github.com/benhoyt/goawk
+    title: "goawk"
+    description: "an AWK interpreter written in Go"
+    category:
+      - Go
+
+  - url: https://github.com/lipp/login-with
+    title: "login-with"
+    description: "Stateless login-with microservice for OAuth"
+    category:
+      - JavaScript
+
+  - url: https://github.com/senselogic/CIBYL
+    title: "CIBYL"
+    description: "Lightweight curly-bracket language which compiles to Ruby and Crystal"
+    category:
+      - D
+      - Ruby
+      - Crystal
+
+  - url: https://github.com/peterc/bitarray
+    title: "bitarray"
+    description: "A simple bit-array/bitfield library in pure Ruby"
+    category:
+      - Ruby
+
+  - url: https://github.com/ashutosh1206/Crypton
+    title: "crypton"
+    description: "an educational library to learn and practice Offensive and Defensive Cryptography"
+    category:
+      - Python
+
+  - url: https://github.com/gkbrk/python-jvm-interpreter
+    title: "python-jvm-interpreter"
+    description: "Java Virtual Machine implementation in Python"
+    category:
+      - Python
+
+  - url: https://github.com/gitpitch/gitpitch
+    title: "gitpitch"
+    description: "The Markdown Presentation Service For Everyone on GitHub, GitLab, Bitbucket, GitBucket, Gitea, and Gogs"
+    category:
+      - Java
+
+  - url: https://github.com/mawww/kakoune
+    title: "kakoune"
+    description: "experiment for a better code editor"
+    category:
+      - C++
+
+  - url: https://github.com/dgurkaynak/Penc
+    title: "Penc"
+    description: "Trackpad-oriented window manager for macOS"
+    category:
+      - Swift
+
+tool:
+  - url: https://github.com/DataDog/kafka-kit
+    title: "kafka-kit"
+    description: "Kafka data mapping and recovery tools"
+
+  - url: https://github.com/kahing/goofys
+    title: "goofys"
+    description: "high-performance, POSIX-ish Amazon S3 file system"
+
+  - url: https://github.com/adrai/flowchart.js
+    title: "flowchart.js"
+    description: "Draws simple SVG flow chart diagrams from textual representation of the diagram"
+
+  - url: https://github.com/aykevl/tinygo
+    title: "tinygo"
+    description: "Go compiler for small devices, based on LLVM"
+
+  - url: https://github.com/m13253/dns-over-https
+    title: "dns-over-https"
+    description: "High performance DNS over HTTPS client & server"
+
+  - url: https://github.com/aquasecurity/kube-hunter
+    title: "kube-hunter"
+    description: "Kubernetes penetration testing"
+
+  - url: https://github.com/hasura/graphqurl
+    title: "graphqurl"
+    description: "a curl like CLI for GraphQL"
+
+  - url: https://github.com/calebmadrigal/trackerjacker
+    title: "trackerjacker"
+    description: "Like nmap for mapping wifi networks you're not connected to, plus device tracking"
+
+  - url: https://github.com/Jeffail/benthos
+    title: "benthos"
+    description: "A dull, resilient and quick to deploy stream processor"
+
+  - url: https://github.com/joshuaclayton/unused
+    title: "unsed"
+    description: "command line tool to identify unused code"
+
+  - url: https://github.com/jingweno/ccat
+    title: "ccat"
+    description: "Colorizing cat"
+
+  - url: https://github.com/oakmound/oak
+    title: "oak"
+    description: "a pure Go game engine"
+
+  - url: https://github.com/araddon/qlbridge
+    title: "qlbridge"
+    description: "Hackable SQL execution engine for embedded use as a library for SQL-Like functionality"
