@@ -173,6 +173,10 @@ read_code:
       - Swift
 
 tool:
+  - url: https://github.com/eno-lang/enorb/
+    title: "eno-lang"
+    description: "A modern plaintext data format alternative to yaml, toml..."
+
   - url: https://github.com/DataDog/kafka-kit
     title: "kafka-kit"
     description: "Kafka data mapping and recovery tools"
