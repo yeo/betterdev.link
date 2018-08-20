@@ -1,7 +1,8 @@
 ---
 time: "Aug 20, 2018"
 description: |
-  Thank you for subscribing to BetterDev. If you have a moment, please share this newsletter to friends.
+  Hi all, we're really pack this week. Somehow I found lot of cool things and so exiciting
+  to share with you all. And Thank you for subscribing to BetterDev. If you have a moment, please share this newsletter to friends.
 draft: false
 
 links:
@@ -16,15 +17,15 @@ links:
   - url: https://programmingisterrible.com/post/162346490883/how-do-you-cut-a-monolith-in-half
     title: "How do you cut a monolith in half?"
     description: |
-      We just read what big companies do and end up with a message broker.
-      This post breaks thing quite nice to explain why that might not a good idea.
-      It takes a step back, not focus on tools but on the abstraction.
+      This post breaks thing quite nice to explain why a message broker might not a good idea.
+      It takes a step back, not focus on tools but on the abstraction. When
+      you are there, make sure to check (https://hackernoon.com/why-microservices-fail-6cdc006f9540)[Why Microservices Fail)
+      too.
 
-  - url: https://sausheong.github.io/posts/cross-platform-games-with-go/
-    title: "Create a simple cross-platform desktop game with Go"
+  - url: https://medium.com/netflix-techblog/netflix-cloud-security-detecting-credential-compromise-in-aws-9493d6fd373a
+    title: "Netflix Cloud Security: Detecting Credential Compromise in AWS"
     description: |
-      Chang Sau Sheong wrote a game run in terminal. Then he want it to run on desktop, without
-      using Electron. Its secret sauce is a webview that show frame from a web app.
+      Netflix Security Tools and Operations team want to share a new methodology for detecting temporary security credential use outside of your AWS environment. zero to full coverage in six hours or less, can be applied in real time.
 
   - url: https://www.altoros.com/blog/kubernetes-networking-writing-your-own-simple-cni-plug-in-with-bash/
     title: "Kubernetes Networking: How to Write Your Own CNI Plug-in with Bash"
@@ -47,17 +48,19 @@ links:
     description: |
       Have you ever wondered how debuggers work? What happens when you set a breakpoint? How does the debugger control the flow of your program, or change values in variables? Let’s find out by writing a basic debugger in Go! we’ll start by using the ptrace system call to get control of a target program.
 
-  - url: https://mathiasbynens.be/notes/prototypes
-    title: "JavaScript engine fundamentals: optimizing prototype"
-    description: |
-      This article describes some key fundamentals that are common to all JavaScript engines. Having a deeper understanding of how JavaScript engines work helps you reason about the performance characteristics of your code.
-
   - url: http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html
     title: "Introduction to A*"
     description: |
       The pathfinding algorithms from computer science textbooks work on graphs in the mathematical sense―a set of vertices with edges connecting them. A* is the most popular choice for pathfinding, despite of building on top of the heuristic, A* can guarantee a shortest path.
 
+  - url: https://blog.logrocket.com/designing-as-a-developer-in-2018-eca1ab5bff2
+    title: "Designing as a developer in 2018"
+    description: "You don’t need an art degree to make your website beautiful"
+
 video:
+  - url: https://www.youtube.com/watch?v=4KVOuQDIfmw
+    title: "MicroService websites: micro frontend"
+
   - url: https://www.youtube.com/watch?v=8VxIBHWfoP4
     title: "Handling Security Objections to DevOps - AWS"
 
@@ -75,26 +78,38 @@ video:
       - MongoDB
 
 brief:
+  - url: https://hackernoon.com/tcp-three-way-handshake-4161eb8aba32
+    title: "TCP Three-Way Handshake"
+
+  - url: https://sausheong.github.io/posts/cross-platform-games-with-go/
+    title: "Create a simple cross-platform desktop game with Go"
+
   - url: https://molily.de/robust-javascript/
     title: "Robust Client-Side JavaScript(Free book, epub available)"
+
+  - url: https://codingnest.com/modern-sat-solvers-fast-neat-and-underused-part-2-of-n/
+    title: "Modern SAT solvers: fast, neat and underused (part 2)"
 
   - url: https://blog.zen.ly/geospatial-indexing-on-hilbert-curves-2379b929addc
     title: "Geospatial indexing on Hilbert curves"
 
+  - url: https://engineering.quora.com/Automated-Infrastructure-Cost-Optimization-at-Scale-with-AWS-EC2-Reserved-Instances?share=1
+    title: "Automated Infrastructure Cost Optimization at Scale with AWS EC2 Reserved Instances"
+
   - url: https://blog.2ndquadrant.com/what-is-select-skip-locked-for-in-postgresql-9-5/
     title: "Use Postgres SKIP LOCKED to build a simple, reliable and efficient work queues"
-
-  - url: https://interestingengineering.com/15-of-the-most-important-algorithms-that-helped-define-mathematics-computing-and-physics
-    title: "15 of the Most Important Algorithms That Helped Define Mathematics, Computing, and Physics"
-
-  - url: https://github.com/thisredone/rb
-    title: "9 lines of Ruby to process text in terminal"
 
   - url: https://medium.com/@copyconstruct/health-checks-in-distributed-systems-aa8a0e8c1672
     title: "Health Checks and Graceful Degradation in Distributed Systems"
 
   - url: https://www.percona.com/blog/2018/08/10/tuning-autovacuum-in-postgresql-and-autovacuum-internals/
     title: "Tuning Autovacuum in PostgreSQL and Autovacuum Internals"
+
+  - url: https://medium.com/@dan_manges/the-modular-monolith-rails-architecture-fb1023826fc4
+    title: "The Modular Monolith: Rails Architecture"
+
+  - url: https://medium.freecodecamp.org/8-observations-on-test-driven-development-a9b5144f868
+    title: "Observations on the testing culture of Test Driven Development"
 
   - url: https://www.brianlikespostgres.com/cost-of-a-join.html
     title: "Cost of a Join"
@@ -103,17 +118,11 @@ brief:
     title: "DApp Infrastructure Design (Part I)"
     description: "Reliable Ethereum Event Tracking with Kubernetes, Docker, and Parity"
 
-  - url: https://codingnest.com/modern-sat-solvers-fast-neat-and-underused-part-2-of-n/
-    title: "Modern SAT solvers: fast, neat and underused (part 2)"
+  - url: https://mathiasbynens.be/notes/prototypes
+    title: "JavaScript engine fundamentals: optimizing prototype"
 
   - url: https://v8project.blogspot.com/2018/08/embedded-builtins.html
     title: "V8 JavaScript Engine: reduced the median V8 heap size per website by 19%"
-
-  - url: https://blog.risingstack.com/how-to-debug-a-node-js-app-in-a-docker-container/
-    title: "How to Debug a Node.js app in a Docker Container"
-
-  - url: https://engineering.quora.com/Automated-Infrastructure-Cost-Optimization-at-Scale-with-AWS-EC2-Reserved-Instances?share=1
-    title: "Automated Infrastructure Cost Optimization at Scale with AWS EC2 Reserved Instances"
 
 read_code:
   - url: https://github.com/benhoyt/goawk
