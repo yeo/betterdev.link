@@ -128,6 +128,13 @@ read_code:
     category:
       - Elixir
 
+  - url: https://github.com/Sketch-sh/sketch-sh
+    title: "sketch.sh"
+    description: "Interactive ReasonML sketchbook"
+    category:
+      - ReasonML
+      - Ocaml
+
   - url: https://github.com/hasura/graphqurl
     title: "graphqurl"
     description: "curl for GraphQL with autocomplete, subscriptions and GraphiQ"
@@ -137,7 +144,6 @@ read_code:
 tool:
   - url: https://github.com/buzzfeed/sso
     title: "S.S. Octopus single-sign-on authentication proxy by BuzzFeed"
-    description: "also check the [companion article](https://tech.buzzfeed.com/unleashing-the-a6a1a5da39d6)"
 
   - url: https://github.com/koalaman/shellcheck
     title: "shellcheck"
