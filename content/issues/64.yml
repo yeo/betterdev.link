@@ -1,0 +1,161 @@
+---
+time: "Aug 28, 2018"
+description: ""
+
+links:
+  - url: https://medium.com/@harwoeck/password-and-credential-management-in-2018-56f43669d588
+    title: "Password and Credential Management in 2018 🔒"
+    description: |
+      State of the art security for the most valuable secrets. We will cover the “perfect” way to handle password credentials from the moment a user types them into a form on the client-side, till the moment they are stored in the database. Furthermore, we will look into common errors, that happen when developers store other credentials like Tokens/Secrets/etc.
+
+  - url: https://docs.microsoft.com/en-us/azure/architecture/patterns/#catalog-of-patterns
+    title: "Cloud Design Patterns"
+    description: |
+      Each pattern describes the problem that the pattern addresses, considerations for applying the pattern, and an example based on Microsoft Azure. However, most of the patterns are relevant to any distributed system, whether hosted on Azure or on other cloud platforms.
+
+  - url: https://medium.com/coryodaniel/from-erverless-to-elixir-48752db4d7bc
+    title: "From $erverless to Elixir"
+    description: |
+      Using ServerLess in AWS you have to pay for the API Gateway. The gateway alon at high request
+      rate cost $12k/month. Rewritten in Elixir and it’s free since they are running on leftover compute
+      of Kubernetes.
+
+  - url: https://medium.freecodecamp.org/simple-chess-ai-step-by-step-1d55a9266977
+    title: "A step-by-step guide to building a simple chess AI"
+    description: |
+      Want some fun? Let's implement a chess engine :). The author claims he has trouble beating it
+
+  - url: https://blog.sessionstack.com/how-javascript-works-under-the-hood-of-custom-elements-best-practices-on-building-reusable-e118e888de0c
+    title: "How JavaScript works: Under the hood of custom elements"
+    description: |
+      Another post in this serie from SessionStack. In this we forcus on best practices for building reusable components.
+video:
+  - url: https://www.youtube.com/watch?v=jl1tGiUiTtI
+    title: "Evan Czaplicki - Convergent Evolution"
+
+  - url: https://www.youtube.com/watch?v=lzEweA7RPi0
+    title: "Reasonml is Serious Business"
+
+  - url: https://elixircasts.io/
+    title: "Elixir and Phoenix Screencasts"
+
+  - url: https://developers.google.com/web/updates/2018/08/chrome-ux-report-dashboard
+    title: "Web Performance Made Easy: Google I/O 2018 edition"
+
+  - url: https://www.infoq.com/presentations/neflix-push-messaging-scale
+    title: "Scaling Push Messaging for Millions of Devices"
+
+  - url: https://www.smoothterminal.com/authors/10
+    title: "A free ReasonML video series from SmoothTerminal"
+
+brief:
+  - url: https://bbs-software.com/blog/2018/08/04/using-lambdas-to-simplify-varying-behaviors-in-your-code.html
+    title: "Using Lambdas to Simplify Varying Behaviors in Your Code"
+
+  - url: https://tech.instacart.com/scaling-at-instacart-distributing-data-across-multiple-postgres-databases-with-rails-13b1e4eba202
+    title: "Scaling at Instacart: Distributing Data Across Multiple Postgres Databases with Rails"
+
+  - url: https://auth0.com/blog/auth0-architecture-running-in-multiple-cloud-providers-and-regions/
+    title: "Auth0 Architecture: Running In Multiple Cloud Providers And Region"
+
+  - url: https://medium.com/@PaulDJohnston/serverless-best-practices-b3c97d551535
+    title: "Serverless Best Practices"
+
+  - url: https://www.cybertec-postgresql.com/en/3-ways-to-detect-slow-queries-in-postgresql/
+    title: "3 ways to detect slow queries in postgresql"
+
+  - url: https://www.robinwieruch.de/graphql-apollo-server-tutorial/
+    title: "GraphQL Server Tutorial with Apollo Server and Express"
+
+  - url: https://karolgalanciak.com/blog/2018/08/19/indexes-on-rails-how-to-make-the-most-of-your-postgres-database/
+    title: "Understand different type of Postgres index to optimize your data query"
+
+  - url: https://rob.conery.io/2018/08/13/transactional-data-operations-in-postgresql-using-common-table-expressions/
+    title: "Transactional data operations in postgresql using common table expressions"
+
+  - url: https://honest.engineering/posts/why-use-graphql-good-and-bad-reasons
+    title: "Why use GraphQL, good and bad reasons by Honest Engineering"
+
+  - url: https://haughtcodeworks.com/blog/software-development/recursive-sql-queries-using-ctes/
+    title: "Simplifying Recursive SQL Queries"
+
+read_code:
+  - url: https://github.com/messeb/ios-project-env-setup
+    title: "ios-project-env-setup"
+    description: "Setup an iOS project environment"
+    category:
+      - Swift
+
+  - url: https://github.com/songgao/water
+    title: water
+    description: "A simple TUN/TAP library written in native Go"
+    category:
+      - Go
+
+  - url: https://github.com/alexreisner/geocoder
+    title: "Complete Ruby geocoding solution"
+    category:
+      - Ruby
+
+  - url: https://github.com/trailofbits/algo
+    title: "algo"
+    description: "Set up a personal IPSEC VPN in the cloud"
+    category:
+      - Ansible
+      - DevOps
+
+  - url: https://github.com/whitfin/s3-meta
+    title: s3-meta
+    description: "Gather metadata about your S3 buckets"
+    category:
+      - Rust
+
+  - url: https://github.com/felixhao28/JSCPP
+    title: JSCPP
+    description: A simple C++ interpreter written in JavaScript
+    category:
+      - C++
+
+  - url: https://github.com/vmxdev/tkvdb
+    title: tkvdb
+    description: embedded trie key-value database
+    category:
+      - C
+
+  - url: https://github.com/danschultzer/pow
+    title: pow
+    description: "Robust, modular, and extendable user authentication system"
+    category:
+      - Elixir
+
+tool:
+  - url: https://github.com/buzzfeed/sso
+    title: "S.S. Octopus single-sign-on authentication proxy by BuzzFeed"
+    description: "also check the [companion article](https://tech.buzzfeed.com/unleashing-the-a6a1a5da39d6)"
+
+  - url: https://github.com/koalaman/shellcheck
+    title: "shellcheck"
+    description: "a static analysis tool for shell scripts"
+
+  - url: https://github.com/agens-no/swiff
+    title: "swiff"
+    description: "Human readable time diffs on lines of output when running"
+
+  - url: https://github.com/jolie/jolie
+    title: "jolie"
+    description: "The first language for Microservices"
+
+  - url: https://developers.google.com/web/updates/2018/08/chrome-ux-report-dashboard
+    title: "https://developers.google.com/web/updates/2018/08/chrome-ux-report-dashboard"
+
+  - url: https://github.com/sinclairtarget/um
+    title: um
+    description: "command-line utility for creating and maintaining your own set of man-like help pages"
+
+  - url: https://blog.manifold.co/introducing-heighliner-1fb233c577ad
+    title: "Heighliner"
+    description: "GitHub Flow for Kubernetes"
+
+  - url: https://github.com/rwaldron/johnny-five
+    title: "johnny-five"
+    description: JavaScript Robotics and IoT programming framework
