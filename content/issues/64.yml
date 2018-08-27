@@ -158,7 +158,7 @@ tool:
     description: "The first language for Microservices"
 
   - url: https://developers.google.com/web/updates/2018/08/chrome-ux-report-dashboard
-    title: "https://developers.google.com/web/updates/2018/08/chrome-ux-report-dashboard"
+    title: "Custom site performance reports with the CrUX Dashboard"
 
   - url: https://github.com/sinclairtarget/um
     title: um
