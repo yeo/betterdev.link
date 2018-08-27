@@ -128,6 +128,12 @@ read_code:
     category:
       - Elixir
 
+  - url: https://github.com/hasura/graphqurl
+    title: "graphqurl"
+    description: "curl for GraphQL with autocomplete, subscriptions and GraphiQ"
+    category:
+      - JavaScript
+
 tool:
   - url: https://github.com/buzzfeed/sso
     title: "S.S. Octopus single-sign-on authentication proxy by BuzzFeed"
