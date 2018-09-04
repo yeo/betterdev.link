@@ -1,0 +1,213 @@
+---
+time: "Sep 04, 2018"
+description: ""
+
+links:
+  - url: http://duriansoftware.com/joe/Optimizing-is-multiple-checks-with-modular-arithmetic.html
+    title: "Optimizing is-multiple checks with modular arithmetic"
+    description: |
+      Integer division and remainder are among the slowest fundamental arithmetic operations CPUs support, so compilers have a lot of incentive to turn them into cheaper operations.
+
+  - url: https://www.redblobgames.com/pathfinding/a-star/introduction.html
+    title: "Introduction to A*"
+    description: |
+      In games we often want to find shortest paths from one location to another.
+      Breadth First Search is the simplest of the graph search algorithms, so let’s start there, and we’ll work our way up to A*.
+
+  - url: https://bill.herrin.us/network/anycasttcp.html
+    title: "Anycast TCP"
+    description: |
+      Multiple computers around the world are configured with the same IP address.
+      I send a packet to that IP address. The closest of the configured computers in the network (and only that one computer) receives my packet.
+
+  - url: https://www.intensecrypto.org/public/
+    title: "An Intensive Introduction to Cryptography"
+    description: |
+      Some other interesting links in crypto space. [mangacrypto](https://nostarch.com/mangacrypto) and
+      [coursera one](https://www.coursera.org/learn/crypto)
+
+  - url: http://notes.eatonphil.com/compiling-dynamic-programming-languages.html
+    title: "Compiling dynamic programming languages"
+    description: |
+      It can be difficult to disassociate the idea that dynamically typed programming languages are tied to byte-code interpreters.
+      In this post I will briefly describe how I built a compiler for my Scheme implementation using artifacts from the interpreter
+
+brief:
+
+  - url: https://www.infoq.com/articles/dynamo-riak-random-slicing?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+    title: "A Critique of Resizable Hash Tables: Riak Core & Random Slicing"
+
+  - url: https://crate.io/a/lab-notes-how-we-made-joins-23-thousand-times-faster-part-three/
+    title: "How Create Made Joins 23 Thousand Times Faster"
+
+  - url: https://beej.us/guide/bggdb/
+    title: "Beej's Quick Guide to GDB"
+
+  - url: https://medium.com/@hugo.oliveira.rocha/what-they-dont-tell-you-about-event-sourcing-6afc23c69e9a
+    title: "What they don’t tell you about event sourcing"
+
+  - url: https://dev.to/isaacandsuch/this-is-how-https-works-223d
+    title: "How HTTPS works with JavaScript demo code"
+
+  - url: https://medium.com/callr-techblog/rate-limiting-for-distributed-systems-with-redis-and-lua-eeea745cb260
+    title: "Rate limiting for distributed systems with Redis and Lua"
+
+  - url: https://www.level-up.one/kubernetes-networking-pods-levelup/
+    title: "How Does The Kubernetes Networking Work"
+
+  - url: https://www.cs.purdue.edu/homes/rompf/papers/tahboub-sigmod18.pdf
+    title: "How to Architect a Query Compiler [pdf]"
+
+  - url: https://sysdig.com/blog/kubernetes-monitoring-prometheus/
+    title: "Kubernetes Monitoring with Prometheus, the ultimate guide"
+
+  - url: http://gameprogrammingpatterns.com/double-buffer.html
+    title: "Double Buffe: Cause a series of sequential operations to appear instantaneous or simultaneous"
+
+  - url: https://medium.com/@ankur_anand/the-terrible-performance-cost-of-cors-api-on-the-single-page-application-spa-6fcf71e50147
+    title: "The Terrible Performance Cost Of CORS Request, on the single-page application"
+
+  - url: https://remysharp.com/2018/08/23/cli-improved
+    title: "CLI Improved: smarter tools for the jobs I commonly do"
+
+  - url: https://medium.freecodecamp.org/time-saving-css-techniques-to-create-responsive-images-ebb1e84f90d5
+    title: "Time-saving CSS techniques to create responsive images"
+
+  - url: http://www.flypig.co.uk/?page=list&list_id=616&list=blog
+    title: "Sending emails from AWS Lambda inside a VPC without NAT"
+
+video:
+  - url: https://a16z.com/2018/09/02/sales-startups-technical-founders/
+    title: "All Things Sales! 16 Mini-Lessons for Startup Founder"
+
+  - url: https://www.youtube.com/watch?v=P9csgxBgaZ8
+    title: "Node's Event Loop From the Inside Out"
+
+  - url: https://www.youtube.com/watch?v=bMOh0p3fj1s
+    title: "GOTO 2018: Serverless Tales from the Trenches"
+
+  - url: https://jenkins.io/blog/2018/08/31/shifting-gears/
+    title: "Jenkins: Shifting Gears"
+
+  - url: https://www.youtube.com/watch?v=WV2Ed1QTst8
+    title: "Software Design Patterns and Principles"
+
+  - url: https://www.youtube.com/watch?v=2TWqi7dLSro
+    title: "Version-Controlled Infrastructure with GitHub & Terraform"
+
+  - url: https://www.youtube.com/watch?v=Pw07cctq-fk
+    title: "Building Chat Bots to Triage, Monitor and Manage"
+
+  - url: https://www.youtube.com/watch?v=-c0blZ6AmQE
+    title: "FiveThings About CSS"
+
+read_code:
+  - url: https://github.com/gitcoinco/codefund
+    title: "codefund.io codebase"
+    description: "realworld application that is deployed in production now"
+    category:
+      - Elixir
+
+  - url: https://github.com/eapache/go-resiliency
+    title: "go-resiliency"
+    description: Resiliency patterns for golang
+    category:
+      - Go
+
+  - url: https://github.com/peterkeen/diycdn
+    title: diycdn
+    description: Rails app that power a tiny DIY content distribution network
+    category:
+      - Ruby
+
+  - url: https://github.com/plibither8/2048.cpp
+    title: 2048.cpp
+    description: "🎮 Terminal version of the game 2048"
+    category:
+      - C++
+
+  - url: https://github.com/maestron/botnets
+    title: botnets
+    description: "a collection of #botnet source codes, unorganized. For EDUCATIONAL PURPOSES ONLY"
+    category:
+      - C
+      - C++
+
+  - url: https://github.com/hiproxy/hiproxy
+    title: "hiproxy"
+    description:  lightweight proxy tool that support Nginx config
+    category:
+      - JavaScript
+
+  - url: https://github.com/intoli/exodus
+    title: "exodus"
+    description: "relocate Linux ELF binaries and all of their dependencies–without containers"
+    category:
+      - Python
+      - C
+
+  - url: https://github.com/mmstick/parallel
+    title: parallel
+    description: a command-line CPU load balancer written in Rust
+    category:
+      - Rust
+
+  - url: https://github.com/copy/v86
+    title: v86
+    description: "x86 virtualization in JavaScript, running in your browser and NodeJS"
+    category:
+      - JavaScript
+      - C
+      - Assembly
+
+tool:
+  - url: https://github.com/serverless/event-gateway
+    title: "event-gateway"
+    description: "React to any event with serverless functions across clouds"
+
+  - url: https://tcpdump101.com/
+    title: "tcpdump101"
+    description: "Build packet capture syntax online"
+
+  - url: https://techbeacon.com/10-top-open-source-tools-docker-security
+    title: "10+ top open-source tools for Docker security"
+
+  - url: https://github.com/Xe/olin
+    title: olin
+    description: "run and operate functions as a service projects using event sourcing and webassembly under the hood"
+
+  - url: https://github.com/trimstray/sandmap
+    title: "sandmap"
+    description: "network and system reconnaissance using the massive Nmap engine"
+
+  - url: https://github.com/tsenart/vegeta
+    title: "vegeta"
+    description: "versatile HTTP load testing tool"
+
+  - url: https://github.com/Netflix-Skunkworks/diffy
+    title: "diffy: digital forensics and incident response"
+    description: "quickly identify suspicious hosts"
+
+  - url: https://github.com/gomods/athens
+    title: athens
+    description: "Go module datastore and proxy"
+
+  - url: https://github.com/dave/wasmgo
+    title: "wasmgo"
+    description: "Compiles Go to WASM and deploys to the jsgo.io CDN"
+
+  - url: https://github.com/eapache/starscope
+    title: starscope
+    description: "Smart code search for Ruby, Go, and JavaScript"
+
+  - url: https://github.com/nodemailer/wildduck
+    title: "wildduck"
+    description: a scalable no-SPOF IMAP/POP3 mail server
+
+  - url: https://github.com/ericfreese/rat
+    title: rat
+    description: "Compose shell commands to build interactive terminal applications"
+
+  - url: https://storybook.js.org/
+    title: "storybook"
+    description: The Interactive UI Development Environment
