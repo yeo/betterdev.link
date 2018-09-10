@@ -1,0 +1,231 @@
+---
+time: "Sep 10, 2018"
+description: |
+  This issue may a bit Go heavy because the GopherConf just finished. I have pick some of topics
+  that I think will boost your knowledge regardless you are writing Go or not.
+
+links:
+  - url: https://selectstarsql.com/
+    title: "Select Star SQL"
+    description: |
+      This is an interactive book which aims to be the best place on the internet for learning SQL. It is free of charge, free of ads and doesn't require registration or downloads. It helps you learn by running queries against a real-world dataset to complete projects of consequence. It is not a mere reference page — it conveys a mental model for writing SQL.
+
+  - url: https://programmingisterrible.com/post/176657481103/repeat-yourself-do-more-than-one-thing-and
+    title: "Repeat yourself, do more than one thing, and rewrite everything"
+    description: |
+      Following “Don’t Repeat Yourself” might lead you to a function with four boolean flags, and a matrix of behaviours to carefully navigate when changing the code. Splitting things up into simple units can lead to awkward composition and struggling to coordinate cross cutting changes. Avoiding rewrites means they’re often left so late that they have no chance of succeeding.
+
+  - url: https://medium.com/zendesk-engineering/the-history-of-infrastructure-at-zendesk-constant-tradeoffs-bdfa916ff4c3
+    title: "The history of infrastructure at Zendesk — constant tradeoffs"
+    description: |
+      I'm a big fan of big company sharing their infrastructure design. This is kind of a retrospective among Zendesk's VP
+      of engineering, CTO and their co-founder and why they settle on Rails at the beginning.
+
+  - url: https://blog.heroku.com/applying-seccomp-filters-on-go-binaries
+    title: "Applying Seccomp Filters at Runtime for Go Binaries"
+    description: |
+      Seccomp is a feature provided by the Linux kernel and is used to control the syscalls made by a process. Seccomp has been implemented by numerous projects such as Docker, Android, OpenSSH and Firefox. In this blog post, I am going to show you how you can implement your own seccomp filters, at runtime, for a Go binary on your Dyno.
+
+  - url: https://about.sourcegraph.com/go/gophercon-2018-implementing-a-network-protocol-in-go/
+    title: "Implementing a Network Protocol in Go"
+    description: "You will learn a lot about network as well"
+
+  - url: https://ximera.osu.edu/mooculus
+    title: "Interactive Calculus via LaTeX"
+    description: |
+      This is a very cool project. They use this [Tool](https://github.com/ximeraproject) to build interactive
+      math course from latex. This paritcular course use this [Source](https://github.com/mooculus).
+      You can also checkout other [Linear algebra](https://ximera.osu.edu/laode/linearAlgebra). Time to dust off
+      some math.
+
+  - url: https://blog.acolyer.org/2018/09/05/who-left-open-the-cookie-jar-a-comprehensive-evaluation-of-third-party-cookie-policies/
+    title: "Who left open the cookie jar?"
+    description: |
+      A comprehensive evaluation of third-party cookie policies. Testing across 7 browsers and 46 browser extensions, the authors find that for virtually every browser and extension combination there is a way to bypass the defense mechanisms built into browsers that seek to protect against user tracking and cross-site attacks.
+
+  - url: https://www.percona.com/blog/2018/08/31/tuning-postgresql-database-parameters-to-optimize-performance/
+    title: "Tuning PostgreSQL Database Parameters to Optimize Performance"
+    description: |
+      Percona has been focus on MySQL before but started to contribute lots of PostgreSQL knowledge.
+      Checkout [Tune Linux Kernel Parameters](https://www.percona.com/blog/2018/08/29/tune-linux-kernel-parameters-for-postgresql-optimization/) too.
+
+brief:
+  - url: https://medium.com/littlstar/cryptography-101-how-a-symmetric-key-exchange-works-basically-8d17f2921841
+    title: "Cryptography 101: How a Symmetric Key Exchange Works (Basically)"
+
+  - url: https://blyx.com/2018/07/18/my-arsenal-of-aws-security-tools
+    title: "My arsenal of AWS security tools"
+
+  - url: https://rob.conery.io/2018/08/21/mod-and-remainder-are-not-the-same/
+    title: "Mod and Remainder are not the same"
+
+  - url: http://archagon.net/blog/2018/09/03/good-spirits-persisting-data-statelessly/
+    title: "Syncing Data Statelessly"
+
+  - url: https://sysdig.com/blog/kubernetes-monitoring-with-prometheus-alertmanager-grafana-pushgateway-part-2/
+    title: "Kubernetes Monitoring with Prometheus: AlertManager, Grafana, PushGateway"
+
+  - url: https://graphics.stanford.edu/~seander/bithacks.html
+    title: "Bit Twiddling Hacks"
+
+  - url: https://blog.okmeter.io/postgresql-why-and-how-wal-bloats-2252578985c7
+    title: "PostgreSQL: why and how WAL bloats"
+
+  - url: https://githubengineering.com/removing-jquery-from-github-frontend/
+    title: "Removing jQuery from GitHub.com frontend"
+
+  - url: https://medium.com/idealo-tech-blog/how-to-visually-spot-and-analyze-slow-mongodb-operations-d91ac819e0de
+    title: "Visually spot and analyze slow MongoDB operations"
+
+  - url: https://cliutils.gitlab.io/modern-cmake/
+    title: "An Introduction to Modern CMake"
+
+  - url: https://people.eecs.berkeley.edu/~rcs/research/interactive_latency.html
+    title: "Latency Numbers Every Programmer Should Know"
+
+  - url: https://sagi.io/2018/09/dns-over-tls---thoughts-and-implementation/index.html
+    title: "DNS over TLS - Thoughts and Implementation"
+
+  - url: https://banzaicloud.com/blog/k8s-taints-tolerations-affinities/
+    title: "Taints and tolerations, pod and node affinities demystified in K8S"
+
+  - url: https://blog.jooq.org/2018/09/03/find-the-next-non-null-row-in-a-series-with-sql/
+    title: "Find the Next Non-NULL Row in a Series With SQL"
+
+  - url: https://www.adamtornhill.com/articles/lispweb.htm
+    title: "Lisp for the web"
+
+  - url: https://github.com/eliotsykes/rails-security-checklist
+    title: "Rails Security Checklist"
+
+video:
+  - url: https://www.youtube.com/watch?v=z07HTSzzp3o
+    title: "Pv4, CIDR, and VPC Subnets Made Simple!(24 mins)"
+    description: "Super useful if you don't know what does /29 mean"
+
+  - url: https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g
+    title: "LeetCode Coding Interview Questions made easy!"
+
+  - url: https://www.youtube.com/watch?v=PH-2FfFD2PU
+    title: "Kubernetes in 5 mins"
+
+  - url: https://www.youtube.com/watch?v=wGz_cbtCiEA
+    title: "Building Small Containers (9 mins)"
+
+  - url: https://www.youtube.com/watch?v=bL7DNGhQ5js
+    title: "Simple is Beautiful Building an SLA Monitoring Tool at PagerDuty"
+
+  - url: https://www.youtube.com/watch?v=X0tjziAQfNQ&t=78s
+    title: "10 Tips for failing badly at Microservices(44 mins)"
+
+  - url: https://www.youtube.com/watch?v=QuHD9Q75VOE&index=3&t=0s&list=PLqj39LCvnOWaxI87jVkxSdtjG8tlhl7U6
+    title: "UX Design Practices for Real Time Apps(39 mins)"
+
+  - url: https://www.youtube.com/watch?v=wxkEQxvxs3w
+    title: "Production Ready Go Service in 30 Minutes(44 mins)"
+
+read_code:
+  - url: https://github.com/jasom/the-copper-searcher
+    title: "the-copper-searcher"
+    description: "the silver search clone in shell"
+    category:
+      - Bash
+
+  - url: https://github.com/SAP/chevrotain
+    title: "chevrotain"
+    description: "Parser Building Toolkit for JavaScript"
+    category:
+      - JavaScript
+
+  - url: https://github.com/discourse/mini_scheduler
+    title: "mini_scheduler"
+    description: "Adds recurring jobs for Sidekiq"
+    category:
+      - Ruby
+
+  - url: https://github.com/facebookincubator/Bowler
+    title: "Bowler"
+    description: "Safe code refactoring for modern Python"
+    category:
+      - Python
+
+  - url: https://github.com/fogleman/Craft
+    title: "Craft"
+    description: "Mine craft clone"
+    category:
+      - C
+
+  - url: https://github.com/benfred/py-spy
+    title: "py-spy"
+    description: "Sampling profiler for Python programs"
+    category:
+      - Rust
+
+  - url: https://github.com/variadico/noti
+    title: "noti"
+    description: "Monitor a process and trigger a notification"
+    category:
+      - Go
+
+tool:
+  - url: https://github.com/KonstantinSchubert/zero
+    title: "zero"
+    description: "Local file system transparently swapping to the cloud"
+
+  - url: https://github.com/gilbertchen/duplicacy
+    title: "duplicacy"
+    description: "A lock-free deduplication cloud backup tool"
+
+  - url: https://github.com/dnote/cli
+    title: dnote
+    description: "Capture what you learn without leaving the command line"
+
+  - url: https://goreportcard.com/
+    title: "goreportcard"
+    description: "Project Code Quality Report Cards"
+
+  - url: https://github.com/anishathalye/porcupine/blob/master/README.md
+    title: "Porcupine"
+    description: "fast linearizability checker for testing the correctness of distributed systems"
+
+  - url: https://github.com/solo-io/qloo
+    title: "qloo"
+    description: "GraphQL Server built on top of Gloo and the Envoy Proxy"
+
+  - url: https://datproject.org/
+    title: "dat"
+    description: "Dat is a nonprofit-backed data sharing protocol for applications of the future"
+
+  - url: https://github.com/eykhagen/strest
+    title: "strest"
+    description: "⚡️ Set up tests for REST in seconds with YAML"
+
+  - url: http://mininet.org/
+    title: "Mininet"
+    description: "An Instant Virtual Network on your Laptop"
+
+  - url: https://blog.cloudflare.com/introducing-ebpf_exporter/
+    title: "ebpf_exporter"
+    description: "Prometheus exporter for custom eBPF metrics"
+
+  - url: https://github.com/spotify/cstar
+    title: "cstar:"
+    description: |
+      Apache Cassandra cluster orchestration tool for the command line
+      By spotify and their [companion post](https://labs.spotify.com/2018/09/04/introducing-cstar-the-spotify-cassandra-orchestration-tool-now-open-source/)
+
+  - url: https://github.com/kovidgoyal/kitty
+    title: kitty
+    description: "A cross-platform, fast, feature full, GPU based terminal emulator"
+
+  - url: https://github.com/BurntSushi/xsv
+    title: "xsv"
+    description: "A fast CSV command line toolkit written in Rust"
+
+  - url: https://github.com/danielkalen/inspector-on-demand
+    title: "inspector-on-demand"
+    description: "Launch v8 inspector/devtools on demand for long-running apps"
+
+  - url: https://github.com/ottomatica/Baker
+    title: "Baker"
+    description: "👨‍🍳🍞 Quick and easy baking of computing environments"
