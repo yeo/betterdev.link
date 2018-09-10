@@ -1,3 +1,4 @@
+FROM ubuntu:16.04
 
 # TODO: Switch to scrtach and multistage build
 # TODO: Switch to non root user
