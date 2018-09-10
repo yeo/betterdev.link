@@ -12,6 +12,10 @@ import (
 	"strings"
 	// "text/template"
 
+	"github.com/yeo/betterdev.link/baja/dao"
+	"github.com/yeo/betterdev.link/baja/dts"
+	"github.com/yeo/betterdev.link/baja/server"
+
 	"crypto/sha256"
 	"github.com/PuerkitoBio/goquery"
 	"github.com/aws/aws-sdk-go/aws"
@@ -21,7 +25,7 @@ import (
 	"github.com/jaytaylor/html2text"
 )
 
-func customEmail(doc *goquery.Document, email string) (string, error) {
+func customEmail(doc *goquery.Document, issue, email string) (string, error) {
 	// We just want to obfuscato email
 	h := sha256.New()
 	h.Write([]byte(email))
@@ -31,7 +35,7 @@ func customEmail(doc *goquery.Document, email string) (string, error) {
 
 		linkId := base64.URLEncoding.WithPadding(base64.NoPadding).EncodeToString([]byte(href))
 		if ok {
-			link.SetAttr("href", fmt.Sprintf("https://open.betterdev.link/links/%s?email=%x", linkId, h.Sum(nil)))
+			link.SetAttr("href", fmt.Sprintf("https://betterdev.link/links/%s?issue=%s&email=%x", linkId, issue, h.Sum(nil)))
 		}
 	})
 
@@ -56,7 +60,7 @@ func sendTo(svc *ses.SES, issue, subject, email string) (*ses.SendEmailOutput, e
 		log.Fatal("Fail to parse email", err)
 	}
 
-	emailBody, err := customEmail(doc, email)
+	emailBody, err := customEmail(doc, issue, email)
 	if err != nil {
 		log.Fatal("Fail to build custom email")
 	}
@@ -123,6 +127,13 @@ func sendTo(svc *ses.SES, issue, subject, email string) (*ses.SendEmailOutput, e
 }
 
 func Fanout(issue string, mode string) {
+	// Quick and dirty sent tracking
+	// All of this crapy need to refactor
+	config := server.LoadConfigFromEnv()
+	db := dao.Connect(config.MongoURI)
+	tracker := dts.TrackerService{db}
+	// TODO: Close db
+
 	log.Printf("Start to parse export contact from %s\n", mode)
 	contacts, err := ioutil.ReadFile(fmt.Sprintf("./content/%s.csv", mode))
 	if err != nil {
@@ -156,8 +167,15 @@ func Fanout(issue string, mode string) {
 			log.Fatal(err)
 		}
 
+		if tracker.AlreadySent(issue, record[0]) == true {
+			log.Println("Already fanout", issue, "to", record)
+			continue
+		}
+
 		result, err := sendTo(svc, issue, subject, record[0])
 		if err == nil {
+			tracker.LogSent(issue, record[0])
+
 			log.Println("Send to", record[0], "succesfully", result)
 		} else {
 			log.Println("Fail to fanout", record[0], err)

@@ -1,6 +1,8 @@
 package dao
 
 import (
+	"context"
+
 	"github.com/mongodb/mongo-go-driver/mongo"
 	//"github.com/stretchr/testify/require"
 	"log"
@@ -16,6 +18,7 @@ func Connect(URI string) *mongo.Database {
 	log.Println("e", err)
 	//require.NoError(client, err)
 
+	client.Connect(context.Background())
 	db := client.Database("bd")
 	return db
 }

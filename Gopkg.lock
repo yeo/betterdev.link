@@ -44,6 +44,12 @@
   version = "v1.7.0"
 
 [[projects]]
+  name = "github.com/google/go-cmp"
+  packages = ["cmp","cmp/internal/diff","cmp/internal/function","cmp/internal/value"]
+  revision = "3af367b6b30c263d47e8895973edcca9a49cf029"
+  version = "v0.2.0"
+
+[[projects]]
   branch = "master"
   name = "github.com/jaytaylor/html2text"
   packages = ["."]
@@ -54,6 +60,18 @@
   packages = ["."]
   revision = "3433f3ea46d9f8019119e7dd41274e112a2359a9"
   version = "0.2.2"
+
+[[projects]]
+  name = "github.com/kr/pretty"
+  packages = ["."]
+  revision = "73f6ac0b30a98e433b289500d779f50c1a6f0712"
+  version = "v0.1.0"
+
+[[projects]]
+  name = "github.com/kr/text"
+  packages = ["."]
+  revision = "e2ffdb16a802fe2bb95e2e35ff34f0e53aeef34f"
+  version = "v0.1.0"
 
 [[projects]]
   name = "github.com/labstack/echo"
@@ -87,9 +105,9 @@
 
 [[projects]]
   name = "github.com/mongodb/mongo-go-driver"
-  packages = ["bson","bson/builder","bson/decimal","bson/elements","bson/objectid","mongo","mongo/connstring","mongo/internal","mongo/internal/auth/gssapi","mongo/internal/feature","mongo/model","mongo/private/auth","mongo/private/cluster","mongo/private/conn","mongo/private/msg","mongo/private/ops","mongo/private/options","mongo/private/server","mongo/readconcern","mongo/readpref","mongo/writeconcern"]
-  revision = "4dccfa06a22dc6d6f77c9828e12c8ebb6ec502a4"
-  version = "v0.0.2"
+  packages = ["bson","bson/builder","bson/decimal","bson/elements","bson/extjson","bson/internal/jsonparser","bson/internal/jsonpretty","bson/objectid","bson/parser","bson/parser/ast","core/addr","core/auth","core/auth/internal/gssapi","core/command","core/connection","core/connstring","core/description","core/dispatch","core/options","core/readconcern","core/readpref","core/result","core/tag","core/topology","core/version","core/wiremessage","core/writeconcern","examples/documentation_examples","internal","internal/testutil","internal/testutil/helpers","mongo"]
+  revision = "29a4d7d5b648e5b0b60e03e3bd71c11703f0c203"
+  version = "v0.0.5"
 
 [[projects]]
   branch = "master"
@@ -154,8 +172,14 @@
 [[projects]]
   branch = "master"
   name = "golang.org/x/net"
-  packages = ["html","html/atom"]
+  packages = ["context","html","html/atom"]
   revision = "6078986fec03a1dcc236c34816c71b0e05018fda"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/sync"
+  packages = ["semaphore"]
+  revision = "1d60e4601c6fd243af51cc01ddf169918a5407ca"
 
 [[projects]]
   branch = "master"
@@ -178,6 +202,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "6856a45a2e7cc8e98937029183179b63ae7705c5c5bdd8fd3ac207156cbd3e21"
+  inputs-digest = "61f2588a845643ffafcf561b8e6734e602d941dd6c45df3807923d72ba005997"
   solver-name = "gps-cdcl"
   solver-version = 1
