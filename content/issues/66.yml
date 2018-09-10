@@ -3,6 +3,7 @@ time: "Sep 10, 2018"
 description: |
   This issue may a bit Go heavy because the GopherConf just finished. I have pick some of topics
   that I think will boost your knowledge regardless you are writing Go or not.
+draft: false
 
 links:
   - url: https://selectstarsql.com/
@@ -54,7 +55,10 @@ brief:
     title: "Cryptography 101: How a Symmetric Key Exchange Works (Basically)"
 
   - url: https://making.pusher.com/redis-pubsub-under-the-hood/
-    title: "redis pubsub under the hood"
+    title: "Redis pubsub under the hood"
+
+  - url: https://rocksdb.org/blog/2018/08/23/data-block-hash-index.html
+    title: "Improving Point-Lookup Using Data Block Hash Index in RocksDB"
 
   - url: https://blyx.com/2018/07/18/my-arsenal-of-aws-security-tools
     title: "My arsenal of AWS security tools"
