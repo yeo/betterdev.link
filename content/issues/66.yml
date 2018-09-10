@@ -53,6 +53,9 @@ brief:
   - url: https://medium.com/littlstar/cryptography-101-how-a-symmetric-key-exchange-works-basically-8d17f2921841
     title: "Cryptography 101: How a Symmetric Key Exchange Works (Basically)"
 
+  - url: https://making.pusher.com/redis-pubsub-under-the-hood/
+    title: "redis pubsub under the hood"
+
   - url: https://blyx.com/2018/07/18/my-arsenal-of-aws-security-tools
     title: "My arsenal of AWS security tools"
 
@@ -77,23 +80,11 @@ brief:
   - url: https://medium.com/idealo-tech-blog/how-to-visually-spot-and-analyze-slow-mongodb-operations-d91ac819e0de
     title: "Visually spot and analyze slow MongoDB operations"
 
-  - url: https://cliutils.gitlab.io/modern-cmake/
-    title: "An Introduction to Modern CMake"
-
-  - url: https://people.eecs.berkeley.edu/~rcs/research/interactive_latency.html
-    title: "Latency Numbers Every Programmer Should Know"
-
   - url: https://sagi.io/2018/09/dns-over-tls---thoughts-and-implementation/index.html
     title: "DNS over TLS - Thoughts and Implementation"
 
-  - url: https://banzaicloud.com/blog/k8s-taints-tolerations-affinities/
-    title: "Taints and tolerations, pod and node affinities demystified in K8S"
-
   - url: https://blog.jooq.org/2018/09/03/find-the-next-non-null-row-in-a-series-with-sql/
     title: "Find the Next Non-NULL Row in a Series With SQL"
-
-  - url: https://www.adamtornhill.com/articles/lispweb.htm
-    title: "Lisp for the web"
 
   - url: https://github.com/eliotsykes/rails-security-checklist
     title: "Rails Security Checklist"
