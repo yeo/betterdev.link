@@ -163,6 +163,10 @@ tool:
     title: "zero"
     description: "Local file system transparently swapping to the cloud"
 
+  - url: https://github.com/skx/deployr/
+    title: "deployr"
+    description: "a simple utility which is designed to allow you to easily automate simple application-deployment via SSH"
+
   - url: https://github.com/gilbertchen/duplicacy
     title: "duplicacy"
     description: "A lock-free deduplication cloud backup tool"
