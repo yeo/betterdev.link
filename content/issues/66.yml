@@ -16,6 +16,12 @@ links:
     description: |
       Following “Don’t Repeat Yourself” might lead you to a function with four boolean flags, and a matrix of behaviours to carefully navigate when changing the code. Splitting things up into simple units can lead to awkward composition and struggling to coordinate cross cutting changes. Avoiding rewrites means they’re often left so late that they have no chance of succeeding.
 
+  - url: https://medium.com/littlstar/cryptography-101-how-a-symmetric-key-exchange-works-basically-8d17f2921841
+    title: "Cryptography 101: How a Symmetric Key Exchange Works (Basically)"
+    description: |
+      Also read [How does HTTPS actually work?](https://robertheaton.com/2014/03/27/how-does-https-actually-work/) and
+      [Elliptic Curve Cryptography](https://www.globalsign.com/en/blog/elliptic-curve-cryptography/).
+
   - url: https://medium.com/zendesk-engineering/the-history-of-infrastructure-at-zendesk-constant-tradeoffs-bdfa916ff4c3
     title: "The history of infrastructure at Zendesk — constant tradeoffs"
     description: |
@@ -51,9 +57,6 @@ links:
       Checkout [Tune Linux Kernel Parameters](https://www.percona.com/blog/2018/08/29/tune-linux-kernel-parameters-for-postgresql-optimization/) too.
 
 brief:
-  - url: https://medium.com/littlstar/cryptography-101-how-a-symmetric-key-exchange-works-basically-8d17f2921841
-    title: "Cryptography 101: How a Symmetric Key Exchange Works (Basically)"
-
   - url: https://making.pusher.com/redis-pubsub-under-the-hood/
     title: "Redis pubsub under the hood"
 
