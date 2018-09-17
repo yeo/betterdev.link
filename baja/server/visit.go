@@ -26,7 +26,8 @@ func (s *Server) VisitLink(c echo.Context) error {
 	link := string(url)
 
 	tracker := dts.TrackerService{s.db}
-	tracker.OpenURL(link, c.QueryParam("email"), string(c.RealIP()))
+	// TODO: Need input validation for issue/email and sanitize them
+	tracker.OpenURL(link, c.QueryParam("issue"), c.QueryParam("email"), string(c.RealIP()))
 
 	return c.Redirect(http.StatusTemporaryRedirect, link)
 }

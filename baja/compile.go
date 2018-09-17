@@ -201,6 +201,10 @@ func loadIssue(f os.FileInfo) (Issue, error) {
 		issue.Tools[i].Description = template.HTML(string(blackfriday.Run([]byte(issue.Tools[i].Description))))
 	}
 
+	for i := range issue.Videos {
+		issue.Videos[i].Description = template.HTML(string(blackfriday.Run([]byte(issue.Videos[i].Description))))
+	}
+
 	return issue, nil
 }
 

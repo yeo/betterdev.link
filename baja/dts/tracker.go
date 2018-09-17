@@ -39,11 +39,8 @@ func (t *TrackerService) AlreadySent(issue, email string) bool {
 
 	log.Println("Check sent for", issue, email)
 	if err != nil {
-		log.Println("error", err)
 		return false
 	}
-
-	log.Println("Result", result, result.ID)
 
 	return result.Props.User == email
 }
