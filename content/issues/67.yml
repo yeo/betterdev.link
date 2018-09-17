@@ -143,6 +143,8 @@ read_code:
   - url: https://github.com/jaagr/polybar
     title: polybar
     description: A fast and easy-to-use status bar
+    category:
+      - C++
 
   - url: https://github.com/benfred/py-spy/
     title: "py-spy"
