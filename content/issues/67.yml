@@ -27,7 +27,7 @@ links:
   - url: https://martinfowler.com/articles/extract-data-rich-service.html
     title: "How to extract a data-rich service from a monolith"
     description: |
-      When breaking monoliths into smaller services, the hardest part is breaking up the data that lives in the database of the monolith. To extract a data-rich service, follow a series of steps which retain a single write-copy of the data at all times. The steps begin by making a logical separation in the existing monolith: splitting service behavior into a separate module, then separating data into a separate table. These elements can be separately moved into a new autonomous service.
+      When breaking monoliths into smaller services, the hardest part is breaking up the data that lives in the database of the monolith. The steps begin by making a logical separation in the existing monolith: splitting service behavior into a separate module, then separating data into a separate table. These elements can be separately moved into a new autonomous service.
 
   - url: https://jvns.ca/blog/2018/09/01/learning-skills-you-can-practice/
     title: "How to teach yourself hard things"
@@ -73,7 +73,7 @@ brief:
     title: "A guide for programming well"
 
   - url: https://about.sourcegraph.com/go/gophercon-2018-from-prototype-to-production-lessons-from-building-and/
-    title: "From Prototype to Production: Lessons from Building and Scaling Reddit's Ad Serving Platform with Go"
+    title: "Lessons from Building and Scaling Reddit's Ad Serving Platform with Go"
 
   - url: https://www.jowanza.com/blog/2018/9/8/real-time-station-tracking-ford-gobike-and-mapd
     title: "Building a Real-Time Bike-Share Data Pipeline with StreamSets, Kafka and MapD"
@@ -85,10 +85,13 @@ brief:
     title: "Top 14 Performance Tuning Techniques for Amazon Redshift"
 
   - url: https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf
-    title: "Exploiting URL Parser in Programming Languages"
+    title: "Exploiting URL Parser in Programming Languages(PDF)"
 
   - url: https://howhttps.works/
     title: "How Https Works"
+
+  - url: http://nzoueidi.com/posts/post12.html
+    title: "The magic behind a simple kubectl command"
 
 video:
   - url: https://vimeo.com/280579162
@@ -136,6 +139,10 @@ read_code:
     description: 'Terminal utility that use words coming from stdin to create selection menu and write result to stdout'
     category:
       - C
+
+  - url: https://github.com/jaagr/polybar
+    title: polybar
+    description: A fast and easy-to-use status bar
 
   - url: https://github.com/benfred/py-spy/
     title: "py-spy"
