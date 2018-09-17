@@ -1,0 +1,223 @@
+---
+time: "Sep 17, 2018"
+description: ""
+draft: false
+
+links:
+  - url: http://willcrichton.net/notes/systems-programming
+    title: "What is Systems Programming, Really?"
+    description: |
+      You are probably heard that Rust is system programming language. Even Go used to be defined that way.
+      But the term is broad use and have different meaning to different people. This post suggest what could
+      we gain from redefining the idea of systems?
+
+  - url: https://alemil.com/guidelines-for-writing-readable-code#guide1
+    title: '23 guidelines for writing readable code'
+    description: |
+      As any guides, they have opinions. You may or may not agree with some rules, however the though
+      you put in to reason and argue for your points force you to think more about particular problem,
+      therfore make them a better developer.
+
+  - url: https://pierrchen.blogspot.com/2018/08/understand-container-index.html?m=1
+    title: "Understand Container"
+    description: |
+      This is an index page to a series of 8 articles on container implementation: OCI spec, Linux namespace,
+      cgroup, capability, mount and jail, user and root, network and hook, network and cni.
+
+  - url: https://martinfowler.com/articles/extract-data-rich-service.html
+    title: "How to extract a data-rich service from a monolith"
+    description: |
+      When breaking monoliths into smaller services, the hardest part is breaking up the data that lives in the database of the monolith. To extract a data-rich service, follow a series of steps which retain a single write-copy of the data at all times. The steps begin by making a logical separation in the existing monolith: splitting service behavior into a separate module, then separating data into a separate table. These elements can be separately moved into a new autonomous service.
+
+  - url: https://jvns.ca/blog/2018/09/01/learning-skills-you-can-practice/
+    title: "How to teach yourself hard things"
+    description: |
+      Learning is a skill which takes a lot of work to get better at. So this blog post is about specific learning skills that I’ve worked on over time: Identify what you don’t understand, Have confidence in your knowledge, Ask questions, Do research.
+
+  - url: https://www.cs.virginia.edu/~lat7h/blog/posts/434.html
+    title: "Enumerating Trees"
+    description: "A one-to-one mapping between binary trees and natural numbers"
+
+  - url: https://www.haproxy.com/blog/introduction-to-haproxy-acls/
+    title: "Introduction to HAProxy ACLs"
+    description: |
+      Access Control Lists, or ACLs, in HAProxy allow you to test various conditions and perform a given action based on those tests. These conditions cover just about any aspect of a request or response such as searching for strings or patterns within them, checking the IPs they are from, recent request rates (via stick tables), TLS status...
+
+
+brief:
+  - url: https://shopifyengineering.myshopify.com/blogs/engineering/iterating-towards-more-stable-ingress
+    title: "Iterating Towards a More Scalable Kubernetes Ingress at Shopify"
+
+  - url: https://blog.discordapp.com/how-discord-handles-two-and-half-million-concurrent-voice-users-using-webrtc-ce01c3187429
+    title: "How Discord Handles Two and Half Million Concurrent Voice Users using WebRTC"
+
+  - url: https://godaddy.github.io/2018/09/11/redis-ruby-bloom-filter/
+    title: "Implementing a custom Redis and in-memory bloom filter"
+
+  - url: https://blog.powerdns.com/2018/09/10/spoofing-dns-with-fragments/
+    title: "Spoofing DNS with fragments"
+
+  - url: https://drewdevault.com/2018/08/26/Self-hosted-livestreaming.html
+    title: "How to make a self-hosted video livestream"
+
+  - url: https://www.sqlstyle.guide/
+    title: "SQL Style Guide"
+
+  - url: https://github.com/caiorss/Functional-Programming
+    title: 'Functional Programming concepts, examples and patterns illustrated in Haskell, Ocaml and Python'
+
+  - url: https://github.com/you-dont-need/You-Dont-Need-Momentjs
+    title: "You don't (may not) need Moment.js"
+
+  - url: https://github.com/thoughtbot/guides/tree/master/best-practices
+    title: "A guide for programming well"
+
+  - url: https://about.sourcegraph.com/go/gophercon-2018-from-prototype-to-production-lessons-from-building-and/
+    title: "From Prototype to Production: Lessons from Building and Scaling Reddit's Ad Serving Platform with Go"
+
+  - url: https://www.jowanza.com/blog/2018/9/8/real-time-station-tracking-ford-gobike-and-mapd
+    title: "Building a Real-Time Bike-Share Data Pipeline with StreamSets, Kafka and MapD"
+
+  - url: https://blog.github.com/2018-09-10-highlights-from-git-2-19/
+    title: "Let's learn some new features of Git 2.19"
+
+  - url: https://www.intermix.io/blog/top-14-performance-tuning-techniques-for-amazon-redshift/
+    title: "Top 14 Performance Tuning Techniques for Amazon Redshift"
+
+  - url: https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf
+    title: "Exploiting URL Parser in Programming Languages"
+
+  - url: https://howhttps.works/
+    title: "How Https Works"
+
+video:
+  - url: https://vimeo.com/280579162
+    title: "A Branch in Time: a talk about writing maintainable code"
+    description: "we’ll see the impact a codebase’s history can have on its maintainability"
+
+  - url: https://www.youtube.com/watch?v=AwbKwcw7bgg
+    title: "Data Lake VS Data Warehouse(4mins)"
+
+  - url: https://www.youtube.com/watch?v=F6RiAN1A8n0&feature=youtu.be
+    title: "Creating a Sudoku Solver from Scratch(17mins)"
+
+  - url: https://www.youtube.com/watch?v=i7bdGl-olkE&index=7&list=PL2ntRZ1ySWBdatAqf-2_125H4sGzaWngM&t=0s
+    title: "gRPC State Machines and Testing(33 mins)"
+
+  - url: https://techyaks.com/
+    title: "The best of 50k tech talks"
+
+  - url: https://www.youtube.com/watch?v=aKLntZcp27M
+    title: "Using Rust For Game Development"
+    description: |
+      Also checkout full [RustConf 2018](https://www.youtube.com/playlist?list=PL85XCvVPmGQi3tivxDDF1hrT9qr5hdMBZ)
+
+  - url: https://www.youtube.com/watch?v=1QNxLNMq3Uw
+    title: "Introducing Scenic A Functional UI Framework"
+    description: |
+      Also checkout full [ElixirConf 2018](https://www.youtube.com/watch?v=w4xMarVUZQ4&list=PLqj39LCvnOWaxI87jVkxSdtjG8tlhl7U6)
+      and the [wrapping up note](https://blog.honeybadger.io/elixirconf-2018/)
+
+read_code:
+  - url: https://github.com/toniqsystems/maestro
+    title: "maestro"
+    description: "an event store + cqrs"
+    category:
+      - Elixir
+
+  - url: https://github.com/skatiyar/pacman
+    title: "pacman"
+    description: "Classic awesomeness pacman in Go"
+    category:
+      - Go
+
+  - url: https://github.com/p-gen/smenu
+    title: 'smenu'
+    description: 'Terminal utility that use words coming from stdin to create selection menu and write result to stdout'
+    category:
+      - C
+
+  - url: https://github.com/benfred/py-spy/
+    title: "py-spy"
+    description: "Sampling profiler for Python programs"
+    category:
+      - Rust
+
+  - url: https://github.com/getgauge/taiko
+    title: taiko
+    description: "A node.js library to automate chrome/chromium browser"
+    category:
+      - JavaScirpt
+
+  - url: https://xon.sh/
+    title: "xonsh shell"
+    description: "a Python-powered, cross-platform, Unix-gazing shell language and command prompt"
+    category:
+      - Python
+
+  - url: https://github.com/stanford-futuredata/FAST
+    title: "FAST"
+    description: "End-to-end earthquake detection pipeline via efficient time series similarity search"
+    category:
+      - Python
+      - ML
+
+  - url: https://github.com/SteveLTN/https-portal
+    title: "https-portal"
+    description: "A fully automated HTTPS server powered by Nginx, Let's Encrypt and Docker"
+    category:
+      - Ruby
+
+  - url: http://kubernetesbyexample.com/
+    title: "kubernetes by example"
+    category:
+      - DevOps
+
+tool:
+  - url: https://github.com/urcomputeringpal/kubevalidator
+    title: kubevalidator
+    description: "A GitHub App that uses kubeval to validate all of that Kubernetes YAML in your repo"
+
+  - url: https://github.com/kontena/mortar
+    title: mortar
+    description: "The manifest shooter for Kubernetes"
+
+  - url: https://github.com/michelson/dante-stories
+    title: "dante-stories"
+    description: "self hosted Medium platform built with Ruby on Rails"
+
+  - url: https://github.com/schollz/rwtxt
+    title: 'rwtxt'
+    description: 'cms for minimalist'
+
+  - url: https://github.com/xolox/vim-notes
+    title: "vim-notes"
+    description: "Easy note taking in Vim"
+
+  - url: https://pybowler.io/
+    title: "pybowler"
+    description: "Safe code refactoring for modern Python"
+
+  - url: https://github.com/lunixbochs/usercorn
+    title: usercorn
+    description: "dynamic binary analysis via platform emulation"
+
+  - url: https://github.com/fishtown-analytics/dbt
+    title: "dbt(data build tool)"
+    description: "a command line tool that enables data analysts and engineers to transform data in their warehouse "
+
+  - url: https://github.com/mwouts/jupytext
+    title: jupytext
+    description: "notebooks as Markdown documents, Julia, Python or R scripts"
+
+  - url: https://github.com/Keats/gutenberg
+    title: gutenberg
+    description: "A fast static site generator in a single binary with everything built-in"
+
+  - url: https://github.com/aalhuz/navex
+    title: navex
+    description: an exploit generation framework for web applications and [companion blog](https://blog.acolyer.org/2018/09/10/navex-precise-and-scalable-exploit-generation-for-dynamic-web-applications/)
+
+  - url: https://github.com/zombodb/zombodb
+    title: zombodb
+    description: "Making Postgres and Elasticsearch work together like it's 2018"
