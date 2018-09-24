@@ -1,0 +1,192 @@
+---
+time: "Sep 24, 2018"
+description: ""
+draft: false
+
+links:
+  - url: https://www.7pace.com/blog/become-a-better-programmer-skills-development
+    title: "How to Become a Better Software Developer: A Handbook on Personal Performance"
+    description: |
+      in order to be great, there must also be a way to measure, evaluate, and improve that performance.
+      So, how exactly do developers go from capable to good? From good to great?
+      This handbook is meant to be a guide to developer performance–how to understand it, measure it, and improve it.
+
+  - url: https://github.com/cfenollosa/os-tutorial
+    title: "How to create an OS from scratch"
+    description: |
+       Short step-by-step READMEs and code samples for anybody to follow. Honestly, this tutorial is basically the first document but split into smaller pieces and without the theory.
+
+  - url: https://www.percona.com/blog/2018/08/29/tune-linux-kernel-parameters-for-postgresql-optimization/
+    title: "Tune Linux Kernel Parameters For PostgreSQL Optimization"
+    description: |
+      For optimum performance, a PostgreSQL database depends on the operating system parameters being defined correctly. Poorly configured OS kernel parameters can cause degradation in database server performance.
+
+  - url: https://philipwalton.com/articles/idle-until-urgent/
+    title: "Idle Until Urgent"
+    description: |
+      A story of get first input delay under 100ms at the 99th percentile. How I approached diagnosing the problem.
+      What specific strategies and techniques I used to fix it. I’m calling the strategy: idle until urgent.
+
+  - url: https://djhworld.github.io/post/2018/09/21/i-ported-my-gameboy-color-emulator-to-webassembly/
+    title: "I ported my Gameboy Color emulator to WebAssembly"
+    description: |
+      A great story on gameboy, hacker mindset, job interview :-) and going back to your code after
+      5 years. Rewarding experience that I’ve been dining out on in job interviews ever since.
+      If you like experiment, gameboy, emulator, and WebAssembly definetely read this.
+
+  - url: https://www.zdnet.com/article/linus-torvalds-takes-a-break-from-linux/
+    title: "Linus Torvalds takes a break from Linux"
+    description: |
+      Our reader, Esther Schindler share this with us. This is the first time Linus appologies for his
+      behaviour. I think this will encourage more talent people hack on the kernel and a win-win for every one.
+
+brief:
+  - url: https://www.haproxy.com/blog/introduction-to-haproxy-stick-tables/
+    title: "Introduction to HAProxy Stick Tables"
+
+  - url: https://inconvergent.net/generative/
+    title: "On generative algorithms"
+
+  - url: https://medium.com/preply-engineering/postgres-multimaster-34f2446d5e14
+    title: "Upgrading PostgreSQL on AWS RDS with minimum or zero downtime"
+
+  - url: http://mediatemple.net/blog/tips/low-hanging-fruit-web-performance/
+    title: "The Low Hanging Fruit of Web Performance"
+
+  - url: https://www.ombulabs.com/blog/code-refactor/design-patterns/refactoring-template-pattern.html
+    title: "Refactoring with Design Patterns - The Template Pattern"
+
+  - url: https://blog.regehr.org/archives/1621
+    title: "What’s the difference between an integer and a pointer?"
+
+  - url: https://developers.google.com/web/updates/2018/09/inside-browser-part4
+    title: "Inside look at modern web browser"
+    description: |
+      How compositor is enabling smooth interaction when user input comes in.
+
+  - url: https://www.mongodb.com/blog/post/time-series-data-and-mongodb-part-2-schema-design-best-practices
+    title: "Time Series Data and MongoDB: Schema Design Best Practices"
+
+  - url: https://blog.discordapp.com/how-discord-handles-two-and-half-million-concurrent-voice-users-using-webrtc-ce01c3187429
+    title: "How Discord Handles Two and Half Million Concurrent Voice Users using WebRTC"
+
+  - url: https://michelenasti.com/2018/09/19/Javascript-chiamare-funzioni-senza-usare-parentesi-(what!).html
+    title: "Javascript: call functions without using parentheses"
+
+  - url: https://heapanalytics.com/blog/engineering/clocksource-aws-ec2-vdso
+    title: "Running a database on EC2? Your clock could be slowing you down"
+
+  - url: https://medium.com/@eric.q.weinstein/lisp-repl-it-tutorial-9a8f2d7d7584
+    title: "Make a LISP in 200 Lines of Code"
+
+  - url: https://github.com/leandromoreira/linux-network-performance-parameters
+    title: "Learn where some of the network sysctl variables fit into the Linux/Kernel network flow"
+
+  - url: https://medium.com/@hakibenita/be-careful-with-cte-in-postgresql-fca5e24d2119
+    title: "Be careful with CTE in PostgreSQL"
+
+  - url: https://github.com/zziz/pwc
+    title: "Papers with code. Sorted by stars"
+
+video:
+  - url: https://www.destroyallsoftware.com/screencasts/catalog/functional-core-imperative-shell
+    title: "Functional Core, Imperative Shell(13mins)"
+
+  - url: https://jvns.ca/blog/2018/09/18/build-impossible-programs/
+    title: "Build impossible programs(25mins)"
+
+  - url: https://www.youtube.com/watch?v=YHRO5WQGh0k
+    title: "The Scheduler Saga"
+
+read_code:
+  - url: https://github.com/TheAlgorithms/Python
+    title: "All Algorithms implemented in Python"
+    category:
+      - Python
+
+  - url: https://github.com/google/wwwbasic
+    title: "wwwbasic"
+    description: "an implementation of BASICd esigned to be easy to run on the Web"
+    category:
+      - JavaScript
+
+  - url: https://github.com/edgurgel/verk/
+    title: verk
+    description: "A job processing system that just verks"
+    category:
+      - Elixir
+
+  - url: https://github.com/zilverline/sequent
+    title: "sequent"
+    description: "CQRS & event sourcing framework for Ruby"
+    category:
+      - Ruby
+
+  - url: https://github.com/rogeriochaves/spades
+    title: "spades"
+    description: "Start an Elm SPA ready to the real world"
+    category:
+      - Elm
+
+  - url: https://github.com/TarsCloud/TarsGo
+    title: TarsGo
+    description: "A high performance microservice framework"
+    category:
+      - Golang
+
+  - url: https://github.com/sinasamavati/condor
+    title: condor
+    description: A minimal library for building scalable TCP servers in Erlang
+    category:
+      - Erlang
+
+  - url: https://github.com/bakpakin/Fennel
+    title: "Fennel"
+    description: "A Lisp in Lua"
+    category:
+      - Lua
+
+tool:
+  - url: https://github.com/slothking-online/graphql-editor
+    title: "graphql-editor"
+    description: "visual node editor for GraphQL"
+
+  - url: https://github.com/samrocketman/jervis
+    title: "jervis"
+    description: "Travis-like Jenkins job generation using Job DSL plugin groovy scripts"
+
+  - url: https://github.com/argoproj/argo-cd
+    title: argo-cd
+    description: "Declarative Continuous Delivery for Kubernetes"
+
+  - url: https://github.com/pllua/pllua
+    title: "pllua"
+    description: "use PostgreSQL functions and triggers written in the Lua programming language"
+
+  - url: https://github.com/aelsabbahy/goss
+    title: goss
+    description: "Quick and Easy server testing/validation"
+
+  - url: https://github.com/lpereira/lwan
+    title: lwan
+    description: "Experimental, scalable, high performance HTTP server "
+
+  - url: https://github.com/TKCERT/mail-security-tester
+    title: "mail-security-tester"
+    description: "A testing framework for mail security and filtering solutions"
+
+  - url: https://github.com/mozilla-services/GitHub-Audit
+    title: "GitHub-Audit"
+    description: "Collection of Tools & Procedures for double checking GitHub configurations"
+
+  - url: https://github.com/tensorflow/datasets
+    title: "tensorflow datasets"
+    description: "A collection of datasets ready to use with TensorFlow"
+
+  - url: https://github.com/pa11y/pa11y
+    title: "pa11y"
+    description: "automated accessibility testing pal"
+
+  - url: https://github.com/fr1sk/mongo-clone
+    title: "mongo-clone"
+    description: "cloning mongoDB database from one server to another"
