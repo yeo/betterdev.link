@@ -11,6 +11,7 @@ ADD public /app/public
 ADD static /app/static
 ADD themes /app/themes
 ADD linux /app/bd
+ADD ADD ca-certificates.crt /etc/ssl/certs/
 
 # Once docker fix bugs about USER we can remove chown
 RUN chown -R nobody /app

@@ -37,6 +37,12 @@ k8s-deploy:
 
 release: linux docker k8s-deploy
 
+fanout:
+	export ISSUE
+	export PROFILE
+	cat k8s/job.yaml | envsubst | kubectl -n yeo delete -f - || true
+	cat k8s/job.yaml | envsubst | kubectl -n yeo create -f -
+
 nginx:
 	docker build -t ${DOCKER_REPO}:static -f Dockerfile-static .
 	docker push ${DOCKER_REPO}:static
