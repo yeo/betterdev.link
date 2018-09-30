@@ -11,3 +11,4 @@ backup
 bd
 env.sh
 vendor
+content/prod.csv
