@@ -1,0 +1,239 @@
+---
+time: "Oct 1, 2018"
+description: ""
+draft: false
+
+links:
+  - url: https://ops.tips/blog/dmesg-under-the-hood/
+    title: "Dmesg under the hood"
+    description: "Dmesg allows us to grasp what's going on under the hood when the kernel gets bad. Check out how dmesg is able to read kernel logs and show to the user."
+
+  - url: https://blog.2ndquadrant.com/on-rocks-and-sand/
+    title: "Optimizing Postgres Column Order"
+    description: "Do you know the best way to declare a Postgres table columns ordering? Bigger columns first, medium columns next, small columns last, and weird exceptions like NUMERIC and TEXT tacked to the end as if they were dust in our analogy. That’s what we get for playing with pointers."
+
+  - url: https://blog.usejournal.com/how-one-affiliate-used-amazon-s3-to-outrank-everyone-on-google-9744c8e7322f
+    title: "How One Website Exploited Amazon S3 to Outrank Everyone on Google"
+    description: |
+      I never imagine why coupon side always require you click to review coupon code. Turning out they are very creative though quite shady.
+
+  - url: https://www.twilio.com/blog/what-is-public-key-cryptography
+    title: "What is Public Key Cryptography?"
+    description: |
+      This post dives into modern cryptography, an overview of how it works, and its everyday use cases — including how Twilio uses public-key crypto in our Authy application and to secure our API. And a final challenge:  let's build a key pair together! Don't worry, we'll walk you through this one. The numbers we use in our example are intentionally small.
+
+  - url: https://triplebyte.com/blog/how-triplebyte-solved-its-office-wifi-problems
+    title: "How Triplebyte solved its office Wi-Fi problems"
+    description: |
+      As a software engineer at a startup, you probably have to setup or config wifi at some points.
+      Here’s a smorgasbord of suggestions — some well-known and others obscure — that helped me get a reliable network running fast.
+      Such as using same SSID, Statically assign different access points to different channels, use narrow bandwidths and more.
+
+  - url: https://githubengineering.com/upgrading-github-from-rails-3-2-to-5-2/
+    title: "Upgrading GitHub from Rails 3.2 to 5.2"
+    description: |
+      Let's see how big companies approch upgrading their framework.
+
+brief:
+  - url: https://www.mongodb.com/blog/post/time-series-data-and-mongodb-part-3--querying-analyzing-and-presenting-timeseries-data
+    title: "Time Series Data and MongoDB: Querying, Analyzing, and Presenting Time-Series Data"
+
+  - url: https://css-tricks.com/the-complete-guide-to-lazy-loading-images/
+    title: "The Complete Guide to Lazy Loading Images"
+
+  - url: https://iridakos.com/tutorials/2018/03/01/bash-programmable-completion-tutorial
+    title: "Creating a bash completion script"
+
+  - url: https://medium.com/@AaronKalair/devopsdays-london-2018-notes-38f1ae44c95
+    title: "Devopsday London 2018 notes"
+
+  - url: http://explained.ai/decision-tree-viz/index.html
+    title: "How to visualize decision trees"
+
+  - url: https://jumpnowtek.com/rpi/Raspberry-Pi-Systems-with-Yocto.html
+    title: "Building Raspberry Pi Systems with Yocto"
+
+  - url: https://lwn.net/Articles/754980/
+    title: "Killing processes that don't want to die"
+
+  - url: https://github.com/mjavascript/mastering-modular-javascript
+    title: "Mastering Modular JavaScript"
+    description: " a book series with the mission of improving our collective understanding of writing robust, well-tested, modular JavaScript code"
+
+  - url: https://blog.benjojo.co.uk/post/qemu-monitor-socket-rce-vnc
+    title: From VNC to reverse shell
+
+  - url: https://yutsumura.com/
+    title: "Welcome to Problems in Mathematics"
+    description: "problems and their solutions/proofs in mathematic: Linear Algebra, Group Theory, Ring Theory, Field Theory, Galois Theory, Module Theory"
+
+  - url: http://www.ams.org/publicoutreach/feature-column/fcarc-stern-brocot
+    title: "Trees, Teeth, and Time: The mathematics of clock making"
+
+  - url: http://quiet.github.io/quiet-blog/2018/09/16/How-Libcorrect-Does-Forward-Error-Correction.html
+    title: "How Libcorrect Corrects Errors"
+
+  - url: https://www.percona.com/blog/2018/09/21/securing-postgresql-as-an-enterprise-grade-environment/
+    title: "Securing PostgreSQL as an Enterprise-Grade Environment"
+
+  - url: https://github.com/binhnguyennus/awesome-scalability
+    title: "awesome-scalability"
+    description: "Scalable, Available, Stable, Performant, and Intelligent System Design Patterns"
+
+  - url: http://www.fast.ai/2018/09/26/ml-launch/
+    title: "Introduction to Machine Learning for Coders"
+
+  - url: http://babich.biz/mobile-ux-design-the-right-ways-to-ask-users-for-permissions/
+    title: "Mobile UX Design: The Right Ways to Ask Users for Permissions"
+
+video:
+  - url: https://www.youtube.com/watch?v=OF3TM-b890E
+    title: "A Go Programmer's Guide to Secure Connections(40mins)"
+
+  - url: http://blockchain.mit.edu/how-blockchain-works
+    title: "How blockchain works(18mins)"
+
+  - url: https://www.youtube.com/watch?v=qIWNoJv4Lyc
+    title: "Practical Mini-Projects in Node.js(32mins)"
+
+  - url: https://www.youtube.com/watch?v=3TX3kV3TICU
+    title: "Let Vim do the typing(32mins)"
+
+  - url: https://www.youtube.com/watch?v=GDm-7BlmPPg
+    title: "Make Ingress-Nginx Work for you, and the Community(26mins)"
+
+  - url: https://dave.cheney.net/2018/09/15/internets-of-interest-1-brian-kernighan-on-the-elements-of-programming-style
+    title: "Elements of Programming Style"
+
+  - url: https://www.youtube.com/watch?v=Fq5EQBFLEC8
+    title: "If You're Not Writing a Program, Don't Use a Programming Language(46)"
+
+  - url: https://mlesniak.com/post/2018/09/13/go-guitar-/-visualize-sound/
+    title: "Go Guitar // Visualize Sound"
+
+  - url: https://www.infoq.com/presentations/microservices-events-first-design
+    title: "Designing Events-First Microservices"
+
+read_code:
+  - url: https://github.com/sinasamavati/leptus
+    title: leptus
+    description: "Erlang REST framework that runs on top of Cowboy"
+    category:
+      - Erlang
+
+  - url: https://github.com/alexaubry/BulletinBoard
+    title: BulletinBoard
+    description: "General-purpose contextual cards for iOS"
+    category:
+      - Swift
+
+  - url: https://blog.subnetzero.io/project/iridium-vm/
+    title: "iridium vm"
+    description: "Iridium refers to a language VM written in Rust"
+    category:
+      - Rust
+
+  - url: https://github.com/kocircuit/kocircuit
+    title: "kocircuit"
+    description: A generic type-safe language for concurrent, stateful, deadlock-free systems and protocol manipulations
+    category:
+      - Go
+
+  - url: https://github.com/sohamkamani/detective
+    title: detective
+    description: "🔎 A distributed application health monitoring library "
+    category:
+      - Go
+
+  - url: https://github.com/mozilla/moz-sql-parser
+    title: "moz-sql-parser"
+    description: "Let's make a SQL parser so we can provide a familiar interface to non-sql datastores"
+    category:
+      - Python
+
+  - url: https://github.com/rpush/rpush
+    title: "rpush"
+    description: "The push notification service for Ruby"
+    category:
+      - Ruby
+
+  - url: https://github.com/gausby/tortoise
+    title: tortoise
+    description: "MQTT client for Elixir"
+    category:
+      - Elixir
+
+  - url: https://hackernoon.com/turtledb-a-javascript-framework-for-building-offline-first-collaborative-web-apps-7183cd787163
+    title: "turtleDB"
+    description: "A JavaScript Framework for building offline-first, collaborative web apps"
+    category:
+      - JavaScript
+
+tool:
+  - url: https://github.com/amanusk/s-tui
+    title: "s-tui"
+    description: Terminal based CPU stress and monitoring utility
+
+  - url: https://github.com/graphile/postgraphile
+    title: PostGraphile
+    description: "An instant, highly-performant GraphQL API for your PostgreSQL database"
+
+  - url: https://github.com/pietervogelaar/kubernetes-job-monitor
+    title: "kubernetes-job-monitor"
+    description: "a monitor dashboard for K8S cronjob"
+
+  - url: http://meshbird.com/
+    title: "Meshbird"
+    description: "distributed private networking"
+
+  - url: https://github.com/ihucos/plash
+    title: Plash
+    description: "Build and run Containers"
+
+  - url: https://sqlfum.pt/
+    title: "sqlfmt"
+    description: "An Opinionated Online SQL Formatter"
+
+  - url: https://github.com/vktr/blaze
+    title: "blaze"
+    description: "A blazing fast exporter for your ElasticSearch data"
+
+  - url: https://github.com/linuxkit/linuxkit
+    title: "linuxkut"
+    description: "A toolkit for building secure, portable and lean operating systems for containers"
+
+  - url: https://github.com/apifytech/apify-js
+    title: "apify-js"
+    description: "data extraction and web automation jobs (not only) with headless Chrome and Puppeteer"
+
+  - url: https://gitlab.com/depesz/pg_terminator
+    title: "pg_terminator"
+    description: "a tool for automatically canceling, or terminating offending connections"
+
+  - url: https://github.com/astrocorp42/signal
+    title: "Signal"
+    description: "Simple and beautiful Analytics 📊 "
+
+  - url: https://github.com/pulumi/kubespy
+    title: kubespy
+    description: "Tools for Observing Kubernetes Resources in Real Time"
+
+  - url: https://gitlab.com/staltz/manyverse
+    title: "manyverse"
+    description: "A social network off the grid"
+
+  - url: https://monitor.firefox.com/
+    title: "Firefox Monitor"
+    description: "Find out what hackers already know about you and learn how to stay a step ahead of them"
+
+  - url: https://github.com/Aaronepower/tokei
+    title: "tokei"
+    description: "a program that displays statistics about your code"
+
+  - url: https://github.com/mweagle/Sparta
+    title: "Sparta"
+    description: "automatically provisions golang functions in AWS Lambda as a logical unit"
+
+  - url: http://nts.strzibny.name/making-a-ruby-executable-with-ruby-packer/
+    title: "ruby-packer"
+    description: "Making a Ruby Executable"
