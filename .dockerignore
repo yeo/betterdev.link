@@ -2,5 +2,5 @@
 backup
 community
 vendor
-content/*.csv
+content/prod.csv
 *.env
