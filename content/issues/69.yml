@@ -29,12 +29,16 @@ links:
       Here’s a smorgasbord of suggestions — some well-known and others obscure — that helped me get a reliable network running fast.
       Such as using same SSID, Statically assign different access points to different channels, use narrow bandwidths and more.
 
+  - url: "https://www.tldrnewsletter.com/?utm_source=betterdev"
+    title: "TLDR NewsLetter"
+    description: "is a daily, curate newsletter with links and TLDRs of the most interesting stories in tech"
+
+brief:
   - url: https://githubengineering.com/upgrading-github-from-rails-3-2-to-5-2/
     title: "Upgrading GitHub from Rails 3.2 to 5.2"
     description: |
       Let's see how big companies approch upgrading their framework.
 
-brief:
   - url: https://www.mongodb.com/blog/post/time-series-data-and-mongodb-part-3--querying-analyzing-and-presenting-timeseries-data
     title: "Time Series Data and MongoDB: Querying, Analyzing, and Presenting Time-Series Data"
 
