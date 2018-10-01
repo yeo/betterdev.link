@@ -30,8 +30,10 @@ links:
       Such as using same SSID, Statically assign different access points to different channels, use narrow bandwidths and more.
 
   - url: "https://www.tldrnewsletter.com/?utm_source=betterdev"
-    title: "TLDR NewsLetter"
-    description: "is a daily, curate newsletter with links and TLDRs of the most interesting stories in tech"
+    title: "TLDR is a daily, curate newsletter with links and TLDRs of the most interesting stories in tech"
+    description: |
+      This is another news letter from our friend that help you keep up with the news without spending too much time to
+      read all the article. Check it out.
 
 brief:
   - url: https://www.simform.com/what-is-tdd/
