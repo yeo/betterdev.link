@@ -34,6 +34,11 @@ links:
     description: "is a daily, curate newsletter with links and TLDRs of the most interesting stories in tech"
 
 brief:
+  - url: https://www.simform.com/what-is-tdd/
+    title: "What is TDD? [Roadmap to Implement TDD in Your Organization]"
+    description: |
+      Our reader, Kalpesh Darji shared this with us. It's a great overview to get into TDD.
+
   - url: https://githubengineering.com/upgrading-github-from-rails-3-2-to-5-2/
     title: "Upgrading GitHub from Rails 3.2 to 5.2"
     description: |
@@ -170,6 +175,11 @@ read_code:
     category:
       - JavaScript
 
+  - url: https://github.com/jeep70/qView
+    title: qView
+    description: "Practical and minimal image viewer"
+    category:
+      - C++
 tool:
   - url: https://github.com/amanusk/s-tui
     title: "s-tui"
