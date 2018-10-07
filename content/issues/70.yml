@@ -73,9 +73,6 @@ brief:
     title: "Roughtime"
     description: "Securing Time with Digital Signatures"
 
-  - url: https://auth0.com/blog/how-we-store-data-in-the-cloud-at-auth0/
-    title: "How We Store Data in the Cloud at Auth0"
-
   - url: https://scalegrid.io/blog/xfs-vs-ext4-comparing-mongodb-performance-on-aws-ec2/
     title: "XFS vs EXT4 – Comparing MongoDB Performance on AWS EC2"
     description: |
@@ -108,16 +105,10 @@ video:
   - url: https://explore.mongodb.com/mongodb-world-2018/carlos-saraiva-and-aritra-chatterjee-a-journey-to-the-cloud
     title: "A Journey to the Cloud with Fraud Detection, Transactions, and MongoDB"
 
-  - url: https://www.infoq.com/presentations/microservices-networking
-    title: "Networking Your Microservices Applications(41 mins)"
-
   - url: https://vimeo.com/223525975
     title: "Purely Functional Configuration Management with Nix and NixOS"
     description: |
       Also checkout this talk about [configuration management with nix](https://www.infoq.com/articles/configuration-management-with-nix)
-
-  - url: https://atscaleconference.com/videos/resiliency-testing-with-toxiproxy/
-    title: "Resiliency testing with Toxiproxy"
 
   - url: https://www.youtube.com/watch?v=XLnWMfdbQEo&feature=share&__s=vapsgckbosy9pikkmkro
     title: "OCaml, REborn: fullstack applications with ReasonML"
@@ -134,12 +125,6 @@ read_code:
     description: "TicTacToe in SQL (Postgres)"
     category:
       - SQL
-
-  - url: https://github.com/hdm/mac-ages
-    title: "mac-ages: MAC address age tracking"
-    description: "Fun thing to do :)"
-    category:
-      - Ruby
 
   - url: https://github.com/yongfook/zipsell
     title: zipsell
@@ -176,11 +161,6 @@ read_code:
     category:
       - JavaScript
 
-  - url: https://github.com/rianhunter/dbxfs
-    title: "User-space file system for Dropbox"
-    category:
-      - Python
-
   - url: https://github.com/target/strelka
     title: strelka
     description: |
@@ -194,6 +174,15 @@ read_code:
       - CSS
 
 tool:
+  - url: https://github.com/lesovsky/pgcenter
+    title: pgcenter
+    description: "Command-line admin tool for observing and troubleshooting Postgres"
+
+  - url: https://github.com/RedBeardLab/rediSQL
+    title: rediSQL
+    description: |
+      Redis module that provides a completely functional SQL database
+
   - url: https://github.com/facebookincubator/StateService
     title: StateService
     description: |
@@ -204,26 +193,9 @@ tool:
     description: |
       Map AWS resources into K8S CRD so you can provision AWS resource without usin Terraform or Cloudformation
 
-  - url: https://github.com/picovoice/porcupine
-    title: porcupine
-    description: "On-device wake word detection engine powered by deep learning"
-
-  - url: https://tmaiaroto.github.io/aegis/#getting-started
-    title: "aegis"
-    description: "An AWS Serverless Framework for Go"
-
   - url: https://github.com/salesforce/hassh
     title: "hassh: a Profiling Method for SSH Clients and Servers"
     description: "a network fingerprinting standard which can be used to identify specific Client and Server SSH implementations"
-
-  - url: https://github.com/lesovsky/pgcenter
-    title: pgcenter
-    description: "Command-line admin tool for observing and troubleshooting Postgres"
-
-  - url: https://github.com/RedBeardLab/rediSQL
-    title: rediSQL
-    description: |
-      Redis module that provides a completely functional SQL database
 
   - url: https://github.com/jlfwong/speedscope
     title: "speedscope"
@@ -260,5 +232,3 @@ tool:
   - url: https://github.com/platform9/etcdadm
     title: etcdadm
     description: "a command-line tool for operating an etcd cluster"
-
-
