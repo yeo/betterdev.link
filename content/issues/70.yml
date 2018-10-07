@@ -54,7 +54,7 @@ links:
     description: |
       Using PgBouncer for connection pooler, in front of HAProxy, in turn proxy traffic to Postgres instance behind it.
       The key thing is HAProxy route 2 kind of traffics: write to master only and distribute read to multiple instances.
-      Also read [https://www.percona.com/blog/2018/06/27/scaling-postgresql-with-pgbouncer-you-may-need-a-connection-pooler-sooner-than-you-expect/](why you may need a Connection Pooler Sooner Than You Expect).
+      Also read [why you may need a Connection Pooler Sooner Than You Expect](https://www.percona.com/blog/2018/06/27/scaling-postgresql-with-pgbouncer-you-may-need-a-connection-pooler-sooner-than-you-expect).
 
   - url: https://hackernoon.com/real-time-linux-communications-2faabf31cf5e
     title: "Real-time Linux communications"
@@ -162,6 +162,12 @@ read_code:
     description: "Fun thing to do :)"
     category:
       - Ruby
+
+  - url: https://github.com/yongfook/zipsell
+    title: zipsell
+    description: "open source platform for selling digital downloads such as ebooks"
+    category:
+      - Rails
 
   - url: https://github.com/carllerche/tower-web
     title: tower-web
