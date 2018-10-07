@@ -17,11 +17,6 @@ links:
       Nix can generate Docker images, however the typical approach to layering with Nix is to generate one fat image with all of the dependencies. This fat image offers no sharing, is slow to build, upload, and download.
       In this post I talk about using Nix to automatically create multi-layered Docker images, allowing a high amount of caching between image.
 
-  - url: https://www.techrepublic.com/article/exploring-the-anatomy-of-a-data-packet/
-    title: "Exploring the anatomy of a data packet"
-    description: |
-      Have you ever performed surgery on data packets? There are times when that may be the best way to troubleshoot and optimize your network.
-
   - url: https://jamie.ideasasylum.com/2018/09/29/implementing-impersonation/
     title: "Implementing Impersonation"
     description: |
@@ -33,37 +28,34 @@ links:
     description: |
       No ‘Access-Control-Allow-Origin’ header is present on the requested resource. Origin http://www.sesamestreet.com  is therefore not allowed access. When it happens, you googled it, then fixed it and moved on. Let's dive deeper, trying to understand what problem CORS really solves.
 
-  - url: https://pavelkosenko.wordpress.com/2015/08/13/what-is-good-color/
-    title: "What is good color?"
-    description: |
-      Majority of BetterDev audiences are developers. I'm sure many struggle with colors when design an app. How to develop good taste in color – and just what is good color, to begin with?
-
-  - url: http://www.michaelburge.us/2017/09/10/injecting-shellcode-to-speed-up-amazon-redshift.html
-    title: "Injecting a Chess Engine into Amazon Redshift"
-
   - url: http://oraclemine.com/sql-query-solved-sudoku-seconds/
     title: "This Single SQL Query Solved My Sudoku In Seconds"
+    description: |
+      SQL is an declarative language, which mean you declare what you want and the engine figure out how to do it.
 
   - url: https://www.haproxy.com/blog/using-haproxy-as-an-api-gateway-part-1/
     title: "Using HAProxy as an API gateway"
     description: |
-      In addtion to API routing, HAProxy can do security, rate limiting, monitoring, and other cross-cutting concerns. In essence, by placing all of your APIs behind a shared HAProxy instance, these requirements can be offloaded.
-
-  - url: https://www.percona.com/blog/2018/10/02/scaling-postgresql-using-connection-poolers-and-load-balancers-for-an-enterprise-grade-environment/
-    title: "Scaling PostgreSQL using Connection Poolers and Load Balancers"
-    description: |
-      Using PgBouncer for connection pooler, in front of HAProxy, in turn proxy traffic to Postgres instance behind it.
-      The key thing is HAProxy route 2 kind of traffics: write to master only and distribute read to multiple instances.
-      Also read [why you may need a Connection Pooler Sooner Than You Expect](https://www.percona.com/blog/2018/06/27/scaling-postgresql-with-pgbouncer-you-may-need-a-connection-pooler-sooner-than-you-expect).
-
-  - url: https://hackernoon.com/real-time-linux-communications-2faabf31cf5e
-    title: "Real-time Linux communications"
-    description: |
-      An evaluation of the Linux communication stack for real-time robotic applications
+      HAProxy has many built in primitive: rate limiting, monitoring, circuit-breaking, connection queueing, authentication
+      to handle job of an API gateway. We can even use [HAProxy to load balancer postgress too](https://www.percona.com/blog/2018/10/02/scaling-postgresql-using-connection-poolers-and-load-balancers-for-an-enterprise-grade-environment/)
 
 brief:
-  - url: https://www.cockroachlabs.com/blog/brief-history-high-availability/
-    title: A Brief History of High Availability
+  - url: https://jvns.ca/blog/senior-engineer/
+    title: "What's a senior engineer's job?"
+
+  - url: https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/
+    title: "Scaling Engineering Teams via Writing Things Down and Sharing - aka RFCs"
+
+  - url: https://medium.com/@rakyll/cpdd-critical-path-driven-development-6c2592fb8ea4
+    title: "Critical Path Driven Development"
+
+  - url: https://pavelkosenko.wordpress.com/2015/08/13/what-is-good-color/
+    title: "What is good color?"
+
+  - url: http://www.michaelburge.us/2017/09/10/injecting-shellcode-to-speed-up-amazon-redshift.html
+    title: "Injecting a Chess Engine into Amazon Redshift"
+    description: |
+      Writing a chess engine in C.  Turning that C into plain x86-64 instructions. Executing those instructions on a running Amazon Redshift database
 
   - url: https://www.twilio.com/blog/audio-visualisation-web-audio-api--react
     title: "Audio visualisation with the Web Audio API and React"
@@ -71,22 +63,11 @@ brief:
   - url: https://medium.com/airbnb-engineering/production-secret-management-at-airbnb-ad230e1bc0f6
     title: "Production Secret Management at Airbnb"
 
-  - url: https://medium.com/@rakyll/cpdd-critical-path-driven-development-6c2592fb8ea4
-    title: "CPDD: Critical Path Driven Development"
-
-  - url: https://simonwillison.net/2018/Oct/4/datasette-ideas/#SQL_as_an_API_language
-    title: "SQL as an API language"
-
   - url: https://3mdeb.com/firmware/optimize-performance-in-docker-containers/
     title: "Optimize performance in Docker containers used by Embedded Systems"
 
   - url: http://eng.wealthfront.com/2018/09/20/our-adventures-in-scaling/
     title: "Adventures in Scaling at WealthFront"
-
-  - url: https://aws.amazon.com/blogs/opensource/aws-service-operator-kubernetes-available/
-    title: "AWS Service Operator for Kubernetes"
-    description: |
-      Map AWS resources into K8S CRD so you can provision AWS resource without usin Terraform or Cloudformation
 
   - url: https://blog.cloudflare.com/roughtime/
     title: "Roughtime"
@@ -116,9 +97,6 @@ brief:
 
   - url: https://stackabuse.com/creating-a-simple-recommender-system-in-python-using-pandas/
     title: "A Simple Recommender System in Python using Pandas"
-
-  - url: https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/
-    title: "Scaling Engineering Teams via Writing Things Down and Sharing - aka RFCs"
 
   - url: https://joshrendek.com/2018/04/kubernetes-on-bare-metal/
     title: "Kubernetes On Bare Metal"
@@ -216,6 +194,16 @@ read_code:
       - CSS
 
 tool:
+  - url: https://github.com/facebookincubator/StateService
+    title: StateService
+    description: |
+      Automating recovery of third-party services after a major outage
+
+  - url: https://aws.amazon.com/blogs/opensource/aws-service-operator-kubernetes-available/
+    title: "AWS Service Operator for Kubernetes"
+    description: |
+      Map AWS resources into K8S CRD so you can provision AWS resource without usin Terraform or Cloudformation
+
   - url: https://github.com/picovoice/porcupine
     title: porcupine
     description: "On-device wake word detection engine powered by deep learning"
