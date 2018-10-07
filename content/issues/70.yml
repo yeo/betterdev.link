@@ -188,6 +188,10 @@ read_code:
     category:
       - C
 
+  - url: https://github.com/emilengler/sysget?files=1
+    title: "sysget: A front-end for every package manager"
+    description: "a bridge that let you use one syntax to every package manager on every operating system: apt, yum, pacman, nix, snap, homebrew, pkg...."
+
   - url: https://github.com/typicode/husky
     title: "husky 🐶"
     description:  Git hooks made easy
