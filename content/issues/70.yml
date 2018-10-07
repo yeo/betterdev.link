@@ -1,0 +1,258 @@
+---
+time: "Oct 8, 2018"
+description: |
+  To write good software, we need to have good methods(beside the programming skill) such as comment, document, collaboration. This issues have some good stuff.
+  On the DevOps side, K8S is getting supported on even DigitalOcean now. So it's time to learn more about Docker and K8S.
+draft: false
+
+links:
+  - url: http://antirez.com/news/124
+    title: "Writing system software: code comments"
+    description: |
+      Antirez(Redis creator) takes on why we need code comments. In his opinion, Writing comments is of paramount importance in order to produce good code, that is maintainable in the long run and understandable by others and by the authors during modifications and debugging activities.
+
+  - url: https://grahamc.com/blog/nix-and-layered-docker-images
+    title: "Optimising Docker Layers for Better Caching with Nix"
+    description: |
+      Nix can generate Docker images, however the typical approach to layering with Nix is to generate one fat image with all of the dependencies. This fat image offers no sharing, is slow to build, upload, and download.
+      In this post I talk about using Nix to automatically create multi-layered Docker images, allowing a high amount of caching between image.
+
+  - url: https://www.techrepublic.com/article/exploring-the-anatomy-of-a-data-packet/
+    title: "Exploring the anatomy of a data packet"
+    description: |
+      Have you ever performed surgery on data packets? There are times when that may be the best way to troubleshoot and optimize your network.
+
+  - url: https://jamie.ideasasylum.com/2018/09/29/implementing-impersonation/
+    title: "Implementing Impersonation"
+    description: |
+      The ability to log in as one of your users is one of the highest value features you can develop to support your customers.
+      But it's also one of the most dangerous features you can develop to support your customers.  What can we do?
+
+  - url: http://performantcode.com/web/do-you-really-know-cors
+    title: "Do You Really Know CORS?"
+    description: |
+      No ‘Access-Control-Allow-Origin’ header is present on the requested resource. Origin http://www.sesamestreet.com  is therefore not allowed access. When it happens, you googled it, then fixed it and moved on. Let's dive deeper, trying to understand what problem CORS really solves.
+
+  - url: https://pavelkosenko.wordpress.com/2015/08/13/what-is-good-color/
+    title: "What is good color?"
+    description: |
+      Majority of BetterDev audiences are developers. I'm sure many struggle with colors when design an app. How to develop good taste in color – and just what is good color, to begin with?
+
+  - url: http://www.michaelburge.us/2017/09/10/injecting-shellcode-to-speed-up-amazon-redshift.html
+    title: "Injecting a Chess Engine into Amazon Redshift"
+
+  - url: http://oraclemine.com/sql-query-solved-sudoku-seconds/
+    title: "This Single SQL Query Solved My Sudoku In Seconds"
+
+  - url: https://www.haproxy.com/blog/using-haproxy-as-an-api-gateway-part-1/
+    title: "Using HAProxy as an API gateway"
+    description: |
+      In addtion to API routing, HAProxy can do security, rate limiting, monitoring, and other cross-cutting concerns. In essence, by placing all of your APIs behind a shared HAProxy instance, these requirements can be offloaded.
+
+  - url: https://www.percona.com/blog/2018/10/02/scaling-postgresql-using-connection-poolers-and-load-balancers-for-an-enterprise-grade-environment/
+    title: "Scaling PostgreSQL using Connection Poolers and Load Balancers"
+    description: |
+      Using PgBouncer for connection pooler, in front of HAProxy, in turn proxy traffic to Postgres instance behind it.
+      The key thing is HAProxy route 2 kind of traffics: write to master only and distribute read to multiple instances.
+      Also read [https://www.percona.com/blog/2018/06/27/scaling-postgresql-with-pgbouncer-you-may-need-a-connection-pooler-sooner-than-you-expect/](why you may need a Connection Pooler Sooner Than You Expect).
+
+  - url: https://hackernoon.com/real-time-linux-communications-2faabf31cf5e
+    title: "Real-time Linux communications"
+    description: |
+      An evaluation of the Linux communication stack for real-time robotic applications
+
+brief:
+  - url: https://www.cockroachlabs.com/blog/brief-history-high-availability/
+    title: A Brief History of High Availability
+
+  - url: https://www.twilio.com/blog/audio-visualisation-web-audio-api--react
+    title: "Audio visualisation with the Web Audio API and React"
+
+  - url: https://medium.com/airbnb-engineering/production-secret-management-at-airbnb-ad230e1bc0f6
+    title: "Production Secret Management at Airbnb"
+
+  - url: https://medium.com/@rakyll/cpdd-critical-path-driven-development-6c2592fb8ea4
+    title: "CPDD: Critical Path Driven Development"
+
+  - url: https://simonwillison.net/2018/Oct/4/datasette-ideas/#SQL_as_an_API_language
+    title: "SQL as an API language"
+
+  - url: https://3mdeb.com/firmware/optimize-performance-in-docker-containers/
+    title: "Optimize performance in Docker containers used by Embedded Systems"
+
+  - url: http://eng.wealthfront.com/2018/09/20/our-adventures-in-scaling/
+    title: "Adventures in Scaling at WealthFront"
+
+  - url: https://aws.amazon.com/blogs/opensource/aws-service-operator-kubernetes-available/
+    title: "AWS Service Operator for Kubernetes"
+    description: |
+      Map AWS resources into K8S CRD so you can provision AWS resource without usin Terraform or Cloudformation
+
+  - url: https://blog.cloudflare.com/roughtime/
+    title: "Roughtime"
+    description: "Securing Time with Digital Signatures"
+
+  - url: https://auth0.com/blog/how-we-store-data-in-the-cloud-at-auth0/
+    title: "How We Store Data in the Cloud at Auth0"
+
+  - url: https://scalegrid.io/blog/xfs-vs-ext4-comparing-mongodb-performance-on-aws-ec2/
+    title: "XFS vs EXT4 – Comparing MongoDB Performance on AWS EC2"
+    description: |
+      Despite targeting at MongoDB but the theory can be applied for other software. Such as Kafka recomended XFS too.
+
+  - url: https://medium.com/@bananaft/my-journey-into-fractals-d25ebc6c4dc2
+    title: "My journey into fractals"
+    desription: |
+      One day I looked at 3d-fractals at shadertoy, and decided to write my own fractal renderer, but in a game engine
+
+  - url: https://mostly-adequate.gitbooks.io/mostly-adequate-guide/
+    title: "Mostly adequate guide to functional programming"
+    description: "A free book"
+
+  - url: https://www.gribblelab.org/CBootCamp/
+    title: "C Programming Boot Camp"
+    description: |
+      Learn C usually opens your mind to help you understand more low level primitive concept.
+
+  - url: https://stackabuse.com/creating-a-simple-recommender-system-in-python-using-pandas/
+    title: "A Simple Recommender System in Python using Pandas"
+
+  - url: https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/
+    title: "Scaling Engineering Teams via Writing Things Down and Sharing - aka RFCs"
+
+  - url: https://joshrendek.com/2018/04/kubernetes-on-bare-metal/
+    title: "Kubernetes On Bare Metal"
+
+  - url: https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html
+    title: "Scheduling In Go"
+
+video:
+  - url: https://explore.mongodb.com/mongodb-world-2018/carlos-saraiva-and-aritra-chatterjee-a-journey-to-the-cloud
+    title: "A Journey to the Cloud with Fraud Detection, Transactions, and MongoDB"
+
+  - url: https://www.infoq.com/presentations/microservices-networking
+    title: "Networking Your Microservices Applications(41 mins)"
+
+  - url: https://vimeo.com/223525975
+    title: "Purely Functional Configuration Management with Nix and NixOS"
+    description: |
+      Also checkout this talk about [configuration management with nix](https://www.infoq.com/articles/configuration-management-with-nix)
+
+  - url: https://atscaleconference.com/videos/resiliency-testing-with-toxiproxy/
+    title: "Resiliency testing with Toxiproxy"
+
+  - url: https://www.youtube.com/watch?v=XLnWMfdbQEo&feature=share&__s=vapsgckbosy9pikkmkro
+    title: "OCaml, REborn: fullstack applications with ReasonML"
+
+  - url: https://www.youtube.com/watch?v=RFrKffrKCeU&__s=vapsgckbosy9pikkmkro
+    title: "I used Elm in production and it cost me my job"
+
+  - url: https://www.brighttalk.com/webcast/16287/337988
+    title: "Secure Kubernetes with GKE and Falco"
+
+read_code:
+  - url: https://bitbucket.org/snippets/mariusz-krynski/bedBGK/tic-tac-toesql
+    title: "tic-tac-toe.sql"
+    description: "TicTacToe in SQL (Postgres)"
+    category:
+      - SQL
+
+  - url: https://github.com/hdm/mac-ages
+    title: "mac-ages: MAC address age tracking"
+    description: "Fun thing to do :)"
+    category:
+      - Ruby
+
+  - url: https://github.com/carllerche/tower-web
+    title: tower-web
+    description: "A fast, boilerplate free, web framework for Rust"
+    category:
+      - Rust
+
+  - url: https://github.com/gophercarrot/carrot
+    title: "carrot"
+    description: |
+      Distributed WebSocket and HTTP Load Testing Framework in Go
+    category:
+      - Go
+
+  - url: https://github.com/mcilloni/fork
+    title: fork
+    description: "A simple, self hosted, low level toy programming language"
+    category:
+      - C
+
+  - url: https://github.com/typicode/husky
+    title: "husky 🐶"
+    description:  Git hooks made easy
+    category:
+      - JavaScript
+
+  - url: https://github.com/rianhunter/dbxfs
+    title: "User-space file system for Dropbox"
+    category:
+      - Python
+
+  - url: https://github.com/target/strelka
+    title: strelka
+    description: |
+      a real-time file scanning system used for threat hunting, threat detection, and incident response.
+    category:
+      - Python
+
+  - url: https://css-tricks.com/the-shapes-of-css/
+    title: "The Shapes of CSS"
+    category:
+      - CSS
+
+tool:
+  - url: https://tmaiaroto.github.io/aegis/#getting-started
+    title: "aegis"
+    description: "An AWS Serverless Framework for Go"
+
+  - url: https://github.com/salesforce/hassh
+    title: "hassh: a Profiling Method for SSH Clients and Servers"
+    description: "a network fingerprinting standard which can be used to identify specific Client and Server SSH implementations"
+
+  - url: https://github.com/lesovsky/pgcenter
+    title: pgcenter
+    description: "Command-line admin tool for observing and troubleshooting Postgres"
+
+  - url: https://github.com/RedBeardLab/rediSQL
+    title: rediSQL
+    description: |
+      Redis module that provides a completely functional SQL database
+
+  - url: https://github.com/jlfwong/speedscope
+    title: "speedscope"
+    description: "interactive web-based viewer for performance profiles for FlameGraphs"
+
+  - url: https://github.com/spiral/roadrunner
+    title: roadrunner
+    description: |
+      High-performance PHP application server, load-balancer and process manager written in Golang
+
+  - url: https://github.com/micromdm/micromdm/
+    title: micromdm
+    description: "Mobile Device Management server for Apple Devices"
+
+  - url: https://github.com/countable-web/cryptsend
+    title: cryptsend
+    description: "Send files anywhere->anywhere securely"
+
+  - url: https://github.com/esell/deb-simple
+    title: deb-simple
+    description: "A lightweight, bare-bones apt repository server"
+
+  - url: https://github.com/sourcegraph/sourcegraph
+    title: sourcegraph
+    description: "Code search and intelligence, self-hosted and scalable"
+
+  - url: https://github.com/kubernetes-sigs/kustomize
+    title: "Customization of kubernetes YAML configurations"
+
+  - url: https://github.com/platform9/etcdadm
+    title: etcdadm
+    description: "a command-line tool for operating an etcd cluster"
+
+
