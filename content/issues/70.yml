@@ -233,6 +233,10 @@ tool:
     title: "speedscope"
     description: "interactive web-based viewer for performance profiles for FlameGraphs"
 
+  - url: https://github.com/felixangell/strife
+    title: strife
+    description: "A simple game framework that wraps around SDL2"
+
   - url: https://github.com/spiral/roadrunner
     title: roadrunner
     description: |
