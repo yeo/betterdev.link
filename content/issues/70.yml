@@ -39,6 +39,12 @@ links:
       HAProxy has many built in primitive: rate limiting, monitoring, circuit-breaking, connection queueing, authentication
       to handle job of an API gateway. We can even use [HAProxy to load balancer postgress too](https://www.percona.com/blog/2018/10/02/scaling-postgresql-using-connection-poolers-and-load-balancers-for-an-enterprise-grade-environment/)
 
+  - url: http://floooh.github.io/2018/10/06/bombjack.html
+    title: "Bomb Jack arcade emulator"
+    description: |
+       The author learned about the Bomb Jack arcade machine while writing an emulator for it.
+       Especially the emulator is written with WebAssembly.
+
 brief:
   - url: https://jvns.ca/blog/senior-engineer/
     title: "What's a senior engineer's job?"
@@ -162,6 +168,12 @@ read_code:
     description: "a bridge that let you use one syntax to every package manager on every operating system: apt, yum, pacman, nix, snap, homebrew, pkg...."
     category:
       - "C++"
+
+  - url: https://github.com/renatoathaydes/rawhttp/
+    title: "RawHTTP Duplex"
+    description: "create a duplex communication channel as either a client or a server"
+    category:
+      - Kotlin
 
   - url: https://github.com/typicode/husky
     title: "husky 🐶"
