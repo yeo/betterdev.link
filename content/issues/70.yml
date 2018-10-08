@@ -23,10 +23,10 @@ links:
       The ability to log in as one of your users is one of the highest value features you can develop to support your customers.
       But it's also one of the most dangerous features you can develop to support your customers.  What can we do?
 
-  - url: http://performantcode.com/web/do-you-really-know-cors
-    title: "Do You Really Know CORS?"
+  - url: https://intoli.com/blog/aopic-algorithm/
+    title: "Performing efficient broad crawls with the aopic algorithm"
     description: |
-      No ‘Access-Control-Allow-Origin’ header is present on the requested resource. Origin http://www.sesamestreet.com  is therefore not allowed access. When it happens, you googled it, then fixed it and moved on. Let's dive deeper, trying to understand what problem CORS really solves.
+      This article explains how the Adaptive On-Line Page Importance Computation (AOPIC) algorithm works. AOPIC is useful for performing efficient broad crawls of large slices of the internet. The key idea behind the algorithm is that pages are crawled based on a continuously improving estimate of page importance. This effectively allows the user of the algorithm to allocate the bulk of their limited bandwidth on the most important pages that their crawler encounters.
 
   - url: http://oraclemine.com/sql-query-solved-sudoku-seconds/
     title: "This Single SQL Query Solved My Sudoku In Seconds"
@@ -49,6 +49,9 @@ brief:
   - url: https://medium.com/@rakyll/cpdd-critical-path-driven-development-6c2592fb8ea4
     title: "Critical Path Driven Development"
 
+  - url: http://performantcode.com/web/do-you-really-know-cors
+    title: "Do You Really Know CORS?"
+
   - url: https://pavelkosenko.wordpress.com/2015/08/13/what-is-good-color/
     title: "What is good color?"
 
@@ -68,6 +71,9 @@ brief:
 
   - url: http://eng.wealthfront.com/2018/09/20/our-adventures-in-scaling/
     title: "Adventures in Scaling at WealthFront"
+
+  - url: https://medium.com/netflix-techblog/netflix-edge-load-balancing-695308b5548c
+    title: "Rethinking Netflix’s Edge Load Balancing"
 
   - url: https://blog.cloudflare.com/roughtime/
     title: "Roughtime"
@@ -98,20 +104,20 @@ brief:
   - url: https://joshrendek.com/2018/04/kubernetes-on-bare-metal/
     title: "Kubernetes On Bare Metal"
 
-  - url: https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html
-    title: "Scheduling In Go"
-
 video:
   - url: https://explore.mongodb.com/mongodb-world-2018/carlos-saraiva-and-aritra-chatterjee-a-journey-to-the-cloud
     title: "A Journey to the Cloud with Fraud Detection, Transactions, and MongoDB"
+
+  - url: https://www.infoq.com/presentations/microservices-networking
+    title: "Networking Your Microservices Applications(41 mins)"
+
+  - url: https://www.youtube.com/watch?v=XLnWMfdbQEo&feature=share&__s=vapsgckbosy9pikkmkro
+    title: "OCaml, REborn: fullstack applications with ReasonML"
 
   - url: https://vimeo.com/223525975
     title: "Purely Functional Configuration Management with Nix and NixOS"
     description: |
       Also checkout this talk about [configuration management with nix](https://www.infoq.com/articles/configuration-management-with-nix)
-
-  - url: https://www.youtube.com/watch?v=XLnWMfdbQEo&feature=share&__s=vapsgckbosy9pikkmkro
-    title: "OCaml, REborn: fullstack applications with ReasonML"
 
   - url: https://www.youtube.com/watch?v=RFrKffrKCeU&__s=vapsgckbosy9pikkmkro
     title: "I used Elm in production and it cost me my job"
@@ -154,6 +160,8 @@ read_code:
   - url: https://github.com/emilengler/sysget?files=1
     title: "sysget: A front-end for every package manager"
     description: "a bridge that let you use one syntax to every package manager on every operating system: apt, yum, pacman, nix, snap, homebrew, pkg...."
+    category:
+      - "C++"
 
   - url: https://github.com/typicode/husky
     title: "husky 🐶"
