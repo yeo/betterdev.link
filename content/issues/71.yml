@@ -1,0 +1,263 @@
+time: "Oct 15, 2018"
+description: ""
+draft: false
+
+links:
+  - url: https://tls.ulfheim.net/
+    title: "The Illustrated TLS Connection"
+    description: |
+      Every byte of a TLS connection explained and reproduced. This demonstration a client has connection to a server, negotiated a TLS 1.2 session, sent "ping", received "pong", and then terminated the session
+
+  - url: https://tmcw.github.io/literate-raytracer/
+    title: "a literate raytracer in javascript"
+    description: |
+      Raytracing is a relatively simple way to render images of 3D objects. The core is an elegant idea, that one can simulate the real-world behavior of photons of light bouncing off of surfaces and colors accumulating from their paths. It's not inherently fast, but the simplicity of the core lets it model interesting things like reflections and depth of field in ways that mirror natural processes.
+
+  - url: https://www.the-paper-trail.org/post/masstree-paper-notes/
+    title: "Masstree: A cache-friendly mashup of tries and B-trees"
+    description: |
+      This paper proposes an efficient tree data structure that relies on splitting variable length keys into a variable number of fixed-length keys called slices. As you go down the tree, you compare the first slice of each key, then the second, then the third and so on, but each comparision has constant cost.
+
+  - url: https://www.oreilly.com/ideas/best-design-practices-to-get-the-most-out-of-your-api
+    title: "Best design practices to get the most out of your API"
+
+  - url: https://neo4j.com/blog/graph-search-algorithm-basics/
+    title: "Graph Databases for Beginners: Graph Search Algorithm Basics"
+    description: |
+      Part of Graph Databases for Beginners blog series by Neo4J. This post discuss different graph search algorithms and how they’re used, including Dijkstra’s algorithm and the A* algorithm. Our discussion will focus on what graph search algorithms do for you (and your business) without diving too deep into the mathematics of graph theory.
+
+  - url: https://developers.redhat.com/blog/2018/10/01/patterns-for-distributed-transactions-within-a-microservices-architecture/
+    title: "Patterns for distributed transactions within a microservices architecture"
+    description: |
+      Microservices architecture (MSA) has become very popular. However, one common problem is how to manage distributed transactions across multiple microservices. This post is going to share my experience from past projects and explain the problem and possible patterns that could solve it.
+
+  - url: https://medium.com/javascript-scene/rethinking-unit-test-assertions-55f59358253f
+    title: "Rethinking Unit Test Assertions"
+    description: |
+      Automated tests always act as a good bug report when they fail. What information a good bug report needs. There are 5 questions every unit test must answer: what is tested, what it does, the actual output, expected output and how to re-produce.
+
+  - url: https://rcoh.me/posts/why-you-can-have-a-million-go-routines-but-only-1000-java-threads/
+    title: "Why you can have millions of Goroutines but only thousands of Java Threads"
+    description: |
+      On my laptop, I got up to 70 million goroutines before I got bored. So why can you have so many more Goroutines than threads? The answer is a fun journey down the operating system and back up again.
+
+  - url: https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory
+    title: "Memory Allocators 101 - Write a simple memory allocator"
+    description: |
+      This is a beginner level article, so I will not spell out every detail.
+      This memory allocator will not be fast and efficient, we will not adjust allocated memory to align to a page boundary, but we will build a memory allocator that works. That’s it.
+
+  - url: https://lwn.net/SubscriberLink/767630/594421f913c3d00a/
+    title: "What's a CPU to do when it has nothing to do"
+    description: |
+      It would be reasonable to expect doing nothing to be an easy, simple task for a kernel, but it isn't.
+      At Kernel Recipes 2018, Rafael Wysocki discussed what CPUs do when they don't have anything to do, how the kernel handles this
+      The idle loop, one of the kernel subsystems that Wysocki maintains, controls what a CPU does when it has no processes to run
+
+  - url: http://cnp3book.info.ucl.ac.be/2nd/html/
+    title: "Computer Networking: Principles, Protocols and Practice, 2nd edition"
+    description: |
+      Have ever feel frustrated because you don't understand the network layer? what
+      are layer4, layer7 or layer2/3 routing? What kind of data is in a TCP packet?
+      What is exactly happen during a TLS handshake?
+      All of these requires some fundamental knowledges and cannot answer in a short post.
+      That's why this free ebook is available.
+
+brief:
+  - url: https://logrocket-blog.ghost.io/death-by-a-thousand-cuts-a-checklist-for-eliminating-common-react-performance-issues/
+    title: "A checklist for eliminating common React performance issues"
+
+  - url: https://www.cybertec-postgresql.com/en/postgresql-improving-sort-performance/
+    title: "Tuning PostgreSQL to improve sort performance"
+
+  - url: https://www.percona.com/blog/2018/10/08/detailed-logging-for-enterprise-grade-postresql/
+    title: "Detailed Logging for Enterprise-Grade PostreSQL"
+
+  - url: http://mbmlbook.com
+    title: "Model-based machine learning"
+
+  - url: https://github.com/lacuna/bifurcan/blob/master/doc/comparison.md
+    title: "a comparison of functional data structures on the JVM"
+
+  - url: https://blogs.dropbox.com/tech/2018/10/validating-performance-and-reliability-of-the-new-dropbox-search-engine/
+    title: "Validating performance and reliability of the new Dropbox search engine"
+
+  - url: https://blogs.dropbox.com/tech/2018/10/dropbox-traffic-infrastructure-edge-network/
+    title: "Dropbox traffic infrastructure: Edge network"
+
+  - url: https://softwareengineeringdaily.com/2018/10/02/shopify-infrastructure-migration/
+    title: "Shopify Infrastructure Migration"
+
+  - url: https://erikbern.com/2018/10/08/the-hackers-guide-to-uncertainty-estimates.html
+    title: "The hacker's guide to uncertainty estimates"
+
+  - url: https://portswigger.net/blog/top-10-web-hacking-techniques-of-2017
+    title: "Top 10 Web Hacking Techniques of 2017"
+
+  - url: https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46
+    title: "12 Factor for CLI Apps"
+    description: "Aim at Node dev but can be applied for anything"
+
+  - url: https://hacks.mozilla.org/2018/10/calls-between-javascript-and-webassembly-are-finally-fast-%F0%9F%8E%89/
+    title: "Calls between JavaScript and WebAssembly are finally fast"
+
+  - url: https://www.usenix.org/conference/osdi18/presentation/cutler
+    title: "The benefits and costs of writing a POSIX kernel in a high-level language"
+
+  - url: https://utcc.utoronto.ca/~cks/space/blog/programming/GoProgramMemoryUse
+    title: "A deep dive into the OS memory use of a simple Go program"
+    description: |
+      Also check out [Design choices of the Go garabage collector](https://engineering.linecorp.com/en/blog/detail/342)
+
+  - url: https://jjrscott.com/migrating-to-swift
+    title: "Migrating to Swift"
+
+  - url: https://wiki.alopex.li/PortingCToRust
+    title: "Porting C ToRust"
+
+  - url: https://engineering.salesforce.com/mirrormaker-performance-tuning-63afaed12c21
+    title: "MirrorMaker Performance Tuning"
+    description: "Tuning Kafka for Cross Data Center Replication"
+
+  - url: https://blog.theodo.fr/2018/10/tips-build-better-circle-ci-facebook/
+    title: "What I learned from the CI of Facebook and their Open Source Projects"
+
+video:
+  - url: https://www.youtube.com/watch?v=liKXtikP9F0
+    title: "AES: Advanced Encryption Standard - a Conceptual Review"
+
+  - url: https://www.driftingruby.com/episodes/service-objects-for-api-interactions-with-twilio
+    title: "Service Objects for API Interactions with Twilio"
+
+  - url: https://www.infoq.com/presentations/rest-graphql
+    title: "Goodbye REST APIs. Hello GraphQL!(57mins)"
+
+  - url: https://www.infoq.com/presentations/gvisor-linux-container
+    title: "Introduction to gVisor: Sandboxed Linux Container Runtime(40mins)"
+
+read_code:
+  - url: https://github.com/whitfin/local-cluster
+    title: local-cluster
+    description: "This library is designed to assist in testing distributed states in Elixir which require a number of local nodes"
+    category:
+      - Elixir
+
+  - url: https://github.com/amzn/smoke-framework
+    title: "smoke-framework"
+    description: "A light-weight server-side service framework"
+    category:
+      - Swift
+
+  - url: https://github.com/marcosgriselli/Sizes
+    title: "Sizes"
+    description: "View your app on different device and font sizes"
+    category:
+      - Swift
+
+  - url: https://github.com/mourner/flatbush
+    title: "flatbush"
+    description: "A very fast static spatial index for 2D points and rectangles"
+    category:
+      - JavaScript
+
+  - url: https://github.com/ruby-formatter/rufo
+    title: 'rufo'
+    description: "The Ruby Formatter"
+    category:
+      - Ruby
+
+  - url: https://github.com/CraneStation/cranelift
+    title: "Cranelift code generator"
+    description: "a low-level retargetable code generator. It translates a target-independent intermediate representation into executable machine code"
+    category:
+      - Rust
+
+  - url: https://github.com/symisc/ascii_art/
+    title: "Real-Time ASCII Art Rendering"
+    category:
+      - C
+
+  - url: https://github.com/jlaine/aiortc
+    title: aiortc
+    description: "WebRTC and ORTC implementation for Python using asyncio"
+    category:
+      - Python
+
+  - url: https://github.com/mit-pdos/biscuit
+    title: biscuit
+    description: "a monolithic, POSIX-subset operating system kernel in Go for x86-64 CPUs"
+    category:
+      - Go
+
+  - url: https://github.com/oscarlab/betrfs
+    title: "Betrfs"
+    description: "The Bε-tree File System is an in-kernel file system that uses Bε trees to organize on-disk storage"
+    category:
+      - C++
+
+  - url: https://github.com/littleredcomputer/sicmutils
+    title: "sicmutils"
+    description: "An implementation of the Scmutils system for math and physics investigations"
+    category:
+      - Clojure
+
+  - url: https://libp2p.io/
+    title: "libp2p2"
+    description: "A modular network stack"
+    category:
+      - Rust
+      - Go
+      - JavaScript
+
+tool:
+  - url: https://github.com/leonardomso/graphql-mongodb-server
+    title: "🌐 A GraphQL MongoDB server"
+
+  - url: http://pgconfigurator.cybertec.at/
+    title: pgconfigurator
+    description: "Easily generate optinal Postgres config"
+
+  - url: https://github.com/salesforce/mirus
+    title: "mirus"
+    description: "a cross data-center data replication tool for Apache Kafka"
+
+  - url: https://github.com/elliotchance/ghost
+    title: ghost
+    description: "Locate and fix overly complex lines of code in Go"
+
+  - url: https://github.com/okbob/pspg
+    title: psqpg
+    description: "postgres pager"
+
+
+  - url: https://github.com/go-vgo/robotgo
+    title: robotgo
+    description: "RobotGo, Go Native cross-platform GUI automation"
+
+  - url: https://github.com/asticode/go-astiencoder
+    title: "go-astiencoder"
+    description: "Open source video encoder written in GO and based on ffmpeg C bindings"
+
+  - url: https://github.com/octobox/octobox
+    title: "octobox"
+    description: "📮Untangle your GitHub Notifications"
+
+  - url: https://www.charts.com/muze
+    title: "muze charts"
+    description: "Compose data-driven layers to create interactive visualizations with relational algebra data model"
+
+  - url: https://github.com/ankane/dexter
+    title: "dexter"
+    description: "The automatic indexer for Postgres"
+
+  - url: https://github.com/shyiko/kubesec
+    title: kubesec
+    description: "Secure Secret management for Kubernetes (with gpg, Google Cloud KMS and AWS KMS backends)"
+
+  - url: https://github.com/socialcopsdev/camelot/
+    title: camelot
+    description: "PDF Table Extraction for Humans"
+  - url: https://github.com/ewilde/terraform-provider-openfaas
+    title: "Terraform OpenFaaS provider"
+
+
