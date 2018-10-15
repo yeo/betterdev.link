@@ -57,6 +57,11 @@ links:
       That's why this free ebook is available.
 
 brief:
+  - url: https://suva.sh/posts/well-documented-makefiles/
+    title: "Well documented Makefiles (available via `make help`)"
+    description: |
+      Some Makefile tricks can be added for each target in the Makefile itself, and is available to view as a make target (eg. make help).
+
   - url: https://binarydebt.wordpress.com/2018/10/06/how-does-an-x86-processor-boot/
     title: "How Does an Intel Processor Boot"
 
@@ -212,6 +217,10 @@ read_code:
       - JavaScript
 
 tool:
+  - url: https://github.com/alexmojaki/birdseye
+    title: birdseye
+    description: "Quick, convenient, expression-centric, graphical Python debugger using the AST"
+
   - url: https://github.com/awslabs/aws-service-operator
     title: "aws-service-operator"
     description: "allows you to create AWS resources using kubectl with CRD"
@@ -238,7 +247,6 @@ tool:
   - url: https://github.com/okbob/pspg
     title: psqpg
     description: "postgres pager"
-
 
   - url: https://github.com/go-vgo/robotgo
     title: robotgo
