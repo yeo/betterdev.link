@@ -31,7 +31,7 @@ func main() {
 	case "build":
 		baja.Compile(cwd)
 	case "clean":
-		clean()
+		clean(os.Args[2])
 	case "serve", "server":
 		serve()
 	case "dupe":
