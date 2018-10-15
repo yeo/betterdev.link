@@ -6,7 +6,17 @@ links:
   - url: https://tls.ulfheim.net/
     title: "The Illustrated TLS Connection"
     description: |
-      Every byte of a TLS connection explained and reproduced. This demonstration a client has connection to a server, negotiated a TLS 1.2 session, sent "ping", received "pong", and then terminated the session
+      Every byte of a TLS connection explained and reproduced. This demonstration a client has connection to a server, negotiated a TLS 1.2 session, sent "ping", received "pong", and then terminated the session.
+
+  - url: https://medium.com/@alexgolec/google-interview-questions-deconstructed-the-knights-dialer-f780d516f029
+    title: "Google Interview Questions Deconstructed: The Knight’s Dialer"
+    description: |
+      This is the part of a series of posts on preparing for and understanding interviews at big tech companies, drawing from my experience recruiting and interviewing for Google. I’ll be using real banned interview problems I and other Google engineers have used in interviews.
+
+  - url: https://mattbruv.github.io/ccsr-bugfix/
+    title: "Fixing A Bug In An 18 Year Old Shockwave Game"
+    description: |
+      Reverse engineering, and fixed by literally editing 1 byte.
 
   - url: https://tmcw.github.io/literate-raytracer/
     title: "a literate raytracer in javascript"
@@ -31,28 +41,11 @@ links:
     description: |
       Microservices architecture (MSA) has become very popular. However, one common problem is how to manage distributed transactions across multiple microservices. This post is going to share my experience from past projects and explain the problem and possible patterns that could solve it.
 
-  - url: https://medium.com/javascript-scene/rethinking-unit-test-assertions-55f59358253f
-    title: "Rethinking Unit Test Assertions"
-    description: |
-      Automated tests always act as a good bug report when they fail. What information a good bug report needs. There are 5 questions every unit test must answer: what is tested, what it does, the actual output, expected output and how to re-produce.
-
-  - url: https://rcoh.me/posts/why-you-can-have-a-million-go-routines-but-only-1000-java-threads/
-    title: "Why you can have millions of Goroutines but only thousands of Java Threads"
-    description: |
-      On my laptop, I got up to 70 million goroutines before I got bored. So why can you have so many more Goroutines than threads? The answer is a fun journey down the operating system and back up again.
-
   - url: https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory
     title: "Memory Allocators 101 - Write a simple memory allocator"
     description: |
       This is a beginner level article, so I will not spell out every detail.
       This memory allocator will not be fast and efficient, we will not adjust allocated memory to align to a page boundary, but we will build a memory allocator that works. That’s it.
-
-  - url: https://lwn.net/SubscriberLink/767630/594421f913c3d00a/
-    title: "What's a CPU to do when it has nothing to do"
-    description: |
-      It would be reasonable to expect doing nothing to be an easy, simple task for a kernel, but it isn't.
-      At Kernel Recipes 2018, Rafael Wysocki discussed what CPUs do when they don't have anything to do, how the kernel handles this
-      The idle loop, one of the kernel subsystems that Wysocki maintains, controls what a CPU does when it has no processes to run
 
   - url: http://cnp3book.info.ucl.ac.be/2nd/html/
     title: "Computer Networking: Principles, Protocols and Practice, 2nd edition"
@@ -64,8 +57,20 @@ links:
       That's why this free ebook is available.
 
 brief:
+  - url: https://binarydebt.wordpress.com/2018/10/06/how-does-an-x86-processor-boot/
+    title: "How Does an Intel Processor Boot"
+
+  - url: https://lwn.net/SubscriberLink/767630/594421f913c3d00a/
+    title: "What's a CPU to do when it has nothing to do"
+
+  - url: https://medium.com/javascript-scene/rethinking-unit-test-assertions-55f59358253f
+    title: "Rethinking Unit Test Assertions"
+
   - url: https://logrocket-blog.ghost.io/death-by-a-thousand-cuts-a-checklist-for-eliminating-common-react-performance-issues/
     title: "A checklist for eliminating common React performance issues"
+
+  - url: https://rcoh.me/posts/why-you-can-have-a-million-go-routines-but-only-1000-java-threads/
+    title: "Why you can have millions of Goroutines but only thousands of Java Threads"
 
   - url: https://www.cybertec-postgresql.com/en/postgresql-improving-sort-performance/
     title: "Tuning PostgreSQL to improve sort performance"
@@ -101,9 +106,6 @@ brief:
   - url: https://hacks.mozilla.org/2018/10/calls-between-javascript-and-webassembly-are-finally-fast-%F0%9F%8E%89/
     title: "Calls between JavaScript and WebAssembly are finally fast"
 
-  - url: https://www.usenix.org/conference/osdi18/presentation/cutler
-    title: "The benefits and costs of writing a POSIX kernel in a high-level language"
-
   - url: https://utcc.utoronto.ca/~cks/space/blog/programming/GoProgramMemoryUse
     title: "A deep dive into the OS memory use of a simple Go program"
     description: |
@@ -124,10 +126,10 @@ brief:
 
 video:
   - url: https://www.youtube.com/watch?v=liKXtikP9F0
-    title: "AES: Advanced Encryption Standard - a Conceptual Review"
+    title: "AES: Advanced Encryption Standard - a Conceptual Review(16mins)"
 
   - url: https://www.driftingruby.com/episodes/service-objects-for-api-interactions-with-twilio
-    title: "Service Objects for API Interactions with Twilio"
+    title: "Service Objects for API Interactions with Twilio(16mins)"
 
   - url: https://www.infoq.com/presentations/rest-graphql
     title: "Goodbye REST APIs. Hello GraphQL!(57mins)"
@@ -136,6 +138,12 @@ video:
     title: "Introduction to gVisor: Sandboxed Linux Container Runtime(40mins)"
 
 read_code:
+  - url: https://github.com/mit-pdos/biscuit
+    title: "biscuit: a monolithic, POSIX-subset operating system kernel in Go for x86-64 CPUs"
+    description: "Written in 8 years. Read companion post [The benefits and costs of writing a POSIX kernel in a high-level language](https://www.usenix.org/conference/osdi18/presentation/cutler) and [research paper](https://www.usenix.org/system/files/osdi18-cutler.pdf)"
+    category:
+      - Go
+
   - url: https://github.com/whitfin/local-cluster
     title: local-cluster
     description: "This library is designed to assist in testing distributed states in Elixir which require a number of local nodes"
@@ -183,12 +191,6 @@ read_code:
     category:
       - Python
 
-  - url: https://github.com/mit-pdos/biscuit
-    title: biscuit
-    description: "a monolithic, POSIX-subset operating system kernel in Go for x86-64 CPUs"
-    category:
-      - Go
-
   - url: https://github.com/simongog/sdsl-lite
     title: 'sdsl-lite'
     description: "Succinct Data Structure Library 2.0"
@@ -216,6 +218,14 @@ read_code:
       - JavaScript
 
 tool:
+  - url: https://github.com/awslabs/aws-service-operator
+    title: "aws-service-operator"
+    description: "allows you to create AWS resources using kubectl with CRD"
+
+  - url: https://github.com/zegl/kube-score
+    title: "kube-score"
+    description: "Kubernetes object static code analysis"
+
   - url: https://github.com/leonardomso/graphql-mongodb-server
     title: "🌐 A GraphQL MongoDB server"
 
@@ -265,5 +275,3 @@ tool:
     description: "PDF Table Extraction for Humans"
   - url: https://github.com/ewilde/terraform-provider-openfaas
     title: "Terraform OpenFaaS provider"
-
-
