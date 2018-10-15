@@ -4,3 +4,5 @@ community
 vendor
 content/prod.csv
 *.env
+*.log
+node_modules
