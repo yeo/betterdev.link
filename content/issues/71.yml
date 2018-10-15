@@ -78,9 +78,6 @@ brief:
   - url: https://www.percona.com/blog/2018/10/08/detailed-logging-for-enterprise-grade-postresql/
     title: "Detailed Logging for Enterprise-Grade PostreSQL"
 
-  - url: http://mbmlbook.com
-    title: "Model-based machine learning"
-
   - url: https://github.com/lacuna/bifurcan/blob/master/doc/comparison.md
     title: "a comparison of functional data structures on the JVM"
 
@@ -92,9 +89,6 @@ brief:
 
   - url: https://softwareengineeringdaily.com/2018/10/02/shopify-infrastructure-migration/
     title: "Shopify Infrastructure Migration"
-
-  - url: https://erikbern.com/2018/10/08/the-hackers-guide-to-uncertainty-estimates.html
-    title: "The hacker's guide to uncertainty estimates"
 
   - url: https://portswigger.net/blog/top-10-web-hacking-techniques-of-2017
     title: "Top 10 Web Hacking Techniques of 2017"
@@ -110,12 +104,6 @@ brief:
     title: "A deep dive into the OS memory use of a simple Go program"
     description: |
       Also check out [Design choices of the Go garabage collector](https://engineering.linecorp.com/en/blog/detail/342)
-
-  - url: https://jjrscott.com/migrating-to-swift
-    title: "Migrating to Swift"
-
-  - url: https://wiki.alopex.li/PortingCToRust
-    title: "Porting C ToRust"
 
   - url: https://engineering.salesforce.com/mirrormaker-performance-tuning-63afaed12c21
     title: "MirrorMaker Performance Tuning"
@@ -141,6 +129,12 @@ read_code:
   - url: https://github.com/mit-pdos/biscuit
     title: "biscuit: a monolithic, POSIX-subset operating system kernel in Go for x86-64 CPUs"
     description: "Written in 8 years. Read companion post [The benefits and costs of writing a POSIX kernel in a high-level language](https://www.usenix.org/conference/osdi18/presentation/cutler) and [research paper](https://www.usenix.org/system/files/osdi18-cutler.pdf)"
+    category:
+      - Go
+
+  - url: https://github.com/go-ego/gse
+    title: ges
+    description: Efficient text segmentation; support english, chinese, japanese and other
     category:
       - Go
 
@@ -273,5 +267,6 @@ tool:
   - url: https://github.com/socialcopsdev/camelot/
     title: camelot
     description: "PDF Table Extraction for Humans"
+
   - url: https://github.com/ewilde/terraform-provider-openfaas
     title: "Terraform OpenFaaS provider"
