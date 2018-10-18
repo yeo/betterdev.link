@@ -12,5 +12,6 @@ func router(e *echo.Echo, s *Server) {
 	e.GET("/links/:url", s.VisitLink)
 	e.GET("/tracks/:issue", s.Track)
 	e.Static("/admin", "frontend/betterdev")
+	e.GET("/api/activity/:email", s.Activity)
 	e.Static("/", "public")
 }

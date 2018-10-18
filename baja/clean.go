@@ -15,16 +15,9 @@ func Clean(action, dir string) {
 	log.Println("Clean", dir, "public")
 	// os.RemoveAll(dir + "/public")
 
-	contacts, err := ioutil.ReadFile(fmt.Sprintf("./content/%s.csv", "prod"))
+	file, err := os.Open(fmt.Sprintf("./content/%s", "user_open.log"))
 	if err != nil {
-		log.Fatal("Cannot read file", err)
-	}
-
-	r := csv.NewReader(bytes.NewReader(contacts))
-
-	file, err := os.Open(fmt.Sprintf("./content/%s.csv", action))
-	if err != nil {
-		log.Fatal("Error when parse click file")
+		log.Fatal("Error when parse activity file")
 	}
 	defer file.Close()
 
@@ -34,6 +27,14 @@ func Clean(action, dir string) {
 	for scanner.Scan() {
 		clickedUsers[scanner.Text()] = true
 	}
+
+	fmt.Println(clickedUsers)
+
+	contacts, err := ioutil.ReadFile(fmt.Sprintf("./content/%s", "user_send.log"))
+	if err != nil {
+		log.Fatal("Cannot read file", err)
+	}
+	r := csv.NewReader(bytes.NewReader(contacts))
 
 	count := 0
 	for {
