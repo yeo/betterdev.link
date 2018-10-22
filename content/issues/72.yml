@@ -1,0 +1,243 @@
+time: "Oct 22, 2018"
+description: ""
+draft: false
+
+links:
+  - url: https://passthroughpo.st/hackintosh-kvm-guide-high-sierra-using-qemus-i440fx-chipset/
+    title: "Hackintosh-KVM Guide: High Sierra+ Using QEMU’s i440fx Chipset"
+    description: |
+      Running Macintosh on non-Apple hardware is hard, let alone run it on a Virtual Machine.
+      Thanks to the hard work of others in the QEMU/KVM community, the ability to use the macOS operating system on our KVM powered virtual machines is now a reality. We can also enable a much better user experience for OSX virtual machines using GPU Passthrough
+
+  - url: https://robots.thoughtbot.com/announcing-upcase-is-free
+    title: "Upcase of Thoughbot is Now Free"
+    description: |
+      Upcase is online lerning platform with premium content from Thoughbot. Now they open it to the world, anyone can learn. Lots of resource about Rails, TDD, Vim, Git, Refactoring...The reason they open it is because they want to focus more on consulting. Since they tryly love it, they set it free.
+
+  - url: https://fauna.com/blog/consistency-without-clocks-faunadb-transaction-protocol
+    title: "Consistency without Clocks: The FaunaDB Distributed Transaction Protocol"
+    description: |
+      Transactions are hard. Distributed transactions are harder. Distributed transactions over the WAN are final boss hardness. -
+
+  - url: https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/
+    title: "The Law of Leaky Abstractions"
+    description: |
+      There’s a key piece of magic in the engineering of the Internet which you rely on every single day. It happens in the TCP protocol, one of the fundamental building blocks of the Internet.
+
+  - url:  https://codewithoutrules.com/2018/10/10/beyond-senior-software-engineer/
+    title: "The next career step for Senior Software Engineers (that isn’t management)"
+
+  - url: https://nickjanetakis.com/blog/microservices-are-something-you-grow-into-not-begin-with
+    title: "Microservices Are Something You Grow Into, Not Begin With"
+
+  - url: https://blog.phusion.nl/2018/10/11/modularity-vs-spaghetti-code-are-not-your-only-options/
+    title: "Microservices vs spaghetti code are not your only options"
+
+  - url: https://github.com/angrave/SystemProgramming/wiki/Networking,-Part-2:-Using-getaddrinfo
+    title: "Angrave's Crowd-Sourced System Programming Book used at UIUC"
+    description: |
+      This book is an introduction to programming in C, and system programming (processes, threads, synchronization, networking and more!). It's being built by students and faculty from the University of Illinois and is a crowd-source authoring experiment.
+
+  - url: https://blog.heroku.com/applying-seccomp-filters-on-go-binaries
+    title: "Applying Seccomp Filters at Runtime for Go Binaries"
+    description: |
+      Seccomp (short for security computing mode) is a useful feature provided by the Linux kernel since 2.6.12 and is used to control the syscalls made by a process. Despite being Go they have useful insight into syscal, strace too.
+
+  - url: https://memcached.org/blog/modern-lru/
+    title: "Replacing the cache replacement algorithm in memcached"
+    description: |
+      Redis is more popular nowsaday event for memcache' usecase. However, this post is still useful
+      about technique memcache used to use to handle the LRU cache and the new algorithm to solve old
+      pain point about spiking in cpu, not delete item until access. With the original LRU, scaling beyond 8 worker threads was difficult
+
+  - url: https://www.gremlin.com/chaos-monkey/
+    title: "Chaos Monkey Guide for Engineers"
+    description: |
+      Netflix designed Chaos Monkey to test system stability by enforcing failures via the pseudo-random termination of instances and services. This guide included step-by-step technical tutorials for getting started with Chaos Monkey, along with advanced engineering tips and guides for those looking to go beyond the basics.
+
+brief:
+  - url: https://itnext.io/why-every-beginner-front-end-developer-should-know-publish-subscribe-pattern-72a12cd68d44
+    title: "Why every beginner front-end developer should know publish-subscribe pattern"
+
+  - url: http://domainstorytelling.org/
+    title: "Domain-Driven Design with Domain Storytelling"
+
+  - url: https://adrianmejia.com/blog/2018/04/04/how-you-can-change-the-world-learning-data-structures-algorithms-free-online-course-tutorial/
+    title: "How you can change the world by learning Data Structures and Algorithms"
+    description: |
+      Click bait title, for sure. But the article does give a nice index on common data structure and algorithm.
+
+
+  - url: http://tech.adroll.com/blog/dev/ops/2018/10/15/x-marks-the-spot.html
+    title: "marks the spot: saving a ton with EC2 Spot Fleet"
+
+  - url: https://v8.dev/blog/array-sort
+    title: "array-sort"
+    description: "Getting things sorted in V8"
+  - url: https://www.gamedev.net/blogs/entry/2265481-oop-is-dead-long-live-oop/
+    title: "OOP is dead, long live OOP"
+
+  - url: https://tests4geeks.com/cpp-interview-questions/
+    title: "10 Proven C++ Programming Questions to Ask on Interview"
+
+  - url: https://achainofblocks.com/2018/10/05/ipfs-interplanetary-file-system-simply-explained/
+    title: "IPFS The Interplanetary File System | Simply Explained"
+
+  - url: https://github.com/open-source-for-science/TensorFlow-Course
+    title: "Simple and ready-to-use tutorials for TensorFlow"
+
+  - url: https://www.swiftbysundell.com/posts/building-dsls-in-swift
+    title: "Building DSLs in Swift"
+
+  - url: https://heartbeat.fritz.ai/building-a-real-time-object-recognition-ios-app-that-detects-sushi-c4a3a2c32298
+    title: "Building a real-time object recognition iOS app that detects sushi"
+
+  - url: https://triplebyte.com/blog/interview-with-gmail-creator-and-y-combinator-partner-paul-buchheit
+    title: "Gmail Creator on Joining Google, How to Become a Great Engineer and Happiness"
+
+  - url: "https://github.com/leonardomso/33-js-concepts"
+    title: "33 Concepts Every JavaScript Developer Should Know"
+
+  - url: https://medium.com/callapp/database-migration-at-scale-ae85c14c3621
+    title: "Database Migration at Scale"
+
+  - url: https://medium.com/leboncoin-engineering-blog/managing-postgresql-backup-and-replication-for-very-large-databases-61fb36e815a0
+    title: "Managing PostgreSQL backup and replication for very large databases"
+
+video:
+  - url: https://www.youtube.com/watch?v=E5FEqGYLL0o
+    title: "How asymmetric (public key) encryption works(3mins)"
+
+  - url: https://www.youtube.com/watch?v=Cb9SaaPqX5Y
+    title: "Best Practices for Serverless Application Development(11mins)"
+
+  - url: https://www.youtube.com/watch?v=VVG8nYqIiMI
+    title: "Power of Indexing in PostgreSQL(55mins)"
+
+  - url: https://www.youtube.com/watch?v=Bt10M34vSwo
+    title: "Introducing Functional, Reactive Programming"
+
+read_code:
+  - url: https://github.com/spiral/framework
+    title: Sprial
+    description: "High-Performance PHP/Go Framework for modern enterprise"
+    category:
+      - PHP
+
+  - url: https://github.com/MaiaVictor/Formality
+    title: "Formality"
+    description: "An efficient programming language and proof assistant."
+    category:
+      - Rust
+
+  - url: https://github.com/asdf-vm/asdf
+    title: "asdf"
+    description: "Extendable version manager with support for Ruby, Node.js, Elixir, Erlang"
+    category:
+      - Bash
+
+  - url: https://github.com/couchbase/moss
+    title: "moss"
+    description: "a simple, fast, ordered, persistable, key-val storage library for golang"
+    category:
+      - Go
+
+  - url: https://github.com/appunite/imager
+    title: "Imager"
+    description: "Image processing proxy that also support DFs and DICOM"
+    category:
+      - Elixir
+
+  - url: https://github.com/weserv/images
+    title: "Source code of images.weserv.nl"
+    description: "an image cache & resize service"
+    category:
+      - Lua
+      - Nginx
+
+  - url: https://github.com/f/graphql.js
+    title: "graphql.js"
+    description: "A Simple and Isomorphic GraphQL Client"
+    category:
+      - JavaScript
+
+  - url: https://github.com/rianhunter/dbxfs
+    title: "dbxfs"
+    description: "User-space file system for Dropbox"
+    category:
+      - Python
+
+  - url: https://gitlab.com/rosie-pattern-language/rosie
+    title: "rosie pattern language"
+    description: "a variant of modern Regular Expressions that is designed to scale to big data and large collections of patterns"
+    category:
+      - Rust
+
+  - url: https://github.com/scalar-labs/scalardb/
+    title: "scalardb"
+    description: "A library that provides an storage abstraction and client-coordinated distributed transaction manager on the storage"
+    category:
+      - Java
+
+  - url: https://github.com/gampleman/elm-visualization
+    title: "elm-visualization"
+    description: "A visualization package for Elm (D3-like)"
+    category:
+      - Elm
+
+tool:
+  - url: https://github.com/danburzo/percollate
+    title: percollate
+    description: "🌐 → 📖 A command-line tool to turn web pages into beautifully formatted PDFs"
+
+  - url: https://github.com/suyashkumar/ssl-proxy
+    title: "ssl-proxy"
+    description: "Single-command SSL reverse proxy with autogenerated certificates"
+
+  - url: https://github.com/raptorjit/raptorjit
+    title: "raptorjit"
+    description: "A dynamic language for system programming (LuaJIT fork)"
+
+  - url: https://github.com/tabatkins/railroad-diagrams
+    title: "railroad-diagrams"
+    description: "drawing railroad syntax diagrams, like on JSON.org"
+
+  - url: https://github.com/falcosecurity/falco/wiki/About-Falco
+    title: "Falco"
+    description: " detect and alert on any behavior that involves making Linux system calls, their arguments, and by properties of the calling process"
+
+  - url: https://github.com/kiali/kiali
+    title: "kiali: observability for the Istio service mesh"
+    description: |
+      Read the (introduction post)[https://medium.com/kialiproject/kiali-a-developer-journey-day-1-some-background-cc7c743272dd]
+
+  - url: https://github.com/imazen/imageflow
+    title: "imageflow"
+    description: "High-performance image manipulation for web servers. Includes imageflow_server, imageflow_tool, and libimageflow"
+
+  - url: https://github.com/Taymindis/nginx-c-function
+    title: "nginx-c-function"
+    description: "a NGINX module that link your .so(c/c++) application in server context and call the function of .so in location directive"
+
+  - url: https://github.com/shawnxlw/kubernetes-tools
+    title: "kubernetes-tools"
+    description: "Kubernetes Tools is a set of scripts that simplifies daily Kubernetes operations."
+
+  - url: https://github.com/lfaoro/flares
+    title: flares
+    description: "Flares 🔥is a CloudFlare DNS backup tool"
+
+  - url: https://github.com/SolarLune/resolv
+    title: "resolv"
+    description: "A Simple 2D Golang collision detection and resolution library for games"
+
+  - url: https://github.com/candid82/joker
+    title: joker
+    description: "Small Clojure interpreter and linter"
+
+  - url: https://github.com/amethyst/amethyst
+    title: "Data-oriented, and data driven game engine written in Rust"
+
+  - url: https://github.com/mcollina/aedes
+    title: aedes
+    description: "Barebone MQTT broker that can run on any stream server"
