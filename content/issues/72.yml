@@ -220,7 +220,7 @@ tool:
   - url: https://github.com/kiali/kiali
     title: "kiali: observability for the Istio service mesh"
     description: |
-      Read the (introduction post)[https://medium.com/kialiproject/kiali-a-developer-journey-day-1-some-background-cc7c743272dd]
+      Read the [introduction post](https://medium.com/kialiproject/kiali-a-developer-journey-day-1-some-background-cc7c743272dd)
 
   - url: https://github.com/imazen/imageflow
     title: "imageflow"
