@@ -10,9 +10,9 @@ links:
       Thanks to the hard work of others in the QEMU/KVM community, the ability to use the macOS operating system on our KVM powered virtual machines is now a reality. We can also enable a much better user experience for OSX virtual machines using GPU Passthrough
 
   - url: https://robots.thoughtbot.com/announcing-upcase-is-free
-    title: "Upcase of Thoughbot is Now Free"
+    title: "Upcase of Thoughtbot is Now Free"
     description: |
-      Upcase is online lerning platform with premium content from Thoughbot. Now they open it to the world, anyone can learn. Lots of resource about Rails, TDD, Vim, Git, Refactoring...The reason they open it is because they want to focus more on consulting. Since they tryly love it, they set it free.
+      Upcase is online lerning platform with premium content from Thoughtbot. Now they open it to the world, anyone can learn. Lots of resource about Rails, TDD, Vim, Git, Refactoring...The reason they open it is because they want to focus more on consulting. Since they truely love it, they set it free.
 
   - url: https://fauna.com/blog/consistency-without-clocks-faunadb-transaction-protocol
     title: "Consistency without Clocks: The FaunaDB Distributed Transaction Protocol"
@@ -252,3 +252,7 @@ tool:
   - url: https://github.com/mcollina/aedes
     title: aedes
     description: "Barebone MQTT broker that can run on any stream server"
+
+  - url: https://github.com/kiranz/just-api
+    title: "just-api"
+    description: "declarative, specification based test framework for REST, GraphQL APIs. Users can test APIs without writing cod"
