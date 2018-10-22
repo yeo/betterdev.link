@@ -166,6 +166,12 @@ read_code:
     category:
       - JavaScript
 
+  - url: https://github.com/socketry/falcon
+    title: falcon
+    description: "A modern high-performance web server for Ruby, supporting HTTP/2 and HTTPS out of the box"
+    category:
+      - Ruby
+
   - url: https://github.com/rianhunter/dbxfs
     title: "dbxfs"
     description: "User-space file system for Dropbox"
