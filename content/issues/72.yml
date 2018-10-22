@@ -24,15 +24,6 @@ links:
     description: |
       There’s a key piece of magic in the engineering of the Internet which you rely on every single day. It happens in the TCP protocol, one of the fundamental building blocks of the Internet.
 
-  - url:  https://codewithoutrules.com/2018/10/10/beyond-senior-software-engineer/
-    title: "The next career step for Senior Software Engineers (that isn’t management)"
-
-  - url: https://nickjanetakis.com/blog/microservices-are-something-you-grow-into-not-begin-with
-    title: "Microservices Are Something You Grow Into, Not Begin With"
-
-  - url: https://blog.phusion.nl/2018/10/11/modularity-vs-spaghetti-code-are-not-your-only-options/
-    title: "Microservices vs spaghetti code are not your only options"
-
   - url: https://github.com/angrave/SystemProgramming/wiki/Networking,-Part-2:-Using-getaddrinfo
     title: "Angrave's Crowd-Sourced System Programming Book used at UIUC"
     description: |
@@ -56,6 +47,20 @@ links:
       Netflix designed Chaos Monkey to test system stability by enforcing failures via the pseudo-random termination of instances and services. This guide included step-by-step technical tutorials for getting started with Chaos Monkey, along with advanced engineering tips and guides for those looking to go beyond the basics.
 
 brief:
+  - url: https://nickjanetakis.com/blog/microservices-are-something-you-grow-into-not-begin-with
+    title: "Microservices Are Something You Grow Into, Not Begin With"
+
+  - url: https://blog.phusion.nl/2018/10/11/modularity-vs-spaghetti-code-are-not-your-only-options/
+    title: "Microservices vs spaghetti code are not your only options"
+
+  - url:  https://codewithoutrules.com/2018/10/10/beyond-senior-software-engineer/
+    title: "The next career step for Senior Software Engineers (that isn’t management)"
+
+  - url: https://twobithistory.org/2018/09/30/chaosnet.html
+    title: "A Short History of Chaosnet"
+    description: |
+      Do you know what `IN` mean in a `dig` result
+
   - url: https://itnext.io/why-every-beginner-front-end-developer-should-know-publish-subscribe-pattern-72a12cd68d44
     title: "Why every beginner front-end developer should know publish-subscribe pattern"
 
