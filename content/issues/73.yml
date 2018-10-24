@@ -1,0 +1,384 @@
+time: "Oct 29, 2018"
+description: |
+  Hi all, many readers write in to ask for more languages in code to read section. I code primarily in
+  Go, Ruby and Elixir so I have go extra efforts to cover other languages. If you know good code to read,
+  please suggest by email me. Thank you Divyanshu Singh for letting me know about a bug on the site.
+draft: false
+
+links:
+  - url: https://www.darkreading.com/cloud/securing-serverless-attacking-an-aws-account-via-a-lambda-function/a/d-id/1333047
+    title: "Securing Serverless: Attacking an AWS Account via a Lambda Function"
+    description: |
+      This is a hack challenge where the IAM run the lambda function has write access to S3 bucket of
+      static side so they can be hack and overwrite S3 bucket.
+      Try to run as much as thing in read only mode so even in those case, the damage is minimal.
+
+  - url: https://www.bluematador.com/blog/ec2-packets-per-second-guaranteed-throughput-vs-best-effort
+    title: "EC2 Packets per Second: Guaranteed Throughput vs Best Effort"
+    description: |
+      The guaranteed limit for c5.large is 823,806 packets per second and the best effort is 994,007.
+      Bluematador write Golang program to floods the network with UDP packets, and another thread to track
+      packets sent on a second-by-second basis to find out EC2 limitations.
+
+  - url: https://robots.thoughtbot.com/writing-less-error-prone-code
+    title: "Writing Less Error-Prone Code"
+    description: |
+      A line of code you write in a codebase under active development may be read tens, hundreds or thousands of times. This line is likely to be adapted, moved and copied multiple times. How should we optimize for this reality of a living codebase?
+
+  - url: https://www.reaktor.com/blog/fear-trust-and-javascript/
+    title: "Fear, trust and JavaScript: When types and functional programming fail"
+    description: |
+      Optional types, functional transformations, and immutability can all help to write better JavaScript. When pulling these ideas together, however, they come with severe trade-offs, work together poorly, and ultimately fail in the goal of effectively transferring trust from developers to code and tools.
+
+  - url: https://blog.phusion.nl/2018/09/18/migrating-passenger-from-cxx-to-go/
+    title: "Migrating Passenger from C++ to Go?"
+    description: |
+      Hongli Lai, Passenger creator, think C++ is hard to learn, scares away contributors, Fragmented ecosystem of libraries,
+      too many event loop libs: libev, libuv, libevent, Asio...
+      He plans to rewrite Core Controller HTTP, which needs to make exactly 1 C++ call.
+      The overhead is The overhead is similar to 3x locking+unlocking a pthread mutex.
+
+  - url: https://open.nytimes.com/open-source-simplifying-serverless-secrets-in-google-cloud-a95451e545b1
+    title: "New York Times Open Source Simplifying Serverless Secrets"
+    description: |
+      NYT open source [gcp-vault](https://github.com/NYTimes/gcp-vault) a new Go library that eases the use of HashiCorp's Vault in the Google Cloud’s serverless solutions.
+
+brief:
+  - url: https://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html
+    title: "The Clean Code Blog"
+    description: |
+      OOP vs FP by Uncle Bob
+
+  - url: https://blog.sensu.io/alert-fatigue-part-1-avoidance-and-course-correction
+    title: "Alert fatigue: avoidance and course correction"
+    description: |
+      Alert fatigue occurs when one is exposed to a large number of frequent alarms (alerts) and consequently becomes desensitized to them.
+
+  - url: https://www.ably.io/concepts/websockets
+    title: "WebSockets - A Conceptual Deep-Dive"
+
+  - url: http://aosabook.org/en/git.html
+    title: "Git in a Nutshell"
+
+  - url: https://github.com/Idnan/bash-guide
+    title: "A guide to learn bash"
+
+  - url: https://hello.heptio.com/managing-kubernetes-ebook/
+    title: "Managing Kubernetes"
+    description: "Free ebook by K8S original creators: Brendan Burns"
+
+  - url: https://github.com/yelp/kotlin-android-workshop
+    title: "A Kotlin Workshop for engineers familiar with Java and Android development"
+
+  - url: https://www.snoyman.com/blog/2018/10/introducing-rust-crash-course
+    title: "Introducing the Rust crash course"
+
+  - url: https://www.awsgeek.com/
+    title: "AWS illustrations"
+    description: "a great way to quickly have an overview on AWS services"
+
+  - url: https://blog.cloudflare.com/a-question-of-timing/
+    title: "A Question of Timing"
+    description: |
+      Using cURL and Chrome to generate timings metrics: including time to first byte, and discuss whether this is the measurement you are really looking for.
+
+  - url: https://blog.cloudflare.com/http-2-prioritization-with-nginx/
+    title: "Optimizing HTTP/2 prioritization with BBR and tcp_notsent_lowat"
+    description: |
+      On Linux 4.9 kernels and later, enable BBR congestion control and set tcp_notsent_lowat to 16KB for HTTP/2 prioritization to work reliably.
+
+  - url: https://attractivechaos.wordpress.com/2018/10/01/advanced-techniques-to-implement-fast-hash-tables/
+    title: "Advanced techniques to implement fast hash tables"
+
+  - url: https://os.phil-opp.com/hardware-interrupts/
+    title: "Writing an OS in Rust"
+    description: |
+      We have linked to this series few time. A new part is coming out this week about: Hardware Interrupts
+
+  - url: https://hacks.mozilla.org/2018/10/webassemblys-post-mvp-future/
+    title: "WebAssembly’s post-MVP future: A cartoon skill tree"
+
+  - url: https://rustwasm.github.io/2018/10/24/multithreading-rust-and-wasm.html
+    title: "Multithreading Rust and Wasm"
+
+  - url: https://tech.blue-yonder.com/oxidizing-python-speeding-up-urlquoting-by-using-rust/
+    title: "Oxidizing Python: Speeding up URL quoting by 10x using Rust"
+    description: |
+      Write Rust, compile to dynamic lib, call it from Python. This technique is also use to
+      [improving ruby performance](https://blog.codeship.com/improving-ruby-performance-with-rust/)
+
+  - url: https://sunfishcode.github.io/blog/2018/10/22/Canonicalization.html
+    title: "Canonicalization and canonical forms"
+    description: |
+      are one dimension of organizing the work of an optimizing compiler.
+      The goal of canonicalization is to make subsequent optimizations more effective.
+
+  - url: https://raw.githubusercontent.com/frontarm/async-javascript-cheatsheet/master/async-cheatsheet.png
+    title: "Async JavaScript cheatsheet"
+
+  - url: https://devopsvoyage.com/2018/10/22/execute-rspec-locally-in-parallel.html
+    title: "Execute RSpec in parallel locally"
+
+  - url: https://go101.org/article/tips.html
+    title: "Go Tips 101"
+
+  - url: https://spandan-madan.github.io/DeepLearningProject/
+    title: "An end to end implementation of a Machine Learning pipeline"
+    category:
+      - MachineLearning
+
+  - url: https://monkeylearn.com/sentiment-analysis/
+    title: "Sentiment analysis"
+    description: "A nice summary of nearly everything: basics, how, use cases and resources"
+    category:
+      - MachineLearning
+
+  - url: https://stratos.seas.harvard.edu/files/stratos/files/periodictabledatastructures.pdf
+    title: "The Periodic Table of Data Structures"
+    category:
+      - PDF
+
+  - url: https://www.csc.kth.se/~jsannemo/slask/main.pdf
+    title: "Principles of Algorithmic Problem Solving"
+    category:
+      - PDF
+
+video:
+  - url: https://www.youtube.com/watch?v=o_4EX4dPppA&__s=vapsgckbosy9pikkmkro
+    title: "The Hard Parts of Open Source"
+    description: |
+      Elm creator shares lot of hindsigh.
+
+  - url: https://www.youtube.com/watch?v=SVRYcrhRCes
+    title: "Compiling to Categories"
+
+  - url: https://eater.net/quaternions
+    tite: "Visualizing quaternions"
+
+  - url: https://www.youtube.com/watch?v=bcRDXAraprk
+    title: "justforfunc #39: code reviews are back!"
+    description: |
+      A youtube channel for programming which focus on well, just for fun.
+
+  - url: https://egghead.io/lessons/webpack-course-overview-using-webassembly-with-rust
+    title: "Using WebAssembly with Rust"
+    description: |
+      Rust is riding the trend of WebAssembly. This course is free, include 11 videos.
+      You can even [use Rust with Cloudflare WebWorker](https://blog.cloudflare.com/cloudflare-workers-as-a-serverless-rust-platform/)
+
+  - url: https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84
+    title: "Functional Programming in JavaScript"
+    description: |
+      12 videos, each about 10-15minutes. Super fun to watch too :-)
+
+  - url: https://www.youtube.com/watch?v=2dsCwp_j0yQ
+    title: "Kubernetes the very hard way at Datadog"
+
+read_code:
+  - url: https://github.com/CodeReaderMe/awesome-code-reading
+    title: "A curated list of high-quality codebases to read and study"
+
+  - url: https://github.com/skx/gobasic
+    title: gobasic
+    description: "A BASIC interpreter written in golang"
+    category:
+      - Go
+
+  - url: https://github.com/namreg/godown
+    title: "godown"
+    description: "Distributed, fault-tolerant key-value storage written in go"
+    category:
+      - Go
+
+  - url: https://github.com/SCENEE/FloatingPanel
+    title: "A clean and easy-to-use floating panel UI component for iOS"
+    category:
+      - Swift
+
+  - url: https://30-seconds.github.io/30-seconds-of-css/
+    title: "30 Seconds of CSS"
+    description: "A curated collection of useful CSS snippets you can understand in 30 seconds or less"
+    category:
+      - CSS
+
+  - url: https://github.com/Nebo15/annon.api
+    title: annon.api
+    description: "Configurable API gateway that acts as a reverse proxy with a plugin system"
+    category:
+      - Elixir
+
+  - url: https://github.com/cmuratori/meow_hash
+    title: meow_hash
+    description: "an extremely fast non-cryptographic hash"
+    category:
+      - C++
+
+  - url: https://github.com/gruns/irondb
+    title: "irondb"
+    description: "key value on browser"
+    category:
+      - JavaScript
+
+  - url: https://github.com/ronomon/hash-table
+    title: "Fast, reliable cuckoo hash table for Node.js"
+    category:
+      - NodeJS
+
+  - url: https://github.com/tbicr/django-pg-zero-downtime-migrations
+    title: "Django postgresql backend that apply migrations with respect to database locks"
+    category:
+      - Python
+
+  - url: https://github.com/dylanaraps/fff
+    title: "a fast file manager in Bash"
+    category:
+      - Bash
+
+  - url: https://github.com/yabeda-rb/yabeda
+    title: "yabeda: Extendable framework for collecting and exporting metrics"
+    description: |
+      a family of [gem that makes instrumenting Ruby web applications](https://evilmartians.com/chronicles/meet-yabeda-modular-framework-for-instrumenting-ruby-applications) a breeze and works with Rails, Sidekiq, and Prometheus out of the box
+    category:
+      - Ruby
+
+  - url: https://github.com/chaps-io/access-granted
+    title: "access-granted"
+    description: "Multi-role and whitelist based authorization gem for Rails (and not only Rails!)"
+    category:
+      - Ruby
+
+  - url: https://github.com/DenisKolodin/yew
+    title: yew
+    description: "Rust framework for building client web apps"
+    category:
+      - Rust
+
+  - url: https://github.com/laurilehmijoki/s3_website
+    title: s3_website
+    description: "sync, deliver via CloudFront, benefit from advanced S3 website features"
+    category:
+      - Scala
+      - Ruby
+
+  - url: https://github.com/sam0x17/mongo_orm
+    title: "mongo_orm"
+    description: "A simple ORM for using MongoDB with the crystal programming language"
+    category:
+      - Crystal
+
+  - url: https://github.com/mrkn/pycall.rb
+    title: pycall.rb
+    description: "Calling Python functions from the Ruby language"
+    category:
+      - C
+      - Ruby
+      - Python
+
+  - url: https://github.com/dlthomas/sql-viewer
+    title: "GHCJS front-end for queryparser"
+    description: |
+      [QueryParser](https://github.com/uber/queryparser) is created at Uber to parse and analyse of Vertica, Hive, and Presto SQL.
+      It's compiled to JavaScript using GHCjs.
+    category:
+      - Hashkell
+
+  - url: https://github.com/laravel/telescope
+    title: "telescope"
+    description: "an elegant debug assistant for the Laravel framework"
+    category:
+      - PHP
+
+  - url: https://github.com/nuwave/lighthouse
+    title: "lighthouse"
+    description: "Laravel GraphQL Server"
+    category:
+      - PHP
+
+  - url: https://github.com/rackerlabs/repose
+    title: "repose"
+    description: "The REstful PrOxy Service Engine"
+    category:
+      - Java
+      - Scala
+      - Groovy
+
+tool:
+  - url: https://github.com/wagoodman/dive
+    title: dive
+    description: "A tool for exploring each layer in a docker image"
+
+  - url: https://github.com/monicahq/monica
+    title: monica
+    description: "Personal CRM. Remember everything about your friends and family"
+
+  - url: https://github.com/kimchi-project/kimchi/
+    title: "kimchi"
+    description: "An HTML5 management interface for KVM guests"
+
+  - url: https://github.com/Idnan/go-mongo-indexer
+    title: "CLI tool to manage mongo database collection indexes through json files"
+
+  - url: https://github.com/vinistock/sail
+    title: "sail engine"
+    description: " brings in a setting model and dashboard to control the behavior of Rails applications live"
+
+  - url: https://github.com/ahmetkotan/celeryman
+    title: "Celery Async Task Management App for Django"
+
+  - url: https://github.com/gophish/gophish
+    title: gophish
+    description: "Open-Source Phishing Toolkit"
+    category:
+      - Go
+
+  - url: https://github.com/v2tec/watchtower
+    title: watchtower
+    description: "Automatically update running Docker containers"
+    category:
+      - Go
+
+  - url: https://github.com/coinbase/salus
+    title: salus
+    description: "Security scanner coordinator"
+    category:
+      - Ruby
+
+  - url: https://oss.redislabs.com/redisgraph/
+    title: "redisgraph"
+    description: "Redis Module for raph database to use sparse adjacency matrices and linear algebra"
+    category:
+      - Database
+
+  - url: https://github.com/DarkSpiritz/DarkSpiritz
+    title: "A penetration testing framework for UNIX systems"
+    category:
+      - DevSecOps
+
+  - url: https://github.com/actiontech/dtle
+    title: dtle
+    description: "Distributed Data Transfer Service for MySQL"
+    category:
+      - Database
+
+  - url: https://github.com/daneden/animate.css
+    title: animate.css
+    description: "🍿 A cross-browser library of CSS animations"
+    category:
+      - Frontend
+
+  - url: https://github.com/vertexclique/korq
+    title: korq
+    description: "Kubernetes Dynamic Log Tailing Utility"
+    category:
+      - DevOps
+
+  - url: https://github.com/aviaviavi/toodles
+    title: "Project management directly from the TODO's in your codebase"
+    category:
+      - Util
+
+  - url: https://github.com/wkz/ply
+    title: ply
+    description: "Light-weight Dynamic Tracer for Linux"
+    category:
+      - DevOps
