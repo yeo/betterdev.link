@@ -1,6 +1,7 @@
 package baja
 
 import (
+	"bufio"
 	"bytes"
 	"encoding/base64"
 	"encoding/csv"
@@ -148,6 +149,16 @@ func Fanout(issue string, mode string) {
 
 	svc := ses.New(session.New())
 
+	// Activity user
+	file, err := os.Open(fmt.Sprintf("./content/%s", "no_activity.user"))
+	var cleanUser map[string]bool
+	cleanUser = make(map[string]bool)
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan() {
+		cleanUser[scanner.Text()] = true
+	}
+	log.Println(cleanUser)
+
 	// Iterator throught the list and fanout email
 	count := 0
 	for {
@@ -166,6 +177,13 @@ func Fanout(issue string, mode string) {
 		if err != nil {
 			log.Fatal(err)
 		}
+
+		if cleanUser[record[0]] == true {
+			log.Println(record[0], "is ignored because user has not click any link in last 6 months")
+			continue
+		}
+
+		//log.Println("DRY Fanout", issue, subject, "to", record[0])
 
 		if tracker.AlreadySent(issue, record[0]) == true {
 			log.Println("Already fanout", issue, "to", record)
