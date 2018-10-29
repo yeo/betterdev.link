@@ -5,7 +5,7 @@ import (
 	"github.com/yeo/betterdev.link/baja"
 )
 
-func fanout(issue, env string) {
+func fanout(issue, env string, confirm string) {
 	fmt.Printf("Fanout %s\n", issue)
-	baja.Fanout(issue, env)
+	baja.Fanout(issue, env, confirm == "yes")
 }

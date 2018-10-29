@@ -3,6 +3,12 @@ FROM ubuntu:16.04
 # TODO: Switch to scrtach and multistage build
 # TODO: Switch to non root user
 
+RUN \
+  apt-get update && apt-get install -y \
+    curl unzip ca-certificates \
+ && rm -rf /var/lib/apt/lists/*
+
+
 WORKDIR /app
 RUN mkdir -p /app
 

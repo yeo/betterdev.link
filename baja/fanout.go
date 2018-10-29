@@ -127,7 +127,7 @@ func sendTo(svc *ses.SES, issue, subject, email string) (*ses.SendEmailOutput, e
 	return result, nil
 }
 
-func Fanout(issue string, mode string) {
+func Fanout(issue string, mode string, confirm bool) {
 	// Quick and dirty sent tracking
 	// All of this crapy need to refactor
 	config := server.LoadConfigFromEnv()
@@ -183,20 +183,22 @@ func Fanout(issue string, mode string) {
 			continue
 		}
 
-		//log.Println("DRY Fanout", issue, subject, "to", record[0])
+		if confirm == true {
+			if tracker.AlreadySent(issue, record[0]) == true {
+				log.Println("Already fanout", issue, "to", record)
+				continue
+			}
 
-		if tracker.AlreadySent(issue, record[0]) == true {
-			log.Println("Already fanout", issue, "to", record)
-			continue
-		}
+			result, err := sendTo(svc, issue, subject, record[0])
+			if err == nil {
+				tracker.LogSent(issue, record[0])
 
-		result, err := sendTo(svc, issue, subject, record[0])
-		if err == nil {
-			tracker.LogSent(issue, record[0])
-
-			log.Println("Send to", record[0], "succesfully", result)
+				log.Println("Send to", record[0], "succesfully", result)
+			} else {
+				log.Println("Fail to fanout", record[0], err)
+			}
 		} else {
-			log.Println("Fail to fanout", record[0], err)
+			log.Println("DRY Fanout", issue, subject, "to", record[0])
 		}
 	}
 }

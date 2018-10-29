@@ -37,6 +37,11 @@ func main() {
 	case "dupe":
 		detectDupe()
 	case "fanout":
-		fanout(os.Args[2], os.Args[3])
+		confirm := "no"
+		if len(os.Args) == 5 {
+			confirm = os.Args[4]
+		}
+
+		fanout(os.Args[2], os.Args[3], confirm)
 	}
 }
