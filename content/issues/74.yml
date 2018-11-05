@@ -1,0 +1,271 @@
+time: "Nov 05, 2018"
+description: ""
+draft: false
+
+links:
+  - url: https://www.nayuki.io/page/creating-a-qr-code-step-by-step
+    title: "Creating a QR Code step by step"
+    description: |
+      When need to generate QR code, most of us reach for a library and call it a day. Let's dig dive and see exactly
+      what is involved.
+
+  - url: https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking/
+    title: "Introduction to Linux interfaces for virtual networking"
+    description: |
+      Linux has rich virtual networking capabilities that are used as basis for hosting VMs and containers, as well as cloud environments. In this post, I will give a brief introduction to all commonly used virtual network interface types.
+
+  - url: http://beza1e1.tuxen.de/strings.html
+    title: "How to implement strings"
+    description: |
+      The C programming language defines a string as "a contiguous sequence of characters terminated by and including the first null character". Since the character \0 marks the end we often call this zero- or null-termination. Nevertheless, other programming languages often use different representations. What else is possible?
+
+  - url: https://www.silasreinagel.com/blog/2018/10/30/indirection-is-not-abstraction/
+    title: "Indirection Is Not Abstraction"
+    description: |
+      The concept of abstraction in software development is frequently misunderstood and confused with indirection. This is partially because of the keywords abstract and interface in statically-typed languages such as Java and C#. The confusion often leads to design changes that leave the code worse than before it was touched. Let’s look at how abstraction and indirection relate, and how to correctly connect components.
+
+  - url: https://blog.tanelpoder.com/posts/visualizing-sql-plan-execution-time-with-flamegraphs/
+    title: "Visualizing SQL Plan Execution Time With FlameGraphs"
+
+  - url: https://repl.it/site/blog/stderr
+    title: "Colorizing Stderr: racing pipes, and libc monkey-patching"
+    description: |
+      Red errors are important; they make it easy to discern exceptions from standard output. Surprisingly, colorizing stderr is not as straightforward as it sounds and this is the story of racing pipes, file descriptor hacking, and libc monkey-patching.
+
+  - url: https://iamakulov.com/notes/walmart/
+    title: "Case study: analyzing the Walmart site performance"
+    description: |
+      Walmart is one of the top USA e-commerce retailers. In 2016, they were the second after Amazon by sales.
+
+  - url: https://nemethgergely.com/coding-as-an-engineering-manager/
+    title: "Coding as an Engineering Manager"
+
+brief:
+  - url: https://opensource.com/article/18/10/podman-more-secure-way-run-containers
+    title: "Podman: A more secure way to run containers"
+
+  - url: https://www.dapp.com/article/proof-of-stake-or-proof-of-work-whats-the-difference
+    title: "Proof of Stake or Proof of Work, What's the Difference?"
+
+  - url: http://www.gamasutra.com/blogs/SvyatoslavCherkasov/20181023/329151/Graveyard_Keeper_How_the_graphics_effects_are_made.php
+    title: "Graveyard Keeper: How the graphics effects are made"
+
+  - url: https://andre.arko.net/2018/10/25/parsing-logs-230x-faster-with-rust/
+    title: "Parsing logs 230x faster with Rust"
+    description: |
+      Interesting journey to parse RubyGems.Org log, a single day log is already 500Gb.
+
+  - url: https://mb-14.github.io/tech/2018/10/24/gomarkov.html
+    title: "Building markov chains in golang"
+
+  - url: https://medium.com/javascript-scene/the-forgotten-history-of-oop-88d71b9b2d9f
+    title: "The Forgotten History of OOP"
+
+  - url: https://speakerdeck.com/garethr/advanced-docker-image-build-patterns
+    title: "Advanced Docker image build patterns"
+
+  - url: https://www.slideshare.net/brikis98/lessons-learned-from-writing-over-300000-lines-of-infrastructure-code-120597849
+    title: "Lessons learned from writing over 300,000 lines of infrastructure code"
+
+  - url: https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/
+    title: "A crash course in just-in-time (JIT) compilers"
+
+  - url: https://medium.com/sourcedtech/gitbase-exploring-git-repos-with-sql-95ec0986386c
+    title: "gitbase: exploring git repos with SQL"
+    description: |
+      Git is for code, SQL is for querying. gitbase combined them both allow you to explore
+      a repo using SQL query. It has an [introduction video](https://www.youtube.com/watch?v=OXL2KxOTmBQ) too
+
+  - url: https://www.percona.com/blog/2018/10/16/postgresql-locking-part-1-row-locks/
+    title: "PostgreSQL locking, Part 1: Row Locks"
+    description: |
+      3 parts on PostgreSQL lock. Next we will look into table-level locks and  latches protecting internal database structures.
+
+  - url: https://databricks.com/blog/2018/11/01/sql-pivot-converting-rows-to-columns.html
+    title: "SQL Pivot: Converting Rows to Columns"
+
+  - url: https://3perf.com/talks/web-perf-101/
+    title: "Web Performance 101"
+
+  - url: https://engineering.gosquared.com/improve-javascript-page-load-time
+    title: "Reduce the impact of JavaScript on your page load time"
+
+  - url: https://www.smashingmagazine.com/2018/10/video-playback-on-the-web-part-2/
+    title: "Video Playback On The Web: Video Delivery Best Practices"
+
+  - url: https://github.com/grahamjenson/list_of_recommender_systems
+    title: "List of Recommender Systems"
+
+  - url: https://github.com/lirantal/awesome-nodejs-security
+    title: "Awesome Node.js Security resources"
+
+video:
+  - url: https://www.youtube.com/watch?v=yy8jQgmhbAU
+    title: "OOP Is Dead, Long Live Data-oriented Design"
+
+  - url: https://www.infoq.com/presentations/rust-infrastructure
+    title: "Next Gen Networking Infrastructure with Rust"
+
+  - url: https://www.youtube.com/watch?v=uFFJyp8vXQI
+    title: "Gradual typing of Ruby at Scale"
+    description: |
+      also [its slide](https://sorbet.run/talks/StrangeLoop2018/)
+
+  - url: https://www.youtube.com/watch?v=3vCpYgaZpiw
+    title: "One line of code can get root access on many Linux system"
+
+  - url: https://www.youtube.com/watch?v=7eEOzguzOg0
+    title: "Scaling Kafka at Datadog with Kubernetes and Kafka-Kit"
+
+  - url: https://www.youtube.com/watch?v=AdKNCBrkZQ4&feature=youtu.be
+    title: "Low latency routing in space(8min)"
+
+  - url: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH
+    title: "Coding Challenges"
+    description: |
+      Fun coding challenges with P5.JS. The style switch between real editor and white board, very informative and entertaining. For a specific one, check this out: [Minesweeper in JavaScript with p5.js](https://www.youtube.com/watch?v=LFU5ZlrR21E)
+
+  - url: https://www.infoq.com/presentations/distributed-systems-debug-manage
+    title: "Help! I Accidentally Distributed My System!"
+
+read_code:
+  - url: https://github.com/nehbit/aether
+    title: "Aether"
+    description: "a distributed network that creates forum–like, anonymous and encrypted public spaces"
+    category:
+      - Go
+      - JavaScript
+      - Python
+
+  - url: https://github.com/semihalev/sdns
+    title: "sdns"
+    description: |
+      Lightweight, fast recursive dns server with dnssec support
+    category:
+      - Go
+
+  - url: https://github.com/sam0x17/gcf.cr
+    title: "gcf.cr"
+    description: "provides serverless execution and deployment of crystal language code in Google Cloud Functions"
+    category:
+      - Crystal
+
+  - url: https://github.com/goldfire/howler.js
+    title: howler.js
+    description: "Javascript audio library for the modern web"
+    category:
+      - JavaScript
+
+  - url: https://github.com/chunqiuyiyu/ervy
+    title: "ervy"
+    description: "Bring charts to terminal"
+    category:
+      - NodeJS
+
+  - url: https://github.com/mcastorina/graph-cli
+    title: graph-cli
+    description: "Flexible command line tool to create graphs from CSV data"
+    category:
+      - Python
+
+  - url: https://github.com/nachoparker/dutree
+    title: "dutree"
+    description: "a tool to analyze file system usage written in Rust"
+    category:
+      - Rust
+
+  - url: https://github.com/rocketjob/rocketjob
+    title: rocketjob
+    description: "Ruby's missing batch system"
+    category:
+      - Ruby
+
+  - url: https://github.com/vespene-io/vespene
+    title: "vespene"
+    description: "A modern continuous integration, deployment, and self-service automation platform"
+    category:
+      - Python
+
+  - url: https://gitlab.com/daamien/postgresql_anonymizer
+    title: "postgresql_anonymizer"
+    description: "anonymization & Data Masking for PostgreSQL"
+    category:
+      - PLpgSQL
+
+  - url: https://github.com/Malax/elmboy
+    tile: elmboy
+    description: "A Nintendo™ Game Boy™ Emulator written in Elm"
+    category:
+      - Elm
+
+  - url: https://github.com/square/subzero
+    title: "subzero"
+    description: "Square's Bitcoin Cold Storage solution"
+    category:
+      - Java
+
+tool:
+  - url: https://github.com/mtbarta/monocorpus
+    title: monocorpus
+    description: "A notepad for software and machine learning"
+
+  - url: https://github.com/ehazlett/stellar
+    title: stellar
+    description: |
+      provide simple container runtime clustering
+
+  - url: https://github.com/gruntwork-io/cloud-nuke
+    title: cloud-nuke
+    description: |
+      cleaning up your cloud accounts by nuking all resources within it. Gruntwork [save 85% aws bill](https://blog.gruntwork.io/cloud-nuke-how-we-reduced-our-aws-bill-by-85-f3aced4e5876) with it.
+
+  - url: https://go-city.github.io/
+    title: "GoCity"
+    description: |
+      an implementation of the Code City metaphor for visualizing Go source code
+    category:
+      - Go
+
+  - url: https://github.com/vergeml/vergeml
+    title: vergeml
+    description: "exploring, training and running ready, state-of-the-art Machine Learning models"
+
+  - url: https://github.com/balena-io/open-balena
+    title: open-balena
+    description: "Open source software to manage connected IoT devices"
+
+  - url: https://github.com/ChrisKnott/Algojammer
+    title: "An experimental code editor for writing algorithms"
+
+  - url: https://github.com/simagix/keyhole
+    title: keyhole
+    description: "MongoDB Performance Measurement and Analytics"
+
+  - url: https://github.com/Rev3rseSecurity/WebMap
+    title: "webmap"
+    description: "Nmap Web Dashboard and Reporting"
+
+  - url: https://github.com/admiraltyio/multicluster-controller
+    title: "multicluster-controller"
+    description: "A Library for Building Hybrid and Multicloud Kubernetes Operators"
+
+  - url: https://github.com/Azure/kubernetes-policy-controller
+    title: "kubernetes-policy-controller"
+    description: |
+      k8s admission controllers use Open Policy Agent.
+
+  - url: https://github.com/garden-io/garden
+    title: garden
+    description: |
+      Development engine for Kubernetes, containers and serverless functions
+
+  - url: https://github.com/GoogleChromeLabs/carlo
+    title: carlo
+    description: |
+      Web rendering surface for Node applications by connectin to local chrome
+    category:
+      - JavaScript
+
+  - url: https://github.com/kamranahmedse/pennywise
+    title: pennywise
+    description: "Cross-platform application to open anything in a floating window"
