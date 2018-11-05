@@ -9,6 +9,11 @@ links:
       When need to generate QR code, most of us reach for a library and call it a day. Let's dig dive and see exactly
       what is involved.
 
+  - url: https://opensource.com/article/18/5/bash-tricks
+    title: "Bash tips for everyday at the command line"
+    description: |
+      These hidden features and shortcuts will help you perform some of the most common Bash functions more efficiently.
+
   - url: https://marmelab.com/blog/2018/04/03/how-to-track-and-fix-memory-leak-with-nodejs.html
     title: "Finding And Fixing Node.js Memory Leaks: A Practical Guide"
     description: |
@@ -41,12 +46,10 @@ links:
     description: |
       Red errors are important; they make it easy to discern exceptions from standard output. Surprisingly, colorizing stderr is not as straightforward as it sounds and this is the story of racing pipes, file descriptor hacking, and libc monkey-patching.
 
-  - url: https://iamakulov.com/notes/walmart/
-    title: "Case study: analyzing the Walmart site performance"
-    description: |
-      Walmart is one of the top USA e-commerce retailers. In 2016, they were the second after Amazon by sales.
-
 brief:
+  - url: https://medium.com/javascript-scene/the-forgotten-history-of-oop-88d71b9b2d9f
+    title: "The Forgotten History of OOP"
+
   - url: https://blog.tanelpoder.com/posts/visualizing-sql-plan-execution-time-with-flamegraphs/
     title: "Visualizing SQL Plan Execution Time With FlameGraphs"
     description: |
@@ -55,16 +58,10 @@ brief:
   - url: https://engineering.linkedin.com/blog/2018/10/building-the-contacts-platform-at-linkedin
     title: "Building the Contacts Platform at LinkedIn"
 
-  - url: https://nemethgergely.com/coding-as-an-engineering-manager/
-    title: "Coding as an Engineering Manager"
-
   - url: https://blog.callr.tech/rate-limiting-for-distributed-systems-with-redis-and-lua/
     title: "Rate limiting for distributed systems with Redis and Lua"
 
-  - url: https://opensource.com/article/18/10/podman-more-secure-way-run-containers
-    title: "Podman: A more secure way to run containers"
-
-  - url: http://www.gamasutra.com/blogs/SvyatoslavCherkasov/20181023/329151/Graveyard_Keeper_How_the_graphics_effects_are_made.php
+ - url: http://www.gamasutra.com/blogs/SvyatoslavCherkasov/20181023/329151/Graveyard_Keeper_How_the_graphics_effects_are_made.php
     title: "Graveyard Keeper: How the graphics effects are made"
 
   - url: https://andre.arko.net/2018/10/25/parsing-logs-230x-faster-with-rust/
@@ -72,8 +69,8 @@ brief:
     description: |
       Interesting journey to parse RubyGems.Org log, a single day log is already 500Gb.
 
-  - url: https://medium.com/javascript-scene/the-forgotten-history-of-oop-88d71b9b2d9f
-    title: "The Forgotten History of OOP"
+  - url: https://opensource.com/article/18/10/podman-more-secure-way-run-containers
+    title: "Podman: A more secure way to run containers"
 
   - url: https://speakerdeck.com/garethr/advanced-docker-image-build-patterns
     title: "Advanced Docker image build patterns"
@@ -94,6 +91,9 @@ brief:
 
   - url: https://3perf.com/talks/web-perf-101/
     title: "Web Performance 101"
+
+  - url: https://iamakulov.com/notes/walmart/
+    title: "Case study: analyzing the Walmart site performance"
 
   - url: https://www.smashingmagazine.com/2018/10/video-playback-on-the-web-part-2/
     title: "Video Delivery Best Practices"
