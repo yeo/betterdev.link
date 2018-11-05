@@ -35,6 +35,11 @@ links:
     description: |
       Red errors are important; they make it easy to discern exceptions from standard output. Surprisingly, colorizing stderr is not as straightforward as it sounds and this is the story of racing pipes, file descriptor hacking, and libc monkey-patching.
 
+  - url: https://blog.callr.tech/rate-limiting-for-distributed-systems-with-redis-and-lua/
+    title: "Rate limiting for distributed systems with Redis and Lua"
+    description: |
+      Redis can be extended with Lua scripting. Lua scripts run by Redis are extremely fast, and also atomic. Therefore they can safely be used by concurrent processes.
+
   - url: https://iamakulov.com/notes/walmart/
     title: "Case study: analyzing the Walmart site performance"
     description: |
@@ -174,12 +179,6 @@ read_code:
     category:
       - NodeJS
 
-  - url: https://github.com/mcastorina/graph-cli
-    title: graph-cli
-    description: "Flexible command line tool to create graphs from CSV data"
-    category:
-      - Python
-
   - url: https://github.com/nachoparker/dutree
     title: "dutree"
     description: "a tool to analyze file system usage written in Rust"
@@ -195,8 +194,6 @@ read_code:
   - url: https://github.com/vespene-io/vespene
     title: "vespene"
     description: "A modern continuous integration, deployment, and self-service automation platform"
-    category:
-      - Python
 
   - url: https://gitlab.com/daamien/postgresql_anonymizer
     title: "postgresql_anonymizer"
