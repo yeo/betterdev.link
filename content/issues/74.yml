@@ -19,13 +19,16 @@ links:
     description: |
       The C programming language defines a string as "a contiguous sequence of characters terminated by and including the first null character". Since the character \0 marks the end we often call this zero- or null-termination. Nevertheless, other programming languages often use different representations. What else is possible?
 
+  - url: https://auth0.com/blog/a-run-through-the-owasp-top-10/
+    title: "A tour through the OWASP Top 10"
+    description: |
+     The OWASP Top 10 lists the main security threats that affect web applications today.
+     Each point describes a threat, with an overview of the kinds of things you want to do to mitigate the threat as much as possible.
+
   - url: https://www.silasreinagel.com/blog/2018/10/30/indirection-is-not-abstraction/
     title: "Indirection Is Not Abstraction"
     description: |
       The concept of abstraction in software development is frequently misunderstood and confused with indirection. This is partially because of the keywords abstract and interface in statically-typed languages such as Java and C#. The confusion often leads to design changes that leave the code worse than before it was touched. Let’s look at how abstraction and indirection relate, and how to correctly connect components.
-
-  - url: https://blog.tanelpoder.com/posts/visualizing-sql-plan-execution-time-with-flamegraphs/
-    title: "Visualizing SQL Plan Execution Time With FlameGraphs"
 
   - url: https://repl.it/site/blog/stderr
     title: "Colorizing Stderr: racing pipes, and libc monkey-patching"
@@ -37,10 +40,16 @@ links:
     description: |
       Walmart is one of the top USA e-commerce retailers. In 2016, they were the second after Amazon by sales.
 
+brief:
+  - url: https://blog.tanelpoder.com/posts/visualizing-sql-plan-execution-time-with-flamegraphs/
+    title: "Visualizing SQL Plan Execution Time With FlameGraphs"
+
   - url: https://nemethgergely.com/coding-as-an-engineering-manager/
     title: "Coding as an Engineering Manager"
 
-brief:
+  - url: https://8thlight.com/blog/aaron-lahey/2018/10/23/sharing-secrets-with-gpg.html
+    title: "Sharing Secrets with GPG"
+
   - url: https://opensource.com/article/18/10/podman-more-secure-way-run-containers
     title: "Podman: A more secure way to run containers"
 
@@ -91,7 +100,10 @@ brief:
     title: "Reduce the impact of JavaScript on your page load time"
 
   - url: https://www.smashingmagazine.com/2018/10/video-playback-on-the-web-part-2/
-    title: "Video Playback On The Web: Video Delivery Best Practices"
+    title: "Video Delivery Best Practices"
+
+  - url: https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11
+    title: "A Tour of The Top 10 Algorithms for Machine Learning Newbies"
 
   - url: https://github.com/grahamjenson/list_of_recommender_systems
     title: "List of Recommender Systems"
