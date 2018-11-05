@@ -61,7 +61,7 @@ brief:
   - url: https://blog.callr.tech/rate-limiting-for-distributed-systems-with-redis-and-lua/
     title: "Rate limiting for distributed systems with Redis and Lua"
 
- - url: http://www.gamasutra.com/blogs/SvyatoslavCherkasov/20181023/329151/Graveyard_Keeper_How_the_graphics_effects_are_made.php
+  - url: http://www.gamasutra.com/blogs/SvyatoslavCherkasov/20181023/329151/Graveyard_Keeper_How_the_graphics_effects_are_made.php
     title: "Graveyard Keeper: How the graphics effects are made"
 
   - url: https://andre.arko.net/2018/10/25/parsing-logs-230x-faster-with-rust/
