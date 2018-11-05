@@ -61,9 +61,6 @@ brief:
   - url: https://blog.callr.tech/rate-limiting-for-distributed-systems-with-redis-and-lua/
     title: "Rate limiting for distributed systems with Redis and Lua"
 
-  - url: https://8thlight.com/blog/aaron-lahey/2018/10/23/sharing-secrets-with-gpg.html
-    title: "Sharing Secrets with GPG"
-
   - url: https://opensource.com/article/18/10/podman-more-secure-way-run-containers
     title: "Podman: A more secure way to run containers"
 
