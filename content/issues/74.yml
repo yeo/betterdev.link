@@ -9,6 +9,12 @@ links:
       When need to generate QR code, most of us reach for a library and call it a day. Let's dig dive and see exactly
       what is involved.
 
+  - url: https://marmelab.com/blog/2018/04/03/how-to-track-and-fix-memory-leak-with-nodejs.html
+    title: "Finding And Fixing Node.js Memory Leaks: A Practical Guide"
+    description: |
+      Fixing memory leaks may not be not the shiniest skill on a CV, but when things go wrong on production, it's better to be prepared!
+      After reading this article, you'll be able to monitor, understand, and debug the memory consumption of a Node.js application
+
   - url: https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking/
     title: "Introduction to Linux interfaces for virtual networking"
     description: |
@@ -35,11 +41,6 @@ links:
     description: |
       Red errors are important; they make it easy to discern exceptions from standard output. Surprisingly, colorizing stderr is not as straightforward as it sounds and this is the story of racing pipes, file descriptor hacking, and libc monkey-patching.
 
-  - url: https://blog.callr.tech/rate-limiting-for-distributed-systems-with-redis-and-lua/
-    title: "Rate limiting for distributed systems with Redis and Lua"
-    description: |
-      Redis can be extended with Lua scripting. Lua scripts run by Redis are extremely fast, and also atomic. Therefore they can safely be used by concurrent processes.
-
   - url: https://iamakulov.com/notes/walmart/
     title: "Case study: analyzing the Walmart site performance"
     description: |
@@ -48,18 +49,23 @@ links:
 brief:
   - url: https://blog.tanelpoder.com/posts/visualizing-sql-plan-execution-time-with-flamegraphs/
     title: "Visualizing SQL Plan Execution Time With FlameGraphs"
+    description: |
+      If you don't know FlameGraphs, check out this [short slide](https://speakerdeck.com/mrfoto/what-are-flame-graphs-and-how-to-read-them)
+
+  - url: https://engineering.linkedin.com/blog/2018/10/building-the-contacts-platform-at-linkedin
+    title: "Building the Contacts Platform at LinkedIn"
 
   - url: https://nemethgergely.com/coding-as-an-engineering-manager/
     title: "Coding as an Engineering Manager"
+
+  - url: https://blog.callr.tech/rate-limiting-for-distributed-systems-with-redis-and-lua/
+    title: "Rate limiting for distributed systems with Redis and Lua"
 
   - url: https://8thlight.com/blog/aaron-lahey/2018/10/23/sharing-secrets-with-gpg.html
     title: "Sharing Secrets with GPG"
 
   - url: https://opensource.com/article/18/10/podman-more-secure-way-run-containers
     title: "Podman: A more secure way to run containers"
-
-  - url: https://www.dapp.com/article/proof-of-stake-or-proof-of-work-whats-the-difference
-    title: "Proof of Stake or Proof of Work, What's the Difference?"
 
   - url: http://www.gamasutra.com/blogs/SvyatoslavCherkasov/20181023/329151/Graveyard_Keeper_How_the_graphics_effects_are_made.php
     title: "Graveyard Keeper: How the graphics effects are made"
@@ -68,9 +74,6 @@ brief:
     title: "Parsing logs 230x faster with Rust"
     description: |
       Interesting journey to parse RubyGems.Org log, a single day log is already 500Gb.
-
-  - url: https://mb-14.github.io/tech/2018/10/24/gomarkov.html
-    title: "Building markov chains in golang"
 
   - url: https://medium.com/javascript-scene/the-forgotten-history-of-oop-88d71b9b2d9f
     title: "The Forgotten History of OOP"
@@ -84,12 +87,6 @@ brief:
   - url: https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/
     title: "A crash course in just-in-time (JIT) compilers"
 
-  - url: https://medium.com/sourcedtech/gitbase-exploring-git-repos-with-sql-95ec0986386c
-    title: "gitbase: exploring git repos with SQL"
-    description: |
-      Git is for code, SQL is for querying. gitbase combined them both allow you to explore
-      a repo using SQL query. It has an [introduction video](https://www.youtube.com/watch?v=OXL2KxOTmBQ) too
-
   - url: https://www.percona.com/blog/2018/10/16/postgresql-locking-part-1-row-locks/
     title: "PostgreSQL locking, Part 1: Row Locks"
     description: |
@@ -101,59 +98,42 @@ brief:
   - url: https://3perf.com/talks/web-perf-101/
     title: "Web Performance 101"
 
-  - url: https://engineering.gosquared.com/improve-javascript-page-load-time
-    title: "Reduce the impact of JavaScript on your page load time"
-
   - url: https://www.smashingmagazine.com/2018/10/video-playback-on-the-web-part-2/
     title: "Video Delivery Best Practices"
-
-  - url: https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11
-    title: "A Tour of The Top 10 Algorithms for Machine Learning Newbies"
-
-  - url: https://github.com/grahamjenson/list_of_recommender_systems
-    title: "List of Recommender Systems"
 
   - url: https://github.com/lirantal/awesome-nodejs-security
     title: "Awesome Node.js Security resources"
 
 video:
-  - url: https://www.youtube.com/watch?v=yy8jQgmhbAU
-    title: "OOP Is Dead, Long Live Data-oriented Design"
-
-  - url: https://www.infoq.com/presentations/rust-infrastructure
-    title: "Next Gen Networking Infrastructure with Rust"
-
-  - url: https://www.youtube.com/watch?v=uFFJyp8vXQI
-    title: "Gradual typing of Ruby at Scale"
-    description: |
-      also [its slide](https://sorbet.run/talks/StrangeLoop2018/)
-
   - url: https://www.youtube.com/watch?v=3vCpYgaZpiw
-    title: "One line of code can get root access on many Linux system"
+    title: "One line of code can get root access on many Linux system (11 mins)"
 
   - url: https://www.youtube.com/watch?v=7eEOzguzOg0
     title: "Scaling Kafka at Datadog with Kubernetes and Kafka-Kit"
-
-  - url: https://www.youtube.com/watch?v=AdKNCBrkZQ4&feature=youtu.be
-    title: "Low latency routing in space(8min)"
 
   - url: https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH
     title: "Coding Challenges"
     description: |
       Fun coding challenges with P5.JS. The style switch between real editor and white board, very informative and entertaining. For a specific one, check this out: [Minesweeper in JavaScript with p5.js](https://www.youtube.com/watch?v=LFU5ZlrR21E)
 
+  - url: https://www.youtube.com/watch?v=OXL2KxOTmBQ
+    title: "gitbase: exploring git repos with SQL (31 mins)"
+    description: |
+      Git is for code, SQL is for querying. gitbase combined them both allow you to explore
+      a repo using SQL.
+
+  - url: https://www.youtube.com/watch?v=yy8jQgmhbAU
+    title: "OOP Is Dead, Long Live Data-oriented Design(60 mins)"
+
+  - url: https://www.youtube.com/watch?v=uFFJyp8vXQI
+    title: "Gradual typing of Ruby at Scale (38 mins)"
+    description: |
+      also [its slide](https://sorbet.run/talks/StrangeLoop2018/)
+
   - url: https://www.infoq.com/presentations/distributed-systems-debug-manage
     title: "Help! I Accidentally Distributed My System!"
 
 read_code:
-  - url: https://github.com/nehbit/aether
-    title: "Aether"
-    description: "a distributed network that creates forum–like, anonymous and encrypted public spaces"
-    category:
-      - Go
-      - JavaScript
-      - Python
-
   - url: https://github.com/semihalev/sdns
     title: "sdns"
     description: |
@@ -167,17 +147,11 @@ read_code:
     category:
       - Crystal
 
-  - url: https://github.com/goldfire/howler.js
-    title: howler.js
-    description: "Javascript audio library for the modern web"
-    category:
-      - JavaScript
-
   - url: https://github.com/chunqiuyiyu/ervy
     title: "ervy"
     description: "Bring charts to terminal"
     category:
-      - NodeJS
+      - JavaScript
 
   - url: https://github.com/nachoparker/dutree
     title: "dutree"
@@ -191,9 +165,9 @@ read_code:
     category:
       - Ruby
 
-  - url: https://github.com/vespene-io/vespene
-    title: "vespene"
-    description: "A modern continuous integration, deployment, and self-service automation platform"
+  - url: https://github.com/mcastorina/graph-cli/tree/master/graph_cli
+    title: graph_cli
+    description: "A CLI utility to create graphs from CSV files"
 
   - url: https://gitlab.com/daamien/postgresql_anonymizer
     title: "postgresql_anonymizer"
@@ -203,7 +177,7 @@ read_code:
 
   - url: https://github.com/Malax/elmboy
     tile: elmboy
-    description: "A Nintendo™ Game Boy™ Emulator written in Elm"
+    description: "A Nintendo™ Game Boy™ Emulator"
     category:
       - Elm
 
@@ -214,9 +188,9 @@ read_code:
       - Java
 
 tool:
-  - url: https://github.com/mtbarta/monocorpus
-    title: monocorpus
-    description: "A notepad for software and machine learning"
+  - url: https://github.com/Rev3rseSecurity/WebMap
+    title: "webmap"
+    description: "Nmap Web Dashboard and Reporting"
 
   - url: https://github.com/ehazlett/stellar
     title: stellar
@@ -232,8 +206,6 @@ tool:
     title: "GoCity"
     description: |
       an implementation of the Code City metaphor for visualizing Go source code
-    category:
-      - Go
 
   - url: https://github.com/vergeml/vergeml
     title: vergeml
@@ -243,16 +215,9 @@ tool:
     title: open-balena
     description: "Open source software to manage connected IoT devices"
 
-  - url: https://github.com/ChrisKnott/Algojammer
-    title: "An experimental code editor for writing algorithms"
-
   - url: https://github.com/simagix/keyhole
     title: keyhole
     description: "MongoDB Performance Measurement and Analytics"
-
-  - url: https://github.com/Rev3rseSecurity/WebMap
-    title: "webmap"
-    description: "Nmap Web Dashboard and Reporting"
 
   - url: https://github.com/admiraltyio/multicluster-controller
     title: "multicluster-controller"
@@ -267,14 +232,3 @@ tool:
     title: garden
     description: |
       Development engine for Kubernetes, containers and serverless functions
-
-  - url: https://github.com/GoogleChromeLabs/carlo
-    title: carlo
-    description: |
-      Web rendering surface for Node applications by connectin to local chrome
-    category:
-      - JavaScript
-
-  - url: https://github.com/kamranahmedse/pennywise
-    title: pennywise
-    description: "Cross-platform application to open anything in a floating window"
