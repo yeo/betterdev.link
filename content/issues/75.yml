@@ -1,0 +1,214 @@
+time: "Nov 12, 2018"
+subject: |
+  BetterDev #75 - Object Oriented in Kernel, How Apple Manage their CDN, Tuning Postgres, Scaling the monolith and more...
+
+description: ""
+
+draft: false
+
+links:
+  - url: https://lwn.net/Articles/444910/
+    title: "Object-oriented design patterns in the kernel"
+    description: |
+      Despite the fact that the Linux Kernel is mostly written in C, it makes broad use of some techniques from the field of object-oriented programming. Essentially, method dispatch and data inheritance are what we need. Part 1(this article) focus
+      on method dispatch. [Part 2](https://lwn.net/Articles/446317/) focus on data inheritance.
+
+  - url: https://increment.com/security/approachable-threat-modeling/
+    title: "An introduction to approachable threat modeling"
+    description: |
+      Charming to read. I'm sure you will feel been there done that to those 2 tales of threat models in this article.
+      We explore how pairing our existing knowledge and experience with a few simple questions can help us build better systems and keep them safe.
+
+  - url: https://www.haiku-os.org/docs/HIG/index.xml
+    title: "How to Design Software Good"
+    description: |
+      This post is written to highlight Haiku OS. However, they are general rule. And they are really good rule.
+      It read more like GUI design rule. But at the end of the day, our software are all about serving a need to
+      end-user through some user interface.
+
+  - url: https://arxiv.org/pdf/1810.02978.pdf
+    title: Dissecting Apple's Meta-CDN During an iOS Update
+    description: |
+      A very well analysis on how Apple design their CDN. How iOS devices discover and download updates, how download requests are mapped to CDNs, and  the architecture of Apple’s content cache infrastructure. It's just 7 pages to skim.
+    category:
+      - PDF
+
+  - url: https://ankane.org/scaling-the-monolith#stability
+    title: "Scaling the Monolith"
+    description: |
+      More and more get on microservice trend, while it solve certain problems, it comes with its own issue.
+      Before you decide to split apart your app, there are a number of tactics you can use to scale it majestically. Spend a significant amount of time trying to solve your existing problems before making big changes.
+
+  - url: https://stackify.com/postgresql-performance-tutorial/
+    title: "PostgreSQL Performance Tuning Tutorial"
+    description: |
+      Default setting of a databse cannot fit everyone. Depend on what kind of query and access pattern
+      we need to tune our db. However, diving into vast amount of postgres doc to find what we want isn't
+      easy. This article summarize some settings and strategy to tune the db.
+
+  - url: https://engineering.mongodb.com/post/ryp0ohr2w9pvv0fks88kq6qkz9k9p3
+    title: "Causal guarantees are anything but casual"
+    description: |
+      Traditional databases usually server read/write from a single node so natually provide sequential ordering guarantees.
+      Distributed system like MongoDB must coordinate and order related events across all of its nodes, and limit how fast certain operations can complete to do so. MongoDB 3.6 passed Jepsent test, verify that MongoDB 3.6.4’s sharded clusters offer comparable safety to non-sharded deployments.
+
+  - url: https://medium.com/dev-channel/a-netflix-web-performance-case-study-c0bcde26a9d9
+    title: "A Netflix Web Performance Case Study"
+    description: |
+      There are no silver bullets to web performance. Simple static pages benefit from being server-rendered with minimal JavaScript. Libraries can provide great value for complex pages when used with care.
+
+  - url: https://blog.erratasec.com/2018/10/masscan-as-lesson-in-tcpip.html
+    title: "Masscan as a lesson in TCP/IP"
+    description: |
+      masscan can scan entire internet within 6 minutes. it contains its own network stack.
+      Masscan will not using laptop's IP address, it has its own network stack and its own IP address,
+      eve the IP is "wrong". How routing work since the IP address is invalid?
+
+  - url: https://blog.probely.com/how-to-deploy-modern-tls-in-2018-1b9a9cafc454
+    title: "How to deploy modern TLS in 2018?"
+    description: |
+      TLS 1.3 was finally released. Previous version has few attack vectors one has to
+      aware to address when deploying TLS such as CRIME, BREACH, DROWN...A must-read if
+      you want to deploy TLS the right way.
+
+brief:
+  - url: https://refactoringui.com/previews/building-your-color-palette/
+    title: "Building Your Color Palette"
+    description: |
+      A quick guide to create a color pallet so your personal website doesn't look like crap.
+
+  - url: https://www.fuzzingbook.org/
+    title: "Generating Software Tests"
+    description: |
+      Catching bugs can involve lots of effort. This book addresses this problem by automating software testing, specifically by generating tests automatically. You will learn about fuzzing, basically generate random input to funcion to try break thing and measure how much code are actually executed during test
+
+  - url: https://www.the-paper-trail.org/post/art-paper-notes/
+    title: "Beating hash tables with trees? The ART-ful radix trie"
+    description: |
+      Tries are an unloved data structure for building key-value stores and indexes, after search trees (like B-trees and red-black trees) and hash tables.  In this paper, the authors show how to reduce the memory cost of a regular radix trie by adapting the data structure used for each node to the number of children that it needs to store.
+
+  - url: https://tutorialedge.net/golang/writing-frontend-web-framework-webassembly-go/
+    title: "Writing a Frontend Web Framework with WebAssembly And Go"
+    description: |
+      WebAssembly maybe another way for us to deo front-end dev. This series build the base of an incredibly
+      simple frontend framework written in Go that compiles into WebAssembly. I think some similar effort are
+      made with Rust too. If you know some good links, please share so I can include in next issue.
+
+video:
+  - url: https://www.youtube.com/watch?v=ZWQ0591PAxM
+    title: "How we fit an NES game into 40 Kilobytes(12mins)"
+
+  - url: https://www.youtube.com/watch?v=aGJTXdXQN2o&feature=youtu.be
+    title: "A Tale of Two Asyncs"
+    description: "Open Source Language Design in Rust and Node.js(47mins)"
+
+  - url: https://www.youtube.com/playlist?list=PLSE8ODhjZXja3hgmuwhf89qboV1kOxMx7
+    title: "Intro to Database Systems(CMU 15-445/645)"
+    description: |
+      You will learn to design and implementation database management system
+
+  - url: https://xotv.me/channels/22-important/vod_videos/1205-important-slash-slash-basecamp-dot-com-css-grid
+    title: "How Basecamp Uses CSS Grid in Production"
+
+  - url: https://www.youtube.com/watch?v=cefJd2v037U
+    title: "Chaos Engineering - What is it, and where it's going"
+
+read_code:
+  - url: https://github.com/thecasualcoder/tztail
+    title: tztail
+    description: |
+      UTC time in log is annoying. Tztail solve that, allow us to view logs in any timezone
+    category:
+      - Rust
+
+  - url: https://github.com/eventide-project
+    title: "Eventide"
+    description: "Event-Sourced Autonomous Services"
+    category:
+      - Ruby
+
+  - url: https://github.com/bullno1/ugc
+    title: ugc
+    description: "A single-header incremental garbage collector library"
+    category:
+      - C
+
+  - url: https://github.com/tbodt/ish
+    title: ish
+    description: "Linux shell for iOS"
+    category:
+      - C
+      - Objective-C
+
+  - url: https://github.com/Humpheh/goboy
+    title: goboy
+    description: "Multi-platform Nintendo Game Boy Color emulator"
+    category:
+      - Go
+
+  - url: https://codepen.io/yuanchuan/full/vVRKRQ/
+    title: "Gradient Shapes"
+    description: "Shapes generated with CSS background gradients"
+    category:
+      - CSS
+
+  - url: https://github.com/gk-brown/Lima
+    title: Lima
+    description: "Declarative UI for iOS and tvOS"
+    category:
+      - Swift
+
+  - url: https://github.com/Evercoder/culori
+    title: "culori: 🌈 A general-purpose color library"
+    description: |
+      Just another color library, but it really fun to read code that work with color.
+      How do we convert hex to rgb? How to compute color differences?
+    category:
+      - JavaScript
+
+  - url: https://github.com/mirumee/ariadne
+    title: 'ariadne'
+    description: "a Python library for implementing GraphQL servers"
+    category:
+      - Python
+
+tool:
+  - url: https://github.com/ottomatica/opunit
+    title: opunit
+    description: |
+      A tool to do sanity check for container. It spins up container and assert condition like
+      HTTP request, installed packages, file existence.
+
+  - url: https://github.com/minio/doctor
+    title: doctor
+    description: |
+      a documentation server for your docs in github
+
+  - url: https://github.com/buttercup
+    title: "buttercup: credentials management application"
+    description: |
+      Open source password manager, support mobile, brower, desktop
+
+  - url: https://github.com/boz/kail
+    title: "kail: kubernetes tail"
+    description: "Streams logs from all containers of all matched pods"
+
+  - url: https://github.com/txn2/kubefwd
+    title: kubefwd
+    description: "Bulk port forwarding Kubernetes services for local development"
+
+  - url: https://github.com/OmniDB/OmniDB
+    title: OmniDB
+    description: "Open Source Tool For PostgreSQL Database Management"
+
+  - url: https://github.com/Dreamacro/clash
+    title: clash
+    description: "A rule based tunnel in Go"
+
+  - url: https://rr-project.org/
+    title: "rr-project"
+    description: "C/C++ debugging tool for Linux, replacing — well, enhancing — gdb"
+
+  - url: https://github.com/antonmedv/fx
+    title: fx
+    description: "command line json processing tool"
