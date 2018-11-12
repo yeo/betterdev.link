@@ -151,7 +151,11 @@ func Fanout(issueNumber string, mode string, confirm bool) {
 	}
 
 	r := csv.NewReader(bytes.NewReader(contacts))
-	subject := fmt.Sprintf("BetterDev #%s - %s", issueNumber, issue.Subject)
+	subject := fmt.Sprintf("BetterDev #%s", issueNumber)
+	if issue.Subject != "" {
+		subject = fmt.Sprintf("%s - %s", subject, issue.Subject)
+	}
+
 	if mode == "dev" {
 		subject = "[Test]" + subject
 	}
