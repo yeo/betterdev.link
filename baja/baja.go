@@ -43,6 +43,7 @@ func (l *Link) IsSponsor() bool {
 type Issues []Issue
 
 type Issue struct {
+	Subject     string        `yaml:"subject"`
 	Time        string        `yaml:"time"`
 	Links       []Link        `yaml:"links"`
 	CodeToRead  []Link        `yaml:"read_code"`

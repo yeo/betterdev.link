@@ -127,7 +127,7 @@ func sendTo(svc *ses.SES, issue, subject, email string) (*ses.SendEmailOutput, e
 	return result, nil
 }
 
-func Fanout(issue string, mode string, confirm bool) {
+func Fanout(issueNumber string, mode string, confirm bool) {
 	// Quick and dirty sent tracking
 	// All of this crapy need to refactor
 	config := server.LoadConfigFromEnv()
@@ -141,8 +141,17 @@ func Fanout(issue string, mode string, confirm bool) {
 		log.Fatal("Cannot read file", err)
 	}
 
+	f, err := os.Stat(fmt.Sprintf("./content/issues/%s.yml", issueNumber))
+	if err != nil {
+		log.Fatal("Cannot open issue file")
+	}
+	issue, err := loadIssue(f)
+	if err != nil {
+		log.Fatal("Cannot parse issue content")
+	}
+
 	r := csv.NewReader(bytes.NewReader(contacts))
-	subject := fmt.Sprintf("Better Dev Link #%s", issue)
+	subject := fmt.Sprintf("BetterDev #%s - %s", issueNumber, issue.Subject)
 	if mode == "dev" {
 		subject = "[Test]" + subject
 	}
@@ -184,21 +193,21 @@ func Fanout(issue string, mode string, confirm bool) {
 		}
 
 		if confirm == true {
-			if tracker.AlreadySent(issue, record[0]) == true {
-				log.Println("Already fanout", issue, "to", record)
+			if tracker.AlreadySent(issueNumber, record[0]) == true {
+				log.Println("Already fanout", issueNumber, "to", record)
 				continue
 			}
 
-			result, err := sendTo(svc, issue, subject, record[0])
+			result, err := sendTo(svc, issueNumber, subject, record[0])
 			if err == nil {
-				tracker.LogSent(issue, record[0])
+				tracker.LogSent(issueNumber, record[0])
 
 				log.Println("Send to", record[0], "succesfully", result)
 			} else {
 				log.Println("Fail to fanout", record[0], err)
 			}
 		} else {
-			log.Println("DRY Fanout", issue, subject, "to", record[0])
+			log.Println("DRY Fanout", issueNumber, subject, "to", record[0])
 		}
 	}
 }
