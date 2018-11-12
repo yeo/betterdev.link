@@ -1,6 +1,6 @@
 time: "Nov 12, 2018"
 subject: |
-  BetterDev #75 - Object Oriented in Kernel, How Apple Manage their CDN, Tuning Postgres, Scaling the monolith and more...
+  Object Oriented in Kernel, How Apple Manage their CDN, Tuning Postgres, Scaling the monolith and more...
 
 description: ""
 
@@ -173,17 +173,6 @@ read_code:
       - Python
 
 tool:
-  - url: https://github.com/ottomatica/opunit
-    title: opunit
-    description: |
-      A tool to do sanity check for container. It spins up container and assert condition like
-      HTTP request, installed packages, file existence.
-
-  - url: https://github.com/minio/doctor
-    title: doctor
-    description: |
-      a documentation server for your docs in github
-
   - url: https://github.com/buttercup
     title: "buttercup: credentials management application"
     description: |
@@ -204,6 +193,12 @@ tool:
   - url: https://github.com/Dreamacro/clash
     title: clash
     description: "A rule based tunnel in Go"
+
+  - url: https://github.com/ottomatica/opunit
+    title: opunit
+    description: |
+      A tool to do sanity check for container. It spins up container and assert condition like
+      HTTP request, installed packages, file existence.
 
   - url: https://rr-project.org/
     title: "rr-project"
