@@ -38,5 +38,5 @@ spec:
               secretKeyRef:
                 name: betterdev
                 key: AWS_SECRET_ACCESS_KEY
-
-
+          - name: AWS_REGION
+            value: us-west-2
