@@ -2,9 +2,9 @@ time: "Nov 19, 2018"
 subject: |
   Testing in production the safe way, How sharding works, progressive srvice architecture aut Auth0 and DDoS protection with HAProxy
 description: |
-  Hi all, I'm trimming down the news letter so we only have really good links. But to not disappointed programmer
-  who starve for information. I started a [Telegram channel](https://t.me/betterdev) which you can also subscribe too to get more update.
-  But please keep subscribing to this news letter.
+  Hi all, I'm trimming down the news letter so we only have really good links. But to not disappointed programmers
+  who starve for information, I started a [Telegram channel](https://t.me/betterdev) which you can join to get more update.
+  But please keep subscribing to this news letter :).
 draft: false
 
 links:
@@ -26,6 +26,11 @@ links:
     description: |
       Type inference is a major feature of several programming languages, most notably languages from the ML family like Haskell.
       We will learn Hindley-Milner algorithm and use it to impelemtn a simple Python implementation for a toy ML-like language.
+
+  - url: https://blog.sumtypeofway.com/an-introduction-to-recursion-schemes/
+    title: "An Introduction to Recursion Schemes"
+    description: |
+      Recursion schemes is a magnificent example of how category-theoretical concepts can bring both rigor and simplicity to day-to-day programming tasks. No matter the structures in question—lists, directory hierarchies, control flow graphs, database records—recursion schemes bring us an orderly and predictable way to traverse them.
 
   - url: https://auth0.com/blog/progressive-service-architecture-at-auth0/
     title: "Progressive Service Architecture At Auth0"
@@ -79,12 +84,12 @@ video:
     title: "Debugging Under Fire"
     description: "Keep your Head when Systems have Lost their Mind"
 
+  - url: https://www.youtube.com/watch?v=HSk5fdKbd3o
+    title: "FP vs OOP: Choose Two by Brian Goetz"
+
   - url: https://www.harigopal.in/talks/2018/jsfoo
     title: "ReasonML"
     description: "Strict, powerful and forgiving"
-
-  - url: https://medium.engineering/graphql-medium-tech-talk-videos-a4812932abf3
-    title: "GraphQL @ Medium Tech Talk Videos"
 
   - url: http://5by5.tv/rubyonrails/250
     title: "Migrating Twitter with Linkerd(Podcast)"
@@ -97,7 +102,6 @@ read_code:
      This is used in their production and absolutely good to checkout.
     category:
       - C
-      - Go
 
   - url: https://github.com/awslabs/git-secrets
     title: git-secrets
@@ -129,13 +133,18 @@ read_code:
     description: Share a terminal session over WebRTC
     category:
       - Go
-      - JavaScript
 
   - url: https://github.com/MaxDesiatov/CoreXLSX
     title: CoreXLSX
     description: "Excel spreadsheet (XLSX) format support in pure Swift"
     category:
       - Swift
+
+  - url: https://github.com/255kb/mockoon
+    title: mockoon
+    description: "Mock REST APIs in seconds"
+    category:
+      - TypeScript
 
   - url: https://github.com/adjoint-io/raft
     title: raft
@@ -173,10 +182,6 @@ tool:
   - url: https://github.com/replicatedhq/gatekeeper
     title: gatekeeper
     description: "Kubernetes Operator to manage Dynamic Admission Controllers using Open Policy Agent"
-
-  - url: https://github.com/google/kasane
-    title: kasane
-    description: "A simple kubernetes deployment manager"
 
   - url: https://argoproj.github.io/
     title: "Argo"
