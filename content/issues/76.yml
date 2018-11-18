@@ -1,0 +1,187 @@
+time: "Nov 19, 2018"
+subject: |
+  Testing in production the safe way, How sharding works, progressive srvice architecture aut Auth0 and DDoS protection with HAProxy
+description: |
+  Hi all, I'm trimming down the news letter so we only have really good links. But to not disappointed programmer
+  who starve for information. I started a [Telegram channel](https://t.me/betterdev) which you can also subscribe too to get more update.
+  But please keep subscribing to this news letter.
+draft: false
+
+links:
+  - url: https://medium.com/@copyconstruct/testing-in-production-the-safe-way-18ca102d0ef1
+    title: "Testing in Production, the safe way"
+    description: |
+      Many company tests in a dedicated QA/Staging environment. Yet, bug is still catch on production.
+      The problem is some are impossible to catch on a non-production env. Because essentially we don't
+      test on the environment we run. So how we can make test in production safety without corrupted data,
+      or interrupt workload of any existing application.
+
+  - url: https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6
+    title: "How Sharding Works"
+    description: |
+       Traffic and data is starting to grow, and your database gets more overloaded every day. People on the internet tell you to scale your database by sharding, but you don’t really know what it means.
+
+  - url: https://eli.thegreenplace.net/2018/type-inference/
+    title: "How to implement type inference"
+    description: |
+      Type inference is a major feature of several programming languages, most notably languages from the ML family like Haskell.
+      We will learn Hindley-Milner algorithm and use it to impelemtn a simple Python implementation for a toy ML-like language.
+
+  - url: https://auth0.com/blog/progressive-service-architecture-at-auth0/
+    title: "Progressive Service Architecture At Auth0"
+    description: |
+      Auth0 used a progressive approach to build a mature service architecture characterized by high availability and reliability.
+      Progrssive means: feature flag, circuit-breaking, caching, self-healing services.
+
+  - url: https://dev.to/antogarand/why-facebooks-api-starts-with-a-for-loop-1eob
+    title: "Why Facebook's api starts with a for loop"
+    description: |
+      Why Facebook/Google API responses contains some weird javascript before the JSON itself.
+      TLDR: to protect your data from JSON hijacking.
+
+  - url: https://www.haproxy.com/blog/application-layer-ddos-attack-protection-with-haproxy/
+    title: "Application-Layer DDoS Attack Protection with HAProxy"
+    description: |
+      Every application, at some point has to deal with some kid of DDoS, from cralwer, brute-force attempt, HTTP flood.
+      HAProxy load balancer can protects you from application-layer DDoS attacks with some building blocks such as  ACLs and maps, real-time tracking with stick tables.
+
+  - url: https://medium.freecodecamp.org/how-we-fine-tuned-haproxy-to-achieve-2-000-000-concurrent-ssl-connections-d017e61a4d27
+    title: "How we fine-tuned HAProxy to achieve 2,000,000 concurrent SSL connections"
+    description: |
+      Convince by above article about HAProxy, want to learn more. See how massive HAProxy scale.
+
+  - url: https://blog.bitsrc.io/understanding-asynchronous-javascript-the-event-loop-74cd408419ff
+    title: "Understanding Asynchronous JavaScript — the Event Loop"
+    description: |
+      Love it or hate it. JavaScript is everywhere we should understand its fundametal building block: the Event Loop.
+
+  - url: https://emptysqua.re/blog/api-evolution-the-right-way/
+    title: "API Evolution the Right Way"
+    description: |
+      How can we we continue to innovate our library while promise to not break the code of people
+      use our library? The post is Python heavy but don't let that set you off. You will learn how
+      to evolove the API progressively, gracefully and properly.
+
+  - url: https://medium.freecodecamp.org/the-perfect-programming-interview-problem-8431cdeab2a7
+    title: "The Perfect Programming Interview Problem"
+    description: |
+      Let's solve a leetcode problem in a contest that need to be done in 1hour.
+      It's perfect for an interview because it test many skills.
+      FYI, the author cannot do it in 1hour.
+      If you still want more, check out this list of
+      [50+ Data Structure and Algorithms Interview Questions for Programmers](https://hackernoon.com/50-data-structure-and-algorithms-interview-questions-for-programmers-b4b1ac61f5b0)
+
+video:
+  - url: https://www.youtube.com/watch?v=xISG4nGTQYE&feature=youtu.be
+    title: "Making your own 4 bit computer from transistors"
+
+  - url: https://www.youtube.com/watch?v=30jNsCVLpAE&__s=vapsgckbosy9pikkmkro
+    title: "Debugging Under Fire"
+    description: "Keep your Head when Systems have Lost their Mind"
+
+  - url: https://www.harigopal.in/talks/2018/jsfoo
+    title: "ReasonML"
+    description: "Strict, powerful and forgiving"
+
+  - url: https://medium.engineering/graphql-medium-tech-talk-videos-a4812932abf3
+    title: "GraphQL @ Medium Tech Talk Videos"
+
+  - url: http://5by5.tv/rubyonrails/250
+    title: "Migrating Twitter with Linkerd(Podcast)"
+
+read_code:
+  - url: https://github.com/replit/prybar
+    title: "prybar"
+    description: |
+     A universal interpreter front-end by repl.it so we can have same interface, same REPL, different languages.
+     This is used in their production and absolutely good to checkout.
+    category:
+      - C
+      - Go
+
+  - url: https://github.com/awslabs/git-secrets
+    title: git-secrets
+    description: Prevents you from committing secrets and credentials into git repositories"
+    category:
+      - Bash
+
+  - url: https://github.com/piotrmurach/finite_machine
+    title: finite_machine
+    description: "A minimal finite state machine with a straightforward syntax"
+    category:
+      - Ruby
+
+  - url: https://github.com/Azure/golua
+    title: "golua"
+    description: |
+      LuaVM implement in Go by Microsoft Azure team
+    category:
+      - Go
+
+  - url: https://github.com/harelba/q
+    title: "q"
+    description: "Run SQL directly on CSV or TSV files"
+    category:
+      - Python
+
+  - url: https://github.com/maxmcd/webtty
+    title: webtty
+    description: Share a terminal session over WebRTC
+    category:
+      - Go
+      - JavaScript
+
+  - url: https://github.com/MaxDesiatov/CoreXLSX
+    title: CoreXLSX
+    description: "Excel spreadsheet (XLSX) format support in pure Swift"
+    category:
+      - Swift
+
+  - url: https://github.com/adjoint-io/raft
+    title: raft
+    description: "Consensus Algorithm in Hashkell"
+    category:
+      - Hashkell
+
+tool:
+  - url: https://github.com/minimaxir/big-list-of-naughty-strings
+    title: "Big List of Naughty Strings"
+    description: |
+       a list of strings which have a high probability of causing issues when used as user-input data.
+       Useful when writing test or fuzzing input.
+
+  - url: https://riposte.in/
+    title: Riposte
+    description: "Scripting language for JSON HTTP APIs"
+
+  - url: https://github.com/jswidler/lockgit
+    title: Lockgit
+    description: "a tool for storing encrypted secrets in a git repo"
+
+  - url: https://github.com/s0md3v/XSStrike
+    title: XSStrike
+    description: "Most advanced XSS detection suite"
+
+  - url: https://github.com/meitu/titan
+    title: Titan
+    description: "A Distributed Redis Protocol Compatible NoSQL Database"
+
+  - url: https://github.com/bloomberg/powerfulseal
+    title: "Powerfulseal"
+    description: "chaos engineering for Kubernetes clusters"
+
+  - url: https://github.com/replicatedhq/gatekeeper
+    title: gatekeeper
+    description: "Kubernetes Operator to manage Dynamic Admission Controllers using Open Policy Agent"
+
+  - url: https://github.com/google/kasane
+    title: kasane
+    description: "A simple kubernetes deployment manager"
+
+  - url: https://argoproj.github.io/
+    title: "Argo"
+    description: "Open source Kubernetes native workflows, events, CI and CD"
+
+  - url: https://github.com/devopsfaith/krakend
+    title: Krakend
+    description: "Ultra performant API Gateway with middlewares"
