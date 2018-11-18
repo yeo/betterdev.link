@@ -91,9 +91,6 @@ video:
     title: "ReasonML"
     description: "Strict, powerful and forgiving"
 
-  - url: http://5by5.tv/rubyonrails/250
-    title: "Migrating Twitter with Linkerd(Podcast)"
-
 read_code:
   - url: https://github.com/replit/prybar
     title: "prybar"
@@ -159,10 +156,6 @@ tool:
        a list of strings which have a high probability of causing issues when used as user-input data.
        Useful when writing test or fuzzing input.
 
-  - url: https://riposte.in/
-    title: Riposte
-    description: "Scripting language for JSON HTTP APIs"
-
   - url: https://github.com/jswidler/lockgit
     title: Lockgit
     description: "a tool for storing encrypted secrets in a git repo"
@@ -175,6 +168,10 @@ tool:
     title: Titan
     description: "A Distributed Redis Protocol Compatible NoSQL Database"
 
+  - url: https://github.com/devopsfaith/krakend
+    title: Krakend
+    description: "Ultra performant API Gateway with middlewares"
+
   - url: https://github.com/bloomberg/powerfulseal
     title: "Powerfulseal"
     description: "chaos engineering for Kubernetes clusters"
@@ -186,7 +183,3 @@ tool:
   - url: https://argoproj.github.io/
     title: "Argo"
     description: "Open source Kubernetes native workflows, events, CI and CD"
-
-  - url: https://github.com/devopsfaith/krakend
-    title: Krakend
-    description: "Ultra performant API Gateway with middlewares"
