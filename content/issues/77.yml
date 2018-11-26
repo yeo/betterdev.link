@@ -1,0 +1,167 @@
+time: "Nov 25, 2018"
+subject: |
+  Shamir's Secret Sharing Scheme, How DRAM refresheMs data, Concurrency glossary and Mysterious Traffic Imbalance.
+
+description: ""
+
+draft: false
+
+links:
+  - url: https://ericrafaloff.com/shamirs-secret-sharing-scheme/
+    title: "Shamir's Secret Sharing Scheme"
+    description: |
+      How we can securely share a secrets among N parties so we need all parties to form the original key,
+      but if one lost their part of original key we can still restruct the original key. Adi Shamir was thinking about in 1979.
+
+  - url: https://blog.cloudflare.com/every-7-8us-your-computers-memory-has-a-hiccup/
+    title: "Every 7.8μs your computer’s memory has a hiccup"
+    description: |
+      Data is stored by the charge (or lack of it) on a tiny capacitor within the RAM chip.
+      These capacitors lose their charge over time, mean losing data. We need to refresh
+      to restore the charge. RAM is blocked when this occurs. So how often this happen? Yes,
+      every 7.8μs
+
+  - url: http://beza1e1.tuxen.de/model_view_controller.html
+    title: "Model View Controller isn't"
+    description: |
+      The MVC pattern is everywhere. Web frameworks use. Apps use it. GUIs use it. Well, actually they don't use MVC. It is just a marketing lie. They use something else like MVA.
+
+  - url: http://donw.io/post/sphere-indexing/
+    title: "Fast, Constant Time Sphere Indexing"
+    description: |
+      Problem: Assuming a triangle-subdivided sphere, map any 3D point on or above it to a triangle index in constant-time, without using recursion, table lookups or complicated branching logic.
+
+  - url: https://cryptobook.nakov.com/
+    title: "Practical Cryptography for Developers - Free book"
+    description: |
+      A free book with code examples, covers core concepts like: hashes(SHA3,
+      BLAKE2, MAC code(HMAC, GMAC), key derivation functions(Scrypt, Argon2), key agreement protocols (DHKE, ECDH)
+      and more.
+
+  - url: https://practicaltypography.com/
+    title: "Practical typography - Free book"
+    description: |
+      Lets' learn typography in ten minutes. Beside amazing content,
+      this website itself is amazing too because its author build a
+      publishing system call [Pollen](https://pollenpub.com/).
+
+  - url: https://medium.com/dailyjs/the-how-and-why-on-reacts-usage-of-linked-list-in-fiber-67f1014d0eb7
+    title: "On React’s usage of linked list in Fiber to walk the component’s tree"
+    description: |
+      Fiber is the newest implementation of change dectection.
+      Besides solving real problems of application developers, the internal implementation of these mechanisms has a wide appeal from the engineering perspective. There’s such a wealth of knowledge in the sources that will help us grow as developers.
+
+  - url: http://composition.al/CMPS290S-2018-09/2018/11/17/time-is-partial-or-why-do-distributed-consistency-models-and-weak-memory-models-look-so-similar-anyway.html
+    title: "Time is Partial, or: why do distributed consistency models and weak memory models look so similar"
+    description: |
+      There’s only one hard problem in computer science: recognising that cache invalidation errors are misnamed. They’re just off-by-one errors in the time domain.
+
+  - url: https://slikts.github.io/concurrency-glossary/
+    title: "Concurrency glossary"
+    description: |
+       An informal top-level overview of terms used in concurrent computing. The motivations are to provide an unfragmented resource on a topic of wide relevance, to disambiguate overloaded terms and to aid natural understanding by contextualizing certain terms more broadly than their conventional meanings
+
+  - url: https://www.joshmcguigan.com/blog/build-your-own-shell-rust/
+    title: "Build Your Own Shell using Rust"
+    description: |
+      Creating a shell is a great way to understand how the shell, terminal emulator, and OS work together.
+
+video:
+  - url: https://www.youtube.com/watch?v=gfh-VCTwMw8
+    title: "Avoiding Microservice Megadisasters"
+
+  - url: https://www.youtube.com/watch?v=XaC1rQZ_LKs
+    title: "SQL Databases Algorithms"
+    description: |
+      How the SQL database will constantly outperform any hand written data retrieval algorithm
+
+  - url: https://www.youtube.com/watch?v=HSk5fdKbd3o
+    title: "FP vs OOP: Choose Two"
+
+read_code:
+  - url: https://github.com/Humpheh/goboy
+    title: goboy
+    description: "Multi-platform Nintendo Game Boy Color emulator"
+    category:
+      - Go
+
+  - url: https://github.com/adworse/iguvium
+    title: "iguvium"
+    description: "Ruby gem for extracting tables from PDF as a structured info"
+    category:
+      - Ruby
+
+  - url: https://github.com/jmacdonald/amp
+    title: "amp.rs"
+    description: "A complete text editor for your terminal"
+    category:
+      - Rust
+
+  - url: https://github.com/M4cs/BabySploit
+    title: "BabySploit"
+    description: "Beginner Pentesting Toolkit/Framework"
+    category:
+      - Python
+
+  - url: http://js.cytoscape.org/
+    title: "Cytoscape.js"
+    description: |
+      Graph theory / network library for analysis and visualisation
+    category:
+      - JavaScript
+
+  - url: https://github.com/git-hulk/tcpkit
+    title: tcpkit
+    description: "A tool to capature the tcp packets, and analyze the packets with LUA"
+    category:
+      - C
+
+  - url: https://github.com/guh/berrylan
+    title: berrylan
+    description: |
+      Frustrated to config Raspberry wifi because you need a screen and keyboard
+      for wifi config before you can SSH into. No more.
+      Get your headless Raspbian into your WLAN without using the console.
+    category:
+      - C++
+      - QML
+
+tool:
+  - url: https://github.com/uber/makisu
+    title: makisu
+    description: |
+      Fast and flexible Docker image build tool designed for containerized environments such as Mesos or Kubernetes.
+
+  - url: https://github.com/Skyscanner/cfripper
+    title: cfripper
+    description: |
+      Lambda function to "rip apart" a CloudFormation template and check it for security compliance"
+
+  - url: https://github.com/kgretzky/evilginx2
+    title: evilginx2
+    description: |
+      man-in-the-middle attack framework used for phishing login credentials with sessions cookie so it can bypass MFA.
+
+  - url: https://github.com/ajinabraham/CMSScan
+    title: "CMSScan"
+    description: "Scan Wordpress, Drupal, Joomla, vBulletin websites for Security issues"
+
+  - url: https://github.com/uflare/smtp2http
+    title: smtp2http
+    description: "convert a smtp request (email) and send it to the specified webhook"
+
+  - url: https://github.com/mholt/archiver
+    title: archiver
+    description: |
+      single utility to create and extract .zip, .tar, .tar.gz, .tar.bz2, .tar.xz, .tar.lz4, .tar.sz, and .rar
+
+  - url: https://github.com/flesueur/mi-lxc
+    title: mi-lxc
+    description: |
+      Uses LXC to simulate a small-scale internet-like environment for intrusion,
+      firewall, IDS...
+
+  - url: https://github.com/michenriksen/gitrob
+    title: gitrob
+    description: |
+      find potentially sensitive files pushed to public repositories on Github
