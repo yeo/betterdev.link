@@ -1,10 +1,10 @@
 time: "Nov 25, 2018"
 subject: |
-  Shamir's Secret Sharing Scheme, How DRAM refresheMs data, Concurrency glossary and Mysterious Traffic Imbalance.
+  Shamir's Secret Sharing Scheme, How DRAM refreshes data, Concurrency Glossary and Constant Time Sphere Indexing.
 
 description: |
-  Hello from San Jose. We are get going to get lots of holidays till the end of the years. It's more time
-  for us to improve our skill. BetterDev aim to serve you well. Help us by [share on twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fbetterdev.link%2Fissues%2F77&text=BetterDev%20Issue%2077)
+  Hi, We are going to get lots of holidays till the end of the year. That means more time
+  to improve our skills. BetterDev aims to serve you well. You can help spread the word by [share on twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fbetterdev.link%2Fissues%2F77&text=BetterDev%20Issue%2077)
 draft: false
 
 links:
@@ -66,6 +66,13 @@ links:
       When we need to visualize a large array with low-profile hardware, say 500,000 data points in a single render pass.
       We need to cheat by drawing each vertical pixel column as one line reaching from the minimum sample to the maximum sample
       instead of individual points.
+
+  - url: https://practicaltypography.com/
+    title: "Practical typography - Free book"
+    description: |
+      Lets' learn typography in ten minutes. Beside amazing content,
+      this website itself is amazing too because its author build a
+      publishing system call [Pollen](https://pollenpub.com/).
 
 video:
   - url: https://www.youtube.com/watch?v=gfh-VCTwMw8
