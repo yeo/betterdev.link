@@ -2,8 +2,9 @@ time: "Nov 25, 2018"
 subject: |
   Shamir's Secret Sharing Scheme, How DRAM refresheMs data, Concurrency glossary and Mysterious Traffic Imbalance.
 
-description: ""
-
+description: |
+  Hello from San Jose. We are get going to get lots of holidays till the end of the years. It's more time
+  for us to improve our skill. BetterDev aim to serve you well. Help us by [share on twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fbetterdev.link%2Fissues%2F77&via=kureikain&text=BetterDev%20Issue%2077)
 draft: false
 
 links:
@@ -38,13 +39,6 @@ links:
       BLAKE2, MAC code(HMAC, GMAC), key derivation functions(Scrypt, Argon2), key agreement protocols (DHKE, ECDH)
       and more.
 
-  - url: https://practicaltypography.com/
-    title: "Practical typography - Free book"
-    description: |
-      Lets' learn typography in ten minutes. Beside amazing content,
-      this website itself is amazing too because its author build a
-      publishing system call [Pollen](https://pollenpub.com/).
-
   - url: https://medium.com/dailyjs/the-how-and-why-on-reacts-usage-of-linked-list-in-fiber-67f1014d0eb7
     title: "On React’s usage of linked list in Fiber to walk the component’s tree"
     description: |
@@ -65,6 +59,13 @@ links:
     title: "Build Your Own Shell using Rust"
     description: |
       Creating a shell is a great way to understand how the shell, terminal emulator, and OS work together.
+
+  - url: https://www.kdab.com/a-speed-up-for-charting-on-embedded/
+    title: "A Speed-Up for Charting on Embedded"
+    description: |
+      When we need to visualize a large array with low-profile hardware, say 500,000 data points in a single render pass.
+      We need to cheat by drawing each vertical pixel column as one line reaching from the minimum sample to the maximum sample
+      instead of individual points.
 
 video:
   - url: https://www.youtube.com/watch?v=gfh-VCTwMw8
