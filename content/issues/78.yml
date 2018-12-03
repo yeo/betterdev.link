@@ -146,7 +146,8 @@ tool:
     description: "thread-safe inmemory cache for big number of entries in GO"
 
   - url: https://buttercup.pw/
-    title: "An open source Password Manager support desktop, browse, mobile"
+    title: "bettercup"
+    description: "An open source Password Manager support desktop, browse, mobile"
 
   - url: https://github.com/twistlock/cloud-discovery/
     title: cloud-discovery
