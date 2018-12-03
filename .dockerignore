@@ -3,6 +3,8 @@ backup
 community
 vendor
 content/prod.csv
+content/*.user
 *.env
 *.log
 node_modules
+frontend
