@@ -140,6 +140,14 @@ read_code:
     category:
       - Python
 
+  - url: https://github.com/denysdovhan/spaceship-prompt
+    title: "Zsh prompt for Astronauts"
+    description: |
+      A zsh shell prompt that show many information of your env: git info,
+      programming languages stack, hardware info and more.
+    category:
+      - Zsh
+      - Bash
 tool:
   - url: https://github.com/VictoriaMetrics/fastcache
     title: "Fastcache"
