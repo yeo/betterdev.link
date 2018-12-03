@@ -19,6 +19,13 @@ links:
       Using tool like `strace`, `tcpdump` to support debugging low level stuff such as network traffic
       and linux syscall.
 
+  - url: https://vlkan.com/blog/post/2018/11/14/elasticsearch-primary-data-store/
+    title: "Using Elasticsearch as the Primary Data Store"
+    description: |
+      A lengthy story at Bol.com, the biggest e-commerce company in the Netherlands and Belgium,
+      replace their original ETL with Oracle PL/SQL by ElasticSearch and also use ElasticSearch
+      as primary data store. ElasticSearch outperforms both MongoDB and Postgres.
+
   - url: https://blog.acolyer.org/2018/11/16/overload-control-for-scaling-wechat-microservices/
     title: "Overload control for scaling WeChat microservices"
     description: |
