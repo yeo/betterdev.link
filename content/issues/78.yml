@@ -48,18 +48,18 @@ links:
   - url: https://www.feval.fr/posts/microservices/
     title: "When not to use microservices"
     description: |
-      Microservices seems to have become the de facto standard. And it’s understandable, given the promises that come with: resiliency, HA, low coupling, agility. However, some started to re-consider them. This post will go about 
-
-  - url: https://hpbn.co/
-    title: "High Performance Browser Networking"
-    description: |
-      Performance is a feature. This book provides a hands-on overview of what every web developer needs to know about the various types of networks (WiFi, 3G/4G), transport protocols (UDP, TCP, and TLS), application protocols (HTTP/1.1, HTTP/2), and APIs available in the browser (XHR, WebSocket, WebRTC, and more) to deliver the best—fast, reliable, and resilient—user experience.
+      Microservices seems to have become the de facto standard. And it’s understandable, given the promises that come with: resiliency, HA, low coupling, agility. This article discuss when we should or shouldn't use microservices.
 
   - url: https://cameronlonsdale.com/2018/11/26/whats-in-a-docker-image/
     title: "What's in a Docker image"
     description: |
       Docker images can seem pretty mysterious. They built on concept of Layer. Let's dive deep and see what is a layer
-      and tools to analyze them
+      and tools to analyze them.
+
+  - url: https://hpbn.co/
+    title: "High Performance Browser Networking"
+    description: |
+      Performance is a feature. This book provides a hands-on overview of what every web developer needs to know about the various types of networks (WiFi, 3G/4G), transport protocols (UDP, TCP, and TLS), application protocols (HTTP/1.1, HTTP/2), and APIs available in the browser (XHR, WebSocket, WebRTC, and more) to deliver the best—fast, reliable, and resilient—user experience.
 
   - url: http://www.redbook.io/
     title: "Readings in Database Systems"
