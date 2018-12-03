@@ -124,10 +124,15 @@ read_code:
     category:
       - Go
 
+  - url: https://github.com/GitSquared/edex-ui
+    title: "edex-ui"
+    description: |
+      a fullscreen desktop application resembling a sci-fi computer interface, heavily inspired from DEX-UI.
+    category:
+      - JavaScript
+
   - url: https://github.com/elsewhencode/project-guidelines
     title: "Best practices for JavaScript projects"
-    description: |
-      No real JavaScript code this week but some good best practices tips.
     category:
       - JavaScript
 
