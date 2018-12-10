@@ -1,0 +1,160 @@
+time: "Dec 10, 2018"
+subject: |
+  How Stack Overflow do monitoring, A look at ways to restrict Unix Process
+
+draft: false
+
+description: |
+  Hi all, adventofcode.com is everywhere now. Many sites adopt this style, where a new article/tips are release every days until christmast.
+  [http://security.christmas](http://security.christmas) helps you celebrate a more secure Christmas.
+  Or if you are into vim, [https://vimways.org/2018/](https://vimways.org/2018/) bring you one vimtip until
+  christmast. If you are writing Go, enjoy [gopheracademy advent 2018](https://blog.gopheracademy.com/advent-2018/). 
+
+links:
+  - url: https://nickcraver.com/blog/2018/11/29/stack-overflow-how-we-do-monitoring/
+    title: "Stack Overflow: How We Do Monitoring - 2018 Edition"
+    description: |
+      It covers log, metric, healthchecks, alerting, visualization with grafana,
+      custom miniprofiler and client timing(which is usually ignore because we only measure server timing)
+
+  - url: https://overreacted.io/
+    title: "Overreacted"
+    description: |
+      Dan works on React, he creates this site to share many article about different aspect of React. Simple thing that we overlook,
+      which turns out more complex than they are.
+
+  - url: https://blog.waffles.space/2018/12/07/deep-dive-into-hashbrown/
+    title: "The Swiss Army Knife of Hashmaps"
+    description: "Rust is about to hash a faster Hashmap implementation, based on Google's SwissTable implementation. This post talk about many thing about Hashing and Hashmap: Dealing with collisions, CPU Cache. You should still read even if you don't write Rust"
+
+  - url: https://betterment.engineering/ci-cd-at-betterment-part-ii-standardizing-the-interface-69a15f0735f3
+    title: "CI/CD at Betterment, Part II: Standardizing the Interface"
+    description: |
+      Betterment write a custom CLI to generate CircleCI config, based on a certain rule to standard the interface
+      such as project type, repo layout, build script. The custom CLI use a DSL in YAML, which make it re-useable
+      acrorss teams.
+
+  - url: https://hackernoon.com/how-to-avoid-a-deadlock-while-writing-concurrent-programs-java-example-988bb07db25f?gi=7fd929645b97
+    title: "How to avoid a Deadlock while writing Concurrent Programs"
+    description: |
+      Writing correct concurrent application is never easy as you have to deal with several concurrency issues like race conditions, livelock, deadlock, memory interference.
+      We will approach this problem as an interview question.
+
+  - url: https://www.netmeister.org/blog/restricting-processes.html
+    title: "A look at ways to restrict Unix processe"
+    description: |
+      We can run multi processes, multi user, multi tenants in same computer. How we can protect these? How we can say these process
+      are together and they cannot see other process?
+
+  - url: https://blog.newrelic.com/engineering/new-relic-kafkapocalypse/
+    title: "Kafkapocalypse: Monitoring Kafka Without Losing Your Mind"
+    description: |
+      Ever feel bad if you think Kafka is complex. Even NewRelic didn’t understand all of the key indicators to monitor and alert on.
+      But you will know after reading this. Also check out [How Pinterest runs Kafka at scale](https://medium.com/pinterest-engineering/how-pinterest-runs-kafka-at-scale-ff9c6f735be)
+
+  - url: https://robertheaton.com/2018/11/28/https-in-the-real-world/
+    title: "HTTPS in the real world"
+    description: |
+      Take a step back and think about these HTTPS concept/infrastructure in real world. Is the private key really that protected? Or it sit in your laptop
+      right now open to all that NPM malware. Same thing to CA private key. Or we maynot even trust the CA anymore, example Symantec’s CA incident recently.
+
+  - url: https://calendar.perfplanet.com/2018/http2-hol-waterfall/
+    title: "HTTP/2 and the HOL in the Waterfall"
+    description: |
+      HTTP/2 is complex, in a single TCP connection, it transform packets of multiple requests-response, in either direction.
+      To make it worse, it even support priority with weight. This complicated the watefall you see in network request timeline.
+
+  - url: https://circleci.com/blog/path-to-production-how-and-where-to-segregate-test-environments/
+    title: "The path to production: how and where to segregate test environments"
+    description: |
+      The benefits of a duty-segregated path to production are: 1. Debugging faster and more easily by isolating development and testing into stages. You can detect problems earlier, and feedback loops are faster. 2. Saving resources by keeping the number of production-like environments as low as possible (one or two is good).
+
+  - url: https://medium.com/thg-tech-blog/cassandra-and-cql-what-they-dont-tell-you-28b9d41ea80d
+    title: "Cassandra and CQL — what they don’t tell you"
+    description: |
+      Cassandra is amazing. Cross region replication, fast write. linear scalability. SQL-like interface. The pitfall? Delete data is hard.
+
+video:
+  - url: https://www.youtube.com/watch?v=ncHmEUmJZf4
+    title: "Designing a Fast, Efficient, Cache-friendly Hash Table, Step by Step(59mins)"
+
+  - url: https://www.youtube.com/watch?v=dXECQRlmIaE
+    title: "Coding Math: Episode 19 - Bezier Curves(12mins)"
+    description: |
+      A deep dive into Bezier Curves.
+
+  - url: https://www.youtube.com/watch?v=YR5WdGrpoug
+    title: "Maybe Not"
+    description: |
+      Rich Hickey, Clojure creators, argue that `Maybe` maybe not a soltuion
+
+  - url: https://www.youtube.com/playlist?list=PLguYJK7ydFE4aS8fq4D6DqjF6qsysxTnx
+    title: "HaskellRank"
+    description: |
+      Youtube channel that solve Hacker Rank problem in Hashkell. The OP does plan other programming challenge site in the future.
+
+read_code:
+  - url: https://github.com/MrRio/jsPDF
+    title: jsPDF
+    description: "Client-side JavaScript PDF generation"
+    category:
+      - JavaScript
+
+  - url: https://github.com/iridakos/duckrails
+    title: duckrails
+    description: |
+      Quickly & dynamically mock API endpoints 🦆
+    category:
+      - Ruby
+
+  - url: https://github.com/objectbox/objectbox-go
+    title: objectbox-go
+    description: "persisting your Go structs/objects superfast and simple"
+    category:
+      - Go
+
+  - url: https://github.com/objecthub/swift-lispkit
+    title: lispkit
+    description: "Interpreter framework for Lisp-based extension and scripting languages on macOS"
+    category:
+      - Swift
+
+  - url: https://github.com/japaric/cargo-call-stack
+    title: "cargo-call-stack"
+    description: "Whole program static stack analysis"
+    category:
+      - Rust
+
+  - url: https://github.com/joelibaceta/video-to-ascii
+    title: "video-to-ascii"
+    description: "python package to play videos in the terminal using characters as pixels"
+    category:
+      - Python
+
+tool:
+  - url: https://github.com/pgbackrest/pgbackrest
+    title: pgbackrest
+    description: "Reliable PostgreSQL Backup & Restore"
+
+  - url: https://github.com/Microsoft/Ethr
+    title: Ethr
+    description: "a Network Performance Measurement Tool for TCP, UDP & HTTP"
+
+  - url: https://github.com/crossplaneio/crossplane
+    title: "crossplane: open source multicloud control plane"
+    description: |
+      Basically allow you to declare cloud resources in yaml and provision it automatically.
+
+  - url: https://github.com/bradleyboy/tuql
+    title: tuql
+    description: |
+      create a GraphQL server from a sqlite database
+
+  - url: https://github.com/bitnine-oss/agensgraph
+    title: agensgraph
+    description: |
+      a transactional graph database based on PostgreSQL
+
+  - url: https://github.com/koenbollen/jl
+    title: jl
+    description: "a development tool for working with structured JSON logging"
