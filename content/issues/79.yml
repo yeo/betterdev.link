@@ -70,11 +70,6 @@ links:
     description: |
       The benefits of a duty-segregated path to production are: 1. Debugging faster and more easily by isolating development and testing into stages. You can detect problems earlier, and feedback loops are faster. 2. Saving resources by keeping the number of production-like environments as low as possible (one or two is good).
 
-  - url: https://medium.com/thg-tech-blog/cassandra-and-cql-what-they-dont-tell-you-28b9d41ea80d
-    title: "Cassandra and CQL — what they don’t tell you"
-    description: |
-      Cassandra is amazing. Cross region replication, fast write. linear scalability. SQL-like interface. The pitfall? Delete data is hard.
-
 video:
   - url: https://www.youtube.com/watch?v=ncHmEUmJZf4
     title: "Designing a Fast, Efficient, Cache-friendly Hash Table, Step by Step(59mins)"
