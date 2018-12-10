@@ -8,7 +8,8 @@ description: |
   Hi all, adventofcode.com is everywhere now. Many sites adopt this style, where a new article/tips are release every days until christmast.
   [http://security.christmas](http://security.christmas) helps you celebrate a more secure Christmas.
   Or if you are into vim, [https://vimways.org/2018/](https://vimways.org/2018/) bring you one vimtip until
-  christmast. If you are writing Go, enjoy [gopheracademy advent 2018](https://blog.gopheracademy.com/advent-2018/). 
+  christmast. If you are writing Go, enjoy [gopheracademy advent 2018](https://blog.gopheracademy.com/advent-2018/).
+  Similar for [Elm](https://elm.christmas) and [JavaScript](https://javascript.christmas)
 
 links:
   - url: https://nickcraver.com/blog/2018/11/29/stack-overflow-how-we-do-monitoring/
