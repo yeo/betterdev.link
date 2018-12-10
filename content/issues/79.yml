@@ -90,6 +90,11 @@ video:
       Youtube channel that solve Hacker Rank problem in Hashkell. The OP does plan other programming challenge site in the future.
 
 read_code:
+  - url: https://github.com/Bogdanp/awesome-advent-of-code#solutions
+    title: "Awesome Advent of Code"
+    description: |
+      Solution in almost every programming language to advent of code challenge.
+
   - url: https://github.com/MrRio/jsPDF
     title: jsPDF
     description: "Client-side JavaScript PDF generation"
