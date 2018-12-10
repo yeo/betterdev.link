@@ -5,6 +5,7 @@ DOCKER_REPO := quay.io/yeospace/betterdev
 osx:
 	cd cmd && go build -ldflags "-X main.Version=$(VERSION) -X main.GitCommit=$(GIT_COMMIT)" -o ../bd
 
+.PHONY: linux
 linux:
 	cd cmd && GOOS=linux GOARCH=amd64 go build -ldflags "-X main.Version=$(VERSION) -X main.GitCommit=$(GIT_COMMIT)" -o ../linux
 
