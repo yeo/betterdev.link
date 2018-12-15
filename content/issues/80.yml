@@ -1,0 +1,143 @@
+time: "Dec 17, 2018"
+subject: |
+  How Stack Overflow do monitoring, Overreacted with Dan, Rust Hashmaps performance improvement and way to avoid deadlock
+
+draft: false
+
+description: |
+
+links:
+  - url: https://smallstep.com/blog/everything-pki.html
+    title: "Everything you should know about certificates and PKI but are too afraid to ask"
+
+  - url: https://justinmeiners.github.io/lc3-vm/
+    title: "Write your Own Virtual Machine"
+    description: |
+      We all use VM. Docker for Mac run on a VM too. What if we write our own virtuam machine? How hard that is.
+      It helps us gain a deeper understanding of what is going on inside a computer and better understand how programming languages work
+
+  - url: https://jakearchibald.com/2018/when-packages-go-bad/
+    title: "What happens when packages go bad?"
+    description: |
+      Also checkout [Securing Your Site like It’s 1999](https://24ways.org/2018/securing-your-site-like-its-1999/)
+
+  - url: http://250bpm.com/blog:4
+    title: "Why should I have written ZeroMQ in C, not C++"
+    description: |
+      Main issue is because how C++ handle errors with exception, which the author think create
+      undefined behaviour. It's good to read about the use of exceptions which we get too familiar
+      in every language like Java, Python, Ruby, JavaScript.
+
+  - url: https://benchling.engineering/enforcing-transitive-constraints-in-sql-bc9caaf06884
+    title: "Enforcing Transitive Constraints in SQL"
+    description: |
+      
+  - url: https://github.com/yeasy/docker_practice
+    title: "Learn and understand Docker technologies, with real DevOps practice"
+
+  - url: https://medium.com/@willhayjr/the-architecture-and-history-of-git-a-distributed-version-control-system-62b17dd37742
+    title: "The Architecture and History of Git: A Distributed Version Control System"
+
+  - url: https://www.mnot.net/blog/2018/11/27/header_compression
+    title: "Designing Headers for HTTP Compression"
+
+  - url: https://research.checkpoint.com/50-adobe-cves-in-50-days/
+    title: "50 CVEs in 50 Days: Fuzzing Adobe Reader"
+
+  - url: https://medium.com/netflix-techblog/our-learnings-from-adopting-graphql-f099de39ae5f
+    title: "Netflix's learnings from adopting GraphQL"
+
+  - url: https://hasura.io/diy-graphql-baas
+    title: "Set up a production ready GraphQL backend in a few minutes"
+    description: |
+      Our friend at Hasura wrote up this "DIY Realtime GraphQL BaaS". They push hard for GraphQL, check out [https://hasura.io/sample-apps](https://hasura.io/sample-apps) also.
+
+
+
+  - url: https://fedetask.com/write-linux-pam-module/
+    title: "Writing a Linux PAM module"
+
+read_code:
+  - url: https://github.com/MisterBooo/LeetCodeAnimation/blob/master/README-En.md
+    title: "all the questions on LeetCode in the form of animation"
+
+  - url: https://github.com/upper/db
+    title: "db"
+    description: "Productive data access layer for Go"
+    category:
+      - Go
+
+  - url: https://github.com/rui314/9cc
+    title: 9cc
+    description: "A C compiler"
+    category:
+      - C
+
+  - url: https://github.com/inamiy/SwiftRewriter
+    title: "SwiftRewriter"
+    description: "Swift code formatter using SwiftSyntax"
+    category:
+      - Swift
+
+  - url: https://github.com/andsens/homeshick
+    title: homeshick
+    category:
+      - Bash
+
+  - url: https://github.com/Peltoche/lsd
+    title: lsd
+    description: "An ls with a lot of pretty colors and awesome icons"
+    category:
+      - Rust
+
+  - url: https://github.com/ganmacs/grpc_kit
+    title: "grpc_kit"
+    description: |
+      A kit for creating gRPC server/client in Ruby.
+    category:
+      - Ruby
+
+  - url: https://github.com/thenativeweb/wolkenkit
+    title: "wolkenkit"
+    description: |
+       CQRS and event-sourcing framework that perfectly matches DDD
+    category:
+      - JavaScript
+
+  - url: https://github.com/awslabs/aws-sam-cli
+    title: "AWS SAM CLI"
+    description: "🐿 a CLI tool for local development and testing of Serverless applications"
+    category:
+      - Python
+
+video:
+  - url: https://www.youtube.com/watch?v=HaEPXoXVf2k
+    title: "Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB(59mins)"
+
+  - url: https://www.youtube.com/watch?v=zkEhX0yOL3k
+    title: "How does PostgreSQL actually work"
+
+  - url: https://www.youtube.com/watch?v=VjR3GU0-vpc
+    title: "Writing Ruby Like it's 2018 by Joe Leo(10mins)"
+
+  - url: http://2018.funswiftconf.com/
+    title: "Functional Swift Conference 2018"
+
+tool:
+  - url: https://github.com/rendora/rendora
+    title: "rendora"
+    description: |
+      dynamic server-side rendering using headless Chrome to effortlessly solve the SEO problem for modern javascript websites
+
+  - url: https://github.com/grafana/loki
+    title: "loki"
+    description: |
+      horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.
+  - url: https://github.com/mattgodbolt/compiler-explorer
+    title: "Compiler Explorer"
+    description: |
+      letting you explore how your C++, D, Go, Rust, Ispc, Haskell, Swift and Pascal code is compiled into the machine code your computer actually runs.
+
+  - url: https://github.com/sj14/dbbench
+    title: dbbench
+    description: "a simple database benchmarking tool which supports several databases and own scripts"
