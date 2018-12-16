@@ -1,6 +1,6 @@
 time: "Dec 17, 2018"
 subject: |
-  Everything you should know about certificates and PKI but are too afraid to ask.
+  Everything you should know about certificates and PKI but are too afraid to ask and write your own Virtual Machine
 
 draft: false
 
@@ -27,6 +27,13 @@ links:
       What steps we shoud take when a package our code depend on got hack?
 
       It also worth to checkout [Securing Your Site like It’s 1999](https://24ways.org/2018/securing-your-site-like-its-1999/)
+
+  - url: https://robert.muth.org/refactoring-large-functions.html
+    title: "Refactoring Large Functions"
+    description: |
+      Clearly your best hope is to refactor the function by decomposing it into smaller one.
+      Strategies for breaking up functions: closures, loop and deal with long parameter lists,
+      sequential coupling, extract computation, complex if, polymorphism.
 
   - url: http://250bpm.com/blog:4
     title: "Why should I have written ZeroMQ in C, not C++"
@@ -150,6 +157,15 @@ tool:
   - url: https://github.com/sj14/dbbench
     title: dbbench
     description: "a simple database benchmarking tool which supports several databases and own scripts"
+
+  - url: https://github.com/cruise-automation/rbacsync
+    title: rbacsync
+    description: "Automatically sync groups into Kubernetes RBAC"
+
+  - url: https://github.com/in4it/ecs-deploy
+    title: "ecs-deploy"
+    description: |
+      A Rest API server to deploy ECS from anywhere with a built-in UI
 
   - url: https://github.com/ankane/pghero
     title: pghero
