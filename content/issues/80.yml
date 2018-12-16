@@ -154,6 +154,11 @@ video:
     title: "Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB(59mins)"
 
 tool:
+  - url: https://github.com/typicode/json-server
+    title: json-server
+    description: |
+      Get a full fake REST API with zero coding in less than 30 seconds
+
   - url: https://github.com/sj14/dbbench
     title: dbbench
     description: "a simple database benchmarking tool which supports several databases and own scripts"
