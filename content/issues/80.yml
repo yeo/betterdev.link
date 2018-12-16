@@ -65,6 +65,8 @@ links:
       Instead of building custom API endpoint for every page, Netflix opted for GraphQL as the middle layer of the app.
       Not only did adding GraphQL solve the network bandwidth bottleneck, but it also provided numerous enefits that helped them add features more quickly.
 
+      Also, AirBnB is [Moving 10x Faster at Scale with GraphQL and Apollo](https://medium.com/airbnb-engineering/how-airbnb-is-moving-10x-faster-at-scale-with-graphql-and-apollo-aa4ec92d69e2).
+
       If you are looking to get start with GraphQL, our friend at Hasura
       wrote this guide [Set up a production ready GraphQL backend in a few minutes](https://hasura.io/diy-graphql-baas).
 
