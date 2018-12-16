@@ -1,14 +1,18 @@
 time: "Dec 17, 2018"
 subject: |
-  How Stack Overflow do monitoring, Overreacted with Dan, Rust Hashmaps performance improvement and way to avoid deadlock
+  Everything you should know about certificates and PKI but are too afraid to ask.
 
 draft: false
 
-description: |
+description: ""
 
 links:
   - url: https://smallstep.com/blog/everything-pki.html
     title: "Everything you should know about certificates and PKI but are too afraid to ask"
+    description: |
+      Certificates and public key infrastructure (PKI) are hard.
+      Do you know what is X509, P12, PEM, PKCS and all other TLS acronyms. I don't and I tried to ask it in many
+      interviews I had. No one knows. So let's read this, and master PKI.
 
   - url: https://justinmeiners.github.io/lc3-vm/
     title: "Write your Own Virtual Machine"
@@ -19,7 +23,10 @@ links:
   - url: https://jakearchibald.com/2018/when-packages-go-bad/
     title: "What happens when packages go bad?"
     description: |
-      Also checkout [Securing Your Site like It’s 1999](https://24ways.org/2018/securing-your-site-like-its-1999/)
+      So recently event-stream got big hack on Node ecosystem. What should we do when that happens?
+      What steps we shoud take when a package our code depend on got hack?
+
+      It also worth to checkout [Securing Your Site like It’s 1999](https://24ways.org/2018/securing-your-site-like-its-1999/)
 
   - url: http://250bpm.com/blog:4
     title: "Why should I have written ZeroMQ in C, not C++"
@@ -28,38 +35,50 @@ links:
       undefined behaviour. It's good to read about the use of exceptions which we get too familiar
       in every language like Java, Python, Ruby, JavaScript.
 
+  - url: https://www.mnot.net/blog/2018/11/27/header_compression
+    title: "Designing Headers for HTTP Compression"
+    description: |
+      I never think about header bloat? who is going to add KBs into header? Well, HTTP2 does
+      add a form of header compression (called HPACK) to help address this concern.
+
   - url: https://benchling.engineering/enforcing-transitive-constraints-in-sql-bc9caaf06884
     title: "Enforcing Transitive Constraints in SQL"
     description: |
-      
-  - url: https://github.com/yeasy/docker_practice
-    title: "Learn and understand Docker technologies, with real DevOps practice"
+      In this post, we’ll use compound foreign keys to enforce triangular relationships with an example using organizations, teams, users, and a nursery rhyme.
+
 
   - url: https://medium.com/@willhayjr/the-architecture-and-history-of-git-a-distributed-version-control-system-62b17dd37742
     title: "The Architecture and History of Git: A Distributed Version Control System"
-
-  - url: https://www.mnot.net/blog/2018/11/27/header_compression
-    title: "Designing Headers for HTTP Compression"
+    description: |
+      As of 2018, almost 90% of the 74,000 developers surveyed by Stack Overflow prefer to use Git for version control. Git dominates all other version control systems and adoption is up almost 20% from 2017 according to the survey. However, Git has not always been this ubiquitous. Let’s take a look at its ascent into mass popularity.
 
   - url: https://research.checkpoint.com/50-adobe-cves-in-50-days/
     title: "50 CVEs in 50 Days: Fuzzing Adobe Reader"
+    description: |
+      Yoav Alon, Netanel Ben-Simon tooks WinAFL, aimed it at Adobe Reader, 
+      reverse-engineering the code, looking for potential vulnerable libraries, writing harnesses and, finally, running the fuzzer itself.
+      The found 50 CVE in 50 days.
 
   - url: https://medium.com/netflix-techblog/our-learnings-from-adopting-graphql-f099de39ae5f
     title: "Netflix's learnings from adopting GraphQL"
-
-  - url: https://hasura.io/diy-graphql-baas
-    title: "Set up a production ready GraphQL backend in a few minutes"
     description: |
-      Our friend at Hasura wrote up this "DIY Realtime GraphQL BaaS". They push hard for GraphQL, check out [https://hasura.io/sample-apps](https://hasura.io/sample-apps) also.
+      Instead of building custom API endpoint for every page, Netflix opted for GraphQL as the middle layer of the app.
+      Not only did adding GraphQL solve the network bandwidth bottleneck, but it also provided numerous enefits that helped them add features more quickly.
 
-
-
-  - url: https://fedetask.com/write-linux-pam-module/
-    title: "Writing a Linux PAM module"
+      If you are looking to get start with GraphQL, our friend at Hasura
+      wrote this guide [Set up a production ready GraphQL backend in a few minutes](https://hasura.io/diy-graphql-baas).
 
 read_code:
+  - url: https://github.com/yeasy/docker_practice
+    title: "Learn and understand Docker technologies, with real DevOps practice"
+    description: |
+      A github repository with docker file and code to learn many Docker's concept. Sad that it's in Chinese but
+      google translate is good.
+    category:
+      - Docker
+
   - url: https://github.com/MisterBooo/LeetCodeAnimation/blob/master/README-En.md
-    title: "all the questions on LeetCode in the form of animation"
+    title: "All the questions on LeetCode in the form of animation"
 
   - url: https://github.com/upper/db
     title: "db"
@@ -81,6 +100,7 @@ read_code:
 
   - url: https://github.com/andsens/homeshick
     title: homeshick
+    description: "git dotfiles synchronizer"
     category:
       - Bash
 
@@ -93,7 +113,7 @@ read_code:
   - url: https://github.com/ganmacs/grpc_kit
     title: "grpc_kit"
     description: |
-      A kit for creating gRPC server/client in Ruby.
+      A kit for creating gRPC server/client in Ruby
     category:
       - Ruby
 
@@ -104,15 +124,16 @@ read_code:
     category:
       - JavaScript
 
-  - url: https://github.com/awslabs/aws-sam-cli
-    title: "AWS SAM CLI"
-    description: "🐿 a CLI tool for local development and testing of Serverless applications"
+  - url: https://github.com/aws/chalice
+    title: Chalice
+    description: |
+      Python Serverless Microframework for AWS
     category:
       - Python
 
 video:
-  - url: https://www.youtube.com/watch?v=HaEPXoXVf2k
-    title: "Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB(59mins)"
+  - url: https://www.youtube.com/watch?v=RhdlBHHimeM
+    title: "Real Software Engineering(1hour)"
 
   - url: https://www.youtube.com/watch?v=zkEhX0yOL3k
     title: "How does PostgreSQL actually work"
@@ -120,10 +141,23 @@ video:
   - url: https://www.youtube.com/watch?v=VjR3GU0-vpc
     title: "Writing Ruby Like it's 2018 by Joe Leo(10mins)"
 
-  - url: http://2018.funswiftconf.com/
-    title: "Functional Swift Conference 2018"
+  - url: https://www.youtube.com/watch?v=HaEPXoXVf2k
+    title: "Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB(59mins)"
 
 tool:
+  - url: https://github.com/sj14/dbbench
+    title: dbbench
+    description: "a simple database benchmarking tool which supports several databases and own scripts"
+
+  - url: https://github.com/ankane/pghero
+    title: pghero
+    description: "A performance dashboard for Postgres"
+
+  - url: https://github.com/thecodingmachine/gotenberg/
+    title: gotenberg
+    description: |
+      A Docker-powered stateless API for converting HTML, Markdown and Office documents to PDF
+
   - url: https://github.com/rendora/rendora
     title: "rendora"
     description: |
@@ -133,11 +167,8 @@ tool:
     title: "loki"
     description: |
       horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.
+
   - url: https://github.com/mattgodbolt/compiler-explorer
     title: "Compiler Explorer"
     description: |
       letting you explore how your C++, D, Go, Rust, Ispc, Haskell, Swift and Pascal code is compiled into the machine code your computer actually runs.
-
-  - url: https://github.com/sj14/dbbench
-    title: dbbench
-    description: "a simple database benchmarking tool which supports several databases and own scripts"
