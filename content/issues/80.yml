@@ -4,7 +4,10 @@ subject: |
 
 draft: false
 
-description: ""
+description: |
+  Ever feel frustrated with PKI/TLS/SSL? We got you cover this week. In recent days, event-stream incidents reminds us
+  we should prepared when a packages go bad and have plan to act accordingly. Let's learn some refactoring of big functions
+  and how exceptions cause undefined behaviours.
 
 links:
   - url: https://smallstep.com/blog/everything-pki.html
