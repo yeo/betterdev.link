@@ -144,6 +144,11 @@ video:
   - url: https://www.youtube.com/watch?v=RhdlBHHimeM
     title: "Real Software Engineering(1hour)"
 
+  - url: https://www.youtube.com/watch?v=V0p7pWSxOXw
+    title: "The Ruby Developer's Command Line Toolkit(33mins)"
+    description: |
+      Despite Ruby in title, it's actually all about customization your shell with dotfiles
+
   - url: https://www.youtube.com/watch?v=zkEhX0yOL3k
     title: "How does PostgreSQL actually work"
 
