@@ -1,0 +1,148 @@
+time: "Dec 14, 2018"
+subject: |
+  The joy of simple JITs and Specialcases are a code smell
+
+draft: true
+
+description: |
+  It's Christmas issue. Hope you have a great holiday. I have a free PDF book in this issue cover personal
+  development of a programmer. It's just 40 page and maybe a good read to prepare for your goals in 2019.
+
+links:
+  - url: http://blog.reverberate.org/2012/12/hello-jit-world-joy-of-simple-jits.html
+    title: "Hello, JIT World: The Joy of Simple JITs"
+    description: |
+      Java is fast because of JIT, same for V8. If you ever worry what is JIT? Then at the end of the day, it
+      just they generate machine code directly. Usually they did that after a code path is execute over a threshold.
+      The most difficult part of writing a simple JIT is encoding the instructions so they can be understood by your target CPU.
+
+  - url: https://www.doc.ic.ac.uk/~susan/475/HowToBeAProgrammer.pdf
+    title: "How To Be a Programmer(PDF)"
+    description:
+      A 40 page free book divite into Beginner, Intermediate and Advanced.
+      It covers personal skill, team skill, debug skill, team talent, technological judgment and lots of other thing that I'm sure
+      happen in life of a software engineer.
+
+  - url: https://www.akalin.com/intro-erasure-codes
+    title: "A Gentle Introduction to Erasure Codes"
+    description: |
+       Let’s say you have nn files of roughly the same size, and you want to guard against mm of them being lost or corrupted. To do so, you generate mm parity files ahead of time, and if in the future you lose up to mm of the data files, you can use an equal number of parity files to recover the lost data files.
+
+  - url: http://coding-geek.com/how-shazam-works/
+    title: How shazam works"
+    description: |
+      Shazam can identify any music playing around you.
+      The Author read a research article written by Avery Li-Chun Wang, the confounder of Shazam, to understand the magic behind Shazam.
+
+  - url: https://blog.conjur.org/special-cases-are-a-code-smell/
+    title: "Special Cases Are a Code Smell"
+    description: |
+      Often, when we code, we forget a lesson that’s obvious in these preposterous signs: Humans understand simple, consistent rules, but fail on special cases.
+
+  - url: https://maxbittker.com/code-review
+    title: "How to Review Code You Don't Understand"
+    description: |
+      A few strategies that author try to use to help them provide useful and timely review in situations where they don’t exactly know what’s going on
+
+  - url: https://www.infoq.com/presentations/microservices-pitfalls-lessons
+    title: "From Winning the Microservice War to Keeping the Peace"
+    description: |
+      Andrew McVeigh is VP Architecture at Hulu. He shares his journey and lessons to mictoservices.
+      TLDR: Microservices work to him, but come with its own pitfalls.
+      You can either read the transcript or listen as a podcast.
+
+  - url: https://www.theguardian.com/info/2018/nov/30/bye-bye-mongo-hello-postgres
+    title: "Bye bye Mongo, Hello Postgres"
+    description: |
+      While the article is about TheGardian magazine migrate from MongoDB to Production without disruptting curremt workload,
+      but it isn't much about MongoDB vs Postgres post.
+      The main thing is how they plan and laid out and execution a live migration between 2 database. Many of these techniques
+      can be used for other kind of migration. such as re-writing in different languages/frameworks
+
+  - url: https://techdevguide.withgoogle.com/
+    title: "Goole Tech Dev Guide"
+    description: |
+      Google carefully curated a collection of material from many sources, including Google, that you can use to supplement your classwork or direct your own learning.
+
+  - url: https://info.cloudquant.com/2018/12/numpyleaks/
+    title: "Fixing a Tough Memory Leak In Python"
+    description: |
+      Even if you don't use Python, the techniques are sound. We identified the C call stack where memory is allocated,
+      LD_PRELOAD a custom library to raise a signal when this stack is encountered.
+
+read_code:
+  - url: https://github.com/arzzen/git-quick-stats
+    title: "Git quick statistics"
+    description: |
+      a simple and efficient way to access various statistics in git repository. [Introduction article](https://lukasmestan.com/git-quick-stats/)
+    category:
+      - Bash
+      - Git
+
+  - url: https://github.com/maxbittker/sandspiel
+    title: "falling sand game built in rust (via wasm) and webgl"
+    description: |
+      Play the game at [https://sandspiel.club/](https://sandspiel.club/) and if you are interested, check the source
+    category:
+      - Rust
+
+  - url: https://github.com/pushex-project/pushex
+    title: pushex
+    description: "Phoenix-based websocket push implementation"
+    category:
+      - Elixir
+
+  - url: https://github.com/alash3al/redix
+    title: "redix"
+    description: |
+      persistent real-time key-value store, with the same redis protocol
+    category:
+      - Go
+
+  - url: https://github.com/cyberark/conjur
+    title: "conjur"
+    description: "secrets management and machine identity for modern infrastructure"
+    category:
+      - Ruby
+
+
+  - url: https://github.com/santinic/pampy.js
+    title: pampy.js
+    description: "Pattern Matching for JavaScript"
+    category:
+      - JavaScript
+
+video:
+  - url: https://www.youtube.com/watch?v=TO9F3RvA0LA&feature=share
+    title: "On the Architecture of a (Verifying) Compiler"
+
+  - url: https://www.youtube.com/watch?v=mbdXeRBbgDM
+    title: "“Lessons Learned Implementing Common Lisp with LLVM"
+
+  - url: https://www.youtube.com/watch?v=kOHHPzKH6f8
+    title: "Production Ready Microservices at Scale"
+
+tool:
+  - url: https://github.com/vfeskov/gitpunch
+    title: "gitpunch"
+    description: "Watch for releases on GitHub → gitpunch.com"
+
+  - url: https://github.com/kubedb
+    title: kubedb
+    description: |
+      Making running production-grade databases easy on Kubernetes
+
+  - url: https://github.com/ezaquarii/vpn-at-home
+    title: vpn-at-home
+
+  - url: https://github.com/bloomberg/goldpinger
+    title: goldpinger
+    description: "tests and displays connectivity between nodes in the cluster."
+
+  - url: https://github.com/uw-labs/bloomrpc
+    title: bloomrpc
+    description: "GUI Client for GRPC services"
+
+  - url: https://github.com/le0pard/pgtune
+    title: pgtune
+    description: "tuning PostgreSQL config by your hardware"
