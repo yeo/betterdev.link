@@ -1,0 +1,54 @@
+time: "Dec 31, 2018"
+subject: |
+  Year end issue
+
+draft: false
+
+description: |
+
+links:
+  - url: https://xmonader.github.io/prolog/2018/12/21/solving-murder-prolog.html
+    title: "solving murder with Prolog"
+    description: |
+      If you want to learn more about Prolog, [go here](http://www.learnprolognow.org/lpnpage.php?pageid=online)
+
+  - url: http://250bpm.com/blog:142
+    title: "State Machines and the Strange Case of Mutating API"
+
+
+read_code:
+  - url: https://github.com/mbauhardt/pass-keybase/blob/master/keybase.bash
+    title: "keybase.bash"
+    description: "A pass extension to re-encrypt and decrypt pass entries via keybase"
+    category:
+      - Bash
+
+  - url: https://www.michaelfogleman.com/aoc18/
+    title: "Advent of Code 2018 Solutions"
+    category:
+      - Python
+
+  - url: https://github.com/rwbutler/Connectivity
+    title: Connectivity
+    description: |
+      detecting Wi-Fi networks without Internet access.
+
+video:
+
+tool:
+  - url: https://github.com/kubedb/cli
+    title: kubedb cli
+    description: |
+      Run production-grade databases easily on Kubernetes
+
+  - url: https://github.com/pkosiec/mongo-seeding
+    title: "The ultimate solution for populating your MongoDB database."
+
+  - url: https://github.com/bndw/security-camera
+    title: "Motion detecting security camera using a raspberry pi, webcam, s3, and slack"
+
+  - url: https://github.com/isacikgoz/tldr
+    title: tldr client
+
+  - url: https://github.com/src-d/code-annotation
+    title: "code annotation tool"
