@@ -1,25 +1,97 @@
 time: "Dec 31, 2018"
 subject: |
-  Year end issue
+  Thing I dont know as of 2018 and crypto101
 
 draft: false
 
 description: |
+  Happy new year every one. Thank you for being a reader.
+  2018 is a crazy years, we saw the up and down of cryptocurrency. WebAssembly started to become
+  real. Kubernetes is defenitely the tool of DevOps. Vue is picking up on React...I'm sure that
+  we sometimes feel we are in a hopeless race to catch up with the shiny new things. It's frustrated.
+  Dan, creator of Redux and contributor of React, wrote a blog post to reflect on thing he doesn't know
+  as of 2018. That means, even a profilic developer has thing they don't know. However, they look up and
+  learn it when they need. So be relax, focus on the main thing that you are interested, and pickup
+  on side things as a fun activity rather to keep catching up with trend.
 
 links:
-  - url: https://xmonader.github.io/prolog/2018/12/21/solving-murder-prolog.html
-    title: "solving murder with Prolog"
+  - url: https://overreacted.io/things-i-dont-know-as-of-2018/
+    title: "Things I Don’t Know as of 2018"
     description: |
-      If you want to learn more about Prolog, [go here](http://www.learnprolognow.org/lpnpage.php?pageid=online)
+      Ever feel frustrated with so many new things every week? This is a great remind you don't have to know
+      everything.
+
+  - url: https://www.crypto101.io/
+    title: "Crypto101"
+    description: |
+       An introductory course on cryptography, freely available for programmers of all ages and skill levels.
+       It is created by Principal of Latacora, a security company.
+
+  - url: https://blog.rebased.pl/2018/12/31/101-real-life-refactoring.html
+    title: "101: Actual refactoring - real life story"
+    description: |
+      This blog note is in a cycle aimed at less-experienced developers. We will start with real-life code, that the author found in one of their projects.
+      Through a series of steps, they will refactor it to excellent object structure, separated from other parts of the application.
+
+  - url: https://www.cs.cornell.edu/~tomf/notes/cps104/floating.html
+    title: "Floating Point explanation"
+    description: |
+      This document explains the IEEE 754 floating-point standard. It explains the binary representation of these numbers, how to convert to decimal from floating point, how to convert from floating point to decimal, discusses special cases in floating point, and finally ends with some C code to further one's understanding of floating point.
+
+  - url: https://xmonader.github.io/prolog/2018/12/21/solving-murder-prolog.html
+    title: "Solving murder with Prolog"
+    description: |
+      In Prolog, the program logic is expressed in terms of relations, represented as facts and rules. Which makes it
+      well suited to solve logic puzzle. If you want to learn more about Prolog, [go here](http://www.learnprolognow.org/lpnpage.php?pageid=online)
 
   - url: http://250bpm.com/blog:142
     title: "State Machines and the Strange Case of Mutating API"
+    description: |
+      State machines are widely used to implement network protocols, or, generally, objects that have to react to external events.
 
+  - url: http://fabiensanglard.net/doom_fire_psx/
+    title: "How DOOM fire was done"
+    description: |
+      Re-create DOOM fire effect in JavaScript.
+
+  - url: https://bluejekyll.github.io/blog/rust/2018/12/27/announcing-pg-extend.html
+    title: "Postgres extensions in Rust with pg-extend-rs"
+    description: |
+      Postgres extensions are usually in C/C++. I have linked a lot to a Rust links about projects that enable us to
+      write Rust in place of C/C++ before. I think Rust is a great, more approach language for these kind of integration.
+
+  - url: https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/
+    title: "Penetration Testing Tools Cheat Sheet"
+    description: |
+      A penetration test (pen test) is an authorised attack simulation against an organisations network or applications identifying vulnerabilities and security issues.
+      Designed as a quick reference cheat sheet providing a high level overview of the typical commands you would run when performing a penetration test.
+
+  - url: https://github.com/MaximAbramchuck/awesome-interview-questions
+    title: "A curated awesome list of lists of interview questions"
+    description: |
+      This is megalist, includes many topic and programing languages. Not all of them are good questions but we got something to validate our knowledge and fill in the gaps.
 
 read_code:
-  - url: https://github.com/mbauhardt/pass-keybase/blob/master/keybase.bash
-    title: "keybase.bash"
-    description: "A pass extension to re-encrypt and decrypt pass entries via keybase"
+  - url: https://github.com/rrweb-io/rrweb
+    title: rrweb
+    description: |
+      record and replay user action on a web page, help you debug/reproduce bugs easily.
+      The [introduction post](http://www.myriptide.com/rrweb-introduction/) explains detail how it works and its visison.
+    category:
+      - JavaScript
+      - TypeScript
+
+  - url: https://github.com/toshi-search/Toshi
+    title: Toshi
+    description: |
+      A full-text search engine in rust
+    category:
+      - Rust
+
+  - url: https://github.com/hackerb9/lsix
+    title: "lsix"
+    description: |
+      Like "ls", but for images. Shows thumbnails in terminal using sixel graphics
     category:
       - Bash
 
@@ -32,23 +104,69 @@ read_code:
     title: Connectivity
     description: |
       detecting Wi-Fi networks without Internet access.
+    category:
+      - Swift
+
+  - url: https://github.com/eventide-project/retry
+    title: "retry"
+    description: |
+      Retry an execution that terminates with an erro
+    category:
+      - Ruby
+
+  - url: https://github.com/zhenghaoz/gorse
+    title: "gorse"
+    description: |
+      Go Recommender System Engine based on Collaborative Filtering
+    category:
+      - Golang
+
+  - url: https://github.com/emersion/mrsh
+    title: "mrsh"
+    description: "A minimal POSIX shell"
+    category:
+      - C
 
 video:
+  - url: https://media.ccc.de/v/35c3-9941-how_facebook_tracks_you_on_android
+    title: "How Facebook tracks you on Android"
+    description: even if you don’t have a Facebook account
+
+  - url: https://media.ccc.de/v/35c3-9579-attacking_chrome_ipc
+    title: Attacking Chrome IPC
+    description: |
+      Reliably finding bugs to escape the Chrome sandbox
+
+  - url: https://www.youtube.com/watch?v=ukLnPbIffxE
+    title: "How to study for exams - Evidence-based revision tips"
+    description: |
+      Not just for exam, it can be used to learn and remember things. And they are scientifically-proven techniques
 
 tool:
+  - url: https://github.com/fabiospampinato/notable
+    title: notable
+    description: "The markdown-based note-taking app that doesn't suck"
+
+  - url: https://github.com/bndw/security-camera
+    title: "Motion detecting security camera using a raspberry pi, webcam, s3, and slack"
+
+  - url: https://github.com/cyberark/KubiScan
+    title: KubiScan
+    description: |
+      A tool to scan Kubernetes cluster for risky permissions
+
   - url: https://github.com/kubedb/cli
     title: kubedb cli
     description: |
       Run production-grade databases easily on Kubernetes
 
   - url: https://github.com/pkosiec/mongo-seeding
-    title: "The ultimate solution for populating your MongoDB database."
+    title: "mongo-seeding"
+    description: "The ultimate solution for populating your MongoDB database"
 
-  - url: https://github.com/bndw/security-camera
-    title: "Motion detecting security camera using a raspberry pi, webcam, s3, and slack"
 
   - url: https://github.com/isacikgoz/tldr
-    title: tldr client
+    title: "tldr client to read short summarize of man page"
 
   - url: https://github.com/src-d/code-annotation
     title: "code annotation tool"
