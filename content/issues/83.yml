@@ -156,3 +156,8 @@ tool:
   - url: https://github.com/noodlewerk/NWPusher
     title: NWPusher
     description: "OS X and iOS application and framework to play with the Apple Push Notification service"
+
+  - url: https://www.vectorlogo.zone/
+    title: vectorlogo.zone
+    description: |
+      3,000+ gorgeous SVG logos, perfect for your README or credits page
