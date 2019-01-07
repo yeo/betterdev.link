@@ -1,0 +1,158 @@
+time: "Dec 31, 2018"
+subject: |
+  Monorepo please do and Bytecode compilers and interpreters
+
+draft: false
+
+description: |
+  Let's kick off 2019 with new goal to understand more about Linux or system programing with
+  C, assembler, bytecode, compilers and interpretes.
+  I also include link on how google run engineering so you can see what to improve on your own.
+
+links:
+  - url: https://bernsteinbear.com/blog/bytecode-interpreters/
+    title: "Bytecode compilers and interpreters"
+    description: |
+      Some concept are very hard to understand until you sit down and write code yourself. Let's do it for compilers and interpreters
+
+  - url: https://david942j.blogspot.com/2018/10/note-learning-kvm-implement-your-own.html
+    title: "Learning KVM - implement your own Linux kernel"
+    description: |
+      Another hard code article on Kernel-based Virtual Machine. This kernel we implement simply boot and print out somethign then exit.
+      Baby step but fun and sure you will know more about computer after finishing this.
+
+  - url: https://arxiv.org/pdf/1702.01715.pdf
+    title: "Software Engineering at Google(PDF 2017)"
+    description: |
+      I am sure we can learn a thing or two from how Google run engineering
+
+  - url: https://www.hyfr.life/bitwise-operators-tricks/
+    title: "bit wise operators tricsk"
+    description: |
+      Bit operations operate on the individual bits of the bit patterns and we perform such operations using bitwise operators
+      We use bitwise operators whenever we need to manipulate bits directly. Bitwise Operations are faster and closer to the system and sometimes optimize the program to a good level.
+
+  - url: http://jeffe.cs.illinois.edu/teaching/algorithms/
+    title: "Algorithms books by Jeff Erickson of University of Illinois"
+    description: |
+      A free electronic version of Jeff's (soon to be) self-published textbook Algorithms, along with other lecture notes.
+      Stuff like Fast Fourier Transforms, Fast Exponential Algorithms  are covered too. I love this book.
+
+  - url: https://www.redblobgames.com/pathfinding/tower-defense/
+    title: "Pathfinding for Tower Defense"
+    description: |
+      Using A* algorithm find path for a game where you can place wall as obstacle to block enemy.
+
+  - url: https://medium.com/@adamhjk/monorepo-please-do-3657e08a4b70
+    title: "Monorepo: please do!"
+    description: |
+      This is an article discuss why we should do monorepo, as a respond to the initial post
+      [monorepos please don't!](https://medium.com/@mattklein123/monorepos-please-dont-e9a279be011b).
+      Both are worth read. If you ask me, I'm in the spot of monorepo.
+
+  - url: https://www.trek10.com/blog/dynamodb-single-table-relational-modeling/
+    title: "From relational DB to single DynamoDB table"
+    description: |
+      DynamoDB is a database managed by AWS. It's main interface is HTTP that makes it very easy to use.
+      AWS managed and scale it for us. We never has to worry about upgrading database or security impact or downtime.
+      It's support cross region replication as well.
+      However, AWS said that in a well design app, a single table can cover everything. How can we do that?
+
+  - url: https://dpc.pw/the-faster-you-unlearn-oop-the-better-for-you-and-your-software
+    title: "The faster you unlearn OOP, the better for you and your software"
+    description: |
+      The author have a strong belief that it's important that people understand what is wrong with OOP, and what they should do instead.
+      I tend to agree with them.
+
+  - url: http://www.brendangregg.com/blog/2019-01-01/learn-ebpf-tracing.html
+    title: "Learn eBPF Tracing: Tutorial and Examples"
+    description: |
+      eBPF does to Linux what JavaScript does to HTML(sort of). Basically like glue code to add more interaction(effect, animation, tracking,...) to
+      HTML page. With eBPF, we can write mini programs that run on events like disk I/O, network etc. This article gives some guide on learning eBPF
+      tracing
+
+read_code:
+  - url: https://github.com/divan/txqr
+    title: "txqr: Transfer data via animated QR codes"
+    description: |
+      It's written in Go but can run on iOS too. Read the [comapnion blog post](https://divan.github.io/posts/animatedqr/)
+    category:
+      - Go
+
+  - url: https://gitlab.com/sifoo/snigl
+    title: snigl
+    description: Forth with Lisp in C
+    category:
+      - C
+
+  - url: https://github.com/gettalong/hexapdf
+    title: hexapdf
+    description: Versatile PDF creation and manipulation for Ruby
+    category:
+      - Ruby
+
+  - url: https://github.com/mit-pdos/noria
+    title: noria
+    description: "Dynamically changing, partially-stateful data-flow for web apps"
+    category:
+      - Rust
+
+  - url: https://github.com/iina/iina
+    title: iina
+    description: |
+      The modern video player for macOS
+    category:
+      - Swift
+
+  - url: https://github.com/davicorreiajr/spotify-now-playing
+    title: "Spotify now playing"
+    description: |
+      A menu bar MacOS app to display current spotify playing. Learn some Electron
+    category:
+      - JavaScript
+
+  - url: https://github.com/target/matrixprofile-ts
+    title: maxtri
+    description: |
+      Library for detecting patterns and anomalies in massive datasets using the Matrix Profile
+    category:
+      - Python
+
+video:
+  - url: https://www.youtube.com/watch?v=hwnNbLXN4vA
+    title: "AWS re:Invent 2018: Building with AWS Databases"
+    description: "Match Your Workload to the Right Database. And the [slides](https://www.slideshare.net/AmazonWebServices/building-with-aws-databases-match-your-workload-to-the-right-database-dat301-aws-reinvent-2018/30)"
+
+  - url: https://www.youtube.com/watch?v=s19G6n0UjsM
+    title: "Rust at speed — building a fast concurrent database"
+    description: |
+      https://github.com/mit-pdos/noria
+
+tool:
+  - url: https://github.com/zadam/trilium
+    title: Trilium
+    description: |
+      Build your personal knowledge base with Trilium Notes
+
+  - url: https://github.com/toshi-search/Toshi
+    title: Toshi
+    description: |
+      A full-text search engine in rust
+
+  - url: https://github.com/zalando/skipper
+    title: "skipper"
+    description: "An HTTP router and reverse proxy for service composition, including use cases like Kubernetes Ingress"
+
+  - url: https://github.com/dbcli/litecli
+    title: "litecli"
+    description: |
+      CLI for SQLite Databases with auto-completion and syntax highlighting
+
+  - url: https://github.com/windmilleng/tilt
+    title: "tilt"
+    description: |
+      Local Kubernetes development with no stress
+
+  - url: https://github.com/noodlewerk/NWPusher
+    title: NWPusher
+    description: "OS X and iOS application and framework to play with the Apple Push Notification service"
