@@ -1,0 +1,117 @@
+time: "Jan 14, 2019"
+subject: |
+  How to create your own Private CA and Making a gameboy game
+
+draft: false
+
+description: |
+  If you feel fuzzy when dealing with so many openssl command and option generate CSR, cert, private, pem, CA, intermediate cert chain...
+  and other thousdand thing then you are like me. That's why this week I tried to dive deep into TLS. I want to see how can we run our own
+  CA.
+
+links:
+  - url: https://blog.behrang.org/articles/creating-a-ca-with-openssl.html
+    title: "Creating a rudimentary private certificate authority using OpenSSL"
+    description: |
+      I have been trying to learn more about PKI, TLS, CA and all others 3 letters acronym concept in TLS.
+      In this article, We'll create a basic certificate authority (CA) for ad-hoc experiment, to issue key for internal/private service.
+      You should also checkout [how to build your own public key infrastructure](https://blog.cloudflare.com/how-to-build-your-own-public-key-infrastructure/)
+      by Cloudflare and
+      [public key infrastructure and other concepts](https://hub.packtpub.com/public-key-infrastructure-pki-and-other-concepts-cryptography-cissp-exam/)
+      by packtpub
+
+  - url: https://invisibleup.neocities.org/articles/18/
+    title: "Making a Gameboy Game"
+    description: |
+      The author also wrote other 5 parts. Make sure you check them out. We will work on a game
+      call [Aqua And Ashs with code on Github](https://github.com/InvisibleUp/AquaAndAshes)
+
+  - url: https://gocardless.com/blog/in-search-of-performance-how-we-shaved-200ms-off-every-post-request/
+    title: "In search of performance - how we shaved 200ms off every POST request"
+    description: |
+      How TCP_NODELAY cause an extra 200ms to ElasticSearch request. This is why Julia think
+      [Why you should understand (a little) about TCP](https://jvns.ca/blog/2015/11/21/why-you-should-understand-a-little-about-tcp/)
+
+  - url: https://v8.dev/blog/trash-talk
+    title: "Trash talk: the Orinoco garbage collector"
+    description: |
+      Over the past years the V8 garbage collector (GC) has changed a lot. The Orinoco project has taken a sequential, stop-the-world garbage collector and transformed it into a mostly parallel and concurrent collector with incremental fallback.
+
+  - url: https://overreacted.io/preparing-for-tech-talk-part-2-what-why-and-how/
+    title: "Preparing for a Tech Talk, Part 2: What, Why, and How"
+    description: |
+      Tech talk is a great way to improve your knowledge on a topic. It forces you
+      to dive deep. Dan, the author of Redux, shares some advices on giving tech talk.
+
+  - url: https://towardsdatascience.com/make-your-pictures-beautiful-with-a-touch-of-machine-learning-magic-31672daa3032
+    title: "Make your pictures beautiful with a touch of deep learning magic"
+    description: |
+      Smartphones often take very bland photos in comparison to high-end DSLRs.
+      Deep learning changes all of that.
+
+  - url: http://www.jezzamon.com/fourier/index.html
+    title: "An Interactive Introduction to Fourier Transform"
+    description: |
+      Fourier transforms are a tool used in a whole bunch of different things. This is a explanation of what a Fourier transform does, and some different ways it can useful. And how you can make pretty things with it
+
+  - url: https://hackernoon.com/sharding-writes-with-mysql-and-increment-offsets-48df32379563
+    title: "Sharding Writes with MySQL and Increment Offsets"
+    description: |
+      An novel approach to avoid single point of failure in MySQl with the tradition master-slave model.
+      We write to multi masters now, and read from slaves. However, the salve are replicated from many masters.
+
+  - url: http://ilan.schnell-web.net/prog/perfect-hash/
+    title: "Generic perfect hash Generator"
+    description: |
+      perfect_hash.py provides a perfect hash generator which is not language specific.
+      Read the [explaination and illutastration](http://ilan.schnell-web.net/prog/perfect-hash/algo.html)
+
+read_code:
+  - url: https://github.com/alash3al/sqler
+    title: "sqler"
+    description: "write APIs using direct SQL queries with no hassle, let's rethink about SQL"
+    category:
+      - Go
+
+  - url: https://github.com/sharkdp/hexyl
+    title: hexyl
+    description: "A command life hexviewer"
+    category:
+      - Rust
+
+  - url: https://github.com/castwide/solargraph
+    title: solargraph
+    description: |
+      A Ruby gem that provides code completion and inline documentation for IDEs through Microsoft's language server protocol
+    category:
+      - Ruby
+
+video:
+  - url: https://www.infoq.com/presentations/data-validation-netflix
+    title: "Crisis to Calm"
+    description: "Story of Data Validation @ Netflix"
+
+  - url: https://www.infoq.com/presentations/design-app-improve
+    title: "Improving the Design of Existing Software"
+    description: |
+      Some common places for signs of app design degradation, showing steps to take to improve the code
+
+#https://www.infoq.com/presentations/service-mesh-microservices-2018
+
+tool:
+  - url: https://github.com/abhisharma404/vault
+    title: vault_scanner
+    description: "Swiss army knife for hackers"
+
+  - url: https://asciidoctor.org/
+    title: asciidoctor
+    description: |
+      A fast text processor & publishing toolchain for converting AsciiDoc to HTML5, DocBook
+
+  - url: https://github.com/mikadosoftware/workstation
+    title: "Docker based portable Workstation"
+    description: ""
+
+  - url: https://github.com/burtonator/polar-bookshelf
+    title: "polar-bookshelf"
+    description: ""
