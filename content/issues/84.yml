@@ -109,10 +109,9 @@ tool:
     title: vault_scanner
     description: "Swiss army knife for hackers"
 
-  - url: https://asciidoctor.org/
-    title: asciidoctor
-    description: |
-      A fast text processor & publishing toolchain for converting AsciiDoc to HTML5, DocBook
+  - url: https://github.com/cyberark/KubiScan
+    title: "kubescan"
+    description: "A tool to scan Kubernetes cluster for risky permissions"
 
   - url: https://github.com/mikadosoftware/workstation
     title: "Docker based portable workstation"
@@ -126,7 +125,3 @@ tool:
     title: forward-email
     description: "a free, encrypted, and open-source email forwarding service for custom domains"
 
-  - url: https://github.com/lieuwex/whapp-irc
-    title: whapp-irc
-    description: |
-      whatsapp web <-> irc gateway
