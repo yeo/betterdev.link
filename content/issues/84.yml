@@ -86,6 +86,12 @@ read_code:
     category:
       - Ruby
 
+  - url: https://github.com/juliangarnier/anime
+    title: anime.js
+    description: "JavaScript animation engine"
+    category:
+      - JavaScript
+
 video:
   - url: https://www.infoq.com/presentations/data-validation-netflix
     title: "Crisis to Calm"
@@ -109,9 +115,18 @@ tool:
       A fast text processor & publishing toolchain for converting AsciiDoc to HTML5, DocBook
 
   - url: https://github.com/mikadosoftware/workstation
-    title: "Docker based portable Workstation"
-    description: ""
+    title: "Docker based portable workstation"
 
   - url: https://github.com/burtonator/polar-bookshelf
     title: "polar-bookshelf"
-    description: ""
+    description: |
+      a personal knowledge repository for PDF and web content supporting incremental reading and document annotation
+
+  - url: https://github.com/niftylettuce/forward-email
+    title: forward-email
+    description: "a free, encrypted, and open-source email forwarding service for custom domains"
+
+  - url: https://github.com/lieuwex/whapp-irc
+    title: whapp-irc
+    description: |
+      whatsapp web <-> irc gateway
