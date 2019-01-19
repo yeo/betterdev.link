@@ -1,0 +1,148 @@
+time: "Jan 21, 2019"
+subject: |
+  How Radix tress made blocking IPS 5000 times faster and the incident response guide from PagerDuty
+
+draft: false
+
+description: ""
+
+links:
+  - url: https://response.pagerduty.com/
+    title: "PagerDuty Releases Its Incident Response Best Practices"
+    description: |
+      PagerDuty makes softwate to do on-call, mean they have to think deeply about incident response.
+      They shares their internal process and from what I gather, these are the real practice they really doing
+      now.
+
+  - url: https://blog.sqreen.io/demystifying-radix-trees/
+    title: "How Radix trees made blocking IPs 5000 times faster"
+    description: |
+      Radix tree is commonly used in HTTP routing. They are very efficient to be used
+      when the data you store may share a commont prefix such as HTTP route, IP. Armon, CTO
+      of Hashicorpt, wrote about [readix tress transaction and memdb](https://speakerdeck.com/armon/radix-trees-transactions-and-memdb)
+
+  - url: https://scottbot.net/the-route-of-a-text-message/
+    title: "The Route of a Text Message"
+    description: |
+       This installment is about a single text message: how it was typed, stored, sent, received, and displayed.
+
+  - url: http://www.interdb.jp/pg/index.html
+    title: "The internals of PostgreSQL"
+    description: |
+      Database is consider a blackbox to many dev, especially with the rise of hosted service like RDS.
+      Even If you are a MySQL user you should still read this to gain some internal aspects of a database.
+
+  - url: https://os.phil-opp.com/paging-introduction/
+    title: "Introduction to Paging"
+    description: |
+      We linked to this series a few time in past. Basically the author is building an OS
+      in Rust. This post introduces paging, a very common memory management scheme that we
+      will also use for our operating system. It explains why memory isolation is needed, how segmentation works, what virtual memory is,
+      and how paging solves memory fragmentation issues.
+
+  - url: https://hackernoon.com/exploring-distributed-system-theory-availability-and-consistency-e8c59e0875cd
+    title: "Exploring Distributed System Theory: Availability and Consistency"
+    description: |
+      A senior Alibaba technical expert introduces the algorithms that overcome limits proposed in the CAP theorem
+
+  - url: https://drs.is/post/fancy-tree-traversals/
+    title: "Fancy tree traversals"
+    description: |
+      Discuss a couple of novel methods for traversing trees. The threaded tree offers amortized constant access
+      to the successor of a tree-node. The link-inversion traversal offers a stackless traversal of binary trees.
+
+  - url: http://matthewrayfield.com/articles/animating-urls-with-javascript-and-emojis/
+    title: "Animating URLs with Javascript and Emojis"
+    description: |
+      You can use emoji (and other graphical unicode characters) in URLs.
+      What if we dynamically change URL with emoji(without reloading the page) to create cool effect.
+      You may never used this in real life but it's super fun to read this post.
+
+  - url: https://medium.com/androidiots/generics-variance-2def0411ce1b
+    title: "Generics & Variance"
+    description: |
+      An attempt to add some new value to generics and variance. Code example is Java based, but it's can
+      applied to similar language such as TypeScript. You will understand how generic works under the hood
+
+  - url: https://www.cockroachlabs.com/blog/cockroachdb-on-rocksd/
+    title: "Why CockroachDB is build on top of RocksDB"
+    description: |
+      RocksDB are being used in many application in place of SQLite, or as a storage engine to build some abstraction on top of it.
+      It's being use to replace for MySQL storage engine, used in Kafka, in Queue System. This post CockrachLab shares why
+      the rich feature sets of RocksDB help them build CockroachDB.
+
+read_code:
+  - url: https://github.com/kishikawakatsumi/KeychainAccesinAccesss
+    title: KeychainAccess
+    description: "Simple Swift wrapper for Keychain that works on iOS, watchOS, tvOS and macOS"
+    category:
+      - Swift
+
+  - url: https://github.com/crubier/code-to-graph
+    title: "code to graph"
+    description: |
+      Transforms JS code 🙈into mermaid flowchart 🐵 in SVG format. You have to see it.
+    category:
+      - JavaScript
+
+  - url: https://github.com/antirez/rax
+    title: rax
+    description: "A radix tree implement in Ansi C"
+    category:
+      - C
+
+  - url: https://github.com/d5/tengo
+    title: tengo
+    description: |
+      A fast script language. Good to read if you want to build your own programming language
+    category:
+      - Go
+
+  - url: https://github.com/machinio/cuprite
+    title: cuprite
+    description: "Headless Chrome driver for Capybara"
+    category:
+      - Ruby
+
+  - url: https://github.com/cessen/ropey
+    title: ropey
+    description: "A utf8 text rope for manipulating and editing large texts"
+    category:
+      - Rust
+
+  - url: https://github.com/jarun/Buku
+    title: Buku
+    description: "🔖 Browser-independent bookmark manager"
+    category:
+      - Python
+
+video:
+  - url: https://www.youtube.com/watch?v=kBtDHWrRZ3Q
+    title: "dotCSS 2018 - Dan Cederholm - What CSS taught me"
+
+  - url: https://www.youtube.com/watch?v=PH-2FfFD2PU
+    title: "Kubernetes in 5 mins"
+
+  - url: https://www.youtube.com/watch?v=XOtrOSatBoY&feature=youtu.be
+    title: "Interview tips from Google Software Engineers"
+
+tool:
+  - url: https://github.com/rach/pome
+    title: pome
+    description: "A Postgres Metrics Dashboard"
+
+  - url: https://github.com/twpayne/chezmoi
+    title: chezmoi
+    description: "Manage your dotfiles securely across multiple machines"
+
+  - url: https://github.com/agershun/alasql
+    title: alasql
+    description: "JavaScript SQL database for browser and Node.js"
+
+  - url: https://github.com/github/freno
+    title: freno
+    description: "cooperative, highly available throttler service by Github team"
+
+  - url: https://github.com/nektos/act
+    title: act
+    description: "Run your GitHub Actions locally"
