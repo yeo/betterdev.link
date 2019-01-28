@@ -1,0 +1,141 @@
+time: "Jan 28, 2019"
+subject: |
+    Network protocol for anyone who know a programming languge and Kubernetes failure stories
+draft: false
+
+description: ""
+
+links:
+  - url: https://www.destroyallsoftware.com/compendium/network-protocols?share_key=97d3ba4c24d21147
+    title: "Network protocol for anyone who know a programming languge"
+    description: |
+      Network stack do really cool things: reliable transmit over unreliable networks. It adapts smoothly to network congestion, provides addressing to billions of active nodes, routes packets around damaged network infrastructure, reassembling them in the correct order. This all works so well that users never hear of it, and even most programmers don't know how it works.
+
+  - url: https://codon.com/compilers-for-free
+    title: "Compilers for Free"
+    description: |
+      Programs that manipulate other programs are powerful, interesting and fun. I’ll use Ruby to take you on a tour of how interpreters and compilers work, introduce the ideas behind a technique called partial evaluation, and explain a surprising computer science result which allows compilers to be generated automatically.
+
+  - url: https://overreacted.io/the-bug-o-notation/
+    title: "The “Bug-O” Notation"
+    description: |
+      Yet another great post from Dan, we link to his site in last few issues. The Big-O describes how much an algorithm slows down as the inputs grow. The Bug-O describes how much an API slows you down as your codebase grows.
+
+  - url: https://research.swtch.com/deps
+    title: "Our Software Dependency Problem"
+    description: |
+      The raise of Github made code distributin way easier than before, therefore we tend to quickly bring in a dependency without
+      understand much about it. This article is to raise awareness of the risks and encourage more investigation of solutions.
+
+
+  - url: https://blog.jooq.org/2019/01/22/calculate-percentiles-to-learn-about-data-set-skew-in-sql/
+    title: "Calculate Percentiles to Learn About Data Set Skew in SQL"
+    description: |
+      B-Tree is well-known and used in search and database index. They are perfect when your data is uniformly distributed.
+      hey are not really useful, when you have skewed data. Let's see why and what we can do
+
+  - url: https://srcco.de/posts/kubernetes-failure-stories.html
+    title: "Kubernetes failure stories"
+    description: |
+      Real life stories to help us learn from other's mistakes without repeating it outselves.
+      If you just want to direct link to repo without some other background, here is [github link](https://github.com/hjacobs/kubernetes-failure-stories)
+
+  - url: https://github.com/trimstray/the-practical-linux-hardening-guide
+    title: "The practical Linux hardening guide"
+    description: |
+      This guide details the planning and the tools involved in creating a secure Linux production systems.
+      With almost a new hack and data breach every week, I'm sure we can make use of this guide.
+
+  - url: https://blog.dgraph.io/post/badger-over-rocksdb-in-dgraph/
+    title: "Badger over RocksDB in dgraph"
+    description: |
+      Last week we linked to why CockrachDB uses RocksDB. This week we have other alternative, Badger, which is used
+      by Dgraph. They explains motivation behinds BadgerDB: performance, ACID and more
+
+  - url: https://slack.engineering/evolving-api-pagination-at-slack-1c1f644f8e12
+    title: "Evolving API Pagination at Slack"
+    description: |
+      Pagination is a fundamental features of almost all web application. Paginate without duplicating item or missing new item
+      isn't trivial.
+
+  - url: http://www.maizure.org/projects/decoded-gnu-coreutils/index.html
+    title: "Decoded: GNU coreutils"
+    description: |
+      A long-term project to decode all of the GNU coreutils. It's for novice programmers exploring the design of command-line utilities
+
+read_code:
+  - url: https://github.com/Schniz/fnm
+    title: fnm
+    description: |
+      Fast and simple Node.js version manager. If you are want some more of ReasonML, check [revery ui](https://github.com/revery-ui/revery)
+    category:
+      - ReasonML
+
+  - url: https://github.com/noisyboiler/wampy
+    title: wampy
+    description: "Websocket RPC and Pub/Sub for Python applications and microservices"
+    category:
+      - Python
+
+  - url: https://github.com/KuldeepSinh/lc3_vm
+    title: lc3_vm
+    description: "Little Computer 3 VM implemented in Rust"
+    category:
+      - Rust
+
+  - url: https://github.com/ponzu-cms/ponzu
+    title: ponzu-cms
+    description: |
+      Headless CMS with automatic JSON API. Featuring auto-HTTPS from Let's Encrypt, HTTP/2 Server Push,
+
+  - url: https://github.com/Shimmur/shipspotter
+    title: shipspotter
+    description: "tunneling a port forward into remote Docker containers over SSH"
+    category:
+      - Go
+
+  - url: https://github.com/redom/redom
+    title: redom
+    description: "Tiny (2 KB) turboboosted JavaScript library for creating user interfaces"
+    category:
+      - JavaScript
+
+  - url: https://github.com/bacongravy/macinbox
+    title: "mac in a box"
+    description: |
+      Puts macOS in a Vagrant box
+    category:
+      - Ruby
+      - Vagrant
+
+video:
+  - url: https://www.youtube.com/watch?v=GekQqFZm7mA
+    title: "Graph Databases Will Change Your Freakin' Life"
+
+  - url: https://www.youtube.com/watch?v=gm34Aph9v0M
+    title: "Building Resilient Data Pipelines in Go"
+    description: |
+      Every company need a data pipeline. You can build one yourself with Go, Kafka and Cassandra.
+      It handle 450,000K write per sec.
+
+tool:
+  - url: https://github.com/borgbase/vorta
+    title: vorta
+    description: "a backup client for macOS and Linux desktops integrates the mighty BorgBackup"
+
+  - url: https://github.com/refunc/refunc
+    title: refunc
+    description: "A Kubernetes native serverless platform"
+
+  - url: https://github.com/tmc/pqstream
+    title: pqstream
+    description: "turns your postgres database into an event stream"
+
+  - url: https://github.com/ankane/pgsync
+    title: pgsync
+    description: "Sync Postgres data between databases"
+
+  - url: https://github.com/baidu/openedge
+    title: openedge
+    description: |
+      Provide temporary offline, low-latency computing services, and include device connect, message routing, remote synchronization, function computing, video access pre-processing,
