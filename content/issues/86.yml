@@ -83,11 +83,6 @@ read_code:
     category:
       - Rust
 
-  - url: https://github.com/ponzu-cms/ponzu
-    title: ponzu-cms
-    description: |
-      Headless CMS with automatic JSON API. Featuring auto-HTTPS from Let's Encrypt, HTTP/2 Server Push,
-
   - url: https://github.com/Shimmur/shipspotter
     title: shipspotter
     description: "tunneling a port forward into remote Docker containers over SSH"
@@ -119,6 +114,11 @@ video:
       It handle 450,000K write per sec.
 
 tool:
+  - url: https://github.com/ponzu-cms/ponzu
+    title: ponzu-cms
+    description: |
+      Headless CMS with automatic JSON API. Featuring auto-HTTPS from Let's Encrypt, HTTP/2 Server Push
+
   - url: https://github.com/borgbase/vorta
     title: vorta
     description: "a backup client for macOS and Linux desktops integrates the mighty BorgBackup"
