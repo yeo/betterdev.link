@@ -52,6 +52,9 @@ links:
     title: "Kubernetes at CERN"
     description: "Use Cases, Integration and Challenges"
 
+  - url: https://danyspin97.org/blog/makefiles-best-practices/
+    title: "Makefiles, best practices"
+
 
 read_code:
   - url: https://github.com/nextapps-de/flexsearch
@@ -75,9 +78,10 @@ read_code:
       A pure-ruby code highlighter that is compatible with pygment
     category: ["Ruby"]
 
-  - url: https://github.com/caronc/apprise
-    title: apprise
-    description: "Push Notifications that work with just about every platform!"
+  - url: https://github.com/wting/autojump
+    title: autojump
+    description: |
+      A cd command that learns - easily navigate directories from the command line
     category: ["Python"]
 
 video:
@@ -91,6 +95,10 @@ video:
     title: "gVisor: Building and Battle Testing a Userspace OS in Go"
 
 tool:
+  - url: https://github.com/caronc/apprise
+    title: apprise
+    description: "Push Notifications that work with just about every platform"
+
   - url: https://github.com/ernoaapa/kubectl-warp
     title: kubectl-warp
     description: |
