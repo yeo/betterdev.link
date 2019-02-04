@@ -91,9 +91,6 @@ video:
   - url: https://www.infoq.com/presentations/solid-javascript
     title: "Solid JavaScript"
 
-  - url: https://www.infoq.com/presentations/gvisor-os-go
-    title: "gVisor: Building and Battle Testing a Userspace OS in Go"
-
 tool:
   - url: https://github.com/caronc/apprise
     title: apprise
@@ -104,19 +101,10 @@ tool:
     description: |
       Kubernetes CLI plugin for syncing and executing local files in Pod on Kubernetes
 
-  - url: https://github.com/uber/aresdb
-    title: "aresdb"
-    description: |
-      A GPU-powered real-time analytics storage and query engine
-
   - url: http://tatiyants.com/pev/#/plans/new
     title: "Postgres EXPLAIN Visualizer"
     description: |
      Paste the result of EXPLAIN and have it visualize the query plan
-
-  - url: https://github.com/kasper/phoenix
-    title: phoenix
-    description: "A lightweight macOS/OS X window and app manager scriptable with JavaScript"
 
   - url: https://github.com/2ndquadrant-it/barman/
     title: "barman"
