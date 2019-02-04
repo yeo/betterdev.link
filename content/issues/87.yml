@@ -85,6 +85,12 @@ read_code:
     category: ["Python"]
 
 video:
+  - url: https://www.youtube.com/playlist?list=PLuoeXyslFTuYQ9Hoh42Bw8sPYMlTOV0V7
+    title: "Xcode in 20 seconds"
+
+  - url: https://www.youtube.com/watch?v=q99Nj-_oaQc
+    title: "Web security in 2019"
+
   - url: https://www.infoq.com/presentations/storage-algorithms
     title: "Algorithms behind Modern Storage Systems"
 
