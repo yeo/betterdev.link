@@ -1,0 +1,115 @@
+time: "Feb 04, 2019"
+subject: |
+  Full system dynamic tracing on Linux using eBPF and bpftrace and Life of a SQL query
+
+draft: false
+
+description: ""
+
+links:
+  - url: https://www.joyfulbikeshedding.com/blog/2019-01-31-full-system-dynamic-tracing-on-linux-using-ebpf-and-bpftrace.html
+    title: "Full-system dynamic tracing on Linux using eBPF and bpftrace"
+    description: |
+      What happens inside a system call or library call? What if you want to do more than just logging calls, e.g. you want to compile statistics on certain behavior.  Bpftrace allows you to write small programs that execute whenever an event occurs.
+
+  - url: https://numeracy.co/blog/life-of-a-sql-query
+    title: "Life of a SQL query"
+    description: |
+      There are two layers to the answer. One layer is conceptual: what are queries, tables, indices, etc? The other layer is literal. What are the actual bytes sent over the wire or grabbed from the disk?
+
+  - url: https://medium.com/@gajus/lessons-learned-scaling-postgresql-database-to-1-2bn-records-month-edc5449b3067
+    title: "Lessons learned scaling PostgreSQL database to 1.2bn records/month"
+    description: |
+      Choosing where to host the database, materialising data and using database as a job queue. Thougful and deep analysis, real production workload affect
+
+  - url: https://timr.co/writing-a-javascript-to-c-compiler
+    title: "Writing a Javascript to C compiler"
+    description: |
+      I’m writing a JavaScript to C compiler, and I'd like to share the journey. Why? Figuring out how things ‘really work’ is a deep itch for me. I’m a self-taught developer. Throughout my infatuation with coding I’ve been slowly digging deeper and deeper into the magic of how our code actually runs.
+
+  - url: https://os.phil-opp.com/advanced-paging/
+    title: "Writing an OS in Rust: Advanced Paging"
+    description: |
+      Explains techniques to make the physical page table frames accessible to our kernel. It then uses such a technique to implement a function that translates virtual to physical addresses. It also explains how to create new mappings in the page tables.
+
+  - url: https://www.interviewcake.com/article/java/data-structures-coding-interview
+    title: "Data Structures for Coding Interviews"
+    description: |
+      Computer science in plain English To really understand how data structures work, we're going to derive each of them from scratch. Starting with bits.
+
+  - url: https://github.com/ssloy/tinykaboom/wiki
+    title: "tinykaboom"
+    description: |
+      This article shows a trivial implementation of a ray marching, the goal is to go a little bit beyond simple spheres.
+
+  - url: https://blog.cloudflare.com/http-3-from-root-to-tip/
+    title: "http3 from root to tip"
+    description: |
+      HTTP is the application protocol that powers the Web. It began life as the so-called HTTP/0.9 protocol in 1991.
+      Finally HTTP2 emerge in 2015, and recently HTTP/3.
+
+  - url: https://speakerdeck.com/rochaporto/kubernetes-at-cern-use-cases-integration-and-challenges
+    title: "Kubernetes at CERN"
+    description: "Use Cases, Integration and Challenges"
+
+
+read_code:
+  - url: https://github.com/nextapps-de/flexsearch
+    title: flexsearch
+    description: "Next-Generation full text search library for Browser and Node.js"
+    category: ["JavaScript"]
+
+  - url: https://github.com/idea4good/GuiLite
+    title: "GuiLite"
+    description: "The smallest UI framework for all platform -- 5K lines code"
+    category: ["C++"]
+
+  - url: https://github.com/alecthomas/chroma
+    title: Chroma
+    description: "A general purpose syntax highlighter in pure Go"
+    category: ["Go"]
+
+  - url: https://github.com/jneen/rouge
+    title: rouge
+    description: |
+      A pure-ruby code highlighter that is compatible with pygment
+    category: ["Ruby"]
+
+  - url: https://github.com/caronc/apprise
+    title: apprise
+    description: "Push Notifications that work with just about every platform!"
+    category: ["Python"]
+
+video:
+  - url: https://www.infoq.com/presentations/storage-algorithms
+    title: "Algorithms behind Modern Storage Systems"
+
+  - url: https://www.infoq.com/presentations/solid-javascript
+    title: "Solid JavaScript"
+
+  - url: https://www.infoq.com/presentations/gvisor-os-go
+    title: "gVisor: Building and Battle Testing a Userspace OS in Go"
+
+tool:
+  - url: https://github.com/ernoaapa/kubectl-warp
+    title: kubectl-warp
+    description: |
+      Kubernetes CLI plugin for syncing and executing local files in Pod on Kubernetes
+
+  - url: https://github.com/uber/aresdb
+    title: "aresdb"
+    description: |
+      A GPU-powered real-time analytics storage and query engine
+
+  - url: http://tatiyants.com/pev/#/plans/new
+    title: "Postgres EXPLAIN Visualizer"
+    description: |
+     Paste the result of EXPLAIN and have it visualize the query plan
+
+  - url: https://github.com/kasper/phoenix
+    title: phoenix
+    description: "A lightweight macOS/OS X window and app manager scriptable with JavaScript"
+
+  - url: https://github.com/2ndquadrant-it/barman/
+    title: "barman"
+    description: "Backup and Recovery Manager for PostgreSQL"
