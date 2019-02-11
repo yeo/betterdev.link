@@ -1,0 +1,135 @@
+time: "Feb 11, 2019"
+subject: |
+  HTTP/3 explained and PKI for busy people
+
+draft: false
+
+description: |
+  Mandrill had a big outage last last week due to [Postgres Transaction ID Wraparound and vacuum](https://news.ycombinator.com/item?id=19086626).
+  Sentry got hit with the [same issue and document it](https://blog.sentry.io/2015/07/23/transaction-id-wraparound-in-postgres.html) in 2015.
+  Make sure you aware of these issue and tune your auto vacuum to prevent this issue if you are using Postgres at scale.
+
+links:
+  - url: https://http3-explained.haxx.se/en/
+    title: "HTTP/3 explained"
+    description: "A document by curl author to explain HTTP/3 and its underlying protocol: QUIC. It'ss interesting that QUIC is build on top of UDP, the protocol that knows of fire and forget"
+
+  - url: https://rehn.me/posts/pki-for-busy-people.html
+    title: "PKI for busy people"
+    description: |
+      Public-key infrastructure (PKI) is an umbrella term for everything that has to do with certificate and key management.
+      This is a quick overview of the important stuff.
+
+  - url: https://github.com/trimstray/nginx-quick-reference
+    title: "Nginx quick reference"
+    description: "This notes describes how to improve Nginx performance, security and other important things; ssllabs A+ 100%"
+
+  - url: https://luminousmen.com/post/asynchronous-programming-cooperative-multitasking
+    title: "Asynchronous programming. Cooperative multitasking"
+    description: |
+      This is the second post of a series about asynchronous programming. The whole series tries to answer the simple question: "What is asynchrony?"
+
+  - url: https://brandur.org/sortsupport
+    title: "SortSupport: Sorting in Postgres at Speed"
+    description: |
+      There’s a trade off involved in optimizing software. The cost of better performance is the opportunity cost of the time that it took to write the optimization, and the additional cost of maintenance for code that becomes more complex and more difficult to understand.
+
+
+  - url: http://blog.felipe.rs/2019/01/29/demystifying-join-algorithms/
+    title: "Demystifying JOIN Algorithms"
+    description: |
+       How do we implement an inner join? discuss using nested loop, merge join, hash join and b-tree.
+       Cockroach Labs also discuss how they achieve [40x faster hash joiner with vectorized execution](https://www.cockroachlabs.com/blog/vectorized-hash-joiner/)
+
+  - url: https://medium.com/braintree-product-technology/postgresql-at-scale-database-schema-changes-without-downtime-20d3749ed680
+    title: "PostgreSQL at Scale: Database Schema Changes Without Downtime"
+    description: |
+      Braintree Payments uses PostgreSQL as its primary datastore. They allow zero scheduled functional downtime for their main payments processing services.
+      These are things to run DDL operations without interrupting production API traffic.
+
+  - url: https://chriskiehl.com/article/event-sourcing-is-hard
+    title: "Event Sourcing is Hard"
+    description: |
+      Event sourcing is sell as solution for everything. By keep a history of all event happen to your application.
+      You can re-construct state of your data at anytime. Chris tells us its drawback. I like this one most: what happen if you change the
+      logic/structure so now the code cannot handle old events anymore?
+
+  - url: https://hacker-tools.github.io/
+    title: "Hacker Tools"
+    description: |
+      Learn to make the most of the tools that hackers have been using for decades.
+      As hackers, we spend a lot of time on our computers, so it makes sense to make that experience as fluid and frictionless as possible. In this class,
+      we’ll help you learn how to make the most of tools that productive programmers use.
+
+  - url: https://blog.cloudflare.com/helping-to-build-cloudflare-part-3/
+    title: "Helping To Build Cloudflare"
+    description: |
+      CTO of Cloudflare share his experience and lessions building Cloudflare to where it's today: Cloudbleed incident, 1.1.1.1 story.
+      It's split into 6 articles and [a video presentation](https://www.rsaconference.com/videos/inside-cloudbleed). I love this sectences: "If you’re looking back at code you wrote five years ago and you’re feeling that it’s still fit for purpose then you are either fooling yourself or not growing".
+
+video:
+- url: https://www.youtube.com/watch?v=IWPgUn8tL8s
+  title: "It's not what you read, it's what you ignore"
+  description: "Old but good on how to deal with emails :-)"
+
+- url: https://www.youtube.com/watch?v=8aGhZQkoFbQ
+  title: "What the heck is the event loop anyway?"
+  description: "Visualize how event loop works"
+
+read_code:
+- url: https://github.com/bloom42/rz-go
+  title: "ripzap "
+  description: "The fastest structured, leveled JSON logger for Go 📖. Dependency free"
+  category:
+  - Go
+
+- url: https://github.com/socketry/rubydns
+  title: Rubydns
+  description: "provides a simple Ruby DSL for DNS servers"
+  category:
+  - Ruby
+
+- url: https://github.com/skywind3000/z.lua
+  title: z.lua
+  description: |
+    A new cd command that helps you navigate faster by learning your habits. 10x times faster than fasd and autojump, 3x times faster than z.sh
+
+- url: https://github.com/brandur/redis-cell
+  title: "redis-cell"
+  description: "A Redis module that provides rate limiting in Redis as a single command"
+  category:
+  - Rust
+
+- url: https://github.com/postlight/mercury-parser
+  title: mercury-parser
+  description: "📜 Extracting content from the chaos of the web"
+  category:
+  - JavaScript
+
+- url: https://github.com/rianhunter/dbxfs
+  title: "User-space file system for Dropbox"
+  description: "Useful if you want to learn FUSE"
+  category:
+    - Python
+
+
+- url: https://github.com/fcambus/ansiweather
+  title: "ansiweather"
+  description: ""
+
+tool:
+- url: https://github.com/isacikgoz/gitin
+  title: gitin
+  description: "commit/branch/workdir explorer for git"
+
+- url: https://github.com/pomerium/pomerium
+  title: pomerium
+  description: "an identity-aware access proxy"
+
+- url: https://github.com/bitnami-labs/sealed-secrets
+  title: "sealed-secrets"
+  description: "A Kubernetes controller and tool for one-way encrypted Secrets"
+
+- url: https://github.com/notion-cli/notion
+  title: notion
+  description: "JavaScript toolchain manager. Ensure everyone in your project uses an identical dev environment: node + npm version"
