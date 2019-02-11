@@ -108,6 +108,11 @@ read_code:
     - Python
 
 tool:
+- url: https://github.com/smallstep/certificates
+  title: "smallstep certificates"
+  description: |
+     An online certificate authority, a secure automated bootstrapping protocol for code & devices plus CLI & API for easy integration
+
 - url: https://github.com/isacikgoz/gitin
   title: gitin
   description: "commit/branch/workdir explorer for git"
