@@ -108,6 +108,10 @@ read_code:
     - Python
 
 tool:
+- url: https://github.com/derailed/k9s
+  title: k9s
+  description: "like htop, for full kubernetes"
+
 - url: https://github.com/smallstep/certificates
   title: "smallstep certificates"
   description: |
