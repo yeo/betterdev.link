@@ -100,6 +100,7 @@ read_code:
 - url: https://github.com/stelligent/cfn_nag
   title: cfn_nag
   description: "Linting tool for CloudFormation templates"
+  category: ['Ruby']
 
 tool:
 - url: https://github.com/sveinbjornt/Sloth
