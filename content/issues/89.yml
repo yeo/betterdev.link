@@ -1,0 +1,114 @@
+time: "Feb 18, 2019"
+subject: CPU Clocks and Clock Interrupts, and Their Effects on Schedulers
+
+draft: false
+
+description: ""
+
+links:
+- url: https://accu.org/index.php/journals/2185
+  title: "CPU Clocks and Clock Interrupts, and Their Effects on Schedulers"
+  description: |
+    Instructions to sleep for a second almost never result in precisely one second’s sleep. Bob Schmidt walks us through the mechanics of why.
+
+- url: https://benchling.engineering/move-fast-and-migrate-things-how-we-automated-migrations-in-postgres-d60aba0fc3d4
+  title: "Move fast and migrate things: how we automated migrations in Postgres"
+  description: |
+    Automating and improving our migration process to address key issues we were having — manual intervention, backwards compatibility, correctness, and performance.
+
+- url: https://github.com/imthenachoman/How-To-Secure-A-Linux-Server
+  title: "How To Secure A Linux Server"
+  description: |
+    An evolving how-to guide for securing a Linux server that, hopefully, also teaches you a little about security and why it matters.
+
+- url: https://timr.co/architecture-for-a-js-to-c-compiler
+  title: "Architecture for a JS to C compiler"
+  description: |
+    Part of a in-progress serie about a JS to C compiler. We have linked to previous articles.
+    This one focus on code generation: output a program in our target language, e.g machine code.
+
+- url: https://osandamalith.com/2019/02/11/linux-reverse-engineering-ctfs-for-beginners/
+  title: "Linux Reverse Engineering CTFs for Beginners"
+  description: |
+    A short blog post about Linux binary reversing CTFs in general. How to approach a binary and solving for beginners.
+
+- url: http://250bpm.com/blog:146
+  title: "Graceful Shutdown"
+  description: |
+    Within a structured concurrency world, graceful shutdown is a little understood, little addressed and confusing topic.
+
+- url: https://chadaustin.me/2017/05/writing-a-really-really-fast-json-parser/
+  title: "Writing a Really, Really Fast JSON Parser"
+  description: |
+    The author wrote a fast JSON parser, and see that someone make 2x faster JSON parser then set out to see why.
+
+- url: https://principledgraphql.com/
+  title: "Principled GraphQL"
+  description: |
+    Apollo team set of best practices for creating, maintaining, and operating a data graph. We present them here as 10 GraphQL Principles, broken out into three categories, in a format inspired by the twelve factor app.
+
+
+- url: https://medium.com/@mo_keefe/a-kubernetes-development-workflow-for-macos-8c41669a4518
+  title: "💻 A Kubernetes Developer Workflow for MacOS"
+  description: |
+    Docker is helpful for dev team, everyone can easily had same environment. Kubernetes bring that to next level,
+    Docker For mac supports a local built-in kubernetes cluster and minkube make it easier to run k8s in your laptop.
+    This article laid out a guideline the author used to develop on local k8s.
+
+
+video:
+- url: https://fosdem.org/2019/schedule/event/breaking_postgresql_on_scale/
+  title: "Breaking PostgreSQL at Scale"
+
+- url: https://www.infoq.com/presentations/storage-algorithms
+  title: "Algorithms behind Modern Storage Systems"
+
+
+read_code:
+- url: https://github.com/GoogleCloudPlatform/microservices-demo
+  title: "Microservices demo by Google Cloud Platform"
+  description: |
+    a 10-tier microservices application. The application is a web-based e-commerce app.
+    Google uses this application to demonstrate use of technologies like Kubernetes/GKE, Istio, Stackdriver, gRPC and OpenCensus
+
+- url: https://github.com/zserge/lorca
+  title: Lorca
+  description: "Build cross-platform modern desktop apps in Go + HTML5"
+  category: ['Go']
+
+- url: https://github.com/fcambus/ansiweather
+  title: ansiweather
+  description: |
+    Weather in terminal, with ANSI colors and Unicode symbols
+  category: ['Bash']
+
+- url: https://github.com/joereynolds/sql-lint
+  title: "sql-lint"
+  description: }
+    A linter for MySQL, it brings back any error from the MySQL server as well as custom errors written for sql-lint.
+  category: ['TypeScript']
+
+- url: https://github.com/RustPython/RustPython
+  title: "RustPython"
+  description: A Python Interpreter written in Rust
+  category: ["Rust"]
+
+tool:
+- url: https://github.com/sveinbjornt/Sloth
+  title: Sloth
+  description: "a Mac application that displays all open files and sockets in use by all running processes on your system"
+
+- https://github.com/databricks/click
+  title: click
+  description: |
+    The "Command Line Interactive Controller for Kubernetes"
+
+- url: https://github.com/johanbrandhorst/certify
+  title: certify
+  description: |
+    Automatic client and server certificate distribution and maintenance support: Vault PKI, Cloudflare CFSSL, AWS ACM.
+
+- url: https://github.com/nektos/act
+  title: "act"
+  description: |
+    Run your GitHub Actions locally to get faster feedback.
