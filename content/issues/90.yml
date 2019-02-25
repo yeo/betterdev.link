@@ -1,0 +1,108 @@
+time: "Feb 25, 2019"
+subject: "Explaining code using ASCII Art and GraphQL design tutorial by Shopify"
+
+draft: false
+
+description: ""
+
+link:
+- url: https://blog.regehr.org/archives/1653
+  title: "Explaining Code using ASCII Art"
+  description: |
+    ASCII art embedded in source code, where the art is there for the purpose of explaining that code better
+
+- url: https://github.com/Shopify/graphql-design-tutorial
+  title: "GraphQL Design Tutorial"
+  description: |
+    This tutorial was originally created by Shopify for internal purposes. They've created a public version of it since they think it's useful to anyone creating a GraphQL API.
+
+- url: https://towardsdatascience.com/consistent-hashing-simplified-7fe4e512324
+  title: "Consistent Hashing Simplified"
+  description: |
+    We want to dynamically add/remove cache servers or sticky sessions based on usage load.
+    Naitve module hashing will cause connection/keys moves around when adding/removing servers.
+    A HashRing helps to reduces key remap.
+
+- url: https://about.gitlab.com/2019/02/13/delayed-replication-for-disaster-recovery-with-postgresql/
+  title: "How Gitlab used delayed replication for disaster recovery with PostgreSQL"
+  description: |
+    Replication is no backup. Or is it? Let's take a look at delayed replication and how we used it to recover from accidental label deletion.
+
+- url: https://www.infoq.com/news/2019/02/mysql-clustering-wepay
+  title: "Highly Available MySQL Clustering at WePay Using Orchestrator, Consul and HAProxy"
+  description: |
+    WePay's engineering team have talked about their new highly available MySQL cluster built with HAProxy, Consul and Orchestrator. It improves upon their previous architecture by reducing any downtime from 30 minutes to 40-60 seconds.
+
+- url: https://ourmachinery.com/files/guidebook.md.html
+  title: "Our Machinery guidebook"
+  description: |
+    The purpose of this guidebook is to lay down principles and guidelines for how to write code and work together at Our Machinery.
+
+- url: https://addyosmani.com/blog/script-priorities/
+  title: "JavaScript Loading Priorities in Chrome"
+  description: "How browsers schedule and execute scripts can impact the performance of web pages. While techniques like <script defer>, <link rel=preload> (and others) influence script loading, knowing how browsers interpret them can also be helpful"
+
+- url: https://github.com/kdeldycke/awesome-falsehood/blob/master/README.md#dates-and-time
+  title: "Awesome Falsehood"
+  description: "A curated list of awesome falsehoods programmers believe in."
+
+- url: http://www.oldlinux.org/download/ECLK-5.0-WithCover.pdf#page247
+  title: "A Heavily Commented Linux Kernel Source Code (PDF)"
+  description: |
+    A free book about how computer works then proceed to understand how they are implement in Linux with lots of code annotation
+
+- url: https://pl-rants.net/posts/case-for-new-lang/
+  title: A Case for a New Language
+  description: |
+    It is quite a common belief that the answer to that question should be “never” or at least “unless you absolutely have to, and even then think twice and decide against it”. However, if we slightly re-formulate the question to “shall I write a DSL for that particular problem?” the answer would be the roaring “YES”.
+
+
+
+video:
+- url: https://www.youtube.com/watch?v=B4XHaboNMOI&feature=youtu.be
+  title: "Timezon.es – 10-minute Redesign"
+
+- url: "https://www.youtube.com/watch?v=Wo0qiGPSV-s"
+  title: "Anjana Vakil: Immutable data structures for functional JS"
+
+read_code:
+- url: https://github.com/jnunemaker/flipper
+  title: flipper
+  description: "🐬 feature flipping for ruby (performant and simple)"
+  categories: ['Ruby']
+
+- url: https://github.com/twmb/murmur3
+  title: murmur3
+  description: "Native Go implementation of Austin Appleby's third MurmurHash revision"
+  category: ['Go']
+
+- url: https://github.com/nathan/pax
+  title: pax
+  description: "The fastest JavaScript bundler in the galaxy"
+  category: ['Rust']
+
+- url: https://github.com/krisk/fuse
+  title: fuse
+  description: "Lightweight fuzzy-search"
+  category: ['JavaScript']
+
+- url: https://github.com/PyCQA/bandit
+  title: bandit
+  description: " a tool designed to find common security issues in Python code."
+  category: ['Python']
+
+tool:
+- url: https://explain.depesz.com/
+  title: "PostgreSQL's explain analyze made readable"
+
+- url: https://github.com/dlespiau/footloose
+  title: footloose
+  description: "Container Machines - Containers that look like Virtual Machines"
+
+- url: https://github.com/alexellis/inlets
+  title: inlets
+  description: "Expose your local endpoints to the Internet"
+
+- url: https://github.com/markphelps/flipt
+  title: flipt
+  description: "A self contained feature flag solution"
