@@ -5,7 +5,7 @@ draft: false
 
 description: ""
 
-link:
+links:
 - url: https://blog.regehr.org/archives/1653
   title: "Explaining Code using ASCII Art"
   description: |
@@ -40,7 +40,8 @@ link:
 
 - url: https://addyosmani.com/blog/script-priorities/
   title: "JavaScript Loading Priorities in Chrome"
-  description: "How browsers schedule and execute scripts can impact the performance of web pages. While techniques like <script defer>, <link rel=preload> (and others) influence script loading, knowing how browsers interpret them can also be helpful"
+  description: |
+    How browsers schedule and execute scripts can impact the performance of web pages. While techniques like script defer, and preload influence script loading, knowing how browsers interpret them can also be helpful
 
 - url: https://github.com/kdeldycke/awesome-falsehood/blob/master/README.md#dates-and-time
   title: "Awesome Falsehood"
@@ -57,7 +58,6 @@ link:
     It is quite a common belief that the answer to that question should be “never” or at least “unless you absolutely have to, and even then think twice and decide against it”. However, if we slightly re-formulate the question to “shall I write a DSL for that particular problem?” the answer would be the roaring “YES”.
 
 
-
 video:
 - url: https://www.youtube.com/watch?v=B4XHaboNMOI&feature=youtu.be
   title: "Timezon.es – 10-minute Redesign"
@@ -69,7 +69,7 @@ read_code:
 - url: https://github.com/jnunemaker/flipper
   title: flipper
   description: "🐬 feature flipping for ruby (performant and simple)"
-  categories: ['Ruby']
+  category: ['Ruby']
 
 - url: https://github.com/twmb/murmur3
   title: murmur3
