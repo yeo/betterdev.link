@@ -95,6 +95,11 @@ tool:
 - url: https://explain.depesz.com/
   title: "PostgreSQL's explain analyze made readable"
 
+- url: http://tatiyants.com/pev/#/plans/new
+  title: "Postgres EXPLAIN Visualizer"
+  description: |
+    Paste the result of EXPLAIN and have it visualize the query plan
+
 - url: https://github.com/dlespiau/footloose
   title: footloose
   description: "Container Machines - Containers that look like Virtual Machines"
