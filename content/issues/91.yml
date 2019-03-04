@@ -111,6 +111,10 @@ tool:
   title: wal-g
   description: "Archival and Restoration for Postgres"
 
+- url: https://github.com/2ndquadrant-it/barman/
+  title: "barman"
+  description: "Backup and Recovery Manager for PostgreSQL"
+
 - url: https://github.com/ovh/cds
   title: "cds bvy ovh"
   description: "an Enterprise-Grade Continuous Delivery & DevOps Automation Platform"
