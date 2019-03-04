@@ -90,7 +90,7 @@ read_code:
 - url: https://github.com/vinistock/sail
   title: sail
   description: "a lightweight Rails engine that brings an admin panel for managing configuration settings on a live Rails app"
-  category: ["Swift"]
+  category: ["Ruby"]
 
 - url: https://github.com/vishaltelangre/ff
   title: "ff"
