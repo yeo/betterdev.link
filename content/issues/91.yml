@@ -126,8 +126,3 @@ tool:
 - url: https://github.com/cablespaghetti/kubeadm-aws
   title: kubeadm-aws
   description: "Really cheap Kubernetes cluster on AWS with kubeadm"
-
-- url: https://medium.com/netflix-techblog/extending-vector-with-ebpf-to-inspect-host-and-container-performance-5da3af4c584b
-  title: "vector"
-  description: |
-    Vector is a on-host performance monitoring framework and web dashboard. They now introduce latency heatmaps and improved container support and BCC/eBPF visualisations which allow you to view block and file system latency heat maps, block io top and Active TCP session data 
