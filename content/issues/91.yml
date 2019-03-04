@@ -66,7 +66,7 @@ video:
   title: "Anjana Vakil: Immutable data structures for functional JS"
 
 
-code_read:
+read_code:
 - url: https://github.com/giann/croissant
   title: croissant
   description: "🥐 A Lua REPL and debugger"
