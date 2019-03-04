@@ -1,0 +1,129 @@
+time: "Mar 04, 2019"
+subject: |
+  A basic question about TCP and "Disco: modern session encryption"
+
+draft: false
+
+description: ""
+
+links:
+- url: https://blog.erratasec.com/2019/02/a-basic-question-about-tcp.html
+  title: "A basic question about TCP"
+  description: |
+    I have a very basic computer networking question: when sending a TCP packet, is the packet ACK'ed at every node in the route between the s    ender and the recipient, or just by the final recipient?
+
+- url: https://eprint.iacr.org/2019/180.pdf
+  title: "Disco: Modern Session encryption(PDF)"
+  description: |
+    Disco is a new protocol based solely on two unique primitives: Curve25519 and the Keccak permutation [A talk at Blackhat 2017](https://www.youtube.com/watch?v=bTGLO4obxco) about Keccak/SHA-3. Currently We have [Go implementation](https://www.discocrypto.com/) and [C](https://github.com/mimoo/disco-c).
+
+- url: https://medium.com/wolfram-developers/understanding-a-performance-issue-with-polymorphic-json-data-e7e4cd079be0
+  title: "Understanding a Performance Issue with “Polymorphic” JSON Data"
+  description: |
+    How objects with the same shape but different kinds of values can have a surprising effect on JavaScript performance
+
+- url: https://codewords.recurse.com/issues/one/type-systems-and-logic
+  title: "Type systems and logic"
+  description: |
+    An important result in computer science and type theory is that a type system corresponds to a particular logic system.
+    A type is interpreted as a proposition, and a value is interpreted as a proof of the proposition corresponding to its type. Most standard logical connectives can be derived from this idea
+
+
+- url: https://gocardless.com/blog/debugging-the-postgres-query-planner/
+  title: "Debugging the Postgres query planner"
+  description: |
+    We at GoCardless believe that failure can be a great learning opportunity, and nothing proves that more than the amount we've learned from    Postgres issues. This post shares a specific issue we encountered that helped us level-up our understanding of the Postgres query planner.
+
+- url: https://blog.algolia.com/challenging-migration-heroku-google-kubernetes-engine/
+  title: "The Challenging Migration from Heroku to Google Kubernetes Engine"
+  description: |
+    Algolia migrated their crawler from Heroku to GKE. If you are looking to similar migrate, read on. Or you just love how companies design and plan large migration in infrastructure like switching cloud provider, it is a good read too.
+
+- url: https://ordepdev.me/posts/diving-into-merkle-trees
+  title: "Diving into Merkle Trees"
+  description: "Introduced in 1979 by Ralph C. Merkle in his Thesis: Secrecy, Authentications, and Public Key Systems, the Merkle Tree, also known as a binary hash tree, is a data structure used for efficiently summarizing and verifying the integrity of large sets of data enabling users to verify the authenticity of their received response"
+
+- url: http://www.lighterra.com/papers/modernmicroprocessors/
+  title: "Modern Microprocessors A 90-Minute Guide"
+  description: |
+    A brief, pulls-no-punches, fast-paced introduction to the main design aspects of modern processor microarchitecture. This article is meant to be informal and fun! We will discuss: pipelining, multi-core and simultaneous multi-threading, SIMD vector instructions and caches and the memory hierarchy.
+
+- url: https://dave.cheney.net/practical-go/presentations/qcon-china.html
+  title: "Practical Go"
+  description: "Real world advice for writing maintainable Go programs"
+
+- url: http://www.cs.cornell.edu/courses/cs3110/2019sp/textbook/
+  title: "Functional Programming in OCaml"
+  description: |
+    If you use Docker for Mac, the Ocaml power its Network. Or this super fast [node version manager](https://github.com/Schniz/fnm)
+    written in Ocaml. This is textbook based on course taught at Cornel.
+
+video:
+- url: https://www.infoq.com/presentations/vitess
+  title: "Massively Scaling MySQL Using Vitess"
+
+- url: "https://www.youtube.com/watch?v=Wo0qiGPSV-s"
+  title: "Anjana Vakil: Immutable data structures for functional JS"
+
+
+code_read:
+- url: https://github.com/giann/croissant
+  title: croissant
+  description: "🥐 A Lua REPL and debugger"
+  category: ["Lua"]
+
+- url: https://github.com/fengari-lua/fengari
+  title: fengari
+  description: "🐺 φεγγάρι - The Lua VM written in JS ES6 for Node and the browser"
+  category: ["JavaScript"]
+
+- url: https://github.com/Clivern/Beaver
+  title: Beaver
+  description: "💨A real time messaging server to build a scalable in-app notifications, multiplayer games, chat apps in web and mobile apps"
+  category: ["Go"]
+
+- url: https://github.com/Mckinsey666/bullet
+  title: bullet
+  description: "🚅 Beautiful Python prompts made simple. Build a prompt like stacking blocks"
+  category: ["Python"]
+
+- url: https://github.com/vinistock/sail
+  title: sail
+  description: "a lightweight Rails engine that brings an admin panel for managing configuration settings on a live Rails app"
+  category: ["Swift"]
+
+- url: https://github.com/vishaltelangre/ff
+  title: "ff"
+  description: "Find files (ff) by name, fast!"
+  category: ["Rust"]
+
+- url: https://github.com/smartlook/ios-consent-sdk
+  title: ios-consent-sdk
+  description: "Configurable consent SDK for iOS"
+  category: ["Swift"]
+
+tool:
+- url: https://github.com/aiven/pghoard/
+  title: pghoard
+  description: "PostgreSQL backup and restore service"
+
+- url: https://github.com/wal-g/wal-g
+  title: wal-g
+  description: "Archival and Restoration for Postgres"
+
+- url: https://github.com/ovh/cds
+  title: "cds bvy ovh"
+  description: "an Enterprise-Grade Continuous Delivery & DevOps Automation Platform"
+
+- url: https://github.com/cortexproject/cortex
+  title: "cortex"
+  description: "A multitenant, horizontally scalable Prometheus as a Service"
+
+- url: https://github.com/cablespaghetti/kubeadm-aws
+  title: kubeadm-aws
+  description: "Really cheap Kubernetes cluster on AWS with kubeadm"
+
+- url: https://medium.com/netflix-techblog/extending-vector-with-ebpf-to-inspect-host-and-container-performance-5da3af4c584b
+  title: "vector"
+  description: |
+    Vector is a on-host performance monitoring framework and web dashboard. They now introduce latency heatmaps and improved container support and BCC/eBPF visualisations which allow you to view block and file system latency heat maps, block io top and Active TCP session data 
