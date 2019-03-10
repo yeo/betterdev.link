@@ -1,0 +1,107 @@
+time: "Mar 11, 2019"
+subject: |
+  Ten Ways to Secure your Applications and The Great Tree-List Recursion Problem
+
+draft: false
+
+description: ""
+
+links:
+- url: http://cslibrary.stanford.edu/109/TreeListRecursion.html
+  title: "The Great Tree-List Recursion Problem"
+  description: |
+    This article presents one of the neatest recursive pointer problems ever devised. This an advanced problem that uses pointers, binary trees, linked lists, and some significant recursion. This article includes the problem statement, a few explanatory diagrams, and sample solution code in Java and C.
+
+- url: https://blog.heroku.com/ten-ways-to-secure-your-apps
+  title: "Ten Ways to Secure your Applications"
+  description: |
+    Building self-defending applications and services is no longer aspirational--it’s required. Applying security patches, handling passwords correctly, sanitizing inputs, and properly encoding output is now table stakes. Our attackers keep getting better, and so must we.
+
+- url: https://ponyfoo.com/articles/javascript-performance-pitfalls-v8
+  title: "JavaScript Performance Pitfalls in V8"
+  description: |
+    JavaScript engines use techniques like speculative optimization and inline caching to speed up execution of the likely path.
+    But heuristics can also easily work against you, and it helps to be aware of them.
+  The author shares 2 performance pitfalls in the V8 JavaScript engine: 60KB generard byte code limit and Double field
+
+- url: http://christophermeiklejohn.com/erlang/lasp/2019/03/08/monotonicity.html
+  title: "Applied Monotonicity: A Brief History of CRDTs in Riak"
+  description: |
+    Conflict-free replicated data type (CRDT) is a data structure which can be replicated across multiple computers in a network, where the replicas can be updated independently and concurrently without coordination between the replicas, and where it is always mathematically possible to resolve inconsistencies which might result.
+    Riak was at the forefront of CRDT development with the engineers at Basho Technologies working hard to integrate efficient, usable CRDTs from the academic literature.
+
+- url: https://ieftimov.com/when-why-least-frequently-used-cache-implementation-golang
+  title: "When and Why to use a Least Frequently Used (LFU) cache"
+  description: |
+    The most popular approach to performance improvement is caching.
+    This post focus taking a specific implementation approach to Least Frequently Used cache and making its membership test and eviction algorithms performant
+
+- url: https://people.engr.ncsu.edu/ermurph3/papers/seip18.pdf
+  title: "Advantages and Disadvantages of a Monolithic Repository"
+  description: |
+   A case study at Google
+
+- url: https://utcc.utoronto.ca/~cks/space/blog/unix/ShellPipelineIndeterminate
+  title: "A surprisingly arcane little Unix shell pipeline example"
+  description: |
+    This command `(echo red; echo green 1>&2) | echo blue` has indeterminate output, it can be "green blue", or "blue". Read on to know why.
+
+- url: https://research.swtch.com/tlog
+  title: "Transparent Logs for Skeptical Clients"
+  description: |
+    Suppose we want to maintain and publish a public, append-only log of data. Suppose also that clients are skeptical about our correct implementation and operation of the log: it might be to our advantage to leave things out of the log, or to enter something in the log today and then remove it tomorrow. How can we convince the client we are behaving?
+
+- url: https://deliveroo.engineering/2019/02/22/go-down-the-rabbit-hole.html
+  title: "Go down the rabbit hole"
+  description: |
+    Debugging a proxy that functions perfectly over the public internet, but fails when inside our Amazon VPC. Or how a friendly man in the middle sent me down a rabbit hole.
+
+- url: https://medium.com/clio-calliope/making-google-fonts-faster-aadf3c02a36d
+  title: "Making google font faster"
+  description: |
+    Improve google font loading performance by pre-connect, Self-host your fonts for faster speed and greater control over FOIT and FOUT
+
+video:
+- url: https://www.infoq.com/presentations/wepay-database-streaming
+  title: "The Whys and Hows of Database Streaming(51mins)"
+
+- url: http://highscalability.com/blog/2019/3/4/how-is-software-developed-at-amazon.html
+  title: "How Is Software Developed At Amazone"
+
+read_code:
+- url: https://github.com/cherow/cherow
+  title: cherow
+  description: "Lightweight, standards-compliant, self-hosted javascript parser"
+  category: ['TypeScript']
+
+- url: https://github.com/xujiajun/nutsdb
+  title: "nutsdb"
+  description: "A simple, fast, embeddable, persistent key/value store similar to Redis"
+  category: ['Go']
+
+- url: https://github.com/ddnexus/pagy
+  title: pagy
+  description: "The ultimate pagination ruby gem"
+  category: ['Ruby']
+
+- url: https://github.com/sheharyarn/memento
+  title: memento
+  description: "Simple + Powerful interface to the Mnesia Distributed Database"
+  category: ['Elixir']
+
+tool:
+- url: https://github.com/iridakos/duckrails
+  title: duckrails
+  description: "A development tool to quickly & dynamically mock API endpoints 🦆"
+
+- url: https://github.com/Netflix/rend
+  title: rend
+  description: "A memcached proxy that manages data chunking and L1 / L2 caches"
+
+- url: https://github.com/heptio/velero
+  title: "velero"
+  description: "Backup and migrate Kubernetes applications and their persistent volumes"
+
+- url: https://github.com/gotify
+  title: "Gotify"
+  description: "A self-hosted push notification service"
