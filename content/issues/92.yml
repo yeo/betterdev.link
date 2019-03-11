@@ -27,7 +27,7 @@ links:
 - url: http://christophermeiklejohn.com/erlang/lasp/2019/03/08/monotonicity.html
   title: "Applied Monotonicity: A Brief History of CRDTs in Riak"
   description: |
-    Conflict-free replicated data type (CRDT) is a data structure which can be replicated across multiple computers in a network, where the replicas can be updated independently and concurrently without coordination between the replicas, and where it is always mathematically possible to resolve inconsistencies which might result.
+    Conflict-free replicated data type (CRDT) is a data structure which can be replicated across multiple computers in a network and updated independently and concurrently without coordination between the replicas, and where it is always mathematically possible to resolve inconsistencies.
     Riak was at the forefront of CRDT development with the engineers at Basho Technologies working hard to integrate efficient, usable CRDTs from the academic literature.
 
 - url: https://ieftimov.com/when-why-least-frequently-used-cache-implementation-golang
@@ -105,3 +105,7 @@ tool:
 - url: https://github.com/gotify
   title: "Gotify"
   description: "A self-hosted push notification service"
+
+- url: https://github.com/uber/kraken
+  title: "kraken"
+  description: "P2P Docker registry capable of distributing TBs of data in seconds"
