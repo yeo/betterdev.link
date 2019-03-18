@@ -1,0 +1,100 @@
+time: "Mar 18, 2019"
+subject: |
+  Write yourself a Git and The Problem With Single-threaded Shared Mutability
+draft: false
+
+description: |
+  You will love this issue. We have some links about Pinterest, Uber, JustEat shares their real life technical design/decicion.
+
+links:
+- url: https://wyag.thb.lt/
+  title: "Write yourself a Git!"
+  description: |
+    This article is an attempt at explaining the Git version control system from the bottom up, that is, starting at the most fundamental level moving up from there. This does not sound too easy, and has been attempted multiple times with questionable success. But there’s an easy way: all it takes to understand Git internals is to reimplement Git from scratch.
+
+- url: https://manishearth.github.io/blog/2015/05/17/the-problem-with-shared-mutability/
+  title: "The Problem With Single-threaded Shared Mutability"
+  description: |
+    Whilst this post discusses a choice made in the design of Rust; and uses examples in Rust; the principles discussed here apply to other languages for the most part
+
+- url: https://www.internalpointers.com/post/gentle-introduction-multithreading
+  title: "A gentle introduction to multithreading"
+  description: |
+    Modern computers have the ability to perform multiple operations at the same time. Supported by hardware advancements and smarter operating systems, this feature makes your programs run faster, both in terms of speed of execution and responsiveness.
+
+- url: https://medium.com/@Pinterest_Engineering/sharding-pinterest-how-we-scaled-our-mysql-fleet-3f341e96ca6f
+  title: "Sharding Pinterest"
+  description: |
+    Real life experience sharing a MySQL fleet. You got to know how they store pins, users, board and comment.
+
+- url: https://eng.uber.com/schemaless-rewrite/
+  title: "Code Migration in Production"
+  description: "Rewriting the Sharding Layer of Uber’s Schemaless Datastore"
+
+- url: https://tech.just-eat.com/2019/03/04/out-with-the-old-in-with-the-new-part-1-%E2%80%8A-%E2%80%8Areplacing-legacy-components-without-down-time/
+  title: "How JustEat replaced legacy components without down time"
+  description: |
+    Out with the old, in with the new! They broke down API into its key functional areas and then began moving this functionality to brand new components.
+    This allowed them to avoid breaking production code paths and instead reduce the risk whilst they introduced these over time.
+
+
+- url: https://levelup.gitconnected.com/to-create-an-evolvable-api-stop-thinking-about-urls-2ad8b4cc208e
+  title: "To Create An Evolvable API, Stop Thinking About URLs"
+  description: |
+    An open-ended idea about REST. Instead of model the API in term of resources, we model it after business flow of an action in real life.
+
+- url: https://withblue.ink/2019/03/11/why-you-need-to-normalize-unicode-strings.html
+  title: |
+    When "Zoë" !== "Zoë"
+  description: "Or why you need to normalize Unicode strings"
+
+- url: https://rob.conery.io/2018/08/13/transactional-data-operations-in-postgresql-using-common-table-expressions/
+  title: "Transactional data operations in postgresql using common table expressions"
+  description: |
+    One of the great features of PostgreSQL is Common Table Expressions, or CTEs, otherwise known as “WITH queries”. These are simply chained SQL expressions that allow you to pass the result of one query into another, functional style
+
+- url: https://www.pcmaffey.com/roll-your-own-analytics/
+  title: 'Roll Your Own Analytics'
+  description: "How to build a free, privacy-focused alternative to Google Analytics with AWS Lambda and a spreadsheet"
+
+video:
+- url: https://www.infoq.com/presentations/failure-cache-redis-pcc-hazelcast
+  title: "How Do We Handle Failures in Microservices"
+
+- url: https://www.infoq.com/presentations/architecting-transactional-system
+  title: "Achieving High Throughput with Reliability in Transactional Systems"
+
+read_code:
+- url: https://github.com/jcoglan/jit
+  title: "A Git implement in Ruby"
+  category: ['Ruby']
+
+- url: https://github.com/pions/webrtc
+  title: webrtc
+  description: "A Go implementation of the WebRTC API"
+  category: ['Go']
+
+- url: https://github.com/pirate/ArchiveBox
+  title: ArchiveBox
+  description: "The open source self-hosted web archive. Takes browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media"
+  category: ['Python']
+
+
+tool:
+- url: https://github.com/tektoncd/pipeline
+  title: "pipeline"
+  description: "K8S native pipeline"
+
+- url: https://github.com/triggermesh/aktion
+  title: aktion
+  description: "Translates GitHub Actions into Tekton and Knative Objects"
+
+- url: https://github.com/github/vulcanizer
+  title: vulcanizer
+  description: "A CLI utils to interact and operate ElasticSearch by Github"
+
+- url: https://github.com/gojektech/weaver
+  title: weaver
+  description: "An Advanced HTTP Reverse Proxy with Dynamic Sharding Strategies"
+
+
