@@ -1,0 +1,74 @@
+time: "Mar 25, 2019"
+subject: |
+draft: false
+
+description: |
+
+links:
+- url: https://medium.com/@chrisbuetti/how-i-eat-for-free-in-nyc-using-python-automation-artificial-intelligence-and-instagram-a5ed8a1e2a10
+  title: "How I Eat For Free in NYC Using Python, Automation, Artificial Intelligence, and Instagram"
+  description: |
+    I personally enjoy these but I 
+- url: https://3perf.com/blog/link-rels/
+  title: "Preload, prefetch and other <link> tags"
+
+- url: https://stackshare.io/launchdarkly/redux-scaling-launchdarkly-from-4-to-200-billion-feature-flags-daily
+  title: "Redux: Scaling LaunchDarkly from 4 to 200 billion feature flags daily"
+
+- url: https://badootech.badoo.com/when-pigs-fly-optimising-bytecode-interpreters-f64fb6bfa20f
+  title: "When pigs fly: optimising bytecode interpreters"
+
+- url: http://www.michaelburge.us/2019/03/18/nes-design.html
+  title: "Implementing a NES Emulator in Rust"
+
+- url: https://www.parsonsmatt.org/2019/03/19/sum_types_in_sql.html
+  title: "Sum Types In SQL"
+
+- url: https://www.usenix.org/system/files/login/articles/login_spring17_08_bratus.pdf
+  title: "Curing the Vulnerable Parser"
+
+
+video:
+- url: https://www.youtube.com/watch?v=goQ-yjN7WAc&feature=youtu.be
+  title: "The Cloud is Just Another Sun"
+
+read_code:
+- url: https://github.com/photonlines/Python-Prolog-Interpreter
+  title: "Python-Prolog-Interpreter"
+  description: "simple Prolog Interpreter written in a few lines of Python 3"
+  category: ['Python']
+
+- url: https://github.com/davidmarkclements/0x
+  title: "0x"
+  description: "single-command flamegraph profiling"
+  category: ['JavaScript']
+
+- url: https://github.com/MichaelBurge/nes-emulator
+  title: nes-emulator
+  description: "A NES emulator made to learn the Rust programming language"
+  category: ['Rust']
+
+- url: https://github.com/antonmedv/countdown
+  title: countdown
+  description: |
+    Let see how to implement a countdown in terminal
+  category: ['Go']
+
+- url: https://github.com/amatsuda/himl
+  title: himl
+  description: "HTML-based Indented Markup Language for Ruby"
+
+tool:
+- url: https://github.com/jfcoz/postgresqltuner
+  title: postgresqltuner
+  description: |
+    Analyse your PostgreSQL database configuration, and give tuning advice.
+    You can also check out [Vertically scaling PostgreSQL](https://pgdash.io/blog/scaling-postgres.html)
+
+- url: https://github.com/infinimesh/kaf
+  title: kaf
+  description: |
+    Modern CLI for Apache Kafka, written in Go with a single binary
+
+https://docli.dev/
+
