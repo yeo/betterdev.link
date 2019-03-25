@@ -1,36 +1,71 @@
 time: "Mar 25, 2019"
 subject: |
+  How I eat for free in NYC Using Python, Automation, AI and Instagram and The Deadlock Empie
+
 draft: false
 
-description: |
+description: ""
 
 links:
 - url: https://medium.com/@chrisbuetti/how-i-eat-for-free-in-nyc-using-python-automation-artificial-intelligence-and-instagram-a5ed8a1e2a10
   title: "How I Eat For Free in NYC Using Python, Automation, Artificial Intelligence, and Instagram"
   description: |
-    I personally enjoy these but I 
-- url: https://3perf.com/blog/link-rels/
-  title: "Preload, prefetch and other <link> tags"
+    A fun post on how to apply many concepts in computer science into your daily life.
+
+- url: https://deadlockempire.github.io/
+  title: "The Deadlock Empire"
+  description: |
+    The skills you need are your intelligence, cunning, perseverance and the will to test yourself against the intricacies of multi-threaded programming. Each challenge below is a computer program of two or more threads. Your objective is to exploit flaws in the programs to make them crash or otherwise malfunction.
+
+- url: https://about.gitlab.com/2019/03/13/quantifying-ux-validating-the-redesign-of-gitlabs-settings-pages/
+  title: "Quantifying UX: How we validated the redesign of GitLab's settings pages"
+  description: |
+    Nothing beat real life experience. A GitLab senior UX designer shares how we determined whether a recent redesign improved the overall experience for users.
 
 - url: https://stackshare.io/launchdarkly/redux-scaling-launchdarkly-from-4-to-200-billion-feature-flags-daily
   title: "Redux: Scaling LaunchDarkly from 4 to 200 billion feature flags daily"
+  description: |
+    LaunchDarkly is a featureflag platform. They share how they scale to 1.5million and 500k concurent connections, processes 40 billion events per day.
 
-- url: https://badootech.badoo.com/when-pigs-fly-optimising-bytecode-interpreters-f64fb6bfa20f
-  title: "When pigs fly: optimising bytecode interpreters"
+- url: https://3perf.com/blog/link-rels/
+  title: "Preload, prefetch and other <link> tags"
+  description: |
+     Preload helps improve the performance by fetching thing you will need in advance.. Prefetch a CSS file, prerender a full page, or resolve a domain ahead of time – and you won’t have to wait for it when it’s actually needed! Sounds cool.
 
-- url: http://www.michaelburge.us/2019/03/18/nes-design.html
-  title: "Implementing a NES Emulator in Rust"
+- url: https://www.ebayinc.com/stories/blogs/tech/sre-case-study-url-distribution-issue-caused-by-application/
+  title: "SRE Case Study: URL Distribution Issue Caused by an Application"
+  description: |
+    How come a error on an application cause a routing issue on load balancer? Super userful. Here is the learning:
+    "a) If you couldn't find where the problem is, dig wider.  b) If you found something that can barely be explained, dig deeper."
 
 - url: https://www.parsonsmatt.org/2019/03/19/sum_types_in_sql.html
   title: "Sum Types In SQL"
+  description: |
+    SQL databases represent product types – “and” – extremely well, but it has trouble with sum types – “or”. Most SQL databases support simple enumerations easily, but they lack the ability to talk about real sum types with fields. We can encode sum types in SQL in a few different ways, each of which has upsides and downsides.
 
 - url: https://www.usenix.org/system/files/login/articles/login_spring17_08_bratus.pdf
-  title: "Curing the Vulnerable Parser"
+  title: "Curing the Vulnerable Parser(PDF)"
+  description: |
+    Design Pattern for Secure Input Handling
 
+- url: https://badootech.badoo.com/when-pigs-fly-optimising-bytecode-interpreters-f64fb6bfa20f
+  title: "When pigs fly: optimising bytecode interpreters"
+  description: |
+    Author wrote a small stack virtual machine call Piglet. He show us in the case of ambitious, hardworking “piglets” and working within the confines of standard C, it is entirely possible to speed up the work of such interpreters by a factor of at least 1 ½.
+
+- url: http://www.michaelburge.us/2019/03/18/nes-design.html
+  title: "Implementing a NES Emulator in Rust"
+  description: |
+    You should read these kind of artcile regardless you use Rust or not. They brings interesting technique, has a "low-level" sense and help broad your knowledge alot. The code are [open source](https://github.com/MichaelBurge/nes-emulator) of course.
 
 video:
 - url: https://www.youtube.com/watch?v=goQ-yjN7WAc&feature=youtu.be
-  title: "The Cloud is Just Another Sun"
+  title: "The Cloud is Just Another Sun(43mins)"
+
+- url: https://www.infoq.com/presentations/rust-security-guarantees
+  title: "The Most Secure Program Is One That Doesn’t Exist(45mins)"
+  description: |
+    Or why Rust help with security
 
 read_code:
 - url: https://github.com/photonlines/Python-Prolog-Interpreter
@@ -57,6 +92,8 @@ read_code:
 - url: https://github.com/amatsuda/himl
   title: himl
   description: "HTML-based Indented Markup Language for Ruby"
+  category: ['Ruby']
+
 
 tool:
 - url: https://github.com/jfcoz/postgresqltuner
@@ -70,5 +107,9 @@ tool:
   description: |
     Modern CLI for Apache Kafka, written in Go with a single binary
 
-https://docli.dev/
+- url: https://github.com/yudai/gotty
+  title: gotty
+  description: |
+    CLI tool to Share your terminal as a web application in Go so no dependency to use. If you like similar thing in C, checkout [ttyd](https://github.com/tsl0922/ttyd)
 
+    #https://docli.dev/
