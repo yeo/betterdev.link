@@ -1,5 +1,5 @@
 time: "Apr 01, 2019"
-subject: "The Anatomy of an AWS Key Leak to a Public Code Repository and Timestamps/Time Zones in PostgreSQL"
+subject: "On-Call game and The Anatomy of an AWS Key Leak to a Public Code Repository"
 
 draft: false
 
@@ -7,7 +7,7 @@ description: ""
 
 links:
 - url: https://www.dorothyjung.com/oncall-game/
-  title: "Oncall Game"
+  title: "On-call Game"
   description: |
     More companies started to put whole team on-call.
     This game simulates real scenario of incident.
@@ -23,6 +23,8 @@ links:
   description: |
     PostgreSQL supports two types of timestamps, one with and one without time zone. Contrary to what the name suggests, timestamp with time zone does not store the time zone. The difference between the two types lies in the semantics and is often a source of confusion
 
+- url: https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.md
+  title: "Cross-Site Request Forgery (CSRF) Prevention cheat sheet"
 
 - url: https://thoughtbot.com/blog/services-are-not-a-silver-bullet
   title: "Services are Not a Silver Bullet"
@@ -47,18 +49,15 @@ links:
 - url: https://rob.conery.io/2019/03/25/wtf-is-big-o-notation/
   title: "what is big O notation"
 
+#- url: https://medium.com/the-node-js-collection/cpu-and-i-o-performance-diagnostics-in-node-js-e513ba433c39
+#title: "CPU and I/O performance diagnostics in Node.js"
 
 
-- url: https://medium.com/the-node-js-collection/cpu-and-i-o-performance-diagnostics-in-node-js-e513ba433c39
-  title: "CPU and I/O performance diagnostics in Node.js"
+#- url: https://lexbor.com/articles/html/
+#  title: "Web browser engine development. Part One: HTML"
 
-https://medium.com/sector443/python-for-reverse-engineering-1-elf-binaries-e31e92c33732
-
-- url: https://lexbor.com/articles/html/
-  title: "Web browser engine development. Part One: HTML"
-
-
-  https://zalo.github.io/blog/constraints/#
+#https://medium.com/sector443/python-for-reverse-engineering-1-elf-binaries-e31e92c33732
+#https://zalo.github.io/blog/constraints/#
 
 video:
 - url: https://www.infoq.com/presentations/testing-production-2018
