@@ -53,8 +53,11 @@ links:
 #title: "CPU and I/O performance diagnostics in Node.js"
 
 
-#- url: https://lexbor.com/articles/html/
-#  title: "Web browser engine development. Part One: HTML"
+- url: https://lexbor.com/articles/html/
+  title: "Web browser engine development. Part One: HTML"
+  description: |
+    A serie about writing browser engine in C. This part is about parseing HTML, you will learn preprocessing, 
+    decoder, tokenizer and more. Best way to learn is to re-implement thing.
 
 #https://medium.com/sector443/python-for-reverse-engineering-1-elf-binaries-e31e92c33732
 #https://zalo.github.io/blog/constraints/#
@@ -96,13 +99,13 @@ tool:
 
 - url: https://github.com/mithrandie/csvq
   title: "csvq"
-  descritpion: "SQL-like query language for csv"
+  description: "SQL-like query language for csv"
 
-- url: https://github.com/cruise-automation/rbacsync
-  title: "rbacsync"
+#- url: https://github.com/cruise-automation/rbacsync
+#title: "rbacsync"
 
 - url: https://github.com/screwdriver-cd/screwdriver
   title: screwdriver
-  descritpion: "An open source build platform designed for continuous delivery"
+  description: "An open source build platform designed for continuous delivery"
 
 #https://docli.dev/
