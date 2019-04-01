@@ -1,0 +1,109 @@
+time: "Apr 01, 2019"
+subject: "The Anatomy of an AWS Key Leak to a Public Code Repository and Timestamps/Time Zones in PostgreSQL"
+
+draft: false
+
+description: ""
+
+links:
+- url: https://www.dorothyjung.com/oncall-game/
+  title: "Oncall Game"
+  description: |
+    More companies started to put whole team on-call.
+    This game simulates real scenario of incident.
+    Triage real-life incidents. Your goal is to mitigate the incident as soon as possible.
+
+- url: https://technodrone.blogspot.com/2019/03/the-anatomy-of-aws-key-leak-to-public.html
+  title: "The Anatomy of an AWS Key Leak to a Public Code Repository"
+  description: |
+    What you would do and what is going to happen.
+
+- url: https://phili.pe/posts/timestamps-and-time-zones-in-postgresql/
+  title: "Timestamps and Time Zones in PostgreSQL"
+  description: |
+    PostgreSQL supports two types of timestamps, one with and one without time zone. Contrary to what the name suggests, timestamp with time zone does not store the time zone. The difference between the two types lies in the semantics and is often a source of confusion
+
+
+- url: https://thoughtbot.com/blog/services-are-not-a-silver-bullet
+  title: "Services are Not a Silver Bullet"
+  description: |
+    What microservice will not help you: process problem, slowing fearture dev, code review, test suite.
+
+- url: https://alexandrnikitin.github.io/blog/transparent-hugepages-measuring-the-performance-impact/
+  title: "Transparent Hugepages: measuring the performance impact"
+  description: |
+    Explains Transparent Hugepages (THP) in a nutshell, describes techniques that can be used to measure the performance impact, shows the effect on a real-world application.
+
+- url: https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/
+  title: "Storing utc is not a silver bullet"
+  description: |
+    The author is not saying storing UTC is always the wrong thing to do, but it’s not always the right thing to do either.
+
+- url: https://habr.com/en/company/postgrespro/blog/443284/
+  title: "Indexes in PostgreSQL Btree"
+  description: |
+    A series about index in PostgreSQL. This part considers B-tree, the most traditional and widely used index.
+
+- url: https://rob.conery.io/2019/03/25/wtf-is-big-o-notation/
+  title: "what is big O notation"
+
+
+
+- url: https://medium.com/the-node-js-collection/cpu-and-i-o-performance-diagnostics-in-node-js-e513ba433c39
+  title: "CPU and I/O performance diagnostics in Node.js"
+
+https://medium.com/sector443/python-for-reverse-engineering-1-elf-binaries-e31e92c33732
+
+- url: https://lexbor.com/articles/html/
+  title: "Web browser engine development. Part One: HTML"
+
+
+  https://zalo.github.io/blog/constraints/#
+
+video:
+- url: https://www.infoq.com/presentations/testing-production-2018
+  title: "Yes, I Test in Production (And So Do You)"
+
+- url: https://www.youtube.com/watch?time_continue=1&v=MHI29_c8S0k
+  title: "Discord: The Joy of Opinionated Systems(10mins)"
+  description: |
+      Mark, director of Discord, shared about problem of running software with complex configuration, tuning. Therefore the joy of an opinionated system.
+
+read_code:
+- url: https://github.com/googleapis/signet
+  title: "signet"
+  description: "an OAuth 1.0 / OAuth 2.0 implementation"
+  category: ['Ruby']
+
+- url: https://github.com/fastly/lucet
+  title: lucet
+  description: "the Sandboxing WebAssembly Compiler"
+  category: ['Rust']
+
+- url: https://github.com/kasvith/kache
+  title: "kache"
+  description: "A redis compatible in memory db written in go"
+  category: ['Go']
+
+tool:
+- url: https://github.com/yampelo/beagle
+  title: beagle
+  description: "an incident response and digital forensics tool which transforms security logs and data into graphs"
+
+- url: https://github.com/zeerorg/k3s-in-docker
+  title: k3d
+  description: |
+    A lightweight kubernetes development setup. Read [introduction post](https://blog.zeerorg.site/post/k3d-kubernetes-dev-env)
+
+- url: https://github.com/mithrandie/csvq
+  title: "csvq"
+  descritpion: "SQL-like query language for csv"
+
+- url: https://github.com/cruise-automation/rbacsync
+  title: "rbacsync"
+
+- url: https://github.com/screwdriver-cd/screwdriver
+  title: screwdriver
+  descritpion: "An open source build platform designed for continuous delivery"
+
+#https://docli.dev/
