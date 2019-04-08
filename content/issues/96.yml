@@ -1,0 +1,112 @@
+time: "Apr 08, 2019"
+subject: |
+  I built a list compiler and designing resilient systems beyond retries
+
+draft: false
+
+description: ""
+
+links:
+- url: https://mpov.timmorgan.org/i-built-a-lisp-compiler/
+  title: "I Built a Lisp Compiler"
+  description: |
+   I think many progammers dream building their own game or programming language. We sure love to build tool.
+   Tim Morgan did that. He followed another project call [Mal](https://github.com/kanaka/mal), which we linked to before to make a Lisp interpreter. Once learn enough, Tim think that if they could make a List interpreter, they could probably repeat to make a compiler for Mal. Tim achived their goal and encourage us to do same.
+
+- url: https://engineering.grab.com/beyond-retries-part-1
+  title: "Designing resilient systems beyond retries - part 1"
+  description: |
+    This includes 3 part: 1. rate limting, [2. Bulkheading, Load Balancing, and Fallbacks](https://engineering.grab.com/beyond-retries-part-2), and [3. Architecture Patterns and Chaos Engineering](https://engineering.grab.com/beyond-retries-part-3)
+
+- url: https://habr.com/ru/company/postgrespro/blog/441962/
+  title: "Indexes in PostgreSQL"
+  description: |
+    We will discuss matters that should interest an application developer who uses DBMS: what indexes are available, why there are so many different types of them, and how to use them to speed up queries
+
+- url: https://blog.acolyer.org/2019/03/29/calvin-fast-distributed-transactions-for-partitioned-database-systems/
+  title: "Calvin: fast distributed transactions for partitioned database systems"
+  description: |
+    The goal of Calvin is to put the ACID back into distributed databases. The secret to Calvin’s scalability is that it sets things up in such a way that distributed commit protocols are not needed.
+
+- url: https://developers.soundcloud.com/blog/how-to-reindex-1-billion-documents-in-1-hour-at-soundcloud
+  title: "How to Reindex One Billion Documents in One Hour at SoundCloud"
+  description: |
+    SoundCloud share the concrete Elasticsearch tweaks we made so that we can now reindex our entire catalog in one hour.
+
+- url: http://eng.wealthfront.com/2019/03/27/running-in-the-background-building-seamless-account-linking/
+  title: "Running in the Background: Building Seamless Account Linking"
+  description: |
+    Wealthfront shares their process to create an account linking service that take responsibility for the aggregation of their clients’ external accounts and keeping that information up to date. The key design is: State management: backend vs. clients
+
+- url: https://www.downtowndougbrown.com/2019/04/adventures-of-putting-16-gb-of-ram-in-a-motherboard-that-doesnt-support-it
+  title: "Adventures of putting 16 GB of RAM in a motherboard that doesn’t support it"
+  description: |
+    Really amazing work on this. Somehow Linux works with 16GB RAM but windows cannot. The author had to use "Memory Remap" in BIOS and modify ACPI tables.
+
+- url: http://www.gabrielgambetta.com/computer-graphics-from-scratch/table-of-contents.html
+  title: "Computer Graphics from scratch"
+  description: |
+    A free book should give you all the knowledge necessary to write software renderers. Although in the age of GPUs few people have good reasons to write a pure software renderer, the experience of writing one is valuable.
+
+- url: https://snyk.io/blog/10-docker-image-security-best-practices/
+  title: "10 Docker Image Security Best Practices"
+  description: |
+    A cheatsheet focus on Docker and discuss tips and guidelines that ensures a more secure and quality Docker image process.
+
+- url: https://dev.to/zaiste/15-git-commands-you-may-not-know-4a8j
+  title: "15 git command you may not know"
+  description: |
+    despite of click-bait title, it does have some good git command.
+
+
+video:
+- url: https://grafana.com/blog/2019/03/21/pro-tips-how-booking.com-handles-millions-of-metrics-per-second-with-graphite/
+  title: "How Booking.com Handles Millions of Metrics Per Second with Graphite"
+
+- url: https://www.youtube.com/watch?v=gjUJRvw_pCk
+  title: "Wayfair Storefront Performance Monitoring with InfluxEnterprise"
+  description: |
+    [Introduction article](https://tech.wayfair.com/2019/03/performance-monitoring-best-practices-wayfair-at-influxdays-nyc/)
+
+read_code:
+- url: https://github.com/chrisdickinson/git-rs
+  title: "git, implemented in rust, for fun and education 🦀"
+  category: ['Rust']
+
+- url: https://github.com/erberlin/pywol
+  title: pywol
+  description: "A Wake-on-LAN tool written in Python"
+  category: ['Python']
+
+- url: https://github.com/piotrmurach/merkle_tree
+  title: "merkle_tree"
+  description: "a data structure used for efficiently summarizing sets of data, often one-time signatures"
+  category: ['Ruby']
+
+- url: https://github.com/xyproto/algernon
+  title: algernon
+  description: "Small self-contained pure-Go web server with Lua, Markdown, HTTP/2, QUIC, Redis and PostgreSQL support"
+  category: ['Go']
+
+- url: https://github.com/romkatv/gitstatus
+  title: "gitstatus"
+  description: "10x faster implementation of `git status` command"
+  category: ["C++"]
+
+tool:
+- url: https://editorjs.io/
+  title: editorjs
+  description: "Next generation block styled editor. Free. Use for pleasure"
+
+- url: https://cube.dev/
+  title: cubedev
+  description: "A complete open source analytics platform: frontend SDKs and API backed by a fully managed analytics infrastructure"
+
+- url: https://github.com/akarki15/dbdot
+  title: dbdot
+  description: "Generate DOT description for postgres db schema"
+
+- url: https://github.com/gildasio/h2t
+  title: "h2t"
+  description: "HTTP Hardening Tool scans a website and suggests security headers to apply"
+
