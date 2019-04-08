@@ -18,6 +18,11 @@ links:
   description: |
     This includes 3 part: 1. rate limting, [2. Bulkheading, Load Balancing, and Fallbacks](https://engineering.grab.com/beyond-retries-part-2), and [3. Architecture Patterns and Chaos Engineering](https://engineering.grab.com/beyond-retries-part-3)
 
+- url: https://blog.twitter.com/engineering/en_us/topics/insights/2019/gotta-catch--em-all.html
+  title: "Twitter engineering on exception: Gotta Catch ’Em All"
+  description: |
+    From their experience, if you can design your core system around a catch-all architecture, then it is trivial to reason about the success and failure of that system. Additionally, writing tests (especially TDD) is much easier and more natural.
+
 - url: https://habr.com/ru/company/postgrespro/blog/441962/
   title: "Indexes in PostgreSQL"
   description: |
@@ -32,11 +37,6 @@ links:
   title: "How to Reindex One Billion Documents in One Hour at SoundCloud"
   description: |
     SoundCloud share the concrete Elasticsearch tweaks we made so that we can now reindex our entire catalog in one hour.
-
-- url: http://eng.wealthfront.com/2019/03/27/running-in-the-background-building-seamless-account-linking/
-  title: "Running in the Background: Building Seamless Account Linking"
-  description: |
-    Wealthfront shares their process to create an account linking service that take responsibility for the aggregation of their clients’ external accounts and keeping that information up to date. The key design is: State management: backend vs. clients
 
 - url: https://www.downtowndougbrown.com/2019/04/adventures-of-putting-16-gb-of-ram-in-a-motherboard-that-doesnt-support-it
   title: "Adventures of putting 16 GB of RAM in a motherboard that doesn’t support it"
