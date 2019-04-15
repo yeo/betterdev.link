@@ -1,0 +1,130 @@
+time: "Apr 15, 2019"
+subject: |
+  Ultimate Guide to HTTP Cookies and The Missing Introducing to Containerization
+
+draft: false
+
+description: ""
+
+links:
+- url: https://blog.webf.zone/ultimate-guide-to-http-cookies-2aa3e083dbae
+  title: "Ultimate Guide to HTTP Cookies"
+  description: |
+    With so much information scattered on web about the HTTP cookies (or simply cookies), this article is an attempt to bring all of that into one cohesive tutorial. This article should be enough for most web developers to gain intermediate-to-advanced level of understanding about cookies.
+
+- url: https://medium.com/devopslinks/the-missing-introduction-to-containerization-de1fbb73efc5
+  title: "The Missing Introduction To Containerization"
+  description: |
+    This is a really deep dive into history and technical aspect of Docker. Not an average how-to docker style.
+    If you are confused with runc, containerd, rkt, mobi, oci...then this post is for you.
+    We will learn some good tools such as `stress`, `cgroup-tools` to stress testing performance of container solutions.
+
+- url: https://medium.com/@mattklein123/crash-early-and-crash-often-for-more-reliable-software-597738dd21c5
+  title: "Crash early and crash often for more reliable software"
+  description: |
+    Crashes may be an indication of unreliable software and subpar development methods, crashing is also a valid error handling method that if used correctly can increase rather than decrease the overall quality, reliability, and velocity of a piece of software.
+
+- url: https://lucasfcosta.com/2019/04/07/streams-introduction.html
+  title: "Your terminal is not a terminal: An Introduction to Streams"
+  description: |
+    If programs cannot communicate they must have too many features to satisfy their user’s needs, therefore creating more software. By enabling inter-process communication, streams encourage software to be smaller and sometimes can even prevent software from being written.
+
+- url: https://github.com/NanXiao/perf-little-book/blob/master/SUMMARY.md
+  title: "A small book which introduces Linux perf tool"
+  description: |
+    Linux perf_events is the official tracer/profiler for Linux users. As its name sugges, it is about performance analytisis to help identify bottle neck.
+
+- url: https://redislabs.com/community/ebook/
+  title: "Redis in action"
+  description: |
+    Redis is so easy to use and develop tend to not learn deep about it. . By reading this book, you can learn about many of the tips, tricks, and well-known problems that have been solved using Redis. It contains a fake app that you will be design and build and learn Redis in a more practical way.
+
+- url: https://blog.jooq.org/2019/04/09/the-difference-between-sqls-join-on-clause-and-the-where-clause/
+  title: "The Difference Between SQL’s JOIN .. ON Clause and the Where Clause"
+  description: |
+    It does not seem matter at all. Both queries yield the same result as well as the same plan. But in fact, in a `INNER JOIN` they are same, But on `OUTTER JOIN`
+    they are different.
+
+- url:  https://v8.dev/blog/code-caching-for-devs
+  title: "Code caching for JavaScript developers"
+  description: |
+    r a few pieces of advice for JS developers who want to make the best use of code caching to improve the startup of their websites. This advice focuses on the implementation of caching in Chrome/V8, but most of it is likely transferable to other browsers’ code caching implementations too.
+
+- url: https://blog.lawrencejones.dev/building-a-postgresql-load-tester/
+  title: "Building a PostgreSQL load tester"
+  description: |
+    One of approach for load testing is to capture production traffic, and re-play them to other db for load test.
+    We will learn how to write log parser, lazy streaming and individual replay sessions to avoid slow queries block whole test.
+    If you just need the tool, head to [github pgreplay-go](https://github.com/gocardless/pgreplay-go/)
+
+
+video:
+- url: https://www.infoq.com/presentations/complex-distributed-systems
+  title: "Cultivating Production Excellence"
+  description: "Taming Complex Distributed Systems"
+
+- url: https://www.youtube.com/watch?v=fOdtgHu_KeA
+  title: "Learning from DevOps: Why complex systems necessitate new ITSM thinking"
+  description: |
+    You can also check [the summarize article](https://medium.com/itrevolution/learning-from-devops-why-complex-systems-necessitate-new-itsm-thinking-4a9aa5c14c18)
+
+
+read_code:
+- url: https://github.com/nerdgeneration/www.sh
+  title: "www.sh"
+  description: "Web framework in Bash(Education purpose only"
+  category: ['Bash']
+
+- url: https://github.com/hrkfdn/ncspot
+  title: ncspot
+  description: "Cross-platform ncurses Spotify client written in Rust"
+  category: ['Rust']
+
+- url: https://github.com/nytimes/gizmo
+  title: "gizmo"
+  description: "A Microservice Toolkit from The New York Times"
+  category: ['Go']
+
+- url: https://github.com/nginxinc/crossplane
+  title: crossplane
+  description: "Quick and reliable way to convert NGINX configurations into JSON and back"
+  category: ['Python']
+
+- url: https://github.com/activeadmin/arbre
+  title: arbre
+  description: |
+    expresses HTML using a Ruby DSL similar to Elm
+  category: ['Ruby']
+
+- url: https://github.com/niklasvh/html2canvas
+  title: html2canvas
+  description: "Take Screenshots with JavaScript client-side"
+  category: ['JavaScript']
+
+tool:
+- url: https://github.com/coinbase/fenrir
+  title: fenrir
+  description: |
+    a secure AWS SAM deployer to manage serverless projects or scale serverless to a large organization. Built by Coinbase, you can read their [introducing post](https://blog.coinbase.com/introducing-fenrir-how-coinbase-is-scaling-serverless-applications-9ba6e3a74761)
+
+- url: https://github.com/lerocha/chinook-database
+  title: chinook-database
+  description: "Sample database for SQL Server, Oracle, MySQL, PostgreSQL, SQLite, DB2"
+
+- url: https://github.com/haydenjames/bench-scripts
+  title: bench-scripts
+  description: "A compilation of Linux server benchmarking scripts"
+
+- url: https://github.com/radicle-dev/radicle
+  title: radicle
+  description: "A peer-to-peer stack for code collaboration"
+  category: ['Hashkel']
+
+- url: https://github.com/derailed/popeye
+  title: "popeye"
+  description: "cruises Kubernetes cluster resources and reports potential issues with deployment manifests and configurations"
+
+- url: https://docs.flagger.app/
+  title: flagger
+  description: |
+    a Kubernetes operator that automates the promotion of canary deployments using Istio or App Mesh routing for traffic shifting and Prometheus metrics for canary analysis
