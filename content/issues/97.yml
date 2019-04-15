@@ -57,7 +57,10 @@ links:
     We will learn how to write log parser, lazy streaming and individual replay sessions to avoid slow queries block whole test.
     If you just need the tool, head to [github pgreplay-go](https://github.com/gocardless/pgreplay-go/)
 
-
+- url: https://hackernoon.com/why-capacity-planning-needs-queueing-theory-without-the-hard-math-342a851e215c
+  title: "Why Capacity Planning Needs Queueing Theory"
+  description: |
+    This article details why queueing theory is essential for modeling capacity and provides 2 hands on examples of using queueing theory to model capacity
 video:
 - url: https://www.infoq.com/presentations/complex-distributed-systems
   title: "Cultivating Production Excellence"
