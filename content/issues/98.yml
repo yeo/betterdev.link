@@ -58,7 +58,7 @@ links:
 - url: https://medium.com/geckoboard-under-the-hood/we-rolled-out-envoy-at-geckoboard-13c45b4eaddd
   title: "We rolled out Envoy at Geckoboard"
   description: |
-    Gecokoboard envoy helps them to stop worrying about our gRPC traffic. This gives you some hintsight if you are looking into Envoy.
+    Gecokoboard shares how envoy helps them to stop worrying about our gRPC traffic. This gives you some hintsight if you are looking into Envoy.
 
 video:
   - url: https://www.infoq.com/presentations/event-flow-systems
