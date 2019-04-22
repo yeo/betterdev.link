@@ -99,7 +99,7 @@ read_code:
 
 tool:
   - url: https://github.com/godaddy/kubernetes-external-secrets
-    title: "kubernetes-external-secrets by Godaddy"
+    title: "kubernetes-external-secrets"
     description: |
       Godaddy solutions to support external secret management system(such as AWS Secret Manager).
       [Read the introduction post](https://godaddy.github.io/2019/04/16/kubernetes-external-secrets/)
@@ -117,7 +117,8 @@ tool:
     description: "Prevents you from committing secrets and credentials into git repositories"
 
   - url: https://github.com/weaveworks/flagger
-    title: "Istio and App Mesh progressive delivery Kubernetes operator"
+    title: "flagger"
+    description: "Istio and App Mesh progressive delivery Kubernetes operator"
 
   - url: https://github.com/square/spincycle
     title: "spincycle"
