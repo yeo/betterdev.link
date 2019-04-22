@@ -13,16 +13,20 @@ links:
 
 - url: http://coding-geek.com/how-databases-work/
   title: "How does a relational database work"
+  description: |
+    3 parts:  low-level and high-level database components, query optimization process,  transaction and buffer pool management
+
+- url: https://hackernoon.com/one-secret-to-becoming-a-great-software-engineer-read-code-467e31f243b0
+  title: "One secret to becoming a great software engineer: read code"
+  description: |
+    This is why betterdev have the `code to read` section. Even skimming through code you can see different way prgrammer approach problem, organize project.
+    Then you can focus on specific function that you curious about. You do not have to read whole system. Eg, you want to see how people are doing microservice authentication. Then you
+    want to see how exactly the code that validate authentication data or password hashing.
 
 - url: https://opensource.com/article/19/3/virtual-filesystems-linux
   title: "Virtual Filesystems in Linux"
   description: |
     Why we need them and how they work. They are the magic abstraction that makes the "everything is a file" philosophy of Linux possible.
-
-- url: https://www.akalin.com/intro-erasure-codes
-  title: "A Gentle Introduction to Erasure Codes"
-  description: |
-    This article explains Reed-Solomon erasure codes and the problems they solve in gory detail, with the aim of providing enough background to understand how the PAR1 and PAR2 file formats work, the details of which will be covered in future articles.
 
 - url: https://www.heartinternet.uk/blog/best-practices-for-optimising-video-streams-on-the-web/
   title: "Best practices for optimising video streams on the web"
@@ -30,9 +34,20 @@ links:
     When it comes to video, we just use Youtube similar services and call it a day. They hide all the detail and remove fun challenge.
     Setting up video streaming is fairly straightforward today, and no longer requires any specialised hardware – any HTTP server can serve streaming content.
 
+- url: https://alexbowe.com/wavelet-trees/
+  title: "Wavelet Trees – an Introduction"
+  description: |
+    an elegant way of answering rank queries on sequences over larger alphabets – a structure called the Wavelet Tree
+
+- url: https://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins
+  title: "Visual Representation of SQL Joins"
+  description: |
+    A post in 2009...But I found a great visualization for different kind of JOIN.
+
 - url: https://content.pivotal.io/blog/should-that-be-a-microservice-keep-these-six-factors-in-mind
   title: "Should that be a Microservice? Keep These Six Factors in Mind"
-  description: ""
+  description: |
+    You’re writing more code than ever before. The trick is knowing what should be a microservice, and what shouldn’t.
 
 - url: https://v8.dev/blog/preparser
   title: "Blazingly fast parsing, part 2: lazy parsing"
@@ -40,43 +55,10 @@ links:
     The second part of series explaining how V8 parses JavaScript as fast as possible. The first part explained how we made V8’s scanner fast.
     V8 is fast because many talented developer pour years into it. We all can learn from it.
 
-- url: https://alexbowe.com/wavelet-trees/
-  title: "Wavelet Trees – an Introduction"
+- url: https://medium.com/geckoboard-under-the-hood/we-rolled-out-envoy-at-geckoboard-13c45b4eaddd
+  title: "We rolled out Envoy at Geckoboard"
   description: |
-    an elegant way of answering rank queries on sequences over larger alphabets – a structure called the Wavelet Tree
-
-- url: https://blog.jooq.org/2019/03/26/the-cost-of-useless-surrogate-keys-in-relationship-tables/
-  title: "The Cost of Useless Surrogate Keys in Relationship Tables"
-  description: |
-
-- url: https://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins
-  title: "Visual Representation of SQL Joins"
-  description: |
-    A post in 2009...But I found a great visualization for different kind of JOIN.
-
-
-
-
-
-- url: http://delivery.acm.org/10.1145/3310000/3303970/a29-ananthanarayanan.pdf
-  title: "Keeping Master Green at Scale(PDF)"
-  description: |
-    This paper provides a fascinating look at a key part of Uber’s software delivery machine. With a monorepo, and many thousands of engineers concurrently committing changes, keeping the build green, and keeping commit-to-live latencies low, is a major challenge. Also to read [the morning paper analysis](https://blog.acolyer.org/2019/04/18/keeping-master-green-at-scale/)
-
-- url: https://eng.uber.com/optimizing-m3/
-  title: "Optimizing M3"
-  description: |
-    How Uber Halved Their Metrics Ingestion Latency by (Briefly) Forking the Go Compiler. Solid works and we can learn about a thoughful process with impressive work when you hit performance issue
-
-- url: https://wickstrom.tech/programming/2019/03/24/property-based-testing-in-a-screencast-editor-case-study-1.html
-  title: "test"
-- url: https://blog.acolyer.org/2019/04/08/how-bad-can-it-git-characterizing-secret-leakage-in-public-github-repositories/
-  title: "How bad can it git? Characterizing secret leakage in public GitHub repositories"
-
-- url: http://venge.net/graydon/talks/CompilerTalk-2019.pdf
-  title: "21 compilers and 3 orders of magnitude in 60 minutes"
-  description: |
-    A wander through a weird landscape to the heart of compilation
+    Gecokoboard envoy helps them to stop worrying about our gRPC traffic. This gives you some hintsight if you are looking into Envoy.
 
 video:
   - url: https://www.infoq.com/presentations/event-flow-systems
@@ -93,17 +75,10 @@ read_code:
     description: "An Emacs-like text editor written in Ruby"
     category: ['Ruby']
 
-  - url: https://github.com/kentcdodds/match-sorter
-    title: "match-sorter"
-    description: "Simple, expected, and deterministic best-match sorting of an array in JavaScript"
-    category: ['JavaScript']
-
   - url: https://github.com/djblue/tetris
     title: tetris
     description: "An almost complete tetris in ClojureScript"
     category: ['ClojureScript']
-
-    # https://github.com/google/namebench
 
   - url: "https://github.com/dessalines/lemmy"
     title: lemmy
@@ -116,16 +91,11 @@ read_code:
        a large-scale CRDT set implementation for timestamped event
     category: ['Go']
 
-    #https://github.com/drivy/checker_jobs
-
   - url: "https://github.com/MikeMcl/decimal.js"
     title: "decimal.js"
     description: |
       Want to see how JS fix `0.1 + 0.2 = 0.30000000000000004` in JavaScript?
-
-  - url: https://github.com/crazy-max/WindowsSpyBlocker
-    title: "🛡 Block spying and tracking on Windows"
-    category: ['Go']
+    category: ['JavaScript']
 
 tool:
   - url: https://github.com/godaddy/kubernetes-external-secrets
@@ -138,6 +108,10 @@ tool:
     title: mockit
     description: "quickly mock out end points, setup delays"
 
+  - url: https://ui.toast.com/tui-editor/
+    title: "tui-editor"
+    description: "Github Flavor Markdown Wysiwyg Editor"
+
   - url: https://github.com/awslabs/git-secrets
     title: git-secrets
     description: "Prevents you from committing secrets and credentials into git repositories"
@@ -145,3 +119,10 @@ tool:
   - url: https://github.com/weaveworks/flagger
     title: "Istio and App Mesh progressive delivery Kubernetes operator"
 
+  - url: https://github.com/square/spincycle
+    title: "spincycle"
+    description: "automates and exposes complex infrastructure tasks to other teams and service"
+
+  - url: https://github.com/chaosblade-io/chaosblade
+    title: chaosblade
+    description: "An easy to use and powerful chaos engineering experiment toolkit"
