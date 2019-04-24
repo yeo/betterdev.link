@@ -1,0 +1,82 @@
+time: "Apr 29, 2019"
+subject: |
+
+draft: false
+
+description: ""
+
+links:
+  - url: https://bertrandmeyer.com/2019/04/21/soundness-completeness-precision/
+    title: "Soundness and completeness: with precision"
+
+  - url: https://threadreaderapp.com/thread/1099086415671877633.html
+    title: "a mini-tweet thread which is all about network and TCP optimization"
+    description: "How can we make connections fast and reliable? and what's really going on anyway. It's all way too confusing so let's demystify it a bit."
+
+  - url: https://medium.com/@reinman/monoids-to-groupoids-492c35105113
+    title: "https://medium.com/@reinman/monoids-to-groupoids-492c35105113"
+    description: |
+      Writing functions is easy. Gluing them together is not.
+
+  - url: http://webdam.inria.fr/Alice/
+    title: "Foundations of Databases"
+    description: |
+      This is free online version of a book. The [full pdf version](http://webdam.inria.fr/Alice/pdfs/all.pdf) is also available.
+      It's a theory heavy book, not like  a simple "How to" google query.
+      Other book in this category is [reading in database system](http://www.redbook.io/) which we also linked to before, but want to remind here.
+
+  - url: https://tech.just-eat.com/2019/04/16/deep-linking-at-scale-on-ios/
+    title: "Deep Linking at Scale on iOS"
+    description: |
+      In this article, we propose an architecture to implement a scalable solution to Deep Linking on iOS using an underlying Flow Controller-based architecture, all powered by a state machine and the Futures & Promises paradigm to keep the code more readable.
+
+video:
+  - url: https://www.youtube.com/watch?v=LjeXZItav34&feature=youtu.be
+    title: "Network Performance: Making Every Packet Count"
+    description: |
+      A talk in 2017 but it does has lot of network tunning parameters.
+
+  - url: https://www.infoq.com/presentations/culture-blameless-failure
+    title: "Who Broke Prod? - Growing Teams Who Can Fail without Fear"
+
+read_code:
+  - url: https://github.com/cool-RR/PySnooper
+    title: PySnooper
+    description: "Never use print for debugging again"
+    category: ['Python']
+
+  - url: https://github.com/shugo/textbringer
+    title: textbringer
+    description: "An Emacs-like text editor written in Ruby"
+    category: ['Ruby']
+
+  - url: https://github.com/djblue/tetris
+    title: tetris
+    description: "An almost complete tetris in ClojureScript"
+    category: ['ClojureScript']
+
+  - url: "https://github.com/dessalines/lemmy"
+    title: lemmy
+    description: "Reddit clone in Rust"
+    category: ['Rust']
+
+  - url: https://github.com/soundcloud/roshi
+    title: roshi
+    description: |
+       a large-scale CRDT set implementation for timestamped event
+    category: ['Go']
+
+  - url: "https://github.com/MikeMcl/decimal.js"
+    title: "decimal.js"
+    description: |
+      Want to see how JS fix `0.1 + 0.2 = 0.30000000000000004` in JavaScript?
+    category: ['JavaScript']
+
+tool:
+  - url: https://github.com/gcla/termshark
+    title: termshark
+    description: "A terminal UI for tshark, inspired by Wireshark"
+
+  - url: https://github.com/uber/cadence
+    title: cadence
+    description: "a distributed, scalable, durable, and highly available orchestration engine to execute asynchronous long-running business logic in a scalable and resilient way"
