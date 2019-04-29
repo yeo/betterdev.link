@@ -5,8 +5,9 @@ subject: |
 draft: false
 
 description: |
-  If you always want to play with k8s, then Cannonical has a simple package for that. [microk8s](https://microk8s.io/).
-  Also want some fun, checkout this [tweet thread](https://twitter.com/i0exception/status/1010663994435067904) about Mixpanel code static
+  Want a quick way to play with k8s on a single dev node, Cannonical got you [microk8s](https://microk8s.io/).
+  Want some fun monday stats, checkout this [tweet thread](https://twitter.com/i0exception/status/1010663994435067904) about Mixpanel code static.
+  Need more fun, a guide on [how to Build a Multiplayer (.io) Web Game](https://victorzhou.com/blog/build-an-io-game-part-1/) will set you up for week.
 
 links:
   - url: http://webdam.inria.fr/Alice/
@@ -64,11 +65,6 @@ links:
     title: "Deep Linking at Scale on iOS"
     description: |
       In this article, we propose an architecture to implement a scalable solution to Deep Linking on iOS using an underlying Flow Controller-based architecture, all powered by a state machine and the Futures & Promises paradigm to keep the code more readable.
-
-  - url: https://victorzhou.com/blog/build-an-io-game-part-1/
-    title: "How to Build a Multiplayer (.io) Web Game"
-    description: |
-      .io game require no account, just go in and play. After this, you will be able to create some simple game like that.
 
 video:
   - url: https://www.youtube.com/watch?v=LjeXZItav34&feature=youtu.be
