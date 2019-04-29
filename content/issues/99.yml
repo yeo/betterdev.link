@@ -1,34 +1,74 @@
 time: "Apr 29, 2019"
 subject: |
+  Foundations of Databases and Avoiding Double Payments in a Distributed Payments System
 
 draft: false
 
-description: ""
+description: |
+  If you always want to play with k8s, then Cannonical has a simple package for that. [microk8s](https://microk8s.io/).
+  Also want some fun, checkout this [tweet thread](https://twitter.com/i0exception/status/1010663994435067904) about Mixpanel code static
 
 links:
-  - url: https://bertrandmeyer.com/2019/04/21/soundness-completeness-precision/
-    title: "Soundness and completeness: with precision"
+  - url: http://webdam.inria.fr/Alice/
+    title: "Foundations of Databases"
+    description: |
+      This is free online version of a book. The [full pdf version](http://webdam.inria.fr/Alice/pdfs/all.pdf) is also available.
+      It is a theory heavy book, not like  a simple "How to" google query.
+      Other book in this category is [reading in database system](http://www.redbook.io/) which we also linked to before, but want to remind here.
+
+  - url: https://medium.com/airbnb-engineering/avoiding-double-payments-in-a-distributed-payments-system-2981f6b070bb
+    title: "Avoiding Double Payments in a Distributed Payments System"
+    description: |
+      How Airbnb built a generic idempotency framework to achieve eventual consistency and correctness across our payments micro-service architecture.
+
+  - url: https://stressgrid.com/blog/pps_limits_in_ec2/
+    title: "Packets-per-second limits in EC2"
+    description: |
+       EC2 instances use Enhanced Networking can have bandwidth up to 25 Gbit/s. What does this maximum bandwidth mean for a transactional application, such as an HTTP server? Do we add up all payload and protocol overhead to see if fits the bandwidth budget
+
+  - url: https://github.com/lorin/resilience-engineering
+    title: "Resilience engineering"
+    description: |
+      notes about people active in resilience engineering and their article/paper about resillience engineering.
 
   - url: https://threadreaderapp.com/thread/1099086415671877633.html
     title: "a mini-tweet thread which is all about network and TCP optimization"
     description: "How can we make connections fast and reliable? and what's really going on anyway. It's all way too confusing so let's demystify it a bit."
 
-  - url: https://medium.com/@reinman/monoids-to-groupoids-492c35105113
-    title: "https://medium.com/@reinman/monoids-to-groupoids-492c35105113"
+  - url: http://designpatternsgame.com/
+    title: design patterns game
     description: |
-      Writing functions is easy. Gluing them together is not.
+      Each question contains a code snippet and four answer choices.
+      You read the code and decide which design patten the code fall into.
+      Fun exercise.
 
-  - url: http://webdam.inria.fr/Alice/
-    title: "Foundations of Databases"
+  - url: https://blog.felixangell.com/compilers-brief-and-brisk
+    title: "A Brief And Brisk Overview of Compiler Architecture"
     description: |
-      This is free online version of a book. The [full pdf version](http://webdam.inria.fr/Alice/pdfs/all.pdf) is also available.
-      It's a theory heavy book, not like  a simple "How to" google query.
-      Other book in this category is [reading in database system](http://www.redbook.io/) which we also linked to before, but want to remind here.
+      Consider this article a supplement to the plethora of resources out there on compilers. It exists as a self contained resource to get your toes wet in the world of programming language design and implementation.
+
+  - url: https://jobs.zalando.com/tech/blog/how-to-set-an-ideal-thread-pool-size/index.html
+    title: "How to set an ideal thread pool size"
+    description: |
+      This post is for Java. But it can be applied to any language that use thread as way to do concurency such as Ruby/Python.
+      Configuring thread pool is depend on your workload, experiment and find optimial number. However, this post give some guidance
+      on methodlogy to figure that out.
+
+  - url: https://auth0.com/blog/four-types-of-leaks-in-your-javascript-code-and-how-to-get-rid-of-them/
+    title: "4 Types of Memory Leaks in JavaScript and How to Get Rid Of Them"
+    description: |
+      Explore common types of memory leaks in client-side JavaScript code. We will also learn how to use the Chrome Development Tools to find them.
+      It's specificed to JavaScript. However, given JavaScript is the primary runtime in browser, it's worth your time to understand how and when these memory leaks occur.
 
   - url: https://tech.just-eat.com/2019/04/16/deep-linking-at-scale-on-ios/
     title: "Deep Linking at Scale on iOS"
     description: |
       In this article, we propose an architecture to implement a scalable solution to Deep Linking on iOS using an underlying Flow Controller-based architecture, all powered by a state machine and the Futures & Promises paradigm to keep the code more readable.
+
+  - url: https://victorzhou.com/blog/build-an-io-game-part-1/
+    title: "How to Build a Multiplayer (.io) Web Game"
+    description: |
+      .io game require no account, just go in and play. After this, you will be able to create some simple game like that.
 
 video:
   - url: https://www.youtube.com/watch?v=LjeXZItav34&feature=youtu.be
@@ -37,46 +77,53 @@ video:
       A talk in 2017 but it does has lot of network tunning parameters.
 
   - url: https://www.infoq.com/presentations/culture-blameless-failure
-    title: "Who Broke Prod? - Growing Teams Who Can Fail without Fear"
+    title: "Who Broke Prod?"
+    description: "Growing Teams Who Can Fail without Fear"
 
 read_code:
-  - url: https://github.com/cool-RR/PySnooper
-    title: PySnooper
-    description: "Never use print for debugging again"
-    category: ['Python']
+  - url: https://github.com/ricardbejarano/haproxy
+    title: "haproxy from source"
+    description: "Built-from-source container image of the HAProxy load balancer"
+    category: ['Bash']
 
-  - url: https://github.com/shugo/textbringer
-    title: textbringer
-    description: "An Emacs-like text editor written in Ruby"
+  - url: https://github.com/SteveLTN/https-portal
+    title: "https-portal"
+    description: "A fully automated HTTPS server powered by Nginx, Let's Encrypt and Docker"
     category: ['Ruby']
 
-  - url: https://github.com/djblue/tetris
-    title: tetris
-    description: "An almost complete tetris in ClojureScript"
-    category: ['ClojureScript']
-
-  - url: "https://github.com/dessalines/lemmy"
-    title: lemmy
-    description: "Reddit clone in Rust"
+  - url: https://github.com/casey/just
+    title: just
+    description: "a command runner similar to Make in Rust"
     category: ['Rust']
 
-  - url: https://github.com/soundcloud/roshi
-    title: roshi
+  - url: https://github.com/cdr/sshcode
+    title: sshcode
     description: |
-       a large-scale CRDT set implementation for timestamped event
+      Run VS Code on any server over SSH.
     category: ['Go']
 
-  - url: "https://github.com/MikeMcl/decimal.js"
-    title: "decimal.js"
-    description: |
-      Want to see how JS fix `0.1 + 0.2 = 0.30000000000000004` in JavaScript?
-    category: ['JavaScript']
+  - url: https://github.com/thenetcircle/dino/
+    title: dino
+    description: "Distributed notifications using websockets"
+    category: ['Python']
+
 
 tool:
+  - url: https://github.com/mylxsw/redis-tui
+    title: "redis-tui"
+    description: "A Redis Text-based UI client in CLI"
+    category: ['Go']
+
   - url: https://github.com/gcla/termshark
     title: termshark
     description: "A terminal UI for tshark, inspired by Wireshark"
 
-  - url: https://github.com/uber/cadence
-    title: cadence
-    description: "a distributed, scalable, durable, and highly available orchestration engine to execute asynchronous long-running business logic in a scalable and resilient way"
+  - url: https://github.com/zeromake/docker-debug
+    title: "docker-debug"
+    description: |
+      allows you to run a new container in another already run docker for debugging purpose. It attached pid, network, user, file system and ipc of target containers
+      so you can use arbitrary trouble-shooting tools without pre-installing them in your production container image.
+
+  - url: https://github.com/Caiyeon/goldfish
+    title: goldfish
+    description: "A HashiCorp Vault UI written with VueJS and Vault native Go API"
