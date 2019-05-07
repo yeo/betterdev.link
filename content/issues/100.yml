@@ -1,9 +1,10 @@
-time: "Apr 29, 2019"
+time: "May 07, 2019"
 subject: |
+  Unraveling JPEG and Git as a NoSQL data
 
 draft: false
 
-description: |
+description: ""
 
 links:
   - url: https://parametric.press/issue-01/unraveling-the-jpeg/
@@ -11,41 +12,41 @@ links:
     description: |
       JPEG images are everywhere in our digital lives, but behind the veil of familiarity lie algorithms that remove details that are imperceptible to the human eye. This produces the highest visual quality with the smallest file size—but what does that look like? Let's see what our eyes can't see!
 
+  - url: https://www.kenneth-truyers.net/2016/10/13/git-nosql-database/
+    title: "Git as a NoSql database"
+    description: |
+      Looks into how git interface is very similar to a NoSQL database.
+
   - url: https://dev.to/dmfay/the-ultimate-postgres-vs-mysql-blog-post-1l5f
     title: "The Ultimate Postgres vs MySQL Blog Post"
     description: |
       Deep dive into features that Postgres has but MySQL is lag behind. Some is really good one, such as `CHECK` clause on Postgres.
 
-  - url: https://maddiestone.github.io/AndroidAppRE/
-    title: "Android App Reverse Engineering 101"
+  - url: https://www.twilio.com/blog/a-http-headers-for-the-responsible-developer
+    title: "HTTP headers for the responsible developer"
+    description: |
+      How HTTP headers can help you build better products for a better web for everyone.
 
   - url: https://pdziepak.github.io/2019/05/02/on-lists-cache-algorithms-and-microarchitecture/
     title: "On lists, cache, algorithms, and microarchitecture"
+    description: |
+      Lists, being simple, can provide an interesting insight into how the performance of high-level algorithms that we write is affected by the processor microarchitecture, what we can do to improve that, and what the cost of those optimisations can be.
 
   - url: https://sabotage-linux.github.io/blog/6/
     title: "Restoring accidentally deleted files on Linux"
     description: |
-      I'm sure we had that moment. In short, you open raw hdd, search for a string in file, find start/end offset and use `dd` to copy it out
-
-  - url: https://devblogs.microsoft.com/oldnewthing/20190426-00/?p=102450
-    title: "How many ways are there to sort GUIDs"
-    description: |
-      Suppose you want to sort GUIDs, say because they are a key in an ordered map. How many ways are there to order them?
+      You open hdd in raw mode, search for a string in file, find start/end offset and use `dd` to copy it out
 
   - url: http://web.stanford.edu/class/cs166/handouts/100%20Suggested%20Final%20Project%20Topics.pdf
     title: "Topics in Advanced Data Structures"
     description: |
+      A suggested topic for a final project in Stanford. However, the list does has some interesting data structure that may
+    have real use in our daily development: such as priority queues from sorting, concurrent skip list
 
   - url: http://www.math.harvard.edu/~mazur/preprints/when_is_one.pdf
     title: "When is one thing equal to some other thing"
     description: |
-      A bit math and theory heavey but sometime we should sitback and ask this fundamental question. It's only 24 page.
-
-  - url: https://www.kenneth-truyers.net/2016/10/13/git-nosql-database/
-    title: "Git as a NoSql database"
-    description: |
-      Despite its title, this article to me isn't about using Git as a NoSQL database but to learn more about how it organize data
-      similar.
+      a 24 pages pdf. A bit math and theory heavey but sometime we should sitback and ask this fundamental question.
 
   - url: https://nordicapis.com/everything-you-need-to-know-about-api-rate-limiting/
     title: "Everything You Need To Know About API Rate Limiting"
@@ -62,18 +63,28 @@ video:
   - url: https://www.infoq.com/presentations/airbnb-kubernetes-services
     title: "Develop Hundreds of Kubernetes Services at Scale with Airbnb"
 
-  - url: https://developers.facebook.com/videos/2019/building-the-new-facebookcom-with-react-graphql-and-relay/
-    title: "Building the New facebook.com with React, GraphQL and Relay"
 read_code:
   - url: https://github.com/se7entyse7en/pydockenv
     title: pydockenv
     description: "Python virtual environment, but backed by Docker!"
+    category: ['Python']
 
   - url: https://github.com/blinry/legit
     title: legit
     description: |
       An esoteric programming language where programs are defined by the graph of commits in a Git repository.
       Read [introduction post](https://morr.cc/legit/)
+    category: ['Ruby']
+
+  - url: https://github.com/lirantal/dockly
+    title: dockly
+    description: "Immersive terminal interface for managing docker containers and services"
+    category: ['JavaScript']
+
+  - url: https://github.com/mum4k/termdash
+    title: termdash
+    description: "a cross-platform customizable terminal based dashboard"
+    category: ['Go']
 
 tool:
   - url: https://github.com/TonicAI/masquerade
@@ -87,3 +98,11 @@ tool:
   - url: https://github.com/burrito-brothers/shiba
     title: shiba
     description: "Catch bad SQL queries before they cause problems in production"
+
+  - url: https://github.com/grailbio/grit
+    title: grit
+    description: "mirror monorepo subtrees to Github"
+
+  - url: https://github.com/monzo/response
+    title: "response"
+    description: "Monzo's real-time incident response and reporting tool"
