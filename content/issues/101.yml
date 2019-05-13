@@ -1,0 +1,147 @@
+time: "May 13, 2019"
+subject: |
+  How DNSSEC works and Improving Uber’s Mapping Accuracy with CatchME
+
+draft: false
+
+description: ""
+
+links:
+  - url: https://www.netmeister.org/blog/dnssec-dane.html
+    title: "New Adventures in DNSSEC and DANE"
+    description: |
+      How DNSSEC works and details of DNS-based Authentication of Named Entities or DANE. We will get to level of TCP packet debugging
+      to learn it.
+
+  - url: https://eng.uber.com/mapping-accuracy-with-catchme/
+    title: "Improving Uber’s Mapping Accuracy with CatchME"
+    description: |
+      Errors in map data can significantly impact services, leading to a suboptimal user experience.
+      Uber engineers use various sources of feedback to identify map errors, for instance,  machine learning models to log and understand user feedback, or by evaluating map metrics to improve map quality.
+
+  - url: https://kishuagarwal.github.io/life-of-a-binary.html
+    title: "Life of a binary"
+    description: |
+       How the source code that you write is transformed into something that your machine is actually able to run
+
+  - url: https://github.com/leandromoreira/linux-network-performance-parameters
+    title: "Linux network performance parameters"
+    description: |
+      Learn where some of the network sysctl variables fit into the Linux/Kernel network flow.
+
+  - url: https://git-rebase.io/
+    title: "git rebase in depth"
+    description: |
+       In git we can change history to suit our needs.
+       This gives us a lot of powerful tools and allows us to curate a good commit history in the same way we use refactoring to uphold good software design practice.
+       This guide will help to demystify the powerful git-rebase.
+
+  - url: https://www.dannyadam.com/blog/2019/05/debugging-in-vim/
+    title: "Debugging in Vim"
+    description: "This post walks through an example session using termdebug, available in Vim 8.1 release in 2018"
+
+  - url: https://matrix.org/blog/2019/05/08/post-mortem-and-remediations-for-apr-11-security-incident
+    title: "Post-mortem and remediations for Apr 11 security incident of Matrix"
+    description: |
+      Matrix got hack and once they regain controls, they write an extensive analysis on what happened and what they are going to do to prevent that.
+      You can learn from them too.
+
+  - url:  https://www.ebayinc.com/stories/blogs/tech/deriving-data-structure/
+    title: "Deriving Data Structures"
+    description: |
+      Data Structures are the basic building blocks of software. In this article, one eBay engineer gives his perspective on how they might have evolved over time, enabling us to build complex things out of simpler parts.
+
+  - url: https://danluu.com/branch-prediction/
+    title: "Branch prediction"
+    description: |
+      How many of you feel like you have a good understanding of what your CPU does when it executes a branch and what the performance implications are, and how many of you feel like you could understand a modern paper on branch prediction, fewer people would raise their hands.
+
+  - url: https://osoco.es/thoughts/2019/05/understanding-bloom-filters-with-pharo-smalltalk/
+    title: "Understanding Bloom filters with Pharo Smalltalk"
+    description: |
+      Learn bloom filters interactively with Pharo.
+
+  - url: https://lwn.net/SubscriberLink/787800/b7f5351b3a41421a/
+    title: "Inheritance versus composition"
+
+    # - url: https://www.smashingmagazine.com/2019/04/optimization-performance-resource-hints/
+    # title: "Optimizing Performance With Resource Hints"
+
+    #  - url: https://cloudonaut.io/6-new-ways-to-reduce-your-AWS-bill-with-little-effort/
+    #    title: "6 new ways to reduce your AWS bill with little effort"
+    #
+    #url: http://pages.tacc.utexas.edu/~eijkhout/istc/html/index.html
+    #title: "Introduction to High-Performance Scientific Computing"
+    #
+    #url: https://blog.acolyer.org/2019/05/07/distributed-consensus-revised-part-i/
+    #title: "Distributed consensus revised – Part I"
+    #
+    #https://devblogs.microsoft.com/oldnewthing/20190426-00/?p=102450
+    #
+    #
+    #url: https://blogs.dropbox.com/tech/2019/05/how-we-optimized-magic-pocket-for-cold-storage/
+    #title: "How we optimized Magic Pocket for cold storage"
+
+video:
+  - url: https://www.youtube.com/watch?v=EY6q5dv_B-o
+    title: "Brian Kernighan interviews Ken Thompson"
+
+  - url: https://developers.facebook.com/videos/2019/building-the-new-facebookcom-with-react-graphql-and-relay/
+    title: "Building the New facebook.com with React, GraphQL and Relay"
+
+
+read_code:
+  - url: https://github.com/nodemailer/wildduck
+    title: wildduck
+    description: "a scalable no-SPOF IMAP/POP3 mail server"
+    category: ['JavaScript']
+
+  - url: https://github.com/anordal/shellharden
+    title: shellharden
+    description: "a syntax highlighter and a tool to semi-automate the rewriting of scripts to ShellCheck conformance"
+    category: ['Rust']
+
+  - url: https://github.com/tmuxinator/tmuxinator
+    title: tmuxinator
+    description: Manage complex tmux sessions easily
+    category: ['Ruby']
+
+  - url: https://github.com/HFO4/gameboy.live
+    title: "gameboy"
+    description: |
+      A basic gameboy emulator with terminal "Cloud Gaming" support
+    category: ['Go']
+
+tool:
+  - url: https://github.com/graphile/postgraphile
+    title: "postgraphile"
+    description: "Instant lightning-fast GraphQL API backed primarily by your PostgreSQL database"
+
+  - url: https://github.com/k14s
+    title: k14s
+    description: "Kubernetes Tools that follow Unix philosophy to be simple, modular, and extensible"
+
+  - url: https://github.com/eBay/beam
+    title: beam
+    description: "A distributed knowledge graph store"
+
+  - url: https://github.com/GoogleContainerTools/distroless
+    title: distroless
+    description: "🥑 Language focused docker images, minus the operating system"
+
+  - url: https://github.com/wtfutil/wtf
+    title: "The personal information dashboard for your terminal."
+
+  - url: https://sysctl-explorer.net/
+    title: "sysctl-explorer"
+    description: "an initiative to facilitate the access of Linux' sysctl reference documentation"
+
+  - url: https://github.com/cloudflare/xdpcap
+    title: "xdpcap"
+    description: |
+      tcpdump like XDP packet capture. Read [companion post](https://blog.cloudflare.com/xdpcap/)
+
+  - url: https://github.com/markphelps/flipt
+    title: flipt
+    description: "A feature flag solution that runs in your existing infrastructure "
+
