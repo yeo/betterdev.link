@@ -106,3 +106,7 @@ tool:
   - url: https://github.com/monzo/response
     title: "response"
     description: "Monzo's real-time incident response and reporting tool"
+
+  - url: https://github.com/mhausenblas/kboom
+    title: kboom
+    description: "The Kubernetes scale & soak load tester"
