@@ -90,6 +90,8 @@ read_code:
 
   - url: https://github.com/healthchecks/healthchecks
     title: "healthcheck"
+    description: |
+      Cron monitoring
     category: ['Python']
 
   - url: https://github.com/voormedia/rails-erd
