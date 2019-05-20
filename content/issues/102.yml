@@ -1,0 +1,132 @@
+time: "May 20, 2019"
+subject: |
+  Falsehoods programmers believe about Unix time and tail call elimination
+
+draft: false
+
+description: ""
+
+links:
+  - url: https://alexwlchan.net/2019/05/falsehoods-programmers-believe-about-unix-time/
+    title: "Falsehoods programmers believe about Unix time"
+    description: |
+      1) Unix time is the number of seconds since 1 January 1970 00:00:00 UTC
+      2) If I wait exactly one second, Unix time advances by exactly one second
+      3) Unix time can never go backwards
+      False, false, false.
+
+  - url: http://notes.eatonphil.com/tail-call-elimination.html
+    title: "Tail call elimination"
+    description: "What tail calls are, why they are useful, and how they can be eliminated in an interpreter, a compiler targeting C++, and a compiler targeting LLVM IR."
+
+  - url: https://deniskyashif.com/on-recursive-functions/
+    title: "On Recursive Functions"
+    description: |
+      We’ll explore one of the most fascinating concepts in computer science, namely the Y combinator. It can simulate recursion in a language that doesn’t support it.
+
+  - url: https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/
+    title: "The 101 of ELF files on Linux: Understanding and Analysis"
+    description: |
+      Why ELF is used and for what kind of files.
+      Understand the structure of ELF and the details of the format.
+      How to read and analyze an ELF file such as a binary.
+      Which tools can be used for binary analysis.
+
+  - url: http://archagon.net/blog/2018/03/24/data-laced-with-history/
+    title: "Data Laced with History: Causal Trees & Operational CRDTs"
+    description: |
+      How to handle merge and conflict when multiple people are working on same document in real time.
+
+  - url: https://blogs.dropbox.com/tech/2017/09/optimizing-web-servers-for-high-throughput-and-low-latency/
+    title: "Optimizing web servers for high throughput and low latency at Dropbox"
+    description: |
+      Discuss efficiency/performance optimizations of different layers of the system.
+      You will get some idea on parameters, tooling to improve performance through stack from
+      hardware to drivers, to TCP/IP stack and library/application-level tuning for Nginx.
+
+  - url: https://github.com/trimstray/nginx-admins-handbook
+    title: "nginx admin handbook"
+    description: |
+      These notes describes how to improve Nginx performance, security and other important things; @ssllabs A+ 100%, @mozilla A+ 120/100.
+
+  - url: https://www.michaelagreiler.com/code-reviews-at-microsoft-how-to-code-review-at-a-large-software-company/
+    title: "Code Reviews at Microsoft: How Do Code Reviews Work at one of the Largest Software Companies?"
+    description: |
+      Have you ever wondered how one of the largest software companies worldwide ensures high-quality code through code reviewing?
+
+  - url: http://mohit.athwani.net/unix/understanding-the-fork-system-call-in-unix/
+    title: "Understanding the fork() system call in UNIX"
+    description: |
+      What happen when you type enter on your shell to execute a command.
+
+  - url: https://parallelthoughts.xyz/2019/05/a-tale-of-query-optimization/
+    title: "A tale of Query Optimization"
+    description: |
+      The story of debugging and optimize an SQL to improve query time from 24mins to 2s. An extremely dramatic performance improvement!
+
+  - url: https://devblogs.microsoft.com/devops/exploring-new-frontiers-for-git-push-performance/
+    title: "Exploring new frontiers for Git push performance"
+    description: |
+      Dive into a new algorithm for enumerating objects on Git 2.21 that improve push performance on large Git repo. Windows code base repo see 7.7x performance boost.
+      Laws, Theories, Principles and Patterns that developers will find useful. Thing like SOLID, Unix Philosophy
+
+video:
+  - url: https://www.infoq.com/presentations/bdd-model-testing
+    title: "BDD and the New Model for Testing"
+  - url: https://www.youtube.com/watch?v=TxVO0ltGHxk
+    title: "Latency Under Load: HBM2 vs. GDDR6"
+
+read_code:
+  - url: https://github.com/crazy-max/WindowsSpyBlocker
+    title: WindowsSpyBlocker
+    description: "🛡 Block spying and tracking on Windows"
+    category: ['Go']
+
+  - url: https://github.com/franciscop/ola
+    title: "Ola"
+    description: |
+      Smooth animation library for interpolating numbers
+    category: ['JavaScript']
+
+  - url: https://github.com/healthchecks/healthchecks
+    title: "healthchecksa"
+    category: ['Python']
+
+  - url: https://github.com/voormedia/rails-erd
+    title: 'rails-erd'
+    description: |
+      Generate Entity-Relationship Diagrams for Rails applications
+    category: ['Ruby']
+
+  - url: https://gist.github.com/stopachka/22b4b06b8263687d7178f61fb22e1bf2
+    title: "Lisp in Rust"
+    description: |
+      And the [accompanion post](https://m.stopa.io/risp-lisp-in-rust-90a0dad5b116?gi=e701f18db0d5)
+    category: ['Rust']
+
+tool:
+  - url: https://github.com/containership/konstellate
+    title: "konstellate"
+    description: "Free and Open Source GUI to Visualize Kubernetes Applications"
+
+  - url: https://github.com/letsencrypt/ct-woodpecker
+    title: "ct-woodpecker"
+    description: "a tool for monitoring a Certificate Transparency log by Letsencrypt"
+
+  - url: https://github.com/caprover/caprover
+    title: caprover
+    description: "Run your own Heroku"
+
+  - url: https://github.com/joeyates/imap-backup
+    title: imap-backup
+    description: "Backup GMail (or other IMAP) accounts to disk"
+
+  - url: https://github.com/cloudmarker/cloudmarker
+    title: cloudmarker
+    description: |
+      a cloud monitoring tool and framework for Azure and GCP
+
+  - url: https://github.com/kedacore/keda
+    title: "keda"
+    description: |
+       a Kubernetes-based Event Driven Autoscaling component. It provides event driven scale for any container running in Kubernetes
