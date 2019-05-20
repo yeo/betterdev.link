@@ -89,7 +89,7 @@ read_code:
     category: ['JavaScript']
 
   - url: https://github.com/healthchecks/healthchecks
-    title: "healthchecksa"
+    title: "healthcheck"
     category: ['Python']
 
   - url: https://github.com/voormedia/rails-erd
