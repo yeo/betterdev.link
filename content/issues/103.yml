@@ -1,0 +1,116 @@
+time: "May 28, 2019"
+subject: "I don't know how CPUs work so I simulated one in code"
+
+draft: false
+
+description: |
+  Hi everyone, I'm getting more emails than I can handler and to make it easier I'm going to change the from email to `vinh@betterdev.link` instead of `vinh@yeo.space`
+  as currently. It would be super helpful if you can add vinh@betterdev.link into your contact list to prevent your email provider mark betterdev as spam.
+  Thank you for your support. Now to the issue.
+
+links:
+  - url: https://djhworld.github.io/post/2019/05/21/i-dont-know-how-cpus-work-so-i-simulated-one-in-code/
+    title: "I don't know how CPUs work so I simulated one in code"
+    description: |
+      after making through "But How Do It Know?" by J. Clark Scott, a book which describes the bits of a simple 8-bit computer from the NAND gates, through to the registers, RAM, bits of the CPU, ALU and I/O, the author got a hankering to implement it in code.
+
+  - url: https://blog.scottlogic.com/2019/05/17/webassembly-compiler.html
+    title: "Build your own WebAssembly Compiler"
+    description: |
+      Have you ever wanted to write your own compiler? … yes? … of course you have! With the recent release of WebAssembly, we had the perfect excuse to have a go.
+
+  - url: https://begriffs.com/posts/2019-05-23-unicode-icu.html
+    title: "Unicode programming, with examples"
+    description: |
+      Most programming languages evolved awkwardly during the transition from ASCII to 16-bit UCS-2 to full Unicode. They contain internationalization features that often aren’t portable or don’t suffice.
+
+  - url: https://stripe.com/gb/blog/secret-life-of-dns
+    title: "The secret life of DNS packets: investigating complex networks"
+    description: |
+       DNS provides a way to look up a host’s address by an easy-to-remember name. In this post, Stripe describe how they monitor their DNS systems and how they used an array of tools to investigate and fix an unexpected spike in DNS errors that they encountered recently.
+
+  - url: https://github.com/jlevy/the-art-of-command-line
+    title: "The art of command line"
+    description: |
+      Master the command line, in one page
+
+  - url: https://probablyexactlywrong.com/distsys
+    title: "An Overview of Distributed Systems and the Consensus Problem"
+    description: |
+      Distributed system requires multiple separate processes that exists on different machines to communicate over some network.
+      Understanding the fundamental challenges and advantages inherent in the design of such systems is an important element of understanding the field of software system design as a whole.
+
+  - url: http://dtrace.org/blogs/dap/2019/05/22/visualizing-postgresql-vacuum-progress/
+    title: "Visualizing PostgreSQL Vacuum Progress"
+    description: |
+      One of biggest challenge of managing PostgreSQL is vacuum process. Some of vacuum process at Joyent take 40 days!!! This post document how they visualized the view to understand the process better.
+
+  - url: https://ovid.github.io/articles/alan-kay-and-oo-programming.html
+    title: "Alan Kay and OO Programming"
+    description: |
+      Dr. Alan Kay invent "object oriented", but to him, OOP means only messaging, local retention and protection and hiding of state-process, and extreme late-binding of all things.
+
+  - url: https://dwmkerr.com/effective-shell-part-5-understanding-the-shell/
+    title: "Effective Shell Interlude: Understanding the Shell"
+
+  - url: https://eng.uber.com/employing-quic-protocol/
+    title: "Employing QUIC Protocol to Optimize Uber’s App Performance"
+
+video:
+  - url: https://www.youtube.com/watch?v=G-UmPWy_oOg
+    title: "Securing Third Party Applications at Scale(34mins)"
+
+  - url: https://www.infoq.com/presentations/google-lessons-microservices
+    title: "Google lessons from the Birth of microservice"
+
+read_code:
+  - url: https://github.com/pshihn/rough
+    title: roughjs
+    description: |
+      Create graphics with a hand-drawn, sketchy, appearance
+    category: ['JavaScript']
+
+  - url: https://github.com/Peltoche/lsd
+    title: lsd
+    description: "The next gen ls command"
+    category: ['Rust']
+
+  - url: https://github.com/jellymann/mittsu
+    title: "mittsu"
+    description: "3D Graphics Library for Ruby"
+    category: ['Ruby']
+
+  - url: https://github.com/gobwas/ws
+    title: ws
+    description: |
+      RFC6455 WebSocket implementation in Go with Zero-copy upgrade and no intermediate allocations during I/O
+    category: ['Go']
+
+tool:
+  - url: https://cipherli.st/
+    title: cipherli.st
+    description: |
+      Strong Ciphers for Apache, nginx and Lighttpd
+
+  - url: https://github.com/linkedin/oncall
+    title: "a calendar tool designed for scheduling and managing on-call shifts"
+    description: |
+      Developed at Linkedin. They also open source a [mobile component and how these are tie together](https://engineering.linkedin.com/blog/2019/05/iris-mobile--an-open-source--mobile-interface-for-incident-manag)
+
+  - url: https://github.com/google/ko
+    title: ko
+    description: "Build and deploy Go applications on Kubernetes"
+
+  - url: https://github.com/sysdiglabs/kubectl-dig
+    title: kubectl-dig
+    description: |
+      Deep kubernetes visibility from the kubectl
+
+  - url: https://github.com/davidesantangelo/feedi
+    title: feedi
+    description: transform RSS feed into an awesome API
+
+  - url: https://github.com/dotansimha/graphql-code-generator
+    title: "graphql-code-generator"
+    description: |
+      a tool that generates code out of your GraphQL schema.
