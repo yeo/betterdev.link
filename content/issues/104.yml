@@ -1,0 +1,93 @@
+time: "June 03, 2019"
+subject: "H.264 is magic and Emulator basics: a stack and register machine"
+
+draft: false
+
+description: ""
+
+links:
+  - url: https://sidbala.com/h-264-is-magic/
+    title: "H.264 is Magic"
+    description: |
+      H.264 is a remarkable piece of technology. It is the result of 30+ years of work with one single goal: To reduce the bandwidth required for transmission of full-motion video
+
+  - url: http://notes.eatonphil.com/emulator-basics-a-stack-and-register-machine.html
+    title: "Emulator basics: a stack and register machine"
+    description: |
+      create a small virtual machine in JavaScript and use it to run a simple C program compiled with GCC for an x86_64 (or AMD64) CPU running Linux.
+
+  - url: https://blog.extracheese.org/2010/05/the-tar-pipe.html
+    title: The Tar Pipe
+    description: |
+      `(cd src && tar -cf - .) | (cd dest && tar -xpf -)`. It basically means "copy the src directory to dst, preserving permissions and other special stuff." It does this by firing up two tars – one tarring up src, the other untarring to dst, and wiring them together.
+
+  - url: http://wtarreau.blogspot.com/2011/12/elastic-binary-trees-ebtree.html
+    title: "Elastic Binary Trees - ebtree"
+    description: |
+      is a binary search tree specially optimized to very frequently store, retrieve and delete discrete integer or binary data without having to deal with memory allocation. It is particularly well suited for operating system schedulers where fast time-ordering and priority-ordering are strong requirements. Insertion and lookups are performed in O(log n) while removal is done in O(1).
+
+  - url: https://blog.cloudflare.com/syn-packet-handling-in-the-wild/
+    title: "SYN packet handling in the wild"
+    description: |
+      CloudFlare surely has more experience deal with DDoS more than lot of us. In this post, they shine some light on SYN packet handling in Linux.
+    Cisco also wrote about [Defenses Against TCP SYN Flooding Attacks](https://www.cisco.com/c/en/us/about/press/internet-protocol-journal/back-issues/table-contents-34/syn-flooding-attacks.html)
+
+  - url: https://javapipe.com/blog/iptables-ddos-protection/
+    title: "DDoS Protection With IPtables: The Ultimate Guide"
+    description: |
+      Defense DDoS is more about capacity. But if you had some small scale DDoS or just want to learn more about what capable Iptales is. Read on.
+
+  - url: https://www.atlassian.com/blog/technology/aws-scaling-multi-region-low-latency-service
+    title: "Atlassian journey scaling low latency, multi-region services on AWS"
+    description: |
+      Atlassian went “all in” on AWS in 2016. They cover that in [other article](https://www.atlassian.com/blog/technology/software-engineering-principles-massive-projects).
+      During the migration, they build many stateless services. This post talk about a stateless service call context service which needed to be called multiple times per user request, with incredibly low latency, and be globally distributed.
+
+  - url: https://multithreaded.stitchfix.com/blog/2019/05/21/maintainable-etls/
+    title: "Maintainable ETLs: Tips for Making Your Pipelines Easier to Support and Extend"
+    description: |
+      Stichfix found a few key practices that help make their ETLs easier to understand, maintain, and extend.
+      1) Building a chain of simple tasks.  2) Using a workflow management tool. 3) Leveraging SQL where possible. 4) Implementing data quality checks.
+
+video:
+  - url: https://www.infoq.com/presentations/sequential-concurrent-crdt
+    title: "CRDTs: From Sequential to Concurrent Executions"
+
+  - url: https://www.youtube.com/watch?v=UTKIT6STSVM
+    title: "How Netflix thinks of DevOps"
+
+read_code:
+  - url: https://github.com/stepchowfun/toast
+    title: toast
+    description: |
+      Containerize your development environment. 🥂
+    category: ['Rust']
+
+  - url: https://github.com/zalando-incubator/kopf
+    title: kopf
+    description: |
+      A Python framework to write Kubernetes operators in just few lines of code.
+    category: ['Python']
+
+  - url: https://github.com/metafizzy/zdog
+    title: zdog
+    description: "Flat, round, designer-friendly pseudo-3D engine"
+    category: ['JavaScript']
+
+tool:
+  - url: https://github.com/Phantas0s/devdash
+    title: devdash
+    description: |
+      🍱 Highly Configurable Terminal Dashboard for Developers
+
+  - url: https://kind.sigs.k8s.io/
+    title: kind
+    description: |
+      a tool for running local Kubernetes clusters using Docker container. Useful to local test/dev with K8S.
+
+  - url: https://github.com/griddb/griddb_nosql
+    title: griddb_nosql
+    description: |
+      high performance, high scalability and high reliability database for IoT & big data
+
+  
