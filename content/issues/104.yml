@@ -1,4 +1,4 @@
-time: "June 03, 2019"
+time: "Jun 03, 2019"
 subject: "H.264 is magic and Emulator basics: a stack and register machine"
 
 draft: false
@@ -26,11 +26,17 @@ links:
     description: |
       is a binary search tree specially optimized to very frequently store, retrieve and delete discrete integer or binary data without having to deal with memory allocation. It is particularly well suited for operating system schedulers where fast time-ordering and priority-ordering are strong requirements. Insertion and lookups are performed in O(log n) while removal is done in O(1).
 
+  - url: https://courses.csail.mit.edu/6.851/fall17/
+    title: "Advanced Data Structures"
+    description: |
+      A course at Mit but all the lecture, problem set and solutions are available as PDF and Video.
+      If you are looking to dust up some algorithm and data structure, this is a good resource
+
   - url: https://blog.cloudflare.com/syn-packet-handling-in-the-wild/
     title: "SYN packet handling in the wild"
     description: |
       CloudFlare surely has more experience deal with DDoS more than lot of us. In this post, they shine some light on SYN packet handling in Linux.
-    Cisco also wrote about [Defenses Against TCP SYN Flooding Attacks](https://www.cisco.com/c/en/us/about/press/internet-protocol-journal/back-issues/table-contents-34/syn-flooding-attacks.html)
+      Cisco also wrote about [Defenses Against TCP SYN Flooding Attacks](https://www.cisco.com/c/en/us/about/press/internet-protocol-journal/back-issues/table-contents-34/syn-flooding-attacks.html)
 
   - url: https://javapipe.com/blog/iptables-ddos-protection/
     title: "DDoS Protection With IPtables: The Ultimate Guide"
@@ -42,6 +48,9 @@ links:
     description: |
       Atlassian went “all in” on AWS in 2016. They cover that in [other article](https://www.atlassian.com/blog/technology/software-engineering-principles-massive-projects).
       During the migration, they build many stateless services. This post talk about a stateless service call context service which needed to be called multiple times per user request, with incredibly low latency, and be globally distributed.
+
+  - url: https://drivy.engineering/non-deterministic-testing/
+    title: "Embracing or banishing randomness"
 
   - url: https://multithreaded.stitchfix.com/blog/2019/05/21/maintainable-etls/
     title: "Maintainable ETLs: Tips for Making Your Pipelines Easier to Support and Extend"
@@ -69,6 +78,12 @@ read_code:
       A Python framework to write Kubernetes operators in just few lines of code.
     category: ['Python']
 
+  - url: https://github.com/lukechampine/uint128
+    title: uint128
+    description: |
+       high-performance Uint128 type that supports standard arithmetic operations.
+       The entire file is 286 lines, easy to skim.
+
   - url: https://github.com/metafizzy/zdog
     title: zdog
     description: "Flat, round, designer-friendly pseudo-3D engine"
@@ -85,9 +100,8 @@ tool:
     description: |
       a tool for running local Kubernetes clusters using Docker container. Useful to local test/dev with K8S.
 
-  - url: https://github.com/griddb/griddb_nosql
-    title: griddb_nosql
+  - url: https://github.com/VictoriaMetrics/VictoriaMetrics
+    title: "VictoriaMetrics"
     description: |
-      high performance, high scalability and high reliability database for IoT & big data
-
-  
+      high-performance, cost-effective and scalable time series database, long-term remote storage for Prometheus.
+      It supports many protocol such as StatsD, OpenTSDB, Graphite. It has a [great benchmark](https://medium.com/@valyala/measuring-vertical-scalability-for-time-series-databases-in-google-cloud-92550d78d8ae)
