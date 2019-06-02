@@ -83,6 +83,7 @@ read_code:
     description: |
        high-performance Uint128 type that supports standard arithmetic operations.
        The entire file is 286 lines, easy to skim.
+    category: ['Go']
 
   - url: https://github.com/metafizzy/zdog
     title: zdog
@@ -105,6 +106,11 @@ tool:
     description: |
       high-performance, cost-effective and scalable time series database, long-term remote storage for Prometheus.
       It supports many protocol such as StatsD, OpenTSDB, Graphite. It has a [great benchmark](https://medium.com/@valyala/measuring-vertical-scalability-for-time-series-databases-in-google-cloud-92550d78d8ae)
+
+  - url: https://github.com/datacharmer/test_db
+    title: test_db
+    description: |
+      A sample MySQL database with an integrated test suite, used to test your applications and database servers
 
   - url: https://github.com/fullstorydev/grpcurl
     title: "gRPCurl"
