@@ -1,0 +1,137 @@
+time: "Jun 10, 2019"
+subject: "Apple's implementation of Low Latency HLS Explained and Reverse Engineering of a Not-so-Secure IoT Device"
+
+draft: false
+
+description: |
+  Hi everyone, upcoming issues of this new letter will be send out from `vinh@betterdev.link`. You may want to update your filter
+  or add to your contact to avoid email goes into spam folder :-)
+
+  Let start our issue. We cover HLS streaming, reverse engineering IoT. You also learn how to improve your site performance by moving
+  critical css inline
+
+links:
+  - url: https://www.linkedin.com/pulse/apples-implementation-low-latency-hls-explained-phil-harrison/
+    title: "Apple's implementation of Low Latency HLS Explained"
+    description: |
+      At WWDC2019, Apple has taken the wraps of its implementation of Low-Latency HLS streaming.
+      This article discuss what Apple done to reduce publishing latency, eliminate segment round trip, reduce playlist transfer overhead
+      and switch tiers quickly.
+
+  - url: https://mcuoneclipse.com/2019/05/26/reverse-engineering-of-a-not-so-secure-iot-device/
+    title: "Reverse Engineering of a Not-so-Secure IoT Device"
+    description: |
+      This article uses an example of an IoT monitoring/sensor device. The device had been deployed in shared rooms (e.g. meeting rooms) as well placed under the desk of individual employees. This article describes the investigation and analysis of that device, the possible problems along with proposed improvement
+
+  - url: https://unixism.net/2019/04/linux-applications-performance-introduction/
+    title: "Linux Applications Performance: Introduction"
+    description: |
+      Implement a web server with different techniques:  to teach Linux performance.
+
+  - url: https://storage.googleapis.com/pub-tools-public-publication-data/pdf/0749e1e54ded70f54e1f646cd440a5a523c69164.pdf
+    title: "Zanzibar: Google’s Consistent, Global Authorization System"
+    description: |
+      This paper presents the design, implementation, and deployment
+      of Zanzibar, a global system for storing and evaluating access control lists. It has maintained 95th-percentile latency of less than 10 milliseconds and availability of greater than 99.999% over 3 years of production use.
+
+  - title: "How the Linux Kernel Detects PCI Devices and Pairs Them with Their Drivers"
+    description: |
+      We will use QEMU to run a kernel and look at stacktrace to figure out what happen. Good read if you love some low level stuff.
+
+  - url: https://web.dev/extract-critical-css
+    title: "Extract critical CSS"
+    description: |
+      The browser must download and parse CSS files before it can show the page, which makes CSS a render-blocking resource.
+      Critical CSS is a technique that extracts the CSS for above-the-fold content in order to render content to the user as fast as possible.
+
+  - url: https://nullprogram.com/blog/2019/05/29/
+    title: "UTF-8 String Indexing Strategies"
+    description: |
+      Strings typically feature random access indexing of code points in (O(1)). 
+      Strings using variable length encoding, such as UTF-8 or UTF-16, have O(n) time complexity indexing
+      How does Lisp, Julia, Go approach to achive O(1) ?
+
+  - url: https://course.fast.ai/
+    title: "Practical Deep Learning for Coders, v3"
+    description: |
+      A Free course where they take us step by step for all deep learning stuff. A skill where many backend/frontend dev consider blackbox to them. You will need a computer with GPU, they have steps to help you launch these server in Google or Azure use free-tier.
+
+
+  - url: https://www.hackthebox.eu/
+    title: "Hack The Box"
+    description: |
+      With a new company get hack or data breach every day, improving your skill in security is a must. This give you servers where you can
+      hack around to practice hacking. In other words, you learn by practicing how to attack. Even to get in, you have to hack to get invite ocode. Hint: Check JavaScript and know Base64.
+
+
+  - url: https://habr.com/en/company/postgrespro/blog/452900/
+    title: "BRIN index in Postgres"
+    description: |
+      the idea of BRIN is to avoid looking through definitely unsuited rows rather than quickly find the matching ones. This is always an inaccurate index: it does not contain TIDs of table rows at all.
+
+  - url: http://blog.developer.atlassian.com/stop-foxtrots-now/
+    title: "Protect our Git Repos, Stop Foxtrot"
+    description: |
+      A foxtrot merge is a specific sequence of git commits. A particularly nefarious sequence. Their graph looks like step of
+      Foxtrot dance thus the name. They makes history mess up
+
+video:
+  - url: https://www.youtube.com/watch?v=-PX0BV9hGZY
+    title: "Tail Call Optimization: The Musical!! by Anjana Vakil & Natalia Margolis"
+    description: |
+      I urge you to watch this 11mins video to know how to write function that help the compiler automatically optimize call stack.
+
+  - url: https://www.youtube.com/watch?v=MPSMH8w7nfw
+    title: "Writing an Interpreter in SQL for Fun and No Profit! by Michael Malis"
+    description: |
+      SQL code is a bizarre combination of yelling and relational algebra. How can we make writing SQL easier? By embedding our own programming language in our SQL queries of course!
+
+read_code:
+  - url: https://github.com/ptol/oczor
+    title: oczor
+    description: |
+       a simple statically typed language that compiles to JavaScript, Lua, Ruby and Emacs Lisp
+    category: ['Hashkell']
+
+  - url: https://github.com/securego/gosec
+    title: gosec
+    description: |
+      Inspects source code for security problems by scanning the Go AST.
+    category: ['Go']
+
+  - url: https://github.com/valeriansaliou/bloom
+    title: bloom
+    description: "🌸 HTTP REST API caching middleware, to be used between load balancers and REST API workers"
+    category: ['Rust']
+
+  - url: https://github.com/daybrush/scenejs
+    title: scenejs
+    description: |
+      a JavaScript & CSS timeline-based animation library
+    category: ['JavaScript']
+
+tool:
+  - url: https://puppetlabs.github.io/wash/
+    title: wash
+    description: |
+      helps you deal with all your remote or cloud-native infrastructure using the UNIX-y patterns and tools you already know and love.
+
+  - url: https://github.com/fission/fission
+    title: fission
+    description: |
+       a fast serverless framework for Kubernetes with a focus on developer productivity and high performance
+
+  - url: https://github.com/CovenantSQL/CovenantSQL
+    title: Byzantine Fault Tolerant relational database built on SQLite
+    description: |
+      An Open source alternative of Amazon QLDB
+
+  - url: https://github.com/jhspetersson/fselect
+    title: fselect
+    description: |
+      Find files with SQL-like queries
+
+  - url: https://github.com/sqitchers/sqitch
+    title: sqitch
+    description: |
+      Sane database change management. Support Postgres and MySQL.
