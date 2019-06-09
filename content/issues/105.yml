@@ -8,7 +8,10 @@ description: |
   or add to your contact to avoid email goes into spam folder :-)
 
   Let start our issue. We cover HLS streaming, reverse engineering IoT. You also learn how to improve your site performance by moving
-  critical css inline
+  critical css inline 
+
+For tool, we have you on :w
+
 
 links:
   - url: https://www.linkedin.com/pulse/apples-implementation-low-latency-hls-explained-phil-harrison/
@@ -43,13 +46,6 @@ links:
     description: |
       The browser must download and parse CSS files before it can show the page, which makes CSS a render-blocking resource.
       Critical CSS is a technique that extracts the CSS for above-the-fold content in order to render content to the user as fast as possible.
-
-  - url: https://nullprogram.com/blog/2019/05/29/
-    title: "UTF-8 String Indexing Strategies"
-    description: |
-      Strings typically feature random access indexing of code points in (O(1)). 
-      Strings using variable length encoding, such as UTF-8 or UTF-16, have O(n) time complexity indexing
-      How does Lisp, Julia, Go approach to achive O(1) ?
 
   - url: https://course.fast.ai/
     title: "Practical Deep Learning for Coders, v3"
@@ -135,3 +131,8 @@ tool:
     title: sqitch
     description: |
       Sane database change management. Support Postgres and MySQL.
+
+  - url: https://github.com/poseidon/typhoon/
+    title: typhoonn
+    description: |
+      a minimal and free Kubernetes distribution.
