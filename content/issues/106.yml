@@ -5,22 +5,22 @@ subject: "Where is the memory going in Linux and Compilation of public failure/h
 draft: false
 
 description: |
-	We run Linux, we send HTTP request all day long when doing web development. So this issue, we take a step back and deep dive into cool stuff
-	about memory, about network, thread
+  We run Linux, we send HTTP request all day long when doing web development. So this issue, we take a step back and deep dive into cool stuff
+  about memory, about network, thread
 
 links:
   - url: http://halobates.de/memorywaste.pdf
-		title: "Where is the memory going? Memory waste under Linux(PDF)"
-		description: |
-			The original Linux 1.0 kernel ran fine on a PC with 4MB memory. Of that the kernel used a small fraction. Later versions weren’t as modest in memory requirements. The paper has an overview of the various memory allocators in Linux and describes some of their problems.
+    title: "Where is the memory going? Memory waste under Linux(PDF)"
+    description: |
+      The original Linux 1.0 kernel ran fine on a PC with 4MB memory. Of that the kernel used a small fraction. Later versions weren’t as modest in memory requirements. The paper has an overview of the various memory allocators in Linux and describes some of their problems.
 
   - url: https://github.com/hjacobs/kubernetes-failure-stories
     title: "Compilation of public failure/horror stories related to Kubernetes"
     description: |
       It's hard to replica success. But it's hard to replica failure too, as long as we knew what the failures are.
 
-	- url: https://blog.benjojo.co.uk/post/dell-switch-hacking
-		title: Teaching a cheap ethernet switch new tricks
+  - url: https://blog.benjojo.co.uk/post/dell-switch-hacking
+    title: Teaching a cheap ethernet switch new tricks
     description: |
       Ethernet rules everything around us, a large proportion of our systems communicate to each other with ethernet somewhere in the line. And the fast pace race to the bottom for embedded systems means that almost all network equipment is smart to some degree these days
 
@@ -29,8 +29,8 @@ links:
     description: |
       Sometimes you just want to know how fast your code can go, without benchmarking it. Sometimes you have benchmarked it and want to know how close you are to the maximum speed. Often you just need to know what the current limiting factor is, to guide your optimization decisions.
 
-	- url: https://blog.ploeh.dk/2017/10/04/from-design-patterns-to-category-theory/
-		title: "From design patterns to category theory"
+  - url: https://blog.ploeh.dk/2017/10/04/from-design-patterns-to-category-theory/
+    title: "From design patterns to category theory"
     description: |
       How do you design good abstractions? By using abstractions that already exist. Not only can a good abstraction shield you from having to understand all the details in a big system, but if you are familiar with the abstraction, you may be able to quickly get up to speed. But how do you create one?
 
