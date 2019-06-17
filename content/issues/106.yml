@@ -1,0 +1,152 @@
+time: "Jun 17, 2019"
+subject: "Where is the memory going in Linux and Compilation of public failure/horror stories related to Kubernetes"
+
+
+draft: false
+
+description: |
+	We run Linux, we send HTTP request all day long when doing web development. So this issue, we take a step back and deep dive into cool stuff
+	about memory, about network, thread
+
+links:
+  - url: http://halobates.de/memorywaste.pdf
+		title: "Where is the memory going? Memory waste under Linux(PDF)"
+		description: |
+			The original Linux 1.0 kernel ran fine on a PC with 4MB memory. Of that the kernel used a small fraction. Later versions weren’t as modest in memory requirements. The paper has an overview of the various memory allocators in Linux and describes some of their problems.
+
+  - url: https://github.com/hjacobs/kubernetes-failure-stories
+    title: "Compilation of public failure/horror stories related to Kubernetes"
+    description: |
+      It's hard to replica success. But it's hard to replica failure too, as long as we knew what the failures are.
+
+	- url: https://blog.benjojo.co.uk/post/dell-switch-hacking
+		title: Teaching a cheap ethernet switch new tricks
+    description: |
+      Ethernet rules everything around us, a large proportion of our systems communicate to each other with ethernet somewhere in the line. And the fast pace race to the bottom for embedded systems means that almost all network equipment is smart to some degree these days
+
+  - url: https://travisdowns.github.io/blog/2019/06/11/speed-limits.html
+    title: "Performance speed limits"
+    description: |
+      Sometimes you just want to know how fast your code can go, without benchmarking it. Sometimes you have benchmarked it and want to know how close you are to the maximum speed. Often you just need to know what the current limiting factor is, to guide your optimization decisions.
+
+	- url: https://blog.ploeh.dk/2017/10/04/from-design-patterns-to-category-theory/
+		title: "From design patterns to category theory"
+    description: |
+      How do you design good abstractions? By using abstractions that already exist. Not only can a good abstraction shield you from having to understand all the details in a big system, but if you are familiar with the abstraction, you may be able to quickly get up to speed. But how do you create one?
+
+  - url: https://github.com/pingcap/talent-plan
+    title: "PingCAP training courses"
+    description: |
+      This is a series of training courses about writing distributed systems in Go and Rust. It is maintained by PingCAP for training and/or evaluating students, new employees, and new contributors to TiDB and TiKV. As such, the courses focus on subjects relevant to those projects. They are though appropriate for all Go and Rust programmers — they do not require any knowledge of or interest in either TiDB or TiKV
+
+  - url: https://cfsamson.gitbook.io/green-threads-explained-in-200-lines-of-rust/
+    title: "Green Threads Explained in 200 Lines of Rust"
+    description: |
+      Green threads, userland threads, goroutines or fibers, they have many names but for simplicity’s sake I’ll refer to them all as green threads from now on.
+      In this article we explore how they work by implementing a very simple example where we create our own green threads in 200 lines of Rust code.
+      We'll be explaining everything along the way so our main focus here is to understand them and learn how they work by using simple, but working example.
+      It's fine if you are curios and don't know Rust, it's just 200 lines anyway.
+
+  - url: https://github.com/graphitemaster/breaking_the_physical_limits_of_fonts?utm_source=programmingdigest&utm_medium=email&utm_campaign=featured#breaking-the-physical-limits-of-fonts
+    title: "Breaking the physical limits of fonts"
+    description: |
+      The challenge: in the fewest resources possible, render meaningful text.
+        1) How small can a font really go?
+        2) How many bytes of memory would you need (to store it and run it?)
+        3) How much code would it take to express it?
+
+  - url: https://inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf
+    title: Small Guide to Making Nice Tables
+    description: |
+      Superhelpful for us, developer to have some guide when coming to design and display tabular data since
+      we tend to use table a lot in many web app. Also checkout [Making Tables Responsive With Minimal CSS](https://bradleytaunt.com/2019/06/11/responsive-tables/).
+
+  - url: https://every-layout.dev/
+    title: "Relearn CSS layout"
+    description: |
+      If you are a front-end dev probably you know this well but if you are a backend dev dabble into CSS for your side project,
+      then this is a great overview on how to better harness the built-in algorithms that power browsers and CSS
+
+#- url: https://technicshistory.wordpress.com/2019/06/02/arpanet-part-2-the-packet/
+#url: https://apenwarr.ca/log/20170810
+#title: "The world in which IPv6 was a good design"
+#.
+#http://www.unixsheikh.com/articles/battle-testing-data-integrity-verification-with-zfs-btrfs-and-mdadm-dm-integrity.html
+#
+#url: https://queue.acm.org/detail.cfm?id=2917756
+#title: "Why Logical Clocks are Easy"
+#
+#url: https://hackernoon.com/react-native-performance-do-and-dont-1198e97b730a
+#title: "React Native Performance: Do and Don't"
+#https://prdeving.wordpress.com/2019/06/05/how-to-write-a-game-engine-in-pure-c-part-2-the-graphic-initialization/
+#http://blog.cleancoder.com/uncle-bob/2019/06/08/TestsAndTypes.html
+#https://yorickpeterse.com/articles/writing-a-self-hosting-compiler-for-inko/
+#https://gitlab.com/inko-lang/inko/tree/master/compiler/lib/inkoc
+#https://vega.github.io/vega/
+#https://medium.com/@lormayna/writeup-of-a-cybersecurity-engineer-interview-b6b8e8a0f26c
+
+
+video:
+  - url: https://www.youtube.com/watch?v=RuGZCcEL2F8&list=PLbFmgWm555yYc9_jx9HkS_1WkOLKWnRw3&index=3&t=1146s
+    title: Optimization Techniques Used by the Benchmark Winners
+    description: |
+      A key note at Ruby Kaigi on tips of why other systems are faster. It's applied to anything: try to do less, allocate less, delay any computation,
+      make advance features an opt-in...
+
+  - url: https://www.youtube.com/watch?v=hdQ-geGBsq4
+    title: "Managed PostgreSQL Databases on AWS"
+    description: |
+      A great overview on how AWS build their PostgreSQL RDS.
+
+#https://www.youtube.com/watch?v=rnmcRTnTNC8
+#I'll Let Myself In: Tactics of Physical Pen Testers
+
+read_code:
+  - url: https://github.com/zhihu/rucene
+    title: rucene
+    description: "Rust port of Lucene"
+    category: ['Rust']
+
+  - url: https://github.com/manahl/arctic
+    title: arctic
+    description: |
+      High performance datastore for time series and tick data
+    category: ['Python']
+
+  - url: http://rodauth.jeremyevans.net/
+    title: rodauth
+    description: "an authentication and account management framework for Rack applications(not Rails specific but any Rack)"
+    category: ['Ruby']
+
+  - url: https://github.com/wilix-team/iohook/
+    title: "iohook"
+    description: "Node.js global keyboard and mouse listener use C binding"
+    category: ['JavaScript']
+
+  - url: https://github.com/geziyor/geziyor
+    title: geziyor
+    description: |
+      a fast web crawling & scraping framework with 1000 rps
+    category: ['Go']
+
+tool:
+  - url: https://github.com/rakam-io/rakam
+    title: rakam
+    description: "An analytics platform that makes easy to create custom analytics services"
+
+  - url: https://github.com/laurent22/rsync-time-backup
+    title: rsync-time-backup
+    description: "Time Machine style backup with rsync."
+
+  - url: https://kyverno.io/
+    title: Kyverno
+    description: |
+      Kubernetes Native Policy Management allow you to decide what to do with k8s resources
+
+  - url: https://github.com/ottomatica/slim
+    title: slim
+    description: "Build and run tiny vms from Dockerfiles. Small and sleek."
+
+  - url: https://github.com/journeymidnight/yig
+    title: yig
+    description: "An open source object storage server with Amazon S3 compatible API"
