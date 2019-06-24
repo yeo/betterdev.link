@@ -169,3 +169,8 @@ tool:
     title: macOS-simple-kvm
     description: |
        set up a quick macOS VM in QEMU, accelerated by KVM
+
+  - url: https://github.com/hadolint/hadolint
+    title: hadolint
+    description: |
+      A smarter Dockerfile linter that helps you build best practice Docker images.
