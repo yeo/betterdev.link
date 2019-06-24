@@ -67,24 +67,6 @@ links:
       If you are a front-end dev probably you know this well but if you are a backend dev dabble into CSS for your side project,
       then this is a great overview on how to better harness the built-in algorithms that power browsers and CSS
 
-#- url: https://technicshistory.wordpress.com/2019/06/02/arpanet-part-2-the-packet/
-#url: https://apenwarr.ca/log/20170810
-#title: "The world in which IPv6 was a good design"
-#.
-#http://www.unixsheikh.com/articles/battle-testing-data-integrity-verification-with-zfs-btrfs-and-mdadm-dm-integrity.html
-#
-#url: https://queue.acm.org/detail.cfm?id=2917756
-#title: "Why Logical Clocks are Easy"
-#
-#url: https://hackernoon.com/react-native-performance-do-and-dont-1198e97b730a
-#title: "React Native Performance: Do and Don't"
-#https://prdeving.wordpress.com/2019/06/05/how-to-write-a-game-engine-in-pure-c-part-2-the-graphic-initialization/
-#http://blog.cleancoder.com/uncle-bob/2019/06/08/TestsAndTypes.html
-#https://yorickpeterse.com/articles/writing-a-self-hosting-compiler-for-inko/
-#https://gitlab.com/inko-lang/inko/tree/master/compiler/lib/inkoc
-#https://vega.github.io/vega/
-#https://medium.com/@lormayna/writeup-of-a-cybersecurity-engineer-interview-b6b8e8a0f26c
-
 
 video:
   - url: https://www.youtube.com/watch?v=RuGZCcEL2F8&list=PLbFmgWm555yYc9_jx9HkS_1WkOLKWnRw3&index=3&t=1146s
@@ -97,9 +79,6 @@ video:
     title: "Managed PostgreSQL Databases on AWS"
     description: |
       A great overview on how AWS build their PostgreSQL RDS.
-
-#https://www.youtube.com/watch?v=rnmcRTnTNC8
-#I'll Let Myself In: Tactics of Physical Pen Testers
 
 read_code:
   - url: https://github.com/zhihu/rucene
