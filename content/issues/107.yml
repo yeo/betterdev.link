@@ -111,6 +111,8 @@ links:
 video:
   - url: https://v8.dev/blog/trash-talk
     title: "Trash talk: the Orinoco garbage collector"
+    description: |
+      The new V8 garbage collector
 
   - url: https://grafana.com/blog/2019/06/10/how-not-to-fail-at-visualization/
     title: "How Not to Fail at Visualization"
