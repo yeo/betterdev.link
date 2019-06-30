@@ -1,0 +1,185 @@
+time: "Jul 01, 2019"
+subject: "Composing better emails and Optimizing Google fonts performance"
+
+
+draft: false
+
+description: |
+  Programmer rely a lot on emails, we should try hard to compose better email. I urge you to read that first link. Thank you for being a reader. BetterDev will
+  switch to vinh@betterdev.link in next issues. Please add it to your contact list to avoid our email go into spam :-).
+
+links:
+  - url: https://iridakos.com/how-to/2019/06/26/composing-better-emails.html
+    title: "Composing better emails"
+    description: |
+      Email communication is not my favorite but since I can’t avoid it, I am trying to compose messages in a way that I think it makes it easier for both me and the recipient: to quickly address what is being communicated, avoid misunderstandings, save time
+
+  - url: https://aws.amazon.com/blogs/security/working-backward-from-iam-policies-and-principal-tags-to-standardized-names-and-tags-for-your-aws-resources/
+    title: "Working backward: From IAM policies and principal tags to standardized names and tags for your AWS resources"
+    description: |
+      Ever feel frustrated with all AWS IAM policies for different service? ec2:* s3:* you named it. Suddenly this team need RDS access. What if we use tag?
+      As long as we tag a resource, the permissions are granted.
+
+  - url: https://medium.com/expedia-group-tech/whats-in-the-google-pagespeed-score-a5fc93f91e91
+    title: "What’s in the Google PageSpeed Score?"
+    description: |
+      Lighthouse tool provides the PageSpeed Insights (PSI) score to help you measure and boost your page’s performanc. We will learn how Lighthouse calculates your score and how to use it.
+
+  - url: https://www.smashingmagazine.com/2019/06/optimizing-google-fonts-performance/
+    title: "Optimizing Google Fonts Performance"
+    description: |
+      Google Fonts are easy to implement, but they can have a big impact on your page load times. Let’s explore how we can load them in the most optimal way
+
+  - url: https://livefreeordichotomize.com/2019/06/04/using_awk_and_r_to_parse_25tb/
+    title: "Using AWK and R to parse 25tb"
+    description: |
+      I used awk every day and just love it. You can also read [another IBM AWK turorial with more tips.](https://developer.ibm.com/tutorials/l-awk1/)
+
+  - url: https://torvaney.github.io/projects/human-rng
+    title: "How to pick a random number from 1-10"
+    description: |
+      Imagine you have to generate a uniform random number from 1 to 10. That is, an integer from 1 to 10 inclusive, with an equal chance (10%) of selecting each one. But, let’s say you have to do this without access to coins, computers, radioactive material, or other such access to traditional (pseudo) random number generators. All you have is a room of people.
+
+  - url: https://parametric.press/issue-01/unraveling-the-jpeg/
+    title: "Unraveling the JPEG"
+    description: |
+      JPEG images are everywhere in our digital lives, but behind the veil of familiarity lie algorithms that remove details that are imperceptible to the human eye. This produces the highest visual quality with the smallest file size—but what does that look like? Let's see what our eyes can't see!
+
+  - url: https://www.b-list.org/weblog/2018/nov/26/case/
+    title: "Truths programmers should know about case"
+    description: |
+      Unicode is complex. Beside upper case and lower case, we have a third case: titlecase.
+
+  - url: https://dbmsmusings.blogspot.com/2019/06/correctness-anomalies-under.html
+    title: "Correctness Anomalies Under Serializable Isolation"
+    description: |
+      Serializable isolation generally allows an application developer to avoid having to reason about concurrency, and only focus on making single-threaded code correct.
+
+  - url: https://www.256kilobytes.com/content/show/10829/raspberry-pi-how-to-build-a-robot-a-step-by-step-guide-for-beginners
+    title: "How to Build a Robot with Raspberry PI: A Step-by-Step Guide for Beginners"
+    description: |
+      Have fun dust up your pi in closet.
+
+
+#  - url: https://www.vidarholen.net/contents/blog/?p=766
+#    title: "Tricking the tricksters with a next level fork bomb"
+#    description: |
+#      An inocent text. Yet, paste into terminal and it create some fork bomb make your system slow. Clever and interesting trick.
+#
+#    http://ifeanyi.co/posts/linux-namespaces-part-1/
+#
+#  - url: https://swtch.com/~rsc/regexp/regexp1.html
+#    title: "Regular Expression Matching Can Be Simple And Fast"
+#    description: |
+#      but is slow in Java, Perl, PHP, Python, Ruby, ...This is a tale of two approaches to regular expression matching. One of them is in widespread use in the standard interpreters for many languages, including Perl. The other is used only in a few places, notably most implementations of awk and grep. The two approaches have wildly different performance characteristics
+#
+#  - url: https://objective-see.com/blog/blog_0x43.html
+#    title: "Burned by Fire(fox)"
+#    title: "Node.js memory management in container environments"
+#    description: |
+#      Best practices for managing memory in container-based Node.js apps
+#
+#  - url: https://eng.uber.com/web-development-video-series-one/
+#  - url: https://pdziepak.github.io/2019/06/21/avoiding-icache-misses/
+#    title: "Avoiding instruction cache misses"
+#
+#  - url: http://wtarreau.blogspot.com/2018/02/progressive-locks-fast-upgradable.html
+#    title: "Progressive Locks : fast, upgradable read/write locks"
+#    description: |
+#
+#
+#  - url: https://bytefish.de/blog/postgresql_interpolation/
+#    title: "Linear Interpolation with PostgreSQL"
+#    description: |
+#
+#    https://ferrous-systems.com/blog/lock-free-ring-buffer/
+#
+#
+#
+#- url: https://technicshistory.wordpress.com/2019/06/02/arpanet-part-2-the-packet/
+#url: https://apenwarr.ca/log/20170810
+#title: "The world in which IPv6 was a good design"
+#.
+#http://www.unixsheikh.com/articles/battle-testing-data-integrity-verification-with-zfs-btrfs-and-mdadm-dm-integrity.html
+#
+#url: https://queue.acm.org/detail.cfm?id=2917756
+#title: "Why Logical Clocks are Easy"
+#
+#url: https://hackernoon.com/react-native-performance-do-and-dont-1198e97b730a
+#title: "React Native Performance: Do and Don't"
+#https://prdeving.wordpress.com/2019/06/05/how-to-write-a-game-engine-in-pure-c-part-2-the-graphic-initialization/
+#http://blog.cleancoder.com/uncle-bob/2019/06/08/TestsAndTypes.html
+#https://yorickpeterse.com/articles/writing-a-self-hosting-compiler-for-inko/
+#https://gitlab.com/inko-lang/inko/tree/master/compiler/lib/inkoc
+#https://vega.github.io/vega/
+#https://medium.com/@lormayna/writeup-of-a-cybersecurity-engineer-interview-b6b8e8a0f26c
+
+
+video:
+  - url: https://www.youtube.com/watch?v=ZWQ0591PAxM&feature=youtu.be
+    title: How we fit an NES game into 40 Kilobytes
+
+  - url: https://www.youtube.com/watch?v=mLjxXPHuIJo
+    title: "Demystifying Speed Tooling (Google I/O ’19)"
+
+
+read_code:
+  - url: https://github.com/indutny/elliptic
+    title: elliptic
+    description: |
+      Fast Elliptic Curve Cryptography in plain javascript
+    category:
+      - JavaScript
+
+  - url: https://github.com/micro/micro
+    title: micro
+    description: |
+      A microservice development runtime
+    category:
+      - Go
+
+  - url: https://github.com/TimeTraveller-San/yTermPlayer
+    title: yTermPlayer
+    description: |
+    category:
+      - Python
+
+  - url: https://github.com/jstrait/wavefile/
+    title: wavefile
+    description: |
+      A Ruby gem for reading and writing sound files in Wave format
+    category:
+      - Ruby
+
+  - url: https://git.pleroma.social/pleroma/pleroma/
+    title: pleroma
+    description: |
+      A microblogging server software that can federate other servers that support the same federation standards (OStatus and ActivityPub)
+    category:
+      - Elixir
+
+tool:
+  - url: https://github.com/lob/pg_insights
+    title: pg_insights
+    description: |
+      Convenient SQL for monitoring Postgres database health.
+
+  - url: https://github.com/nccgroup/ScoutSuite
+    title: ScoutSuite
+    description: |
+      Multi-Cloud Security Auditing Tool
+
+  - url: https://github.com/Jeffail/benthos
+    title: benthos
+    description: |
+      A high performance and resilient message streaming service, able to connect various sources and sinks and perform arbitrary actions, transformations and filters on payloads.
+
+
+  - url: https://github.com/jesseduffield/lazydocker
+    title: lazydocker
+    description: |
+      A simple terminal UI for docker and docker-compose
+
+  - url: https://github.com/Ullaakut/astronomer
+    title: astronomer
+    description: "I laugh when I see this tool. But you gonna love it. It's a tool to detect illegitimate stars from bot accounts on GitHub projects"
