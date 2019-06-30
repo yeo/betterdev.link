@@ -66,48 +66,6 @@ links:
     description: |
       A collaborative editor are able to keep a consistent state, even though multiple users are typing simultaneously. Even if multiple users are hammering away, smashing their keyboards, the state is kept consistent.  Operational Transformation and Conflict-Free Replicated data type are algorithms to solve this problem.
 
-
-#  - url: https://developer.ibm.com/articles/nodejs-memory-management-in-container-environments/
-#    title: "Node.js memory management in container environments"
-#    description: |
-#      Best practices for managing memory in container-based Node.js apps
-#
-#  - url: https://eng.uber.com/web-development-video-series-one/
-#  - url: https://pdziepak.github.io/2019/06/21/avoiding-icache-misses/
-#    title: "Avoiding instruction cache misses"
-#
-#  - url: http://wtarreau.blogspot.com/2018/02/progressive-locks-fast-upgradable.html
-#    title: "Progressive Locks : fast, upgradable read/write locks"
-#    description: |
-#
-#
-#  - url: https://bytefish.de/blog/postgresql_interpolation/
-#    title: "Linear Interpolation with PostgreSQL"
-#    description: |
-#
-#    https://ferrous-systems.com/blog/lock-free-ring-buffer/
-#
-#
-#
-#- url: https://technicshistory.wordpress.com/2019/06/02/arpanet-part-2-the-packet/
-#url: https://apenwarr.ca/log/20170810
-#title: "The world in which IPv6 was a good design"
-#.
-#http://www.unixsheikh.com/articles/battle-testing-data-integrity-verification-with-zfs-btrfs-and-mdadm-dm-integrity.html
-#
-#url: https://queue.acm.org/detail.cfm?id=2917756
-#title: "Why Logical Clocks are Easy"
-#
-#url: https://hackernoon.com/react-native-performance-do-and-dont-1198e97b730a
-#title: "React Native Performance: Do and Don't"
-#https://prdeving.wordpress.com/2019/06/05/how-to-write-a-game-engine-in-pure-c-part-2-the-graphic-initialization/
-#http://blog.cleancoder.com/uncle-bob/2019/06/08/TestsAndTypes.html
-#https://yorickpeterse.com/articles/writing-a-self-hosting-compiler-for-inko/
-#https://gitlab.com/inko-lang/inko/tree/master/compiler/lib/inkoc
-#https://vega.github.io/vega/
-#https://medium.com/@lormayna/writeup-of-a-cybersecurity-engineer-interview-b6b8e8a0f26c
-
-
 video:
   - url: https://v8.dev/blog/trash-talk
     title: "Trash talk: the Orinoco garbage collector"
