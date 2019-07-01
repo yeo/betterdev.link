@@ -141,6 +141,7 @@ read_code:
   - url: https://github.com/TimeTraveller-San/yTermPlayer
     title: yTermPlayer
     description: |
+      Stream youtube playlists as audio on linux terminal
     category:
       - Python
 
