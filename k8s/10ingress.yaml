@@ -21,6 +21,7 @@ metadata:
   annotations:
     kubernetes.io/tls-acme: "true" # enable certificates
     kubernetes.io/yeo.class: "nginx"
+    certmanager.k8s.io/cluster-issuer: letsencrypt-prod
   namespace: yeo
 spec:
   tls: # specify domains to fetch certificates for
@@ -28,7 +29,8 @@ spec:
     - betterdev.link
     - www.betterdev.link
     - open.betterdev.link
-    secretName: bd-tls
+      #secretName: bd-tls
+    secretName: betterdev-tls
   rules:
   - host: betterdev.link
     http:
