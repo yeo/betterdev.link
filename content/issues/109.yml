@@ -1,0 +1,139 @@
+time: "Jul 08, 2019"
+subject: "Fighting complexity in software development and Tech Due Diligence Calculator"
+
+draft: false
+
+description: |
+  Software development is hard: both in code and human. But we got you cover this week: learn how to deal with complexity and do tech due diligence to build your teach and your team. Half of links this week are about production experience. Hope you like them. And if you do, please help spread out this newsletter by forwarding to your friends, tweets about it.
+
+links:
+  - url: https://github.com/atsapura/CardManagement/blob/master/article/Fighting%20complexity%20in%20software%20development.md
+    title: "Fighting complexity in software development"
+    description: |
+      The title said it all. Software development is hard: unclear requirements, miscommunication, poor development process, legacy code, scaling is hard, technical debt.
+      What can we do?
+
+  - url: https://decodingvc.gitbooks.io/p9-startup-tech-due-diligence-calculator/content/
+    title: "Tech Due Diligence Calculator"
+    description: |
+      a list of questions by topic that help us understand how are you building your tech and engineering team
+
+  - url: https://www.evanjones.ca/jvm-mmap-pause-finding.html
+    title: "Find the Four Month Bug: A debugging story"
+    description: "Debugging is tricky. Sometimes your application never do A so when debug for issue you will not look at anything related to A. In this particular case, the application doesn't do any IO but turn out the performance issue cause by a slow magnetic disk. The lesson: quit thinking and just look, Make it fail, and understand the system."
+
+  - url: https://gitlab.com/gitlab-com/gl-infra/production/issues/928
+    title: "Degraded performance on GitLab.com"
+    description: "A Redis issue. The actual incident isn't interesting. But it's great to see how Gitlab, as a compnay, debug, diagnosed and resolved the incident these production issue in public so we can learn from them. A great read I must say."
+
+  - url: http://natpryce.com/articles/000819.html
+    title: "Mistakes we made adopting event sourcing (and how we recovered)"
+    description: |
+      Not separating persisting the event history and persisting a view of the current state.event-driven vs event-sourced. seduced by eventual consistency
+
+  - url: https://jack-vanlightly.com/blog/2019/1/25/building-a-simple-distributed-system-the-what
+    title: 'Building A "Simple" Distributed System - The What'
+    description: |
+      A blog series where author shared their approach and experience of building a distributed resource allocation library. As far as distributed systems go, it is a simple one and ideal as a tool for learning about distributed systems design, programming and testing.
+
+  - url: https://www.bamsoftware.com/hacks/zipbomb/
+    title: A better zip bomb
+    description: "How to construct a non-recursive zip bomb that achieves a high compression ratio by overlapping files inside the zip container. \"Non-recursive\" means that it does not rely on a decompressor's recursively unpacking zip files nested within zip files: it expands fully after a single round of decompression"
+
+  - url: https://blog.pragmaticengineer.com/distributed-architecture-concepts-i-have-learned-while-building-payments-systems/
+    title: "Distributed architecture concepts I learned while building a large payments system"
+    description: |
+      Uber is famous for their microservices architectures and distributed system. This is a write up of an Uber engineer building Uber payment system.
+
+  - url: https://media-codings.com/articles/automatically-detect-memory-leaks-with-puppeteer
+    title: "Automatically detect memory leaks with Puppeteer"
+    description: |
+      Normally before fixing a bugs, we write a failing test to prove the fix works. How can we do that for memory leaks bug which require access
+      to devtools. Puppeteer to the rescue to automate that inspecting process and run as a failed tests.
+
+  - url: https://css-tricks.com/tips-for-rolling-your-own-lazy-loading/
+    title: "Tips for rolling your own lazy loading"
+    description: "Lazy loading reduces initial page weight, and help us hit our performance budgets by requesting images when they're needed. This post is a follow up to [The Complete Guide to Lazy Loading Images](https://css-tricks.com/the-complete-guide-to-lazy-loading-images/) to explain a technique which is briefly covered in that article so you can implement it."
+
+video:
+  - url: https://www.youtube.com/watch?v=IwahVdNboc8
+    title: "Being a Better Developer With EXPLAIN - Louise Grandjonc"
+    description: |
+      Analyze query
+      Understand `EXPLAIN` to write better SQL query.
+
+  - url: https://www.youtube.com/watch?v=OtlGo48iTOk
+    title: "Elika J. Etemad (fantasai) | CSS Line Layout and Vertical Rhythm"
+
+
+read_code:
+  - url: https://css-doodle.com/
+    title: "css-doodle"
+    description: |
+      A web component for drawing patterns with CSS
+    category:
+      - JavaScript
+
+  - url: https://github.com/google/robotstxt
+    title: robotstxt
+    description: "The repository contains Google's robots.txt parser and matcher as a C++ library"
+    category:
+      - "C++"
+
+  - url: https://github.com/NerdyPepper/eva
+    title: "eva"
+    description: "a calculator REPL, similar to bc(1). Short and simple and you learn some simple lexer parser"
+    category:
+      - Rust
+
+  - url: https://github.com/fwkz/riposte
+    title: riposte
+    description: "Python package for wrapping applications inside a tailored interactive shell"
+    category:
+      - Python
+
+  - url: https://github.com/antonmedv/expr
+    title: "expr"
+    description: |
+       an engine that can compile and evaluate expressions - a one-liner that returns a value. The purpose of the package is to allow users to use expressions inside configuration for more complex logic.
+    category:
+      - Go
+
+  - url: https://github.com/tansengming/stripe-rails
+    title: "stripe-rails"
+    description: |
+      A Rails Engine for integrating with Stripe
+    category:
+      - Ruby
+
+tool:
+  - url: https://github.com/aidewoode/black_candy
+    title: "black_candy"
+    description: "A self hosted music streaming server"
+
+  - url: https://frappe.io/charts
+    title: charts
+    description: "GitHub-inspired simple and modern SVG charts for the web with zero dependencies"
+
+  - url: https://github.com/SVG-Edit/svgedit
+    title: svgedit
+    description: "Powerful SVG-Editor for your browser"
+
+  - url: https://github.com/dherault/serverless-offline
+    title: serverless-offline
+    description: "Emulate AWS λ and API Gateway locally when developing your Serverless project"
+
+  - url: https://github.com/kyma-project/kyma
+    title: "kyma"
+    description: |
+      Allows you to connect applications and third-party services in a cloud-native environment. Basically a bundle to create an environment for
+      service mesh, monitoring, log ingestion, serverless.
+
+  - url: https://github.com/ory/hydra
+    title: "hydra"
+    description: "a hardened, certified OAuth2 and OpenID Connect server optimized for low-latency, high throughput, and low resource consumption. We linked to it before but 1.0 is released this week"
+
+  - url: https://github.com/timberio/vector
+    title: vector
+    description: |
+      A High-Performance, Logs, Metrics, & Events Router. Similar to FluentD. Have nice support for Lua
