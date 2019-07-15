@@ -1,10 +1,23 @@
 time: "Jul 15, 2019"
 subject: "Let's Build a  Web Server and Lessons Learned from running Kafka at Datadog"
 
-draft: true
+draft: false
 
 description: |
-  JavaScript moves really fast and with support from big corp into JavaScript engines like Google or Mozila.
+  This week I was doing some load testing and need to bump up some linux kernel parameter to ensure our load testing machine can generate as much as traffic possible.
+
+  Here is my tip on what to set if you ever need it:
+
+  ```
+  sysctl -w fs.file-max=1000000
+  sysctl -w fs.nr_open=1000000
+  ulimit -n 1000000
+  sysctl -w net.ipv4.tcp_mem='10000000 10000000 10000000'
+  sysctl -w net.ipv4.tcp_rmem='1024 4096 16384'
+  sysctl -w net.ipv4.tcp_wmem='1024 4096 16384'
+  sysctl -w net.core.rmem_max=16384
+  sysctl -w net.core.wmem_max=16384
+  ```
 
 links:
   - url: https://ruslanspivak.com/lsbaws-part1/
@@ -32,6 +45,12 @@ links:
     description: |
       This blog series will cover five areas for Dockerfile best practices to help you write better Dockerfiles: incremental build time, image size, maintainability, security and repeatability
 
+  - url: https://blog.cloudflare.com/a-gentle-introduction-to-linux-kernel-fuzzing/
+    title: "A gentle introduction to Linux Kernel fuzzing"
+    description: |
+      If you always want to play around with fuzzing, then this is a good guide to get you start. It's interesting because usually
+      we fuzzing a smaller library but this case it's kernel. So require a bit of setup.
+
   - url: https://jasonformat.com/modern-script-loading/
     title: "Modern script loading"
     description: |
@@ -47,24 +66,18 @@ links:
     description: |
       In this blog post, we examine how JavaScript’s global variables work. Several interesting phenomena play a role: the scope of scripts, the so-called global object, and more.
 
-  - url: https://blog.cloudflare.com/a-gentle-introduction-to-linux-kernel-fuzzing/
-    title: "A gentle introduction to Linux Kernel fuzzing"
-    description: |
-      If you always want to play around with fuzzing, then this is a good guide to get you start. It's interesting because usually
-      we fuzzing a smaller library but this case it's kernel. So require a bit of setup.
-
   - url: https://v8.dev/features/weak-references
     title: "Weak references and finalizers"
     description: |
       Generally, references to objects are strongly held in JavaScript, meaning that as long you have a reference to the object, it won’t be garbage-collected.
 
+#  - url: https://engineering.mongodb.com/post/transpiling-between-any-programming-languages-part-1
+#  - url: https://storage.googleapis.com/pub-tools-public-publication-data/pdf/f647d24ee7eeb338acebf1eb73a5d11b357620b0.pdf
+#    title: "Nines are Not Enough: Meaningful Metrics for Clouds(PDF)"
 
-
-  - url: https://engineering.mongodb.com/post/transpiling-between-any-programming-languages-part-1
-  - url: https://storage.googleapis.com/pub-tools-public-publication-data/pdf/f647d24ee7eeb338acebf1eb73a5d11b357620b0.pdf
-    title: "Nines are Not Enough: Meaningful Metrics for Clouds(PDF)"
-
-
+#  - url: https://www.pingcap.com/blog/why-benchmarking-distributed-databases-is-so-hard/
+#    title: "Why Benchmarking Distributed Databases Is So Hard"
+#
 #  - url: https://theartofmachinery.com/2019/06/30/data_still_dominates.html
 #    title: Data Still Dominates
 #    description: 
@@ -185,9 +198,11 @@ read_code:
       - Ruby
 
 tool:
-  - url: https://www.pingcap.com/blog/why-benchmarking-distributed-databases-is-so-hard/
-    title: "Why Benchmarking Distributed Databases Is So Hard"
+  - url: https://usepastel.com
+    title: "usepastel.com giving away one year free of Freelancer plan"
+    category: ['sponsor']
     description: |
+      Thank you to UsePastel for giving BetterDev readers this discount. Use **BETTERDEV** coupon code at checkout to redeem it.
 
   - url: https://github.com/ogham/exa
     title: exa
@@ -217,3 +232,8 @@ tool:
     title: watchexec
     description: |
       Executes commands in response to file modifications
+
+  - url: https://github.com/google/martian
+    title: martian
+    description: |
+      a library for building custom HTTP/S proxies
