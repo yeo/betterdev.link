@@ -1,0 +1,129 @@
+time: "Jul 22, 2019"
+subject: "Letters To a New Developer poroject"
+
+draft: false
+
+description: |
+  Hi all, in this issue I want to share a tip to use multiple Github accounts on same computer.
+
+  A SSH key can be added to a single account. When you share same laptop to access both work or personal accounts, you will not be able to clone/push via SSH. In order to clone/push as other account, We need instruct Git to use other SSH key.
+
+  Create a file in `~/bin/switch-git`:
+
+    ```
+    ssh -i $HOME/.ssh/[other-key] $1 $2
+    ```
+
+  Whenever you want to switch to your personal git to clone/push, do this before run `git command`.
+
+    ```
+    export GIT_SSH=~/bin/switch-git
+    ```
+
+  If you use SSH Agent you may want to also do `ssh-add -D` to remove the default SSH key from agent.
+
+  Hope it helps you :-). Now let get back to our links.
+
+links:
+  - url: https://letterstoanewdeveloper.com/
+    title: "Letters To A New Developer"
+    description: "One letter per month. Started since 2018/09. So many advices that I'm sure you will feel right at home"
+
+  - url: https://www.8bitmen.com/facebook-real-time-chat-architecture-scaling-with-over-multi-billion-messages-daily
+    title: "Facebook Real-time Chat Architecture Scaling With Over Multi-Billion Messages Daily"
+    description: |
+      What technologies does it use on the backend? What is the technology stack? What is the system architecture? What are the primary challenges a platform like Facebook, with such a massive number of users, has to face when rolling out & scaling a feature like this?
+
+  - url: https://segment.com/blog/exactly-once-delivery/
+    title: "Delivering billions of messages exactly once"
+    description: |
+      Most distributed systems guarantee at-least-once delivery. This just means retry and retry.
+      But as a user, at-least-once delivery isn’t really what I want. I want messages to be delivered once. And only once.
+
+  - url: https://medium.com/@js_tut/tetris-turns-35-cfcf04c4f2bb
+    title: "Tetris Turns 35"
+    description: |
+      On June 6, 2019 Tetris turned 35 years old. To celebrate, the author wrote their own version. No libraries. No frameworks. Just JavaScript. And fun.
+
+  - url: https://petapixel.com/2019/07/15/what-does-an-unprocessed-raw-file-look-like/
+    title: "What Does an Unprocessed RAW File Look Like?"
+    description: |
+      What does it mean to look at a “straight from camera” RAW photo file? How do RAW processors like Lightroom change the files after they’re loaded, and are RAW files actually images? Those are some questions we’ll be exploring in this article.
+
+  - url: https://gridbugs.org/zelda-screen-transitions-are-undefined-behaviour/
+    title: "Zelda Screen Transitions are Undefined Behaviour"
+    description: "The vertical scrolling effect in the original “The Legend of Zelda” relies on manipulating the NES graphics hardware in a manor likely that was unintended by its designers."
+
+  - url: https://blog.pragmaticengineer.com/operating-a-high-scale-distributed-system/
+    title: "Operating a Large, Distributed System in a Reliable Way: Practices I Learned"
+    description: |
+      The larger a system, the more Murphy's law of "what can go wrong, will go wrong" applies.
+      This post is the collection of the practices to reliably operate a large system at Uber.
+
+  - url: https://www.netsparker.com/whitepaper-http-security-headers/
+    title: "Whitepaper: HTTP Security Headers and How They Work"
+    description: |
+      Browser uses response headers for some permission such as: only allow certain domain iframe you, prevent cross site scripting, force HTTPS, disable full referred link...Another good link on this topic is [Content Security Policy - An Introduction](https://scotthelme.co.uk/content-security-policy-an-introduction/)
+
+  - url: http://www.dataorienteddesign.com/dodbook/
+    title: "Data-Oriented Design"
+    description: |
+      This is the free, online, reduced version. Some inessential chapters are excluded from this version, but in the spirit of this being an education resource, the essentials are present for anyone wanting to learn about data-oriented design.
+
+  - url: https://generalproblem.net/lets_build_a_compiler/01-starting-out/
+    title: "Let's build a compiler 01: Starting out"
+    description: |
+      This series will walk you through building an optimizing compiler from scratch. Hopefully we'll both learn something along the way. We started out with Scheme, but event
+
+
+video:
+  - url: https://www.youtube.com/watch?v=A_diEEpAfpM
+    title: "!!Con 2019 - Build your own virtual machine with /dev/kvm and Rust! by Josh Triplett"
+
+  - url: https://www.youtube.com/watch?v=03EC8uA30Pw
+    title: "YOW! 2018 Brendan Gregg - Cloud Performance Root Cause Analysis at Netflix"
+
+read_code:
+  - url: https://github.com/rossta/montrose
+    title: montrose
+    description: |
+      Recurring events library for Ruby
+    category: ['Ruby']
+
+  - url: https://github.com/duo-labs/dlint
+    title: dlint
+    description: "a tool for encouraging best coding practices and helping ensure we're writing secure Python code."
+    category: ['Python']
+
+  - url: https://github.com/cloudflare/tableflip
+    title: tableflip
+    description: "Graceful process restarts in Go"
+    category: ['Go']
+
+  - url: https://github.com/nextapps-de/flexsearch
+    title: flexsearch
+    description: "Next-Generation full text search library for Browser and Node.js"
+    category: ["JavaScript"]
+
+tool:
+  - url: https://github.com/svg/svgo
+    title: svgo
+    description: |
+       Node.js tool for optimizing SVG files
+
+  - url: https://github.com/warner/magic-wormhole
+    title: magic-wormhole
+    description: |
+      get things from one computer to another, safely
+
+  - url: https://github.com/cube2222/octosql
+    title: octosql
+    description: |
+       a query tool that allows you to join, analyse and transform data from multiple databases and file formats using SQL
+
+  - url: https://github.com/weaveworks/ignite
+    title: ignite
+    description: |
+      Similar to Docker, but instead of running on host kernel and using namespace for resource isolations,
+      it uses Firecracker VM from AWS and run "container" inside this VM. Magic and promise seamless Docker UX.
+      Simply replace `docker run` with `ignite run`.
