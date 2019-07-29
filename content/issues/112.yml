@@ -7,28 +7,23 @@ description: |
   In last weeks, many issues about application that exposing a local web servers without authentication. Therefore a random JavaScript code on any website can interact with it in way that avoid CORS. Some evens listen on `0.0.0.0` so any one in LAN can also `curl` it. The main problem is those are unauthenticated API. So this week we have many links about security: encyrpting, signing.
 
 links:
- - url: http://journal.stuffwithstuff.com/2016/06/16/long-names-are-long/
+  - url: http://journal.stuffwithstuff.com/2016/06/16/long-names-are-long/
     title: "Long names are long"
-    description: |
-      Picking good name is hard. Bob Nystrom walks us through some refactor to turn long name to short name. He's also the author of a few artciles about compilers and interpreters which we linked to in this same issue below.
+    description: "Picking good name is hard. Bob Nystrom walks us through some refactor to turn long name to short name. He's also the author of a few artciles about compilers and interpreters which we linked to in this same issue below."
 
   - url: https://developer.okta.com/blog/2019/07/25/the-hardest-thing-about-data-encryption
     title: "The Hardest Thing About Data Encryption"
-    description: |
-      Encrypting data is all about making sure that only the right people can view the data you’ve encrypted. There are two primary forms of data encryption: symmetric and asymmetric. The hardest thing about encrypting data isn’t encryption, it’s key management.
+    description: "Encrypting data is all about making sure that only the right people can view the data you’ve encrypted. There are two primary forms of data encryption: symmetric and asymmetric. The hardest thing about encrypting data isn’t encryption, it’s key management."
 
   - url: https://hexway.io/blog/apple-bleee/
     title: "Apple bleee. Everyone knows What Happens on Your iPhone"
     description: |
-      If Bluetooth is ON on your Apple device everyone nearby can understand current status of your device, get info about battery, device name, Wi-Fi status, buffer availability, OS version and even get your mobile phone number.
-      The code to demo this is 100% open source so you will be able to learn about bluetooth and decode data transferting too. Pretty cool I must say.
+      If Bluetooth is ON on your Apple device everyone nearby can understand current status of your device, get info about battery, device name, Wi-Fi status, buffer availability, OS version and even get your mobile phone number. The code to demo this is 100% open source so you will be able to learn about bluetooth and decode data transferting too. Pretty cool I must say.
 
-  - url: https://koen.io/2019/07/26/underscoring-the-private-in-private-key/ 
-    title: "Underscoring the “private” in private key" 
-    description: | 
-        Amazon Music App run a server on your laptop so it can spin up process such as open 
-        the app and play a song to by pass Mac built-in safety net in browsers that seek confirmation from users before launching an application. 
-        We investigate how to find process listen on port, disassembly it, run it with a debugger set breakpoints right before the decryption calls, and   read the encryption key and IV from memory. I learn a lot from it.
+  - url: https://koen.io/2019/07/26/underscoring-the-private-in-private-key/
+    title: 'Underscoring the “private” in private key'
+    description: |
+      Amazon Music App run a server on your laptop so it can spin up process such as open the app and play a song to by pass Mac built-in safety net in browsers that seek confirmation from users.  We investigate how to find process listen on port, disassembly it, run it with a debugger set breakpoints right before the decryption calls, and read the encryption key and IV from memory. I learn a lot from it.
 
   - url: https://latacora.micro.blog/2019/07/24/how-not-to.html
     title: "How (not) to sign a JSON object"
@@ -45,7 +40,7 @@ links:
   - url: https://medium.com/avitotech/standby-in-production-scaling-application-in-second-largest-classified-site-in-the-world-97a79a1929de
     title: "Standby in production: scaling application in the second largest classified site in the world"
     description: |
-      Avita has 600+ servers, 270TB of images, 20TB in Postgres on 100 nodes. The author shares Avito’s experience in different cases of standby usage: replication, avoid stale reads, pitfall when using standby with high request rate.
+      Avito has 600+ servers, 270TB of images, 20TB in Postgres on 100 nodes. The author shares Avito’s experience in different cases of standby usage: replication, avoid stale reads, pitfall when using standby with high request rate.
 
   - url: http://dbmsmusings.blogspot.com/2019/07/overview-of-consistency-levels-in.html
     title: "Overview of Consistency Levels in Database Systems"
@@ -99,10 +94,10 @@ read_code:
     description: "Find time-consuming database queries for ActiveRecord-based Rails Apps"
     category: ['Ruby']
 
-  - url: https://github.com/awnumar/memguard
-    title: "memguard"
+  - url: https://github.com/vbauerster/mpb
+    title: mpb
     description: |
-      Secure software enclave for storage of sensitive information in memory.
+      Go lib for rendering progress bars in terminal applications.
     category: ['Go']
 
 tool:
