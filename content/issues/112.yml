@@ -4,7 +4,7 @@ subject: "Long names are long"
 draft: false
 
 description: |
-  This week, people discover some applications like zoom, amazon music app are exposing a local web server without authentication. They are even implement in a way to use as GIF pixel to avoid CORS. To make thing worse, a few listens on `0.0.0.0` so anyone in LAN can `curl` it. Since they are unauthenticated, it's so easy to be exploit. So this week we have many links about security: encyrpting, signing.
+  This week, people discover some applications like zoom, amazon music app are exposing a local web server without authentication. They are implemented to use as a GIF pixel to avoid CORS. To make thing worse, a few listens on `0.0.0.0` so anyone in LAN can `curl` it. Since they are unauthenticated, it's so easy to be exploit. So this week we have many links about security: encyrpting, signing.
 
 links:
   - url: http://journal.stuffwithstuff.com/2016/06/16/long-names-are-long/
