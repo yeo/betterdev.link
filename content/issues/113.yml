@@ -1,0 +1,152 @@
+time: "Aug 05, 2019"
+subject: "Long names are long"
+
+draft: false
+
+description: |
+  Hi all, this week I was working on a cryptography project. I was a bit confused
+  about lot of openssl command. Especially the role of encrypt vs sign. So I shared what I learn,
+  hope it also help you. I realize that encrypting is done using public key, not private key.
+  Super weird at first, but it makes sense. Everyone has our public key, but no one has our private
+  key. To decrypt it, one needs the private key.
+
+  Signing, on the other hand, using private key to write message signature. People use the public
+  key to verify that it is actually sign with the private key associate with the public key. Thefore,
+  we can trust the message was generate by right person. Signing is like hashing where you cannot reverse
+  it to original data. It for verification purpose only.
+
+links:
+  - url: https://cheatsheetseries.owasp.org/
+    title: "The OWASP Cheat Sheet Series"
+    description: |
+      was created to provide a concise collection of high value information on specific application security topics. These cheat sheets were created by various application security professionals who have expertise in specific topics.
+
+  - url: http://wiki.c2.com/?WhatIsNull
+    title: "What is Null"
+    description: |
+      Tony Hoare invented Null and call it his billion-dollar mistake.
+
+  - url: https://bestasciitable.com
+    title: "ASCII table and history"
+    description: |
+      Or, why does Ctrl+i insert a Tab in my terminal?
+      An interesrting bit of computer history and nowsaday we take for granted with term like shell or
+      terminal.
+
+  - url: https://stackshare.io/circleci/update-how-circleci-processes-over-30-million-builds-per-month
+    title: "How CircleCI Processes Over 30 Million Builds Per Month"
+    description: |
+      What is the tech stack behind CircleCI to achieve that.
+
+  - url: https://viewsourcecode.org/snaptoken/kilo/index.html
+    title: "Build Your Own Text Editor"
+    description: |
+      This is an instruction booklet that shows you how to build a text editor in C.
+      Step by steps you will know how to construct a basic text editor. It's based on Kilo,
+      a small, fun, educational-purpose text editor written by Redis creator.
+      Though it's in C but it's very simple and clean. You really don't have to know C to follow.
+
+  - url: http://sven.stormbind.net/blog/posts/docker_from_30_to_230/
+    title: "From 30 to 230 docker container per host"
+    description: |
+      The limit isn't in docker itself but in some interesting areas. Eg, default limit of network stack: conntrack table,
+      ephemeral ports, running out of pids.
+
+  - url: https://blog.matthewbarber.io//2019/07/22/how-to-make-compressed-file-quines.html
+    title: "How to make compressed file quines, step by step"
+    description: |
+      The goal here is to allow for any curious, technically-minded newcomer to make sense of all the concepts involved in creating compression quines.
+
+  - url: https://davidwong.fr/tls13/
+    title: "A Readable Specification of TLS 1.3"
+
+  - url: https://www.citusdata.com/blog/2019/07/17/postgres-tips-for-average-and-power-user/
+    title: "Postgres tips for the average and power user"
+
+  - url: https://pdos.csail.mit.edu/6.824/index.html
+    title: "MIT's 6.824 Distributed Systems course"
+    description: |
+      A MIT course about ditributed systems will all text books, past exams, lecture video available to us.
+      The course is teach in Go.
+
+video:
+  - url: https://www.infoq.com/presentations/profile-nodejs/
+    title: "A New Way to Profile Node.js"
+
+  - url: https://www.youtube.com/playlist?list=PLpl804R-ZwjKCOwWpTZ21eeaBS3uBrMfV
+    title: "MIT 6.824 Distributed System"
+    description: |
+      Youtube play list of MIT distributed system we linked to above
+
+
+read_code:
+  - url: https://github.com/grapheneX/grapheneX
+    title: grapheneX
+    description: |
+      Automated System Hardening Framework
+    category: ['Python']
+
+  - url: https://mermaidjs.github.io/
+    title: mermaid
+    description: Generation of diagrams and flowcharts from text in a similar manner as markdown.
+    category: ['JavaScript']
+
+  - url: https://github.com/pion/webrtc
+    title: webrtc
+    description: |
+      Pure Go implementation of the WebRTC API 
+    category: ['Go']
+
+  - url: https://github.com/digital-fabric/affect
+    title: affect
+    description: |
+      Algebraic effects for Ruby. The code is very simple but it sounds like  a good idea.
+    category: ['Ruby']
+
+  - url: https://github.com/rust-lang/rustlings
+    title: rustlings
+    description: "Small exercises to get you used to reading and writing Rust code!"
+    category: ['Rust']
+
+  - url: https://github.com/artichoke/artichoke
+    title: artichoke
+    description: |
+      💎 Artichoke is a Ruby made with Rust
+    category: ['Rust', 'Ruby']
+
+
+tool:
+  - url: https://github.com/kinvolk/inspektor-gadget
+    title: inspektor-gadget
+    description: |
+      Collection of gadgets for developers of Kubernetes applications
+
+  - url: https://github.com/Arkweid/lefthook
+    title: Lefthook
+    description: |
+      Fast and powerful Git hooks manager for any type of projects.
+
+  - url: https://github.com/calleerlandsson/Tofu
+    title: "Tofu"
+    description: |
+      An easy-to-use two-factor authentication app for iOS.
+      You can replace authy, google auth with this open source 100% Swift app
+
+  - url: https://github.com/liftbridge-io/liftbridge
+    title: "Lightweight, fault-tolerant message streams"
+    description: |
+      Similar to Kafka but written in Go, based on NATS streaming
+
+  - url: https://web.dev/measure
+    title: "google web dev measure"
+    description: "See how well your website performs. Then, get tips to improve your user experience"
+
+  - url: https://github.com/sqshq/sampler
+    title: sampler
+    description: |
+      A tool for shell commands execution, visualization and alerting. Configured with a simple YAML file
+
+  - url: https://github.com/jtyr/gbt
+    title: gbt
+    description: |
+      Highly configurable prompt builder for Bash and ZSH written in Go
