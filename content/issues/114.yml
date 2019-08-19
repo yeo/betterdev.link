@@ -6,7 +6,7 @@ draft: false
 description: |
   Hi all, this is a personal note from me. First off, sorry for not sending out newsletter last week.
   I had to stay in hospital for a week with my wife for her labor to our new baby. Thanks god both of them are safe now.
-  This issue don't have summarize because some of them I haven't fully read yet due to a crazy week with  my newborn :-). Thank you for being a reader.
+  I did't have much free time due to new born so some links I don't put summarize. This issue gonna be short and quick :-). Thank you for being a reader.
 
 links:
   - url: https://yangshun.github.io/tech-interview-handbook/
@@ -88,6 +88,11 @@ read_code:
       a friendly HTTP client built for casual Rustaceans and veterans alike
     category: ['Rust']
 
+  - url: https://github.com/stueccles/analytics-elixir
+    title: analytics-elixir
+    description: "Segment.com library for Elixir"
+    category: ['Elixir']
+
 tool:
   - url: https://github.com/alexellis/k3sup
     title: k3sup
@@ -107,3 +112,13 @@ tool:
     title: "opendrop"
     description: |
       An open Apple AirDrop implementation written in Python
+
+  - url: https://github.com/muesli/gitomatic
+    title: gitomatic
+    description: |
+      A tool to monitor git repositories and automatically pull & push changes
+
+  - url: https://github.com/census-instrumentation/opencensus-web
+    title: opencensus-web
+    description: |
+      A stats collection and distributed tracing framework. Read [introduction post by google](https://opensource.googleblog.com/2019/08/opencensus-web-unlocking-full-end-to.html)
