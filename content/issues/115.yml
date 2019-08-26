@@ -1,0 +1,111 @@
+time: "Aug 26, 2019"
+subject: "Lesson Learned from Queries over 1.3 Trillion Rows of Data Within Milliseconds of Response Time"
+
+draft: false
+
+description: |
+  Hey everyone. I'm still enjoying time with my new born so this is yet another short issue where I don't put out a summarize but these are great article. Enjoy!
+
+links:
+  - url: https://pingcap.com/success-stories/lesson-learned-from-queries-over-1.3-trillion-rows-of-data-within-milliseconds-of-response-time-at-zhihu/
+    title: "Lesson Learned from Queries over 1.3 Trillion Rows of Data Within Milliseconds of Response Time at Zhihu.com"
+
+  - url: https://aws.amazon.com/blogs/aws/amazon-prime-day-2019-powered-by-aws/
+    title: "Amazon Prime Day 2019 – Powered by AWS"
+
+  - url: https://gamasutra.com/blogs/NiklasGray/20190724/347232/Data_Structures_Part_1_Bulk_Data.php
+    title: "Data Structures Part 1: Bulk Data"
+
+  - url: http://kurtstephens.com/files/p372-steele.pdf
+    title: "How to Print Floating-Point Numbers Accurately"
+
+  - url: https://twobithistory.org/2019/08/22/readline.html
+    title: "Things You Didn't Know About GNU Readline"
+
+  - url: https://www.figma.com/blog/how-we-built-the-figma-plugin-system/
+    title: "How to build a plugin system on the web and also sleep well at night"
+
+  - url: https://depletionmode.com/uefi-boot.html
+    title: "Understanding modern UEFI-based platform boot"
+
+  - url: https://lenadroid.github.io/posts/OReillyVelocity/keynote.html
+    title: "Eventually Perfect Distributed Systems"
+    description: |
+      Since you are on it, check out [distributed systems vocabulary](https://lethain.com/distributed-systems-vocabulary/) as well.
+
+  - url: https://learnui.design/blog/4-rules-intuitive-ux.html
+    title: "4 Rules for Intuitive UX"
+
+  - url: https://pomax.github.io/bezierinfo/
+    title: "A Primer on Bézier Curves"
+    description: |
+      A free, online book for when you really need to know how to do Bézier things.
+
+  - url: https://blog.octo.com/en/cache-me-if-you-can-1/
+    title: "Cache me if you can"
+    description: |
+      This series of articles deals with caching in the context of HTTP. You will learn Cache-Control, Etag, If-Modified-Since, If-None-Match, Last-Modified, and Expires headers, as well as the infamous Vary header. Make sure to check [part 2](https://blog.octo.com/en/cache-me-if-you-can-2_ as well)
+
+video:
+  - url: https://www.infoq.com/news/2019/08/badoo-20-billion-events-per-day/
+    title: "Data Engineering in Badoo: Handling 20 Billion Events Per Day"
+
+  - url: https://www.youtube.com/watch?v=G4l8RX0tA3E
+    title: "WebAssembly on the Server: How System Calls Work - Christine Dodrill"
+
+  - url: https://www.youtube.com/watch?time_continue=1&v=-2zP494wdUY
+    title: "Advanced Node.js testing: beyond unit & integration tests"
+
+read_code:
+  - url: https://github.com/twitter/rezolus
+    title: rezolus
+    description: "Systems performance telemetry"
+    category: ['Rust']
+
+  - url: https://github.com/anacrolix/torrent
+    title: torrent
+    description: "Full-featured BitTorrent-client package and utilities"
+    category: ['Go']
+
+  - url: https://github.com/f-prime/fist
+    title: fist
+    description: "A lightweight full-text index server with a focus on speed and efficiency"
+    category: ['C']
+
+  - url: https://github.com/ccrisan/motioneye
+    title: motioneye
+    description: "A web frontend for the motion daemon, a program that monitors video signals from many types of cameras"
+    category: ['Python']
+
+  - url: https://github.com/edisonywh/rocketman
+    title: rocketman
+    description: "build event-based/pub-sub code in Ruby"
+    category: ['Ruby']
+
+tool:
+  - url: https://github.com/meitu/kvrocks
+    title: kvrocks
+    description: "an open-source key-value database. which is based on rocksdb and compatible with Redis protocol"
+
+  - url: https://github.com/forseti-security/forseti-security
+    title: forseti-security
+    description: "A community-driven collection of open source tools to improve the security of your Google Cloud Platform environments"
+
+  - url: https://github.com/google/nixery
+    title: nixery
+    description: "Container registry which transparently builds images using the Nix package manager"
+
+  - url: https://github.com/addyosmani/critical
+    title: "critical"
+    description: |
+      Extract & Inline Critical-path CSS in HTML pages.
+
+  - url: https://github.com/sourcey/spectacle
+    title: spectacle
+    description: |
+      Beautiful static documentation generator for OpenAPI/Swagger 2.0
+
+  - url: https://github.com/nray-scanner/nray
+    title: nray
+    description: |
+      distributed port scanner.
