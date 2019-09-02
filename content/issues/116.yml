@@ -1,0 +1,114 @@
+time: "Sep 02, 2019"
+subject: "I Test in Prod and TCP Puzzlers"
+
+draft: false
+
+description: |
+  Howdy, hapy labor day to anyone who is celebrating. Rain or shine, vacation or not, I still send out
+  our links. I hope these learn you something.
+
+links:
+  - url: https://increment.com/testing/i-test-in-production/
+    title: "I Test in Prod"
+    description: "Testing in production is a superpower. It’s our inability to acknowledge it that’s the trouble."
+
+  - url: https://www.joyent.com/blog/tcp-puzzlers
+    title: TCP Puzzlers
+    description: "It's been said that we don't really understand a system until we understand how it fails. These puzzlers assume some basic knowledge about working with TCP on Unix-like systems, but you don't have to have mastered any of this before diving in/"
+
+  - url: https://engineering.squarespace.com/blog/2019/performance-tuning-postgres-within-our-tls-infrastructure
+    title: "Performance Tuning Postgres within Squarespace TLS Infrastructure"
+    description: |
+      I always love real world practice/tuning instead of silly benchmark.  Squarespace see many errors and warnings were related to database operations: connection timeouts, high query response latencies, etc. This blog post is a summary of the work they did to improve our data layer performance and reduce errors and warnings coming from the database.
+
+  - url: http://www.helenanderson.co.nz/sql-query-tweaks/
+    title: 10 Ways to Tweak Slow SQL Queries
+    description: "Before you rage quit or call in your DBA, check these things aren’t slowing things down. A few tweaks could be all you need to get things moving again."
+
+  - url: https://blog.gojekengineering.com/how-we-manage-a-million-push-notifications-an-hour-549a1e3ca2c2
+    title: "How to Manage a Million Push Notifications an Hour"
+    description: |
+      This post describes the challenges while working with such high notification volumes, and the solutions we developed to solve them
+
+  - url: https://herbertograca.com/2019/08/12/documenting-software-architecture/
+    title: "Documenting Software Architecture"
+    description: |
+      What documentation options do we have that can express the whole application building blocks and how it works?!
+
+  - url: https://epsagon.com/blog/common-design-patterns-in-distributed-architectures/
+    title: "Common Design Patterns in Distributed Architectures"
+    description: |
+      we look at four design patterns that can be used for distributed apps and microservices: CQRS, Two-Phase Commit, Saga and Sidecar.
+
+  - url: https://drewdevault.com/2019/09/02/Interactive-SSH-programs.html
+    title: "Building interactive SSH applications"
+    description: |
+      How to write an application that do certain things(instead of spin up a shell and let they do anything) via SSH.
+
+  - url: https://sahandsaba.com/understanding-sat-by-implementing-a-simple-sat-solver-in-python.html
+    title: "Understanding SAT by Implementing a Simple SAT Solver in Python"
+    description: |
+      You need a SAT solver when defining your dependencies such as python requirement.txt, node package json or rubygem.
+
+  - url: https://shipilev.net/jvm/diy-gc/
+    title: "Do It Yourself (OpenJDK) Garbage Collector"
+    description: "Adding garbage collection to our non-garbage collector: wait, what?"
+
+video:
+  - url: https://www.infoq.com/presentations/go-locks/
+    title: "Let's Talk Locks!"
+    description: |
+      Kavya Joshi explores when and why locks affect performance, delves into Go’s lock implementation as a case study, and discusses strategies one can use when locks are actually a problem.
+
+  - url: https://kubernetes.academy
+    title: Kubernetes Academy
+    description: "Free video course on container and kubernetes by VMWare"
+
+  - url: https://www.infoq.com/presentations/spotify-event-system/
+    title: "Spotify event system"
+
+read_code:
+  - url: https://github.com/apexcharts/apexcharts.js
+    title: apexcharts
+    description: Interactive SVG Charts
+    category: ['JavaScript']
+
+  - url: https://github.com/cevatbarisyilmaz/lossy
+    title: lossy
+    description: "simulate bandwidth, latency and packet loss for net.PacketConn and net.Conn interfaces"
+    category: ['Go']
+
+  - url: https://github.com/bitbrute/evillimiter
+    title: evillimiter
+    description: "Tool that limits bandwidth of devices on the same network without  physical or administrative access"
+    category: ['Python']
+
+  - url: https://github.com/nullobject/rein
+    title: rein
+    description: "Database constraints made easy for ActiveRecord"
+    category: ['Ruby']
+
+tool:
+  - url: https://goaccess.io/
+    title: goaccess
+    description: "an open source real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser."
+
+  - url: https://github.com/canonical/dqlite
+    title: dqlite
+    description: "Embeddable, replicated and fault tolerant SQL engine."
+
+  - url: https://github.com/crawlab-team/crawlab
+    title: crawlab
+    description: Distributed web crawler admin platform for spiders management regardless of languages and frameworks.
+
+  - url: https://github.com/gravetii/diztl
+    title: diztl
+    description: "A peer-to-peer file discovery and sharing tool for LANs"
+
+  - url: https://github.com/GoogleChromeLabs/ndb
+    title: ndb
+    description: "an improved debugging experience for Node.js, enabled by Chrome DevTools"
+
+  - url: https://github.com/zalando/patroni
+    title: patroni
+    description: "A template for PostgreSQL High Availability with ZooKeeper, etcd, or Consul"
