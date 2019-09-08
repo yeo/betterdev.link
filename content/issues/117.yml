@@ -1,0 +1,116 @@
+time: "Sep 09, 2019"
+subject: "Google Interview Problems: Ratio Finder and Good Code Design from Linux/Kernel"
+
+draft: false
+
+description: |
+
+links:
+  - url: https://medium.com/@alexgolec/google-interview-problems-ratio-finder-d7aa8bf201e3
+    title: "Google Interview Problems: Ratio Finder"
+    description: "A series of posts on preparing for and understanding interviews at big tech companies, drawing from author's experience recruiting and interviewing for Google"
+
+  - url: https://leandromoreira.com.br/2019/08/02/linux-ffmpeg-source-internals-a-good-software-design/
+    title: "Good Code Design From Linux/Kernel"
+    description: |
+      Learn how Linux/FFmpeg C partial codebase is organized to be extensible and act as if it were meant to have “polymorphism”. Specifically, we’re going to briefly explore how Linux concept of everything is a file works at the source code level as well as how FFmpeg can add support fast and easy for new formats and codecs.
+
+  - url: https://www.cio.com/article/3432986/stability-vs-speed-pick-two.html
+    title: "Stability vs. speed – pick two"
+    description: |
+      When delivering software to our customers, in any capacity, we’re often faced with a false choice between focusing on stability or speed. With a high performing Operations organization, we can have both.
+
+  - url: https://google.github.io/eng-practices/review/reviewer/
+    title: "How to do a code review by Google"
+    description: |
+      recommendations on the best way to do code reviews, based on long experience.
+
+  - url: https://about.gitlab.com/2019/08/27/tyranny-of-the-clock/
+    title: "6  Lessons we learned when debugging a scaling problem on GitLab.com"
+    description: |
+      A vague error message: "ssh_exchange_identification: connection closed by remote host.fatal: Could not read from remote repository". intermittent and apparently unpredictable, unable to re-produce. How Gitlab wrestled with it, and ultimately resolved it.
+
+  - url: https://eli.thegreenplace.net/2019/rsa-theory-and-implementation/
+    title: "RSA - theory and implementation"
+    description: |
+      RSA has been a staple of public key cryptography for over 40 years, and is still being used today for some tasks in the newest TLS 1.3 standard. This post describes the theory behind RSA - the math that makes it work, as well as some practical considerations; it also presents a complete implementation of RSA key generation, encryption and decryption in Go.
+
+  - url: https://skerritt.blog/bit-torrent/
+    title: "How Does BitTorrent Work? a Plain English Guide"
+    description: "You may not use BitTorrent much but it's an interesting technology and worth to dive deep."
+
+  - url: https://norvig.com/sudoku.html
+    title: "Solving Every Sudoku Puzzle"
+    description: |
+      Peter Norvig tackles the problem of solving every Sudoku puzzle. It turns out to be quite easy (about one page of code for the main idea and two pages for embellishments) using two ideas: constraint propagation and search.
+
+
+  - url: https://dev.to/gajus/my-favorite-css-hack-32g3
+    title: "My favorite CSS hack"
+    description: "A very very simpler but super helpful when working with layout to see all margin, padding."
+
+
+  - url: https://medium.com/@porteneuve/fix-conflicts-only-once-with-git-rerere-7d116b2cec67
+    title: "Fix conflicts only once with git rerere"
+    description: |
+      So you fixed a conflict somewhere in your repo, then later stumbled on exactly the same one (perhaps you did another merge, or ended up rebasing instead, or cherry-picked the faulty commit elsewhere…). And bang, you had to fix that same conflict again.
+
+
+video:
+  - url: https://www.youtube.com/watch?v=xcgrd-QcYYU
+    title: "Constructing Logic Gates, Circuits, and Adders in Civilization 3 Using Barbarians"
+
+  - url: https://www.infoq.com/presentations/monolith-observable-microservices-ddd/
+    title: "From Monolith to Observable Microservices Using DDD"
+
+read_code:
+  - url: https://github.com/route/ferrum
+    title: ferrum
+    description: "Ruby Chrome/Chromium driver"
+    category: ['Ruby']
+
+  - url: https://github.com/smallwins/spacetime
+    title: spacetime
+    description: "A lightweight javascript timezone library"
+    category: ['JavaScript']
+
+  - url: https://github.com/kakao/buffalo
+    title: buffalo
+    description: "A fast and scalable production-ready open source project for recommender systems"
+    category: ['Python']
+
+  - url: https://github.com/itchyny/bed
+    title: bed
+    description: "Binary editor wirtten in Go"
+    category: ['Go']
+
+  - url: https://github.com/timberio/vector
+    title: vector
+    description: "A High-Performance, Logs, Metrics, & Events Router"
+    category: ['Rust']
+
+tool:
+  - url: https://github.com/keikoproj/keiko/
+    title: keiko
+    description: "a set of independent open source declarative tools for orchestration and management of multi-tenant, reliable, secure and efficient Kubernetes clusters in production."
+
+  - url: https://github.com/rs/curlie
+    title: curlie
+    description: "The power of curl, the ease of use of httpie for interaction"
+
+  - url: https://github.com/elastic/rally
+    title: rally
+    description: "Macrobenchmarking framework for Elasticsearch"
+
+  - url: https://github.com/github/SoftU2F
+    title: SoftU2F
+    description: |
+      Software U2F authenticator for macOS by Github. Another tool for [TouchID-aware 2-factor authenticator for macOS](https://github.com/sqreen/twofa)
+
+  - url: https://ackee.electerious.com
+    title: ackee
+    description: "Self-hosted, Node.js based analytics tool for those who care about privacy"
+
+  - url: https://github.com/puppetlabs/wash
+    title: "wash - wide area shell"
+    description: "helps you deal with all your remote or cloud-native infrastructure using the UNIX-y patterns and tools you already know and love!"
