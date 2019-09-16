@@ -1,0 +1,103 @@
+time: "Sep 16, 2019"
+subject: "$64,944 to support 25,000 customers in August — A full breakdown of ConvertKit's AWS bill"
+
+draft: false
+
+description: |
+  This week I want to share a useful `git diff` flag.
+  Have you ever want to quickly run your lint/test only on changed
+  file between the stable branch and your feature branch?
+
+  It has a very simple command for that:
+
+  ```
+  git --no-pager diff --name-only develop
+  ```
+
+  Then you can pipe these into your test cli or linter:
+
+  ```
+  git --no-pager diff --name-only develop | xargs -I file rubocop file
+  ```
+
+  Now to our links.
+links:
+  - url: https://engineering.convertkit.com/2019/09/09/aws.html
+    title: "$64,944 to support 25,000 customers in August — A full breakdown of ConvertKit's AWS bill"
+    description: |
+      I am a big fan of these real world analysis. In this post, we learn how much ConvertKit, an Email marketing platform use AWS.
+
+  - url: https://blog.sqreen.com/developer-security-best-practices-protecting-against-timing-attacks/
+    title: "Developer security best practices: protecting against timing attacks"
+    description: |
+      Timing attacks are a particular type of attack that exploits flaws in code that impact execution time to discover hints about secrets, and can be used for [ATO attacks](https://blog.sqreen.com/blocked-major-ato-attack-sqreen-deployment/).
+
+  - url: https://blog.apnic.net/2018/10/12/doh-dns-over-https-explained/
+    title: "DOH! DNS over HTTPS explained"
+    description: "DNS over HTTPS is the hot topic right now."
+
+  - url: https://simon.lc/the-history-of-tetris-randomizers
+    title: "The history of Tetris randomizers"
+    description: "Fun read. I always think the pieces are pure randomness. Turn out it isn't that easy. Pseudo random number generators try to mimic real randomness, but don’t have the properties required to deal out 70,000 Z-pieces in a row."
+
+  - url: http://ajennings.net/blog/a-million-digits-of-pi-in-9-lines-of-javascript.html
+    title: "A Million Digits of Pi in 9 Lines of Javascript"
+
+  - url: https://kevingal.com/blog/plane-boarding.html
+    title: "Simulating plane designs for faster boarding"
+    description: |
+      Yet another fun read. On how we can optimize air plane onboarding process and simulate to prove the method.
+
+  - url: https://smallstep.com/blog/use-ssh-certificates/
+    title: "If you’re not using SSH certificates you’re doing SSH wrong"
+    description: |
+      Manage, sync and audit  `~/.ssh/authorized_keys` is not easy at scale. They’re actually problems with SSH public key authentication. The solution is to switch to certificate authentication.
+
+  - url: https://github.com/viraptor/reverse-interview/blob/master/README.md
+    title: "Reverse interview"
+    description: "This is a list of questions which may be interesting to a tech job applicant to ask company"
+
+
+  - url: https://hsivonen.fi/string-length/
+    title: 'It’s Not Wrong that "🤦".length == 7'
+    description: |
+      Unicode is hard
+
+video:
+  - url: https://www.youtube.com/watch?v=JvBT4XBdoUE
+    title: "GOTO 2019 • The Soul of Erlang and Elixir • Saša Jurić"
+
+  - url: https://www.infoq.com/presentations/microservices-ddd-bounded-contexts/
+    title: "Practical DDD: Bounded Contexts + Events => Microservices"
+
+read_code:
+  - url: https://github.com/gosu/gosu/
+    title: gosu
+    description: |
+      a 2D game development library for Ruby and C++.
+    category: ['C++', 'Ruby']
+
+  - url: https://github.com/hisxo/gitGraber
+    title: gitGraber
+    description: |
+      monitor GitHub to search and find sensitive data in real time for different online services such as: Google, Amazon (AWS), Paypal, Github, Mailgun, Facebook, Twitter, Heroku, Stripe, Twilio
+    category: ['Python']
+
+  - url: https://github.com/go-joe/joe
+    title: joebot
+    description: |
+      A general-purpose bot library inspired by Hubot but written in Go.
+    category: ['Go']
+
+tool:
+  - url: https://github.com/shzlw/poli
+    title: poli
+    description: "An easy-to-use BI server built for SQL lovers"
+
+  - url: https://github.com/andOTP/andOTP
+    title: andOTP
+    description: "Open source two-factor authentication for Android"
+
+  - url: https://github.com/Kong/kuma
+    title: kuma
+    description: "a universal open source control-plane for Service Mesh and Microservices that can run and be operated natively across both Kubernetes and VM environments"
