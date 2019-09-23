@@ -1,0 +1,102 @@
+time: "Sep 23, 2019"
+subject: ""
+
+draft: false
+
+description: |
+
+links:
+  - url: https://brandur.org/postgres-atomicity
+    title: "How Postgres Makes Transactions Atomic"
+    description: "This article looks into how Postgres keeps the books on its transactions, how they’re committed atomically, and some concepts that are key to understanding how it’s all happening."
+
+  - url: https://instagram-engineering.com/making-instagram-com-faster-part-2-f350c8fba0d4
+    title: "Making Instagram.com faster: Part 2"
+
+  - url: https://arxiv.org/pdf/1908.04219.pdf
+    title: "How do Developers Promote Open Source Projects?(PDF)"
+
+  - url: https://blog.jooq.org/2019/09/19/whats-faster-count-or-count1/
+    title: "What’s Faster? COUNT(*) or COUNT(1)?"
+
+  - url: https://github.com/eon01/kubernetes-workshop
+    title: "A Gentle introduction to Kubernetes with more than just the basics"
+
+
+  - url: https://learningmusic.ableton.com
+    title: "Get started making music"
+    description: |
+      "I don't make music but I want to have fun. So this is included. Have some fun with it"
+
+  - url: https://typeslogicscats.gitlab.io/posts/functor-applicative-monad.html
+    title: "Functor, applicative, and monad"
+
+  - url: https://howdns.works
+    title: "How dns works"
+    description: |
+      A fun comic that explain how dns works.
+
+  - url: https://smallstep.com/blog/private-acme-server/
+    title: "Run your own private CA & ACME server using step-ca"
+
+  - url: https://github.com/dylanaraps/pure-bash-bible
+    title: "pure bash bible"
+    description: "A collection of pure bash alternatives to external processes."
+
+video:
+  - url: https://www.youtube.com/watch?v=ix0Tw8uinWs
+    title: "Keynote: How Spotify Accidentally Deleted All its Kube Clusters with No User Impact - David Xia"
+
+  - url: https://www.youtube.com/watch?v=r-TLSBdHe1A
+    title: 'Performance Matters by Emery Berger'
+
+read_code:
+  - url: https://starship.rs
+    title: starship
+    description: |
+      The cross-shell prompt for astronauts. Using Rust so your shell prompt render faster
+    category: ['Rust']
+
+  - url: https://github.com/panjf2000/gnet
+    title: gnet
+    description: |
+      ⚡️A high-performance, lightweight, nonblocking and event-loop networking library written in pure Go.🔥
+    category: ['Go']
+
+  - url: https://github.com/HarryStevens/geometric
+    title: geometric
+    description: |
+      A JavaScript library for doing geometry. 
+    category: ['JavaScript']
+
+tool:
+  - url: https://github.com/DNSCrypt/dnscrypt-proxy
+    title: dnscrypt-proxy
+    description: |
+       A flexible DNS proxy, with support for encrypted DNS protocols
+
+  - url: https://github.com/github/glb-director
+    title: Github Open Source Load Balancer
+    description: |
+      Read the [introduction blog post](https://github.blog/2018-08-08-glb-director-open-source-load-balancer/)
+
+  - url: https://github.com/comby-tools/comby/
+    title: comby
+    description: |
+      A tool for changing code across many languages. [Docs](https://comby.dev). See it live at [https://comby.live]
+
+  - url: https://github.com/mozilla/MozDef
+    title: MozDef
+    description: "Mozilla Enterprise Defense Platform"
+
+  - url: https://github.com/arzzen/git-quick-stats/
+    title: "git-quick-stats"
+    description: "▁▅▆▃▅ Git quick statistics is a simple and efficient way to access various statistics in git repository"
+
+  - url: https://github.com/open-policy-agent/gatekeeper
+    title: "Gatekeeper"
+    description: "Policy Controller for Kubernetes"
+
+  - url: https://github.com/aporeto-inc/kubepox
+    title: kubepox
+    description: "A simple tools that allows you to query all the defined network policies, and associated affected Pods."
