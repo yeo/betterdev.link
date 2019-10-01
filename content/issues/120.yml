@@ -89,8 +89,8 @@ read_code:
     description: "Small ERB Implementation"
     category: ['Ruby']
 
-  - url: https://gist.github.com/acutmore/9d2ce837f019608f26ff54e0b1c23d6e
-    title: "Emulating a 4-Bit Virtual Machine in (TypeScript\JavaScript)"
+  - url: "https://gist.github.com/acutmore/9d2ce837f019608f26ff54e0b1c23d6e"
+    title: "Emulating a 4-Bit Virtual Machine in (TypeScript|JavaScript)"
     description: |
       just Types no Script. You gotta read it to see how cool it is. Basically just using the type only. You also got to see how a stack based VM
       is implement and what is byte code instruction.
