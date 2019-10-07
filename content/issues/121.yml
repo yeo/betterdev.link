@@ -1,0 +1,152 @@
+time: "Oct 7, 2019"
+subject: "Programmers: You Snooze, You Win"
+
+draft: false
+
+description: |
+  This week I want to share with you about monotonic clock. It's a special clock which tick out continuously, independent
+  from system clock. That mean when you change the system datetime, it won't affect this clock.
+  Therefore, it is useful to calculate elapsed. When using system clock or wall-clock, it can be changed by user or re-sync
+  via ntpd and therefore may not be accurate. Eg, user accidently set wrong time to a future date and later change it back.
+  These may cause negative delta time. Monotonic clock fixes that. It constantly tick since starting your program.
+
+  So next time when you need to calculate delta time. Example in Ruby. instead of:
+
+  ```
+  t1 = Time.now
+  # Do stuff
+  t2 = Time.now
+  puts "it takes #{t2 - t1}"
+  ```
+
+  Do this:
+
+  ```
+  t1 = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+  # Do stuff
+  t2 = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+  puts "it takes #{t2 - t1}"
+  ```
+
+  Now to our links :-).
+
+links:
+  - url: http://huseyinpolatyuruk.com/2019/09/27/programmers-you-snooze-you-win/
+    title: "Programmers: You Snooze, You Win"
+    description: |
+      Programmers tend to work late at night, try to fix some bug, meet dead line and we scacrify our sleep.
+      We need to keep up with new tools, new language, again no sleep. The author do not agree with that
+      and suggest us to sleep more :-). I can tottally agree.
+
+  - url: https://makingloops.com/adding-a-second-line-of-business/
+    title: "Lessons learned adding a second line of business to a 20-year-old application"
+    description: "If you work for a company that is doing well, it’s common that it will expand into new markets.  How would you change the application to accommodate that? Create a new app from scrach?  Or changing existing code to make it work for both old and new business."
+
+  - url: https://gankra.github.io/blah/text-hates-you/
+    title: "Text Rendering Hates You"
+    description: |
+      In high level programming, we often don't have to worry about text rendering. A textbox, a label,...
+      do that for us. Rendering text, how hard could it be? As it turns out, incredibly hard! To my knowledge, literally no system renders text "perfectly". It's all best-effort, although some efforts are more important than others.
+
+  - url: https://domm.plix.at/perl/2019_10_small_db_change_and_a_lot_of_problems.html
+    title: "A small DB change and a lot of problems"
+    description: |
+      A short story about how a small DB change made me question google cloud, Postgres, and my sanity.
+
+  - url: http://boxbase.org/entries/2019/oct/4/flaws-in-structured-programming/
+    title: "Flaws in structured programming"
+    description: "There's a recurring problem that occurs when writing real-world software. Many believe that any kind of concurrency is inherently difficult, but few realise that structured programming makes it even more difficult than it would have to be."
+
+  - url: https://queue.acm.org/detail.cfm?id=2903468
+    title: "Statistics for Engineers"
+    description: |
+      Understand Statistics helps you visualize and extract information about collected data(log, metrics) more useful.
+      But resources for learning the relevant statistical methods for this domain are hard to find.
+
+  - url: https://eng.lyft.com/operating-apache-kafka-clusters-24-7-without-a-global-ops-team-417813a5ce70
+    title: "Operating Apache Kafka Clusters 24/7 Without A Global Ops Team"
+    description: |
+       The Streaming PubSub team at Lyft got multiple Apache Kafka clusters ready to take on load that required 24/7 support.
+       To get their work life balance back and help the business expand, they took a month to create an automatic remediation system.
+
+  - url: "http://www.vagrearg.org/content/hsvrgb"
+    title:"Fast HSV to RGB Conversion"
+    description: |
+      Using a different color-space than RGB makes handling color gradients much more easy and more intuitive. However, the calculation can be quite hard for a small CPU. Conversion normally use floating point, which is something small CPUs do not have.
+
+  - url: https://towardsdatascience.com/how-data-compression-works-exploring-lz78-87f44b487d92
+    title: "How data compression works: exploring LZ78"
+    description: |
+      LZ78, a lossless data-compression algorithm created by Lempel and Ziv in 1978. The GIF format is based on LZ78. LZ78 takes advantage of a dictionary-based data structure to compress our data. In this case, it makes use of a trie data structure, as it’s more efficient for this compression technique.
+
+  - url: https://jvns.ca/blog/2019/10/03/sql-queries-don-t-start-with-select/
+    title: "SQL queries don't start with SELECT"
+    description: |
+      Do you know in which order SQL queries actually run in?
+      Read to see how Julia explain it. if you like SQL, checkout 
+      ["What's an sql query you've written that was really hard and/or fun to write?"](https://twitter.com/b0rk/status/1175068822107279362?s=12)
+      It is just a tweet but the responding is lot of cool stuffs.
+      Someone even wrote an [ancient handwriting recognition algorithm in SQL](https://github.com/doersino/handwriting).
+      Another one [generate a fish](https://github.com/tanelpoder/tpt-oracle/blob/master/fish.sql) and [calculate crc-32 checksum](https://github.com/mozilla/bigquery-etl/blob/master/udf/safe_crc32_uuid.sql)
+
+video:
+  - url: https://www.percona.com/blog/2019/09/23/why-schema-optimization-matters/
+    title: "Why Database Schema Optimization Matters"
+
+  - url: https://www.youtube.com/watch?v=QyJZzq0v7Z4
+    title: "Why Isn't Functional Programming the Norm?"
+
+read_code:
+  - url: https://github.com/getgauge/taiko
+    title: taiko
+    description: |
+      A node.js library to automate chrome/chromium browser.
+    category: ['JavaScript']
+
+  - url: https://github.com/dry-rb/dry-effects
+    title: dry-effects
+    description: |
+      Algebraic effects in Ruby
+    category: ['Ruby']
+
+  - url: https://github.com/Shopify/semian
+    title: semian
+    description: |
+      🐒 Resiliency toolkit for Ruby for failing fast
+    category: ['Ruby']
+
+  - url: https://github.com/nhooyr/websocket
+    title: websocket
+    description: "A minimal and idiomatic WebSocket library for Go"
+    category: ['Go']
+
+  - url: https://github.com/cloudhead/rx
+    title: "rx: Modern pixel editor implemented in rust"
+    category: ['Rust']
+
+  - url: https://github.com/idealo/imagededup
+    title: imagededup
+    description: |
+      Finding duplicate images made easy!
+    category: ['Python']
+
+
+tool:
+  - url: https://github.com/salesforce/sloop
+    title: sloop
+    description: |
+      Kubernetes History Visualization
+
+  - url: https://github.com/scalefactory/s3audit
+    title: s3audit
+    description: "CLI tool for auditing S3 buckets"
+
+  - url: https://github.com/grailbio/bigslice/
+    title: bigslice
+    description: A serverless cluster computing system for the Go programming language
+
+  - url: https://github.com/litmuschaos/litmus
+    title: litmus
+    description: |
+      the toolset for Kubernetes SREs to practice chaos engineering. Use the pre-defined chaos charts, run chaos, find weaknesses in your Kubernetes systems.
+
