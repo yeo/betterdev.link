@@ -70,7 +70,7 @@ links:
        To get their work life balance back and help the business expand, they took a month to create an automatic remediation system.
 
   - url: "http://www.vagrearg.org/content/hsvrgb"
-    title:"Fast HSV to RGB Conversion"
+    title: "Fast HSV to RGB Conversion"
     description: |
       Using a different color-space than RGB makes handling color gradients much more easy and more intuitive. However, the calculation can be quite hard for a small CPU. Conversion normally use floating point, which is something small CPUs do not have.
 

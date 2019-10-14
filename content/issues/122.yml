@@ -1,0 +1,135 @@
+time: "Oct 14, 2019"
+subject: "Elliptic Curve Cryptography Explained"
+
+draft: false
+
+description: |
+
+links:
+  - url: https://fangpenlin.com/posts/2019/10/07/elliptic-curve-cryptography-explained/
+    title: "Elliptic Curve Cryptography Explained"
+    description: |
+      Explaining Elliptic Curve Cryptography, cover from the basics to key exchange, encryption, and decryption.
+
+  - url: https://easyperf.net/blog/2019/10/05/Performance-Analysis-Of-MT-apps
+    title: "Performance analysis of multithreaded applications."
+    description: |
+      A beginner-friendly article showing how one can quickly jump into analyzing performance of the MT app. Touching ground on performance analysis of MT apps, give you the checklist and the set of tools which you can use.
+
+  - url: https://doar-e.github.io/blog/2019/01/28/introduction-to-turbofan/
+    title: "Introduction to TurboFan"
+    description: "We're going to discuss TurboFan, V8’s optimizing compilers, and play along with the sea of nodes structure it uses.  Then, we'll study a vulnerable optimization pass written by @_tsuro for Google's CTF 2018 and write an exploit for it. We’ll be doing that on a x64 Linux box but it really is the exact same exploitation for Windows platforms (simply use a different shellcode!)."
+
+  - url: https://evilmartians.com/chronicles/images-done-right-web-graphics-good-to-the-last-byte-optimization-techniques
+    title: "Images done right: Web graphics, good to the last byte"
+    description: |
+      Start taking graphics on the web seriously and boost your applications’ performance by learning the essentials about image formats, both modern and old-school. Dig into SVGs and adopt the latest and greatest tools to optimize your graphical content: both vector and raster.
+
+  - url: https://www.data-structures-in-practice.com/hash-tables/
+    title: "Hash tables"
+    description: |
+      In this post you’ll learn what hash tables are, why you would use them, and how they’re used to implement dictionaries in the most popular Python interpreter — CPython.
+      Despite of being Python, you will learn how hash map is implemented generally.
+
+  - url: https://www.fadden.com/tech/file-formats.html
+    title: "Designing file format"
+    description: |
+      There are many, many file formats, largely owing to the existence of many, many different kinds of files.  They range from simple ASCII text documents to complex databases.  There are a few elements that should be part of any structured file, but many designers fail to include them.
+
+  - url: https://blog.envoyproxy.io/introduction-to-modern-network-load-balancing-and-proxying-a57f6ff80236
+    title: "Introduction to modern network load balancing and proxying"
+    description: |
+      Despite load balancing is one of the core concepts required for building reliable distributed systems.
+      Matt, creator of Envoy Proxy at Lyft, attempt to rectify the lack of information on load balancing
+      by providing a gentle introduction to modern network load balancing and proxying.
+
+  - url: https://ds9a.nl/articles/posts/gps-gnss-how-do-they-work/
+    title: "GPS, GALILEO & MORE: how do they work & what happened during the big outage?"
+    description: |
+      What is the outage of a GPS system? They are so reliable and we think they always up.
+      We will find out how positioning satellites really work and who is monitoring GPS on
+      the internet.
+
+  - url: https://sec.eff.org
+    title: "Security education companion"
+    description: |
+       Resource for people teaching digital security to their friends and neighbors
+
+  - url: https://medium.com/@jayphelps/backpressure-explained-the-flow-of-data-through-software-2350b3e77ce7
+    title: "Backpressure explained — the resisted flow of data through software"
+    description: |
+      Backpressure (or back pressure) is something nearly every software engineer will have to deal with at some point, and for some it’s a frequent problem.
+      This post elaborate on what exactly backpressure is, when it’s common, and the strategies we can use to mitigate it.
+
+video:
+  - url: https://www.youtube.com/watch?v=fTBwD3sb5mw
+    title: "16-Bit Virtual Machine in JavaScript 001"
+
+
+read_code:
+  - url: https://github.com/borkdude/sci
+    title: sci
+    description: |
+      A tiny implementation of Clojure in Clojure.
+    category: ['Clojure']
+
+  - url: https://github.com/Rigellute/spotify-tui
+    title: Spotify TUI
+    description: |
+      A Spotify client for the terminal written in Rust.
+    category: ['Rust']
+
+  - url: https://github.com/fengyuanchen/cropperjs
+    title: cropperjs
+    description: "an image cropper"
+    category: ['JavaScript']
+
+  - url: https://github.com/pubkey/rxdb
+    title: rxdb
+    description: "A realtime Database for JavaScript Applications"
+    category: ["TypeScript"]
+
+  - url: https://github.com/linkyndy/pallets
+    title: pallets
+    description: "Simple and reliable workflow engine"
+    category: ['Ruby']
+
+tool:
+  - url: https://github.com/n8n-io/n8n
+    title: n8n
+    description: |
+      Free node based Workflow Automation Tool. Easily automate tasks across different services.
+
+  - url: https://github.com/serhii-londar/open-source-mac-os-apps
+    title: "🚀 Awesome list of open source applications for macOS"
+
+  - url: https://github.com/keplergl/kepler.gl
+    title: kepler
+    description: |
+      a powerful open source geospatial analysis tool for large-scale data sets by Uber.
+      Checkout their [companion website](https://sanddance.js.org)
+
+  - url: https://github.com/Microsoft/SandDance
+    title: SandDance
+    description: |
+      Visually explore, understand, and present your data by Microsoft.
+      Checkout their [companion website](https://sanddance.js.org)
+
+  - url: https://github.com/dunglas/vulcain
+    title: vulcain
+    description: |
+      Use HTTP/2 Server Push to create fast and idiomatic client-driven REST APIs
+
+  - url: https://github.com/NickCarneiro/curlconverter/
+    title: "curlconverter"
+    description: "convert curl commands to python, javascript, php, R, Go, Rust, Dart, JSON, Ansible "
+
+  - url: https://github.com/ImVexed/muon
+    title: "muon"
+    description: |
+      GPU based Electron on a diet
+
+  - url: https://github.com/weaveworks/wks-quickstart-firekube
+    title: "wks-quickstart-firekube"
+    description: |
+      Firekube is a Kubernetes cluster working on top of ignite and firecracker.
