@@ -1,0 +1,143 @@
+time: "Oct 21, 2019"
+subject: "How Shopify Manages Petabyte Scale MySQL Backup and Restore and How Zalando Manages 140+ Kubernetes Clusters"
+
+draft: false
+
+description: |
+
+links:
+  - url: https://engineering.shopify.com/blogs/engineering/shopify-manages-petabyte-scale-mysql-backup-restore
+    title: "How Shopify Manages Petabyte Scale MySQL Backup and Restore"
+    description: |
+      Given the petabyte scale size and criticality of data, we need a robust and efficient backup and restore solution. We drastically reduced our Recovery Time Objective (RTO) to under 30 minutes by redesigning our tooling to use disk-based snapshots, and we want to share how it was done
+
+  - url: https://srcco.de/posts/how-zalando-manages-140-kubernetes-clusters.html
+    title: "How Zalando Manages 140+ Kubernetes Clusters"
+    description: |
+      Insights on how we manage 140+ Kubernetes clusters on AWS at Zalando for 200+ developers.
+
+  - url: https://philipwalton.com/articles/cascading-cache-invalidation/
+    title: "Cascading Cache Invalidation"
+    description: "How to effectively cache JavaScript file. The naieve method of hashing the file name doesn't scale well"
+
+  - url: https://www.quantamagazine.org/how-randomness-can-arise-from-determinism-20191014/
+    title: "How Randomness Can Arise From Determinism"
+    description: |
+      Playing with a simple bean machine illustrates how deterministic laws can produce probabilistic, random-seeming behavior.
+
+  - url: https://medium.com/@dgryski/consistent-hashing-algorithmic-tradeoffs-ef6b8e2fcae8
+    title: "Consistent Hashing: Algorithmic Tradeoffs"
+    description: |
+      I have a set of keys and values. I also have some servers for a key-value store. This could be memcached, Redis, MySQL, whatever. I want to distribute the keys across the servers so I can find them again. And I want to do this without having to store a global directoy.
+
+  - url: https://www.smashingmagazine.com/2018/06/nodejs-tools-techniques-performance-servers/
+    title: "Keeping Node.js Fast: Tools, Techniques, And Tips For Making High-Performance Node.js Servers"
+    description: |
+      JavaScript is an evented, asynchronous language. That can make reasoning about performance tricky, as will become apparent.
+
+  - url: https://ourmachinery.com/post/data-structures-part-3-arrays-of-arrays/
+    title: "Data Structures Part 3: Arrays of arrays"
+    description: |
+      When we created our bulk data arrays, we assumed that all objects were fixed size so that we could fit their data into a single struct and store the bulk data as just an array of such structs:
+      But what if we need some fields in the object that are dynamically sized?
+
+  - url: https://unixism.net/2019/10/sparkler-kvm-based-virtual-machine-manager/
+    title: "Sparkler: A KVM-based Virtual Machine Manager"
+    description: |
+      building a tiny virtual machine manager (VMM) and a super tiny “operating system” to understand how KVM really works?
+
+
+  - url: https://blog.benjojo.co.uk/post/you-cant-curl-under-pressure
+    title: "You Cannot cURL Under Pressure"
+    description: |
+      Could you turn the curl manual page into a game? This is a technical write up of the infrastructure behind this game which require a new VM per user per game.
+
+  - url: https://sneak.berlin/20191011/stupid-unix-tricks/
+    title: "Stupid Unix Tricks"
+    description: |
+      Lots of productivity hack and tips around Linux, Docker, SSH, Bash....
+
+
+
+
+  - url: https://factorio.com/blog/post/fff-317
+    title: "New pathfinding algorithm"
+    description: |
+      ""
+
+
+video:
+  - url: http://www.brendangregg.com/blog/2019-10-15/kernelrecipes-kernel-ftrace-internals.html
+    title: "Two kernel mysteries and the most technical talk I've ever seen"
+    description: |
+      Learn about ftrace: instrument all kernel functions almost instantly, and with low overhead?
+
+  - url: https://hacks.mozilla.org/2019/10/why-is-css-so-weird/
+    title: "Why is CSS so weird"
+    description: |
+      Another good one on CSS topic is [https://hacks.mozilla.org/2019/10/faster-layouts-with-css-grid-and-subgrid/](Faster Layouts with CSS Grid (and Subgrid!))
+
+
+read_code:
+  - url: https://github.com/bgahagan/git-remote-s3
+    title: git-remote-s3
+    description: |
+      Push and pull git repos to/from an s3 bucket, encrypted using gpg.
+      You will learn how to create custom git command.
+    category: ['Rust']
+
+  - url: https://github.com/hericlesme/cast-sh
+    title: cast-sh
+    description: |
+      An instance of your terminal in your browser
+    category: ['Python']
+
+  - url: https://github.com/wasmerio/webassembly.sh
+    title: webassembly.sh
+    description: |
+      PWA terminal powered by WebAssembly, WAPM, and Wasmer-JS
+    category: ['JavaScript']
+
+  - url: https://github.com/grailbio/bigslice/
+    title: bigslice
+    description: |
+      A serverless cluster computing system for the Go programming language
+    caregory: ['Go']
+
+tool:
+  - url: https://gitlab.com/meltano/meltano
+    title: meltano
+    description: |
+      Open source data dashboarding. a free alternative to expensive SaaS tools like PeriScope, Mode, Looker or ChartIO
+
+  - url: https://github.com/square/certstrap
+    title: certstrap
+    description: "Tools to bootstrap CAs, certificate requests, and signed certificates."
+
+  - url: https://echarts.apache.org/examples/en/
+    title: echarts
+    description: "an open-sourced JavaScript visualization tool"
+
+
+  - url: https://github.com/salesforce/policy_sentry
+    title: policy_sentry
+    description: "IAM Least Privilege Policy Generator"
+
+  - url: https://dapr.io
+    title: dapr
+    description: "An event-driven, portable runtime for building microservices on cloud and edge"
+
+  - url: https://github.com/vkuznecovas/mouthful
+    title: mouthful
+    description: |
+      Comment system alternative to disques
+
+  - url: https://www.exploit-db.com
+    title: exploit database
+    description: |
+       an archive of public exploits and corresponding vulnerable software, developed for use by penetration testers and vulnerability researchers. Its aim is to serve as the most comprehensive collection of exploits, shellcode and papers gathered through direct submissions, mailing lists, and other public sources, and present them in a freely-available and easy-to-navigate database
+
+  - url: https://github.com/sharkdp/hyperfine
+    title: hyperfine
+    description: |
+      A command-line benchmarking tool
