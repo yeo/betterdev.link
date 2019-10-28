@@ -58,14 +58,6 @@ links:
       Lots of productivity hack and tips around Linux, Docker, SSH, Bash....
 
 
-
-
-  - url: https://factorio.com/blog/post/fff-317
-    title: "New pathfinding algorithm"
-    description: |
-      ""
-
-
 video:
   - url: http://www.brendangregg.com/blog/2019-10-15/kernelrecipes-kernel-ftrace-internals.html
     title: "Two kernel mysteries and the most technical talk I've ever seen"
@@ -103,6 +95,17 @@ read_code:
     description: |
       A serverless cluster computing system for the Go programming language
     caregory: ['Go']
+
+  - url: https://github.com/Shopify/semian
+    title: "Semian"
+    description: "🐒 Resiliency toolkit for Ruby for failing fast"
+    category: ['Ruby']
+
+  - url: https://github.com/norcalli/nvim-colorizer.lua
+    title: neovim-colorizer.lua
+    description: |
+      A high-performance color highlighter for Neovim which has no external dependencies! 
+    category: ['Lua']
 
 tool:
   - url: https://gitlab.com/meltano/meltano
