@@ -1,0 +1,123 @@
+time: "Oct 28, 2019"
+subject: "How LinkedIn customizes Apache Kafka for 7 trillion messages per day"
+
+draft: false
+
+description: |
+
+links:
+  - url: https://engineering.linkedin.com/blog/2019/apache-kafka-trillion-messages
+    title: "How LinkedIn customizes Apache Kafka for 7 trillion messages per day"
+    description: |
+      Kafka was created at Linkedin and they push it really hard. Kafka was become defactor standard when coming to
+      data ingrestion, stream processing.
+
+  - url: https://datadome.co/bot-protection-engineering/store-50-million-event-per-second-in-elasticsearch/
+    title: "Storing 50 million events per second in Elasticsearch"
+    description: |
+      "Each day, during peak charge, DataDome's Elasticsearch cluster writes more than 200 000 documents per second and has a search rate of more than 20 000 requests per second.. They have one index per customer in order to provide a logical separation of the data."
+
+
+  - url: https://lord.io/blog/2019/splicing-crdts/
+    title: "Notes on Splicing CRDTs for Structured Hypertext"
+
+  - url: https://research.swtch.com/sparse
+    title: "Using Uninitialized Memory for Fun and Profit"
+
+  - url: https://blog.isquaredsoftware.com/presentations/2019-03-git-internals-rewrite/#/0
+    title: "Git Under the Hood Internals, Techniques, and Rewriting History"
+
+  - url: https://www.yegor256.com/2019/09/03/injection-of-guilt.html
+    title: "Daily Stand-up Injection of Guilt"
+
+  - url: https://humanreadablemag.com/issues/0/articles/the-wonders-of-the-suffix-tree-through-the-lens-of-ukkonen’s-algorithm/
+    title: "The Wonders of the Suffix Tree through the Lens of Ukkonen’s Algorithm"
+
+  - url: https://2ality.com/2019/10/shared-mutable-state.html
+    title: "The problems of shared mutable state and how to avoid them"
+
+  - url: https://blog.bitsrc.io/writing-a-typing-game-with-melonjs-ef0dd42f37bf
+    title: "Building a Typing Game with MelonJS"
+    description: "I usually don't include article like this because you can easily do a quick google search to found them.  But since I had kids recently I started to look into this. Hope we can create some fun games for our kids"
+
+  - url: https://www.infoq.com/presentations/taxonomy-black-swans/
+    title: "What Breaks Our Systems: A Taxonomy of Black Swans"
+
+video:
+  - url: https://www.youtube.com/watch?v=iFY5SyY3IMQ
+    title: "Secret Sharing Explained Visuall"
+    description: |
+
+  - url: https://www.youtube.com/watch?v=kZRE7HIO3vk
+    title: "The Thirty Million Line Problem"
+    description: |
+      A historical argument for creating a stable instruction set architecture (ISA) for entire system-on-a-chip (SoC) packages.
+
+read_code:
+  - url: https://github.com/bia-technologies/lowkiq
+    title: lowkiq
+    description: |
+      Ordered background jobs processing
+    category: ['Ruby']
+
+  - url: https://github.com/windfish-studio/ddrt
+    title: ddrt
+    description: |
+      An elixir implementation of Rtree, optimized for fast updates.
+    category: ['Elixir']
+
+  - url: https://github.com/bbc/peaks.js
+    title: peaks.js
+    description: |
+      JavaScript UI component for interacting with audio waveform
+    category: ['JavaScript']
+
+  - url: https://github.com/square/go-jose
+    title: go-jose
+    description: |
+      An implementation of JOSE standards (JWE, JWS, JWT)
+    category: ['Go']
+
+  - url: https://github.com/kushaldas/unoon/
+    title: unoon
+    description: |
+       a desktop tool to monitor processes with network connections.
+    category: ['Go', 'Python']
+
+  - url: https://github.com/twilio-labs/socless
+    title: socless
+    description: |
+      a serverless framework built to help security teams easily automate their incident response and operations workflows.
+    category: ['Python']
+
+tool:
+  - url: https://github.com/dnote/dnote
+    title: dnote
+    description: |
+      A simple personal knowledge base written in Go and TypeScript.
+
+
+  - url: https://github.com/mgartner/pg_flame
+    title: "pg_flame"
+    description: |
+      A flamegraph generator for Postgres EXPLAIN ANALYZE output
+
+  - url: https://github.com/bibendi/dip
+    title: dip
+    description: |
+      CLI gives the "native" interaction with applications configured with Docker Compose
+
+  - url: https://www.glazestock.com
+    title: glazestock
+    description: "Free illustrations, for everything"
+
+  - url: https://rubjo.github.io/victor-mono/
+    title: victor-mono
+    description: |
+      a free programming font with semi-connected cursive italics, symbol ligatures (!=, ->>, =>, ===, <=, >=, ++) and Latin, Cyrillic and Greek characters.
+
+  - url: https://github.com/leeoniya/uPlot
+    title: μPlot
+    description: |
+       a fast, memory-efficient time series chart based on Canvas 2D.
+
