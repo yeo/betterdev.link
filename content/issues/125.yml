@@ -1,0 +1,198 @@
+time: "Nov 4, 2019"
+subject: "My Most Embarrassing Mistakes as a Programmer and htop Explains"
+
+draft: false
+
+description: |
+links:
+  - url: https://stackoverflow.blog/2019/10/29/my-most-embarrassing-mistakes-as-a-programmer-so-far/
+    title: "My Most Embarrassing Mistakes as a Programmer"
+    description: |
+      I agree with the saying: “If you’re not embarrassed by your old code then you aren’t progressing as a programmer.”
+
+  - url: https://peteris.rocks/blog/htop/
+    title: htop explains
+    description: "I thought that load average 1.0 on my two core machine means that the CPU usage is at 50%. That's not quite right. And also, why does it say 1.0?"
+
+  - url: https://github.com/Tikam02/DevOps-Guide
+    title: "DevOps Guide"
+    description: |
+      From basic to advanced with Interview Questions and Notes.
+
+  - url: https://blog.cloudflare.com/dns-encryption-explained/
+    title: "DNS Encryption Explained"
+    description: |
+      Encrypting DNS would improve user privacy and security. In this post, we will look at two mechanisms for encrypting DNS, known as DNS over TLS (DoT) and DNS over HTTPS (DoH), and explain how they work.
+
+  - url: https://gravitational.com/blog/ssh-handshake-explained/
+    title: "SSH handshake explained"
+    description: |
+      SSH is how we connect to our server. This is a relatively brief description of the handshake that occurs to establish a secure channel between a client and a server.
+
+  - url: http://rachbelaid.com/introduction-to-postgres-physical-storage/
+    title: "Introduction to PostgreSQL physical storage"
+    description: |
+      I wanted to understand enough about the underlying physical storage to be able to grasp other concepts which can affect your database. This post is probably more aimed to people with similar interests
+
+  - url: https://www.percona.com/blog/2019/10/29/monitoring-postgresql-databases-using-percona-monitoring-management/
+    title: "Monitoring PostgreSQL Databases Using PMM"
+
+  - url: http://db.csail.mit.edu/pubs/abadi-column-stores.pdf
+    title: "The Design and Implementation of Modern Column-Oriented Database Systems"
+    category: ['PDF']
+    description: |
+      Column-store systems completely vertically partition a database
+      into a collection of individual columns that are stored separately. They are used a lot in data warehouse
+      like Redshift, ClickHouse
+
+  - url: https://www.mnot.net/cache_docs/
+    title: "Caching Tutorial for Web Authors and Webmasters"
+    description: |
+      A completed guide about web caching, HTTP headers, meta tag, and tip to build cache-aware sites.
+
+  - url: https://www.20i.com/blog/dkim-demystified/
+    title: DKIM demystified
+    description: |
+      The purpose of DKIM is to authenticate that the content of any DKIM-signed email message is not modified during the transfer between sender’s or ISP (Internet Service Provider) and receiver’s mail servers.
+
+  - url: https://paulstamatiou.com/getting-started-with-security-keys/
+    title: "Getting started with security keys"
+    description: |
+      How to stay safe online and prevent phishing with FIDO2, WebAuthn and security keys.
+
+
+
+
+
+
+    #  - url: https://tuhdo.github.io/os01/
+    #    title: "Bootstrap yourself to write an OS from scratch"
+    #    description: |
+    #      A book for self-learner. This book helps you gain the foundational knowledge required to write an operating system from scratch. Hence the title, 0 to 1
+    #  - url: https://squadrick.github.io/journal/ipc-locks.html
+    #    title: Interprocess Locks
+    #    description: |
+    #
+    #
+    #
+    #
+    #  - url: https://lord.io/blog/2019/text-editing-hates-you-too/
+    #    title: "Text Editing Hates You Too"
+    #    description: |
+    #      The challenge of building text editor.
+    #
+    #  - url: https://www.booleanworld.com/building-recursive-descent-parsers-definitive-guide/
+    #    title: "Building Recursive Descent Parsers: The Definitive Guide"
+    #  - url: https://tech.marksblogg.com/faster-zip-decompression-unzip-deflate-zlib-crc32-adler32-7zip-archiver.html
+    #
+    #  - url: https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc
+    #    title: "An Illustrated Guide to OAuth and OpenID Connect"
+    #    description: |
+    #      The OpenID Connect flow looks the same as OAuth. The only differences are, in the initial request, a specific scope of openid is used, and in the final exchange the Client receives both an Access Token and an ID Token.
+    #
+    #  - url: http://blog.asrpo.com/python_gui_automation
+    #    title: "Roll your own GUI automation library"
+    #    description: |
+    #      If you want to write a desktop automation? How do you say click on a button that looks like this image.
+    #
+    #  - url: https://www.figma.com/blog/how-figmas-multiplayer-technology-works/
+    #    title: "How Figma’s multiplayer technology works"
+    #
+    #  - url: https://adoptingerlang.org
+    #    title: "Adopting Erlang i"
+
+video:
+  - url: https://gameswithgo.org/
+    title: games with go
+    description: "A video series that teaches programming via a series of small game related projects. The focus is on learning programming fundamentals, and having fun. "
+  - url: https://www.youtube.com/watch?v=yl8vPW5hydQ
+    title: "How do CPUs read machine code? — 6502 part 2"
+
+read_code:
+  - url: https://github.com/cyberark/bash-lib
+    title: bash-lib
+    description: |
+      Library for bash utility methods and tools
+    category: ['Bash']
+
+  - url: https://github.com/elli-lib/elli
+    title: elli
+    description: |
+      Simple, robust and performant Erlang web server
+    category: ['Erlang']
+
+  - url: https://github.com/tristangoossens/snake-go
+    title: snake-go
+    description: |
+      Snake game made in Go!
+    category: ['Go']
+
+  - url: https://github.com/basecamp/full_request_logger
+    title: full_request_logger
+    description: |
+      Make full request logs accessible via web UI
+    category: ['Ruby', 'Rails']
+
+  - url: https://github.com/skamieniarz/pypong
+    title: "pypong"
+    description: |
+      A slightly modified clone of Pong classic game implemented with Python and pyxel.
+    category: ['Python']
+
+  - url: https://github.com/meilisearch/MeiliDB
+    title: MeiliDB
+    description: |
+      A full-text search database based on the fast LMDB key-value store.
+    category: ['Rust']
+
+  - url: https://github.com/mosuka/bayard
+    title: bayard
+    description: |
+      a full-text search and indexing server written in Rust.
+    category: ['Rust']
+
+tool:
+  - url: https://github.com/subspacecloud/subspace
+    title: subspace
+    description: |
+      A simple WireGuard VPN server GUI
+
+  - url: https://github.com/bloomberg/xcdiff
+    title: xcdiff
+    description: |
+      A tool which helps you diff xcodeproj files.
+
+  - url: https://github.com/ocibuilder/ocibuilder
+    title: ocibuilder
+    description: |
+      A tool to build OCI compliant images. allowing you to pick between Buildah or Docker as the container build tool.
+
+  - url: https://github.com/cloudson/gitql
+    title: gitql
+    description: |
+      A CLI tool to query your git repo in a language similar to SQL.
+
+  - url: https://github.com/whitesmith/rubycritic
+    title: rubycritic
+    description: |
+      A Ruby code quality reporter
+
+  - url: https://github.com/slatedocs/slate
+    title: slate
+    description: |
+      Beautiful static documentation for your API 
+
+  - url: https://github.com/typesense/typesense
+    title: typesense
+    description: |
+      Fast, typo tolerant search engine for building delightful search experiences.
+
+  - url: https://github.com/erebe/wstunnel
+    title: wstunnel
+    description: |
+      Tunneling over websocket protocol
+
+  - url: https://github.com/Requarks/wiki
+    title: wiki.js
+    description: |
+      A modern, lightweight and powerful wiki app built on Node.js
