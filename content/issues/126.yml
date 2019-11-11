@@ -1,0 +1,153 @@
+time: "Nov 11, 2019"
+subject: "Makeing Wrong Code Look Wrong"
+
+draft: false
+
+description: |
+links:
+  - url: https://www.joelonsoftware.com/2005/05/11/making-wrong-code-look-wrong/
+    title: "Making Wrong Code Look Wrong"
+    description: |
+      Joe, founder of StackOverflow share tips to make wrong code standout easily so we can catch them faster.
+
+  - url: https://monzo.com/blog/we-built-network-isolation-for-1-500-services
+    title: "We built network isolation for 1,500 services to make Monzo more secure"
+    description: "The idea is that we don't want to trust just anything simply because it's inside our platform. Instead, we want individual services to be trusted based on a short and deliberate list of which other services they're allowed to interact with. This makes an attack substantially more difficult."
+
+  - url: https://medium.com/zendesk-engineering/zendesks-global-mesh-network-part-1-8f45414c5cb4
+    title: "Zendesk’s Global Mesh Network- Part 1"
+    description: |
+      The Zendesk Foundation Network team has helped morph the architecture over time and are excited where it landed. In this post series, we wanted to share how our core networking has evolved and where we plan to go next.
+
+  - url: https://jrsinclair.com/articles/2019/algebraic-structures-what-i-wish-someone-had-explained-about-functional-programming/
+    title: "Algebraic Structures: things i wish someone had explained about functional programming"
+    description: "Ever heard them throwing around a bunch of inscrutable jargon? Words like ‘monoid,’ ‘applicative,’ 'semiring,’ ‘lattice,’ ‘functor,’ or the dreaded ‘monad’? Ever wondered what all that was about? The collective term for these concepts is algebraic structures."
+
+  - url: https://blog.discordapp.com/how-discord-achieves-native-ios-performance-with-react-native-390c84dcd502
+    title: "How Discord achieves native iOS performance with React Native"
+    description: |
+       Event on iPhone XS, the app could not maintain 60 FPS in normal usage, provide smooth gestures, and had a noticeable impact on battery life.
+       So Discord set out to fix that.and shared what they learn.
+
+  - url: https://blog.teddykatz.com/2019/11/05/github-oauth-bypass.html
+    title: "Bypassing GitHub's OAuth flow"
+    description: | 
+      A very intesresting bug that allow to by pass Github CSRF check. It essently due to an `if/else` where an explicitly check will be better.
+
+  - url: https://habr.com/en/company/qrator/blog/474810/
+    title: "How elliptic curve cryptography works in TLS 1.3"
+    description: |
+      How the encryption really happen in TLS.
+
+  - url: https://blog.cloudflare.com/dns-encryption-explained/
+    title: "DNS Encryption Explained"
+    description: |
+      we will look at two mechanisms for encrypting DNS, known as DNS over TLS (DoT) and DNS over HTTPS (DoH), and explain how they work.
+
+  - url: https://tuhdo.github.io/os01/
+    title: "Bootstrap yourself to write an OS from scratch"
+    description: |
+      A book for self-learner. This book helps you gain the foundational knowledge required to write an operating system from scratch. Hence the title, 0 to 1
+
+  - url: https://blog.acolyer.org/2019/11/06/ceph-evolution/
+    title: "File systems unfit as distributed storage backends: lessons from ten years of Ceph evolution"
+    description: |
+      Ten years of hard-won lessons packed into just 17 pages (13 if you don’t count the references!) makes this paper extremely good value for your time. It’s also a fabulous example of recognising and challenging implicit assumption
+
+
+    #  - url: https://blog.trailofbits.com/2019/11/07/attacking-go-vr-ttps/
+    #    title: "Security assessment techniques for Go projects"
+    #
+    #  - url: https://squadrick.github.io/journal/ipc-locks.html
+    #    title: Interprocess Locks
+    #    description: |
+    #
+    #
+    #
+    #
+    #  - url: https://lord.io/blog/2019/text-editing-hates-you-too/
+    #    title: "Text Editing Hates You Too"
+    #    description: |
+    #      The challenge of building text editor.
+    #
+    #  - url: https://www.booleanworld.com/building-recursive-descent-parsers-definitive-guide/
+    #    title: "Building Recursive Descent Parsers: The Definitive Guide"
+    #  - url: https://tech.marksblogg.com/faster-zip-decompression-unzip-deflate-zlib-crc32-adler32-7zip-archiver.html
+    #
+    #  - url: https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc
+    #    title: "An Illustrated Guide to OAuth and OpenID Connect"
+    #    description: |
+    #      The OpenID Connect flow looks the same as OAuth. The only differences are, in the initial request, a specific scope of openid is used, and in the final exchange the Client receives both an Access Token and an ID Token.
+    #
+    #  - url: http://blog.asrpo.com/python_gui_automation
+    #    title: "Roll your own GUI automation library"
+    #    description: |
+    #      If you want to write a desktop automation? How do you say click on a button that looks like this image.
+    #
+    #  - url: https://www.figma.com/blog/how-figmas-multiplayer-technology-works/
+    #    title: "How Figma’s multiplayer technology works"
+    #
+    #  - url: https://adoptingerlang.org
+    #    title: "Adopting Erlang i"
+
+video:
+  - url: https://www.youtube.com/watch?v=QppWTvh7_sI
+    title: "Writing a PEG parser for fun and profit"
+
+
+read_code:
+  - url: https://github.com/aquasecurity/tracee
+    title: tracee
+    description: "[EXPERIMENTAL] Container tracing using eBPF"
+    category: ['Python']
+
+  - url: https://github.com/mbuhot/ecto_job
+    title: ecto_job
+    description: "Transactional job queue with Ecto, PostgreSQL and GenStage"
+    category: ['Elixir']
+
+  - url: https://github.comm/github/scientist
+    title: scientist
+    description: |
+    category: ['Ruby']
+
+  - url: https://github.com/stripe/stripe-cli
+    title: stripe-cli
+    description: |
+      A command-line tool for Stripe. Tail logs, webhook, trigger event..Everything from cli. Learn how Stripe write Go too.
+    category: ['Go']
+
+
+tool:
+  - url: https://github.com/256dpi/lungo
+    title: lungo
+    description: |
+      A MongoDB compatible embeddable database and toolkit for Go.
+
+  - url: https://github.com/Squarespace/pgbedrock
+    title: pgbedrock
+    description: "Manage a Postgres cluster's roles, role memberships, schema ownership, and privileges"
+
+  - url: https://github.com/pgpartman/pg_partman
+    title: pg_partman
+    description: "Partition management extension for PostgreSQL"
+
+  - url: https://gitlab.com/postgres-ai/postgres-checkup
+    title: postgres-checkup
+    description: |
+      Postgres Health Check and SQL Performance Analysis
+  - url: https://github.com/marktext/marktext
+    title: marktext
+    description: |
+      A simple and elegant markdown editor, available for Linux, macOS and Windows.
+
+  - url: https://github.com/lyft/amundsen
+    title: amundsen
+    description: |
+      A Data Discovery And Metadata Platform by Lyft.
+
+  - url: https://github.com/falcosecurity/falco
+    title: falco
+    description: |
+      Intrusion and abnormality detection for Cloud Native platforms such as Kubernetes, Mesosphere, and Cloud Foundry. Detect abnormal application behavior
+
