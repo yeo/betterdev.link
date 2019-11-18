@@ -1,0 +1,194 @@
+time: "Nov 18, 2019"
+subject: "The Consul outage that never happened"
+
+draft: false
+
+description: |
+links:
+  - url: https://about.gitlab.com/blog/2019/11/08/the-consul-outage-that-never-happened/
+    title: "The Consul outage that never happened"
+    description: "Imagine when it's time to renew your cert and you realize the CA private key is lost. Gitlab was in a middle of an outage but not to the point of taking whole side down. "
+
+  - url: https://roscidus.com/blog/blog/2019/01/01/using-tla-plus-to-understand-xen-vchan/
+    title: "Using TLA+ to Understand Xen Vchan"
+    description: |
+      Also checkout a talk about TLA+ on Elixir: [Modeling Systems with TLA+](https://www.youtube.com/watch?v=efCKA-Ug8w4).
+
+  - url: https://pomb.us/build-your-own-react/
+    title: "Build your own React"
+    description: |
+      We are going to rewrite React from scratch. Step by step. Following the architecture from the real React code but without all the optimizations and non-essential features.
+
+  - url: https://ordepdev.me/posts/diving-into-merkle-trees
+    title: "Diving into Merkle Trees"
+    description: |
+      Introduced in 1979 by Ralph C. Merkle in his Thesis: Secrecy, Authentications, and Public Key Systems, the Merkle Tree, also known as a binary hash tree, is a data structure used for efficiently summarizing and verifying the integrity of large sets of data enabling users to verify the authenticity of their received responses.
+
+  - url: https://www.simplethread.com/chaos-order-randomizing-queries-uncover-order-dependency/
+    title: "Randomizing Queries to Uncover Order-Dependency"
+    description: |
+      If ORDER BY is not given, the rows are returned in whatever order the system finds fastest to produce. During development, that usually the iserted order, and we only know about bug when deploying to production with enough load. To help surface these issues during development I propose exaggerating the randomness of results in queries missing an ORDER BY.
+
+  - url: https://github.com/a13xp0p0v/linux-kernel-defence-map/blob/master/README.md
+    title: "Linux Kernel Defence Map"
+    description: |
+      Linux kernel security is a very complex topic. Some defence technologies are provided by the Linux kernel mainline. Others are going out‑of‑tree for various reasons (some of them are commercial, for example). Plus there are kernel defences that depend on special hardware features.
+
+  - url: https://interrupt.memfault.com/blog/boostrapping-libc-with-newlib
+    title: "From zero to main(): Bootstrapping libc with Newlib"
+    description: |
+      This is the third post in our zero to main() series, where we worked methodically to demystify what happens to firmware before the main() function is called. So far, we bootstrapped a C environment, wrote a linker script from scratch, and implemented our own bootloader.
+
+  - url: "https://www.cockroachlabs.com/blog/how-we-built-a-vectorized-sql-engine/"
+    title: "How CockroachDB Built a Vectorized SQL Engine"
+    description: |
+      Using vectorized processing in an execution engine makes more efficient use of modern CPUs by changing the data orientation (from rows to columns) to get more out of the CPU cache and deep instruction pipelines by operating on batches of data at a time.
+
+  - url: https://www.bakerlaw.com/webfiles/Privacy/2018/Articles/CCPA-GDPR-Chart.pdf
+    title: "CCPA and GDPR comparison chart(PDF)"
+    description: |
+      Anyone build a product have to deal with GDPR and CCPA nowsaday.
+
+  - url: https://betterwebtype.com/articles/2019/11/02/preloading-fonts-when-does-it-make-sense/
+    title: "Preloading fonts: when does it make sense?"
+    description: |
+      In the past, when loading custom fonts we couldn’t really avoid the flash of unstyled text (FOUT)—you know that split second when the website is loading and it uses a substitute font until it loads your custom one?
+
+  - url: https://github.com/Kayzaks/HackingNeuralNetworks
+    title: "Hacking Neural Networks: A Short Introduction"
+    description: |
+      This is a short introduction on methods that use neural networks in an offensive manner (bug hunting, shellcode obfuscation, etc.) and how to exploit neural networks found in the wild (information extraction, malware injection, backdooring, etc.). The repo is code, full article is [here](https://github.com/Kayzaks/HackingNeuralNetworks/blob/master/Article.pdf)
+
+
+
+  # https://lwn.net/SubscriberLink/803890/707f3d8d5c366a1e/
+  # http://aosabook.org/en/index.html
+
+  #  - url: https://blog.trailofbits.com/2019/11/07/attacking-go-vr-ttps/
+  #    title: "Security assessment techniques for Go projects"
+  #
+  #  - url: https://squadrick.github.io/journal/ipc-locks.html
+  #    title: Interprocess Locks
+  #    description: |
+  #
+  #
+  #
+  #
+  #  - url: https://lord.io/blog/2019/text-editing-hates-you-too/
+  #    title: "Text Editing Hates You Too"
+  #    description: |
+  #      The challenge of building text editor.
+  #
+  #  - url: https://www.booleanworld.com/building-recursive-descent-parsers-definitive-guide/
+  #    title: "Building Recursive Descent Parsers: The Definitive Guide"
+  #  - url: https://tech.marksblogg.com/faster-zip-decompression-unzip-deflate-zlib-crc32-adler32-7zip-archiver.html
+  #
+  #  - url: https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc
+  #    title: "An Illustrated Guide to OAuth and OpenID Connect"
+  #    description: |
+  #      The OpenID Connect flow looks the same as OAuth. The only differences are, in the initial request, a specific scope of openid is used, and in the final exchange the Client receives both an Access Token and an ID Token.
+  #
+  #  - url: http://blog.asrpo.com/python_gui_automation
+  #    title: "Roll your own GUI automation library"
+  #    description: |
+  #      If you want to write a desktop automation? How do you say click on a button that looks like this image.
+  #
+  #  - url: https://www.figma.com/blog/how-figmas-multiplayer-technology-works/
+  #    title: "How Figma’s multiplayer technology works"
+  #
+  #  - url: https://adoptingerlang.org
+  #    title: "Adopting Erlang i"
+
+
+
+video:
+  - url: https://www.youtube.com/watch?v=eyKwPyOqMg4
+    title: "Understanding Convolutional Neural Networks: Making a Handwritten Digit Calculator"
+
+  - url: https://www.youtube.com/watch?v=awe7swqFOOw
+    title: "Build Your Own WebAssembly Compiler, Colin Eberhardt"
+
+  - url: https://www.usenix.org/conference/lisa19/presentation/gregg-linux
+    title: "Linux Systems Performance"
+
+read_code:
+  - url: https://github.com/bpkg/bpkg
+    title: bpkg
+    description: "Bash package manager"
+    category: ["Bash"]
+
+  - url: https://github.com/epoberezkin/ajv#performance
+    title: ajv
+    description: |
+      The fastest JSON Schema Validator.
+    category: ['JavaScript']
+
+  - url: https://github.com/Yelp/clusterman
+    title: clusterman
+    description: |
+      Cluster Autoscaler for Kubernetes and Mesos
+    category: ['Python']
+
+  - url:  https://github.com/que-rb/que
+    title: que
+    description:  "A Ruby job queue that uses PostgreSQL's advisory locks for speed and reliability"
+    category: ['Ruby']
+
+  - url: https://github.com/rivo/tview
+    title: tview
+    description: |
+      Rich interactive widgets for terminal-based UIs written in Go
+    category: ['Go']
+
+tool:
+  - url: https://github.com/DataDog/yubikey
+    title: Yubikey at DataDog
+    description: |
+       this setup lets you store your private subkeys on your YubiKey. Actually, it gives you much stronger guarantees: you cannot authenticate over SSH and / or sign GPG commits / tags without: (1) your YubiKey plugged in and operational, (2) your YubiKey PIN, and (3) touching your YubiKey.
+
+  - url: https://developers.google.com/speed/pagespeed/insights/
+    title: "PageSpeed Insights"
+    description: |
+      analyzes the content of a web page, then generates suggestions to make that page faster. 
+
+  - url: https://github.com/taniarascia/takenote
+    title: takenote
+    description: |
+      A web-based note-taking app with GitHub sync and Markdown support
+
+  - url: https://github.com/brigadecore/buck
+    title: buck
+    description: |
+      the fastest way to build new controllers for Kubernetes. Define your CRD (or use an existing resource), and write a few lines of JavaScript for your controller code.
+
+  - url: https://comby.dev/
+    title: comby
+    description: |
+      a tool for matching and rewriting code. You start by writing a simple template to match syntax
+
+  - url: https://www.projectquay.io/
+    title: projectquay
+    description: "The Community Distribution of Quay that powers Red Hat Quay and Quay.io"
+
+  - url: https://gitlab.com/dalibo/postgresql_anonymizer
+    title: postgresql_anonymizer
+    description: |
+      Anonymization & Data Masking for PostgreSQL
+
+  - url: https://github.com/anouarbensaad/vulnx
+    title: "vulnx 🕷️ is an intelligent bot auto shell injector that detect vulnerabilities in multiple types of cms { "
+    description: "vulnx 🕷️ is an intelligent bot auto shell injector that detect vulnerabilities in multiple types of cms { "
+
+  #  - url: https://github.com/windmilleng/tilt
+  #    title: tilt
+  #    description: |
+  #      Local Kubernetes development with no stress
+  #
+  #  - url: https://kubestone.io/en/latest/
+  #    title: kubestone
+  #    description: |
+  #      a benchmarking Operator that can evaluate the performance of Kubernetes installations
+  #
+
+  #  - https://github.com/notracking/hosts-blocklists
+
