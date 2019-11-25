@@ -1,0 +1,143 @@
+time: "Nov 25, 2019"
+subject: "How does a video codec work and a report on how Bluehost, Dreamhost, HostGator, OVH, or iPage Were Easily Hacked"
+
+draft: false
+
+description: |
+  This week I want to share this small tip. On Mac, to show hidden file(dot files) in Finder you can simply type `CMD + SHIFT + .`.
+  To permanently applied this, you can change default config by running this command from terminal `defaults write com.apple.finder AppleShowAllFiles YES`.
+  You will need to force restart finder to have it effective by killing finder.
+
+links:
+  - url: "https://github.com/leandromoreira/digital_video_introduction#how-does-a-video-codec-work"
+    title: "How does a video codec work?"
+    description: "A gentle introduction to video technology, although it's aimed at software developers / engineers, we want to make it easy for anyone to learn
+      The goal is to introduce some digital video concepts with a simple vocabulary, lots of visual elements and practical examples when possible, and make this knowledge available everywhere"
+
+  - url: https://github.blog/2019-11-21-debugging-network-stalls-on-kubernetes/
+    title: "Debugging network stalls on Kubernetes"
+    description: |
+      Github notice that certain services running on Kubernetes in our environment were experiencing sporadic latency that couldn’t be attributed to the performance characteristics of the application itself.
+
+  - url: https://www.websiteplanet.com/blog/report-popular-hosting-hacked/
+    title: "Report: We Tested 5 Popular Web Hosting Companies & All Were Easily Hacked"
+    description: |
+      The goal of this research was to try and see if websites hosted on Bluehost, Dreamhost, HostGator, OVH, or iPage could be compromised with one click client-side vulnerabilities. Unfortunately, we found at least one client-side vulnerability in all the platforms we tested, allowing account takeover when the victim clicks a link or visits a malicious website.
+
+  - url: https://hakibenita.com/sql-dos-and-donts
+    title: "12 Common Mistakes and Missed Optimization Opportunities in SQL"
+    description: |
+      went over reports written by non-developers and code reviews, and gathered common mistakes and missed optimization opportunities in SQL.
+
+  - url: https://blog.mindlessness.life/makefile/2019/11/17/the-language-agnostic-all-purpose-incredible-makefile.html
+    title: "The Language Agnostic, All-Purpose, Incredible, Makefile"
+    description: |
+      Make was born in 1976, making it one of the oldest tools in a programmer’s toolkit. Any tool that has been around this long is bound to have a mythology, stories, and examples that would be intimidating to someone unfamiliar with it. Additionally, I think many of us have written it off as no longer relevant, as we are not writing C programs, after all. Allow me to show you why it should not be intimidating, and furthermore, is applicable to your everyday workflow as an engineer.
+
+
+  - url: http://aosabook.org/en/posa/secrets-of-mobile-network-performance.html
+    title: "Secrets of Mobile Network Performance"
+    description: "Latency has long been synomonous with mobile networking. Though progress has been made in recent years, the reductions to network latency have not kept pace with the increases in speed. As a consequence of this disparity, it is latency, not throughput, that is most often the factor limiting the performance of network transactions."
+
+  - url: http://blog.asrpo.com/python_gui_automation
+    title: "Roll your own GUI automation library"
+    description: |
+     If you want to write a desktop automation? How do you say click on a button that looks like this image. This post is short but it guide you into that process.
+
+  - url: https://deniskyashif.com/a-practical-guide-to-state-machines/
+    title: "A Practical Guide to State Machines"
+
+  - url: https://servicemesh.io/
+    title: "The Service Mesh: What Every Software Engineer Needs to Know about the World's Most Over-Hyped Technology"
+  - url: https://jvns.ca/blog/2019/11/18/how-containers-work--overlayfs/
+    title: "How containers work: overlayfs"
+
+
+  # https://lwn.net/SubscriberLink/803890/707f3d8d5c366a1e/
+
+  #  - url: https://blog.trailofbits.com/2019/11/07/attacking-go-vr-ttps/
+  #    title: "Security assessment techniques for Go projects"
+  #
+  #  - url: https://squadrick.github.io/journal/ipc-locks.html
+  #    title: Interprocess Locks
+  #    description: |
+  #
+  #  - url: https://lord.io/blog/2019/text-editing-hates-you-too/
+  #    title: "Text Editing Hates You Too"
+  #    description: |
+  #      The challenge of building text editor.
+  #
+  #  - url: https://www.booleanworld.com/building-recursive-descent-parsers-definitive-guide/
+  #    title: "Building Recursive Descent Parsers: The Definitive Guide"
+  #  - url: https://tech.marksblogg.com/faster-zip-decompression-unzip-deflate-zlib-crc32-adler32-7zip-archiver.html
+  #
+  #  - url: https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc
+  #    title: "An Illustrated Guide to OAuth and OpenID Connect"
+  #    description: |
+  #      The OpenID Connect flow looks the same as OAuth. The only differences are, in the initial request, a specific scope of openid is used, and in the final exchange the Client receives both an Access Token and an ID Token.
+  #
+
+  #  - url: https://www.figma.com/blog/how-figmas-multiplayer-technology-works/
+  #    title: "How Figma’s multiplayer technology works"
+  #
+  #  - url: https://adoptingerlang.org
+  #    title: "Adopting Erlang i"
+
+
+
+video:
+  - url: https://eater.net/6502
+    title: "Build a 6502 computer"
+    description: "In this video series, I'll build a basic 6502 computer with an LCD display and a few buttons, explain how to program it in assembly, and write a game or two"
+
+read_code:
+  - url: https://github.com/kopiro/siriwave
+    title: siriwave
+    description: "The Apple® Siri wave-form replicated in a JS library."
+    category: ['JavaScript']
+
+  - url: https://github.com/sripathikrishnan/redis-rdb-tools
+    title: redis-rdb-tools
+    description: "Parse Redis dump.rdb files, Analyze Memory, and Export Data to JSON"
+    category: ['Python']
+
+  - url: https://github.com/Nakilon/rbtris
+    title: rbtris
+    description: "Tetris game powered by Ruby2D"
+    category: ['Ruby']
+
+  - url: https://github.com/sfluor/musig
+    title: musig
+    description: "A Shazam like tool to store musics fingerprints and retrieve them"
+    category: ['Go']
+
+tool:
+  - url: https://github.com/ticarpi/jwt_tool
+    title: jwt_tool
+    description: "A toolkit for testing, tweaking and cracking JSON Web Tokens"
+
+  - url: https://github.com/chatwoot/chatwoot
+    title: chatwoot
+    description: "Simple and elegant live chat software"
+
+  - url: https://github.com/fugue/fregot
+    title: "fregot"
+    description: "a set of tools for working with the Rego policy language, which is part of the Open Policy Agent (OPA) policy engine."
+  - url: https://redislabs.com/redisinsight/
+    title: redisinsight
+    description: "Inspect your Redis data, monitor health, and perform runtime server configuration with a browser-based management interface for your Redis deployment"
+
+  - url: https://github.com/windmilleng/tilt
+    title: tilt
+    description: |
+      Local Kubernetes development with no stress
+
+  - url: https://kubestone.io/en/latest/
+    title: kubestone
+    description: |
+      a benchmarking Operator that can evaluate the performance of Kubernetes installations
+
+  - url: https://gitlab.com/df8org/scaledger
+    title: scaledger
+    description: "A double-entry accounting database with a typed GraphQL API"
+#  - https://github.com/notracking/hosts-blocklists
