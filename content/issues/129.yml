@@ -1,0 +1,182 @@
+time: "Dec 02, 2019"
+subject: "Debugging Software Deployments with strace and Troubleshooting with Wireshark: The Case of the TCP Challenge ACK"
+
+draft: false
+
+description: |
+  Hi all, this week I want to share this cool book: [https://sql-performance-explained.com/](https://sql-performance-explained.com/).
+  You can use discount code `CyberMon19` to get the PDF for free. The author has temporarily made his fabulous SQL performance book
+  available for free for a few days.
+
+  Now to our links. If you like this newsletter, please forward it to your friends :-).
+
+links:
+  - url: https://theartofmachinery.com/2019/11/14/deployment_debugging_strace.html
+    title: "Debugging Software Deployments with strace"
+    description: |
+      Instead of using normal debugging tools like gdb, I have another toolset for debugging deployments. My favourite tool for “Why isn’t this software working on this machine?” is strace
+
+  - url: https://www.networkdefenseblog.com/post/wireshark-tcp-challenge-ack
+    title: "Troubleshooting with Wireshark: The Case of the TCP Challenge ACK"
+    description: |
+      Troubleshooting an issue where the server replies with an ACK only instead of SYN/ACK. Also some simple Wireshark tips.
+
+  - url: https://www.percona.com/blog/2019/11/22/uuids-are-popular-but-bad-for-performance-lets-discuss/
+    title: "UUIDs are Popular, but Bad for Performance"
+    description: |
+      In order to appreciate the impact of using UUID values as a primary key, it is important to review how InnoDB organizes the data. InnoDB stores the rows of a table in the b-tree of the primary key. In database terminology, we call this a clustered index. The clustered index orders the rows automatically by the primary key.
+
+  - url: https://letsencrypt.org/2019/11/20/how-le-runs-ct-logs.html
+    title: "How Let's Encrypt(LE) Runs CT Logs"
+    description: |
+      Beside issue free cert, LE runs a Certificate Transparency. They issue 1M certs per day and share how they run this log infrastructure to handle that scale.
+
+  - url: https://medium.com/@kentbeck_7670/inefficient-efficiency-5b3ab5294791
+    title: Inefficient Efficiency
+    description: |
+      You’re making morning drip coffee. You need to make 2 cups. Do you:
+        1. Put 1 cups worth of water in the boiler so the water boils sooner and the first cup is ready sooner or,
+        2. Put 2 cups worth of water in so both cups are done sooner?
+      This is an illustration of Latency/Throughput.
+
+  - url: https://beginners.re/RE4B-EN.pdf
+    title: "Reverse Engineering for Beginners: (PDF)"
+    description: "The full source also available at [Github](https://github.com/DennisYurichev/RE-for-beginners).  If you don't like book, then [ReversingHero](https://www.reversinghero.com/) is another great option where lean toward hands-on experience, with a single binary and 15 level of increasing difficulty, teaching reverse engineering"
+
+  - url: https://www.garykessler.net/library/crypto.html
+    title: "An Overview of Cryptography"
+    description: |
+      This paper has two major purposes. The first is to define some of the terms and concepts behind basic cryptographic methods, and to offer a way to compare the myriad cryptographic schemes in use today. The second is to provide some real examples of cryptography in use today. (See Section A.4 for some additional commentary on this...)
+
+  - url: https://blog.scottlogic.com/2019/11/18/drawing-lines-with-webgl.html
+    title: "Drawing Lines with WebGL"
+    description: |
+      Do you know that everything in WebGL is composed by triangles?
+
+  - url: https://idea.popcount.org/2019-12-06-addressing/
+    title: "Addressing in AF_INET, AF_INET6 and AF_UNIX sockets"
+    description: "A freshly created socket isn't very useful. We have to tell it to either listen for incoming data, or connect to a remote peer. To achieve anything useful we need to perform a syscall dance, which involves either bind() or connect() or both."
+
+  - url: https://blog.acolyer.org/2019/11/25/mergeable-replicated-data-types-part-i/
+    title: "Mergeable replicated data types – Part I"
+    description: |
+      Mergeable Replicated Data Types (MRDTs) are in the same spirit as CRDTs but with the very interesting property that they compose. Furthermore, a principled approach for deriving MRDTs is provided, allowing a wide range of data-types to be lifted to their mergeable, replicated counterparts with very little effort on the part of the programmer.
+    #  - url: https://labs.spotify.com/2019/11/12/spotifys-event-delivery-life-in-the-cloud/
+    #    title: "Spotify’s Event Delivery – Life in the Cloud"
+    #
+    #  - url: https://soptik.tech/articles/beware-of-shell-globs.html
+    #    title: "Beware of shell globs"
+    #    description: |
+    #      A very short article on dangerous of shell globs expansion and why we should use `--` when invoking command.
+    #
+    #  - url: https://medium.com/@alexharri/the-engineering-behind-figmas-vector-networks-688568e37110
+    #    title: "The Engineering behind Figma’s Vector Networks"
+    #  - url: https://blog.trailofbits.com/2019/11/27/64-bits-ought-to-be-enough-for-anybody/
+    #    title: "64 Bits ought to be enough for anybody!"
+    #
+
+  # https://lwn.net/SubscriberLink/803890/707f3d8d5c366a1e/
+
+  #  - url: https://blog.trailofbits.com/2019/11/07/attacking-go-vr-ttps/
+  #    title: "Security assessment techniques for Go projects"
+  #
+  #  - url: https://squadrick.github.io/journal/ipc-locks.html
+  #    title: Interprocess Locks
+  #    description: |
+  #
+  #  - url: https://lord.io/blog/2019/text-editing-hates-you-too/
+  #    title: "Text Editing Hates You Too"
+  #    description: |
+  #      The challenge of building text editor.
+  #
+  #  - url: https://www.booleanworld.com/building-recursive-descent-parsers-definitive-guide/
+  #    title: "Building Recursive Descent Parsers: The Definitive Guide"
+  #  - url: https://tech.marksblogg.com/faster-zip-decompression-unzip-deflate-zlib-crc32-adler32-7zip-archiver.html
+  #
+  #  - url: https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc
+  #    title: "An Illustrated Guide to OAuth and OpenID Connect"
+  #    description: |
+  #      The OpenID Connect flow looks the same as OAuth. The only differences are, in the initial request, a specific scope of openid is used, and in the final exchange the Client receives both an Access Token and an ID Token.
+  #
+
+  #  - url: https://www.figma.com/blog/how-figmas-multiplayer-technology-works/
+  #    title: "How Figma’s multiplayer technology works"
+  #
+  #  - url: https://adoptingerlang.org
+  #    title: "Adopting Erlang i"
+
+
+
+video:
+  - url: https://www.youtube.com/watch?v=7Rrv9qFMWNM
+    title: "The main thread is overworked & underpaid"
+
+  - url: https://www.youtube.com/watch?v=yOyaJXpAYZQ
+    title: "Comparing C to machine language"
+
+    #  - url: https://www.youtube.com/playlist?list=PL5Q2soXY2Zi-DyoI3HbqcdtUm9YWRR_z-
+    #    title: "Computer Architecture - ETH Zürich - Fall 2019"
+    #
+    #  - url: https://www.youtube.com/playlist?list=PLSE8ODhjZXja7K1hjZ01UTVDnGQdx5v5U
+    #    title: "15-721 Advanced Database Systems (Spring 2019)"
+    #    description: |
+    #      This course is a comprehensive study of the internals of modern database management systems [https://15721.courses.cs.cmu.edu/spring2019/]
+
+read_code:
+  - url: https://www.matestack.org/
+    title: matestack
+    description: |
+      Rapidly create interactive uis in pure ruby.
+    category: ['Ruby']
+
+  - url: https://github.com/connor4312/cockatiel
+    title: cockatiel
+    description: |
+      A resilience and transient-fault-handling library that allows developers to express policies such as Backoff, Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback
+    category: ['TypeScript']
+
+  - url: https://github.com/alecthomas/chroma
+    title: chroma
+    description: |
+      A general purpose syntax highlighter in pure Go
+    category: ['Go']
+
+tool:
+  - url: https://github.com/cloudflare/flan
+    title: flan scan
+    description: |
+      a lightweight network vulnerability scanner. With Flan Scan you can easily find open ports on your network, identify services and their version, and get a list of relevant CVEs affecting your network.
+
+  - url: https://github.com/slackhq/nebula
+    title: Nebula
+    description: |
+      A scalable overlay networking tool with a focus on performance, simplicity and security
+
+  - url: https://github.com/salesforce/sloop
+    title: sloop
+    description: |
+      monitors Kubernetes, recording histories of events and resource state changes and providing visualizations to aid in debugging past event
+
+  - url: https://github.com/dimitri/pgloader
+    title: pgloader
+    description: "a data loading tool for PostgreSQL, using the COPY command."
+
+  - url: https://github.com/sheshbabu/freshlytics
+    title: freshlytics
+    description: |
+      an open source privacy-friendly analytics software. It aims to be reliable, friendly to use and easy to deploy.
+
+  - url: https://www.zephyrproject.org/
+    title: zephyrproject
+    description: |
+      a scalable real-time operating system (RTOS) supporting multiple hardware architectures, optimized for resource constrained devices, and built with safety and security in mind.
+
+  - url: https://key.cat/
+    title: keycat
+    description: |
+      Open-source end-to-end encrypted password manager. Browswer extension, Go backend, Front-end in Vue are on [https://github.com/keydotcat](https://github.com/keydotcat).
+
+  - url: https://github.com/cilium/hubble
+    title: hubble
+    description: |
+      Network, Service & Security Observability for Kubernetes
