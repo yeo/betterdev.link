@@ -1,0 +1,183 @@
+time: "Dec 09, 2019"
+subject: "Building a search engine from scrach"
+
+draft: false
+
+description: |
+  During Chrismats season, as a tradition, a few sites on internet dedicated to one article per day till christmas.
+  They are usually very interesting, short and to the point. One example is: [Iteration without for, foreach or while](https://functional.christmas/2019/7).
+  You should checkout [https://security.christmas/](https://security.christmas/) too.  [https://adventofcode.com/](https://adventofcode.com/) is another site of this kind, one interesting programming challenger per day till christmas.
+
+links:
+  - url: https://0x65.dev/blog/2019-12-06/building-a-search-engine-from-scratch.html
+    title: "Building a search engine from scratch"
+    description: "Let's build a search engines. Another article in this seria so far is [indexing](https://0x65.dev/blog/2019-12-07/indexing-billions-of-text-vectors.html) and [Spelling correction](https://0x65.dev/blog/2019-12-08/how-do-you-spell-boscodictiasaur.html)"
+
+  - url: https://blog.jonlu.ca/posts/spf-dkim
+    title: "Email authentication: spf, dkim and dmarc out in the wild"
+    description: |
+      We’ve got a variety of tools to attempt to verify emails, including SPF, DKIM, and DMARC, and I wanted to explore the actual usage of these authentication methods by the most popular sites and companies in the world - specifically, the top 100 domains retrieved from Alexa and the Fortune 500 companie
+
+  - url: https://erthalion.info/2019/12/06/postgresql-stay-curious/
+    title: "PostgreSQL at low level: stay curious!"
+    description: |
+      Guide to learn about Strace, Perf, BPF to debug performance or know internally what is going on inside Postgress
+
+  - url: https://yorickpeterse.com/articles/deciding-when-to-collect-garbage/
+    title: "Deciding when to collect garbage"
+    description: "Garbage collector is an important component of languages like Python, Java, Ruby, JavaScript where we don't have to manually manage memory. Sequential collectors, parallel collectors, concurrent collectors, incremental collectors, real-time collectors, the list goes on. But when to perform garbage collection appears to be written about less frequently"
+
+  - url: https://h0mbre.github.io/Learn-C-By-Creating-A-Rootkit/#
+    title: "Creating a Rootkit to Learn C"
+    description: |
+      A good way to cap off a repo designed to introduce people to very basic C programming would be to take those very basic techinques and make a simple yet powerful security related program, namely a malicious shared library rootkit.
+
+  - url: https://blog.acolyer.org/2019/12/02/efficient-lock-free-durable-sets/
+    title: "Efficient lock-free durable sets"
+    description: |
+      Given non-volatile memory (NVRAM), the naive hope for persistence is that it would be a no-op: what happens in memory, stays in memory. Unfortunately, a very similar set of issues to those concerned with flushing volatile memory to persistent disk exist here too, just at another level. Memory might be durable, but…
+
+
+  - url: https://bytes.yingw787.com/posts/2019/12/06/monads/
+    title: "Monads aren't as hard as you think"
+    description: |
+      Ever head of Option, Result or Maybe in language like Rust or Haskell. Or even the safe navigator of Ruby `.?`.
+      A monad is a data type (e.g. int) that encapsulates some control flow (e.g. try/catch).
+      They are still useful in imperative languages like Ruby, Python, JavaScript
+
+  - url: https://www.gpsworld.com/origins-gps-part-1/
+    title: "The Origins of GPS, and the Pioneers Who Launched the System"
+    description: |
+      This may not a good fit at first. But then think about it, GPS is super reliable system.
+      At least it always there when I need it. Looking at its history and challenge they face to
+      build such as system is interesting.
+
+
+  - url: https://dev.to/alediaferia/git-tips-for-trunk-based-development-1i1g
+    title: "Git tips for trunk-based development"
+    description: |
+      Trunk-based development is used at company like Github and the opposite of Gitflow. If you are using this Git branching models,
+      this article has some tips.
+
+  - url: https://wisdom.engineering/awesome-unicode/
+    title: awesome unicode
+    description: |
+      curated list of delightful Unicode tidbits, packages and resources.
+
+
+
+    #  - url: https://labs.spotify.com/2019/11/12/spotifys-event-delivery-life-in-the-cloud/
+    #    title: "Spotify’s Event Delivery – Life in the Cloud"
+    #
+    #  - url: https://soptik.tech/articles/beware-of-shell-globs.html
+    #    title: "Beware of shell globs"
+    #    description: |
+    #      A very short article on dangerous of shell globs expansion and why we should use `--` when invoking command.
+    #
+    #  - url: https://medium.com/@alexharri/the-engineering-behind-figmas-vector-networks-688568e37110
+    #    title: "The Engineering behind Figma’s Vector Networks"
+    #  - url: https://blog.trailofbits.com/2019/11/27/64-bits-ought-to-be-enough-for-anybody/
+    #    title: "64 Bits ought to be enough for anybody!"
+    #
+
+    # https://lwn.net/SubscriberLink/803890/707f3d8d5c366a1e/
+
+    #  - url: https://blog.trailofbits.com/2019/11/07/attacking-go-vr-ttps/
+    #    title: "Security assessment techniques for Go projects"
+    #
+    #  - url: https://squadrick.github.io/journal/ipc-locks.html
+    #    title: Interprocess Locks
+    #    description: |
+    #
+    #  - url: https://lord.io/blog/2019/text-editing-hates-you-too/
+    #    title: "Text Editing Hates You Too"
+    #    description: |
+    #      The challenge of building text editor.
+    #
+    #  - url: https://www.booleanworld.com/building-recursive-descent-parsers-definitive-guide/
+    #    title: "Building Recursive Descent Parsers: The Definitive Guide"
+    #  - url: https://tech.marksblogg.com/faster-zip-decompression-unzip-deflate-zlib-crc32-adler32-7zip-archiver.html
+    #
+    #  - url: https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc
+    #    title: "An Illustrated Guide to OAuth and OpenID Connect"
+    #    description: |
+    #      The OpenID Connect flow looks the same as OAuth. The only differences are, in the initial request, a specific scope of openid is used, and in the final exchange the Client receives both an Access Token and an ID Token.
+    #
+
+    #  - url: https://www.figma.com/blog/how-figmas-multiplayer-technology-works/
+    #    title: "How Figma’s multiplayer technology works"
+    #
+    #  - url: https://adoptingerlang.org
+    #    title: "Adopting Erlang i"
+
+
+video:
+  - url: https://www.youtube.com/watch?v=16xHIBmul_o&list=PLX2gX-ftPVXXGdn_8m2HCIJS7CfKMCwol
+    title: "GPS (1 of 100) The GPS Constellation"
+    description: |
+      [An Introduction to Satellite Navigation](https://www.youtube.com/watch?v=o1Fyn_h6LKU&list=PLGvhNIiu1ubyEOJga50LJMzVXtbUq6CPo)
+
+  - url: https://www.youtube.com/playlist?list=PL5Q2soXY2Zi-DyoI3HbqcdtUm9YWRR_z-
+    title: "Computer Architecture - ETH Zürich - Fall 2019"
+
+    #  - url: https://www.youtube.com/playlist?list=PLSE8ODhjZXja7K1hjZ01UTVDnGQdx5v5U
+    #    title: "15-721 Advanced Database Systems (Spring 2019)"
+    #    description: |
+    #      This course is a comprehensive study of the internals of modern database management systems [https://15721.courses.cs.cmu.edu/spring2019/]
+
+read_code:
+  - url: https://moxie.rs/
+    title: a lightweight platform-agnostic declarative UI runtime, written in rust
+    description: |
+      Read (accompanion post](https://blog.anp.lol/rust/moxie-intro/)
+    category: ['Rust']
+
+  - url: https://github.com/gocardless/statesman
+    title: statesman
+    description: |
+      a state machine library
+    category: ['Ruby']
+
+  - url: https://github.com/mikeal/reg
+    title: reg
+    description: |
+      Native ESM Package Manager. Highly experimental and you will learn about building package registry
+    category: ['JavaScript']
+
+  - url: https://github.com/adamcharnock/lightbus/
+    title: lightbus
+    description: |
+      RPC & event framework for Python 3 
+    category: ['Python']
+
+  - url: https://github.com/candid82/joker
+    title: joker
+    description: |
+      Small Clojure interpreter and linter
+    category: ['Go']
+
+tool:
+  - url: https://github.com/berkay-dincer/kubethanos
+    title: kubethanos
+    description: |
+      Kills half of your randomly selected kubernetes pods.
+
+  - url: https://github.com/mweagle/Sparta
+    title: Sparta
+    description: |
+      Go microservices, powered by AWS Lambda.
+
+  - url: https://github.com/klando/pgfincore
+    title: pgfincore
+    description: |
+      A set of functions to manage pages in memory from PostgreSQ
+
+  - url: https://github.com/similarweb/finala
+    title: "finala"
+    description: |
+      A resource cloud scanner that analyzes and reports about wasteful and unused resources to cut unwanted expenses
+
+  - url: https://www.home-assistant.io/
+    title: home-assistant
+    description: |
+      Open source home automation that puts local control and privacy first.Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
