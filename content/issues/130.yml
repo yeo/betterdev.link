@@ -127,9 +127,10 @@ video:
 
 read_code:
   - url: https://moxie.rs/
-    title: a lightweight platform-agnostic declarative UI runtime, written in rust
+    title: moxeis.rs
     description: |
-      Read (accompanion post](https://blog.anp.lol/rust/moxie-intro/)
+      a lightweight platform-agnostic declarative UI runtime, written in rust.
+      Read [accompanion post](https://blog.anp.lol/rust/moxie-intro/)
     category: ['Rust']
 
   - url: https://github.com/gocardless/statesman
