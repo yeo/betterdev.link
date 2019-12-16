@@ -59,66 +59,6 @@ links:
   - url: https://neilkakkar.com/unix.html
     title: "How Unix Works: Become a Better Software Engineer"
 
-#  - url: http://web.eecs.utk.edu/~azh/blog/challengingprojects.html
-#    title: "Challenging projects every programmer should try"
-#    description: |
-#      Working on a normal CRUD web app or business logic may not push us to the edge of our capability where most
-#      of thing can be express easily. What if we step out of the comfort zone: build an editor without using built-in
-#      text box, write a mini operating system. What is the resources to get us started on that?
-
-#https://refactoringui.com/previews/building-your-color-palette/
-# - url: https://www.booleanworld.com/building-recursive-descent-parsers-definitive-guide/
-#   title: "Building Recursive Descent Parsers: The Definitive Guide"
-#
-#  - url: https://susam.in/blog/writing-boot-sector-code/
-#    title: "https://susam.in/blog/writing-boot-sector-code/"
-#  - url: https://soptik.tech/articles/beware-of-shell-globs.html
-#    title: "Beware of shell globs"
-#    description: |
-#      A very short article on dangerous of shell globs expansion and why we should use `--` when invoking command.
-#
-#    url: https://eater.net/vga
-#    title: "Let’s build a video card!"
-#    description: "In these videos, I talk about how VGA signals work and build a circuit that provides the correct timing of sync signals so that a monitor recognizes the signal and displays an image stored on an EEPROM."
-
-    #  - url: https://labs.spotify.com/2019/11/12/spotifys-event-delivery-life-in-the-cloud/
-    #    title: "Spotify’s Event Delivery – Life in the Cloud"
-    #
-   #
-    #  - url: https://medium.com/@alexharri/the-engineering-behind-figmas-vector-networks-688568e37110
-    #    title: "The Engineering behind Figma’s Vector Networks"
-    #  - url: https://blog.trailofbits.com/2019/11/27/64-bits-ought-to-be-enough-for-anybody/
-    #    title: "64 Bits ought to be enough for anybody!"
-    #
-
-    # https://lwn.net/SubscriberLink/803890/707f3d8d5c366a1e/
-
-    #  - url: https://blog.trailofbits.com/2019/11/07/attacking-go-vr-ttps/
-    #    title: "Security assessment techniques for Go projects"
-    #
-    #  - url: https://squadrick.github.io/journal/ipc-locks.html
-    #    title: Interprocess Locks
-    #    description: |
-    #
-    #  - url: https://lord.io/blog/2019/text-editing-hates-you-too/
-    #    title: "Text Editing Hates You Too"
-    #    description: |
-    #      The challenge of building text editor.
-    #
-    #
-    #  - url: https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc
-    #    title: "An Illustrated Guide to OAuth and OpenID Connect"
-    #    description: |
-    #      The OpenID Connect flow looks the same as OAuth. The only differences are, in the initial request, a specific scope of openid is used, and in the final exchange the Client receives both an Access Token and an ID Token.
-    #
-
-    #  - url: https://www.figma.com/blog/how-figmas-multiplayer-technology-works/
-    #    title: "How Figma’s multiplayer technology works"
-    #
-    #  - url: https://adoptingerlang.org
-    #    title: "Adopting Erlang i"
-
-
 video:
   - url: https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about
     title: "Introduction to Computer Networking"
@@ -131,11 +71,6 @@ video:
       You can also watch more video from [AWS RE:Invent](https://aws.amazon.com/events/events-content/?awsf.filter-series=*all&awsm.page-cards=1&awsf.filter-level=level%23400)
       but make sure to only watch Level 400(Expert)
 
-
-    #  - url: https://www.youtube.com/playlist?list=PLSE8ODhjZXja7K1hjZ01UTVDnGQdx5v5U
-    #    title: "15-721 Advanced Database Systems (Spring 2019)"
-    #    description: |
-    #      This course is a comprehensive study of the internals of modern database management systems [https://15721.courses.cs.cmu.edu/spring2019/]
 
 read_code:
   - url: https://github.com/rust-db/refinery
@@ -206,14 +141,3 @@ tool:
     title: openlayers
     description: "A high-performance, feature-packed library for all your mapping needs"
 
-#  - url: https://github.com/sharkdp/fd
-#    title: fd
-#    description: "A simple, fast and user-friendly alternative to 'find'"
-#
-#  - url: https://github.com/arp242/uni
-#    title: uni
-#    https://github.com/zgoat/goatcounter
-#
-#  - url: https://www.happyhues.co/
-#    title: happyhues
-#    description: "Curated colors in context."
