@@ -1,0 +1,183 @@
+time: "Dec 23, 2019"
+subject: "How Shopify Manages API Versioning and Breaking Changes"
+draft: false
+
+description: |
+  Welcome to the final BetterDev of the year — thanks for all of your continued support, emails, and submissions.
+  We will return on 
+
+
+links:
+  - url: https://engineering.shopify.com/blogs/engineering/shopify-manages-api-versioning-breaking-changes
+    title: "How Shopify Manages API Versioning and Breaking Changes"
+    description: "New year, new challenger, new api, new breaing changes. Let's see how Shopify, the biggest e-commerce platform handle API breaking changes"
+
+  - url: https://aws.amazon.com/builders-library/workload-isolation-using-shuffle-sharding/
+    title: "Workload isolation using shuffle-sharding"
+    description: |
+      How AWS build and scale Route53, handling DDoS attacks 
+
+  - url: https://mystery.knightlab.com/
+    title: "SQL Murder Mystery"
+    description: |
+      The SQL Murder Mystery is designed to be both a self-directed lesson to learn SQL concepts and commands and a fun game for experienced SQL users to solve an intriguing crime.
+
+  - url: https://luaradio.io/new-to-sdr.html
+    title: "LuaRadio: Software Define Radio"
+    description: |
+      A software-defined radio is a radio implemented with reconfigurable software, which processes the raw samples of a digitized radio signal.
+      With about $20, you can get the hardware from ebay and can capture radio and do whatever we want with the radio stream.
+
+  - url: http://www.neocomputer.org/projects/eller.html
+    title: "Eller: algorithm to creates perfect mazes"
+    description: |
+      Create mazes that having only a single path between any two cells, one row at a time. The algorithm itself is incredibly fast, and far more memory efficient than other popular algorithms.
+
+  - url: https://xorhash.gitlab.io/xhblog/0010.html
+    title: "OpenSSH Key Shielding"
+    description: |
+       SSH  key  shielding is a measure intended to protect private keys in RAM against attacks that abuse  bugs in  speculative execution that current CPUs exhibit.
+
+  - url: https://tech.davis-hansson.com/p/make/
+    title: "Your Makefiles are wrong"
+    description: |
+      Many tips to improve your makefile.
+
+  - url: https://www.luu.io/posts/dont-use-booleans/
+    title: "Don't use booleans"
+    description: |
+      Use enums instead.
+      With any blanket statements like this, there are always exceptions. Though in general, I believe the use of enums is often a better choice compared to boolean, unless you really need to squeeze your data into one single physical bit.
+
+  - url: https://codecraft.co/2012/10/29/how-enums-spread-disease-and-how-to-cure-it/
+    title: "How Enums Spread Disease — And How To Cure It"
+    description: |
+      After above article, this one is another case to tell us use enum carefully. Poorly handled enums can infect code with fragility and tight coupling like a digital Typhoid Mary.
+
+  - url: https://www.2ndquadrant.com/en/blog/sequential-uuid-generators/
+    title: Sequential UUID Generators
+    description: |
+      UUIDs are a popular identifier data type – they are unpredictable, and/or globally unique (or at least very unlikely to collide) and quite easy to generate.
+      UUIDs make the access patterns much more random compared to traditional sequential identifiers, cause WAL write amplification etc. So let’s look at an extension generating “sequential” UUIDs, and how it can reduce the negative consequences of using UUIDs
+
+
+#  - url: https://blog.cloudflare.com/html-parsing-1/
+#    title: "
+#    https://blog.cloudflare.com/html-parsing-2/
+#
+#    http://www.muppetlabs.com/~breadbox/txt/bure.html
+#
+#  - url: https://engineering.squarespace.com/blog/2019/performance-tuning-postgres-within-our-tls-infrastructure
+#    title: "Performance Tuning Postgres within our TLS Infrastructure"
+#    description: |
+#
+#  - url: https://lihautan.com/json-parser-with-javascript/
+#    title: "JSON Parser with JavaScript"
+#    description: |
+#      How hard it is to write a JSON parser? dark magic? Turn out it isn't that hard. Read on and maybe implement in your favourite language during Christmas
+#
+#    http://kgrz.io/coping-with-flexbox.html
+#
+#
+#  - url: https://tech.just-eat.com/2019/12/04/lessons-learned-from-handling-jwt-on-mobile/
+#    title: "Lessons learned from handling JWT on mobile"
+#    description: |
+#      Modern mobile apps are more complicated than they used to be back in the early days and developers have to face a variety of interesting problems. While we’ve put in our two cents on some of them in previous articles, this one is about authorization and what we have learned by handling JWT on mobile at Just Eat.
+#  - url: http://web.eecs.utk.edu/~azh/blog/challengingprojects.html
+#    title: "Challenging projects every programmer should try"
+#    description: |
+#      Working on a normal CRUD web app or business logic may not push us to the edge of our capability where most
+#      of thing can be express easily. What if we step out of the comfort zone: build an editor without using built-in
+#      text box, write a mini operating system. What is the resources to get us started on that?
+
+#https://refactoringui.com/previews/building-your-color-palette/
+# - url: https://www.booleanworld.com/building-recursive-descent-parsers-definitive-guide/
+#   title: "Building Recursive Descent Parsers: The Definitive Guide"
+#
+#  - url: https://susam.in/blog/writing-boot-sector-code/
+#    title: "https://susam.in/blog/writing-boot-sector-code/"
+#  - url: https://soptik.tech/articles/beware-of-shell-globs.html
+#    title: "Beware of shell globs"
+#    description: |
+#      A very short article on dangerous of shell globs expansion and why we should use `--` when invoking command.
+#
+#    url: https://eater.net/vga
+#    title: "Let’s build a video card!"
+#    description: "In these videos, I talk about how VGA signals work and build a circuit that provides the correct timing of sync signals so that a monitor recognizes the signal and displays an image stored on an EEPROM."
+
+#  - url: https://blog.trailofbits.com/2019/11/27/64-bits-ought-to-be-enough-for-anybody/
+#    title: "64 Bits ought to be enough for anybody!"
+#
+#  - url: https://blog.trailofbits.com/2019/11/07/attacking-go-vr-ttps/
+#    title: "Security assessment techniques for Go projects"
+#
+#  - url: https://squadrick.github.io/journal/ipc-locks.html
+#    title: Interprocess Locks
+#    description: |
+#
+#  - url: https://lord.io/blog/2019/text-editing-hates-you-too/
+#    title: "Text Editing Hates You Too"
+#    description: |
+#      The challenge of building text editor.
+
+video:
+  - url: https://www.infoq.com/presentations/automated-testing-terraform-docker-packer
+    title: "Automated Testing for Terraform, Docker, Packer, Kubernetes"
+
+  - url: https://www.youtube.com/playlist?list=PLSE8ODhjZXja7K1hjZ01UTVDnGQdx5v5U
+    title: "15-721 Advanced Database Systems (Spring 2019)"
+    description: |
+      This course is a comprehensive study of the internals of modern database management systems [https://15721.courses.cs.cmu.edu/spring2019/]
+
+read_code:
+  - url: https://github.com/mmazzarolo/ordinary-puzzles-app
+    title: "Ordinary Puzzles mobile game"
+    category: ['TypeScript', 'React-Native']
+
+  - url: https://github.com/dwarvesf/hidden
+    title: "hidden"
+    description: |
+      A ultra-light MacOS utility that helps hide menu bar icons.
+    category: ['Swift']
+
+  - url: https://github.com/sharkdp/fd
+    title: fd
+    description: "A simple, fast and user-friendly alternative to 'find'"
+    category: ['Rust']
+
+  - url: https://github.com/arp242/uni
+    title: uni
+    description: |
+      Query the Unicode database from the commandline, with good support for emojis
+    category: ['Go']
+
+tool:
+  - url: https://github.com/obsidiandynamics/kafdrop
+    title: "kafdrop"
+    description: |
+       a web UI for viewing Kafka topics and browsing consumer groups. The tool displays information such as brokers, topics, partitions, consumers, and lets you view messages.
+
+  - url: https://github.com/unifrost/unifrost
+    title: "unifrost"
+    description: |
+      A go module that makes it easier to stream pubsub messages to the web by relaying them via Server Sent Events
+
+  - url: https://www.hammerspoon.org/
+    title: "hammerspoon"
+    description: |
+      A tool for powerful automation of OS X use a Lua scripting engine.
+
+  - url: https://www.benthos.dev/
+    title: benthos
+    description: |
+      The stream processor for mundane tasks.
+
+  - url: https://github.com/barabo/advanced-shell-history
+    title: Advanced command line shell history
+    description: Save your bash history to sqlite3 automatically!
+
+#  https://github.com/zgoat/goatcounter
+
+  - url: https://www.happyhues.co/
+    title: happyhues
+    description: "Curated colors in context"
