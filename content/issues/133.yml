@@ -1,0 +1,191 @@
+time: "Jan 07, 2020"
+subject: "Doomsday Algorithm and reconstruction of Capital One's data breach"
+draft: false
+
+description: |
+  Happy New Year everyone. This issue is supposed to be sent out yesterday but get delay due to technical issue so I'm sending out today.  Let's start 2020 by an article to find day of the week for any date. Thank you for being a reader. If you like this newsletter, please help spread the words out.
+
+
+links:
+  - url: http://rudy.ca/doomsday.html
+    title: "Doomsday Algorithm"
+    description: |
+      The Doomsday Algorithm gives the day of the week for any date (and you can do it in your head)
+
+  - url: https://application.security/
+    title: "A reconstruction of Capital One's data breach incident that exposed the records of almost 106 million customers"
+    description: |
+      If you didn't have time to follow detail of Capital One data breach, then this is for you. An interactive tutorial to demo what happen and I'm sure you will learn more about Server Side Request Forgery
+
+  - url: https://medium.com/netflix-techblog/netflix-information-security-preventing-credential-compromise-in-aws-41b112c15179
+    title: "Netflix Information Security: Preventing Credential Compromise in AWS"
+    description: |
+      This is what happen with Capital One and how we can prevent it. Some other notes include:
+      1) [defense in depth for SSRF](https://aws.amazon.com/blogs/security/defense-in-depth-open-firewalls-reverse-proxies-ssrf-vulnerabilities-ec2-instance-metadata-service/)
+      2) [AWS IAM Privilege Escalation – Methods and Mitigation](https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/)
+      3) [21 techniques to escalate privileges in AWS](https://know.bishopfox.com/research/privilege-escalation-in-aws)
+
+  - url: https://medium.com/@raphaelstaebler/building-a-gameboy-from-scratch-part-2-the-cpu-d6986a5c6c74
+    title: "Emulating the Original Gameboy’s CPU — Part 2 of a Series"
+    description: |
+      The first part of this series I’ve been introducing the whole project of building my own version of this iconic handheld gaming console while also discussing some of the requirements to the hardware. Now I’m going to dig in and start working on the heart of the console: the CPU.
+
+  - url: https://github.com/hmemcpy/milewski-ctfp-pdf/
+    title: "'Category Theory for Programmers' unofficial PDF and LaTeX source"
+
+  - url: https://blog.jse.li/posts/torrent/
+    title: "Building a BitTorrent client from the ground up in Go"
+    description: |
+       What is the complete path between visiting thepiratebay and sublimating an mp3 file from thin air? In this post, we’ll implement enough of the BitTorrent protocol to download Debian
+
+  - url: https://increment.com/testing/in-praise-of-property-based-testing/
+    title: "In praise of property-based testing"
+    description: |
+      Example-based tests hinge on a single scenario. Property-based tests get to the root of software behavior across multiple parameters.
+
+  - url: https://queue.acm.org/detail.cfm?id=3212479
+    title: "C Is Not a Low-level Language"
+    description: |
+      Your computer is not a fast PDP-11.
+
+  - url: https://geidav.wordpress.com/2014/04/27/an-overview-of-direct-memory-access/
+    title: "An overview of direct memory access"
+
+  - url: https://lihautan.com/json-parser-with-javascript/
+    title: "JSON Parser with JavaScript"
+    description: "How hard it is to write a JSON parser? dark magic? Turn out it isn't that hard. Read on and maybe implement in your favourite language during Christmas"
+
+#  - url: https://soptik.tech/articles/beware-of-shell-globs.html
+#    title: "Beware of shell globs"
+#    description: |
+#      A very short article on dangerous of shell globs expansion and why we should use `--` when invoking command.
+#
+
+#    https://twitter.com/Phacks/status/1110161414025555968
+#
+#    http://adventures.michaelfbryan.com/posts/ecs-outside-of-games/
+#
+#    https://www.thirtythreeforty.net/posts/2019/12/my-business-card-runs-linux/
+
+#  - url: https://blog.cloudflare.com/html-parsing-1/
+#    title: "
+#    https://blog.cloudflare.com/html-parsing-2/
+#
+#    http://www.muppetlabs.com/~breadbox/txt/bure.html
+#
+#
+
+#    http://kgrz.io/coping-with-flexbox.html
+#
+#
+#  - url: https://tech.just-eat.com/2019/12/04/lessons-learned-from-handling-jwt-on-mobile/
+#    title: "Lessons learned from handling JWT on mobile"
+#    description: |
+#      Modern mobile apps are more complicated than they used to be back in the early days and developers have to face a variety of interesting problems. While we’ve put in our two cents on some of them in previous articles, this one is about authorization and what we have learned by handling JWT on mobile at Just Eat.
+#  - url: http://web.eecs.utk.edu/~azh/blog/challengingprojects.html
+#    title: "Challenging projects every programmer should try"
+#    description: |
+#      Working on a normal CRUD web app or business logic may not push us to the edge of our capability where most
+#      of thing can be express easily. What if we step out of the comfort zone: build an editor without using built-in
+#      text box, write a mini operating system. What is the resources to get us started on that?
+
+#https://refactoringui.com/previews/building-your-color-palette/
+# - url: https://www.booleanworld.com/building-recursive-descent-parsers-definitive-guide/
+#   title: "Building Recursive Descent Parsers: The Definitive Guide"
+#
+#  - url: https://susam.in/blog/writing-boot-sector-code/
+#    title: "https://susam.in/blog/writing-boot-sector-code/"
+#
+#    url: https://eater.net/vga
+#    title: "Let’s build a video card!"
+#    description: "In these videos, I talk about how VGA signals work and build a circuit that provides the correct timing of sync signals so that a monitor recognizes the signal and displays an image stored on an EEPROM."
+
+#  - url: https://blog.trailofbits.com/2019/11/27/64-bits-ought-to-be-enough-for-anybody/
+#    title: "64 Bits ought to be enough for anybody!"
+#
+#  - url: https://blog.trailofbits.com/2019/11/07/attacking-go-vr-ttps/
+#    title: "Security assessment techniques for Go projects"
+#
+#  - url: https://squadrick.github.io/journal/ipc-locks.html
+#    title: Interprocess Locks
+#    description: |
+#
+
+video:
+#- url: https://www.youtube.com/watch?v=E8I19uA-wGY
+  - url: https://www.infoq.com/presentations/webassembly-compiler/
+    title: "Build Your Own WebAssembly Compiler"
+
+  - url: https://media.ccc.de/v/36c3-10936-inside_the_fake_like_factories
+    title: "How thousands of Facebook, You Tube and Instagram pages benefited from purchased likes and how we reverse engineered facebooks user IDs"
+
+
+read_code:
+  - url: https://github.com/tomarrell/lbadd
+    title: lbadd
+    description: "An experimental, distributed SQL database"
+    category: ['Go']
+
+  - url: https://github.com/Baekalfen/PyBoy
+    title: PyBoy
+    description: |
+      Game Boy emulator written in Python
+    category: ['Python']
+
+  - url: https://github.com/str4d/rage
+    title: rage
+    description: |
+      rust implemtation of (age)[ https://age-encryption.org/v1]
+    category: ['Rust']
+
+  - url: https://github.com/johnsundell/publish
+    title: publish
+    description: |
+      A static site generator for Swift developers
+    category: ['Swift']
+
+  - url: https://github.com/victorqribeiro/isocity
+    title: isocity
+    description: |
+      A isometric city builder in JavaScript
+    category: ['JavaScript']
+
+tool:
+  - url: https://github.com/bash-my-aws/bash-my-aws/
+    title: bash-my-aws
+    description: |
+      CLI commands for AWS
+
+  - url: https://github.com/chaskiq/chaskiq
+    title: chaskiq
+    description: |
+      Open Source conversational Marketing alternative to Intercom, Drift, etc.. 
+
+  - url: https://github.com/imsnif/what
+    title: what
+    description: |
+      a CLI utility for displaying current network utilization by process, connection and remote IP/hostname
+
+  - url: https://github.com/FiloSottile/age
+    title: age
+    description: |
+      A simple, modern and secure encryption tool with small explicit keys, no config options, and UNIX-style composability. 
+
+
+  - url: https://github.com/perkeep/perkeep
+    title: perkeep
+    description: |
+      your personal storage system for life: a way of storing, syncing, sharing, modelling and backing up content.
+
+  - url: https://github.com/cloud-custodian/cloud-custodian
+    title: cloud-custodian
+    description: |
+      Rules engine for cloud security, cost optimization, and governance, DSL in yaml for policies to query, filter, and take actions on resources
+
+  - url: https://github.com/outline/outline
+    title: outline
+    description: |
+      The fastest wiki and knowledge base for growing teams
+#https://github.com/sissbruecker/linkding
+#- url: https://github.com/schollz/croc
+#  https://github.com/zgoat/goatcounter
