@@ -135,7 +135,7 @@ read_code:
   - url: https://github.com/str4d/rage
     title: rage
     description: |
-      rust implemtation of (age)[ https://age-encryption.org/v1]
+      rust implemtation of [age](https://age-encryption.org/v1)
     category: ['Rust']
 
   - url: https://github.com/johnsundell/publish
