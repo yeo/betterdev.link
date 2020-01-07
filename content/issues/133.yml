@@ -150,6 +150,10 @@ read_code:
       A isometric city builder in JavaScript
     category: ['JavaScript']
 
+  - url: https://github.com/st0012/tapping_device
+    title: tapping_device
+    description: "A new way to inspect your Ruby programs"
+    category: ['Ruby']
 tool:
   - url: https://github.com/bash-my-aws/bash-my-aws/
     title: bash-my-aws
