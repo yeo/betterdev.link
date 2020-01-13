@@ -55,64 +55,7 @@ links:
     title: "JSON Parser with JavaScript"
     description: "How hard it is to write a JSON parser? dark magic? Turn out it isn't that hard. Read on and maybe implement in your favourite language during Christmas"
 
-#  - url: https://soptik.tech/articles/beware-of-shell-globs.html
-#    title: "Beware of shell globs"
-#    description: |
-#      A very short article on dangerous of shell globs expansion and why we should use `--` when invoking command.
-#
-
-#    https://twitter.com/Phacks/status/1110161414025555968
-#
-#    http://adventures.michaelfbryan.com/posts/ecs-outside-of-games/
-#
-#    https://www.thirtythreeforty.net/posts/2019/12/my-business-card-runs-linux/
-
-#  - url: https://blog.cloudflare.com/html-parsing-1/
-#    title: "
-#    https://blog.cloudflare.com/html-parsing-2/
-#
-#    http://www.muppetlabs.com/~breadbox/txt/bure.html
-#
-#
-
-#    http://kgrz.io/coping-with-flexbox.html
-#
-#
-#  - url: https://tech.just-eat.com/2019/12/04/lessons-learned-from-handling-jwt-on-mobile/
-#    title: "Lessons learned from handling JWT on mobile"
-#    description: |
-#      Modern mobile apps are more complicated than they used to be back in the early days and developers have to face a variety of interesting problems. While we’ve put in our two cents on some of them in previous articles, this one is about authorization and what we have learned by handling JWT on mobile at Just Eat.
-#  - url: http://web.eecs.utk.edu/~azh/blog/challengingprojects.html
-#    title: "Challenging projects every programmer should try"
-#    description: |
-#      Working on a normal CRUD web app or business logic may not push us to the edge of our capability where most
-#      of thing can be express easily. What if we step out of the comfort zone: build an editor without using built-in
-#      text box, write a mini operating system. What is the resources to get us started on that?
-
-#https://refactoringui.com/previews/building-your-color-palette/
-# - url: https://www.booleanworld.com/building-recursive-descent-parsers-definitive-guide/
-#   title: "Building Recursive Descent Parsers: The Definitive Guide"
-#
-#  - url: https://susam.in/blog/writing-boot-sector-code/
-#    title: "https://susam.in/blog/writing-boot-sector-code/"
-#
-#    url: https://eater.net/vga
-#    title: "Let’s build a video card!"
-#    description: "In these videos, I talk about how VGA signals work and build a circuit that provides the correct timing of sync signals so that a monitor recognizes the signal and displays an image stored on an EEPROM."
-
-#  - url: https://blog.trailofbits.com/2019/11/27/64-bits-ought-to-be-enough-for-anybody/
-#    title: "64 Bits ought to be enough for anybody!"
-#
-#  - url: https://blog.trailofbits.com/2019/11/07/attacking-go-vr-ttps/
-#    title: "Security assessment techniques for Go projects"
-#
-#  - url: https://squadrick.github.io/journal/ipc-locks.html
-#    title: Interprocess Locks
-#    description: |
-#
-
 video:
-#- url: https://www.youtube.com/watch?v=E8I19uA-wGY
   - url: https://www.infoq.com/presentations/webassembly-compiler/
     title: "Build Your Own WebAssembly Compiler"
 
@@ -190,6 +133,3 @@ tool:
     title: outline
     description: |
       The fastest wiki and knowledge base for growing teams
-#https://github.com/sissbruecker/linkding
-#- url: https://github.com/schollz/croc
-#  https://github.com/zgoat/goatcounter
