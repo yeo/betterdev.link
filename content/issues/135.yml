@@ -1,0 +1,161 @@
+time: "Jan 20, 2020"
+subject: "Security architecture anti-patterns amd The System Design Primer"
+draft: false
+
+description: ""
+
+links:
+  - url: https://www.ncsc.gov.uk/whitepaper/security-architecture-anti-patterns
+    title: "Security architecture anti-patterns"
+    description: |
+      Six design patterns to avoid when designing computer systems.
+
+  - url: https://github.com/donnemartin/system-design-primer
+    title: "The System Design Primer"
+    description: |
+      Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
+
+
+  - url: https://www.datadoghq.com/blog/tagging-best-practices/
+    title: "Best practices for tagging your infrastructure and applications"
+    description: |
+      Tagging is essential to monitoring services and underlying infrastructure to group thing together and identify thing.
+      Eg, we can easily say this Redis server is used by this service.
+
+  - url: https://engineering.grab.com/plumbing-at-scale
+    title: "Plumbing At Scale"
+    description: |
+      Event Sourcing and Stream Processing Pipelines at Grab. I like these kind of artciles where well known
+      companies share how they do certain thing which is very practical and always have right trade of.
+
+  - url: https://jsantell.com/p2p-peer-discovery
+    title: "P2P Peer Discovery"
+    description: |
+      A short article but still give out lot of useful information on how nodes in decentralized applications
+      can discover others.
+
+  - url: https://allegro.tech/2020/01/design-for-failure.html
+    title: "Design for failure - multiple layers of processing to protect against failures."
+    description: |
+      When designing the architecture of a system, one always needs to think about what can go wrong and what kind of failures can occur in the system. This kind of problem analysis is especially hard in distributed systems. Failure is inevitable and the best we can do is to prepare for it.
+
+
+  - url: https://rachel53461.wordpress.com/2014/04/20/algorithm-for-drawing-trees/
+    title: "Algorithm for Drawing Trees"
+    description: |
+      Sound easy? Just Google for an algorithm to determine the X,Y position of each node, then do something to draw each node on the screen. Not so fast.
+
+  - url: https://nodesource.com/blog/memory-leaks-demystified
+    title: "Memory Leaks Demystified"
+    description: |
+      It's NodeJS but I think you can also learn about this devtools feature to debug find client's side leak as well
+      They shows how you can use Chrome DevTools and Remote Target to find the leak.
+
+  - url: https://erikmcclure.com/blog/pressure-based-anti-spam-for-discord-bots/
+    title: "Pressure Based Anti-Spam for Discord Bots"
+    description: |
+      This post is an effort to educate all the other anti-spam bots on how to ascend beyond a simple “mute someone if they send more than N messages in M seconds” filter.
+
+  - url: https://software.intel.com/en-us/ai/courses/anomaly-detection
+    title: "Anomaly Detection"
+    description: |
+      This free course provides you with practical knowledge of the following skills.
+      The theory and methods used for anomaly detection from beginning to advanced levels. Derive depth-based and proximity-based detection models.
+
+video:
+  - url: https://www.youtube.com/watch?v=8d0wzyiikXM
+    title: "Automated Testing and Profiling for Call of Duty"
+
+  - url: https://www.youtube.com/watch?v=2vnvmE3-HMM
+    title: "Prometheus at Prezi: Replacing 10 Years of Anti-patterns"
+
+  - url: https://www.infoq.com/presentations/gitlab-monolith-scale/
+    title: "How Gitlab Scaled Git Access with Go and What We Gained from It"
+
+read_code:
+  - url: http://bfnightly.bracketproductions.com/rustbook/chapter_0.html
+    title: "Roguelike Tutorial - In Rust"
+    description: |
+        If you want to get into game development, for fun or for work, then this is good resource.
+        It like a walk through elements that are needed to learn in order to build game. In Rust, a language which for sure will be raising in 2020.
+    category: ['Rust']
+
+  - url: https://gist.github.com/willurd/5720255
+    title: "Big list of http static server one-liners"
+    description: |
+      For fun only. How to run a static server for quick test using only one line
+    category: ['Multi']
+
+  - url: https://github.com/pete/cats
+    title: cats
+    description: |
+      Implementations of cat(1) from various source: Linux, BSD, Plan-9, BusyBox...
+    category: ['C']
+
+  - url: https://github.com/lmorg/murex
+    title: murex
+    description: |
+      Bash-like $SHELL designed for greater commandline productivity and safer shell scripts
+    category: ['Go']
+
+  - url: https://github.com/ruby-formatter/rufo
+    title: rufo
+    description: |
+      an opinionated ruby formatter, intended to be used via the command line as a text-editor plugin, to autoformat files on save or on demand.
+    category: ['Ruby']
+
+  - url: https://github.com/axa-group/Parsr
+    title: Parsr
+    description: |
+       a minimal-footprint document (image, pdf) cleaning, parsing and extraction toolchain which generates readily available, organized and usable data for data scientists and developers.
+    category: ['TypeScript']
+
+  - url: https://github.com/M4cs/Slacky
+    title: Slacky
+    description: "The BEST Slack Selfbot on GitHub | No Bot User, Acts Like It's You!"
+    category: ['Python']
+
+tool:
+  - url: https://github.com/heroku/terrier
+    title: terrier
+    description: |
+      an Image and Container analysis tool that can be used to scan OCI images and Containers to identify and verify the presence of specific files according to their hashes.
+
+  - url: https://github.com/forbesmyester/esqlate
+    title: esqlate
+    description: |
+      Build minimum viable admin panels quickly with just SQL
+
+  - url: https://github.com/CrunchyData/pgmonitor
+    title: pgmonitor
+    description: |
+      PostgreSQL Monitoring, Metrics Collection and Alerting Resources 
+
+  - url: https://github.com/k1LoW/tbls
+    title: tbls
+    description: |
+      Basically you give the tools credential to access your test/dev database and it generates markdown
+      of your schema.
+
+  - url: https://ouroboros.rocks/
+    title: Ouroboros
+    description: |
+      Decentralized packet networking rebuilt from the ground up
+
+  - url: https://github.com/pingcap/chaos-mesh
+    title: chaos-mesh
+    description: |
+      A Chaos Engineering Platform for Kubernetes
+
+  - url: https://glia.org/
+    title: glia
+    description: |
+      High-quality low-cost open source medical hardware that makes a difference.
+
+  - url: https://github.com/rogerwelin/cassowary
+    title: cassowary
+    description: "Modern cross-platform HTTP load-testing tool"
+
+  - url: https://github.com/vesoft-inc/nebula
+    title: nebula
+    description: "A distributed, fast open-source graph database featuring horizontal scalability and high availability"
