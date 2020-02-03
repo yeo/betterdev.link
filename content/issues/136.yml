@@ -1,0 +1,122 @@
+time: "Jan 27, 2020"
+subject: "Intelligent DNS based load balancing at Dropbox"
+draft: false
+
+description: ""
+
+links:
+  - url: https://astr.cc/blog/fe-ctf-2019-writeup/
+    title: "FE Hackerakademi CTF 2019 writeup"
+    description: |
+      We can always learn from CTF hacking challenge. The author scored first place in the CTF, hitting the maximum point count of 3651 before any other participants. This is his writeup to challenges. You will learn a lot from these.
+
+  - url: https://blogs.dropbox.com/tech/2020/01/intelligent-dns-based-load-balancing-at-dropbox/
+    title: "Intelligent DNS based load balancing at Dropbox"
+    description: |
+      This article describes our work with NS1 to optimize our intelligent DNS-based global load balancing for corner cases that we uncovered while improving our point of presence (PoP) selection automation for our edge network.
+
+  - url: https://stffrdhrn.github.io/hardware/embedded/openrisc/2020/01/19/tls.html
+    title: "Thread Local Storage(TLS)"
+    description: |
+      Ruby or Python or language with thread support has a concept of TLS where you can attach a global
+      variable but locally to current thread.
+
+  - url: https://github.com/fpereiro/backendlore/blob/master/readme.md
+    title: "How I write backends"
+    description: |
+      From late 2012 to the present the OP have been writing backends (server-side code) for web applications. This document summarizes many aspects of how they write these pieces of code.
+
+  - url: https://michael.stapelberg.ch/posts/2020-01-21-initramfs-from-scratch-golang/
+    title: "Distri: 20x faster initramfs (initrd) from scratch"
+    description: |
+      initramsfs is typically used when starting Linux. Distri is a Linux distro to research fast package manager. In this article, author described
+      how he build a initramfs that is 20x faster by write the initramfs generator program and custom userland running as /init in the initramfs, both in Go.
+
+  - url: "https://6004.mit.edu/web/fall19/resources/lectures"
+    title: "Computation Structures"
+    description: |
+      A free course from MIT. You will learn about Binary Representation, Assembly, Compiling Code, Procedures, and Stacks, : Boolean Algebra and Logic Synthesis,
+      CMOS. Basically lost of stuff that very low level but quite good to know more about computer.
+
+  - url: https://evilmartians.com/chronicles/what-i-learned-as-a-developer-from-accidents-in-space
+    title: "What I learned as a developer from accidents in space"
+    description: |
+      Join Andrey Sitnik, the author of PostCSS and Autoprefixer, for a round of tales from the Soviet Space Age and learn the lessons he took from them to become a better developer and open-source maintainer. A failed docking attempt, a dramatic reentry, and a first genuine fender-bender in orbit—what does it all have to do with modern web development
+
+  - url: https://sqlite.org/howtocorrupt.html
+    title: "How To Corrupt An SQLite Database File"
+    description: |
+      An SQLite database is highly resistant to corruption. If an application crash, or an operating-system crash, or even a power failure occurs in the middle of a transaction, the partially written transaction should be automatically rolled back the next time the database file is accessed. The recovery process is fully automatic and does not require any action on the part of the user or the application.
+
+  - url: https://twitter.com/felixge/status/1219268882416001025
+    title: "Debugging a Postgres Performance issue"
+    description: "After spending weeks optimizing an ETL process to be 3x faster, an index-only scan got 3x slower compared to a replica that hadn't undergone the new ETL process. Main clue: (shared) buffer hits were up by 10x."
+
+  - url: https://hackernoon.com/very-basic-intro-to-aes-256-cipher-qxr32yk
+    title: "A Very Basic Introduction to AES-256 Cipher"
+    description: |
+      A simple step by step to encrypt using ASES-256 by hand.
+
+video:
+  - url: https://www.youtube.com/watch?v=HApI2cspQus
+    title: "Test Desiderata 8/12: Tests Should Be Isolated (from each other)"
+    description: |
+      By Kent Beck, one of the creator of TDD.
+
+  - url: https://www.youtube.com/watch?v=ly86Wq_E18o
+    title: " Amazing Code Reviews: Creating a Superhero Collective"
+    description: |
+      By Alejandro from Shopify.
+
+read_code:
+  - url: https://github.com/simple-login/app
+    title: simple-login
+    description: |
+      Get a random email alias to hide your real email.
+    category: ['Python', 'JavaScript']
+
+  - url: https://github.com/rgrove/crass
+    tille: crass
+    description: "A Ruby CSS parser that's fully compliant with the CSS Syntax Level 3 specification"
+    category: ['Ruby']
+
+  - url: https://proton-native.js.org/
+    title: "proton native"
+    description: "Create desktop applications through a React syntax, on all platforms."
+    category: ['JavaScript']
+
+  - url: https://github.com/buchanae/ink
+    title: ink
+    description: |
+      a framework for creative 2D graphics in Go, based on OpenGL. Check [Introduction post](https://buchanae.github.io/ink/)
+    category: ['Go']
+
+tool:
+  - url: https://github.com/cybertec-postgresql/pgwatch2
+    title: pgwatch2
+    description: |
+      PostgreSQL metrics monitor/dashboard
+
+  - url: https://github.com/postgrespro/pg_probackup
+    title: pg_probackup
+    description: "Backup and recovery manager for PostgreSQL"
+
+  - url: https://blog.google/products/search/discovering-millions-datasets-web/
+    title: "Discovering millions of datasets on the web"
+    description: |
+      I try hard not to link to product announcement. But this new dataset search feature
+      from google is very useful for us developer to [find sample dataset](https://datasetsearch.research.google.com/)
+
+  - url: https://github.com/AllenDang/giu
+    title: "giu: Cross platform rapid GUI framework for golang based on Dear ImGui"
+    description: |
+      I have been looking for a way to build cross platform desktop app. And this might be the way I will explore next
+
+  - url: https://github.com/cloud66-oss/trackman
+    title: trackman
+    description: |
+      a command line tool and Go library that runs multiple commands in a workflow. It support parallel steps, step dependencies, async steps and success checkers.
+  - url: https://github.com/saulpw/visidata
+    title: visidata
+    description: |
+      A terminal spreadsheet multitool for discovering and arranging dat
