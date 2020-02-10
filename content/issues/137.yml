@@ -1,0 +1,146 @@
+time: "Feb 03, 2020"
+subject: "Some Useful Probability Facts for Systems Programming"
+draft: false
+
+description: |
+  Hi all, this week my friend, Esther Schindler, share with me an artile when you consider [becoming a software QA professional](https://www.functionize.com/blog/so-you-want-to-become-a-software-qa-professional/). Check it out if you consider that career path.
+
+  On the other note, if you want to getting better at hacking and security, we had a [Hacker Roadmap](https://sundowndev.github.io/hacker-roadmap/)
+  which is an overview of what you need to learn penetration testing and a collection of hacking tools, resources and references to practice ethical hacking. Most of the tools are UNIX compatible, free and open source.
+
+  Now, on to our normal links. As alway, please help spread the words if you like this news letter :-).
+
+links:
+  - url: https://theartofmachinery.com/2020/01/27/systems_programming_probability.html
+    title: "Some Useful Probability Facts for Systems Programming"
+    description: |
+      Probability problems come up a lot in systems programming, and I’m using that term loosely to mean everything from operating systems programming and networking, to building large online services, to creating virtual worlds like in games. Here’s a bunch of rough-and-ready probability rules of thumb that are deeply related and have many practical applications when designing system
+
+  - url: https://stratus3d.com/blog/2020/01/20/applying-the-let-it-crash-philosophy-outside-erlang/
+    title: "The Let It Crash Philosophy Outside Erlang"
+    description: |
+      One of the ideas at the core of the Erlang runtime system’s design is the Let It Crash error handling philosophy.
+      This post presents a  couple real world scripts written in various languages and then showing how they can be improved using the Let It Crash principles.
+
+  - url: https://drive.google.com/file/d/1ZWqSoCq6rw514I0ZAcs4cU-5-OJVMfO3/view
+    title: "How (Not) to Containerise Securely"
+    description: |
+      PDF of a talk at FOSDEM 2020 about Kubernetes attack vectors. Show a few specific exploits, tooling and remediation.
+
+  - url: https://www.depesz.com/2020/01/29/which-tables-should-be-auto-vacuumed-or-auto-analyzed/
+    title: "Which tables should be auto vacuumed or auto analyzed?"
+    description: "When using Postgres or any of software based on it, such as Redshift, you have to aware of manually vacuum when autovacuum couldn't keep up with changes. But when doing manually, how do we check  which tables are waiting for autovacuum to work on them."
+
+  - url: https://application.security/free-application-security-training/cross-site-scripting-vulnerability-in-tiktok
+    title: "A reconstruction of TikTok Cross Site Scripting Vulnerability"
+    description: |
+      We linked to this site before for their reconstruction of Capital One SSRF. They will guide you through exactly what happen
+      so you can learn to avoid these mistake
+
+  - url: https://github.com/teivah/algodeck
+    title: "Algo Deck"
+    description: |
+       an Open-Source Collection of +200 Algorithmic Cards to Help you Preparing your Algorithm & Data Structure Interview
+
+  - url: https://aster.cloud/2019/12/17/what-you-probably-didnt-know-about-sudo/
+    title: "What you probably didn’t know about sudo"
+    description: |
+      Everybody knows sudo, right? This tool is installed by default on most Linux systems and is available for most BSD and commercial Unix variants. Still, after talking to hundreds of sudo users, the most common answer I received was that sudo is a tool to complicate life.
+
+  - url: https://itnext.io/designing-the-shortening-url-system-like-bit-ly-loading-6-billion-clicks-a-month-78b3e48eee8c
+    title: "Designing the Shortening URL system like Bit.ly, loading 6 billion clicks a month"
+    description: |
+      Give you an overview of how to design the system of millions of users, billions of clicks per month. From thinking to problem solving.
+
+  - url: https://www.fluentcpp.com/2020/01/14/the-shapes-of-code/
+    title: "The Shapes of Code"
+    description: |
+      Every piece of code we write is unique, or pretty much. However, there are things that are common in a lot of code, even across various codebases, and even across various languages: the physical shape that code has.
+
+  - url: http://loup-vaillant.fr/tutorials/128-bits-of-security
+    title: "128 Bits of Security and 128 Bits of Security: Know the Difference"
+    description: "Daniel J. Bernstein' favoured (and designed) ciphers that have 256 bits of security, and explained in painstaking details that 128-bit encryption keys may not be quite enough for all applications. On the other hand, he designed Curve25519, whose security goal is… 128 bits."
+
+
+video:
+  - url: https://channel9.msdn.com/Blogs/Seth-Juarez/Anders-Hejlsberg-on-Modern-Compiler-Construction
+    title: "Anders Hejlsberg on Modern Compiler Construction"
+    description: "Anders Hejlsberg design Turbo Pascal, Delphi and eventually C# and nowsaday TypeScript."
+
+  - url: https://www.youtube.com/watch?v=AQDCe585Lnc
+    title: "Asymmetric encryption - Simply explained"
+
+
+read_code:
+  - url: https://github.com/evilsocket/opensnitch
+    title: opensnitch
+    description: |
+      a GNU/Linux port of the Little Snitch application firewall.
+      This code is useful because it use Python to implement the UI while the core logic is in Go.
+    category: ['Python', 'Go']
+
+  - url: https://github.com/kasper/phoenix
+    title: phoenix
+    description: |
+      A lightweight macOS/OS X window and app manager scriptable with JavaScript
+    category: ['JavaSciprt']
+
+  - url: https://github.com/luigifreitas/CyberRadio
+    title: CyberRadio
+    description: "📻 A SDR Based FM/AM Radio For Desktop. Accelerated with #cuSignal and Numba."
+    category: ['Python']
+
+  - url: https://ankane.org/new-ml-gems
+    title: "16 New ML Gems for Ruby"
+    description: |
+      Rubyist know that Ruby is lag behind in ML compare with Python. But Anknane is working really hard on it. He authors many popular gems
+      such as ChartKick, PgHero.
+    category: ['Ruby']
+
+  - url: https://github.com/itchyny/bed
+    title: bed
+    description: |
+      Binary editor written in Go
+    category: ['Go']
+
+tool:
+  - url: https://github.com/google/ko
+    title: ko
+    description: |
+      Build and deploy Go applications on Kubernetes
+
+  - url: https://github.com/trimstray/the-book-of-secret-knowledge
+    title: "the book of secret knowledge"
+    description: |
+      A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
+
+  - url: https://github.com/projectdiscovery/naabu
+    title: naabu
+    description: |
+      A fast port scanner written in go with focus on reliability and simplicity
+
+  - url: https://github.com/fabiolb/fabio
+    title: fabio
+    description: |
+      a fast, modern, zero-conf load balancing HTTP(S) and TCP router for deploying applications managed by consul.
+
+  - url: https://github.com/cybertec-postgresql/pg_timetable
+    title: pg_timetable
+    description: |
+      Advanced scheduling for PostgreSQL 
+
+  - url: https://github.com/slashbeast/better-initramfs
+    title: better-initramfs
+    description: |
+      Small and reliable initramfs solution supporting (remote) rescue shell, lvm, dmcrypt luks, software raid, tuxonice, uswsusp and more
+
+  - url: https://github.com/koekeishiya/yabai
+    title: yabai
+    description: |
+      A tiling window manager for macOS based on binary space partitioning
+
+  - url: http://www.daemonology.net/blog/2020-01-27-Announcing-imds-filterd.html
+    title: "Locking down the Instance Metadata Service: Announcing imds-filterd"
+    description: |
+      The tool allows administrators of EC2 instances to lock down which data from the Instance Metadata Service can be accessed by specified system users and groups, instead of a all-or-nothing if we used a firewall.
+      Checkout [github repository](https://github.com/cperciva/imds-filterd) for the tool itself.
