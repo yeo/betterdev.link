@@ -1,0 +1,150 @@
+time: "Feb 10, 2020"
+subject: "Linux kernel tunning for high performance networking and high volume incoming connections"
+draft: false
+
+description: |
+  Hi everyone, ! 👋
+
+  Welcome to issue #138. Big week for security, Cisco and Sudo boths has Vulnerabilities.
+
+  If you has been playing around with Lambda and still not sure how the world view it, then this blog post from datadog will convince you.
+  Basically [half of of AWS users have adopted Lambda](https://www.datadoghq.com/state-of-serverless/).
+
+  Now to our normal links. If you have developer friends, please share this newsletter with them :-). Thank you.
+
+links:
+  - url: https://levelup.gitconnected.com/linux-kernel-tuning-for-high-performance-networking-high-volume-incoming-connections-196e863d458a
+    title: "High Volume Incoming Connections"
+    description: |
+      Linux Kernel Tuning for High Performance Networking Series.
+      On this same series, you should also check out [TCP/IP Connection Primer](https://levelup.gitconnected.com/linux-kernel-tuning-for-high-performance-networking-5999a13b3fb4)
+
+  - url: https://blog.hyperiongray.com/multicast-dns-service-discovery/
+    title: "Pen Test Primer: Multicast DNS & Service Discovery"
+    description: "When you use a Mac or Printer, you may notice host name like `Joe's Mackbook.local` or `Printer.local`. That makes possible by mDNS.  This article focus on security aspect of mDNS and what we should look into when doing accessments."
+
+  - url: https://www.armis.com/cdpwn/
+    title: "5 Zero-day Vulnerabilities in Cisco Discovery Protocol"
+    description: |
+      Impacting Tens of Millions of Devices.
+      [The technical whitepapers](https://go.armis.com/hubfs/White-papers/Armis-CDPwn-WP.pdf) are 29 pages long has all detail and code(by decompile code).
+      Reading these white papers are definetely improve your knowledge a lot and help to avoid these mistake: mostly on stack overflow and format-string vulnerability.
+      On the same security topic, [sudo has a serious flaw for 9 years](https://arstechnica.com/information-technology/2020/02/serious-flaw-that-lurked-in-sudo-for-9-years-finally-gets-a-patch/) Check them out and upgrade sudo as well.
+
+  - url: https://darakian.github.io/2020/01/24/openssl-pki.html
+    title: "Exploring x509 by creating a toy PKI"
+    description: |
+      If you are confused about term like PKI, CA, x509, intermediateCA then this post help you to fill out that gap
+
+  - url: https://medium.com/@schirrmacher/analyzing-whatsapp-calls-176a9e776213
+    title: "Analyzing WhatsApp Calls with Wireshark, radare2 and Frida"
+    description: |
+      In this article Marvin demonstrate how they revealed parts of the WhatsApp VoIP protocol with the help of a jailbroken iOS device and a set of forensic tools. WhatsApp got a lot attention due to security vulnerabilities and hacks. So it is an interesting target for teaching security analysis
+
+  - url: https://embeddedbits.org/reverse-engineering-router-firmware-with-binwalk/
+    title: "Reverse engineering my router's firmware with binwalk"
+    description: |
+      Reverse engineering is a skill many developer lack. Reading these posts help you to know how to do it. Not just reverse engineering firmware, you may apply it to analyze close-source software.
+
+  - url: https://github.com/k88hudson/git-flight-rules
+    title: 'Flight rules for Git'
+    description: |
+      A guide for astronauts (now, programmers using Git) about what to do when things go wrong.
+
+  - url: https://medium.com/pinterest-engineering/using-graph-algorithms-to-optimize-kafka-operations-part-1-abbabd606a25
+    title: "Using graph algorithms to optimize Kafka operations, Part 1"
+    description: |
+      Operating kafka cluster is no joke. Pinterest shares how they do it with a single team that managers over 3,000 Kafka brokers.
+
+  - url: https://mitchum.blog/null-values-in-sql-queries/
+    title: "NULL Values in SQL Queries"
+    description: |
+      Whenever you issue a SQL query to a database…and you want to know whether a column has a NULL value in it…what is the proper way to write a query that will find the result?
+
+  - url: https://soptik.tech/articles/beware-of-shell-globs.html
+    title: "Beware of shell globs"
+    description: |
+      A very short article on dangerous of shell globs expansion and why we should use `--` when invoking command.
+      On this same topic, another great post is [A Surprisingly Common Mistake Involving Wildcards & The Find Command](https://blog.robertelder.org/find-command-wildcard-globbing/)
+      explain why using `*` is dangerous and why we should wrap into quote like `"*"`.
+
+video:
+  - url: https://fosdem.org/2020/schedule/event/rust_webgpu/
+    title: "Building WebGPU with Rust"
+    description: "The new foundation for graphics and compute"
+
+  - url: https://fosdem.org/2020/schedule/event/swim/
+    title: "SWIM - Protocol to Build a Cluster"
+    description: |
+      SWIM gossip protocol, its implementation, and improvements
+
+read_code:
+  - url: https://github.com/icyphox/shlide
+    title: shlide
+    description: |
+      a slide deck presentation tool written in pure bash
+    category: ['bash']
+
+  - url: https://blog.lizzie.io/linux-containers-in-500-loc.html
+    title: "Linux containers in 500 lines of code"
+    description: "Also checkout another impresive [Docker implemented in around 100 lines of bash](https://github.com/p8952/bocker/blob/master/README.md)"
+    category: ['C', 'bash']
+
+  - url: https://github.com/myliang/x-spreadsheet
+    title: x-spreadsheet
+    description: |
+      A web-based JavaScript（canvas）spreadsheet
+    category: ['JavaScript']
+
+  - url: https://github.com/grosser/parallel_tests
+    title: parallel_tests
+    description: |
+      Splits tests into even groups (by number of lines or runtime) and runs each group in a single process with its own database.
+    category: ['Ruby']
+
+  - url: https://github.com/influxdata/go-syslog
+    title: go-syslog
+    description: |
+      Blazing fast syslog parser
+    category: ['Go']
+
+tool:
+  - url: https://github.com/square/spincycle
+    title: spincycle
+    description: |
+      Automate and expose complex infrastructure tasks to teams and services. The database team at Square uses it to provision and decommission databases, safely stop and start hosts, upgrade MySQL and Docker images.
+
+  - url: https://konveyor.github.io/
+    title: konveyor
+    description: |
+      Open Source, Migration Assistance for Kubernetes
+
+  - url: https://ai.facebook.com/blog/hiplot-high-dimensional-interactive-plots-made-easy/
+    title: HiPlot
+    description: |
+      a lightweight interactive visualization tool to help AI researchers discover correlations and patterns in high-dimensional data. 
+
+  - url: https://github.com/mat-sz/filedrop-web
+    title: filedrop
+    description: |
+      WebRTC file transfer - React/TypeScript front end.
+
+  - url: https://github.com/eth0izzle/shhgit
+    title: sshgit
+    description: |
+      find GitHub secrets in real time. Read the [introduction post](https://darkport.co.uk/blog/ahh-shhgit!/) and [check demo](https://darkport.co.uk/blog/ahh-shhgit!/)
+
+  - url: https://gitlab.com/postgres-ai/database-lab
+    title: database-lab
+    description: |
+       instant clones of large PostgreSQL databases to boost development.
+
+  - url: https://github.com/alibaba/RedisShake
+    title: RedisShake
+    description: |
+      Redis-shake is a tool for synchronizing data between two redis databases.
+
+  - url: https://github.com/alibaba/RedisFullCheck
+    title: RedisFullCheck
+    description: |
+       is used to compare whether two redis have the same data. 
