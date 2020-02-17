@@ -1,0 +1,197 @@
+time: "Feb 17, 2020"
+subject: "How to escalate privileges and steal secrets in Google Cloud Platform"
+draft: false
+
+description: |
+  Hi everyone, ! 👋
+
+  Welcome to issue #139. Yet another issue with lot of security article. Probably due to me is working on
+  a security-related app and suddenly all I read is security.
+
+
+links:
+  - url: https://github.blog/2020-02-14-automating-mysql-schema-migrations-with-github-actions-and-more/
+    title: "Automating MySQL schema migrations with GitHub Actions and more"
+    description: |
+      Everywhere I works, at some point the problem of data schema migration occurs. So seeing big company like
+      Github build tools, and share their workflow is super useful for us. We may not need to implement whatever
+      they did but at least we can see how others are doing it. I usually like to share this kind of article a lot
+      because they are what people are doing, way better than any theory-only article.
+
+  - url: https://about.gitlab.com/blog/2020/02/12/plundering-gcp-escalating-privileges-in-google-cloud-platform/
+    title: "How to escalate privileges and steal secrets in Google Cloud Platform"
+    description: |
+      This post does not outline any new vulnerabilities in Google Cloud Platform but outlines ways that an attacker who has already gained an unprivileged foothold on a cloud instance may perform reconnaissance, privilege escalation and eventually complete compromise of an environment.
+
+
+  - url: https://crypto.stanford.edu/~dabo/cryptobook/BonehShoup_0_5.pdf
+    title: "A Graduate Course in Applied Cryptography(PDF)"
+    description: |
+      Say Alice wants to talk to Bob securely? They need to share a key to secure their conversation.
+      But how do they secure the process of sharing the key? This books help you implement these kind of systems
+
+
+  - url: https://blog.trendmicro.com/trendlabs-security-intelligence/an-in-depth-technical-analysis-of-curveball-cve-2020-0601/
+    title: "An In-Depth Technical Analysis of CurveBall (CVE-2020-0601)"
+    description: |
+      An attacker exploiting this vulnerability could potentially create their own cryptographic certificates that appear to originate from a legitimate certificate that is fully trusted by Windows by default.
+
+  - url: https://www.aaronpeters.nl/blog/ev-certificates-make-the-web-slow-and-unreliable/
+    title: "EV Certificates Make The Web Slow and Unreliable"
+    description: "I'm never a fan of EV cert. They added no value yet cost lot of money. The EV certificate significantly increases the time it takes to secure the connection between browser and server and therefore extends how long users stare at a blank screen, waiting for the page to start rendering"
+
+  - url: https://lchsk.com/stay-paranoid-and-trust-no-one-overview-of-common-security-vulnerabilities-in-web-applications.html
+    title: "Stay paranoid and trust no one. Overview of common security vulnerabilities in web applications"
+    description: |
+      It uses Django as an example but really any framework can make these mistake.
+
+
+  - url: https://www.debugbear.com/blog/performant-front-end-architecture
+    title: "Performant front-end architecture"
+    description: "We'll look at the overall architecture of the front-end. How can you load essential resources first, and maximize the probability that the resources are already in the cache? HubSpot even consider [Frontend Performance as a Feature](https://product.hubspot.com/blog/treating-frontend-performance-as-a-feature)"
+
+  - url: https://codeascraft.com/2020/02/03/production-webpack-builds/
+    title: "The journey to fast production asset builds with Webpack"
+    description: |
+      Webpack is almost the defactor asset building nowsaday. Many frameworks include it as the official way.
+      However, Webpack is super slow by default. Here, Etsy shares how they are able to build 13,200 assets in 4 minutes.
+
+  - url: https://textslashplain.com/2020/02/09/demystifying-browsers/
+    title: "Demystifying Browsers"
+    description: "
+      Browser are fundamental in our daily life but we usually consider them as a blackbox with a massive code base.
+      So how we learn more and hack on them? This post is a list of resource for fundamental understanding, books, tools
+      to dive into browser internally. If you don't have much time, at least read [How Browsers Work](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+      and [The Chrome comic book](https://www.google.com/googlebooks/chrome/big_00.html)"
+
+  - url: https://tips4devs.com/articles/make-a-webgl-powered-us-counties-map-with-d3-and-three-js.html
+    title: "Make a WebGL powered US Counties Map with D3 and Three.js"
+    description: |
+      I'm not a fan of these kind of tutorial. But this article is very useful where it show how to leverage GPU to speed up
+      thing. If you are interested in GPU, WebGL then this article is for you.
+
+  - url: https://fluca1978.github.io/2020/02/09/PostgreSQLDROPCOlumn.html
+    title: "Why Dropping a Column does not Reclaim Disk Space?"
+    description: |
+      Basically when you delete thing in Postgres. It won't really be delete on disk, just mark as deletion
+      until we run VACUUM. If you want to delete whole table, best to just `truncate` it.
+
+
+
+
+#  - url: https://blog.acolyer.org/2020/02/12/lets-encrypt-an-automated-certificate-authority-to-encrypt-the-entire-web/
+#    title: "Let's Encrypt: an automated certificate authority to encrypt the entire web"
+#    description: |
+#
+#
+#
+#    https://googleprojectzero.blogspot.com/2020/02/mitigations-are-attack-surface-too.html
+#
+#  - url: https://blog.jonlu.ca/posts/decrypting-blind
+#    title: "REVERSE ENGINEERING BLIND'S API AND CLIENT SIDE ENCRYPTION"
+#
+#  - url: https://moultano.wordpress.com/2018/11/08/minhashing-3kbzhsxyg4467-6/?274619
+#    title: "Min Hashing: Clustering with a Key-Value Store"
+#
+#  - url: https://www.cryptologie.net/article/490/how-symmetric-password-authenticated-key-exchanges-work-spake/
+#    title: "How symmetric password-authenticated key exchanges work (sPAKE)"
+#
+#
+#  - url: https://www.forrestthewoods.com/blog/memory-bandwidth-napkin-math/
+#    title: "Memory Bandwidth Napkin Math"
+#  - url: https://hackaday.com/2020/02/13/emulating-a-bluetooth-keyboard-with-the-esp32/
+#    title: "EMULATING A BLUETOOTH KEYBOARD WITH THE ESP32"
+#    description: |
+#      Lots of thing like smart power outlet, power strip, or camera use ESP32. Why wifi is strong capanility if ESP32,
+#      it also comes equipped with Bluetooth. In this article, we hook up keypad into its GPIO. The rest are just software.
+#      Fun and cool project if you like some hardware hack.
+
+video:
+  - url: https://www.youtube.com/watch?v=8lTfrCtPPNE
+    title: "Test Desiderata 10/12: Tests Should be Specific"
+
+  - url: https://www.youtube.com/watch?v=HaEPXoXVf2k
+    title: "Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB"
+    description: "DyanmoDB is a managed database by AWS where you access use HTTP API. You don't have to worry about downtime, upgrade version or anything. It also has very weird pattern like suggest using one table for everything"
+
+read_code:
+  - url: https://github.com/rhaidiz/broxy
+    title: broxy
+    description: |
+      an open source intercept proxy written in Go. Like Charles Proxy or MITMProxy. It makes use of goproxy as core proxy implementation and the interface is implemented with QT.
+    category: ['Go']
+
+  - url: https://git.zx2c4.com/chacha20.sh/tree/chacha20.sh
+    title: chacha20
+    description: |
+      an implementation of ChaCha20 in Bash script
+    category: ['Bash']
+
+  - url: https://git.sr.ht/~sircmpwn/shit
+    title: "shell git"
+    description: "This is an implementation of Git using (almost) entirely POSIX shell."
+    category: ['Bash']
+
+  - url: https://github.com/marcpaq/b1fipl
+    title: A Bestiary of Single-File Implementations of Programming Languages
+    description: "Since they has a single file. It's super fun and interesting to read these."
+    category: ['multi lang']
+
+  - url: https://github.com/mingrammer/diagrams
+    title: "diagrams"
+    description: "🎨 Diagram as Code for prototyping cloud system architectures"
+    category: ['Python']
+
+  - url: https://gist.github.com/tomhicks/6cb5e827723c4eaef638bf9f7686d2d8
+    title: "Listen to your web pages when the DOM is rendering"
+    description: |
+      30 lines including comment. You gotta read and try it.
+    category: ['JavaScript']
+
+  - url: https://github.com/drivy/checker_jobs
+    title: checker_jobs
+    description: |
+      provides a small DSL to check your data for inconsistencies.
+    category: ['Ruby']
+
+  - url: https://github.com/scandum/quadsort
+    title: quadsort
+    description: |
+      At this point, sort is solved proble. Just use any sort implement in your standard library or some
+      well-know implement of fast sort algorithm. Yet, people are still researching in this area, to find
+      "better" algorithm.
+    category: ['C']
+
+tool:
+  - url: https://github.com/evanw/esbuild
+    title: esbuild
+    description: |
+      An extremely fast JavaScript bundler and minifier in Go. The goal of this project is as a proof that
+      JavaScript tooling can be much faster.
+
+  - url: https://github.com/tibkiss/es2postgres
+    title: es2postgres
+    description: "ElasticSearch to PostgreSQL loader"
+
+  - url: https://blog.runpanther.io/open-source-cloud-security-tools/
+    title: "7 Open Source Cloud Security Tools You Should Know"
+    description: |
+      A summarized of tools that we should know and use.
+
+  - url: https://fluca1978.github.io/2020/01/30/PostgreSQL_pgcatcheck.html
+    title: "pg_catcheck"
+    decription: "Checking catalogues for corruption"
+
+  - url: https://github.com/pgaudit/pgaudit
+    title: pgaudit
+    description: |
+      provides detailed session and/or object audit logging via the standard PostgreSQL logging facility.
+
+  - url: https://github.com/sullo/nikto
+    title: nikto
+    description: "web server scanner for security"
+
+  - url: https://datausa.io/
+    title: datausa
+    description: |
+      Explore, map, compare, and download U.S. data
