@@ -1,0 +1,195 @@
+time: "Feb 24, 2020"
+subject: "Lessons from the TSB failure: a perfect storm of waterfall failures"
+draft: false
+
+description: |
+  Hi everyone, ! 👋
+
+  Welcome to issue #140. This issue is very packed with lots of interesting ranging from devops to front-end to database and git. Let me know how you think, is this too much or to little.
+
+links:
+  - url: https://medium.com/@JonHall_/lessons-from-the-tsb-failure-a-perfect-storm-of-waterfall-failures-4f4d2e789b35
+    title: "Lessons from the TSB failure: a perfect storm of waterfall failures"
+    description: |
+      It was interesting to read recently that TSB, the British bank which made headlines for the wrong reasons with a cataclysmic IT migration failure in 2018, has now effectively thrown in the towel and outsourced its entire IT banking systems operation to IBM.
+
+  - url: https://www.ardanlabs.com/blog/2020/02/docker-images-part1-reducing-image-size.html
+    title: "Docker Images : Part I - Reducing Image Size"
+    description: "We have 1000 aritcles on the internet about reducing image size. However, this one is written by Docker's creator himself, Jérôme Petazzoni."
+
+  - url: https://www.datadoghq.com/blog/monitor-kubernetes-audit-logs/
+    title: "How to monitor Kubernetes audit logs"
+    description: |
+      Datadog operates large-scale Kubernetes clusters in production across multiple clouds. Along the way, audit logs have been extremely helpful for tracking user interactions with the API server, debugging issues, and getting clarity into our workload
+
+  - url: https://blog.soykaf.com/post/postgresql-elixir-troubles/
+    title: "Elixir and Postgres: A Rarely Mentioned Problem"
+    description: "This article is actually about Postgres. A prepared statement can be executed with either a generic plan or a custom plan. Custom plan is generated depend on parameter while generic plan are same for all parameters. And that's generic plan is where the issue occur."
+
+  - url: http://rhaas.blogspot.com/2020/02/useless-vacuuming.html
+    title: "Useless Vacuuming"
+    description: "when autovacuum seems to be running totally normally but you still have a VACUUM problem."
+
+  - url: https://www.tunetheweb.com/blog/should-you-self-host-google-fonts/
+    title: "Should you self-host Google Fonts"
+    description: |
+      A simple question and maybe a "simple" answer? But the technical behind is interesting, lot of thing to consider
+
+  - url: https://thoughtbot.com/blog/rebasing-your-branch-with-git-rebase-onto
+    title: "Adventures with git Rebasing"
+    description: |
+      Every now and then I run into a situation where I’m branched off of a topic branch and the topic branch gets rebased off of master or squashes commits. How do I cleanly rebase my branch off the topic branch? 
+
+  - url: https://cstack.github.io/db_tutorial/
+    title: "Let's Build a Simple Database"
+    description: "Writing a sqlite clone from scratch in C"
+
+  - url: https://nolanlawson.com/2020/02/19/fixing-memory-leaks-in-web-applications/
+    title: "Fixing memory leaks in web applications"
+    description: |
+      The subject of memory leaks is not well-covered in the web development literature. And yet, I’m pretty sure that most non-trivial SPAs leak memory, unless the team behind them has a robust infrastructure for catching and fixing memory leaks.
+
+  - url: https://blog.appsignal.com/2020/02/20/effective-profiling-in-google-chrome.html
+    title: "Effective Profiling in Google Chrome"
+    description: |
+      We’ll go through the two most used tools in Google Chrome for profiling:
+      The Performance tab in Google Chrome DevTools
+      Lighthouse—an open-source tool for improving the quality of web pages
+
+  - url: https://blog.benjojo.co.uk/post/why-is-ethernet-mtu-1500
+    title: "How 1500 bytes became the MTU of the internet"
+    description: |
+      The MTU (Maximum Transmission Unit) states how big a single packet can be. Generally speaking, when you are talking to devices on your own LAN the MTU will be around 1500 bytes and the internet runs almost universally on 1500 as well.
+
+  - url: https://twitter.com/Foone/status/1229641258370355200
+    title: "Docker for Windows won't run if you have the Razer Synapse driver management tool running. "
+    description: "It's twitter thread so make sure you scroll down. You will be LMAO. Go read it seriously. Lesson learn: be careful when copying code"
+
+#  - url: https://www.forrestthewoods.com/blog/memory-bandwidth-napkin-math/
+#    title: "Memory Bandwidth Napkin Math"
+#
+#  - url: https://blog.jonlu.ca/posts/decrypting-blind
+#    title: "Reverse engineering blind's api and client side encryption"
+#    description: 
+#
+#  https://tuzz.tech/blog/how-bash-completion-works
+#  https://interrupt.memfault.com/blog/firmware-watchdog-best-practices#adding-a-software-watchdog
+#
+#  - url: http://blog.leahhanson.us/post/recursecenter2016/haiku_icons.html
+#    title: "500 Byte Images: The Haiku Vector Icon Format"
+#    description: |
+#      Most OS use bitmap for icons. But Haiku OS use its own format to make icon as small as possible so icon be fit on an inode. The goal is to reduce disk read, eg when you view a folder it can display folder icon.
+#
+#  - url: https://github.com/dwmkerr/hacker-laws
+#    title: hacker-laws
+#    description: "Laws, Theories, Principles and Patterns that developers will find useful."
+
+#  - url: https://www.cryptologie.net/article/490/how-symmetric-password-authenticated-key-exchanges-work-spake/
+#    title: "How symmetric password-authenticated key exchanges work (sPAKE)"
+#
+#  - url: https://blog.acolyer.org/2020/02/12/lets-encrypt-an-automated-certificate-authority-to-encrypt-the-entire-web/
+#    title: "Let's Encrypt: an automated certificate authority to encrypt the entire web"
+#    description: |
+#
+#
+#
+#    https://googleprojectzero.blogspot.com/2020/02/mitigations-are-attack-surface-too.html
+#
+
+#  - url: https://moultano.wordpress.com/2018/11/08/minhashing-3kbzhsxyg4467-6/?274619
+#    title: "Min Hashing: Clustering with a Key-Value Store"
+#
+
+#
+#  - url: https://hackaday.com/2020/02/13/emulating-a-bluetooth-keyboard-with-the-esp32/
+#    title: "EMULATING A BLUETOOTH KEYBOARD WITH THE ESP32"
+#    description: |
+#      Lots of thing like smart power outlet, power strip, or camera use ESP32. Why wifi is strong capanility if ESP32,
+#      it also comes equipped with Bluetooth. In this article, we hook up keypad into its GPIO. The rest are just software.
+#      Fun and cool project if you like some hardware hack.
+
+video:
+  - url: https://www.youtube.com/watch?v=i_wrxBdXTgM
+    title: "RAM and bus timing"
+
+read_code:
+  - url: https://github.com/nodejs/http-parser
+    title: http-parser
+    description: "http request/response parser for c. It's used in NodeJS but any language can build binding for it to leverage fast performance"
+    category: ['C']
+
+  - url: https://github.com/chrislgarry/Apollo-11
+    title: Apollo-11
+    description: |
+      Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.
+    category: ['Assembly']
+
+  - url: https://pchen66.github.io/Panolens/#Documentation
+    title: "Panolens"
+    description: "Javascript panorama viewer based on Three.js"
+    category: ['JavaScript']
+
+  - url: https://github.com/spacejam/sled
+    title: sled
+    description: |
+      the champagne of beta embedded databases
+    category: ['Rust']
+
+  - url: https://github.com/google/gops
+    title: gops
+    description: "A tool to list and diagnose Go processes currently running on your system"
+    category: ['Go']
+
+  - url: https://github.com/laixintao/iredis/
+    title: iredis
+    description: |
+      Interactive Redis: A Terminal Client for Redis with AutoCompletion and Syntax Highlighting
+    category: ['Python']
+
+  - url: https://gitlab.com/yorickpeterse/oga#readme
+    title: oga
+    description: |
+      An XML/HTML Parser Written in Pure Ruby.
+    category: ['Ruby']
+
+tool:
+  - url: https://github.com/netgusto/nodebook
+    title: nodebook
+    description: "Multi-Language REPL with Web UI + CLI code runner. Useful to practice algorithms and datastructures for coding interviews."
+
+  - url: https://github.com/eulerto/wal2json
+    title: wal2json
+    description: "JSON output plugin for changeset extraction"
+
+  - url: http://postgresguide.com/
+    title: "Postgres Guide"
+    description: |
+      A small website/guide about PostGres. Maybe useful when you need some quick insight into certain thing: adding user, backup, execution plan
+
+  - url: https://github.com/majodev/google-webfonts-helper/
+    title: "google web fonts helper"
+    description: |
+      A Hassle-Free Way to Self-Host Google Fonts. [Checkout the app](https://github.com/majodev/google-webfonts-helper/) on Heroku.
+
+  - url: https://github.com/MaterializeInc/materialize
+    title: materialize
+    description: |
+      The Streaming Data Warehouse
+
+  - url: https://github.com/syscolabs/kasaya
+    title: kasaya
+    description: "A \"WYSIWYG\" scripting language and runtime for browser automation"
+
+  - url: https://github.com/utmapp/UTM
+    title: UTM
+    description: "Virtual machines for iOS. You can run window or android on iOS device"
+
+  - url: https://github.com/PostHog/posthog
+    title: posthog
+    description: |
+      a developer-friendly, open-source product analytics.
+
+  - url: https://github.com/m3db/m3
+    title: M3
+    description: |
+      The fully open source metrics platform built on M3DB, a distributed timeseries database
