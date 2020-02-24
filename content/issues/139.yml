@@ -8,7 +8,6 @@ description: |
   Welcome to issue #139. Yet another issue with lot of security article. Probably due to me is working on
   a security-related app and suddenly all I read is security.
 
-
 links:
   - url: https://github.blog/2020-02-14-automating-mysql-schema-migrations-with-github-actions-and-more/
     title: "Automating MySQL schema migrations with GitHub Actions and more"
@@ -75,36 +74,6 @@ links:
     description: |
       Basically when you delete thing in Postgres. It won't really be delete on disk, just mark as deletion
       until we run VACUUM. If you want to delete whole table, best to just `truncate` it.
-
-
-
-
-#  - url: https://blog.acolyer.org/2020/02/12/lets-encrypt-an-automated-certificate-authority-to-encrypt-the-entire-web/
-#    title: "Let's Encrypt: an automated certificate authority to encrypt the entire web"
-#    description: |
-#
-#
-#
-#    https://googleprojectzero.blogspot.com/2020/02/mitigations-are-attack-surface-too.html
-#
-#  - url: https://blog.jonlu.ca/posts/decrypting-blind
-#    title: "REVERSE ENGINEERING BLIND'S API AND CLIENT SIDE ENCRYPTION"
-#
-#  - url: https://moultano.wordpress.com/2018/11/08/minhashing-3kbzhsxyg4467-6/?274619
-#    title: "Min Hashing: Clustering with a Key-Value Store"
-#
-#  - url: https://www.cryptologie.net/article/490/how-symmetric-password-authenticated-key-exchanges-work-spake/
-#    title: "How symmetric password-authenticated key exchanges work (sPAKE)"
-#
-#
-#  - url: https://www.forrestthewoods.com/blog/memory-bandwidth-napkin-math/
-#    title: "Memory Bandwidth Napkin Math"
-#  - url: https://hackaday.com/2020/02/13/emulating-a-bluetooth-keyboard-with-the-esp32/
-#    title: "EMULATING A BLUETOOTH KEYBOARD WITH THE ESP32"
-#    description: |
-#      Lots of thing like smart power outlet, power strip, or camera use ESP32. Why wifi is strong capanility if ESP32,
-#      it also comes equipped with Bluetooth. In this article, we hook up keypad into its GPIO. The rest are just software.
-#      Fun and cool project if you like some hardware hack.
 
 video:
   - url: https://www.youtube.com/watch?v=8lTfrCtPPNE
