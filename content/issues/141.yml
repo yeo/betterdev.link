@@ -1,0 +1,145 @@
+time: "Mar 02, 2020"
+subject: "List of 2020 Leap Day Bugs"
+draft: false
+
+description: |
+  Hi everyone! 👋
+
+  Welcome to issue #141. Our friends at [Hasura](https://hasura.io/) just raise a series A for their amazing GraphQL Engine. Come [check them out](https://hasura.io/).
+
+  Now to our normal links.
+links:
+  - url: https://codeofmatt.com/list-of-2020-leap-day-bugs/
+    title: "List of 2020 Leap Day Bugs"
+    description: |
+      The following is a list of many bugs caught on or near leap day, February 29th, 2020.  Each link below references the issue with supporting details where available.  This list does not include bugs that were already caught and repaired before they could have impact on leap day.
+
+  - url: https://towardsdatascience.com/i-built-a-diy-license-plate-reader-with-a-raspberry-pi-and-machine-learning-7e428d3c7401
+    title: "I built a DIY license plate reader with a Raspberry Pi and machine learning"
+    description: |
+      A pretty cool project. A raspberry pi, run inside your car, reading license plate.
+
+  - url: https://benhoyt.com/writings/dont-sanitize-do-escape/
+    title: "Don’t try to sanitize input. Escape output."
+    description: |
+      Many SQL injection errors, XSS vulnrabilities came from not escpaing output properly but try to sanitizing input smartly and fail.
+
+  - url: https://facinating.tech/2020/02/22/in-depth-guide-to-running-elasticsearch-in-production/
+    title: "In depth guide to running Elasticsearch in production"
+    description: |
+      Tips on how to set up Elasticsearch correctly and avoid common pitfalls.
+
+  - url: https://www.usenix.org/system/files/nsdi20spring_hauer_prepub.pdf
+    title: "Meaningful Availability(PDF)"
+    description: |
+       This paper presents and evaluates, in the context
+       of Google’s G Suite, a novel availability metric: windowed
+       user-uptime. As alway, [the morning paper has a summary of it](https://blog.acolyer.org/2020/02/26/meaningful-availability/)
+
+  - url: https://engineering.shopify.com/blogs/engineering/circuit-breaker-misconfigured
+    title: "Your Circuit Breaker is Misconfigured"
+    description: |
+      Circuit breakers are an incredibly powerful tool for making your application resilient to service failure. But they aren’t enough. Most people don’t know that a slightly misconfigured circuit is as bad as no circuit at all! Did you know that a change in 1 or 2 parameters can take your system from running smoothly to completely failing?
+
+  - url: https://itnext.io/v8-function-optimization-2a9c0ececf5e
+    title: "How V8 optimizes functions in JavaScript?"
+    description: |
+      JS engines are complicated pieces of software. I want to quickly explain one of the optimization techniques V8 is using to speed up your…
+
+  - url: https://increment.com/software-architecture/in-space-no-one-can-hear-you-kernel-panic/
+    title: "In space, no one can hear you kernel panic"
+    description: |
+      When you’re millions of miles from home, it’s hard to install an operating system update—but not impossible. From the dawn of the Space Age through the present, NASA has relied on resilient software running on redundant hardware to make up for physical defects, wear and tear, sudden failures, or even the effects of cosmic rays on equipment.
+
+  - url: https://habr.com/en/company/postgrespro/blog/490228/
+    title: "On recursive queries"
+    description: |
+      This article deals with writing recursive queries. It's translated from Russian so probabably not as good in term of languague, but in term of knowledge, it's very good.
+
+  - url: http://dongyuxuan.me/posts/pipeline.html
+    title: "The Effect of Pipe Capacity on Unix Pipeline Performance"
+    description: |
+      We all know and love "|" character. But how do the data is send around, where does it keep. What if the far right program are hang and not reading the data?
+
+video:
+  - url: https://www.youtube.com/watch?v=izxXGuVL21o
+    title: "How Crash Bandicoot Hacked The Original Playstation"
+
+  - url: https://www.youtube.com/watch?v=wvJc9CZcvBc
+    title: "Learn how computers add numbers and build a 4 bit adder circuit"
+    description: |
+      These video from Ben pn building computers by looking at how they do thing are just amazing.
+
+read_code:
+  - url: https://github.com/buckket/go-blurhash
+    title: go-blurhash
+    description: |
+      We mention blurhash last week and this is an implementation in Go
+    category: ['Go']
+
+  - url: https://github.com/suchipi/hex-engine
+    title: hex-engine
+    description: "A modern 2D game engine for the browser."
+    category: ['JavaScript']
+
+  - url: https://edtr.io/
+    title: edtr
+    description: |
+      The Open Source Web Editor you will love
+    category: ['JavaScript']
+
+  - url: https://github.com/rpush/rpush
+    title: rpush
+    description: |
+      The push notification service for Ruby.
+    category: ['Ruby']
+
+  - url: https://github.com/ivanceras/sauron-native
+    title: sauron-native
+    description: |
+      Truly cross platform, truly native. multiple backend GUI for rust
+    category: ['Rust']
+
+  - url: https://github.com/alephdata/aleph
+    title: aleph
+    description: |
+      a tool for indexing large amounts of both documents (PDF, Word, HTML) and structured (CSV, XLS, SQL) data for easy browsing and search
+    category: ['Python']
+
+tool:
+  - url: https://github.com/google/santa
+    title: santa
+    description: |
+      A binary whitelisting/blacklisting system for macOS.
+
+  - url: https://postgres.ai/blog/joe-0.5/
+    title: joe bot
+    description: |
+      an SQL query optimization assistant, updated to version 0.5.0
+
+  - url: https://github.com/Netflix/dispatch
+    title: dispatch
+    description: "Netflix's crisis management orchestration framework. Help you manage incident such as security, downtime,..."
+
+  - url: https://gitlab.com/gitlab-org/quality/performance/
+    title: GitLab Performance Tool
+    description: |
+      Open Source tool to test Gitlab performance based on K6. We can see how they do it and adopt it to our own site.
+
+  - url: https://github.com/AutoSpotting/AutoSpotting/
+    title: "AutoSpotting"
+    description: |
+      Tool that easily and reliably converts (all) your existing AutoScaling groups to cheaper spot instances
+
+  - url: https://github.com/mariusandra/insights
+    title: insights
+    description: "Open Source Self-Hosted Business Intelligence Platform "
+
+  - url: https://github.com/bastion-rs/bastion
+    title: bastion
+    description: "Highly-available Distributed Fault-tolerant Runtime"
+
+  - url: https://github.com/salesforce/generic-sidecar-injector
+    title: "generic-sidecar-injector"
+    description: |
+      A generic framework for injecting sidecars and related configuration in Kubernetes using Mutating Webhook Admission Controllers. Checkout [introduction post](https://engineering.salesforce.com/a-generic-sidecar-injector-for-kubernetes-c05eede1f6bb)
