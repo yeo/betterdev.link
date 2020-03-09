@@ -1,0 +1,221 @@
+time: "Mar 09, 2020"
+subject: "Clear Your Terminal in Style"
+draft: false
+
+description: |
+  Hi everyone! 👋
+
+  Due to a bug in my code, I accidently sent out email with `[TEST]` in the subject. The `[TEST]` email
+  are the one I send to myself before fanning out to make sure email look good. But due to a bug, it is send
+  to a small subset of user as well.
+
+  I am really sorry for that and hope you are not upset with duplicate email this week. I will try to be more careful next time
+  and implement some other method to prevent that happen.
+
+  Welcome to issue #142. This is a fun and practical issue: guide to common unix toolbox, help you
+  get along with Linux, how to migrate from AWS to Google, some challenges on designing game for
+  internet play.
+
+  Let me know if you like this issue, if it is too much or too few.
+
+links:
+  - url: https://adammusciano.com/2020/03/04/2020-03-04-clear-your-terminal-in-style/
+    title: "Clear Your Terminal in Style"
+    description: |
+      Programming should be fun. A boring task like clearing your terminal can be cool.
+
+  - url: http://cb.vu/unixtoolbox.xhtml
+    title: "Unix Toolbox"
+    description: |
+      This document is a collection of Unix/Linux/BSD commands and tasks which are useful for IT work or for advanced users. This is a practical guide with concise explanations.
+
+  - url: https://blog.acolyer.org/2020/03/04/millions-of-tiny-databases/
+    title: "Millions of tiny databases"
+    description: |
+      It takes you through the thinking processes and engineering practices behind the design of a key part of the control plane for AWS Elastic Block Storage (EBS): the Physalia database that stores configuration information.
+
+  - url: https://medium.com/kudos-engineering/our-migration-journey-from-aws-to-google-cloud-part-2-e66bd53b5d9a
+    title: "Our migration journey from AWS to Google Cloud"
+    description: |
+      Part 2 of a serie about migration plan from AWS to Google Cloud. Google Cloud has some very cool feature such as live migration vm. 
+
+  - url: https://eli.thegreenplace.net/2020/implementing-raft-part-3-persistence-and-optimizations/
+    title: "Implementing Raft: Part 3 - Persistence and Optimizations"
+    description: |
+      This is Part 3 in a series of posts describing the Raft distributed consensus algorithm and its complete implementation in Go. Make sure to check previous parts
+
+  - url: https://bytes.zone/posts/reducing-asset-size-with-subsetting/
+    title: "Reducing Asset Size With Subsetting"
+    describing: |
+      I don't think I will use this in a production site. But it's a very interesting approach to trim down font.
+      Basically, it rendered the site, looks for which character the sites are using, and strip the characters
+      the size aren't use from the font. You need to crawl entire sites for that so again, not well suite for production
+      workload but a very interesting approach. I didn't even know we can strip fonts like that.
+
+  - url: https://www.highgo.ca/2020/02/21/have-an-eye-on-locks-of-postgresql/
+    title: "Have An Eye On Locks Of PostgreSQL"
+    description: |
+      The lock is an essential part of a database system. In PostgreSQL, there are various locks, such as table lock, row lock, page lock, transaction lock, advisory lock, etc. Some of these locks are automatically added to complete the database functions during the operation of the database system, and some are manually added for the elements in PostgreSQL through some SQL commands.
+
+  - url: https://www.percona.com/blog/2020/03/05/handling-null-values-in-postgresql/
+    title: "Handling NULL Values in PostgreSQL"
+    description: |
+      There is often some confusion about NULL value, as it is treated differently in different languages. So there is an obvious need to clarify what NULL is, how it works in different languages, and what the actual value is behind the NULL.
+
+  - url: https://github.com/lemmy/BlockingQueue
+    title: "A walkthrough tutorial of TLA+ and its tools: analyzing a blocking queue"
+    description: |
+      TLA+ is a tool to design systems and algorithms, then programmatically verify that those systems don’t have critical bugs.
+      Many companies use it to found issue, especially in distrubuted system such as [MongoDB](https://conf.tlapl.us/program/williamschultz/), and [ElasticSearch](https://www.youtube.com/watch?v=qYDcbcOVurc), and [CockroachDB](https://www.cockroachlabs.com/blog/parallel-commits/).
+      If you want to learn more about TLA+, checkout [learntla.com](https://learntla.com/introduction/), a free book on learning TLA+.
+
+  - url: https://blog.cloudflare.com/when-bloom-filters-dont-bloom/
+    title: "When Bloom filters don't bloom"
+    description: |
+      I've known about Bloom filters (named after Burton Bloom) since university, but I haven't had an opportunity to use them in anger. Last month this changed - I became fascinated with the promise of this data structure, but I quickly realized it had some drawbacks. This blog post is the tale of my brief love affair with Bloom filters.
+
+  - url: https://developer.valvesoftware.com/wiki/Latency_Compensating_Methods_in_Client/Server_In-game_Protocol_Design_and_Optimization
+    title: "Latency Compensating Methods in Client/Server In-game Protocol Design and Optimization"
+    description: |
+      Designing first-person action games for Internet play is a challenging process. Having robust on-line gameplay in your action title, however, is becoming essential to the success and longevity of the title. In addition, the PC space is well known for requiring developers to support a wide variety of customer setups. Often, customers are running on less than state-of-the-art hardware. The same holds true for their network connection
+
+#  - url: https://blog.scottlogic.com/2020/02/17/minesweeper-optimisation.html
+#    title: "Slow Code HATES him! Optimising a web app from 1 to 60fps"
+#
+#
+#  - url: https://alexbakker.me/post/mysterious-google-titan-m-bug-cve-2019-9465.html
+#    title: "A mysterious bug in the firmware of Google's Titan M chip (CVE-2019-9465)"
+#
+#
+#
+#  - url: https://thoughtbot.com/blog/reading-an-explain-analyze-query-plan
+#    title: "Reading a Postgres EXPLAIN ANALYZE Query Plan"
+#
+#  - url: https://www.hanshq.net/zip.html
+#    title: "Zipfile: History, Explanation and Implementation"
+#
+#  - url: https://9elements.com/blog/pure-css-diagonal-layouts/
+#    title: "Create Diagonal Layouts Like It's 2020"
+#    description: |
+#      Layouts with diagonal sections are quite popular for several years now. It is not the new hot stuff, and you will probably not find it in the articles titled "Design trends for 2020". But I think it is here to stay. It is one tool designers can use to bring some dynamic to all the rectangular boxes with boring 90-degree angles
+#  - url: 
+#  - url: https://www.forrestthewoods.com/blog/memory-bandwidth-napkin-math/
+#    title: "Memory Bandwidth Napkin Math"
+#
+#  - url: https://blog.jonlu.ca/posts/decrypting-blind
+#    title: "Reverse engineering blind's api and client side encryption"
+#    description: 
+#
+#  https://tuzz.tech/blog/how-bash-completion-works
+#
+#  - url: https://github.com/dwmkerr/hacker-laws
+#    title: hacker-laws
+#    description: "Laws, Theories, Principles and Patterns that developers will find useful."
+
+#  - url: https://www.cryptologie.net/article/490/how-symmetric-password-authenticated-key-exchanges-work-spake/
+#    title: "How symmetric password-authenticated key exchanges work (sPAKE)"
+#
+#  - url: https://blog.acolyer.org/2020/02/12/lets-encrypt-an-automated-certificate-authority-to-encrypt-the-entire-web/
+#    title: "Let's Encrypt: an automated certificate authority to encrypt the entire web"
+#    description: |
+#
+#
+#
+#    https://googleprojectzero.blogspot.com/2020/02/mitigations-are-attack-surface-too.html
+#
+
+#  - url: https://moultano.wordpress.com/2018/11/08/minhashing-3kbzhsxyg4467-6/?274619
+#    title: "Min Hashing: Clustering with a Key-Value Store"
+#
+
+#
+#  - url: https://hackaday.com/2020/02/13/emulating-a-bluetooth-keyboard-with-the-esp32/
+#    title: "EMULATING A BLUETOOTH KEYBOARD WITH THE ESP32"
+#    description: |
+#      Lots of thing like smart power outlet, power strip, or camera use ESP32. Why wifi is strong capanility if ESP32,
+#      it also comes equipped with Bluetooth. In this article, we hook up keypad into its GPIO. The rest are just software.
+#      Fun and cool project if you like some hardware hack.
+
+video:
+  - url: https://www.youtube.com/watch?v=MT4jbUzEVL0
+    title: " Cultivating Production Excellence -- Liz Fong-Jones, Honeycomb"
+
+  - url: https://www.youtube.com/watch?v=dhoP-dyIr54
+    title: "What is a Secure Programming Language?"
+    description: |
+      You can also check out the [paper (pdf)](https://drops.dagstuhl.de/opus/volltexte/2019/10546/pdf/LIPIcs-SNAPL-2019-3.pdf) behind it
+
+read_code:
+  - url: https://github.com/richox/orz
+    title: orz
+    description: |
+      a high performance, general purpose data compressor written in rust
+    category: ['Rust']
+
+  - url: https://github.com/joncrlsn/dque
+    title: dque
+    description: |
+      dque is a fast, embedded, durable queue for Go
+    category: ['Go']
+
+  - url: https://github.com/aouinizied/nfstream
+    title: nfstream
+    description: |
+      a flexible network data analysis framework
+    category: ['Python']
+
+  - url: https://github.com/pawurb/rails-pg-extras
+    title: rails-pg-extras
+    description: |
+      Rails PostgreSQL database performance insights. Locks, index usage, buffer cache hit ratios, vacuum stats and more.
+    category: ['Ruby']
+
+tool:
+  - url: https://gitlab.com/postgres-ai/joe/
+    title: "Joe bot, an SQL query optimization assistant"
+    description: |
+      This is a new release coming out. Checkout [blog post](https://postgres.ai/blog/joe-0.5/)
+
+  - url: https://github.com/chaskiq/chaskiq
+    title: chaskiq
+    description: |
+      An open-source alternative to Drift, Intercom, and the like. And yes, it supports chat :-).
+
+  - url: https://github.com/dibsonthis/keyboard_listener
+    title: "keyboard_listener"
+    description: |
+      a module that allows you to create custom hotkeys (combinations) or custom keywords and bind them to custom functions in Python
+
+  - url: https://github.com/butuzov/deadlinks
+    title: deadlinks
+    description: |
+      Health checks for your documentation links which check external links as well and respect robots.txt restrictions (content only)
+
+  - url: https://github.com/diez/diez
+    title: diez
+    description: |
+      Write & maintain styles in one place, then compile & consume them everywhere:  Diez supports any UI component library or codebase written in Swift, Objective-C, Kotlin, Java, TypeScript, JavaScript/JSON, CSS, or SCSS.
+
+  - url: https://github.com/void-rs/void
+    title: void
+    description: |
+      terminal-based personal organizer
+
+  - url: https://meet.jit.si/
+    title: jit.si
+    description: "Secure, fully featured, and completely free video conferencing. It's also 100% open source at: [https://github.com/jitsi](https://github.com/jitsi)"
+
+  - url: https://github.com/liamg/shox
+    title: shox
+    description: |
+      🍫 A customisable, universally compatible terminal status bar
+
+  - url: https://github.com/monitoror/monitoror
+    title: "monitoror"
+    description: |
+      Unified monitoring wallboard — Light, ergonomic and reliable monitoring for anything.
+
+  - url: https://github.com/similarweb/statusbay
+    title: statusbay
+    description: |
+      Kubernetes deployment visibility like a pro
