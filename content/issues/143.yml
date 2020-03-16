@@ -12,7 +12,7 @@ description: |
   This week, I want to share this tip. I was always wondering how `#!` work in script, how does Linux
   know to invoke Bash/Python/Ruby when we write `#!/bin/bash` or `#!/usr/bin/env ruby`. Turn out, Linux use 
   `exec()` syscall to run the script. `exec()` knows how to load the program to execute the script by parsing
-  `#!`. [Here is the [Linux FAQ of `#!`](http://www.faqs.org/faqs/unix-faq/faq/part3/section-16.html) and a post 
+  `#!`. Here is the [Linux FAQ of `#!`](http://www.faqs.org/faqs/unix-faq/faq/part3/section-16.html) and a post 
   about [#!magic](https://www.in-ulm.de/~mascheck/various/shebang/)
 
 links:
