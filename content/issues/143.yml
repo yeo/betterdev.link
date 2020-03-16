@@ -1,0 +1,224 @@
+time: "Mar 16, 2020"
+subject: "The SOC2 Starting Seven and Mass account takeovers using HTTP Request Smuggling on Slack"
+draft: false
+
+description: |
+  Hi everyone! 👋
+
+  Welcome to issue #143. This week I'm sure everyone know of Covid-19 now. Please stay home, try
+  to not going out to publish as much as possible. Many companies encourages work from home, so less
+  comute time, more time to learn. Stay safe and hope this will get over quickly.
+
+  This week, I want to share this tip. I was always wondering how `#!` work in script, how does Linux
+  know to invoke Bash/Python/Ruby when we write `#!/bin/bash` or `#!/usr/bin/env ruby`. Turn out, Linux use 
+  `exec()` syscall to run the script. `exec()` knows how to load the program to execute the script by parsing
+  `#!`. [Here is the [Linux FAQ of `#!`](http://www.faqs.org/faqs/unix-faq/faq/part3/section-16.html) and a post 
+  about [#!magic](https://www.in-ulm.de/~mascheck/various/shebang/)
+
+links:
+  - url: https://latacora.singles/2020/03/12/the-soc-starting.html
+    title: "The SOC2 Starting Seven"
+    description: |
+       With Seven Things you can do now that will simplify SOC2 for you down the road while making your life, or at least your security posture, materially better in the immediacy.
+
+  - url: https://hackerone.com/reports/737140
+    title: "Mass account takeovers using HTTP Request Smuggling on https://slackb.com/ to steal session cookies"
+    description: |
+      A very interesting security issue on Slack app. It exploited an HTTP Request Smuggling bug on a Slack asset to perform a CL.TE-based hijack onto neighboring customer requests.
+      You can read more about [request smuggling](https://portswigger.net/research/http-desync-attacks-request-smuggling-reborn) and [http desync attachks](https://portswigger.net/research/http-desync-attacks-what-happened-next).
+      If you are using Nginx, your app maybe vulnerable to similar issue. If you are behind AWS Load Balancer or Cloudfront, they already protected you from this.
+
+  - url: https://bugs.xdavidhu.me/google/2020/03/08/the-unexpected-google-wide-domain-check-bypass/
+    title: "The unexpected Google wide domain check bypass"
+    description: |
+      Have you ever though of digging into Google Chrome code to find bug?
+      It sounds scary. Smart people work on browser engines. But at the end of day,
+      it is just code, and you can understand how it works.
+      The author found some issue by doing steps like fuzzing, a lot of debugging. If they
+      went to source code, they may found bug sooner.
+
+  - url: https://linux-kernel-labs.github.io/refs/heads/master/index.html
+    title: "Linux Kernel Teaching"
+    description: |
+      This is a collection of lectures and labs Linux kernel topics. The lectures focus on theoretical and Linux kernel exploration.
+      You will learn about system call, interrupt, and Symmetric Multi-Processing
+
+  - url: https://ruslanspivak.com/eofnotchar/
+    title: "EOF is not a character"
+    description: |
+      I was reading Computer Systems: A Programmer’s Perspective the other day and in the chapter on Unix I/O the authors mention that there is no explicit “EOF character” at the end of a file.
+
+  - url: https://endler.dev/2019/tinysearch/
+    title: A Tiny, Static, Full-Text Search Engine using Rust and WebAssembly
+    description: |
+      a basic search module that you can add to a static website. It's very lightweight (50kB-100kB gzipped) and should work with Hugo, Zola, and Jekyll.
+      The engine is written in Rust, compile to webassembly using wasm-pack, which also auto-generate the JavaScript code to talk to Wasm.
+      Now, it is time to move further away from JavaScript :-) if you didn't like it.
+
+  - url: https://relistan.com/the-kernel-may-be-slowing-down-your-app
+    title: "The Kernel Change That May Be Slowing Down Your App"
+    description: |
+      A kernel “bug fix” that happened at the end of last year may be killing the performance of your Kubernetes- or Mesos-hosted applications.
+      If you run on K8s or Mesos, or another platform that uses the Linux CFS CPU limits, you are almost certainly getting affected by this issue.
+
+  - url: https://www.forrestthewoods.com/blog/memory-bandwidth-napkin-math/
+    title: "Memory Bandwidth Napkin Math"
+    description: "Imagine you have a contiguous array of one billion 32-bit integers in memory. That's 4 gigabytes. How long will it take to iterate that array and sum the values? How many bytes of contiguous data can a CPU read from RAM per second? How many bytes of random access? How well can it be parallelized"
+
+  - url: http://notes.eatonphil.com/database-basics.html
+    title: "Database basics: writing a SQL database from scratch in Go"
+    description: |
+      In this series we'll write a rudimentary database from scratch in Go.
+      We will build a parser, a in-memory engine to query/insert data.
+      Interesting see how we can build a simple SQL engine in such as small amount of code.
+      Even if you don't write Go, it is still worth your read to see how the parser is implemented.
+
+  - url: https://www.cybertec-postgresql.com/en/subtransactions-and-performance-in-postgresql/
+    title: "Subtransactions and performance in postgresql"
+    description: |
+      subtransactions allow you to roll back part of the work done in a transaction. You start a subtransaction inside a transaction with the standard SQL statement. Then
+      using `SAVEPOINT` to name it and be able to rollback back o that point.
+
+  - url: https://developers.google.com/optimization/scheduling/employee_scheduling
+    title: "Employee Scheduling"
+    description: |
+      A blog port from Google, presents two examples of employee scheduling problems, and show how to solve them using the CP-SAT solver.
+
+#- url: https://microkerneldude.wordpress.com/2020/03/11/sel4-design-principles/
+#   title: "seL4 Design Principles"
+
+#
+#  - url: https://blog.scottlogic.com/2020/02/17/minesweeper-optimisation.html
+#    title: "Slow Code HATES him! Optimising a web app from 1 to 60fps"
+#
+#
+#  - url: https://alexbakker.me/post/mysterious-google-titan-m-bug-cve-2019-9465.html
+#    title: "A mysterious bug in the firmware of Google's Titan M chip (CVE-2019-9465)"
+#
+#
+#
+#  - url: https://thoughtbot.com/blog/reading-an-explain-analyze-query-plan
+#    title: "Reading a Postgres EXPLAIN ANALYZE Query Plan"
+#
+#  - url: https://www.hanshq.net/zip.html
+#    title: "Zipfile: History, Explanation and Implementation"
+#
+#  - url: https://9elements.com/blog/pure-css-diagonal-layouts/
+#    title: "Create Diagonal Layouts Like It's 2020"
+#    description: |
+#      Layouts with diagonal sections are quite popular for several years now. It is not the new hot stuff, and you will probably not find it in the articles titled "Design trends for 2020". But I think it is here to stay. It is one tool designers can use to bring some dynamic to all the rectangular boxes with boring 90-degree angles
+
+#  - url: https://blog.jonlu.ca/posts/decrypting-blind
+#    title: "Reverse engineering blind's api and client side encryption"
+#    description: 
+#
+#  https://tuzz.tech/blog/how-bash-completion-works
+#
+#  - url: https://github.com/dwmkerr/hacker-laws
+#    title: hacker-laws
+#    description: "Laws, Theories, Principles and Patterns that developers will find useful."
+
+#  - url: https://www.cryptologie.net/article/490/how-symmetric-password-authenticated-key-exchanges-work-spake/
+#    title: "How symmetric password-authenticated key exchanges work (sPAKE)"
+#
+#  - url: https://blog.acolyer.org/2020/02/12/lets-encrypt-an-automated-certificate-authority-to-encrypt-the-entire-web/
+#    title: "Let's Encrypt: an automated certificate authority to encrypt the entire web"
+#    description: |
+#
+#
+#
+#    https://googleprojectzero.blogspot.com/2020/02/mitigations-are-attack-surface-too.html
+#
+
+#  - url: https://hackaday.com/2020/02/13/emulating-a-bluetooth-keyboard-with-the-esp32/
+#    title: "EMULATING A BLUETOOTH KEYBOARD WITH THE ESP32"
+#    description: |
+#      Lots of thing like smart power outlet, power strip, or camera use ESP32. Why wifi is strong capanility if ESP32,
+#      it also comes equipped with Bluetooth. In this article, we hook up keypad into its GPIO. The rest are just software.
+#      Fun and cool project if you like some hardware hack.
+
+video:
+  - url: https://www.youtube.com/watch?v=4cw9K9yuIyU
+    title: "How To Build a Thrust Vectored Model Rocket - National Rocketry Conference 2020"
+
+  - url: https://www.infoq.com/presentations/high-resolution-telemetry
+    title: "High Resolution Performance Telemetry at Scale"
+
+read_code:
+  - url: https://github.com/ajeetdsouza/zoxide
+    title: zoxide
+    description: |
+      A fast cd command that learns your habits. hyperfine reports that zoxide runs 10-20x faster than z.lua, which, in turn, runs 3x faster than z.
+    category: ['Rust']
+
+  - url: https://github.com/jamiebuilds/the-super-tiny-compiler
+    title: the-super-tiny-compipler
+    description: |
+       An ultra-simplified example of all the major pieces of a modern compiler written in easy to read JavaScript.
+       Reading through the guided code will help you learn about how most compilers work from end to end.
+    category: ['JavaScript']
+
+  - url: https://codepen.io/ivorjetski/pen/xxGYWQG
+    title: Pure CSS Landscape - An Evening in Southwold
+    description: |
+      You can even choose your own sunset and change the light source
+    category: ['CSS']
+
+  - url: https://github.com/cmur2/dyndnsd
+    title: dyndnsd
+    description: |
+      A small, lightweight and extensible DynDNS server written with Ruby and Rack
+    category: ['Ruby']
+
+  - url: https://github.com/sedthh/pyxelate
+    title: "pyxelate"
+    description: |
+      Python class that downsamples images to pixel art.
+    category: ['Python']
+
+  - url: https://github.com/x-hgg-x/arkanoid-go
+    title: arkanoid-go
+    description: |
+      Arkanoid game in Go using Ebiten game engine with ECS.
+    category: ['Go']
+
+tool:
+  - url: https://github.com/pisa-engine/pisa
+    title: pisa
+    description: |
+     a text search engine able to run on large-scale collections of documents. It allows researchers to experiment with state-of-the-art techniques, allowing an ideal environment for rapid development.
+
+  - url: https://github.com/goharbor/harbor
+    title: harbor
+    description: |
+      An open source trusted cloud native registry project that stores, signs, and scans content
+
+  - url: https://github.com/firstlookmedia/dangerzone
+    title: dangerzone
+    description: "Take potentially dangerous PDFs, office documents, or images and convert them to a safe PDF"
+
+  - url: https://github.com/ClementTsang/bottom
+    title: bottom
+    description: |
+      Yet another cross-platform graphical process/system monitor.
+
+  - url: https://postgresql-anonymizer.readthedocs.io/en/latest/
+    title: "postgresql_anonymizer"
+    description: "an extension to mask or replace personally identifiable information (PII) or commercially sensitive data from a PostgreSQL database"
+
+  - url: https://github.com/oragono/oragono
+    title: oragono
+    description: |
+      A modern IRC server (daemon/ircd). Bleeding-edge IRCv3 support, suitable for use as an IRCv3 reference implementation
+
+  - url: https://github.com/R4yGM/netscanner
+    title: netscanner
+    description: |
+      TCP/UDP scanner to find open or closed ports
+
+
+  - url: https://github.com/jimsalterjrs/sanoid
+    title: sanoid
+    description: |
+      a policy-driven snapshot management tool for ZFS filesystems. When combined with the Linux KVM hypervisor, you can use it to make your systems functionally immortal.
+      Another tools on this zfs backup is [znapzend](https://github.com/oetiker/znapzend) and [zrepl](https://github.com/zrepl/zrepl)
