@@ -69,17 +69,17 @@ links:
 
 
 
-    title: "The Missing Fundamental"
-    description: |
-      Journy to debug performance issue of a NodeJS app, where deploy to the most expensive Heroku tier is still
-      not perform well as exptected. Root cause is a bad query where it load all data into memory and loop over them
-      instead of using native
-  - url: https://techblog.bozho.net/aws-elasticsearch-post-mortem/
-    title: "An AWS Elasticsearch post-mortem"
-    description: |
-      Real-world production incident on AWS ElasticSearch. Being unable to SSH into the actual machine, being unable to unblock the indexing through Elasticsearch means, and being unable to shut down or restart the nodes make it super hard to debug AWS ElasticSearch issue.
-
-
+#    title: "The Missing Fundamental"
+#    description: |
+#      Journy to debug performance issue of a NodeJS app, where deploy to the most expensive Heroku tier is still
+#      not perform well as exptected. Root cause is a bad query where it load all data into memory and loop over them
+#      instead of using native
+#  - url: https://techblog.bozho.net/aws-elasticsearch-post-mortem/
+#    title: "An AWS Elasticsearch post-mortem"
+#    description: |
+#      Real-world production incident on AWS ElasticSearch. Being unable to SSH into the actual machine, being unable to unblock the indexing through Elasticsearch means, and being unable to shut down or restart the nodes make it super hard to debug AWS ElasticSearch issue.
+#
+#
 
 #  - url: https://github.com/hwayne/lets-prove-leftpad
 #    title: Lets prove left pad
@@ -126,7 +126,11 @@ links:
 
 video:
   - url: https://www.infoq.com/presentations/traefik/
-    title: '"This Website is Not Secured," You Had One Job: Configuring the Edge Proxy!'
+    title: "This Website is Not Secured"
+    description: "You Had One Job: Configuring the Edge Proxy!"
+
+  - url: https://www.youtube.com/watch?v=PdkPI92KSIs
+    title: "Facial Recognition on Video with Python"
 
 read_code:
   - url: https://github.com/zenith391/lukyt
