@@ -1,0 +1,217 @@
+time: "Mar 23, 2020"
+subject: "Debugging MySQL replication lag by diving into the internals and How bash completion works"
+draft: false
+
+description: |
+  Hi everyone! 👋
+
+  At this point, lot more people continue to work from home, increase demand of needing some VPN solution. In this issue,
+  I includes a link to setup and configure a cheap but scalable VPN solution using zerotier.
+
+links:
+  - url: https://tuzz.tech/blog/how-bash-completion-works
+    title: How bash completion works
+    description: |
+      We used it daily, bash or zsh. when we type any command then `TAB`. But how does bash awares of that?
+      Turn out bash use a built in `complete` for that. Command registers with bash using `complete -W`
+
+  - url: https://making.pusher.com/debugging-mysql-replication-lag/
+    title: Debugging MySQL replication lag by diving into the internals
+    description: |
+      possible causes of replication lag, such as single-threaded replication, choice of binlog format, and disk flushing policy. I’ll show you how to diagnose the problem in your MySQL setup. Finally, I’ll describe how we fixed the replication lag in our case.
+
+  - url: https://engineering.shopify.com/blogs/engineering/refactoring-legacy-code-strangler-fig-pattern
+    title: "Refactoring Legacy Code with the Strangler Fig Pattern"
+    description: |
+      Every developer has to deal with legacy code at some point. We always want to migrate off some legacy system. trade-off decision in the past.
+      short cut we made in order to be able to move forward  Now how we fix them? This is how Shopify do it at scale.
+
+  - url: https://www.gkbrk.com/2020/03/encryption/
+    title: "Rolling your own encryption"
+    description: |
+      Expert says “Don’t roll your own” when it comes to crypto. But without trying to build thing, and learn how it works,
+      how can we deeply understand anything. So here, we go, for fun and see how it works
+
+  - url: https://medium.com/@deathmood/how-to-write-your-own-virtual-dom-ee74acc13060
+    title: How to write your own Virtual DOM
+    description: |
+      Virtual, DOM. all sounds scary. This article shows us how to do that in less trhan 50 lines of code.
+
+  - url: https://github.blog/2020-02-14-automating-mysql-schema-migrations-with-github-actions-and-more/
+    title: "Automating MySQL schema migrations with GitHub Actions and more"
+    description: |
+      Schema migrations at scale are hard and usually resvolve multiple steps to guarantee zero downtime.
+      We can learn from big company like Github.
+
+  - url: https://towardsdatascience.com/recursive-sql-queries-with-postgresql-87e2a453f1b
+    title: "Recursive SQL Queries with PostgreSQL"
+    description: "When working with databases, most of the time, all you need is SELECT, UPDATE (CRUD operations), few JOINs and WHERE clauses and that's about it. But, sometimes you will run into datasets and tasks, that will require you to use much more advanced features of SQL. One of them is CTE or common table expression and more specifically, Recursive CTE, which we can use to make recursive SQL queries."
+
+  - url: https://developers.google.com/tech-writing
+    title: "Technical Writing Courses"
+    description: |
+      A collection of courses and learning resources aims to improve your technical documentation from Google.
+
+  - url: https://keychest.net/stories/understanding-pki-for-busy-folks
+    title: "Understanding PKI for busy folks"
+    description: |
+      Public-key infrastructure (PKI) is a term for everything that has to do with web encryption beyond. This is a list of main terms to understand what it is and how it works.
+
+  - url: https://stubarea51.net/2020/03/10/remote-workers-rapid-and-cost-effective-vpn-scale-with-zerotier-opnsense-and-frrouting/
+    title: "Remote workers – rapid and cost-effective VPN scale with ZeroTier, OPNSense and FRRouting."
+    description: |
+      This is an overview of a design we’ve put into production to facilitate enterprise level VPN connectivity without traditional drawbacks like scale limit, hairpinning traffic and expensive hardware and software licensing. ZeroTier is a full mesh VPN where all clients can reach each other, make it super easy to collaborate such as you can SSH into your friend laptop to share a tmux session.
+
+  - url: https://blog.balthazar-rouberol.com/text-processing-in-the-shell
+    title: "Text processing in the shell"
+    description: |
+      Basically a cheatsheet of tools like awk, sed, grep, tr, cut, paste, sort, uniq etc to process text such as csv, log file in the shell.
+
+
+
+    title: "The Missing Fundamental"
+    description: |
+      Journy to debug performance issue of a NodeJS app, where deploy to the most expensive Heroku tier is still
+      not perform well as exptected. Root cause is a bad query where it load all data into memory and loop over them
+      instead of using native
+  - url: https://techblog.bozho.net/aws-elasticsearch-post-mortem/
+    title: "An AWS Elasticsearch post-mortem"
+    description: |
+      Real-world production incident on AWS ElasticSearch. Being unable to SSH into the actual machine, being unable to unblock the indexing through Elasticsearch means, and being unable to shut down or restart the nodes make it super hard to debug AWS ElasticSearch issue.
+
+
+
+#  - url: https://github.com/hwayne/lets-prove-leftpad
+#    title: Lets prove left pad
+#    description: |
+#
+#  - url: https://medium.com/@emilefugulin/http-desync-attacks-with-python-and-aws-1ba07d2c860f
+
+#  - url: https://blog.scottlogic.com/2020/02/17/minesweeper-optimisation.html
+#    title: "Slow Code HATES him! Optimising a web app from 1 to 60fps"
+#
+#
+#  - url: https://alexbakker.me/post/mysterious-google-titan-m-bug-cve-2019-9465.html
+#    title: "A mysterious bug in the firmware of Google's Titan M chip (CVE-2019-9465)"
+#
+#
+#
+#  - url: https://thoughtbot.com/blog/reading-an-explain-analyze-query-plan
+#    title: "Reading a Postgres EXPLAIN ANALYZE Query Plan"
+#
+#  - url: https://www.hanshq.net/zip.html
+#    title: "Zipfile: History, Explanation and Implementation"
+#
+#  - url: https://blog.jonlu.ca/posts/decrypting-blind
+#    title: "Reverse engineering blind's api and client side encryption"
+#    description: 
+#  - url: https://www.cryptologie.net/article/490/how-symmetric-password-authenticated-key-exchanges-work-spake/
+#    title: "How symmetric password-authenticated key exchanges work (sPAKE)"
+#
+#  - url: https://blog.acolyer.org/2020/02/12/lets-encrypt-an-automated-certificate-authority-to-encrypt-the-entire-web/
+#    title: "Let's Encrypt: an automated certificate authority to encrypt the entire web"
+#    description: |
+#
+#
+#
+#    https://googleprojectzero.blogspot.com/2020/02/mitigations-are-attack-surface-too.html
+#
+
+#  - url: https://hackaday.com/2020/02/13/emulating-a-bluetooth-keyboard-with-the-esp32/
+#    title: "EMULATING A BLUETOOTH KEYBOARD WITH THE ESP32"
+#    description: |
+#      Lots of thing like smart power outlet, power strip, or camera use ESP32. Why wifi is strong capanility if ESP32,
+#      it also comes equipped with Bluetooth. In this article, we hook up keypad into its GPIO. The rest are just software.
+#      Fun and cool project if you like some hardware hack.
+
+video:
+  - url: https://www.infoq.com/presentations/traefik/
+    title: '"This Website is Not Secured," You Had One Job: Configuring the Edge Proxy!'
+
+read_code:
+  - url: https://github.com/zenith391/lukyt
+    title: lukyt
+    description: Basic JVM (Java 1.2) made in Lua
+    category: ['Lua', 'Java']
+
+  - url: https://github.com/KFlash/seafox
+    title: seaxfox
+    description: |
+      A Fast Spec-Compliant JavaScript Parser Written in Typescript — Ge
+    category: ['TypeScript', 'JavaScript']
+
+  - url: https://github.com/ellbrid/krabs
+    title: krabs
+    description: |
+      An x86 bootloader written in Rust.
+    category: ['Rust']
+
+  - url: https://github.com/anirbanmu/str_metrics
+    title: str_metrics
+    description: |
+      Ruby gem (native extension in Rust) providing implementations of various string metrics.
+      You will learn how to leverage Rust for its great performance, them write binding to call 
+      it from Ruby.
+    category: ['Ruby']
+
+  - url: https://github.com/burntsushi/wingo
+    title: wingo
+    description: |
+      A fully-featured window manager written in Go.
+    category: ['Go']
+
+  - url: https://github.com/kamranahmedse/itomate
+    title: itomate
+    description: |
+      Automate your iTerm layouts and session setup. A similar tool in Ruby is [tmuxinator](https://github.com/tmuxinator/tmuxinator)
+    category: ['Python']
+
+tool:
+  - url: https://github.com/andris9/imap-api
+    title: imap-api
+    description: |
+      Self hosted application to access IMAP accounts over REST
+
+  - url: https://backstage.io/
+    title: Backstage
+    description: |
+      Basically an abstraction layer where you can manage infrastructure across AWS, GCP, Azure.
+      You only have to work with building block from Backstage instead of caring about what they are
+      in AWS, GCP.
+      Read [introduction post](https://labs.spotify.com/2020/03/17/what-the-heck-is-backstage-anyway/)
+
+  - url: https://github.com/ClusterLabs/PAF
+    title: PAF
+    description: |
+      PostgreSQL Automatic Failover: High-Availibility for Postgres, based on Pacemaker and Corosync. 
+
+  - url: https://github.com/agroal/pgagroal
+    title: pgagroal
+    description: |
+      High-performance connection pool for PostgreSQL
+
+  - url: https://github.com/jedisct1/encrypted-dns-server
+    title: encrypted-dns-servr
+    description: |
+      An easy to install, high-performance, zero maintenance proxy to run an encrypted DNS server.
+
+  - url: https://github.com/Marethyu12/gotube
+    title: gotube
+    description: "A very simple command line tool for downloading YouTube videos. Similar to youtube-dl but way easier to install since it's written in Go"
+
+  - url: https://github.com/maxvoltar/photo-stream
+    title: photo-stream
+    description: |
+      Self-hosted, super simple photo stream. It generates static sites which you can host anywhere.
+
+  - url: https://github.com/erroneousboat/slack-term
+    title: slack-term
+    description: |
+      A Slack Client for Your Terminal. Super useful in time where more and more is working remotely.
+
+  - url: https://github.com/appleboy/gorush
+    title: gorush
+    description: |
+      A push notification server written in Go.
+
+
