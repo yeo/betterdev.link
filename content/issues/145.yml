@@ -1,0 +1,213 @@
+time: "Mar 30, 2020"
+subject: "CS 253 Web Security and Pentesting a banking FTP service"
+draft: false
+
+description: |
+  Hi everyone! 👋
+
+  This week I changed the "from" email to `vinh@betterdev.link` instead of my personal email to make
+  it easier for me to filter out email feedback for my newsletter. Please update your filter accordingly
+  as well. Thank you for your support being a reader :-).
+
+links:
+  - url: https://web.stanford.edu/class/cs253/
+    title: "Stanford: CS 253 Web Security"
+    description: |
+      A free course by Feross of JS Party. All the course materials, slides, and videos are freely available online and they wanted to share with the broader community, in case anyone is interested in learning more about secure web programming.
+      The course goal is to build an understanding of the most common web attacks and their countermeasures. Given the pervasive insecurity of the modern web landscape, there is a pressing need for programmers and system designers improve their understanding of web security issues. We’ll be covering the fundamentals as well as the state-of-the-art in web security.
+
+  - url: https://blog.scottlogic.com/2020/03/10/raytracer-how-to.html
+    title: "How to Write a Ray Tracer Intuitively"
+    description: |
+      Ray tracing is a rendering technique for generating an image by tracing the path of light as pixels in an image plane and simulating the effects of its encounters with virtual objects. This article discuss about an implementation run on BBCMicro:Bit, a he pocket-sized computer transforming the world.
+
+  - url: https://thoughtbot.com/blog/reading-an-explain-analyze-query-plan
+    title: "Reading a Postgres EXPLAIN ANALYZE Query Plan"
+    description: |
+      The most powerful tool at our disposal for understanding and optimizing SQL queries is EXPLAIN ANALYZE, which is a Postgres command that accepts a statement such as SELECT ..., UPDATE ..., or DELETE ..., executes the statement, and instead of returning the data provides a query plan detailing what approach the planner took to executing the statement provided.
+
+  - url: https://blog.lexfo.fr/pentesting-pesit-ftp.html
+    title: "Pentesting a banking FTP service"
+    description: |
+      A classical penetration test requires skills to assess a large variety of weaknesses, often dealing with common bug classes. Memory corruptions are rarely exploited during penetration tests. The reasons being, they can be risky (you do not want to crash a production system) and it can be time consuming (if you develop/adapt an exploit). It is also rather uncommon to have the opportunity to exploit a known memory corruption bug with a public script because both vendors and users tend to take their patching very seriously. Nevertheless, these kinds of weaknesses may enable attackers to gather powerful primitives, such as Remote Command Execution or secrets theft.
+
+  - url: https://understandlegacycode.com/blog/3-steps-to-add-tests-on-existing-code-when-you-have-short-deadlines/
+    title: "3 steps to add tests on existing code when you have short deadlines"
+    description: |
+      The code requires significant changes to support unit tests. I have deadlines to meet!.
+      You have that pile of Legacy Code you need to change.
+
+  - url: https://toroid.org/unix-pipe-implementation
+    title: How are Unix pipes implemented?
+    description: |
+      We used them all day long. `curl | bash`, `cat | grep | awk`. But how they are implemented? where do
+      buffer data is stored?
+
+  - url: https://tech.findmypast.com/k8s-dns-lookup/
+    title: "Solving DNS lookup failures in Kubernetes"
+    description: |
+      Our journey along the Kuberentes (K8s) road continues with the story of how we diagnosed and solved random, intermittent DNS lookup failures between K8s pods and also between pods and services external to our K8s cluster.
+
+  - url: https://www.micah.soy/posts/setting-up-git-identities/
+    title: "Setting Up Git Identities"
+    description: |
+      Working on many projects across multiple identities can be difficult to manage.
+      This is a procedure for leveraging git aliases to set an identity at the project level for any project with support for GPG-based commit signing.
+      A comment from hacker news, also share an [interesting approach using `Git includeIf direction`](https://news.ycombinator.com/item?id=22672682). Check it out as well
+
+  - url: https://link.springer.com/article/10.1007%2Fs10664-019-09772-z
+    title: "How different are different diff algorithms in Git?"
+    description: |
+      Automatic identification of the differences between two versions of a file is a common and basic task in several applications of mining code repositories.
+      Git has a diff utility and users can select algorithms of diff from the default algorithm Myers to the advanced Histogram algorithm.
+
+  - url: https://johv.dk/blog/bare-metal-assembly-tutorial.html
+    title: "Getting started with bare-metal assembly"
+    description: "Seeing a program you wrote running directly on the bare metal is deeply satisfying to anyone who enjoys writing software. And it turns out that creating such a program from scratch is easier than it sounds. The hardest part is figuring out where to start. In this tutorial, I'll show you how to write, build and run the classic \"Hello, World!\" in pure assembly."
+
+  - url: https://github.com/heathermiller/dist-prog-book
+    title: "Programming Models for Distributed Computation"
+    description: |
+      Source repo for the book that author and their students in their course at Northeastern University, CS7680 Special Topics in Computing Systems: Programming Models for Distributed Computing, are writing on the topic of programming models for distributed systems. You can read out (individual chapters in here](https://github.com/heathermiller/dist-prog-book/tree/master/chapter)
+
+
+#  - url: https://www.smashingmagazine.com/make-life-easier-when-using-git/
+#    title: "How To Make Life Easier When Using Git"
+#
+#
+#  - url: https://notes.iveselov.info/programming/printf-and-floating-point-numbers
+#    title: "printf() and floating point numbers"
+#    description: |
+#
+#  - url: https://begriffs.com/posts/2020-03-23-concurrent-programming.html?hn=1
+#    title: "Concurrent programming, with examples"
+#  - url: https://gleslie.com/rpi/raspberry/pi/dashboard/2020/03/28/building-a-rpi-vehicle-dashboard.html
+#    title: "Building a Raspberry Pi Speedometer"
+#
+#  - url: https://itnext.io/linux-container-from-scratch-339c3ba0411d
+#    title: "The Missing Fundamental"
+#    description: |
+#      Journy to debug performance issue of a NodeJS app, where deploy to the most expensive Heroku tier is still
+#      not perform well as exptected. Root cause is a bad query where it load all data into memory and loop over them
+#      instead of using native
+#  - url: https://techblog.bozho.net/aws-elasticsearch-post-mortem/
+#    title: "An AWS Elasticsearch post-mortem"
+#    description: |
+#      Real-world production incident on AWS ElasticSearch. Being unable to SSH into the actual machine, being unable to unblock the indexing through Elasticsearch means, and being unable to shut down or restart the nodes make it super hard to debug AWS ElasticSearch issue.
+#
+#
+#  - url: https://blog.scottlogic.com/2020/02/17/minesweeper-optimisation.html
+#    title: "Slow Code HATES him! Optimising a web app from 1 to 60fps"
+#
+#  - url: https://blog.jonlu.ca/posts/decrypting-blind
+#    title: "Reverse engineering blind's api and client side encryption"
+#  - url: https://www.cryptologie.net/article/490/how-symmetric-password-authenticated-key-exchanges-work-spake/
+#    title: "How symmetric password-authenticated key exchanges work (sPAKE)"
+#  - url: https://hackaday.com/2020/02/13/emulating-a-bluetooth-keyboard-with-the-esp32/
+#    title: "EMULATING A BLUETOOTH KEYBOARD WITH THE ESP32"
+#    description: |
+#      Lots of thing like smart power outlet, power strip, or camera use ESP32. Why wifi is strong capanility if ESP32,
+#      it also comes equipped with Bluetooth. In this article, we hook up keypad into its GPIO. The rest are just software.
+#      Fun and cool project if you like some hardware hack.
+
+video:
+  - url: https://www.youtube.com/watch?v=xqTNceHxkIo
+    title: "PostgreSQL Performance Workshop"
+
+  - url: https://www.infoq.com/presentations/iac-terraform-testing/
+    title: "InfraCoding with Terraform"
+    description: "Writing Tests for Infrastructure-as-Code"
+
+read_code:
+  - url: https://github.com/MycroftAI
+    title: "MycroftAI"
+    description: |
+      the world’s first open source voice assistant.
+    category: ['Python']
+
+  - url: https://github.com/Caligatio/jsSHA/blob/master/src/sha_dev.js
+    title: jsSHA
+    description: |
+      Ever wonder what exactly occur when hashing with SHA family. Now you can see that in pure JavaScript
+    category: ['JavaScript']
+
+  - url: https://github.com/JetSetIlly/Gopher2600
+    title: Gopher2600
+    description: |
+     a more-or-less complete emulation of the Atari VCS
+    category: ['Go']
+
+  - url: https://github.com/testdouble/standard
+    title: standard
+    description: |
+       Ruby Style Guide, with linter & automatic code fixer
+    category: ['Ruby']
+
+tool:
+  - url: https://github.com/soundcloud/periskop
+    title: periskop
+    description: |
+      Pull based, language agnostic exception aggregator for microservice environments.
+      Similar to Sentry but instead of pushing exception to Sentry, the exeption os pre-aggreated in client and 
+      scrape by perisckop like Prometheus
+
+  - url: https://github.com/pion/ion
+    title: ion
+    description: |
+      Distributed RTC System by pure Go and Flutter
+
+  - url: https://github.com/panther-labs/panther
+    tiel: panter
+    description: |
+      Detect threats with log data and improve cloud security posture
+
+  - url: http://techgenix.com/open-source-security-tools/
+    title: "open source security tools"
+    description: |
+      Open-source security tools for cloud and container applications
+
+  - url: https://github.com/disneystreaming/ssm-helpers
+    title: ssm-helper
+    description: |
+      Help manage AWS systems manager with helpers. It has 2 sub tools: ssm-session to run shel without the need of provsiom ssh key but using IAM authentication.
+      annd ssh-run to run a command on multiple instances(kind of like Chef or Salt)
+
+  - url: https://github.com/bwhaley/ssmsh
+    title: ssmsh
+    description: |
+      A shell for AWS Parameter Store. The built-in UI console of AWS to manage parameter stores is awful. This tools make it easier to navigate
+      parameter store with `cd` `ls` since it has a hierarchy structure.
+
+  - url: https://docs.meilisearch.com/
+    title: meilisearch
+    description: " a RESTful search API that is the ready-to-go solution for everyone wanting a powerful, fast, and relevant search experience for their end-users"
+
+  - url: https://github.com/mumble-voip/mumble
+    title: mumble
+    description: |
+      an open source, low-latency, high quality voice chat software primarily intended for use while gaming
+
+  - url: https://www.ntop.org/products/traffic-analysis/ntop/
+    title: ntop
+    description: |
+      High-Speed Web-based Traffic Analysis and Flow Collectioni based on libpap. Source code on [github](https://github.com/ntop/ntopng)
+
+  - url: https://github.com/JFreegman/SpicyPass
+    title: SpicyPass
+    description: |
+      A light-weight password manager with a focus on simplicity and security
+
+  - url: https://github.com/pivpn/pivpn
+    title: pivpn
+    description: |
+      The Simplest VPN installer, designed for Raspberry Pi
+
+  - url: https://github.com/prologic/tube
+    title: tube
+    description: |
+       a Youtube-likeVideo Sharing App written in Go which also supports automatic transcoding to MP4 H.265 AAC
+
+  - url: https://rastersoft.com/programas/cronopete.html
+    title: cronopete
+    description: |
+       a Linux clone of Time Machine, the backup utility for Mac from Apple. It aims to mimic it as closely as possible.
