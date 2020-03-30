@@ -99,7 +99,7 @@ func sendTo(svc *ses.SES, issue, subject, email string) (*ses.SendEmailOutput, e
 		},
 		//ReturnPath:    aws.String(""),
 		//ReturnPathArn: aws.String(""),
-		Source: aws.String("vinh@yeo.space"),
+		Source: aws.String("vinh@betterdev.link"),
 		//SourceArn:     aws.String(""),
 	}
 
