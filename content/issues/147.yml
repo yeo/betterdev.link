@@ -8,6 +8,7 @@ description: |
   The world continue to need video chat software that secure and reliable. WebRTC is utilized a lot to quickly build your own tool. In this issue, I had
   2 code bases that to help you learn about building video call apps with WebRTC.
 
+  I also found this great resource: Freecodecamp is offering free course for AWS certificate, available on their youtube channel, for free and no advertisements. [Check them out](https://www.freecodecamp.org/news/pass-the-aws-developer-associate-exam-with-this-free-16-hour-course/).
 links:
   - url: https://twobithistory.org/2019/11/06/doom-bsp.html
     title: "How Much of a Genius-Level Move Was Using Binary Space Partitioning in Doom?"
@@ -162,11 +163,6 @@ tool:
     title: brim
     description: |
       Desktop application to efficiently search large packet captures and Zeek logs.
-
-  - url: https://github.com/qubole/afctl
-    title: afctl
-    description: |
-      The proposed CLI tool is authored to make creating and deployment of Apache Airflow (https://airflow.apache.org/) projects faster and smoother
 
   - url: https://github.com/eradman/entr/
     title: entrproject
