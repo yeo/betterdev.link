@@ -1,0 +1,189 @@
+time: "Apr 13, 2020"
+subject: "How Much of a Genius-Level Move Was Using Binary Space Partitioning in Doom and Migration ZooKeeper into Kubernetes without downtime"
+draft: false
+
+description: |
+  Hi everyone,
+
+  The world continue to need video chat software that secure and reliable. WebRTC is utilized a lot to quickly build your own tool. In this issue, I had
+  2 code bases that to help you learn about building video call apps with WebRTC.
+
+links:
+  - url: https://twobithistory.org/2019/11/06/doom-bsp.html
+    title: "How Much of a Genius-Level Move Was Using Binary Space Partitioning in Doom?"
+    description: |
+      A decade after Doom’s release, in 2003, journalist David Kushner published a book about id Software called Masters of Doom, which has since become the canonical account of Doom’s creation.
+      Carmack, realizing the problem with his renderer was fundamental enough that he would need to find a better rendering algorithm, started reading research papers. He eventually implemented a technique called “binary space partitioning,” never before used in a video game, that dramatically sped up the Doom engine.
+
+  - url: https://product.hubspot.com/blog/zookeeper-to-kubernetes-migration
+    title: "Embrace and Replace: Migrating ZooKeeper into Kubernetes"
+    description: |
+      Hubspot migrated hundreds of ZooKeeper instances from individual server instances to Kubernetes without downtime.
+      Their approach used powerful Kubernetes features like endpoints to ease the process, so we’re sharing the high level outline of the approach for anyone who wants to follow in our footsteps.
+
+  - url: https://www.rtcsec.com/2020/04/01-slack-webrtc-turn-compromise/
+    title: "Abused Slack's TURN servers to gain access to internal services security rtcsec.com"
+    description: |
+      Slack’s TURN server allowed relaying of TCP connections and UDP packets to internal Slack network and meta-data services on AWS.
+      Accessing to that meta-data services usually allow you to get the IAM credential of that instance profile.
+
+  - url: https://www.mikealche.com/software-development/a-humble-guide-to-database-schema-design
+    title: "A humble guide to database schema design"
+    description: |
+      Having a good database schema design is crucial for building applications that will need to scale in traffic and complexity. 
+      If you happen to do a bad design choice you will see that it takes a lot of effort to stop the pattern from propagating to your backends’ services and controllers, and finally to your frontend
+
+  - url: https://info.crunchydata.com/blog/optimize-postgresql-server-performance
+    title: "Optimize PostgreSQL Server Performance Through Configuration"
+    description: |
+      Postgres is great and it has so many options to tune its performance. New article pop up time to time.
+      There are four high-level settings which will be discussed here: shared_buffers,  wal_buffers,  effective_cache_size, and maintenance_work_mem.
+
+  - url: https://blog.expensify.com/2018/01/08/scaling-sqlite-to-4m-qps-on-a-single-server/
+    title: "Scaling SQLite to 4M QPS on a Single Server (EC2 vs Bare Metal)"
+    description: |
+      Expensify has an unusual technology stack in many way. No internal dns, just managed /etc/host, but most surprising is that they don’t use MySQL or Postgres — instead using none other than SQLite — and it works great. They wrap SQLite in [bedrockdb](https://bedrockdb.com/), even using it for their job queue.
+
+  - url: https://alta3.com/blog/diagnosing-a-slow-network
+    title: "Diagnosing a slow network"
+    description: |
+      Diagnosing network problems is something that system administrators dread. Almost always their inability to perform efficient network analysis is based on their own reluctance to learn and embrace network testing. Let’s change that by learning three tools that a system admin should routinely use: mtr, iperf, and MTU testing with ping.
+
+  - url: https://landing.google.com/sre/books/
+    title: "Building Secure and Reliable Systems"
+    description: "Third book in the SRE seria book by Google. It's free in all digital form now: PDF, EPUB(iBook), Mobi(Kindle)"
+
+  - url: https://nagarrosecurity.com/blog/interactive-buffer-overflow-exploitation
+    title: "Interactive guide to Buffer Overflow exploitation"
+    description: "A Buffer Overflow is a bug class in a program typically written in a memory unsafe language like C or C++. Buffer Overflow bugs from user-input can often allow someone to overwrite some data in memory they weren't supposed to. Before we dive into how to exploit Buffer Overflow bugs, we will do a quick introduction to Assembly."
+
+  - url: https://prefet.ch/blog/2020/email-server/
+    title: "Setting up an email server in 2020 with OpenSMTPD and Dovecot"
+    description: |
+      We all run our own web server, dev server, hosting side project, but prolly not many run their own mail server.
+      It is suprising easy to do that in 2020. Plus you got to lear what component we need for mail server.
+
+  - url: https://hpbn.co/transport-layer-security-tls/
+    title: "Transport Layer Security (TLS)"
+    description: |
+      TLS is fundamental to secure HTTP trafic. They are complex, from time to time we include link about TLS to help you understand more about it.
+      This is chapter 4 of a networking 101 book, help you lean Encryption, Authentication, and Integrity, TLS Handshake. RSA, Diffie-Hellman and Forward Secrecy and more.
+      Another article, in [very short from about TLS Handshake by Cloudflare](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/) if you just want a short overview.
+
+video:
+  - url: https://www.youtube.com/watch?v=y8OnoxKotPQ
+    title: Microservice
+    description: |
+      A comedy video on microservice. Just for some fun :-)
+
+  - url: https://www.youtube.com/watch?v=PzEox3szeRc
+    title: "GOTO 2019 • \"Good Enough\" Architecture • Stefan Tilkov"
+
+read_code:
+  - url: https://github.com/rxi/fe
+    title: fe
+    description: |
+      A tiny, embeddable language implemented in ANSI C
+    category: ['C']
+
+  - url: https://elder.dev/posts/open-source-virtual-background/
+    title: "Open Source Virtual Background"
+    description: |
+      Zoom’s most interesting feature is the “Virtual Background” support which allows users to replace the background behind them in their webcam video feed with any image (or video).
+      How can we implement that ourself because that feature is not well support on Linux.
+    category: ['Python']
+
+  - url: https://github.com/lazyprogrammer/machine_learning_examples
+    title: machine learning example
+    description: |
+      A collection of machine learning examples and tutorials.
+    category: ['Python']
+
+  - url: https://github.com/victords/super-bombinhas
+    title: super-bombinhas
+    description: |
+      A platformer game written in Ruby (ongoing).
+    caregory: ['Ruby']
+
+  - url: https://github.com/deislabs/krustlet
+    title: krustlet
+    description: |
+      Kubernetes rust kubelet. Make it easy to deploy WebAssembly workloads on Kubernetes. Also demonstrate to the community how to build architectural pieces of Kubernetes in alternative programming languages.
+    category: ['Rust']
+
+  - url: https://github.com/ianramzy/decentralized-video-chat
+    title: decentralized-video-chat
+    description: |
+      🚀 Zipcall.io 🚀 Peer to peer browser video calling platform with unmatched video quality and latency.
+    category: ['JavaScript', 'WebRTC']
+
+  - url: https://github.com/souramoo/party
+    title: party
+    description: |
+      Multiplayer spatial video chat platform. [Live demo](https://party.mookerj.ee/join)
+    category: ['JavaScript', 'WebRTC']
+
+  - url: https://github.com/lynckia/licode
+    title: licode
+    description: |
+      Open Source Communication Provider based on WebRTC and Cloud technologies
+    category: ['C++', 'WebRTC']
+
+  - url: https://github.com/aaronjanse/3mux
+    title: 3mux
+    description: |
+      Terminal multiplexer inspired by i3. Want to know how to write something like tmux in Go? read on.
+    category: ['Go']
+
+tool:
+  - url: https://github.com/albertito/chasquid
+    title: chasquid
+    description: |
+      SMTP (email) server with a focus on simplicity, security, and ease of operation
+
+  - url: https://github.com/dcf21/star-charter
+    title: star-charter
+    description: |
+      A command-line tool for producing vector-graphics charts of the night sky in SVG, PDF and PNG formats.
+      A fun tool I would say.
+
+  - url: https://github.com/ptek/api.unverified.email
+    title: unverified.email
+    description: |
+      source code of a hosted service to test email. You can [read more about how it works](https://kerestey.net/writing/2020-04-05-announcing-unverified-dot-email.html)
+      in case you want to use hosted service.
+
+  - url: https://gitlab.com/markbeeson/maildrop
+    title: maildrop
+    description: |
+      an open-source, scalable, high-performance version of Mailinator.
+
+  - url: https://github.com/brimsec/brim
+    title: brim
+    description: |
+      Desktop application to efficiently search large packet captures and Zeek logs.
+
+  - url: https://github.com/qubole/afctl
+    title: afctl
+    description: |
+      The proposed CLI tool is authored to make creating and deployment of Apache Airflow (https://airflow.apache.org/) projects faster and smoother
+
+  - url: https://github.com/eradman/entr/
+    title: entrproject
+    description: |
+      Run arbitrary commands when files change. Read [introduction page](https://github.com/eradman/entr/)
+
+  - url: https://github.com/objective-see/BlockBlock
+    title: BlockBlock
+    description: |
+      provides continual protection by monitoring persistence locations for Mac.
+
+  - url: https://github.com/pokanop/nostromo
+    title: nostromo
+    description: |
+      a CLI to manage aliases through simple commands to add and remove scoped aliases and substitutions.
+
+  - url: https://www.keycloak.org/
+    title: keycloak
+    description: |
+      Open Source Identity and Access Management. You can do Single Singon, LDAP,OpenID Connect, OAuth 2.0 and SAML 2.0
