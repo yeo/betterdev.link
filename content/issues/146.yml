@@ -1,0 +1,191 @@
+time: "Apr 6, 2020"
+subject: "Security Engineering: A Guide to Building Dependable Distributed Systems"
+draft: false
+
+description: |
+  Hi everyone,
+
+  Memory Leak, Security, Low level systems: sound system and linux kernel module and how Slack deploy their system. I got them all this week :).
+  Hope you like this issue.
+
+links:
+  - url: https://www.cl.cam.ac.uk/~rja14/book.html
+    title: "Security Engineering: A Guide to Building Dependable Distributed Systems"
+    description: "A free ebook where you can read PDF/download for free on security engineering. This is third edition. Looking at all security issue of Zoom in last weeks, I think
+      it's worth to invest your time in security, especially if you are a devops or backend engineer"
+
+  - url: https://slack.engineering/deploys-at-slack-cd0d28c61701
+    title: "Deploys at Slack"
+    description: |
+      This post will outline their process and a few of the major projects that got them to where they are.
+
+  - url: https://medium.com/@rbranson/10-things-i-hate-about-postgresql-20dbab8c2791
+    title: "10 Things I Hate About PostgreSQL"
+    description: |
+      Despite the click bait title, this is a really good post with real pain point of Postgres.
+
+  - url: https://www.microsoft.com/security/blog/2020/04/02/attack-matrix-kubernetes/
+    title: "Attack matrix for Kubernetes"
+    description: |
+      While Kubernetes has many advantages, it also brings new security challenges that should be considered. Therefore, it is crucial to understand the various security risks that exist in containerized environments, and specifically in Kubernetes.
+
+  - url: https://static.googleusercontent.com/media/research.google.com/en//people/jeff/stanford-295-talk.pdf
+    title: "Software Engineering Advice from Building Large-Scale Distributed Systems"
+    description: |
+      This is PDF file of a talk of Jeff Dean, one of founding engineer of Google share his experience and lessions.
+
+  - url: https://citizenlab.ca/2020/04/move-fast-roll-your-own-crypto-a-quick-look-at-the-confidentiality-of-zoom-meetings/
+    title: "Move Fast & Roll Your Own Crypto"
+    description: |
+      A Quick Look at the Confidentiality of Zoom Meetings.
+      I don't like to include trendy news in my news letter, because it isn't helpful for future self and doesn't age well.
+      However, this isn't a normal article that bash on Zoom but has real methodlogy that they use to analyze zoom, which you can
+      learn the techniques from them.
+
+  - url: https://ourmachinery.com/post/writing-a-low-level-sound-system/
+    title: "Writing a Low-Level Sound System — You Can Do It!"
+    description: |
+      In this post, I’ll take a look at what it takes to write a low-level sound system. I.e., one where you do all the sampling, mixing, effects, etc by yourself. Though this may seem like a daunting task it is in fact pretty straightforward, depending on what features you want to add.
+
+  - url: https://blog.sourcerer.io/writing-a-simple-linux-kernel-module-d9dc3762c234
+    title: "Writing a Simple Linux Kernel Module"
+    description: |
+      A Linux kernel module is a piece of compiled binary code that is inserted directly into the Linux kernel, running at ring 0, the lowest and least protected ring of execution in the x86–64 processor. Code here runs completely unchecked but operates at incredible speed and has access to everything in the system
+      [Another article on this topic](https://devarea.com/linux-kernel-development-and-writing-a-simple-kernel-module/#.Xmpn5C2B3mE)
+
+  - url: https://samuel.karp.dev/blog/2019/04/a-runc-container-escape/
+    title: "A runc container escape"
+    description: |
+      On Monday, February 11, CVE-2019-5726 was disclosed. This vulnerability is a flaw in runc, which can be exploited to escape Linux containers launched with Docker, containerd, CRI-O, or any other user of runc. But how does it work? Dive in!
+
+  - url: https://v8.dev/blog/pointer-compression
+    title: "Pointer Compression in V8"
+    description: |
+      When Chrome switched from being a 32-bit process to a 64-bit process, it gave Chrome better security, stability and performance, but it came at a memory cost since each pointer now occupies eight bytes instead of four. We took on the challenge to reduce this overhead in V8 to try and get back as many wasted 4 bytes as possible.
+
+  - url: https://xy2.dev/article/re-bab/
+    title: "How an anti ad-blocker works: Reverse-engineering BlockAdBlock"
+    description: |
+      How does an anti ad-blocker detect adblockers? And how do adblockers react and block ad-block-blockers?
+
+  - url: https://www.arbazsiddiqui.me/a-practical-guide-to-memory-leaks-in-nodejs/
+    title: "A Practical Guide to Memory Leaks in Node.js"
+    description: |
+      Since NodeJS run on V8. You generally can apply the knowledge into front-end JavaScript as well.
+      You will learn using Chromr Dev Tools and its memory profile to find out the leak.
+      And since you are here, let's check out [A Tale of a JavaScript Memory Leak](https://rpbouman.blogspot.com/2018/03/a-tale-of-javascript-memory-leak.html)
+      where create a small portion of a large string actually keep the large string arround.
+      Also, the infamous [Wallmart NodeJs memory leak](https://www.joyent.com/blog/walmart-node-js-memory-leak).
+      I love these memory leak artciles because they improve my debugging skill so much.
+
+#@  - url: https://github.com/lemmy/lets-prove-blocking-queue
+#@    title: "Let's prove a blocking queue deadlock-free"
+#@    description: |
+#@      Provably correct is a guarantee that an algorithm satisfies given correctness properties, say deadlock freedom.
+#@      You do this by providing a proof that a computer can check. If the proof is wrong, the computer will tell you that your algorithm is incorrect.
+#@      TLS+ is the language used for this purpose. We linked to a few links about tla in previous issue. It's a powerful tool to help
+#@      us verify the correctness of algorithm.
+#@
+#  - url: https://www.smashingmagazine.com/make-life-easier-when-using-git/
+#
+#  - url: https://begriffs.com/posts/2020-03-23-concurrent-programming.html?hn=1
+#    title: "Concurrent programming, with examples"
+#  - url: https://gleslie.com/rpi/raspberry/pi/dashboard/2020/03/28/building-a-rpi-vehicle-dashboard.html
+#    title: "Building a Raspberry Pi Speedometer"
+#
+#  - url: https://techblog.bozho.net/aws-elasticsearch-post-mortem/
+#    title: "An AWS Elasticsearch post-mortem"
+#    description: |
+#      Real-world production incident on AWS ElasticSearch. Being unable to SSH into the actual machine, being unable to unblock the indexing through Elasticsearch means, and being unable to shut down or restart the nodes make it super hard to debug AWS ElasticSearch issue.
+#
+#
+#  - url: https://blog.scottlogic.com/2020/02/17/minesweeper-optimisation.html
+#    title: "Slow Code HATES him! Optimising a web app from 1 to 60fps"
+#
+#  - url: https://blog.jonlu.ca/posts/decrypting-blind
+#    title: "Reverse engineering blind's api and client side encryption"
+#  - url: https://www.cryptologie.net/article/490/how-symmetric-password-authenticated-key-exchanges-work-spake/
+#    title: "How symmetric password-authenticated key exchanges work (sPAKE)"
+#  - url: https://hackaday.com/2020/02/13/emulating-a-bluetooth-keyboard-with-the-esp32/
+#    title: "EMULATING A BLUETOOTH KEYBOARD WITH THE ESP32"
+#    description: |
+#      Lots of thing like smart power outlet, power strip, or camera use ESP32. Why wifi is strong capanility if ESP32,
+#      it also comes equipped with Bluetooth. In this article, we hook up keypad into its GPIO. The rest are just software.
+#      Fun and cool project if you like some hardware hack.
+
+video:
+  - url: https://www.youtube.com/watch?v=wyFvB5j1QkI
+    title: "Best Practices for Running Highly Available PostgreSQL in Production with Ansible Tower"
+
+  - url: https://www.youtube.com/watch?v=fCbAafKLqC8
+    title: "Why build an entire computer on breadboards?"
+    description: |
+      We linked to this seria a few time before. Basically the autor build 6502 computers on a breadboard(the kind of board where no soldering are required).
+
+read_code:
+  - url: https://github.com/CalciferZh/minimal-hand
+    title: "minimal hand"
+    description: "A minimal solution to hand motion capture from a single color camera at over 100fps. Easy to use, plug to run"
+    category: ['Python', 'Machine Learning']
+
+  - url: https://github.com/rubycdp/vessel
+    title: vessel
+    description: |
+      Fast high-level web crawling Ruby framework
+    category: ['Ruby']
+
+  - url: https://github.com/shutterstock/rickshaw
+    title: rickshaw
+    description: |
+      JavaScript toolkit for creating interactive real-time graph
+    category: ['JavaScript']
+
+  - url: https://github.com/jpillora/chisel
+    title: chisel
+    description: "A fast TCP tunnel over HTTP"
+    category: ['Go']
+
+
+tool:
+  - url: https://public-apis.io/
+    title: public-apis
+    description: |
+      A list of public apis: weather, geo coding, currency, html to pdf converter etc
+
+  - url: https://github.com/GoogleContainerTools/kpt
+    title: kpt
+    description: |
+      a toolkit to help you manage, manipulate, customize, and apply Kubernetes Resource configuration data files
+
+  - url: https://github.com/infracloudio/botkube
+    title: botkube
+    description: |
+      App that helps you monitor your Kubernetes cluster, debug critical deployments & gives recommendations for standard practices
+
+  - url: https://github.com/birdayz/kaf
+    title: kaf
+    description: |
+      Modern CLI for Apache Kafka, written in Go
+
+  - url: https://github.com/raveberry/raveberry
+    title: raveberry
+    description: |
+      A multi-user music server with a focus on participation
+
+  - url: https://github.com/kapt-labs/django-check-seo
+    title: django-check-seo
+    description: "check the SEO aspects of your site for you, and will provide advice in case of problems."
+
+  - url: https://www.cybertec-postgresql.com/en/products/pg-show-plans/
+    title: pg_show_plans
+    description: "a free PostgreSQL tool which allows you to monitor execution plans in real-time"
+
+  - url: https://github.com/TimeToogo/ff-proxy
+    title: ff-proxy
+    description: |
+      A UDP to TCP proxy server for sending HTTP requests with zero roundtrips
+
+  - url: https://github.com/minio/sidekick
+    title: sidekick
+    description: |
+       high-performance sidecar load-balancer. sidekick automatically avoids sending traffic to the failed servers by checking their health via the readiness API and HTTP error returns
