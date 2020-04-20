@@ -1,0 +1,211 @@
+time: "Apr 20, 2020"
+subject: "DIY Single Sign-On for SSH and System design for advanced beginners"
+draft: false
+
+description: |
+  Hi everyone,
+
+  Welcome to issue #148. I got quite a bit of stuff, code and tooling. Lot of fun thing like tool to write books, podcast cli.  I also included more videos link than normal, since we're having more time during this pandemic.
+
+  If you are a person who enjoy online video lessions, you may check out [Free Online Courses from hardvard](https://online-learning.harvard.edu/catalog/free). They have lot of stuff, from computer science to physis to math.
+
+links:
+  - url: https://smallstep.com/blog/diy-single-sign-on-for-ssh/
+    title: "DIY Single Sign-On for SSH"
+    description: |
+      We are going to set up Google single sign-on for SSH. Behind the scenes, we'll use OpenID Connect (OIDC), short-lived SSH certificates, a couple of clever SSH configuration tweaks, and Smallstep's open-source step-ca and step packages. We will set up an SSH Certificate Authority, and use it to bootstrap a new host and a new user in our system. While this approach requires more up-front work than a typical SSH public/private key setup, it comes with a lot of benefits beyond single sign-on. It eliminates the need for gathering and shipping and managing authorized_keys files.
+
+  - url: https://robertheaton.com/2020/04/06/systems-design-for-advanced-beginners/
+    title: "Systems design for advanced beginners"
+    description: |
+      You are in desperate need of a detailed yet concise overview of how real companies do this. How do they store their data? How do their different applications talk to each other? How do they scale their systems to work for millions of users? How do they keep them secure? How do they make sure nothing goes wrong? What are APIs, webhooks and client libraries, when you really get down to it?
+
+  - url: https://tomassetti.me/parsing-sql/
+    title: "Parsing sql"
+    description: |
+      We are going to see ready-to-use libraries and tools to parse SQL, and an example project in which we will build our own SQL parser.
+      Another article about parsing SQL is [Database basics: binary expressions and WHERE filters](https://notes.eatonphil.com/database-basics-expressions-and-where.html). We linked to this article before where the author is writing a SQL database from scratch in Go.
+      And if you want more fun on query compiler, check [SELECT wat FROM sql](https://scattered-thoughts.net/writing/select-wat-from-sql/).
+
+  - url: https://tools.ietf.org/html/rfc1180
+    title: "A TCP/IP Tutorial"
+    description: |
+       This RFC is a tutorial on the TCP/IP protocol suite, focusing
+       particularly on the steps in forwarding an IP datagram from source
+       host to destination host through a router.  It does not specify an
+       Internet standard.  Distribution of this memo is unlimited.
+
+  - url: https://www.taniarascia.com/writing-an-emulator-in-javascript-chip8/
+    title: "Writing an Emulator in JavaScript (and Interfacing with Multiple UIs)"
+    description: |
+      Tania jouney on a challenge to write a CHIP-8 interpreter to learn some of the basic concepts of lower-level programming languages and how a CPU works, and the end result is a Chip-8 emulator in JavaScript. Her Chip8.js code interfaces with not just one but three environments, existing as a web app, a CLI app, and a native app.
+
+  - url: https://martinfowler.com/articles/class-too-large.html
+    title: "Refactoring: This class is too large"
+    description: |
+      This is a story about refactoring. It's the third item in the TDD red-green-refactor cycle[1] and it's the thing we do all the time, right? Except when we don't.
+      I have an unruly code base which has suffered from refactoring neglect, so I've been bringing it back into line. In this article I will take a class that is too large, and make it smaller.
+
+  - url: https://crdt.tech/
+    title: "Conflict-free Replicated Data Type (CRDT)"
+    description: |
+      a data structure that simplifies distributed data storage systems and multi-user applications.
+       https://news.ycombinator.com/item?id=22850817a
+
+  - url: https://enterprisecraftsmanship.com/posts/when-to-mock/
+    title: "When to mock"
+    description: |
+      The use of mocks in unit testing is a controversial topic (maybe less so now than several years ago). I remember how, throughout my programming career, I went from mocking almost every dependency, to the "no-mocks" policy, and then to "only mock external dependencies".
+
+  - url: https://jwiegley.github.io/git-from-the-bottom-up/
+    title: git from the bottom up
+    description: |
+      Welcome to the world of Git. I hope this document will help to advance your understanding of this powerful content tracking system, and reveal a bit of the simplicity underlying it — however dizzying its array of options may seem from the outside.
+      Make sure you click on "Table of Contents" to see all chapters.
+
+  - url: https://python-patterns.guide/gang-of-four/composition-over-inheritance/
+    title: "The Composition Over Inheritance Principle"
+    description: |
+      The code example are Python but it walk us through Python’s logging module is a good example in the Standard Library itself of a module that follows the Composition Over Inheritance principle. Python focus but you got the idea.
+
+  - url: https://itnext.io/how-we-do-gitops-mettle-4cc771a6c029
+    title: "How we do gitops at mettle"
+    description: |
+      gitops are a strategy in DevOps when we store all the configuration into Git repository and re-popolate it from there. So then we can code review
+      infrastructure change. Imagine instead of creating a deployment, you write the revision into a file in your repo, commit and the change will be applied to your cluster       through some tools that listen for github change and apply to your environment
+
+  - url: https://advancedweb.hu/debugging-bash-scripts/
+    title: "Debugging Bash scripts"
+    description: |
+      Tips for linting, tracing and debugging
+
+video:
+  - url: https://www.youtube.com/watch?v=FvNRlE4E9QQ
+    title: "Finding bugs without running or even looking at code\" by Jay Parlar"
+
+  - url: https://www.youtube.com/watch?v=eqkAaplKBc4&feature=youtu.be
+    title: :"A Taste of GPU Compute"
+
+  - url: https://www.youtube.com/watch?v=xaxV9Ykpz0Y
+    title: "metasploit beginners to advanced course during quarantine"
+
+  - url: https://www.youtube.com/watch?v=anZPHeA0WKU
+    title: "Digital Circuit Simulator In JavaScript"
+
+  - url: https://www.youtube.com/watch?v=p0WVyHDWsgA
+    title: "PostgresOpen 2019 Easy And Correct High Availability PostgreSQL With Kubernetes"
+
+read_code:
+  - url: https://github.com/Halolegend94/pdf4py
+    title: pdf4py
+    description: |
+      A PDF parser written in Python 3 with no external dependencies
+    category: ['Python']
+
+  - url: https://github.com/alievk/avatarify
+    title: avatarify
+    description: |
+      A fun little project that uses a neural network to map your facial movements onto an avatar of your choice.
+      You have to [watch the demo](https://www.youtube.com/watch?v=Q7LFDT-FRzs&feature=youtu.be) to get the full effect.
+      It can even translate your Zoom/Skype into Steve Job, Mona Lisa, Elon Musk
+    category: ['machine learning']
+
+  - url: https://paytonturnage.gitbook.io/valora/
+    title: valora
+    description: |
+      This a graphics library and CLI focused on generative fine art for print.
+    category: ['Rust']
+
+  - url: https://github.com/pointless-lang/pointless
+    title: pointless
+    description: |
+      a scripting language for learning and fun
+    category: ['C']
+
+  - url: https://github.com/ssloy/triador
+    title: triador
+    description: "Ternary computer emulator"
+    category: ['C++']
+
+  - url: https://github.com/hackmdio/codimd
+    title: codimd
+    description: "Realtime collaborative markdown notes on all platforms"
+    category: ['JavaScript']
+
+  - url: https://github.com/ip-num/ip-num
+    title: ip-num
+    description: |
+      A TypeScript/JavaScript library for working with ASN, IPv4, and IPv6 numbers. It provides representations of these internet protocol numbers with the ability to perform various IP related operations like parsing, validating etc. Pretty useful if you want to learn more about IP Address.
+    category: ['JavaScript']
+
+  - url: https://github.com/mattbrictson/tomo
+    title: tomo
+    description: "a friendly command-line tool for deploying Rails apps. It is a new alternative to Capistrano, Mina, and Shipit that aims for simplicity and developer happiness.  I myself have been moving to Kubernetes so probably I'm not going to use it as a deployment tool but it's cool to see how it's written. How to handle thing like SSH."
+    category: ['Ruby']
+
+  - url: https://github.com/melbahja/goph
+    title: goph
+    description: |
+      The native golang ssh client to execute your commands over ssh connection.
+      Similar to above one, you can learn about SSH but in Go.
+    category: ['Go']
+
+tool:
+  - url: https://github.com/oneinfra/oneinfra
+    title: oneinfra
+    description: |
+      a Kubernetes as a Service platform. It empowers you to provide or consume Kubernetes clusters at scale, on any platform or service provider. You decide.
+
+  - url: https://github.com/rust-lang/mdBook
+    title: mdBook
+    description: |
+      Create book from markdown files. Like Gitbook but implemented in Rust
+
+  - url: http://dig.ccmixter.org/
+    title: ccmixter
+    description: |
+      The music discovery site used in over 1 million videos and games
+
+  - url: https://github.com/goulinkh/podcast-cli
+    title: podcast-cli
+    description: |
+       lets you play your podcasts from the terminal
+
+  - url: https://fasttext.cc/
+    title: "fasttext"
+    description: |
+      Library for efficient text classification and representation learning
+
+  - url: https://github.com/OfflineIMAP/offlineimap
+    title: offlineimap
+    description: Read/sync your IMAP mailboxes
+
+  - url: https://github.com/cortexlabs/cortex/tree/v0.15.1
+    title: cortex
+    description: |
+       an open source platform for deploying machine learning models as production web services.
+
+  - url: https://github.com/terminusdb/terminus-server
+    title: terminus-server
+    description: |
+       an open source model driven graph database for knowledge graph representation designed specifically for the web-age.
+
+  - url: https://github.com/plotly/falcon
+    title: falcon
+    description: |
+      Free, open-source SQL client for Windows and Mac with inline data visualization.
+
+  - url: https://github.com/smallhadroncollider/brok
+    title: brok
+    description: |
+      Find broken links in text documents
+
+  - url: https://houqp.github.io/vpcstudio/
+    title: vpcstudio
+    description: |
+      VPC design studio to help you calculate CIDRs with best practices networking visualization.
+      Give a CIDR range and it spit out code for Terraform, Pulumi, JSON
+
+  - url: https://github.com/larkery/zsh-histdb
+    title: zsh-histdb
+    description: A slightly better history for zsh
