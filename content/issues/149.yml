@@ -1,0 +1,184 @@
+time: "Apr 27, 2020"
+subject: "What if Two Processes Write to the Same File simultaneously"
+draft: false
+
+description: |
+  Hi everyone,
+
+  Welcome to issue #149. I got quite a bit of stuff, code and tooling. Lot of fun thing like tool to write books, podcast cli.  I also included more videos link than normal, since we're having more time during this pandemic.
+
+  If you are a person who enjoy online video lessions, you may check out [Free Online Courses from hardvard](https://online-learning.harvard.edu/catalog/free). They have lot of stuff, from computer science to physis to math.
+
+links:
+  - url: https://walkerlala.github.io/archive/what-if-write-to-the-same-file.html
+    title: "What If Two Processes Write to the Same File Simultaneously"
+    description: |
+      What if your open the same file in several processes and you write to it simultaneously? What is the result? Do these process share the same file offset when they try to write? What about writing to the same file in the same process using different threads?(Take Linux for example.)
+
+  - url: https://medium.com/@rakyll/things-i-wished-more-developers-knew-about-databases-2d0178464f78
+    title: "Things I Wished More Developers Knew About Databases"
+    description: |
+      Even though it is impossible to ignore how databases work, the problems that application developers foresee and experience will often be just the tip of the iceberg.
+      In this series, she share a few insights that useful for developers who are not specializeed in database domain.
+
+  - url: https://dropbox.tech/infrastructure/-testing-our-new-sync-engine
+    title: "Testing sync at Dropbox"
+    description: |
+      …and how we rewrote the heart of sync with confidence. On same topic of testing large scale system, you can
+      also checkout [How Vector, an log pipeline system like FluentD/LogStash, test their system](https://vector.dev/blog/how-we-test-vector/)
+
+  - url: https://kognitio.com/blog/syn-cookies-ate-my-dog-breaking-tcp-on-linux/
+    title: "SYN cookies ate my dog – breaking TCP on Linux"
+    description: |
+      TCP is supposed to guarantee that all bytes sent by one endpoint of a connection will be received, in the same order, by the other endpoint. In this article we’ll identify and demonstrate a wrinkle in the Linux implementation of TCP SYN cookies. The client can connect and send two packets, but the server’s TCP stack delivers the data in the second packet to the application, unaware that it is not the first packet in the stream.
+
+  - url: https://aws.amazon.com/blogs/security/top-10-security-items-to-improve-in-your-aws-account/
+    title: "Top 10 security items to improve in your AWS account"
+    description: |
+      The article also contains lot of link to other tool such as AWS Firewall Manager, Security Hub, Guard Duty to help you secure your AWS account.
+      I usually won't link to these list of tooling articles but on second though I think it's indeed useful and provide real value
+
+  - url: https://blog.balthazar-rouberol.com/shell-productivity-tips-and-tricks.html
+    title: "Shell productivity tips and tricks"
+    description: |
+      This is part of a self-published book project by Balthazar Rouberol and Etienne Brodu.
+      If you spend a good chunk of your day repeatedly hitting the left and right arrow keys to navigate in long commands or correct typos, or hitting the up or down arrow keys to navigate your command history, this chapter should help you get more done quicker.
+
+  - url: https://sookocheff.com/post/networking/how-does-dns-work/
+    title: "How does DNS work"
+    description: |
+      DNS is a globally distributed hierarchical database that maps domain names to Internet hosts throughout the world. It evolve using a single HOSTS.txt file to map domain to ip address.
+      The DNS distributed database is an inverted tree indexed by domain names. Taken together, the entire tree is called the domain namespace and represents the entire set of Internet domain names.
+
+  - url: https://mydbanotebook.org/post/postgres-settings/
+    title: "Where do my Postgres settings come from ?"
+    description: |
+      A short tip to find out where a Postgres config is definied. Is it from environment variable, from config file, store inside system table?
+
+  - url: https://www.percona.com/blog/2020/03/25/migrating-a-postgresql-database-between-dbaas-providers/
+    title: "A Tale About Migrating a PostgreSQL Database Between Different DBaaS Providers"
+    description: |
+      needless to say, many will encounter this. We started small, using this provider, then move to AWS, or found that AWS is too expensive, and move out.
+      The primary point is using an intermediate server to replicate data.
+
+  - url: https://dashbird.io/blog/why-serverless-apps-fail-and-how-to-design-resilient-architectures/
+    title: "Why Serverless Apps Fail and How to Design Resilient Architectures"
+    description: |
+      Dashbit has been monitoring 100,000’s of serverless backend components for 2+ years at Dashbird. In their experience, Serverless infrastructure failures boil down to:
+      1) Throughput and concurrency limitations. 2) Increased latency; 3) Timeout errors.
+
+  - url: https://pragmaticwebsecurity.com/files/cheatsheets/oauth2securityfordevelopers.pdf
+    title: "OAuth 2.0 best practices for developers"
+    description: |
+       This cheat sheet offers an overview of current security
+       best practices for developers building OAuth 2.x client applications
+
+  - url: https://haydenjames.io/linux-networking-commands-scripts/
+    title: "59 Linux Networking commands and scripts"
+    description: |
+      Ever forgot the name of a tool and have to search your own note, do some quick google? Well, this note has all of them.
+      Also, another tool is [the Linux proc file system can be used to troubleshoot](https://opensource.com/article/20/4/proc-filesystem)
+
+video:
+  - url: https://www.infoq.com/presentations/facebook-google-bpf-linux-kernel/
+    title: "eBPF: Rethinking the Linux kernel"
+    description: |
+      eBPF is like JavaScript for Linux kernel. Also checkout [the slide](https://www.infoq.com/presentations/facebook-google-bpf-linux-kernel/).
+
+read_code:
+  - url: https://github.com/richstokes/cheekymonkey
+    title: cheekymonkey
+    description: |
+      Literally a Chaos Monkey for your Kubernetes clusters. A game, a bit like mario, but whenever you destroy a crate, it randomly kill a pod in your K8S cluster.
+    category: ['Python']
+
+  - url: https://github.com/aristocratos/bashtop
+    title: bashtop
+    description: |
+      Resource monitor that shows usage and stats for processor, memory, disks, network and processes. Implement in pure bash
+    category: ['Bash']
+
+  - url: https://github.com/bansal-io/pattern.css
+    title: pattern.css
+    description: |
+      CSS only library to fill empty background with beautiful patterns. 
+    category: ['CSS']
+
+  - url: https://github.com/maxchehab/phelia
+    title: "phelia: a reactive Slack application framework"
+    description: "Have write a Slackbot and deal with dialog, button, callback, action button ...all that's crazy thing. This framework is really cool and abstract them into something similar to React component."
+    category: ['TypeScript']
+
+  - url: https://github.com/markedjs/marked
+    title: marked
+    description: "A markdown parser and compiler. Built for speed"
+    category: ['JavaScript']
+
+  - url: https://github.com/chuabingquan/pxy
+    title: pxy
+    description: "🎥 Proxy livestreams from websockets to external RTMP endpoints"
+    category: ['Go']
+
+  - url: https://github.com/kdomanski/iso9660
+    title: iso9660
+    description: |
+      A very nich package though. It allows reading and creating ISO9660 disk image. Good code base to read if you want
+      to see how disk images are created.
+    category: ['Go']
+
+  - url: https://github.com/net-ssh/net-ssh
+    title: net-ssh
+    description: |
+      Pure Ruby implementation of an SSH (protocol 2) client. You will learn a lot about socket, encryption, authentication
+    category: ['Ruby']
+
+  - url: https://github.com/iostapyshyn/wired-logic-rs/
+    title: wired-logic
+    description: "a pixel-based digital circuitry simulator running in your browser, using WebAssembly. [Checkout the amazing demo](https://iostapyshyn.github.io/wired-logic/)"
+    category: ['Rust']
+
+tool:
+  - url: https://github.com/kpcyrd/sn0int
+    title: sn0int
+    description: |
+      built for IT security professionals and bug hunters to gather intelligence about a given target or about yourself. sn0int is enumerating attack surface by semi-automatically processing public information and mapping the results in a unified format for followup investigations.
+      Thing it can do: Harvest subdomains from certificate transparency logs and passive dns, Enrich ip addresses with asn and geoip info,...
+
+  - url: https://github.com/abhishekkr/gmail-helper
+    title: gmail-helper
+    description: |
+      A CLI tool to help you access gmail data using OAuth authentication. Some use case: fetch gmail label and store it into a local db to backup email
+
+  - url: https://github.com/autom8ter/geodb
+    title: geodb
+    description: |
+      A Persistent Geospatial Database with Geofencing & Google Maps Support
+
+  - url: https://github.com/soramimi/Guitar
+    title: Guitar
+    description: |
+      Git GUI Client.
+
+  - url: https://github.com/dalibo/pev2
+    title: pev2
+    description: "Postgres Explain Visualizer 2. It isn't a standalone tool but a component to use in your JS app, however, they have a demo where you can see how it works"
+
+  - url: https://github.com/SoptikHa2/desed
+    title: desed
+    description: |
+      Demystify and debug your sed scripts, from comfort of your terminal.
+
+  - url: https://github.com/BurntSushi/xsv
+    title: xsv
+    description: |
+       a command line program for indexing, slicing, analyzing, splitting and joining CSV files.
+
+  - url: https://github.com/nytimes/vault-fastly-secret-engine
+    title: vault-fastly-secret-engine
+    description: |
+      Vault plugin to generate short lived Fastly API tokens
+
+  - url: https://github.com/bitleak/kvrocks
+    title: kvrocks
+    description: "an open-source key-value database. which is based on rocksdb and compatible with Redis protocol."
+
