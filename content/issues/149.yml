@@ -5,11 +5,10 @@ draft: false
 description: |
   Hi everyone, Welcome to issue #149.
 
-  With the current economy, many companies are looking to reduce infrastructure cost, many migrations are need to be done. In this issue, I shared a few article about system migration so maybe
-  we can learn from it.
+  Given the current economy, many companies are looking to reduce infrastructure cost, many migrations need to be done. In this issue, I shared a few articles about system migrations.
 
-  Last week I post a link about [Free Online Courses from hardvard](https://online-learning.harvard.edu/catalog/free). This week, I found out [MIT OpenCourseWare Youtube Channel] with lots of topic
-  from computer science to physic. Check it out.
+  Last week I post a link about [Free Online Courses from hardvard](https://online-learning.harvard.edu/catalog/free). This week, I found out [MIT OpenCourseWare Youtube Channel](https://www.youtube.com/user/MIT/videos) with lots of topic
+  from computer science to physic. Check them out.
 
 links:
   - url: https://walkerlala.github.io/archive/what-if-write-to-the-same-file.html
