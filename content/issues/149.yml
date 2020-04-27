@@ -3,11 +3,13 @@ subject: "What if Two Processes Write to the Same File simultaneously"
 draft: false
 
 description: |
-  Hi everyone,
+  Hi everyone, Welcome to issue #149.
 
-  Welcome to issue #149. I got quite a bit of stuff, code and tooling. Lot of fun thing like tool to write books, podcast cli.  I also included more videos link than normal, since we're having more time during this pandemic.
+  With the current economy, many companies are looking to reduce infrastructure cost, many migrations are need to be done. In this issue, I shared a few article about system migration so maybe
+  we can learn from it.
 
-  If you are a person who enjoy online video lessions, you may check out [Free Online Courses from hardvard](https://online-learning.harvard.edu/catalog/free). They have lot of stuff, from computer science to physis to math.
+  Last week I post a link about [Free Online Courses from hardvard](https://online-learning.harvard.edu/catalog/free). This week, I found out [MIT OpenCourseWare Youtube Channel] with lots of topic
+  from computer science to physic. Check it out.
 
 links:
   - url: https://walkerlala.github.io/archive/what-if-write-to-the-same-file.html
@@ -26,6 +28,16 @@ links:
     description: |
       …and how we rewrote the heart of sync with confidence. On same topic of testing large scale system, you can
       also checkout [How Vector, an log pipeline system like FluentD/LogStash, test their system](https://vector.dev/blog/how-we-test-vector/)
+
+  - url: https://www.percona.com/blog/2020/03/25/migrating-a-postgresql-database-between-dbaas-providers/
+    title: "A Tale About Migrating a PostgreSQL Database Between Different DBaaS Providers"
+    description: |
+      needless to say, many will encounter this. We started small, using this provider, then move to AWS, or found that AWS is too expensive, and move out.
+      The primary point is using an intermediate server to replicate data.
+
+  - url: https://engineering.linecorp.com/en/blog/how-line-messaging-servers-prepare-for-new-years-traffic/
+    title: "How LINE messaging servers prepare for New Year’s traffic"
+    description: "Line is a messaging app. They have crazy spike on December 31st when users share New Year's greeting. They shares their effort to prepare for these spikes. How they write benchmark tool, prepare visualization to see the difference."
 
   - url: https://kognitio.com/blog/syn-cookies-ate-my-dog-breaking-tcp-on-linux/
     title: "SYN cookies ate my dog – breaking TCP on Linux"
@@ -54,12 +66,6 @@ links:
     title: "Where do my Postgres settings come from ?"
     description: |
       A short tip to find out where a Postgres config is definied. Is it from environment variable, from config file, store inside system table?
-
-  - url: https://www.percona.com/blog/2020/03/25/migrating-a-postgresql-database-between-dbaas-providers/
-    title: "A Tale About Migrating a PostgreSQL Database Between Different DBaaS Providers"
-    description: |
-      needless to say, many will encounter this. We started small, using this provider, then move to AWS, or found that AWS is too expensive, and move out.
-      The primary point is using an intermediate server to replicate data.
 
   - url: https://dashbird.io/blog/why-serverless-apps-fail-and-how-to-design-resilient-architectures/
     title: "Why Serverless Apps Fail and How to Design Resilient Architectures"
