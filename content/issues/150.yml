@@ -5,7 +5,7 @@ draft: false
 description: |
   Hi everyone, Welcome to issue #150.
 
-  We continue to our pandemic with this novel virus global wide. I hope we all stay healthy, positive and safe. Because we work from home more, we need to use 
+  We continue to our pandemic with this novel virus global wide. I hope we all stay healthy, positive and safe.
 
   This week sponsor is [programmingdigest.net](https://programmingdigest.net/?utm_medium=email&utm_campaign=2020-05-promo&utm_source=betterdev), they are a weekly newsletter just
   like BetterDev but emphasizing on delivering five links per week. Check them out. Sponsor helps to keep this newsletter going. Thanks to ProgrammingDigest.
@@ -82,10 +82,11 @@ links:
   - url: https://github.com/addyosmani/puppeteer-webperf
     title: Automating Web Performance testing with Puppeteer 🎪
 
-#  - url: https://dl.acm.org/doi/pdf/10.1145/2927299.2940294
-#    title: "Debugging   Distributed  Systems"
-#    description: |
-#      Challenges and Options for Validation and Debuggig
+  - url: https://dl.acm.org/doi/pdf/10.1145/2927299.2940294
+    title: "Debugging Distributed Systems(PDF)"
+    description: |
+      Challenges and Options for Validation and Debugging Distributed Systems.
+
 #  - url: https://zerodha.tech/blog/infra-monitoring-at-zerodha/
 #    title: "Infrastructure monitoring with Prometheus at Zerodha"
 #
