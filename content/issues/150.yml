@@ -1,0 +1,207 @@
+time: "May 04, 2020"
+subject: "The Best Medium-Hard Data Analyst SQL Interview Questions"
+draft: false
+
+description: |
+  Hi everyone, Welcome to issue #150.
+
+  We continue to our pandemic with this novel virus global wide. I hope we all stay healthy, positive and safe. Because we work from home more, we need to use 
+
+  This week sponsor is [programmingdigest.net](https://programmingdigest.net/?utm_medium=email&utm_campaign=2020-05-promo&utm_source=betterdev), they are a weekly newsletter just
+  like BetterDev but emphasizing on delivering five links per week. Check them out. Sponsor helps to keep this newsletter going. Thanks to ProgrammingDigest.
+
+links:
+  - url: https://quip.com/2gwZArKuWk7W
+    title: "The Best Medium-Hard Data Analyst SQL Interview Questions"
+    description: |
+      SQL is very easy to get started but get tricky veru hard. This li
+
+  - url: https://programmingdigest.net/?utm_medium=email&utm_campaign=2020-05-promo&utm_source=betterdev
+    title: "Weekly News for Busy Devs"
+    description: |
+      Programming Digest is a weekly curated newsletter with the five most interesting stories in programming 👩‍💻, data 💾, and tech 📱️
+    category: ['sponsor']
+
+  - url: https://deeplizard.com/learn/playlist/PLZbbT5o_s2xq7LwI2y8_QtvuXZedL6tQU
+    title: "Machine Learning & Deep Learning Fundamentals"
+    description: |
+      This series explains concepts that are fundamental to deep learning and artificial neural networks for beginners. In addition to covering these concepts, we also show how to implement some of the concepts in code using Keras, a neural network API written in Python.
+      This site also has a bunch of free courses on Deep Learning. You can check them out under Courses menu. The best is they are all free.
+
+  - url: https://venam.nixers.net/blog/unix/2020/05/02/time-on-unix.html
+    title: Time on Unix
+    description: |
+      Time is always tricky. Timezone conversion, parsing from string, parse from Epoch, leap second etc. Y2K issue, 2038 issue.
+      Why is time so hard to get right? This article tackle complexity of time: system time, hardware time, internal timers, time syncing.
+
+  - url: http://beza1e1.tuxen.de/lore/index.html
+    title: "Software Folklore"
+    description: "Sometimes bugs have symptoms beyond belief. This is a collection of such stories from around the web. Some cool story such as a car won't start when its owner buy vanilla ice cream. When you think out of the box, look at every data point, you will be able to solve the problem eventually"
+
+  - url: https://refrf.shreyasminocha.me/
+    title: "Regular Expressions for Regular Folk"
+    description: |
+      This is an experimental “book” about regular expressions. It is largely visual and example-based, as opposed to most regex resources I found while I was learning. I also attempted to choose test cases that highlight some common gotchas. I think it’ll be worth your time.
+
+  - url: https://robertheaton.com/2020/04/27/how-does-a-tcp-reset-attack-work/
+    title: "How does a tcp reset attack work"
+    description: |
+      A TCP reset attack is executed using a single packet of data, no more than a few bytes in size. A spoofed TCP segment, crafted and sent by an attacker, tricks two victims into abandoning a TCP connection, interrupting possibly vital communications between them.
+      The attack is believed to be a key component of China’s Great Firewall, used by the Chinese government to censor the internet inside China. Despite this weighty biography, understanding the attack doesn’t require deep prior knowledge of networking or TCP.
+
+  - url: https://medium.com/swlh/so-you-inherited-an-aws-account-e5fe6550607d
+    title: "So You Inherited an AWS Account"
+    description: |
+      A great list of actionable items when you are being handled the keys to an AWS environment with absolutely no explanation of its contents, documentation, or training.
+      This guide to help you filter through the mess, isolate the changes you need to make, and start to tame your environmens.
+      Domain takeover via unclaimed resources is what many people will miss when inheriting an AWS account.
+
+  - url: https://shihn.ca/posts/2020/roughjs-algorithms/
+    title: "How to emulate hand-drawn shapes / Algorithms behind RoughJS"
+    description: |
+      You know the kind of app when you hand draw a shape on screen, it automatically attempt to smooth out to the right shape.
+      Want to know what is the algorithm behind them?
+
+  - url: https://segment.com/blog/introducing-centrifuge/
+    title: "Centrifuge: a reliable system for delivering billions of events per day"
+    description: |
+      It reads like a sale pitch for Segment, but it's pretty good. They need to forward analytic event to many providers such as
+      google, mixpanel, saleforce .Queue isn't a good option when the job is fan out
+      data to third party. The queue which only has push/pop action may block entire queue when third party is down. Some very good
+      design there to handle retry, avoid back pressure block the queue.
+
+  - url: https://blog.janestreet.com/troubleshooting-systemd-with-systemtap/
+    title: "Troubleshooting systemd with SystemTap"
+    description: |
+      Not much on systemd but more focus on SystemTap,  diagnostic tool for instrumenting and inspecting parts of Linux that traditional tools cannot reach. Among other things, SystemTap allows you to place probes in a kernel module that will fire when particular functions run. From there, you can query the function parameters or the return value and walk the stack or display a stack trace.
+
+  - url: https://www.redhat.com/sysadmin/mastering-systemd
+    title: "Mastering systemd: Securing and sandboxing applications and services"
+    description: "Explore how to secure and sandbox your applications with systemd. Though the article is for systemd, It's general and available in Ubuntu/Debian as well.  You can configured readonly directory for certain path, hide directories from processes etc"
+
+#  - url: https://dl.acm.org/doi/pdf/10.1145/2927299.2940294
+#    title: "Debugging   Distributed  Systems"
+#    description: |
+#      Challenges and Options for Validation and Debuggig
+#  - url: https://zerodha.tech/blog/infra-monitoring-at-zerodha/
+#    title: "Infrastructure monitoring with Prometheus at Zerodha"
+#
+#    #https://duo.com/labs/research/finding-radio-sidechannels
+#    #https://news.ycombinator.com/item?id=22994620
+#
+#  - url: https://arxiv.org/pdf/2004.10934.pdf
+#    title: "YOLOv4: Optimal Speed and Accuracy of Object Detection"
+#
+#  - url: https://www.cyberark.com/threat-research-blog/beware-of-the-gif-account-takeover-vulnerability-in-microsoft-teams/
+#    title: "Beware of the GIF: Account Takeover Vulnerability in Microsoft Teams"
+#
+#  - url: https://blog.twitter.com/engineering/en_us/topics/open-source/2020/hunting-a-linux-kernel-bug.html
+#    title: "Hunting a Linux kernel bug"
+#    description: |
+
+video:
+  - url: https://www.youtube.com/watch?v=eqkAaplKBc4
+    title: "A taste of GPU Compute"
+
+  - url: https://www.youtube.com/watch?v=6stDhEA0wFQ
+    title: "CUDA Explained - Why Deep Learning uses GPUs"
+    description: |
+      General we know that ML needs GPUs generally. Why so?
+
+  - url: https://www.youtube.com/watch?v=gjCKKLuDoP8
+    title: "Dude, where are my files"
+    description: "Reverse Engineering Ransomware"
+
+read_code:
+  - url: https://github.com/mariusae/trickle
+    title: trickle
+    description: |
+      a userland bandwidth shaper for Unix-like systems.
+    category: ['C']
+
+  - url: https://github.com/steve0hh/midas
+    title: midas
+    description: |
+      Go implementation of MIDAS: Microcluster-Based Detector of Anomalies in Edge Streams. Check out [original whitepaper](https://www.comp.nus.edu.sg/~sbhatia/assets/pdf/midas.pdf)
+    category: ['Go']
+
+  - url: https://github.com/facebookincubator/ntp
+    title: ntp
+    description: "Collection of Facebook's NTP libraries"
+    category: ['Go']
+
+  - url: https://github.com/discourse/message_bus
+    title: message_bus
+    description: |
+      A reliable and robust messaging bus for Ruby and Rack
+    category: ['Ruby']
+
+  - url: https://github.com/mifi/editly
+    title: editly
+    description: |
+      Slick, declarative command line video editing. I never imagine we can do video editing use script like this.
+    category: ['JavaScript']
+
+  - url: https://github.com/abhiTronix/vidgear/tree/master
+    title: "videgear"
+    description: |
+      High-performance cross-platform Video Processing Python framework powerpacked with unique trailblazing features. Kind of similar to above JavaScript tools, they both use ffmpeg behind the scene
+    category: ['Python']
+
+  - url: https://github.com/trishume/syntect
+    title: syntect
+    description: |
+      Rust library for syntax highlighting using Sublime Text syntax definitions. If you are into syntax highlighting, this is a good code base to read. It is also relatively small and easy to follow.
+    category: ['Rust']
+
+  - url: https://github.com/xavier/xlsx_reader
+    title: xlxs
+    description: |
+      A production-ready XLSX file reader.
+    category: ['Elixir']
+
+tool:
+  - url: https://github.com/milesmcc/shynet
+    title: shynet
+    description: |
+      Self-hosted, privacy-friendly web analytics that works without cookie or JS.
+
+  - url: https://github.com/matt-harvey/git_curate
+    title: git_curate
+    description: |
+      ✂️ Peruse and delete git branches ergonomically
+
+  - url: https://makepath.com/open-source-spatial-analysis-tools-a-quick-guide/
+    title: "Open Source Spatial Analysis Tools for Python: A Quick Guide"
+    description: |
+      A list of tool and overview when doing spatial analysis.
+
+  - url: https://github.com/vitorbaptista/shellshare
+    title: shellshare
+    description: |
+      Live terminal broadcasts
+
+  - url: https://github.com/Impedimenta/Suitcase
+    title: Suitcase
+    description: |
+      A flexible command line tool for instantly deploying user interfaces for simple commands and scripts.
+
+  - url: https://liftbridge.io/
+    title: liftbridge
+    description: |
+      Like kafka, but utilize NATs which is easier to manage and deployment. No zookeeper, no JVM.
+
+  - url: https://github.com/keys-pub/keys
+    title: keys-pub
+    description: |
+      An attempt to replace keybase.com since keybase got too bloated with ton of weird features.
+
+  - url: https://github.com/dandavison/delta
+    title: delta
+    description: |
+      A syntax-highlighter for git and diff output, right from terminal. It can even highlight the horizontal diff.
+
+  - url: https://github.com/sharkdp/bat/
+    title: bat
+    description: |
+      Basically a replacment for `cat` command but with coloring and many more features.
