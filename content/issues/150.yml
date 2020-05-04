@@ -14,7 +14,9 @@ links:
   - url: https://quip.com/2gwZArKuWk7W
     title: "The Best Medium-Hard Data Analyst SQL Interview Questions"
     description: |
-      SQL is very easy to get started but get tricky veru hard. This li
+      The first 70% of SQL is pretty straightforward but the remaining 30% can be pretty tricky.
+      Working through this guide should improve your performance on data analyst interviews.
+      It should also make you better at your current and future job positions. Personally, I find some of the SQL patterns found in this doc useful for ETLs powering reporting tools featuring trends over time. 
 
   - url: https://programmingdigest.net/?utm_medium=email&utm_campaign=2020-05-promo&utm_source=betterdev
     title: "Weekly News for Busy Devs"
