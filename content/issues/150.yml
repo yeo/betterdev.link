@@ -79,6 +79,9 @@ links:
     title: "Mastering systemd: Securing and sandboxing applications and services"
     description: "Explore how to secure and sandbox your applications with systemd. Though the article is for systemd, It's general and available in Ubuntu/Debian as well.  You can configured readonly directory for certain path, hide directories from processes etc"
 
+  - url: https://github.com/addyosmani/puppeteer-webperf
+    title: Automating Web Performance testing with Puppeteer 🎪
+
 #  - url: https://dl.acm.org/doi/pdf/10.1145/2927299.2940294
 #    title: "Debugging   Distributed  Systems"
 #    description: |
