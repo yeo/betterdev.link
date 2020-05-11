@@ -1,0 +1,188 @@
+time: "May 11, 2020"
+subject: "OWASP Web Security Testing Guide v4.1"
+draft: false
+
+description: |
+  Hi everyone, Welcome to issue #151.
+
+  This week sponsor is [programmingdigest.net](https://programmingdigest.net/?utm_medium=email&utm_campaign=2020-05-promo&utm_source=betterdev), they are a weekly newsletter just
+  like BetterDev but emphasizing on delivering five links per week. Check them out. Sponsor helps to keep this newsletter going. Thanks to ProgrammingDigest.
+
+links:
+  - url: https://owasp.org/www-project-web-security-testing-guide/v41/
+    title: "OWASP Web Security Testing Guide v4.1"
+    description: |
+      No need to introduce about OWASP. They are all about Web Security.
+      They also have a PDF [version, available on Github](https://github.com/OWASP/wstg/releases/download/v4.1/wstg-v4.1.pdf) which you can download and read on your kindle.
+
+  - url: https://codeascraft.com/2020/04/23/cloud-jewels-estimating-kwh-in-the-cloud/
+    title: "Cloud Jewels: Estimating kWh in the Cloud"
+    description: |
+      Cloud providers generally do not disclose to customers how much energy their services consume. To make up for this lack of data, Etsy created a set of conversion factors called Cloud Jewels to help us roughly convert our cloud usage information (like Google Cloud usage data) into approximate energy used.
+
+  - url: http://www.interdb.jp/pg/
+    title: "The Internals of PostgreSQL"
+    description: |
+      for database administrators and system developers. Learn about Write Ahead Log, VACUUM processing, and Point In Time Recovery.
+
+  - url: https://tools.ietf.org/html/draft-ietf-oauth-security-topics-15
+    title: "OAuth 2.0 Security Best Current Practice"
+    description: |
+      This document describes best current security practice for OAuth 2.0.
+      It updates and extends the OAuth 2.0 Security Threat Model to
+      incorporate practical experiences gathered since OAuth 2.0 was
+      published and covers new threats relevant due to the broader
+      application of OAuth 2.0.
+
+  - url: https://github.com/spcask/pov-ray-tracing
+    title: Ray Tracing with POV-Ray
+    description: |
+      This repository consisted of learning the concepts required to write scene descriptions for POV-Ray, and writing a new scene each day for 25 day.
+      Very useful if you want to know about how thing are rendered in game engine etc
+
+  - url: https://www.internalpointers.com/post/introduction-virtual-memory
+    title: "An introduction to virtual memory"
+    description: |
+      and the crucial role it plays in modern operating systems.
+
+  - url: http://www.johnbcoughlin.com/posts/floating-point-axiom/
+    title: "Taming Floating Point Error"
+    description: |
+      Why `0.1 * 3` is `0.30000000000000004`. We understand that this is due to the fact that floating point numbers, stored with only 64 bits of precision, cannot represent the entire real number line. The moral of the story is, never use a floating point number to represent money.
+
+  - url: https://pulsesecurity.co.nz/articles/postgres-sqli
+    title: "SQL injection and postgres - an adventure to eventual rce"
+    description: |
+      An SQL injection bug in an ORDER BY clause came up in a recent engagement, which lead to an interesting rabbit hole regarding exploiting SQLi against a PostgreSQL database. This post details some of that adventure. We’ll look at some useful Postgres functions to make exploiting SQLi easier, some interesting file read/write primitives and a path to command execution as the DB user. I’ve included some sample vulnerable code for those of you that want to try this stuff out first hand.
+
+  - url: https://fabiensanglard.net/gebbdoom.pdf
+    title: "Game Engine Black Book: DOOM (High-Res PDF eBook)"
+    description: |
+      A books about technical aspect of DOOM. All the way from hardware to software, 2D/3D renderer, memory management, file system, sound etc.
+      An amazing books I would say, about the history, game, technoligies.
+
+  - url: https://kinvolk.io/blog/2020/04/inside-kinvolk-labs-investigating-kubernetes-performance-issues-with-bpf/
+    title: "Inside Kinvolk Labs: Investigating Kubernetes performance issues with BPF"
+    description: |
+      Normal stack: Nginx, fluentd, apache flune to process log. Yet, once upgrading from k8s 1.14.4 to 1.64.4, fluentd cannot process log fast enough and buffering the log.
+      They used BPF tools from BCC project: BCC CPU Profiler generate kernel stack trace, they compare and see different and was able to figured out a bug in k8s issue with repeated ebtables rule.
+
+  - url: https://arstechnica.com/information-technology/2020/04/understanding-raid-how-performance-scales-from-one-disk-to-eight/
+    title: "Understanding RAID: How performance scales from one disk to eight"
+    description: |
+      Ever wondered how performance scales with number of disks? RAID1, RAID5, RAID6,... Read on, friend.
+
+  - url: https://thomask.sdf.org/blog/2019/11/09/take-care-editing-bash-scripts.html
+    title: "Take care editing bash scripts"
+    description: |
+      You run a script? You edit some line of it? And suprise the new change you just save somehow got run as well. 
+
+#  - url: https://zerodha.tech/blog/infra-monitoring-at-zerodha/
+#    title: "Infrastructure monitoring with Prometheus at Zerodha"
+#
+#  - url: https://arxiv.org/pdf/2004.10934.pdf
+#    title: "YOLOv4: Optimal Speed and Accuracy of Object Detection"
+#
+#  - url: https://blog.twitter.com/engineering/en_us/topics/open-source/2020/hunting-a-linux-kernel-bug.html
+#    title: "Hunting a Linux kernel bug"
+#    description: |
+
+video:
+  - url: https://www.youtube.com/watch?v=Lf4RwlOdppg
+    title: "The Realities of the Job of Delivering Reliability"
+
+  - url: https://www.youtube.com/watch?v=7Oe8mYPBZmw
+    title: "Life of an SRE at Google"
+
+read_code:
+  - url: https://github.com/KFlash/seafox
+    title: seafox
+    description: |
+      A blazing fast 100% spec compliant, self-hosted javascript parser written in Typescript
+    category: ['TypeScript', 'JavaScript']
+
+  - url: https://github.com/yemount/pose-animator
+    title: "pose-animator"
+    description: |
+      A web-based SVG animation tool using real-time TF.js models
+      Takes a 2D vector illustration and animates its containing curves in real-time based on the recognition result from PoseNet and FaceMesh.
+    category: ['JavaScript', 'Machine Learning']
+
+  - url: https://github.com/facebookresearch/detectron2
+    title: detectron2
+    description: "A Facebook AI Research's next generation software system that implements state-of-the-art object detection algorithms. It is a ground-up rewrite of the previous version"
+    category: ['Python']
+
+  - url: https://github.com/rxi/lite
+    title: lite
+    description: |
+      A lightweight text editor written in Lua
+    category: ['C', 'Lua']
+
+  - url: https://github.com/facebookexperimental/eden
+    title: eden
+    description: |
+      A virtual filesystem for speeding up the performance of source control checkouts by Facebook.
+      It has 3 components: cli, server and EdenFS(A virtual file system).
+      Code is Python, Rust, C++, C. Oh my. You gotta read this code
+    category: ['Python', 'Rust', 'C++', 'C']
+
+  - url: https://github.com/danfragoso/thdwb
+    title: thdwb
+    description: |
+      A toy  web browser and web browser engine in Go.
+    category: ['Go']
+
+  - url: https://github.com/klauspost/reedsolomon
+    title: reedsolomon
+    description: |
+      Reed-Solomon Erasure Coding in Go, with speeds exceeding 1GB/s/cpu core implemented in pure Go.
+    category: ['Go']
+
+  - url: https://github.com/ankane/lockbox
+    title: lockbox
+    description: |
+      Modern encryption for Rails. Useful if you want to [learn more about AES-GCM](https://github.com/ankane/lockbox/blob/master/lib/lockbox/aes_gcm.rb), and [padding](https://github.com/ankane/lockbox/blob/master/lib/lockbox/box.rb)
+    category: ['Ruby']
+
+tool:
+  - url: https://github.com/sharkdp/shell-functools
+    title: shell-functools
+    description: |
+      Functional programming tools for the shell
+
+  - url: https://github.com/frappe/books
+    title: Frappe Books
+    description: |
+      Free Desktop book-keeping software for small-businesses and freelancers. 
+
+  - url: https://github.com/alibaba/lightproxy
+    title: lightproxy
+    description: |
+      💎 Web debugging proxy with one-click on Windows/macOS 
+
+  - url: https://pgbadger.darold.net/
+    title: pgbadger
+    description: |
+      a PostgreSQL log analyzer built for speed with fully detailed reports and professional rendering. It outperform any other PostgreSQL log analyzer.
+
+  - url: https://github.com/mat/besticon
+    title: besticon
+    description: |
+      Favicon service written in Go. Basically give you an API to find favicon of any website.
+
+  - url: https://github.com/FiloSottile/yubikey-agent
+    title: yubikey-agent
+    description: |
+       a seamless ssh-agent for YubiKeys
+
+  - url: https://tinkerbell.org/
+    title: tinkerbell
+    description: |
+      a bare metal provisioning engine. It’s built and maintained by the team at Packet.
+      It has: DHCP and iPXE Server, Meta Data Service, Workflow Engine, In-Memory Environment.
+
+  - url: https://schemahero.io/
+    title: schemahero
+    description: |
+       an open-source database schema migration tool that converts a schema definition into migration scripts that can be applied in any environment.
