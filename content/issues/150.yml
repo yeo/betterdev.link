@@ -89,22 +89,6 @@ links:
     description: |
       Challenges and Options for Validation and Debugging Distributed Systems.
 
-#  - url: https://zerodha.tech/blog/infra-monitoring-at-zerodha/
-#    title: "Infrastructure monitoring with Prometheus at Zerodha"
-#
-#    #https://duo.com/labs/research/finding-radio-sidechannels
-#    #https://news.ycombinator.com/item?id=22994620
-#
-#  - url: https://arxiv.org/pdf/2004.10934.pdf
-#    title: "YOLOv4: Optimal Speed and Accuracy of Object Detection"
-#
-#  - url: https://www.cyberark.com/threat-research-blog/beware-of-the-gif-account-takeover-vulnerability-in-microsoft-teams/
-#    title: "Beware of the GIF: Account Takeover Vulnerability in Microsoft Teams"
-#
-#  - url: https://blog.twitter.com/engineering/en_us/topics/open-source/2020/hunting-a-linux-kernel-bug.html
-#    title: "Hunting a Linux kernel bug"
-#    description: |
-
 video:
   - url: https://www.youtube.com/watch?v=eqkAaplKBc4
     title: "A taste of GPU Compute"
