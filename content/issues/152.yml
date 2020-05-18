@@ -1,0 +1,140 @@
+time: "May 18, 2020"
+subject: "OWASP Web Security Testing Guide v4.1"
+draft: false
+
+description: |
+  Hi everyone, Welcome to issue #152.
+
+links:
+  - url: https://siliconsprawl.com/2020/05/10/network-programming-self-study.html
+    title: "Network Programming Self-Study"
+    description: |
+      Network is kind of a blackbox corner, it works so well we kind of forgot its existence. This list is divide into Networking Resources, and Systems Programming Resources.
+
+  - url: https://www.freecodecamp.org/news/diffie-hellman-key-exchange/
+    title: 'Diffie-Hellman: The Genius Algorithm Behind Secure Network Communication'
+    description: |
+      Usually, you are not directly connected to the internet, but you are part of a local smaller network, called Ethernet. Signal sent through this network can be read
+      by all clients connected to same network. Diffie–Hellman key exchange provides a way of generating a shared key between two people in such a way that the key cannot be seen by observing the communication.
+
+  - url: http://osblog.stephenmarz.com/index.html
+    title: "The Adventures of OS: Making a RISC-V Operating System using Rust"
+    description: |
+      Work in progrss. 10/11 chapters are done. You will learn communication, memory management, Page-grained memory allocation, handling interupt,
+
+  - url: https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html
+    title: "Cross-Site Request Forgery (CSRF) Prevention Cheat Sheet"
+    description: |
+      CSRF trigger you into submit request to a website without you knowing. It works because browser used to send the cookie when submit form like that.
+      This cheatsheet introduce way to prevent that.
+
+  - url: https://people.kernel.org/dsahern/the-cpu-cost-of-networking-on-a-host
+    title: "The CPU Cost of Networking on a Host"
+    description: |
+      When evaluating networking for a host the focus is typically on latency, throughput or packets per second (pps) to see the maximum load a system can handle for a given configuration.
+      While those are important and often telling metrics, results for such benchmarks do not tell you the impact processing those packets has on the workloads running on that system.
+
+  - url: https://zserge.com/posts/kvm/
+    title: "KVM host in a few lines of code"
+    description: |
+      KVM is a virtualization technology that comes with the Linux kernel. KVM provides an API via a special device node - /dev/kvm. By opening a device you obtain a handle to the KVM subsystem and later make ioctl syscalls to allocate resources and launch VMs.
+
+  - url: https://zserge.com/posts/containers/
+    title: "Linux containers in a few lines of code"
+    description: |
+      Show how exactly containers work by running a busybox Docker image in our own small container runner.
+
+  - url: https://www.percona.com/blog/2020/05/14/tuning-mysql-innodb-flushing-for-a-write-intensive-workload/
+    title: "Tuning MySQL/InnoDB Flushing for a Write-Intensive Workload"
+    description: |
+      The third in a series explaining the internals of InnoDB flushing.Look into many innodb_io_* config and their impact.
+
+  - url: https://blog.cloudflare.com/when-bloom-filters-dont-bloom/
+    title: "When Bloom filters don't bloom"
+    description: |
+      Cloudflare uses bloomfilter to quickly discover if an IP address belong to some ip data set and counting unique ip.
+      If offers 10x performance compare with Linux utility like `sort, uniq` but still way slower than normal `wc`. The author set out to find that.
+
+  - url: https://www.michael-noll.com/blog/2020/01/16/what-every-software-engineer-should-know-about-apache-kafka-fundamentals/
+    title: "What Every Software Engineer Should Know about Apache Kafka: Events, Streams, Tables, Storage, Processing, And More"
+
+  - url: https://robertovitillo.com/what-every-developer-should-know-about-tcp/
+    title: "What every developer should know about TCP"
+
+#https://pragmaticwebsecurity.com/articles/oauthoidc/from-implicit-to-pkce.html
+#  - url: https://zerodha.tech/blog/infra-monitoring-at-zerodha/
+#    title: "Infrastructure monitoring with Prometheus at Zerodha"
+#
+#  - url: https://arxiv.org/pdf/2004.10934.pdf
+#    title: "YOLOv4: Optimal Speed and Accuracy of Object Detection"
+#
+#  - url: https://blog.twitter.com/engineering/en_us/topics/open-source/2020/hunting-a-linux-kernel-bug.html
+#    title: "Hunting a Linux kernel bug"
+#    description: |
+
+video:
+  - url: https://www.youtube.com/watch?v=Lf4RwlOdppg
+    title: "The Realities of the Job of Delivering Reliability"
+
+  - url: https://www.youtube.com/watch?v=7Oe8mYPBZmw
+    title: "Life of an SRE at Google"
+
+read_code:
+  - url: https://github.com/mum4k/termdash
+    title: termdash
+    description: |
+      A Terminal based dashboard.
+    category: ['Go']
+
+  - url: https://github.com/Masterminds/squirrel
+    title: Squirrel
+    description: |
+      Fluent SQL generation for golang
+    category: ["Go"]
+
+  - url: https://fusejs.io/
+    title: fusejs
+    description: |
+      a powerful, lightweight fuzzy-search library, with zero dependencies
+    category: ['JavaScript']
+
+  - url: https://github.com/Mon-Ouie/pry-remote
+    title: pry-remote
+    description: |
+      Connect to Pry remotely.
+    category: ['Ruby']
+
+tool:
+  - url: https://github.com/GoogleChrome/web-vitals-extension
+    title: web-vitals-extension
+    description: |
+      A Chrome extension to measure essential metrics for a healthy site. Google started this [web-vital initiative](https://web.dev/vitals/) to provide unified guidance for quality signals that are essential to delivering a great user experience on the web.
+
+  - url: https://www.botkube.io/
+    title: botkube
+    description: |
+      a messaging bot for monitoring and debugging Kubernetes clusters. 
+
+  - url: https://github.com/six-ddc/httpflow
+    title: httpflow
+    description: |
+      A command line utility helps to capture and dump HTTP stream
+
+  - url: https://github.com/sbstp/kubie
+    title: kubie
+    description: |
+      A tool to help you switch context, namespace when manage multiple kubernetes cluster
+
+  - url: https://jetmore.org/john/code/swaks/
+    title: swaks
+    description: |
+      Swiss Army Knife for SMTP
+
+  - url: https://diagrams.mingrammer.com/
+    title: diagrams as code
+    description: |
+      Diagrams lets you draw the cloud system architecture in Python code.
+
+  - url: https://github.com/wolfpld/tracy/blob/master/README.md
+    title: "Tracy Profiler"
+    description: "A real time, nanosecond resolution, remote telemetry frame profiler for games and other applications."
