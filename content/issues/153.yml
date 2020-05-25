@@ -1,0 +1,144 @@
+time: "May 25, 2020"
+subject: "Ray Tracing In Notepad.exe At 30 FPS"
+draft: false
+
+description: " Hi everyone, Welcome to issue #153. This week, I found a [free course on Network Security](https://www.open.edu/openlearn/science-maths-technology/computing-and-ict/systems-computer/network-security/content-section-0?intro=1), on OpenLearn. It's a short course and part 5) Implementing encryption in networks, looks pretty good."
+
+links:
+  - url: http://kylehalladay.com/blog/2020/05/20/Rendering-With-Notepad.html
+    title: "Ray Tracing In Notepad.exe At 30 FPS"
+    description: |
+      Amazing project. Use notepad as a ASCII display to render and play animation of an object to do ray tracing.
+      One of cool thing is it search memory of a process, find a pattern to find the memory address that hold NotePad display text, and change it constantly to simulate re-rendering.
+
+  - url: https://simonwillison.net/2020/May/21/dogsheep-photos/
+    title: "Using SQL to find my best photo of a pelican according to Apple Photos"
+    description: |
+      Apple Photos keeps photo metadata in a SQLite database. It runs machine learning models to identify the contents of every photo, and separate machine learning models to calculate quality scores for those photographs. All of this data lives in SQLite files on my laptop
+
+  - url: https://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/
+    title: "Let's code a TCP/IP stack, 1: Ethernet & ARP"
+    description: |
+      HTTP/3, QUIC, user-space TCP/IP stack. What is the meaning of development a tcp/ip stack in user-space? How does kernel handle incoming package. How does it know where to send package to.
+
+  - url: https://xem.github.io/articles/webgl-guide.html
+    title: "A Complete Walkthrough to Using WebGL"
+    description: "This guide is a complete, summarized WebGL tutorial, with tiny interactive demos in each chapter. Starting nearly from scratch, you'll be able to create your own 3D interactive scenes without needing to use any library or framework: only vanilla JS & WebGL.  My goal was to gather all the information and tricks about WebGL I found scattered everywhere, and present them in a short and helpful way."
+
+  - url: https://brennan.io/2020/05/24/userspace-cooperative-multitasking/
+    title: "Implementing simple cooperative threads in C"
+    description: |
+      You don’t truly understand something until you’ve implemented it yourself, so I wanted to write an article that lets people play around with a simple thread implementation. In this post, we’ll implement simple threads in a normal C program (not an operating system).
+
+  - url: https://cloud.google.com/blog/topics/inside-google-cloud/google-cloud-support-engineer-solves-a-tough-dns-case
+    title: "The case of the missing DNS packets: a Google Cloud support story"
+    description: |
+      Troubleshooting is both a science and an art. The first step is to make a hypothesis about why something is behaving in an unexpected way, and then prove whether or not the hypothesis is correct.
+      If the issue is too vague, then you need to brainstorm in order to narrow down the problem—this is where the “artistic” part of the process comes in. Another similar story from Twitter: [Hunting a Linux kernel bug](https://blog.twitter.com/engineering/en_us/topics/open-source/2020/hunting-a-linux-kernel-bug.html)
+
+  - url: https://smallstep.com/blog/ssh-agent-explained/
+    title: "SSH Agent Explained"
+    description: |
+      What the agent is, how to use it, and how it works to keep your keys safe, how it works. reduce your risk when using agent forwarding, and an alternative to agent forwarding that you can use when accessing your internal hosts through bastions.
+
+  - url: https://github.com/yolossn/Prometheus-Basics
+    title: "A beginner friendly introduction to prometheus 🔥"
+    description: |
+      Prometheus is a monitoring and alerting system. It is very different from traditional system alerting where it scrape metric instead of you writing metric to it.
+      When scraping, the data is pre-aggreated, so the way to query it is more about trending than individual event. Being different, it has a high learning curve.
+
+  - url: https://jsof-tech.com/unpacking-hp-firmware-updates-part-2/
+    title: "Unpacking HP Firmware Updates"
+    description: |
+      The second of a four-part blog series documenting the different structures and stages of the firmware update. Looking in the blackbox, reverse engineer both of protocol to update and firmware format
+
+  - url: https://www.arp242.net/zshrc.html
+    title: "zshrc tricks"
+    description: |
+      Useful if you already use ZSH.
+
+  - url: https://github.com/michael-andreuzza/Marketing-for-Engineers
+    title: "A curated collection of marketing articles & tools to grow your product."
+
+#https://pragmaticwebsecurity.com/articles/oauthoidc/from-implicit-to-pkce.html
+
+video:
+  - url: https://www.youtube.com/watch?v=wE3TmHxyRdA
+    title: "Scaling to 5M Package Deliveries with Serverless"
+
+  - url: https://www.youtube.com/playlist?list=PLLIx5ktghjqItStdp_NUh3CQ_y4M49Gb1#failoverconf
+    title: "FailoverConf"
+    description: |
+      13 videos about reliability and resilience engineering
+
+read_code:
+  - urL: https://github.com/google/exposure-notifications-server
+    title: google exposure notifications server
+    description: |
+      The notifications server for Covid-19 exposure. I do not think you need to install it but good to see how google write these kind of code. They even had terraform module for it as well.
+    category: ['Go']
+
+  - url: https://github.com/rtr7/router7
+    title: router7
+    description: |
+      pure-Go small home internet router
+    category: ['Go']
+
+  - url: https://github.com/makerdiary/python-keyboard
+    title: python-keyboard
+    description: |
+      A hand-wired USB & BLE keyboard powered by Python. Yes, the firmware is in Python.
+    category: ['Python']
+
+  - url: https://github.com/ankane/prophet
+    title: prophet
+    description: |
+      Time series forecasting for Ruby, ported from Facebook Prophet project
+    category: ['Ruby']
+
+  - url: https://github.com/websockets/ws
+    title: ws
+    description: |
+      Simple to use, blazing fast and thoroughly tested WebSocket client and server for Node.js
+    category: ['NodeJS']
+
+
+tool:
+  - url: https://www.digitalocean.com/community/tools/nginx
+    title: nginx
+    description: |
+      digitalocean tools to help you generate Nginx config interactly
+
+  - url: https://github.com/Bunn/PiStats
+    title: PiStats
+    description: |
+      A simple macOS app that lives in your menu bar to visualize Pi-hole information
+
+  - url: https://github.com/uber/piranha
+    title: piranha
+    description: |
+      A tool for refactoring code related to feature flag APIs
+  - url: https://github.com/subspacecommunity/subspace
+    title: subspace
+    description: |
+      the simple WireGuard VPN server GUI community maintained
+
+  - url: https://github.com/toniblyx/prowler
+    title: prowler
+    description: |
+       a security tool to perform AWS security best practices assessments, audits, incident response, continuous monitoring, hardening and forensics readiness. It contains many CIS contols and checks to help GDPR, HIPAA
+
+  - url: https://github.com/forseti-security/forseti-security
+    title: forseti
+    description: |
+      A community-driven collection of open source tools to improve the security of your Google Cloud Platform environments.
+
+  - url: https://github.com/jonrau1/ElectricEye
+    title: ElectricEye
+    description: |
+      Continuously monitor your AWS services for configurations that can lead to degradation of confidentiality, integrity or availability. All results will be sent to AWS Security Hub for further aggregation and analysis.
+
+  - url: https://github.com/tarent/loginsrv
+    title: loginsrv
+    description: |
+      WT login microservice with plugable backends such as OAuth2, Google, Github, htpasswd, osiam
