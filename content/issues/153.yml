@@ -72,7 +72,7 @@ video:
       13 videos about reliability and resilience engineering
 
 read_code:
-  - urL: https://github.com/google/exposure-notifications-server
+  - url: https://github.com/google/exposure-notifications-server
     title: google exposure notifications server
     description: |
       The notifications server for Covid-19 exposure. I do not think you need to install it but good to see how google write these kind of code. They even had terraform module for it as well.
