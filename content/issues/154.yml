@@ -1,0 +1,177 @@
+time: "Jun 1, 2020"
+subject: "Everything you should know about certificates and PKI but are too afraid to ask"
+draft: false
+
+description: "Hi everyone, Welcome to issue #154."
+
+links:
+  - url: https://smallstep.com/blog/everything-pki/
+    title: "Everything you should know about certificates and PKI but are too afraid to ask"
+    description: "X.509, ASN.1, OIDs, DER, PEM, PKCS, oh my...I was too embarrassed to ask questions so I never learned. Certificates are the best way to identify code and devices, and identity is super useful for security, monitoring, metrics, and a million other things. Using certificates is not that hard. No harder than learning a new language or database. It's just slightly annoying and poorly documented"
+
+  - url: https://slack.engineering/development-environments-at-slack-f3c1339c2445
+    title: "Development Environments at Slack"
+    description: |
+      A look at how Slack setup development environment. They actually use cloud for dev environment instead of running them on developer laptop
+      because the Slack app is too complicated and they try to mimick production as much as possible.
+
+  - url: https://arstechnica.com/information-technology/2013/10/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/
+    title: "A (relatively easy to understand) primer on elliptic curve cryptography"
+    description: "ECC is the next generation of public key cryptography, and based on currently understood mathematics, it provides a significantly more secure foundation than first-generation public key cryptography systems like RSA. If you're worried about ensuring the highest level of security while maintaining performance, ECC makes sense to adopt. If you want to learn more about Elloptic Curves, check out [this artcile on jeremykyn.com](https://jeremykun.com/2014/02/08/introducing-elliptic-curves/)"
+
+  - url: https://blog.jcoglan.com/2017/02/12/the-myers-diff-algorithm-part-1/
+    title: "The Myers diff algorithm"
+    description: |
+      diffs are central to version control like Git. Once you’ve found a difference between two files, how would you find the next line in each version where the text matches up again? It’s more complicated than it looks! And different algorithms can even produce different difference result too.
+
+  - url: https://www.ongres.com/blog/explain_analyze_may_be_lying_to_you/
+    title: "Postgres EXPLAIN ANALYZE may be lying to you"
+    description: |
+      The execution time as reported by EXPLAIN ANALYZE is substantially higher than that of the real query execution time.
+      Turn out the measurement overhead added by EXPLAIN ANALYZE can be significant, especially on machines with slow gettimeofday() operating-system calls.
+      So on system use KVM where click is as fast as hypervisor’s, the EXPLAIN ANALYZE looks faster than one from XEN which uses virtualized clock for VMs.
+
+  - url: https://www.percona.com/blog/2020/05/29/removing-postgresql-bottlenecks-caused-by-high-traffic/
+    title: "Removing PostgreSQL Bottlenecks Caused by High Traffic"
+    description: |
+      A very detail post about many parameters to tune Postgres, each of tuning options are rated by Complexity and Potential Impact. A must read if you are operating Postgres.
+
+  - url: https://www.chosenplaintext.ca/articles/radix-2-51-trick.html
+    title: "The radix 2^51 trick"
+    description: |
+      To do long addition we sum right to left, if result is greater than 10, we carry 1 to its left.
+      The assembly code have extra instruction to hold that carry, if we can eliminate it, then our generated assembly code
+      has less thing to do. How can we do that?
+
+  - url: https://engineering.shopify.com/blogs/engineering/categorizing-products-at-scale
+    title: "Categorizing Products at Scale"
+    description: |
+      One may describe their sock product as a “woolen long sock,” whereas another may have a similar sock product described as a “blue striped long sock.”
+      A detail look at how Shopify with more than 1M business owners, build a machine learning model to category this. They leverage Google Product Taxonomy (GPT)
+      which is a list that over 5000 categories and is hierarchical for a set of categories that represents all the products in the commerce space.
+
+  - url: http://stevehanov.ca/blog/?id=148
+    title: "How to detect if an object has been garbage collected in Javascript"
+    description: |
+      If you are writing an application in Javascript, soon you will have to worry about memory leaks. But it is difficult to even know if a memory leak exists. This handy method can help.
+      Someone also share a [few scripts to detect memory leak using chrome devtools protocol](https://gist.github.com/connorjclark/549fa524a0b8fdc8bbb1b48e1dc86419). Pretty slick, check its out as well
+
+  - url: https://blog.project-insanity.org/2020/05/19/cups-airprint-server-with-legacy-printer-driver-support/
+    title: "Cups AirPrint server with legacy printer driver support using Qemu"
+    description: |
+      Explain how to setup a CUPS network printing server on an ARM-Linux which will still be able to use older or discontinued printer drivers, meant for other architectures, using Docker with Qemu platform emulation. Therefore we could use for example 32bit Linux printer drivers emulated inside the container on our ARM server
+
+  - url: https://webtorrent.github.io/workshop/
+    title: "WebTorrent Workshop"
+    description: "Learn WebTorrent and WebRTC in our guided workshops!"
+
+
+
+#  - url: https://web.mit.edu/kerberos/dialogue.html
+#    title: "Designing an Authentication System: a Dialogue in Four Scenes"
+#
+#
+#    - url: https://rosettacode.org/wiki/Kahan_summation
+#    title: "Kahan summation"
+#    description: |
+#
+#  - url: https://blog.twitter.com/engineering/en_us/topics/open-source/2020/hunting-a-linux-kernel-bug.html
+#    title: "Hunting a Linux kernel bug"
+#
+#  - url: https://csswizardry.com/2020/05/the-fastest-google-fonts/
+#    title: "The Fastest Google Fonts"
+#
+#    https://www.gutenberg.org/files/30688/30688-h/30688-h.htm
+#
+#    https://thorsten-hans.com/5-types-of-zsh-aliases#operating-system-specific-aliases
+# https://github.com/LisaDziuba/Marketing-for-Engineers
+
+#https://pragmaticwebsecurity.com/articles/oauthoidc/from-implicit-to-pkce.html
+
+video:
+  - url: https://www.youtube.com/watch?v=1ot45WwQWJE&feature=youtu.be
+    title: "OAuth 2.0 Auth Code Injection Attack in Action"
+
+  - url: https://www.youtube.com/watch?v=wVnFSJDVC4I
+    title: "A Practical-ish Introduction to Data Science • Mark West"
+
+  - url: https://www.youtube.com/watch?v=vEt-D8xZmgE
+    title: "ECCHacks"
+    description: |
+      This talk will explain how to work with elliptic curves constructively to obtain secure and efficient implementations, and will highlight pitfalls that must be avoided when implementing elliptic-curve crypto (ECC). The talk will also explain what all the buzz in curve choices for TLS is about. This talk does not require any prior exposure to ECC.
+
+read_code:
+  - url: https://github.com/lexrus/RegExPlus
+    title: RegExPlus
+    description: |
+      A nifty RegEx test tool built with SwiftUI
+    category: ['Swift']
+
+  - url: https://github.com/anandpawara/Real_Time_Image_Animation
+    title: Real time Image Animation
+    description: |
+      The Project is real time application in opencv using first order model.
+    category: ['Python']
+
+  - url: https://github.com/benbusby/whoogle-search
+    title: "whoogle-search"
+    description: "Self-hosted, ad-free, privacy-respecting Google metasearch engine"
+
+  - url: https://github.com/prism-rb/prism
+    title: "prism"
+    description: |
+      Build frontend web apps with Ruby and WebAssembly. It uses mruby and emscripten to compile ruby code to WebAssembly
+    category: ['Ruby']
+
+  - url: https://github.com/tj/gobinaries
+    title: "gobinaries"
+    description: "Golang binaries compiled on-demand for your system"
+
+  - url: https://github.com/supabase/realtime
+    title: supabase
+    description: |
+      Listen to your to PostgreSQL database in realtime via websocket
+    category: ['Elixir']
+
+  - url: https://github.com/shomali11/go-interview
+    title: go-interview
+    description: |
+      Collection of Technical Interview Questions solved with Go
+    category: ['Go']
+
+  - url: https://github.com/semihalev/sdns
+    title: sdns
+    description: |
+      Privacy important, fast, recursive dns resolver server with dnssec support
+    category: ['Go']
+
+  - url: https://github.com/pshihn/rough-notation
+    title: rough-notation
+    description: |
+      Create and animate hand-drawn annotations on a web page 
+    category: ['Javascript']
+tool:
+  - url: https://github.com/CISOfy/lynis
+    title: lynis
+    description: "Security auditing tool for Linux, macOS, and UNIX-based systems. "
+
+  - url: https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server
+    title: "send email via google script html no server"
+
+  - url: https://github.com/zyedidia/micro
+    title: micro
+    description: |
+      A modern and intuitive terminal-based text editor 
+
+  - url: https://k9scli.io/
+    title: k9scli
+    description: "Kubernetes CLI To Manage Your Clusters In Style! "
+
+  - url: https://agroal.github.io/pgagroal/
+    title: pgagroal
+    description: "a high-performance protocol-native connection pool for PostgreSQL."
+
+  - url: http://www.hammerspoon.org/
+    title: hammerspoon
+    description: |
+      a tool for powerful automation of OS X with Lua.
