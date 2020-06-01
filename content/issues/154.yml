@@ -2,7 +2,7 @@ time: "Jun 1, 2020"
 subject: "Everything you should know about certificates and PKI but are too afraid to ask"
 draft: false
 
-description: "Hi everyone, Welcome to issue #154."
+description: "Hi everyone, Welcome to issue #154. Let's get straight to our link this week"
 
 links:
   - url: https://smallstep.com/blog/everything-pki/
@@ -113,19 +113,11 @@ read_code:
       The Project is real time application in opencv using first order model.
     category: ['Python']
 
-  - url: https://github.com/benbusby/whoogle-search
-    title: "whoogle-search"
-    description: "Self-hosted, ad-free, privacy-respecting Google metasearch engine"
-
   - url: https://github.com/prism-rb/prism
     title: "prism"
     description: |
       Build frontend web apps with Ruby and WebAssembly. It uses mruby and emscripten to compile ruby code to WebAssembly
     category: ['Ruby']
-
-  - url: https://github.com/tj/gobinaries
-    title: "gobinaries"
-    description: "Golang binaries compiled on-demand for your system"
 
   - url: https://github.com/supabase/realtime
     title: supabase
@@ -150,7 +142,12 @@ read_code:
     description: |
       Create and animate hand-drawn annotations on a web page 
     category: ['Javascript']
+
 tool:
+  - url: https://github.com/benbusby/whoogle-search
+    title: "whoogle-search"
+    description: "Self-hosted, ad-free, privacy-respecting Google metasearch engine"
+
   - url: https://github.com/CISOfy/lynis
     title: lynis
     description: "Security auditing tool for Linux, macOS, and UNIX-based systems. "
