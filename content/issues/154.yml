@@ -65,29 +65,6 @@ links:
     title: "WebTorrent Workshop"
     description: "Learn WebTorrent and WebRTC in our guided workshops!"
 
-
-
-#  - url: https://web.mit.edu/kerberos/dialogue.html
-#    title: "Designing an Authentication System: a Dialogue in Four Scenes"
-#
-#
-#    - url: https://rosettacode.org/wiki/Kahan_summation
-#    title: "Kahan summation"
-#    description: |
-#
-#  - url: https://blog.twitter.com/engineering/en_us/topics/open-source/2020/hunting-a-linux-kernel-bug.html
-#    title: "Hunting a Linux kernel bug"
-#
-#  - url: https://csswizardry.com/2020/05/the-fastest-google-fonts/
-#    title: "The Fastest Google Fonts"
-#
-#    https://www.gutenberg.org/files/30688/30688-h/30688-h.htm
-#
-#    https://thorsten-hans.com/5-types-of-zsh-aliases#operating-system-specific-aliases
-# https://github.com/LisaDziuba/Marketing-for-Engineers
-
-#https://pragmaticwebsecurity.com/articles/oauthoidc/from-implicit-to-pkce.html
-
 video:
   - url: https://www.youtube.com/watch?v=1ot45WwQWJE&feature=youtu.be
     title: "OAuth 2.0 Auth Code Injection Attack in Action"
