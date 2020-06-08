@@ -1,0 +1,171 @@
+time: "Jun 8, 2020"
+subject: "Papers with code and Preparing Applications for IPv6"
+draft: false
+
+description: |
+  Hi everyone, Welcome to issue #155. Let's get straight to our link this week"
+
+links:
+  - url: https://paperswithcode.com/
+    title: "Papers with code"
+
+  - url: https://www.arin.net/resources/guide/ipv6/preparing_apps_for_v6.pdf
+    title: "Preparing Applications for IPv6 (PDF)"
+
+  - url: https://nullprogram.com/blog/2016/08/03/
+    title: "Appending to a File from Multiple Processes"
+    description: "Is writing to a file from multiple processes safe? As in they won't corrupted the file or overwride each other? and will all get append properly."
+
+  - url: https://dgraph.io/blog/post/solving-jepsen-with-opencensus/
+    title: "Solving Jepsen with OpenCensus Distributed Tracing: A personal journey"
+
+  - url: https://ketancmaheshwari.github.io/posts/2020/05/24/SMC18-Data-Challenge-4.html
+    title: "Running Awk in parallel to process 256M records"
+
+  - url: https://prithu.xyz/posts/unix-pipeline/
+    title: "The beauty of Unix pipelines"
+
+  - url: https://zserge.com/posts/jvm/
+    title: "How to Write a (Toy) JVM"
+    description: |
+      The code example is in Go but it introduce you to structure of JVM and how much you can achieve with a short amount of code. Also a good chance to understand some aspect of JVM, regardless you like Java or not, I think this is a great artcile and will level up your knowledge.
+
+  - url: https://github.com/EmilHernvall/dnsguide
+    title: "A guide to writing a DNS Server from scratch in Rust"
+    description: |
+      Writing DNS server is like hello world for networking to me. DNS is small enough, not massive like HTTP, also relying on UDP, so I think it's a good exercise to learn UDP, DNS protocol.
+      This artcile is focus on Rust, and I'm not a Rust programmer, only toy with Rust and I was able to follow it.
+
+  - url: https://www.thedreaming.org/2020/05/26/avoid-csrf-attacks-with-api-design/
+    title: "Avoiding CSRF Attacks with API Design"
+    description: |
+      All code examples are JavaScript/Node but generally all good rule: never use GET to modify state, csrf token, check origin header, Use SameSite cookies, write nagtive test cases.
+
+  - url: https://www.percona.com/blog/2020/05/29/removing-postgresql-bottlenecks-caused-by-high-traffic/
+    title: "Removing PostgreSQL Bottlenecks Caused by High Traffic"
+    description: |
+      There are many ways of addressing performance bottlenecks, but for the sake of discussion here are several ways we can look at this issue: Tuning Performance Parameters, Session Connections, Bloat, Autovacuum, Data Hotspots, Competing Application Processes
+
+  - url: https://habr.com/en/company/postgrespro/blog/504498/
+    title: "Locks in PostgreSQL"
+    description: |
+      A series about Postgres locks. This part is about dead lock, object-level locks and predicate locks.
+
+  - url: https://aaronparecki.com/2020/05/31/30/the-real-cause-of-the-sign-in-with-apple-zero-day
+    title: "The Real Cause of the Sign In with Apple Zero-Day"
+
+
+# https://metacademy.org/
+#
+#  - url: http://dranger.com/ffmpeg/ffmpeg.html
+#    title: "How to Write a Video Player in Less Than 1000 Lines SD:"
+#    description: "It isn't build thing from scratch of course but leverage ffmpeg. ffmpeg is awesome but their document are confused and not easy to follow."
+#  - url: https://medium.com/@Zack.Grannan/the-epic-migration-of-spotify-to-google-cloud-platform-92372ae2d552
+#    title: "Spotify’s Cloud Migration: 100+ Teams, 1200 Services, 20k Data Jobs"
+#
+# - url: https://fzakaria.com/2020/05/31/containers-from-first-principles.html
+#
+#  - url: https://blog.twitter.com/engineering/en_us/topics/open-source/2020/hunting-a-linux-kernel-bug.html
+#    title: "Hunting a Linux kernel bug"
+#
+#  - url: https://csswizardry.com/2020/05/the-fastest-google-fonts/
+#    title: "The Fastest Google Fonts"
+#
+#    https://www.gutenberg.org/files/30688/30688-h/30688-h.htm
+#
+#    https://thorsten-hans.com/5-types-of-zsh-aliases#operating-system-specific-aliases
+# https://github.com/LisaDziuba/Marketing-for-Engineers
+#https://pragmaticwebsecurity.com/articles/oauthoidc/from-implicit-to-pkce.html
+
+video:
+  - url: https://www.youtube.com/watch?v=dhoP-dyIr54
+    title: "What is a Secure Programming Language?"
+
+  - url: https://www.youtube.com/watch?v=E-ZbrtoSuzw&feature=youtu.be
+    title: "Going mouseless with Vim/Tmux/Hotkeys"
+
+read_code:
+  - url: https://github.com/carlini/printf-tac-toe
+    title: printf-tac-toe
+    description: "tic-tac-toe in a single call to printf"
+    category: ["C"]
+
+  - url: https://github.com/lihaoyi/Metascala
+    title: Metascala
+    description: |
+      A JVM written in 3000 line of Scala that can compile itself
+    category: ['Scala']
+
+  - url: https://github.com/cowbell/sharedrop
+    title: sharedrop
+    description: |
+      Easy P2P file transfer powered by WebRTC - inspired by Apple AirDrop 
+    category: ['JavaScript', 'WebRTC']
+
+  - url: https://github.com/miguelmota/streamhut
+    title: streamhut
+    description: "stream your terminal. Checkout demo on [streamhut](https://streamhut.io)"
+    category: ["Go"]
+
+  - url: github.com/kurolabs/airshare
+    title: "Airshare"
+    description: |
+      Cross-platform content sharing in a local network
+    category: ['Python']
+
+  - url: https://github.com/free5gc/free5gc
+    title: free5gc
+    description: |
+      Open source 5G core network base on 3GPP R1
+    category: ['Go']
+
+  - url: https://github.com/ankane/pgslice
+    title: pgslice
+    description: |
+      Postgres partitioning as easy as pie
+    category: ['Ruby']
+
+  - url: https://github.com/theryangeary/choose
+    title: choose
+    description: |
+      A human-friendly and fast alternative to awk and cut
+    category: ['Rust']
+
+tool:
+  - url: https://github.com/ankane/blazer
+    title: blazer
+    description: |
+      Explore your data with SQL. Easily create charts and dashboards, and share them with your team
+
+  - url: https://smocker.dev/
+    title: smocker
+    description: |
+      A simple and efficient HTTP mock server
+
+  - url: https://github.com/sqlancer/sqlancer
+    title: sqlancer
+    description: "Detecting Logic Bugs in DBMS. It discovered 179 bugs in SQLite"
+
+  #https://github.com/jay0lee/got-your-back
+
+  - url: https://github.com/sickcodes/Docker-OSX
+    title: "Mac in Docker!"
+    description: "Run near native OSX-KVM in Docker! X11 Forwarding!"
+
+  - url: https://as-ideas.github.io/TransformerTTS/
+    title: TransformerTTS
+    description: "A Text-to-Speech Transformer in TensorFlow 2"
+
+  - url: https://github.com/milesmcc/shynet
+    title: shynet
+    description: |
+      Modern, privacy-friendly, and detailed web analytics that works without cookies or JS
+
+  - url: https://github.com/zalando/nakadi
+    title: nakadi
+    description: |
+       a distributed event bus broker that implements a RESTful API abstraction on top of Kafka-like queues, which can be used to send, receive, and analyze streaming data in real time, in a reliable and highly available manner.
+
+  - url: https://puree.cc/
+    title: puree
+    description: "Password-based Uniform-Random-Equivalent Encryption"
