@@ -3,14 +3,27 @@ subject: "Papers with code and Preparing Applications for IPv6"
 draft: false
 
 description: |
-  Hi everyone, Welcome to issue #155. Let's get straight to our link this week"
+  This week, I want to share a quick shell trick to check if a port open or not without using any external tool like `telnet` or `nc`.
+
+  And it's a one liner: `echo > /dev/tcp/host/port`.  Example: `echo > /dev/tcp/127.0.0.1/1605/`. If the port is open, no outout, otherwise it will say:
+
+  `-bash: connect: Connection refused
+  -bash: /dev/tcp/127.0.0.1/1605: Connection refused`
+
+  It only works on Linux though, so if you are on Mac, don't bother to try it.
 
 links:
   - url: https://paperswithcode.com/
     title: "Papers with code"
+    description: |
+      Have ever feel frustrated reading a whitepaper without code? So either you have to re-implement to verify or use the research theory? This site is a directory of paper with its code,
+      as in they have a github repository.
 
   - url: https://www.arin.net/resources/guide/ipv6/preparing_apps_for_v6.pdf
     title: "Preparing Applications for IPv6 (PDF)"
+    description: |
+      A software developers guide to writing and migrating networked applications for use on ipv6 networks. Discuss strategies for apps supporting both ipv4 and ipv6 during the transition.
+      Not just in term of network, it also discussed how to store ipv6 into database effectively. How to deal with ipv6 in your programing language etc. So a great guide both in term of networking and programming.
 
   - url: https://nullprogram.com/blog/2016/08/03/
     title: "Appending to a File from Multiple Processes"
@@ -18,23 +31,16 @@ links:
 
   - url: https://dgraph.io/blog/post/solving-jepsen-with-opencensus/
     title: "Solving Jepsen with OpenCensus Distributed Tracing: A personal journey"
-
-  - url: https://ketancmaheshwari.github.io/posts/2020/05/24/SMC18-Data-Challenge-4.html
-    title: "Running Awk in parallel to process 256M records"
-
-  - url: https://prithu.xyz/posts/unix-pipeline/
-    title: "The beauty of Unix pipelines"
-
-  - url: https://zserge.com/posts/jvm/
-    title: "How to Write a (Toy) JVM"
     description: |
-      The code example is in Go but it introduce you to structure of JVM and how much you can achieve with a short amount of code. Also a good chance to understand some aspect of JVM, regardless you like Java or not, I think this is a great artcile and will level up your knowledge.
+      Jepsen is a framework to test distrubuted system. It uncovered many bugs in system like MongoDB, Riak, Redis, ElasticSearch.
+      But what do you do if you are a developer and your app failed at Jepsen test. This is a journey of a dgraph developer try to fix
+      one of the most complicated Jepsen test using distributed tracing. The test is so hard that you cannot just think of theory to quickly try fixing out blindly.
 
-  - url: https://github.com/EmilHernvall/dnsguide
-    title: "A guide to writing a DNS Server from scratch in Rust"
+  - url: https://aaronparecki.com/2020/05/31/30/the-real-cause-of-the-sign-in-with-apple-zero-day
+    title: "The Real Cause of the Sign In with Apple Zero-Day"
     description: |
-      Writing DNS server is like hello world for networking to me. DNS is small enough, not massive like HTTP, also relying on UDP, so I think it's a good exercise to learn UDP, DNS protocol.
-      This artcile is focus on Rust, and I'm not a Rust programmer, only toy with Rust and I was able to follow it.
+      Recently Apple has a Zero-Day in thir Sign In with Apple system, which allow a way to login as anybody. The core issue is not validating user input data.
+      If a single thing you can learn from this article is this: always validate user input data, especially in a multi steps flow, validate at every steps.
 
   - url: https://www.thedreaming.org/2020/05/26/avoid-csrf-attacks-with-api-design/
     title: "Avoiding CSRF Attacks with API Design"
@@ -50,16 +56,25 @@ links:
     title: "Locks in PostgreSQL"
     description: |
       A series about Postgres locks. This part is about dead lock, object-level locks and predicate locks.
+  - url: https://ketancmaheshwari.github.io/posts/2020/05/24/SMC18-Data-Challenge-4.html
+    title: "Running Awk in parallel to process 256M records"
+    description: |
+      Awk crunches massive data; a High Performance Computing (HPC) script calls hundreds of Awk concurrently. Fast and scalable in-memory solution on a fat machine.
 
-  - url: https://aaronparecki.com/2020/05/31/30/the-real-cause-of-the-sign-in-with-apple-zero-day
-    title: "The Real Cause of the Sign In with Apple Zero-Day"
+  - url: http://dranger.com/ffmpeg/ffmpeg.html
+    title: "How to Write a Video Player in Less Than 1000 Lines SD"
+    description: "Leverage ffmpeg. ffmpeg is awesome but it's huge so knowing how to put thing together is a nice first step to get into video programming."
 
+  - url: https://zserge.com/posts/jvm/
+    title: "How to Write a (Toy) JVM"
+    description: |
+      The code example is in Go but it introduce you to structure of JVM and how much you can achieve with a short amount of code. Also a good chance to understand some aspect of JVM, regardless you like Java or not, I think this is a great artcile and will level up your knowledge.
 
-# https://metacademy.org/
-#
-#  - url: http://dranger.com/ffmpeg/ffmpeg.html
-#    title: "How to Write a Video Player in Less Than 1000 Lines SD:"
-#    description: "It isn't build thing from scratch of course but leverage ffmpeg. ffmpeg is awesome but their document are confused and not easy to follow."
+#  - url: https://github.com/EmilHernvall/dnsguide
+#    title: "A guide to writing a DNS Server from scratch in Rust"
+#    description: |
+#      Writing DNS server is like hello world for networking to me. DNS is small enough, not massive like HTTP, also relying on UDP, so I think it's a good exercise to learn UDP, DNS protocol.
+#      This artcile is focus on Rust, and I'm not a Rust programmer, only toy with Rust and I was able to follow it.
 #  - url: https://medium.com/@Zack.Grannan/the-epic-migration-of-spotify-to-google-cloud-platform-92372ae2d552
 #    title: "Spotify’s Cloud Migration: 100+ Teams, 1200 Services, 20k Data Jobs"
 #
@@ -102,16 +117,22 @@ read_code:
       Easy P2P file transfer powered by WebRTC - inspired by Apple AirDrop 
     category: ['JavaScript', 'WebRTC']
 
-  - url: https://github.com/miguelmota/streamhut
-    title: streamhut
-    description: "stream your terminal. Checkout demo on [streamhut](https://streamhut.io)"
-    category: ["Go"]
+  - url: https://github.com/niieani/hashids.js/blob/master/lib/hashids.ts
+    title: hashids
+    description: |
+      Ever wonder how to generate YouTube-like ids from numbers? Here you go, in 400 lines of TypeScript
+    category: ['TypeScript']
 
   - url: github.com/kurolabs/airshare
     title: "Airshare"
     description: |
       Cross-platform content sharing in a local network
     category: ['Python']
+
+  - url: https://github.com/miguelmota/streamhut
+    title: streamhut
+    description: "stream your terminal. Checkout demo on [streamhut](https://streamhut.io)"
+    category: ["Go"]
 
   - url: https://github.com/free5gc/free5gc
     title: free5gc
@@ -132,6 +153,11 @@ read_code:
     category: ['Rust']
 
 tool:
+  - url: https://github.com/electerious/Ackee
+    title: Ackee
+    description: |
+      Self-hosted, Node.js based analytics tool for those who care about privacy. Ackee runs on your own server, analyses the traffic of your websites and provides useful statistics in a minimal interface
+
   - url: https://github.com/ankane/blazer
     title: blazer
     description: |
