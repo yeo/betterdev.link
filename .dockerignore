@@ -8,3 +8,6 @@ content/*.user
 *.log
 node_modules
 frontend
+admin
+tiger
+blog
