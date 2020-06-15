@@ -64,55 +64,6 @@ links:
     description: |
       Discuss different methods to address memory: Displacement, Base, Base+Displacement, Base+Index and more.
       Also look at different ways in which x86_64 allows the user to address memory via just one instruction: mov.
-
-
-
-#  - url: https://www.confluent.io/blog/stream-analyze-visualize-data-with-kafka-ksqldb-and-friends/
-#
-#
-#  - url: https://www.vidarholen.net/contents/blog/?p=878
-#    title: "
-#
-#  - url: https://medium.com/@github.gkarthiks/how-does-packet-filtering-and-iptables-work-321ccc56fb40
-#    title: "How does Packet filtering and IPTables work?
-#    Understanding the basics of IP Packet Filtering "
-#
-#  https://opensource.com/article/20/6/linux-noatime
-#
-#  - url: https://dropbox.tech/application/speeding-up-a-git-monorepo-at-dropbox-with--200-lines-of-code
-#    title: "Speeding up a Git monorepo at Dropbox with <200 lines of code"
-#    description: |
-#      Dropbox uses a git mono repo so clone time, git log was slower than an average repository. In order to speed it up, they write a wrapper about original git command to add metric stat, then from there,
-#      they started to fix the Git
-#
-#
-#
-#
-#
-#http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html
-#
-#  - url: https://github.com/EmilHernvall/dnsguide
-#    title: "A guide to writing a DNS Server from scratch in Rust"
-#    description: |
-#      Writing DNS server is like hello world for networking to me. DNS is small enough, not massive like HTTP, also relying on UDP, so I think it's a good exercise to learn UDP, DNS protocol.
-#      This artcile is focus on Rust, and I'm not a Rust programmer, only toy with Rust and I was able to follow it.
-#  - url: https://medium.com/@Zack.Grannan/the-epic-migration-of-spotify-to-google-cloud-platform-92372ae2d552
-#    title: "Spotify’s Cloud Migration: 100+ Teams, 1200 Services, 20k Data Jobs"
-#
-# - url: https://fzakaria.com/2020/05/31/containers-from-first-principles.html
-#
-#  - url: https://blog.twitter.com/engineering/en_us/topics/open-source/2020/hunting-a-linux-kernel-bug.html
-#    title: "Hunting a Linux kernel bug"
-#
-#  - url: https://csswizardry.com/2020/05/the-fastest-google-fonts/
-#    title: "The Fastest Google Fonts"
-#
-#    https://www.gutenberg.org/files/30688/30688-h/30688-h.htm
-#
-#    https://thorsten-hans.com/5-types-of-zsh-aliases#operating-system-specific-aliases
-# https://github.com/LisaDziuba/Marketing-for-Engineers
-#https://pragmaticwebsecurity.com/articles/oauthoidc/from-implicit-to-pkce.html
-
 video:
   - url: https://media.ccc.de/v/36c3-10701-select_code_execution_from_using_sqlite
     title: "SELECT code_execution FROM * USING SQLite"
@@ -187,8 +138,6 @@ tool:
     title: topngx
     description: |
       top for nginx
-
-  https://makelinux.github.io/kernel/map/
 
   - url: https://github.com/H-M-H/Weylus
     title: Weylus
