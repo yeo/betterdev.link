@@ -1,0 +1,215 @@
+time: "Jun 15, 2020"
+subject: "How Controllers Maximize SSD Life"
+draft: false
+
+description: |
+  Hi everyone, Welcome to issue #156. Let's get straight to our links this week.
+
+links:
+  - url: https://thessdguy.com/how-controllers-maximize-ssd-life/
+    title: "How Controllers Maximize SSD Life"
+    description: |
+      MLC flash has a lifetime of only 10,000 erase/write cycles or fewer and that is a very small number compared to the write traffic an SSD is expected to see in a high-workload environment, especially in the enterprise.  Still, MLC is becoming the norm in the enterprise.
+    This serie talk about eight basic techniques that the author know: Wear Leveling, External Data Buffering, Improved ECC, Other Error Management, Reduced Write Amplification, Over Provisioning, Feedback on Block Wear and Internal NAND Management
+
+  - url: https://www.ditdot.hr/en/causes-of-memory-leaks-in-javascript-and-how-to-avoid-them
+    title: "Causes of Memory Leaks in JavaScript and How to Avoid Them"
+    description: |
+      JavaScript is unavoidable in modern web, even with the raise of technologies like WebAssembly and many language that compile to JavaScript, but at its root, JavaScript is the kind and continue to rule the front-end web.
+    Thefore understand about it is very imporant for all developer. But with its popularity, JavaScript has great tooling to debug memory leak. Here, we will learn about a few commont sources of memory leaks: Accidental global variables, Closures, Timers, Event listeners,  Detached DOM elements
+
+  - url: http://www.redbook.io/
+    title: "Readings in Database Systems, 5th Edition"
+    description: |
+      A 12 chapter books, discuss aspect of datbase such as query optimizer, weak isolation and distriution, Large-Scale data engine,...
+      Each chapters also given a few white papers on that topic, the chapter itself give some background, discussion about that same topic.
+      A very cool approach to deep dive into database I think. Database has so much theory behind it and reading white papers is a must if you want to advanced your knowledge.
+
+  - url: https://www.percona.com/blog/2020/06/09/multi-master-replication-solutions-for-postgresql/
+    title: "Multi-Master Replication Solutions for PostgreSQL"
+    description: |
+      Analysis of a list of tools that do multi-master replication, with their pros and cons
+
+  - url: https://unix.stackexchange.com/questions/198590/what-is-a-bind-mount
+    title: What is a bind mount
+    description: "On Linux, generally to make a directory point to other directory, we can use `symlink`.  But when you mount the symlink into thing like docker containers, it won't work, inside continer you cannot follow the link, unless you also mount the destination to same path. Bind mount could be a way to solve that. Bind mount is kind of like a view in database, it gives same view of storage behind it, read/write into it will make it way to storage layer"
+
+  - url: https://blog.ram.rachum.com/post/620335081764077568/symlinks-and-hardlinks-move-over-make-room-for
+    title: "Symlinks and hardlinks, move over, make room for reflinks!"
+    description: |
+      We all know symlinks and hardlinks. It's very useful in Linux where you want to point a path to other directory. Such as many deployment tool have a concept of `current` symlink point to latest release.
+      But I haven't heard of reflink till this issue: it's a tool for doing copy-on-write  on the file system. It's only available on APFS, XFS, Btrfs though. So no good news for ext3/ext4.
+
+  - url: https://engineering.shopify.com/blogs/engineering/understanding-programs-using-graphs
+    title: "Understanding Programs Using Graphs"
+    description: |
+      We know that the code we wrote usually turn into an AST, a tree data structure to be evaluate. We may think of it just a way to represent the code to compiler/interpreter, but it allows
+      us to do cool things. Example, by looking at graph we can see what kind of code can run concurently independent from other and evaluate it.
+
+  - url: https://levelup.gitconnected.com/anatomy-of-a-webrtc-video-conference-f924ba0ba930
+    title: "Anatomy of a WebRTC video conference"
+    description: |
+      Whether you are using Jitsi, Big Blue Button, or the browser based interface of one of the commercial projects, you probably have been using the WebRTC standard.
+      This artciles write about technologies all the way from browser API(webcam, micro access) to server side, firewall, NATs, tunneling and peer to peer network
+
+  - url: http://seenaburns.com/2018/04/04/writing-to-the-framebuffer/
+    title: "Writing to the framebuffer"
+    description: |
+      How do pixels end up on the monitor? How the GUI is draw and can track which thing you click on?
+      Turn out, The image displayed on the monitor is stored in your computer’s video RAM on the graphics card in a structure called a framebuffer.
+      So how can we manipulate it? This artcile use Python to show it, but you got the idea. Now you know you just need to write to framebuffer to change the monitor display.
+
+  - url: https://blog.yossarian.net/2020/06/13/How-x86_64-addresses-memory
+    title: "How x86_64 addresses memory"
+    description: |
+      Discuss different methods to address memory: Displacement, Base, Base+Displacement, Base+Index and more.
+      Also look at different ways in which x86_64 allows the user to address memory via just one instruction: mov.
+
+
+
+#  - url: https://www.confluent.io/blog/stream-analyze-visualize-data-with-kafka-ksqldb-and-friends/
+#
+#
+#  - url: https://www.vidarholen.net/contents/blog/?p=878
+#    title: "
+#
+#  - url: https://medium.com/@github.gkarthiks/how-does-packet-filtering-and-iptables-work-321ccc56fb40
+#    title: "How does Packet filtering and IPTables work?
+#    Understanding the basics of IP Packet Filtering "
+#
+#  https://opensource.com/article/20/6/linux-noatime
+#
+#  - url: https://dropbox.tech/application/speeding-up-a-git-monorepo-at-dropbox-with--200-lines-of-code
+#    title: "Speeding up a Git monorepo at Dropbox with <200 lines of code"
+#    description: |
+#      Dropbox uses a git mono repo so clone time, git log was slower than an average repository. In order to speed it up, they write a wrapper about original git command to add metric stat, then from there,
+#      they started to fix the Git
+#
+#
+#
+#
+#
+#http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html
+#
+#  - url: https://github.com/EmilHernvall/dnsguide
+#    title: "A guide to writing a DNS Server from scratch in Rust"
+#    description: |
+#      Writing DNS server is like hello world for networking to me. DNS is small enough, not massive like HTTP, also relying on UDP, so I think it's a good exercise to learn UDP, DNS protocol.
+#      This artcile is focus on Rust, and I'm not a Rust programmer, only toy with Rust and I was able to follow it.
+#  - url: https://medium.com/@Zack.Grannan/the-epic-migration-of-spotify-to-google-cloud-platform-92372ae2d552
+#    title: "Spotify’s Cloud Migration: 100+ Teams, 1200 Services, 20k Data Jobs"
+#
+# - url: https://fzakaria.com/2020/05/31/containers-from-first-principles.html
+#
+#  - url: https://blog.twitter.com/engineering/en_us/topics/open-source/2020/hunting-a-linux-kernel-bug.html
+#    title: "Hunting a Linux kernel bug"
+#
+#  - url: https://csswizardry.com/2020/05/the-fastest-google-fonts/
+#    title: "The Fastest Google Fonts"
+#
+#    https://www.gutenberg.org/files/30688/30688-h/30688-h.htm
+#
+#    https://thorsten-hans.com/5-types-of-zsh-aliases#operating-system-specific-aliases
+# https://github.com/LisaDziuba/Marketing-for-Engineers
+#https://pragmaticwebsecurity.com/articles/oauthoidc/from-implicit-to-pkce.html
+
+video:
+  - url: https://media.ccc.de/v/36c3-10701-select_code_execution_from_using_sqlite
+    title: "SELECT code_execution FROM * USING SQLite"
+    description: |
+      Gaining code execution using a malicious SQLite database
+
+  - url: https://www.youtube.com/watch?v=ykbYNBE-V3k&feature=youtu.be
+    title: Temporal Databases for Streaming Architectures
+
+read_code:
+  - url: https://www.planimeter.org/grid-sdk/
+    title: grid
+    description: |
+      a game engine for Lua built by Planimeter on top of LÖVE
+    category: ['Lua']
+
+  - url: https://github.com/lagmoellertim/unsilence
+    title: unsilence
+    description: |
+      Console Interface and Library to remove silent parts of a media file
+    category: ['Python', 'Machine Learning']
+
+  - url: https://github.com/Ciphey/Ciphey
+    title: Ciphey
+    description: |
+      Automated decryption tool. Input encrypted text, get the decrypted text back. It tried to detect type of encryption use a deep neural network with a simple filtration system to approximate what something is encrypted with.
+    category: ['Python']
+
+  - url: https://github.com/cloudflare/utahfs
+    title: utahfs
+    description: |
+      an encrypted storage system that provides a user-friendly FUSE drive backed by cloud storage. More detail about its design can be foudn on [Cloudflare blog](https://blog.cloudflare.com/utahfs/)
+    category: ['Go']
+
+  - url: https://github.com/gocolly/colly
+    title: colly
+    description: |
+      Elegant Scraper and Crawler Framework
+    category: ['Go']
+
+  - url: https://github.com/linkyndy/pallets
+    title: pallets
+    description: |
+      Simple and reliable workflow engine
+    category: ['Ruby']
+
+  - url: https://github.com/scribbletune/scribbletune
+    title: scribbletune
+    description: |
+      Create music with JavaScript. Very interesting. [Listen to the music it can generates on soundcloud](https://soundcloud.com/scribbletune/chords-1)
+    category: ['JavaScript']
+
+  - url: https://github.com/GoogleCloudPlatform/require-so-slow
+    title: require-so-slow
+    description: "`require`s taking too much time? Profile 'em."
+    category: ['JavaScript']
+
+  - url: https://github.com/pramsey/pgsql-http/
+    title: pgsql-http
+    description: |
+      An extension for Postgres so you can do this `SELECT content FROM http_get('http://httpbin.org/ip');`?
+      If you want to know more about how to write Postgres extension in C, then this could be a good code base to read
+    category: ['C', 'Postgres']
+
+tool:
+  - url: https://github.com/spieglt/whatfiles
+    title: whatfiles
+    description: |
+      Log what files are accessed by any Linux process
+
+  - url: https://github.com/gsquire/topngx
+    title: topngx
+    description: |
+      top for nginx
+
+  https://makelinux.github.io/kernel/map/
+
+  - url: https://github.com/H-M-H/Weylus
+    title: Weylus
+    description: "Use your tablet as graphic tablet/touch screen on your computer."
+
+  - url: https://github.com/neutrinolabs/xrdp
+    title: xrdp
+    description: |
+      an open source RDP server
+
+  - urL: https://github.com/webrecorder/conifer
+    title: conifer
+    description: |
+      Collect and revisit web pages
+
+  - url: https://github.com/elotl/kip
+    title: kip
+    description: |
+      a Virtual Kubelet provider that allows a Kubernetes cluster to transparently launch pods onto their own cloud instances. The kip pod is run on a cluster and will create a virtual Kubernetes node in the cluster.
+
+  - url: https://smusamashah.github.io/text-to-diagram
+    title: "Online text to diagram tools"
+    description: |
+      A comprehensive list of various text to diagram tools.
