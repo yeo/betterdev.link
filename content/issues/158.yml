@@ -189,3 +189,7 @@ tool:
     description: |
       Firefox send cli client. Quickly share file up to 1GB right from terminal anonymously.
 
+  - url: https://github.com/jckuester/awsls
+    title: awsls
+    description: "list aws resource, using a syntax similar to `ls`. Support over 200 types of resources across 76 different AWS services. Super useful for thing like get DNS of RDS or ip address of vm"
+
