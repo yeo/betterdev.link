@@ -183,4 +183,9 @@ tool:
     title: kube-janitor
     description: |
       cleans up (deletes) Kubernetes resources on (1) a configured TTL (time to live) or (2) a configured expiry date (absolute timestamp).
-      https://github.com/timvisee/ffsend
+
+  - url: https://github.com/timvisee/ffsend
+    title: ffsend
+    description: |
+      Firefox send cli client. Quickly share file up to 1GB right from terminal anonymously.
+
