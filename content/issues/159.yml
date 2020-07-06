@@ -1,0 +1,189 @@
+time: "Jul 06, 2020"
+subject: "Scaling Linux Services: Before accepting connections"
+draft: false
+
+description: |
+  Hi everyone, Welcome to issue #158. If you like this newsletter, please help forward this email to a friend, tweet, or shout from a rooftop. It goes a long way :-).
+
+links:
+  - url: https://theojulienne.io/2020/07/03/scaling-linux-services-before-accepting-connections.html
+    title: "Scaling Linux Services: Before accepting connections"
+    description: |
+      When writing services that accept TCP connections, we tend to think of our work as starting from the point where our service accepts a new client connection and finishing when we complete the request and close the socket. For services at scale, operations can happen at such a high rate that some of the default resource limits of the Linux kernel can break this abstraction and start causing impact to incoming connections outside of that connection lifecycle. This post focuses on some standard resource limitations that exist before the client socket is handed to the application.
+
+  - url: https://medium.com/@github.gkarthiks/how-does-packet-filtering-and-iptables-work-321ccc56fb40
+    title: "How does Packet filtering and IPTables work?"
+    description: "Explain how IPTables, Chains and Rules work together."
+
+  - url: https://www.viva64.com/en/b/0260/#ID861841856
+    title: "The Last Line Effect"
+    description: |
+      When copy-paste code we usually made mistake, example: we write `x += o.x; y += o.y; z += o.y` notice the last one should be `o.z`. These are naive of course but can it happen on big project like ReactOS, Chromium, Qt, Firefox. Yes, they are. Read on for some fun mistakes.
+
+  - url: https://jesseduffield.com/beginners-guide-to-abstraction/
+    title: "Beginner’s Guide To Abstraction"
+    description: "In The Pragmatic Programmer, Andrew Hunt and David Thomas introduced the DRY (Don't Repeat Yourself) principle But then Sandi Metz came along and said: Duplication is far cheaper than the wrong abstraction. So what should we do"
+
+  - url: https://www.highgo.ca/2020/06/22/types-of-indexes-in-postgresql/
+    title: "Types of Indexes in PostgreSQL"
+    description: |
+      B-Tree index is the default index. But you know we have no one size fit all data structure for fast look up. What if we just want an exact match? Well, a hash index might faster there.
+
+  - url: https://www.bennadel.com/blog/3858-the-double-bang-operator-and-a-misunderstanding-of-how-javascript-handles-truthy-falsy-values.htm
+    title: "The Double-Bang (!!) Operator And A Misunderstanding Of How JavaScript Handles Truthy / Falsy Values"
+    description: "I have been reviewing more JS code recently and saw this a lot. Here, Ben Nadel shows why they aren't needed and when they are needed(In a comment though)."
+
+  - url: https://info.acloud.guru/resources/kubernetes-aws-cloud-scaling-hey
+    title: "SCALING THE HOTTEST APP IN TECH ON AWS AND KUBERNETES"
+    description: "Hey email app is getting a lot of attention recently. Partly because it is created by DHH, creator of Ruby on Rails, who has a strong opinion on avoiding SPA JavaScript and focus a lot on Ruby. He used to avoid public cloud like AWS or GCP and belive it's more cost effective on bare metal. But in one podcast I heard 2 years ago, he hinted that eventually the cloud will be cheaper enough and it makes sense to use cloud by then. Here, we will see their infrastructure, initially starting with GCP, then migrate to AWS EKS. They made use a lot of managed service"
+
+  - url: https://smallstep.com/blog/ssh-emergency-access/
+    title: "SSH Emergency Access with certificates"
+    description: |
+      A guide to setup SSH authentication with certificates instead of pub key. Why? Certificate allow you to set expiration date, centralization control and revoke easily. With normal public key, once got in,
+      users can added their own key and do whatever they want.
+
+  - url: https://programminghistorian.org/en/lessons/json-and-jq#the-dot-
+    title: "Reshaping JSON with jq"
+    description: |
+      teaches how to use the command-line utility jq to filter and parse complex JSON files into flat CSV files.
+      If you need a play ground for jq, check out [jqplay](https://jqplay.org/).
+
+  - url: https://livebook.manning.com/book/real-world-cryptography/
+    title: Real-World Cryptography
+    description: "The author wants it to be the best book in this field. It's free to read online right now on Manning so check it out(You have to register for a free account to read though). It has 11 chapters so far. Learning about cryptography definetely help you along the way to understand thing like TLS, PGP etc"
+
+
+#  - url: https://monokh.com/posts/bitcoin-from-scratch-part-1
+#    title: "Bitcoin from scratch - Part 1"
+#    description: |
+#      Understanding the fundamental building blocks(😉) of Bitcoin can be daunting for some developers. I find it difficult to meaningfully understand a system without knowing how everything fits together.
+#
+#- url: https://fzakaria.com/2020/05/31/containers-from-first-principles.html
+#://www.ably.io/blog/cassandra-counter-columns-nice-in-theory-hazardous-in-practice
+#    https://www.stavros.io/posts/u2f-fido2-with-ssh/
+#
+#https://teachyourselfcs.com/
+#
+#  https://opensource.com/article/20/6/linux-noatime
+#
+#http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html
+#
+#  - url: https://github.com/EmilHernvall/dnsguide
+#    title: "A guide to writing a DNS Server from scratch in Rust"
+#    description: |
+#      Writing DNS server is like hello world for networking to me. DNS is small enough, not massive like HTTP, also relying on UDP, so I think it's a good exercise to learn UDP, DNS protocol.
+#      This artcile is focus on Rust, and I'm not a Rust programmer, only toy with Rust and I was able to follow it.
+#  - url: https://medium.com/@Zack.Grannan/the-epic-migration-of-spotify-to-google-cloud-platform-92372ae2d552
+#    title: "Spotify’s Cloud Migration: 100+ Teams, 1200 Services, 20k Data Jobs"
+#
+#
+#  - url: https://csswizardry.com/2020/05/the-fastest-google-fonts/
+#    title: "The Fastest Google Fonts"
+#
+#    https://www.gutenberg.org/files/30688/30688-h/30688-h.htm
+#
+#    https://thorsten-hans.com/5-types-of-zsh-aliases#operating-system-specific-aliases
+# https://github.com/LisaDziuba/Marketing-for-Engineers
+#https://pragmaticwebsecurity.com/articles/oauthoidc/from-implicit-to-pkce.html
+
+video:
+  - url: https://www.infoq.com/presentations/distributed-systems-complexity-human-factor/
+    title: "Why Distributed Systems Are Hard"
+    description: |
+      And since you are there, give a quick read of [A plain english introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem) too
+
+  - url: https://www.youtube.com/watch?v=NBNnjRbM9SI
+    title: "The Lizard Tool: making an NES game"
+
+read_code:
+  - url: https://github.com/erikgrinaker/toydb
+    title: toydb
+    description: |
+      As its name suggest, a Distributed SQL database, written for learning purpose: ACID, Raft-based, Pluggable storage engine with B+tree and log-structured backends and more
+    category: ['Rust']
+
+  - url: https://github.com/ankane/distribute_reads
+    title: distribute_reads
+    description: |
+      Scale database reads to replicas in Rails
+    category: ['Ruby']
+
+  - url: https://github.com/bach-sh/bach
+    title: bach
+    description: |
+       a Bash testing framework, can be used to test scripts that contain dangerous commands like rm -rf /. No surprises, no pain.
+    category: ['Bash']
+
+  - url: https://github.com/casbin/casbin
+    title: casbin
+    description: |
+      a powerful and efficient open-source access control library for Golang projects. It provides support for enforcing authorization based on various access control models
+    category: ['Go']
+
+  - url: https://github.com/riccardoscalco/textures
+    title: textures
+    description: "SVG patterns for Data Visualization"
+    category: ['JavaScript']
+
+  - url: https://github.com/willmcgugan/rich#tables
+    title: rich table
+    description: |
+      a Python library for rich text and beautiful formatting in the terminal.
+    category: ['Python']
+
+  - url: https://github.com/beatrichartz/csv
+    title: csv
+    description: |
+      RFC 4180 compliant CSV parsing and encoding. parses 2x times as fast as an unparallelized stream implementation 🚀
+    category: ['Elixir']
+
+tool:
+  - url: https://github.com/joshuarli/ydiff
+    title: ydiff
+    description: |
+      side-by-side, character-level git unified diffs in the terminal.
+
+  - url: https://github.com/jeffkaufman/icdiff
+    title: icdiff
+    description: |
+      Basically an improve version of diff with color. Make it easier to notice the diff in terminal
+
+  - url: https://github.com/xitonix/trubka
+    title: trubka
+    description: |
+       a Kafka CLI tool built in Go which gives you everything you need to manage, query Kafka, consume and publish message right from CLI without messaging with Java, bash script of Kafka cli tools.
+
+  - url: https://github.com/0x0f0f0f/memplot
+    title: memplot
+    description: |
+      Give a pid, plot memory usage of process, constantly get sample data to generate plot images.
+
+  - url: https://github.com/augmentable-dev/gitqlite
+    title: gitqlite
+    description: "a tool for running SQL queries on git repositories. It implements SQLite virtual tables and uses go-git. It's meant for ad-hoc querying of git repositories on disk through a common interface (SQL), as an alternative to patching together various shell commands."
+
+  - url: https://github.com/emvi/pirsch
+    title: pirsch
+    description: |
+       a server side, no-cookie, drop-in and privacy focused tracking solution for Go. Read the [accompanied doc](https://marvinblum.de/blog/server-side-tracking-without-cookies-in-go-OxdzmGZ1Bl)
+
+  - url: https://cache-tests.fyi/
+    title: "cache-tests"
+    description: |
+      A site to help you quickly see various cache header effect. Super useful when you setting these response header to pass to upstream server like Cloudflare, Fastly etc.
+
+  - url: https://github.com/microsoft/mouselog
+    title: mouselog
+    description: |
+      a web-based platform for website owners to log, visualize and analyze user behaviors like mouse trace data.
+
+#https://github.com/johannesjo/super-productivity
+#https://github.com/redhat-performance/tuned
+#  - url: https://datasette.readthedocs.io/en/stable/
+#title: datasette
+#- url: https://github.com/qoomon/docker-host
+#  title: docker-host
+# https://github.com/theforeman/foreman
+#  - url: https://github.com/hjacobs/kube-downscaler
+#    title: kube-downscaler
