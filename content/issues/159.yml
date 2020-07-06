@@ -15,10 +15,10 @@ links:
     title: "How does Packet filtering and IPTables work?"
     description: "Explain how IPTables, Chains and Rules work together."
 
-  - url: https://www.viva64.com/en/b/0260/#ID861841856
-    title: "The Last Line Effect"
+  - url: https://fzakaria.com/2020/05/31/containers-from-first-principles.html
+    title: "Containers from first principles"
     description: |
-      When copy-paste code we usually made mistake, example: we write `x += o.x; y += o.y; z += o.y` notice the last one should be `o.z`. These are naive of course but can it happen on big project like ReactOS, Chromium, Qt, Firefox. Yes, they are. Read on for some fun mistakes.
+      Dig into container. Docker image are just tar file with some meta data. A container needs at least: network stack, file system, processes. So how can we re-create that, using simple bash commands?
 
   - url: https://jesseduffield.com/beginners-guide-to-abstraction/
     title: "Beginner’s Guide To Abstraction"
@@ -59,7 +59,6 @@ links:
 #    description: |
 #      Understanding the fundamental building blocks(😉) of Bitcoin can be daunting for some developers. I find it difficult to meaningfully understand a system without knowing how everything fits together.
 #
-#- url: https://fzakaria.com/2020/05/31/containers-from-first-principles.html
 #://www.ably.io/blog/cassandra-counter-columns-nice-in-theory-hazardous-in-practice
 #    https://www.stavros.io/posts/u2f-fido2-with-ssh/
 #
