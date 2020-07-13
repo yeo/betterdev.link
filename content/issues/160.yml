@@ -1,0 +1,169 @@
+time: "Jul 13, 2020"
+subject: "How does Linux's display work"
+draft: false
+
+description: |
+  Hi everyone, Welcome to issue #160. Let's get straight to our link this week.
+
+links:
+  - url: https://unix.stackexchange.com/questions/596894/how-does-linuxs-display-work
+    title: "How does Linux's display work?"
+    description: "Linux has an amazing yet frustrated at the same time about display. Xorg, Xserver, X11, KDE, Gnome, Xfce...The full dekstop environment can easily swap out. That multitude can be overwhelming or confusing when we don't have the full picture. There are multiple documentations for each side of the Linux's display system, but globally how does it work exactly?"
+
+  - url: https://lbrito1.github.io/blog/2020/07/replacing_google_analytics_android.html#why-even-keep-anything
+    title: "I replaced Google Analytics with a web server running on my phone"
+    description: |
+      Your phone is a mini computer with low power consumtion, and if you add the SIM, it maybe come a great device to be always online. What if we run a web server on that device and open it to the internet.
+      What kind of programming language will be easily to be deploy and run on the phone.
+
+  - url: https://ketanbhatt.com/db-concurrency-defects/
+    title: "Race Conditions/Concurrency Defects in Databases: A Catalogue"
+    description: |
+      Categorize concurent transaction issue: Dirty Read, Dirty Write, Read Skew, Lost Update, Write Skew.
+
+  - url: https://www.cryptologie.net/article/496/whats-a-key-exchange/
+    title: "What's a key exchange?"
+    description: |
+      Key exchange is fundamental in any secure connection, at some point it will have a key exchange that only two partners know so no one can see what they are communicate.
+      This post is an attempt to explain this process in a simpler way.
+
+  - url: https://blog.cloudflare.com/building-cloudflare-tv-from-scratch/
+    title: "Building Cloudflare TV from scratch"
+    description: |
+      Cloudflate TV is like a TV show where you tune in to watch their engineers talk about programming. Cloudflare has great blog posts we link many time in the past too.
+      They want a solution as simple as joining a Zoom call. They laid out technical challens when building an infrastructur for that.
+
+  - url: https://www.objc.io/issues/17-security/inside-code-signing/#entitlements-and-provisioning
+    title: "Inside Code Signing"
+    description: |
+      This is probably a post for mobile dev. However, most of time the one who setup build/release for a mobile app maybe a devops/backend engineer. Therefore, understanding
+      code signing process on iOS is really important. Even if you don't have to deal with this at all, it's still a good read to understand how iOS control this process.
+
+  - url: https://stackoverflow.blog/2020/07/08/improving-performance-with-simd-intrinsics-in-three-use-cases/
+    title: "Improving performance with SIMD intrinsics in three use cases"
+    description: |
+      SIMD (Single Instruction Multiple Data) is an instruction set available mostly on all current processors. SIMD instructions give data-level parallelism on a unit (vector of data). A single instruction is executed in parallel on multiple data points as opposed to executing multiple instructions. That improves the performance. People use SIMD to [parse JSON faster](https://github.com/simdjson/simdjson) or process image. In this post, we learn about 3 use cases to make use of SIMD for great peformance
+
+  - url: https://github.com/a327ex/blog/issues/30
+    title: "A completed game and a tutorial to build it step by step"
+    description: |
+      A replayable arcade shooter with a focus on build theorycrafting. Use a massive skill tree, many classes and ships to create your own builds and defeat an ever increasing amount of enemies.
+      The tutorial includes 15 parts: game loop, room and areas, player stats and attacks, enemies, skill tree and more.
+
+  - url: https://medium.com/walmartlabs/building-domain-driven-microservices-af688aa1b1b8
+    title: "Building Domain Driven Microservices"
+    description: |
+      touched upon various concepts, strategies, and design heuristics to consider when we venture into the world of microservices, more specifically when we try to break a monolith into multiple domain-based microservices
+
+  - url: https://monokh.com/posts/bitcoin-from-scratch-part-1
+    title: "Bitcoin from scratch - Part 1"
+    description: |
+      Understanding the fundamental building blocks(😉) of Bitcoin can be daunting for some developers. I find it difficult to meaningfully understand a system without knowing how everything fits together. Someone on Hacker News also wrote a [toy implementation of the Bitcoin algorithm](https://github.com/tlrobinson/tomcoin/blob/master/src/node.js) in Node so you can even test mining in browser.
+
+  - url: https://avikdas.com/2020/07/08/barebones-webgl-in-75-lines-of-code.html
+    title: "Barebones WebGL in 75 lines of code"
+
+#  - url: https://blog.cloudflare.com/sandboxing-in-linux-with-zero-lines-of-code/
+#    title: "Sandboxing in Linux with zero lines of code"
+#
+#  - url: https://slack.engineering/a-terrible-horrible-no-good-very-bad-day-at-slack-dfe05b485f82
+#    title: "A Terrible, Horrible, No-Good, Very Bad Day at Slack"
+#://www.ably.io/blog/cassandra-counter-columns-nice-in-theory-hazardous-in-practice
+#    https://www.stavros.io/posts/u2f-fido2-with-ssh/
+#
+#https://teachyourselfcs.com/
+#
+#  https://opensource.com/article/20/6/linux-noatime
+#
+#http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html
+#
+#  - url: https://github.com/EmilHernvall/dnsguide
+#    title: "A guide to writing a DNS Server from scratch in Rust"
+#    description: |
+#      Writing DNS server is like hello world for networking to me. DNS is small enough, not massive like HTTP, also relying on UDP, so I think it's a good exercise to learn UDP, DNS protocol.
+#      This artcile is focus on Rust, and I'm not a Rust programmer, only toy with Rust and I was able to follow it.
+#  - url: https://medium.com/@Zack.Grannan/the-epic-migration-of-spotify-to-google-cloud-platform-92372ae2d552
+#    title: "Spotify’s Cloud Migration: 100+ Teams, 1200 Services, 20k Data Jobs"
+#
+#
+#  - url: https://csswizardry.com/2020/05/the-fastest-google-fonts/
+#    title: "The Fastest Google Fonts"
+#
+#    https://www.gutenberg.org/files/30688/30688-h/30688-h.htm
+#
+#    https://thorsten-hans.com/5-types-of-zsh-aliases#operating-system-specific-aliases
+# https://github.com/LisaDziuba/Marketing-for-Engineers
+#https://pragmaticwebsecurity.com/articles/oauthoidc/from-implicit-to-pkce.html
+
+video:
+  - url: https://martin.kleppmann.com/2020/07/06/crdt-hard-parts-hydra.html
+    title: "CRDTs: The Hard Parts"
+    description: |
+      Conflict-free Replicated Data Types (CRDTs) are an increasingly popular family of algorithms for optimistic replication. They allow data to be concurrently updated on several replicas, even while those replicas are offline, and provide a robust way of merging those updates back into a consistent state. CRDTs are used in geo-replicated databases, multi-user collaboration software, distributed processing frameworks, and various other systems.
+
+read_code:
+  - url: https://github.com/dog-qiuqiu/MobileNetv2-YOLOV3#500kb%E7%9A%84yolo-face-detection
+    title: "MobileNetv2-YOLOv3-SPP Darknet"
+    description: |
+      A darknet implementation of MobileNetv2-YOLOv3-SPP detection network. Basically face detection.
+    category: ['Python', 'AI']
+
+  - url: https://github.com/yiblet/inquest
+    title: inquest
+    description: "a logging tool for python programs. It let's you add logs to your running python programs without restarting the program, redeploying the program, or modifying the code in any way."
+    category: ['Python']
+
+  - url: https://github.com/unabridged/motion
+    title: motion
+    description: |
+      build reactive, real-time frontend UI components in your Rails application using pure Ruby. The change is all render server side and push to client via ActionCable.
+    category: ['Ruby']
+
+  - url: https://github.com/cosmos72/gomacro
+    title: gomacro
+    description: |
+      interactive Go interpreter and debugger with generics and macros
+    category: ['Go']
+
+  - url: https://github.com/lovell/highwayhash
+    title: highwayhash
+    description: "Node.js implementation of Google's HighwayHash. SIMD intrinsics (AVX2, SSE4.1) will be used when available at runtime."
+    category: ['JavaScript']
+
+tool:
+  - url: http://ec2.shop/
+    title: ec2.shop
+    description: quick way to compare EC2 instance price. Available as curl via JSON too. Basically give you an API to check ec2 price, compare on-demand, spot price
+
+  - url: https://github.com/goodwithtech/dockle
+    title: dockle
+    description: |
+       Container Image Linter for Security, Helping build the Best-Practice Docker Image
+
+  - url: https://github.com/appvia/krane
+    title: krane
+    description: |
+      a simple Kubernetes RBAC static analysis tool. It identifies potential security risks in K8s RBAC design and makes suggestions on how to mitigate them
+
+  - url: https://github.com/Stono/kconmon
+    title: kconmon
+    description: |
+      Monitoring connectivity between your kubernetes nodes
+
+  - url: https://github.com/rickbergfalk/sqlpad
+    title: sqlpad
+    description: |
+      A web app for writing and running SQL queries and visualizing the results. Supports Postgres, MySQL, SQL Server, ClickHouse, Crate, Vertica, Presto, SAP HANA, Snowflake, BigQuery, SQLite, and many others via ODBC
+
+  - url: https://github.com/lesovsky/noisia
+    title: noisia
+    description: "Harmful workload generator for PostgreSQL."
+
+#https://github.com/redhat-performance/tuned
+#  - url: https://datasette.readthedocs.io/en/stable/
+#title: datasette
+#- url: https://github.com/qoomon/docker-host
+#  title: docker-host
+# https://github.com/theforeman/foreman
+#  - url: https://github.com/hjacobs/kube-downscaler
+#    title: kube-downscaler
