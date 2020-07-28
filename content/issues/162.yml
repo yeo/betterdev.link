@@ -1,0 +1,150 @@
+time: "Jul 27, 2020"
+subject: "Debugging Incidents in Google's Distributed Systems"
+draft: false
+
+description: |
+  Hi everyone, Welcome to issue #162. If you like this newsletter, please help spread the words out. Thank you.
+
+links:
+  - url: https://queue.acm.org/detail.cfm?id=3404974
+    title: "Debugging Incidents in Google's Distributed Systems"
+    description: |
+      How experts debug production issues in complex distributed systems
+
+  - url: https://gopiandcode.uk/logs/log-bloomfilters-debunked.html
+    title: "Bloom filters debunked: Dispelling 30 Years of bad math with Coq!"
+    description: |
+      FireFox or Chrome warns you when you visit a malicious URL. How do they store that list of URL? In a big database with million of URLs on your computer. Nope. They use bloom filter.
+
+  - url: https://mtlynch.io/tinypilot/
+    title: "TinyPilot: Build a KVM Over IP for Under $100"
+    description: |
+      KVM allows you to view screen, control keyboard mouse of a remote system even before the OS is fully loaded(otherwise you can use VNC or any remote desktop).
+      But they are usually expensive. In this post the author build thing together, run on a raspberry pi.
+
+  - url: https://research.nccgroup.com/2020/07/07/an-offensive-guide-to-the-authorization-code-grant/
+    title: "An offensive guide to the authorization code grant"
+    description: |
+      Despite a fundamental problem of every application and many best practice. Yet, implementaion of many OAuth still has bug when first rolling out. Even Apple.
+      NCCGroup developed the desire for a comprehensive and digestible enumeration of security concerns in the OAuth 2.0 Authorization Code flow, from an end-user (or penetration tester)’s external vantage. This post will introduce, break down the observable vulnerabilities, and explain the exploitation of each the following aspects of the Authorization Code flow.
+
+  - url: https://www.industrialempathy.com/posts/design-docs-at-google/
+    title: "Design Docs at Google"
+    description: |
+      As software engineers our job is not to produce code per se, but rather to solve problems. Unstructured text, like in the form of a design doc, may be the better tool for solving problems early in a project lifecycle
+
+  - url: https://andre.arko.net/2020/07/10/sudo-with-touchid-and-apple-watch-even-inside-tmux/
+    title: "sudo with TouchID and Apple Watch, even inside tmux"
+    description: |
+      TouchID is so convenience. It would be great to make it work with sudo. It useds to have bug when running inside tmux but now they are all fixed.
+      Worth to look into this if you use a MacBook that supports TouchID or a watch.
+
+  - url: https://caolan.uk/articles/inside-a-collaborative-text-editor/
+    title: "Inside a Collaborative Text Editor"
+    description: |
+      The core of online text editor like google doc is Conflict-free replicated data types. This post looks into LOGOOT, an example of CRDT.
+
+  - url: https://medium.com/teads-engineering/generating-uuids-at-scale-on-the-web-2877f529d2a2
+    title: "Generating UUIDs at scale on the Web"
+    description: |
+      UUID is used in distrubited system a lot to avoid the need of a centraliza place to generate ID. Will collision happen? Yes. And some interesting fact about googlebot that have fake JavaScript random/datetime utils
+      which make collision likely to happen.
+
+  - url: https://tyler.io/diy-video-hosting/
+    title: "DIY Video Hosting"
+    description: |
+      I probably won't do this soon but it's good to know what part and piece of a video hosting platform
+
+  - url: https://www.garron.blog/posts/host-your-email-server.html
+    title: "How to self-host your email server"
+    description: "In DIY, self-hosted spitrit, let's see pieces and parts of email server too"
+
+  - url: https://archive.ooo/
+    title: a live, playable archive of DEF CON CTF challenges
+    description: "Practice DEF CON CTF absolutely improve your security skill. DEF CON is one of the world's largest and most notable hacker conventions.  Basically this site give you endpoint that has vulnerability that you can try to attack it"
+
+  #  - url: https://justinmeiners.github.io/lc3-vm/
+  #    title: "Write your Own Virtual Machine"
+  #
+  #  - url: https://redis.pjam.me/
+  #    title: "redis"
+
+#- url: https://blog.cloudflare.com/sandboxing-in-linux-with-zero-lines-of-code/
+#title: "Sandboxing in Linux with zero lines of code"
+#https://teachyourselfcs.com/
+#  https://opensource.com/article/20/6/linux-noatime
+#http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html
+#  - url: https://github.com/EmilHernvall/dnsguide
+#    title: "A guide to writing a DNS Server from scratch in Rust"
+#    description: |
+#      Writing DNS server is like hello world for networking to me. DNS is small enough, not massive like HTTP, also relying on UDP, so I think it's a good exercise to learn UDP, DNS protocol.
+#      This artcile is focus on Rust, and I'm not a Rust programmer, only toy with Rust and I was able to follow it.
+#
+#  - url: https://csswizardry.com/2020/05/the-fastest-google-fonts/
+#    title: "The Fastest Google Fonts"
+#
+#    https://www.gutenberg.org/files/30688/30688-h/30688-h.htm
+#
+#    https://thorsten-hans.com/5-types-of-zsh-aliases#operating-system-specific-aliases
+# https://github.com/LisaDziuba/Marketing-for-Engineers
+#https://pragmaticwebsecurity.com/articles/oauthoidc/from-implicit-to-pkce.html
+
+video:
+  - url: https://www.youtube.com/watch?v=O9upVbGSBFo
+    title: "Brian Kernighan: UNIX, C, AWK, AMPL, and Go Programming"
+    description: |
+      A chat with Brian Kernighan, author of awk, the C Programming Language, and AMPL, an algebraic modeling language for large-scale optimization
+
+read_code:
+#- url: https://github.com/werman/noise-suppression-for-voice
+
+  - url: https://github.com/mkeeter/pont
+    title: pont
+    description: "an online game based on Qwirkle. It's interesting because both of client and server are written in Rust. The client is compiled to webassembly and have some minimal JS to load WebAssembly"
+    category: ['Rust']
+
+  - url: https://github.com/ffuf/ffuf
+    title: ffuf
+    description: |
+      A fast web fuzzer
+    category: ['Go']
+
+  - url: https://github.com/steveruizok/perfect-arrows
+    title: perfect-arrows
+    description: |
+      A set of functions for drawing perfect arrows between points and shapes..Good if you want to know about the magic behind generating smooth curve.
+    category: ['JavaScript']
+
+  - url: https://github.com/dulaku/alsanna
+    title: alsanna
+    description: |
+       a CLI-based intercepting proxy for TCP connections written in Python without third-party dependencies
+    category: ['Python']
+
+tool:
+  - url: https://github.com/plausible/analytics
+    title: "Plausible Analytics"
+    description: |
+      a simple, lightweight, open-source and privacy-friendly alternative to Google Analytics. It doesn’t use cookies and is fully compliant with GDPR, CCPA and PECR
+
+  - url: https://github.com/umputun/remark42
+    title: remark42
+    description: "a self-hosted, lightweight, and simple (yet functional) comment engine, which doesn't spy on users. It can be embedded into blogs, articles or any other place where readers add comments."
+
+  - url: https://github.com/aahung/Unshaky
+    title: Unshaky
+    description: |
+      If you have double key press issue on butterfly Mac keyboard. This small tool will save you.
+  - url: https://github.com/fastogt/fastonosql
+    title: fastonosql
+    description: |
+      a cross-platform Redis, Memcached, SSDB, LevelDB, RocksDB, UnQLite, LMDB, UpscaleDB, ForestDB, Pika management tool, also FastoNoSQL is platform for NoSQL databases, 
+
+  - url: https://github.com/hjacobs/kube-downscaler
+    title: kube-downscaler
+    description: |
+      Scale down Kubernetes Deployments, StatefulSets, and/or HorizontalPodAutoscalers during non-work hours.
+
+#https://github.com/redhat-performance/tuned
+#  - url: https://datasette.readthedocs.io/en/stable/
+# https://github.com/theforeman/foreman
