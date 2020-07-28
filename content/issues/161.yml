@@ -44,28 +44,6 @@ links:
   - url: https://blog.madhuakula.com/dockerfile-security-checks-using-opa-rego-policies-with-conftest-32ab2316172f
     title: "Dockerfile Security Checks using OPA Rego Policies with Conftest"
 
-#- url: https://blog.cloudflare.com/sandboxing-in-linux-with-zero-lines-of-code/
-#title: "Sandboxing in Linux with zero lines of code"
-#https://teachyourselfcs.com/
-#  https://opensource.com/article/20/6/linux-noatime
-#http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html
-#  - url: https://github.com/EmilHernvall/dnsguide
-#    title: "A guide to writing a DNS Server from scratch in Rust"
-#    description: |
-#      Writing DNS server is like hello world for networking to me. DNS is small enough, not massive like HTTP, also relying on UDP, so I think it's a good exercise to learn UDP, DNS protocol.
-#      This artcile is focus on Rust, and I'm not a Rust programmer, only toy with Rust and I was able to follow it.
-#  - url: https://medium.com/@Zack.Grannan/the-epic-migration-of-spotify-to-google-cloud-platform-92372ae2d552
-#    title: "Spotify’s Cloud Migration: 100+ Teams, 1200 Services, 20k Data Jobs"
-#
-#  - url: https://csswizardry.com/2020/05/the-fastest-google-fonts/
-#    title: "The Fastest Google Fonts"
-#
-#    https://www.gutenberg.org/files/30688/30688-h/30688-h.htm
-#
-#    https://thorsten-hans.com/5-types-of-zsh-aliases#operating-system-specific-aliases
-# https://github.com/LisaDziuba/Marketing-for-Engineers
-#https://pragmaticwebsecurity.com/articles/oauthoidc/from-implicit-to-pkce.html
-
 video:
   - url: https://www.scalefactory.com/events/webinars/2020/04/16/operating-under-uncertainty/
     title: "Operating under uncertainty"
@@ -125,9 +103,3 @@ tool:
     title: shell-operator
     description: |
       a tool for running event-driven scripts in a Kubernetes cluster. You can define script to be run under certain condition and this operator is the glue.
-
-#https://github.com/redhat-performance/tuned
-#  - url: https://datasette.readthedocs.io/en/stable/
-# https://github.com/theforeman/foreman
-#  - url: https://github.com/hjacobs/kube-downscaler
-#    title: kube-downscaler
