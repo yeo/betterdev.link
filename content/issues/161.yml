@@ -1,0 +1,133 @@
+time: "Jul 20, 2020"
+subject: "Why is processing a sorted array faster than processing an unsorted array?"
+draft: false
+
+description: |
+  Hi everyone, Welcome to issue #161. This week is a busy week for me so this is a short issue and have no description for link. They are great anyway, check them all out :-).
+
+links:
+  - url: https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array
+    title: "Why is processing a sorted array faster than processing an unsorted array?"
+
+  - url: https://qvault.io/2020/07/08/how-sha-2-works-step-by-step-sha-256/
+    title: "How SHA-2 Works Step-By-Step (SHA-256)"
+
+  - url: https://github.com/in3rsha/sha256-animation
+    title: "SHA-256 Animation"
+    description: |
+      An animation of the SHA-256 hash function in your terminal.. Very cool, check it out after you read above tutorial
+
+  - url: https://www.thirtythreeforty.net/posts/2020/05/hacking-reolink-cameras-for-fun-and-profit/
+    title: "Hacking Reolink cameras for fun and profit"
+
+  - url: https://www.evanjones.ca/network-game-simulation.html
+    title: "Networked games: Playing in the past or future"
+    description: |
+      In netowkring multiple games, what you see on screen always has some latency compare to other due to network, what happen when both of you press at same time. How all of that magic works.
+
+  - url: https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/
+    title: "Data Structures & Algorithms I Actually Used Working at Tech Companies"
+    description: |
+      Tech interview isn't perfect, especially when coming to whiteboard algorithms. Many think that they don't make use of that many algorithm in their day life.
+
+  - url: https://yasoob.me/posts/understanding-and-writing-jpeg-decoder-in-python/
+    title: "Understanding and Decoding a JPEG Image using Python"
+    description: |
+      Non Python user, please still read this post. Python code is very similar to pseudo-code and you will learn a lot about JPEF encoding, decoding: color space, using zig-zag to convert a matrix to a 1D array.
+
+  - url: https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/#0
+    title: "TensorFlow, Keras and deep learning, without a PhD"
+
+  - url: https://medium.com/hiredscore-engineering/logging-lets-do-it-right-41d568d3bfcd
+    title: "Logging — let’s do it right!"
+
+  - url: https://blog.madhuakula.com/dockerfile-security-checks-using-opa-rego-policies-with-conftest-32ab2316172f
+    title: "Dockerfile Security Checks using OPA Rego Policies with Conftest"
+
+#- url: https://blog.cloudflare.com/sandboxing-in-linux-with-zero-lines-of-code/
+#title: "Sandboxing in Linux with zero lines of code"
+#https://teachyourselfcs.com/
+#  https://opensource.com/article/20/6/linux-noatime
+#http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html
+#  - url: https://github.com/EmilHernvall/dnsguide
+#    title: "A guide to writing a DNS Server from scratch in Rust"
+#    description: |
+#      Writing DNS server is like hello world for networking to me. DNS is small enough, not massive like HTTP, also relying on UDP, so I think it's a good exercise to learn UDP, DNS protocol.
+#      This artcile is focus on Rust, and I'm not a Rust programmer, only toy with Rust and I was able to follow it.
+#  - url: https://medium.com/@Zack.Grannan/the-epic-migration-of-spotify-to-google-cloud-platform-92372ae2d552
+#    title: "Spotify’s Cloud Migration: 100+ Teams, 1200 Services, 20k Data Jobs"
+#
+#  - url: https://csswizardry.com/2020/05/the-fastest-google-fonts/
+#    title: "The Fastest Google Fonts"
+#
+#    https://www.gutenberg.org/files/30688/30688-h/30688-h.htm
+#
+#    https://thorsten-hans.com/5-types-of-zsh-aliases#operating-system-specific-aliases
+# https://github.com/LisaDziuba/Marketing-for-Engineers
+#https://pragmaticwebsecurity.com/articles/oauthoidc/from-implicit-to-pkce.html
+
+video:
+  - url: https://www.scalefactory.com/events/webinars/2020/04/16/operating-under-uncertainty/
+    title: "Operating under uncertainty"
+    description: |
+  - url: https://www.youtube.com/watch?v=D5iCl12MuRw&feature=youtu.be
+    title: 'Martin Kleppmann on “Sequential Consistency versus Linearizability”'
+
+read_code:
+  - url: https://github.com/zombodb/pgx
+    title: pgx
+    description: |
+       a framework for developing PostgreSQL extensions in Rust and strives to be as idiomatic and safe as possible.
+    category: ['Rust']
+
+  - url: https://github.com/sorentwo/oban
+    title: oban
+    description: "Robust job processing in Elixir, backed by modern PostgreSQL"
+    category: ['Elixir']
+
+  - url: https://recordrtc.org/
+    title: recordrtc
+    description: |
+      WebRTC JavaScript Library for Audio+Video+Screen+Canvas (2D+3D animation) Recording
+    category: ['JavaScript', 'WebRTC']
+
+  - url: https://github.com/lawl/NoiseTorch
+    title: NoiseTorch
+    description: |
+       an easy to use open source application for Linux with PulseAudio. It creates a virtual microphone that suppresses noise, in any applicatio
+    category: ['Go']
+
+  - url: https://squib.rocks/
+    title: squib
+    description: |
+      a Ruby DSL for prototyping card and board games. Write a little bit of Ruby, define your deck’s stats, then compile your game into a series of images ready for print-and-play or even print-on-demand
+    category: ['Ruby']
+
+#- url: https://github.com/werman/noise-suppression-for-voice
+
+tool:
+  - url: https://github.com/ahmetb/kubectx
+    title: kubectx
+    description: |
+      A must if you works with k8s all day long. Help u swich namespace and env easily
+
+  - url: https://github.com/sbstp/kubie
+    title: kubie
+    description: |
+       alternative to kubectx, kubens and the k on prompt modification script
+
+  - url: https://web.dev/measure/
+    title: web dev measure
+    description: |
+      Probably I live under a rock but this niffy tool measure and give lot of information about front-end.
+
+  - url: https://github.com/flant/shell-operator
+    title: shell-operator
+    description: |
+      a tool for running event-driven scripts in a Kubernetes cluster. You can define script to be run under certain condition and this operator is the glue.
+
+#https://github.com/redhat-performance/tuned
+#  - url: https://datasette.readthedocs.io/en/stable/
+# https://github.com/theforeman/foreman
+#  - url: https://github.com/hjacobs/kube-downscaler
+#    title: kube-downscaler
