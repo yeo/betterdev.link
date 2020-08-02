@@ -81,7 +81,7 @@ a {
   border-left: 2px solid #9b4dca;
   background: #fffedb;
 }
-.issue-sponsor badge {
+.issue-sponsor .badge {
   font-size: 0.7em;
   color: #f36c3d;
 }
