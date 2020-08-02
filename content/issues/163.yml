@@ -2,14 +2,13 @@ time: "Aug 03, 2020"
 subject: ""
 draft: true
 
-description: |
-  Hi everyone, Welcome to issue #163. If you like this newsletter, please help spread the words out. Thank you.
+description: "Hi everyone. This week sponsor is (FusionAuth)[https://fusionauth.io/landing/t-shirt?utm_campaign=Newsletter&utm_source=email&utm_medium=better-dev]. Sponsor helps keep this newsletter up and running. Check them out, FusionAuth is a rock solid authentication option. Don't roll your own auth, delegate it to experts."
 
 links:
   - url: 'https://fusionauth.io/landing/t-shirt?utm_campaign=Newsletter&utm_source=email&utm_medium=better-dev'
     title: "Download FusionAuth today and get a FREE t-shirt! It doesn’t cost anything to get started!"
     description: "FusionAuth provides authentication, authorization, and user management for any app: deploy anywhere, integrate with anything, in minutes. Download and install FusionAuth today and we'll send you a FREE t-shirt!"
-    category: ['Sponsor']
+    category: ['sponsor']
 
   - url: https://hakibenita.com/sql-tricks-application-dba
     title: "Some SQL Tricks of an Application DBA"
@@ -17,9 +16,18 @@ links:
 
   - url: https://blog.winter.dev/2020/designing-a-physics-engine/
     title: "Designing a physics engine"
+    description: |
+      Physics engines are responsible for figuring out where each object in a scene is over time. Objects can collide with one another, then choose to respond in several ways. It’s a generic problem that the user can configure at several different levels. Do they want a collider? Do they want to respond to collisions? Do they want to simulate dynamics? They could want dynamics, but not gravity. It’s a problem that calls for good planning and robust design.
+
+  - url: https://www.tarynpivots.com/post/migrating-40tb-sql-server-database/
+    title: "Migrating a 40TB SQL Server Database"
+    description: |
+      Stackoverflow tech stack is very standarize, and they always try to scale vertically, as in just using a single big database instead of sharding into multiple servers. They have amazing performance given their huge traffic. In this post, Taryn shares the journey of migrating their traffic log data
 
   - url: https://stackexchange.com/performance
     title: "Stackoverflow performance metrics"
+    description: |
+
 
   - url: https://dropbox.tech/infrastructure/how-we-migrated-dropbox-from-nginx-to-envoy
     title: "How we migrated Dropbox from Nginx to Envoy"
