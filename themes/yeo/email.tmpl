@@ -90,6 +90,10 @@ a {
         padding: 0rem 0.5rem;
         border-left: 2px solid #333;
       }
+      .issue-sponsor {
+        font-size: 0.7em;
+        color: #f36c3d;
+      }
       .issue-sponsor .sponsor-action {
         background: #ffffd9;
         padding: 0.25rem;
@@ -228,7 +232,7 @@ a {
                 {{ range $key, $link := .Tools }}
                   {{ if $link.IsSponsor }}
                   <div class="issue-sponsor">
-                    <a style="font-size: 1.2rem; font-weight: 400;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a> <span style="color: #f36c3d;">(SPONSOR)</span>
+                    <a style="font-size: 1.2rem; font-weight: 400;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a> <span class="badge">(SPONSOR)</span>
                     <p class="issue-description">{{ $link.Description }}</p>
                     {{ if $link.Action }}<a class='sponsor-action' href ="{{ $link.URI }}" target='_blank'>{{ $link.Action }}</a>{{ end }}
                   </div>

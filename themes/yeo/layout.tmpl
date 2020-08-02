@@ -150,7 +150,7 @@
               {{ range $key, $link := .Links }}
                 {{ if $link.IsSponsor }}
                   <div class="issue-sponsor">
-                    <a style="font-size: 1.3rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a> <span style="color: #f36c3d;">(SPONSOR)</span>
+                    <a style="font-size: 1.3rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a> <span claass="badge">(SPONSOR)</span>
                     <p class="issue-description">{{ $link.Description }}</p>
                     {{ if $link.Action }}<a class='sponsor-action' href ="{{ $link.URI }}" target='_blank'>{{ $link.Action }}</a>{{ end }}
 

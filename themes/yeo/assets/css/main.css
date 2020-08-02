@@ -75,24 +75,27 @@ a {
   background: #fff;
 }
 
-
-      .issue-sponsor {
-        margin: 0.5rem 0;
-        padding: 0rem 1rem;
-        border-left: 2px solid #9b4dca;
-        background: #fffedb;
-      }
-      .issue-sponsor .sponsor-action {
-        background: #ffffd9;
-        padding: 0.25rem;
-        color: #666;
-        font-weight: 400;
-        font-size: 0.95rem;
-        text-decoration: none;
-      }
-      .issue-sponsor .issue-description {
-        margin: 0;
-      }
+.issue-sponsor {
+  margin: 0.5rem 0;
+  padding: 0rem 1rem;
+  border-left: 2px solid #9b4dca;
+  background: #fffedb;
+}
+.issue-sponsor badge {
+  font-size: 0.7em;
+  color: #f36c3d;
+}
+.issue-sponsor .sponsor-action {
+  background: #ffffd9;
+  padding: 0.25rem;
+  color: #666;
+  font-weight: 400;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+.issue-sponsor .issue-description {
+  margin: 0;
+}
 
 .intro {
 }
