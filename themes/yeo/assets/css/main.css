@@ -80,6 +80,7 @@ a {
         margin: 0.5rem 0;
         padding: 0rem 1rem;
         border-left: 2px solid #9b4dca;
+        background: #fffedb;
       }
       .issue-sponsor .sponsor-action {
         background: #ffffd9;
