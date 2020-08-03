@@ -1,8 +1,8 @@
 time: "Aug 03, 2020"
-subject: ""
-draft: true
+subject: "90 Lines of code to convert your face movement into keyboard commands"
+draft: false
 
-description: "Hi everyone. This week sponsor is [FusionAuth](https://fusionauth.io/landing/t-shirt?utm_campaign=Newsletter&utm_source=email&utm_medium=better-dev). Sponsor helps keep this newsletter up and running. Check them out, FusionAuth is a rock solid authentication option. Don't roll your own auth, delegate it to experts."
+description: "Hi everyone. This week sponsor is [FusionAuth](https://fusionauth.io/landing/t-shirt?utm_campaign=Newsletter&utm_source=email&utm_medium=better-dev). Sponsor helps keep this newsletter up and running. Check them out, FusionAuth is a rock solid authentication option. Don't roll your own auth, delegate it to experts.\n\nThis week we have some cool stuff like the 90 lines of code to control keyboards with your face movement by detecting your nose. Check out that python code in code to read section"
 
 links:
   - url: 'https://fusionauth.io/landing/t-shirt?utm_campaign=Newsletter&utm_source=email&utm_medium=better-dev'
@@ -22,47 +22,57 @@ links:
   - url: https://www.tarynpivots.com/post/migrating-40tb-sql-server-database/
     title: "Migrating a 40TB SQL Server Database"
     description: |
-      Stackoverflow tech stack is very standarize, and they always try to scale vertically, as in just using a single big database instead of sharding into multiple servers. They have amazing performance given their huge traffic. In this post, Taryn shares the journey of migrating their traffic log data
+      Stackoverflow tech stack is very standarize, and they always try to scale vertically, as in just using a single big database instead of sharding into multiple servers. They have amazing performance given their huge traffic. In this post, Taryn shares the journey of migrating their traffic log data.
 
   - url: https://stackexchange.com/performance
     title: "Stackoverflow performance metrics"
     description: |
-
+      If you use Stackoverflow, and enjoy their approach to lean and simple engineering, then why not see how their performance looks like
 
   - url: https://dropbox.tech/infrastructure/how-we-migrated-dropbox-from-nginx-to-envoy
     title: "How we migrated Dropbox from Nginx to Envoy"
+    description: |
+      Envoy is a new load balancer by Lyft, design for dynamic environment. You can change its configuration without the need of generating static config file and trigger a reload like Nginx. For performance, at scale Envoy is a bit better.
+
+  - url: https://blog.cloudflare.com/cloudflare-bot-management-machine-learning-and-more/
+    title: "Cloudflare Bot Management: machine learning and more"
+    description: |
+      Every website will have to deal with bots at some time, good bad, bad bot. Imagine how much bot traffic cloudflare has to deal with?
 
   - url: https://bridge.grumpy-troll.org/2020/07/small-mailserver-bcp/
     title: "Small Mailserver Best Current Practices"
     description: |
       If you ever have to send out email from your app, and have to deal with DKIM and SPF and struggle with all the thing that you have to go through to make your email delivery reliably to your audience, then this post is for you.
 
+  - url: https://blog.carlosgaldino.com/writing-a-file-system-from-scratch-in-rust.html
+    title: "Writing a file system from scratch in Rust"
+    description: "Walk you through process of writing a file system driver so you can pre-allocate a raw file which will be used to house your ... files, then mount it, then finally access it through normal file system API. You can create file, ls file. The post ins't too heavy on Rust b ut give a nice entry introduction to file system."
+
   - url: https://stribny.name/blog/2020/07/scaling-relational-sql-databases
     title: "Scaling relational SQL databases"
+    description: |
+      Some basic ideas and starting points on scaling traditional SQL databases.
 
   - url: https://justinmeiners.github.io/lc3-vm/
     title: "Write your Own Virtual Machine"
+    description: "How hard that sound? Actually a virtual machine is quite simple in its own. Basica idea is a loop that fetch the instruction from a pre-defined location, that's intruction is what your virtual machine can do."
 
-  - url: https://blog.carlosgaldino.com/writing-a-file-system-from-scratch-in-rust.html
-    title: "Writing a file system from scratch in Rust"
+  - url: https://www.sqlstyle.guide/
+    title: SQL Style guide
+    description: "You can use its as it's or customization for your own engineering team"
 
-  - url: https://redis.pjam.me/
-    title: "redis"
-    description: |
-      Reimplement Redis in RUby
-
-  - url: https://hassamuddin.com/blog/reg-alloc/
-    title: "A Quick Introduction to Register Allocation"
-    description: |
-
-  - url: https://blog.cloudflare.com/cloudflare-bot-management-machine-learning-and-more/
-    title: "Cloudflare Bot Management: machine learning and more"
-
-  - url: https://www.cybertec-postgresql.com/en/what-is-fillfactor-and-how-does-it-affect-postgresql-performance/
-    title: "What is fillfactor and how does it affect postgresql performance?"
-
-  - url: https://artem.krylysov.com/blog/2020/07/28/lets-build-a-full-text-search-engine/
-    title: "Let's build a Full-Text Search engine"
+#  - url: https://redis.pjam.me/
+#    title: "redis"
+#    description: |
+#      Reimplement Redis in RUby
+#
+#  - url: https://hassamuddin.com/blog/reg-alloc/
+#    title: "A Quick Introduction to Register Allocation"
+#    description: |
+#
+#
+#  - url: https://artem.krylysov.com/blog/2020/07/28/lets-build-a-full-text-search-engine/
+#    title: "Let's build a Full-Text Search engine"
 
 #- url: https://blog.cloudflare.com/sandboxing-in-linux-with-zero-lines-of-code/
 #title: "Sandboxing in Linux with zero lines of code"
@@ -86,11 +96,38 @@ links:
 
 video:
   - url: https://www.youtube.com/watch?v=BsOYn1CWqBA
-    title: "High Performance PostgreSQL, Tuning and Optimization Guide - Ibrar Ahmed - PostgreSQL Tutorial"
+    title: "High Performance PostgreSQL, Tuning and Optimization Guide"
+    description: "A Talk by Ibrar Ahmed"
+
+  - url: https://www.infoq.com/presentations/number-microservices-system/
+    title: "the Correct Number of Microservices for a System Is 489"
+    description: |
+      A panel discussion by engineer of Monzo(famous for their 2000 micro services), Starling Bank, Financial Times
 
 read_code:
 #- url: https://github.com/werman/noise-suppression-for-voice
+  - url: https://github.com/go-reform/reform
+    title: reform
+    description: |
+      ORM is still an unsolve problem in Go's world. No clearn winner has been emerge like Ruby or Python. They are of course a hard problem, let's dig into the source of reform to understand more about ORM
+    category: ['Go']
 
+  - url: https://github.com/surya-veer/movement-tracking
+    title: "90 Lines of code to convert your face movement into keyboard commands"
+    description: |
+      I laugh at this. It was so easy to do yet so fun. This is root of programming, to have fun.
+    category: ['Python']
+
+  - url: https://github.com/cmur2/dyndnsd
+    title: dyndnsd
+    description: |
+      A small, lightweight and extensible DynDNS server written with Ruby and Rack.
+    category: ['Ruby']
+
+  - url: https://github.com/felixrieseberg/macintosh.js
+    title: macintosh
+    description: "This is Mac OS 8, running in an Electron app pretending to be a 1991 Macintosh Quadra. Yes, it's the full thing. I'm sorry."
+    category: ['JavaScript']
 
 tool:
   - url: https://github.com/osohq/oso
@@ -110,10 +147,18 @@ tool:
 
   - url: https://github.com/returntocorp/semgrep
     title: semgrep
-
+    description: |
+      Lightweight static analysis for many languages. Find and block bug variants with rules that look like source code.
 
   - url: https://blog.robertelder.org/regular-expression-visualizer/
-    title: "The Regular Expression Visualizer, Simulator & Cross-Compiler Tool"
+    title: "regular expression visualizer"
+    description: |
+      The Regular Expression Visualizer, Simulator & Cross-Compiler Tool
+
+  - url: 'https://fusionauth.io/landing/t-shirt?utm_campaign=Newsletter&utm_source=email&utm_medium=better-dev'
+    title: "Download FusionAuth today and get a FREE t-shirt! It doesn’t cost anything to get started!"
+    description: "FusionAuth provides authentication, authorization, and user management for any app: deploy anywhere, integrate with anything, in minutes. Download and install FusionAuth today and we'll send you a FREE t-shirt!"
+    category: ['sponsor']
 
 
 #https://github.com/redhat-performance/tuned
