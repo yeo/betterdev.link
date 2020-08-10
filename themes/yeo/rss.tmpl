@@ -30,7 +30,9 @@
             <h3 class="subtitle"><strong>Code to read</strong></h3>
             <ul>
             {{ range $key, $link := .CodeToRead }}
-              <li><a style="font-size: 1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a></li>
+              <li><a style="font-size: 1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
+                <p>{{ $link.Description  }}</p>
+              </li>
             {{ end }}
             </ul>
           {{ end }}
@@ -39,7 +41,9 @@
             <h3 class="subtitle"><strong>Tools</strong></h3>
             <ul>
             {{ range $key, $link := .Tools }}
-              <li><a style="font-size: 1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a></li>
+              <li><a style="font-size: 1rem; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
+                <p>{{ $link.Description  }}</p>
+              </li>
             {{ end }}
             </ul>
           {{ end }}{{ "]]>" | safe }}
