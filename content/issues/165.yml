@@ -1,0 +1,162 @@
+time: "Aug 18, 2020"
+subject: "How to secure anything"
+draft: true
+
+description: "Hi everyone, Welcome to issue #164. This week we got some hard lession from Capital One Breach that results in $80 million fine. We include some links to the tools that might help to prevent that."
+
+links:
+  - url: 'https://fusionauth.io/landing/t-shirt?utm_campaign=Newsletter&utm_source=email&utm_medium=better-dev'
+    title: "Download FusionAuth today and get a FREE t-shirt! It doesn’t cost anything to get started!"
+    description: "FusionAuth provides authentication, authorization, and user management for any app: deploy anywhere, integrate with anything, in minutes. Download and install FusionAuth today and we'll send you a FREE t-shirt!"
+    category: ['sponsor']
+
+  - url: https://github.com/veeral-patel/how-to-secure-anything
+    title: "How to Secure Anything"
+    description: "Security engineering is the discipline of building secure systems. Its lessons are not just applicable to computer security. In fact, in this repo, I aim to document a process for securing anything, whether it's a medieval castle, an art museum, or a computer network"
+
+  - url: https://twitter.com/kmcquade3/status/1291801858676228098
+    title: "A few thoughts on the $80 million fine from the Capital One Breach"
+    description: "It's Twitter thread so a bit hard to read but worth it. The cause is due to an AWS IAM policy `s3:GetObject` to `*` resource. IAM is trial and error, you run your app, see if it works and need what permission and grant it. Sometime you feel frustrated and just quickly do a `*` and there we go. $80 million fine. What can we do about it? This thread give some tips and guide line to improve security when working with IAM. Some tools such as [police sentry](https://github.com/salesforce/policy_sentry/) to review IAM, or [Netflix's repokid](https://github.com/Netflix/repokid) to automatically revoking unused IAM permission."
+
+  - url: https://www.openshift.com/blog/about-the-quay.io-outage-post-mortem
+    title: "About the Quay.io Outage: Post Mortem"
+    description: "quay.io is a docker registry and went down on May 19th. The root cause is a storm of tens of thousands of database connection that locking MySQL instance. Reading these post motern help level up your debugging skill because it's the hard lesson from these teams."
+
+  - url: https://www.dropbox.com/s/g40kvbyxqhn4h72/fbr.pdf
+    title: "Zero downtime release: disruption free Load Balancing of a Multi-Billion User Website"
+    description: "This link is a PDF on dropbox so it can be a bit hard to read online or on mobile. It outlines how facebook leverage  the end-to-end networking infrastructure to prevent or mask any disruptions in face of releases."
+
+  - url: https://frankforce.com/?p=7617#pianostory
+    title: "1Keys – How To Made a Piano in only 1kb of JavaScript"
+    description: |
+      This project won first place in JS1024. It made use of Web Audio API to make a piano all in 1024 bytes. We will go over every single line of code together with tips and tricks to achieve that.
+
+  - url: https://redfin.engineering/node-modules-at-war-why-commonjs-and-es-modules-cant-get-along-9617135eeca1
+    title: "Node Modules at War: Why CommonJS and ES Modules Can’t Get Along"
+    description: "It's very important to get this right now in Node 14. here are now two kinds of scripts: there are old-style CommonJS (CJS) scripts and new-style ESM scripts (aka MJS). CJS scripts use require() and exports; ESM scripts use import and export. ESM and CJS are completely different animals."
+
+  - url: https://robertovitillo.com/what-every-developer-should-know-about-consistency/
+    title: "What every developer should know about consistency"
+    description: |
+      Imagine assigning some value to a variable, reading it back immediately after, and finding out that somehow the write had no effect at all - madness! Whether an update becomes visible sooner rather than later depends on the guarantees offered by the database.
+
+  - url: https://cloud.google.com/blog/products/g-suite/keeping-google-meet-ahead-of-usage-demand-during-covid-19
+    title: "Three months, 30x demand: How we scaled Google Meet during COVID-19"
+    description: "Title says it all. COVID-19 increase demand for video chat system. And video streaming require bandwidth and cpu/gpu to decode data from camera stream."
+
+  - url: https://blog.jooq.org/2020/08/05/use-natural-full-join-to-compare-two-tables-in-sql/
+    title: "Use NATURAL FULL JOIN to compare two tables in SQL"
+    description: |
+      Compare two tables in great way to verify something like ETL job, backup, replication. The normal method is `table1 - table2 union table2 - table1` but that fetch each tables 2 times? How can we do that with a single fetch per table?
+
+  - url: https://www.remembertheusers.com/2020/07/0668-terminating-a-frozen-ssh-session.html
+    title: "Terminating a Frozen SSH Session"
+    description: |
+      Have feel frustrated because you have a SSH session that disconnect/timeout somehow when returning to your laptop? Most of the time I ended up just close my terminal. But it has a way to do that properly. Basically, to force terminate a frozen SSH session, press `~` then `.`. Note that when press `~` nothing will show up on terminal though.
+
+#  - url: https://redis.pjam.me/
+#    title: "Reimplement Redis in Ruby"
+#    description: |
+#https://ptx2.net/posts/unbricking-a-bike-with-a-raspberry-pi/
+#  - url: https://hassamuddin.com/blog/reg-alloc/
+#    title: "A Quick Introduction to Register Allocation"
+#    description: |
+#
+#https://teachyourselfcs.com/
+#  https://opensource.com/article/20/6/linux-noatime
+#http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html
+#  - url: https://github.com/EmilHernvall/dnsguide
+#    title: "A guide to writing a DNS Server from scratch in Rust"
+#    description: |
+#      Writing DNS server is like hello world for networking to me. DNS is small enough, not massive like HTTP, also relying on UDP, so I think it's a good exercise to learn UDP, DNS protocol.
+#      This artcile is focus on Rust, and I'm not a Rust programmer, only toy with Rust and I was able to follow it.
+#
+#  - url: https://csswizardry.com/2020/05/the-fastest-google-fonts/
+#    title: "The Fastest Google Fonts"
+#
+#    https://www.gutenberg.org/files/30688/30688-h/30688-h.htm
+#
+#    https://thorsten-hans.com/5-types-of-zsh-aliases#operating-system-specific-aliases
+# https://github.com/LisaDziuba/Marketing-for-Engineers
+#https://pragmaticwebsecurity.com/articles/oauthoidc/from-implicit-to-pkce.html
+
+video:
+  - url: https://www.infoq.com/presentations/yahoo-operating-scale/
+    title: "Operating Pivotal Application Service at Scale"
+
+  - url: https://www.youtube.com/watch?v=9OHNejqXOoo
+    title: "TechExplorers: Kelsey Hightower"
+    description: |
+      A talk between Gitlab CEO and Kelsey Hightower of K8S legendary to discuss about Kubernetes, Serverless and computing.
+
+read_code:
+  - url: https://github.com/daybrush/moveable
+    title: moveable
+    description: |
+      A Library to Make Elements Easier to Manipulate: drag, drop, resize, pinch, roundable etc.
+    category: ['JavaScript']
+
+  - url: https://github.com/apoorv-mishra/moment-guess
+    title: moment-guess
+    description: "A utility package for guessing date's format"
+    category: ['JavaScript']
+
+  #- url: https://jamiebuilds.github.io/tinykeys/
+  #title: tinykeys
+
+  - url: https://github.com/stefankroes/ancestry
+    title: ancestry
+    description: |
+      a gem that allows the records of a Ruby on Rails ActiveRecord model to be organised as a tree structure (or hierarchy)
+    category: ['Ruby']
+
+  - url: https://github.com/liquidata-inc/go-mysql-server/
+    title: go-mysql-server
+    description: |
+      A cool project where it implement MySQL protocol and syntax so we can use it to parse SQL and executes queries on your own data sources. A simple in-memory database and table impelemtation are provided. If you works with thing like SphinxSearch, you know you can leverage these kind of library to basically avoid writing client since you can just use the normal `mysql` client.
+    category: ['Go']
+
+
+tool:
+  - url: https://github.com/nestybox/sysbox
+    title: sysbox
+    description: |
+      an open-source container runtime (aka runc), originally developed by Nestybox, that enables Docker containers to act as virtual servers capable of running software such as Systemd, Docker, and Kubernetes in them, easily and with proper isolation
+
+  - url: https://github.com/salesforce/policy_sentry
+    title: policy_sentry
+    description: |
+      IAM Least Privilege Policy Generator.
+
+  - url: https://github.com/duo-labs/parliament
+    title: parliament
+    description: |
+      an AWS IAM linting library. It reviews policies looking for problems such as: malformed json, bad polici patterns
+
+  - url: https://github.com/Netflix/repokid
+    title: repokid
+    description: |
+      Set up your script and run it and the tool determines the minimum set of permissions needed for future runs. You lock that permission set in for future runs.
+      Netflix has a [companion post](https://netflixtechblog.com/introducing-aardvark-and-repokid-53b081bf3a7e)
+
+
+  - url: https://systemuicons.com/
+    title: systemuicons
+    description: |
+      Icon that you can use however you want, without attribution
+
+  - url: https://github.com/jesseduffield/lazydocker
+    title: lazydocker
+    description:  A simple terminal UI for both docker and docker-compose, written in Go with the gocui library.
+
+  - url: https://github.com/redhat-performance/tuned
+    title: tuned
+    description: |
+      Daemon for monitoring and adaptive tuning of system devices.
+
+  - url: https://datasette.readthedocs.io/en/stable/
+    title: "datasette"
+    description: |
+      a tool for exploring and publishing data. It helps people take data of any shape or size and publish that as an interactive, explorable website and accompanying API.
+
+# https://github.com/theforeman/foreman
