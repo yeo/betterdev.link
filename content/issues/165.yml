@@ -1,62 +1,63 @@
 time: "Aug 18, 2020"
-subject: "How to secure anything"
+subject: "How to build a custom keyboard"
 draft: true
 
-description: "Hi everyone, Welcome to issue #164. This week we got some hard lession from Capital One Breach that results in $80 million fine. We include some links to the tools that might help to prevent that."
+description: "Hi everyone, Welcome to issue #165. Covid-19 may gives us more time, especially for one have no kids yet :-), so this week I include a link on how to build your own keyboard. Maybe a good hack to leverage some off time during Covid-19."
 
 links:
-  - url: 'https://fusionauth.io/landing/t-shirt?utm_campaign=Newsletter&utm_source=email&utm_medium=better-dev'
-    title: "Download FusionAuth today and get a FREE t-shirt! It doesn’t cost anything to get started!"
-    description: "FusionAuth provides authentication, authorization, and user management for any app: deploy anywhere, integrate with anything, in minutes. Download and install FusionAuth today and we'll send you a FREE t-shirt!"
-    category: ['sponsor']
-
-  - url: https://github.com/veeral-patel/how-to-secure-anything
-    title: "How to Secure Anything"
-    description: "Security engineering is the discipline of building secure systems. Its lessons are not just applicable to computer security. In fact, in this repo, I aim to document a process for securing anything, whether it's a medieval castle, an art museum, or a computer network"
-
-  - url: https://twitter.com/kmcquade3/status/1291801858676228098
-    title: "A few thoughts on the $80 million fine from the Capital One Breach"
-    description: "It's Twitter thread so a bit hard to read but worth it. The cause is due to an AWS IAM policy `s3:GetObject` to `*` resource. IAM is trial and error, you run your app, see if it works and need what permission and grant it. Sometime you feel frustrated and just quickly do a `*` and there we go. $80 million fine. What can we do about it? This thread give some tips and guide line to improve security when working with IAM. Some tools such as [police sentry](https://github.com/salesforce/policy_sentry/) to review IAM, or [Netflix's repokid](https://github.com/Netflix/repokid) to automatically revoking unused IAM permission."
-
-  - url: https://www.openshift.com/blog/about-the-quay.io-outage-post-mortem
-    title: "About the Quay.io Outage: Post Mortem"
-    description: "quay.io is a docker registry and went down on May 19th. The root cause is a storm of tens of thousands of database connection that locking MySQL instance. Reading these post motern help level up your debugging skill because it's the hard lesson from these teams."
-
-  - url: https://www.dropbox.com/s/g40kvbyxqhn4h72/fbr.pdf
-    title: "Zero downtime release: disruption free Load Balancing of a Multi-Billion User Website"
-    description: "This link is a PDF on dropbox so it can be a bit hard to read online or on mobile. It outlines how facebook leverage  the end-to-end networking infrastructure to prevent or mask any disruptions in face of releases."
-
-  - url: https://frankforce.com/?p=7617#pianostory
-    title: "1Keys – How To Made a Piano in only 1kb of JavaScript"
+  - url: https://matt3o.com/book/
+    title: "How to build a custom keyboard"
     description: |
-      This project won first place in JS1024. It made use of Web Audio API to make a piano all in 1024 bytes. We will go over every single line of code together with tips and tricks to achieve that.
+      The more I used the computer, the more I realize we all have different workflow and habit, yet I used a pre-built keyboard. I know Chefs that like to have their own custom build knives, I would like to build my own keyborad, custom to what I need, write my own firmware for it. This is a serie with 5 articles.
 
-  - url: https://redfin.engineering/node-modules-at-war-why-commonjs-and-es-modules-cant-get-along-9617135eeca1
-    title: "Node Modules at War: Why CommonJS and ES Modules Can’t Get Along"
-    description: "It's very important to get this right now in Node 14. here are now two kinds of scripts: there are old-style CommonJS (CJS) scripts and new-style ESM scripts (aka MJS). CJS scripts use require() and exports; ESM scripts use import and export. ESM and CJS are completely different animals."
-
-  - url: https://robertovitillo.com/what-every-developer-should-know-about-consistency/
-    title: "What every developer should know about consistency"
+  - url: https://hot3eed.github.io/2020/07/30/starling_p1_obfuscations.html
+    title: "Reverse Engineering Starling Bank"
     description: |
-      Imagine assigning some value to a variable, reading it back immediately after, and finding out that somehow the write had no effect at all - madness! Whether an update becomes visible sooner rather than later depends on the guarantees offered by the database.
+      A serie about
 
-  - url: https://cloud.google.com/blog/products/g-suite/keeping-google-meet-ahead-of-usage-demand-during-covid-19
-    title: "Three months, 30x demand: How we scaled Google Meet during COVID-19"
-    description: "Title says it all. COVID-19 increase demand for video chat system. And video streaming require bandwidth and cpu/gpu to decode data from camera stream."
 
-  - url: https://blog.jooq.org/2020/08/05/use-natural-full-join-to-compare-two-tables-in-sql/
-    title: "Use NATURAL FULL JOIN to compare two tables in SQL"
+  - url: https://phabricator.wikimedia.org/phame/post/view/190/internal_anycast/
+    title: "Internal anycast at wikimedia"
     description: |
-      Compare two tables in great way to verify something like ETL job, backup, replication. The normal method is `table1 - table2 union table2 - table1` but that fetch each tables 2 times? How can we do that with a single fetch per table?
+      There is no doubt WikiMedia receives a massive amount of traffic. The awesome of making change and see it reflect immediately at that scale are amazing.
 
-  - url: https://www.remembertheusers.com/2020/07/0668-terminating-a-frozen-ssh-session.html
-    title: "Terminating a Frozen SSH Session"
+  - url: https://aatishb.com/entropy/
+    title: Entropy Explained, With Sheep
     description: |
-      Have feel frustrated because you have a SSH session that disconnect/timeout somehow when returning to your laptop? Most of the time I ended up just close my terminal. But it has a way to do that properly. Basically, to force terminate a frozen SSH session, press `~` then `.`. Note that when press `~` nothing will show up on terminal though.
+      Sometime on Linux when you are generating password, it said something like generating entropy, or not enough entropy. Entropy is a key of randomess. In this we will learn about them
+      from a different angel, using sheep to help visualize them for easily understanding.
 
-#  - url: https://redis.pjam.me/
-#    title: "Reimplement Redis in Ruby"
-#    description: |
+  - url: https://www.compose.com/articles/faster-performance-with-unlogged-tables-in-postgresql/
+    title: "Faster Performance with Unlogged Tables in PostgreSQL"
+    description: |
+      Time to time I want to have a table with fast write and I'm ok if I lost data of that table, I don't want it to be corrupted(such as violation constraint) but losing data of that table
+      if database is restarted is ok, then unlogger table is an option. It skips write ahead log.
+
+  - url: https://www.cybertec-postgresql.com/en/a-quick-pg_stat_statements-troubleshooting-hack/
+    title: "A quick pg_stat_statements troubleshooting hack"
+    description: |
+      What would you do when you cannot install a Postgres monitoring system such as pghero or pgwatch2 to collect metric for performance debugging. This articile is about a quick hack that create a temp table and set up a periodically job to get metric from `pg_stat_statements` and insert into that table. Then analyzing that tabel to find slow query
+  - url: https://www.amazon.science/latest-news/machine-learning-course-free-online-from-amazon-machine-learning-university
+    title: "Amazon's Machine Learning University is making its online courses available to the public"
+    description: |
+      As a DevOps engineer I usually scare of ML and treat it as a blackbox. But it doens't have to be that way. At the end of day, I'm an engineer and should be able to learn it.
+      These class previouslous only available to Amazon employess will now available to the community
+
+  - url: https://kunststube.net/encoding/
+    title: Know About Encodings And Character Sets To Work With Text
+    description: |
+      If you are dealing with text in a computer, you need to know about encodings. In a world where UTF-8 is everywhere, understand that string is an array of bit is important. How it appears on screen or deserialize are depend on a few layer of abstraction.
+
+  - url: https://fedoramagazine.org/tcp-window-scaling-timestamps-and-sack/
+    title: "TCP window scaling, timestamps and SACK"
+    description: |
+      The Linux TCP stack has a myriad of sysctl knobs that allow to change its behavior.  This includes the amount of memory that can be used for receive or transmit operations, the maximum number of sockets and optional features and protocol extensions.
+
+  - url: https://disc-projects.bu.edu/lethe/
+    title: "lethe: a tunnable delete-aware LSM engine"
+    description: |
+
+
 #https://ptx2.net/posts/unbricking-a-bike-with-a-raspberry-pi/
 #  - url: https://hassamuddin.com/blog/reg-alloc/
 #    title: "A Quick Introduction to Register Allocation"
@@ -81,82 +82,75 @@ links:
 #https://pragmaticwebsecurity.com/articles/oauthoidc/from-implicit-to-pkce.html
 
 video:
-  - url: https://www.infoq.com/presentations/yahoo-operating-scale/
-    title: "Operating Pivotal Application Service at Scale"
+  - url: https://www.twitch.tv/videos/709079582?t=00h01m01s
+    title: "DevNation Tech Talk: 10 awesome Kubernetes tools every user should know"
 
-  - url: https://www.youtube.com/watch?v=9OHNejqXOoo
-    title: "TechExplorers: Kelsey Hightower"
-    description: |
-      A talk between Gitlab CEO and Kelsey Hightower of K8S legendary to discuss about Kubernetes, Serverless and computing.
 
 read_code:
-  - url: https://github.com/daybrush/moveable
-    title: moveable
+  - url: https://github.com/facebook/pyre-check/
+    title: Pysa
     description: |
-      A Library to Make Elements Easier to Manipulate: drag, drop, resize, pinch, roundable etc.
-    category: ['JavaScript']
+      an open source static analysis tool we’ve built to detect and prevent security and privacy issues in Python code. Read the [companion post](https://engineering.fb.com/security/pysa/)
+    category: ['Python']
 
-  - url: https://github.com/apoorv-mishra/moment-guess
-    title: moment-guess
-    description: "A utility package for guessing date's format"
-    category: ['JavaScript']
-
-  #- url: https://jamiebuilds.github.io/tinykeys/
-  #title: tinykeys
-
-  - url: https://github.com/stefankroes/ancestry
-    title: ancestry
+  - url: https://github.com/twilco/kosmonaut
+    title: kosmonaut
     description: |
-      a gem that allows the records of a Ruby on Rails ActiveRecord model to be organised as a tree structure (or hierarchy)
+      A web browser for the space age 🚀. Of course I'm not going to use it on my daily web usage, but I would peek to see how this can be done given its current state is still small enough for me to understand
+    category: ['Rust']
+
+  - url: https://redis.pjam.me/
+    title: "Reimplement Redis in Ruby"
+    description: |
+      This website is a free, “online book” about attempting to rewrite Redis™* in Ruby. It has 5 chapters righ now. You will learn how to implement a TCP servers, understand Redis protocol so I say that is a lot to learn and super helpful
     category: ['Ruby']
 
-  - url: https://github.com/liquidata-inc/go-mysql-server/
-    title: go-mysql-server
+  - url: https://github.com/codenotary/immudb
+    title: immudb
     description: |
-      A cool project where it implement MySQL protocol and syntax so we can use it to parse SQL and executes queries on your own data sources. A simple in-memory database and table impelemtation are provided. If you works with thing like SphinxSearch, you know you can leverage these kind of library to basically avoid writing client since you can just use the normal `mysql` client.
+       lightweight, high-speed immutable database for systems and applications. you can track changes in sensitive data in your transactional databases and then record those changes permanently in a tamperproof immudb database. This allows you to keep an indelible history of sensitive data, for example debit/credit card transactions
     category: ['Go']
 
 
 tool:
-  - url: https://github.com/nestybox/sysbox
-    title: sysbox
+  - url: https://github.com/augmentable-dev/askgit
+    title: askgit
     description: |
-      an open-source container runtime (aka runc), originally developed by Nestybox, that enables Docker containers to act as virtual servers capable of running software such as Systemd, Docker, and Kubernetes in them, easily and with proper isolation
+      Give you a SQL interface to your Git repository. You can query lots of interesting thing about your Git repo using SQL you known.
 
-  - url: https://github.com/salesforce/policy_sentry
-    title: policy_sentry
+  - url: https://github.com/agroal/pgagroal
+    title: pgagroal
     description: |
-      IAM Least Privilege Policy Generator.
+      a high-performance protocol-native connection pool for PostgreSQL.
 
-  - url: https://github.com/duo-labs/parliament
-    title: parliament
+  - url: https://github.com/major/MySQLTuner-perl
+    title: MySQLTuner
     description: |
-      an AWS IAM linting library. It reviews policies looking for problems such as: malformed json, bad polici patterns
+       a script written in Perl that allows you to review a MySQL installation quickly and make adjustments to increase performance and stability.
 
-  - url: https://github.com/Netflix/repokid
-    title: repokid
+  - url: https://github.com/mattiabasone/tuning-primer
+    title: MySQL tuning primer
     description: |
-      Set up your script and run it and the tool determines the minimum set of permissions needed for future runs. You lock that permission set in for future runs.
-      Netflix has a [companion post](https://netflixtechblog.com/introducing-aardvark-and-repokid-53b081bf3a7e)
+      Yet another MySQL performance tuning primer script
 
-
-  - url: https://systemuicons.com/
-    title: systemuicons
+  - url: https://github.com/ksensehq/eventnative
+    title: eventnative
     description: |
-      Icon that you can use however you want, without attribution
+      an open source, high-performance, event collection service. Capture all events your application generates and stream to your preferred Data Warehouse with current support for RedShift and BigQuery. Support one click deploy to Heroku
 
-  - url: https://github.com/jesseduffield/lazydocker
-    title: lazydocker
-    description:  A simple terminal UI for both docker and docker-compose, written in Go with the gocui library.
-
-  - url: https://github.com/redhat-performance/tuned
-    title: tuned
+  - url: https://qmk.fm/
+    title: qmk
     description: |
-      Daemon for monitoring and adaptive tuning of system devices.
+      a keyboard firmware. Useful if you like to build DIY keyboard. I'm recently making one for my wife and love it
 
-  - url: https://datasette.readthedocs.io/en/stable/
-    title: "datasette"
+  - url: https://github.com/trailofbits/sinter
+    title: sinter
+
+  - url: https://github.com/jesseduffield/horcrux
+    title: horcrux
+    description: "Split your file into encrypted horcruxes so that you don't need to remember a passcode"
+
+  - url: https://github.com/theforeman/foreman
+    titl: foreman
     description: |
-      a tool for exploring and publishing data. It helps people take data of any shape or size and publish that as an interactive, explorable website and accompanying API.
-
-# https://github.com/theforeman/foreman
+      an application that automates the lifecycle of servers
