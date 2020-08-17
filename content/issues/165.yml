@@ -1,6 +1,6 @@
 time: "Aug 18, 2020"
 subject: "How to build a custom keyboard"
-draft: true
+draft: false
 
 description: "Hi everyone, Welcome to issue #165. Covid-19 may gives us more time, especially for one have no kids yet :-), so this week I include a link on how to build your own keyboard. Maybe a good hack to leverage some off time during Covid-19."
 
@@ -10,16 +10,16 @@ links:
     description: |
       The more I used the computer, the more I realize we all have different workflow and habit, yet I used a pre-built keyboard. I know Chefs that like to have their own custom build knives, I would like to build my own keyborad, custom to what I need, write my own firmware for it. This is a serie with 5 articles.
 
-  - url: https://hot3eed.github.io/2020/07/30/starling_p1_obfuscations.html
-    title: "Reverse Engineering Starling Bank"
+  - url: https://www.datascienceatthecommandline.com/1e/index.html
+    title: "Data Science at the Command Line"
     description: |
-      A serie about
+      This is the website for Data Science at the Command Line, published by O’Reilly October 2014 First Edition. This hands-on guide demonstrates how the flexibility of the command line can help you become a more efficient and productive data scientist. You’ll learn how to combine small, yet powerful, command-line tools to quickly obtain, scrub, explore, and model your data.
 
-
-  - url: https://phabricator.wikimedia.org/phame/post/view/190/internal_anycast/
-    title: "Internal anycast at wikimedia"
+  - url: https://martinfowler.com/articles/patterns-of-distributed-systems
+    title: "Patterns of Distributed Systems"
     description: |
-      There is no doubt WikiMedia receives a massive amount of traffic. The awesome of making change and see it reflect immediately at that scale are amazing.
+      Distributed systems provide a particular challenge to program. They often require us to have multiple copies of data, which need to keep synchronized.
+      This article recognizes and develops these solutions as patterns, with which we can build up an understanding of how to better understand, communicate and teach distributed system design.
 
   - url: https://aatishb.com/entropy/
     title: Entropy Explained, With Sheep
@@ -33,10 +33,12 @@ links:
       Time to time I want to have a table with fast write and I'm ok if I lost data of that table, I don't want it to be corrupted(such as violation constraint) but losing data of that table
       if database is restarted is ok, then unlogger table is an option. It skips write ahead log.
 
-  - url: https://www.cybertec-postgresql.com/en/a-quick-pg_stat_statements-troubleshooting-hack/
-    title: "A quick pg_stat_statements troubleshooting hack"
+  - url: https://phabricator.wikimedia.org/phame/post/view/190/internal_anycast/
+    title: "Internal anycast at wikimedia"
     description: |
-      What would you do when you cannot install a Postgres monitoring system such as pghero or pgwatch2 to collect metric for performance debugging. This articile is about a quick hack that create a temp table and set up a periodically job to get metric from `pg_stat_statements` and insert into that table. Then analyzing that tabel to find slow query
+      There is no doubt WikiMedia receives a massive amount of traffic. The awesome of making change and see it reflect immediately at that scale are amazing.
+      This article describe two major changes to their infrastructure. Firstly, servers that used to be fronted by LVS for load balancing are now peering directly with our routers. Secondly, we have started using IP anycast for a highly critical service: recursive DNS.
+
   - url: https://www.amazon.science/latest-news/machine-learning-course-free-online-from-amazon-machine-learning-university
     title: "Amazon's Machine Learning University is making its online courses available to the public"
     description: |
@@ -53,11 +55,21 @@ links:
     description: |
       The Linux TCP stack has a myriad of sysctl knobs that allow to change its behavior.  This includes the amount of memory that can be used for receive or transmit operations, the maximum number of sockets and optional features and protocol extensions.
 
+  - url: http://rachelbythebay.com/w/2020/08/11/files/
+    title: "File handling in Unix: tips, traps and outright badness"
+    description: |
+      What happen if multiple process write to a same file at a time? How does Linux manage those write? 
+
   - url: https://disc-projects.bu.edu/lethe/
     title: "lethe: a tunnable delete-aware LSM engine"
     description: |
+      LSM is famous for MyRock, LevelDB, Cassandra. LSM-trees write the incoming key-value entries in an in-memory buffer to ensure high write throughput, and uses in-memory auxiliary data structures (such as Bloom filters and fence pointers) to provide competitive read performance. While LSMs are great for writes and reads in general, we show that all state-of-the-art LSM-based data stores perform suboptimally in presence deletes in a workload
 
 
+#  - url: https://www.cybertec-postgresql.com/en/a-quick-pg_stat_statements-troubleshooting-hack/
+#    title: "A quick pg_stat_statements troubleshooting hack"
+#    description: |
+#      What would you do when you cannot install a Postgres monitoring system such as pghero or pgwatch2 to collect metric for performance debugging. This articile is about a quick hack that create a temp table and set up a periodically job to get metric from `pg_stat_statements` and insert into that table. Then analyzing that tabel to find slow query
 #https://ptx2.net/posts/unbricking-a-bike-with-a-raspberry-pi/
 #  - url: https://hassamuddin.com/blog/reg-alloc/
 #    title: "A Quick Introduction to Register Allocation"
@@ -93,6 +105,12 @@ read_code:
       an open source static analysis tool we’ve built to detect and prevent security and privacy issues in Python code. Read the [companion post](https://engineering.fb.com/security/pysa/)
     category: ['Python']
 
+  - url: https://github.com/Byron/gitoxide
+    title: gitoxide
+    description: |
+      Implementation of `git` cli(not the server part) in Rust. It's written to optimize the user-experience, and perform as good or better than the canonical implementation(which is C)
+    category: ['Rust']
+
   - url: https://github.com/twilco/kosmonaut
     title: kosmonaut
     description: |
@@ -123,6 +141,11 @@ tool:
     description: |
       a high-performance protocol-native connection pool for PostgreSQL.
 
+  - url: https://github.com/okbob/plpgsql_check
+    title: plpgsql_check
+    description: |
+      a linter tool for language PL/pgSQL (native language for PostgreSQL store procedures).
+
   - url: https://github.com/major/MySQLTuner-perl
     title: MySQLTuner
     description: |
@@ -141,7 +164,7 @@ tool:
   - url: https://qmk.fm/
     title: qmk
     description: |
-      a keyboard firmware. Useful if you like to build DIY keyboard. I'm recently making one for my wife and love it
+      a keyboard firmware. Useful if you like to build DIY keyboard.
 
   - url: https://github.com/trailofbits/sinter
     title: sinter
