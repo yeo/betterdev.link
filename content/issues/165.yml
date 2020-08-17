@@ -174,6 +174,6 @@ tool:
     description: "Split your file into encrypted horcruxes so that you don't need to remember a passcode"
 
   - url: https://github.com/theforeman/foreman
-    titl: foreman
+    title: foreman
     description: |
       an application that automates the lifecycle of servers
