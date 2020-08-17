@@ -166,8 +166,8 @@ tool:
     description: |
       a keyboard firmware. Useful if you like to build DIY keyboard.
 
-  - url: https://github.com/trailofbits/sinter
-    title: sinter
+#  - url: https://github.com/trailofbits/sinter
+#title: sinter
 
   - url: https://github.com/jesseduffield/horcrux
     title: horcrux
