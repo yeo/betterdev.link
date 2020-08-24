@@ -2,14 +2,14 @@ time: "Aug 24, 2020"
 subject: "Building resilient services at Prime Video with chaos engineering"
 draft: false
 
-description: "Hi everyone, Welcome to issue #166. Let's get straigh to our links this time"
+description: "Hi everyone, Welcome to issue #166. Let's get straight to our links this time"
 
 links:
   - url: https://aws.amazon.com/blogs/opensource/building-resilient-services-at-prime-video-with-chaos-engineering/
     title: "Building resilient services at Prime Video with chaos engineering"
     description: |
       Large-scale distributed software systems are composed of several individual sub-systems—such as CDNs, load balancers, and databases—and their interactions
-      Chaos engineering introduce random failure in the system to help uncovering  unforeseen turbulent events and find ways to deal with them.
+      Chaos engineering introduce random failure in the system to uncover unforeseen turbulent events and find ways to deal with them.
       In this post, Prime Video presents a simple approach for fault injection in systems utilizing EC2 and ECS, and its integration with a load-testing suite to validate the countermeasures put in place to prevent dependency and resource exhaustion failures.
 
   - url: https://klotzandrew.com/blog/quickly-debugging-postgres-problems
@@ -20,7 +20,7 @@ links:
   - url: https://build.affinity.co/how-we-used-postgres-extended-statistics-to-achieve-a-3000x-speedup-ea93d3dcdc61
     title: "Used Postgres extended statistics to achieve a 3000x speedup"
     description: |
-      A query tooks 2 mins to run now can complete in 42ms. Big number, big claim, take it with a grain of salt and put it into its context. The primary action is to hint Postgres Query Planner to take a different path instead of the default generated planner which is slow in this particular query. The lesson learned is that you need to monitor slow query and see if it has a more efficent path.
+       A query took 2 mins to run now can complete in 42ms. A big number, big claim, take it with a grain of salt and put it into its context. The primary action is to hint Postgres Query Planner to take a different path instead of the default generated planner which is slow in this particular query. The lesson learned is that you need to monitor slow queries and see if it has a more efficient path.
 
   - url: https://www.brianstorti.com/swim/
     title: "SWIM: The scalable membership protocol"
@@ -31,19 +31,17 @@ links:
   - url: https://tailscale.com/blog/how-nat-traversal-works/
     title: "How NAT traversal works"
     description: |
-      NAT is used widely in home networks, or Cloud VPC(AWS, GCP, Azure) and many network deployments. Because we cannot have a public reachable IP for every devices so all devices share a single IP address and rely on the router to translate the internet package back to the right device. So how do we establish a peer-to-peer connection between two machines that sit behind NATs?
+      NAT is used widely in home networks, or Cloud VPC(AWS, GCP, Azure) and many network deployments. Because we cannot have a public reachable IP for every device so all devices share a single IP address and rely on the router to translate the internet package back to the right device. So how do we establish a peer-to-peer connection between two machines that sit behind NATs?
 
   - url: https://offensi.com/2020/08/18/how-to-contact-google-sre-dropping-a-shell-in-cloud-sql/
     title: "How to contact Google SRE: Dropping a shell in cloud SQL"
     description: |
-      Using a bunch of GCP Cloud SQL vulnerables to run a reverse shell. Writing file to `/mysql/tmp` via a SQL injection issue, create custom plugin blob to run reverse shell.
-      The interesting fact is how they get escape out of container that run reverse shell by sniff metadata endpoint traffic and spoof response to include their SSH keys.
-      This post just convinced me that we should use TLS everywhere no matter how lock down a network is.
+      Using a bunch of GCP Cloud SQL vulnerable to run a reverse shell. Writing file to `/mysql/tmp` via a SQL injection issue, create custom plugin blob to run a reverse shell. The interesting fact is how they get escape out of the container that runs reverse shell by sniff metadata endpoint traffic and spoof response to include their SSH keys. This post just convinced me that we should use TLS everywhere no matter how locked down a network is.
 
   - url: https://engineering.shopify.com/blogs/engineering/how-shopify-reduced-storefront-response-times-rewrite
     title: "How Shopify Reduced Storefront Response Times with a Rewrite"
     description: |
-      Shopify is huge and they are pushing the edge of technologies, especiall Ruby/Rails. They are still strongly emphasize on monolith. In this post, they outline the process of rewrite the store front, which is built based on Liquid theme. As always, the key to performance is handcrafted SQL statement, carefully avoid N+1 queries, caching. The interesting part is before building new thing, they create a verifier mechanism. This mechanism compares the output of both implementation to make sure both systems behave identically.
+      Shopify is huge and they are pushing the edge of technologies, especially Ruby/Rails. They still strongly emphasize on monolith. In this post, they outline the process of rewrite the storefront, which is built based on Liquid theme. As always, the key to performance is handcrafted SQL statement, carefully avoid N+1 queries, caching. The interesting part is before building the new thing, they create a verifier mechanism. This mechanism compares the output of both implementations to make sure both systems behave identically.
 
   - url: https://github.com/madd86/awesome-system-design
     title: awesome-system-design
@@ -52,22 +50,20 @@ links:
   - url: http://web.engr.oregonstate.edu/~rosulekm/crypto/
     title: "The Joy of Cryptography"
     description: |
-      a textbook that author has been writing for CS427, their undergraduate course in cryptography.
-      It's free and is supported by the Oregon State University open textbook initiative. It has 120 excercieses.
-      You can [download the draft pdf](http://web.engr.oregonstate.edu/~rosulekm/crypto/crypto.pdf). It's a bit math heavy but very close to what we used daily: padding, secret shairing, MAC, RSA, Digital Signatures.
+      a textbook that the author has been writing for CS427, their undergraduate course in cryptography.
+      It's free and is supported by the Oregon State University open textbook initiative. It has 120 exercises.
+      You can [download the draft pdf](http://web.engr.oregonstate.edu/~rosulekm/crypto/crypto.pdf). It's a bit math heavy but very close to what we used daily: padding, secret sharing, MAC, RSA, Digital Signatures.
 
   - url: https://exploringjs.com/deep-js/toc.html
     title: Deep JavaScript
     description: |
-      A really great book(also free to read online) to dicuss core/fundamental concepts of JavaScript such as global variable, shared mutable state, exloring promise.
-      It's written by the legacy author Dr. Axel Rauschmayer. You don't need to read whole books but can focus on a few aspect you care about to improve your JS knowledge. Everyone has to write JavaScript at some points nowsaday.
+      A really great book(also free to read online) to discuss core/fundamental concepts of JavaScript such as global variable, shared mutable state, exploring promise. It’s written by the legacy author Dr. Axel Rauschmayer. You don’t need to read whole books but can focus on a few aspects you care about to improve your JS knowledge. Everyone has to write JavaScript at some points nowadays.
 
   - url: https://blog.kevinjahns.de/are-crdts-suitable-for-shared-editing/
     title: "Are CRDTs suitable for shared editing?"
     description: |
-      Common editing platforms like Google Docs, Zoho Writer, CKeditor, ProseMirror, Quill, CodeMirror - all of these work with OTs instead of CRDT for collaborative editing. The [hacker news discussion](https://news.ycombinator.com/item?id=24176455) is great to.
-
-
+      CRDTs are often praised as the "holy grail" for building collaborative applications because they don't require a central authority to resolve sync conflicts.
+      The answer is yes in this article, but note that common editing platforms like Google Docs, Zoho Writer, CKeditor, ProseMirror, Quill, CodeMirror - all of these work with OTs instead of CRDT for collaborative editing. The [hacker news discussion](https://news.ycombinator.com/item?id=24176455) is interesting as well. The xi-editor creator also thinks [CRDT didn't work out as well for it](https://github.com/xi-editor/xi-editor/issues/1187#issuecomment-491473599)
 
 
 #  - url: https://people.kernel.org/linusw/how-the-arm32-linux-kernel-decompresses
