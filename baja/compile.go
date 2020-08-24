@@ -151,7 +151,6 @@ func createIssues(page Page) {
 	}
 
 	var publicableIssue Issues
-	//for _, issue := range page.Issues {
 	for i := len(page.Issues) - 1; i >= 0; i-- {
 		issue := page.Issues[i]
 		if issue.Draft == false {
