@@ -63,7 +63,7 @@ links:
     title: "Are CRDTs suitable for shared editing?"
     description: |
       CRDTs are often praised as the "holy grail" for building collaborative applications because they don't require a central authority to resolve sync conflicts.
-      The answer is yes in this article, but note that common editing platforms like Google Docs, Zoho Writer, CKeditor, ProseMirror, Quill, CodeMirror - all of these work with OTs instead of CRDT for collaborative editing. The [hacker news discussion](https://news.ycombinator.com/item?id=24176455) is interesting as well. The xi-editor creator also thinks [CRDT didn't work out as well for it](https://github.com/xi-editor/xi-editor/issues/1187#issuecomment-491473599)
+      The answer is yes in this article, but note that common editing platforms like Google Docs, Zoho Writer, CKeditor, ProseMirror, Quill, CodeMirror - all of these work with OTs instead of CRDT for collaborative editing. The [hacker news discussion](https://news.ycombinator.com/item?id=24176455) is interesting as well. The xi-editor creator also said [CRDT didn't work out for xe-editor either](https://github.com/xi-editor/xi-editor/issues/1187#issuecomment-491473599)
 
 
 #  - url: https://people.kernel.org/linusw/how-the-arm32-linux-kernel-decompresses
