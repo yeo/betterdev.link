@@ -1,0 +1,186 @@
+time: "Aug 24, 2020"
+subject: "Building resilient services at Prime Video with chaos engineering"
+draft: false
+
+description: "Hi everyone, Welcome to issue #166. Let's get straigh to our links this time"
+
+links:
+  - url: https://aws.amazon.com/blogs/opensource/building-resilient-services-at-prime-video-with-chaos-engineering/
+    title: "Building resilient services at Prime Video with chaos engineering"
+    description: |
+      Large-scale distributed software systems are composed of several individual sub-systems—such as CDNs, load balancers, and databases—and their interactions
+      Chaos engineering introduce random failure in the system to help uncovering  unforeseen turbulent events and find ways to deal with them.
+      In this post, Prime Video presents a simple approach for fault injection in systems utilizing EC2 and ECS, and its integration with a load-testing suite to validate the countermeasures put in place to prevent dependency and resource exhaustion failures.
+
+  - url: https://klotzandrew.com/blog/quickly-debugging-postgres-problems
+    title: "Quickly debugging Postgres problems"
+    description: |
+      Quick tips to help you narrow down problems of either slow/blocked queries, missing indexes, or disk space.
+
+  - url: https://build.affinity.co/how-we-used-postgres-extended-statistics-to-achieve-a-3000x-speedup-ea93d3dcdc61
+    title: "Used Postgres extended statistics to achieve a 3000x speedup"
+    description: |
+      A query tooks 2 mins to run now can complete in 42ms. Big number, big claim, take it with a grain of salt and put it into its context. The primary action is to hint Postgres Query Planner to take a different path instead of the default generated planner which is slow in this particular query. The lesson learned is that you need to monitor slow query and see if it has a more efficent path.
+
+  - url: https://www.brianstorti.com/swim/
+    title: "SWIM: The scalable membership protocol"
+    description: |
+      In a distributed system we have a group of nodes that need to collaborate and send messages to each other. To achieve that they need to first answer a simple question: Who are my peers?
+      A membership protocol helps each node in a system to maintain a list of nodes that are alive, notifying them when a new node joins the group, when someone intentionally leaves and when a node dies. SWIM, or Scalable Weakly-consistent Infection-style Process Group Membership Protocol, is one of these protocols.
+
+  - url: https://tailscale.com/blog/how-nat-traversal-works/
+    title: "How NAT traversal works"
+    description: |
+      NAT is used widely in home networks, or Cloud VPC(AWS, GCP, Azure) and many network deployments. Because we cannot have a public reachable IP for every devices so all devices share a single IP address and rely on the router to translate the internet package back to the right device. So how do we establish a peer-to-peer connection between two machines that sit behind NATs?
+
+  - url: https://offensi.com/2020/08/18/how-to-contact-google-sre-dropping-a-shell-in-cloud-sql/
+    title: "How to contact Google SRE: Dropping a shell in cloud SQL"
+    description: |
+      Using a bunch of GCP Cloud SQL vulnerables to run a reverse shell. Writing file to `/mysql/tmp` via a SQL injection issue, create custom plugin blob to run reverse shell.
+      The interesting fact is how they get escape out of container that run reverse shell by sniff metadata endpoint traffic and spoof response to include their SSH keys.
+      This post just convinced me that we should use TLS everywhere no matter how lock down a network is.
+
+  - url: https://engineering.shopify.com/blogs/engineering/how-shopify-reduced-storefront-response-times-rewrite
+    title: "How Shopify Reduced Storefront Response Times with a Rewrite"
+    description: |
+      Shopify is huge and they are pushing the edge of technologies, especiall Ruby/Rails. They are still strongly emphasize on monolith. In this post, they outline the process of rewrite the store front, which is built based on Liquid theme. As always, the key to performance is handcrafted SQL statement, carefully avoid N+1 queries, caching. The interesting part is before building new thing, they create a verifier mechanism. This mechanism compares the output of both implementation to make sure both systems behave identically.
+
+  - url: https://github.com/madd86/awesome-system-design
+    title: awesome-system-design
+    description: "A curated list of awesome System Designing articles, videos and resources for distributed computing, AKA Big Data.  Whether you're preparing for an interview or you want to design a distributed/microservice oriented application, this list will definitely help you achieve that."
+
+  - url: http://web.engr.oregonstate.edu/~rosulekm/crypto/
+    title: "The Joy of Cryptography"
+    description: |
+      a textbook that author has been writing for CS427, their undergraduate course in cryptography.
+      It's free and is supported by the Oregon State University open textbook initiative. It has 120 excercieses.
+      You can [download the draft pdf](http://web.engr.oregonstate.edu/~rosulekm/crypto/crypto.pdf). It's a bit math heavy but very close to what we used daily: padding, secret shairing, MAC, RSA, Digital Signatures.
+
+  - url: https://exploringjs.com/deep-js/toc.html
+    title: Deep JavaScript
+    description: |
+      A really great book(also free to read online) to dicuss core/fundamental concepts of JavaScript such as global variable, shared mutable state, exloring promise.
+      It's written by the legacy author Dr. Axel Rauschmayer. You don't need to read whole books but can focus on a few aspect you care about to improve your JS knowledge. Everyone has to write JavaScript at some points nowsaday.
+
+  - url: https://blog.kevinjahns.de/are-crdts-suitable-for-shared-editing/
+    title: "Are CRDTs suitable for shared editing?"
+    description: |
+      Common editing platforms like Google Docs, Zoho Writer, CKeditor, ProseMirror, Quill, CodeMirror - all of these work with OTs instead of CRDT for collaborative editing. The [hacker news discussion](https://news.ycombinator.com/item?id=24176455) is great to.
+
+
+
+
+#  - url: https://people.kernel.org/linusw/how-the-arm32-linux-kernel-decompresses
+#    title: "How the ARM32 Linux kernel decompresses"
+#    description: |
+#  - url: https://gpfault.net/posts/asm-tut-0.txt.html
+#    title: "Let's Learn x86-64 Assembly! Part 0 - Setup and First Steps"
+#    description: |
+#      Compilers usually do a lot of tricks to speed up our code. Time to time people looks at assembly code generated by compilers to see how the optimization is done. Use less instruction, use special instruction of CPU, inline 
+#
+# - url: https://notes.eatonphil.com/writing-a-simple-python-compiler.html
+#    title: "Writing a simple Python compiler: 1. hello, fibonacci"
+#
+#
+#  - url: https://tls13.ulfheim.net/
+#    title: "The New Illustrated TLS Connection"
+#
+#  - url: https://info.crunchydata.com/blog/avoiding-the-pitfalls-of-brin-indexes-in-postgres
+#    title: "Avoiding the Pitfalls of BRIN Indexes in Postgres"
+#
+#  - url: https://0x434b.dev/breaking-the-d-link-dir3060-firmware-encryption-recon-part-1/
+#    title: "Breaking the D-Link DIR3060 Firmware Encryption - Recon - Part 1"
+#
+#  - url: https://www.cybertec-postgresql.com/en/a-quick-pg_stat_statements-troubleshooting-hack/
+#    title: "A quick pg_stat_statements troubleshooting hack"
+#    description: |
+#      What would you do when you cannot install a Postgres monitoring system such as pghero or pgwatch2 to collect metric for performance debugging. This articile is about a quick hack that create a temp table and set up a periodically job to get metric from `pg_stat_statements` and insert into that table. Then analyzing that tabel to find slow query
+#https://ptx2.net/posts/unbricking-a-bike-with-a-raspberry-pi/
+#  - url: https://hassamuddin.com/blog/reg-alloc/
+#    title: "A Quick Introduction to Register Allocation"
+#    description: |
+#
+#https://teachyourselfcs.com/
+#  https://opensource.com/article/20/6/linux-noatime
+#http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html
+#  - url: https://github.com/EmilHernvall/dnsguide
+#    title: "A guide to writing a DNS Server from scratch in Rust"
+#    description: |
+#      Writing DNS server is like hello world for networking to me. DNS is small enough, not massive like HTTP, also relying on UDP, so I think it's a good exercise to learn UDP, DNS protocol.
+#      This artcile is focus on Rust, and I'm not a Rust programmer, only toy with Rust and I was able to follow it.
+#
+#  - url: https://csswizardry.com/2020/05/the-fastest-google-fonts/
+#    title: "The Fastest Google Fonts"
+#
+#    https://www.gutenberg.org/files/30688/30688-h/30688-h.htm
+#
+#    https://thorsten-hans.com/5-types-of-zsh-aliases#operating-system-specific-aliases
+# https://github.com/LisaDziuba/Marketing-for-Engineers
+#https://pragmaticwebsecurity.com/articles/oauthoidc/from-implicit-to-pkce.html
+
+video:
+
+
+read_code:
+  - url: https://github.com/namusyaka/gammo
+    title: gammo
+    description: |
+      A pure-Ruby HTML5 parser
+    cate: ['Ruby']
+
+  - url: https://github.com/gorakhargosh/watchdog
+    title: watchdog
+    description: |
+      API and shell utilities to monitor file system events
+    category: ['Python']
+
+  - url: https://github.com/TimeToogo/tunshell
+    title: tunshell
+    description: |
+      A Remote shell into ephemeral environments.
+    category: ['Rust']
+
+  - url: https://github.com/gruns/ImmortalDB
+    title: ImmortalDB
+    description: |
+      🔩 A relentless key-value store for the browser.
+      Data saved to ImmortalDB is redundantly stored in Cookies, IndexedDB, and LocalStorage, and relentlessly self heals if any data therein is deleted or corrupted.
+    category: ['JavaScript']
+
+  - url: https://github.com/schollz/miti#features
+    title: miti
+    description: |
+      provides a program and musical notation that you can use to easily connect and control sounds in a very human way.
+      Super useful if you want to learn how to do audio programming in Go.
+      If you want to get some background on audio processing with Go, check out this [Audio From Scratch with Go](https://dylanmeeus.github.io/posts/audio-from-scratch-pt8/) too.
+    category: ['Go']
+
+tool:
+  - url: https://github.com/zu1k/nali
+    title: nali
+    description: "An offline tool for querying IP geographic information and CDN provider."
+
+  - url: https://github.com/trailofbits/sinter
+    title: sinter
+    description: |
+      100% user-mode endpoint security agent for macOS 10.15 and above, written in Swift.
+
+  - url: https://github.com/orchest/orchest
+    title: orchest
+    description: |
+      a web based data science tool that works on top of your filesystem allowing you to use your editor of choice
+
+  - url: https://argoproj.github.io/argo/
+    title: Argo
+    description: |
+      The worklflow engine for Kubernetes
+
+  - url: https://github.com/kpcyrd/rshijack
+    title: rshijack
+    description: |
+      tcp connection hijacker, rust rewrite of shijack from 2001.
+
+  - url: https://github.com/mikecao/umami
+    title: umami
+    description: |
+       a simple, fast, website analytics alternative to Google Analytics.
