@@ -115,6 +115,11 @@ links:
 #https://pragmaticwebsecurity.com/articles/oauthoidc/from-implicit-to-pkce.html
 
 video:
+  - url: https://www.youtube.com/watch?v=6avJHaC3C2U
+    title: "The Art of Code - Dylan Beattie"
+    description: |
+      But what about the code that only exists because somebody wanted to write it? Code created just to make people smile, laugh, maybe even dance? Maybe even code that does nothing at all, created just to see if it was possible?
+
   - url: https://www.infoq.com/presentations/comparethemarket-microservices/
     title: Microservices for Growth at comparethemarket.com
     description: |
