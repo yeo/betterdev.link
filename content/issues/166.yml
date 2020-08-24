@@ -115,7 +115,10 @@ links:
 #https://pragmaticwebsecurity.com/articles/oauthoidc/from-implicit-to-pkce.html
 
 video:
-
+  - url: https://www.infoq.com/presentations/comparethemarket-microservices/
+    title: Microservices for Growth at comparethemarket.com
+    description: |
+      Kenichi Shibata and Adam Stewart explain their experience with the adoption of microservices in the creation of Comparison as a Service, one of the core pillars of the user journey today. They also go through PaaS and the necessity of building platforms in order to scale microservices efficiently.
 
 read_code:
   - url: https://github.com/namusyaka/gammo
