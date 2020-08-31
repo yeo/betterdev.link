@@ -1,0 +1,188 @@
+time: "Aug 31, 2020"
+subject: "WebRTC for the Curious and APIs at scale"
+draft: false
+
+description: "Hi everyone, Welcome to issue #167. Let's get straight to our links this time"
+
+links:
+  - url: https://webrtcforthecurious.com/
+    title: "WebRTC for the Curious"
+    description: |
+      This book was created by WebRTC implementers to share their hard-earned knowledge with the world. WebRTC for the curious is an Open Source book written for those that are always looking for more. This book doesn’t settle for abstraction.
+
+  - url: https://increment.com/apis/apis-at-scale-adobe-airbnb-kong-pubnub/
+    title: "APIs at scale"
+    description: |
+      Leaders at Adobe, Airbnb, Kong, and PubNub talk API design, documentation, and development.
+
+  - url: https://explained-from-first-principles.com/internet/#network-topologies
+    title: "The Internet explained from first principles"
+    description: |
+      Dig into lower layer of network: protocol, mesh network, routing. Basically help level up your network knowledge if you have done web development for a long time and want to know more about network.
+
+  - url: https://www.cybertec-postgresql.com/en/tuning-autovacuum-postgresql/
+    title: "Tuning Postgresql AutoVacuum"
+    description: |
+      In many PostgreSQL databases, you never have to think or worry about tuning autovacuum. It runs automatically in the background and cleans up without getting in your way.
+      But sometimes the default configuration is not good enough, and you have to tune autovacuum to make it work properly. This article presents some typical problem scenarios and describes what to do in these cases.
+      I myself encounters lot of vacuuming issue when making lot of data deletions.
+
+  - url: https://rushter.com/blog/gzip-indexing/
+    title: "How to turn an ordinary gzip archive into a database"
+    description: |
+      This article demonstrates how specially crafted but ordinary gzip archives can be used as a database like storage.
+      The ideal is to sort the source files then gzip. When everything is combined, the complete search system takes less than 0.3 seconds to search in the 1TB of compressed data.
+      It also introduces a Python package and explains how it work, but the idea is sound and we can implement in any language.
+
+  - url: https://arpitbhayani.me/blogs/lfu
+    title: Constant Time LFU
+    description: |
+      A common strategy to make any system super-performant is Caching. Eventually the cache memory grows and we need to evict data to reclaim memory. Two algorithms to pick what to evict is LFU and LRU.
+      In this essay, we take a look at Constant Time LFU implementation based on the paper An O(1) algorithm for implementing the LFU cache eviction scheme by Prof. Ketan Shah, Anirban Mitra and Dhruv Matani, where instead of using a min-heap, it uses a combination of doubly-linked lists and hash table to gain a running time complexity of O(1) for all the three core operations.
+
+  - url: https://apenwarr.ca/log/20190216
+    title: "The log/event processing pipeline you can't have"
+    description: |
+      Thoughs on design/implementation of a log pipeline system which aim to be simple and cheap. To quote the author: You can probably find, somewhere, something similar to each of the components I'm going to talk about, but you probably can't find a single solution that combines it all with good performance and super-low latency for a reasonable price.
+
+  - url: https://evilmartians.com/chronicles/hands-on-webassembly-try-the-basics
+    title: "Hands-on WebAssembly: Try the basics"
+    description: |
+      Get started with WebAssembly through  a simple hands-on tutorial that assumes only general knowledge in web development. The only tools you’ll need to get a taste of Wasm through runnable code examples are a code editor, any modern browser, and a Docker container with toolchains for C and Rust that comes with the article.
+
+  - url: https://unix.stackexchange.com/questions/419697/why-are-true-and-false-so-large
+    title: "Why are true and false so large?"
+    description: |
+      true and false are built-in shell function, but apparently we have `true` and `false` as binary executable files in `/usr/bin`. Their jobs are just to exit with code `0` or `1`. So the billion dollar question: why they are big?
+
+  - url: https://engineering.fb.com/production-engineering/scaling-services-with-shard-manager/
+    title: "Scaling services with Shard Manager"
+    description: |
+      Facebook built Shard Manager as a generic platform that facilitates efficient development and operation of reliable sharded applications, instead of each app/team manage their own way of sharding.
+
+  - url: https://stopa.io/post/247
+    title: "Inventing Monads"
+    description: "Monads are being used all the time to deal with nil or error. But it's hard to explain them. It's easy to say this or that is monads but to ELI5 is a hard job. This is another attempt. Ruby safe navigator `&.` or Rust's `?` or examples of Monads. Another old read on Monad is [You Could Have Invented Monads! (And Maybe You Already Have.)](http://blog.sigfpe.com/2006/08/you-could-have-invented-monads-and.html), written by a 3 times Oscar winner."
+
+
+#  - url: https://people.kernel.org/linusw/how-the-arm32-linux-kernel-decompresses
+#    title: "How the ARM32 Linux kernel decompresses"
+#    description: |
+#
+#  - url: http://matt.might.net/papers/vanhorn2010abstract.pdf
+#    title: "Abstracting Abstract Machines"
+#  - url: https://gpfault.net/posts/asm-tut-0.txt.html
+#    title: "Let's Learn x86-64 Assembly! Part 0 - Setup and First Steps"
+#    description: |
+#      Compilers usually do a lot of tricks to speed up our code. Time to time people looks at assembly code generated by compilers to see how the optimization is done. Use less instruction, use special instruction of CPU, inline 
+#
+#  - url: https://notes.eatonphil.com/writing-a-simple-python-compiler.html
+#    title: "Writing a simple Python compiler: 1. hello, fibonacci"
+#
+#
+#  - url: https://tls13.ulfheim.net/
+#    title: "The New Illustrated TLS Connection"
+#
+#  - url: https://info.crunchydata.com/blog/avoiding-the-pitfalls-of-brin-indexes-in-postgres
+#    title: "Avoiding the Pitfalls of BRIN Indexes in Postgres"
+#
+#  - url: https://0x434b.dev/breaking-the-d-link-dir3060-firmware-encryption-recon-part-1/
+#    title: "Breaking the D-Link DIR3060 Firmware Encryption - Recon - Part 1"
+#
+#  - url: https://www.cybertec-postgresql.com/en/a-quick-pg_stat_statements-troubleshooting-hack/
+#    title: "A quick pg_stat_statements troubleshooting hack"
+#    description: |
+#      What would you do when you cannot install a Postgres monitoring system such as pghero or pgwatch2 to collect metric for performance debugging. This articile is about a quick hack that create a temp table and set up a periodically job to get metric from `pg_stat_statements` and insert into that table. Then analyzing that tabel to find slow query
+#https://ptx2.net/posts/unbricking-a-bike-with-a-raspberry-pi/
+#  - url: https://hassamuddin.com/blog/reg-alloc/
+#    title: "A Quick Introduction to Register Allocation"
+#    description: |
+#
+#https://teachyourselfcs.com/
+#  https://opensource.com/article/20/6/linux-noatime
+#http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html
+#  - url: https://github.com/EmilHernvall/dnsguide
+#    title: "A guide to writing a DNS Server from scratch in Rust"
+#    description: |
+#      Writing DNS server is like hello world for networking to me. DNS is small enough, not massive like HTTP, also relying on UDP, so I think it's a good exercise to learn UDP, DNS protocol.
+#      This artcile is focus on Rust, and I'm not a Rust programmer, only toy with Rust and I was able to follow it.
+#
+#  - url: https://csswizardry.com/2020/05/the-fastest-google-fonts/
+#    title: "The Fastest Google Fonts"
+#
+#    https://www.gutenberg.org/files/30688/30688-h/30688-h.htm
+#
+#    https://thorsten-hans.com/5-types-of-zsh-aliases#operating-system-specific-aliases
+# https://github.com/LisaDziuba/Marketing-for-Engineers
+#https://pragmaticwebsecurity.com/articles/oauthoidc/from-implicit-to-pkce.html
+
+video:
+  - url: https://www.youtube.com/watch?v=DngAZyWMGR0
+    title: "Making Architecture Matter - Martin Fowler Keynote"
+
+  - url: https://www.youtube.com/watch?v=bmoLCw0_nzE
+    title: "Database Penetration testing and Privilege Escalation - OSCP 2020"
+
+read_code:
+  - url: https://github.com/turbo/pg-shortkey
+    title: pg-shortkey
+    description: |
+      This installs a trigger and type which allow you to use YouTube-like short IDs (e.g. 1TNhBqYo-6Q) as Postgres Primary Keys. Just like the YouTube IDs, SHORTKEY IDs are fixed length and URL-safe
+    category: ['SQL']
+
+  - url: https://github.com/peterbrittain/asciimatics
+    title: asciimatics
+    description: |
+      A cross platform package to do curses-like operations, plus higher level APIs and widgets to create text UIs and ASCII art animations
+    category: ['Python']
+
+  - url: https://git.pleroma.social/pleroma/pleroma/
+    title: pleroma
+    description: |
+      a microblogging server software that can federate (= exchange messages with) other servers that support ActivityPub(Mastodon for example)
+    category: ['Elixir']
+
+  - url: https://github.com/ka-weihe/fastest-levenshtein
+    title: "fastest-levenshtein"
+    description: |
+      Fastest JS implemenation of Levenshtein distance.  Measure the difference between two strings.
+    category: ['JavaScript']
+
+  - url: https://github.com/willscott/go-nfs/
+    title: go-nfs
+    description: |
+      NFSv3 server in Go
+    category: ['Go']
+
+  - url: https://github.com/zendesk/racecar
+    title: racecar
+    description: |
+      a friendly and easy-to-approach Kafka consumer framework. It allows you to write small applications that process messages stored in Kafka topics while optionally integrating with your Rails model
+    category: ['Ruby']
+
+tool:
+  - url: https://github.com/airbnb/ts-migrate
+    title: ts-migrate
+    description: |
+       a tool for helping migrate code to TypeScript. It takes a JavaScript, or a partial TypeScript, project in and gives a compiling TypeScript project out.
+
+  - url: https://github.com/foxcpp/maddy
+    title: maddy
+    description: |
+      an email server support send and receive message via SMTP, IMAP. It aims to  replaces Postfix, Dovecot, OpenDKIM, OpenSPF, OpenDMARC and more with one daemon with uniform configuration and minimal maintenance cost.
+
+  - url: https://github.com/andmarti1424/sc-im
+    title: sc-im
+    description: "Spreadsheet Calculator Improvised -- An ncurses spreadsheet program for terminal"
+
+  - url: https://github.com/aliscott/infracost
+    title: infracost
+    description: |
+      Get cost hourly and monthly estimates for a Terraform project. It also support [github action](https://github.com/marketplace/actions/run-infracost)
+      and an [companion post](https://www.abar.tech/articles/infracost-gh-action/)
+
+  - url: https://github.com/telepresenceio/telepresence
+    title: telepresence
+    description: |
+      fast, realistic local development for Kubernetes microservices
+
