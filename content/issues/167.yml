@@ -18,21 +18,21 @@ links:
   - url: https://explained-from-first-principles.com/internet/#network-topologies
     title: "The Internet explained from first principles"
     description: |
-      Dig into lower layer of network: protocol, mesh network, routing. Basically help level up your network knowledge if you have done web development for a long time and want to know more about network.
+      Dig into lower level knowledge of networks: protocols, mesh networks, route tables and more. Basically it helps to level up your network knowledge if you have done web development for a long time and want to know more about network.
 
   - url: https://www.cybertec-postgresql.com/en/tuning-autovacuum-postgresql/
     title: "Tuning Postgresql AutoVacuum"
     description: |
       In many PostgreSQL databases, you never have to think or worry about tuning autovacuum. It runs automatically in the background and cleans up without getting in your way.
       But sometimes the default configuration is not good enough, and you have to tune autovacuum to make it work properly. This article presents some typical problem scenarios and describes what to do in these cases.
-      I myself encounters lot of vacuuming issue when making lot of data deletions.
+      I encounters a lot of vacuuming issue when making many data deletions.
 
   - url: https://rushter.com/blog/gzip-indexing/
     title: "How to turn an ordinary gzip archive into a database"
     description: |
       This article demonstrates how specially crafted but ordinary gzip archives can be used as a database like storage.
       The ideal is to sort the source files then gzip. When everything is combined, the complete search system takes less than 0.3 seconds to search in the 1TB of compressed data.
-      It also introduces a Python package and explains how it work, but the idea is sound and we can implement in any language.
+      It also introduces a Python package and explains how it works, but the idea is sound and we can implement it in any language.
 
   - url: https://arpitbhayani.me/blogs/lfu
     title: Constant Time LFU
@@ -43,7 +43,7 @@ links:
   - url: https://apenwarr.ca/log/20190216
     title: "The log/event processing pipeline you can't have"
     description: |
-      Thoughs on design/implementation of a log pipeline system which aim to be simple and cheap. To quote the author: You can probably find, somewhere, something similar to each of the components I'm going to talk about, but you probably can't find a single solution that combines it all with good performance and super-low latency for a reasonable price.
+      Thoughts on design/implementation of a log pipeline system which aims to be simple and cheap. To quote the author: You can probably find, somewhere, something similar to each of the components I'm going to talk about, but you probably can't find a single solution that combines it all with good performance and super-low latency for a reasonable price.
 
   - url: https://evilmartians.com/chronicles/hands-on-webassembly-try-the-basics
     title: "Hands-on WebAssembly: Try the basics"
@@ -53,7 +53,7 @@ links:
   - url: https://unix.stackexchange.com/questions/419697/why-are-true-and-false-so-large
     title: "Why are true and false so large?"
     description: |
-      true and false are built-in shell function, but apparently we have `true` and `false` as binary executable files in `/usr/bin`. Their jobs are just to exit with code `0` or `1`. So the billion dollar question: why they are big?
+      true and false are built-in shell function, but apparently, we have `true` and `false` as binary executable files in `/usr/bin`. Their jobs are just to exit with code `0` or `1`. So the billion dollar question: why they are big?
 
   - url: https://engineering.fb.com/production-engineering/scaling-services-with-shard-manager/
     title: "Scaling services with Shard Manager"
