@@ -1,0 +1,26 @@
+{{ define "title" }}
+<title>{{ .Meta.Title }}</title>
+{{ end }}
+
+{{ define "body" }}
+<div class="container">
+  <div class="columns">
+    <div class="column">
+      <div class="post">
+        <h2 class="title is-4">{{ .Meta.Title }}</h2>
+        {{ if ne .Meta.Type "page" }}
+        <p class="subtitle is-6">
+          Write at <code>{{ .Meta.DateFormatted }}</code>
+          {{ if .Meta.Tags }}
+            in <a href="/{{ .Meta.Category }}">{{ .Meta.Category }}</a>
+            {{ range .Meta.Tags }} <a href="/tag/{{ . }}"><span class="tag">{{ . }}</span></a> {{ end }}
+          {{ end }}
+        </p>
+        {{ end }}
+
+        <section class="post-body markdown-body">{{ .Body }}</section>
+      </div>
+    </div>
+  </div>
+</div>
+{{end}}

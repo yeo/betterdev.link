@@ -1,0 +1,15 @@
+{{define "body" }}
+<section class="container">
+  <div class="hero">
+    <div class="intro">
+      <p>
+        Hey, I'm Vinh. I write to learn. My posts range from infrastructure to software design and virtually anything that I like. Every monday, I also send out a  newsletter call <a href="https://betterdev.link">BetterDev</a>, with links that help you become a better developer. You should subscribe.
+      </p>
+    </div>
+  </div>
+
+  <div class="column">
+    {{ template "post-list" . }}
+  </div>
+</section>
+{{end}}

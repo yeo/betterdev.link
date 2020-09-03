@@ -1,0 +1,118 @@
+* {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+  color: #111;
+}
+
+main {
+  max-width: 38rem;
+  padding: 2rem;
+  margin: auto;
+}
+
+body {
+  font-size: 1.2em;
+  line-height: 1.3;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+}
+
+a {
+  color: #FA743E;
+  text-decoration: none;
+
+  transition: color 0.1s linear;
+  transition-property: color;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+  transition-delay: initial;
+  outline: none;
+}
+
+a, a:link, a:visited {
+  color: #FA743E;
+}
+
+a:hover {
+  color: #FA743E;
+  border-bottom: 2px solid #FA743E;
+}
+
+.nav {
+  float: none;
+  text-align: center;
+}
+
+.nav li {
+  margin: 5px 10px;
+  display: inline-block;
+}
+
+.nav a:hover {
+  border-bottom: 3px solid #FA743E;
+}
+
+.post-list, .post {
+  max-width: 780px;
+  margin: auto;
+}
+
+.intro {
+  max-width: 780px;
+  margin: 2em auto;
+}
+
+.post {
+  list-style: none;
+}
+
+.post-list a {
+  /*color: #9b4dca;*/
+  color: #333333;
+}
+
+.post-list .post .title {
+  text-align: left;
+}
+
+.post .title {
+  font-weight: normal;
+  text-align: center;
+}
+
+.tag {
+  font-weight: 200;
+  color: #333;
+  font-size: 0.9em;
+}
+
+.post .subtitle {
+  font-size: 0.8em;
+  text-align: center;
+  font-weight: 200;
+}
+
+.post-list .post {
+  margin: 0.5em 0;
+}
+
+.post-body p, h1, h2, h3, h4, h5, h6 {
+  margin: 1em 0;
+}
+
+.post-body p {
+  font-size: 1.2em;
+}
+
+.markdown-body a:hover {
+  text-decoration: none;
+}
+
+.footer {
+  margin: 2em 0;
+  text-align: center;
+  font-weight: 200;
+  font-size: 0.8em;
+}
