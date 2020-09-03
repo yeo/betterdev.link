@@ -1,3 +1,7 @@
+{{  define "ads" }}
+  <script data-ad-client="ca-pub-8028954011726839" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+{{  end  }}
+
 {{define "base"}}
 <!DOCTYPE html><html lang="en">
 
@@ -32,6 +36,8 @@
     <link rel="image_src" href="/assets/images/thumbnail.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css">
     <link rel="stylesheet" href="/assets/css/main.css?{{ .Time }}">
+
+    {{ template "ads" . }}
   </head>
 
   <body>
