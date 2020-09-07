@@ -1,0 +1,183 @@
+time: "Sep 07, 2020"
+subject: "The Life of a Data Byte: Be kind and rewind and Things I Learnt from a Senior Software Enginee"
+draft: false
+
+description: "Hi everyone, Welcome to issue #168. Let's get straight to our links this time"
+
+links:
+  - url: https://queue.acm.org/detail.cfm?id=3419941
+    title: "The Life of a Data Byte: Be kind and rewind"
+    description: "A byte of data has been stored in a number of different ways through the years as newer, better, and faster storage media are introduced. A byte is a unit of digital information that most commonly refers to eight bits. A bit is a unit of information that can be expressed as 0 or 1, representing a logical state. Let's take a brief walk down memory lane to learn about the origins of bits and bytes."
+
+  - url: https://neilkakkar.com/things-I-learnt-from-a-senior-dev.html#derisking
+    title: "Things I Learnt from a Senior Software Engineer"
+    description: |
+      Neil worked at Bloomberg for a year, sat next to a senior software engineer for a year. Here’s what he learned. Many topics: naming, dealing with legacy code , when thing goes wrong and more.
+
+  - url: https://cloudforecast.io/blog/aws-tagging-best-practices-guide-part-2/
+    title: "AWS Tagging Best Practices Guide"
+    description: "On AWS, tagging is a way to categorize resources for many reasons: billing analysis, grant permission. Examples of tag usages: this user can only access resources with this tag, or automated backup EBS volume with this tag. AWS is massive and if we don’t tag, we will very quickly end up with a big mess."
+
+  - url: https://thume.ca/2020/09/04/macos-tips/
+    title: "Hard to discover tips and apps for making macOS pleasant"
+    description: |
+      Tristan shared a whole bunch of tips and recommendations they’ve learned about over many years, but often quite hard to find out about. Some hidden tips, some good mac apps to improve productivity.
+
+  - url: https://m.signalvnoise.com/inside-a-code-red-network-edition/
+    title: "Inside a CODE RED: Network Edition"
+    description: |
+      Basecamp, the maker of Ruby On Rails, suffered a few major outages this month and share the post mortem. I always love these posts because why we can learn from success, learning from failure is even more important because not many share their failure :-). An interesting part is that the chatops server that can be used to reconfigure the network is down/slow due to network being overload and they have to manually reconfigure the routers.
+
+  - url: https://boyter.org/posts/unicode-support-what-does-that-actually-mean/
+    title: "Unicode support. What does that actually mean"
+    description: "What is the uppercase of あ, a Japanese character? why ſecret == secret == Secret? When you upper-case groß you can get either GROß or GROSS?
+      What is that mess? Let's dig into the Unicode encoding world"
+
+  - url: https://stripe.com/blog/globe
+    title: "To design and develop an interactive globe"
+    description: |
+      I always curious how those 3d interactive models are built-in JavaScript. This article by a Stripe engineer just answers that. We will learn how to draw the surface with dot, group the country, animate it and make it fast via GPU WebGL. Short article but I learn a lot.
+
+  - url: https://nil.wallyjones.com/what-shell-am-i-using/
+    title: "What Shell Am I Using?"
+    description: |
+      Finding the shell you're actually using isn't all that simple at first. You can find the location of the executable of the shell. You can find all the processes currently running with that shell name. But gathering information about the shell you're typing all those commands in to find the shell you're using requires a little more poking around. The two easiest solutions, on macOS at least, are lsof and fuser
+
+  - url: https://gauthier.uk/blog/who/
+    title: "The UNIX `who` command"
+    description: |
+      In order to see what the who command is doing I could try to find the source code and dig into it. But I found it fun to use strace to check what the process was doing instead. Since we are expecting who to read system files, we can only focus on the open syscalls.
+
+  - url: https://nanonets.com/blog/handwritten-character-recognition/
+    title: "How to build a Handwriting Reader from scratch with Deep Learning"
+    description: "When I makes mobile check deposit and the bank mobile app detects the amount reliably, I'm amazed at that technology. That's good use of tech to improve our life. In this article we will be learning about the task of handwritten text recognition, it's intricacies and how we can solve it using deep learning techniques."
+
+  - url: https://github.com/iggredible/Learn-Vim
+    title: Learn Vim (the Smart Way)
+    description: |
+       a book to learn the good parts of Vim.
+
+#  - url: https://people.kernel.org/linusw/how-the-arm32-linux-kernel-decompresses
+#    title: "How the ARM32 Linux kernel decompresses"
+#    description: |
+#
+#  - url: http://matt.might.net/papers/vanhorn2010abstract.pdf
+#    title: "Abstracting Abstract Machines"
+#  - url: https://notes.eatonphil.com/writing-a-simple-python-compiler.html
+#    title: "Writing a simple Python compiler: 1. hello, fibonacci"
+#
+#
+#  - url: https://tls13.ulfheim.net/
+#    title: "The New Illustrated TLS Connection"
+#
+#  - url: https://info.crunchydata.com/blog/avoiding-the-pitfalls-of-brin-indexes-in-postgres
+#    title: "Avoiding the Pitfalls of BRIN Indexes in Postgres"
+#
+#  - url: https://0x434b.dev/breaking-the-d-link-dir3060-firmware-encryption-recon-part-1/
+#    title: "Breaking the D-Link DIR3060 Firmware Encryption - Recon - Part 1"
+#
+#  - url: https://www.cybertec-postgresql.com/en/a-quick-pg_stat_statements-troubleshooting-hack/
+#    title: "A quick pg_stat_statements troubleshooting hack"
+#    description: |
+#      What would you do when you cannot install a Postgres monitoring system such as pghero or pgwatch2 to collect metric for performance debugging. This articile is about a quick hack that create a temp table and set up a periodically job to get metric from `pg_stat_statements` and insert into that table. Then analyzing that tabel to find slow query
+#https://ptx2.net/posts/unbricking-a-bike-with-a-raspberry-pi/
+#  - url: https://hassamuddin.com/blog/reg-alloc/
+#    title: "A Quick Introduction to Register Allocation"
+#    description: |
+#
+#https://teachyourselfcs.com/
+#  https://opensource.com/article/20/6/linux-noatime
+#http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html
+#  - url: https://github.com/EmilHernvall/dnsguide
+#    title: "A guide to writing a DNS Server from scratch in Rust"
+#    description: |
+#      Writing DNS server is like hello world for networking to me. DNS is small enough, not massive like HTTP, also relying on UDP, so I think it's a good exercise to learn UDP, DNS protocol.
+#      This artcile is focus on Rust, and I'm not a Rust programmer, only toy with Rust and I was able to follow it.
+#
+#  - url: https://csswizardry.com/2020/05/the-fastest-google-fonts/
+#    title: "The Fastest Google Fonts"
+#
+#    https://www.gutenberg.org/files/30688/30688-h/30688-h.htm
+#
+#    https://thorsten-hans.com/5-types-of-zsh-aliases#operating-system-specific-aliases
+# https://github.com/LisaDziuba/Marketing-for-Engineers
+#https://pragmaticwebsecurity.com/articles/oauthoidc/from-implicit-to-pkce.html
+
+video:
+  - url: https://www.youtube.com/watch?v=udbA7u1zYfc
+    title: "Making WAVs: Understanding, Parsing, and Creating WAV Files in JavaScript"
+    description: |
+      JavaScript but who can avoid it nowsaday. Plus, playing with sound is cool
+
+  - url: https://www.youtube.com/watch?v=EZ05e7EMOLM
+    title: "Ian Cooper - TDD, Where Did It All Go Wrong"
+
+read_code:
+  - url: https://github.com/zricethezav/gitleaks
+    title: gitleaks
+    description: |
+      a SAST tool for detecting hardcoded secrets like passwords, api keys, and tokens in git repos. Gitleaks aims to be the easy-to-use, all-in-one solution for finding secrets, past or present, in your code.
+    categorize: ['Go']
+
+  - url: https://github.com/crabbly/Print.js
+    title: Print.js
+    description: |
+      A tiny javascript library to help printing from the web. It can prints PDF just any HTML element and also generate preview.
+    category: ['JavaScript']
+
+  - url: https://github.com/vasanthv/talk
+    title: talk
+    description: |
+      A free group video call app with screen sharing.
+      It is built using WebRTC, so all your video chat is peer-to-peer. Group video call is achieved using WebRTC mesh
+    category: ['JavaScript', 'WebRTC']
+
+  - url: https://github.com/boltgolt/howdy
+    title: howdy
+    description: |
+      provides Windows Hello™ style authentication for Linux. Use your built-in IR emitters and camera in combination with facial recognition to prove who you are.
+    category: ['Python']
+
+  - url: https://github.com/oesmith/puffing-billy
+    title: puffing-billy
+    description: |
+      A rewriting web proxy for testing interactions between your browser and external sites. Works with ruby + rspec.
+      Puffing Billy is like webmock or VCR, but for your browser.
+    category: ['Ruby']
+
+  - url: https://github.com/codr7/liblg
+    title: liblg
+    description: |
+      a reasonably fast, minimal stack-based VM in C. It currently implements just enough functionality to do recursive Fibonacci
+    category: ['C']
+
+  - url: https://github.com/chmln/sd
+    title: sd
+    description: |
+      an intuitive find & replace CLI. Kind of like `sed` but uses regex syntax that you already know from JavaScript and Python
+    category: ['Rust']
+
+tool:
+  - url: https://github.com/Alephbet/lamed
+    title: lamed
+    description: |
+      an A/B testing backend using AWS Lambda/API Gateway + Redis.
+
+  - url: https://github.com/alephbet/alephbet
+    title: alephbet
+    description: |
+      a pure-javascript A/B (multivariate) testing framework for developers.
+
+  - url: https://github.com/Alephbet/gimel
+    title: gimel
+    description: |
+      a Scaleable A/B testing backend in ~100 lines of code (and for free*)
+
+  - url: https://github.com/werf/werf
+    title: werf
+    description: |
+      you describe the configuration of your application. werf build docker image and deploy to k8s
+
+  - url: https://github.com/hvf/franchise
+    title: franchise
+    description: "a lightweight but powerful SQL tool with a notebook interface"
