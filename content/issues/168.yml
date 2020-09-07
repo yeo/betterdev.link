@@ -181,3 +181,7 @@ tool:
   - url: https://github.com/hvf/franchise
     title: franchise
     description: "a lightweight but powerful SQL tool with a notebook interface"
+
+  - url: https://github.com/projectdiscovery/httpx
+    title: httpx
+    description: "a fast and multi-purpose HTTP toolkit allow to run multiple probers using retryablehttp library, it is designed to maintain the result reliability with increased threads"
