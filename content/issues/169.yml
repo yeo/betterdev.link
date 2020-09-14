@@ -1,0 +1,179 @@
+time: "Sep 14, 2020"
+subject: "Who will test the tests themselves and How Gitlab upgraded PostgresSQL"
+draft: false
+
+description: "Hi everyone, Welcome to issue #169. Thank you for being a reader to my newsletter. I hope you can help spread the words out by telling your friend about this :-)"
+
+links:
+  - url: https://blog.scottlogic.com/2017/09/25/mutation-testing.html
+    title: "Mutation Testing - Who will test the tests themselves?"
+    description: |
+      We know the feeling when we have a bug in production which is supposed to be caught by tests. So how to prevent that? What to test the test?
+
+  - url: https://venam.nixers.net/blog/unix/2020/09/14/playing_with_fonts.html
+    title: "Did You Know Fonts Could Do All This?"
+    description: |
+      Let’s play with lesser known toggles available to us when it comes to font rendering and see what they do, let’s have fun and explore possibilities
+
+  - url: https://about.gitlab.com/blog/2020/09/11/gitlab-pg-upgrade/
+    title: "How Gitlab upgraded PostgreSQL"
+    description: |
+      Gitlab is very good at sharing their infrastructure setup. In this article, they explain the precise maintenance process to execute a major version upgrade of PostgreSQL.
+
+  - url: https://www.2ndquadrant.com/en/blog/how-to-get-the-best-out-of-postgresql-logs/
+    title: "How to Get the Best Out of PostgreSQL Logs"
+    description: |
+      PostgreSQL comes with many parameters for fine-tuning. Logging parameters are huge too. We will cover some fundamental practices to get the best out of PostgreSQL logs.
+
+
+  - url: https://leveragethoughts.substack.com/p/cracking-the-who-you-show-your-work
+    title: "Whom should you show your work to?"
+    description: |
+      Tesla was ahead of his time, but fail to show the potential of his works to the right audience.
+      As a developer, we usually want to build side projects or has a cool idea about how thing work but we cannot bring it to the next level. not gain traction, not enough funding. I know this feeling, I like my personal [ec2 price check project](http://ec2.shop/) but I don't know how to bring more traffic to it.
+
+  - url: https://testing.googleblog.com/2018/07/code-health-make-interfaces-hard-to.html
+    title: "Code Health: Make Interfaces Hard to Misuse"
+    description: "Don't push the responsibility of maintaining invariants required by your class on to its callers."
+
+  - url: https://ahelwer.ca/post/2020-04-15-probabilistic-distsys/
+    title: "How do you reason about a probabilistic distributed system?"
+    description: |
+      You cannot model probability with nondeterminism, and you cannot model nondeterminism with probability.
+
+  - url: https://www.techspot.com/article/2066-cpu-l1-l2-l3-cache/
+    title: 'Explainer: L1 vs. L2 vs. L3 Cache'
+    description: |
+      If you go shopping for CPU or read CPU benchmark/optimization you will see mention about L1/L2 cache and usually they are just a few MBs. So what are they and why they are helpful with mere MBs.
+
+  - url: https://xn--rpa.cc/irl/term.html
+    title: "everything you ever wanted to know about terminals"
+    description: |
+      So here's a short tutorial on ansi escape codes and terminal control, because you philistines won't stop using ncurses and oh my god WHY ARE WE STILL USING NCURSES IT IS THE TWENTY FIRST CENTURY
+
+  - url: https://netflixtechblog.com/seamlessly-swapping-the-api-backend-of-the-netflix-android-app-3d4317155187
+    title: "Seamlessly Swapping the API backend of the Netflix Android app"
+    description: |
+      How we migrated our Android endpoints out of a monolith into a new microservice.
+
+  - url: https://digitalbunker.dev/2020/09/08/how-do-computers-generate-random-numbers/
+    title: "How Do Computers Generate Random Numbers?"
+    description: |
+      Computers use random numbers for everything from cryptography to gambling, generative algorithms, video games, and more. However, computers are inherently incapable of being random. Instead, programmers rely on pseudorandom number generators (PRNGs). These are simply a category of algorithms that programmatically generate new random numbers from a given starting value called the seed.
+
+#  - url: https://www.reddit.com/r/aws/comments/irkshm/moving_25tb_data_from_one_s3_bucket_to_another/
+#    title:
+#
+#  - url: https://www.elttam.com/blog/simple-bugs-with-complex-exploits/
+#    title: "SIMPLE BUGS WITH COMPLEX EXPLOITS"
+#  - url: https://willschenk.com/articles/2020/gitlog_in_sqlite/
+#    title: gitlog in sqlite
+#  - url: https://people.kernel.org/linusw/how-the-arm32-linux-kernel-decompresses
+#    title: "How the ARM32 Linux kernel decompresses"
+#    description: |
+#
+#  - url: http://matt.might.net/papers/vanhorn2010abstract.pdf
+#    title: "Abstracting Abstract Machines"
+#  - url: https://notes.eatonphil.com/writing-a-simple-python-compiler.html
+#    title: "Writing a simple Python compiler: 1. hello, fibonacci"
+#
+#
+#  - url: https://tls13.ulfheim.net/
+#    title: "The New Illustrated TLS Connection"
+#
+#  - url: https://info.crunchydata.com/blog/avoiding-the-pitfalls-of-brin-indexes-in-postgres
+#    title: "Avoiding the Pitfalls of BRIN Indexes in Postgres"
+#
+#  - url: https://0x434b.dev/breaking-the-d-link-dir3060-firmware-encryption-recon-part-1/
+#    title: "Breaking the D-Link DIR3060 Firmware Encryption - Recon - Part 1"
+#
+#  - url: https://www.cybertec-postgresql.com/en/a-quick-pg_stat_statements-troubleshooting-hack/
+#    title: "A quick pg_stat_statements troubleshooting hack"
+#    description: |
+#      What would you do when you cannot install a Postgres monitoring system such as pghero or pgwatch2 to collect metric for performance debugging. This articile is about a quick hack that create a temp table and set up a periodically job to get metric from `pg_stat_statements` and insert into that table. Then analyzing that tabel to find slow query
+#https://ptx2.net/posts/unbricking-a-bike-with-a-raspberry-pi/
+#  - url: https://hassamuddin.com/blog/reg-alloc/
+#    title: "A Quick Introduction to Register Allocation"
+#    description: |
+#
+#https://teachyourselfcs.com/
+#  https://opensource.com/article/20/6/linux-noatime
+#http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html
+#  - url: https://github.com/EmilHernvall/dnsguide
+#    title: "A guide to writing a DNS Server from scratch in Rust"
+#    description: |
+#      Writing DNS server is like hello world for networking to me. DNS is small enough, not massive like HTTP, also relying on UDP, so I think it's a good exercise to learn UDP, DNS protocol.
+#      This artcile is focus on Rust, and I'm not a Rust programmer, only toy with Rust and I was able to follow it.
+#
+#  - url: https://csswizardry.com/2020/05/the-fastest-google-fonts/
+#    title: "The Fastest Google Fonts"
+#
+#    https://www.gutenberg.org/files/30688/30688-h/30688-h.htm
+#
+#    https://thorsten-hans.com/5-types-of-zsh-aliases#operating-system-specific-aliases
+# https://github.com/LisaDziuba/Marketing-for-Engineers
+#https://pragmaticwebsecurity.com/articles/oauthoidc/from-implicit-to-pkce.html
+
+video:
+  - url: https://www.youtube.com/watch?v=WWbZFj-cLvk
+    title: "Super Mario Bros. 3 in 3 minutes - World Record Speedrun Explained"
+    description: |
+      Go deep to reverse engineering to explain how to achive that kind of speed.
+
+  - url: https://www.youtube.com/watch?v=ASXJgvy3mEg
+    title: "Jared Mauch - Getting Fiber To My Town (NLNOG Live! September 2020)"
+    description: |
+      What do you do when no fiber to your home? starting a TelCo.
+
+read_code:
+  - url: https://github.com/palkan/n_plus_one_control
+    title: n_plus_one_control
+    description: |
+      RSpec and Minitest matchers to prevent the N+1 queries problem.
+    category: ['Ruby']
+
+  - url: https://github.com/geigi/cozy
+    title: cozy
+    description: |
+      a modern audiobook player for Linux using GTK. You will see how we built desktop app with Python
+    category: ['Python']
+
+  - url: https://github.com/sourcegraph/go-diff
+    title: go-diff
+    description: "Unified diff parser and printer for Go"
+    category: ['Go']
+
+  - url: https://github.com/cocopon/tweakpane
+    title: tweakpane
+    description: "a compact pane library for fine-tuning parameters and monitoring value changes. It's originally inspired by the popular library dat.GUI."
+    category: ['JavaScript']
+
+tool:
+  - url: https://github.com/Skyscanner/whispers
+    title: whispers
+    description: |
+      a static code analysis tool designed for parsing various common data formats in search of hardcoded credentials and dangerous functions. Whispers can run in the CLI or you can integrate it in your CI/CD pipeline.
+
+  - url: https://github.com/deroproject/graviton
+    title: graviton
+    description: |
+      a simple, fast, versioned, authenticated, embeddable key-value store database in pure GOLANG.
+
+  - url: https://github.com/almarklein/mypaas
+    title: mypaas
+    description: "a tool that makes it easy to run a platform as a service (PaaS) on your own VM or hardware. It combines Traefik and Docker, offers free automatic https, secure deployments via dockerfiles, and analytics"
+
+  - url: https://github.com/mmozeiko/aes-finder
+    title: aes-finder
+    description: |
+      Utility to find AES keys in running process memory. Works for 128, 192 and 256-bit keys.
+      Detail on [how it works](https://github.com/mmozeiko/aes-finder/issues/12#issuecomment-439159067)
+
+  - url: https://github.com/octoproject/octo-cli
+    title: octo-cli
+    description: "makes the data available from any database as a serverless web service, simplifying the process of building data-driven applications."
+
+  - url: https://github.com/FairwindsOps/polaris
+    title: polaris
+    description: |
+      keeps your k8s clusters sailing smoothly. It runs a variety of checks to ensure that Kubernetes pods and controllers are configured using best practices, helping you avoid problems in the future
