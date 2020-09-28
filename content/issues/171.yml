@@ -1,6 +1,6 @@
 time: "Sep 28, 2020"
 subject: "How to remove the first 300 million lines from a 700 GB txt file on a system with 1 TB max disk space?"
-draft: true
+draft: false
 
 description: |
   Hi everyone, Welcome to issue #171.
@@ -14,7 +14,8 @@ links:
   - url: https://www.taniarascia.com/asynchronous-javascript-event-loop-callbacks-promises-async-await/
     title: "Understanding the Event Loop, Callbacks, Promises, and Async/Await in JavaScript"
     description: |
-      Event Loop is a leak abstraction. It forces us to understand is charactert to right well perform application. It's the primary primitive browser allows to write code that won't cause blocking behaviour.
+      Event Loop is a leak abstraction. It forces us to understand is characters to write well perform applications. It's the primary primitive browser that allows writing code that won't cause blocking behaviour.
+      Callbacks, Promises and Async/Await is how to deal with event loop.
 
   - url: https://www.elttam.com/blog/simple-bugs-with-complex-exploits/
     title: "Simple bugs with complex exploits"
@@ -31,7 +32,7 @@ links:
     title: "HOT updates in postgresql for better performance"
     description: |
       HOT stand for  “Heap Only Tuple”. It is a feature that overcomes some of the inefficiencies of how PostgreSQL handles UPDATEs.
-      An update adds a new row version call tuple. In other words, update is like delete followed by an insert. Essentially, UPDATE-heavy workloads are challenging for PostgreSQL. This is the area where HOT updates help.
+      Update adds a new row version call tuple. In other words, an update is like delete followed by an insert. Essentially, UPDATE-heavy workloads are challenging for PostgreSQL. This is the area where HOT updates help.
 
   - url: https://hakibenita.com/sql-anomaly-detection
     title: "Simple Anomaly Detection Using Plain SQL"
@@ -46,78 +47,25 @@ links:
   - url: https://slack.engineering/building-the-next-evolution-of-cloud-networks-at-slack/
     title: "Building the Next Evolution of Cloud Networks at Slack"
     description: |
-      Network is the backbone of almost any cloud application. When companies scale, we add more network, qa, staging, prod, support, rds, elasticache and eventually we need to allow those network to communicate with each others.
+      Network is the backbone of almost any cloud application. When companies scale, we add more network, qa, staging, prod, support, rds, elasticache. Eventually we need to allow those network to communicate with each others.
       How to manage that complexity? Adding a new network and allow traffic flow require you to add a new route table. A single bad route can cause lost traffic? Let's learn how Slack manage that complexity
 
   - url: https://www.freecodecamp.org/news/wifi-hacking-securing-wifi-networks-with-aircrack-ng/
     title: "WiFi Hacking 101 – How to Secure Your Wifi Networks With Aircrack-NG"
     description: |
-      You cannot secure your wifi network without knowing about attack vectors. How can you try to validate that your netowrk is secure? You need to know some tools for hacking purposes.
+      You cannot secure your wifi network without knowing about attack vectors. How will you validate that your netowrk is secure? You need to know some tools for hacking purposes.
 
   - url: https://artem.krylysov.com/blog/2020/07/28/lets-build-a-full-text-search-engine/
     title: "Let's build a Full-Text Search engine"
     description: |
-      This is in Golang code sample but you get the idex of building inverted index, Text analysis, tokenizer, filter and the trick to drop stop words - because almost anything in English will contains them(such as them, I, you, etc)
+      This is in Golang code sample but you get the idea of building an inverted index, text analysis, tokenizer, filter and the trick to drop stop words - because almost anything in English contains them(such as them, I, you, etc)
 
   - url: https://www.paepper.com/blog/posts/how-to-properly-manage-ssh-keys-for-server-access/
     title: "How to properly manage ssh keys for server access"
-    description: "The quickest way to allow SSH access is adding their public key to `authorized_keys`, that obviously won't scale. In this, we looked at how we setup a CA as a centralization auth method for SSH"
+    description: "The quickest way to allow SSH access is adding their public key to `authorized_keys`, which obviously won't scale. In this, we looked at how we setup a CA as a centralization auth method for SSH"
 
-
-#  - url: https://www.astrocamel.com/web/2020/09/04/how-i-bypassed-cloudflares-sql-injection-filter.html
-#title: "How I bypassed Cloudflare's SQL Injection filter"
-#  - url: https://www.reddit.com/r/aws/comments/irkshm/moving_25tb_data_from_one_s3_bucket_to_another/
-#    title:
-#
-#  - url: https://willschenk.com/articles/2020/gitlog_in_sqlite/
-#    title: gitlog in sqlite
-#  - url: https://people.kernel.org/linusw/how-the-arm32-linux-kernel-decompresses
-#    title: "How the ARM32 Linux kernel decompresses"
-#    description: |
-#
-#  - url: http://matt.might.net/papers/vanhorn2010abstract.pdf
-#    title: "Abstracting Abstract Machines"
-#  - url: https://notes.eatonphil.com/writing-a-simple-python-compiler.html
-#    title: "Writing a simple Python compiler: 1. hello, fibonacci"
-#
-#
-#  - url: https://info.crunchydata.com/blog/avoiding-the-pitfalls-of-brin-indexes-in-postgres
-#    title: "Avoiding the Pitfalls of BRIN Indexes in Postgres"
-#
-#  - url: https://0x434b.dev/breaking-the-d-link-dir3060-firmware-encryption-recon-part-1/
-#    title: "Breaking the D-Link DIR3060 Firmware Encryption - Recon - Part 1"
-#
-#  - url: https://www.cybertec-postgresql.com/en/a-quick-pg_stat_statements-troubleshooting-hack/
-#    title: "A quick pg_stat_statements troubleshooting hack"
-#    description: |
-#      What would you do when you cannot install a Postgres monitoring system such as pghero or pgwatch2 to collect metric for performance debugging. This articile is about a quick hack that create a temp table and set up a periodically job to get metric from `pg_stat_statements` and insert into that table. Then analyzing that tabel to find slow query
-#https://ptx2.net/posts/unbricking-a-bike-with-a-raspberry-pi/
-#  - url: https://hassamuddin.com/blog/reg-alloc/
-#    title: "A Quick Introduction to Register Allocation"
-#    description: |
-#
-#https://teachyourselfcs.com/
-#  https://opensource.com/article/20/6/linux-noatime
-#http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html
-#  - url: https://github.com/EmilHernvall/dnsguide
-#    title: "A guide to writing a DNS Server from scratch in Rust"
-#    description: |
-#      Writing DNS server is like hello world for networking to me. DNS is small enough, not massive like HTTP, also relying on UDP, so I think it's a good exercise to learn UDP, DNS protocol.
-#      This artcile is focus on Rust, and I'm not a Rust programmer, only toy with Rust and I was able to follow it.
-#
-#  - url: https://csswizardry.com/2020/05/the-fastest-google-fonts/
-#    title: "The Fastest Google Fonts"
-#
-#    https://www.gutenberg.org/files/30688/30688-h/30688-h.htm
-#
-#    https://thorsten-hans.com/5-types-of-zsh-aliases#operating-system-specific-aliases
-# https://github.com/LisaDziuba/Marketing-for-Engineers
-#https://pragmaticwebsecurity.com/articles/oauthoidc/from-implicit-to-pkce.html
 
 video:
-#- url: https://www.youtube.com/watch?v=YBtzzVwrTeE
-#   title: ""
-
   - url: https://www.youtube.com/watch?v=VBrnmciV9fM
     title: "Writing System Software episode 1"
     description: |
