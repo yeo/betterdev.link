@@ -1,0 +1,192 @@
+time: "Sep 28, 2020"
+subject: "How to remove the first 300 million lines from a 700 GB txt file on a system with 1 TB max disk space?"
+draft: true
+
+description: |
+  Hi everyone, Welcome to issue #171.
+
+links:
+  - url: https://unix.stackexchange.com/questions/610494/how-do-i-remove-the-first-300-million-lines-from-a-700-gb-txt-file-on-a-system-w
+    title: "How do I remove the first 300 million lines from a 700 GB txt file on a system with 1 TB max disk space?"
+    description: |
+      The accepted answer is boring but all other answers are very creative and informative.
+
+  - url: https://www.taniarascia.com/asynchronous-javascript-event-loop-callbacks-promises-async-await/
+    title: "Understanding the Event Loop, Callbacks, Promises, and Async/Await in JavaScript"
+    description: |
+      Event Loop is a leak abstraction. It forces us to understand is charactert to right well perform application. It's the primary primitive browser allows to write code that won't cause blocking behaviour.
+
+  - url: https://www.elttam.com/blog/simple-bugs-with-complex-exploits/
+    title: "Simple bugs with complex exploits"
+    description: |
+      FixedArray and FixedDoubleArray are used to create objects in JavaScript, and although the new implementations looked valid at first glance, they were missing a key component: a maximum length check to ensure that the newly created array’s length cannot not go past a predefined upper limit.
+      To the untrained eye, this bug does not look exploitable, but as shown on the bug report, Sergey made use of TurboFan’s typer to gain access to a very powerful exploitation primitive: an array whose length field is much larger than its capacity. This primitive provides an attacker with an out-of-bounds access primitive on the V8 heap, which can very easily lead to code execution
+
+  - url: https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/diary-of-an-engineer-delivering-45x-faster-percentiles-using/ba-p/1685102
+    title: "Diary of an Engineer: Delivering 45x faster percentiles using Postgres, Citus, & t-digest"
+    description: |
+      The percentile calculations were taking about 6 minutes instead of the required 30 second SLA. How and which tools we can use to debug and reduce that to the target SLA: 30 seconds
+
+  - url: https://www.cybertec-postgresql.com/en/hot-updates-in-postgresql-for-better-performance/
+    title: "HOT updates in postgresql for better performance"
+    description: |
+      HOT stand for  “Heap Only Tuple”. It is a feature that overcomes some of the inefficiencies of how PostgreSQL handles UPDATEs.
+      An update adds a new row version call tuple. In other words, update is like delete followed by an insert. Essentially, UPDATE-heavy workloads are challenging for PostgreSQL. This is the area where HOT updates help.
+
+  - url: https://hakibenita.com/sql-anomaly-detection
+    title: "Simple Anomaly Detection Using Plain SQL"
+    description: |
+      Using some high school level statistics and a fair knowledge of SQL, I implemented a simple anomaly detection system that works
+
+  - url: https://www.innoq.com/en/blog/anatomy-of-a-good-test/
+    title: "Anatomy of a Good Test"
+    description: |
+      Show what makes a test a good one and describe desired and unwanted properties. Interestingly enough, all those properties hold, no matter how isolated or integrated the test is
+
+  - url: https://slack.engineering/building-the-next-evolution-of-cloud-networks-at-slack/
+    title: "Building the Next Evolution of Cloud Networks at Slack"
+    description: |
+      Network is the backbone of almost any cloud application. When companies scale, we add more network, qa, staging, prod, support, rds, elasticache and eventually we need to allow those network to communicate with each others.
+      How to manage that complexity? Adding a new network and allow traffic flow require you to add a new route table. A single bad route can cause lost traffic? Let's learn how Slack manage that complexity
+
+  - url: https://www.freecodecamp.org/news/wifi-hacking-securing-wifi-networks-with-aircrack-ng/
+    title: "WiFi Hacking 101 – How to Secure Your Wifi Networks With Aircrack-NG"
+    description: |
+      You cannot secure your wifi network without knowing about attack vectors. How can you try to validate that your netowrk is secure? You need to know some tools for hacking purposes.
+
+  - url: https://artem.krylysov.com/blog/2020/07/28/lets-build-a-full-text-search-engine/
+    title: "Let's build a Full-Text Search engine"
+    description: |
+      This is in Golang code sample but you get the idex of building inverted index, Text analysis, tokenizer, filter and the trick to drop stop words - because almost anything in English will contains them(such as them, I, you, etc)
+
+  - url: https://www.paepper.com/blog/posts/how-to-properly-manage-ssh-keys-for-server-access/
+    title: "How to properly manage ssh keys for server access"
+    description: "The quickest way to allow SSH access is adding their public key to `authorized_keys`, that obviously won't scale. In this, we looked at how we setup a CA as a centralization auth method for SSH"
+
+
+#  - url: https://www.astrocamel.com/web/2020/09/04/how-i-bypassed-cloudflares-sql-injection-filter.html
+#title: "How I bypassed Cloudflare's SQL Injection filter"
+#  - url: https://www.reddit.com/r/aws/comments/irkshm/moving_25tb_data_from_one_s3_bucket_to_another/
+#    title:
+#
+#  - url: https://willschenk.com/articles/2020/gitlog_in_sqlite/
+#    title: gitlog in sqlite
+#  - url: https://people.kernel.org/linusw/how-the-arm32-linux-kernel-decompresses
+#    title: "How the ARM32 Linux kernel decompresses"
+#    description: |
+#
+#  - url: http://matt.might.net/papers/vanhorn2010abstract.pdf
+#    title: "Abstracting Abstract Machines"
+#  - url: https://notes.eatonphil.com/writing-a-simple-python-compiler.html
+#    title: "Writing a simple Python compiler: 1. hello, fibonacci"
+#
+#
+#  - url: https://info.crunchydata.com/blog/avoiding-the-pitfalls-of-brin-indexes-in-postgres
+#    title: "Avoiding the Pitfalls of BRIN Indexes in Postgres"
+#
+#  - url: https://0x434b.dev/breaking-the-d-link-dir3060-firmware-encryption-recon-part-1/
+#    title: "Breaking the D-Link DIR3060 Firmware Encryption - Recon - Part 1"
+#
+#  - url: https://www.cybertec-postgresql.com/en/a-quick-pg_stat_statements-troubleshooting-hack/
+#    title: "A quick pg_stat_statements troubleshooting hack"
+#    description: |
+#      What would you do when you cannot install a Postgres monitoring system such as pghero or pgwatch2 to collect metric for performance debugging. This articile is about a quick hack that create a temp table and set up a periodically job to get metric from `pg_stat_statements` and insert into that table. Then analyzing that tabel to find slow query
+#https://ptx2.net/posts/unbricking-a-bike-with-a-raspberry-pi/
+#  - url: https://hassamuddin.com/blog/reg-alloc/
+#    title: "A Quick Introduction to Register Allocation"
+#    description: |
+#
+#https://teachyourselfcs.com/
+#  https://opensource.com/article/20/6/linux-noatime
+#http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html
+#  - url: https://github.com/EmilHernvall/dnsguide
+#    title: "A guide to writing a DNS Server from scratch in Rust"
+#    description: |
+#      Writing DNS server is like hello world for networking to me. DNS is small enough, not massive like HTTP, also relying on UDP, so I think it's a good exercise to learn UDP, DNS protocol.
+#      This artcile is focus on Rust, and I'm not a Rust programmer, only toy with Rust and I was able to follow it.
+#
+#  - url: https://csswizardry.com/2020/05/the-fastest-google-fonts/
+#    title: "The Fastest Google Fonts"
+#
+#    https://www.gutenberg.org/files/30688/30688-h/30688-h.htm
+#
+#    https://thorsten-hans.com/5-types-of-zsh-aliases#operating-system-specific-aliases
+# https://github.com/LisaDziuba/Marketing-for-Engineers
+#https://pragmaticwebsecurity.com/articles/oauthoidc/from-implicit-to-pkce.html
+
+video:
+#- url: https://www.youtube.com/watch?v=YBtzzVwrTeE
+#   title: ""
+
+  - url: https://www.youtube.com/watch?v=VBrnmciV9fM
+    title: "Writing System Software episode 1"
+    description: |
+      Watch Antirez(Redis' creator) explains Redis code base
+
+  - url: https://www.youtube.com/watch?v=Jkx6kVbDpL4
+    title: "Nielsen: Processing 55TB of Data Per Day with AWS Lambda"
+
+read_code:
+  - url: https://github.com/selectel/sql-battleships
+    title: SQL Battleships
+    description: |
+      Can you imagine a battleships game implement with SQL? Yes, this is that level 9000 of SQL.
+    category: ['SQL']
+
+  - url: https://github.com/kkuchta/TSpell
+    title: TSpell
+    description: "a compile-time spell checker using only typescript's type checker. obviously not that serious, but it does work."
+    category: ['TypeScript']
+
+  - url: https://github.com/MikeMcl/big.js
+    title: big.js
+    description: |
+      A small, fast JavaScript library for arbitrary-precision decimal arithmetic.
+    category: ['JavaScript']
+
+  - url: https://github.com/blushft/go-diagrams
+    title: go-diagrams
+    description: |
+      Last week, I included diagrams, a tool allow us to define graph using Python code. This time we have a loose port of [diagrams](https://github.com/mingrammer/diagrams)
+    category: ['Go']
+
+
+  - url: https://github.com/agrafix/rubyspeed
+    title: rubyspeed
+    description: "a basic proof of concept (horribly hacked together) that allows annotating method declarations to automatically be specialized and compiled to C."
+    category: ['Ruby']
+
+tool:
+  - url: https://securityheaders.com/
+    title: securityheaders
+    description: |
+      Scan your site for security headers. Useful to know what headers you should set to enhance security.
+
+  - url: https://github.com/leeoniya/uPlot
+    title: μPlot
+    description: |
+       a fast, memory-efficient Canvas 2D-based chart for plotting time series, lines, areas, ohlc & bars; from a cold start it can create an interactive chart containing 150,000 data points in 135ms
+
+  - url: https://github.com/beefsack/webify
+    title: webify
+    description: |
+      Turn shell commands into web services
+
+  - url: https://terjanq.github.io/Tiny-XSS-Payloads/index.html
+    title: Tiny XSS Payload
+    description: |
+      A few XSS snippet that you can use whenever you want to test some XSS, or test it on your own site :-).
+
+  - url: https://github.com/cwida/duckdb
+    title: duckdb
+    description: |
+      an embeddable SQL OLAP database management system. Like SQLite but has more Postgres-like features.
+
+  - url: https://github.com/nakabonne/ali
+    title: Ali
+    description: |
+      A load testing tool aimed to perform real-time analysis, inspired by vegeta and jplot.
+
+  - url: https://github.com/amacneil/dbmate
+    title: dbmate
+    description: "A lightweight, framework-agnostic database migration tool."
