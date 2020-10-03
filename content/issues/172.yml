@@ -1,0 +1,164 @@
+time: "Oct 05, 2020"
+subject: "The Hitchhiker’s Guide to Compression& PostgreSQL at Scale: Saving Space (Basically) for Free"
+draft: false
+
+description: |
+  Hi everyone, Welcome to issue #172.
+
+  This week, I want to introduce [starship](https://starship.rs) again. We linked to it in issue 119. But recently my zsh prompt is too slow. I do want to have all information like git repo, kube context, cli version etc but the prompt from my zsh theme is crazy slow. Take a few seconds to show up. Switching to starship make it run way faster. You also deal with nice config language instead of shell :-).
+
+links:
+  - url: https://go-compression.github.io/
+    title: The Hitchhiker’s Guide to Compression
+    description: |
+      We used compression everyday, tar, gzip, zip. What is the exact algorithm to power them?
+      Today, much of the relevant work to compression is in an obscure corner of the internet between lengthy PhD thesis papers and hard-to-find gems.
+      Let's dig in.
+
+  - url: https://gist.github.com/jboner/2841832
+    title: "Latency Numbers Every Programmer Should Know"
+    description: |
+      Big-O notation, time complexity, space complexity? But what is the aboslute number to do a thing? How long does it take to access RAM, read SSD, or send network package?
+
+  - url: https://www.haproxy.com/blog/bot-protection-with-haproxy/
+    title: "Bot Protection with HAProxy"
+    description: |
+      Eventually any large scale website will have to deal with bot, crawler, who usually just consume your resource without bringing any benefit. How we prevent them?
+      HAProxy may not well-know like Nginx because it only do load balancing, cannot do static file servers like Nginx. But it's do its job very well and support many primitives for advanced load balancing such as rate limiting, which helpful when dealing with bot.
+
+  - url: https://web.dev/detached-window-memory-leaks/
+    title: "Detached window memory leaks"
+    description: |
+      Find and fix tricky memory leaks caused by detached windows.
+
+  - url: https://dropbox.tech/application/jquery-to-react--how-we-rewrote-the-hellosign-editor
+    title: "JQuery to React: How we rewrote the HelloSign Editor"
+    description: |
+      DropBox rewrite and 12,000 loc from jQuery to React. To solve some the issue of rendering pdf different between 3 places.
+      The lesson is: Don’t fix it in UI, fix what’s behind it. A software engineer’s job is not to write code, it’s to solve problems, by writing code when necessary.
+
+  - url: https://medium.com/braintree-product-technology/postgresql-at-scale-saving-space-basically-for-free-d94483d9ed9a
+    title: "PostgreSQL at Scale: Saving Space (Basically) for Free"
+    description: |
+      A technique that saved BrainTree payment approximately 10% of disk space with very little effort beyond existing processes. In short, carefully choosing column order when creating a table can eliminate padding that would otherwise be needed.
+
+  - url: https://momjian.us/main/writings/pgsql/administration.pdf
+    title: "Mastering PostgreSQL Administration(PDF)"
+    description: |
+      This talk is designed for PostgreSQL administrators.  It covers all aspects of PostgreSQL administration, including installation, security, file structure, configuration, reporting, backup, daily maintenance, monitoring activity, disk space computations, and disaster recovery.  It shows how to control host connectivity, configure the server, find the query being run by each session, and find the disk space used by each database.
+
+  - url: https://vincent.bernat.ch/en/blog/2014-tcp-time-wait-state-linux
+    title: "Coping with the TCP TIME-WAIT state on busy Linux server"
+    description: |
+      The Linux TCP stack is a finite state machine. So when closing a connection, 2 sides need to coordinate so the state can be advanced.
+      TIME-WAIT is when the local server close the connection already, the connection is kept around so that any delayed packets can be matched to the connection and handled appropriately. Also it makes sure the remote side know that the connection is closed, so it's closed as well otherwise it stuck in LAST-ACK state. And it exit this state in 4 minutes.
+      Needless to say, keeping these around on a busy server is expensive, you need CPU, memory to handle them.
+
+
+  - url: https://www.figma.com/blog/when-fonts-fall/
+    title: "When fonts fall"
+    description: |
+      Have you ever receive a message with square or question mark character while it shows up fine on sender side?
+      Font fallback is just complex, filled with quirks and unexpected side effects.
+      Font enthusiast Marcin Wichary decided to dig into the issue and prepare an exhaustive guide to font fallback, its beauty, and all the pitfalls.
+
+  - url: https://github.com/EmilHernvall/dnsguide
+    title: "A guide to writing a DNS Server from scratch in Rust"
+    description: |
+      Writing DNS server is like hello world for networking to me. DNS is small enough, not massive like HTTP, also relying on UDP, so I think it's a good exercise to learn UDP, DNS protocol.
+      This artcile is focus on Rust, and I'm not a Rust programmer, only toy with Rust and I was able to follow it.
+
+  - url: https://pawelurbanek.com/postgresql-fix-performance
+    title: "How to Fix PostgreSQL Performance Issues with PG Extras"
+    description: |
+      PG Extras is a tool that allows you to spot common PostgreSQL pitfalls. Ruby, Rails, Elixir, and NodeJS implementations are currently available.
+      In this blog post, I present a step by step guide on using PG Extras library to spot and resolve common PostgreSQL database performance issues.
+
+video:
+#- url: https://www.youtube.com/watch?v=YBtzzVwrTeE
+#   title: ""
+  - url: https://www.youtube.com/watch?v=YBtzzVwrTeE
+    title: "Build Pac-Man Game With JavaScript"
+
+  - url: https://www.youtube.com/watch?v=8aGhZQkoFbQ
+    title: "What is the event loop anyway? | Philip Roberts | JSConf EU"
+    description: |
+      An old talks in 2014 explain event loop, one of core concept of JavaScript/NodeJS
+
+read_code:
+  - url: https://github.com/jolmg/parsby
+    title: parsby
+    description: |
+      Parser combinator library for Ruby inspired by Haskell's Parsec
+    category: ['Ruby']
+
+  - url: https://github.com/101arrowz/fflate
+    title: fflate
+    description: |
+      High performance (de)compression in an 8kB package
+    category: ['TypeScript']
+
+  - url: https://github.com/codemix/ts-sql
+    title: ts-sql
+    description: |
+      A SQL database implemented purely in TypeScript type annotations.
+    category: ['TypeScript']
+
+  - url: https://github.com/chjj/liburkel
+    title: liburkel
+    description: |
+      An optimized and cryptographically provable key-value store. Written in C.
+    category: ['C']
+
+  - url: https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life
+    title: Old Photo Restoration (Official PyTorch Implementation)
+    description: |
+      An interesting project from Microsoft to transform old, low resolution photo into sharp, modern, high resolution image
+    category: ['Python']
+
+  - url: https://github.com/ggerganov/wave-share
+    title: wave-share
+    description: |
+      A proof-of-concept for WebRTC signaling using sound. Works with all devices that have microphone + speakers. Runs in the browser.
+
+  - url: https://github.com/nakabonne/ali
+    title: ali
+    description: |
+      Generate HTTP load and plot the results in real-time
+    category: ['Go']
+
+tool:
+  - url: https://github.com/earthly/earthly
+    title: earthly
+    description: |
+      a build automation tool for the post-container era. It allows you to execute all your builds in containers. This makes them self-contained, reproducible, portable and parallel.
+
+  - url: https://github.com/google/ko
+    title: ko
+    description: |
+      Build and deploy Go applications on Kubernetes
+
+  - url: https://github.com/felixge/sqlbench
+    title: sqlbench
+    description: |
+      measures and compares the execution time of one or more SQL queries.
+
+  - url: https://developers.google.com/speed/pagespeed/insights/
+    title: Google Page Speed Insight
+    description: |
+      Scan, Analyze your website to see what you need to do to make it run faster
+
+  - url: https://github.com/dbcrossbar/dbcrossbar
+    title: dbcrossbar
+    description: |
+      Copy tabular data between databases, CSV files and cloud storage
+
+  - url: https://themarkup.org/blacklight/?url=axcoto.com
+    title: blacklight
+    description: |
+      A Real-Time Website Privacy Inspector. Open source on [Github](https://github.com/the-markup/blacklight-collector) if you want to see how they peform scanning.
+
+  - url: https://github.com/muesli/duf
+    title: duf
+    description: |
+      Disk Usage/Free Utility. Kind of like htop but for your du/df.
