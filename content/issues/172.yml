@@ -5,26 +5,25 @@ draft: false
 description: |
   Hi everyone, Welcome to issue #172.
 
-  This week, I want to introduce [starship](https://starship.rs) again. We linked to it in issue 119. But recently my zsh prompt is too slow. I do want to have all information like git repo, kube context, cli version etc but the prompt from my zsh theme is crazy slow. Take a few seconds to show up. Switching to starship make it run way faster. You also deal with nice config language instead of shell :-).
+  This week, I want to introduce [starship](https://starship.rs) again. I linked to it in issue 119. Recently my zsh prompt is too slow. I want to have all information like git repo, kube context, cli version etc but I also do not want my prompt takes a few seconds to load. Switching to starship makes it run faster. You also deal with nice config language instead of shell :-).
 
 links:
   - url: https://go-compression.github.io/
     title: The Hitchhiker’s Guide to Compression
     description: |
-      We used compression everyday, tar, gzip, zip. What is the exact algorithm to power them?
+      We used compression every day, in tar, gzip, zip files. What is the exact algorithm to power them?
       Today, much of the relevant work to compression is in an obscure corner of the internet between lengthy PhD thesis papers and hard-to-find gems.
-      Let's dig in.
 
   - url: https://gist.github.com/jboner/2841832
     title: "Latency Numbers Every Programmer Should Know"
     description: |
-      Big-O notation, time complexity, space complexity? But what is the aboslute number to do a thing? How long does it take to access RAM, read SSD, or send network package?
+      Big-O notation, time complexity, space complexity? But what is the abosolute number to do a thing? How long does it take to access RAM, read SSD, or send network package?
 
   - url: https://www.haproxy.com/blog/bot-protection-with-haproxy/
     title: "Bot Protection with HAProxy"
     description: |
-      Eventually any large scale website will have to deal with bot, crawler, who usually just consume your resource without bringing any benefit. How we prevent them?
-      HAProxy may not well-know like Nginx because it only do load balancing, cannot do static file servers like Nginx. But it's do its job very well and support many primitives for advanced load balancing such as rate limiting, which helpful when dealing with bot.
+      Eventually any large-scale website will have to deal with bot, crawler, who usually just consume your resource without bringing any benefit. How we prevent them?
+      HAProxy may not well-know like Nginx because it only does load balancing, cannot do static file servering like Nginx. But it does its job very well and supports many primitives for advanced load balancing such as rate-limiting, which is helpful when dealing with bots.
 
   - url: https://web.dev/detached-window-memory-leaks/
     title: "Detached window memory leaks"
@@ -34,7 +33,7 @@ links:
   - url: https://dropbox.tech/application/jquery-to-react--how-we-rewrote-the-hellosign-editor
     title: "JQuery to React: How we rewrote the HelloSign Editor"
     description: |
-      DropBox rewrite and 12,000 loc from jQuery to React. To solve some the issue of rendering pdf different between 3 places.
+      DropBox rewrite and 12,000 loc from jQuery to React to solve an issue of rendering pdf different between 3 places.
       The lesson is: Don’t fix it in UI, fix what’s behind it. A software engineer’s job is not to write code, it’s to solve problems, by writing code when necessary.
 
   - url: https://medium.com/braintree-product-technology/postgresql-at-scale-saving-space-basically-for-free-d94483d9ed9a
@@ -51,9 +50,8 @@ links:
     title: "Coping with the TCP TIME-WAIT state on busy Linux server"
     description: |
       The Linux TCP stack is a finite state machine. So when closing a connection, 2 sides need to coordinate so the state can be advanced.
-      TIME-WAIT is when the local server close the connection already, the connection is kept around so that any delayed packets can be matched to the connection and handled appropriately. Also it makes sure the remote side know that the connection is closed, so it's closed as well otherwise it stuck in LAST-ACK state. And it exit this state in 4 minutes.
+      TIME-WAIT is when the local server close the connection already, the connection is kept around so that any delayed packets can be matched to the connection and handled appropriately. It also helps the remote side know that the connection is closed, so remote can close as well otherwise it is stuck in LAST-ACK state. And it exit this state in 4 minutes.
       Needless to say, keeping these around on a busy server is expensive, you need CPU, memory to handle them.
-
 
   - url: https://www.figma.com/blog/when-fonts-fall/
     title: "When fonts fall"
