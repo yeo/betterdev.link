@@ -63,8 +63,8 @@ links:
   - url: https://github.com/EmilHernvall/dnsguide
     title: "A guide to writing a DNS Server from scratch in Rust"
     description: |
-      Writing DNS server is like hello world for networking to me. DNS is small enough, not massive like HTTP, also relying on UDP, so I think it's a good exercise to learn UDP, DNS protocol.
-      This artcile is focus on Rust, and I'm not a Rust programmer, only toy with Rust and I was able to follow it.
+      Writing DNS server is like hello world for networking to me. DNS is small enough, not massive like HTTP, also relying on UDP, so I think it's a good exercise to learn UDP and the DNS protocol.
+      The language is Rust, despite that I'm not a Rust programmer, I only toy with Rust and I was able to follow just fine so I think you can do the same and learn a few thing about Rust and DNS at the same time.
 
   - url: https://pawelurbanek.com/postgresql-fix-performance
     title: "How to Fix PostgreSQL Performance Issues with PG Extras"
