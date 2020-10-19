@@ -54,7 +54,7 @@ links:
       Distributed systems are tricky. Multiple unreliable machines are running in parallel, sending messages to each other across network links with arbitrary delays. How can we be confident these systems do what we want despite this chaos?
 
   - url: https://thomasvilhena.com/2020/10/a-review-of-consensus-protocols
-    title: "Oct 11, 2020 - A review of consensus protocols"
+    title: "A review of consensus protocols"
     description: |
       The consensus problem is a fundamental problem in multi-agent systems which requires a group of processes (or agents) to reliably and timely agree on a single data value. Although extensively discussed in the context of distributed computing it’s not exclusive to this field, also being present in our society in a variety of situations such as in democratic elections, the legislative process, jury trial proceedings, and so forth.
     In this post I review four major consensus protocols for solving the consensus problem based on my implementation of them, namely:
