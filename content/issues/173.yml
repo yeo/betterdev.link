@@ -96,6 +96,12 @@ read_code:
       Fast; Simple; Powerful; Go Throttler library
     category: ['Go']
 
+  - url: https://github.com/charmbracelet/bubbletea
+    title: bubbletea
+    description: |
+      The fun, functional and stateful way to build terminal apps. A Go framework based on The Elm Architecture.
+    category: ['Go']
+
 tool:
   - url: https://github.com/cybertec-postgresql/pg_squeeze
     title: pg_squeeze
