@@ -1,0 +1,137 @@
+time: "Oct 19, 2020"
+subject: "How we ran a Unix-like OS (Xv6), on our home-built CPU with our home-built C compiler"
+draft: false
+
+description: |
+  Hi everyone, Welcome to issue #173.
+
+  Last week I was so busy so I had to skip that issue. We're back to normal now. I hope you like this issue. If you find this newsletter is useful, don't forgot to tell your friend :-).
+
+
+links:
+  - url: https://fuel.edby.coffee/posts/how-we-ported-xv6-os-to-a-home-built-cpu-with-a-home-built-c-compiler/
+    title: How we ran a Unix-like OS (Xv6), on our home-built CPU with our home-built C compiler
+    description: |
+      In this post, I’m going to talk about my undergraduate days in 2015, our four months of building a home-built CPU of a home-built RISC ISA, building a home-built C toolchain, and porting Xv6, a Unix-like OS, to that CPU.
+
+  - url: https://chsasank.github.io/classic_papers/unix-time-sharing-system.html
+    title: "The UNIX Time-Sharing System"
+    description: |
+      This is a classic paper originally published in Communications of the ACM, 1974 by Dennis M. Ritchie and Ken Thompson
+
+  - url: https://lab.ktemkin.com/post/why-is-usb3-harder/
+    title: "USB3: why it's a bit harder than USB2"
+    description: "A lot of the challenges come from the way we work around physical-layer limitations. Put poetically, physics gives us lots of little obstacles we have to work around in order to talk at 5 billion transfers per second (5GT/s).
+      It's not trivial to get the same bias voltages – and common grounds – across a long motherboard or down a cable – and when you're operating at really high frequencies, you're a lot more sensitive to changes in your operating environment"
+
+  - url: https://github.com/twowaits/SDE-Interview-Questions/
+    title: "Archive of tech interview questions of Google, Amazon, FB, Samsung"
+    description: |
+      Another good one is [Google Interview Questions Deconstructed: The Knight’s Dialer](https://alexgolec.dev/google-interview-questions-deconstructed-the-knights-dialer/)
+
+  - url: http://www.infinitepartitions.com/cgi-bin/showarticle.cgi?article=art001
+    title: "Dissecting the GZIP format"
+    description: "Describe the DEFLATE algorithm that GZIP implements and depends on. The DEFLATE algorithm uses a combination of LZ77, Huffman codes and run-length-encoding; this article describes each in detail by walking through an example and developing source code to implement the algorithm. My aim is to implement readable rather than efficient or extensible code. I'll focus here on unzipping, rather than zipping, but by the end of the article, the zipping process should be clear."
+
+  - url: https://info.crunchydata.com/blog/postgresql-monitoring-for-application-developers-dba-stats
+    title: "PostgreSQL Monitoring for Application Developers: The DBA Fundamentals"
+    description: |
+      Database is the heart. Knowing how to monitor, operate, what metrics to look for are important
+
+  - url: https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/analyzing-the-limits-of-connection-scalability-in-postgres/ba-p/1757266
+    title: "Analyzing the Limits of Connection Scalability in Postgres"
+    description: |
+      One common challenge with Postgres for those of you who manage busy Postgres databases, and those of you who foresee being in that situation, is that Postgres does not handle large numbers of connections particularly well.
+      While it is possible to have a few thousand established connections without running into problems, there are some real and hard-to-avoid problems.
+
+  - url: https://pingcap.com/blog/lessons-from-tidb-no.-1-bug-hunters-who-have-found-over-400-bugs-in-popular-dbmss
+    title: "Lessons from TiDB's No. 1 Bug Hunters Who've Found 400+ Bugs in Popular DBMSs"
+    description: "Finding logic bugs is an important part of building a reliable Database Management System (DBMS). But sometimes the most obvious approach doesn't work. You can't just query several databases and compare the results. You need a more sophisticated bug-hunting approach. In this video, Manuel, a postdoctoral fellow at ETH Zurich, describes the techniques that have made him and his colleague, Professor Zhendong Su, TiDB's #1 bug hunters. They've found over 50 TiDB bugs, and when you factor in their work with other popular DBMSs, they've found over 400."
+
+  - url: https://cacm.acm.org/magazines/2020/9/246941-keeping-calm/fulltext
+    title: "Keeping CALM: When Distributed Consistency Is Easy"
+    description: |
+      Distributed systems are tricky. Multiple unreliable machines are running in parallel, sending messages to each other across network links with arbitrary delays. How can we be confident these systems do what we want despite this chaos?
+
+  - url: https://thomasvilhena.com/2020/10/a-review-of-consensus-protocols
+    title: "Oct 11, 2020 - A review of consensus protocols"
+    description: |
+      The consensus problem is a fundamental problem in multi-agent systems which requires a group of processes (or agents) to reliably and timely agree on a single data value. Although extensively discussed in the context of distributed computing it’s not exclusive to this field, also being present in our society in a variety of situations such as in democratic elections, the legislative process, jury trial proceedings, and so forth.
+    In this post I review four major consensus protocols for solving the consensus problem based on my implementation of them, namely:
+      Chandra–Toueg
+      Ben-Or
+      Basic Paxos
+      Nakamoto Consensu
+
+
+video:
+#- url: https://www.youtube.com/watch?v=YBtzzVwrTeE
+#   title: ""
+  - url: https://www.youtube.com/watch?v=sd3Lg5qgTzw
+    title: "Data Redundancy Errors Explained"
+
+  - url: https://www.youtube.com/watch?v=gNRnrn5DE58
+    title: "Origins of Precision"
+
+read_code:
+  - url: https://github.com/knadh/dragmove.js
+    title: dragmove
+    description: |
+      A super tiny Javascript library to make DOM elements draggable and movable. ~500 bytes and no dependencies.
+    category: ['Javascript']
+
+  - url: https://github.com/ankane/informers
+    title: informers
+    description: "State-of-the-art natural language processing for Ruby: Sentiment analysis, Question answering, Named-entity recognition"
+    category: ['Ruby']
+
+  - url: https://github.com/spotify/klio
+    title: klio
+    description: "Smarter data pipelines for audio"
+    category: ['Python']
+
+  - url: https://github.com/1pkg/gohalt
+    title: gohalt
+    description: |
+      Fast; Simple; Powerful; Go Throttler library
+    category: ['Go']
+
+tool:
+  - url: https://github.com/cybertec-postgresql/pg_squeeze
+    title: pg_squeeze
+    description: |
+      A PostgreSQL extension for automatic bloat cleanup
+
+  - url: https://github.com/hashicorp/boundary
+    title: Boundary
+    description: |
+      A New project from HashiCoprp.
+      It provides a secure way to access hosts and critical systems without having to manage credentials or expose your network, and is entirely open source.
+
+  - url: https://github.com/screego/server
+    title: "screego"
+    description: |
+      multi user screen sharing via browser.
+
+  - url: https://pion.ly/
+    title: pion.ly
+    description: "The Modern Stack for Web Real-Time Communication"
+
+  - url: https://github.com/airbnb/visx
+    title: visx
+    description: |
+      a collection of reusable low-level visualization components. visx combines the power of d3 to generate your visualization with the benefits of react for updating the DOM.
+
+  - url: https://github.com/dstotijn/hetty
+    title: hetty
+    description: |
+      an HTTP toolkit for security research. It aims to become an open source alternative to commercial software like Burp Suite Pro, with powerful features tailored to the needs of the infosec and bug bounty community.
+
+  - url: https://github.com/aquasecurity/tracee
+    title: tracee
+    description: |
+      Container and system event tracing using eBPF
+
+  - url: https://github.com/mxrch/GHunt
+    title: GHunt
+    description: "Investigate Google Accounts with emails."
