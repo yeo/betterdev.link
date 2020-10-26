@@ -1,0 +1,130 @@
+time: "Oct 26, 2020"
+subject: "Discipline doesn’t scale and 10 days of errors"
+draft: true
+
+description: |
+  Hi everyone, Welcome to issue #174. Let's get straight to our links this week
+
+links:
+  - url: https://www.sicpers.info/2020/10/discipline-doesnt-scale/
+    title: "Discipline doesn’t scale"
+    description: |
+      If programmers were just more disciplined, more professional, they’d write better software. All they need is a code of conduct telling them how to work like those of us who’ve worked it out.
+      The above statement is true, which is a good thing for those of us interested in improving the state of software and in helping our fellow professionals to improve their craft. However, it’s also very difficult and inefficient to apply, in addition to being entirely unnecessary. In the common parlance of our industry, “discipline doesn’t scale”.
+
+  - url: https://medium.com/botify-labs/experience-working-with-600-tb-elasticsearch-cluster-b6b5a4fa9127
+    title: "Experience working with 600+TB ElasticSearch cluster"
+    description: |
+      If you work with ElasticSearch, you know it's powerful but it's a beast to operate. Even restarting process, if done without careful planing, may cause outage due to a constant balancing and high load. In this article, botify labs shares with us their experience operating a super a 600TB+ ES cluster. At the end, they are hinting they are moving away from ElasticSearch too.
+
+  - url: https://launchdarkly.com/blog/10-days-of-errors/
+    title: "10 Days of Errors"
+    description: |
+      Put away your pumpkin spice lattés and plastic skeletons, because we’re here to talk about what sends chills down your spine and goes “ ERROR: primary database disk full” in the night. Ask not for whom the pager beeps: it beeps for thee.
+
+  - url: https://multithreaded.stitchfix.com/blog/2020/10/13/what-color-is-this-part-2/
+    title: "What Color Is This: The Computational Parts"
+    description: |
+      Stitchfix has to find the colors of clothes from their images.
+      We’ll get into depth about the computational part: current computer vision algorithm, some of their process in coming up with that algorithm, and ideas for what we’ll do next.
+
+
+  - url: https://sec.okta.com/articles/2020/08/crimeops-operational-art-cyber-crime
+    title: "CrimeOps: The Operational Art of Cyber Crime"
+    description: |
+      Cybercrime rewards innovative organizations. These can innovate at the tactical level (e.g. new or updated tactics, techniques, and procedures (TTP)), the strategic level (e.g. new monetisation methods), or at the operational level—the management of resources and personnel to achieve strategic objectives. This is operational art.
+
+  - url: https://netflixtechblog.com/building-netflixs-distributed-tracing-infrastructure-bb856c319304
+    title: "Building Netflix’s Distributed Tracing Infrastructure"
+    description: |
+      "Why doesn’t Tiger King play on my phone?" — a Netflix member via Twitter. Distributed systems are hard to debug because we have many moving parts.
+      Investigating a video streaming failure consists of inspecting all aspects of a member account. This is how Netflix designs their tracing infrastructure
+      to power a troubleshooting tool for streaming sessions.
+
+  - url: https://hakibenita.com/sql-medium-text-performance
+    title: "The Surprising Impact of Medium-Size Texts on PostgreSQL Performance"
+    description: |
+      Any database schema is likely to have plenty of text fields. In this article, I divide text fields into three categories: small text like varchar(n), large text, and medium text.
+
+  - url: https://medium.com/@sasha_f/why-mmap-is-faster-than-system-calls-24718e75ab37
+    title: "Why mmap is faster than system calls"
+    description: |
+      When I ask my colleagues why mmap is faster than system calls, the answer is inevitably “system call overhead”: the cost of crossing the boundary between the user space and the kernel. It turns out that this overhead is more nuanced than I used to think, so let’s look under the hood to understand the performance differences.
+
+
+  - url: https://stackoverflow.blog/2020/10/23/adrian-cockcroft-aws-failover-chaos-engineering-fault-tolerance-distaster-recovery/
+    title: "Failing over with falling over"
+    description: |
+      You’ve gone through the motions and play-acted a disaster recovery scenario, but despite spending a lot on the production, it’s not real. What you have is a fairy tale: “Once upon a time, in theory, if everything works perfectly, we have a plan to survive the disasters we thought of in advance.” In practice, it’s more likely to be a nightmare.
+
+  - url: https://www.verica.io/the-chaos-engineering-book/
+    title: "The Chaos Engineering Book"
+    description: |
+      Nextflix is famous for "Chaos Engineering" where we break the production's component on purpose to see how the system responds and recovers. This is a book about Chaos Engineering, and more important, it's free right now.
+
+video:
+  - url: https://www.youtube.com/watch?v=HubezKbFL7E
+    title: "Things every developer absolutely, positively needs to know about database indexing"
+
+#- url: https://www.youtube.com/watch?v=YBtzzVwrTeE
+#   title: ""
+
+read_code:
+  - url: https://github.com/joerick/pyinstrument
+    title: pyinstrument
+    description: |
+      🚴 Call stack profiler for Python. Shows you why your code is slow!
+    category: ['Python']
+
+  - url: https://github.com/rust-crdt/rust-crdt
+    title: Rust CRDT
+    description: "a collection of well-tested, serializable CRDTs for Rust"
+    category: ['Rust']
+
+  - url: https://github.com/procore/blueprinter
+    title: blueprinter
+    description: |
+      a JSON Object Presenter for Ruby that takes business objects and breaks them down into simple hashes and ser    ializes them to JSON.
+    category: ['Ruby']
+
+  - url: https://github.com/fonoster/fonos
+    title: fonos
+    description: |
+      An open-source alternative to Twilio.
+    category: ['JavaScript']
+
+  - url: https://github.com/crowdsecurity/crowdsec
+    title: crowdsec
+    description: |
+      An open-source, lightweight agent to detect and respond to bad behaviours. It also automatically benefits from our global community-wide IP reputation database.
+    category: ['Golang']
+
+tool:
+  - url: https://github.com/authelia/authelia
+    title: authelia
+    description: |
+      an open-source authentication and authorization server providing 2-factor authentication and single sign-on (SSO) for your applications via a web portal
+
+  - url: https://github.com/bunkerity/bunkerized-nginx
+    title: bunkerized-nginx
+    description: |
+      nginx Docker image secure by default.
+
+  - url: https://tasmota.github.io/docs/About/
+    title: tasmota
+    description: "an open source firmware for ESP8266 based devices"
+
+  - url: https://github.com/deislabs/akri
+    title: akri
+    description: |
+      lets you easily expose heterogeneous leaf devices (such as IP cameras and USB devices) as resources in a Kubernetes cluster.
+
+  - url: https://github.com/guumaster/hostctl
+    title: hostctl
+    description: |
+      If you found  yourself editing host file to edit somw shadowing, hidden  services then this is super userful. it makes managing `/etc/hosts` easier and cooler.
+
+  - url: https://github.com/darold/pgFormatter
+    title: pgFormatter
+    description: |
+      A PostgreSQL SQL syntax beautifier that can work as a console program or as a CGI.
