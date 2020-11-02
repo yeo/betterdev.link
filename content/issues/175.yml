@@ -1,0 +1,119 @@
+time: "Nov 2, 2020"
+subject: "How you could have come up with Paxos yourself"
+draft: false
+
+description: |
+  Hi everyone, Welcome to issue #175. 
+
+links:
+  - url: https://medium.com/@mattklein123/crash-early-and-crash-often-for-more-reliable-software-597738dd21c5
+    title: "Crash early and crash often for more reliable software"
+    description: |
+      Have you ever write defensive code and try to catch all the condition of the input and handle it gracefully?
+      Here, Matt, creator of Envoy Proxy, think that just let it crash is a better method. The resulting crash and stack trace will be extremely obvious, easy to debug, and fix. It
+
+  - url: https://felixgerschau.com/javascript-memory-management/
+    title: "JavaScript's Memory Management Explained"
+    description: |
+      Most of the time, you can probably get by fine not knowing anything about memory management as a JavaScript developer. Afterall, the JavaScript engine handles this for you.
+      In this article, I introduce you to how memory allocation and garbage collection works and how you can avoid some common memory leaks.
+
+  - url: https://explain.yshui.dev/distributed%20system/2020/09/20/paxos.html
+    title: "How you could have come up with Paxos yourself"
+    description: |
+      The Paxos algorithm is notorious for how difficult it is to understand. I had to learn the Paxos algorithm in my distributed systems class. I even have "implemented" it by translating Leslie Lamport's TLA+ to Python. But I didn't understand it until much much later. Now I have a better understanding of Paxos than I used to, I want to explain it to other people.
+
+  - url: https://copyconstruct.medium.com/file-descriptor-transfer-over-unix-domain-sockets-dcbbf5b3b6ec
+    title: File Descriptor Transfer over Unix Domain Sockets
+    descriptor: |
+      Dive deep into a paper from Facebook "Zero Downtime Release: Disruption-free Load Balancing of a Multi-Billion User Website".
+      Facebook uses a technique call "Socket Takeover". They transfer the file descriptor to a a new process, so the new process takes on new connection, while
+      the old process continue serving old connection until the end of draining period.
+
+  - url: https://samy.pl/slipstream/
+    title: NAT Slipstreaming
+    description: "a method allows an attacker to remotely access any TCP/UDP service bound to a victim machine, bypassing the victim's NAT/firewall (arbitrary firewall pinhole control), just by the victim visiting a website."
+
+  - url: https://medium.com/bbc-design-engineering/moving-bbc-online-to-the-cloud-afdfb7c072ff
+    title: "Moving BBC Online to the cloud"
+    description: |
+      BBC migrated an existing on-premise site to the cloud. Use new technolgies such as serverless. Hundreds of people have been involved, over several years.
+      They talk about  the approach we took to creating a new site that’s ready for the future. Delivering quality technology change, quickly and effectively.
+
+  - url: https://www.cybertec-postgresql.com/en/postgresql-foreign-keys-and-insertion-order-in-sql/
+    title: "PostgreSQL: foreign keys and insertion order in sql"
+    description: |
+      Foreign keys are useful but they are a pain to use. You need to insert the data in right order. So how we're going to figure out the order of relationship if we're new to the data model?
+      Here, the author wrote an extensive query that generate that magic order.
+
+  - url: https://medium.com/pinterest-engineering/how-a-one-line-change-decreased-our-build-times-by-99-b98453265370
+    title: "How a one line change decreased Pinterest clone times by 99%"
+    description: |
+      Pinterest uses Jenkins for their CI/CD. In Jenkins, when checking out a Git repository, you can optionally set RefSpec. They found out setting refspec increases speed on huge repo.
+
+  - url: https://www.functionize.com/blog/improve-your-debugging-strategies/
+    title: "Improve your debugging strategies"
+    description: |
+      Have you ever gotten so frustrated while searching for an issue in your code that you tried something you know you already tried, just to see if it works this time? That is the point where a different strategy might work better
+
+  - url: https://vmblog.com/archive/2020/10/30/how-salesforce-operates-kubernetes-multitenant-clusters-in-public-cloud-at-scale.aspx
+    title: "How Salesforce Operates Kubernetes Multitenant Clusters in Public Cloud at Scale"
+    description: |
+      Imagine spending hours digging into an intermittent connectivity failure issue only to discover the problem had been caused by a sysctl flag that had been set to 0 in a naive attempt at optimization, when it should have been set to 1! Salesforce shares with us how they operates their complex k8s clusters.
+
+
+video:
+  - url: https://signalsandthreads.com/building-a-functional-email-server/
+    title: Building a functional email server
+    category: ["podcast"]
+
+read_code:
+  - url: https://github.com/sql-js/sql.js
+    title: sql.js
+    description: |
+      A javascript library to run SQLite on the web.
+    category: ['JavaScript']
+
+  - url: https://github.com/joerick/pyinstrument
+    title: pyinstrument
+    description: |
+      🚴 Call stack profiler for Python. Shows you why your code is slow!
+    category: ['Python']
+
+  - url: https://github.com/radar/humanize
+    title: humanize
+    description: |
+      Essentially help you do this `42.humanize # => "forty two"`
+    category: ['Ruby']
+
+  - url: https://github.com/muesli/gamut
+    title: gamut
+    description: "Go package to generate and manage color palettes & schemes. Probably we rarely need to use this, but it's good to know how to do it in Go"
+    category: ['Go']
+
+tool:
+  - url: https://github.com/inexio/thola
+    title: thola
+    description: |
+      A tool for monitoring and provisioning (coming soon) network devices written in Go. It features a check mode which complies with the monitoring plugins development guidelines and is therefore compatible with Nagios, Icinga, Zabbix, Checkmk, etc.
+
+  - url: https://vega.github.io/vega-lite/
+    title: vega-lite
+    description: |
+      A Grammar of Interactive Graphics
+
+  - url: https://github.com/salesforce/sloop
+    title: sloop
+    description: |
+      monitors Kubernetes, recording histories of events and resource state changes and providing visualizations to aid in debugging past events
+
+  - url: https://github.com/containers/skopeo
+    title: skopeo
+    description: |
+      Work with remote images registries - retrieving information, images, signing content.
+      An example is [How to use skopeo to migrate off Docker Hub](https://jjasghar.github.io/blog/2020/10/30/how-to-use-skopeo-to-migrate-off-dockerhub/)
+
+  - url: http://pyropus.ca/software/getmail/
+    title: getmail
+    description: |
+      a mail retriever designed to allow you to get your mail from one or more mail accounts on various mail servers to your local machine for reading with a minimum of fuss.
