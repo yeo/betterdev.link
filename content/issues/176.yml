@@ -1,0 +1,136 @@
+time: "Nov 9, 2020"
+subject: "6 Scary Outage Stories from CTOs and What's in a Linux executable"
+draft: false
+
+description: |
+  Hi everyone, Welcome to issue #176.
+
+links:
+  - url: https://thenewstack.io/6-scary-outage-stories-from-ctos/
+    title: "6 Scary Outage Stories from CTOs"
+    description: |
+      You’re sound asleep when the alarms go off. It’s 3 a.m. You wipe your eyes, check your phone. You know something is wrong. Very wrong.
+      The website is down. Your application is broken. The only light in the room is coming from your computer monitor. The Gremlin in the system can be hiding anywhere, and it’s your team’s job to find it
+
+  - url: https://fasterthanli.me/series/making-our-own-executable-packer/part-1
+    title: "What's in a Linux executable?"
+    description: |
+      Attempt to understand how Linux executables are organized, how they are executed, and how to make a program that takes an executable fresh off the linker and compresses it - just because we can.
+
+  - url: http://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf
+    title: "The Little Book of Semaphores(PDF)"
+    description: "To deal with synchronization, usually a set of primitives (mutexes, semaphores, monitors, and sometimes condition variables) are used to control read and write safely.  It's one of the most challenging, interesting, and (done right) fun.  This book has the goal of identifying synchronization idioms and patterns that could be understood in isolation and then assembled to solve complex problems."
+
+  - url: https://reliability.substack.com/p/why-you-should-frequently-turn-down
+    title: "Why you should frequently turn down ~30% of canary instances"
+    description: |
+      To measure scalability limit, a common approach is sending a bunch of GET/POST/PUT request to simulate production traffic. But this is only useful for API, with a normal webapp it becomes complicated.
+      An alternate approach is the Utilization DRT (Disaster Recovery Test), with the goal of: Estimate the amount of headroom your service can handle in practice, Determine anomalies in behavior of your service when it’s overloaded.
+
+  - url: https://timmmm.github.io/fast-inverse-square-root/
+    title: "Fast Inverse Square Root"
+    description: |
+      The famous fast inverse square root is some mysterious code not written by programming legend John Carmack to calculate a fast approximation of 1/√x
+
+  - url: https://auth0.com/blog/preventing-clickjacking-attacks/
+    title: "Clickjacking Attacks and How to Prevent Them"
+    description: "Learn how clickjacking attacks implement visual tricks to capture users' clicks, and how you can prevent them by applying client-side and server-side solutions"
+
+  - url: https://docs.gitlab.com/ee/administration/reply_by_email_postfix_setup.html
+    title: "Set up Postfix for incoming email"
+    description: |
+      When you just want a simple mail server to receive incoming mail notification, this maybe very helpful. No fancy gsuite or zoho cuz that requires payment. A simple server would do that purpose. and it's easier than it's sound to receive your internal email such as devops/alert notification
+
+  - url: https://www.hillelwayne.com/post/queueing-prism/
+    title: "Two workers are quadratically better than one"
+    description: |
+      There are two primary performance metrics for a task queue. Throughput is how many tasks are processed per time unit. Latency is how long a task waits in the queue before being processed. Throughput scales as you’d expect (2x workers ≈ 2x throughput) but latency is less intuitive. In this essay we will model a simple task queue and show how the latency is highly sensitive to our initial parameters.
+
+  - url: https://natanyellin.com/posts/life-and-death-of-a-linux-process/
+    title: "Life and Death of a Linux Process"
+    description: |
+      This post contains a rough sketch of the life and death of a process on Linux. It is a first-order approximation only. A later post will refine this further and provide a more precise description, adding details about pid namespaces, obscure syscalls, and little known flags.
+
+  - url: https://www.iamjonas.me/2020/11/how-to-own-code.html
+    title: "How to own a code"
+    description: "This part two of [how to read a code](https://www.iamjonas.me/2020/08/how-to-read-code.html). In the first post I asked how to make a change to an unknown code base with confidence. Knowing the architecture of it is a necessary but often not sufficient step. You can make changes. But I doubt it's with confidence."
+
+
+video:
+
+read_code:
+  - url: https://github.com/woltapp/blurhash
+    title: blurhash
+    description: |
+      A very compact representation of a placeholder for an image
+    category: ['Swift', 'C', 'Python']
+
+  - url: https://github.com/ReactiveX/RxGo
+    title: RxGo
+    description: "Reactive Extensions for the Go language"
+    category: ['Go']
+
+  - url: https://github.com/redirect2me/which-dns
+    title: which-dns
+    description: |
+      DNS Resolver Detection. This is a combined DNS+HTTP server that shows which DNS server a computer is using.
+    category: ['Go']
+
+
+  - url: https://github.com/Martin-Nyaga/termplot
+    title: termplot
+    description: |
+      a simple terminal plotting tool for visualising streaming data.
+    category: ['Ruby']
+
+  - url: https://github.com/markedjs/marked
+    title: marked
+    description: |
+      A markdown parser and compiler. Built for speed.
+    category: ['JavaScript']
+
+
+  - url: https://github.com/spencermountain/spacetime
+    title: spacetime
+    description: |
+      A lightweight javascript timezone library. Help you learn how to deal with timezone, one of the aspect we take for granted, especially when dealing with DST
+    category: ['JavaScript']
+
+tool:
+  - url: https://github.com/guardicore/monkey
+    title: monkey
+    description: |
+      Infection Monkey - An automated pentest tool
+
+  - url: https://github.com/tomnomnom/gron
+    title: gron
+    description: |
+      transforms JSON into discrete assignments to make it easier to grep for what you want and see the absolute 'path' to it.
+
+  - url: https://github.com/netenglabs/suzieq
+    title: suzieq
+    description: |
+      Suzieq is both a framework and an application using that framework, that is focused on improving the observability of your network.
+      Help you easily answer trivial questions such as how many unique prefixes are there in your routing table, or how many MAC addresses are there in the MAC tables across the network?
+
+  - url: https://github.com/haraka/Haraka
+    title: Haraka
+    description: |
+      A fast, highly extensible, and event driven SMTP server
+
+  - url: https://github.com/fireeye/ThreatPursuit-VM
+    title: Threat Pursuit Virtual Machine (VM)
+    description: |
+      A fully customizable, open-sourced Windows-based distribution focused on threat intelligence analysis and hunting designed for intel and malware analysts as well as threat hunters to get up and running quickly
+
+  - url: https://github.com/gao-sun/eul
+    title: eul
+    description: |
+      macOS status monitoring app written in SwiftUI.
+
+  - url: https://github.com/jlfwong/speedscope
+    title: speedscope
+    description: |
+      A fast, interactive web-based viewer for performance profiles. An alternative viewer for FlameGraphs. Will happily display multi-megabyte profiles without crashing your browser.
+
+
