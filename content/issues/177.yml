@@ -1,0 +1,133 @@
+time: "Nov 16, 2020"
+subject: "Does Apple really log every app you run? A technical look"
+draft: false
+
+description: |
+  Hi everyone, Welcome to issue #177.
+
+links:
+  - url: https://blog.jacopo.io/en/post/apple-ocsp/
+    title: "Does Apple really log every app you run? A technical look"
+    description: |
+      Apple’s launch of macOS Big Sur was almost immediately followed by server issues which prevented users from running third-party apps on their computers. While a workaround was soon found by people on Twitter, others raised some privacy concerns related to that issue.
+
+  - url: https://www.security-embedded.com/blog/2020/11/14/application-trust-is-hard-but-apple-does-it-well
+    title: "Application Trust is Hard, but Apple does it Well"
+    description: |
+      a look at the mechanisms involved in authenticating an application package in macOS Big Sur, at the most fundamental level.
+
+  - url: https://engineeringblog.yelp.com/2020/11/minimizing-read-write-mysql-downtime.html
+    title: "Minimizing read-write MySQL downtime"
+    description: |
+      MySQL is still used in primary-secondary setup. To update primary, we have to pause write. Pausing data modifications causes downtime, and this amount of downtime must be minimized to the shortest amount possible. This post details how Yelp has integrated open-source tools to provide advanced MySQL failure detection and execute automated recoveries to minimize the downtime of our read-write MySQL traffic.
+
+  - url: https://www.cybertec-postgresql.com/en/streaming-replication-conflicts-in-postgresql/
+    title: "dealing with streaming replication conflicts in Postgresql"
+    description: |
+      Streaming replication in PostgreSQL is a well-established master-slave replication technique. It is simple to set up, stable and performs well. So many people are surprised when they learn about replication conflicts — after all, the standby server is read-only. This even happen on AWS RDS.
+      This article describes replication conflicts and tells you how to deal with them
+
+
+  - url: https://dropbox.tech/infrastructure/asynchronous-task-scheduling-at-dropbox
+    title: "How we designed Dropbox’s ATF - an async task framework"
+    description: |
+      Almost any large scale system will need some kind of job queue or async task. Dropbox designed a system that can handle 10,000 async tasks per second from the start, and be architected for future growth. This system is used among 28 teams. They documented Dropbox ATF thoroughly, as a reference and guide for the engineering community seeking their own async solutions.
+      Another article on this topic are from [DoorDash on Eliminating Task Processing Outages by Replacing RabbitMQ with Apache Kafka Without Downtime](https://doordash.engineering/2020/09/03/eliminating-task-processing-outages-with-kafka/)
+
+  - url: https://mads-hartmann.com/sre/2020/09/08/alerting-on-slos.html
+    title: "Alerting on SLOs"
+    description: |
+      Alerting based on threshold get frustrated very quickly
+
+  - url: https://daniel.haxx.se/blog/2020/11/09/this-is-how-i-git/
+    title: "This is how I git"
+    description: "See how curl's creator use Git. We can defintely learn a lot from him."
+
+  - url: "https://speakerdeck.com/garethr/configuration-security-is-a-developer-problem?slide=22"
+    title: "Configuration security is a developer problem"
+    description: "With too many options to configure security for a systems, what can we do?"
+
+  - url: https://www.techatbloomberg.com/blog/10-insights-adopting-typescript-at-scale/
+    title: "10 Insights from Adopting TypeScript at Scale"
+    description: |
+      JavaScript Infrastructure & Tooling Lead at Bloomberg and Co-chair of TC39 explains how to migrate 50 million lines of JS code to TypeScript
+
+  - url: https://research.nccgroup.com/2020/11/11/decrypting-openssh-sessions-for-fun-and-profit/
+    title: "Decrypting OpenSSH sessions for fun and profit"
+    description: |
+      cover the research I have done into OpenSSH and release some tools to dump OpenSSH session keys from memory and decrypt and parse sessions in combinarion with pcaps
+
+#  - url: https://www.naut.ca/blog/2020/11/13/forbidden-commands-to-liberate-macos/
+#    title: "Forbidden Commands to Speed Up macOS"
+#
+#  - url: https://github.com/dekuNukem/pimp_my_microwave
+#    title: "Installing a RGB mechanical keypad on my microwave."
+
+video:
+  - url: https://simonwillison.net/2020/Nov/14/personal-data-warehouses/
+    title: "Personal Data Warehouses: Reclaiming Your Data"
+
+#  - url: https://www.youtube.com/watch?v=Unzc731iCUY
+#    title: "How To Speak by Patrick Winston"
+#    description: |
+#      I'm an introvert and non native English speaker. I feel the pain of how to speak right.
+#      Especially for a software engineer, speak and write is how we transfer our knowledge to team.
+
+  - url: https://www.youtube.com/watch?v=9GDX-IyZ_C8
+    title: "Operating System Basics"
+    description: |
+
+read_code:
+  - url: https://github.com/ogham/dog
+    title: dog
+    description: "Command-line DNS client"
+    category: ['Rust']
+
+  - url: https://github.com/Homebrew/ruby-macho
+    title: ruby-macho
+    description: "A Ruby library for examining and modifying the Mach-O file format is used by macOS and iOS (among others) as a general purpose binary format for object files, executables, dynamic libraries, and so forth"
+    category: ['Ruby']
+
+  - url: https://github.com/danielgatis/rembg
+    title: rembg
+    description: "a tool to remove images background."
+    category: ['Python']
+
+  - url: https://github.com/hbollon/go-edlib
+    title: go-edlib
+    description: "string comparison and edit distance algorithms library, featuring : Levenshtein, LCS, Hamming, Damerau levenshtein (OSA and Adjacent transpositions algorithms), Jaro-Winkler, Cosine, etc..."
+    category: ['Go']
+
+  - url: https://github.com/kpdecker/jsdiff
+    title: jsdiff
+    description: "A javascript text differencing implementation."
+    category: ['JavaScript']
+
+tool:
+  - url: https://github.com/rogchap/wombat
+    title: wombat
+    description: "Cross platform gRPC client"
+
+  - url: https://github.com/powerfulseal/powerfulseal
+    title: powerfulseal
+    description: "A powerful testing tool for Kubernetes clusters."
+
+  - url: https://github.com/tilt-dev/ctlptl
+    title: "ctlptl"
+    description: " a CLI for declaratively setting up local Kubernetes clusters."
+
+  - url: https://github.com/orf/gping
+    title: gping
+    description: "Ping with a graph"
+
+  - url: https://pgstats.dev/
+    title: pgstats
+    description: "Postgres Observability"
+
+  - url: https://www.beekeeperstudio.io/
+    title: beekeeperstudio
+    description: "Open Source SQL Editor and Database Manager"
+
+  - url: https://github.com/TwinProduction/gatus
+    title: gatus
+    description: "A service health dashboard in Go that is meant to be used as a docker image with a custom configuration file."
