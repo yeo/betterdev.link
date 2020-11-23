@@ -1,0 +1,140 @@
+time: "Nov 23, 2020"
+subject: "Going Bark: A Furry’s Guide to End-to-End Encryption and Implementing Curve25519/X25519"
+draft: false
+
+description: |
+  Hi everyone, Welcome to issue #177.
+
+links:
+  - url: https://soatok.blog/2020/11/14/going-bark-a-furrys-guide-to-end-to-end-encryption/
+    title: "Going Bark: A Furry’s Guide to End-to-End Encryption"
+    description: |
+      Explaining how to encrypt and decrypt data between users, assuming you have a key. Next, how to build an authenticated key exchange and a ratcheting protocol to determine the keys used in the first step. Afterwards, exploreing techniques for binding authentication keys to identities and managing trust.
+
+  - url: https://martin.kleppmann.com/papers/curve25519.pdf
+    title: "Implementing Curve25519/X25519: A Tutorial on Elliptic Curve Cryptography"
+    description: |
+      This tutorial bridges the gap between the mathematics and implementation of elliptic curve cryptography. It is written for readers
+      who are new to cryptography, and it assumes no more mathematical background than most undergraduate computer science courses.
+      Starting from first principles, this document shows how to derive every line of code in an implementation of the X25519 Diffie-Hellman
+      key agreement scheme, based on the Curve25519 elliptic curve. The implementation is fast and secure; in particular, it is constant-time
+      to prevent side-channel attacks.
+
+  - url: https://boonepeter.github.io/posts/2020-11-10-spotify-codes/
+    title: "How do Spotify Codes work?"
+    description: |
+      If you are curious about how bar code, QR code work you will like this article. It shows how Spotify designed their code and how to process an image to decode its data
+
+  - url: https://arunsori.me/posts/postgres-clickhouse-fdw-in-go/
+    title: "Writing a Postgres Foreign Data Wrapper for Clickhouse in Go"
+    description: |
+      FDWs in essence, allows to access foreign data sources inside Postgres(PG) via a set of wrapper APIs.
+      They are usually written in C obviously to interact with Postgres APIs.
+      If you want to use Go, what are the steps we need?
+
+  - url: https://dropbox.tech/application/building-for-reliability-at-hellosign
+    title: "Building for reliability at HelloSign"
+    description: |
+      After a couple months of dealing with the fallout, our engineering team took a step back to look holistically at why some unexpected behaviors were happening. We traced the overwhelming majority back to the application’s core. To fix this, we decided to bucket code into three tiers dubbed the error kernel, core features, and extended features.
+
+
+  - url: https://www.algolia.com/blog/tech-startup-dilemmas-resilient-deployment-vs-exhaustive-tests/
+    title: "Tech Startup Dilemmas: Resilient Deployment vs. Exhaustive Tests"
+    description: |
+      We need to find the right balance between resilience and innovation. Both can be contradictory: to be resilient, we must test everything, which consumes time that we don’t spend innovating. A good trade-off is to test in production.
+  - url: https://www.servethehome.com/an-introduction-to-zfs-a-place-to-start/
+    title: "An Introduction to ZFS A Place to Start"
+    description: |
+      ZFS has become increasingly popular in recent years. ZFS on Linux (ZoL) has pushed the envelope and exposed many newcomers to the ZFS fold. iXsystems has adopted the newer codebase, now called OpenZFS, into its codebase for TrueNAS CORE. The purpose of this article is to help those of you who have heard about ZFS but have not yet had the opportunity to research it.
+
+  - url: https://tomcam.github.io/postgres/
+    title: "psql command line tutorial and cheat sheet"
+    description: |
+      This is both a brief tutorial and a quick reference for the absolute least you need to know about psql. I assume you’re familiar with the command line and have a rough idea about what database administration tasks, but aren’t familiar with how to use psql to do the basics.
+
+  - url: https://www.naut.ca/blog/2020/11/13/forbidden-commands-to-liberate-macos/
+    title: "Forbidden Commands to Speed Up macOS"
+    description: |
+      If you take speed and convenience over security any day! Let us march on boldly 😃! The steps listed below will give you a short description of each protection we disable, and the necessary command in Terminal.
+
+  - url: https://refactoringui.com/previews/building-your-color-palette/
+    title: Building Your Color Palette
+    description: |
+      If you are not a designer and work on front-end for your side project, knowing about building a color paletter is super userful
+
+video:
+  - url: https://www.youtube.com/watch?v=QZwneRb-zqA
+    title: "Exploring How Computers Work"
+
+  - url: https://corecursive.com/058-brian-kernighan-unix-bell-labs/
+    title: "The Birth of UNIX with Brian Kernighan"
+
+  - url: https://www.youtube.com/watch?v=R3_ccsuPoD8&feature=emb_logo
+    title: "Knowing your systems and how they can fail: Twilio and AWS talk at Chaos Conf 2020"
+    description: |
+      By AWS VP Cloud Architecture Strategy.
+      Read the [write up too](https://www.gremlin.com/blog/knowing-your-systems-and-how-they-can-fail-twilio-and-aws-talk-at-chaos-conf-2020/)
+
+read_code:
+  - url: https://github.com/trashhalo/imgcat
+    title: imgcat
+    description: "a tool to output images as RGB ANSI graphics on the terminal"
+
+  - url: https://github.com/orf/gping
+    title: gping
+    description:  "Ping, but with a graph"
+    category: ['Rust']
+
+  - url: https://github.com/humanwhocodes/momoa
+    title: momoa
+    description: "A JSON parser, tokenizer, traverser, and printer. It differs from the built-in JSON object is that it's more fine-grained analysis of JSON structures."
+    category: ['JavaScript']
+
+  #  - url: https://github.com/thoughtbot/high_voltage
+  #    title: high_voltage
+  #    description: |
+  #      Easily include static pages in your Rails app.
+  #    category: ['Ruby']
+  #
+  #  - url: https://github.com/joshbuddy/jsonpath
+  #    title: jsonpath
+  #    description: |
+  #      a way of addressing elements within a JSON object. Similar to xpath of yore, JsonPath lets you traverse a json object and manipulate or access it.
+  #    category: ['Ruby']
+
+  - url: https://github.com/mcmire/super_diff
+    title: super_diff
+    description: |
+      A more helpful way to view differences between complex data structures in RSpec.
+    category: ['Ruby']
+
+  - url: https://github.com/cilium/ebpf
+    title: eBPF
+    description: |
+      a pure Go library that provides utilities for loading, compiling, and debugging eBPF programs. It has minimal external dependencies and is intended to be used in long running processes
+    category: ['Go']
+
+tool:
+  - url: https://github.com/k0sproject/k0s
+    title: "k0s - Zero Friction Kubernetes"
+    description: |
+      k0s is an all-inclusive Kubernetes distribution with all the required bells and whistles preconfigured to make building a Kubernetes clusters a matter of just copying an executable to every host and running it.
+
+  - url: https://github.com/yahoo/athenz
+    title: athenz
+    description: "Open source platform for X.509 certificate based service authentication and fine grained access control in dynamic infrastructures"
+
+  - url: https://github.com/inovex/illuminatio
+    title: illuminatio
+    description: |
+       a tool for automatically testing kubernetes network policies. Simply execute illuminatio clean run and illuminatio will scan your kubernetes cluster for network policies, build test cases accordingly and execute them to determine if the policies are in effect.
+
+  - url: https://github.com/PostgREST/postgrest
+    title: postgrest
+    description: |
+      serves a fully RESTful API from any existing PostgreSQL database. It provides a cleaner, more standards-compliant, faster API than you are likely to write from scratch
+
+  - url: https://github.com/foxcpp/maddy
+    title: maddy
+    description: |
+      Maddy Mail Server implements all functionality required to run a e-mail server. It can send messages via SMTP (works as MTA), accept messages via SMTP (works as MX) and store messages while providing access to them via IMAP. In addition to that it implements auxiliary protocols that are mandatory to keep email reasonably secure (DKIM, SPF, DMARC, DANE, MTA-STS).
