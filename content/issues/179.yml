@@ -1,0 +1,134 @@
+time: "Dec 07, 2020"
+subject: "Mitigate Connection Leaks in Production via Proxies"
+draft: false
+
+description: |
+  Hi everyone, Welcome to issue #179. Let's sit back and enjoy some story about how company dealing with scale and their incident.
+
+links:
+  - url: https://reliability.substack.com/p/mitigate-connection-leaks-in-production
+    title: "Mitigate Connection Leaks in Production via Proxies"
+    description: |
+      Every socket connection in Unix/Linux systems is represented by a file. Files opened by a process are represented by file descriptors - integer numbers that are used in I/O syscalls like read/write. it’s easy to deploy a bug that leaks connections, causes the system to run out of file descriptors, and prevent new connections. It’s difficult to solve this problem in a truly general sense due to the various code paths that may have connection leaks. However, if we’re looking to solve only for internal service communication, we control internal RPC frameworks and deployments, and we can make it simple to debug these failures, catch them before full production rollout, and possibly eliminate them.
+
+  - url: https://medium.com/last9/root-cause-analysis-for-reliability-a-case-study-8a987ed3a31c
+    title: "Root Cause Analysis For Reliability: A Case Study"
+    description: |
+      Wikipedia defines Root Cause Analysis (RCA) as “a method of problem-solving used for identifying the root causes of faults or problems.”
+      Essentially, root cause analysis means to dive deeper into an issue to find what caused a non-conformance. What’s important to understand here is that Root Cause Analysis does not mean just looking at superficial causes of a problem. Rather, it means finding the highest-level cause- the thing that started a chain of cause-effect reactions and ultimately led to the issue at hand.
+
+  - url: https://slack.engineering/scaling-datastores-at-slack-with-vitess/
+    title: "Scaling Datastores at Slack with Vitess"
+    description: |
+      Slack serves 2.3 million QPS at peak. 2M of those queries are reads and 300K are writes. Median query latency is 2 ms, and p99 query latency is 11 ms.
+      This shareds detail how they evaluate Vitess and migrate to it at their scale. They are 99% on track of migrating to Vitess at this point
+
+  - url: https://www.theregister.com/2020/12/01/githubs_journey_towards_microservices/
+    title: "GitHub's journey towards microservices and more: 'We actually have our own version of Ruby that we maintain'"
+    description: |
+      GitHub's architecture is deeply rooted in Ruby on Rails," said Ma, adding that "a monolithic architecture got us pretty far," including multiple code deploys every day and high scale, "serving over a billion API calls daily." Now they are migrating to microservices, why? Because they acquires so many companies with different tech stacks from Python, Node, C#, and merge sister team from Microsoft. In other words, it isn't a scalability issue but more about collaboration across teams
+
+  - url: https://aws.amazon.com/message/11201/
+    title: "Summary of the Amazon Kinesis Event in the Northern Virginia (US-EAST-1) Region"
+    description: |
+      A large scale incident of Kinesis in US-East-1 last week. They hit a limit of OS thread, they lack of alerting on OS thread limit to know the root cause earlier.
+      Check out [DataDog incident on Infrastructure connectivity issue impacting multiple systems too](https://www.datadoghq.com/blog/2020-09-25-infrastructure-connectivity-issue/)
+
+  - url: https://github.com/mkirchner/linked-list-good-taste
+    title: Linked lists, pointer tricks and good taste
+    description: |
+      In a 2016 TED interview (14:10) Linus Torvalds speaks about what he considers good taste in coding. As an example, he presents two implementations of item removal in singly linked lists (reproduced below). In order to remove the first item from a list, one of the implementations requires a special case, the other one does not. Linus, obviously, prefers the latter
+
+  - url: https://invisibleup.com/articles/34/
+    title: "The perils of file typing"
+    description: |
+      Suppose you double-click on a file on your computer. You're doing this so you can open the file and work with it. But does your operating system know what that means? How does it know what to open the file in? Let's look at some solutions that have been proposed over the years to solving this issue.
+
+  - url: https://www.moritz.systems/blog/mastering-unix-pipes-part-1/
+    title: "Mastering UNIX pipes, Part 1"
+    description: |
+      A pipe is a first-in-first-out interprocess communication channel. This is frequently observed in UNIX shell constructs that utilize the | operator. In this artcile, we look at the pipes from C API perspective.
+
+  - url: https://blog.rustprooflabs.com/2020/11/postgis-trajectory-intro
+    title: "PostGIS Trajectory: Space plus Time"
+    description: |
+      An experiment on using Postgres and PostGIS as the main workhorse for data over space and time. This post outlines examples of how to use these new PostGIS trajectory tricks with OpenStreetMap data for path findinng
+
+  - url: https://elvischidera.com/2020-11-23-building-distributed-android-remote-testing-platform/
+    title: "Building a Distributed Android Remote Testing Platform - An Attempt to Make Real GUI Testing Affordable & Comprehensive"
+    description: |
+      There are currently ~2.5 billion Android devices — consisting of ~1,300 discrete brands and ~24,000 unique device models. I'm exploring tapping into this latent resource pool to make automated testing affordable & unlock a more comprehensive configuration coverage.
+
+video:
+  - url: https://www.youtube.com/watch?v=6avJHaC3C2U
+    title: "The Art of Code - Dylan Beattie"
+    description: |
+      But what about the code that only exists because somebody wanted to write it? Code created just to make people smile, laugh, maybe even dance? Maybe even code that does nothing at all, created just to see if it was possible
+
+read_code:
+  - url: https://github.com/trekhleb/javascript-algorithms
+    title: javascript-algorithms
+    description: |
+       Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+    category: ['JavaScript']
+
+  - url: https://github.com/spectresystems/spectre.console
+    title: spectre.console
+    description: |
+      A library that makes it easier to create beautiful console applications.
+    category: ['Python']
+
+  - url: https://github.com/nakabonne/pbgopy
+    title: pbgopy
+    description: "acts like pbcopy/pbpaste but for multiple devices. It lets you share data across devices like you copy and paste."
+    category: ['Go']
+
+  - url: https://github.com/vmihailenco/treemux
+    title: treemux
+    description: |
+      fast and flexible HTTP router. as fast as httprouter but with relaxed routing rules.
+    category: ['Go']
+
+  - url: https://github.com/danielpclark/rutie
+    title: rutie
+    description: |
+      Integrate Ruby with your Rust application. Or integrate Rust with your Ruby application. This project allows you to do either with relative ease.
+    category: ['Rust', 'Ruby']
+
+  #  - url: https://github.com/thoughtbot/high_voltage
+  #    title: high_voltage
+  #    description: |
+  #      Easily include static pages in your Rails app.
+  #    category: ['Ruby']
+  #
+  - url: https://github.com/joshbuddy/jsonpath
+    title: jsonpath
+    description: |
+      a way of addressing elements within a JSON object. Similar to xpath of yore, JsonPath lets you traverse a json object and manipulate or access it.
+    category: ['Ruby']
+
+tool:
+  - url: https://github.com/mikf/gallery-dl
+    title: gallery-dl
+    description: |
+      Command-line program to download image-galleries and -collections from several image hosting sites
+
+  - url: https://github.com/adroll/baker
+    title: baker
+    description: |
+      a high performance, composable and extendable data-processing pipeline for the big data era.
+      Read the companion tutorial at [getbaker.io](https://getbaler.io)
+
+  - url: https://github.com/go-rod/rod
+    title: rod
+    description: "a high-level driver directly based on DevTools Protocol. It's designed for web automation and scraping. It performs better than Puppeteer or Playwright"
+
+  - url: https://github.com/microsoft/ethr
+    title: ethr
+    description:  a Comprehensive Network Measurement Tool for TCP, UDP & ICMP.
+
+  - url: https://github.com/OPMDG/check_pgactivity
+    title: check_pgactivity
+    description: |
+      PostgreSQL plugin for Nagios
+
