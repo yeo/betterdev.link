@@ -1,0 +1,133 @@
+time: "Dec 14, 2020"
+subject: "A former Uber engineer's disaster story ios programming"
+draft: false
+
+description: |
+  Hi everyone, Welcome to issue #180. Let's sit back and see how Strava migrate MySQL to overcome limit if int32 for their id, or how youtube built their analytical column store.
+
+links:
+  - url: https://medium.com/strava-engineering/the-boring-option-4a7c6ad16ab8
+    title: "The Boring Option: Migrating Segment Efforts Storage at Strava"
+    description: |
+      It was at this point where we had a decision to make. We had, at best, five months of runway left on our activity_id column before the rollover happened. Yet no alternative data store really was meeting all our requirements.
+
+  - url: https://twitter.com/stantwinb/status/1336890442768547845
+    title: "A former Uber engineer's disaster story ios programming"
+    description: "A twitter thread about rewritten of an app from Objective C to Swift, in production, used by million of people.  Uber migration to Swift is almost a failure if something didn't happen such as they have a brilliant compilier engineer and Apple bump up bundle limit to 150MB then 200MB."
+
+  - url: https://joe.schafer.dev/procella-youtube-analytical-database/
+    title: "Procella - YouTube’s analytical column store"
+    description: |
+      a horizontally scalable, eventually consistent, distributed column store leveraging lambda architecture to support both realtime and batch queries [
+
+  - url: https://nodesource.com/blog/event-loop-utilization-nodejs
+    title: "Introduction to Event Loop Utilization in Node.js"
+    description: "The goal of this was to indirectly infer the state of the application without introducing measurable overhead. I've run a few hundred hours of benchmarks and collected over one million data points to make sure my analysis was correct. Eventually, I plan to write about all aspects of my research, but today we will focus on a metric that has already been added to Node."
+
+  - url: https://addyosmani.com/blog/import-on-interaction/
+    title: "The Import On Interaction Pattern"
+    description: |
+      lazy-load non-critical resources when a user interacts with UI requiring it. Google uses this technique in google doc to reduce initial bundle load size
+
+  - url: https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/
+    title: "CS 6120: Advanced Compilers: The Self-Guided Online Cours"
+    description: |
+      a PhD-level Cornell CS course by Adrian Sampson on programming language implementation. It covers universal compilers topics like intermediate representations, data flow, and “classic” optimizations as well as more research-flavored topics such as parallelization, just-in-time compilation, and garbage collection
+
+  - url: https://towardsdatascience.com/networking-tools-every-developer-needs-to-know-e17c9159b180
+    title: "Networking Tools Every Developer Needs to Know"
+    description: |
+      Let’s learn the overlooked networking skills like inspecting DNS records, scanning ports, troubleshooting connections or firewalls and much more…
+
+  - url: https://carolynvanslyck.com/blog/2020/12/git-wip/
+    title: "Quick tip: git wip: What the heck was I just doing?"
+    description: |
+      Know the feeling when you came back from vacation do a git branch and thousdand thing pop up?
+      This quick tip let you display `git branch` in the order of last changed
+
+  - url: https://cqrs.wordpress.com/documents/building-event-storage/
+    title: "Building an Event Storage"
+    description: |
+      In “Events as a Storage Mechanism” the concept of rebuilding state from a series of events was looked at from a conceptual viewpoint. This chapter will focus on the implementation of an actual Event Storage and some of the issues that come up in producing an implementation
+
+  - url: https://javascript.christmas/2020
+    title: "JavaScript Christmast"
+    description: |
+      One article per day till Christmast. Check out other site in same style such as [https://security.christmas/](https://security.christmas/) 
+
+video:
+  - url: https://www.youtube.com/watch?v=VYuToviSx5Q
+    title: "Architecting a Modern Financial Institution"
+    description: |
+      The key elements that make Nubank tick for millions of customers every day, including transaction authorization, messaging infrastructure (Kafka), real-time double-entry accounting (Datomic), customer and temporal sharding, their analytical environment and the role of predictive models, and some key security decisions they made along the way.
+
+  - url: https://changelog.com/gotime/159
+    title: "What to expect when you’re NOT expecting"
+    description: |
+      Let’s face it, even the best-intended code doesn’t always do what you want it to. This is a talk on Go, but we can learn from experts.
+
+read_code:
+  - url: https://github.com/fb55/htmlparser2
+    title: htmlparser2
+    description: |
+      The fast & forgiving HTML/XML parser
+    category: ['JavaScript']
+
+  - url: https://github.com/vincentdchan/PoloDB
+    title: PoloDB
+    description: |
+      an embedded JSON-based database.
+    category: ['Rust']
+
+  - url: https://gitlab.com/tslocum/basiclander
+    title: basiclander
+    description: |
+      Lunar Lander clone. This game was created for the LibreJam December 2020 game jam.  It is playable and winnable, however it is minimalist to say the least.
+    category: ['Go']
+
+  - url: https://github.com/piotrmurach/tty-reader
+    title: tty-reader
+    description: |
+      A set of methods for processing keyboard input in character, line and multiline modes.
+
+  - url: https://github.com/benwilber/boltstream
+    title: boltstream
+    description: |
+      Live Video Streaming Website + Backend. Good read if you want to understand architecture to do live video streaming with nginx, ffmpeg.
+    category: ['Python']
+
+tool:
+  - url: https://github.com/nat/ghtop
+    title: ghtop
+    description: "See what's happening on GitHub in real time (also helpful if you need to use up your API quota as quickly as possible)"
+    category: ['Python']
+
+  - url: https://github.com/mozilla/sops#passing-secrets-to-other-processes
+    title: sop
+    description: "Simple and flexible tool for managing secrets"
+
+  - url: https://github.com/tfsec/tfsec
+    title: tfsec
+    description: "🔒🌍 Security scanner for your Terraform code"
+
+  - url: https://github.com/netbox-community/netbox
+    title: netbox
+    description: |
+      IP address management (IPAM) and data center infrastructure management (DCIM) tool
+
+  - url: https://github.com/WerWolv/ImHex
+    title: "ImHex"
+    description: |
+      A Hex Editor for Reverse Engineers, Programmers and people that value their eye sight when working at 3 AM.
+
+  - url: https://semgrep.dev/
+    title: semgrep
+    description: |
+      Semgrep is a lightweight, offline, open-source, static analysis tool.
+      Read [companion post on how to use Semgrep for Cloud security](https://www.marcolancini.it/2020/blog-semgrep-for-cloud-security/)
+
+  - url: https://agroal.github.io/pgagroal/
+    title: pgagroal
+    description: |
+      a high-performance protocol-native connection pool for PostgreSQL.
+
