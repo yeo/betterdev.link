@@ -88,7 +88,8 @@ read_code:
   - url: https://github.com/piotrmurach/tty-reader
     title: tty-reader
     description: |
-      A set of methods for processing keyboard input in character, line and multiline modes.
+      A set of methods for processing keyboard input in character, line and multiline modes
+    category: ['Ruby']
 
   - url: https://github.com/benwilber/boltstream
     title: boltstream
