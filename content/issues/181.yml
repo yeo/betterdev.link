@@ -1,0 +1,155 @@
+time: "Dec 21, 2020"
+subject: "Understanding how AES encryption works"
+draft: false
+description: |
+  Hi everyone, Welcome to issue #181. This will be the final issue of 2020. We will be back on January 4th. Happy new year and have a great holiday everyone.
+  Btw, if you are doing on-call during this holiday seasson, and have issues about on-call, incident management, or need help during on-call, hit me up at vinh@betterdev.link.
+
+  I included quite a bit of monitoring tools in this issue, to help you deal with on-call at the end of year too.
+
+links:
+  - url: https://nakabonne.dev/posts/understanding-how-aes-encryption-works/
+    title: "Understanding how AES encryption works"
+    description: |
+      I recently had the opportunity to encrypt/decrypt stuff using AES, but I didn’t know it inside out well. I couldn’t help but be curious about how it is working, and I realized my mind could only be satisfied by digging deeper into its implementation. This post walks you through how AES encryption works by reading core implementation written in Go.
+
+  - url: https://github.blog/2020-12-17-commits-are-snapshots-not-diffs/
+    title: "Commits are snapshots, not diffs"
+    description: |
+      I believe that Git becomes understandable if we peel back the curtain and look at how Git stores your repository data. After we investigate this model, we’ll explore how this new perspective helps us understand commands like git cherry-pick and git rebase
+
+  - url: https://www.oreilly.com/content/generic-mitigations/
+    title: "Generic mitigations A philosophy of duct-tape outage resolution"
+    description: |
+      Do you work on a service that you (and, presumably, your users) would like to keep working? Well, if so, I’m here to convince you that your service should have at least one or two generic mitigations ready to go. If it doesn’t, you’re in for a bad time. If it does, treasure them, maintain them, and use them, lest they rot beneath your feet.
+
+  - url: https://engineering.fb.com/2020/12/09/data-center-engineering/how-facebook-keeps-its-large-scale-infrastructure-hardware-up-and-running/
+    title: "How Facebook keeps its large-scale infrastructure hardware up and running"
+    description: |
+      embrace failure.
+      automation. machine learning to automate the automation. build system that can detect and remediate issues.monitor and remediate hardware events without adversely impacting application performance. use prediction methodology for remediations. automate root cause analysis for hardware and system failures at scale to get to the bottom of issues quickly.
+
+  - url: https://decentralizedthoughts.github.io/2020-12-12-raft-liveness-full-omission/
+    title: "Raft does not Guarantee Liveness in the face of Network Faults"
+    description: |
+      Last month, Cloudflare published a postmortem of a recent 6-hour outage caused by a partial switch failure which left etcd unavailable as it was unable to establish a stable leader. This outage has understandably led to discussion online about exactly what liveness guarantees are provided by the Raft consensus algorithm in the face of network failures.
+
+  - url: https://arxiv.org/abs/2012.09086
+    title: "Causality is Graphically Simple"
+    description: |
+      Events in distributed systems include sending or receiving messages, or changing some state in a node. Not all events are related, but some events can cause and influence how other, later events, occur. For instance, a reply to a received mail message is influenced by that message, and maybe by other prior messages also received. This article brings an introduction to classic causality tracking mechanisms and covers some more recent developments. The presentation is supported by a new graphical notation that allows an intuitive interpretation of the causality relations described.
+
+
+  - url: https://medium.com/@rbranson/10-things-i-hate-about-postgresql-20dbab8c2791
+    title: "10 Things I Hate About PostgreSQL"
+    description: |
+      Despite the click bait title, this is a really good post with real pain point of Postgres.
+
+  - url: https://netflixtechblog.com/life-of-a-netflix-partner-engineer-the-case-of-extra-40-ms-b4c2dd278513
+    title: "Life of a Netflix Partner Engineer — The case of the extra 40 ms"
+    description: |
+      Talk about one particularly difficult issue that blocked the launch of a device in Europe.
+      This wasn’t the last bug we fixed on this platform, but it was the hardest to track down. It was outside of the Netflix application, in a part of the system that was outside of the playback pipeline, and all of the initial data pointed to a bug in the Netflix application itself.
+
+  - url: https://begriffs.com/posts/2020-03-23-concurrent-programming.html?hn=1
+    title: "Concurrent programming, with examples"
+    description: |
+      we’ll cover the production workhorses for concurrent software – threading and locking – and learn about them through a series of interesting programs. By the end of this article you’ll know the terminology and patterns used by POSIX threads (pthreads
+
+
+video:
+  - url: https://www.youtube.com/watch?v=QZwneRb-zqA
+    title: "Exploring How Computers Work"
+    description: "A little exploration of some of the fundamentals of how computers work. Logic gates, binary, two's complement; all that good stuff!"
+
+  - url: https://www.youtube.com/watch?v=1ffBJ4sVUb4
+    title: "[Linux.conf.au 2013] - Git For Ages 4 And Up"
+
+  - url: https://www.youtube.com/watch?v=I0-izyq6q5s
+    title: "How Do Computers Remember?"
+    description: |
+      Exploring some of the basics of computer memory: latches, flip flops, and registers!
+
+read_code:
+  - url: https://github.com/liljencrantz/crush
+    title: crush
+    description: |
+      a command line shell that is also a powerful modern programming language.
+    category: ['Rust']
+
+  - url: https://github.com/maildev/maildev
+    title: maildev
+    description: |
+      SMTP Server + Web Interface for viewing and testing emails during development.
+    category: ['JavaScript']
+
+  - url: https://github.com/hajimehoshi/ebiten
+    title: ebiten
+    description: |
+      A dead simple 2D game library for Go
+    category: ['Go']
+
+  - url: https://github.com/victords/super-bombinhas
+    title: "super-bombinhas"
+    description: "A platformer game written in Ruby"
+    category: ['Ruby']
+
+  - url: https://github.com/saulpw/visidata
+    title: visidata
+    description: |
+      A terminal interface for exploring and arranging tabular data.
+    category: ['Python']
+
+tool:
+  - url: https://github.com/LukasLoeffler/pgtools
+    title: pgtools
+    description: |
+      Gui application to monitor postgres database events in real time
+
+  - url: https://metacpan.org/release/COSIMO/pgtop-0.11
+    title: pgtop
+    description: |
+      Like mytop but for Postgres
+
+  - url: https://github.com/rubycdp/ferrum
+    title: ferrum
+    description: |
+      high-level API to control Chrome in Ruby. Super clean and simple DSL to do automation in a browser
+
+  - url: https://github.com/go-vgo/robotgo
+    title: robotgo
+    description: |
+      Golang Desktop Automation. Control the mouse, keyboard, bitmap, read the screen, Window Handle and global event listener.
+      Support Mac, Window, Linux(X11)
+    category: ['Go']
+
+
+  - url : https://github.com/meilisearch/MeiliSearch
+    title: 'MeiliSearch'
+    description: |
+      Lightning Fast, Ultra Relevant, and Typo-Tolerant Search Engine
+
+  - url: https://github.com/typesense/typesense
+    title: typesense
+    description: |
+      Fast, typo tolerant, fuzzy search engine for building delightful search experiences
+
+  - url: https://sqlpad.github.io/sqlpad/
+    title: sqlpad
+    description: |
+      Open source, self-hosted web app for writing and running SQL queries and visualizing the results. Supports Postgres, MySQL, SQL Server, ClickHouse, Crate, Vertica, Presto, Pinot, Drill, SAP HANA, Snowflake, BigQuery, SQLite, and many others via ODBC.
+
+  - url: https://github.com/getmeli/meli
+    title: meli
+    description: |
+      Open source platform for deploying static sites and frontend applications
+
+  - url: https://github.com/Netflix/consoleme
+    title: consoleme
+    description: |
+      strives to be a multi-account AWS swiss-army knife, making AWS easier for your end-users and cloud administrators. It is designed to consolidate the management of multiple accounts into a single web interface
+
+  - url: https://github.com/mgartner/pg_flame
+    title: pg_flame
+    description: |
+      A flamegraph generator for Postgres EXPLAIN ANALYZE output.
