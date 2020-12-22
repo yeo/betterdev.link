@@ -153,3 +153,8 @@ tool:
     title: pg_flame
     description: |
       A flamegraph generator for Postgres EXPLAIN ANALYZE output.
+
+  - url: https://github.com/quay/clair
+    title: clair
+    description: Vulnerability Static Analysis for Containers
+
