@@ -2,39 +2,48 @@ time: "Jan 04, 2020"
 subject: "A Tale why node.example.com is an IPV6 address"
 draft: false
 description: |
-  Hi everyone, happy new year. Welcome to the first issue of 2021. Thanks you for being a reader of this newsletter.
+  Hi everyone and Happy New Year! Welcome to the first issue of 2021. Thank you for being a reader of this newsletter.
 
 links:
   - url: https://tuckersiemens.com/posts/node-example-com-is-an-ip-address/
     title: "node.example.com Is An IP Address"
-    description: "node.example.com is an ipv6 in Python2? Read on for a tale where text encoding goes wrong in Python2. TLDR: Don't use Python 2. Even though it's a Python focus article but you will learn to pay attention to text encoding"
+    description: |
+      node.example.com is an ipv6 in Python2? Read on for a tale where text encoding goes wrong in Python2.
+      TLDR: Don't use Python 2. Even though it's a Python focus article but you will learn to pay attention to text encoding.
 
   - url: https://github.blog/2020-12-21-how-we-built-the-github-globe/
     title: "How we built the GitHub globe"
     description: |
-      The new github homepage has an interactive globe which you can rotate it and see the interaction between countries. This artircle explained how they did that using WebGL, three.js and bezier curve
+      The new github homepage has an interactive globe which you can rotate it, and see the interaction between countries.
+      This artircle explained how they did that using WebGL, three.js and bezier curve.
 
   - url: https://jahfer.com/posts/innodb-locks/
     title: "A Comprehensive (and Animated) Guide to InnoDB Locking"
     description: |
-      InnoDB only has a handful of locking concepts, but their use and behaviour depend greatly on the transaction isolation level that is active for the connection.
+      InnoDB only has a handful of locking concepts, but their usage and behavior depended greatly on the transaction isolation level that is active for the connection.
 
   - url: https://levelup.gitconnected.com/concurrency-bugs-and-databases-e798596e083b
     title: "Concurrency, Bugs and Databases"
     description: |
-      Databases come with a bunch of isolation levels, each of them providing some sort of guarantee. For example, snapshot isolation protects us against phantom reads. However, isolation levels do not protect us against everything. Let’s discuss a few real-world scenarios where concurrency can cause bugs and their possible solutions.
+      Databases come with a bunch of isolation levels, and each of them provides some sort of guarantee. For example, snapshot isolation protects us against phantom reads. However, isolation levels do not protect us against everything. Let’s discuss a few real-world scenarios where concurrency can cause bugs and their possible solutions.
 
   - url: https://apenwarr.ca/log/20201227
     title: "Systems design explains the world: volume 1"
-    description: "Systems design is invisible to people who don't know how to look for it. With code, you can measure output by the line or the bug. With systems design, the key insight might be a one-sentence explanation given at the right time to the right person, that affects the next 5 years of work, or is the difference between hypergrowth and steady growth."
+    description: |
+      Systems design is invisible to people who don't know how to look for it. With code, you can measure output by the line or the bug.
+      With systems design, the key insight might be a one-sentence explanation given at the right time to the right person, that affects the next 5 years of work, or is the difference between hypergrowth and steady growth.
+    
   - url: https://www.linuxjournal.com/content/queueing-linux-network-stack
     title: "Queueing in the Linux Network Stack"
     description: |
-      Packet queues are a core component of any network stack or device. They allow for asynchronous modules to communicate, increase performance and have the side effect of impacting latency. This article aims to explain where IP packets are queued on the transmit path of the Linux network stack, how interesting new latency-reducing features, such as BQL, operate and how to control buffering for reduced latency.
+      Packet queues are a core component of any network stack or device. 
+      They allow for asynchronous modules to communicate, increase performance and have the side effect of impacting latency. 
+      This article aims to explain where IP packets are queued on the transmit path of the Linux network stack, how interesting new latency-reducing features, such as BQL, operate and how to control buffering for reduced latency.
+  
   - url: https://blog.twitter.com/engineering/en_us/topics/infrastructure/2019/daperture-load-balancer.html
     title: "Deterministic Aperture: A distributed, load balancing algorithm"
     description: |
-      Walk through a new client-side load balancing technique we’ve developed and deployed widely at Twitter which has allowed our microservice architecture to efficiently scale clusters to thousands of instances. We call this new technique deterministic aperture.
+      A walk through of a new client-side load balancing technique we’ve developed and deployed widely at Twitter which has allowed our microservice architecture to efficiently scale clusters to thousands of instances. We call this new technique deterministic aperture.
 
   - url: https://how.complexsystems.fail/
     title: "How Complex Systems Fail"
@@ -44,7 +53,7 @@ links:
   - url: https://use-the-index-luke.com/no-offset
     title: "Pagination without offset"
     description: |
-      Offset instructs the databases skip the first N results of a query. However, the database must still fetch these rows from the disk and bring them in order before it can send the following ones.
+      Offset instructs the databases skip the first N results of a query. However, the database must still fetch these rows from the disk ,and bring them in order before it can send the following ones.
       In this article, we look into a method to pagination records from query without using object.
       Napkin math has an interesting post [discuss why offset is very expensive too](https://sirupsen.com/napkin/problem-14-using-checksums-to-verify/)
 
@@ -53,7 +62,7 @@ links:
     description: |
       This post is a part of a series on x86-64 assembly programming.
       We started implementing an emulator for a simple instruction set of our own. We sketched out the overall architecture, and implemented a few instructions for moving data between virtual registers and memory.
-      By doing that we understand x86-64 instructions and how numbers are represented in a computer
+      By doing that, we understand x86-64 instructions and how numbers are represented in a computer.
 
 video:
 
@@ -67,19 +76,19 @@ read_code:
   - url: https://github.com/jhillyerd/enmime
     title: enmime
     description: |
-      a MIME encoding and decoding library for Go, focused on generating and parsing MIME encoded emails.
+      a MIME encoding and decoding library for Go which focused on generating and parsing MIME encoded emails.
     category: ['Go']
 
   - url: https://github.com/swoosh/swoosh
     title: swoosh
     description: |
-      Compose, deliver and test your emails. Support multiple providers: postfix, sendmail, SES, mailgun, mailjet and more
+      Compose, deliver and test your emails. Support multiple providers: postfix, sendmail, SES, mailgun, mailjet and more.
     category: ['Elixir']
 
   - url: https://github.com/artichoke/artichoke
     title: artichoke
     description: |
-      💎 Artichoke is a Ruby made with Rust
+      💎 Artichoke is a Ruby made with Rust.
     category: ['Rust', 'Ruby']
 
   - url: https://github.com/rkoeninger/ShenScript
@@ -92,7 +101,7 @@ tool:
   - url: https://github.com/erebe/personal-server
     title: "personal-server"
     description: |
-      Personal server configuration with k3s. Include postfix for mail sending, Management of secrets with SOPS and a GPG key, Kubernetes k3s, Backup and Wireguard for VPN.
+      Personal server configuration with k3s which includes postfix for mail sending, Management of secrets with SOPS and a GPG key, Kubernetes k3s, Backup and Wireguard for VPN.
 
   - url: https://www.snebu.com/
     title: SNEBU
@@ -107,4 +116,4 @@ tool:
   - url: https://github.com/dani-garcia/bitwarden_rs
     title: bitwarden_rs
     description: |
-      Unofficial Bitwarden compatible server written in Rust
+      Unofficial Bitwarden compatible server written in Rust.
