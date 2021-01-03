@@ -82,6 +82,12 @@ read_code:
       💎 Artichoke is a Ruby made with Rust
     category: ['Rust', 'Ruby']
 
+  - url: https://github.com/rkoeninger/ShenScript
+    title: ShenScript
+    description: |
+      An implementation of the Shen Language by Mark Tarver for JavaScript.
+    category: ['JavaScript']
+
 tool:
   - url: https://github.com/erebe/personal-server
     title: "personal-server"
