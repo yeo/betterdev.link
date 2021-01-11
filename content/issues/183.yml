@@ -1,0 +1,112 @@
+time: "Jan 11, 2020"
+subject: "General Guide For Exploring Large Open Source Codebases"
+draft: false
+description: |
+  Hi everyone, second issue of 2021. Hope you stay positive and healthy. If you have any feedback, hit me at vinh@betterdev.link. Until next time!
+
+links:
+  - url: https://pncnmnp.github.io/blogs/oss-guide.html
+    title: "General Guide For Exploring Large Open Source Codebases"
+    description: |
+      Exploring a new repository can certainly be a daunting task. Many angles come at play - familiarity with the languages, understanding of the tools or frameworks used, how components integrate with each other, what paradigm is used by the developers, etc. The points mentioned in this section will present you with approaches to make this journey smoot
+
+  - url: https://owlspace.xyz/cybersec/steam-login/
+    title: "Steam's login method is kinda interesting"
+    description: |
+      How do you send a password over the internet? You acquire a SSL certificate and let TLS do the job of securely transporting the password from client to server.
+      But Steam’s login page doesn’t only rely on TLS to ensure that your password stays protected.
+      I’ll be discussing Steam’s unique method of logging in their users, and go down a deep rabbit hole of fascinating implementation details.
+
+  - url: https://marienraat.nl/hacking-qr-codes.html
+    title: "Hacking QR code design"
+    description: "Let's see how we can create QR codes that look however we want, while preserving links. We'll also show the world's first working QR gif (as far as I know)."
+
+  - url: https://github.blog/2021-01-06-building-on-call-culture-at-github/
+    title: "Building On-Call Culture at GitHub"
+    description: |
+      Most of the GitHub products you interact with are in a large Ruby on Rails monolith. Monolithic codebases are common for many high-growth startups, and it’s a difficult situation to detangle yourself from. One of the pain points we had was problems with the on-call system for our monolith.
+
+  - url: https://dropbox.tech/infrastructure/lessons-learned-in-incident-management
+    title: "Lessons learned in incident management"
+    description: |
+      The lessons Dropbox has learned in incident management. You probably won’t find all of these in a textbook description of an incident command structure, and you shouldn’t view these improvements as a one-size-fits-all approach for every company. (Their usefulness will depend on your tech stack, org size, and other factors.) Instead, we hope this serves as a case study for how you can take a systematic view of your organization’s own incident response and evolve it to meet your users’ needs
+
+  - url: https://aws.amazon.com/blogs/database/performance-impact-of-idle-postgresql-connections/
+    title: "Performance impact of idle PostgreSQL connections"
+    description: |
+      A series about idle PostgreSQL connections. The first one is about memory consupmtion, this one is about its affect on performance.
+
+  - url: https://anadoxin.org/blog/error-recovery-in-raid6.html/
+    title: "Reed-Solomon error recovery in RAID-6"
+    description: "In this post I'll try to give you a simple example how you can create your own error recovery solution based on what is used in RAID-6. More specifically, if you need to provide rendundancy across your mediums so that a failure of 1 or 2 mediums will be tolerated, look no further! ;)"
+
+  - url: https://mukulrathi.co.uk/create-your-own-programming-language/llvm-ir-cpp-api-tutorial/
+    title: "A Complete Guide to LLVM for Programming Language Creators"
+    description: |
+      Dream of creating your own programming language. LLVM has your back. Rust, Crystal, Swift they are all used LLVM.
+
+  - url: https://eklitzke.org/how-tail-call-optimization-works
+    title: "How Tail Call Optimization Works"
+    description: |
+      Without TCO many recursive functions can blow up the stack causing a stack overflow.
+      Therefore by teaching people about TCO in the context of recursion, you can teach them why optimizing compilers (or interpreters) can run tail recursive code efficiently and without causing a stack overflow.
+
+  - url: https://engineering.convertkit.com/2020/11/01/q3-aws-bill.html
+    title: "232,822 spent on AWS in Q3 - A full breakdown of ConvertKit's AWS bil"
+    description: "Cost breakdown of a real world application. It's great when company share detail about their server cost so we can have insight on how big companies operate their infrastructure. You will learn some tips as well to optimize billing"
+
+#  - url: https://viewsourcecode.org/snaptoken/kilo/
+#    title: "Build Your Own Text Editor"
+
+video:
+  - url: https://www.youtube.com/watch?v=7ek994-fwNE
+    title: "exfiltrating data via leakage from ethernet and more"
+
+read_code:
+  - url: https://github.com/victordibia/handtrack.js
+    title: handtrack.js
+    description: "A library for prototyping realtime hand detection (bounding box), directly in the browser."
+    category: ['JavaScript']
+
+  - url: https://github.com/GeorgeKaraszi/ActiveRecordExtended
+    title: ActiveRecordExtended
+    description: |
+      Adds additional postgres functionality to an ActiveRecord / Rails application
+    category: ['Ruby']
+
+  - url: https://github.com/jameslittle230/stork
+    title: stork
+    description: |
+      🔎 Impossibly fast web search, made for static sites.
+    category: ['Stork']
+
+  - url: https://github.com/beeware/briefcase
+    title: briefcase
+    description: |
+      a tool for converting a Python project into a standalone native application. You can package projects for: Mac, Window, Linux, iPhone, Android
+    category: ['Python']
+
+  - url: https://github.com/hajimehoshi/oto
+    title: oto
+    description: |
+      ♪ A low-level library to play sound on multiple platforms ♪
+    category: ['Go']
+
+tool:
+  - url: https://github.com/lra/mackup
+    title: mackup
+    description: |
+      Keep your application settings in sync.
+
+  - url: https://github.com/kinvolk/headlamp
+    title: headlamp
+    description: "An easy-to-use and versatile dashboard for Kubernetes brought to you by Kinvolk."
+
+  - url: https://github.com/aiven/pghoard
+    title: pghoard
+    description: |
+      PostgreSQL backup and restore service
+
+  - url: https://github.com/agroal/pgagroal
+    title: pgagroal
+    description: High-performance connection pool for PostgreSQL
