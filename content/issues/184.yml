@@ -1,0 +1,97 @@
+time: "Jan 18, 2021"
+subject: "User-defined Order in SQL and and Building DigitalOcean's API gateway"
+draft: false
+description: ""
+
+links:
+  - url: https://begriffs.com/posts/2018-03-20-user-defined-order.html
+    title: "User-defined Order in SQL"
+    description: |
+      How do you design a system that allow user to define their own ordering of item in SQL. The challenge is that the order is arbitrary and can change when the user rearranges items.
+
+  - url: https://mauricio.github.io/2021/01/14/building-digitaloceans-api-gateway.html
+    title: "Building DigitalOcean's API gateway"
+    description: |
+      The history of building DigitalOcean’s API gateway. How we made it easier for folks to build new microservices instead of continuing to add code to our monoliths, the successes, failures and lessons learned. We all learn from real world experience by looking at how major companies do a certain things.
+
+  - url: https://queue.acm.org/detail.cfm?id=3442634
+    title: "Always-on Time-series Database: Keeping Up Where There's No Way to Catch Up"
+    description: "As a thought exercise, consider this for a moment: What if, as a core business requirement, you found you needed to provide for the capture of data from disconnected operations, such that updates might be made by different parties at the same time—or in overlapping time—without conflicts? what if your service called for you to receive massive volumes of data almost continuously throughout the day, such that you couldn't really afford to interrupt data ingest at any point for fear of finding yourself so far behind present state that there would be almost no way to catch up"
+
+  - url: https://ikonicscale.com/your-legacy-database-is-outgrowing-itself
+    title: "Your legacy database is outgrowing itself"
+    description: |
+      How do you scale database for a website that is rank 215th on the world by alexa. They got over 4M unique daily users and over 7B queries hitting all our MySQL databases combined.
+
+  - url: https://hakibenita.com/postgresql-hash-index
+    title: Re-Introducing Hash Indexes in PostgreSQL
+    description: "B-Tree is the defactor index type. There is another type of index you are probably not using, and may have never even heard of. It is wildly unpopular, and until a few PostgreSQL versions ago it was highly discouraged and borderline unusable, but under some circumstances it can out-perform even a B-Tree index."
+
+  - url: https://marcinhoppe.com/securing-your-github-project/
+    title: "Securing Your GitHub Project"
+    description: |
+      A checklist to help you secure your Github repository
+
+  - url
+  - url: https://www.algolia.com/blog/may-30-ssl-incident/
+    title: "SSL incident of Algolia"
+    description: |
+      TLS and  Public Key Infrastructure is hard. What do you do when  the root certification authorities expired.
+      A lesson from Algolia team on solving an incident When things don’t work completely, it is often easier to identify what does not work rather than in situations when some things work and some things don’t.
+
+  - url: https://austingil.com/how-to-build-html-forms-right-security/
+    title: "How to Build HTML Forms Right: Security"
+    description: |
+      A 5 parts serie about building HTML form properly and best practices: Semantics, Accessibility, Styling, User Experience and Security
+
+  - url: https://brunocalza.me/discovering-and-exploring-mmap-using-go/
+    title: "Discovering and exploring mmap using Go"
+    description: "how to deal with data in disk that is bigger than the available memory? One of the ways a database storage engine can solve the larger than memory problem is to make use of virtual memory and the concept of memory-mapped files. This uses Go as an example but you're free to use any language. The core idea is to learn aboit syscall of mmap"
+
+#  - url: https://viewsourcecode.org/snaptoken/kilo/
+#    title: "Build Your Own Text Editor"
+
+video:
+
+read_code:
+  - url: https://github.com/davidhampgonsalves/life-dashboard
+    title: life-dashboard
+    description: |
+      Turn your own kindle into an information panel summarizing my day such as my calendar, surf and weather forecast, garbage schedule, school closures, etc.
+
+    category: ['Rust']
+
+  - url: https://github.com/rouge-ruby/rouge
+    title: rouge
+    description: "A pure Ruby code highlighter that is compatible with Pygments"
+    category: ['Ruby']
+
+  - url: https://github.com/go-resty/resty
+    title: "resty"
+    description: "Simple HTTP and REST client library for Go"
+    category: ['Go']
+
+tool:
+  - url: https://github.com/juicedata/juicefs
+    title: juicefs
+    description: |
+      a distributed POSIX file system built on top of Redis and S3.
+
+  - url: https://github.com/watchexec/watchexec
+    title: watchexec
+    description: "Executes commands in response to file modifications"
+
+  - url: https://github.com/salesforce/cloudsplaining
+    title: cloudsplaining
+    description: |
+      Cloudsplaining is an AWS IAM Security Assessment tool that identifies violations of least privilege and generates a risk-prioritized report.
+
+  - url: https://github.com/cloudskiff/driftctl
+    title: driftctl
+    description: |
+      Detect, track and alert on infrastructure drift
+
+  - url: https://github.com/orgrim/pg_back
+    title: pg_back
+    description: |
+      Simple backup script for PostgreSQL
