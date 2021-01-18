@@ -32,7 +32,6 @@ links:
     description: |
       A checklist to help you secure your Github repository
 
-  - url
   - url: https://www.algolia.com/blog/may-30-ssl-incident/
     title: "SSL incident of Algolia"
     description: |
