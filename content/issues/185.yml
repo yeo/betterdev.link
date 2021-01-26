@@ -64,6 +64,12 @@ links:
 video:
 
 read_code:
+  - url: https://github.com/lni/dragonboat
+    title: dragonboat
+    description: |
+      A feature complete and high performance multi-group Raft library in Go.
+    category: ['Go']
+
   - url: https://github.com/jazz-soft/JZZ/blob/master/javascript/JZZ.js
     title: "JZZ: MIDI library for Node.js and web-browsers"
     description: |
