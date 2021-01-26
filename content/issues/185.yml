@@ -1,0 +1,113 @@
+time: "Jan 25, 2021"
+subject: "KindleDrip — From Your Kindle’s Email Address to Using Your Credit Card"
+draft: false
+description: |
+  Beside our normal link, this week I want to say about what I have been working on.
+
+  Due to lock down policy, I have more time to work on my [side project](https://hanami.run?bd). Today I'm launching [hanami.run](https://hanami.run?bd), a [service to forward email](https://hanami.run?bd) from your custom domain to your own personal email.
+  If you have a domain, you can use any arbitraty username@your-domain.com to register for service like newsletter, website. If anyone leak your email address, you know who sold your email addresses.
+
+  If you want to receive emails to your own domain, then give [hanami.run](https://hanami.run?bd) a try.
+
+links:
+  - url: https://medium.com/realmodelabs/kindledrip-from-your-kindles-email-address-to-using-your-credit-card-bb93dbfb2a08
+    title: "KindleDrip — From Your Kindle’s Email Address to Using Your Credit Card"
+    description: |
+      A 18K$ bug bounty for a critical Amazon Kindle vulnerability. Leverage mail to kindle feature. brute force the kindle address, spoof the from header, reverse engineer rendering engine for Vulnerability to access to shell code, gain root and own Kindle device. An impressive, smart and creative kindle hack.
+
+  - url: https://symas.com/cache-management-lessons-learned/
+    title: "Cache management lessons learned"
+    description: "Author of OpenLDAP shared their  hard-won knowledge about caching. highlight: don't use LRU, use CLOCK, getting data model right is important."
+
+  - url: https://www.cybertec-postgresql.com/en/tips-and-tricks-to-kick-start-the-postgres-year-2021/
+    title: "Tips and tricks to kick-start the postgres year 2021"
+    description: |
+      Just a refresher of some good Postgres tip and trick for you to learn/use this year.
+
+  - url: https://iximiuz.com/en/posts/container-networking-is-simple/
+    title: "Container networking is simple"
+    description: "This is the original title of this post but I don't see how simple it's at all :-). It's too complex I must say to use. But I think the author mean simple in term that you can understand it and break it down and even build your own container network with your own hand, use standarize linux command without writing a single line of code. Still a good post to understand how network is setup and configure between containers, you will learn tool like netns for network namespace, nsenter to interact with linux namespaces."
+
+  - url: https://unix.stackexchange.com/questions/224277/is-it-better-to-use-cat-dd-pv-or-another-procedure-to-copy-a-cd-dvd/224314#224314
+    title: "Is it better to use cat, dd, pv or another procedure to copy a CD/DVD?"
+    description: "I don't think we need to do this in 2021. But what is the different between them that affect their performance characteristics."
+
+  - url: https://ccorcos.github.io/filing-cabinets/
+    title: "A More Human Approach To Databases"
+    description: |
+      I'll introduce databases as an abstract concept and then we'll work through a real-world example to explore how databases leverage sorting and filters to lookup information quickly.
+      By the end, I hope to show you how these information architecture concepts are immensely powerful and totally approachable for non-technical people.
+
+  - url: https://calendar.perfplanet.com/2020/html-and-css-techniques-to-reduce-your-javascript/
+    title: "HTML and CSS techniques to reduce your JavaScript"
+    description: |
+      A recap of using modern feature of browser to replace JavaScript and make your site faster: like scrolling, lazy image loader...
+
+  - url: https://www.smashingmagazine.com/2021/01/smashingmag-performance-case-study/
+    title: "How We Improved SmashingMag Performance"
+    description: |
+      we’ll take a close look at some of the changes we made on this very site — running on JAMStack with React — to optimize the web performance and improve the Core Web Vitals metrics. With some of the mistakes we’ve made, and some of the unexpected changes that helped boost all the metrics across the board.
+
+  - url: https://florian.github.io//xor-trick/
+    title: "That XOR Trick"
+    description: |
+      There are a whole bunch of popular interview questions that can be solved in one of two ways: Either using common data structures and algorithms in a sensible manner, or by using some properties of XOR in a seemingly hard to understand why. While it seems unreasonable to expect the XOR solutions in interviews, it is quite fun to figure out how they work
+
+  - url: https://einarwh.wordpress.com/2020/05/08/on-the-complexity-of-json-serialization/
+    title: "On the complexity of JSON serialization"
+    description: |
+      on every single software project or product I’ve worked on, JSON serialization has been a endless source of pain and bugs. It’s a push stream of trouble. Why is that so? What is so inherently complicated in the problem of JSON serialization that we always, by necessity, struggle with it?
+
+#  - url: https://viewsourcecode.org/snaptoken/kilo/
+#    title: "Build Your Own Text Editor"
+
+video:
+
+read_code:
+  - url: https://github.com/jazz-soft/JZZ/blob/master/javascript/JZZ.js
+    title: "JZZ: MIDI library for Node.js and web-browsers"
+    description: |
+      Want to have fun with browser, node and sound? make music? understand how browser play sound. read this code.
+    category: ['JavaScript']
+
+  - url: https://github.com/dalibo/pg_activity
+    title: pg_activity
+    description: |
+      a top like application for PostgreSQL server activity monitoring.
+    category: ['Python']
+
+  - url: https://github.com/jamesmoriarty/forward-proxy
+    title: forward-proxy
+    description: |
+      100 LOC Ruby forward proxy using only standard libraries.
+    category: ['Ruby']
+
+  - url: https://github.com/pavlobu/deskreen
+    title: deskreen
+    description: |
+      Turns any device with a web browser to a second screen for your computer. Very cool project. Made use of Electron.js and WebRTC.
+    category: ['JavaScript']
+
+tool:
+  - url: https://github.com/ericchiang/pup
+    title: pup
+    description: "Parsing HTML at the command line"
+
+  - url: https://github.com/leits/MeetingBar
+    title: "MeetingBar"
+    description: "a menu bar app for your calendar meetings"
+
+  - url: https://github.com/bfenetworks/bfe
+    title: bfe
+    description: |
+      A modern layer 7 load balancer from baidu. they sure know how to deal with large scale system.
+
+  - url: https://github.com/asciimoo/wuzz
+    title: wuzz
+    description: |
+      Interactive cli tool for HTTP inspection
+
+  - url: https://estimator.dev/
+    title: estimator
+    description: |
+      Scan your JS/CSS to see how much code you can delete by using modern feature of browsers.
