@@ -1,0 +1,124 @@
+time: "Feb 01, 2021"
+subject: "What am I running inside my bash"
+draft: false
+description: |
+  Happy February everyone. Time flews so fast these day. Cannot imagine it is amost one year since the world started to deal with COVID.
+
+  Last week I launched my [side project](https://hanami.run?bd), a [service to forward email](https://hanami.run?bd) from your own domain to your personal email.
+  If you have a domain, you can use any arbitraty username@your-domain.com to register for any service like newsletter, website.
+  If anyone leak your email address, you know who sold your email addresses.
+
+  Now, onward to our links.
+
+links:
+  - url: https://www.thanassis.space/bashheimer.html
+    title: "What am I running inside my bash?"
+    description: |
+      I desperately needed to extract the complete (and very lengthy) command line I had written 6 months ago in a bash shell - which was still running under screen. Read on to see how I eventually made it. Expert level. You will learn a ton from this.
+
+  - url: https://tanelpoder.com/posts/11m-iops-with-10-ssds-on-amd-threadripper-pro-workstation/
+    title: "Achieving 11M IOPS & 66 GB/s IO on a Single ThreadRipper Workstation"
+    description: "Modern disks are so fast that system performance bottleneck shifts to RAM access and CPU. With up to 64 cores, PCIe 4.0 and 8 memory channels, even a single-socket AMD ThreadRipper Pro workstation makes a hell of a powerful machine - if you do it right!"
+
+  - url: https://openai.com/blog/scaling-kubernetes-to-7500-nodes/
+    title: "Scaling Kubernetes to 7,500 Nodes"
+    description: |
+      Scaling a single Kubernetes cluster to this size is rarely done and requires some special care, but the upside is a simple infrastructure that allows our machine learning research teams to move faster and scale up without changing their code.
+
+  - url: https://tech.coffeemeetsbagel.com/our-journey-to-postgresql-12-3d6ee15d305a
+    title: "Our Journey to PostgreSQL 12"
+    description: "In November 2020 we began a large migration to upgrade our PostgreSQL cluster from version 9.6 to 12.4. In this post I’ll give an overview of our architecture at Coffee Meets Bagel, walk through the steps we took to perform this upgrade with less than 30 minutes of cumulative downtime, and share some lessons learned along the way"
+
+  - url: https://medium.com/moveax/how-postgresql-replication-works-6288b3e6000e
+    title: "How PostgreSQL replication works"
+    description: "A quick (almost deep) dive into replication and HA configurations"
+
+  - url: https://blog.maxwellgale.com/2021/01/30/streaming-video-over-webrtc-using-ffmpeg/
+    title: "Streaming video over WebRTC using FFmpeg"
+    description: |
+      Streaming media. specifically video, is a fickle beast.
+      Figuring out the exact arguments for FFmpeg is very trickly.
+      This will be a short post, but it will cover everything you need to know to stream media using FFmpeg to WebRTC clients. This technique comes in handy when youw orkw ith video streaming.
+
+  - url: https://dev.to/0xbf/you-know-rwx-but-what-is-rws-when-run-ls-l-linux-tips-549c
+    title: 'You know "rwx", but what is "rws" when run `ls -l` - Linux Tips'
+    description: "How can a normal user change their password? Isn't the password file /etc/passwd is protectioned from changing by anyone except root? Enter `rws`"
+
+  - url: https://github.blog/2021-01-29-making-githubs-new-homepage-fast-and-performant/
+    title: "Making GitHub’s new homepage fast and performan"
+    description: |
+      This post is the third installment of our five-part series on building GitHub’s new homepage. We linked to previous article on how to build the glob, this part focus on front-end optimization: thing like DOM listener, animation, lazy loading, photo size optimization.
+
+  - url: https://about.gitlab.com/blog/2021/01/14/this-sre-attempted-to-roll-out-an-haproxy-change/
+    title: "This SRE atempted to roll out an HAProxy config change. You won't believe what happened next..."
+    description: |
+      This is a post detailing a wild discovery made by Matt Smiley and I while investigating strange behaviour from HAProxy. We want to highlight the pathology, describe how we found it, and share some investigative techniques used along the way.
+
+  - ull: https://2ality.com/2021/01/undefined-null-revisited.html
+    title: "undefined vs. null revisited"
+    describe: Dr. Axel Rauschmayer, the JavaScript expert, takes on undefined vs null and his approach on using null generally and tend to avoid both of them.
+
+
+#  - url: https://viewsourcecode.org/snaptoken/kilo/
+#    title: "Build Your Own Text Editor"
+
+video:
+
+read_code:
+  #  - url: https://github.com/indradb/indradb
+  #    title: indradb
+  #    description: "A graph database written in rust"
+  #    category: ['Rust']
+
+  - url: https://github.com/Nukesor/pueue
+    title: pueue
+    description: |
+      a command-line task management tool for sequential and parallel execution of long-running tasks.
+    category: ['Rust']
+
+  - url: https://github.com/anmitsu/goful
+    title: goful
+    description: |
+      a CUI file manager written in Go. Look line Norton Commander in the old day
+    category: ['Go']
+
+  - url: https://github.com/chaskiq/chaskiq
+    title: chaskiq
+    description: |
+      A full featured Live Chat, Support & Marketing platform. I would like to look into this to see how they do live chat.
+    category: ['Ruby', 'RoR']
+
+  - url: https://github.com/fding/pyedifice
+    title: pyedifice
+    description: |
+      Declarative GUI library for Python
+    category: ['Python']
+
+  - url: https://github.com/rgrove/parse-xml
+    title: parse-xml
+    description: "A fast, safe, compliant XML parser for Node.js and browsers."
+    category: ['JavaScript']
+
+tool:
+  - url: https://github.com/apache/superset
+    title: Apache Superset
+    description: |
+      a Data Visualization and Data Exploration Platform. We linked to this a few time but they reach 1.0.0 recently
+
+  - url: https://iconduck.com/
+    title: iconduck
+    description: "free and open source icon for your side project"
+
+  - url: https://evanw.github.io/source-map-visualization/
+    title: "Source Map Visualization"
+    description: |
+      This is a visualization of JavaScript/CSS source map data, which is useful for debugging problems with generated source maps. It's designed to be high-performance so it doesn't fall over with huge source maps.
+
+  - url: https://github.com/ossc-db/pg_hint_plan
+    title: pg_hint_plan
+    description: Give PostgreSQL ability to manually force some decisions in execution plans.
+
+  - url: https://github.com/foxcpp/maddy
+    title: maddy
+    description: |
+      Composable all-in-one mail server, replace Postfix, Dovecot, OpenDKIM. all in one daemon. BetterDev's creator is also founder of hanami, so I pay lot of attention mail space and I can say maddy is a great tool if you're looking to run your own mail server.
