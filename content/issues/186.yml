@@ -54,7 +54,7 @@ links:
     description: |
       This is a post detailing a wild discovery made by Matt Smiley and I while investigating strange behaviour from HAProxy. We want to highlight the pathology, describe how we found it, and share some investigative techniques used along the way.
 
-  - ull: https://2ality.com/2021/01/undefined-null-revisited.html
+  - url: https://2ality.com/2021/01/undefined-null-revisited.html
     title: "undefined vs. null revisited"
     description: Dr. Axel Rauschmayer, the JavaScript expert, takes on undefined vs null and his approach on using null generally and tend to avoid both of them.
 
