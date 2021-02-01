@@ -56,8 +56,7 @@ links:
 
   - ull: https://2ality.com/2021/01/undefined-null-revisited.html
     title: "undefined vs. null revisited"
-    describe: Dr. Axel Rauschmayer, the JavaScript expert, takes on undefined vs null and his approach on using null generally and tend to avoid both of them.
-
+    description: Dr. Axel Rauschmayer, the JavaScript expert, takes on undefined vs null and his approach on using null generally and tend to avoid both of them.
 
 #  - url: https://viewsourcecode.org/snaptoken/kilo/
 #    title: "Build Your Own Text Editor"
