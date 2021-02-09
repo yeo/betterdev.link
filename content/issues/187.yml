@@ -1,0 +1,118 @@
+time: "Feb 08, 2021"
+subject: ""
+draft: false
+description: |
+  This week is a short issue since I have been focus a bit on my side project, [hanami, an email forwarding service that support webhook and SMTP as well](https://hanami.run). Give it a try if you have many domains and want to forward emails to a singl inbox.
+
+  Now, onward to our links.
+
+links:
+  - url: https://nickdrane.com/build-your-own-regex/
+    title: "Build a Regex Engine in Less than 40 Lines of Code"
+    description: |
+      Rob Pike, Go lang creator implemented a rudimentary regular expression engine in C. The author converted it into JavaScript and post walks through their solution.
+
+  - url: https://dev.to/shaqq/10-things-i-hate-about-sql-a9e
+    title: "10 Things I Hate About SQL"
+    description: "SQL is awesome. Let's learn some fair criticisms from someone who know SQL well"
+
+  - url: https://www.cybertec-postgresql.com/en/monitoring-replication-pg_stat_replication/
+    title: "monitoring replication: pg_stat_replication"
+    description: |
+      if you are using replication, you must make sure that your clusters are properly monitored.  The purpose of this post is to explain some of the fundamentals, to make sure that your PostgreSQL clusters stay healthy.
+
+  - url: https://unix.stackexchange.com/questions/46235/how-does-reverse-ssh-tunneling-work/118650#118650
+    title: "How does reverse SSH tunneling work?"
+    description: |
+      SSH tunnel allow you to by pass proxy by routing traffic through an already establish trusted connection. This StackExchange is well writtenn annd have some diagram to make thing easier.
+
+  - url: https://hakibenita.com/postgresql-unused-index-size
+    title: "The Unexpected Find That Freed 20GB of Unused Index Space"
+    description: |
+      Postgres can create index only for row that matches a condition. Example, you can ignore row with a NULL column. This helps reduce index size a lot and improve performance.
+
+  - url: https://jub0bs.com/posts/2021-01-29-great-samesite-confusion/
+    title: "The great SameSite confusion"
+    description: |
+      In this post, I dissect a common misconception about the SameSite cookie attribute and I explore its potential impact on Web security.
+
+  - url: https://pages.cs.wisc.edu/~remzi/OSTEP/
+    title: "Operating Systems: Three Easy Pieces(Free PDF Books)"
+    description: |
+      A free online operating systems book! The book is centered around three conceptual pieces that are fundamental to operating systems: virtualization, concurrency, and persistence.
+      A great way to learn about how OS works.
+
+  - url: https://googleprojectzero.blogspot.com/2021/01/a-look-at-imessage-in-ios-14.html
+    title: "A Look at iMessage in iOS 14"
+    description: |
+      The blog post will start with an overview of the major changes Apple implemented in iOS 14 which affect the security of iMessage. Afterwards, and mostly for the readers interested in the technical details, each of the major improvements is described in more detail while also providing a walkthrough of how it was reverse engineered. At least for the technical details, it is recommended to briefly review the blog post series from last year for a basic introduction to iMessage and the exploitation techniques used to attack it.
+
+
+#  - url: https://viewsourcecode.org/snaptoken/kilo/
+#    title: "Build Your Own Text Editor"
+
+video:
+  - url: https://www.youtube.com/watch?v=VYeevsVj4fU
+    title: "Advanced SQL Questions From Amazon"
+    description: Handling complex logic in data science interviews
+
+read_code:
+  - url: https://github.com/indradb/indradb
+    title: indradb
+    description: "A graph database written in rust"
+    category: ['Rust']
+
+  - url: https://github.com/containers/crun
+    title: crun
+    description: |
+      A fast and lightweight fully featured OCI runtime and C library for running containers
+    category: ['C']
+
+  - url: https://github.com/HashPals/Name-That-Hash
+    title: "Name that hash"
+    description: |
+      A fun app to detect type of your hash. Interesting to see how they do it
+    category: ['Python']
+
+  - url: https://github.com/seemoo-lab/openwifipass
+    title: openwifipass
+    description: "An open source implementation of Apple's Wi-Fi Password Sharing protocol"
+    category: ['Python']
+
+  - url: https://github.com/achannarasappa/ticker
+    title: ticker
+    description: |
+      Terminal stock ticker with live updates and position tracking
+    category: ['Go']
+
+  - url: https://github.com/palkan/logidze
+    title: logidze
+    description: |
+      Logidze provides tools for logging DB records changes when using PostgreSQL (>=9.6). Just like [audited](https://github.com/collectiveidea/audited) and [paper_trail](https://github.com/paper-trail-gem/paper_trail) do (but faster). It achieves its peformance through using  trigger and an embedded JSONB field
+    category: ['Ruby']
+
+tool:
+  - url: https://github.com/Clivern/Walrus
+    title: Walrus
+    description: |
+      a fast, secure and reliable backup system. You can backup services like MySQL, PostgreSQL, Redis, etcd or a complete directory with a short interval and low overhead. It supports AWS S3, digitalocean spaces and any S3-compatible object storage service.
+
+  - url: https://github.com/percona/pg_stat_monitor
+    title: pg_stat_monitor
+    description: "a PostgreSQL Query Performance Monitoring tool, based on PostgreSQL's contrib module pg_stat_statements. Read the [introduction post](https://www.percona.com/blog/2021/01/19/pg_stat_monitor-a-new-way-of-looking-at-postgresql-metrics/)"
+
+  - url: https://github.com/Nukesor/pueue
+    title: pueue
+    description: |
+      a command-line task management tool for sequential and parallel execution of long-running tasks.
+
+  - url: https://github.com/opstrace/opstrace
+    title: opstrace
+    description: |
+      Secure observability, deployed in your own network. An open source alternative to SaaS solutions like Datadog, SignalFx, ...
+
+  - url: https://hanami.run?bd
+    title: Easy email forwarding for your domain
+    description: |
+      Hanami is a service that allow you to forward email from your domain to personal email and sending email through your domain as well. You can also create unlimited alias on your domain and all of them will be foreward to your personal email.
+    category: ['Sponsor']
