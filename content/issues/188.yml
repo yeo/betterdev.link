@@ -1,0 +1,107 @@
+time: "Feb 15, 2021"
+subject: "Kubernetes Failure Stories and So, you want to learn to break ciphers"
+draft: false
+description: |
+
+links:
+  - url: https://k8s.af/
+    title: Kubernetes Failure Stories
+    description: |
+      A compiled list of links to public failure stories related to Kubernetes. Most recent publications on top. Learn how companies deal with incident on the spot
+
+  - url: https://beej.us/guide/bgnet/html/
+    title: "Beej's Guide to Network Programming"
+    description: "Have ever you read some TCP and heard people talk about `select()`, `bind()` and have no idea what they are. This is the tutorial for you. It focus on C as language but that shouldn't prevent you from understanding the concept of network stack. I strongly advise you to go through this regardless you work with C or not"
+
+  - url: https://info.crunchydata.com/blog/cleaning-up-your-postgres-database
+    title: "Cleaning Up Your Postgres Database"
+    description: |
+      How to improve your database performance by cleaning up stuff. On this same topic, give [Troubleshooting Performance Issues Due to Disk and RAM](https://www.highgo.ca/2021/02/08/troubleshooting-performance-issues-due-to-disk-and-ram/) a read as well, it helps to pinpoint performance bottle neck.
+
+  - url: https://www.cybertec-postgresql.com/en/postgresql-what-is-a-checkpoint/
+    title: "PostgreSQL: what is a checkpoint?"
+    description: "Checkpoints are a core concept in PostgreSQL. However, many people don’t know what they actually are, nor do they understand how to tune checkpoints to reach maximum efficiency. This post will explain both checkpoints and checkpoint tuning, and will hopefully shed some light on these vital database internals."
+
+  - url: https://twobithistory.org/2021/02/07/arpanet.html
+    title: "The Real Novelty of the ARPANET"
+    description: |
+      If you run an image search for the word “ARPANET,” you will find lots of maps showing how the government research network expanded steadily across the country throughout the late ’60s and early ’70s. I’m guessing that most people reading or hearing about the ARPANET for the first time encounter one of these maps.
+
+  - url: https://www.joshwcomeau.com/animation/css-transitions/
+    title: "An Interactive Guide to CSS Transitions"
+    description: "I recently work on a side project and think that having a few animation effect would be great to enhance UI/UX. In this tutorial, we'll dig in and learn a bit more about CSS transitions, and how we can use them to create lush, polished animations."
+
+  - url: https://www.industrialempathy.com/posts/high-performance-web-font-loading/
+    title: "More than you ever wanted to know about font loading on the web"
+    description: |
+      the TL;dr of this post is: Use font-display: optional. However, I and many others really like our custom fonts. See the rest of the post for how we can get our cake and eat it, too–with a tool that automatically makes fallback fonts behave like their respective custom font counterpart.
+
+  - url: https://brennan.io/2015/01/16/write-a-shell-in-c/
+    title: "Tutorial - Write a Shell in C"
+    description: |
+       Although developing large software projects isn’t easy, many times the basic idea of that software is quite simple. Implementing it yourself is a fun way to show that you have what it takes to be a real programmer. So, this is a walkthrough on how I wrote my own simplistic Unix shell in C, in the hopes that it makes other people feel that way too.
+
+  - url: https://littlemaninmyhead.wordpress.com/2015/09/28/so-you-want-to-learn-to-break-ciphers/
+    title: "So, you want to learn to break ciphers"
+    description: |
+      From my viewpoint, The most important part of learning this skill is not advanced mathematics, but instead first learning how to think like a cryptographer.
+      When you go to break a cipher, there are no instructions on how to do it.
+      You simply need to get your hands dirty with the function under consideration and look for things that do not seem desirable for a secure function of that type.
+
+  - url: https://qvault.io/2020/09/17/very-basic-intro-to-elliptic-curve-cryptography/
+    title: "Basic Intro to Elliptic Curve Cryptography"
+    description: |
+      Elliptic curve cryptography is a modern public-key encryption technique based on mathematical elliptic curves and is well-known for creating smaller, faster, and more efficient cryptographic keys. For example, Bitcoin uses ECC as its asymmetric cryptosystem because of its lightweight nature. In this introduction to ECC, I want to focus on the high-level ideas that make ECC work. 
+
+#  - url: https://viewsourcecode.org/snaptoken/kilo/
+#    title: "Build Your Own Text Editor"
+
+video:
+
+read_code:
+  - url: https://github.com/dennis-tra/pcp
+    title: pcp
+    description: "Command line peer-to-peer data transfer tool based on libp2p."
+    category: ['Go']
+
+  - url: https://github.com/msiemens/tinydb
+    title: tinydb
+    description: "a lightweight document oriented database optimized for your happiness :) It's written in pure Python and has no external dependencies"
+    category: ['Python']
+
+  - url: https://github.com/zeroturnaround/sql-formatter
+    title: sql-formatter
+    description: |
+      A whitespace formatter for different query languages
+    category: ['JavaScript']
+
+  - url: https://github.com/premailer/css_parser
+    title: css_parser
+    description: |
+      Load, parse and cascade CSS rule sets in Ruby.
+    category: ['Ruby']
+
+tool:
+  - url: https://debezium.io/
+    title: debezium
+    description: |
+      Stream changes from your database. Start it up, point it at your databases, and your apps can start responding to all of the inserts, updates, and deletes that other apps commit to your databases. Debezium is durable and fast, so your apps can respond quickly and never miss an event, even when things go wrong.
+
+  - url: https://github.com/skerkour/bloom
+    title: bloom
+    description: |
+      The simplest way to de-Google your life and business: Inbox, Calendar, Files, Contacts & much more
+
+  - url: https://github.com/joeyates/imap-backup
+    title: imap-backup
+    description: "Backup GMail (or other IMAP) accounts to disk"
+
+  - url: https://github.com/OfflineIMAP/offlineimap
+    title: offlineimap
+    description: "Read/sync your IMAP mailboxes. Python2 but still great to know how IMAP works"
+
+  - url: https://hanami.run?bd
+    title: Easy email forwarding for your domain
+    description: |
+      Hanami is a service that allow you to forward email from your domain to personal email and sending email through your domain as well. You can also create unlimited alias on your domain and all of them will be foreward to your personal email.
+    category: ['Sponsor']
