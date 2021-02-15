@@ -3,9 +3,9 @@ subject: "Kubernetes Failure Stories and So, you want to learn to break ciphers"
 draft: false
 description: |
   Happy valentine everyone. I wish this newsletter was sent yesterday.
-  Anyway, to our link. We got many interesting stuff this week. Check them out.
+  Anyway, to our links, We got many interesting stuff this week. Check them out.
 
-  Side note: I'm working on a side project for [email forwarding](https://hanami.run), give it a try if you have domain and want to receive email to your domain.
+  Side note: I'm working on a side project for [email forwarding](https://hanami.run), give it a try if you have domains and want to receive email to your domains.
 
 links:
   - url: https://k8s.af/
