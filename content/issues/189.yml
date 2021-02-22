@@ -1,0 +1,120 @@
+time: "Feb 22, 2021"
+subject: "How Buffer Pool Works and Reconnecting your application after a Postgres failover"
+draft: false
+description: |
+
+links:
+  - url: https://brunocalza.me/how-buffer-pool-works-an-implementation-in-go/
+    title: "How Buffer Pool Works: An Implementation In Go"
+    description: "a database need to read and write data from disk in an efficient manner. And the answer to that is: buffer pool. In this post, we'll explain how a buffer pool manager works and how to implement one in Go"
+
+  - url: https://www.citusdata.com/blog/2021/02/12/reconnecting-your-app-after-a-postgres-failover/
+    title: "Reconnecting your application after a Postgres failover"
+    description: |
+      The most important thing to know about client-side HA is that when a failover happens, the connections to Postgres are lost. Your application will get an error when trying to use the previously established connection, without any way to anticipate the situation.
+
+  - url: https://blog.koehntopp.info/2020/07/27/mysql-transactions.html
+    title: "MySQL Transactions - the physical side"
+    description: |
+      What exactly the database does during a transaction? How it writes to disk? How it accesses memory? How is checkpoint is created and managed. Even if you aren't using MySQL, it's still worth a read.
+
+  - url: https://scattered-thoughts.net/writing/materialize-decorrelation
+    title: "How Materialize and other databases optimize SQL subqueries"
+
+  - url: https://v8.dev/blog/adaptor-frame
+    title: "Faster JavaScript calls"
+    description: |
+      In JS, you can call function without passing a full arguments, that bring flexibility but come with a performance cost  It turns out that, with a clever trick, we can remove this extra frame, simplify the V8 codebase and get rid of almost the entire overhead. We will learn about that today
+
+  - url: https://just.billywhizz.io/blog/on-javascript-performance-01/
+    title: "Why is Javascript in the top 2 of techempower?"
+    description: "Look into the techniques that empower JavaScript to rank higher in techempower benchmark. Note that the techniques are optimized for benchmark, don't expect those numbers/techniques in your normal workflow/framework."
+
+  - url: https://capnfabs.net/posts/wtf-encryption-scheme-synology-diskstation-nas/
+    title: "What on Earth is this Encryption Scheme?"
+    description: |
+      An interesting and weird encryption scheme of Synology NAS due to they cannot force HTTPS on local lan.
+
+  - url: https://people.freebsd.org/~lstewart/articles/cpumemory.pdf
+    title: "What Every Programmer Should Know About Memory"
+    description: |
+      A 114 pages PDF file. I think it's interesting to gain some low-level knowledge of memory. Sometime I tried to gain this kind of knowledge by searching all over the internet and glue them together. It's great to have this single PDF file I can look into now.
+
+  - url: https://github.com/upgundecha/howtheysre
+    title: "How they SRE"
+    description: "A curated collection of publicly available resources on how technology and tech-savvy organizations around the world practice Site Reliability Engineering (SRE)"
+
+#  - url: https://viewsourcecode.org/snaptoken/kilo/
+#    title: "Build Your Own Text Editor"
+
+video:
+  - url: https://www.youtube.com/watch?v=fjZedKNZD74&feature=youtu.be
+    title: "Cybersecurity | How To Get Into A Penetration Testing Career"
+    description: "Interview w/ Expert Hacker Tib3rius!"
+
+read_code:
+  - url: https://github.com/y10k/rims
+    title: rims
+    description: "RIMS is Ruby IMap Server. This gem provides a complete IMAP server by itself. The IMAP server can run as a daemon, mailboxes are provided and messages can be delivered to them"
+
+  - url: https://github.com/microlinkhq/metascraper
+    title: metascraper
+    description: "Scrape data from websites using Open Graph, HTML metadata & fallbacks"
+    category: ['JavaScript']
+
+  - url: https://github.com/SecureAuthCorp/impacket
+    title: impacket
+    description: a collection of Python classes for working with network protocols.
+    category: ['Python']
+
+  - url: https://github.com/raghavnautiyal/dip
+    title: dip
+    description: " a dynamically typed interpreted programming language written in Python"
+    category: ['Python']
+
+  - url: https://github.com/lesovsky/pgcenter
+    title: pgcenter
+    description: "Command-line admin tool for observing and troubleshooting Postgres."
+    category: ['Go']
+
+
+tool:
+  - url: https://github.com/tauri-apps/tauri
+    title: tauri
+    description: "a framework for building tiny, blazing fast binaries for all major desktop platforms. Developers can integrate any front-end framework that compiles to HTML, JS and CSS for building their user interface. The backend of the application is a rust-sourced binary with an API that the front-end can interact with."
+
+  - url: https://github.com/RedTeamPentesting/monsoon
+    title: monsoon
+    description: "A fast HTTP enumerator that allows you to execute a large number of HTTP requests, filter the responses and display them in real-time."
+
+  - url: https://github.com/rclone/rclone
+    title: rclone
+    description: "Rsync for cloud"
+
+  - url: https://github.com/RhinoSecurityLabs/pacu
+    title: pacu
+    description: |
+      The AWS exploitation framework, designed for testing the security of Amazon Web Services environments.
+
+  - url: https://github.com/skerkour/bloom
+    title: bloom
+    description: |
+      The simplest way to de-Google your life and business: Inbox, Calendar, Files, Contacts & much more
+
+  - url: https://github.com/google/osv
+    title: osv
+    description: "Open source vulnerability DB and triage service."
+
+  - url: https://github.com/darold/pgbadger
+    title: pgbadger
+    description: "PostgreSQL log analyzer with fully detailed reports and graphs."
+
+  - url: https://github.com/postgrespro/pg_probackup
+    title: pg_probackup
+    description: "Backup and recovery manager for PostgreSQL"
+
+  - url: https://hanami.run?bd
+    title: Easy email forwarding for your domain
+    description: |
+      Hanami is a service that allow you to forward email from your domain to personal email and sending email through your domain as well. You can also create unlimited alias on your domain and all of them will be foreward to your personal email.
+    category: ['Sponsor']
