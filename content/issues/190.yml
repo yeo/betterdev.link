@@ -1,0 +1,126 @@
+time: "Mar 01, 2021"
+subject: "Common Nginx misconfigurations that leave your web server open to attack"
+draft: false
+description: |
+  Hi all,
+
+  I hope you enjoy this week's newsletter. We had some interesting links to help secure Nginx and practice breaking and fixing K8S.
+
+  If you enjoy this newsletter, [make a small contribution](https://www.buymeacoffee.com/betterdev) to help me to keep working on it.
+
+  Now, onward to our links.
+
+links:
+  - url: https://blog.detectify.com/2020/11/10/common-nginx-misconfigurations/
+    title: "Common Nginx misconfigurations that leave your web server open to attack"
+    description: |
+      Nginx is the web server powering one-third of all websites in the world. Detectify Crowdsource has detected some common Nginx misconfigurations that, if left unchecked, leave your web site vulnerable to attack. Here’s how to find some of the most common misconfigurations before an attacker exploits them.
+
+  - url: https://itnext.io/breaking-down-and-fixing-kubernetes-4df2f22f87c3
+    title: "Breaking down and fixing Kubernetes"
+    description: |
+      Kubernetes solves complex problem and it is itself complex. Today we will break the cluster, delete certificates, rejoin nodes on live, and doing all this fancy stuff without possible downtime for already running services.
+
+  - url: https://timvisee.com/blog/solving-aoc-2020-in-under-a-second/
+    title: "Solving Advent of Code 2020 in under a second"
+    description: |
+      Solving all puzzles in under a second. Yes, in less than one second total. Pretty impressive and techniques to achieve this performance.
+
+  - url: https://blog.koehntopp.info/2020/07/29/mysql-transactions-the-logical-view.html
+    title: "MySQL Transactions - the logical side"
+    description: "In [last issue](https://betterdev.link/issues/189) we link to this serid on physical hardware side, this week we'll learn about logical side."
+
+  - url: https://shopify.engineering/read-consistency-database-replicas
+    title: "Read Consistency with Database Replicas"
+    description: |
+      Read Replicas are great to reduce load on primary node. But they can be lagged behind? In this post, Shopify show us the solution the Database Connection Management team at Shopify chose to solve variable lag and how they solved the issues we ran into.
+
+  - url: https://www.citusdata.com/blog/2021/02/20/faster-data-migrations-in-postgres/
+    title: "Faster data migrations in Postgres"
+    description: |
+      walk through the tradeoffs to consider while using pg_dump and pg_restore for your Postgres database migrations—and how you can optimize your migrations for speed, too.
+
+  - url: https://nee.lv/2021/02/28/How-I-cut-GTA-Online-loading-times-by-70/
+    title: "How I cut GTA Online loading times by 70%"
+    description: |
+      reverse engineering GTA to fix a bottle neck in JSON parsing. Really impressive on figuring out the bottle beck without accessing to souce code and even patch it with a hash map to utilize caching.
+
+  - url: https://codeascraft.com/2021/02/25/how-etsy-prepared-for-historic-volumes-of-holiday-traffic-in-2020/
+    title: "How Etsy Prepared for Historic Volumes of Holiday Traffic in 2020"
+    description: |
+      Site traffic leapt up in the second quarter, when lockdowns went into widespread effect, by an amount it normally would have taken several years to achieve.
+      For context about Etsy, as of 2020 Q4 they had 81 million active buyers and over 85 million items for sale.
+
+  - url: https://www.linode.com/docs/guides/linux-system-monitoring-fundamentals/
+    title: "Linux System Monitoring Fundamentals"
+    description: |
+      A quick overview of a few tools that are helpful for monitoring linux system.
+
+  - url: https://goteleport.com/blog/xss-attacks/
+    title: "XSS Attack Examples and Mitigations"
+    description: |
+      Understanding XSS and its mitigations provides substantial insight into how the web works and how sites are safely (and unsafely) isolated from each other.
+
+
+read_code:
+  - url: https://github.com/tree-sitter/tree-sitter
+    title: tree-sitter
+    description: |
+      An incremental parsing system for programming tools with Ruby, Python, JavaScript binding
+    category: ['Rust']
+
+  - url: https://github.com/idom-team/idom
+    title: idom
+    description: |
+      Libraries for creating and controlling interactive web pages with Python 3.7 and above.
+    category: ['Python']
+
+  - url: https://github.com/charkost/prosopite
+    title: prosopite
+    description: "🔍 Rails N+1 queries auto-detection with zero false positives / false negatives"
+    category: ['Ruby']
+
+  - url: https://github.com/grempe/sirp
+    title: sirp
+    description: "This is a pure Ruby implementation of the [Secure Remote Password protocol](http://srp.stanford.edu/) (SRP-6a), which is a 'zero-knowledge' mutual authentication system. You'll some cool trick such as constant time string comparison."
+    category: ['Ruby']
+
+  - url: https://github.com/harrisiirak/cron-parser
+    title: "cron-parser"
+    description: |
+      Node.js library for parsing crontab instructions
+    category: ['JavaScript']
+
+  - url: https://github.com/remusao/tldts
+    title: tldts
+    description: |
+      a JavaScript library to extract hostnames, domains, public suffixes, top-level domains and subdomains from URLs. Claim to be Blazing Fast
+    category: ['JavaScript', 'TypeScript']
+
+  - url: https://github.com/guptarohit/asciigraph
+    title: asciigraph
+    description: |
+      Go package to make lightweight ASCII line graph ╭┈╯ in command line apps with no other dependencies.
+    category: ['Go']
+
+tool:
+  - url: https://github.com/cloudquery/cloudquery
+    title: cloudquery
+    description: |
+      transforms your cloud infrastructure into SQL or Graph database for easy monitoring, governance and security.
+
+  - url: https://github.com/boyter/scc
+    title: scc
+    description: |
+      A tool similar to cloc, sloccount and tokei. For counting physical the lines of code, blank lines, comment lines, and physical lines of source code in many programming languages.
+
+  - url: https://code.lag.net/robey/certified
+    title: certified
+    description: |
+      a small CLI tool for generating a TLS self-signed ("TOFU") ECC certificate and private key, suitable for using in small distributed networks, like gemini.
+
+  - url: https://hanami.run?bd
+    title: Easy email forwarding for your domain
+    description: |
+      Hanami is a service that allow you to forward email from your domain to personal email and sending email through your domain as well. You can also create unlimited alias on your domain and all of them will be foreward to your personal email.
+    category: ['Sponsor']
