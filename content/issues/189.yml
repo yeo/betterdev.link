@@ -18,8 +18,15 @@ links:
     description: |
       What exactly the database does during a transaction? How it writes to disk? How it accesses memory? How is checkpoint is created and managed. Even if you aren't using MySQL, it's still worth a read.
 
+  - url: https://martinheinz.dev/blog/43
+    title: "Advanced Git Features You Didn’t Know You Needed"
+    description: |
+      pull, commit and push are probaly most used git command. To be efficient, productive and wield the full power of git however, one needs to know a few more commands and tricks. We will explore some of the easy to use, remember and configure features of git, that might make your time dealing with version control so much more enjoyable.
+
   - url: https://scattered-thoughts.net/writing/materialize-decorrelation
     title: "How Materialize and other databases optimize SQL subqueries"
+    description: |
+      Subqueries are a SQL feature that allow writing queries nested inside a scalar expression in an outer query. Using subqueries is often the most natural way to express a given problem, but their use is discouraged because most databases struggle to execute them efficiently. This post gives a rough map of existing approaches to optimizing subqueries and also describes how Materialize differs from them.
 
   - url: https://v8.dev/blog/adaptor-frame
     title: "Faster JavaScript calls"
