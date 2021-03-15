@@ -28,13 +28,13 @@ chmod:
 deploy: build upload chmod
 
 docker:
-	docker build -t ${DOCKER_REPO}:${GIT_COMMIT} .
+	docker build --platform=amd64 -t ${DOCKER_REPO}:${GIT_COMMIT} .
 	docker tag ${DOCKER_REPO}:${GIT_COMMIT} ${DOCKER_REPO}:latest
 	docker push ${DOCKER_REPO}:${GIT_COMMIT}
 	docker push ${DOCKER_REPO}:latest
 
 k8s-deploy:
-	kubectl -n yeo set image deployment/betterdev betterdev=${DOCKER_REPO}:${GIT_COMMIT}
+	kubectl -n opty set image deployment/betterdev betterdev=${DOCKER_REPO}:${GIT_COMMIT}
 
 release: linux docker k8s-deploy
 
