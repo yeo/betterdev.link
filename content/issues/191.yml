@@ -1,0 +1,117 @@
+time: "Mar 15, 2021"
+subject: "A developers guide to HIPAA compliance and application development"
+draft: false
+description: "Hi all,
+
+  ===
+
+  This week, We had some interesting tools which I'm sure will make you engineer life easier, checkout tools section.
+
+  ===
+
+  If you enjoy this newsletter, [make a small contribution](https://www.buymeacoffee.com/betterdev) to help me to keep working on it."
+
+links:
+  - url: https://github.com/truevault/hipaa-compliance-developers-guide
+    title: "A developers guide to HIPAA compliance and application development"
+    description: "This guide is designed to provide developers with a solid understanding of HIPAA guidelines and their implications for application development.  HIPAA is tricky because, unlike PCI, there is no certification entity that can provide developers a rubber stamp of compliance approval. It's up to developers and companies alike to ensure compliance requirements are implemented properly."
+
+  - url: https://increment.com/reliability/reliability-at-scale/
+    title: "Reliability at scale"
+    description: |
+      Leaders at Deliveroo, DigitalOcean, Fastly, and Headspace share how their organizations think about reliability and resiliency and their advice to engineering orgs embarking on reliability journeys.
+
+  - url: https://modern-sql.com/concept/three-valued-logic
+    title: "The Three-Valued Logic of SQL"
+    description: "SQL uses a three-valued logic: besides true and false, the result of logical expressions can also be unknown. `SELECT NUll = 1` doesn't return anything, neither false or true."
+
+  - url: https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html
+    title: "Docker Security Cheat Sheet"
+    description: |
+      The aim of this cheat sheet is to provide an easy to use list of common security mistakes and good practices that will help you secure your Docker containers.
+
+  - url: https://blog.apnic.net/2021/03/12/a-brief-history-of-router-architecture/
+    title: "A brief history of router architecture"
+    description: |
+      Over the last 50 years, we’ve made a lot of progress in developing the Internet from a tiny interconnection of a handful of computers to a worldwide fabric with billions of nodes. During that journey, we’ve learned an enormous amount about how to build networks and the routers that interconnect them. The mistakes that we all made generated some important lessons along the way, for those that chose to learn them
+
+  - url: http://calpaterson.com/ttl-hell.html
+    title: "Staying out of TTL hell"
+    description: |
+      Caching by TTL gives up correctness to gain speed. Before the data is expired, we are serving stale data. How can we avoid TTL and make data refresh as soon as we new data come in?
+
+  - url: https://superuser.com/questions/1633073/why-are-tar-xz-files-15x-smaller-when-using-pythons-tar-library-compared-to-mac
+    title: "Why are tar.xz files 15x smaller when using Python's tar library compared to macOS tar?"
+    description: |
+      An interesting observation. TLDR: Sort the files that looks similar yield better zip ratio.
+
+  - url: https://aws.amazon.com/blogs/database/best-practices-for-amazon-rds-for-postgresql-major-upgrades-and-replicas/
+    title: "Best practices for Amazon RDS for PostgreSQL major upgrades and replicas"
+    description: "It's written by AWS engineer themselves so we should definetely checkout when upgrading our RDS database next time."
+
+  - url: https://towardsdatascience.com/how-to-analyse-100s-of-gbs-of-data-on-your-laptop-with-python-f83363dda94
+    title: "How to analyse 100 GB of data on your laptop with Python"
+    description: |
+      BetterDev usually won't include these how-to style link but this shows how powerful our laptop is nowsaday so if you want to get into BigData, don't be put off by hardware limitation
+
+
+
+read_code:
+  - url: https://vole.wtf/kilobytes-gambit/
+    title: "Can you beat a chess game whose engine is weighted at 1024bytes of JavaScript"
+    description: |
+      It's way overmyhead to figure out the core of it. They explains how it works and show 1024 bytes of JS once you clicked on "Next" to play the game.
+    category: ['JavaScript']
+
+  - url: https://github.com/josdejong/mathjs
+    title: mathjs
+    description: |
+      An extensive math library for JavaScript and Node.js. I also think this will be a great way to use this method for learning other languages. Dealing with math requires number, matrix, array, list etc which quickly makes you comfortable with a language data structure.
+    category: ['JavaScript']
+
+  - url: https://github.com/jackc/tod
+    title: tod
+    description: |
+      Time of day and shift types for Ruby. Learn how to deal with time and make it friendly
+    category: ['Ruby']
+
+  - url: https://github.com/kitabisa/teler
+    title: teler
+    description: |
+      an real-time intrusion detection and threat alert based on web log that runs in a terminal with resources that we collect and provide by the community.
+    category: ['Go']
+
+  - url: https://github.com/kootenpv/whereami
+    title: whereami
+    description: "Uses WiFi signals 📶 and machine learning to predict where you are"
+    category: ['Python']
+
+tool:
+  - url: https://github.com/kashav/fsql
+    title: fsql
+    description: |
+      Search through your filesystem with SQL-esque queries.
+
+  - url: https://github.com/harporoeder/ebpfsnitch
+    title: "Linux Application Level Firewall based on eBPF and NFQUEUE"
+
+  - url: https://github.com/Netflix/consoleme
+    title: consoleme
+    description: |
+      A Central Control Plane for AWS Permissions and Access
+
+  - url: https://github.com/dwisiswant0/apkleaks
+    title: apkleaks
+    description: |
+      Scanning APK file for URIs, endpoints & secrets.
+
+  - url: https://github.com/dwisiswant0/findom-xss
+    title: findom-xss
+    description: |
+      A fast DOM based XSS vulnerability scanner with simplicity.
+
+  - url: https://hanami.run?utm_source=bdm
+    title: Easy email forwarding for your domain
+    description: |
+      Hanami is a service that allow you to forward email from your domain to personal email and sending email through your domain as well. You can also create unlimited alias on your domain and all of them will be foreward to your personal email.
+    category: ['Sponsor']
