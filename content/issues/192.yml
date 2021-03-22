@@ -20,7 +20,7 @@ links:
       How can we build an undo system that allow us to go back to any previous buffer. It's being used in Emacs and a bit Lisp heavy but I think it's useful for even non-Emacs user to know about that kind of data structure
 
   - url: https://hanami.run?utm_source=bdm
-    title: email forwarding for your domain
+    title: "hanami: email forwarding for your domain"
     description: |
       Hanami is a service that allow you to forward email from your domain to personal email and sending email through your domain as well. You can also create unlimited alias on your domain and all of them will be foreward to your personal email.
     category: ['sponsor']
