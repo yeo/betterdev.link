@@ -1,0 +1,120 @@
+time: "Mar 22, 2021"
+subject: "Do Not Use '>' in Your Command Prompt, and How to Stay Safe in Shell"
+draft: false
+description: "Hi all,
+
+  This week, We had some interesting tools which I'm sure will make you engineer life easier, checkout tools section.
+
+  If you enjoy this newsletter, [make a small contribution](https://www.buymeacoffee.com/betterdev) to help me to keep working on it."
+
+links:
+  - url: https://tanelpoder.com/posts/how-to-stay-safe-in-shell/
+    title: "Do Not Use '>' in Your Command Prompt (and How to Stay Safe in Shell)"
+    description: |
+      Over the years of troubleshooting performance problems in the Unix/Linux world, I have seen multiple cases where a regularly used command line tool in a customer server just stops working for some reason. The tool just returns immediately, doing absolutely nothing. No output printed, no coredumps and the exit code is zero (success!). This article walks you through a couple of such incidents and in the end I explain how I avoid accidentally doing bad stuff in production in general
+
+  - url: https://archive.casouri.cat/note/2021/visual-undo-tree/index.html
+    title: "Construct an Undo Tree From a Linear Undo History"
+    description: |
+      Have you ever try to undo some code typing, then want to undo...the undos to revert it back and realize you cannot do that.
+      How can we build an undo system that allow us to go back to any previous buffer. It's being used in Emacs and a bit Lisp heavy but I think it's useful for even non-Emacs user to know about that kind of data structure
+
+  - url: https://hanami.run?utm_source=bdm
+    title: email forwarding for your domain
+    description: |
+      Hanami is a service that allow you to forward email from your domain to personal email and sending email through your domain as well. You can also create unlimited alias on your domain and all of them will be foreward to your personal email.
+    category: ['Sponsor']
+
+  - url: https://slack.engineering/migrating-millions-of-concurrent-websockets-to-envoy/
+    title: "Migrating Millions of Concurrent Websockets to Envoy"
+    description: |
+      Slack strategy to migrate from HaProxy to Envoy for their websocket service. They use weighted routing to shift traffic HAProxy to Envoy.
+      After a very long and exciting 6 months, the migration was complete and the entire HAProxy websocket stack was replaced with Envoy Proxy globally with zero customer impact.
+
+
+  - url: https://blog.flant.com/troubleshooting-web-apps-issues-6-recent-cases-from-our-sres/
+    title: "Troubleshooting web apps issues: 6 recent cases from our SREs"
+    description: |
+      I always said, nothing beats hand-on experience. And when a company shares that with us, by all mean, get on it. Here, Flant shares with us 6 recent cases on how they were troubleshooting their app. Do not forgot to check [part 2](https://blog.flant.com/recent-troubleshooting-cases-from-our-sres-part-2/) and [part3](https://blog.flant.com/recent-troubleshooting-cases-from-our-sres-part-3/)
+
+  - url: https://vettabase.com/blog/optimize-read-and-write-performance-in-postgresql/
+    title: "Basic practices for optimizing read and write performance in PostgreSQL"
+    description: |
+      When you are here, make sure to check [Tuning Your Postgres Database for High Write Load](https://blog.crunchydata.com/blog/tuning-your-postgres-database-for-high-write-loads)
+
+  - url: https://blog.koehntopp.info/2020/11/27/backups-and-replication.html
+    title: "Backups and Replication"
+    description: |
+      Look into lower layer of what exactly happen when MySQL backup data with binlog and use this binglog for replication
+
+  - url: https://inessential.com/2021/03/20/how_netnewswire_handles_threading
+    title: "How NetNewsWire Handles Threading"
+    description: |
+      In their words:  we try, as much as possible, to not use queues or threading at all. I can’t emphasize this enough: the best way to handle concurrency is just to not do it.
+
+  - url: https://incolumitas.com/2021/03/13/tcp-ip-fingerprinting-for-vpn-and-proxy-detection/
+    title: "TCP/IP Fingerprinting for VPN and Proxy Detection"
+    description: "How can we know if an user use a VPN or Proxy to access our site? The hypothesis is that different operating systems (and different minor versions among those operating systems) use different default values in their initial TCP SYN packet that initiates the TCP three-way handshake. An interesting technique and a great read that dive into network knowledge and some Python code :-)"
+
+  - url: https://dataflowr.github.io/website/
+    title: dataflowr
+    description: |
+      A collections of resources to learn Deep Learning in the form of Modules available through the sidebar on the left. As a student, you can walk through the modules at your own pace and interact with others thanks to the associated digital platforms.
+
+
+read_code:
+  - url: https://github.com/nodeca/probe-image-size
+    title: probe-image-size
+    description: "Get image size without full download.  A very interesting project. It works by fetching only header data of images where it contains image size so we don't have to download full image and read them all into memory"
+    category: ['JavaScript']
+
+  - url: https://github.com/volatiletech/sqlboiler
+    title: sqlboiler
+    description: |
+      Generate a Go ORM tailored to your database schema. Best used when you already have your database pre-defined and managed by other system. Now you want an ORM/Model class to access them quickly.
+    category: ['Go']
+
+  - url: https://github.com/google/Docker-Explorer
+    title: "Docker Explorer"
+    description: "helps a forensics analyst explore offline Docker filesystems. When analyzing a system where a Docker container has been compromised, it can be useful to have the same view of the filesystem as the container's"
+    category: ['Python']
+
+  - url: https://github.com/cfabianski/ltree_hierarchy
+    title: ltree_hierarchy
+    description: "Organize ActiveRecord models into a tree using PostgreSQL's ltree datatype"
+    category: ['Ruby']
+
+tool:
+  - url: https://gitlab.com/bramw/baserow
+    title: baserow
+    description: |
+      an open source online database tool and Airtable alternative. Think of its like google sheet with an API to access data.
+
+  - url: https://github.com/doyensec/regexploit
+    title: regexploit
+    description: |
+      Find regular expressions which are vulnerable to ReDoS (Regular Expression Denial of Service)
+
+  - url: https://github.com/Unleash/unleash
+    title: "Unleash"
+    description: |
+      a open source feature flag & toggle system, that gives you a great overview over all feature toggles across all your applications and services. It comes with official client implementations for Java, Node.js, Go, Ruby, Python and .NET Core.
+
+  - url: https://github.com/steveseguin/obsninja
+    title: obsninja
+    description: |
+      bring remote video feeds into OBS via WebRTC
+
+  - url: https://github.com/chriswalz/bit
+    title: bit
+    description: |
+      an experimental modernized git CLI built on top of git that provides happy defaults and other niceties:
+
+  - url: https://github.com/ory/kratos
+    title: "kratos"
+    description: "A loud native Identity and User Management System in the world. Finally, it is no longer necessary to implement a User Login process for the umpteenth time!"
+
+  - url: http://sqlforever.com/
+    title: "sqlforever"
+    description: |
+      A tool that let you run SQL directly in browser on a few dataset. Great if you want to try out some SQL really quick
