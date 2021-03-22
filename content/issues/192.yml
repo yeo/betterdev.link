@@ -23,7 +23,7 @@ links:
     title: email forwarding for your domain
     description: |
       Hanami is a service that allow you to forward email from your domain to personal email and sending email through your domain as well. You can also create unlimited alias on your domain and all of them will be foreward to your personal email.
-    category: ['Sponsor']
+    category: ['sponsor']
 
   - url: https://slack.engineering/migrating-millions-of-concurrent-websockets-to-envoy/
     title: "Migrating Millions of Concurrent Websockets to Envoy"
