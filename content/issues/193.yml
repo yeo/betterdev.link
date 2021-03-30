@@ -1,0 +1,112 @@
+time: "Mar 29, 2021"
+subject: "Ethernet and IP Networking 101 (Heavily Illustrated)"
+draft: false
+description: "Hi all,
+
+  This week, We had some interesting tools which I'm sure will make you engineer life easier, checkout tools section.
+
+  If you enjoy this newsletter, [make a small contribution](https://www.buymeacoffee.com/betterdev) to help me to keep working on it."
+
+links:
+  - url: "https://iximiuz.com/en/posts/computer-networking-101/"
+    title: "Ethernet and IP Networking 101 (Heavily Illustrated)"
+    description: "Network segment, broadcast address, VLAN, subnet mask. If you feel dizzy with these terms then check out this post. It's a nice recap of IP networking which we may overlook when working on higher layers such as backend or frontend. Even if you aren't a network engineer, this helps you when setting up AWS VPC for example"
+
+  - url: https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/don-t-let-collation-versions-corrupt-your-postgresql-indexes/ba-p/1978394
+    title: "Don't let collation versions corrupt your PostgreSQL indexes"
+    description: "Collations and dependencies are nerdy topics a bit like leap seconds and time zones: you know, the kinds of obscure things you don't normally have to worry about until something is broken. If you like gory details, the UCA is both fascinating and terrifying (my favourite part is \"backward accent ordering\" which shows up in some French variants but not others)."
+
+  - url: https://benhoyt.com/writings/count-words/
+    title: "Performance comparison: counting words in Python, Go, C++, C, AWK, Forth, and Rust"
+    description: "I include this article so we can have some fun. It's an interesting artcile to see how different language solve the same problem: counting words. It's very nice to see how the same code/algorithm looks like in different languages"
+
+  - url: https://github.com/Lissy93/personal-security-checklist
+    title: "Personal security checklist"
+    description: "🔒 A curated checklist of 300+ tips for protecting digital security and privacy in 2021"
+
+  - url: https://blog.cryptohack.org/twitter-secrets
+    title: "Recovering a full pem private key when half of it is redacted"
+    description: "a write-up covering how given a partially redacted PEM, the whole private key can be recovered. The Twitter user, SAXX, shared a partially redacted private RSA key in a tweet about a penetration test where they had recovered a private key. Precisely, a screenshot of a PEM was shared online with 31 of 51 total lines of the file redacted."
+
+  - url: https://hanami.run?utm_source=bdm
+    title: "hanami: email forwarding for your domain"
+    description: |
+      Hanami is a service that allow you to forward email from your domain to personal email and sending email through your domain as well. You can also create unlimited alias on your domain and all of them will be foreward to your personal email.
+    category: ['sponsor']
+
+  - url: https://blog.koehntopp.info/2021/03/24/a-lot-of-mysql.html
+    title: "That's a lot of databases"
+    description: |
+      We linked to this blog of Kristian Köhntopp a few time. Today is a new post about a complicated MySQL setup. The databases are being organized in replication hierarchies, and each hierarchy is a tree topology with a single primary and a number of intermediate replicas. And yes, it really is a lot of databases
+
+  - url: https://antonz.org/sqlite-is-not-a-toy-database/
+    title: "SQLite is not a toy database"
+    description: "Look into a few features of SQLite to show that you it was underrated and how we can make use of modern SQL feature like JSON query, CTE"
+
+  - url: http://muratbuffalo.blogspot.com/2021/03/sundial-fault-tolerant-clock.html
+    title: "Sundial: Fault-tolerant Clock Synchronization for Datacenters"
+    description: |
+      This paper is about clock synchronization in the data center. I presented this paper for our distributed systems zoom meeting group. I took a wider view of the problem by explaining time synchronization challenges and fundamental techniques to achieve precise time synchronization
+
+  - url: https://eng.uber.com/eng-failover-handling/
+    title: "Engineering Failover Handling in Uber’s Mobile Networking Infrastructure"
+    description: |
+      A core component of Uber networking stack is the failure handler that intelligently routes all mobile traffic from applications to the edge infrastructure. Uber’s failure handler was designed as a finite state machine (FSM) to ensure that the traffic sent via cloud infrastructure is maximized. During times when the cloud infrastructure is unreachable, the failover handler dynamically re-routes the traffic directly to Uber’s data centers without significantly impacting the user’s experience.
+
+  - url: https://calibreapp.com/blog/css-performance
+    title: "How to Improve CSS Performance"
+    description: |
+      This post will cover what kinds of performance issues CSS can cause and best practices for crafting CSS that doesn’t get in people’s way
+
+read_code:
+  - url: https://github.com/uber-go/goleak
+    title: goleak
+    description: "Goroutine leak detector"
+    category: ['Go']
+
+  - url: https://github.com/luruke/aladino
+    title: aladino
+    description: 'a tiny (around ~5kb gzipped) and dependency-free javascript library that allows to enhance your site using "shader effects"'
+    category: ['JavaScript', 'WebGL']
+
+  - url: https://github.com/donnemartin/data-science-ipython-notebooks
+    title: "data-science-ipython-notebooks"
+    description: |
+      IPython Notebook(s) demonstrating deep learning functionality.
+    category: ['Python', 'Deep Learning']
+
+  - url: https://github.com/geminabox/geminabox
+    title: geminabox
+    description: "Really simple rubygem hosting"
+    category: ['Ruby']
+
+tool:
+  - url: https://github.com/mptre/yank
+    title: yank
+    description: "Yank terminal output to clipboard"
+
+  - url: https://github.com/mptre/pick
+    title: pick
+    description: |
+      A fuzzy search tool for the command-line
+
+  - url: https://github.com/pemistahl/grex
+    title: grex
+    description: |
+      command-line tool and library for generating regular expressions from user-provided test cases
+
+  - url: https://github.com/jonaswinkler/paperless-ng
+    title: paperless-ng
+    description: "A supercharged version of paperless: scan, index and archive all your physical documents"
+
+  - url: https://github.com/mykolaharmash/git-jump
+    title: git-jump
+    description: "Interactive CLI to better navigate and switch Git branches."
+
+  - url: https://github.com/so-fancy/diff-so-fancy
+    title: diff-so-fancy
+    description: "Good-lookin' diffs. Actually… nah… The best-lookin' diffs. 🎉"
+
+  - url: https://github.com/cisagov/CHIRP
+    title: CHIRP
+    description: "a tool created to dynamically query Indicators of Compromise (IoCs) on hosts with a single package, outputting data in a JSON format for further analysis in a SIEM or other tool. CHIRP does not modify any system data."
