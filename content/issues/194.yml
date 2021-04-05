@@ -1,0 +1,154 @@
+time: "Apr 05, 2021"
+subject: "This man thought opening a txt file is fine, he thought wrong. macos cve-2019-8761"
+draft: false
+description: "Hi all,
+
+  This week, We had some interesting low level links about font rendering, IP parse, and a few tools which I'm sure will make you engineer life easier, checkout tools section.
+
+  If you enjoy this newsletter, [make a small contribution](https://www.buymeacoffee.com/betterdev) to help me to keep working on it."
+
+links:
+  - url: https://www.paulosyibelo.com/2021/04/this-man-thought-opening-txt-file-is.html
+    title: "This man thought opening a txt file is fine, he thought wrong. macos cve-2019-8761"
+    description: "Can you imagine simply open a TXT file will leak your IP address, make network request to attacker server, send your file out? It's all because the text editor try to be smart and render HTML. And to have some fun, Jeff Johnson of Lapcatsoftware build a PoC that [Distributing unnotarized Mac apps in a text file](https://lapcatsoftware.com/articles/textedit-gatekeeper.html)"
+
+  - url: https://fusionauth.io/learn/expert-advice/oauth/modern-guide-to-oauth/
+    title: "The Modern Guide to OAuth"
+    description: "Is this yet another guide to OAuth 2.0? No. This document is based on hundreds of conversations and client implementations as well as their experience building FusionAuth, an OAuth server which has been downloaded over a million times. FusionAuth is a great OAuth solution which you can self hosted in this space now given that Okta has acquired Auth0. Give them a try. They're great product too."
+
+  - url: https://ably.com/blog/limits-aws-network-load-balancers
+    title: "Balancing act: the current limits of AWS network load balancers"
+    description: |
+      Deep dive into a few limitations of AWS NLB. Ably learned that  anything over 200,000 connections per NLB begins to be a challenge.  This is unfortunately substantially below the advertised understanding of what the load balancers can currently do.
+
+  - url: https://tonsky.me/blog/font-size/
+    title: "Font size is useless; let’s fix it"
+    description: |
+      What happens when you set "font_size": 32 in your favorite editor? I would’ve told you anyway, but I’m glad that you asked.
+      And do you know that 16 pt text on Windows is ⅓ larger than 16 pt text on macOS. Fun!
+
+  - url: https://sick.codes/universal-netmask-npm-package-used-by-270000-projects-vulnerable-to-octal-input-data-server-side-request-forgery-remote-file-inclusion-local-file-inclusion-and-more-cve-2021-28918/
+    title: "Universal “netmask” npm package, used by 270,000+ projects, vulnerable to octal input data for IP parser"
+    description: |
+      This is a JavaScript package but you should give it a read to be more carefully when parsing data that can be represent in different notation. Example, what would you think `0127.0.0.1`? The ip actually is `87.0.0.1`
+
+  - url: https://jvns.ca/blog/2021/04/03/what-problems-do-people-solve-with-strace/
+    title: "What problems do people solve with strace?"
+    description: |
+      When a worker thread that seems to hang and have no log to indicate, I usually do `strace -p pid` on it to see what call it stuck on. In this artcile, Julia Evans shares 9 problems that strace can help us identity/debug.
+
+  - url: https://www.cybertec-postgresql.com/en/how-the-postgresql-query-optimizer-works/
+    title: "How the PostgreSQL query optimizer works"
+    description: |
+      PostgreSQL uses a cost-based query optimizer that tries to turn your SQL queries into something efficient that executes in as little time as possible. For many people, the workings of the optimizer itself remain a mystery, so we have decided to give users some insight into what is really going on behind the scenes.
+
+  - url: https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md
+    title: "Safe ways to do things in bash"
+    description: |
+      Like programming in C or driving a car, contemporary shellscript languages require some knowledge and discipline to use safely, but that's not to say it can't be done.
+      This article is a part of the tool shellharden we linked to below the code to read section for Rust.
+
+  - url: https://blog.cloudflare.com/how-to-execute-an-object-file-part-1/
+    title: "How to execute an object file"
+    description: "For language that compile to native code, The output of the compiler is a number of object files. Then a linker assembling all these object files into one big program and create the final executable files. But most of Linux code use dynamic linking, means its object files are absence. At run time, it will borrow the file. Sound magically? Let's dig in. Make sure to check [part 2](https://blog.cloudflare.com/how-to-execute-an-object-file-part-2/) as well."
+
+  - url: https://seb.jambor.dev/posts/improving-shell-workflows-with-fzf/
+    title: "Improving shell workflows with fzf"
+    description: |
+      One way to improve shell workflows is finding patterns in the execution order of commands and extracting those into little scripts; this can often be helpful and is part of what makes working in a shell so powerful. Another way is to understand how the parameters are added and try to simplify this; that’s what I will focus mostly on in this blog post.
+
+#  - url: https://github.com/magnologan/awesome-k8s-security
+#    title: "Awesome Kubernetes (K8s) Security"
+
+video:
+  - url: https://www.youtube.com/watch?v=HLRdruqQfRk
+    title: "Uppestcase and Lowestcase Letters [advances in deep learning]"
+    description: |
+      perform an exhaustive case analysis using advanced "derp learning" techniques to discover what's even upperercase than an uppercase A. AND I DON'T STOP THERE. For SIGBOVIK 2021.
+
+read_code:
+  - url: https://unix4lyfe.org/darkhttpd/
+    title: darkhttpd
+    description: |
+      A single file httpserver in C, no external dependencies. Interesting to see how to parse HTTP request.
+    category: ['C']
+
+  - url: https://github.com/nalgeon/sqlite-plus
+    title: sqlite-plus
+    description: "All the missing SQLite functions: regular expressions, common statistical functions, CSV files as virtual tables, Unicode string functions"
+    category: ['C']
+
+  - url: https://github.com/gruns/icecream
+    title: icecream
+    description: "Never use print() to debug again"
+    category: ['Python', 'Deep Learning']
+
+  - url: https://github.com/taoqf/node-html-parser
+    title: node-html-parser
+    description: |
+      Fast HTML Parser is a very fast HTML parser. Which will generate a simplified DOM tree, with basic element query support.
+    category: ['TypeScript']
+
+  - url: https://github.com/typicode/husky
+    title: husky
+    description: |
+      Git hooks made easy 🐶 woof!
+    category: ['JavaScript']
+
+  - url: https://github.com/goccy/go-json
+    title: go-json
+    description: |
+      Fast JSON encoder/decoder compatible with encoding/json for Go. aim of being the fastest library. Use a few technique such as: Buffer reuse, Elimination of reflection, and more. A lot to lean in this code base
+    category: ['Go']
+
+  - url: https://github.com/rails/marcel
+    title: "Marcel 1.0: Find the MIME Type of Files from Their Contents and/or Filename"
+    description: |
+      This is the heat in Ruby/Rails community right now. The mimemagic is moved to GPL and Rails only wants MIT, so Rails author write this, take the mime map from Apache Tika project. We sometimes take for granted simple things like detect file type. So let's spend 30 mins to see how that's done
+    category: ['Ruby']
+
+  - url: https://github.com/philnash/pwned
+    title: pwned
+    description: |
+      An easy, Ruby way to use the HaveIbeenPawn Passwords API.
+    category: ['Ruby']
+
+  - url: https://github.com/anordal/shellharden
+    title: "Shellharden"
+    description: "It suggests changes to your script and highlight them, also support semi-automate the rewriting of scripts to ShellCheck conformance.
+      Though we put this in Code to read, but it's a great tool that you can install easily and use to improve your shell script."
+    category: ['Rust']
+
+tool:
+  - url: https://github.com/nats-io/jetstream
+    title: jetstream
+    description: |
+      the NATS.io persistence engine that will support streaming as well as traditional message and worker queues for At-Least-Once delivery semantics.
+
+  - url: https://github.com/akavel/up
+    title: up
+    description: |
+      the Ultimate Plumber, a tool for writing Linux pipes in a terminal-based UI interactively, with instant live preview of command results.
+
+  - url: https://reorg.github.io/pg_repack/#download
+    title: pg_repack
+    description: "organize tables in PostgreSQL databases with minimal locks"
+
+  - url: https://github.com/citusdata/pg_auto_failover
+    title: pg_auto_failover
+    description: "an extension and service for PostgreSQL that monitors and manages automated failover for a Postgres cluster."
+
+  - url: https://vpncloud.ddswd.de/
+    title: vpncloud
+    description: |
+      a high performance peer-to-peer mesh VPN over UDP supporting strong encryption, NAT traversal and a simple configuration.
+      It establishes a fully-meshed self-healing VPN network in a peer-to-peer manner with strong end-to-end encryption based on elliptic curve keys and AES-25
+
+  - url: https://github.com/sigstore/cosign
+    title: cosign
+    description: "Container Signing, Verification and Storage in an OCI registry."
+
+  - url: https://github.com/ziolko/roombelt-activity-map
+    title: roombelt-activity-map
+    description: |
+      show a map of your active customers to build trust
