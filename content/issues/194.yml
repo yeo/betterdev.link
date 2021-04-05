@@ -152,3 +152,9 @@ tool:
     title: roombelt-activity-map
     description: |
       show a map of your active customers to build trust
+
+  - url: https://github.com/twpayne/chezmoi
+    title: chezmoi
+    description: |
+      Manage your dotfiles across multiple diverse machines, securely.
+      We linked to this in [issue #85](https://betterdev.link/issues/85) but they got 2.x branch release this week so we included it again.
