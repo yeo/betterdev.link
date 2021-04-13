@@ -1,0 +1,112 @@
+time: "Apr 12, 2021"
+subject: "The history of UTF-8 as toldby Rob Pike"
+draft: false
+description: "Hi all,
+
+  This week is short issue :-). I got an injury with my foot and literally cannot sit to type so I take a bit of time to rest this week. We'll be back to our normal issue next week
+
+
+  If you enjoy this newsletter, [make a small contribution](https://www.buymeacoffee.com/betterdev) to help me to keep working on it."
+
+links:
+  - url: http://doc.cat-v.org/bell_labs/utf-8_history
+    title: "The history of UTF-8 as told by Rob Pike"
+    description: |
+      Rob Pike explains how Ken Thompson invented UTF-8 in one evening and how they together built the first system-wide implementation in less than a week.
+
+  - url: https://github.blog/2021-04-05-how-we-scaled-github-api-sharded-replicated-rate-limiter-redis/
+    title: "How we scaled the GitHub API with a sharded, replicated rate limiter in Redis"
+    description: |
+      Needless to say everyone uses Github. Every single programmer probably use Github at sometime without even realizing. They sure know how to operate software at scale. In this post, they shared lessons along the way when adopting a replicated Redis backend with client-side sharding.
+
+  - url: https://blog.koehntopp.info/2021/04/06/mysql-and-uuids.html
+    title: MySQL and UUIDs
+    description: |
+      This is a follow up of [MySQL: ALTER TABLE for UUID](https://blog.koehntopp.info/2020/09/22/alter-table-for-uuid.html).
+      So read that first then this post explain what can we do to make working with UUID easier in MySQL.
+
+  - url: https://robertchen.cc/blog/2021/04/03/github-pages-xss
+    title: "Breaking GitHub Private Pages for $35k"
+    description: "
+      A very deeply technical post on how a security research breaks github page to access data on a cross domain manner.
+      It's very creative such as leveraging that a pieice of data is used in 2 different ways on. In one place, it's convert to an int and in other, it echo out directly.
+      If anything, this post again emphasize to never trust user data and if you have to echo out, make sure it's follow a whitelist pattern.
+      Another good read on this security topic, [5 ways to prevent code injection in JavaScript and Node.js](https://snyk.io/blog/5-ways-to-prevent-code-injection-in-javascript-and-node-js/)"
+
+  - url: https://dev.to/kprotty/understanding-atomics-and-memory-ordering-2mom
+    title: "Understanding Atomics and Memory Ordering"
+    description: |
+      Atomics and Memory Ordering always feel like an unapproachable topic. In the sea of poor explanations, I wish to add another by describing how I reason about all of this mess. This is only my understanding so if you need a better/formal explanation, I recommend reading through the memory model for your given programming language.
+
+  - url: https://exampl.io/bloom-filters/
+    title: bloom-filters
+    description: |
+      A Bloom filter is a probabilistic data structure present in many common applications. Its purpose is answering the question: "is this item in the set?" very fast and not using a lot of space. The answers can be a surely NO, or a "MAYBE YES".
+
+  - url: https://www.metabase.com/learn/building-analytics/sql-templates/sql-best-practices
+    title: "Best practices for writing SQL queries"
+    description: |
+      This article covers some best practices for writing SQL queries for data analysts and data scientists. Most of our discussion will concern SQL in general, but we’ll include some notes on features specific to Metabase that make writing SQL a breeze.
+
+  - url: https://mydbanotebook.org/psql_tips_all.html
+    title: 100 PSQL tips
+    description: "I'm sure you will get some userful tips from this post if you work a lot with Psql. My favourite is -E"
+
+  - url: https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox
+    title: "Why uBlock Origin works best on Firefox"
+    description: |
+      FireFox has a few API that alows plugin to hook into that enable a better ads blocker experience.
+
+  - url: https://github.com/magnologan/awesome-k8s-security
+    title: "Awesome Kubernetes (K8s) Security"
+
+video:
+
+read_code:
+  - url: https://github.com/sparklemotion/mechanize
+    title: mechanize
+    description: |
+      a ruby library that makes automated web interaction easy
+    category: ['Ruby']
+
+  - url: https://github.com/go-ldap/ldap
+    tilte: ldap
+    description: |
+      Basic LDAP v3 functionality for the GO programming language. Super useful for anyone work in Go to integrate with LDAP.
+    category: ['Go']
+
+  - url: https://github.com/BMSVieira/moovie.js
+    title: moovie.js
+    description: |
+      A Media player made for movies. Super handy if you want to play movie on your site, support .vtt and .srt caption files too.
+    category: ['JavaScript']
+
+  - url: https://github.com/fb55/css-select
+    title: "css-select"
+    description: |
+      a CSS selector compiler/engine that turns CSS selectors into functions that tests if elements match them. If you like compiler, parser, then dig in.
+    category: ['TypeScript', 'CSS']
+
+
+tool:
+  - url: https://github.com/ADD-SP/ngx_waf
+    title: ngx_waf
+    description: A web application firewall module for nginx without complex configuration.
+
+  - url: https://github.com/vdaas/vald
+    title: vald
+    description: A Highly Scalable Distributed Vector Search Engine
+
+  - url: https://github.com/artagnon/clayoven
+    title: clayoven
+    description: "beautiful website generator aimed at math-heavy sites"
+
+  - url: https://github.com/DualCoder/vgpu_unlock
+    title: vgpu_unlock
+    description: |
+      This tool enables the use of Geforce and Quadro GPUs with the NVIDIA vGPU software. NVIDIA vGPU normally only supports a few Tesla GPUs but since some Geforce and Quadro GPUs share the same physical chip as the Tesla this is only a software limitation for those GPUs. This tool aims to remove this limitation.
+
+  - url: https://github.com/ory/keto
+    title: keto
+    description: |
+      Open Source (Go) implementation of "Zanzibar: Google's Consistent, Global Authorization System". Ships gRPC, REST APIs, newSQL, and an easy and granular permission language. Supports ACL, RBAC, and other access models.
