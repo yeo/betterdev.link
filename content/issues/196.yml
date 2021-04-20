@@ -1,0 +1,121 @@
+time: "Apr 19, 2021"
+subject: "Allow arbitrary URLs, expect arbitrary code execution and curl those funny ipv4 addresses"
+draft: false
+description: "Hi all,
+
+  This week is an issue of network knowledge, tips and tricks. The fundamental of how computers can talk to each others :-).
+
+  If you enjoy this newsletter, [make a small contribution](https://www.buymeacoffee.com/betterdev) to help me to keep working on it."
+
+links:
+  - url: https://positive.security/blog/url-open-rce
+    title: "Allow arbitrary URLs, expect arbitrary code execution"
+    description: |
+      This team found and reported 1-click code execution vulnerabilities in popular software including Telegram, Nextcloud, VLC, Libre-/OpenOffice, Bitcoin/Dogecoin Wallets, Wireshark and Mumble. Read on so we know more about these attacking vector to better secure our software when writing code and handle the URLs securely.
+
+  - url: https://daniel.haxx.se/blog/2021/04/19/curl-those-funny-ipv4-addresses/
+    title: "curl those funny ipv4 addresses"
+    description: |
+      Do you know 192.168.0.1 can be written in octal as **0300.0250.0.01** or in hexadecimal as **0xc0.0xa8.0x00.0x01**. And bonus point `16843009` is `1.1.1.1` so you can do `ping 16843009`
+
+  - url: https://rhardih.io/2021/04/listing-the-contents-of-a-remote-zip-archive-without-downloading-the-entire-file/
+    title: "Listing the contents of a remote ZIP archive, without downloading the entire file"
+    description: "HTTP supports a header `accept-ranges: bytes` and `Ranges bytes:start-end` to signal it only need a part of the file. It's usually use in streaming so we can seek to any part of video/auto. In this post we made use of it to only fetch a particular file in zip bundle"
+
+  - url: https://galois.com/blog/2021/03/actually-you-are-rolling-your-own-crypto/
+    title: actually you are rolling your own crypto
+    description: "The mantra “don’t roll your own crypto” is widely known and accepted amongst programmers, but what does it actually mean? It turns out that such a simple statement is not so simple to follow."
+
+  - url: https://blog.sentry.io/2021/04/12/slow-and-steady-converting-sentrys-entire-frontend-to-typescript
+    title: "Slow and Steady: Converting Sentry’s Entire Frontend to TypeScript"
+    description: "
+      Given a project with years of development and actively use in production? How would you go about switching to a different language? Especially in a space that move incrediblly fast as Frontend? Sentry.com shares their strategy for JavaScript to TypeScript migration to learn. If you don't have time this week, then only read this article"
+
+  - url: https://www.keithf4.com/managing-transaction-id-exhaustion-wraparound-in-postgresql/
+    title: "Managing Transaction ID Exhaustion (Wraparound) in PostgreSQL"
+    description: "In Postgres, Transaction ID can be compared is used for isolated data access control. A row version with an insertion XID greater than the current transaction's XID is “in the future” and should not be visible to the current transaction. But it's only 32 bits. This blog post is going to cover is an easy way to monitor for it and what can be done to prevent it ever being a problem."
+
+  - url: https://www.cybertec-postgresql.com/en/cleaning-up-large-number-blobs/
+    title: "Cleaning up a large number of blobs in PostgreSQL"
+    description: "Storing BLOBs in database is an open-ended discussion. When working on my [email forwarding project](https://hanami.run), I did that and it isn't that bad. If you are in the “pro BLOB” camp, we want to share some insights into how binary data can be handled in PostgreSQL with maximum efficiency."
+
+  - url: https://www.gcardone.net/2020-07-31-per-process-bandwidth-monitoring-on-Linux-with-bpftrace/
+    title: "Accurate, low-overhead per process bandwidth monitoring on Linux in 40 lines of bpftrace"
+    description: "
+      Searching for “per process network usage linux” is disappointing. Most of the recommended tools – like iftop, nload, bmon, and iptraf. But they mostly report per-interface or per-socket traffic. In this post, OP is going to explain line-by-line how to write a bpftrace program that measures per-process network traffic. The code is C but once you learn eBPF, it's easy to find binding for Ruby/Python/Go etc."
+
+  - url: https://trekhleb.dev/blog/2021/content-aware-image-resizing-in-javascript/
+    title: "Content-aware image resizing in JavaScript"
+    description: |
+      Content-aware image resizer based on Seam Carving algorithm. Here is the [result code repository](https://github.com/trekhleb/js-image-carver)
+
+
+video:
+
+
+read_code:
+  - url: https://github.com/evansd/whitenoise
+    title: whitenoise
+    description: |
+      Radically simplified static file serving for Python web apps
+    category: ['Python']
+
+  - url: https://github.com/sidoh/easy_upnp
+    title: easy_upnp
+    description: "
+      uPnP is a features of router that allow you to port forward a client on LAN to the internet without manually configure the router. The client adverise its service, the router picks up and auto configure. It's interesting to learn about those small protocol. Another similar project, but a bit more complex implementation is [playfull](https://github.com/turboladen/playful) so check its out too"
+    category: ['Ruby']
+
+  - url: https://github.com/lucagrulla/node-tail
+    title: node-tail
+    description: |
+      The zero dependency Node.js module for tailing a file. Similar to `tail -f` but in NodeJS.
+    category: ['JavaScript']
+
+  - url: https://github.com/mvdan/sh
+    tile: sh
+    description: |
+      A shell parser, formatter, and interpreter with bash support; includes shfmt
+    category: ['Go']
+
+  - url: https://github.com/encoredev/encore
+    title: encore
+    description: |
+      The Go backend framework with superpowers: distributed tracing, no boilerplate, secret management, api doc
+    category: ['Go']
+
+  - url: https://github.com/joaoh82/rust_sqlite
+    title: rust_sqlite
+    description: |
+      Simple embedded database modeled off SQLite in Rust
+
+
+tool:
+  - url: https://github.com/zricethezav/gitleaks
+    title: gitleaks
+    description: "Scan git repos (or files) for secrets using regex and entropy 🔑"
+
+  - url: https://github.com/feast-dev/feast
+    title: feast
+    description: |
+      Feature Store for Machine Learning
+
+  - url: https://github.com/koalaman/shellcheck
+    title: shellcheck
+    description: |
+       a static analysis tool for shell scripts. Seriously, run your shell script through it.
+
+  - url: https://github.com/bash-lsp/bash-language-server
+    title: bash-language-server
+    description: |
+      The Language Server Protocol (LSP) defines the protocol used between an editor or IDE and a language server that provides language features like auto complete, go to definition, find all references etc. This is an LSP implementation for bash so you can use it in any text editor that speak LSP protocol such as vim, vscode, atom, emacs, Sublime Text.
+
+  - url: https://github.com/calendso/calendso
+    title: calendso
+    description: |
+      The open-source Calendly alternative
+
+  - url: https://github.com/snovvcrash/DivideAndScan
+    title: DivideAndScan
+    description: |
+      Divide full port scan results and use it for targeted Nmap runs
