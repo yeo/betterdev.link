@@ -76,12 +76,27 @@ read_code:
   - url: https://github.com/TheAlgorithms/Python
     tite: "The Algorithms"
     description: "All Algorithms implemented in Python. I'm sure you will find some gem in here for your favourite algorithm."
+    category: ['Python']
+
+  - url: https://github.com/zellij-org/zellij
+    title: zellij
+    description: |
+      Like tmux but written in Rust. Rust is started to being used in many low level CLI stuff. It has layout system and a plugin system that leverage WebAssembly. The plugin has hook in load update, render state to allow you control how to render certain thing. Such as writing a status bar.
+    category: ['Rust']
 
 tool:
   - url: https://github.com/gruntwork-io/cloud-nuke
     title: "cloud-nuke"
     description: |
       A tool for cleaning up your cloud accounts by nuking (deleting) all resources within it. Grunkworks [reduce 85% AWS bill](https://blog.gruntwork.io/cloud-nuke-how-we-reduced-our-aws-bill-by-85-f3aced4e5876) with it.
+
+  - url: https://github.com/ArchiveBox/ArchiveBox
+    title: ArchiveBox
+    description: Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...
+
+  - url: https://github.com/netdata/netdata
+    title: netdata
+    description: "high-fidelity infrastructure monitoring and troubleshooting. Open-source, free, preconfigured, opinionated, and always real-time."
 
   - url: https://dbgate.org/
     title: dbgate
