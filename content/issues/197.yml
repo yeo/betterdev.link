@@ -1,0 +1,100 @@
+time: "Apr 26, 2021"
+subject: "Postgres error: invalid byte sequence for encoding"
+draft: false
+description: "Hi all,
+
+  Hope everyone has a great week ahead. Enjoy this week issue with articles cover a wide ranges of knowledge: from hardware to network to SRE and algorithm.
+
+  Thank you to the readers who have [bought me a coffee](https://www.buymeacoffee.com/betterdev), really appreciate that ❤.️"
+
+links:
+  - url: https://www.depesz.com/2010/03/07/error-invalid-byte-sequence-for-encoding/
+    title: "ERROR: invalid byte sequence for encoding"
+    description: "
+      One common problem that a lot of people seem to have is when they encounter error message like this:
+
+      `psql:test.sql:1: ERROR:  invalid byte sequence for encoding \"UTF8\": 0xb3`
+
+      Why it happens? What can be done about it? Let's see."
+
+  - url: https://www.bigmessowires.com/2019/05/19/explaining-4k-60hz-video-through-usb-c-hub/
+    title: "Explaining 4K 60Hz Video Through USB-C Hub"
+    description: |
+      USB-C promises to use one port for everything. USB-C converters to DisplayPort or HDMI are common and inexpensive. USB-C hubs with external monitor support are also common, but understanding their capabilities and limitations can be extremely confusing. Some are Mac-compatible and some aren’t. Some need driver software
+
+  - url: https://blog.crunchydata.com/blog/postgres-is-out-of-disk-and-how-to-recover-the-dos-and-donts
+    title: "Postgres is Out of Disk and How to Recover: The Dos and Don'ts"
+    description: "One frustrating thing that can happen to your database has nothing to do with performance and queries. Rather, it’s running out of disk space to store data. Today we’ll drill into some good practices you can put in place to help prevent such from happening. And if it does, show how to get you out of a bind as quickly as possible."
+
+  - url: https://yurichev.com/news/20210421_boyer_moore/
+    title: "Boyer-Moore string search algorithm explanation and formal verification using CBMC"
+    description: |
+      If a substring would be compared in reverse order, things may be different. For example, we search for a 'CAT' substring in 'HORSE TURTLE CAT' string.  With naive algorithm, we will first compare 'H' and 'C', we see they are unequal characters and we will advance substring one character ahead. But if we start at the end of sub string `CAT` we can jump back 3 character at a time.
+
+  - url: https://ieftimov.com/post/deep-dive-cors-history-how-it-works-best-practices/
+    title: "Deep dive in CORS: History, how it works, and best practices"
+    description: |
+      Learn the history and evolution of same-origin policy and CORS, understand CORS and the different types of cross-origin access in depth, and learn (some) best practices.
+
+  - url: https://tech.ebayinc.com/engineering/sre-case-study-mysterious-traffic-imbalance/
+    title: "SRE Case Study: Mysterious Traffic Imbalance"
+    description: "Given their large scale operation, if any bug in network that arise, ebay sure experienced it. So Charles ended up with many Sherlock Holmes stories to tell. And this post is a troubleshooting case of mysterious traffic imbalance."
+
+  - url: https://superuser.com/questions/784978/why-did-the-ietf-specifically-choose-192-168-16-to-be-a-private-ip-address-class
+    title: "Why did the IETF specifically choose 192.168/16 to be a private IP address class?"
+    description: |
+      A private IP address is an IP address that's reserved for internal use behind a router. They cannot be routed on the internet, only in LAN. 10.0.0/8 is private address spaces and we can guess the reason to choose it, easy to type and remember. But what's about 192.168/16?
+
+  - url: https://trekhleb.dev/blog/2018/dynamic-programming-vs-divide-and-conquer/
+    title: "Dynamic Programming vs Divide-and-Conquer"
+    description: |
+      In this article I’m trying to explain the difference/similarities between dynamic programing and divide and conquer approaches based on two examples: binary search and minimum edit distance (Levenshtein distance).
+
+  - url: http://c9x.me/compile/bib/
+    title: "Resources for Amateur Compiler Writers"
+    description: |
+      This is a page for amateur compiler writers. Anything that I did not find practical is not listed here. (I also did not include the things that I do not yet know!)
+
+  - url: https://twitter.com/fermatslibrary/status/1385957963429515266
+    title: "Clever algorithm to find out whether or not 2 words are anagrams"
+    description: |
+      A single tweet decribe a very creative method to check anagrams.
+
+video:
+
+read_code:
+  - url: https://github.com/rgeo/rgeo
+    title: rgeo
+    description: "Geospatial data library for Ruby. They are also looking for a maitenance"
+    category: ["Ruby"]
+
+  - url: https://github.com/Jeffail/tunny
+    title: tunny
+    description: "a Golang library for spawning and managing a goroutine pool, allowing you to limit work coming from any number of goroutines with a synchronous API."
+    category: ["Go"]
+
+  - url: https://github.com/TheAlgorithms/Python
+    tite: "The Algorithms"
+    description: "All Algorithms implemented in Python. I'm sure you will find some gem in here for your favourite algorithm."
+
+tool:
+  - url: https://github.com/gruntwork-io/cloud-nuke
+    title: "cloud-nuke"
+    description: |
+      A tool for cleaning up your cloud accounts by nuking (deleting) all resources within it. Grunkworks [reduce 85% AWS bill](https://blog.gruntwork.io/cloud-nuke-how-we-reduced-our-aws-bill-by-85-f3aced4e5876) with it.
+
+  - url: https://dbgate.org/
+    title: dbgate
+    description: "The smartest (no)SQL database client"
+
+  - url: https://github.com/mptre/mdsort
+    title: mdsort
+    description: "Move messages from one maildir to another. Useful if you spend lot of time with Postfix"
+
+  - url: https://github.com/ankane/pgvector
+    title: pgvector
+    description: "Open-source vector similarity search for Postgres"
+
+  - url: https://github.com/Qovery/engine
+    title: Qovery engine
+    description: "an open-source abstraction layer library that turns easy apps deployment on AWS, GCP, Azure, and other Cloud providers in just a few minutes."
