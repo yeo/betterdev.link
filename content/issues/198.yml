@@ -1,0 +1,143 @@
+time: "May 03, 2021"
+subject: "PostgreSQL: Understanding Deadlock and basics of Futexes"
+draft: false
+description: "Hi all,
+
+  Hope everyone has a great week ahead. This week we focus on deadlock and concurency primitive.
+
+  Thank you to the readers who have [bought me a coffee](https://www.buymeacoffee.com/betterdev), really appreciate that ❤.️"
+
+links:
+  - url: https://www.cybertec-postgresql.com/en/postgresql-understanding-deadlocks/
+    title: "PostgreSQL: Understanding Deadlock"
+    description: |
+      Many might have seen PostgreSQL issue the following error message: "ERROR: deadlock detected". But what does it really mean? How can we prevent a deadlock and how can we reproduce the problem? Let’s dive into PostgreSQL locking and understand what deadlock and deadlock_timeout really mean.
+
+  - url: https://mortoray.com/2019/02/20/how-does-a-mutex-work-what-does-it-cost/
+    title: "How does a mutex work? What does it cost?"
+    description: |
+      Concurrent programming requires synchronization. We can’t have more than one thread accessing data at the same time; otherwise, we end up with a data race.
+      The most common solution is to wrap the critical data access in a mutex.
+      When misused, it can cause a program to run worse in threaded mode than it would have single threaded!
+
+  - url: https://eli.thegreenplace.net/2018/basics-of-futexes/
+    title: "Basics of Futexes"
+    description: |
+      Now we know about mutex, then how about futexes, which are popup sometime especially when you are working with strace.
+      Futex mechanism was proposed by Linux contributors from IBM in 2002 [1]; it was integrated into the kernel in late 2003. The main idea is to enable a more efficient way for userspace code to synchronize multiple threads, with minimal kernel involvement.
+
+  - url: https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/
+    title: "Hosting SQLite databases on Github Pages"
+    description: |
+      (or any static file hoster). So how do you use a database on a static file hoster? Firstly, SQLite (written in C) is compiled to WebAssembly. SQLite can be compiled with emscripten without any modifications, and the sql.js library is a thin JS wrapper around the wasm code.
+      It also leverage HTTP Range header, which we cover in [issue #196](https://betterdev.link/issues/196)
+
+  - url: https://unix.stackexchange.com/questions/50058/what-is-the-point-of-the-cd-external-command
+    title: "What is the point of the `cd` external command?"
+    description: "
+      We use `cd` all day long. It's a built-in shell primitive. But at the same time, we also have `/usr/bin/cd`.What purpose does it serve?
+      Another deep dive on this is [cd is not a program, check it out too](https://seb.jambor.dev/posts/cd-is-not-a-program/)"
+
+  - url: https://blog.vnaik.com/posts/web-attacks.html
+    title: "CSRF, CORS, and HTTP Security headers Demystified"
+    description: |
+      With an increasing number of breaches, intrusions, and data thefts, securing a web application is extremely important.
+      On the other hand, programmers often do not have a strong grasp of how attacks work and how to mitigate them. This post attempts to close that gap a little.
+
+  - url: https://infosecwriteups.com/attacking-json-web-tokens-jwts-d1d51a1e17cb
+    title: "Attacking JSON Web Tokens (JWTs)"
+    description: "
+      JWT is gaining popularity due to its convenience use to hold information without issuing an auth storage. Naturally, it has a lot of attacking vectors. Let's learn about those attacks so we can use JWT securely"
+
+  - url: https://hakibenita.com/sql-for-data-analysis#common-table-expressions
+    title: "Practical SQL for Data Analysis"
+    description: |
+      The post target data scientist to use SQL instead of analyze data with Panda.
+      But we can see how thing are done in raw SQL to extract information out of SQL database
+      Running and Cumulative Aggregation, one of topic in this article can be quite useful to analyze the growth or trend.
+
+  - url: https://kevinmartinjose.com/2021/04/27/film-simulations-from-scratch-using-python/
+    title: "Film simulations from scratch using Python"
+    description: |
+      Back in old day, we take picture use film in camera. To create different look of image, we used a different film.
+      Modern mirrorless cameras from Fujifilm have film simulation presets that digitally mimic the style of a particular film stock.
+      So how these simulations were achieved? A good post to learn about image maniupulation, vector
+
+  - url: https://github.blog/2021-04-27-ship-code-faster-safer-feature-flags/
+    title: "How we ship code faster and safer with feature flags"
+    description: |
+      Github praises feature flags in release rollout. This is a better post in my opinion in this topic because it also talk about the cost of feature flags.
+
+  - url: https://markodenic.com/css-tips/
+    title: css tips and tricks
+    description: "We don't usually include article that just show code without technical deep dive but this has some useful ones so we include it here"
+
+video:
+  - url: https://fosdem.org/2021/schedule/event/fsr_pysdr_guide_to_sdr_and_dsp_using_python/
+    title: "PySDR: A Guide to SDR and DSP using Python"
+    description: |
+      If you are into Software-Defined Radio then this is a great resource to dive into it.
+
+read_code:
+  - url: https://github.com/karpathy/cryptos
+    title: cryptos
+    description: "a pure Python from-scratch zero-dependency implementation of Bitcoin for educational purposes. "
+    type: ['Python']
+
+  - url: https://github.com/truemail-rb/truemail
+    title: truemail
+    description: |
+      Verify email via Regex, DNS, SMTP, MX blacklist. A useful way to fightbox and ensure no typo on email.
+    category: ['Ruby']
+
+  - url: https://github.com/rubycdp/vessel
+    title: vessel
+    description: Fast high-level web crawling Ruby framework
+    category: ['Ruby']
+
+  - url: https://github.com/scribbletune/scribbletune
+    title: scribbletune
+    description: |
+      Use simple JavaScript Strings and Arrays to generate rhythms and musical patterns.
+    category: ['JavaScript']
+
+  - url: https://github.com/benhoyt/mugo
+    title: mugo
+    description: |
+      a single-pass compiler for a tiny subset of the Go programming language -- just enough to compile itself. It outputs (very naive) x86-64 assembly, and supports just enough of the language to implement a Mugo compiler.
+    category: ['Go']
+
+  - url: https://github.com/esimov/triangle
+    title: triangle
+    description: |
+      Convert images to computer generated art using delaunay triangulation. Kind of a fun code to read about image manipulation
+    category: ['Go']
+
+tool:
+  - url: https://github.com/Phantas0s/devdash
+    title: devdash
+    description: |
+      Highly Configurable Terminal Dashboard for Developers and Creators
+
+  - url: https://github.com/mazen160/tfquery
+    title: tfquery
+    description: Run SQL queries on your Terraform infrastructure. Query resources and analyze its configuration using a SQL-powered framework.
+
+  - url: https://github.com/matt-harvey/git_curate
+    title: git_curate
+    description: |
+      steps you through the local branches of a repo one at a time, outputting the following information about each: last commit, last author etc then you can select to delete them. Useful to cleanup when you hacked a lot on a repo.
+
+  - url: https://github.com/ankane/pgvector
+    title: pgvector
+    description: |
+      Open-source vector similarity search for Postgres
+
+  - url: https://github.com/v-byte-cpu/sx
+    title: sx
+    description: |
+      Fast, modern, easy-to-use network scanner. If you use nc, nmap a lot, absolutely give this a try.
+
+  - url: https://github.com/spaceuptech/space-cloud
+    title: space-cloud
+    description: Open source Firebase + Heroku to develop, scale and secure serverless apps on Kubernetes
