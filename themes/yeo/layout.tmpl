@@ -235,11 +235,19 @@
               <div style="padding: 1.5rem 1.5rem 0rem 1.5rem; font-size: 1.1rem;">
                 <h3 class="subtitle"><strong>Tools</strong></h3>
                 {{ range $key, $link := .Tools }}
-                <div style="padding: 0 0 0.5rem 0" class="issue-link">
-                  <a style="font-size: 1rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
-                  <p>{{ $link.Description }}</p>
-                  {{ range $ci, $category := .Category }}<span class='tag'>{{ $category }}</span>{{ end }}
-                </div>
+                  {{ if $link.IsSponsor }}
+                    <div class="issue-sponsor">
+                      <a style="font-size: 1.3rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a> <span class="badge">(SPONSOR)</span>
+                      <p class="issue-description">{{ $link.Description }}</p>
+                      {{ if $link.Action }}<a class='sponsor-action' href ="{{ $link.URI }}" target='_blank'>{{ $link.Action }}</a>{{ end }}
+                    </div>
+                  {{ else }}
+                    <div style="padding: 0 0 0.5rem 0" class="issue-link">
+                      <a style="font-size: 1rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
+                      <p>{{ $link.Description }}</p>
+                      {{ range $ci, $category := .Category }}<span class='tag'>{{ $category }}</span>{{ end }}
+                      </div>
+                  {{ end }}
                 {{ end }}
               </div>
               {{ end }}
