@@ -1,0 +1,132 @@
+time: "May 10, 2021"
+subject: "TLS: demystifying communication encryption in PostgreSQL"
+draft: false
+description: "Hi all,
+
+  Hope everyone has a great week ahead. Things are getting better, if you are an Indian or Colombian reader. Stay safe.
+
+  Thank you to the readers who have [bought me a coffee](https://www.buymeacoffee.com/betterdev), really appreciate that ❤.️"
+
+links:
+  - url: https://www.cybertec-postgresql.com/en/tls-demystifying-communication-encryption-in-postgresql/
+    title: "TLS: demystifying communication encryption in PostgreSQL"
+    description: |
+      In this post, we want to give you a brief introduction to TLS (Transport Layer Security), which is a technology widely used in combination with PostgreSQL to encrypt client / server connections.
+
+  - url: https://tpetry.me/20210507-how-to-optimize-order-by-random
+    title: "How to optimize ORDER BY RANDOM()"
+    description: |
+      What can we do to make `ORDER BY RANDOM()` query faster? Another great one [Getting random rows faster. Very much faster](https://blog.hagander.net/getting-random-rows-faster-very-much-faster-249/)
+
+  - url: https://blog.cloudflare.com/branch-predictor/
+    title: "Branch predictor: How many \"if\"s are too many? Including x86 and M1 benchmarks!"
+    description: |
+      Code that has a predictable/repeat pattern through gain performance code from CPU branch prediction? if that prediction is wrong or the code has many if branch. the cpu has waste some compute? how much? read to know more.
+
+  - url: https://johnysswlab.com/the-price-of-dynamic-memory-allocation/
+    title: "The price of dynamic memory: Allocation"
+    description: |
+      When it comes to memory usage, there are two types of programs. The first type are programs that allocate memory in large blocks.
+      The second type use data structures that require an allocation of a large number of chunks using malloc or new. They allocate a large number of chunks, it uses them for some time and then it returns them back to the system. This post tell about the second type and their cost.
+
+  - url: https://medium.com/airbnb-engineering/how-airbnb-achieved-metric-consistency-at-scale-f23cc53dea70
+    title: "How Airbnb Achieved Metric Consistency at Scale"
+    description: |
+      It obviously way more complex than [my one-person email forward app](https://hanami.run), but really interesting to see how big comapnies do these kind of stuff.
+
+  - url: https://blog.replit.com/dns
+    title: "Why Replit Built Their Own DNS Infrastructure"
+    description: |
+      DNS, Email are one of things people always advised to buy, not build. So why replit did that?
+
+  - url: http://axelp.io/MouseTrap
+    title: MouseTrap
+    description: |
+      Six 0days that allow a remote attacker to get full RCE on a box with no user interaction. MouseTrap is a suite of vulnerabilities and accompanying exploits that targets the RemoteMouse application and service. As of the release date 05/06/2021, the vulnerabilities have not been patched.
+
+  - url: https://blog.polybdenum.com/2021/05/05/how-i-hacked-google-app-engine-anatomy-of-a-java-bytecode-exploit.html
+    title: "How I Hacked Google App Engine: Anatomy of a Java Bytecode Exploit"
+
+  - url: https://explained-from-first-principles.com/email/
+    title: "Email explained from first principles"
+    description: |
+      When I was working on my [email forwarding app](https://hanami.run), I have lot of confusion such as MAIL FROM, RCPT vs FROM/TO in email header. MTA vs MSA. Why do we have to authenticate to send email out and why do we can send email in without authentication? Why port 25 vs 465 vs 587? This posts explain a lot of those concept.
+
+  - url: https://www.brainonfire.net/blog/2021/05/06/cryptographic-shuffle/
+    title: "Cryptographic shuffle"
+    description: |
+      What if I needed to shuffle a list but couldn't hold the whole thing in memory? Or what if I didn't want to shuffle a list, but just traverse it in a shuffled manner? (That is, visit each element once and only once, in a randomized way.) What if I wanted to traverse it, but didn't want to precompute or store the traversal for some reason?
+
+
+video:
+
+read_code:
+  - url: https://github.com/discourse/mini_sql
+    title: mini_sql
+    description: |
+      a minimal, fast, safe sql executor
+    category: ['Ruby']
+
+  - url: https://github.com/martijn/xsv
+    title: xsv
+    description: "Fast, lightweight xlsx parser for Ruby that provides nothing a CSV parser wouldn't"
+    category: ['Ruby']
+
+  - url: https://github.com/rastapasta/mapscii
+    title: mapscii
+    description: |
+      You have to try `telnet mapscii.me` to see how cool this is. You can even zoom the terminal. You would want to see how this is done
+    category: ['JavaScript']
+
+  - url: https://github.com/williamngan/pts
+    title: pts
+    description: |
+      A big big code base to dig in but I always want to learn more about visualization and animation so I think it could be interesting to read this
+    category: ['JavaScript']
+
+  - url: https://github.com/TypeError/secure
+    title: secure
+    description: |
+      Secure 🔒 headers for Python web frameworks
+    category: ['Python']
+
+  - url: https://www.gomponents.com/
+    title: "gomponents: view components written in pure Go"
+    description: "Instead of generating HTML code using go template file or string/template rendering, you can go with a functionalal based approach to generate HTML5 using pure Go function.
+      It can easily embeded into your code and have type-safety due to them are just pure Go function and argument. It's similar to Elm view. I found it useful to wite small Go app with these embeded view"
+    category: ['Go']
+
+tool:
+  - url: https://github.com/ellie/atuin
+    title: atuin
+    description: |
+      Atuin replaces your existing shell history with a SQLite database, and records additional context for your commands. Additionally, it provides optional and fully encrypted synchronisation of your history between machines, via an Atuin server.
+
+  - url: https://github.com/fullstorydev/grpcurl
+    title: grpcurl
+    description: |
+      Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers
+
+  - url: https://github.com/aws-samples/aws-auto-inventory
+    title: aws-auto-inventory
+    description: |
+      allows you to quickly and easily generate inventory reports of your AWS resources.
+
+  - url: https://github.com/logicalclocks/rondb
+    title: rondb
+    description: |
+      a distribution of NDB Cluster developed bring to us by the MySQL team at Oracle
+
+  - url: https://github.com/sahib/rmlint
+    title: rmlint
+    description: |
+      Extremely fast tool to remove duplicates and other lint from your filesystem
+
+  - url: https://github.com/sahib/brig
+    title: brig
+    description: |
+      File synchronization on top of ipfs with git like interface & web based UI
+
+  - url: https://github.com/nanovms/nanos
+    title: nanos
+    description: "A kernel designed to run one and only one application in a virtualized environment"
