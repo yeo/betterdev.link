@@ -1,0 +1,129 @@
+time: "May 17, 2021"
+subject: "Don’t push that button: Exploring the software that flies SpaceX rockets and Starships"
+draft: false
+description: "Hi all,
+
+  Hope everyone has a great week ahead. For any reader who are in Gaza, stay safe, I hope everything will be fine. This week many article come from a high level overview to help you relax with the last 2 intensive issues.
+
+  Thank you to the readers who have [bought me a coffee](https://www.buymeacoffee.com/betterdev), really appreciate that ❤.️"
+
+links:
+  - url: https://stackoverflow.blog/2021/05/10/dont-push-that-button-exploring-the-software-that-flies-spacex-starships/
+    title: "Don’t push that button: Exploring the software that flies SpaceX rockets and Starships"
+    description: |
+      Rocket, SpaceX achievements are so greats. It would be really good to see how they built their software. StackOverFlow spoke with Steven Gerding, Dragon’s software development lead, about the special challenges software development has for SpaceX's many missions. Don't forgot part 2, [Building a Space Based ISP](https://stackoverflow.blog/2021/05/11/building-a-space-based-isp/)
+
+  - url: https://www.narrator.ai/blog/using-postgresql-as-a-data-warehouse/
+    title: "Using PostgreSQL as a Data Warehouse"
+
+  - url: https://iamsafts.com/posts/postgres-gin-performance/
+    title: "Debugging random slow writes in PostgreSQL"
+
+  - url: https://dropbox.tech/machine-learning/how-image-search-works-at-dropbox
+    title: "How image search works at Dropbox"
+    description: |
+      When you're looking for that photo from a picnic a few years ago, you surely don't remember that the filename set by your camera was 2017-07-04 12.37.54.jpg.
+      Dropbox pore through all those images for you instead, and call out those which best match a few descriptive words that you dictated.
+
+  - url: https://jakearchibald.com/2021/io-site-perf/
+    title: "Performance-testing the Google I/O site"
+
+  - url: http://www.cs.rug.nl/~ando/pdfs/Ando_Emerencia_multiplying_huge_integers_using_fourier_transforms_paper.pdf
+    title: "MULTIPLYING HUGE INTEGERS USING FOURIER TRANSFORMS"
+
+  - url: https://iainbean.com/posts/2021/5-steps-to-faster-web-fonts/
+    title: "5 steps to faster web fonts"
+
+  - url: https://jeffhuang.com/extracting_data_from_tracking_devices/
+    title: "Extracting Data from Tracking Devices: How I Got My Data Back from the Microsoft Band and Hello Sense"
+
+  - url: https://daniel.haxx.se/blog/2021/05/10/the-libcurl-transfer-state-machine/
+    title: "The libcurl transfer state machine"
+    description: |
+      curl is everywhere. any tools that usually has a download/install script start with `curl`.
+      Daniel, author of curl was trying to explaining the main libcurl transfer state machine.
+      Understanding the main transfer state machine in libcurl could be valuable and interesting for anyone who wants to work on libcurl internals and maybe improve it.
+
+
+video:
+  - url: https://www.youtube.com/watch?v=hhgxsrAFyz8
+    title: What are EXE files made of?
+
+  - url: https://www.youtube.com/playlist?list=PLXOML2VBdIo7xEp8Bo9kFB-d6tTlHK5Fk#gitopscon2021
+    title: "GitOps Con 2021"
+    description: |
+      12 videos of CNCF GitOps 2021
+
+read_code:
+  - url: https://github.com/bits-and-blooms/bloom
+    title: bloom
+    description: |
+      Go package implementing Bloom filters
+    category: ['Go',]
+
+  - url: https://github.com/rogchap/v8go
+    title: v8go
+    description: |
+      Execute JavaScript from Go. Allow you to create v8 context, execute JavaScript code, access to return value, global, output of that JS context
+    category: ['Go',]
+
+  - url: https://github.com/whomwah/rqrcode
+    title: rqrcode
+    description: |
+      A Ruby library that encodes QR Codes
+    category: ['Ruby']
+    #https://github.com/gurgeous/sinew
+
+
+  - url: https://eva.js.org/#/
+    title: eva.js
+    description: |
+      A front-end game engine specifically for creating interactive game projects.
+    category: ['JavaScript']
+
+  - url: https://github.com/holoviz/panel
+    title: panel
+    description: |
+      an open-source Python library that lets you create custom interactive web apps and dashboards by connecting user-defined widgets to plots, images, tables, or text.
+    category: ['Python']
+
+  - url: https://github.com/microsoft/SQL-ProcBench
+    title: SQL-ProcBench
+    description: |
+       an open benchmark for procedural workloads in RDBMSs
+    category: ['SQL']
+
+tool:
+  - url: https://github.com/adobe/OSAS
+    title: One Stop Anomaly Shop (
+    description: |
+      Anomaly detection using two-phase approach: (a) pre-labeling using statistics, Natural Language Processing and static rules; (b) anomaly scoring using supervised and unsupervised machine learning.
+
+  - url: https://github.com/krotik/eliasdb
+    title: eliasdb
+    description: "a graph-based database."
+
+  - url: https://github.com/darylhjd/mangadesk
+    title: mangadesk
+    description: |
+      If you read manga, this terminal based app blow your mind. You can access mangadesk without all the non-sense stuff from a normal webapp
+
+  - url: https://github.com/curveball/a12n-server
+    title: a12n-server
+    description: |
+      provide a simple authentication system. support OAuth2, MFA, permissiion model, registration, lost password etc
+
+  - url: https://github.com/toluaina/pgsync
+    title: pgsync
+    description: |
+      Postgres to elasticsearch sync. Make it easiser to search some data with minimal effort on your backend
+
+  - url: https://github.com/macmade/QEMU-Manager
+    title: QEMU-Manager
+    description: |
+      macOS graphical frontend to QEMU.
+
+  - url: https://pinniped.dev/
+    title: pinniped
+    description: |
+      the easy, secure way to log in to your Kubernetes clusters.  including support for OpenID Connect.
