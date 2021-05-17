@@ -3,7 +3,9 @@ subject: "Don’t push that button: Exploring the software that flies SpaceX roc
 draft: false
 description: "Hi all,
 
-  Hope everyone has a great week ahead. For any reader who are in Gaza, stay safe, I hope everything will be fine. This week many article come from a high level overview to help you relax with the last 2 intensive issues.
+  Hope everyone has a great week ahead. For any readers who are in Gaza, stay safe, I hope everything will be fine.
+
+  This week, we have many article that focus on high level concepts to help you relax and take a break from our last 2 intensive issues.
 
   Thank you to the readers who have [bought me a coffee](https://www.buymeacoffee.com/betterdev), really appreciate that ❤.️"
 
@@ -13,11 +15,21 @@ links:
     description: |
       Rocket, SpaceX achievements are so greats. It would be really good to see how they built their software. StackOverFlow spoke with Steven Gerding, Dragon’s software development lead, about the special challenges software development has for SpaceX's many missions. Don't forgot part 2, [Building a Space Based ISP](https://stackoverflow.blog/2021/05/11/building-a-space-based-isp/)
 
-  - url: https://www.narrator.ai/blog/using-postgresql-as-a-data-warehouse/
-    title: "Using PostgreSQL as a Data Warehouse"
-
   - url: https://iamsafts.com/posts/postgres-gin-performance/
     title: "Debugging random slow writes in PostgreSQL"
+    description: |
+      showcase a real-life example of debugging a seemingly weird database performance degradation. While I obviously intend to share the solution and what to avoid, I’d also like to take you through the journey and show you some tools & processes that can help you dig into SQL performance.
+
+  - url: https://questdb.io/blog/2021/05/10/questdb-release-6-0-tsbs-benchmark/?utm_source=programmingdigest&utm_medium=email&utm_campaign=420
+    title: "How we achieved write speeds of 1.4 million rows per second"
+    description: |
+      QuestDB billed itself as "the fastest open source time series database", a very bold one. I can query 1.6mil rows in milliseconds.
+      This is a high level overview of what they did to achieve that, The Problem with out-of-order data.
+
+  - url: https://www.narrator.ai/blog/using-postgresql-as-a-data-warehouse/
+    title: "Using PostgreSQL as a Data Warehouse"
+    description: |
+      RedShift is almost de-factor Data Warehouse solution, especially for people already on AWS eco system. But what is for the rest of us who still on bare metal or run our own database on VM? What can we do to tune PostgreSQL for that purpose.
 
   - url: https://dropbox.tech/machine-learning/how-image-search-works-at-dropbox
     title: "How image search works at Dropbox"
@@ -27,9 +39,12 @@ links:
 
   - url: https://jakearchibald.com/2021/io-site-perf/
     title: "Performance-testing the Google I/O site"
+    description: "A Google engineer looks into website of F1 cars(Ferrari website, McLaren website etc) and compares them with the Google I/O website.  It's interesting to see what Google themselves do to their own site to improve performance"
 
   - url: http://www.cs.rug.nl/~ando/pdfs/Ando_Emerencia_multiplying_huge_integers_using_fourier_transforms_paper.pdf
-    title: "MULTIPLYING HUGE INTEGERS USING FOURIER TRANSFORMS"
+    title: "Multiplying huge integers using fourier transforms"
+    description: |
+      Multiplying huge integers of n digits can be done in time O(n log(n)) using Fast Fourier Transforms (FFT), instead of the O(n 2) time complexity normally required. In this paper we present this technique from the viewpoint of polynomial multiplication, explaining a recursive divide-and-conquer approach to FFT multiplication. We have compared both methods of multiplication quantitatively and present our results and conclusions in this paper, along with complexity analyses and error bounds.
 
   - url: https://iainbean.com/posts/2021/5-steps-to-faster-web-fonts/
     title: "5 steps to faster web fonts"
@@ -43,7 +58,6 @@ links:
       curl is everywhere. any tools that usually has a download/install script start with `curl`.
       Daniel, author of curl was trying to explaining the main libcurl transfer state machine.
       Understanding the main transfer state machine in libcurl could be valuable and interesting for anyone who wants to work on libcurl internals and maybe improve it.
-
 
 video:
   - url: https://www.youtube.com/watch?v=hhgxsrAFyz8
@@ -127,3 +141,8 @@ tool:
     title: pinniped
     description: |
       the easy, secure way to log in to your Kubernetes clusters.  including support for OpenID Connect.
+
+  - url: https://github.com/observablehq/plot
+    title: plot
+    description: |
+      A concise API for exploratory data visualization. Could be very useful to quickly add some nice charts to your app :-).
