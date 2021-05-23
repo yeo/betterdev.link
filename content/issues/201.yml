@@ -1,0 +1,147 @@
+time: "May 23, 2021"
+subject: ""
+draft: false
+description: "Hi all,
+  This week my [email forwarding app](https://hanami.run), reach a certain scale and I have to dive into Postgres performance to reduca our disk usage and improve query performance. I did research and found some userful links to share with you in this issue.
+
+  I also take a detour into some hardware to enlight my day so we have a link to a hardware article.
+
+  As always, diversify your knowledge, enjoy more things, explore more stuff. The internet is a beautiful place :-).
+
+  If you enjoy this newsletter, please consider [bought me a coffee](https://www.buymeacoffee.com/betterdev) ❤ to support me. If you don't like this newsletter, unsubscribe link is at the bottom of this email"
+
+links:
+  - url: https://postgrespro.com/blog/pgsql/5967892
+    title: "MVCC in PostgreSQL — Part 3. Row Versions"
+    description: "In Postgress, if you access a row in transaction T0, then delete that row on transaction T1, then that row is still accessible in transaction T0. How Postgres maintain that view of row? Where does that data sit on disk? Check out other articles in this series such as [Forks, files, pages](https://postgrespro.com/blog/pgsql/5967858). Let's level up our database knowledge."
+
+  - url: https://pganalyze.com/blog/postgres-14-performance-monitoring
+    title: "An early look at Postgres 14: Performance and Monitoring Improvements"
+    description: |
+      The first beta release of the upcoming Postgres 14 release was made available yesterday. In this article we'll take a first look at what's in the beta, with an emphasis on one major performance improvement, as well as three monitoring improvements that caught our attention.
+
+  - url: https://www.cybertec-postgresql.com/en/postgresql-detecting-slow-queries-quickly/
+    title: "PostgreSQL: detecting slow queries quickly"
+    description: |
+      Performance tuning does not only mean adjusting postgresql.conf properly, or making sure that your kernel parameters are properly tuned. Performance tuning also implies that we have to find performance bottlenecks first, isolate slow queries and understand what the system is doing.
+
+  - url: https://talawah.io/blog/extreme-http-performance-tuning-one-point-two-million/
+    title: "Extreme HTTP Performance Tuning: 1.2M API req/s on a 4 vCPU EC2 Instance"
+    description: |
+      Be aware that you won't be able to use these setting and immediately bring your RPS up magically. This is a post about customize many low level for a specific workload. Eg, disable Spectre mitigation, syscall blocking. Imagine setting your code to a happy path to eliminate all logging, all if/else auth checking. It's purely a research to show how fast we can push the machine.
+
+  - url: https://dropbox.tech/infrastructure/boosting-dropbox-upload-speed
+    title: "Boosting Dropbox upload speed and improving Windows’ TCP stack"
+    description: |
+      To Dropbox, One of the best ways to find ways to improve performance, we’ve found, is to work closely with our customers. We love shared troubleshooting sessions with their own engineering teams to find and eliminate bottlenecks. They share a story how they are able to work with Window Core TCP team to improved the Windows implementation of the TCP RACK-TLP algorithm
+
+  - url: https://cronokirby.com/posts/2021/04/constant-time-big-numbers-introduction/
+    title: "Constant-Time Big Numbers: An Introduction"
+    description: |
+      Most of time when dealing with numbers, we deal with number upto 64 bits and we usually have thing like int32, int64 in our code. The max of these are 2^64. For thing bigger than that, we use Big Number. The use of Big Numbers in Cryptography is actually what makes us care about being Constant-Time.
+
+  - url: https://dteare.medium.com/behind-the-scenes-of-1password-for-linux-d59b19143a23
+    title: "Behind the scenes of 1Password for Linux"
+    description: |
+      1Password is a password manager app and they finally release Linux support. Their app leverage Rust for backend, Electron, TypeScript, React, Neon to build the UI with HTML technologies.
+
+  - url: https://www.joyfulbikeshedding.com/blog/2021-05-19-robust-distributed-locking-algorithm-based-on-google-cloud-storage.html
+    title: "A robust distributed locking algorithm based on Google Cloud Storage"
+    description: "Look into a distributed locking algorithm based on Google Cloud. I'll discuss several existing implementations and suggest algorithmic improvements in terms of performance and robustness."
+
+  - url: http://www.righto.com/2021/05/teardown-of-pc-power-supply.html
+    title: "Teardown of a PC power supply"
+    description: |
+      The task of a PC power supply is to convert the power from the wall (120 or 240 volts AC) into stable power at the DC voltages that the computer requires. The power supply must be compact and low-cost while transforming the power efficiently and safely. To achieve these goals, power supplies use a variety of techniques and are more complex inside than you might expect.
+
+  - url: https://slack.engineering/client-tracing-understanding-mobile-and-desktop-application-performance-at-scale/
+    title: "Client Tracing: Understanding Mobile and Desktop Application Performance at Scale"
+    description: |
+      A customer writes in and says the dreaded words: “My app is slow”. This post talked about how Slack impelement and roll out distributed tracing for their apps.
+
+    #  - url: https://eng.uber.com/jvm-tuning-garbage-collection/
+    #    title: "Tricks of the Trade: Tuning JVM Memory for Large-scale Services"
+    #
+    #
+    #  - url: https://developer.chrome.com/blog/faster-stack-traces/
+    #    title: "How we sped up Chrome DevTools stack traces by 10x"
+    #
+    #  - url: https://jvns.ca/blog/2021/05/17/how-to-look-at-the-stack-in-gdb/
+    #    title: "How to look at the stack with gdb"
+
+video:
+  - url: https://github.com/JanVanRyswyck/awesome-talks
+    title: "Awesome online talks and screencasts"
+    description: |
+      A big list of videos on many different fields: front-end, ML, DevOps...
+
+  - url: https://www.youtube.com/playlist?list=PLownlFUq_rL6txMapX6UUuquqGdUINmkd#postgrespulse
+    title: "Postgres Pulse"
+    description: "14 videos about Postres: backup, recovery, Write ahead logs trade off and more"
+
+read_code:
+  - url: https://github.com/customink/lamby/
+    title: lamby
+    description: |
+      Simple Rails & AWS Lambda Integration
+    category: ['Ruby']
+
+  - url: https://github.com/webrtc-rs/webrtc
+    title: "A pure Rust implementation of WebRTC"
+    category: ['Rust']
+
+  - url: https://github.com/song940/node-dns
+    title: node-dns
+    description: |
+      🌐 DNS Server and Client Implementation in Pure JavaScript with no dependencies.
+    category: ['JavaScript']
+
+  - url: https://github.com/pokemium/magia
+    title: magia
+    description: |
+      GBA emulator written in golang.
+    category: ["Go"]
+
+  - url: https://github.com/sqlfluff/sqlfluff
+    title: sqlfluff
+    description: |
+      A SQL linter and auto-formatter for Humans
+    category: ['Python']
+
+tool:
+  - url: https://github.com/mikroskeem/tosh
+    title: tosh
+    description: |
+      Imagine your SSH server only listens on an IPv6 address, and where the last 6 digits are changing every 30 seconds as a TOTP code...
+
+  - url: https://github.com/p-e-w/plotinus
+    title: plotinus
+    description: |
+      Bring in a search bar like Spotlight to any GTK+ app
+
+  - url: https://github.com/thomaspoignant/go-feature-flag
+    title: go-feature-flag
+    description: |
+      A simple and complete feature flag solution, without any complex backend system to install, you need only a file as your backend. 🎛️
+
+  - url: https://github.com/schappim/macOCR
+    title: macOCR
+    description: |
+      Get any text on your screen into your clipboard.
+
+  - url: https://github.com/apoclyps/reviews
+    title: reviews
+    description: |
+      A terminal UI Dashboard for monitoring requests for code review across several Github repositories and pull requests.
+
+  - url: https://openvisionapi.com/#demo
+    title: openvisionapi
+    description: |
+      Open source computer vision API based on open source models.
+      Can do thing like send an request to detect object in images.
+      Check out [server code](https://github.com/openvisionapi/ova-server) and [client code](https://github.com/openvisionapi/ova-client)
+
+  - url: https://github.com/porter-dev/porter
+    title: porter
+    description: |
+      Kubernetes powered PaaS that runs in your own cloud.
