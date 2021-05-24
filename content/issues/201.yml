@@ -2,9 +2,10 @@ time: "May 24, 2021"
 subject: ""
 draft: false
 description: "Hi all,
-  This week my [email forwarding app](https://hanami.run), reach a certain scale and I have to dive into Postgres performance to reduca our disk usage and improve query performance. I did research and found some userful links to share with you in this issue.
 
-  I also take a detour into some hardware to enlight my day so we have a link to a hardware article.
+  This week, my [email forwarding app](https://hanami.run) reached a certain scale and I had to dive into Postgres performance to reduced our disk usage and improved performance. I did research and found some userful links to share with you in this issue.
+
+  I also took a detour into some hardwares topic to enlighten my day so we have a link to a hardware article.
 
   As always, diversify your knowledge, enjoy more things, explore more stuff. The internet is a beautiful place :-).
 
