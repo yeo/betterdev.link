@@ -60,16 +60,6 @@ links:
     description: |
       A customer writes in and says the dreaded words: “My app is slow”. This post talked about how Slack impelement and roll out distributed tracing for their apps.
 
-    #  - url: https://eng.uber.com/jvm-tuning-garbage-collection/
-    #    title: "Tricks of the Trade: Tuning JVM Memory for Large-scale Services"
-    #
-    #
-    #  - url: https://developer.chrome.com/blog/faster-stack-traces/
-    #    title: "How we sped up Chrome DevTools stack traces by 10x"
-    #
-    #  - url: https://jvns.ca/blog/2021/05/17/how-to-look-at-the-stack-in-gdb/
-    #    title: "How to look at the stack with gdb"
-
 video:
   - url: https://github.com/JanVanRyswyck/awesome-talks
     title: "Awesome online talks and screencasts"
