@@ -1,0 +1,151 @@
+time: "May 31, 2021"
+subject: "Let's build a Regex Engine and File Permissions: the painful side of Docker"
+draft: false
+description: "
+  Hi all,
+
+  Happy holiday for US reader. We have quite a few interesting tool of this week. Check them out.
+
+  For video, let's sit down and listen to Louis Pilfold, creator of Gleam lang, talks about trade off of dynamic language, Rust vs Elixir, willing to throw away your first version on refactor it. I learn a lot and I hope you do too"
+
+links:
+  - url: https://kean.blog/post/lets-build-regex
+    title: "Let's Build a Regex Engine"
+    description: |
+      Ever wondered how regex works under the hood? How does it understand an incantation like "<\/?[\w\s]*>|<.+[\W]>" and magically produces a desired result? This 3 parts serie is going to describe exactly how it works and how to implement a feature-rich regex engine.
+
+  - url: https://blog.gougousis.net/file-permissions-the-painful-side-of-docker/
+    title: "File Permissions: the painful side of Docker"
+    description: |
+      If you used Docker in dev, prod or share files among a few containers, access file on host, you will know this pain.
+      We will learn about a few solutions and use case to fix file permission.
+
+  - url: https://increment.com/containers/containerization-at-scale/
+    title: "Containers at scale"
+    description: |
+      Engineering leaders at Datadog, Braze, and BetterUp discuss container tools, testing, and monitoring, and how they’ve approached container migrations
+
+  - url: https://hinty.io/devforth/sql-query-optimization-understanding-key-principle/
+    title: "SQL Query Optimization: Understanding Key Principle"
+    description: |
+      This guide is intended to help you gain a true understanding of SQL query speeds. It includes research that demonstrates the speed of slow and fast query types. If you work with SQL databases such as PostgreSQL, MySQL, SQLite, or others similar, this knowledge is a must.
+
+  - url: "https://mailwip.com/blog/posts/tracing-http-requests-by-using-response-header-from-the-application/"
+    title: "Tracing HTTP requests by using response header from the application"
+    description: "A technique to inject application response headers into Nginx log, and clean it up so client won't see it and we still be able to trace and grep log with those particular headers"
+
+
+  - url: https://www.cybertec-postgresql.com/en/how-to-interpret-postgresql-explain-analyze-output/
+    title: "How to interpret PostgreSQL explain analyze output"
+    description: |
+      EXPLAIN ANALYZE is the key to optimizing SQL statements in PostgreSQL. This article does not attempt to explain everything there is to it. Rather, I want to give you a brief introduction, explain what to look for and show you some helpful tools to visualize the output.
+
+  - url: https://offlinemark.com/2021/05/12/an-obscure-quirk-of-proc/
+    title: "How /proc/self/mem writes to unwritable memory"
+    description: |
+      An obscure quirk of the /proc/*/mem pseudofile is its “punch through” semantics. Writes performed through this file will succeed even if the destination virtual memory is marked unwritable. This behavior raises some questions: Is privileged code subject to virtual memory permissions? In general, to what degree can the hardware inhibit kernel memory access?
+
+  - url: https://fangpenlin.com/posts/2019/10/07/elliptic-curve-cryptography-explained/
+    title: "Elliptic Curve Cryptography(ECC) Explained"
+    description: |
+      Today, we can find elliptic curves cryptosystems in TLS, PGP and SSH, which are just three of the main technologies on which the modern web and IT world are based. Before ECC become popular, almost all public-key algorithms were based on RSA, DSA, and DH, alternative cryptosystems based on modular arithmetic. And the foundations of ECC are still a mystery to most. In this we have this link to dive into ECC, and another great one [Elliptic Curve Cryptography: a gentle introduction](https://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/)
+
+  - url: https://developer.chrome.com/blog/faster-stack-traces/
+    title: "How we sped up Chrome DevTools stack traces by 10x"
+    description: |
+      Web developers have come to expect little to no performance impact when debugging their code. However, this expectation is by no means universal. A C++ developer would never expect a debug build of their application to reach production performance, and in early years of Chrome, simply opening DevTools significantly impacted the performance of the page. This post laid out what Chrome team did to improve their
+
+  - url: https://www.joshwcomeau.com/css/stacking-contexts/
+    title: "What the heck, z-index??"
+    description: |
+      Exploring stacking contexts, one of the most misunderstood mechanisms in CSS.
+
+  #- url: https://www.cybertec-postgresql.com/en/setting-up-postgresql-streaming-replication/
+  #title: "Setting up PostgreSQL streaming replication"
+
+  #
+  #  - url: https://jvns.ca/blog/2021/05/17/how-to-look-at-the-stack-in-gdb/
+  #    title: "How to look at the stack with gdb"
+
+video:
+  - url: https://www.youtube.com/watch?v=az_GarVoXEE
+    title: "The Gleam Programming Language and its Creator Louis Pilfold"
+    description: |
+      "I like how Louis talk about the upfront trade off of dynamic vs static type language and how Rust help Gleam, why version 2 is better. You will learn alot about trade off, system design from this talk even if your work has nothing to do with Erlang, Rust, or Gleam"
+
+read_code:
+  - url: https://github.com/penelopezone/rubyfmt
+    title: rubyfmt
+    description: |
+      Ruby Autoformatter!
+    category: ['Rust', 'Ruby']
+
+  - url: https://github.com/PaddiM8/kalk
+    title: kalk
+    description: |
+       calculator (both program and library) that supports user-defined variables, functions, derivation, and integration. It runs on Windows, macOS, Linux, Android, and in web browsers (with WebAssembly).
+       The core Rust component power all the logic and share code for web, mobile and cli.
+    category: ['Rust']
+
+  - url: https://github.com/rubysolo/dentaku
+    title: dentaku
+    description: |
+      math and logic formula parser and evaluator
+    category: ['Ruby']
+
+  - url: https://github.com/boringdesigners/boring-avatars
+    title: boring-avatars
+    description: |
+      a tiny JavaScript React library that generates custom, SVG-based, round avatars from any username and color palette. Cool if you are curious how tools generate random avatar
+    category: ['JavaScript', 'SVG']
+
+
+  - url: https://github.com/cs01/termpair
+    title: termpair
+    description: |
+      View and control remote terminals from your browser with end-to-end encryption
+    category: ['Python']
+
+  - url: https://github.com/mgechev/revive
+    title: revive
+    description: |
+      🔥 ~6x faster, stricter, configurable, extensible, and beautiful drop-in replacement for golint
+    category: ['Go']
+
+tool:
+  - url: https://github.com/upptime/upptime
+    title: upptime
+    description: |
+      Uptime monitor and status page powered by GitHub Actions, Issues, and Pages. Super power I must say.
+
+  - url: https://github.com/nocodb/nocodb
+    tilte: nocodb
+    description: |
+      The Open Source Airtable alternative.
+
+
+  - url: https://github.com/LibrePhotos/librephotos
+    title: LibrePhotos
+    description: |
+      A self-hosted open source photo management service.
+
+  - url: https://github.com/WeeJeWel/wg-easy/blob/master/README.md
+    title: wg-easy
+    description: |
+      WireGuard + Web UI
+
+
+  - url: https://github.com/microsoft/msticpy
+    title: msticpy
+    description: |
+      a library for InfoSec investigation and hunting in Jupyter Notebooks: query log data, enrich the data with Threat Intelligence, geolocations, extract Indicators of Activity (IoA) from logs and unpack encoded data...
+
+  - url: https://github.com/rustdesk/rustdesk
+    title: rustdesk
+    description: |
+      An open source remote desktop client software written in Rust, work in Win, Mac, Linux
+
+  - url: https://github.com/dundee/gdu
+    title: gdu
+    description: |
+      Disk usage analyzer with console interface.
