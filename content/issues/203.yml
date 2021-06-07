@@ -1,4 +1,4 @@
-time: "June 07, 2021"
+time: "Jun 07, 2021"
 subject: "The repeated deahths of Object Oriented Programming and How a Jenkins Job Broke Slack's Jenkins UI"
 draft: false
 description: |
@@ -126,3 +126,17 @@ tool:
     title: drill
     description: |
       an HTTP load testing application written in Rust inspired by Ansible syntax
+
+  - url: https://github.com/benkehoe/aws-export-credentials
+    title: aws-export-credentials
+    description: |
+      Get AWS credentials from a profile to inject into other programs
+
+  - url: https://github.com/sorenisanerd/gotty
+    title: "gotty"
+    description: "Share your terminal as a web application"
+
+  - url: https://github.com/susam/texme
+    title: texme
+    description: |
+      Self-rendering Markdown + LaTeX documents
