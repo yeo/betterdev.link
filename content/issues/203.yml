@@ -1,0 +1,128 @@
+time: "June 07, 2021"
+subject: "The repeated deahths of Object Oriented Programming and How a Jenkins Job Broke Slack's Jenkins UI"
+draft: false
+description: |
+  Hi all,
+
+  Every companies has to have a CI/CD and also have to organize code. This week I got links on that topic. Jenkins, code organization and a few WebAssembly/CSS links. Grab a cup of coffee to go through some. Happy monday.
+
+links:
+  - url: https://loup-vaillant.fr/articles/deaths-of-oop
+    title: "The repeated deaths of OOP"
+    description: |
+      From the look of it, OOP is here to stay.
+      Despite having gone through serious mutations, OOP is still strongly criticised by knowledgeable people.
+      Worse, the game industry seems to be moving away from it. Video games are simulations, a core niche of OOP.
+
+  - url: https://slack.engineering/how-a-jenkins-job-broke-our-jenkins-ui/
+    title: "How a Jenkins Job Broke our Jenkins UI"
+    description: |
+      Slack had a  a sophisticated Jenkins infrastructure. One day their Jenkins UI stopped working although the jobs continued to run. This post is a breakdown of how we ended up in this state and how we fixed the problem. From this experience, we’re also sharing some general-purpose tips on troubleshooting a Jenkins issue.
+
+  - url: https://technology.riotgames.com/news/legends-runeterra-cicd-pipeline
+    title: "The legends of runeterra CI/CD pipeline"
+    description: |
+      Riotgames engineer share some details about how they build, test, and deploy Legends of Runeterra, a digital collectible card game. They also use Jenkins.
+
+  - url: https://kislayverma.com/programming/how-to-organize-your-code/
+    title: "How to organize your code?"
+    description: "In OOP codebase, the most popular method is to group by layer. Think Model/View/Control.
+      Which is bad as the author argue. A better approach they suggest is to group by entity. all classes related to a single concept stay together. This is also the concept in Elixir's Phoenix framework"
+
+  - url: https://bytecodealliance.org/articles/making-javascript-run-fast-on-webassembly
+    title: "Making JavaScript run fast on WebAssembly"
+    description: |
+      JavaScript in the browser runs many times faster than it did two decades ago. And that happened because the browser vendors spent that time working on intensive performance optimizations.
+      But what if you’re running JavaScript in a Serverless function? Or if you want to run JavaScript in an environment that doesn’t allow general just-in-time compilation, like iOS or gaming consoles? WebAssembly!
+
+  - url: https://pascalpares.appspot.ovh/webassembly-for-javascript-developers/
+    title: "An Introduction to WebAssembly for JavaScript Developers"
+    description: "The term JavaScript Developers here simply mean you know a bit of JavaScript so plear don't be put off. WebAssembly has a lot of potential"
+
+  - url: https://textslashplain.com/2021/06/02/leaky-abstractions/
+    title: "Leaky Abstractions"
+    description: "A codebase that is survived for 23 years? widely use in Window. So it's proabably battle tested and has no major bug. Wrong.  Copy file out of a Zip bundle is 4 seconds? Cut file out? 30 minutes? Why so. Read on"
+
+  - url: https://engineering.fb.com/2021/06/02/data-center-engineering/how-facebook-deals-with-pcie-faults-to-keep-our-data-centers-running-reliably/
+    title: "How Facebook deals with PCIe faults to keep our data centers running reliably"
+    description: |
+      As with any hardware, PCIe-based components are susceptible to different types of hardware-, firmware-, or software-related failures and performance degradation. The variety of components and vendors, array of failures, and the challenges of scale make monitoring, collecting data, and performing fault isolation for PCIe-based components challenging.
+
+
+  - url: https://tympanus.net/codrops/2021/06/01/trigonometry-in-css-and-javascript-introduction-to-trigonometry/
+    title: "Trigonometry in CSS and JavaScript: Introduction to Trigonometry"
+    description: |
+      Understanding trigonometry can give us super powers when it comes to creative coding. But to the uninitiated, it can seem a little intimidating. In this 3-part series of articles we’ll get an overview of trigonometry, understand how it can be useful, and delve into some creative applications in CSS and JavaScript.
+
+  - url: https://pomax.github.io/three-point-perspective/
+    title: "Implementing strict three-point perspective"
+
+
+  #- url: https://www.cybertec-postgresql.com/en/setting-up-postgresql-streaming-replication/
+  #title: "Setting up PostgreSQL streaming replication"
+
+  #
+  #  - url: https://jvns.ca/blog/2021/05/17/how-to-look-at-the-stack-in-gdb/
+  #    title: "How to look at the stack with gdb"
+
+video:
+  - url: https://www.youtube.com/watch?v=DZRn_jNZjbw
+    title: "Compute shader 101"
+
+read_code:
+  - url: https://github.com/goburrow/quic
+    title: quic
+    description: |
+      QUIC transport protocol (https://quicwg.org/) implementation in Go. The goal is to provide low level APIs for applications or protocols using QUIC as a transport.
+    category: ['Go']
+
+  - url: https://github.com/auxten/go-sqldb
+    title: go-sqldb
+    description: |
+      A pure golang SQL database for database theory researc
+    category: ['Go']
+
+  - url: https://github.com/EvandroLG/ts-audio
+    title: ts-audio
+    description: |
+      an agnostic and easy-to-use library to work with the AudioContext API and create Playlists. Nice to read if you want to paly with Audio API in browser.
+    category: ['JavaScript', 'TypeScript']
+
+  - url: https://github.com/midiblocks/handsfree
+    title: handsfree
+    description: |
+      Quickly integrate face, hand, and/or pose tracking to your frontend projects in a snap ✨👌
+    category: ['JavaScript']
+
+  - url: https://github.com/liufengyun/hashdiff
+    title: hashdiff
+    description: |
+       a ruby library to to compute the smallest difference between two hashes
+    category: ['Ruby']
+
+tool:
+  - url: https://github.com/helix-editor/helix
+    title: helix
+    description: |
+      A post-modern modal text editor.
+
+  - url: https://github.com/ekzhang/rustpad
+    title: rustpad
+    description: |
+      Efficient and minimal collaborative text editor, self-hosted, no database required. Data is stored in memory, communicate via a websocket server.
+
+  - url: https://github.com/weaponry/pgscv
+    title: pgscv
+    description: |
+      collects a lot of stats about system, PostgreSQL, Pgbouncers, etc.
+      exposes metrics through the HTTP /metrics endpoint in Prometheus metrics exposition format.
+
+  - url: https://github.com/synesthesiam/voice2json
+    title: voice2json
+    description: |
+      Command-line tools for speech and intent recognition on Linux
+
+  - url: https://github.com/fcsonline/drill
+    title: drill
+    description: |
+      an HTTP load testing application written in Rust inspired by Ansible syntax
