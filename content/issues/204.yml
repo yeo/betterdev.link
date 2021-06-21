@@ -1,0 +1,135 @@
+time: "Jun 21, 2021"
+subject: "What Every Programmer Should Know About SSDs and Is an event loop just a for/while loop with optimized polling"
+draft: false
+description: "
+  Hi all,
+
+  Last week I was busy working on an IMAP implementation for my [email forwarding app](https://hanami.run) and also have some consultant work so the issue has been put aside. This week we're resume o ur normal schedule.
+
+  Some interesting read about hacking, captcha by pass, SSH knowledge. Enjoy and happy monday"
+
+links:
+  - url: http://databasearchitects.blogspot.com/2021/06/what-every-programmer-should-know-about.html
+    title: "What Every Programmer Should Know About SSDs"
+    description: |
+       SSDs are more complicated and their performance behavior can appear quite mysterious if one simply thinks of them as fast disks. The goal of this post is to provide an understanding of why SSDs behave the way they do, which can help creating software that is capable of exploiting them. (Note that I discuss NAND flash, not Intel Optane memory, which has different characteristic
+
+  - url: https://softwareengineering.stackexchange.com/questions/214889/is-an-event-loop-just-a-for-while-loop-with-optimized-polling
+    title: "Is an event loop just a for/while loop with optimized polling?"
+    description: |
+      We all heard of event loop somewhere nowadays. But at the end of day, at the lowest level, how it know to notifier higher components about even? Is there just an optimized polling at the lowest level?
+
+  - url: https://tammybutow.medium.com/site-reliability-engineering-for-kubernetes-b52877c70fb7
+    title: "Site Reliability Engineering for Kubernetes"
+    description: |
+      Look at Common Failure Modes for Kubernetes in Production and Hardening exercise
+
+  - url: https://betterappsec.com/building-a-webauthn-click-farm-are-captchas-obsolete-bfab07bb798c
+    title: "Building a WebAuthn Click Farm — Are CAPTCHAs Obsolete?"
+    description: |
+      How to built a click farm to “bypass” Cloudflare’s CAPTCHA killer with some cheap USB security keys, an Arduino, and a bit of python.
+
+  - url: https://factorio.com/blog/post/fff-366
+    title: "The only way to go fast, is to go well!"
+    description: |
+      LoC in Factorio game scale linearly but they grow from 1 programmer to 9 programmers? Should the code grow faster? Why so? They talked about problems, and how they proceed to fix them.
+
+  - url: https://jrsinclair.com/articles/2020/sick-of-the-jokes-write-your-own-arbitrary-precision-javascript-math-library/
+    title: "Sick of the stupid jokes? write your own arbitrary-precision JavaScript math library"
+    description: |
+      One of famous joke about JS is `0.1 + 0.2 = 0.30000000000000004` but that is infact occurs in many languages just because that IEEE 754 standard.
+      Instead of talking about the stupid jokes, the author dive in to write about his library to play with arbitrary precision numbers. Great post.
+
+
+  - url: https://blog.webpagetest.org/posts/benchmarking-javascript-memory-usage/
+    title: "Benchmarking JavaScript Memory Usage"
+    description: |
+      One of the things that is so challenging about the conversation around memory usage on the web right now is the sheer number of unknowns. This article look into build a benchmark suite leverage a few browser API such as anchormeasureUserAgentSpecificMemory. On the same benchmark node, check [new browser APIs to detect JavaScript peformance problems in production too](https://michaelscodingspot.com/javascript-performance-apis/)
+
+
+  - url: https://tympanus.net/codrops/2021/06/18/drawing-graphics-with-the-css-paint-api/
+    title: "Drawing Graphics with the CSS Paint API"
+    description: |
+      A practical introduction to the CSS Paint API with hands-on examples.
+
+  - url: https://thezerohack.com/apple-vulnerability-bug-bounty
+    title: "How I Found A Vulnerability To Hack iCloud Accounts and How Apple Reacted To It"
+    description: |
+      This article is about how I found a vulnerability on Apple forgot password endpoint that allowed me to takeover an iCloud account. The vulnerability is completely patched by Apple security team and it no longer works. Apple Security Team rewarded me $18,000 USD as a part of their bounty program but I refused to receive it.
+
+  - url: https://andysalerno.com/posts/weird-emojis/
+    title: "What is the result of emoji string concat 🐻 + ❄"
+    description: |
+      Some fun place with emoji characters.
+
+  #- url: https://www.cybertec-postgresql.com/en/setting-up-postgresql-streaming-replication/
+  #title: "Setting up PostgreSQL streaming replication"
+
+  #
+  #  - url: https://jvns.ca/blog/2021/05/17/how-to-look-at-the-stack-in-gdb/
+  #    title: "How to look at the stack with gdb"
+
+video:
+
+read_code:
+  - url: https://github.com/shugo/textbringer
+    title: textbringer
+    description: |
+      An Emacs-like text editor written in Ruby. Consider it for purely education purpose
+    category: ['Ruby']
+
+  - url: https://github.com/fogleman/gg
+    title: gg
+    description: |
+      Go Graphics - 2D rendering in Go with a simple API. Rendering graphic, how to draw line between two pointse, how to draw a circle and fill color in etc always very interesting to me. Read to understand more of these.
+    category: ['Go']
+
+  - url: https://josephprichard.github.io/Pathfinder/
+    title: Pathfinder
+    description: |
+      Visualization of Path finder algorithm such as A*, Dijkstra
+    category: ['JavaScript']
+
+  - url: https://github.com/Flagsmith/flagsmith
+    title: flagsmith
+    description: |
+      Feature flagging and remote config service. Host yourself or use their cloud hosted solution.
+    category: ['Python']
+
+tool:
+  - url: https://github.com/antoniomika/sish
+    title: sish
+    description: |
+      HTTP(S)/WS(S)/TCP Tunnels to localhost using only SSH. Alternative of Ngrok.
+
+  - url: https://ebiten.org/blog/nintendo_switch.html
+    title: "Ebiten now supports Nintendo Switch™!"
+    description: |
+      We linked to this tool a few times but now it can even run on Nintentdo. Writing Go for Nintento game. Sweet.
+
+  - url: https://github.com/getporter/porter
+    title: porter
+    description: |
+      enables you to package your application artifact, client tools, configuration and deployment logic together as a versioned bundle that you can distribute, and install with a single command.
+
+  - url: https://github.com/SigNoz/signoz
+    title: "signoz"
+    description: |
+      helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc. 🔥 🖥
+
+
+  - url: https://github.com/drakkan/sftpgo
+    title: sftpgo
+    description: |
+      Fully featured and highly configurable SFTP server with optional FTP/S and WebDAV support - S3, Google Cloud Storage, Azure Blob. Can be superuseful when working with Bank or Healthcare system where many of them requires a FTP server to push data over.
+
+  - url: https://github.com/ibraheemdev/modern-unix
+    title: Modern Unix
+    description: |
+      A collection of modern/faster/saner alternatives to common unix commands. Mostly re-written in Go or Rust for easiser deployment.
+
+
+  - url: https://prestigemad.com/#!/doc/browser/master
+    title: prestigemad
+    description: |
+      A HTTP client like Postman or Insommoa but in a markdown format. Imagine writing a markdown doc, and some format to make HTTP request. Reading the doc and Cmd+Enter to execute request. All you need is just a browser. No download. No Dmg. No electron app
