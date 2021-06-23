@@ -15,7 +15,7 @@ links:
 
   - url: https://www.ardanlabs.com/blog/2020/02/docker-images-part1-reducing-image-size.html
     title: "Docker Images : Part I - Reducing Image Size"
-    description: "We have 1000 aritcles on the internet about reducing image size. However, this one is written by Docker's creator himself, Jérôme Petazzoni."
+    description: "We have 1000 articles on the internet about reducing image size. However, this one is written by Docker's creator himself, Jérôme Petazzoni."
 
   - url: https://www.datadoghq.com/blog/monitor-kubernetes-audit-logs/
     title: "How to monitor Kubernetes audit logs"
@@ -24,7 +24,7 @@ links:
 
   - url: https://blog.soykaf.com/post/postgresql-elixir-troubles/
     title: "Elixir and Postgres: A Rarely Mentioned Problem"
-    description: "This article is actually about Postgres. A prepared statement can be executed with either a generic plan or a custom plan. Custom plan is generated depend on parameter while generic plan are same for all parameters. And that's generic plan is where the issue occur."
+    description: "This article is actually about Postgres. A prepared statement can be executed with either a generic plan or a custom plan. Custom plan is generated depend on parameter while generic plan are same for all parameters. And that's generic plan is where the issue occured."
 
   - url: http://rhaas.blogspot.com/2020/02/useless-vacuuming.html
     title: "Useless Vacuuming"
@@ -63,7 +63,7 @@ links:
 
   - url: https://twitter.com/Foone/status/1229641258370355200
     title: "Docker for Windows won't run if you have the Razer Synapse driver management tool running. "
-    description: "It's twitter thread so make sure you scroll down. You will be LMAO. Go read it seriously. Lesson learn: be careful when copying code"
+    description: "It's twitter thread so make sure you scroll down. You will be LMAO. Go read it seriously. Lesson learnt: be careful when copying code"
 
 video:
   - url: https://www.youtube.com/watch?v=i_wrxBdXTgM
@@ -100,7 +100,7 @@ read_code:
   - url: https://github.com/laixintao/iredis/
     title: iredis
     description: |
-      Interactive Redis: A Terminal Client for Redis with AutoCompletion and Syntax Highlighting
+      Interactive Redis: A Terminal Client for Redis with Autocompletion and Syntax Highlighting
     category: ['Python']
 
   - url: https://gitlab.com/yorickpeterse/oga#readme
