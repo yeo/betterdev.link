@@ -1,0 +1,144 @@
+time: "Jun 28, 2021"
+subject: ""
+draft: false
+description: |
+  Hi all,
+
+  Crypto is going chao last few weeks but when looking at it purely from an engineering purspective, it's quite interesting system.
+
+  Have fun enterainment with these links. Happy monday."
+
+links:
+  - url: https://karpathy.github.io/2021/06/21/blockchain/
+    title: "A from-scratch tour of Bitcoin in Python"
+    description: "
+      Usually when programming we call a public api on an object and the real works are being done. We don't know exactly what happen under the hood. Imagine you read a file, you call `fopen` or `fseek` but that's that. Who move the hard drive tip? who fetch the data from hard drive and put it to memory so your program can access it? The way to know that is working directly with the protocol instead of relying on the SDK. Today, we do the same with Bitcoin. It's written by Tesla AutoPilit director"
+
+  - url: https://jakearchibald.com/2021/serving-sharp-images-to-high-density-screens/
+    title: "Serving sharp images to high density screens"
+    description: "
+       in 2010 the iPhone 4 came out, and the screen was 640×960, whereas the similar-sized iPhone 3 was 320×480.
+       The resolution doubled, while the screen size was roughly the same, so in effect the screen density doubled.
+       Apple couldn't just run the same apps but at a higher resolution, because things like text and buttons would be tiny, so they doubled the size of everything. 1 pixel became 2 'device pixels'.
+       On the web we call this the 'device pixel ratio', or DPR. The iPhone 4 had a DPR of 2. This is sometimes referred to as having a 2x screen, or 2dppx.
+       So you see the mess?"
+
+  - url: https://devlog.hexops.com/2021/unicode-sorting-why-browsers-added-special-emoji-matching
+    title: "Unicode sorting is hard & why browsers added special emoji matching to regexp"
+    description: |
+      How do you sort this 'Bären', 'Käfer', 'küssen', 'Ähnlich', 'Äpfel' with built-in sorting in your language? In JavaScript B will be the first where as Ähnlich is the right one
+
+  - url: https://multilogin.com/why-mimicking-a-device-is-almost-impossible/
+    title: "Why mimicking a device is becoming almost impossible"
+    description: "Simply change the user-agent of device just trick simple system. But it isn't simple like that because a device also share many information such as screensize. And these parameters can be used to figured out the real device model."
+
+  - url: https://bunny.net/blog/the-stack-overflow-of-death-dns-collapse/
+    title: "The stack overflow of death. How we lost DNS and what we're doing to prevent this in the future."
+    description: |
+      After an almost stellar 2 year uptime, on 22nd of June, bunny.net experienced a 2+ hour near system-wide outage caused by DNS failure. In a blink of an eye, we lost over 60% of traffic, and wiped out hundreds of Gbits of throughput. Despite all of these systems being in place, a very simple update brought it all crumbling down, affecting over 750.000 websites.
+
+  - url: https://www.reddit.com/r/RedditEng/comments/o4y4dq/rwallstreetbets_incident_anthology_reddits_open/
+    title: "r/WallStreetBets Incident Anthology"
+    description: |
+      WallStreetBets and the Gamestop incident causes spike in Reddit traffic and cause internal dependency failure cascaded as the core systems started degrading due to the database performance issues.
+
+  - url: https://www.honeybadger.io/blog/rails-security-authentication-leaks/
+    title: "Rails Security Threats: Authentication"
+    description: |
+      Despite Rails in its title, it can apply to any software stack. Check out [the previous injection attack](https://www.honeybadger.io/blog/rails-security-injections/) too
+
+  - url: https://alexkrupp.typepad.com/sensemaking/2021/06/django-for-startup-founders-a-better-software-architecture-for-saas-startups-and-consumer-apps.html#rule7
+    title: "Django for Startup Founders: A better software architecture for SaaS startups and consumer apps"
+    description: |
+      Despite Django in its title, you can just ignore and read all of the title, they will apply to your own SaaS or startup app.
+
+  - url: https://blog.crunchydata.com/blog/tentative-crunchy-bridge-integration-with-logdna
+    title: "Logging Tips for Postgres, Featuring Your Slow Queries"
+    description: |
+      At some point in your career, you have to deal with slow queries and would wish a way to print out those queries so you can identify a pattern.
+
+  - url: https://tomassetti.me/parsing-in-javascript/
+    title: "Parsing in JavaScript: Tools and Libraries"
+    description: |
+      Probably not need in our daily life but it's great to know the language and toolchain available. Plus, I imagine it's quite fun to write a parser to parse a language
+
+  #- url: https://www.cybertec-postgresql.com/en/setting-up-postgresql-streaming-replication/
+  #title: "Setting up PostgreSQL streaming replication"
+
+  #
+  #  - url: https://jvns.ca/blog/2021/05/17/how-to-look-at-the-stack-in-gdb/
+  #    title: "How to look at the stack with gdb"
+
+video:
+  - url: https://www.youtube.com/watch?v=XA3SBgcZwtE&list=PLSE8ODhjZXjbeqnfuvp30VrI7VXiFuOXS&index=21
+    title: "PostgreSQL Optimizer Methodology"
+
+read_code:
+  - url: https://github.com/nodeca/pica
+    title: pica
+    description: |
+      Resize image in browser with high quality and high speed
+    category: ['JavaScript']
+
+  - url: https://github.com/micromark/micromark
+    title: micromark
+    description: |
+      The smallest CommonMark compliant markdown parser with positional info and concrete tokens.
+    category: ['JavaScript']
+
+  - url: https://github.com/beaugunderson/ip-address
+    title: ip-address
+    description: |
+      ip-v4 and ip-v6 parser
+    category: ['TypeScript']
+
+  - url: https://github.com/reidmorrison/semantic_logger
+    title: semantic_logger
+    description: |
+      a feature rich logging framework, and replacement for existing Ruby & Rails loggers.
+
+  - url: https://github.com/honeybadger-io/heya
+    title: heya
+    description: |
+      is a campaign mailer for Rails. If you run a SaaS, it can be useful to schedule timing campaign for users. Stuff like send first email after signup. second emails after 2 days etc
+    category: ['Rails']
+
+  - url: https://github.com/cirosantilli/x86-bare-metal-examples
+    title: x86-bare-metal-examples
+    description: |
+      Dozens of minimal operating systems to learn x86 system programming. Tested on Ubuntu 17.10 host in QEMU 2.10 and real hardware
+    category: ['multi-lang']
+
+  - url: https://github.com/Sambigeara/fuzzynote
+    title: fuzzynote
+    description: |
+      Terminal-based, hyper-fast, CRDT-backed, collaborative note-taking tool
+    category: ['Go']
+
+tool:
+
+  - url: https://github.com/claffin/cloudproxy
+    title: cloudproxy
+    description: |
+      Hide your scrapers IP behind the cloud. Provision proxy servers across different cloud providers to improve your scraping success.
+
+  - url: https://github.com/kelindar/column
+    title: column
+    description: |
+      High-performance, columnar, in-memory store with bitmap indexing in Go
+
+
+  - url: https://github.com/immanuelfodor/kube-karp
+    title: kube-karp
+    description: |
+      Add a floating virtual IP to Kubernetes cluster nodes for load balancing easily.
+
+  - url: https://github.com/lesovsky/pgcenter
+    title: pgcenter
+    description: |
+      Command-line admin tool for observing and troubleshooting Postgres.
+
+  - url: https://github.com/Thiht/smocker
+    title: smocker
+    description: |
+       a simple and efficient HTTP mock server. Define request/response in Yaml
