@@ -1,0 +1,138 @@
+time: "Jul 12, 2021"
+subject: "Behind the scenesm AWS Lambda and Against SQL"
+draft: false
+description: |
+  Hi all,
+
+  We skipped last week due to July 4th. I hope everyone had a nice rest anyway. Sometimes during this pandemic, it's still worth to go outside, wear a mask, on a weekend, go to a small park, take a short walk, go to a nearby beach(make sure you're fully vaccinated if your goverment offer it)  and just relax to recharge ourselves.
+
+  Have a great week ahead.
+
+links:
+  - url: https://www.bschaatsbergen.com/behind-the-scenes-lambda
+    title: "Behind the scenes, AWS Lambda"
+    description: "What's better than containerization?  Written in Rust, open source and the core of how AWS Lambda functions are powered, Firecracker!"
+
+  - url: https://scattered-thoughts.net/writing/against-sql/?utm_source=pocket_mylist
+    title: Against SQL
+    description: |
+      Many article that against SQL to promote documented db such as MongoDB or DynamoDB usually are weak effort. But this article is quite well-thoughout.
+      This article argues that SQL is Inexpressive, Incompressible and Non-porous
+
+  - url: https://routley.io/posts/hand-writing-dns-messages/
+    title: "Let's hand write DNS messages"
+    description: "DNS is an interesting aspect on the internet. It's amazing fast and reliable, very well distributed, multiple layer of caches.
+      So what is a query look like? Can we hand write it like how we hand write SQL instead of ORM?"
+
+  - url: https://nakabonne.dev/posts/write-tsdb-from-scratch/
+    title: "Write a time-series database engine from scratch"
+    description: |
+      This blog post walks you through how to implement a time-series database engine based on what I’ve learned from my experience of writing a lightweight one from scratch.
+      While it is written in Go, it mostly covers language-agnostic.
+
+  - url: https://hakibenita.com/django-nested-transaction
+    title: "One Database Transaction Too Many"
+    description: "How I told hundreds of users they got paid when they didn't!"
+
+  - url: https://postgrespro.com/blog/pgsql/5968005
+    title: "Locks in PostgreSQL: 2. Row-level locks"
+    description: |
+      we will see how row-level locks are organized in PostgreSQL and how they are used together with object-level locks. We will also talk of wait queues and of those who jumps the queue
+
+  - url: https://sosna.de/posts/pgaas-memory-overcommit/
+    title: "PostgreSQL, Memory and the Cloud™"
+    description: "
+      Modern softwares tend to request more thant they need, and the OS happily grant this wish without explicitly reverse memory for that program.
+      The OS hope that the program will not use all of that memory.  And that's a broken promise.  When the software starts to use all of that promised memory, chaos happen."
+
+  - url: https://research.swtch.com/hwmm
+    title: "Hardware Memory Models"
+    description: |
+      In the old day, in single-thread programs, hardware optimization can easily test and validate because valid optimizations do not change the behavior of valid programs.
+      Then when we reached the limit of speed, we switch to multipe processors on the same computer, and now things is harder to validate due to concurency  run of multiple processors.
+
+  - url: https://www.bodunhu.com/blog/posts/bgp-in-a-nutshell/?utm_source=pocket_mylist
+    title: "BGP in a Nutshell"
+    description: |
+      Border Gateway Protocol (BGP) protocol has a very simple purpose: choose the fastest and the most efficient route to deliver a message from one autonomous system (AS) to another. In layman’s term, BGP is the GPS for the internet.
+
+  - url: https://rootly.io/blog/the-incident-review-4-incidents-in-outer-space
+    title: "The Incident Review: 4 Incidents in Outer Space"
+    description: "Reliablity in space is important. Mistakes can mean death, literally. Also in space, it's harder to bring system back, no one is outthere to debug or reset the system.
+    With that reality in mind, here’s a look at incidents and reliability challenges that have occurred in outer space, and what SREs stand to learn from them."
+
+
+  - url: https://www.reddit.com/r/RedditEng/comments/o4ygp0/rwallstreetbets_incident_anthology_what_worked/
+    title: "r/WallStreetBets Incident Anthology (What Worked Edition): Autoscaler"
+    description: |
+      Continue on  how Reddit deal with challenge of scale system due to WallStreetBets. They basically make the autoscaling smarter by make it growth faster for big pools.
+
+  #- url: https://www.cybertec-postgresql.com/en/setting-up-postgresql-streaming-replication/
+  #title: "Setting up PostgreSQL streaming replication"
+
+  #
+  #  - url: https://jvns.ca/blog/2021/05/17/how-to-look-at-the-stack-in-gdb/
+  #    title: "How to look at the stack with gdb"
+
+video:
+
+read_code:
+  - url: https://github.com/tenderlove/fisk
+    title: fisk
+    description: |
+       a pure Ruby x86-64 assembler by Tenderlove
+    category: ['Ruby']
+
+  - url: https://github.com/niklasvh/html2canvas
+    title: html2canvas
+    description: |
+      take "screenshots" of webpages or parts of it, directly on the users browser. The screenshot is based on the DOM and as such may not be 100% accurate to the real representation as it does not make an actual screenshot, but builds the screenshot based on the information available on the page.
+    category: ['TypeScript']
+
+  - url: https://github.com/nol13/fuzzball.js
+    title: fuzzball
+    description: |
+      Easy to use and powerful fuzzy string matching, port of fuzzywuzzy.
+    category: ['JavaScript']
+
+  - url: https://github.com/RustScan/RustScan
+    title: RustScan
+    description: |
+      The Modern Port Scanner
+    category: ['Rust']
+
+  - url: https://github.com/caddyserver/certmagic
+    title: certmagic
+    description: |
+      Automatic HTTPS for any Go program: fully-managed TLS certificate issuance and renewal by Caddy. If you want to see how Letsencrypt works, this is a great way to understand its protocol.
+    category: ['Go']
+
+tool:
+  - url: https://railsautoscale.com/heroku-postgresql-connection-calculator/
+    title: "DB Connection Calculator"
+    description: |
+      How many Postgres connections do you need for your Heroku app?
+
+  - url: https://github.com/janiko71/aws-inventory
+    title: aws-inventory
+    description: "Python script for AWS resources inventory (cheaper than AWS Config)"
+
+  - url: https://github.com/piccolomo/plotext
+    title: plotext
+    description: |
+      plots directly on terminal, it has no dependencies and the syntax is very similar to matplotlib. It also provide a simple command line tool.
+
+  - url: https://github.com/imgproxy/imgproxy
+    title: imgproxy
+    description: |
+      Fast and secure standalone server for resizing and converting remote images
+
+  - url: https://github.com/Noovolari/leapp
+    title: leapp
+    description: |
+      is the tool to access your cloud; It securely stores your access information and generates temporary credential sets to access your cloud ecosystem from your local machine
+
+  - url: https://github.com/balerter/balerter
+    title: balerter
+    description: |
+      Write check script in Lua, Define alert channel and check script in YAML.
