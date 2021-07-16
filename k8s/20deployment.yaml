@@ -1,8 +1,8 @@
 kind: Deployment
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 metadata:
   name: betterdev
-  namespace: yeo
+  namespace: opty
   labels:
     app: betterdev
 spec:
@@ -25,7 +25,7 @@ spec:
         - containerPort: 1605
         env:
           - name: MONGO_URI
-            value: "mongodb://yeo.mongodb:27017"
+            value: "mongodb://mg0.getopty.com:27017"
           - name: AWS_REGION
             value: us-west-2
           - name: AWS_ACCESS_KEY_ID
