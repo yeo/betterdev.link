@@ -21,6 +21,11 @@ links:
     description: "How Airbnb ships features faster across web, iOS, and Android?
       They use a server side rendering system, even for mobile app. So that client doesn't have to maintain how it renders data, and update to UI can be done without an app release."
 
+  - url: https://pgdash.io/blog/postgres-incremental-backup-recovery.html
+    title: "PostgreSQL Incremental Backup and Point-In-Time Recovery"
+    description: |
+      PostgreSQL comes with the ability to do incremental backups and point-in-time recovery out of the box. Read on to learn more about the settings and procedures to achieve this. Set them up today and you will be grateful by the time you need point in time recovery.
+
   - url: https://web.dev/detached-window-memory-leaks/
     title: "Detached window memory leaks"
     description: "A particularly tricky class of memory leak occurs when an application references objects that have their own lifecycle, like DOM elements or popup windows. It's possible for these types of objects to become unused without the application knowing, which means application code may have the only remaining references to an object that could otherwise be garbage collected"
