@@ -1,0 +1,118 @@
+time: "Jul 19, 2021"
+subject: "The Incident Review: 4 Times When Typos Brought Down Critical Systems and LiveKit Open source platform for real-time audio and video"
+draft: false
+description: |
+  Hi all,
+
+  I hope everyone has a great weekend. Now to our issues as normal. If you like this newsletter, consider forward it to your friend, tell your co-worker.
+
+  Now to our links.
+
+
+links:
+  - url: https://rootly.io/blog/the-incident-review-4-times-when-typos-brought-down-critical-systems?utm_source=pocket_mylist
+    title: "The Incident Review: 4 Times When Typos Brought Down Critical Systems"
+    description: |
+      Ask an SRE to name the most serious threats to reliability, and typos probably won’t feature on the list.
+      But maybe they should. Sometimes, an errant keystroke is all it takes to bring critical systems offline. And unlike text messages and email, these systems don’t usually have autocorrect tools to step in and save the day.
+
+  - url: https://medium.com/airbnb-engineering/a-deep-dive-into-airbnbs-server-driven-ui-system-842244c5f5
+    title: "A Deep Dive into Airbnb’s Server-Driven UI System"
+    description: "How Airbnb ships features faster across web, iOS, and Android?
+      They use a server side rendering system, even for mobile app. So that client doesn't have to maintain how it renders data, and update to UI can be done without an app release."
+
+  - url: https://web.dev/detached-window-memory-leaks/
+    title: "Detached window memory leaks"
+    description: "A particularly tricky class of memory leak occurs when an application references objects that have their own lifecycle, like DOM elements or popup windows. It's possible for these types of objects to become unused without the application knowing, which means application code may have the only remaining references to an object that could otherwise be garbage collected"
+
+  - url: https://www.infoq.com/presentations/cascading-failure-risk/
+    title: "Managing the Risk of Cascading Failure"
+    description: "Say your database is slow and some query timeout. So the client re-try the query, now the database has to serve both query, it's still running the original query and the new retrying query? How can we prevent those kind of cascading failure?"
+
+  - url: https://blog.cloudflare.com/automatic-remediation-of-kubernetes-nodes/
+    title: "Automatic Remediation of Kubernetes Nodes"
+    description: |
+      CloudFlare run Kubernetes on bare-metal machines without relying on any cloud provider. They found that many k8s node will have network issue after a month-long running, simply restart will fix the issue so they made a process to automate that process.
+
+  - url: https://www.talhoffman.com/2021/07/18/firecracker-internals/
+    title: "Firecracker internals: a deep dive inside the technology powering AWS Lambda"
+    description: |
+       AWS Lambda is power by a microVM solution called Firecracker. Basically a VM but spin up as fast as 
+
+  - url: https://healeycodes.com/creating-the-golfcart-programming-language/
+    title: "Creating the Golfcart Programming Language"
+    description: |
+      How would you approach creating a programming language. Summrization, resources to get into this kind of project
+
+  - url: https://avi.im/blag/2021/fast-sqlite-inserts/?utm_source=pocket_mylist
+    title: "Towards Inserting One Billion Rows in SQLite Under A Minute"
+    description: |
+      Go from learning more about SQLite, Python, and eventually Rust… in my quest to get a 1B row database under a minute. This blog post is a summary of this fun and educational exercise.
+
+  #- url: https://www.cybertec-postgresql.com/en/setting-up-postgresql-streaming-replication/
+  #title: "Setting up PostgreSQL streaming replication"
+
+  #
+  #  - url: https://jvns.ca/blog/2021/05/17/how-to-look-at-the-stack-in-gdb/
+  #    title: "How to look at the stack with gdb"
+
+video:
+
+read_code:
+  - url: https://github.com/erikgrinaker/toydb/blob/master/docs/references.md?utm_source=pocket_mylist
+    title: "toydb"
+    description: |
+      This is a background of reference resource to implement a ToyDB in Rust. Video, lecture, consensus algorithm etc
+    category: ['Rust']
+
+  - url: https://github.com/pawurb/rails-pg-extras
+    title: rails-pg-extras
+    description: |
+      While the code is in Ruby and we categorized this as Ruby, but they has many queries to fetch Postgres stats and its operation which you can learn. Lot of good instrument by just querying Postgres internal state.
+    category: ['Ruby']
+
+
+  - url: https://github.com/halturin/ergo
+    title: ergo
+    description: |
+      a Framework for creating microservices using technologies and design patterns of Erlang/OTP in Golang
+    category: ['Go']
+
+  - url: https://github.com/davewasmer/devcert
+    title: "devcert: Development SSL made easy"
+    description: |
+      Ever wonder how to generate self-sign certs but trusted by your browsers? Dig into this code base.
+    category: ['JavaScript', 'SSL']
+
+  - url: https://github.com/seatgeek/fuzzywuzzy
+    title: fuzzywuzzy
+    description: |
+      Wonder how to write a fuzzy string matching? It uses Levenshtein Distance to calculate the differences between sequences in a simple-to-use package.
+    category: ['Python']
+
+tool:
+  - url: https://github.com/cybozu-go/moco
+    title: "moco"
+    description: |
+       MySQL operator on Kubernetes. Its primary function is to manage MySQL clusters using GTID-based semi-synchronous replication. It does not manage group replication clusters.
+
+  - url: https://github.com/FairwindsOps/rbac-manager
+    title: rbac-manager
+    description: |
+      A Kubernetes operator that simplifies the management of Role Bindings and Service Accounts.
+
+  - url: https://github.com/juanfont/headscale?utm_source=pocket_mylist
+    title: headscale
+    description: |
+      An open source, self-hosted implementation of the Tailscale control server
+
+  - url: https://github.com/ivanceras/svgbob
+    title: svgbob
+    description: |
+      create a nice graphical representation of your text diagrams.
+      takes text as an input and creates an svg image as an output.
+
+  - url: https://github.com/livekit/livekit-server
+    title: "livekit: Open source platform for real-time audio and video"
+    description: |
+      If you want to build your own Zoom, look no more. LiveKit has all the bit and pieces to build a realtime chat platform. They have all the code open source, Go server, client-sdk in TypeScript, Kotlin and Swift.
