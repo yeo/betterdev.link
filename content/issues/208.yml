@@ -4,7 +4,7 @@ draft: false
 description: |
   Hi all,
 
-  Welcome to issue 208, I like migration stories, swap out something in productions are always opportunity to plans thing. From the approach, the strategy,the post-migration check list. I had 2 migrations stories in this issue. I hope you like them as much as I do.
+  Welcome to issue 208, I like migration stories, they showed us how others approach swap things out in production. I had 2 migrations stories in this issue. I hope you like them as much as I do.
 
   If you like this newsletter, consider forward it to your friend, tell your co-worker.
 
@@ -95,7 +95,7 @@ read_code:
        a forensic tool to look for signs of infection in smartphone devices
     category: ['Python']
 
-tools:
+tool:
   - url: https://github.com/citusdata/pg_cron
     title: pg_cron
     description: |
