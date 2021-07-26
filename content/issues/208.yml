@@ -1,0 +1,117 @@
+time: "Jul 26, 2021"
+subject: "Migrating Facebook to MySQL 8.0 and Zip - How not to design a file format."
+draft: false
+description: |
+  Hi all,
+
+  Welcome to issue 208, I like migration stories, swap out something in productions are always opportunity to plans thing. From the approach, the strategy,the post-migration check list. I had 2 migrations stories in this issue. I hope you like them as much as I do.
+
+  If you like this newsletter, consider forward it to your friend, tell your co-worker.
+
+  Beside working on the newsletter, I build and run an [email forwarding service](https://hanami.run), if you have domain sitting around, hook them up to my platform.
+
+  Now to our links.
+
+links:
+  - url: https://engineering.fb.com/2021/07/22/data-infrastructure/mysql/
+    title: "Migrating Facebook to MySQL 8.0"
+    description: |
+      Facebook was using MySQl 5.6 and missed out many improvement in 5.7 and especially 8.0.
+      Their MySQL 5.6 also has 1700 code patches need to port to 8.0 version too.
+      Given the scale of Facebook, upgrading database like this is huge and difficult.
+
+  - url: https://games.greggman.com/game/zip-rant/
+    title: "Zip - How not to design a file format"
+    description: |
+      The Zip file format is now 32 years old. You'd think being 32 years old the format would be well documented. Unfortunately it's not.
+
+  - url: https://blog.noredink.com/post/657392972659310592/pufferfish-please-scale-the-site?utm_source=pocket_mylist
+    title: "Pufferfish, please scale the site!"
+    description: "Another database related migration. NoRedInk wanted to re-architecture their core engine to reduce MySQL load.
+      Previous attempt to rewrite that engine failed and had to rolled back. To make it worth, they don't quite trust their test either. So how they approach to rewrite the core business logic in a more peformance way?"
+
+  - url: https://softwarebits.substack.com/p/old-pattern-powering-modern-tech
+    title: "Old pattern powering modern tech"
+    description: |
+      On March 23rd Taras was honored to present at PAC HERO FESTIVAL 2021 their favorite append-only design property. The recording is available on YouTube and this article contains some of its highlights
+
+  - url: https://blog.crunchydata.com/blog/generating-json-directly-from-postgres
+    title: "Quick tip: Cut Out the Middle Tier: Generating JSON Directly from Postgres"
+    description: |
+      Instead of returning rows from the database, initialize data structure on your app then serialize them to JSON string, you can ask Postgres to just return JSON and cut out all the middleware access.
+
+  - url: https://blog.tempus-ex.com/hello-video-codec/
+    title: "Hello, Video Codec!"
+    description: |
+      In this post, we'll explore at a high level the key concepts and defining characteristics of video codecs. Then, to further demystify them, we'll even implement one from scratch in about a hundred lines of Rust.
+
+  - url: https://0x41.cf/reversing/2021/07/21/reversing-x86-and-c-code-for-beginners.html
+    title: "Reversing for dummies - x86 assembly and C code"
+    description: |
+      executables always seemed like black magic to me. I always wondered how stuff worked under the hood, and how binary code is represented inside .exe files, and how hard it is to modify this ‘compiled code’ without access to the original source code.
+
+  - url: https://tenthousandmeters.com/blog/python-behind-the-scenes-11-how-the-python-import-system-works/
+    title: "Python behind the scenes #11: how the Python import system works"
+    description: "I think among scripted language, Python has a very powerful import system. You can do relative import, parent import with `..`, and root import with `...` (yes, three dot if you are unfamiliar) and full path import. Once import an object, you can name it anything using `import ... as`. Even if you aren't using Python, read to understand how those `import/require/include` mechainisms work"
+
+  #- url: https://www.cybertec-postgresql.com/en/setting-up-postgresql-streaming-replication/
+  #title: "Setting up PostgreSQL streaming replication"
+
+  #
+  #  - url: https://jvns.ca/blog/2021/05/17/how-to-look-at-the-stack-in-gdb/
+  #    title: "How to look at the stack with gdb"
+
+video:
+  - url: https://www.youtube.com/watch?v=Lh9q3h2khlc&list=PLNYkxOF6rcIAKIQFsNbV0JDws_G_bnNo9&index=4
+    title: "Top 10 performance pitfalls - HTTP 203"
+
+read_code:
+  - url: https://github.com/zombodb/pgx
+    title: pgx
+    description: |
+      a framework for developing PostgreSQL extensions in Rust and strives to be as idiomatic and safe as possible.
+    category: ['Rust']
+
+  - url: https://github.com/jeremyevans/roda
+    title: Roda
+    description: "Call itself a routing tree web toolkit. It's unique among Ruby web framework where it used a Tree-based approach to define your route instead of an array/list page like Rails. Fastest among similar framework."
+    category: ['Ruby']
+
+  - url: https://github.com/oxfeeefeee/goscript
+    title: goscript
+    description: |
+      Implement Go as a script language in Rust. Run most of Pure Go code
+    category: ['Rust']
+
+  - url: https://github.com/statelyai/xstate
+    title: xstate
+    description: |
+      State machines and statecharts for the modern web
+    category: ['JavaScript', 'SSL']
+
+  - url: https://github.com/mvt-project/mvt
+    title: mvt
+    description: |
+       a forensic tool to look for signs of infection in smartphone devices
+    category: ['Python']
+
+tools:
+  - url: https://github.com/citusdata/pg_cron
+    title: pg_cron
+    description: |
+      Run periodic jobs in PostgreSQL. Good for thing like data cleanup, now you can just run SQL as a cronjob, define inside your postgres db, use the same CRON syntax
+
+  - url: https://github.com/lesovsky/noisia
+    title: noisia
+    description: "Chaos for Postgres, generate long query, idle transaction, locks etc"
+
+  - url: https://github.com/sj26/mailcatcher
+    title: mailcatcher
+    description: |
+      Have you ever send test email to see how it rendered in email client? Stop wasting that. Install this package(as a ruby gem), and run a local mailserver then you will have a web UI to view email locally. Fast, cheap(no more paying for extra mail)
+
+  - url: https://github.com/sullo/nikto
+    title: nikto
+    description: |
+      web server scanner which performs comprehensive tests against web servers for multiple items, including over 6700 potentially dangerous files/programs, checks for outdated versions of over 1250 servers, and version specific problems on over 270 servers
+
