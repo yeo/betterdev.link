@@ -1,0 +1,124 @@
+time: "Aug 03, 2021"
+subject: "Learning from incidents - Formula 1 and Netcat, all you need to know"
+draft: yes
+description: |
+  Hi all,
+
+  In last 2 weeks, we came to know about the existence of Pegasus malware, which can run on your phone to steal message, photos, location data. In this issue, I include a link to a guide to help you scan your iPhone. Stay safe online and always aware to not clicking random link, well, except my news leter :). You can count on me.
+
+  If you like this newsletter, consider forward it to your friend, tell your co-worker.
+
+links:
+  - url: https://incident.io/blog/learning-from-incidents-in-formula-1
+    title: "Learning from incidents - Formula 1"
+    description: |
+      Picture the scene. You’re the head engineer at a Formula 1 racing team. The car is damanged very early. Take the car back to garage to fix? Or fix the car from the grid?
+      This is the situation the Red Bull racing team faced in the Hungary 2020 Grand Prix, and what happens next is a glowing example of effective incident response.
+
+  - url: https://linx.software/?utm=bd
+    title: "Build APIs and integrations faster with less code"
+    description: |
+      Linx is a low code platform with similar power and flexibility as hand-coding. Developers use it to build backend applications and integrate with a wide range of APIs and services.
+    category: sponsor
+
+  - url: https://sirupsen.com/napkin/problem-15/
+    title: Increase HTTP Performance by Fitting In the Initial TCP Slow Start Window
+    description: |
+      Did you know that if your site’s under ~12kb the first page will load significantly faster? Servers only send a few packets (typically 10) in the initial round-trip while TCP is warming up (referred to as TCP slow start). After sending the first set of packets, it needs to wait for the client to acknowledge it received all those packets.
+
+  - url: https://blog.ikuamike.io/posts/2021/netcat/
+    title: "Netcat - All you need to know"
+    description: |
+      Netcat is a tool that reads and writes data across network connections, using TCP or UDP protocol. Netcat has been referred to as the TCP/IP / networking swiss army knife. In this article we’ll look at different applications of netcat and how it can be useful in day to day activities of a pentester, security professional, sysadmin etc…
+
+  - url: https://arkadiyt.com/2021/07/25/scanning-your-iphone-for-nso-group-pegasus-malware/
+    title: "Scanning your iPhone for Pegasus, NSO Group's malware"
+    description: |
+      The Guardian recently published an exposé about Pegasus, a toolkit for infecting mobile phones that is sold to governments around the world. Today, we will look into use [Mobile Verification Toolkit] which we linked to in [issue 208](https://betterdev.link/issues/208) to check whether your phone is infected.
+
+  - url: https://softwareengineering.stackexchange.com/questions/114156/why-are-there-no-put-and-delete-methods-on-html-forms
+    title: "Why are there no PUT and DELETE methods on HTML forms?"
+    description: "Ins't it super easy to just say `method="DELETE"` on HTML forms? Why do we have to masquerade `DELETE/PUT` as `POST` in HTML form."
+
+  - url: https://www.cloudflare.com/learning/network-layer/what-is-mtu/
+    title: "What is MTU (maximum transmission unit)?"
+    description: |
+      1400 MTU. 1500 MTU. 9001 MTU. 1450 MTU. What are those magic numbers? If you ever config or debug any network issue in a complex setup sooner or later you have to deal with this value? In short, they define a max amount of bytes we can send in a single package.
+
+  - url: https://josephg.com/blog/crdts-go-brrr/
+    title: "5000x faster CRDTs: An Adventure in Optimization"
+    description: |
+      The author shared his experience dealing with a scienece paper represented a slow implementation of his algorithm and conclude that algorithm is slow. The author went on a journey to optimize automerge, a popular CRDR, to reduce a processing from 5minutes to 0.056 seconds, or 5000x faster.
+
+  - url: https://openbsdrouterguide.net/
+    title: openbsdrouterguide
+    description: |
+      In this guide we're going to take a look at how we can use cheap and "low end" hardware to build an amazing OpenBSD router with firewalling capabilities, segmented local area networks, DNS with domain blocking, DHCP and more.
+      Even if you aren't plan to use OpenBSD, it is still useful because almost all components are 100% compatible with Linux such as unbound, or iptable instead of pf.
+
+  #- url: https://www.cybertec-postgresql.com/en/setting-up-postgresql-streaming-replication/
+  #title: "Setting up PostgreSQL streaming replication"
+
+  #
+  #  - url: https://jvns.ca/blog/2021/05/17/how-to-look-at-the-stack-in-gdb/
+  #    title: "How to look at the stack with gdb"
+
+video:
+  - url: https://www.youtube.com/watch?v=Lh9q3h2khlc&list=PLNYkxOF6rcIAKIQFsNbV0JDws_G_bnNo9&index=4
+    title: "Top 10 performance pitfalls - HTTP 203"
+
+read_code:
+  - url: https://github.com/js-cookie/js-cookie
+    title: js-cookie
+    description: |
+      A simple, lightweight JavaScript API for handling browser cookies
+    category: ['JavaScript']
+
+  - url: https://github.com/antelle/node-stream-zip
+    title: node-stream-zip
+    description: |
+      node.js library for reading and extraction of ZIP archives. load data by chunk to avoid big memory consumption
+    category: ['NodeJS']
+
+  - url: https://github.com/tobymao/sqlglot
+    title: sqlglot
+    description: |
+      Python SQL Parser and Transpiler
+    category: ['python']
+
+  - url: https://github.com/bensheldon/good_job
+    title: good_job
+    description: |
+      Multithreaded, Postgres-based, ActiveJob backend for Ruby on Rail
+    category: ['Ruby']
+
+  - url: https://github.com/rjuju/pg_validate_extupgrade
+    title: pg_validate_extupgrade
+    description: "Tool to validate PostgreSQL extension upgrade script. It's an example of writing Postgres extension in Rust"
+    category: ['Rust']
+
+  - url: https://github.com/llir/llvm
+    title: llvm
+    description: |
+      Library for interacting with LLVM IR in pure Go.
+    category: ['Go']
+
+tool:
+  - url: https://github.com/cy384/ssheven
+    title: ssheven
+    description: "A modern SSH client for Mac OS 7/8/9"
+
+  - url: https://github.com/knjcode/imgdupes
+    title: imgdupes
+    description: |
+      Finding and deleting near-duplicate images based on perceptual hash.
+
+  - url: https://github.com/deep5050/radio-active
+    title: radio-active
+    description: |
+      Fun, play any radios around the globe right from your terminal
+
+  - url: https://linx.software/?utm=bd
+    title: linx
+    description: |
+      A low code developer platform for APIs, integrations and automations.
