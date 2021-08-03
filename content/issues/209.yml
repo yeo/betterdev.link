@@ -1,6 +1,6 @@
-time: "Aug 03, 2021"
+time: "Aug 3, 2021"
 subject: "Learning from incidents - Formula 1 and Netcat, all you need to know"
-draft: yes
+draft: true
 description: |
   Hi all,
 
@@ -19,7 +19,7 @@ links:
     title: "Build APIs and integrations faster with less code"
     description: |
       Linx is a low code platform with similar power and flexibility as hand-coding. Developers use it to build backend applications and integrate with a wide range of APIs and services.
-    category: sponsor
+    category: ['sponsor']
 
   - url: https://sirupsen.com/napkin/problem-15/
     title: Increase HTTP Performance by Fitting In the Initial TCP Slow Start Window
@@ -33,12 +33,11 @@ links:
 
   - url: https://arkadiyt.com/2021/07/25/scanning-your-iphone-for-nso-group-pegasus-malware/
     title: "Scanning your iPhone for Pegasus, NSO Group's malware"
-    description: |
-      The Guardian recently published an exposé about Pegasus, a toolkit for infecting mobile phones that is sold to governments around the world. Today, we will look into use [Mobile Verification Toolkit] which we linked to in [issue 208](https://betterdev.link/issues/208) to check whether your phone is infected.
+    description: "The Guardian recently published an exposé about Pegasus, a toolkit for infecting mobile phones that is sold to governments around the world. Today, we will look into Mobile Verification Toolkit, which we linked to in [issue 208](https://betterdev.link/issues/208), to check whether your phone is infected."
 
-  - url: https://softwareengineering.stackexchange.com/questions/114156/why-are-there-no-put-and-delete-methods-on-html-forms
+  - url: "https://softwareengineering.stackexchange.com/questions/114156/why-are-there-no-put-and-delete-methods-on-html-forms"
     title: "Why are there no PUT and DELETE methods on HTML forms?"
-    description: "Ins't it super easy to just say `method="DELETE"` on HTML forms? Why do we have to masquerade `DELETE/PUT` as `POST` in HTML form."
+    description: "Ins't it super easy to just say `method=DELETE` on HTML forms? Why do we have to masquerade `DELETE/PUT` as `POST` in HTML form."
 
   - url: https://www.cloudflare.com/learning/network-layer/what-is-mtu/
     title: "What is MTU (maximum transmission unit)?"
@@ -62,10 +61,6 @@ links:
   #
   #  - url: https://jvns.ca/blog/2021/05/17/how-to-look-at-the-stack-in-gdb/
   #    title: "How to look at the stack with gdb"
-
-video:
-  - url: https://www.youtube.com/watch?v=Lh9q3h2khlc&list=PLNYkxOF6rcIAKIQFsNbV0JDws_G_bnNo9&index=4
-    title: "Top 10 performance pitfalls - HTTP 203"
 
 read_code:
   - url: https://github.com/js-cookie/js-cookie
@@ -122,3 +117,4 @@ tool:
     title: linx
     description: |
       A low code developer platform for APIs, integrations and automations.
+    category: ['sponsor']
