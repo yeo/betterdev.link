@@ -1,0 +1,120 @@
+time: "Aug 9, 2021"
+subject: "Learning from incidents - Formula 1 and Netcat, all you need to know"
+draft: false
+description: |
+  Hi all,
+
+  This week we are light on deep technical content but more on a high level of thing. Some fun stuff about IP address and leap seconds. I like them. I hope you like this issue as much as I do. If so, consider forward this to anyone you think might found this useful.
+
+  Have a great week ahead everyone.
+
+links:
+  - url: https://blog.apnic.net/2019/08/23/what-can-you-learn-from-an-ip-address/?utm_source=pocket_mylist
+    title: "What can you learn from an IP address?"
+    description: |
+      The Internet was not designed with security in mind. A number of recent protocols such as Encrypted DNS and HTTPS encrypt critical parts of the web architecture, which can otherwise be exploited by eavesdroppers to infer users’ data. But encryption may not necessarily guarantee privacy, especially when it comes to metadata.
+
+  - url: "https://linx.software/the-ultimate-guide-to-building-a-low-code-rest-api-how-to-guide/?utm=bd"
+    title: Building complex APIs in low-code
+    description: |
+      How to use common programming principles and bigger building blocks to build and maintain complex real-world APIs and microservices.
+    category: ['sponsor']
+
+  - url: https://berthub.eu/articles/posts/leapseconds-expose-bugs-even-when-they-dont-happen/?utm_source=pocket_mylist
+    title: "Leap seconds: Causing Bugs Even When They Don't Happen"
+    description: |
+      Leap seconds are controversial things. Since the Earth does not rotate at a steady rate, over time the Earth could get ahead or behind “atomic time”. Whatever solution you propose for this, someone is going to be unhappy.
+
+
+  - url: https://www.cybertec-postgresql.com/en/postgresql-security-things-to-avoid-in-real-life/
+    title: "PostgrSQL security: things to avoid in real life"
+    description: |
+      A walk through to review PostgreSQL security setting to harden your setup with a defense in depth attitude.
+
+  - url: https://dev.to/devteam/incident-retro-failing-comment-creation-erroneous-push-notifications-55dj
+    title: "Incident Retro: Failing Comment Creation + Erroneous Push Notificatio"
+    description: |
+      dev.to is a platform to blog for developer. This is a write up of what happen when they push bad cause which cause extra comment and hang on front-end.
+      Good to learn from their experience.
+
+  - url: https://nolanlawson.com/2021/08/08/improving-responsiveness-in-text-inputs/
+    title: "Improving responsiveness in text inputs"
+    description: |
+      When you attach event handle to every key stroke, it obviously has a performance since some code has to run for every key stroke. A few approach such as delay, batch, or debounce essentially group multiple events into one to process. But these solutions force a hard code approach where it defined how much delay/batch on all devices/users regardless typing speed or CPU power. In this we will use `requestIdleCallback` to adapt to the responsiveness of each device/user.
+
+  - url: https://heap.io/blog/when-the-postgres-planner-is-not-very-smart
+    title: 'Working Around a Case Where the Postgres Planner Is "Not Very Smart"'
+    description: |
+      Index-only scan are the query where Postgres only touch the index, without having to fetch the row on hard drive at all. But Postgres, being generic to everyone's workload didn't pickup index-only scan in this case because of this quicrk: "functions and operators can prevent index-only scans"
+
+  - url: https://engineering.fb.com/2021/08/06/core-data/zippydb/?utm_source=pocket_mylist
+    title: "How Facebook built a general purpose key value store with ZippyDB"
+
+  - url: http://highscalability.com/blog/2021/8/2/evolution-of-search-engines-architecture-algolia-new-search.html
+    title: Evolution Of Search Engines Architecture - Algolia New Search Architecture Part 1
+
+  #- url: https://www.cybertec-postgresql.com/en/setting-up-postgresql-streaming-replication/
+  #title: "Setting up PostgreSQL streaming replication"
+
+  #
+  #  - url: https://jvns.ca/blog/2021/05/17/how-to-look-at-the-stack-in-gdb/
+  #    title: "How to look at the stack with gdb"
+
+read_code:
+  - url: https://github.com/saghul/txiki.js
+    title: txiki
+    description: The tiny JavaScript runtime built with QuickJS, libuv and ❤️
+    category: ['JavaScript']
+
+  - url: https://github.com/grijul/otpgen/blob/main/otpgen.go
+    title: otpgen
+    description: |
+      Show you how the MFA app like google authenticator/authy generate the one time token from the seed secret(that secret is usually encode in the qrcode)
+    category: ['Go']
+
+  - url: https://github.com/r2d4/virgo
+    title: virgo
+    description: "You know how when we want to define relation between object we use thing like Parent, Node or even hash maps. And then we have to define their relationship by parsing some file/array. Virgo allow you to define them in this syntax: `a -> b, c, d -> e <- f, g`. Probably not much real life use but it's cool to see how to write a parser for this kind of graph."
+    category: ['Go']
+
+  - url: https://github.com/postalserver/postal
+    title: postal
+    description: |
+      A fully featured open source mail delivery platform for incoming & outgoing e-mail. This is very similar to my [email forwarding service](https://mailwip.com) but this project is fully open source and can accept and send all email. All in Ruby, with a very nice dashboard.
+    category: ['Ruby']
+
+  - url: https://github.com/commaai/laika
+    title: laika
+    description: |
+      an open-source GNSS processing library. Cool to understand more about GPS system.
+    category: ['Python']
+
+tool:
+  - url: https://github.com/pipe-cd/pipe
+    title: pipe
+    description: "Continuous Delivery for Declarative Kubernetes, Serverless and Infrastructure Applications"
+
+  - url: https://github.com/ibraheemdev/modern-unix
+    title: modern-unix
+    description: "A collection of modern/faster/saner alternatives to common unix commands."
+
+  - url: https://github.com/securego/gosec
+    title: gosec
+    description: |
+      Golang security checker
+
+  - url: https://github.com/kdash-rs/kdash
+    title: kdash
+    description: |
+      A fast and simple dashboard for Kubernetes
+
+  - url: https://www.percona.com/blog/improve-postgresql-query-performance-insights-with-pg_stat_monitor/
+    title: "pg_stat_monitor"
+    description: |
+      Write up on this extension usage to get more query performance insights by Percona.
+
+  - url: https://linx.software/?utm=bd
+    title: Linx
+    description: |
+      A low code developer platform for APIs, integrations and automations.
+    category: ['sponsor']
