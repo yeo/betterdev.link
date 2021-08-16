@@ -12,7 +12,7 @@ links:
   - url: https://nanos.org
     title: Run Open Source Unikernels with Nanos
     description: Nanos is an [open source Linux binary-compatible unikernel](https://github.com/nanovms/nanos) that can run linux programs faster and safer than linux. Deploy your first unikernel in minutes.
-    category: ['Sponsor']
+    category: ['sponsor']
 
   - url: https://www.netmeister.org/blog/tlds.html
     title: "TLDs -- Putting the '.fun' in the top of the DNS"
@@ -123,4 +123,4 @@ tool:
   - url: https://nanos.org
     title: Run Open Source Unikernels with Nanos
     description: Nanos is an [open source Linux binary-compatible unikernel](https://github.com/nanovms/nanos) that can run linux programs faster and safer than linux. Deploy your first unikernel in minutes.
-    category: ['Sponsor']
+    category: ['sponsor']
