@@ -1,0 +1,126 @@
+time: "Aug 16, 2021"
+subject: "Mixpanel Saving $30000 a month by improving Garbage Collection"
+draft: false
+description: "Hi all, Let's get straight to our link this week. If you like our content, please share it with your friends or co-workers :)"
+
+links:
+  - url: https://engineering.mixpanel.com/saving-30000-a-month-by-improving-garbage-collection-c5b793bbb07d
+    title: "Saving $30000 a month by improving Garbage Collection"
+    description: |
+      MixPanel use GCS(Google cloud storage, equivalent of S3 on GCP) and by improving on how they delete the unused object they save a massive of $30,000 per month.
+
+  - url: https://nanos.org
+    title: Run Open Source Unikernels with Nanos
+    description: Nanos is an [open source Linux binary-compatible unikernel](https://github.com/nanovms/nanos) that can run linux programs faster and safer than linux. Deploy your first unikernel in minutes.
+    category: ['Sponsor']
+
+  - url: https://www.netmeister.org/blog/tlds.html
+    title: "TLDs -- Putting the '.fun' in the top of the DNS"
+    description: "The Domain Name System or DNS is a never-ending source of amusement and amazement. If you have been dealing with just about anything related to operations on the internet, you know that it's always the DNS in the end, what with its almost 100 different resource records and, uhm, shall we say, \"interesting\" security threat model."
+
+  - url: https://blog.cloudflare.com/moving-quicksilver-into-production/
+    title: "Moving Quicksilver into production"
+    description: |
+      One of the great arts of software engineering is making updates and improvements to working systems without taking them offline.
+      Cloudflare’s network processes more than fourteen million HTTP requests per second at peak for Internet users around the world. The configuration when you update on the UI are pushed to the proxy server on the world in real time.
+      They rewrite that configuration system and rolled it out without the world notice anything.
+
+  - url: https://rekt.news/polynetwork-rekt/
+    title: "Poly network - rekt"
+    description: |
+      611 million dollars stolen.  That’s more than the Mt Gox hack. More than the GDP of several small countries. More than the entire rekt.news leaderboard added together.  The biggest cryptocurrency hack... ever.
+
+  - url: https://boyter.org/decoding-captchas/
+    title: "Decoding CAPTCHA’s"
+    description: |
+      If you ever wonder how to decode some simple captcha or just convert the captcha picture to text, this article is very approachable. All use standard python library. no big machine learning or AI tool/knowledge required
+
+  - url: http://be-n.com/spw/you-can-list-a-million-files-in-a-directory-but-not-with-ls.html
+    title: "You can list a directory containing 8 million files! But not with ls"
+    description: "Have you ever try to list a big directoies and `ls` just hang? Solution: Write a C program that calls the syscall getdents directly, with a large buffer size, ignore entries with inode == 0."
+
+  - url: https://pwn.recipes/posts/roll-your-own-e2ee-protocol/
+    title: "Pitfalls of rolling your own E2EE protocol Or: An example of a great vendor response"
+    description: |
+      Javier Anton talked about their app “Collaborative Groups”, which the website2 claims is end-to-end encrypted. There is no source available, so all the below is based on a short reverse engineering session of the Android app. This is not meant as an attack on the author. Instead, this should highlight some of the pitfalls of rolling your own encryption protocol.
+
+  - url: https://www.percona.com/blog/impact-of-network-and-cursor-on-query-performance-of-postgresql/
+    title: "Impact of Network and Cursor on Query Performance of PostgreSQL"
+    description: |
+      Many times, we see PostgreSQL users getting confused about the query/statement duration reported in PostgreSQL logs. Other PostgreSQL tools like pgBadger present the same data based on the log file, which further increases the confusion. Knowing the full impact of network-related overhead and cursors is important not only to alleviate the confusion but also to get the best performance.
+
+  - url: https://jmmv.dev/2021/08/using-all-memory-as-a-cache.html
+    title: "Should the browser use all available memory?"
+    description: |
+      the computer has multiple GBs of free memory, an application such as Chrome should make use of all the available memory in the form of a cache to be as responsive as possible. Makes sense, right?
+
+
+  #- url: https://www.cybertec-postgresql.com/en/setting-up-postgresql-streaming-replication/
+  #title: "Setting up PostgreSQL streaming replication"
+
+  #
+  #  - url: https://jvns.ca/blog/2021/05/17/how-to-look-at-the-stack-in-gdb/
+  #    title: "How to look at the stack with gdb"
+
+read_code:
+  - url: https://github.com/flyerhzm/bullet
+    title: bullet
+    description: |
+      help to kill N+1 queries and unused eager loading
+    category: ['Ruby']
+
+  - url: https://github.com/sdsykes/fastimage
+    title: fastimage
+    description: |
+      FastImage finds the size or type of an image given its uri by fetching as little as needed. Basically we just fetch enough metadata in EXIF to get the image size
+    category: ['Ruby']
+
+  - url: https://github.com/volatiletech/authboss
+    title: authboss
+    description: |
+      a modular authentication system for the web.
+      authentication and authorization for Go project/
+    category: ['Go']
+
+  - url: https://github.com/emilk/egui
+    title: egui
+    description: |
+       an easy-to-use immediate mode GUI in pure Rust
+    category: ['Rust']
+
+  - url: https://github.com/Stuk/jszip
+    title: jszip
+    description: |
+      Create, read and edit .zip files with Javascript
+    category: ['Javascript']
+
+tool:
+  - url: https://github.com/DaveJarvis/kmcaster
+    title: kmcaster
+    description: |
+      Capture keyboard and mouse events for screencasting
+
+  - url: https://github.com/TomWright/dasel
+    title: dasel
+    description: |
+      Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package.
+
+  - url: https://github.com/ossf/allstar
+    title: allstar
+    description: |
+      Github app to set and encofece security policies on your repository.
+
+  - url: https://github.com/multiprocessio/datastation
+    title: datastation
+    description: |
+      allows you to seamlessly connect SQL queries, HTTP requests, scripting, and visualization in a single platform.
+
+  - url: https://github.com/objective-see/LuLu
+    title: LuLu
+    description: |
+      the free macOS firewall like LittleSnitch
+
+  - url: https://nanos.org
+    title: Run Open Source Unikernels with Nanos
+    description: Nanos is an [open source Linux binary-compatible unikernel](https://github.com/nanovms/nanos) that can run linux programs faster and safer than linux. Deploy your first unikernel in minutes.
+    category: ['Sponsor']
