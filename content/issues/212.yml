@@ -1,0 +1,128 @@
+time: "Aug 23, 2021"
+subject: "One does not simply calculate the absolute value"
+draft: false
+description: "
+  Happy monday everyone.
+
+  I hope this week's issue  bring you some joy. We got stories of Rakuten, Clubhouse, Target deploy and debug their system. Infrastructure is hard and take for granted, when it works, no one notices, when it doesn't everyone panic :-).
+
+  Let's learn from team that has build platform to handle massive scale.
+  "
+
+links:
+  - url: https://habr.com/en/post/574082/
+    title: "One does not simply calculate the absolute value"
+    description: "I didn't know we have -0.00 and +0.00 before reading this article. Turn out even zero can have sign, so that for example we can have `1 / -0.00 = ∞` and `1 / +0.00 = +∞`"
+
+  - url: "https://retool.com/startups?utm_source=sponsor&utm_medium=newsletter&utm_campaign=betterlink.dev"
+    title: Get Retool free for up to a year and $160,000 in startup discounts
+    description: |
+      Why spend so much time on internal tooling, CRUD apps, and dashboards built from scratch? Retool is a 10x faster way to build custom internal tools, and now it's free for early-stage startups to use for up to a year. They've also created a deal book worth $160K in startup discounts to give startups access to the tools they need for great internal tools, for free. [Get your discount](https://retool.com/startups?utm_source=sponsor&utm_medium=newsletter&utm_campaign=betterlink.dev).
+    category: ['sponsor']
+
+  - url: https://utf9k.net/blog/conditional-gitconfig/
+    title: "Conditionally setting your gitconfig"
+    description: |
+      When you use the same laptop for different github accounts, thing can easily get messy such as accidently commit to work project as your personal account and vice versa. The way around is to use git config but we have to set them every time we start a new repo? can we magically execute some git config based on the directory we are in? Turn out git support that so we can say for a repo inside a certain directory, then use this git config.
+    category: ['quicktip']
+
+  - url: https://blog.clubhouse.com/reining-in-the-thundering-herd-with-django-and-gunicorn/
+    title: "Reining in the thundering herd ⛈ Getting to 80% CPU utilization with Django"
+    description: |
+      Clubhouse grew from 10k RPM to 1M RPM in two months with only 2 backend engineers. This is a story about heat of the moment journey to scale service and run our Python workloads 3x as efficiently.
+
+  - url: https://engineering.rakuten.today/post/graceful-k8s-delpoyments/
+    title: "Zero-Downtime Rolling Deployments in Kubernetes"
+    description: |
+      Rakuten is the maker of app like Kobo, Viber, Viki so needless to say their traffic is massive. In this article, they share how they design their deployment system and a few gotcha of K8S.
+
+  - url: https://tech.target.com/2017/04/05/distributed-troubleshooting.html
+    title: "Distributed Troubleshooting at Target"
+    description: |
+      Target’s open source big data platform contains a vast array of clustered technologies or ecosystems working together. Troubleshooting an issue within a single ecosystem is a difficult task let alone an issue that spans several ecosystems.
+
+  - url: https://preparingforcodinginterview.wordpress.com/2019/10/19/rate-limiting-algorithm-algo/
+    title: "Rate Limiting Algorithm"
+    description: "Any app will need some kind of rate limiting eventually. One of the methods is call Leaky bucket. It is an algorithm that provides a simple, intuitive approach to rate limiting via a queue which you can think of as a bucket holding the requests. Users can burst and fill in the bucket but once it's filled up then subsequent requests are dropped(fall out of bucket)"
+
+  - url: https://nolanlawson.com/2021/08/22/speeding-up-indexeddb-reads-and-writes/
+    title: "Speeding up IndexedDB reads and writes"
+    description: |
+      Tip and tricks to increase IndexedDB perf, useful if you work a lot with application that persisted data on client.
+
+  - url: https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript
+    title: "Loading Third-Party JavaScript"
+    description: "Third-party scripts provide a wide range of useful functionality, making the web more dynamic, interactive, and interconnected. These scripts may be crucial to your website's functionality or revenue stream. But third-party scripts also come with many risks that should be taken into consideration to minimize their impact while still providing value."
+
+  - url: https://briancallahan.net/blog/20210822.html
+    title: "Let's write a compiler, part 7: Arrays"
+    description: "So you want to write a simpler compiler that can generate machine code? Check this series out. It has 7 parts up till now.  Note that it doesn't generate machine code directly but generate C code. Still, its scope is small enough to quickly try it out."
+
+  - url: https://atfzl.com/don-t-attach-tooltips-to-document-body
+    title: "Don’t attach tooltips to document.body"
+    description: |
+      When attaching tooltips element to the root of body, it takes 80ms to add it to the DOM and the app is blocked in this 80ms. By moving it to an intermediate div element, it only takes 8ms to render and show the tooltip.
+      The root cause is because browser has to draw the whole render tree when we add it to the root. When adding to an intermediate element, only that element need to be calculated and redraw.
+
+  #
+  #  - url: https://jvns.ca/blog/2021/05/17/how-to-look-at-the-stack-in-gdb/
+  #    title: "How to look at the stack with gdb"
+
+read_code:
+  - url: https://github.com/katspaugh/wavesurfer.js
+    title: wavesurfer
+    description: "Navigable waveform built on Web Audio and Canvas"
+    category: ['JavaScript']
+
+  - url: https://github.com/gitsrc/IceFireDB
+    title: IceFireDB
+    description: "Distributed disk storage database based on Raft and Redis protocol."
+    category: ['Go']
+
+  - url: https://github.com/michaelforney/cproc
+    title: cproc
+    description: |
+      a C11 compiler using QBE as a backend.
+    category: ['C']
+
+  - url: https://github.com/chrisseaton/rhizome
+    title: rhizome
+    description: |
+      A JIT for Ruby, implemented in pure Ruby
+    category: ['Ruby']
+
+  - url: https://github.com/jpochyla/psst
+    title: psst
+    description: "Fast and multi-platform Spotify client with native GUI"
+    category: ['Rust']
+
+  - url: https://github.com/buriy/python-readability
+    title: readability
+    description: |
+      How would you extract Text from a HTML document to present a text-only version of the article? This is one proven approach that is being used in the wild.
+    category: ['python']
+
+tool:
+  - url: https://github.com/troessner/reek
+    title: reek
+    description: |
+      Code smell detector for Ruby
+
+  - url: https://github.com/armosec/kubescape
+    title: kubescape
+    description:  testing if Kubernetes is deployed securely as defined in [Kubernetes Hardening Guidance by to NSA and CISA](https://www.nsa.gov/News-Features/Feature-Stories/Article-View/Article/2716980/nsa-cisa-release-kubernetes-hardening-guidance/)
+
+  - url: https://github.com/nuvious/pam-duress
+    title: pam-duress
+    description: |
+      A Pluggable Authentication Module (PAM) which allows the establishment of alternate passwords that can be used to perform actions to clear sensitive data, notify IT/Security staff, close off sensitive network connections, etc if a user is coerced into giving a threat actor a password.
+
+  - url: https://github.com/growthbook/growthbook
+    title: growthbook
+    description: "The Open Source A/B Testing Platform"
+
+  - url: "https://retool.com/startups?utm_source=sponsor&utm_medium=newsletter&utm_campaign=betterlink.dev"
+    title: Get Retool free for up to a year and $160,000 in startup discounts
+    description: |
+      Why spend so much time on internal tooling, CRUD apps, and dashboards built from scratch? Retool is a 10x faster way to build custom internal tools, and now it's free for early-stage startups to use for up to a year. They've also created a deal book worth $160K in startup discounts to give startups access to the tools they need for great internal tools, for free. [Get your discount](https://retool.com/startups?utm_source=sponsor&utm_medium=newsletter&utm_campaign=betterlink.dev).
+    category: ['sponsor']
