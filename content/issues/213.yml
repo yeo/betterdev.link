@@ -1,0 +1,129 @@
+time: "Aug 30, 2021"
+subject: "An amazing error message if you put more than 2^24 items in a JS Map object"
+draft: false
+description: ""
+
+links:
+  - url: https://searchvoidstar.tumblr.com/post/659634228574715904/an-amazing-error-message-if-you-put-more-than-2-24
+    title: "An amazing error message if you put more than 2^24 items in a JS Map object"
+    description: |
+      Can you guess that? a map with 2^24 items? Probaly some limit exceed error? Indeed, JS will throw this "Uncaught RangeError: Value undefined out of range for undefined options property undefined"
+
+  - url: "https://retool.com/startups?utm_source=sponsor&utm_medium=newsletter&utm_campaign=betterlink.dev"
+    title: Get Retool free for up to a year and $160,000 in startup discounts
+    description: |
+      Why spend so much time on internal tooling, CRUD apps, and dashboards built from scratch? Retool is a 10x faster way to build custom internal tools, and now it's free for early-stage startups to use for up to a year. They've also created a deal book worth $160K in startup discounts to give startups access to the tools they need for great internal tools, for free. [Get your discount](https://retool.com/startups?utm_source=sponsor&utm_medium=newsletter&utm_campaign=betterlink.dev).
+    category: ['sponsor']
+
+  - url: https://wiki.bash-hackers.org/howto/redirection_tutorial?utm_source=pocket_mylist
+    title: "Illustrated Redirection Tutorial"
+    description: |
+      Have you ever type command like 2>&1, 3>&2 out of habit without a deep understanding behind it? If so, this article is for you. it explaind the concept of file descriptor and what 1, 2, 3 mean.
+
+  - url: https://tailscale.com/blog/rbac-like-it-was-meant-to-be/
+    title: "RBAC like it was meant to be"
+    description: |
+      How you would go to design an access control system? In this article, tailscale show us how they approach Role Base Access Control in its original design.
+
+  - url: https://prezu.ca/post/2021-07-30-totp-1/
+    title: "How does Google Authenticator work?"
+    description: "When you scan a QR code on any site that support MFA(Multi Factor Authentication), the bar code contains a secret token. The the 6 digit one time password is the result of a function that take input of original secret token and current time stamp. We'll learn exact steps which that function do"
+
+  - url: https://mailchimp.com/developer/blog/computers-are-the-easy-part/
+    title: "Computers are the easy part"
+    description: |
+      Mailchimp deploy new code that add a log statement. Then their job queue is backed up and job are no longer run. Nothing changes except that log statement.
+      But it's just a log so they look for in other places. Turning out, the log statement in root cause. But isn't that obvious that the log is the cuprit? Why no one though so?
+
+  - url: https://soatok.blog/2021/08/24/programmers-dont-understand-hash-functions/
+    title: "Programmers Don’t Understand Hash Functions"
+    description: |
+      Using a hash function for the wrong purpose, or in a place where it doesn’t provide the expected properties, can lead to security vulnerabilities. Some of these vulnerabilities aren’t obvious or straightforward, either, which only serves to magnify confusion.
+
+  - url: https://www.moderntreasury.com/journal/designing-ledgers-with-optimistic-locking
+    title: "Designing the Ledgers API with Optimistic Locking"
+    description: "Optimistic locking in a strategy that we will allow read, and for write we will assume conflict are unlikely, and if it's conflict we will lock/error out but we push the decision far down the chain.
+      One of way is to add a column `lock_version` and when upgrading we attempt to compare the current lock_version if it's different that means the row is updated elsewhere and we will abort it.
+      Let's apply that into API design"
+
+  - url: https://duckdb.org/2021/08/27/external-sorting.html
+    title: "Fastest table sort in the West - Redesigning DuckDB's sort"
+
+  - url: https://pganalyze.com/blog/postgres-create-index
+    title: "Using Postgres CREATE INDEX: Understanding operator classes, index types & more"
+    description: "What makes an index usable by a query, and how can we add the right index in Postgres? we’ll look at the practical aspects of using the CREATE INDEX command, as well as how you can analyze a PostgreSQL query for its operators and data types, so you can choose the best index definition."
+
+  - url: https://death.andgravity.com/query-builder-how
+    title: "Write an SQL query builder in 150 lines of Python!"
+    description: "How would you go about writing a query builder to generate SQL query use a chain-able method instead of string concat? It's use Python but the idea is sounded"
+  #
+  #  - url: https://jvns.ca/blog/2021/05/17/how-to-look-at-the-stack-in-gdb/
+  #    title: "How to look at the stack with gdb"
+
+video:
+  - url: https://www.youtube.com/watch?v=aVwxzDHniEwl
+    title: "The Beauty of Bézier Curves"
+    description: "They're used for animation, text rendering, and all sorts of curved shapes! But how do they actually work?"
+
+read_code:
+  - url: https://github.com/WebReflection/uhtml
+    title: uhtml
+    description: "A micro HTML/SVG render"
+    category: ['JavaScript']
+
+  - url: https://github.com/nodejs/undici
+    title: undici
+    description: |
+      An HTTP/1.1 client, written from scratch for Node.js
+    category: ['Node.js']
+
+  - url: https://github.com/WithGJR/regit-go
+    title: regit
+    description: "A Tiny Git-compatible Git Implementation"
+    category: ['Go']
+
+  - url: https://github.com/basecamp/console1984
+    title: console1984
+    description: |
+      We usually have to give dev access to a Rails production console so they can debug or manipulate data. How can we protect sensitive data of customers while still allow dev fetch other data? How can we audit the access?
+      The gem also go hand it hand with [audits1984](https://github.com/basecamp/audits1984(
+    category: ['Ruby']
+
+  - url: https://github.com/tiny-http/tiny-http
+    title: tiny-http
+    description: "Low level HTTP server library in Rust"
+    category: ['Rust']
+
+  - url: https://github.com/jorisschellekens/borb
+    title: borb
+    description: "a library for reading, creating and manipulating PDF files in python"
+    category: ['Python']
+
+tool:
+  - url: https://reaflow.dev/?path=/story/docs-introduction--page
+    title: "reaflow"
+    description: |
+      Allow you to express diagram in code(using ReactJS). Checkout the [example](https://reaflow.dev/?path=/story/demos-nested--edges) for a quick demo.
+
+  - url: https://github.com/ArchiveBox/ArchiveBox
+    title: ArchiveBox
+    description: "Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more..."
+
+  - url: https://github.com/liamg/traitor
+    title: traitor
+    description: "Automatic Linux privesc via exploitation of low-hanging fruit e.g. gtfobins, polkit, docker socket"
+
+  - url: https://github.com/glauth/glauth
+    title: glauth
+    description: "A lightweight LDAP server for development, home use, or CI"
+
+  - url: https://github.com/dailymotion-oss/octopilot
+    title: octopilot
+    description: |
+      CLI tool designed to help you automate your Gitops workflow, by automatically creating and merging GitHub Pull Requests to update specific content in Git repositories.
+
+  - url: "https://retool.com/startups?utm_source=sponsor&utm_medium=newsletter&utm_campaign=betterlink.dev"
+    title: Get Retool free for up to a year and $160,000 in startup discounts
+    description: |
+      Why spend so much time on internal tooling, CRUD apps, and dashboards built from scratch? Retool is a 10x faster way to build custom internal tools, and now it's free for early-stage startups to use for up to a year. They've also created a deal book worth $160K in startup discounts to give startups access to the tools they need for great internal tools, for free. [Get your discount](https://retool.com/startups?utm_source=sponsor&utm_medium=newsletter&utm_campaign=betterlink.dev).
+    category: ['sponsor']
