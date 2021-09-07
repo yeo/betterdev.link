@@ -50,10 +50,10 @@ links:
       Every time you use Google, you perform a similarity search between your query/search term — and Google’s indexed internet.
       In this article, we learn a practical way to impelemt that.
 
-  - url: https://berthub.eu/articles/posts/reed-solomon-for-programmers/
-    title: "Practical Reed-Solomon for Programmers"
+  - url: https://codingnest.com/the-little-things-comparing-floating-point-numbers/
+    title: "The Little Things: Comparing Floating Point Numbers"
     description: |
-
+      There is a lot of confusion about floating-point numbers and a lot of bad advice going around. IEEE-754 floating-point numbers are a complex beast[1], and comparing them is not always easy, but in this post, we will take a look at different approaches and their tradeoffs.
 
   - url: https://www.smashingmagazine.com/2021/08/refactoring-css-optimizing-size-performance-part3/
     title: "Refactoring CSS: Optimizing Size And Performance"
