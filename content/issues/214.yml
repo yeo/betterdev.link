@@ -1,0 +1,136 @@
+time: "Sep 07, 2021"
+subject: "Picturing Git: Conceptions and Misconception"
+draft: false
+description: "This issue is arrived one day later than our usual schedule due to US holiday. We're back now and hope everyone had a great week despite of the holiday or not"
+
+links:
+  - url: https://www.biteinteractive.com/picturing-git-conceptions-and-misconceptions/?utm_source=pocket_mylist
+    title: "Picturing Git: Conceptions and Misconception"
+    description: |
+       present a simple way of looking at what Git really is and what it really does. I do not claim that this way of looking at Git represents absolute “facts” in any hard and fast or literal sense. But I contend that if you conceive of Git in the way that I’m going to suggest, if you substitute these conceptions of Git for any misconceptions you might have now, you’ll be a much happier and more fluid Git user.
+
+  - url: "https://retool.com/startups?utm_source=sponsor&utm_medium=newsletter&utm_campaign=betterlink.dev"
+    title: Get Retool free for up to a year and $160,000 in startup discounts
+    description: |
+      Why spend so much time on internal tooling, CRUD apps, and dashboards built from scratch? Retool is a 10x faster way to build custom internal tools, and now it's free for early-stage startups to use for up to a year. They've also created a deal book worth $160K in startup discounts to give startups access to the tools they need for great internal tools, for free. [Get your discount](https://retool.com/startups?utm_source=sponsor&utm_medium=newsletter&utm_campaign=betterlink.dev).
+    category: ['sponsor']
+
+  - url: https://earthly.dev/blog/jq-select/
+    title: "An Introduction to JQ"
+    description: "
+      We work with JSON all day long. jq is a populater tool to helps extract and transform JSON, think of awk/seed but for JSON.
+      In this article, , Adam's going to go over the basics building blocks of jq in enough depth that you will be able to understand how jq works"
+
+  - url: https://aiven.io/blog/solving-the-knapsack-problem-in-postgresql
+    title: "Solving the knapsack problem in PostgreSQL"
+    description: |
+      The knapsack problem: how to use limited luggage space to pack only and all the items you're most likely to need? Enter PostgreSQL! Come and find out how to use the world's best open source database to help you pack.
+
+  - url: https://matduggan.com/how-does-apple-private-relay-work/?utm_source=pocket_mylist
+    title: "How does Apple Private Relay Work?"
+    description: |
+      Private Relay is an attempt by Apple to change the way traffic is routed from user to internet service and back. Kind of like a proxy.
+      They used CGNAT behinds the scene.
+
+  - url: https://www.rodrigoaraujo.me/posts/lets-build-an-lc-3-virtual-machine/?utm_source=pocket_mylist
+    title: "Let’s build an LC-3 Virtual Machine"
+    description: "Virtual Machines (VMs) are a magical thing: a computer being emulated inside a physical computer. Since this emulated computer isn’t physical, we call it “virtual”. Such a simple description for something so powerful.
+      If you just want to see the final source code, [here is the repo](https://github.com/digorithm/LC-3-Rust). It's ver approachable."
+
+  - url: https://www.brendangregg.com/blog/2021-08-30/high-rate-of-paging.html
+    title: "Analyzing a High Rate of Paging"
+    description: |
+      When server is on fire, what tool you reach to view metrics, or what metrics to look at?
+      This is a rough post to share this old but good case study of using these tools, and to help justify their further development. No editing, spell checking, or comment
+
+  - url: https://www.pinecone.io/learn/locality-sensitive-hashing/
+    title: "Locality Sensitive Hashing (LSH): The Practical and Illustrated Guide"
+    description: |
+      Amazon uses LFS similarity search to compare customers, finding new product recommendations based on the purchasing history of their highest-similarity customers.
+      Every time you use Google, you perform a similarity search between your query/search term — and Google’s indexed internet.
+      In this article, we learn a practical way to impelemt that.
+
+  - url: https://berthub.eu/articles/posts/reed-solomon-for-programmers/
+    title: "Practical Reed-Solomon for Programmers"
+    description: |
+
+
+  - url: https://www.smashingmagazine.com/2021/08/refactoring-css-optimizing-size-performance-part3/
+    title: "Refactoring CSS: Optimizing Size And Performance"
+
+  - url: http://web.archive.org/web/20210902153602/https://www.bloomberg.com/graphics/2021-chip-production-why-hard-to-make-semiconductors/
+    title: "The Chip Shortage Keeps Getting Worse. Why Can’t We Just Make More?"
+    description: "Not really an technical article but I found it's super interesting and show us how complicate chip production is. I also learn that our transistors are even smaller than a virus."
+
+
+  #
+  #  - url: https://jvns.ca/blog/2021/05/17/how-to-look-at-the-stack-in-gdb/
+  #    title: "How to look at the stack with gdb"
+
+video:
+
+read_code:
+  - url: https://github.com/jwagner/smartcrop.js
+    title: smartcrop
+    description: "Content aware image cropping"
+    category: ['JavaScript']
+
+  - url: https://github.com/willscott/go-nfs/
+    title: golang-nfs
+    description: "nfsv3 implemntation. pretty cool to write this kind of stuff in Go"
+    category: ['Go']
+
+  - url: https://github.com/postmodern/hexdump.rb
+    title: hexdump.rb
+    description: |
+      Fully Featured and Fast hexdumping for Ruby.
+      For thing like e8 80 80 e8 80 80 e8 80 80 e8 80 80 when you hexdumb a file. If you want to understand them more, best is to just see how it is done in code.
+    category: ['Ruby']
+
+  - url: https://github.com/digital-fabric/ever
+    title: ever
+    description: |
+      The concept of event loop, reactor are hard to grasp or explain. We seen so many confusion in NodeJS world.
+      libuv is massive to read and understand, this project is based on libev which I found is much smaller and probably easier to undersand.
+      If you are internal about the event loop, another cool project(from the same author) is [polyphony](https://github.com/digital-fabric/polyphony) which use io_uring and libev under the hood for concurency in Ruby.
+    category: ['C', 'Ruby']
+
+  - url: https://github.com/greyblake/whatlang-rs
+    title: whatlang-rs
+    description: "Natural language detection library for Rust"
+    category: ['Rust']
+
+  - url: https://github.com/coqui-ai/TTS
+    title: TTS
+    description: "TTS is a library for advanced Text-to-Speech generation. It's built on the latest research, was designed to achieve the best trade-off among ease-of-training, speed and quality."
+    category: ['Python']
+
+tool:
+  - url: https://github.com/jonaslu/ain
+    title: "ain: An HTTP API client for the terminal"
+    description: |
+      Like postman, insomnia, paw but for terminal instead of a desktop app.
+
+  - url: https://github.com/armosec/kubescape
+    title: kubescape
+    description: |
+      the first tool for testing if Kubernetes is deployed securely as defined in [Kubernetes Hardening Guidance by to NSA and CISA](https://www.nsa.gov/News-Features/Feature-Stories/Article-View/Article/2716980/nsa-cisa-release-kubernetes-hardening-guidance/)
+
+  - url: https://github.com/mathaou/termdbms
+    title: termdbms
+    description: "A TUI for viewing and (eventually) editing SQLite files"
+
+  - url: https://github.com/hyperjumptech/monika
+    title: "monika"
+    description: "Monika is a command line application to monitor every part of your web app using a simple JSON configuration file. Get alert not only when your site is down but also when it's slow."
+
+  - url: https://github.com/revoltchat
+    title: revoltchat
+    description: |
+      Open-source alternative to Discord with server in Rust and client in TypeScript and Preact.
+
+  - url: "https://retool.com/startups?utm_source=sponsor&utm_medium=newsletter&utm_campaign=betterlink.dev"
+    title: Get Retool free for up to a year and $160,000 in startup discounts
+    description: |
+      Why spend so much time on internal tooling, CRUD apps, and dashboards built from scratch? Retool is a 10x faster way to build custom internal tools, and now it's free for early-stage startups to use for up to a year. They've also created a deal book worth $160K in startup discounts to give startups access to the tools they need for great internal tools, for free. [Get your discount](https://retool.com/startups?utm_source=sponsor&utm_medium=newsletter&utm_campaign=betterlink.dev).
+    category: ['sponsor']
