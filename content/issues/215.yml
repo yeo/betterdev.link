@@ -1,0 +1,110 @@
+time: "Sep 13, 2021"
+subject: "Can Podcasts Predict the Stock Market?"
+draft: false
+description: |
+  Hi everyone, full of security related articles this week. I want to shift gear a bit to give everyone gain more knowledge and exposure to cyber security.
+
+links:
+  - url: https://www.assemblyai.com/blog/can-podcasts-predict-the-stock-market
+    title: "Can Podcasts Predict the Stock Market?"
+    description: |
+      This is very practical and hand-on tutorial which you can follow to get some sense of simple AI/Machine learning.
+      The entire of process of finding positive/negative news in podcast, corelate them with prices of stocks, draw chat etc.
+
+  - url: "https://retool.com/startups?utm_source=sponsor&utm_medium=newsletter&utm_campaign=betterlink.dev"
+    title: Get Retool free for up to a year and $160,000 in startup discounts
+    description: |
+      Why spend so much time on internal tooling, CRUD apps, and dashboards built from scratch? Retool is a 10x faster way to build custom internal tools, and now it's free for early-stage startups to use for up to a year. They've also created a deal book worth $160K in startup discounts to give startups access to the tools they need for great internal tools, for free. [Get your discount](https://retool.com/startups?utm_source=sponsor&utm_medium=newsletter&utm_campaign=betterlink.dev).
+    category: ['sponsor']
+
+  - url: https://theevilbit.github.io/beyond/
+    title: "Beyond the good ol' LaunchAgents - Introduction"
+    description: |
+      Persistence consists of techniques that adversaries use to keep access to systems across restarts, changed credentials, and other interruptions that could cut off their access.
+      In Mac, LaunchDaemons and LaunchAgents are directory for start-up script or daemon process to restore access? But what else, what are other vector attacks?
+
+  - url: https://blog.thinkst.com/2021/09/a-mysql-canarytoken.html
+    title: "Good attacks make good detections make good attacks make.."
+    description: |
+      In [email world](https://mailwip.com), we had spam trap setup so that no human will email that, and as soon as an email hit that address, we know that the source is sending spam.
+      Same in security, An industrious attacker lands on one of your servers and finds a 5MB MySQL dump file (say, called prod_primary.dump). What do they do next?
+      Typically, they would load this dump-file into a temporary database to rummage through the data.
+      As soon as they do, you get an email/SMS/alert letting you know. Can we made that happen?
+
+  - url: https://minervadb.xyz/postgresql-dba-daily-checklist/
+    title: "PostgreSQL DBA Daily Checklist"
+    description: |
+      10 queries that you can run daily to montior and do some sanity checks on your postgres. Practical, action-able query that you can run immediately right now to get some quick win :)
+
+  - url: https://blog.jooq.org/10-cool-sql-optimisations-that-do-not-depend-on-the-cost-model/#top4
+    title: "10 Cool SQL Optimisations That do not Depend on the Cost Model"
+    description: |
+      Cost Based Optimisation is the de-facto standard way to optimise SQL queries in most modern databases.
+      For example, if a query may returns > 20% of rows in the table, the query planner might just skip the index and scan the table directly because it may have to read whole table anyway.
+      But how about simpler optimisations that can be implemented purely based on meta data (e.g. constraints) and the query itself
+
+  - url: https://github.com/juliocesarfort/public-pentesting-reports
+    title: "Public pentesting reports"
+    description: |
+      Curated list of public penetration test reports released by several consulting firms and academic security groups. Is there any report about Jeff Bezos's phone hack? [Yes](https://github.com/juliocesarfort/public-pentesting-reports/blob/master/FTIConsulting/FTI-Report-into-Jeff-Bezos-Phone-Hack.pdf), I'm glad you asked.
+
+  - url: https://www.ovh.com/blog/how-pci-express-works-and-why-you-should-care-gpu/
+    title: "How PCI-Express works and why you should care?"
+    description: |
+      If you use GPUs, you should know that there are 2 ways to connect them to the motherboard to allow it to connect to the other components (network, CPU, storage device). Solution 1 is through PCI Express and solution 2 through SXM2. We will talk about SXM2 in the future. Today, we will focus on PCI Express. This is because it has a strong dependency with the choice of adjacent hardware such as PCI BUS or CPU.
+
+  #
+  #  - url: https://jvns.ca/blog/2021/05/17/how-to-look-at-the-stack-in-gdb/
+  #    title: "How to look at the stack with gdb"
+
+video:
+
+read_code:
+  - url: https://dannjs.org/
+    title: "Dannjs"
+    description: |
+       an easy-to-use neural network library for Javascript. This library is small and easy to learn,
+    category: ['JavaScript']
+
+  - url: https://github.com/candid82/joker
+    title: joker
+    description: "Small Clojure interpreter, linter and formatter"
+    category: ['Go']
+
+  - url: https://github.com/testdouble/suture
+    title: suture
+    description: "A Ruby gem that helps you refactor your legacy code"
+    category: ['Ruby']
+
+  - url: https://github.com/TaKO8Ki/gobang/tree/v0.1.0-alpha.3
+    title: "gobang"
+    description: "A cross-platform TUI database management tool written in Rust"
+    category: ['Rust']
+
+  - url: https://github.com/jashandeep-sohi/webcam-filters
+    title: webcam-filters
+    description: "Add filters (background blur, etc) to your webcam on Linux."
+    category: ['Python']
+
+tool:
+  - url: https://github.com/orhun/git-cliff
+    title: git-cliff
+    description: "A highly customizable Changelog Generator that follows Conventional Commit specifications ⛰️"
+
+  - url: https://github.com/serhii-londar/open-source-mac-os-apps
+    title: "🚀 Awesome list of open source applications for macOS."
+
+  - url: https://github.com/zammad/zammad
+    title: zammad
+    description: "a web based open source helpdesk/customer support system"
+
+  - url: https://github.com/Dreamacro/clash
+    title: "A rule-based tunnel"
+    description: |
+      Local HTTP/HTTPS/SOCKS server with authentication support, Built-in DNS server, iptables support
+
+  - url: "https://retool.com/startups?utm_source=sponsor&utm_medium=newsletter&utm_campaign=betterlink.dev"
+    title: Get Retool free for up to a year and $160,000 in startup discounts
+    description: |
+      Why spend so much time on internal tooling, CRUD apps, and dashboards built from scratch? Retool is a 10x faster way to build custom internal tools, and now it's free for early-stage startups to use for up to a year. They've also created a deal book worth $160K in startup discounts to give startups access to the tools they need for great internal tools, for free. [Get your discount](https://retool.com/startups?utm_source=sponsor&utm_medium=newsletter&utm_campaign=betterlink.dev).
+    category: ['sponsor']
