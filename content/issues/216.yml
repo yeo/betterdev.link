@@ -2,7 +2,9 @@ time: "Sep 20, 2021"
 subject: "Why Authorization is Hard and The pitfalls of using ssh-agent, or how to use an agent safely"
 draft: false
 description: |
-  Hi everyone, full of security related articles this week. I want to shift gear a bit to give everyone gain more knowledge and exposure to cyber security.
+  A very practical issue. Dealing with authorization, SSH agent, design API, optimize big JS bundle, text vs varchar in database design. I hope you like these as much as I do.
+
+  Have a great week everyone.
 
 links:
   - url: https://www.osohq.com/post/why-authorization-is-hard
@@ -116,3 +118,13 @@ tool:
     title: sshcheck
     description: |
        checks the configuration of given server accessible over internet during SSH handshake - notably supported encryption and MAC algorithms, and an overview of offered server public keys.
+
+  - url: "https://retool.com/startups?utm_source=sponsor&utm_medium=newsletter&utm_campaign=betterlink.dev"
+    title: Build internal tools in minutes with Retool, where visual programming meets the power of real code.
+    description: |
+      rogramming hasn’t fundamentally changed in a long time. Building an app usually means Googling for the right component library, debugging dependencies, rewriting a lot of boilerplate code, and figuring out where to deploy. Everything but solving the problem at hand.
+      Retool is a new approach: we’ve unified the ease of visual programming with the power and flexibility of real code. Connect to any database or API. Drag-and-drop a UI while simultaneously live programming it. Deploy instantly.
+      Allbirds uses Retool to measure billboard efficacy. Amazon uses Retool to handle GDPR requests. You, too, can use it to build business-critical applications fast.
+
+      [Start building for free today](https://retool.com/startups?utm_source=sponsor&utm_medium=newsletter&utm_campaign=betterlink.dev).
+    category: ['sponsor']
