@@ -1,0 +1,118 @@
+time: "Sep 20, 2021"
+subject: "Why Authorization is Hard and The pitfalls of using ssh-agent, or how to use an agent safely"
+draft: false
+description: |
+  Hi everyone, full of security related articles this week. I want to shift gear a bit to give everyone gain more knowledge and exposure to cyber security.
+
+links:
+  - url: https://www.osohq.com/post/why-authorization-is-hard
+    title: "Why Authorization is Hard"
+    description: |
+      There's a fundamental tension in authorization. Is it business logic or authorization logic? Should it be in the app, or separate?
+      Authorization wasn't particularly fashionable in tech circles. Fast-forward to today, and Airbnb, Carta, Slack, and Intuit are all writing blog posts about the internal authorization systems they built. Suddenly it seems like authorization is a topic as cool as moving to Kubernetes!
+
+  - url: "https://retool.com/startups?utm_source=sponsor&utm_medium=newsletter&utm_campaign=betterlink.dev"
+    title: Build internal tools in minutes with Retool, where visual programming meets the power of real code.
+    description: |
+      rogramming hasn’t fundamentally changed in a long time. Building an app usually means Googling for the right component library, debugging dependencies, rewriting a lot of boilerplate code, and figuring out where to deploy. Everything but solving the problem at hand.
+      Retool is a new approach: we’ve unified the ease of visual programming with the power and flexibility of real code. Connect to any database or API. Drag-and-drop a UI while simultaneously live programming it. Deploy instantly.
+      Allbirds uses Retool to measure billboard efficacy. Amazon uses Retool to handle GDPR requests. You, too, can use it to build business-critical applications fast.
+
+      [Start building for free today](https://retool.com/startups?utm_source=sponsor&utm_medium=newsletter&utm_campaign=betterlink.dev).
+    category: ['sponsor']
+
+  - url: https://rabexc.org/posts/pitfalls-of-ssh-agents
+    title: "The pitfalls of using ssh-agent, or how to use an agent safely"
+    description: |
+      Using ssh-agent, your key can be transfered securely to a jumpbox and from that jump box you an login to another server using that key. But it has so many pitfall to the point many suggest to never use it. In this posts, we will see how we can leverage it safely. Because while proxyjump is useful for SSH, it's won't superuseful for thing like `git clone`.
+
+  - url: https://fmentzer.github.io/posts/2020/dictionary/
+    title: "Reverse-Engineering Apple Dictionary"
+    description: "Tooling, process, strategy to understand Apple Dictionary format. Like how the author walked us through his though process. These kind of article can be very helpful to show how to approach a problem when its knowledge isn't searchable on google and you gotta be figure it yourself"
+
+  - url: https://netflixtechblog.com/practical-api-design-at-netflix-part-1-using-protobuf-fieldmask-35cfdc606518
+    title: "Practical API Design at Netflix, Part 1: Using Protobuf FieldMask"
+    description: |
+      Nextflix heavily uses gRPC for the purpose of backend to backend communication.
+      When processing a request it is often beneficial to know which fields the caller is interested in and which ones they ignore.
+      How can they understand which fields the caller doesn’t need to be supplied in the response in a gRPC request?
+
+  - url: https://calibreapp.com/blog/bundle-size-optimization
+    title: "Small Bundles, Fast Pages: What To Do With Too Much JavaScript"
+    description: |
+      browser always has to parse your JavaScript, regardlesss if that is run on the page or not, they still have to parse, and the bigger the bundles, it takes more time to load. What can we do about it?
+
+  - url: https://blog.timescale.com/blog/how-percentile-approximation-works-and-why-its-more-useful-than-averages/
+    title: "How percentile approximation works (and why it's more useful than averages)"
+    description: "Deep dive into how percentile works, when it will shift and why it's beeter  to monitor trend thant average or median."
+
+  - url: https://brandur.org/text
+    title: "Postgres: Boundless `text` and Back Again"
+    description: |
+      Lesson from Stripe engineering on why they used `text`, then switch to `varchar(n)`. The TLDR is that client may not enforce length limit and cause huge text ended up in database
+
+  - url: https://jvns.ca/blog/2021/05/17/how-to-look-at-the-stack-in-gdb/
+    title: "How to look at the stack with gdb"
+    description: "Maynot related to our daily work that much but it's a really good post to laid our how we can look at a bunch of hexdump and understand what is what. Even if you don't use C or gdb I'm strongly advise to give this a read"
+
+video:
+
+read_code:
+  - url: https://github.com/yWorks/svg2pdf.js
+    title: svg2pdf
+    description: "A javascript-only SVG to PDF conversion utility that runs in the browser"
+    category: ['JavaScript']
+
+  - url: https://github.com/uptrace/bun
+    title: bun
+    description: |
+      Simple and performant client for PostgreSQL, MySQL, and SQLite. If you want to see how to write a database client, look no more. It also supports migration.
+    category: ['Go']
+
+  - url: https://github.com/tmaxmax/go-sse
+    title: "go-sse"
+    description: |
+      Lightweight, fully spec-compliant HTML5 server-sent events library.
+      If your communication is one-way such as you are only interested into event return from servers, then SSE is much more lightweight and easy to implement than websocket.
+    category: ['Go']
+
+  - url: https://github.com/facebookexperimental/rbperf
+    title: rbperf
+    description: "An experimental Ruby profiler in BPF"
+    category: ['Ruby']
+
+  - url: https://github.com/oxfeeefeee/goscript
+    title: goscript
+    description: "A script language like Python or Lua written in Rust, with exactly the same syntax as Go's."
+    category: ['Rust']
+
+  - url: https://github.com/MarshalX/tgcalls
+    title: Telegram WebRTC (VoIP)
+    description: |
+      Basically allow you to create userbots that can record and broadcast in voice chats, make and receive private calls.
+    category: ['Python']
+
+tool:
+  - url: https://github.com/nkanaev/yarr
+    title: yet another RSS reader
+
+  - url: https://github.com/apache/trafficcontrol
+    title: trafficcontrol
+    description: |
+      an Open Source implementation of a Content Delivery Network
+    category: ['Go']
+
+  - url: https://github.com/juanfont/headscale
+    title: headscale
+    description: |
+      An open source, self-hosted implementation of the Tailscale control server
+
+  - url: https://github.com/gravitl/netmaker
+    title: netmaker
+    description: |
+      Based on Wireguard VPN, allow you to create a mesh network between multiple hosts. Including a webui for management as well.
+
+  - url: https://sshcheck.com/
+    title: sshcheck
+    description: |
+       checks the configuration of given server accessible over internet during SSH handshake - notably supported encryption and MAC algorithms, and an overview of offered server public keys.
