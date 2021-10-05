@@ -1,0 +1,107 @@
+time: "Oct 05, 2021"
+subject: "Self-parking car in 500 lines of code"
+draft: false
+description: |
+  We skipped one issue last week due to my personal workload on my [side project, email forwarding service](https://hanami.run). I also get into a few blockchain projects recently and it was a lot to learn. We resume our schedule one day later :-).
+
+  Happy tuesday everyone. I hope  you enjoy this issue, as much as I do.
+
+links:
+  - url: https://trekhleb.dev/blog/2021/self-parking-car-evolution/?utm_source=pocket_mylist
+    title: "Self-parking car in 500 lines of code"
+    description: "
+      We'll train the car to do self-parking using a genetic algorithm in JavaScript.
+      Hit the [simulator to see how cool it's](https://trekhleb.dev/self-parking-car-evolution/)"
+
+  - url: https://medium.com/@sleevi_/path-building-vs-path-verifying-the-chain-of-pain-9fbab861d7d6
+    title: "Path Building vs Path Verifying: The Chain of Pain"
+    description: "
+      On the last Saturday in May, at 10:48 GMT, a time when most folks in the US were still sleeping, the self-signed AddTrust External CA Root certificate expired.
+      This is usually ok because those are usually well prepare ahead of time and the new root cert should be added in your local trust store.
+      Then servers will usually returns both of old (soon to be expired) and the new one so client can verify.
+      But for old OpenSSL <= 1.0.2g, they always prefered to expired one so even though your system has the new root certs, it will try to verify with the expired root cert and cause error.
+      Since the problem have a big impact, and many apps or IoT devices was down due to this, I throw in a few more resource.
+      [Fixing the Breakage from the AddTrust External CA Root Expiration](https://www.agwa.name/blog/post/fixing_the_addtrust_root_expiration) has more practical info. [This patch from Ubuntu](https://bugs.launchpad.net/ubuntu/+source/openssl/+bug/1928989) explains background and what they done.
+      And a crazy story of [Partial RavenDB Cloud outage](https://ayende.com/blog/194785-B/postmortem-partial-ravendb-cloud-outage) due to invalid certs and client cannot talk to serves since they won't trust server anymore"
+
+  - url: https://vksegfault.github.io//posts/gentle-intro-gpu-inner-workings/
+    title: Gentle introduction to GPUs inner workings
+    description: |
+      This article summarizes some lower level aspect of how GPU executes. Although GPU programming is not that complicated when compared to CPU, it also doesn’t match to what hardware is doing exactly. The reason is that we can’t just program GPU without some API, which is an abstraction over its inner workings.
+
+  - url: https://iximiuz.com/en/posts/reverse-proxy-http-keep-alive-and-502s/
+    title: "Reverse Proxy, HTTP Keep-Alive Timeout, and sporadic HTTP 502s"
+    description: |
+      HTTP Keep-Alive between a reverse proxy and an upstream server combined with some misfortunate downstream- and upstream-side timeout settings can make clients receiving HTTP 502s from the proxy.
+
+  - url: https://github.blog/2021-09-27-partitioning-githubs-relational-databases-scale/
+    title: "Partitioning GitHub’s relational databases to handle scale"
+    description: "
+      At its core, GitHub.com remained built around one main database cluster (called mysql1) that housed a large portion of the data used by core GitHub features, like user profiles, repositories, issues, and pull requests.
+      They paritition data to reduce load up to 50% and share with us how they do it.
+      A very good idea is use virtual partitions, before database tables can be moved physically, we have to make sure they are separated virtually in the application layer.
+      It'a lession before we physically touch the data, we can experiment with logically data separation"
+
+
+  - url: https://about.gitlab.com/blog/2021/09/29/why-we-spent-the-last-month-eliminating-postgresql-subtransactions/?utm_source=pocket_mylist
+    title: "Why we spent the last month eliminating PostgreSQL subtransactions"
+    description: |
+      Gitlab journey to eliminates all `SAVEPOINT` call in their SQL queries that causes slow query, high cpu/disk uo, lock up connections.
+      Fundamentally, the problem happens because a replica behaves differently from a primary when creating snapshots and checking for tuple visibility.
+
+  - url: https://postgres.ai/blog/20210923-zero-downtime-postgres-schema-migrations-lock-timeout-and-retries
+    title: "Zero-downtime Postgres schema migrations need this: lock_timeout and retries"
+    description: "When you deploy database schema changes, you are not protected from system downtime even if you have very high-level automation but don't use very low values of lock_timeout (or statement_timeout) to acquire a lock on the DB objects that are subject to change and do not implement some kind of retry logic. It's better to use short-timeout and have system retry running query when running DDL migrations."
+
+video:
+
+read_code:
+  - url: https://github.com/Narasimha1997/ratelimiter
+    title: ratelimiter
+    description: |
+      A concurrent rate limiter library for Golang based on Sliding-Window rate limiter algorithm.
+    category: ['Go']
+
+  - url: https://github.com/gitbrent/PptxGenJS/
+    title: PptxGenJS
+    description: "Create PowerPoint presentations with a powerful, concise JavaScript API."
+    category: ['JavaScript']
+
+  - url: https://github.com/dolanmiu/docx
+    title: docx
+    description: "Easily generate .docx files with JS/TS. Works for Node and on the Browser."
+    category: ['JavaScript']
+
+  - url: https://github.com/yuki24/rambulance
+    title: rambulance
+    description: "Simple and safe way to dynamically render error pages or JSON responses for Rails apps"
+    category: ['Ruby']
+
+tool:
+  - url: https://github.com/provectus/kafka-ui
+    title: kafka-ui
+    description: "Open-Source Web GUI for Apache Kafka Management"
+
+  - url: https://github.com/scottrogowski/code2flow/
+    title: code2flow
+    description: |
+      Code2flow generates call graphs for dynamic programming language. Code2flow supports Python, Javascript, Ruby, and PHP.
+
+  - url: https://github.com/gollum/gollum
+    title: gollum
+    description: |
+      Help you to build wiki with just markdown of a git repo.
+
+  - url: https://github.com/authzed/spicedb
+    title: spicedb
+    description: |
+      A [Zanzibar-inspired](https://authzed.com/blog/what-is-zanzibar/) database that stores, computes, and validates application permissions. Essentially allow us to define subject, action on object so we can answer questions like can this user(subject) edit(action) this post(object). Useful to delegata auth into a separate system. Similar project in this space is [Oso](https://github.com/osohq/oso)
+
+  - url: https://github.com/sse-secure-systems/connaisseur
+    title: Connaisseur
+    description: |
+      An admission controller that integrates Container Image Signature Verification into a Kubernetes cluster
+
+  - url: https://github.com/vispy/vispy
+    title: vispy
+    description: a high-performance interactive 2D/3D data visualization library. VisPy leverages the computational power of modern Graphics Processing Units (GPUs) through the OpenGL library to display very large datasets
