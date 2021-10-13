@@ -1,0 +1,94 @@
+time: "Oct 12, 2021"
+subject: "Scaling Large Production Clusters with Partitioned Synchronization"
+draft: false
+description: |
+  Happy tuesday everyone. I hope  you enjoy this issue, as much as I do.
+
+  This issue make this newsletter feel like a database newsletter. It just happens we have so many database news this week and database is always the hardest thing to learn and operate at scale.
+
+links:
+  - url: https://cleverheap.com/posts/about-halo-backend/
+    title: "Halo game's backend"
+    description: |
+      A team at Microsoft build a system for Halo 4 game. They talked about all scaling aspect, stress and load test and Vladimir was able to learn a lot from those public available resources.
+      The system that they build is really impressive. They had to rework their legacy backend code, so they can achieve that their system can sustain an initial load of over 11 million clients in a span of a few days period. Besides that, they have to make sure their system remains resilient and available with the load of several 100,000 requests per second.
+
+  - url: https://www.notion.so/blog/sharding-postgres-at-notion
+    title: "Herding elephants: Lessons learned from sharding Postgres at Notion"
+    description: |
+       They took Notion down for five minutes of scheduled maintenance. In that lone 5 minutes, they managed to cut over some Postgres upgrade which shard their database to help deal with the massive scale and leave room for future growth.
+
+  - url: https://www.micahlerner.com/2021/10/10/scaling-large-production-clusters-with-partitioned-synchronization.html
+    title: "Scaling Large Production Clusters with Partitioned Synchronization"
+    description: |
+      This week’s paper review won a best paper award at Usenix ATC, and discusses Alibaba’s approach to scaling their production environment. In particular, the paper focuses on the evolution of the scheduling architecture used in Alibaba datacenters in response to growth in workloads and resourcesAn increase in resources or workloads impacted the load on the existing scheduler architecture. The former translates into more options for the scheduler to choose from when scheduling, and the latter means more computation that needs to be performed by the scheduler.. Beyond discussing Alibaba’s specific challenges and solutions, the paper also touches on the landscape of existing scheduler architectures
+
+  - url: https://aws.amazon.com/builders-library/using-load-shedding-to-avoid-overload/
+    title: "Using load shedding to avoid overload"
+    description: |
+      On the surface, load shedding is simple. When a server approaches overload, it should start rejecting excess requests so that it can focus on the requests it decides to let in. The goal of load shedding is to keep latency low for the requests that the server decides to accept so that the service replies before the client times out. With this approach, the server maintains high availability for the requests it accepts, and only the excess traffic’s availability is affected.
+
+
+  - url: https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/how-we-shipped-postgresql-14-on-azure-within-one-day-of-its/ba-p/2801300
+    title: "How We Shipped PostgreSQL 14 on Azure Within One Day of its Release"
+    description: |
+      To our knowledge, this is the first time a major cloud provider has announced GA for a new Postgres major version on their platform one day after the official release.
+      We’ll then describe the work involved in making Postgres extensions compatible with new major Postgres versions, including our distributed database Citus as well as other extensions such as HyperLogLog (HLL), pg_cron, and TopN. Finally, you’ll learn how packaging, testing, and deployments work on Hyperscale (Citus). This last part ties everything together and enables us to release new versions on Azure, with speed.
+
+  - url: https://docs.google.com/presentation/d/1moTIDDqTtqyD7ylaHxqtPSBa-a8XEZa6P-03-YuVDA4/mobilepresent?slide=id.p
+    title: "The insecure software supply chain: A history of failure and a new way forward"
+    description: |
+      supply chain attacks are more popular nowadays. What if NPM, Docker, Chef or any upstream sdk/provider are hacked and inject malicious code? Even a project as big as PHP had their Git server compromised. What can we learn and how can we prevent these.
+
+  - url: https://macarthur.me/posts/when-a-weakmap-came-in-handy
+    title: "When a JavaScript WeakMap() Actually Came in Handy"
+    description: |
+      Modern JavaScript has many low-level building block which looks like not useful at all. In this article we look into WeakMap and see why they are useful for our daily life of a front-end developer.
+
+  - url: https://www.smashingmagazine.com/2021/10/guide-debugging-css/
+    title: "A Guide To CSS Debugging"
+    description: |
+      Debugging in CSS means figuring out what might be the problem when you have unexpected layout results. We’ll look at a few categories bugs often fit into, see how we can evaluate the situation, and explore techniques that help prevent these bugs.
+
+
+video:
+  - url: https://www.youtube.com/watch?v=_cL-OwU9pFQ
+    title: "Reversing in action: Golang malware used in the SolarWinds attack"
+    description: |
+      See how we can reverse engineer the solarwinds malware, tooling, methodology. 1 hour long but very much worth yoru time.
+
+read_code:
+  - url: https://github.com/xtermjs/xterm.js
+    title: xterm.js
+    description: "It's a massive project to implement a terminal in browser. I don't think I can ever read all of these but a few thing are useful such as see how they [handle ascii color code](https://github.com/xtermjs/xterm.js/blob/376b29673ba174934b1b6339ef3eed8449fec529/src/browser/ColorManager.ts#L170)."
+    category: ['TypeScript']
+
+  - url: https://github.com/iberianpig/fusuma
+    title: fusuma
+    description: |
+      multitouch gesture recognizer. This gem makes your linux able to recognize swipes or pinchs and assign commands to them. define your touchpad actions in yaml file and trigger command. Example, 3 left swipe, 4 up swipe etc.
+    category: ['Ruby']
+
+  - url: https://github.com/mvdan/sh
+    title: sh
+    description: "A shell parser, formatter, and interpreter with bash support; includes shfmt"
+    category: ['Go']
+
+tool:
+  - url: https://github.com/inbucket/inbucket
+    title: inbucket
+    description: "Disposable webmail server (similar to Mailinator) with built in SMTP, POP3, RESTful servers; no DB required."
+
+  - url: https://github.com/cloudgraphdev/cli
+    title: cloudgraphdev
+    description: "an open-source GraphQL powered search engine for your cloud infrastructure"
+
+  - url: https://github.com/handtracking-io/yoha
+    title: yoha
+    description: |
+      A practical hand tracking engine only use your webcam.
+
+  - url: https://github.com/d3d1rty/algoheader
+    title: algoheader
+    description: |
+      Generate beautiful header images for blogs or social media accounts.
