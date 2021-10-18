@@ -1,0 +1,126 @@
+time: "Oct 18, 2021"
+subject: "The Largely Untold Story Of How One Guy In California Keeps The World’s Computers Running On The Right Time Zone"
+draft: false
+description: |
+
+links:
+  - url: https://onezero.medium.com/the-largely-untold-story-of-how-one-guy-in-california-keeps-the-worlds-computers-on-the-right-time-a97a5493bf73
+    title: "The Largely Untold Story Of How One Guy In California Keeps The World’s Computers Running On The Right Time Zone. (Well, Sort Of)"
+    description: |
+      tzdata is a package that pretty much you will get to use when doing any application that deal with time.
+      It keeps track of timezone rule, DST. Example, on 2005-04-10, Nicaragua started its DST. So how do those encapsulate into a machine parseable or human readable format? And who maintain this kind of data. Read this article to find out, and I encourage everyone to download tzdata gzip tarball and read some of the file, you will see a lot of bizarre facts about time
+
+  - url: https://jakearchibald.com/2021/cors/
+    title: "How to win at CORS"
+    description: "CORS is complicated because it's a standard implement on client side, by browsers. it's up to browser to do what it wants or needs to implement. CORS also evolved due to the complexity of modern app. The result leads to many outdated documents about CORS. Example, did you know that when using `Access-Control-Allow-Origin: *` then you cannot pass cookie? but it's up to client to implement that protection. Or if we pass cookie, `Access-Control-Allow-Credentials` has to be existed in preflight. And when and why browser made preflight requests. Great, it's getting complicated ;-)"
+
+  - url: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/how-microsoft-reduced-windows-11-update-size-by-40/ba-p/2839794
+    title: "How Microsoft reduced Windows 11 update size by 40%"
+    description: |
+      Microsoft delivers the latest Windows security and user experiences updates monthly. Updates are modular meaning that, regardless of which update you currently have installed, you only need the most recent quality update to get your machine up to date.
+      With the fast pace of Windows security and quality fixes, distributing this large amount of updated content takes up substantial bandwidth. Reducing this network transfer is critical for a great experience. Moreover, users on slower networks can struggle to keep their machines up to date with the latest security fixes if they cannot download the package.
+
+  - url: https://aws.amazon.com/blogs/database/tune-sorting-operations-in-postgresql-with-work_mem/
+    title: "Tune sorting operations in PostgreSQL with work_mem"
+    description: |
+      Most databases involve heavy sorting operations before the data is analyzed, visualized, and presented to end-users. Often, depending on the complexity of the query and the volume of data to be sorted, it not only turns out to be highly expensive operation, but capable enough to bring chaos in a production environment. It’s critical not just to tune resources required for sorting, but also do so sensibly, so you can achieve the desired result by sorting fewer rows from a table instead of having to scan the whole table.
+
+  - url: https://www.smashingmagazine.com/2021/10/modern-css-solutions-for-common-problems/
+    title: "Smart CSS Solutions For Common UI Challenges"
+    description: |
+      Writing CSS has probably never been more fun and exciting than it is today. In this post we’ll take a look at common problems and use cases we all have to face in our work and how to solve them with modern CSS.
+      I particularly like the [Form Field Focus without outlines](https://lab.hakim.se/focussss/) and going to  implement it for all of my username/password form in the future.
+
+
+  - url: https://whitehoodhacker.net/posts/2021-10-04-the-big-rick
+    title: "IoT Hacking and Rickrolling My High School District"
+    description: |
+      A very thoughful and responsible whitehat hacking of a school district to take over all of network device to play same sound all at the same time.
+      Also hat off to how the administrator team handles the hack.
+
+  - url: https://mdk.fr/blog/how-apt-does-its-fancy-progress-bar.html
+    title: "How APT does its fancy progress bar"
+    description: |
+      How apt does this nice progress bar stuck at the bottom line while still writing scrolling text.
+
+  - url: https://blog.code.horse/posts/2021-10-13-caskading-failures/
+    title: "Caskading Failures"
+    description: "Just the same Letsencrypt expiration topic. But this time, the OS CA cert are fine and up to date but apparently the application has a HTTP client that uses its own CA bundle and it's broke once Letsencrupt CA expired."
+
+  - url: https://blog.battlefy.com/how-not-to-blow-up-the-production-database-424c162dccc6
+    title: "How not to blow up the production database"
+    description: |
+      When running a production database, one needs to carefully consider all the data access patterns. The usual trap people fall into is optimizing for one data access pattern at the cost of all others. This causes production systems to fail spectacularly or lose millions of dollar as the system becomes slower over time.
+      The team at battlefy presents us how they evolve from reduce write, calculation on read, cache to using materialized views.
+
+
+
+video:
+  - url: https://www.youtube.com/watch?v=J8J-RX_sULU
+    title: "SREcon21 - From 15,000 Database Connections to under 100—A Tech Debt Tale"
+
+  - url: https://www.youtube.com/watch?v=-wMU8vmfaYo
+    title: "Why was Facebook down for five hours?"
+    description: |
+       What happened and what do DNS and BGP have to do with it?
+
+read_code:
+  - url: https://github.com/andrewchambers/minias
+    title: minias
+    description: |
+      A mini x86-64 assembler for fun
+    category: ['C']
+
+  - url: https://github.com/iamkun/dayjs
+    title: dayjs
+    description: "2kB immutable date-time library alternative to Moment.js with the same modern API"
+    category: ['JavaScript']
+
+  - url: https://github.com/ruby2js/ruby2js
+    title: ruby2js
+    description: "Ruby to JavaScript conversion"
+    category: ['Ruby']
+
+  - url: https://github.com/charmbracelet/bubbletea
+    title: bubbletea
+    description: |
+      A powerful little TUI framework 🏗
+    category: ['Go']
+
+  - url: https://github.com/shopspring/decimal
+    title: decimal
+    description: |
+      Arbitrary-precision fixed-point decimal numbers in go that can handle up to 2^31 digits after the decimal point.
+    category: ['Go']
+
+  - url: https://github.com/joerick/pyinstrument
+    title: pyinstrument
+    description: "🚴 Call stack profiler for Python. Shows you why your code is slow!"
+    category: ['Python']
+
+tool:
+  - url: https://ryujinx.org/
+    title: "Ryujinx - Open Source Nintendo Switch Emulator"
+    description: "A simple, experimental Nintendo Switch emulator written in C# and can run on Linux, Mac, Window. And a [nice interview with its creator](https://boilingsteam.com/an-interview-with-gdkchan-creator-of-ryujinx/)"
+
+  - url: https://gtfobins.github.io/
+    title: GTFOBins
+    description: "a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems"
+    category: ['Security']
+
+  - url: https://github.com/sixtyfpsui/sixtyfps
+    title: sixtyfps
+    description: |
+      Have ever write a shell script and want a real window UI to input data? Hook up to sixtyfps. Basically from your shell script, you call sixtyfps, pass a UI DSL into stdin and sixtyfps render the UI. User enter data, click "OK", and sixtyfps quite, and write back output to stdout where your shell script can access and parse it. Very useful. Read [introduction post](https://sixtyfps.io/blog/showing-guis-from-shell-scripts.html)
+
+  - url: https://github.com/rahul-thakoor/air-pi-play
+    title: air-pi-play
+    description: "Turn a Raspberry Pi into an Airplay server using RPiPlay to enable screen mirroring on tvs, monitors and projectors."
+
+  - url: https://github.com/wimpysworld/quickemu
+    title: "quickemu"
+    description: "Quickly create and run optimised Windows, macOS and Linux desktop virtual machines."
+
+  - url: https://github.com/hoppscotch/hoppscotch
+    title: hoppscotch
+    description: Open source API client alternative to postman, insomnia.
