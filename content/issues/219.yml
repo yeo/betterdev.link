@@ -1,15 +1,9 @@
 time: "Oct 18, 2021"
-subject: "The Largely Untold Story Of How One Guy In California Keeps The World’s Computers Running On The Right Time Zone"
+subject: "How to win at CORS and How Microsoft reduced Windows 11 update size by 40%"
 draft: false
 description: |
 
 links:
-  - url: https://onezero.medium.com/the-largely-untold-story-of-how-one-guy-in-california-keeps-the-worlds-computers-on-the-right-time-a97a5493bf73
-    title: "The Largely Untold Story Of How One Guy In California Keeps The World’s Computers Running On The Right Time Zone. (Well, Sort Of)"
-    description: |
-      tzdata is a package that pretty much you will get to use when doing any application that deal with time.
-      It keeps track of timezone rule, DST. Example, on 2005-04-10, Nicaragua started its DST. So how do those encapsulate into a machine parseable or human readable format? And who maintain this kind of data. Read this article to find out, and I encourage everyone to download tzdata gzip tarball and read some of the file, you will see a lot of bizarre facts about time
-
   - url: https://jakearchibald.com/2021/cors/
     title: "How to win at CORS"
     description: "CORS is complicated because it's a standard implement on client side, by browsers. it's up to browser to do what it wants or needs to implement. CORS also evolved due to the complexity of modern app. The result leads to many outdated documents about CORS. Example, did you know that when using `Access-Control-Allow-Origin: *` then you cannot pass cookie? but it's up to client to implement that protection. Or if we pass cookie, `Access-Control-Allow-Credentials` has to be existed in preflight. And when and why browser made preflight requests. Great, it's getting complicated ;-)"
@@ -19,6 +13,12 @@ links:
     description: |
       Microsoft delivers the latest Windows security and user experiences updates monthly. Updates are modular meaning that, regardless of which update you currently have installed, you only need the most recent quality update to get your machine up to date.
       With the fast pace of Windows security and quality fixes, distributing this large amount of updated content takes up substantial bandwidth. Reducing this network transfer is critical for a great experience. Moreover, users on slower networks can struggle to keep their machines up to date with the latest security fixes if they cannot download the package.
+
+  - url: https://www.honeycomb.io/blog/time-series-database/
+    title: "How Time Series Databases Work—and Where They Don’t"
+    description: |
+      A series by honeycomb about time series database. Their inner working. Different between row vs columnar storage
+      How they compress data, what is the data layout look like on disk.
 
   - url: https://aws.amazon.com/blogs/database/tune-sorting-operations-in-postgresql-with-work_mem/
     title: "Tune sorting operations in PostgreSQL with work_mem"
