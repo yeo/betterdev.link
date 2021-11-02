@@ -1,0 +1,95 @@
+time: "Nov 2, 2021"
+subject: "How to build an Anycast network"
+draft: false
+description: |
+
+links:
+  - url: https://render.com/blog/how-to-build-an-anycast-network
+    title: "How to Build an Anycast Network"
+    description: |
+      An anycast network is two or more servers advertising the same IP address from different locations. This is useful for globally distributed servers, so we user in a specific region are routed to server close to them in that region.
+
+  - url: https://www.netmeister.org/blog/inet_aton.html
+    title: "IPv4 addresses are silly, inet_aton(3) doubly so."
+    description: |
+      128 bit IPv6 addresses are cute and all, but how about... IPv∞? What happen if you do `ping 3.14159264`? Why it becomes 3.216.13.160
+
+  - url: https://codegolf.stackexchange.com/questions/215216/high-throughput-fizz-buzz
+    title: "High throughput Fizz Buzz"
+    description: |
+      The goal of this question is to write a FizzBuzz implementation that goes from 1 to infinity (or some arbitrary very very large number), and that implementation should do it as fast as possible.
+
+  - url: https://blog.rapidsec.com/10-tips-to-build-a-content-security-policy-csp-without-breaking-your-site
+    title: "10 tips to build a Content Security Policy (CSP) without breaking your site!"
+    description: |
+      CSP is tricky and attempt to deploy may lead to error like this: Refused to load the script '...' because it violates the following Content Security Policy directive: "script-src 'self' 'report-sample'". 
+      The 10 tips, learned from years of deploying CSP at scale —  will take you from A to Z with regards to proper deployment of Content-Security-Policy without breaking your website / web application.
+
+  - url: https://cloudfour.com/thinks/svg-icon-stress-test/
+    title: "Which SVG technique performs best for way too many icons?"
+    description: |
+      Optimize pages with hundreds or thousdand of SVG icons
+
+  - url: https://github.com/stong/how-to-exploit-a-double-free
+    title: "How to exploit a double free vulnerability in 2021. 'Use After Free for Dummies'"
+    description: |
+      Teach you about real-world, modern binary exploitation, and a little about processor microarchitecture as well :D You will learn how to exploit a double free vulnerability or exploit a Use After Free vulnerability.
+
+  - url: https://github.com/niespodd/browser-fingerprinting
+    title: "browser fingerprinting"
+    description: |
+      Analysis of Bot Protection systems with available countermeasures 🚿. How to defeat anti-bot system 👻 and get around browser fingerprinting scripts 🕵️‍♂️ when scraping the web?
+
+  - url: https://making.close.com/posts/reliable-websockets/
+    title: "How We Improved Reliability Of Our WebSocket Connections"
+
+  - url: "https://www.davepacheco.net/blog/post/2019-05-22-visualizing-postgresql-vacuum-progress/"
+    title: "Visualizing PostgreSQL Vacuum Progress"
+
+  - url: https://hakibenita.com/sql-medium-text-performance
+    title: "The Surprising Impact of Medium-Size Texts on PostgreSQL Performance"
+    description: "Why TOAST is the best thing since sliced bread"
+
+video:
+
+read_code:
+  - url: https://github.com/ruby/fiddle
+    title: "fiddle"
+    description: "A libffi wrapper for Ruby"
+    category: ['Ruby']
+
+  - url: https://github.com/namusyaka/gammo
+    title: gammo
+    description: "A pure Ruby HTML5-compliant parser with CSS selector and XPath 1.0 traversal"
+    category: ['Ruby']
+
+  - url: https://github.com/segmentio/ksuid
+    title: ksuid
+    description: "an efficient, comprehensive, battle-tested Go library for generating and parsing a specific kind of globally unique identifier called a KSUID"
+    category: ['Go']
+
+  - url: https://github.com/algerbrex/blunder
+    title: "blunder"
+    description: "A UCI compatible chess engine written in Golang"
+    category: ['Go']
+
+  - url: https://github.com/Blankly-Finance/Blankly
+    title: Blankly
+    description: "an elegant python library for interacting with crypto, stocks, and forex for in a consistent and streamlined way. "
+    category: ['Python']
+tool:
+  - url: https://github.com/airbnb/ottr
+    title: ottr
+    description: "Serverless Public Key Infrastructure Framework Using Agentless Approach by AirBNB. Read their [introduction post](https://medium.com/airbnb-engineering/meet-ottr-a-serverless-public-key-infrastructure-framework-f6580010ae0c)"
+
+  - url: https://pgexporter.github.io
+    title: "pgexporter"
+    description: "a Prometheus exporter for PostgreSQL"
+
+  - url: https://crates.io/crates/postguard
+    title: postguard
+    description: "Test Postgres-compatible statements against a set of CORS-like rules"
+
+  - url: https://github.com/MrH0wl/Cloudmare
+    title: Cloudmare
+    description: "a simple tool to find origin servers of websites protected by Cloudflare, Sucuri or Incapsula with a misconfiguration DNS."
