@@ -93,3 +93,8 @@ tool:
   - url: https://github.com/MrH0wl/Cloudmare
     title: Cloudmare
     description: "a simple tool to find origin servers of websites protected by Cloudflare, Sucuri or Incapsula with a misconfiguration DNS."
+
+
+  - url: https://github.com/apiclarity/apiclarity
+    title: apiclarity
+    description: "Reconstruct OpenAPI Specifications from real-time workload traffic seamlessly."
