@@ -52,9 +52,9 @@ links:
 video:
 
 read_code:
-  - url: https://github.com/ruby/fiddle
-    title: "fiddle"
-    description: "A libffi wrapper for Ruby"
+  - url: https://gitlab.com/honeyryderchuck/cel-ruby
+    title: "cel-ruby"
+    description: "Pure Ruby implementation of Google Common Expression Language"
     category: ['Ruby']
 
   - url: https://github.com/lib-ruby-parser/lib-ruby-parser
