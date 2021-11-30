@@ -1,0 +1,102 @@
+time: "Nov 29, 2021"
+subject: "How JavaScript engines achieve great performance"
+draft: false
+description: "
+  Hi all,
+
+  It has been 3 weeks without an issue and I miss BetterDev myself. We're planning for some new release of a new version of BetterDev to also contribute useful content on its own instead of just being a link collector :-). So stay tune. BetterDev is here to stay and defintely not giving up on helping our subsribe become a better programmer."
+
+
+links:
+  - url: https://joyofcryptography.com/
+    title: "The Joy of Cryptography"
+    description: "No this isn't crypto currency. The Joy of Cryptography is a free undergraduate textbook that introduces students to the fundamentals of provable security."
+
+  - url: https://blogg.bekk.no/how-javascript-engines-achieve-great-performance-fb0b36601557
+    title: "How JavaScript engines achieve great performance"
+    description: |
+      JavaScript is an impressive technology. Not because it’s particularly well-designed (it isn’t). Not because almost every single consumer device with internet access in the world has executed a JavaScript program. Instead, JavaScript is impressive because almost every single feature of the language makes it a nightmare to optimize and yet, it is fast.
+
+  - url: https://blog.cloudflare.com/the-tale-of-a-single-register-value/?a
+    title: "The tale of a single register value"
+    description: |
+      A software bug where the network stack crashes in reaction to a single received network packet, taking down the whole operating system with it.
+
+  - url: https://menno.io/posts/golang-register-calling/
+    title: "Faster software through register based calling"
+    description: "When optimization, we optimize our code, what if the compiler optimize its own to emit more efficient assembly code, therefore make your code run faster than before. This is the case for Go, though it's still a good read for everyone to understand more about assembly and register vs stack based function calling."
+
+  - url: https://medium.com/booking-com-infrastructure/how-reliability-and-product-teams-collaborate-at-booking-com-f6c317cc0aeb
+    title: "How Reliability and Product Teams Collaborate at Booking.com"
+    description: |
+      With more than 1.5M room nights booked per day, Booking.com requires a solid infrastructure that’s constantly monitored. Booking.com now has a footprint of 50,000+ physical servers running across four data centers and six additional points of presence. The sheer size of this server fleet makes it viable for Booking.com to have dedicated teams specializing into looking only at the reliability of those servers.
+
+  - url: https://monzo.com/blog/2021/11/18/protecting-our-most-sensitive-secrets/?utm_source=pocket_mylist
+    title: "How we protect our most sensitive secrets from the most determined attackers"
+    description: "A bank for sure has a lot of secret key they would like to keep secure. In this post, monzo, a modern bank shares how they levrage PKI(Public Key Infrastructure) to do authentication and authorization. It's crazy insane how deep they secure their system"
+
+  - url: https://ttay.me/blog/gzip_investigations/
+    title: "Decompressing a gzip file by hand"
+    description: |
+      Let’s make a gzipped file and see what’s in it. We’ll keep it simple: just write 8 ‘a’s to a file and see what is the final gzip file and decode it by hand, looking at byte by byte.
+
+  - url: https://phoboslab.org/log/2021/11/qoi-fast-lossless-image-compression
+    title: "Lossless Image Compression in O(n) Time"
+    description: "Introducing QOI — the Quite OK Image format. It losslessly compresses RGB and RGBA images to a similar size of PNG, while offering a 20x-50x speedup in compression and 3x-4x speedup in decompression. All single-threaded, no SIMD. It's also stupidly simple."
+
+  - url: https://www.percona.com/blog/should-i-create-an-index-on-foreign-keys-in-postgresql/
+    title: "Should I Create an Index on Foreign Keys in PostgreSQL?"
+    description: |
+      We constantly hear that indexes improve read performance and it’s usually true, but we also know that it will always have an impact on writes. What we don’t hear about too often is that in some cases, it may not give any performance improvement at all. This happens more than we want and might happen more than we even notice, and foreign keys (FKs) are a great example. I’m not saying that all FK’s indexes are bad, but most of the ones I’ve seen are just unnecessary, only adding load to the system.
+
+video:
+
+read_code:
+  - url: https://github.com/ruby/fiddle
+    title: "fiddle"
+    description: "A libffi wrapper for Ruby"
+    category: ['Ruby']
+
+  - url: https://github.com/lib-ruby-parser/lib-ruby-parser
+    title: lib-ruby-parser
+    description: "Ruby parser written in Rust"
+    category: ['Rust']
+
+  - url: https://github.com/sindresorhus/file-type
+    title: file-type
+    description: "Detect the file type of a Buffer/Uint8Array/ArrayBuffer"
+    category: ['JavaScript']
+
+  - url: https://github.com/bytedance/sonic
+    title: sonic
+    description: |
+      A blazingly fast JSON serializing & deserializing library.
+      Improve performance of JSON parsing by implement JIT and some Assembly optimization. Over my head I must say but interested to figure it out
+    category: ['Go']
+
+  - url: https://github.com/willmcgugan/textual
+    title: textual
+    description: "a TUI (Text User Interface) framework for Python inspired by modern web development."
+    category: ['Python']
+
+tool:
+  - url: https://github.com/ssh-mitm/ssh-mitm
+    title: "ssh-mitm"
+    description: "ssh mitm server for security audits supporting public key authentication, session hijacking and file manipulation"
+
+  - url: https://github.com/yandex/odyssey
+    title: odyssey
+    description: "Scalable PostgreSQL connection pooler"
+
+  - url: https://github.com/squzy/squzy
+    title: squzy
+    description: "a high-performance open-source monitoring, incident and alert system written in Golang with Bazel and love."
+
+  - url: https://github.com/wulkano/Kap
+    title: Kap
+    description: "An open-source screen recorder built with web technology"
+
+  - url: https://github.com/elfshaker/elfshaker
+    title: elfshaker
+    description: |
+      If you ever store large binary file in git you know how painful it is. This is still a need for design system or game assets.  elfshaker is a low-footprint, high-performance version control system fine-tuned for binaries. It stores snapshots of directories into highly-compressed pack files and provides fast on-demand access to the stored files.
