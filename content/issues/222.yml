@@ -1,0 +1,104 @@
+time: "Dec 07, 2021"
+subject: "How does NTP works and The team that powers VLC"
+draft: false
+description: |
+  Hi all,
+
+  It's almost the end of year. BetterDev has been 3 years. I never focus on growing it. All I do is just send out newsletter from thing I think will help everyone level up.
+
+  Next year, it's going to change a bit. I will put more personal opinion on the issue. If you prefer a neutral one, as in just a list of link then let me know in the reply
+
+links:
+  - url: https://sookocheff.com/post/time/how-does-ntp-work/
+    title: "How Does NTP Work?"
+    description: |
+      NTP is a protocol intended to synchronize all computers participating in the network to within a few milliseconds of Coordinated Universal Time (UTC). The core of the protocol is NTP’s clock discipline algorithm that adjusts the local computer’s clock time and tick frequency in response to an external source.
+
+  - url: https://eng.lyft.com/scaling-productivity-on-microservices-at-lyft-part-2-optimizing-for-fast-local-development-9f27a98b47ee
+    title: "Scaling productivity on microservices at Lyft (Part 2): Optimizing for fast local development"
+    description: |
+      Microservice made it easy to add a new service in short term and isolate that service to give that team more freedom. But running them in local dev is a pain without tooling. Lyft wrote a series share with us how they did it
+
+  - url: https://fms.komkon.org/EMUL8/HOWTO.html
+    title: "How To Write a Computer Emulator"
+    description: "CPU, RAM, register, stack, heap. what they are? Writing a computer emulator really helps us understand at the end of the day it's just data in - data out in computer world"
+
+  - url: https://blog.nootch.net/post/kubernetes-at-home-with-k3s/
+    title: "Kubernetes at Home With K3s"
+    description: |
+      Almost after a few years working, we will ended up with a few old laptops, maybe building a Kubernetes from those old laptop
+
+  - url: https://ruben.is.verweg.com/blog/2021/12/01/it-is-always-the-dns?utm_source=pocket_mylist
+    title: "It is always the DNS"
+    description: "DNS just works most of the time mean that the protocol itself has to coverlots of edge case"
+
+  - url: https://shopify.engineering/upgrading-mysql-shopify
+    title: "Upgrading MySQL at Shopify"
+    description: |
+      Shopify was running Percona Server 5.7.21 and want to go to MySQL 5.7.32. and eventually MySQL 8.0
+      In this post, They shared how the Database Platform team performed the upgrade. Roadblocks during rollback testing, the internal tooling, and guidelines for approaching upgrades going forward.
+
+  - url: https://www.percona.com/blog/postgresql-14-database-monitoring-and-logging-enhancements/
+    title: "PostgreSQL 14 Database Monitoring and Logging Enhancements"
+    description: |
+      Some key enhancements in PostgreSQL 14 that you should made use: Query Identifier  is used to identify the query, which can be cross-referenced between extensions. You can enable these very quick without much risk.
+      It also improves the logging of auto-vacuum and auto-analyze. Now we can see the I/O timings in the log, showing how much has been spent reading and writing
+
+  - url: https://increment.com/teams/the-team-that-powers-vlc/
+    title: "The team that powers VLC"
+    description: "How a group of university students transformed a school project into a media-player mainstay."
+
+video:
+
+read_code:
+  - url: https://github.com/tenderlove/asmrepl
+    title: asmrepl
+    description: |
+      A REPL for x86-64 assembly language by tenderlove, a prominent contributor to the Ruby eco system
+    category: ['Ruby']
+
+  - url: https://github.com/okuramasafumi/alba
+    title: alba
+    description: "the fastest JSON serializer for Ruby, JRuby, and TruffleRuby"
+    category: ['Ruby']
+
+  - url: https://github.com/denaro-coin/denaro
+    title: denaro
+    description: "A decentralized cryptocurrency written in Python for educational purpose"
+    category: ['Python']
+
+  - url: https://github.com/matiasvlevi/Dann
+    title: Dann
+    description: "Deep Neural Network Library for JavaScript"
+    category: ['JavaScript']
+
+  - url: https://github.com/pdfcpu/pdfcpu
+    title: pdfcpu
+    description: "a comprehensive PDF processing library from the ground up written in Go. Some useful example is when signing a PDF document, we need to calculate position of signature element to put a DOM overlay element on it to allow user sign it."
+    category: ['Go']
+
+tool:
+  - url: https://github.com/looterz/grimd
+    title: grimd
+    description: "⚡ fast dns proxy that can run anywhere, built to black-hole internet advertisements and malware servers"
+
+  - url: https://github.com/EONRaider/BCA-Phantom
+    title: BCA-Phantom
+    description: "A multi-platform HTTP(S) Reverse Shell Server and Client in Python"
+
+  - url: https://www.floating-ui.com/
+    title: floating-ui
+    description: "Help you create tooltips style on DOM element. Position all types of floating elements with full control. Tooltips, popovers, dropdowns, menus, and more."
+
+  - url: https://github.com/getkuby/kuby-core
+    title: kuby
+    description: "Kuby is a convention-over-configuration approach to deploying Rails apps. It makes the power of Docker and Kubernetes accessible to the average Rails developer without requiring a devops black belt."
+
+  - url: https://github.com/esimov/caire
+    title: caire
+    description: |
+      Content aware image resize library
+
+  - url: https://github.com/m1k1o/neko
+    title: neko
+    description: "A self hosted virtual browser that runs in docker and uses WebRTC."
