@@ -104,3 +104,6 @@ tool:
     description: |
       a minimalistic SSH server which implements only a subset of SSHv2 features. Useful when you need some quick SSH server i n a container :-)
 
+  - url: https://github.com/cshum/imagor
+    title: imagor
+    description: "Fast, Docker-ready image processing server written in Go and libvips, with Thumbor URL syntax"
