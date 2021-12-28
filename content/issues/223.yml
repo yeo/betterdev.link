@@ -1,0 +1,106 @@
+time: "Dec 27, 2021"
+subject: "Roll your own network and Cache Poisoning at Scale"
+draft: false
+description: |
+
+links:
+  - url: https://roll.urown.net/index.html
+    title: "Roll Your Own Network"
+    description: |
+      An extensive guide to self hosted many cloud service in your own network, from hardware to software to network configuration. All done by you.
+
+  - url: https://youst.in/posts/cache-poisoning-at-scale/
+    title: "Cache Poisoning at Scale"
+    description: "Cache Poinsoning is basically tricky CDN to generate a bad content for the same cache key, by leveraging a vulnerability where the servers and the cache key isn't consistent.  Even though Web Cache Poisoning has been around for years, the increasing complexity in technology stacks constantly introduces unexpected behaviour which can be abused to achieve novel cache poisoning attacks"
+
+  - url: https://five9s.substack.com/p/rundown-of-netflixs-sre-practice
+    title: "Rundown of Netflix's SRE practice"
+    description: "Netflix's extensive movie and TV show library isn't the only aspect that keeps users hooked. Let's explore the people and practices behind its app performance that makes for a sticky experience."
+
+  - url: https://cuddly-octo-palm-tree.com/posts/2021-10-17-dns/
+    title: "A short overview of DNS"
+    description: "When we changed DNS and the result doesn't reflect quickly as we want to or result are different, understanding them will explain those issue"
+
+  - url: https://blog.frankdejonge.nl/where-does-validation-live/
+    title: "Where does my validation live?"
+    description: |
+      We can validate data in many places? It can happen at the load balancer, the application, the service, the model or the database.
+      As the application responds to incoming requests, different parts of the code are responsible for different kinds of validation. But what belongs where?
+
+  - url: https://tech.ebayinc.com/engineering/zero-downtime-instant-deployment-and-rollback/
+    title: "Zero Downtime, Instant Deployment and Rollback"
+    description: "Install rollback is hard to do, service take time to spin up, container need time to restart. The fast way is blue-green deployment. But we have idle node and waste capacity. if deployment happens many time per day. It's harder to manage to know which pool is active right now. In this post, we look at a few better strategy"
+
+  - url: https://calendar.perfplanet.com/2021/performance-implications-of-javascript-errors/
+    title: "Performance Implications of JavaScript Errors"
+    description: |
+      While the practice of web performance has been around for a while and the ability to study and debug JavaScript (JS) errors has improved over the years, we’ve never really looked at the impact errors have on performance.
+
+  - url: https://dragonman225.js.org/curved-arrows.html
+    title: "How to Draw S-Curved Arrows Between Boxes / Rectangles"
+    description: |
+      Ever see those curve in nice chart that connect box together? They look very smooth and elegant. How do we generate those?
+
+  - url: https://github.com/spencertipping/jit-tutorial?utm_source=pocket_mylist
+    title: "How to write a very simple JIT compiler"
+    description: |
+      JIT is everywhere nowadays. Look around and almost all dynamic language are focusing on this area.
+      Writing JIT compiler is a lot of fun and a great way to learn stuff. The first thing to do is to write an interpreter.
+
+video:
+
+read_code:
+  - url: https://github.com/seven1m/natalie
+    title: natalie
+    description: "a unique Ruby implementation, compiled to C++ (WIP)"
+    category: ['Ruby', 'C++']
+
+  - url: https://github.com/miroslavpejic85/p2p
+    title: p2p
+    description: "🖥️ P2P Remote Desktop - Portable, No Configuration or Installation Needed."
+    category: ['C#']
+
+  - url: https://github.com/alicebob/miniredis
+    title: miniredis
+    description: |
+      Pure Go Redis test server, used in Go unittests. Think of it as the Redis version of net/http/httptest.
+    category: ['Go']
+
+  - url: https://github.com/mdlayher/netlink
+    title: netlink
+    description: |
+      provides low-level access to Linux netlink sockets
+    category: ['Go']
+
+  - url: https://github.com/Music-and-Culture-Technology-Lab/omnizart
+    title: omnizart
+    description: "Omniscient Mozart, being able to transcribe everything in the music, including vocal, drum, chord, beat, instruments, and more."
+    category: ['Python']
+
+  - url: https://github.com/spencertipping/caterwaul
+    title: caterwaul
+    description: "A Javascript-to-Javascript compiler"
+    category: ['Javascript']
+
+tool:
+  - url: https://github.com/abiosoft/colima
+    title: colima
+    description: "Container runtimes on MacOS with minimal setup"
+
+  - url: "https://nolanlawson.com/2021/12/17/introducing-fuite-a-tool-for-finding-memory-leaks-in-web-apps"
+    title: "fuite: a tool for finding memory leaks in web apps"
+    description: "Debugging memory leaks in web apps is hard. The tooling exists, but it’s complicated, cumbersome, and often doesn’t answer the simple question: Why is my app leaking memory?"
+
+  - url: https://github.com/CloudWanderer-io/PolicyGlass
+    title: PolicyGlass
+    description: "allows you to combine multiple AWS IAM policies/statements into their ‘effective permissions’, deduplicating permissions, and eliminating denied permissions along the way."
+
+  - url: https://github.com/xxh/xxh
+    title: "xxh: 🚀 Bring your favorite shell wherever you go through the ssh"
+    description: "basically help you bring alias, shortcut, style to the remote ssh session"
+
+  - url: https://github.com/janmojzis/tinyssh
+    title: tinyssh
+    description: |
+      a minimalistic SSH server which implements only a subset of SSHv2 features. Useful when you need some quick SSH server i n a container :-)
+
