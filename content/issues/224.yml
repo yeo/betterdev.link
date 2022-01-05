@@ -1,0 +1,91 @@
+time: "Jan 4, 2022"
+subject: "How a Single Line of Code Made a 24-core Server Slower Than a Laptop"
+draft: false
+description: |
+
+links:
+  - url: https://pkolaczk.github.io/server-slower-than-a-laptop/
+    title: "How a Single Line of Code Made a 24-core Server Slower Than a Laptop"
+    description: |
+      Imagine you wrote a program for a pleasingly parallel problem, where each thread does its own independent piece of work, and the threads don’t need to coordinate except joining the results at the end. Obviously you’d expect the more cores it runs on, the faster it is. You benchmark it on a laptop first and indeed you find out it scales nearly perfectly on all of the 4 available cores. Then you run it on a big, fancy, multiprocessor machine, and it sank.
+
+  - url: https://blog.crunchydata.com/blog/five-tips-for-a-healthier-postgres-database-in-the-new-year
+    title: "Five Tips For a Healthier Postgres Database in the New Year"
+    description: "Crunch Data hosts many postgres instance as a cloud offering. While onboarding customer after customer this year they've noted a few key things everyone should put in place right away - to either improve the health of your database or to save yourself from a bad day"
+
+  - url: https://medium.com/@SkyscannerEng/how-a-couple-of-characters-brought-down-our-site-356ccaf1fbc3
+    title: "How a couple of characters brought down our site"
+    description: |
+      Skyscanner team accidentally submitted an incorrect change to the templating of infrastructure provisioning system. This deleted all of the microservices responsible for serving skyscanner.net and data to mobile app from the underlying infrastructure across the entire globe, causing a four-hour outage
+
+  - url: https://malisper.me/an-algorithm-for-passing-programming-interviews/
+    title: "An Algorithm for Passing Programming Interviews"
+    description: |
+      Over the past few years, I’ve interviewed with a dozen or so companies and have completed ~50 or so individual algorithm problems. I’m frequently given feedback that I did a great job at the algorithms problem. In this post, I’m going to share how exactly I approach algorithm problems.
+
+  - url: https://codluck.com/build-a-blockchain-in-python-example
+    title: "Build A Blockchain In Python"
+    description: "You don't understand something until you sit down and write it yourself. When removing all extra functionality, and focus on a minimun level, what make a blockchain?  Example, a key-value store can just be a Hashmap, as its core. What information a block hold? how they connect?"
+
+  - url: https://sambhav.saggis.com/en/blog/recovering-postgresql-hard-drive-fail
+    title: "Recovering a PostgreSQL Database After a Hard Drive Failure"
+    description: "Steps to troubleshot and recover data once you don't have backup, and many files of Postgres are corrupted.
+      Query to select throw error could not read block 912 in file \"base/16504/278344\": read only 0 of 8192 bytes."
+
+  - url: https://blog.datalust.co/deserializing-json-really-fast/
+    title: "Deserializing JSON really fast"
+    description: "Modern hardware has many instruction that help with JSON parsing such as AVX2 and SIMD. In this post, we will see how Flare deserializes JSON documents stored on disk using a very fast bespoke, sparse, vectorized deserializer. It's Rust but the though process can be applied to any field"
+
+video:
+  - url: https://www.youtube.com/watch?v=2nucjefSr6I
+    title: "Code Mario in JavaScript with Kaboom.js!"
+
+read_code:
+  - url: https://github.com/binwiederhier/ntfy
+    title: ntfy
+    description: "Send push notifications to your phone or desktop via PUT/POST"
+    category: ['Python']
+
+  - url: https://github.com/safing/portmaster/
+    title: portmaster
+    description: |
+      a free and open-source application that can monitor your netowkr, block connection, URL filtering, written in Go with a desktop UI.
+    category: ['Go']
+
+  - url: https://github.com/piotrmurach/minehunter
+    title: minehunter
+    description: |
+      a terminal puzzle game inspired by the classic "Minesweeper", written in Ruby. you will learn game loop, game grid concept here
+    category: ['Ruby']
+
+  - url: https://github.com/migueldeicaza/gui.cs
+    title: gui.cs
+    description: "Console-based user interface toolkit for .NET applications"
+    category: ['C#']
+
+  - url: https://github.com/jwilber/roughViz
+    title: roughViz
+    description: "Reusable JavaScript library for creating sketchy/hand-drawn styled charts in the browser"
+    category: ['JavaScript']
+
+tool:
+  - url: https://github.com/red-data-tools/YouPlot
+    title: YouPlot
+    description: "A command line tool that draw plots on the terminal"
+
+  - url: https://github.com/seemoo-lab/opendrop
+    title: opendrop
+    description: "An open Apple AirDrop implementation written in Python"
+
+  - url: https://github.com/google/log4jscanner
+    title: log4jscanner
+    description: "A log4j vulnerability filesystem scanner and Go package for analyzing JAR files."
+
+  - url: https://www.zotero.org/
+    title: "zetero"
+    description: "free, easy-to-use tool to help you collect, organize, cite, and share research and [open source on github](https://github.com/zotero/zotero)"
+
+  - url: https://github.com/cuebook/CueObserve
+    title: CueObserve
+    description: "Timeseries Anomaly detection and Root Cause Analysis on data in SQL data warehouses and databases"
+
