@@ -104,4 +104,6 @@ tool:
     title: sinker
     description: "A tool to sync images from one container registry to another"
 
-
+  - url: https://perspective.finos.org/
+    title: perspective
+    description: "an interactive analytics and data visualization component, which is especially well-suited for large and/or streaming datasets. Originally developed at J.P. Morgan"
