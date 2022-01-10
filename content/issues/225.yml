@@ -1,0 +1,107 @@
+time: "Jan 10, 2022"
+subject: "Neural Network From Scratch"
+draft: false
+description: |
+
+links:
+  - url: https://sirupsen.com/napkin/neural-net
+    title: "Neural Network From Scratch"
+    description: "I'm a big fan of this Napkin Math newsletter. If you haven't subscribe to Napkin Math, you should do it.
+      In this edition of Napkin Math, we'll invoke the spirit of the Napkin Math series to establish a mental model for how a neural network works by building one from scratch. In a future issue we will do napkin math on performance, as establishing the first-principle understanding is plenty of ground to cover for today!"
+
+  - url: http://highscalability.com/blog/2022/1/3/designing-whatsapp.html
+    title: "Designing WhatsApp"
+    description: |
+      How to approach design a system at a scale of WhatsApp. What is data storage, push notification, user status all look like. What is the plan of monitoring and identify bottle neck.
+
+  - url: http://pi.math.cornell.edu/~web6140/TopTenAlgorithms/JPEG.html
+    title: "JPEG: Image compression algorithm"
+    description: |
+      JPEG (or JPG) is not really a file format but rather an image compression standard. The JPEG standard is complicated with many different options and color space regulations. It was not widely adopted.
+      A much simpler standard version was advocated at the same time, called JFIF. This is the image compression algorithm that most people mean when they say JPEG compression, and the one that we will be describing in this class. Note that the file extensions .jpeg and .jpg have stuck, even though the underneath algorithm is (strictly speaking) JFIF compression.
+
+  - url: https://slack.engineering/what-happened-during-slacks-dnssec-rollout/
+    title: "The Case of the Recursive Resolvers"
+    description: |
+      On September 30th 2021, Slack had an outage that impacted less than 1% of our online user base, and lasted for 24 hours. This outage was the result of our attempt to enable DNSSEC — an extension intended to secure the DNS protocol, required for FedRAMP Moderate — but which ultimately led to a series of unfortunate events.
+
+  - url: https://eng.uber.com/how-we-saved-70k-cores-across-30-mission-critical-services/
+    title: "How We Saved 70K Cores Across 30 Mission-Critical Services (Large-Scale, Semi-Automated Go GC Tuning @Uber)"
+    description: |
+      As part of Uber engineering’s wide efforts to reach profitability, recently our team was focused on reducing cost of compute capacity by improving efficiency. Some of the most impactful work was around GOGC optimization. In this blog we want to share our experience with a highly effective, low-risk, large-scale, semi-automated Go GC tuning mechanism.
+      If you are into Go and memory managemet, checkout [Saving a Third of Our Memory by Re-ordering Go Struct Fields](https://wagslane.dev/posts/go-struct-ordering/) too.
+
+  - url: https://dubroy.com/blog/three-ways-of-handling-user-input/
+    title: "Three ways of handling user input"
+    description: "It's 2022 and the dominant way of handling user input is still based on events and — in some form or another — callbacks.
+      But in nearly every code base I’ve worked in, the hairiest, most difficult-to-modify logic is in the event handling code.
+      To help me understand the pros and cons of the events-and-callbacks model and to experiment with some other approaches, I decided to write up a simple example in a three different styles."
+
+  - url: https://sudhir.io/uuids-ulids?utm_source=pocket_mylist
+    title: "What UUIDs and ULIDs are under the hood, and how to encode and use them"
+    description: |
+      UUID has a string reperesentation which make it looks like string with non numeric character, but behind the scene, many system store them as a 128 bit number.
+
+  - url: https://explainextended.com/2021/12/31/happy-new-year-13/
+    title: "Implement a quantum computer emulator in SQL"
+    description: |
+      new year, learn something new, do something different, take on challenges. The author will be building an SQL query which will emulate a quantum computer. This query will process quantum assembly, build the circuit, run the emulation and make the measurements.
+
+  - url: https://lwn.net/SubscriberLink/880458/5c4147ec8a7ca8df/
+    title: "Restricting SSH agent keys"
+    description: "ssh-agent forwarding allow remote host to forward authentication to a local node. It's very useful when you do a `ssh-add`, then login to remote server, and you can use your key to login to another server. but it open a hole where anyone can use it to connect to any host with your keys. A recent experimental feature for the upcoming OpenSSH 8.9 release will help close that hole. Instead of allowing the keys held in the agent to be used for authenticating to any host where they might work, SSH agent restriction will allow users to specify where and how those keys can be used."
+
+video:
+
+read_code:
+  - url: https://github.com/dryruby/ebnf
+    title: ebnf
+    description: "a Ruby implementation of an EBNF and BNF parser and parser generator."
+    category: ['Ruby']
+
+  - url: https://github.com/flyerhzm/bullet
+    title: bullet
+    description: "help you increase your application's performance by reducing the number of queries it makes. It will watch your queries while you develop your application and notify you when you should add eager loading (N+1 queries), when you're using eager loading that isn't necessary and when you should use counter cache."
+    category: ['Ruby']
+
+  - url: https://github.com/weixsong/elasticlunr.js
+    title: "elasticlunr.js"
+    description: "Lightweight full-text search engine in Javascript for browser search and offline search"
+    category: ['JavaScript']
+
+  - url: https://github.com/heywhy/ex_elasticlunr
+    title: ex_elasticlunr
+    description: "a small, full-text search library for use in the Elixir environment. It indexes JSON documents and provides a friendly search interface to retrieve documents."
+    category: ['Elixir']
+
+  - url: https://github.com/bytedance/sonic
+    title: sonic
+    description: |
+      A blazingly fast JSON serializing & deserializing library. JSON is still one of area that get lots of improvement due to lack of generic cause people have to use reflection and many solution emerge to solve the problem
+    category: ['Go']
+
+  - url: https://github.com/mpv-player/mpv
+    title: "mpv: Command line video player"
+    description: |
+      I'm not a hard core C programmer and not gonna explore this. It's more in Tools section but I decided put it here in case anyone want to see what more about video decoding and rendering, in a terminal. Impressive work.
+    category: ['C']
+
+  - url: https://github.com/lukencode/FluentEmail
+    title: FluentEmail
+    description: "All in one email sender for .NET. Supports popular senders (SendGrid, MailGun, etc) and Razor templates."
+    category: ["C#"]
+
+tool:
+  - url: https://iconoir.com/
+    title: iconoir
+    description: "one of the biggest open source libraries with currently 1007 SVG Icons. No premium icons, no email sign-up, no newsletters"
+
+  - url: https://github.com/codenotary/immudb
+    title: immudb
+    description: "world’s fastest immutable database, built on a zero trust model"
+
+  - url: https://github.com/plexsystems/sinker
+    title: sinker
+    description: "A tool to sync images from one container registry to another"
+
+
