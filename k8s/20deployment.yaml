@@ -6,7 +6,7 @@ metadata:
   labels:
     app: betterdev
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: betterdev
@@ -18,14 +18,14 @@ spec:
     spec:
       terminationGracePeriodSeconds: 60
       containers:
-      - image: yeospace/betterdev
+      - image: "quay.io/yeospace/betterdev:7e0df43ee91ba2f9c90deff1dc82bb4c48b16ac3"
         imagePullPolicy: Always
         name: betterdev
         ports:
         - containerPort: 1605
         env:
           - name: MONGO_URI
-            value: "mongodb://mg0.getopty.com:27017"
+            value: "mongodb://10.2.0.20:27017"
           - name: AWS_REGION
             value: us-west-2
           - name: AWS_ACCESS_KEY_ID
