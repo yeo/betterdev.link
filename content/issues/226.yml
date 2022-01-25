@@ -1,0 +1,82 @@
+time: "Jan 25, 2022"
+subject: "Build your own Anycast network in 9 steps & UK COVID-19 dashboard built using Postgres and Citus for millions of users"
+draft: false
+description: |
+
+links:
+  - url: https://www.linkedin.com/pulse/build-your-own-anycast-network-9-steps-samir-jafferali
+    title: "Build your own Anycast network in 9 steps"
+    description: "Anycast allows you to have same IP address round to different node depend on geo location,
+      This is the kind of guide I wish I know earlier. It's very practical on how you can run that kind of network yourself, from registering ASN, acquire IP address, find BGP hosting...
+    It can cost zero if you use IPV6 :). That's the cool thing that you can literally experiment with this kind of tech at very low cost"
+
+  - url: https://frantic.im/e2e-tests/
+    title: "Improving end to end tests reliability"
+    description: |
+      Are you trying to establish a good end-to-end testing infrastructure at your company? This is how Facebook does it.
+
+  - url: https://rclayton.silvrback.com/distributed-locking-with-postgres-advisory-locks
+    title: "Distributed Locking with Postgres Advisory Locks"
+    description: |
+      Postgres Advisory Locks are a great solution for arbitrary application locks, particularly in scenarios where you are already using Postgres and have a need to block concurrent mutations to a resource (that resource DOES NOT have to be data in Postgres).
+
+  - url: https://spacelift.io/blog/tricking-postgres-into-using-query-plan
+    title: "Tricking Postgres into using an insane – but 200x faster – query plan"
+    description: |
+      An optimization story, which is interesting because both the before and after query plans will look somewhat ridiculous (in terms of cost). Moreover, it shows how PostgreSQL row count estimation can go very wrong. In this case, domain knowledge will help us trick PostgreSQL into a different query plan which will be waaay faster, without adding any additional indices.
+
+  - url: https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/uk-covid-19-dashboard-built-using-postgres-and-citus-for/ba-p/3036276
+    title: "UK COVID-19 dashboard built using Postgres and Citus for millions of users"
+    description: |
+      This post is a deep dive into how the UK Coronavirus analytics dashboard came to be, and why it’s architected the way it’s architected. In this post you’ll learn about the database challenges the team faced as the dashboard needed to scale—with an eye toward how the UKHSA team uses Azure, the Azure Database for PostgreSQL managed service, and the Citus extension which transforms Postgres into a distributed database.
+
+  - url: https://pawelurbanek.com/postgresql-query-bottleneck
+    title: "Five Easy to Miss PostgreSQL Query Performance Bottlenecks"
+    description: |
+      PostgreSQL query planner is full of surprises, so a common-sense approach to writing performant queries is sometimes misleading. In this blog post, I’ll describe examples of optimizing seemingly obvious queries with the help of EXPLAIN ANALYZE and Postgres metadata analysis.
+
+  - url: https://blog.roblox.com/2022/01/roblox-return-to-service-10-28-10-31-2021/
+    title: "Roblox October Outage Postmortem"
+    description: |
+      Starting October 28th and fully resolving on October 31st, Roblox experienced a 73-hour outage. At scale of Roblox, 73 hour outage is huge. They deep dive into what happen. One great thing is Roblox run their own hardware and will continue to do so instead of moving to cloud.
+
+  - url: https://www.reparaz.net/oscar/misc/dudect.html
+    title: "dude, is my code constant time?"
+    description: |
+      Non-constant time crypto code is dangerous. Exactly 20 years ago Kocher presented the first timing attack on a cryptographic implementation. Since then, a long list of implementations have been broken by timing attacks.
+
+  - url: https://makejsgames.com/
+    title: makejsgames
+    description: |
+      An book you can also read online to learn how to build JavaScript games with Kaboom.js
+
+video:
+  - url: https://www.youtube.com/watch?v=5eo8nz_niiM
+    title: "Over 200,000 Servers in One Place! Visiting Hetzner in Falkenstein (Germany)"
+    description: "My [email forwarding service](https://mailwip.com) uses Hetzner so it's cool too see this, also great to peak into data center."
+
+
+read_code:
+  - url: https://github.com/alash3al/redix
+    title: redix
+    description: "a very simple pure key => value storage system that speaks Redis protocol with Postgres as storage engine and more"
+    category: ['Go']
+
+  - url: https://github.com/harc/ohm
+    title: ohm
+    description: "A library and language for building parsers, interpreters, compilers, etc."
+    category: ['JavaScript']
+
+tool:
+  - url: https://www.focalboard.com/
+    title: Focalboard
+    description: "an open source, self-hosted alternative to Trello, Notion, and Asana"
+
+  - url: https://github.com/shipshapecode/shepherd
+    title: shepherd
+    description: "Guide your users through a tour of your app"
+
+  - url: https://github.com/dalibo/temboard
+    title: temboard
+    description: |
+      Monitor, optimize and configure multiple PostgreSQL instances.
