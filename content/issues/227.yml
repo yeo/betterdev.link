@@ -1,0 +1,88 @@
+time: "Feb 01, 2022"
+subject: "How to avoid layout shifts caused by web fonts and Scaling Kubernetes to Over 4k Nodes and 200k Pods"
+draft: false
+description: |
+
+links:
+  - url: https://simonhearne.com/2021/layout-shifts-webfonts/?utm_source=pocket_mylist
+    title: "How to avoid layout shifts caused by web fonts"
+    description: |
+      Fonts cause layout shifts when the size of the containing element (e.g. a <div> or paragraph) changes when the web font is downloaded.
+      This occurs when the height of the font or the length of the paragraph is different with the web font compared to the system font.
+
+  - url: https://kubesail.com/blog/2022-02-01-printer-driver-in-javascript
+    title: "Writing a Printer Driver in JavaScript"
+    description: "You got a cheap printer that can speak ZPL language for printing job, only found out it doesn't work. What do you do? And even more, in JavaScript"
+
+  - url: https://medium.com/paypal-tech/scaling-kubernetes-to-over-4k-nodes-and-200k-pods-29988fad6ed
+    title: "Scaling Kubernetes to Over 4k Nodes and 200k Pods"
+    description: |
+      Unlike Apache Mesos, which can scale up to 10,000 nodes out of the box, scaling Kubernetes is challenging. Kubernetes’ scalability is not just limited to the number of nodes and pods, but several aspects like the number of resources created, the number of containers per pod, the total number of services, and the pod deployment throughput. This post describes some challenges we faced when scaling and how we solved them.
+
+  - url: https://engineering.nanit.com/an-index-gone-rogue-2d58dd824b22
+    title: "Our investigation recipe for loaded RDS PostgreSQL instance"
+    description: "Sometimes indexes might degrade database performance instead of improving it. In this blog post I’ll describe how deleting an index helped us improve performance and mitigate load on a RDS instance."
+
+  - url: https://rclayton.silvrback.com/distributed-locking-with-postgres-advisory-locks
+    title: "Distributed Locking with Postgres Advisory Locks"
+    description: |
+      Postgres Advisory Locks are a great solution for arbitrary application locks, particularly in scenarios where you are already using Postgres and have a need to block concurrent mutations to a resource (that resource DOES NOT have to be data in Postgres)
+
+  - url: https://planetscale.com/blog/using-entropy-for-user-friendly-strong-passwords
+    title: "Using entropy for user-friendly strong passwords"
+    description: |
+      Signup forms with specific and archaic password rules can be incredibly frustrating for anyone using a password manager. "Must have one special character, but only from !@#$ these allowed characters."
+      When building PlanetScale’s signup form, we wanted to enforce strong passwords while also working well with password managers. After researching the problem, we found the best method for doing this is using an entropy-based password strength calculation.
+
+  - url: https://golangprojectstructure.com/converting-colour-images-to-greyscale/
+    title: "256 Shades of Grey: Converting Colour Images to Greyscale"
+    description: "transform a full-colour image into one made up entirely of different shades of grey. The sort of image that we will create is called greyscale, because every colour that makes up the image is stored as a position on a predetermined scale of greys that starts at black and ends at white. Code in Go but it's fun and easy to port to anything else"
+
+video:
+
+
+read_code:
+  - url: https://github.com/zenorocha/clipboard.js
+    title: "clipboard.js"
+    description: "✂️ Modern copy to clipboard. No Flash. Just 3kb gzipped 📋"
+    category: ['JavaScript']
+
+  - url: https://github.com/anvaka/ngraph.path
+    title: ngraph
+    description: "Path finding in a graph"
+    category: ['JavaScript']
+
+  - url: https://github.com/fabianlindfors/reshape
+    title: reshape
+    description: "An easy-to-use, zero-downtime schema migration tool for Postgres"
+    category: ['Rust']
+
+  - url: https://code.rocketnine.space/tslocum/citylimits
+    title: citylimits
+    description: |
+      City-building simulation video game in Ebiden, a golang game engine.
+    category: ['Go']
+
+  - url: https://github.com/jekyll/classifier-reborn
+    title: classifier-reborn
+    description: A general classifier module to allow Bayesian and other types of classifications. A fork of cardmagic/classifier
+    category: ['Ruby']
+
+tool:
+  - url: https://github.com/postgres-ai/database-lab-engine
+    title: database-lab-engine
+    description: "Thin PostgreSQL clones. DLE provides blazing-fast database cloning to build powerful development, test, QA, staging environments"
+
+  - url: https://github.com/hasherezade/hollows_hunter
+    title: "hallows_hunter"
+    description: |
+      Scans all running processes. Recognizes and dumps a variety of potentially malicious implants (replaced/implanted PEs, shellcodes, hooks, in-memory patches).
+
+  - url: https://github.com/smallnest/gen
+    title: gen
+    description: |
+      Converts a database into gorm structs and RESTful api
+
+  - url: https://github.com/Quiq/webauthn_proxy
+    title: webauthn_proxy
+    description: "Proxy for enforcing webauthn authentication, written in Go"
