@@ -1,0 +1,94 @@
+time: "Feb 07, 2022"
+subject: "Memory leaks: the forgotten side of web performance"
+draft: false
+description: |
+
+links:
+  - url: https://nolanlawson.com/2022/01/05/memory-leaks-the-forgotten-side-of-web-performance/
+    title: "Memory leaks: the forgotten side of web performance"
+    description: |
+      I’ve researched and learned enough about client-side memory leaks to know that most web developers aren’t worrying about them too much. If a web app leaks 5 MB on every interaction, but it still works and nobody notices, then does it matter? (Kinda sounds like a “tree in the forest” koan, but bear with me.)
+
+  - url: https://www.deadf00d.com/post/how-i-hacked-sonos-and-youtube-the-same-day.html
+    title: "How I hacked SONOS and YouTube the same day"
+    description: |
+      The hack is here is very practical: how to play YouTube videos on your SONOS, easy and for free? You will learn to inspect traffic with WireShack and reverse engineering SONOS protocol to make it play Youtube videos
+
+  - url: https://hacks.mozilla.org/2022/02/retrospective-and-technical-details-on-the-recent-firefox-outage/
+    title: "Retrospective and Technical Details on the recent Firefox Outage"
+    description: |
+      On January 13th 2022, Firefox became unusable for close to two hours for users worldwide. This incident interrupted many people’s workflow. This post highlights the complex series of events and circumstances that, together, triggered a bug deep in the networking code of Firefox
+
+  - url: https://blog.cloudflare.com/how-to-stop-running-out-of-ephemeral-ports-and-start-to-love-long-lived-connections/
+    title: "How to stop running out of ephemeral ports and start to love long-lived connections"
+    description: "When making an outgoing connection, the client try to use an ephemeral ports, which is from 32768 to 60999 by default. What happen if you run out of all these port? Mean the box making more than 28,000 connections?
+      For short-live connection it could be fine, but for long-live such as web-socket, doesn't that mean we cannot open more connection"
+
+  - url: https://blog.yugabyte.com/postgresql-timestamps-timezones/
+    title: "PostgreSQL Timestamps and Timezones: What You Need to Know—and What You Don’t"
+
+  - url: https://www.dolthub.com/blog/2022-01-26-creating-a-postgres-foreign-data-wrapper/
+    title: "Creating a Postgres Foreign Data Wrapper"
+    description: |
+      Build and they will come. Postgres has fantastic foundation to build on top of it. Foreign data wrapper allow you to expose external data into a logical table inside Postgres. That enables lots of posibility such as connect Mongo with Postgres.
+      So how can we build such as a data wrapper?
+
+  - url: https://www.morling.dev/blog/whats-in-a-good-error-message/
+    title: "What's in a Good Error Message?"
+    description: |
+      When seeing a log line "Couldn’t parse config file", what do we do? To me, a good error message needs to be able to help us quickly identify what is the problem and we can we do about it.
+
+  - url: https://jason-williams.co.uk/speeding-up-vscode-extensions-in-2022
+    title: "Speeding up VSCode (extensions) in 2022"
+    description: |
+      Performance optimization is very addicted to work on. Once we taste the process of looking at problem, find bottle necks, see what is worth to improve, and seeing real improvement in term of speed, the reward is great.
+      In this post, author see what it takes to speed up VS Code extensions to catch up to Sublime.
+
+video:
+
+
+read_code:
+  - url: https://procrastinate.readthedocs.io/en/stable/index.html
+    title: "Procrastinate"
+    description: "PostgreSQL-based Task Queue for Python¶"
+    category: ['Python']
+
+  - url: https://webvm.io/
+    title: webvm
+    description: |
+      a server-less virtual Linux environment running fully client-side
+    category: ['JavaScript', 'WebAssembly']
+
+  - url: https://github.com/jacomyal/sigma.js
+    title: sigma
+    description: "A JavaScript library aimed at visualizing graphs of thousands of nodes and edges. Checkout some [cool demo](https://www.sigmajs.org/)"
+    category: ['JavaScript']
+
+  - url: https://github.com/charmbracelet/wish
+    title: "wish"
+    description: |
+      If you want to build an app where people can SSH in to use it. This is the foundation block. SSH with built-in authentication is great to create services that can accessible from anywhere with only terminal.
+    category: ['Go']
+
+tool:
+  - url: https://github.com/DataDog/stratus-red-team
+    title: stratus-red-team
+    description: |
+      An open source project by DataDog to emulate offensive attack techniques in a granular and self-contained manner.
+
+  - url: https://github.com/pyrra-dev/pyrra
+    title: pyrra
+    description: "Making SLOs with Prometheus manageable, accessible, and easy to use for everyone!"
+
+  - url: https://www.slatools.com/
+    title: slatools
+    description: "provides a range of tools for better understanding and tracking your service SLA. These tools include an SLA Uptime Calculator, an Incident & SLA Breach Calculator and SLA Credit Calculator."
+
+  - url: https://github.com/lynnpepin/reso
+    title: reso
+    description: "a low-level circuit design language and simulator, inspired by things like Redstone, Conway's Game of Life, and Wireworld."
+
+  - url: https://github.com/blockprotocol/blockprotocol
+    title: blockprotocol
+    description: |
+      when you build a landing page or some internal tool, you want some ability to inject a specfific block of content into your UI. Example, a box of TODO list, a table pull data from some API etc. This is a protocol for define those kind of blocks, and inject them into your website.
