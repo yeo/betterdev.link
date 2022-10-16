@@ -3,7 +3,7 @@ subject: "BetterDev is back"
 draft: false
 description: "Hi, everyone. It has been almost 6 months with out any betterdev issue :-). It was due to my busy schedule. I finally started to get thing back on track.
   I will come back to my regular schedule of one issue every week again to capture the spirit of development every week.
-  Thank you for being a supporter. If you are no longer interested in betterdev, [click here] to unsubscribe."
+  Thank you for being a supporter. If you are no longer interested in betterdev, click in the unsubscribe link at the bottom of the email to unsubscribe."
 
 links:
   - url: https://web.dev/security-headers/
@@ -17,6 +17,8 @@ links:
 
   - url: https://supabase.com/blog/postgres-full-text-search-vs-the-rest
     title: "Postgres Full Text Search vs the rest"
+    description: |
+      In recent years, there are a bunch of search enginer appear to take on ElasticSearch such as TypeSense, MeiliSearch, Toshi. So how Postgress FTS compare to them in term of performanc for ingesting, query and accuracy.
 
   - url: https://knock.app/blog/postgres-index-findings
     title: "Six consideration when managing PostgreSQL indexes"
