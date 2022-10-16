@@ -1,0 +1,107 @@
+time: "Oct 17, 2022"
+subject: "BetterDev is back"
+draft: false
+description: "Hi, everyone. It has been almost 6 months with out any betterdev issue :-). It was due to my busy schedule. I finally started to get thing back on track.
+  I will come back to my regular schedule of one issue every week again to capture the spirit of development every week.
+  Thank you for being a supporter. If you are no longer interested in betterdev, [click here] to unsubscribe."
+
+links:
+  - url: https://web.dev/security-headers/
+    title: "Security headers quick reference"
+    description: |
+      There are certain of headers that just by adding them make browser protect the app from a certain kind of attack. Here is a quick walk through for some common ones.
+
+  - url: https://0xd4y.com/2022/10/01/GCP-Penetration-Testing-Notes/
+    title: "GCP Penetration Testing Notes"
+    description: "Penetration teams start from the lowest level of the infrastrucuture, understanding every aspect of privilege and permission. We as a developer don't have time to focus on all of them and just use one we most frequently use, which create blind spot for us. By understanding all of these aspect enable us to make information choice when designing infrastructure and make it more secure"
+
+  - url: https://supabase.com/blog/postgres-full-text-search-vs-the-rest
+    title: "Postgres Full Text Search vs the rest"
+
+  - url: https://knock.app/blog/postgres-index-findings
+    title: "Six consideration when managing PostgreSQL indexes"
+    description: |
+      Needless to say what to index is an art. Over index and the app slow down on write, or make the engine harder to decide what index to use. Here, knock team shares with us their signal that they use to make decision on indexing.
+
+  - url: https://www.redblobgames.com/grids/hexagons/
+    title: "How to draw hexagons grid"
+    description: |
+      This guide will cover various ways to make hexagonal grids, the relationships between different approaches, and common formulas and algorithms
+
+  - url: https://github.com/WebKit/WebKit/blob/main/Source/WebCore/page/Quirks.cpp
+    title: "WebKit Quirks"
+    description: |
+      Have you work on a very big app where a few old customers cannot upgrade their system for whatever reason and we have to maintain backward compatible and hack around? This is exactly what happen with WebKit browser engine, they have very ugly hack that check and hard code domain name, css selector to account for old websites.
+
+  - url: https://snyk.io/blog/10-best-practices-to-containerize-nodejs-web-applications-with-docker/
+    title: "10 best practices to containerize Node.js web applications with Docker"
+    description: |
+      There are quite good practices to apply to any container such as not using root, run multistage build etc.
+
+  - url: https://danielmiessler.com/study/tcpdump/
+    title: "A tcpdump Tutorial with Examples — 50 Ways to Isolate Traffic"
+    description: "Have you ever setup some tricky services where it cannot be exposed to the world directly and goes through a few proxy or tunnel, using a few iptables trick. It's impossible to debug those without invoking tcdump to know where the traffic hit, how does it flow? But remember tcpdump syntax is tedious and I keep coming to this examples all the time"
+
+
+video:
+
+
+read_code:
+  - url: https://github.com/huacnlee/rucaptcha
+    title: rucaptcha
+    description: |
+      Captcha implement 100% in-house using Rust and ImageMagick to generate pictures instead of relying on system like google or hcaptcha.
+    category: ['Ruby', 'Rust']
+
+  - url: https://github.com/memorysafety/ntpd-rs
+    title: ntpd-rs
+    description: |
+      An NTP implementation in Rust
+    category: ['Rust']
+
+  - url: https://github.com/katspaugh/wavesurfer.js
+    title: wavesurfer
+    description: |
+      If you want to know how to generate the waveform of an audio file, read on
+    category: ['JavaScript']
+
+  - url: https://github.com/felixge/fgtrace
+    title: fgtrace
+    description: "experimental profiler/tracer that is capturing wallclock timelines for each goroutine. It's very similar to the Chrome profiler"
+
+tool:
+  - url: https://github.com/shubhamgrg04/awesome-diagramming
+    title: awesome-diagramming
+    description: "A curated collection of diagramming tools used by leading software engineering teams"
+
+  - url: https://github.com/vercel/satori
+    title: "satori"
+    description: "Enlightened library to convert HTML and CSS to SVG"
+
+  - url: https://github.com/charmbracelet/gum
+    title: gum
+    description: |
+      Have you write bash script and want user to have a menu where they can cycle through  with arrow key and type enter to select? or you want to collect user input? but want to format the input promp nicely. Or confirmation to do something. There are a lot of detail that is hard to make a great UX with Bash alone. So we ended up write a lost of bash helper. gum a standalone single binary tool that help just that.
+
+  - url: https://github.com/levkk/pgcat
+    title: pgcat
+    description: |
+      PostgreSQL pooler with sharding, load balancing and failover support.
+
+  - url: https://github.com/amacneil/dbmate
+    title: dbmate
+    description: "A lightweight, framework-agnostic database migration tool. Give it a list of SQL file and it ensures those SQL files are executed on your database. It's especially pair great with projects that share same db or app that use mulktiple database since now you can manage migration out of the application deployment life cycle."
+
+  - url: https://github.com/nakabonne/ali
+    title: ali
+    description: "Generate HTTP load and plot the results in real-time"
+
+  - url: https://autostrada.dev/
+    title: autostrada
+    description: |
+      Generate your Go project in a single click with multiple option such as db, authentication, html template or json only
+
+  - url: https://github.com/wtetsu/gaze
+    title: gaze
+    description: |
+      Run a command when a file or a directory changed.
