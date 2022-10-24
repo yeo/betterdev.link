@@ -1,0 +1,128 @@
+time: "Oct 24, 2022"
+subject: "Secure your server by limit outgoing connection"
+draft: false
+description: |
+  Hi, everyone, welcome to our second issue of the come back.  I had received many emails with encouragement about my resumt. I really really appreciate that. Thank you so much.
+
+links:
+  - url: "https://www.buymeacoffee.com/betterdev/limit-outgoing-connection"
+    title: "Secure your connection by limit outgoing connection"
+    description: |
+      For years, I was just a reader, consume information and share with BetterDev audience. But that's going to chance. I'm trying to make article and video screencast so I had some thing to offer to the world to share my limited knowledge and experience.
+      This will be my first post ever, and I don't even have blog setup yet so I'm leverage "buymeacoffee" link.
+      I read about many hacks recently, some are very high profile hack on some dependencies, so how do we defend these hack? Since our app now run untrusted cost?
+      I want to share my though and my approach on how I defense these attacks.
+
+  - url: https://matt.might.net/articles/ssh-hacks/
+    title: "SSH: More than secure shell"
+    description: |
+      SSH is the defactor to get a shell run in a remote host. But it can do more such as port forwarding or an intermediate host to access other host
+
+  - url: https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for
+    title: "The HTTP crash course nobody asked for"
+    description: |
+      Explain HTTP at a very deep but at same time in a very practical manner so you can see and simule how thing work at plain text level. You will see the whole HTTP requests payload, how it was made and how to send it ray character by character.
+
+  - url: https://2ality.com/2022/10/javascript-decorators.html
+    title: "JavaScript metaprogramming with the 2022-03 decorators API"
+    description: |
+      One of Python great feature IMHO is its decorator system. Literally just by adding `@decorator_name` right before your function definiton, suddenly we can run custom code around the function.
+      That power is being brough to JavaScript. The proposal are at stage 3. Once its reach stage 4 it will be ready for standarization.
+
+  - url: https://elisehe.in/2022/10/16/attribute-selectors
+    title: "The wasted potential of CSS attribute selectors"
+    description: "Every classes we added to our CSS has a cost in term of space and parse time. BEM standarize the modifier concept so we have class like `menu--is-active`. Modern HTML utilize ARIA for accessibility so stuff like screen reader can understand its current page/active syntax for example. So why don't we use `menu[aria-current='page'] to customize its style. Make it broader we can even customize a link based on its domain, instead of adding extra parameter and at the same time it's super flexible. Example: a[href^=https://specific-domain.com]."
+
+  - url: https://engineering.atspotify.com/2022/09/from-development-to-real-users-how-to-create-a-web-performance-story/
+    title: "From Development to Real Users: How to Create a Web Performance Story"
+    description: |
+      Some of the most common questions asked when it comes to work with performance are, How do you convince stakeholders that improving the performance of your project is actually worth the investment? How can you prove that the work is necessary to begin with? Or prove that you have shipped improvements? And what is the impact of certain changes on users in different scenarios?
+
+  - url: https://www.crunchydata.com/blog/a-look-at-postgres-15-merge-command-with-examples?utm_source=pocket_mylist
+    title: "A Look at Postgres 15: MERGE Command with Examples"
+    description: |
+      Postgres `update conflict` is very powerful to update if row is already existed. But there is tricky case such as if data is already existed, delete it. Such as toggle a row by insert/delete, not easy to do with updatte conflict but now can do with `merge`. update conflict also rely on a contrain, 
+
+  - url: https://www.honeycomb.io/blog/incident-review-shepherd-cache-delays
+    title: "Honeycomb Incident Review: Shepherd Cache Delays"
+    description: |
+      Honeycomb is an event logging platform where log and metric can be send to it for viewing and analyzing. They have an outage of 8 hours on Sep 8th, 2022. This post is an analysis of that incident. We will learn a lot from these real world incident, seeing how those world class term debug and troubleshoot their infra.
+      What interesting is that Honeycomp cannot find the root cause and have accepted that they probably won’t find out how it all came together. The data simply isn’t there, their runway has been extended, and they’re now looking for longer-term fixes that circumvent the overall pattern.
+
+
+  - url: https://www.carletonsheets.com/assets/shared/usr/share/doc/pam-devel-1.1.8/html/Linux-PAM_MWG.html
+    title: "The Linux-PAM Module Writers' Guide"
+    description: "PAM is an amazing feature of Linux that allows to customization the authentication process of an application on Linux. Such as when SSH to the node, we can add extra MFA verification. You can write PAM plugin by writing dynamic so lib that Linux can load, and PAM can call the specific funciton. Think of its like a set of function we have to expose to be called. They usually written in C, but in modern way we can easily hook up to Go, Rust, Zig and make it super easy to custimization the authentication process on a SSH server for example"
+
+video:
+
+
+read_code:
+  - url: https://github.com/psanford/sqlite3vfshttp
+    title: sqlite3vfshttp
+    description: |
+      sqlite3vfshttp is a sqlite3 VFS for querying remote databases over http(s). This allows you to perform queries without needing to download the complete database first.
+    category: ['Go']
+
+  - url: https://github.com/greggman/twgl.js
+    title: twgl
+    description: "A Tiny WebGL helper Library"
+    category: ['JavaScript']
+
+  - url: https://github.com/webtoon/psd
+    title: "psd.js: a psd file parser"
+    description: |
+      If you curious how PSD files are structure and parse it to get all the object, layer then read on
+    category: ['NodeJS']
+
+  - url: https://github.com/net-ssh/net-scp
+    title: net-scp
+    description: |
+      Pure Ruby implement of scp. great to read and understand all tcp detail of it
+    category: ['Ruby']
+
+  - url: https://github.com/hansonkd/puff
+    tilte: puff
+    description: |
+      an experiment to minimize the barrier between Python and Rust to unlock the full potential of high level languages. Build your own Runtime using standard CPython and extend it with Rust
+    category: ['Python']
+
+  - url: https://github.com/lapce/lapce
+    title: lapce
+    description: Lightning-fast and Powerful Code Editor written in Rust
+    category: ['Rust']
+
+tool:
+  - url: https://github.com/fermyon/spin
+    title: spin
+    description: "an open source framework for building and running fast, secure, and composable cloud microservices with WebAssembly"
+
+  - url: https://github.com/Yamato-Security/hayabusa
+    title: hayabusa
+    description: |
+      Windows event log fast forensics timeline generator and threat hunting tool created by the Yamato Security group in Japan.
+
+  - url: https://github.com/sematic-ai/sematic
+    title: sematic
+    description: |
+      an open-source development toolkit to help Data Scientists and Machine Learning (ML) Engineers prototype and productionize ML pipelines in days not weeks.
+
+  - url: https://p5js.org/
+    title: p5js
+
+  - url: https://github.com/mutagen-io/mutagen
+    title: mutagen
+    description: "Fast file synchronization and network forwarding for remote development"
+
+  - url: https://github.com/getappmap
+    title: appmap
+    description: |
+      a free and open-source runtime code analysis tool with support for Ruby, Java, Python, Javascript.
+      They had quite a bit of supported platform
+
+  - url: https://github.com/metalbear-co/mirrord
+    title: mirrord
+    description: |
+      Have you ever debug some tricky thing only happen in prod in a K8S cluster and wish you can hook up local process as if it was a container run inside the prod cluster to connect to prod resources and debug it?
+      Now you can do that with mirrord. Also read their [introduction article](https://metalbear.co/blog/mirrord-3.0-is-out/)
+
