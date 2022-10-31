@@ -1,0 +1,103 @@
+time: "Oct 31, 2022"
+subject: "Time is an illusion, Unix time doubly so"
+draft: false
+description: |
+  Hi, everyone, happy halloween. This issue is a haloween treat :-), it has a lot of short and small article which you can apply to your daily work and small tip and trick too.
+
+links:
+  - url: https://www.netmeister.org/blog/epoch.html
+    title: "Time is an illusion, Unix time doubly so..."
+    description: |
+      We all though time is an ever increasing number from January 1st, 1970, we called this epoch. But reality kick in, leap second, 2039, y2k.. Lets dig in to see how it was handle and gotcha dealing with epoch and its data type through ... time.
+
+  - url: https://sirupsen.com/causal
+    title: "Scaling Causal's Spreadsheet Engine from Thousands to Billions of Cells: From Maps to Arrays"
+    description: |
+      Simon shares with us how we help Causal Spreadsheet engine achive its performance. Simon pioneer the idea of first-principle thinking to estimate systems performance fast, by going to its root to understand and estimate it before writing any code.
+      He moves the enginer from browser into node js into Go, scale from 10,000 rows to 100,000 then to 1,000,000.
+
+  - url: https://graphics.stanford.edu/~seander/bithacks.html
+    title: Bit Twiddling Hacks
+    description: "There is a certain operation which can achive just by manipulation the binary represent of the data. It's a bit C-heavy but understanding them make me has a better understanding of the lowest level that represent our data and how a certain operation is applied on these structure"
+
+  - url: http://youmightnotneedjs.com/
+    title: you might not need js
+    description: "I won't drop JavaScript for these but it's great to see how we can push the limit by leveraging CSS. Example, galery slide, model box"
+
+  - url: https://paul.copplest.one/blog/design.html
+    title: "Design tips for developers"
+    description: |
+      Majority of BetterDev audiences are software engineers. And Im sure we love to build SaaS, when it comes to desigb, it is our painpoint. So here is a guide to help us design better.
+
+  - url: https://sharats.me/posts/shell-script-best-practices/
+    title: "Shell Script Best Practices"
+    description: "a short list which you can quickly do to write better shell script"
+
+  - url: https://sschueller.github.io/posts/wiring-a-home-with-fiber/
+    title: "Wiring home with Fiber"
+    description: |
+      Stefan shareds how he wire his home network using fiber.
+
+  - url: https://vez.mrsk.me/linux-hardening.html
+    title: "Linux Security Hardening and Other Tweaks"
+    description: |
+      with the power of search engine such as Shodan, it can easy setup a unsecure server and have it discovered. Better to have some kind of check lists we can go through to harden our server.
+
+  - url: https://deno.com/blog/fastest-git-deploys-to-the-edge
+    title: "Which serverless edge platform has the fastest git deployments?"
+    description: |
+      deno is a new platform and a language at the same time written by NodeJS creator. In this post,they benchmark fly vs cloudflare vs vercel vs deno.
+
+video:
+
+
+read_code:
+  - url: https://github.com/aironavt/node-linux-pam
+    title: node-linux-pam
+    description: |
+      pam allows you to delegate authentication to an external system. This is a nodejs package to show how we do PAM in nodejs. 
+    category: ['nodejs', 'pam']
+
+  - url: https://github.com/patchon/pam-onelogin
+    title: pam-onelogin
+    description: |
+      a pretty complete pam/nss stack for using OneLogin as authentication source (with MFA) and user/group lookups. Primarily used for SSH.
+    category: ['pam', 'c']
+
+  - url: https://github.com/okuramasafumi/alba
+    title: alba
+    description: "the fastest JSON serializer for Ruby"
+    category: ['Ruby']
+
+  - url: https://github.com/nanmu42/tart/
+    title: "tart: A Toy Gitlab CI Runner backed by Firecracker MicroVM."
+    description: |
+      We usually want a CI runner to be very isolated, one way to achive is using VM but they are expensive and slow to boot.
+      Other way is docker, but then we need to mount docker socket, solve "docker in docker" path issue, lot of gotcha.
+      A new method recently is to use VM that boot very fast so we can have the best of both world.
+    category: ['Go']
+
+tool:
+  - url: https://github.com/anchore/quill
+    title: quill
+    description: |
+      Simple mac binary signing from any platform.
+      Without this signing, we will have to go to "System Preference" to approve running unidentified code sign binary.
+
+  - url: https://github.com/FerretDB/FerretDB
+    title: FerretDB
+    description: |
+      an open source MongoDB alternative but the underlying data is backed by ... Postgres. So the best of both world
+
+  - url: https://github.com/ballerine-io/ballerine
+    title: ballerine
+    description: |
+      Have you ever need to do KYC(Know your customer) in the app? The kind of system where you have to enter a certain information, upload a certain doc and get approve or reject. This is an open source system that do just that.
+
+  - url: https://ffmpeg.guide/
+    title: "Build FFmpeg filters without the headache"
+    description: "I recently working on a video app and remember all the ffmpeg detail isn't an easy job"
+
+  - url: https://github.com/thevahidal/soul
+    title: soul
+    description: "Soul is command line tool, after installing it, Run soul -d sqlite.db -p 8000 and it'll start a RESTful API on localhost:8000 back by the sqlite db"
