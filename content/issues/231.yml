@@ -2,7 +2,7 @@ time: "Oct 31, 2022"
 subject: "Time is an illusion, Unix time doubly so"
 draft: false
 description: |
-  Hi, everyone, happy halloween. This issue is a haloween treat :-), it has a lot of short and small article which you can apply to your daily work and small tip and trick too.
+  Hi, everyone, happy halloween. This issue is a haloween treat :-), it has a lot of short and small articles which you can apply to your daily work and small tips and tricks too.
 
 links:
   - url: https://www.netmeister.org/blog/epoch.html
@@ -18,7 +18,7 @@ links:
 
   - url: https://slack.engineering/how-we-use-terraform-at-slack/
     title: "How slack uses terraform"
-    description: "Using Terraform efficiently is a dark art. it's very opinated and different among companies from what I see. terraform is always a mess because due to the velocity of dev and workaround stuff we cannot do cleanly in terraform. Therefore learn from big company like Slack is very useful"
+    description: "Using Terraform efficiently is a dark art. it's very opinated and different among companies from what I see. terraform is often a mess because of the velocity of dev and workaround stuff we cannot do cleanly in terraform. Therefore learn from big company like Slack can be a great guidance to see how people handle big infra with it."
 
   - url: https://graphics.stanford.edu/~seander/bithacks.html
     title: Bit Twiddling Hacks
@@ -26,7 +26,7 @@ links:
 
   - url: http://youmightnotneedjs.com/
     title: you might not need js
-    description: "I won't drop JavaScript for these but it's great to see how we can push the limit by leveraging CSS. Example, galery slide, model box"
+    description: "I won't drop JavaScript for these but it's great to see how we can push the limit by leveraging CSS. Example, galery slide, modal box"
 
   - url: https://paul.copplest.one/blog/design.html
     title: "Design tips for developers"
