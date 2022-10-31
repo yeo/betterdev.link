@@ -16,6 +16,10 @@ links:
       Simon shares with us how we help Causal Spreadsheet engine achive its performance. Simon pioneer the idea of first-principle thinking to estimate systems performance fast, by going to its root to understand and estimate it before writing any code.
       He moves the enginer from browser into node js into Go, scale from 10,000 rows to 100,000 then to 1,000,000.
 
+  - url: https://slack.engineering/how-we-use-terraform-at-slack/
+    title: "How slack uses terraform"
+    description: "Using Terraform efficiently is a dark art. it's very opinated and different among companies from what I see. terraform is always a mess because due to the velocity of dev and workaround stuff we cannot do cleanly in terraform. Therefore learn from big company like Slack is very useful"
+
   - url: https://graphics.stanford.edu/~seander/bithacks.html
     title: Bit Twiddling Hacks
     description: "There is a certain operation which can achive just by manipulation the binary represent of the data. It's a bit C-heavy but understanding them make me has a better understanding of the lowest level that represent our data and how a certain operation is applied on these structure"
@@ -76,6 +80,11 @@ read_code:
       Other way is docker, but then we need to mount docker socket, solve "docker in docker" path issue, lot of gotcha.
       A new method recently is to use VM that boot very fast so we can have the best of both world.
     category: ['Go']
+
+  - url: https://github.com/capitalone/dataprofiler
+    title: dataprofiler
+    description: "What's in your data? Extract schema, statistics and entities from datasets"
+    category: ['python']
 
 tool:
   - url: https://github.com/anchore/quill
