@@ -2,7 +2,7 @@ time: "Nov 07, 2022"
 subject: "Reducing BigQuery Costs: How We Fixed A $1 Million Query"
 draft: false
 description: |
-  Hi everyone, welcome to first issue of November. This week red leave starts to emerge and my family go outside enjoy seeing the beautiful color of autumn. Social media has been a tough week together with finance system. The world looks depressing, but no matter what, I can tell you being a programmer, knowing how to code is really a privilege, we have a way to make a living while sitting at a deck doing thing we enjoy. No matter what happen, there will always a demand to make website, application or service and a continous stream of job requires to run these thing. We are thankful for the jobs and opportunities we had, be optimist and always leaning. on ward. have a good week everyone.
+  Hi everyone, welcome to first issue of November. This week, where I live, red leaves start to emerge and my family went outside, enjoy seeing the beautiful color of autumn. Social media had been a tough week with Twitter and Elon, same as finance system and crypto drama. The world looked so depressing, but no matter what, being a programmer, knowing how to code is really a privilege, we have a way to make a living while sitting at a deck doing thing we enjoy. No matter what happen, there will always a demand to make website, application or service and a continous stream of jobs require to run these things. We are thankful for the jobs and opportunities we had, be optimist and always leaning. on ward. have a good week everyone.
 
 links:
   - url: "https://www.buymeacoffee.com/betterdev/how-interactively-ssh-build-job-ci-system"
@@ -20,17 +20,16 @@ links:
     description: |
       Recently, the Chrome developers announced their decision to remove the behind-a-flag support for JPEG XL. Cloudinary argue(to which I agree) JPEG XL can bring these benefits without introducing a regression in other areas, at least in terms of technical strengths. We can only hope that the Chrome developers reverse their decision and help JPEG XL catch up with the old formats in terms of software support, so we can all enjoy the benefits it brings.
 
-  - url: https://github.com/milanm/DevOps-Roadmap
-    title: DevOps Roadmap
-    description: |
-      This is a step by step guide on how to become a DevOps engineer, with links to relevant learning resources.
-      If you plan to become a DevOps engineer, could be a great learning resource.
-
   - url: https://naildrivin5.com/blog/2022/10/31/wrap-third-party-apis-in-service-wrappers-to-simplify-your-code.html
     title: "Wrap Third Party APIs in Service Wrappers to Simplify Your Code"
     description: |
       Almost web app needs to make call to third party API such as taking a payment, send out an email.
       By wrapping an adapter around each API, presenting only the features of that API the app needs, we can more easily manage and test the app.
+
+  - url: https://www.nathaniel.ai/myers-diff/?utm_source=pocket_mylist
+    title: "Visualizing Diffs"
+    description: |
+      when we run `diff` or `git diff`, we see a visualization of what were add, insert or delete? what algorithm power that?
 
   - url: https://www.smashingmagazine.com/2022/10/motion-controls-browser/
     title: "Motion Controls In The Browser"
@@ -48,6 +47,9 @@ links:
   - url: https://unix.stackexchange.com/questions/230472/can-i-exec-an-entirely-new-process-without-an-executable-file
     title: "Can I exec an entirely new process without an executable file"
 
+  - url: https://eng.lyft.com/internet-egress-filtering-of-services-at-lyft-72e99e29a4d9
+    title: "Internet Egress Filtering of Services at Lyft"
+
   - url: https://sysdig.com/blog/kernel-parameters-falco/?ck_subscriber_id=1898308866
     title: "Tales from the Kernel Parameter Side"
     description: |
@@ -56,6 +58,12 @@ links:
 
   - url: https://medium.com/riskified-technology/how-to-roll-your-kafka-cluster-with-zero-downtime-and-no-data-loss-770fd0a35971
     title: "How to roll your kafka cluster with zero downtime and no data loss"
+
+  - url: https://github.com/milanm/DevOps-Roadmap
+    title: DevOps Roadmap
+    description: |
+      This is a step by step guide on how to become a DevOps engineer, with links to relevant learning resources.
+      If you plan to become a DevOps engineer, could be a great learning resource.
 
 video:
   - url: https://www.youtube.com/watch?v=g_koa00MBLg
