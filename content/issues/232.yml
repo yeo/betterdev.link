@@ -1,0 +1,149 @@
+time: "Nov 07, 2022"
+subject: "Reducing BigQuery Costs: How We Fixed A $1 Million Query"
+draft: false
+description: |
+  Hi everyone, welcome to first issue of November. This week red leave starts to emerge and my family go outside enjoy seeing the beautiful color of autumn. Social media has been a tough week together with finance system. The world looks depressing, but no matter what, I can tell you being a programmer, knowing how to code is really a privilege, we have a way to make a living while sitting at a deck doing thing we enjoy. No matter what happen, there will always a demand to make website, application or service and a continous stream of job requires to run these thing. We are thankful for the jobs and opportunities we had, be optimist and always leaning. on ward. have a good week everyone.
+
+links:
+  - url: "https://www.buymeacoffee.com/betterdev/how-interactively-ssh-build-job-ci-system"
+    title: "How to interactively SSH into a build job on any CI system"
+    description: |
+      If you ever debug some tricky CI failure and say to your self: "If I can SSH into this server or container that running the build" I will be able to figure out immediately.
+
+  - url: https://shopify.engineering/reducing-bigquery-costs?utm_source=programmingdigest&utm_medium&utm_campaign=1403
+    title: "Reducing BigQuery Costs: How We Fixed A $1 Million Query"
+    description: |
+      During the infrastructural exploration of a pipeline my team was building, we discovered a query that could have cost us nearly $1 million USD a month in BigQuery. Below, we’ll detail how we reduced this and share our tips for lowering costs in BigQuery.
+
+  - url: https://cloudinary.com/blog/the-case-for-jpeg-xl?utm_source=pocket_mylist
+    title: "The Case for JPEG XL"
+    description: |
+      Recently, the Chrome developers announced their decision to remove the behind-a-flag support for JPEG XL. Cloudinary argue(to which I agree) JPEG XL can bring these benefits without introducing a regression in other areas, at least in terms of technical strengths. We can only hope that the Chrome developers reverse their decision and help JPEG XL catch up with the old formats in terms of software support, so we can all enjoy the benefits it brings.
+
+  - url: https://github.com/milanm/DevOps-Roadmap
+    title: DevOps Roadmap
+    description: |
+      This is a step by step guide on how to become a DevOps engineer, with links to relevant learning resources.
+      If you plan to become a DevOps engineer, could be a great learning resource.
+
+  - url: https://naildrivin5.com/blog/2022/10/31/wrap-third-party-apis-in-service-wrappers-to-simplify-your-code.html
+    title: "Wrap Third Party APIs in Service Wrappers to Simplify Your Code"
+    description: |
+      Almost web app needs to make call to third party API such as taking a payment, send out an email.
+      By wrapping an adapter around each API, presenting only the features of that API the app needs, we can more easily manage and test the app.
+
+  - url: https://www.smashingmagazine.com/2022/10/motion-controls-browser/
+    title: "Motion Controls In The Browser"
+    description: |
+      If you’ve ever wanted to build a web app that you can control with hand gestures as if by magic, this article is for you. With a couple of APIs and some JavaScript, you can build apps that behave like sorcery.
+
+  - url: https://www.cybertec-postgresql.com/en/btree-vs-brin-2-options-for-indexing-in-postgresql-data-warehouses/
+    title: "BTREE VS. BRIN: 2 options for indexing in postgresql data warehouses"
+    description: "BTree is the most common index type we used every day. For exact lookup, BTree probably best choice most of time, but if you're looking for a range query, Brin maybe an option"
+
+  - url: https://www.crunchydata.com/blog/postgres-databases-and-schemas
+    title: "Postgres Databases and Schemas"
+    description: "We're going to dig into some of the flexibility on architecting your database and terminology within Postgres and the trade-offs for different approaches."
+
+  - url: https://unix.stackexchange.com/questions/230472/can-i-exec-an-entirely-new-process-without-an-executable-file
+    title: "Can I exec an entirely new process without an executable file"
+
+  - url: https://sysdig.com/blog/kernel-parameters-falco/?ck_subscriber_id=1898308866
+    title: "Tales from the Kernel Parameter Side"
+    description: |
+      When you tune performance for a system, very quickly you run into stuff like nofile, transaparent huge page which usually either has some high level command to set it, or sometime require you to change a
+      certain parameters by writing to `/proc/sys/dev`. So today we will have a look around it.
+
+  - url: https://medium.com/riskified-technology/how-to-roll-your-kafka-cluster-with-zero-downtime-and-no-data-loss-770fd0a35971
+    title: "How to roll your kafka cluster with zero downtime and no data loss"
+
+video:
+  - url: https://www.youtube.com/watch?v=g_koa00MBLg
+    title: "how do hardware timers work"
+    description: |
+      explain how does sleep() really work at hardware level
+
+read_code:
+  - url: https://github.com/netlify/zip-it-and-ship-it
+    title: zip-it-and-ship-it
+    description: |
+      AWS Lambda deployment requires a bundle of entire of your app and all dependencies, package in a certain structure.
+      Zip it and ship it do exactly that, create a zip bundle for a lambda app in node go or rust and deploy to aws.
+    category: ['JavaScript']
+
+  - url: https://github.com/digital-fabric/polyphony
+    title: polyphony
+    description: |
+       a library for building concurrent applications in Ruby. Polyphony harnesses the power of Ruby fibers to provide a cooperative, sequential coroutine-based concurrency model. Under the hood, Polyphony uses io_uring or libev to maximize I/O performance.
+    category: ['Ruby']
+
+  - url: https://github.com/NVIDIA/warp
+    title: warp
+    description: |
+      A Python framework for high performance GPU simulation and graphics
+    category: ['Python']
+
+  - url: https://github.com/xlwings/xlwings
+    title: xlwings
+    description: |
+      a Python library that makes it easy to call Python from Excel and vice versa.
+    category: ['Python']
+
+  - url: https://github.com/rueian/rueidis
+    title: rueidis
+    description: |
+      A Pure-go redis driver use RESP3 protocol. If you curios about writing driver, this is a great example
+    category: ['Go']
+
+  - url: https://github.com/phylum-dev/birdcage
+    title: birdcage
+    description: |
+      a cross-platform embeddable sandboxing library allowing restrictions to Filesystem and Network operations using native operating system APIs.
+      It should be ued for education purpose only at this point
+    category: ['Rust']
+
+tool:
+  - url: https://github.com/medusajs/medusa
+    title: medusajs
+    description: |
+      The Open Source Shopify Alternative. Medusa is a composable engine that combines an amazing developer experience with endless customizations for merchants to scale
+
+  - url: https://markdoc.dev/
+    title: markdoc
+    description: |
+      a powerful, flexible, Markdown-based authoring framework to create blog or document site in markdown.
+
+  - url: https://github.com/mondoohq/cnquery
+    title: "cnquery: Open source, cloud-native asset inventory and discovery"
+    description: |
+      It answers thousands of questions about your infrastructure, and integrates with over 300 resources across cloud accounts, Kubernetes, containers, services, VMs, APIs, and more.
+
+  - url: https://github.com/mondoohq/cnspec
+    title: cnspec
+    description: |
+      finds vulnerabilities and misconfigurations on all systems in your infrastructure including: public and private cloud environments, Kubernetes clusters, containers, container registries, servers and endpoints, SaaS products, infrastructure as code, APIs, and more.
+
+  - url: https://github.com/apenwarr/blip
+    title: blip
+    description: |
+      A tool for seeing your Internet latency.
+
+  - url: https://github.com/powa-team/pg_stat_kcache
+    title: pg_stat_kcache
+    description: |
+      Gather statistics about physical disk access and CPU consumption done by backends
+
+  - url: https://github.com/jameshy/pgdump-aws-lambda
+    title: pgdump-aws-lambda
+    description: |
+      Lambda function for executing pg_dump and upload the output to s3. Can be useful to take a daily/hourly pg_dump of database
+
+  - url: https://github.com/pgMemento/pgMemento
+    title: pgMemento
+    description: |
+      Audit trail with schema versioning for PostgreSQL using transaction-based logging
+
+  - url: https://icones.js.org/
+    title: icones
+    description: |
+      an UI to search and explore many free or open source icon set. one UI to rule them all.
