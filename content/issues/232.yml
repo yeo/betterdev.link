@@ -8,7 +8,8 @@ links:
   - url: "https://www.buymeacoffee.com/betterdev/how-interactively-ssh-build-job-ci-system"
     title: "How to interactively SSH into a build job on any CI system"
     description: |
-      If you ever debug some tricky CI failure and say to your self: "If I can SSH into this server or container that running the build" I will be able to figure out immediately.
+      This week I shared a small tip to debug  CI build failure easiser.
+      If you ever debug some tricky CI failure and say to your self: "If I can SSH into this server or container that running the build, I will be able to figure out immediately", then please give this a try.
 
   - url: https://shopify.engineering/reducing-bigquery-costs?utm_source=programmingdigest&utm_medium&utm_campaign=1403
     title: "Reducing BigQuery Costs: How We Fixed A $1 Million Query"
