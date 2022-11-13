@@ -1,0 +1,161 @@
+time: "Nov 14, 2022"
+subject: "Reducing BigQuery Costs: How We Fixed A $1 Million Query"
+draft: false
+description: |
+
+links:
+  - url: https://zserge.com/posts/carnatus/
+    title: "Let's write a tiny chess engine in go"
+    description: |
+      In this article we will try to understand how chess engines work by porting the sunfish chess engine to Go. Sunfish is notable for its simplicity and small size, while still being capable of playing decent chess. Go is also known as a simple and highly readable language, so I hope the two of them could make a great couple.
+
+  - url: https://douges.dev/blog/threejs-trees-1
+    title: "Creating fluffy trees with Three.js (part 1)"
+    description: |
+      It seems like a "useless" thing, just draw a tree but I really enjoy reading these kind of rendering/drawing graphic.
+      I learn a bit of  GLSL vertex shader today. Highly recommend you give this a try.
+
+  - url: https://perl.plover.com/Regex/article.html?utm_source=pocket_saves
+    title: "How RegEx works"
+    description: |
+      This isn't an article about how to use regexes; you've probably seen plenty of those already. It's about how you would write a regex package from scratch, in a language like C that doesn't already have regexes. The author use Perl but you got the idea of writing a RegEx engine.
+
+  - url: https://www.mnemonic.io/resources/blog/reverse-engineering-an-ev-charger/
+    title: "Reverse engineering an EV charger"
+    description: "I like a lot article about hardware because as a software programmer, hardware is like a blackbox to me :-)"
+
+  - url: https://postgresml.org/blog/scaling-postgresml-to-one-million-requests-per-second/
+    title: "Scaling PostgresML to 1 Million Requests per Second¶"
+    description: |
+      PostgresML engineering team discuss how they horizontally scale PostgresML to achieve more than 1 million XGBoost predictions per second on commodity hardware. Their architecture and benchmarking method.
+
+  - url: https://netflixtechblog.com/seeing-through-hardware-counters-a-journey-to-threefold-performance-increase-2721924a2822
+    title: "Seeing through hardware counters: a journey to threefold performance increase"
+    description: |
+      Netflix upgraded thei servers to large instances and didn't see the increaseing performance they are looking for and go hunt it.
+
+  - url: https://ananthakumaran.in/2022/11/12/trace-http-requests.html
+    title: "Tracing HTTP Requests with tcpflow"
+    description: |
+      Kind of like a short guide for tcpflow. it can analyze the data transmitted via tcp sockets. It can look at any live tcp socket and show the back and forth communications.
+
+  - url: https://blog.jse.li/posts/torrent/
+    title: "Building a BitTorrent client from the ground up in Go"
+    description: |
+      Nothing is better than building a PoC of some established protocol. You'll learn a lot.
+
+  - url: https://bugs.xdavidhu.me/google/2022/11/10/accidental-70k-google-pixel-lock-screen-bypass/
+    title: "Accidental $70k Google Pixel Lock Screen Bypass"
+    description: |
+      Xdavidhu found a vulnerability affecting seemingly all Google Pixel phones where if you gave them any locked Pixel device, they could give it back to you unlocked. The bug just got fixed in the November 5, 2022 security update.
+
+  - url: https://ishadeed.com/article/inside-frontend-developer-mind-hero-section/
+    title: "Inside the mind of a frontend developer: Hero section"
+    description: |
+      it will be interesting to dig into the mind of a frontend developer while they are working on implementing a component. The most important thing here is the thinking process, not the CSS outcome as sometimes it can get fairly straightforward to understand
+
+  - url: https://dev.37signals.com/faster-paging-in-hey
+    title: "Faster pagination using "
+
+  - url: https://github.com/collabnix/wasm-docker-better-together
+    title:  "WebAssembly and Docker - Better Together"
+    description: |
+       A curated list of Wasm and Docker working togethe
+
+video:
+  - url: https://www.youtube.com/watch?v=6vj96QetfTg
+    title: "How the Best Hackers Learn Their Craft"
+    description: |
+      Not hacking in term of fraud but for people who know up an down of a system can can escape/avoid a certain rule or retrisction that the eco system put on. Such as how to get root on an iPhone.
+
+read_code:
+  - url: https://github.com/digital-fabric/tipi
+    tilt: tipi
+    description: |
+      the All-in-one Web Server for Ruby Apps. I found its codebase is quite small enough to read.
+    category: ['Ruby']
+
+  - url: https://github.com/thomasahle/sunfish
+    title: sunfish
+    description: |
+      a Python Chess Engine in 111 lines of code.
+      It's amazing and have lot of comment to help understand it, code is very clean.
+    category: ['Python']
+
+  - url: https://github.com/AndyObtiva/perfect-shape
+    title: "perfect-shape"
+    description: |
+      a collection of geometric algorithms that are mostly useful for GUI manipulation like checking containment of a point in popular geometric shapes such as rectangle, square, arc, circle, polygon, and paths containing lines, quadratic bézier curves, and cubic bezier curves. Also, some general math algorithms like IEEE-754 Remainder.
+    category: ['Python']
+
+  - url: https://github.com/FusionAuth/java-http
+    title: "FusionAuth HTTP client and server"
+    description: |
+      A full featured, stand-alone, high-performance HTTP server and client written entirely in plain Java.
+      I am not a Java dev but this library is from [FusionAuth](https://fusionauth.io/) which I found very useful replacement for tools like okta or auth0 now that both of them got acquite by big corps.
+    category: ['Java']
+
+  - url: https://github.com/tdewolff/canvas
+    title: canvas
+    description: |
+      a common vector drawing target that can output SVG, PDF, EPS, raster images (PNG, JPG, GIF, ...), HTML Canvas through WASM, OpenGL, and Gio. It has a wide range of path manipulation functionality such as flattening, stroking and dashing implemented.
+      I really love to learn how to draw thing with code.
+    category: ['Go']
+
+  - url: https://github.com/secureworks/chaosbernie
+    title: chaosbernie
+    description: |
+      Azure as an external process source for psDoom-ng. a fun experiment please don't use it for real.
+    category: ['bash']
+
+  - url: https://github.com/mbdavid/litedb
+    title: litedb
+    description: |
+      Embedded NoSQL database for .NET.
+    category: ['C#']
+
+tool:
+  - url: https://github.com/ddworken/hishtory
+    title: hishtory
+    description: |
+      Your shell history: synced, queryable, and in context
+
+  - url: https://safing.io/
+    title: "portmaster"
+    description: |
+      a free and open-source application firewall that does the heavy lifting for you. They are entirely open source, check out [portmaster](https://github.com/safing/portmaster/) and [safing private network](https://github.com/safing/spn/)
+
+  - url: https://github.com/slashbaseide/slashbase
+    title: slashbase
+    description: |
+      Slashbase is an open-source minimal collaborative IDE for your databases in browser.
+
+  - url: https://github.com/projectdiscovery/katana
+    title: katana
+    description: |
+      A next-generation crawling and spidering framework.
+
+  - url: https://sargamicons.com/
+    title: sargamicons
+    description: |
+      A Collection of 262+ Open-source Icons Devoted to Match Your Exquisite Designs.
+
+  - url: https://uiverse.io/
+    title: uiverse
+    description: |
+      A places that people create and share beautiful custom elements made with CSS and HTML which you can pretty much immediately copy and paste to apply to your website.
+
+  - url: https://github.com/mage-ai/mage-ai
+    title: mage
+    description: |
+      modern replacement for Airflow
+
+  - url: https://github.com/honojs/hono
+    title: hono
+    description: |
+      Ultrafast web framework for Cloudflare Workers, Deno, and Bun. Fast, but not only fast.
+
+  - url: https://github.com/apache/age
+    title: age
+    description: |
+      Graph database optimized for fast analysis and real-time data processing. It is provided as an extension to PostgreSQL.
