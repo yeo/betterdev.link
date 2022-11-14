@@ -53,7 +53,9 @@ links:
       it will be interesting to dig into the mind of a frontend developer while they are working on implementing a component. The most important thing here is the thinking process, not the CSS outcome as sometimes it can get fairly straightforward to understand
 
   - url: https://dev.37signals.com/faster-paging-in-hey
-    title: "Faster pagination using "
+    title: "Faster pagination in Hey"
+    description: |
+      Pagination on a single table with a sort key is easy, but when we add join and filter out query from that join table, the pagination can be slow. Here, Hey.com, an email app shares a technique they used to improve its performance.
 
   - url: https://github.com/collabnix/wasm-docker-better-together
     title:  "WebAssembly and Docker - Better Together"
@@ -68,7 +70,7 @@ video:
 
 read_code:
   - url: https://github.com/digital-fabric/tipi
-    tilt: tipi
+    title: tipi
     description: |
       the All-in-one Web Server for Ruby Apps. I found its codebase is quite small enough to read.
     category: ['Ruby']
@@ -88,7 +90,7 @@ read_code:
     title: "FusionAuth HTTP client and server"
     description: |
       A full featured, stand-alone, high-performance HTTP server and client written entirely in plain Java.
-      I am not a Java dev but this library is from [FusionAuth](https://fusionauth.io/) which I found very useful replacement for tools like okta or auth0 now that both of them got acquite by big corps.
+      I am not a Java dev but this library is from [FusionAuth](https://fusionauth.io/) which I found very useful replacement for tools like okta or auth0 now that both of them got acquired by big corps.
     category: ['Java']
 
   - url: https://github.com/tdewolff/canvas
