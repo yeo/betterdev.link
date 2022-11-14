@@ -31,8 +31,7 @@ links:
 
   - url: https://netflixtechblog.com/seeing-through-hardware-counters-a-journey-to-threefold-performance-increase-2721924a2822
     title: "Seeing through hardware counters: a journey to threefold performance increase"
-    description: |
-      Netflix upgraded thei servers to large instances and didn't see the increaseing performance they are looking for and go hunt it.
+    description: "Netflix upgraded their servers to large instances and didn't see the increaseing performance they are looking for and go hunt it."
 
   - url: https://ananthakumaran.in/2022/11/12/trace-http-requests.html
     title: "Tracing HTTP Requests with tcpflow"
@@ -41,8 +40,7 @@ links:
 
   - url: https://blog.jse.li/posts/torrent/
     title: "Building a BitTorrent client from the ground up in Go"
-    description: |
-      Nothing is better than building a PoC of some established protocol. You'll learn a lot.
+    description: "Nothing is better than building a PoC of some established protocol. You'll learn a lot."
 
   - url: https://bugs.xdavidhu.me/google/2022/11/10/accidental-70k-google-pixel-lock-screen-bypass/
     title: "Accidental $70k Google Pixel Lock Screen Bypass"
@@ -77,9 +75,7 @@ read_code:
 
   - url: https://github.com/thomasahle/sunfish
     title: sunfish
-    description: |
-      a Python Chess Engine in 111 lines of code.
-      It's amazing and have lot of comment to help understand it, code is very clean.
+    description: "a Python Chess Engine in 111 lines of code.  It's amazing and have lot of comment to help understand it, code is very clean."
     category: ['Python']
 
   - url: https://github.com/AndyObtiva/perfect-shape
@@ -104,8 +100,7 @@ read_code:
 
   - url: https://github.com/secureworks/chaosbernie
     title: chaosbernie
-    description: |
-      Azure as an external process source for psDoom-ng. a fun experiment please don't use it for real.
+    description: "Azure as an external process source for psDoom-ng. a fun experiment please don't use it for real."
     category: ['bash']
 
   - url: https://github.com/mbdavid/litedb
@@ -159,3 +154,8 @@ tool:
     title: age
     description: |
       Graph database optimized for fast analysis and real-time data processing. It is provided as an extension to PostgreSQL.
+
+  - url: https://github.com/AnalogJ/scrutiny
+    title: "scrutiny"
+    description: |
+      Hard Drive S.M.A.R.T Monitoring, Historical Trends & Real World Failure Thresholds
