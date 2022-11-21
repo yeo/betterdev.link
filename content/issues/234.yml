@@ -1,0 +1,129 @@
+time: "Nov 21, 2022"
+subject: "Who controls the internet"
+draft: false
+description: "
+  Happy thanks giving for anyone that celebrate this holiday. I take a week off next week for thanksgiving so there will be no issue next week.
+  I recommend some get away time from computer this weekend as well.
+  I come from a third world country and I'm so thankful for what I'm able to do nowadays thanks to people who putting the foundation for the electric, computer, internet infrastructure.
+  Internet changes the world forver IMHO."
+
+
+links:
+  - url: https://www.netmeister.org/blog/nsauth-diversity.html
+    title: "Who controls the internet"
+    description: |
+      For internet to work, the world need a DNS to translate domain to ip address. But who control those DNS servers?
+
+  - url: https://monzo.com/blog/2022/11/02/argo-rollouts-at-scale
+    title: "Argo Rollouts at scale: Bringing Automated Rollbacks to 2,100+ services at Monzo"
+    description: |
+      Monzo assively invested in the microservices philosophy and ship small and often. They have over 2,100 services and deploy over 100 times per day.
+      With that much deploy they build very sophisicated tolling to deploy and rollback automatically.
+
+  - url: https://www.cybertec-postgresql.com/en/explain-that-parameterized-statement/
+    title: "Explain that parameterized statement in postgresql!"
+    description: |
+      For detailed query performance analysis, you need EXPLAIN (ANALYZE, BUFFERS) output for an SQL statement. With a parameterized statement, it can be difficult to construct a run-able statement for EXPLAIN (ANALYZE). Sometimes, you don’t even know the parameter values.
+
+  - url: https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/reducing-replication-lag-with-io-concurrency-in-postgres-15/ba-p/3673169
+    title: "Reducing replication lag with IO concurrency in Postgres 15"
+    description: "Database is the heart of an application. That's why I always try to find some databse tips links for every issue. This is a quick tip to tune the IO when replicating data. The faster the replication, the better we can rely on read replicate to split load from primary"
+
+  - url: https://jrsinclair.com/articles/2022/whats-so-great-about-functional-programming-anyway/
+    title: "What’s so great about functional programming anyway?"
+    description: "Nobody cares what functional programming is, at least, not at first. “can we deliver better code, faster?”. It's because functional programming allow us to write expressive code, with more confidence"
+
+  - url: https://tomverbeure.github.io/2022/08/07/Reed-Solomon.html
+    title: "Reed-Solomon Error Correcting Codes from the Bottom Up"
+    description: |
+      Reed-Solomon forward error correction (FEC) is one such coding method. Until the discovery of better coding techniques (Turbo codes and low-density parity codes), it was one of the most powerful ways to make data storage or data transmission resilient against corruption
+
+  - url: https://joshcollinsworth.com/blog/never-use-px-for-font-size
+    title: "Why you should never use px to set font-size in CSS"
+    description: "Being a backend dev, I bited the bullet and did this anyway so it's great to reflect back and see whats up."
+
+  - url: https://www.cortex.io/post/building-reliable-services-a-guide-to-setting-slos
+    title: "Building reliable services: A guide to setting SLOs"
+    description: |
+      Practical advice to setup SLOs. Other [article on SLO from HoneyComb](https://www.honeycomb.io/blog/honeycomb-internal-slos)
+
+  - url: https://blog.sunfishcode.online/is-everything-is-a-file/?utm_source=pocket_saves
+    title: "Is Everything Is A File?"
+    description: |
+      "Everything Is A File" is one of the most fundamental and widely influential pillars of Unix design philosophy.
+
+  - url: https://539kernel.com/?utm_source=pocket_saves
+    title: "A Journey in Creating an Operating System Kernel"
+    description: "This free book is intended to teach the reader how to create an operating system's kernel called 539kernel."
+
+video:
+
+read_code:
+  - url: https://github.com/1pkg/varint
+    title: varint
+    description: |
+      fast & memory efficient arbitrary bit width integers in Go. 
+      The purpose of VarInt to provide the maximum memory compact way to use and store unsigned custom bits integers.
+    category: ['Go']
+
+  - url: https://github.com/cloudcmds/tamarin
+    title: tamarin
+    description: |
+      A fun and pragmatic scripting language written in Go. May be used as a CLI or embedded as a library.
+    category: ['Go']
+
+  - url: https://github.com/jeremyevans/forme
+    title: forme
+    description: |
+      HTML forms library for ruby by Jeremy Evans of roda fame
+    category: ['Ruby']
+
+  - url: https://github.com/capricorn86/happy-dom
+    title: happy-dom
+    description: |
+      a JavaScript implementation of a web browser without its graphical user interface. It includes many web standards from WHATWG DOM and HTML.
+      Essentially a quick way to learn and re-implement many browser concept in JavaScript itself.
+    category: ['JavaScript']
+
+  - url: https://github.com/catern/rsyscall
+    title: rsyscall
+    description: |
+      a library which provides a interface to an ever-growing subset of Linux system call
+    category: ['Python']
+
+  - url: https://github.com/pwk4m1/TinyBIOS?utm_source=pocket_saves
+    title: "TinyBIOS"
+    description: |
+      A minimalist open source BIOS project for fun in Assembly
+    category: ['Assembly']
+
+tool:
+  - url: https://github.com/SpyGuard/SpyGuard
+    title: SpyGuard
+    description: "a forked and enhanced version of TinyCheck. SpyGuard's main objective is to detect signs of compromise by monitoring network flows transmitted by a device."
+
+  - url: https://github.com/ankane/pgsync
+    title: pgsync
+    description: |
+      Sync data from one Postgres database to another
+
+  - url: https://github.com/perseas/Pyrseas
+    title: Pyrseas
+    description: |
+      A tool to make a YAML represent the current database schema and verify against it to ensure schema consistency.
+
+  - url: https://github.com/brotandgames/ciao
+    title: ciao
+    description: |
+      uptime monitoring for both of public or private service.
+
+  - url: https://github.com/hadmean/hadmean
+    title: hadmean
+    description: |
+      an admin app generator.
+      It generates powerful internal tools in seconds with just one command, no learning curve, no technical skills and finally zero maintenance.
+
+  - url: https://github.com/jetpack-io/launchpad
+    title: "launchpad"
+    description: |
+      From Code to Kubernetes in One Step.
