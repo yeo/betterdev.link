@@ -1,0 +1,92 @@
+time: "Dec 5, 2022"
+subject: "The architecture of Mastodon"
+draft: false
+description: ""
+
+links:
+  - url: https://about.gitlab.com/blog/2022/11/28/how-we-diagnosed-and-resolved-redis-latency-spikes/
+    title: "How Gitlab diagnosed and resolved Redis latency spikes with BPF and other tools"
+    description: "It is hard to debug intermittent issue, since it is usually doesn't follow any pattern. Usually to debug them we need low level tool to hook up and extract more metrics. In this post, Gitlab shared how they deal with an intermittent issue for 2 years, but getting worse recently so they go to bottom of its with BPF and other techniques"
+
+  - url: https://softwaremill.com/the-architecture-of-mastodon/
+    title: "The architecture of Mastodon"
+    description: "take a high-level look at the architecture of a single Mastodon instance and how different instances communicate. Specifically, we'll be looking at how the Mastodon network-of-instances might scale."
+
+  - url: https://notes.normally.com/cookieless-unique-visitor-counts/
+    title: "Counting unique visitors without using cookies, UIDs or fingerprinting"
+    description: "Building a web analytics service without cookies poses a tricky problem: How do you distinguish unique visitors?"
+
+  - url: https://www.joshwcomeau.com/css/color-formats/
+    title: "Color Formats in CSS"
+    description: |
+      Everytime it comes up I just bite the bullet and use hex format. But what is hsl, rgb, lch? how they really work?
+
+  - url: https://www.bigmessowires.com/nibbler/
+    title: "Nibbler 4 Bit CPU"
+    description: |
+      As a software engineer I always try to dabble into hardware, the knowledge of CPU/RAM how they work help me a lot when dealing with IO, performance in softwarwe.
+      Nibbler is a 4 bit CPU built from standard 7400 series logic chips – individual counters, registers, buffers, and gates. It’s an educational example of a simple CPU that’s easy to understand and build, but still capable of running games and other interesting programs. Nibbler is built using wire-wrapping on a 5 x 4 inch (127 x 102 mm) perfboard. The CPU contains 17 chips in total.
+
+  - url: https://eclecticlight.co/2022/12/05/how-to-estimate-an-ssds-working-life/
+    title: "How to estimate an SSD’s working life"
+    description: |
+      Spin HDD working life is hard to predict because of their physical part movement.
+      SSD on other hand have no such part, so should be easiser to predict based on Wear leveling and Total Bytes Written.
+
+  - url: https://naildrivin5.com/blog/2022/11/29/dealing-with-flaky-tests.html
+    title: "Dealing with Flaky Tests"
+    description: |
+      Walk through tips for an app with 2000+ tests that does not have a severe flaky test problem
+
+video:
+  - url: https://www.youtube.com/watch?v=8z6okCgdREo
+    title: "GopherCon 2022: Jordan Neufeld - Exploring Network Programming by Building a Toxiproxy Clone"
+
+read_code:
+  - url: https://github.com/emilk/egui
+    title: egui
+    description: |
+      an easy-to-use immediate mode GUI in Rust that runs on both web and native
+    category: ['Rust']
+
+  - url: https://github.com/gurbaaz27/typeless
+    title: typeless
+    description: "an interpreter for λ-calculus implemented in ruby"
+    category: ['Ruby']
+
+  - url: https://github.com/naptha/tesseract.js
+    title: tesseract.js
+    description: "Pure Javascript OCR for more than 100 Languages 📖🎉"
+    category: ['JavaScript']
+
+  - url: https://github.com/valyala/quicktemplate
+    title: quicktemplate
+    description: |
+      Fast, powerful, yet easy to use template engine for Go.
+      Normally template engine work by parse a template file, process macro, replace certain placeholder with the right data
+      So if there is an error in template engine, its hard to catch at compile time.
+      What if we convert the template to Go function and execute it? This is the same approach Elixir/Erlang use.
+    category: ['Go']
+
+  - url: https://github.com/veebch/photon
+    title: "photon: an open-source incident light meter"
+    description: |
+      A hardware/firmware project
+
+tool:
+  - url: https://github.com/GyulyVGC/sniffnet
+    title: sniffnet
+    description: "Cross-platform application to monitor your network traffic with ease"
+
+  - url: https://github.com/patriksimek/vm2
+    title: vm2
+    description: " sandbox that can run untrusted code with whitelisted Node's built-in modules. Securely! Very useful when you want to run untrusted JavaScript to process some interal ap data such as extension of an app"
+
+
+  - url: https://github.com/buraksezer/olric
+    title: olric
+    description: "Distributed in-memory object store. It can be used both as an embedded Go library and as a language-independent service"
+
+  - url: https://github.com/DataDog/guarddog
+    title: guarddog
+    description: "a CLI tool to Identify malicious PyPI packages"
