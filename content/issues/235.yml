@@ -1,7 +1,8 @@
 time: "Dec 5, 2022"
 subject: "The architecture of Mastodon"
 draft: false
-description: ""
+description: |
+  This week there is a [vulnerability in VS Code](https://github.com/google/security-research/security/advisories/GHSA-pw56-c55x-cm9m). If you used VS Code, make sure to upgrade your VS To latest version after v1.73.1.
 
 links:
   - url: https://about.gitlab.com/blog/2022/11/28/how-we-diagnosed-and-resolved-redis-latency-spikes/
@@ -38,6 +39,12 @@ links:
     description: |
       Walk through tips for an app with 2000+ tests that does not have a severe flaky test problem
 
+  - url: https://www.construct.net/en/blogs/ashleys-blog-2/rts-devlog-optimizing-1604?utm_source=pocket_saves
+    title: "optimizing performance for 1000 units"
+    description: |
+      How to get intense multiplayer combat with 1000 units to use just 50kb/s bandwidth. Push JS Perf to the extreme.
+      The result is that with a simple "collision cells" optimization scheme, the overall CPU time of the server thread has been brought down by about 90%.
+
 video:
   - url: https://www.youtube.com/watch?v=8z6okCgdREo
     title: "GopherCon 2022: Jordan Neufeld - Exploring Network Programming by Building a Toxiproxy Clone"
@@ -72,6 +79,7 @@ read_code:
     title: "photon: an open-source incident light meter"
     description: |
       A hardware/firmware project
+    category: ['Python']
 
 tool:
   - url: https://github.com/GyulyVGC/sniffnet
