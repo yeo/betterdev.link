@@ -1,0 +1,104 @@
+time: "Dec 18, 2022"
+subject: "What every SRE should know about GNU/Linux shell related internals: file descriptors, pipes, terminals, user sessions, process groups and daemons"
+draft: false
+description: |
+
+links:
+  - url: https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-sessions-process-groups-and-daemons/
+    title: "What every SRE should know about GNU/Linux shell related internals: file descriptors, pipes, terminals, user sessions, process groups and daemons"
+    description: |
+      Have you ever thought about how a shell pipe works, how pressing the CTRL+C combination delivers the interrupt signal to the currently running shell processes, or how vim rewrites the content of the console when you change the size of your terminal window?
+
+  - url: https://www.pypy.org/posts/2022/12/jit-bug-finding-smt-fuzzing.html
+    title: Finding JIT Optimizer Bugs using SMT Solvers and Fuzzing
+    description: "Compiler is hard. JIT is hard? How can we avoid bug, and how can we even pove its correctness?  The author share with us how they uses the Z3 theorem prover to find bugs in the optimizer of PyPy's JIT, in particular its integer operation optimizations"
+
+  - url: https://lethain.com/how-to-estimate-disk-space/
+    title: "How to estimate disk space"
+    description: "Estimation doesn't look like a skill. But lets say we stated a new project and is about to provision a database, how big should we need for disk space? Now if we break down, how many row per day we may add, what data type, how much is the index. We can roughly get an estimation. On top of that, by breaking down giving us more understanding of each component."
+
+  - url: https://www.philipotoole.com/how-i-found-a-bug-in-sqlite/
+    title: "How I found a bug in sqlite"
+    description: |
+      rqlite is a lightweight, open-source, distributed relational database written in Go, which uses SQLite as its storage engine. Recently I introduced a high-performance write-path into rqlite and, to my great surprise, it exposed a bug in SQLite.
+
+  - url: https://dugas.ch/artificial_curiosity/GPT_architecture.html
+    title: The GPT-3 Architecture, on a Napkin
+    description: |
+      There are so many brilliant posts on GPT-3, demonstrating what it can do, pondering its consequences, vizualizing how it works. With all these out there, it still took a crawl through several papers and blogs before I was confident that I had grasped the architecture.
+      So the goal for this page is humble, but simple: help others build an as detailed as possible understanding of the GPT-3 architecture.
+
+  - url: https://web.dev/optimize-inp/
+    title: Optimize Interaction to Next Paint
+    description: |
+      Interaction to Next Paint (INP) is an experimental metric that assesses a page's overall responsiveness to user interactions by observing the latency of all click, tap, and keyboard interactions that occur throughout the lifespan of a user's visit to a page
+      To provide a good user experience, sites should strive to have an Interaction to Next Paint of 200 milliseconds or less
+
+  - url: https://www.simplethread.com/taming-names-in-software-development/
+    title: "Taming Names in Software Development"
+    description: |
+      What is a name? A name is a label, a handle, a pointer in your brain’s memory. A complex idea neatly encapsulated. A name lets you refer to “the economy” , or “dogfooding” mid-sentence without needing a three-paragraph essay to explain the term.
+
+  - url: https://www.righto.com/2022/11/how-8086-processors-microcode-engine.html
+    title: "How the 8086 processor's microcode engine works"
+    description: |
+      look at how the 8086 decides what microcode to run, steps through the microcode, handles jumps and calls inside the microcode, and physically stores the microcode. It was a challenge to fit the microcode onto the chip with 1978 technology, so Intel used many optimization techniques to reduce the size of the microcode.
+
+  - url: https://tweedegolf.nl/en/blog/79/sorting-with-simd
+    title: "Sorting with SIMD"
+    description: |
+      SIMD stands for single instruction, multiple data. A single instruction is used to apply the same operation to multiple pieces of data.
+      A single SIMD addition should be roughly 4 times faster than performing 4 individual additions.
+      How can this be used for sorting? Sorting does not involve arithmetic, and the whole idea of sorting is that each element moves to its unique correct place in the output
+
+  - url: https://will-keleher.com/posts/What-can-you-do-with-a-pid.html
+    title: "So, what can you do with a process ID?"
+    description: |
+      If you know a process ID, what information can we extract about it? Turning out a lot. You can know full command and argument, its environment variable when it runs.
+
+video:
+
+read_code:
+  - url: https://github.com/joeldrapper/phlex
+    title: phlex
+    description: A framework for building object-oriented views in Ruby
+    category: ['Ruby']
+
+  - url: https://github.com/adrienjoly/npm-pdfreader
+    title: pdfreader
+    description: "Parse text and tables from PDF files"
+    category: ['JavaScript']
+
+  - url: https://github.com/maxpert/marmot
+    title: marmot
+    description: |
+      A distributed SQLite replicator built on top of NATS
+    category: ['Go']
+
+  - url: https://github.com/facebookresearch/LaViLa
+    title: LaViLa
+    description: "Code release for Learning Video Representations from Large Language Models by Facebook. Given a video, how to generate its description?"
+    category: ['Python', 'ML']
+
+
+tool:
+  - url: https://github.com/daybrush/scenejs
+    title: scenejs
+    description: "JavaScript & CSS timeline-based animation library"
+
+  - url: https://smashing.github.io/
+    title: smashing
+    description: |
+      a fork of Dashing, an excellent framework created at Shopify for displaying custom dashboards on TVs around the office
+
+  - url: https://github.com/albfan/miraclecast?utm_source=pocket_reader
+    title: miraclecast
+    description: "provides software to connect external monitors to your system via Wi-Fi. It is compatible to the Wifi-Display specification also known as Miracast"
+
+  - url: https://d2lang.com/tour/intro/
+    title: d2lang
+    description: "a diagram scripting language that turns text to diagrams. It stands for Declarative Diagramming. Declarative, as in, you describe what you want diagrammed, it generates the image."
+
+  - url: https://github.com/MichaelMure/git-bug
+    title: git-bug
+    description: "Distributed, offline-first bug tracker embedded in git, with bridges"
