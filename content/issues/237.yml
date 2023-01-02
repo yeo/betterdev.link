@@ -13,7 +13,7 @@ links:
       There are some really interesting algorithms and data structures out there. Not only have they come up during job interviews, but learning them changed how I think about problems. Plus they're useful even if you don't work on Google-scale problems.
       One of interesting data structures I learn from this is piece tables to represent text buffer of an editor. [VScode use it too to implement their text buffer](https://code.visualstudio.com/blogs/2018/03/23/text-buffer-reimplementation).
 
-  - url: https://sudhir.io/uuids-ulids?utm_source=pocket_reader
+  - url: https://sudhir.io/uuids-ulids
     title: "Understanding UUIDs, ULIDs and String Representations"
     description: "an uuid looks like this `ff78ae6b-7176-46e9-81c6-4bee60ba81bb`? is uuid a string? how come it's has 128 bit?
       At its core, UUID is just a byte array, we can re-present that byte array in whatever encoding we want, base10, base64, base36, or hex."
@@ -46,7 +46,7 @@ links:
     description: "Filippo is a security expert who design and implement age encryption. He's probably most famous for his tool mkcert. So let's learn how security use password manager to secure their password day to day.
       I belived for engineers, password manager shouldn't be a cloud solution. we should self-hosted it and manage our own vault"
 
-  - url: https://mannhowie.com/ui-design-web?utm_source=pocket_reader
+  - url: https://mannhowie.com/ui-design-web
     title: "User interface design: 5 rules of thumbs"
     description: |
       Here are five rules of thumb you can apply to common UI design challenges when building web applications:
