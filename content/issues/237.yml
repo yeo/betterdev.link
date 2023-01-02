@@ -18,6 +18,11 @@ links:
     description: "an uuid looks like this `ff78ae6b-7176-46e9-81c6-4bee60ba81bb`? is uuid a string? how come it's has 128 bit?
       At its core, UUID is just a byte array, we can re-present that byte array in whatever encoding we want, base10, base64, base36, or hex."
 
+  - url: https://github.com/leandromoreira/cdn-up-and-running
+    title: "Learn how CDNs work by coding one from scratch"
+    description: "The CDN we're going to design uses: nginx, lua, docker, docker-compose, Prometheus, grafana, and wrk."
+
+
   - url: https://www.techtarget.com/whatis/definition/hexadecimal
     title: "What is hexadecimal"
     description: |
