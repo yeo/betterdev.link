@@ -1,0 +1,106 @@
+time: "Jan 2, 2023"
+subject: "Challenging algorithms and data structures every programmer should try"
+draft: false
+description: "
+  Happy new year everyone. 2022 was a brutal year for me. A few app and idea I was working on wasnt turning out well and my start-up also shutdown. At the end of 2022, I got a terrible COVID but luckily thing turn out well and here am I sending out this issue.
+  Hope 2023 will be a better year. I'll keep building software, trying out new ideas again, and keep sending newsletter :-).
+  If you like my newsletter, consider sponsor me on [https://www.buymeacoffee.com/betterdev](https://www.buymeacoffee.com/betterdev). Thank you so much for being audience all these years."
+
+links:
+  - url: https://austinhenley.com/blog/challengingalgorithms.html?utm_source=pocket_saves
+    title: "Challenging algorithms and data structures every programmer should try"
+    description: |
+      There are some really interesting algorithms and data structures out there. Not only have they come up during job interviews, but learning them changed how I think about problems. Plus they're useful even if you don't work on Google-scale problems.
+      One of interesting data structures I learn from this is piece tables to represent text buffer of an editor. [VScode use it too to implement their text buffer](https://code.visualstudio.com/blogs/2018/03/23/text-buffer-reimplementation).
+
+  - url: https://sudhir.io/uuids-ulids?utm_source=pocket_reader
+    title: "Understanding UUIDs, ULIDs and String Representations"
+    description: "an uuid looks like this `ff78ae6b-7176-46e9-81c6-4bee60ba81bb`? is uuid a string? how come it's has 128 bit?
+      At its core, UUID is just a byte array, we can re-present that byte array in whatever encoding we want, base10, base64, base36, or hex."
+
+  - url: https://www.techtarget.com/whatis/definition/hexadecimal
+    title: "What is hexadecimal"
+    description: |
+      To represent raw byte data, we cannot use ascii printable alone, there are many char cannot be print. So we need raw byte, but writing all 0 and 1 next to each other in a 8bit sequence gonna be long and hard to see.
+      Hexadecimal solve that problem very nice because it has a unique feature, one hex character can re-present 4 bit, which mean we need only 2 char to represent a byte. 
+
+  - url: https://blog.cavelab.dev/2022/12/rpi-security-alarm/
+    title: "Raspberry Pi security alarm — the basics"
+    description: |
+      Thomas shows us how he use Raspberry Pi to build a DIY security alarm system, using a Raspberry Pi as the controller. His plan was to make a self-sustained system, using proper alarm hardware — like PIR sensors and sirens.
+
+  - url: https://crypto.stackexchange.com/questions/31807/why-does-my-ssh-private-key-still-work-after-changing-some-bytes-in-the-file
+    title: "Why does my SSH private key still work after changing some bytes in the file?"
+    description: |
+      A very interesting aspect of SSH private key and. How their optimization allow the key to not require a certain part of the file.
+
+  - url: https://biriukov.dev/docs/page-cache/3-page-cache-and-basic-file-operations/
+    title: "Page Cache and basic file operations"
+    description: |
+      We linked to this site in last issue about pipe. This week we learn about page cache, file operation, and mmap syscall.
+      What happen when we read or write data? how does that generate a syscall and how kernel do it?
+      We know that the kernel cache data when you read a file, but how does we check what is cache, how do we inspect it? how does that data is invalidate
+
+  - url: https://words.filippo.io/dispatches/passage/
+    title: "my age+yubikeys password management solution"
+    description: "Filippo is a security expert who design and implement age encryption. He's probably most famous for his tool mkcert. So let's learn how security use password manager to secure their password day to day.
+      I belived for engineers, password manager shouldn't be a cloud solution. we should self-hosted it and manage our own vault"
+
+  - url: https://mannhowie.com/ui-design-web?utm_source=pocket_reader
+    title: "User interface design: 5 rules of thumbs"
+    description: |
+      Here are five rules of thumb you can apply to common UI design challenges when building web applications:
+        Use defaults,
+        Obvious settings,
+        Show progress,
+        Avoid interruptions,
+        Flat hierarchy.
+      Working on my second saas app(my first is [mailwip, an email forwarding service](https://mailwip.com)), I like these kind of UI articles.
+
+
+video:
+
+read_code:
+  - url: https://github.com/grokify/mogo
+    title: mogo
+    description: "A collection of small DRY Go utilities to make life easier. DRY = Don't Repeat Yourself."
+    category: ['Go']
+
+  - url: https://github.com/biox/pa
+    title: pa
+    description: "a simple password manager. encryption via age, written in portable posix shell. In the recent incident of LastPass, it maybe wise to roll out own password manager to ensure 100% our data is fully encrypted"
+    category: ['Bash']
+
+  - url: https://github.com/marsupialtail/quokka
+    title: quokka
+    description: "Open source SQL engine in Python. Also [checkout the why](https://github.com/marsupialtail/quokka/blob/master/blog/why.md)"
+    category: ['Python']
+
+  - url: https://github.com/soutaro/steep
+    title: steep
+    description: "Static type checker for Ruby"
+    category: ['Ruby']
+
+  - url: https://github.com/nextauthjs/next-auth
+    title: nextauth.js
+    description: "a complete open source authentication solution for Next.js applications.
+      It is designed from the ground up to support Next.js and Serverless.
+      The code is a monorepo of many small package so you may want to focus on next-auth package and the core"
+    category: ['JavaScript']
+
+tool:
+  - url: https://github.com/reactioncommerce/reaction
+    title: reaction
+    description: "Mailchimp Open Commerce is an API-first, headless commerce platform built using Node.js, React, GraphQL. Deployed via Docker and Kubernetes."
+
+  - url: https://github.com/openSUSE/snapper
+    title: snapper
+    description: "a tool for Linux file system snapshot management. Apart from the obvious creation and deletion of snapshots it can compare snapshots and revert differences between them. In simple terms, this allows root and non-root users to view older versions of files and revert changes."
+
+  - url: https://github.com/directus/directus
+    title: directus
+    description: "an instant REST+GraphQL API and intuitive no-code data collaboration app for any SQL database."
+
+  - url: https://github.com/immich-app/immich
+    title: immich
+    description: "Self-hosted photo and video backup solution directly from your mobile phone."
