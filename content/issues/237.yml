@@ -57,6 +57,9 @@ links:
         Flat hierarchy.
       Working on my second saas app(my first is [mailwip, an email forwarding service](https://mailwip.com)), I like these kind of UI articles.
 
+  - url: https://muffinman.io/blog/draw-svg-rope-using-javascript/
+    title: Draw SVG rope using JavaScript
+    description: "Today, I'll take you through the process I came up with in regard to transforming an SVG path into a vector rope drawing. You will learn how to turn a path into a true svg image with texture around the path."
 
 video:
 
