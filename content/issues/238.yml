@@ -48,12 +48,10 @@ links:
     title: "Docker on MacOS is slow and how to fix it"
     description: "A tutorial to walk through understanding why docker is slow in term of OS on mac and a few solution. In short, Mutagen is what I plan to look into for my work too. We linked to Mutagen before and it's a great tool. I heard good feedback"
 
-  - url: https://click.postapex.com/JIH44DpARpCtOxoNuxOXXZY_veD
-    title: "Start speaking a new language in just three weeks with Babbel"
+  - url: https://www.notamonadtutorial.com/verifiable-encryption-using-zero-knowledge-proofs/
+    title: "Verifiable AES: encryption using zero-knowledge proofs"
     description: |
-      earning to speak a new language goes beyond just vocabulary: it’s about being able to hold a real-life conversation with a local, and understanding the culture and the people of each place. Consider Babbel your expert-led passport to learning, with 10-minute lessons that are so effective, many users feel confident speaking a new language in just three weeks. Supplement those with the podcasts, games, articles and live online classes for a well-rounded education in weeks. Start learning a new language (and culture) today for up to 55% off.
-    category: ['sponsor']
-
+      Encryption is transforming messages into random-looking texts to ensure confidentiality between two parties. What is our objective here? We want to generate proof allowing us to verify an encryption algorithm, ensuring it does what it was designed for.
 
 read_code:
   - url: https://github.com/libreddit/libreddit
@@ -113,3 +111,11 @@ tool:
     title: goalert
     description: |
       Open source on-call scheduling, automated escalations, and notifications so you never miss a critical alert
+
+  - url: https://click.postapex.com/JIH44DpARpCtOxoNuxOXXZY_veD
+    title: "Start speaking a new language in just three weeks with Babbel"
+    description: |
+      earning to speak a new language goes beyond just vocabulary: it’s about being able to hold a real-life conversation with a local, and understanding the culture and the people of each place. Consider Babbel your expert-led passport to learning, with 10-minute lessons that are so effective, many users feel confident speaking a new language in just three weeks. Supplement those with the podcasts, games, articles and live online classes for a well-rounded education in weeks. Start learning a new language (and culture) today for up to 55% off.
+    category: ['sponsor']
+
+
