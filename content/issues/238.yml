@@ -1,0 +1,115 @@
+time: "Jan 9, 2023"
+subject: "Avoiding Double Payments in a Distributed Payments System"
+draft: false
+description: "
+  Hi everyone, this week is security week.
+
+  First, if you used CircleCI, make sure to rotate any secret since they [suffered a breach](https://circleci.com/blog/january-4-2023-security-alert/).
+  Second, Slack private repository got hacked too, and there is no customer data there but regardless, if your company use Slack, best to be rotate as well.
+  Third, Pytorch got a [supply chain attack and compromise too](https://pytorch.org/blog/compromised-nightly-dependency/), luckily only for nightly build, so if you don't use nightly build, you're fine"
+
+links:
+  - url: https://medium.com/airbnb-engineering/avoiding-double-payments-in-a-distributed-payments-system-2981f6b070bb
+    title: "Avoiding Double Payments in a Distributed Payments System"
+    description: |
+      How we built a generic idempotency framework to achieve eventual consistency and correctness across our payments micro-service architecture.
+
+  - url: https://click.postapex.com/n9EzvSgCzbGqRTSYS~ngmRUVSHI
+    title: "Streamline the way you manage your business’s Apple devices with Jamf Now"
+    description: |
+      Managing your business’s Apple devices can be a headache if you don’t have a robust IT team—but you’re savvier than that. With Jamf Now, you bypass the confusion and head straight to streamlining Apple mobile device management. This integration makes it easy for biz leaders to deploy, oversee, and secure employees’ devices, while staff enjoys a simple and smooth user experience. Sign up for a free account now with the capabilities to manage three devices, and add more for just $2 per device each month.
+    category: ['sponsor']
+
+  - url: https://www.bitsaboutmoney.com/archive/the-infrastructure-behind-atms/
+    title: "The infrastructure behind ATMs"
+    description: |
+      This isn't quite a technical post but I think it's amazing that  when we walk to ATM and withdrawal our money, it just works and very reliable too.
+
+  - url: https://engineering.mercari.com/en/blog/entry/20221218-migrations-the-wrong-way/
+    title: "moving to cloud: How to do Migrations the wrong way"
+    description: "Mercri ecently moved databases from local files in the codebase to an online Database. It took longer than expected but with good reason.
+      The project started as POC and turn into a success, so they live with data in local files until traffic spike 10x and data is added at the 10x rate too"
+
+  - url: https://brandur.org/fragments/deleted-record-insert
+    title: "Easy, alternative soft deletion: `deleted_record_insert`"
+    description: |
+      Soft delete is a technique where instead of removing data, we flag it as deleted by using a column like "deleted: true" or "deleted_at: time". It seemed smart, cool, and very convenience since the data is there to refer back.
+      However, it is easy to lead to mistake and complex our query. Every query has to check for it, index need to be built around, whoever join data need to check for it and so on.
+      It adds up quickly and everytime I used it, I regret in the end,  and just delete data for real.
+      Here is another middle approach: use a completely new table with jsonb to store the whole record.
+
+  - url: https://www.joshwcomeau.com/css/understanding-layout-algorithms/
+    title: "Understanding Layout Algorithms"
+    description: |
+      Working with CSS layout is like just tweaking thing unil it works, exmaple the margin collasible I found is very confusing.
+      The author share with us the mental model shift that makes CSS more intuitive
+
+  - url: https://www.paolomainardi.com/posts/docker-performance-macos/
+    title: "Docker on MacOS is slow and how to fix it"
+    description: "A tutorial to walk through understanding why docker is slow in term of OS on mac and a few solution. In short, Mutagen is what I plan to look into for my work too. We linked to Mutagen before and it's a great tool. I heard good feedback"
+
+  - url: https://click.postapex.com/JIH44DpARpCtOxoNuxOXXZY_veD
+    title: "Start speaking a new language in just three weeks with Babbel"
+    description: |
+      earning to speak a new language goes beyond just vocabulary: it’s about being able to hold a real-life conversation with a local, and understanding the culture and the people of each place. Consider Babbel your expert-led passport to learning, with 10-minute lessons that are so effective, many users feel confident speaking a new language in just three weeks. Supplement those with the podcasts, games, articles and live online classes for a well-rounded education in weeks. Start learning a new language (and culture) today for up to 55% off.
+    category: ['sponsor']
+
+
+read_code:
+  - url: https://github.com/libreddit/libreddit
+    title: "libreddit"
+    description: |
+      Reddit UI is very slow to load, constantly nagge us to use mobile app.
+      Luckily they have a very openapi and people build UI on top of it. librreddit is built on rust, focus on content and run very fast.
+      Part of my routine is source content from Reddit and IO found libreddit is a much easiser way to navigate reddit nowadays.
+    category: ['Rust']
+
+  - url: https://github.com/yuin/gopher-lua
+    title: "gopher-lua"
+    description: |
+      a VM and compiler for Lua in Go. A good tool to add scriptable feature to your app. Another I approach I used is [Otto](https://github.com/robertkrimen/otto)
+    category: ['Go']
+
+  - url: https://github.com/karpathy/nanoGPT
+    title: nanoGPT
+    description: |
+      The simplest, fastest repository for training/finetuning medium-sized GPTs.
+      I like these small codebase to help me understanding more about these GPT and AI concept.
+    category: ['Python']
+
+  - url: https://github.com/google/osv.dev
+    title: osv.dev
+    description: |
+      osv.dev is a vulnerability database and triage infrastructure for open source projects aimed at helping both open source maintainers and consumers of open source.
+    category: ['Python']
+
+  - url: https://github.com/ronin-rb/ronin
+    title: ronin
+    description: "Ronin is a free and Open Source Ruby toolkit for security research and development. Ronin also allows for the rapid development and distribution of code, exploits, payloads, etc, via 3rd party git repositories.
+    It's quite a big codebase but we can learn how thing is structure in these kind of tool."
+    category: ['Ruby']
+
+tool:
+  - url: https://github.com/FerretDB/FerretDB
+    title: FerretDB
+    description: |
+      A MongoDB compatible server but use Postgres to persist data behind the scene. Most MongoDB users do not require any advanced features offered by MongoDB; however, they need an easy-to-use open-source database solution. Recognizing this, FerretDB is here to fill that gap.
+  - url: https://github.com/RustScan/RustScan
+    title: RustScan
+    description: "The modern port scanner"
+
+  - url: https://github.com/charmbracelet/wish
+    title: "wish: Make SSH apps, just like that! "
+    description: |
+      This probably should be in "Read code" but I think it could be a very valuable tools to design SSH-based tool.
+      One of my use case is I have a very expensive build server which maynot being used often, let them run around is costly, so I setup a smaller node, and forward TCP traffic to the bigger node. When there is no connection, it shutdown the expensive node, and when the first request come in, it boot up the expensive server.
+
+  - url: https://github.com/google/cdc-file-transfer
+    title: cdc-file-transfer
+    description: |
+      Tools for synching and streaming files from Windows to Linux extract from Google Stadia project.
+
+  - url: https://github.com/target/goalert
+    title: goalert
+    description: |
+      Open source on-call scheduling, automated escalations, and notifications so you never miss a critical alert
