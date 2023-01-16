@@ -9,6 +9,12 @@ links:
     description: |
       This could be the equivalent of the in famous "what happen when you type an address into the browser", but for terminal which we interact on a daily basis but may forgot or not having a full understand of its architecture.
 
+  - url: https://click.postapex.com/JIH44DpARpCtOxoNuxOXXZY_veD
+    title: "Start speaking a new language in just three weeks with Babbel"
+    description: |
+      Learning to speak a new language goes beyond just vocabulary: it’s about being able to hold a real-life conversation with a local, and understanding the culture and the people of each place. Consider Babbel your expert-led passport to learning, with 10-minute lessons that are so effective, many users feel confident speaking a new language in just three weeks. Supplement those with the podcasts, games, articles and live online classes for a well-rounded education in weeks. Start learning a new language (and culture) today for up to 55% off.
+    category: ['sponsor']
+
   - url: https://www.suse.com/c/making-sense-hexdump/
     title: "Making Sense of Hexdump"
     description: |
@@ -52,7 +58,7 @@ links:
     title: "Peeking into HTTPS Traffic with a Proxy"
     description: "
       This article is about configuring a web application, Appsmith in this case, to run correctly behind a firewall that does SSL decryption, as a Docker container. Instead of a firewall, we’ll use a proxy, which, for the purpose of the problem statement, should be the same.
-      We usually don't include these kind of "how-to" tutorial, but I feel like it helps a lot when debugging or reversing API traffic and that's a really powerful tool to have in your toolbox"
+      We usually don't include these kind of \"how-to\" tutorial, but I feel like it helps a lot when debugging or reversing API traffic and that's a really powerful tool to have in your toolbox"
 
 
 read_code:
@@ -125,3 +131,10 @@ tool:
     title: FastQL
     description: |
       Spin up a blazing fast Rust GraphQL API to serve your ML model in one line of Python code.
+
+  - url: https://click.postapex.com/affiliate/F8Jn3FZy4D_U5D_w6Bilbz-H9dZ
+    title: "Create amazing content quickly with Canva – no design skills needed"
+    description: |
+      Canva Pro is the design software that makes design simple, convenient, and reliable. Create what you need in no time! Jam-packed with time-saving tools that make anyone look like a professional designer.
+    category: ['sponsor']
+
