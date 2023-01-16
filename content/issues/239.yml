@@ -1,0 +1,127 @@
+time: "Jan 16, 2023"
+subject: "What happens when you open a terminal and enter ‘ls’"
+draft: false
+description: ""
+
+links:
+  - url: https://www.warp.dev/blog/what-happens-when-you-open-a-terminal-and-enter-ls
+    title: "What happens when you open a terminal and enter ‘ls’"
+    description: |
+      This could be the equivalent of the in famous "what happen when you type an address into the browser", but for terminal which we interact on a daily basis but may forgot or not having a full understand of its architecture.
+
+  - url: https://www.suse.com/c/making-sense-hexdump/
+    title: "Making Sense of Hexdump"
+    description: |
+      hexdump is very versatile and allows you to look at the structure inside binary files as you see fit and once you learn how to use it you can apply it quickly to many problems. I think that easily qualifies as cool.
+
+  - url: https://jvns.ca/blog/2023/01/13/examples-of-floating-point-problems/
+    title: "Examples of floating point problems"
+    description: "We keep hearing floating point issue and their issue but at a higher or abstraction level. Are there any specific examples that we can practical see how bad it's"
+
+  - url: https://michael.stapelberg.ch/posts/2022-07-02-rsync-how-does-it-work/
+    title: "How does rsync work"
+    description: |
+      Third article in a series of blog posts about rsync. This posts is about data transfering, split and checksum multi part of the files.
+
+  - url: https://thume.ca/2023/01/02/one-machine-twitter/
+    title: "Production Twitter on One Machine? 100Gbps NICs and NVMe are fast"
+    description: |
+      In this post I’ll attempt the fun stunt of designing a system that could serve the full production load of Twitter with most of the features intact on a single (very powerful) machine. I’ll start by showing off a Rust prototype of the core tweet distribution data structure handling 35x full load by fitting the hot set in RAM and parallelizing with atomics, and then do math around how modern high-performance storage and networking might let you serve a close-to-fully-featured Twitter on one machine.
+
+  - url: https://frederik-braun.com/origins-sites-and-other-terminologies.html
+    title: "Origins, Sites and other Terminologies"
+    description: |
+      Cross origin request? What is that? Why loading an image work, including a JS from other domain works? but make ajax request won't or cookie won't get send? What are all the terms?
+
+  - url: https://dusted.codes/the-type-system-is-a-programmers-best-friend
+    title: "The type system is a programmer's best friend"
+    description: |
+      Have you ever write this kind of code? `copy(from_path, to_path)` and accidentally paste the argument in reverse? If we use type we can avoid that?
+      Or even typo, especially when using enum type.
+
+  - url: https://jakearchibald.com/2023/unhandled-rejections/
+    title: "The gotcha of unhandled promise rejections"
+    description: |
+      NodeJS/JavaScript runtime run like a giant for loop and check for thing to do, these thing can in turn queue other things. What happen if they throw promise error which we forgot to handle?
+      When that happen the execution halt in node or throw error in browser and stop the execution of JS right there, no more further JS after that point in your code get run. The point is, you want to avoid unhandled rejections.
+
+  - url: https://mort.coffee/home/fast-interpreters/
+    title: "Faster virtual machines: Speeding up programming language execution"
+
+  - url: https://www.appsmith.com/blog/peeking-into-https-traffic-with-a-proxy
+    title: "Peeking into HTTPS Traffic with a Proxy"
+    description: "
+      This article is about configuring a web application, Appsmith in this case, to run correctly behind a firewall that does SSL decryption, as a Docker container. Instead of a firewall, we’ll use a proxy, which, for the purpose of the problem statement, should be the same.
+      We usually don't include these kind of "how-to" tutorial, but I feel like it helps a lot when debugging or reversing API traffic and that's a really powerful tool to have in your toolbox"
+
+
+read_code:
+  - url: https://github.com/khonsulabs/okaywal
+    title: okaywal
+    description: "A Write Ahead Log (WAL) implementation in Rust"
+    category: ['Rust']
+
+  - url: https://github.com/red-data-tools/YouPlot
+    title: YouPlot
+    description: "A command line tool that draw plots on the terminal."
+    category: ['Ruby']
+
+
+  - url: https://github.com/dulnan/lazy-brush
+    title: lazy-brush
+    description: |
+      Smooth drawing with mouse, finger or other pointing device. I like these kind of code, it has a lot to learn about graphic, matrix and interesting algorithm to draw things that seem trivial.
+    category: ['TypeScript']
+
+  - url: https://github.com/panjf2000/gnet
+    title: gnet
+    description: |
+      high-performance, lightweight, non-blocking, event-driven networking framework written in pure Go.
+      it makes direct epoll and kqueue syscalls rather than using the standard Go net package and works in a similar manner as netty and libuv, which makes gnet achieve a much higher performance than Go net.
+    category: ['Go']
+
+  - url: https://github.com/Koukyosyumei/AIJack
+    title: AIJack
+    description: |
+      Security and Privacy Risk Simulator for Machine Learning
+    category: ['Python']
+
+tool:
+  - url: https://github.com/jafarlihi/sysm
+    title: sysm
+    description: "makes your system play custom sounds when any configured system or external event happens"
+
+  - url: https://terranix.org/
+    title: terranix
+    description: |
+      Terrform support a syntax in JSON instead of HCL. So if we can generate that JSON, we can build another abstraction that work with Terraform. This tools allow you to use Nix as the language to generate JSON.
+
+  - url: https://github.com/appsmithorg/appsmith
+    title: appsmith
+    description: "Low code project to build admin panels, internal tools, and dashboards. Integrates with 15+ databases and any API."
+
+  - url: https://github.com/cloudflare/wildebeest
+    title: wildebeest
+    description: "an ActivityPub and Mastodon-compatible server written in TypeScript and runs on top Cloudflare's Supercloud, uses Workers and Pages, the D1 database to store metadata and configurations, Zero Trust Access to handle authentication and Images for media handling. Essentially kind of like a full featured webapp deploy on serverless infrastructure including the database"
+
+
+  - url: https://github.com/permitio/opal
+    title: opal
+    description: an administration layer for Open Policy Agent (OPA), detecting changes to both policy and policy data in realtime and pushing live updates to your agents. OPAL brings open-policy up to the speed needed by live applications.
+
+
+  - url: https://github.com/uselotus/lotus
+    title: lotus
+    description: |
+      Open Source Pricing & Packaging Infrastructure for SaaS
+
+
+  - url: https://github.com/groundcover-com/caretta?ck_subscriber_id=1898308866
+    title: caretta
+    description: |
+      Instant K8s service dependency map, right to your Grafana.
+
+  - url: https://github.com/happy-machine/FastQL
+    title: FastQL
+    description: |
+      Spin up a blazing fast Rust GraphQL API to serve your ML model in one line of Python code.
