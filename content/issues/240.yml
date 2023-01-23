@@ -1,0 +1,133 @@
+time: "Jan 23, 2023"
+subject: "Hello, PNG"
+draft: false
+description: ""
+
+links:
+  - url: https://www.da.vidbuchanan.co.uk/blog/hello-png.html
+    title: "Hello, PNG"
+    description: |
+      Only 2 formats that support transparent on the web is GIF and PNG. GIF is out of the option with its limited 256 colors. So how does PNG works, how can we hand write a PNG file. This is exactly that.
+
+  - url: https://www.gamedeveloper.com/programming/1500-archers-on-a-28-8-network-programming-in-age-of-empires-and-beyond
+    title: "Network Programming in Age of Empires and Beyond"
+    description: |
+      Multi player game is a distributed systems where they cannot wait for an acknolwedge write of the slowest node in the clusters. This artcile explains the design architecture, implementation, and some of the lessons learned creating the multiplayer (networking) code for the Age of Empires 1 & 2 games; and discusses the current and future networking approaches used by Ensemble Studios in its game engines.
+
+  - url: https://click.postapex.com/JIH44DpARpCtOxoNuxOXXZY_veD
+    title: "Start speaking a new language in just three weeks with Babbel"
+    description: |
+      Learning to speak a new language goes beyond just vocabulary: it’s about being able to hold a real-life conversation with a local, and understanding the culture and the people of each place. Consider Babbel your expert-led passport to learning, with 10-minute lessons that are so effective, many users feel confident speaking a new language in just three weeks. Supplement those with the podcasts, games, articles and live online classes for a well-rounded education in weeks. Start learning a new language (and culture) today for up to 55% off.
+    category: ['sponsor']
+
+  - url: https://blogs.windows.com/msedgedev/2023/01/17/the-truth-about-css-selector-performance/
+    title: "The truth about CSS selector performance"
+    description: "It’s likely faster for the browser engine to match just `.link` than it is to match this longer `.wrapper .section .title .link` selector. There are just fewer things to check. Turning not quite in practice."
+
+
+  - url: https://aws.amazon.com/builders-library/fairness-in-multi-tenant-systems/
+    title: "Fairness in multi-tenant system"
+    description: |
+      Multi tenant system is usually cheaper because they have higher resource utilization leads to less server. But in multi tenancy system, an increas load on a client may affect other.
+      In this article we look at How AWS approach this problem with rate limiting.
+
+  - url: https://educatedguesswork.org/posts/transport-protocols-intro/?utm_source=pocket_reader
+    title: "Internet Transport Protocols, Part I: Reliable Transports"
+    description: |
+      Most people who use the Internet just have some vague idea that it carries data from point A to point B (famously, through a series of tubes). Even people who regularly work on Internet systems tend to work with it through many layers of abstraction, without a clear understanding of the infrastructure components that make it work. This post is the first of a series about one such piece of infrastructure: the transport protocols such as TCP that are used to transmit between nodes on the Internet
+
+  - url: https://kentcdodds.com/blog/fixing-a-memory-leak-in-a-production-node-js-app
+    title: "Fixing a Memory Leak in a Production Node.js App"
+    description: "It's a very interesting walk through of fixing memory leaks in a web app. Find leads, come up with theories, test it, rinse and repeat"
+
+  - url: https://csswizardry.com/2023/01/why-not-document-write/
+    title: "Why Not document.write()?"
+    description: "why document.write() is so harmful? Actually not that harmful but only in a few specific condition"
+
+  - url: https://randomascii.wordpress.com/2023/01/17/no-start-menu-for-you
+    title: "No Start Menu for You"
+    description: "What do you do if it takes a minute to launch NotePad on window? On a 32GB RAM, SSD laptop.  In general if you want to understand why your computer is performing badly you need to record and analyze a trace. However if you want to see if you are hitting a particular problem then there are easier steps that you can follow."
+
+read_code:
+  - url: https://github.com/evilsocket/opensnitch
+    title: "OpenSnitch is a GNU/Linux port of the Little Snitch application firewall"
+    description: |
+      Interactive outbound connections filtering.
+    category: ['Python', 'Go']
+
+  - url: https://github.com/keyval-dev/odigos
+    title: "Odigos"
+    description: Instant distributed traces without code changes. 🚀 Boost existing monitoring tools with higher-quality data
+    category: ['Go']
+
+  - url: https://github.com/BlinkDL/ChatRWKV
+    title: ChatRWKV
+    description: like ChatGPT but powered by the RWKV (100% RNN) language model, and open source.
+    category: ['Python']
+
+  - url: https://github.com/rough-stuff/rough-notation
+    title: rough-notation
+    description: |
+      Create and animate hand-drawn annotations on a web page. Very interesting to use this to add some nice animation when user finished an action.
+    category: ['JavaScript']
+
+  - url: https://github.com/ankane/polars-ruby
+    title: polars-ruby
+    description: |
+      🔥 Blazingly fast DataFrames for Ruby
+    category: ['Ruby']
+
+  - url: https://github.com/Sorcery/sorcery
+    title: sorcery
+    description: Magical Authentication for Rails. Supports ActiveRecord, DataMapper, Mongoid and MongoMapper. Despite the name, there is no magic at all. Just code that you use inside your controller
+    category: ['Ruby']
+
+  - url: https://github.com/linebender/xilem
+    title: xilem
+    description: |
+      An experimental Rust native UI framework, still small enough and straight forward to read and understand the code and the proceess of building a UI framework. For a production ready, more feature set, check out [dioxus, a friendly React-like GUI library for desktop, web, mobile, and more](https://github.com/DioxusLabs/dioxus)
+    category: ['Rust']
+
+tool:
+  - url: https://github.com/knative-sandbox/security-guard
+    title: "security-guard"
+    description: "Runtime security plug to protect user containers"
+
+  - url: https://github.com/polarstreams/polar
+    title: polar
+    description: |
+      Lightweight & elastic kubernetes-native event streaming system
+
+  - url: https://rete.js.org/#/
+    title: rete.js
+    description: |
+      Rete is a modular framework for visual programming. Rete allows you to create node-based editor directly in the browser. You can define nodes and workers that allow users to create instructions for processing data in your editor without a single line of code
+
+  - url: https://github.com/getsleuth/Sleuth
+    title: "Sleuth"
+    description: |
+      an open-core enterprise search tool that allows organizations to search text from various workspace apps such as Slack, Jira, Salesforce, and Confluence.
+
+  - url: https://github.com/uselotus/lotus
+    title: lotus
+    description: "Open Source Pricing & Packaging Infrastructure"
+
+
+  - url: https://github.com/datafold/data-diff
+    title: data-diff
+    description: Efficiently diff data in or across relational databases
+
+  - url: https://github.com/libsql/sqld
+    titl: sqld
+    description: |
+      The sqld ("SQL daemon") project is a server mode for libSQL, which is fork of SQLite.
+      Interesting is that it support PostgreSQL wire protocol and read replication.
+
+  - url: https://geoserver.org
+    title: geoserver
+    description: "an open source server for sharing geospatial data"
+
+  - url: https://click.postapex.com/affiliate/dWY4FteQINFwl1JlFtoJ8AcYKlT
+    title: "Revolut: Sign up and get Revolut Premium free for 3 months!"
+    description: "Banks will charge you when you spend or transfer money abroad. We’re not about that, and that’s why over four million people have switched to Revolut."
+    category: ['sponsor']
