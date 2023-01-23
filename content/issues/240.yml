@@ -4,6 +4,12 @@ draft: false
 description: ""
 
 links:
+  - url: https://click.postapex.com/JIH44DpARpCtOxoNuxOXXZY_veD
+    title: "Start speaking a new language in just three weeks with Babbel"
+    description: |
+      Learning to speak a new language goes beyond just vocabulary: it’s about being able to hold a real-life conversation with a local, and understanding the culture and the people of each place. Consider Babbel your expert-led passport to learning, with 10-minute lessons that are so effective, many users feel confident speaking a new language in just three weeks. Supplement those with the podcasts, games, articles and live online classes for a well-rounded education in weeks. Start learning a new language (and culture) today for up to 55% off.
+    category: ['sponsor']
+
   - url: https://www.da.vidbuchanan.co.uk/blog/hello-png.html
     title: "Hello, PNG"
     description: |
@@ -14,11 +20,10 @@ links:
     description: |
       Multi player game is a distributed systems where they cannot wait for an acknolwedge write of the slowest node in the clusters. This artcile explains the design architecture, implementation, and some of the lessons learned creating the multiplayer (networking) code for the Age of Empires 1 & 2 games; and discusses the current and future networking approaches used by Ensemble Studios in its game engines.
 
-  - url: https://click.postapex.com/JIH44DpARpCtOxoNuxOXXZY_veD
-    title: "Start speaking a new language in just three weeks with Babbel"
+  - url: https://johnnyreilly.com/2023/01/15/how-i-ruined-my-seo
+    title: "How I ruined my SEO"
     description: |
-      Learning to speak a new language goes beyond just vocabulary: it’s about being able to hold a real-life conversation with a local, and understanding the culture and the people of each place. Consider Babbel your expert-led passport to learning, with 10-minute lessons that are so effective, many users feel confident speaking a new language in just three weeks. Supplement those with the podcasts, games, articles and live online classes for a well-rounded education in weeks. Start learning a new language (and culture) today for up to 55% off.
-    category: ['sponsor']
+      In October 2022 traffic to my blog dropped like a stone. What happened? Somehow I ruined my SEO. Don't be me. I'll tell you what I got up to and hopefully you can avoid doing the same.
 
   - url: https://blogs.windows.com/msedgedev/2023/01/17/the-truth-about-css-selector-performance/
     title: "The truth about CSS selector performance"
