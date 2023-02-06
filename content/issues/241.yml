@@ -4,7 +4,7 @@ draft: false
 description: ""
 
 links:
-  - url: https://jam.dev/blog/famous-bugs-rocket-launch/?utm_source=pocket_reader
+  - url: https://jam.dev/blog/famous-bugs-rocket-launch/
     title: "How a single line of code brought down a half-billion euro rocket launch"
     description: |
       How a rocket launch fail? Re-use of code written for 32-bit system on a 64-bit data range.
@@ -30,7 +30,7 @@ links:
     description: |
       DNS in kubernetes is more complex than in a normal server. Because there are service dns, and they have namespace and cluster domain as suffix, but namespace and cluster domain can be omitted. Therefore it creates more work to check wherether a name belongs to k8s resources.
 
-  - url: https://gilslotd.com/blog/features_id_postgresql?utm_source=pocket_reader
+  - url: https://gilslotd.com/blog/features_id_postgresql
     title: "Features I'd like in PostgreSQL"
     description: |
       PostgreSQL is impressive with its featureset. But there are always gotcha and annoying. I also learn some useful pg extension such as `pg_safeupdate` to block update/delete without a `where` filter.
@@ -49,7 +49,7 @@ links:
     title: "Carving the Scheduler Out of Our Orchestrator"
     description: "fly.io allow you to deploy your app as in a Heroku experience. They use Nomand behinds the scene, and out grow it so the build `flyd`. It's quite different from K8S or Nomand.  flyd operates like a market. Requests to schedule jobs are bids for resources; workers are suppliers."
 
-  - url: https://jvns.ca/blog/2023/01/13/examples-of-floating-point-problems/?utm_source=programmingdigest&utm_medium&utm_campaign=1500
+  - url: https://jvns.ca/blog/2023/01/13/examples-of-floating-point-problems/
     title: "Examples of floating point problems"
 
   - url: https://medium.com/@sdboyer/so-you-want-to-write-a-package-manager-4ae9c17d9527
