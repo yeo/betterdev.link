@@ -73,7 +73,8 @@ read_code:
     category: ['TypeScript']
 
   - url: https://github.com/jhawthorn/pub_grub
-    title: a must read for Ruby dev. This is the new bundler resolver to find gem version to install. Natalie is the original author that [invented the algorithm](https://nex3.medium.com/pubgrub-2fb6470504f)
+    title: pub_grub
+    description: a must read for Ruby dev. This is the new bundler resolver to find gem version to install. Natalie is the original author that [invented the algorithm](https://nex3.medium.com/pubgrub-2fb6470504f)
     category: ['Ruby']
 
   - url: https://github.com/yuin/goldmark
