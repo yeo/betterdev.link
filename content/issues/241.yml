@@ -1,0 +1,132 @@
+time: "Feb 06, 2023"
+subject: "How a single line of code brought down a half-billion euro rocket launch"
+draft: false
+description: ""
+
+links:
+  - url: https://jam.dev/blog/famous-bugs-rocket-launch/?utm_source=pocket_reader
+    title: "How a single line of code brought down a half-billion euro rocket launch"
+    description: |
+      How a rocket launch fail? Re-use of code written for 32-bit system on a 64-bit data range.
+
+  - url: https://arxiv.org/pdf/2302.01024.pdf
+    title: "SSO-MONITOR: Fully-Automatic Large-Scale Landscape, Security, and Privacy Analyses of Single Sign-On in the Wild"
+    description: |
+      a paper on an open-source fully automatic large-scale SSO landscape, security, and privacy analysis tool.
+      They automatically identified 1,632 websites with 3,020 Apple, Facebook, or Google logins within the Tranco 10k and analyse them. Some fact such as 10% of SSO is failed because of mis-configuring redirect_uris.
+      The paper is also a remind for us to cleanup stuff and make sure our SSO, especially for internal tooling/documents is up to date with the right config.
+
+  - url: https://herbcaudill.com/words/20190219-rewrite-refactor-reinvent
+    title: "Rewrite, refactor, or reinvent?"
+    description: |
+      A new take on the age-old question: Should you rewrite your application from scratch, or is that “the single worst strategic mistake that any software company can make”? Turns out there are more than two options for dealing with a mature codebase.
+
+  - url: https://www.nslookup.io/learning/the-life-of-a-dns-query-in-kubernetes/
+    title: "The life of a DNS query in Kubernetes"
+    description: |
+      DNS in kubernetes is more complex than in a normal server. Because there are service dns, and they have namespace and cluster domain as suffix, but namespace and cluster domain can be omitted. Therefore it creates more work to check wherether a name belongs to k8s resources.
+
+  - url: https://gilslotd.com/blog/features_id_postgresql?utm_source=pocket_reader
+    title: "Features I'd like in PostgreSQL"
+    description: |
+      PostgreSQL is impressive with its featureset. But there are always gotcha and annoying. I also learn some useful pg extension such as `pg_safeupdate` to block update/delete without a `where` filter.
+
+  - url: https://www.cybertec-postgresql.com/en/transaction-id-wraparound-a-walk-on-the-wild-side/
+    title: "Transaction ID Wraparound: A Walk on the Wild Side"
+    description: |
+      Many people know horror stories about anti-wraparound autovacuum tanking performance or databases that stop working, but who has ever seen actual data loss? The most [high profile public incident](https://blog.sentry.io/2015/07/23/transaction-id-wraparound-in-postgres/) with this that I know was belong to Sentry
+
+ - url: https://www.openmymind.net/Writing-A-Custom-Sqlite-Function-Part-1/
+    title: "Writing a Custom SQLite Function (in C) - Part 1"
+    description: |
+      In this short series, we're going to add a user defined function to SQLite in C. We'll go through the process slowly and in a way which, I hope, a C novice can follow
+
+  - url: https://fly.io/blog/carving-the-scheduler-out-of-our-orchestrator/
+    title: "Carving the Scheduler Out of Our Orchestrator"
+    description: "fly.io allow you to deploy your app as in a Heroku experience. They use Nomand behinds the scene, and out grow it so the build `flyd`. It's quite different from K8S or Nomand.  flyd operates like a market. Requests to schedule jobs are bids for resources; workers are suppliers."
+
+  - url: https://jvns.ca/blog/2023/01/13/examples-of-floating-point-problems/?utm_source=programmingdigest&utm_medium&utm_campaign=1500
+    title: "Examples of floating point problems"
+
+  - url: https://medium.com/@sdboyer/so-you-want-to-write-a-package-manager-4ae9c17d9527
+    title: So you want to write a package manager
+    description: |
+      A very old post in 2016 laid out challenges to deal when building a packaga manager.
+
+  - url: https://www.srepath.com/rundown-of-linkedins-sre-practices/
+    title: "Rundown of LinkedIn’s SRE practices"
+
+read_code:
+  - url: https://github.com/antirez/aocla/
+    title: aocla
+    description: |
+      A small stack based, written by Antirez, Redis author, to bring Advent of Code 2022 Day 13 puzzle to the extreme consequences
+    category: ['C']
+
+  - url: https://github.com/amandaghassaei/gpu-io
+    title: gpu-io
+    description: "A GPU-accelerated computing library for physics simulations and other mathematical calculations"
+    category: ['TypeScript']
+
+  - url: https://github.com/jhawthorn/pub_grub
+    title: a must read for Ruby dev. This is the new bundler resolver to find gem version to install. Natalie is the original author that [invented the algorithm](https://nex3.medium.com/pubgrub-2fb6470504f)
+    category: ['Ruby']
+
+  - url: https://github.com/yuin/goldmark
+    title: goldmark
+    description: |
+      A Markdown parser written in Go. Easy to extend, standards-compliant, well-structured.
+    category: ['Go']
+
+  - url: https://github.com/facebookresearch/DiT
+    title: DiT
+    description: |
+      Official PyTorch Implementation of "Scalable Diffusion Models with Transformers"
+    category: ['Python']
+
+  - url: https://github.com/drifting-in-space/driftdb
+    title: driftdb
+    description: |
+      a real-time data backend for browser-based applications. It can also deploy on CloudFlare Workers amd Diran;e Pnkects
+    category: ['Rust', 'JavaScript']
+
+
+tool:
+  - url: https://github.com/parseablehq/parseable
+    title: parseable
+    description: |
+      a modern log store and analysis engine, lightweight, low latency, cloud native alternative to Elastic. Log can store on local drive or S3. Data can query using PostgreSQL compatible SQL.
+
+  - url: https://github.com/alasql/alasql
+    title: alasql
+    description: |
+      JavaScript SQL database for browser and Node.js. Handles both traditional relational tables and nested JSON data (NoSQL). Export, store, and import data from localStorage, IndexedDB, or Excel.
+
+  - url: https://github.com/ankane/pgslice
+    title: pgslice
+    description: |
+      Postgres partitioning as easy as pie. Works great for both new and existing tables, with zero downtime and minimal app changes. No need to install anything on your database server. Archive older data on a rolling basis to keep your database size under control.
+
+  - url: https://github.com/ronin-rb/
+    title: ronin
+    description: |
+      a free and Open Source Ruby toolkit for security research and development. It can perform many security tasks, such as encoding/decoding data, filter IPs/hosts/URLs, querying ASNs, querying DNS, HTTP, scanning for web vulnerabilities, spidering websites, install 3rd party repositories of exploits and/or payloads, run exploits, write new exploits, managing local databases, fuzzing data,
+
+  - url: https://github.com/LAION-AI/Open-Assistant
+    title: Open-Assistant
+    description: |
+      OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.
+
+  - url: https://github.com/k1LoW/tbls
+    title: tlbs
+    description: |
+      a CI-Friendly tool for document a database, written in Go.
+
+  - url: https://github.com/jnidzwetzki/pg-lock-tracer
+    title: "pg-lock-tracer"
+    description: "This project provides tools that allow you to gain deep insights into PostgreSQL's locking activities and troubleshoot locking-related issues (e.g., performance problems or deadlocks)."
+
+  - url: https://github.com/groundcover-com/caretta
+    title: caretta
+    description: |
+      Instant K8s service dependency map, right to your Grafana.
