@@ -135,3 +135,8 @@ tool:
     title: caretta
     description: |
       Instant K8s service dependency map, right to your Grafana.
+
+  - url: https://github.com/approximatelabs/sketch
+    title: sketch
+    description: |
+      AI code-writing assistant that understands data content
