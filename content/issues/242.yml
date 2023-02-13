@@ -1,0 +1,177 @@
+time: "Feb 13, 2023"
+subject: "Neural Networks: Zero to Hero and Bit Hacking with Go code"
+draft: false
+description: ""
+
+links:
+  - url: https://karpathy.ai/zero-to-hero.html
+    title: "Neural Networks: Zero to Hero"
+    description: |
+      A course by Andrej Karpathy on building neural networks, from scratch, in code.
+      We start with the basics of backpropagation and build up to modern deep neural networks, like GPT. In my opinion language models are an excellent place to learn deep learning, even if your intention is to eventually go to other areas like computer vision because most of what you learn will be immediately transferable. This is why we dive into and focus on languade models.
+
+  - url: https://jaykmody.com/blog/gpt-from-scratch/
+    title: GPT from scratch in 60 Lines of NumPy
+    description: |
+      What is the magic of GPT? I want to understand how GPT works but can easily get lost in so many terms and papers so by looking at a minimal implementation give me some ideas.
+
+  - url: https://lemire.me/blog/2023/02/07/bit-hacking-with-go-code/
+    title: "Bit Hacking (with Go code)"
+    description: |
+      Don't let the "Go code" put you off if you aren't a Go user. Bit manipulation is the fundamental in programming. It can do quite a cool tricks such as check same sign(positive/negative) by looking at the last bit of both number or a fast way to compute avg.
+
+  - url: https://blog.jooq.org/the-performance-impact-of-sqls-filter-clause/
+    title: "The Performance Impact of SQL’s FILTER Clause"
+    description: |
+      FILTER and CASE can be use in an aggregate funcion in your SQL to caculate a value from a set of row that match the conditions. They looks similar in term of functionality, but FILTER is much nicer to read because its appear on the left of your aggregate function, not wrap around like case. So is there any perf impact? Generally, no, you can safely switch to FILTER.
+
+  - url: https://anthonyhobday.com/sideprojects/saferules/
+    title: "Visual design rules you can safely follow every time"
+    description: |
+      You do not have to follow these rules every time. If you have a good reason to break any of them, do. But they are safe to follow every time.
+
+  - url: https://weblog.antranigv.am/posts/2023/02/hardcoded-folder-icons-in-macos/
+    title: Hardcoded Folder Icons in macOS
+    description: |
+      There is a certain directory on MacOS has a specific icon in Finder. So let looks at how they work
+
+  - url: https://tyrrrz.me/blog/reverse-engineering-youtube-revisited
+    title: "Reverse-Engineering YouTube: Revisited"
+    description: |
+      explain how YouTube works under the hood, how it serves streams to the client, and also how you can exploit that knowledge to download videos from the site
+
+  - url: https://antonz.org/sql-window-functions-ranking/
+    title: "SQL Window Functions: Ranking"
+    description: "A window function performs a calculation across a set of table rows that are somehow related to the current row.
+      It's very flexible because it doesn't need to pre-group row, and can work  It's useful to calculate extra data between the current row and a group of row related to current row by any condition that you can express in code. This post has many practical use of window function to calculate ranking"
+  - url: https://ishadeed.com/article/responsive-design/
+    title: "The Guide To Responsive Design In 2023 and Beyond"
+    description: |
+      Introduce many approachs we can use to do responsive design in 2023. If you never heard of `clamp`, `minxmax`, Size Container Queries.. time to refresh your CSS skill for 2023.
+
+  - url: https://vlcn.io/blog/gentle-intro-to-crdts.html
+    title: A gentile introduction to CRDT
+
+video:
+  - url: https://www.youtube.com/watch?v=kCc8FmEb1nY&t=642s
+    title: "Let's build GPT: from scratch, in code, spelled out."
+    description: "Andrej implements [nanoGPT](https://github.com/karpathy/nanoGPT) which we linked to in [issue #238](https://betterdev.link/issues/238) and this is a video to show some aspect of its"
+
+read_code:
+  - url: https://github.com/Tauseef-Hilal/Pathfinding-Visualizer
+    title: Pathfinding Visualizer
+    description: "A pathfinding visualizer made in Python and Pygame. This project aims to provide a fun and interactive way to learn about popular pathfinding algorithms such as Dijkstra's, A* and other supported algorithms."
+    category: ['Python']
+
+  - url: https://github.com/sourcegraph/conc
+    title: conc
+    description: |
+      Better structured concurrency for go
+    category: ['Go']
+
+  - url: https://github.com/ebitengine/purego
+    title: "purego: A library for calling C functions from Go without Cgo."
+    description: |
+    category: ['Go']
+
+  - url: https://github.com/jeremyevans/by
+    title: "by"
+    description: |
+      a library preloader to speed up process startup, uses a client/server approach. The server loads the libraries and listens on a UNIX socket, and the client connects to that socket to run a process. For each client connection, the server forks a worker process, which uses the current directory, stdin, stdout, stderr, and environment of the client process. The worker process then processes the arguments provided by the client.
+    category: ['Ruby']
+
+  - url: https://github.com/roo-rb/roo
+    title: Roo
+    description: |
+      If you need to handle many common spreadsheet types, looks no more. It supports Excel, Libre, CSV, and even google sheet.
+    category: ['Ruby']
+
+  - url: https://github.com/RazrFalcon/resvg/
+    title: resvg
+    description: |
+      An SVG rendering library. It can do thing like accept SVG, render to PNG and customize SVG attribute.
+      There is also a JavaScript binding call [resvg-js](https://github.com/yisibl/resvg-js)
+    category: ['Rust']
+
+  - url: https://github.com/queer/boxxy
+    title: boxxy
+    description: "boxxy is a tool for boxing up misbehaving Linux applications and forcing them to put their files and directories in the right place, without symlinks! It uses  Linux namespaces for its functionality. Kind of like docker, but here simply prefix your command with `boxxy` and boxxy setup a namespace file system with dir mount etc then run your process inside that namespace. It's Rust but you will learn a lot about this concept. Highly recomended to check it out."
+    category: ['Rust']
+
+  - url: https://github.com/pubkey/rxdb
+    title: rxdb
+    description: "A fast, offline-first, reactive database for JavaScript. We linked to it on [issue 122](https://betterdev.link/issues/122) but it's still going strong"
+    category: ['TypeScript']
+
+  - url: https://github.com/karpathy/minGPT
+    title: minGPT
+    description: |
+      A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training
+    category: ['Python']
+
+tool:
+  - url: https://github.com/HypoPG/hypopg
+    title: "Will Postgres Use My Index? Hypothetical Indexing for Postgres"
+    description: |
+      a Postgres extension for adding hypothetical indexes to Postgres so you can do index planning. Read the [introduction article](https://www.crunchydata.com/blog/will-postgres-use-my-index-hypothetical-indexing-with-postgres) to get a sense of it.
+
+  - url: https://vanillalist.top/
+    title: "vanillalist"
+    description: |
+      A directory of JavaScript lib/component without any dependencies.
+
+  - url: https://www.gibney.org/bookmarklet_editor
+    title: bookmarklet_editor
+    description: |
+      To run a snippet of JS on any page, you can pop into the console
+
+  - url: https://juicefs.com
+    title: JuiceFS
+    description: |
+      a distributed POSIX file system built on top of Redis and S3.
+
+  - url: https://github.com/YousefED/BlockNote
+    title: BlockNote
+    description: |
+      A "Notion-style" block-based extensible JavaScript text editor built on top of Prosemirror and Tiptap.
+      I always need these JS editor at some points and having a set of option to pick is great.
+
+  - url: https://github.com/batchcorp/plumber
+    title: plumber
+    description: "When working with message queue we sometimes need ability to peek into the queue from CLI. With so many solutions like Kafka, RabbitMQ, PubSub, SNS,Nats, Redis,... it's hard to remember all the syntax. This tool rule them all using a consistent syntax. Support a lot of message queues system."
+
+  - url: https://github.com/kevwan/tproxy
+    title: tproxy
+    description: "A cli tool to proxy and analyze TCP connections. "
+
+
+  - url: https://github.com/stackql/stackql
+    title: stackql
+    description: |
+      Query, provision and operate Cloud and SaaS resources(such as AWS, GCP, Azure, Okta, Github,...) and APIs using an extensible SQL.
+      Super useful when you want to have a big picture of what resources we have in a big org, not just for AWS, GCP but say how many users we have in Github and who belongs to which group
+
+  - url: https://pgbackrest.org/
+    title: pgbackrest
+    description: |
+      aims to be a reliable, easy-to-use backup and restore solution that can seamlessly scale up to the largest databases and workloads by utilizing algorithms that are optimized for database-specific requirements.
+
+  - url: https://patroni.readthedocs.io/en/latest/
+    title: patroni
+    description: |
+      a template for you to create your own customized, high-availability solution using Python and - for maximum accessibility - a distributed configuration store like ZooKeeper, etcd, Consul or Kubernetes.
+
+  - url: https://github.com/anderspitman/awesome-tunneling
+    title: awesome-tunneling
+    description: |
+      List of ngrok alternatives and other ngrok-like tunneling software and services. Focus on self-hosting.
+
+  - url: https://github.com/netobserv/flowlogs-pipeline
+    title: flowlogs-pipeline
+    description: |
+      an observability tool that consumes logs from various inputs, transforms them, and exports logs and/or metrics to a chosen target.
+
+  - url: https://github.com/netobserv/network-observability-operator
+    title: "network observability operator"
+    description: |
+      An OpenShift / Kubernetes operator for network observability
