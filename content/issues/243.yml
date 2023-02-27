@@ -57,6 +57,11 @@ links:
       A very good way to learn and build reliable distributed system.
       The famous Kyle of Jepsen team up with fly.io to build a challenge, where  you implement the system to communicate with a pre-build server follow a protocol. Your program needs to communicate the right way to pass the challenge.
 
+  - url: https://click.postapex.com/affiliate/78pBfjUtOGD_Mso4wTj5rz1wxW-
+    title: "Get One Free Month of Skillshare Explore thousands of hands-on creative classes with one inspiring membership."
+    description: |
+      Skillshare is a platform that offers thousands of classes in a variety of subjects. From creative arts to business and technology, there's something for everyone. Expert instructors guide students every step of the way and a community of passionate learners provides support and inspiration. Whether you're looking to learn something new or enhance your existing skills, Skillshare has something for you. Explore the platform today and start your learning journey.
+    category: ['sponsor']
 video:
   - url: https://www.youtube.com/watch?v=AveRgUrC7FM
     title: "Postgres System Columns Explained (ctid, xmin,xmax)"
