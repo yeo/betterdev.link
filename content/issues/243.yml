@@ -12,7 +12,7 @@ links:
     title: "Get smarter every day"
     description: |
       Every day Refind picks 5 links from around the web that make you smarter, tailored to your interests. Refind is a must-read newsletter loved by 100,000+ curious minds. Sign up for free today.
-    category: ['Sponsor']
+    category: ['sponsor']
 
   - url: https://www.datadoghq.com/blog/engineering/husky-deep-dive/
     title: "DataDog Exactly-Once Ingestion and Multi-Tenancy at Scale"
