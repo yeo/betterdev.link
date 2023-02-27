@@ -2,7 +2,6 @@ time: "Feb 26, 2023"
 subject: "Scaling Etsy Payments with Vitess and Husky DataDog Exactly Once Ingestion and Multi Tenancy at Scale"
 draft: false
 description: ""
-
 links:
   - url: https://www.etsy.com/codeascraft/scaling-etsy-payments-with-vitess-part-1--the-data-model
     title: "Scaling Etsy Payments with Vitess: Part 1 – The Data Model"
@@ -13,6 +12,15 @@ links:
     description: |
       Every day Refind picks 5 links from around the web that make you smarter, tailored to your interests. Refind is a must-read newsletter loved by 100,000+ curious minds. [Sign up for free today](https://click.postapex.com/-htSlkn3crwXFG~efg~tLiYgWKT)
     category: ['sponsor']
+
+  - url: https://people.freebsd.org/~lstewart/articles/cpumemory.pdf
+    title: "What Every Programmer Should Know About Memory"
+    description: |
+      As CPU cores become both faster and more numerous, the limiting factor for most programs is memory access. Hardware designers have come up with ever more sophisticated memory handling and acceleration techniques–such as CPU caches–but
+      these cannot work optimally without some help from the programmer. Unfortunately, neither
+      the structure nor the cost of using the memory subsystem of a computer or the caches on CPUs
+      is well understood by most programmers. This paper explains the structure of memory subsystems in use on modern commodity hardware, illustrating why CPU caches were developed, how
+      they work, and what programs should do to achieve optimal performance by utilizing them.
 
   - url: https://www.datadoghq.com/blog/engineering/husky-deep-dive/
     title: "DataDog Exactly-Once Ingestion and Multi-Tenancy at Scale"
