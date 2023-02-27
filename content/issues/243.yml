@@ -1,0 +1,137 @@
+time: "Feb 26, 2023"
+subject: "Scaling Etsy Payments with Vitess and Husky DataDog Exactly Once Ingestion and Multi Tenancy at Scale"
+draft: false
+description: ""
+
+links:
+  - url: https://www.etsy.com/codeascraft/scaling-etsy-payments-with-vitess-part-1--the-data-model
+    title: "Scaling Etsy Payments with Vitess: Part 1 – The Data Model"
+    description: "Etsy Payment system reached the point where vertical scale won't work anymore. They used biggest instance on GCP. They migrated this to Vitess. They have to change schema and update data model and roll out in 2 phases and share with us how they do in this article"
+
+  - url: https://click.postapex.com/-htSlkn3crwXFG~efg~tLiYgWKT
+    title: "Get smarter every day"
+    description: |
+      Every day Refind picks 5 links from around the web that make you smarter, tailored to your interests. Refind is a must-read newsletter loved by 100,000+ curious minds. Sign up for free today.
+    category: ['Sponsor']
+
+  - url: https://www.datadoghq.com/blog/engineering/husky-deep-dive/
+    title: "DataDog Exactly-Once Ingestion and Multi-Tenancy at Scale"
+    description: |
+      DataDog handle massive amount of data so they build a system to redesign how they ingest and store log call Husky.
+      Husky’s architecture decouples storage and compute so that they can be scaled independently. In this post we learn how Husky organized its data and establish consensus.
+
+  - url: https://pointersgonewild.com/2023/02/24/building-a-minimalistic-virtual-machine/
+    title: "Building a Minimalistic Virtual Machine"
+    description: |
+      we could build a simple Virtual Machine (VM) with no dynamic linking and a small set of minimalistic APIs that remain stable over time, it would make it a lot easier to build software without worrying about becoming randomly broken by changing APIs or dependencies. The author build such a VM call [UVM](https://github.com/maximecb/uvm) and share with us here.
+
+  - url: http://highscalability.com/blog/2023/2/22/consistent-hashing-algorithm.html
+    title: "Consistent Hashing Algorithm"
+    description: |
+      Consistent hashing is a technique to associate a resource with a set a nodes evenly, but also support adding new nodes into system without reallocating resource around.
+
+  - url: https://www.red-gate.com/simple-talk/uncategorized/postgresql-basics-object-ownership-and-default-privileges/
+    title: "PostgreSQL Basics: Object Ownership and Default Privileges"
+    description: |
+      discussed how roles (users and groups) are created and managed in PostgreSQL Depending on your background with permissions, particularly in other database products, some of those nuances in how permissions work may have been surprising.
+
+  - url: https://tympanus.net/codrops/2023/02/14/animate-a-camera-fly-through-on-scroll-using-theatre-js-and-react-three-fiber/
+    title: "Animate a Camera Fly-through on Scroll Using Theatre.js and React Three Fiber"
+    description: |
+      I always wonder how those walk through, fly through or 3d object model are being build. This is an end to end tutorial to show you the entire process of implement JS, CSS code and build the animation
+
+  - url: https://www.builder.io/blog/maps
+    title: "Use Maps More and Objects Less"
+    description: |
+      In JavaScript, its very easy to create object with no extra syntax: just do a `{foo: 1}`. But turning out there is another better and fast way: `const o = new Map();o.set('foo', 1)`. Map is optimize for adding/removing key frequently
+
+  - url: https://blog.projectdiscovery.io/projectdiscovery-best-kept-secrets/
+    title: "ProjectDiscovery' Best Kept Secrets Tools"
+    description: |
+      A walk-through of multiple tools that can be very useful when audit and analyse a network system. This is the step call analyze footprint of any system to find relevant components.
+      By running these tools on your own network can yield interesting result sometimes.
+
+  - url: https://fly.io/blog/gossip-glomers/?utm_source=pocket_reader
+    title: "Gossip Glomers"
+    description: |
+      A very good way to learn and build reliable distributed system.
+      The famous Kyle of Jepsen team up with fly.io to build a challenge, where  you implement the system to communicate with a pre-build server follow a protocol. Your program needs to communicate the right way to pass the challenge.
+
+video:
+  - url: https://www.youtube.com/watch?v=AveRgUrC7FM
+    title: "Postgres System Columns Explained (ctid, xmin,xmax)"
+
+read_code:
+  - url: https://github.com/Cvaniak/NoteSH
+    title: NoteSH
+    description: |
+       fully functional sticky notes App in your Terminal!
+    category: ['Python']
+
+  - url: https://github.com/psilva261/opossum
+    title: opossum
+    description: |
+      Rudimentary web browser written in Golang
+    category: ['Go']
+
+  - url: https://github.com/osnr/TabFS
+    title: TabFS
+    description: |
+      A chrome extension that mount your browser tabs as a file system and you simply interact with part of it like the title, close tab etc. Read the [companion post here](https://omar.website/tabfs/)
+    category: ['JavaScript', 'Fuse']
+
+  - url: https://github.com/lazaronixon/authentication-zero
+    title: "An authentication system generator for Rails applications."
+    description: "generate a pre-built authentication system into a rails application (web or api-only) that follows both security and rails best practices. By generating code into the user's application instead of using a library, the user has complete freedom to modify the authentication system so it works best with their app."
+    category: ['Ruby']
+
+  - url: https://github.com/cure53/DOMPurify
+    title: DOMPurify
+    description: |
+      a DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG. When scraping site or need to display a certain user input such as email or html in browser, this come in handy.
+    category: ['JavaScript']
+
+  - url: https://github.com/CoreDB-io/coredb/tree/main/extensions/pgmq
+    title: "PGMQ: ostgres Message Queue"
+    description: |
+      A project that build a queue on Postgres, but expose extra SQL function where you call in to queue/enqueue job. Its API is similar to AWS SQS. I love this kind of code base, I got to learn Rust, learn how to write extension with [pgx, a tool to write Postgres extension in Rust](https://github.com/tcdi/pgx), and can also evaluate to use this tool for my lightweight queue in the future
+    category: ['Rust']
+
+tool:
+  - url: https://github.com/charmbracelet/soft-serve
+    title: soft-serve
+    description: |
+      A tasty, self-hostable Git server for the command line. You SSH into it and browse it through a TUI (terminal based user interface). You can even click on it too, in a terminal just like a normal remote SSH session.
+
+  - url: https://github.com/commandprompt/pgmanage
+    title: pgmanage
+    description: "Web tool for database management"
+
+  - url: https://github.com/pgspider/sqlite_fdw
+    title: sqlite_fdw
+    description: |
+      SQLite Foreign Data Wrapper for PostgreSQL. This means that PostgreSQL now can access and join data with another SQLite database.
+
+  - url: https://github.com/adriangb/pgpq
+    title: pgpq
+    description: |
+      tream Arrow file data into Postgres. Tools like BigQuery, RedShift already support Arrow format due to their compression, easiser to parse and fast.
+
+  - url: https://sosedoff.github.io/pgweb/
+    title: pgweb
+    description: |
+      Cross-platform client for PostgreSQL databases
+
+  - url: https://github.com/karafka/karafka-web
+    title: "karafka-web"
+    description: "a webui to manage kafka jobs, consumers, routing, cluster info"
+
+  - url: https://github.com/keephq/keep
+    title: keep
+    description: |
+      a simple CLI tool that contains everything you need to start creating Alerts. builtin providers (e.g. sentry/datadog or slack/pagerduty), 100% open sourced.
+
+  - url: https://github.com/FMInference/FlexGen
+    title: FlexGen
+    description: |
+      a high-throughput generation engine for running large language models with limited GPU memory (e.g., a 16GB T4 GPU or a 24GB RTX3090 gaming card!). FlexGen allows high-throughput generation by IO-efficient offloading, compression and large effective batch sizes.
