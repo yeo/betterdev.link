@@ -137,4 +137,8 @@ tool:
     description: |
       Plug and play modules to optimize the performances of your AI systems
 
+  - url: https://github.com/juspay/hyperswitch
+    title: hyperswitch
+    description: |
+      an Open Source Financial Switch to make payments Fast, Reliable and Affordable. It lets you connect with multiple payment processors and route traffic effortlessly, all with a single API integration.
 
