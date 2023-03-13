@@ -1,0 +1,140 @@
+time: "Mar 13, 2023"
+subject: "How discord stores trillions of messages and How Cloudflare run Prometheus at scale"
+draft: false
+description: ""
+
+links:
+  - url: https://discord.com/blog/how-discord-stores-trillions-of-messages
+    title: "How discord stores trillions of messages"
+    description: |
+      Rewrite  in Rust, migrate to ScylaDB from cassandra. But the most important thing to me is the request coalescing. If two user read the same row, there should only one query to the database.
+
+  - url: https://blog.cloudflare.com/how-cloudflare-runs-prometheus-at-scale/?utm_source=pocket_reader
+    title: "How Cloudflare runs Prometheus at scale"
+    description: |
+      They run 916 Prometheus instances with a total of around 4.9 billion time series. CloudFlare sure knows how to scale Prometheus
+
+  - url: https://www.andreinc.net/2023/02/01/demystifying-bitwise-ops
+    title: "Demystifying bitwise operations, a gentle C tutorial"
+    description: "writing code that operates on bits can be tedious, less readable. higher level languages usually abstract them out but it's a fundamental useful to know and understand these concept. You don't need to know C to follow these"
+
+  - url: https://zdimension.fr/stack-machines-and-where-to-find-them/
+    title: "Stack Machines and Where To Find Them"
+    description: "A very long post explain recursion, how function works, invent automatic memory, arn a bit of Polish (notation), and discover the power of stack machines. To conclude, we'll try writing a Rust macro that parses and executes Forth code at compile time."
+
+  - url: https://lisyarus.github.io/blog/programming/2023/03/11/how-not-to-ui.html
+    title: "How not to design a UI library"
+    description: |
+      It hard to design a UI library because UI is async by default. You have two approach, declarative or imperative. On top of that, add event handle, where to put it to avoid blocking main threaad. Separation of logic(rendering) and behaviour. Suddently it brings every concept into it
+
+  - url: https://www.joshwcomeau.com/react/common-beginner-mistakes/
+    title: "Common Beginner Mistakes with React"
+    description: "Josh taugh React and noticed that there were a handful of things that kept catching students off guard. In this tutorial, we're going to explore 9 of the most common gotchas"
+
+  - url: https://click.postapex.com/-htSlkn3crwXFG~efg~tLiYgWKT
+    title: "Get smarter every day"
+    description: |
+      Every day Refind picks 5 links from around the web that make you smarter, tailored to your interests. Refind is a must-read newsletter loved by 100,000+ curious minds. [Sign up for free today](https://click.postapex.com/-htSlkn3crwXFG~efg~tLiYgWKT)
+    category: ['sponsor']
+
+  - url: https://dev.l1x.be/posts/2023/03/12/using-llama-with-m1-mac/
+    title: "Using LLaMA with M1 Mac"
+    description: |
+      There are many open source implementation of large language models. But we cannot experiment locally. Thanks to Georgi Gerganov and his llama.cpp project it is possible to run Meta’s LLaMA on a single computer without a dedicated GPU.
+
+
+  - url: https://sqlfordevs.com/tree-as-materialized-path
+    title: "Store Trees As Materialized Paths"
+    description: |
+      Currently used approaches for trees in databases like adjacency lists or the nested set model are too complex. Storing the full path with every row simplifies tree querying and management.
+
+  - url: https://booking.design/how-we-built-our-multi-platform-design-system-at-booking-com-d7b895399d40
+    title: "How we built our multi-platform design system at Booking.com"
+    description: |
+      Building a design system that works is a challenge at any scale. Building a design system for 150+ product teams, used by 200+ designers and 800+ developers, and serving 4 different platforms? That’s a challenge requiring lots of special considerations.
+
+
+video:
+  - url: https://www.youtube.com/watch?v=qdOXtWxy33U
+    title: "Organizing Rails code with Jorge Manrubia of 37signals"
+    description: |
+      It has a lot of principle to keep thing simpler, avoid over engineering.
+
+read_code:
+  - url: https://github.com/textualize/textual/
+    title: textual
+    description: |
+      a TUI (Text User Interface) framework for Python inspired by modern web development.
+    category: ['Python']
+
+  - url: https://github.com/henrikpersson/potatis
+    title: potatis
+    description: "🥔 MOS-6502 and NES emulator in Rust (SDL/WebAssembly/Android/Embedded/Cloud)"
+    category: ['Rust']
+
+  - url: https://github.com/antonmedv/finder
+    title: finder
+    description: "Given an element, it will generate the shortest CSS selector to identify that element uniquely. This is useful say you're building a tool to design UI and it works with element/block. User click an element to focus it, this can be used to identify those elements"
+    category: ['JavaScript']
+
+  - url: https://github.com/wanasit/chrono
+    title: chrono
+    description: "Given random arbitrary string like \"today\", \"last friday 2am\" it can generate a date object. Really cool to see how it's implemented."
+    category: ['JavaScript']
+
+  - url: https://github.com/camertron/rux
+    title: Rux
+    description: |
+      A jsx-inspired way to render view components in Ruby.  With this and another library call [phlex](https://github.com/joeldrapper/phlex) I think we have more viable method to render view in Rails. I was never a fan out string rendering in traditional Ruby app.
+    category: ['Ruby']
+
+  - url: https://github.com/cohesivestack/valgo
+    title: valgo
+    description: |
+      a type-safe, expressive, and extensible validator library for Golang use generic.
+    category: ['Go']
+
+tool:
+  - url: https://github.com/pyroscope-io/pyroscope
+    title: pyroscope
+    description: |
+      Continuous Profiling Platform. Debug performance issues down to a single line of code.
+      Very nice webui and supprot many languages to ingest data. Has a [nice demo](https://demo.pyroscope.io/?name=hotrod.python.frontend%7B%7D&query=rideshare-app-dotnet.alloc_objects%7B%7D) you can check
+
+  - url: https://github.com/pgrok/pgrok
+    title: pgrok
+    description: "Poor man's ngrok - a multi-tenant HTTP reverse tunnel solution through SSH remote port forwarding"
+
+  - url: https://github.com/openziti/zrok
+    title: zrok
+    description: "ngrok equivalent built base on OpenZiti which create a zero trust overlay network to join your nodes together"
+
+  - url: https://github.com/supabase/pg_graphql
+    title: pg_graphql
+    description: |
+      GraphQL support for PostgreSQL
+
+  - url: https://github.com/Vonng/pigsty
+    title: pigsty
+    description: |
+      A tool to create a Postgres deployment with all the tooling around it like RDS
+  - url: https://github.com/centerofci/mathesar
+    title: mathesar
+    description: |
+      a straightforward open source tool that provides a spreadsheet-like interface to a PostgreSQL database.
+
+  - url: https://cocktailpeanut.github.io/dalai/#/
+    title: dalai
+    description: |
+      Dead simple way to run LLaMA on your computer.
+
+  - url: https://github.com/ultralytics/ultralytics
+    title: ultralytics
+    description: |
+      a cutting-edge, state-of-the-art (SOTA) model that builds upon the success of previous YOLO versions and introduces new features and improvements to further boost performance and flexibility.
+  - url: https://github.com/nebuly-ai/nebullvm
+    title: nebullvm
+    description: |
+      Plug and play modules to optimize the performances of your AI systems
+
+
