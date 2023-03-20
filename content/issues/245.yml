@@ -1,0 +1,159 @@
+time: "Mar 20, 2023"
+subject: "Scaling Kubernetes to 7,500 nodes"
+draft: false
+description: ""
+
+links:
+  - url: https://openai.com/research/scaling-kubernetes-to-7500-nodes
+    title: "Scaling Kubernetes to 7,500 nodes"
+    description: "At this point no one doesn't know OpenAI and their ChatGPT. They run a massive K8S cluster with 7,500 nodes. Needless to say that come with many challenges they share with us here."
+
+  - url: https://www.thenile.dev/blog/things-dbs-dont-do
+    title: "Things DBs Don't Do - But Should"
+    description: |
+      Writing or talking about things databases don't do may sound a bit silly. There are obviously many things databases don't do. Example, automatic backup, version control of row...
+
+  - url: https://rednafi.github.io/reflections/tinkering-with-unix-domain-sockets.html
+    title: "Tinkering with Unix domain sockets"
+    description: |
+      A most normal way for client <-> server communication is to open a port, and listen to traffic to that port. To secure sometine we use localhost, but there is also other way call Unix socket. The most famous one use it is docker with its `/var/run/docker.sock` which sometime we can mount into a container and interact with docker on host. In this post, we explore this socket concept.
+  
+  - url: https://terrastruct.com/blog/post/generate-diagrams-programmatically/
+    title: "Generate diagrams programmatically"
+    description: |
+      Drawing Diagram by hand can be very tedious. To connect relationship we have to constantly move thing around to make room and space.  D2 is a modern text-to-diagram language. It is built with extensibility in mind.
+      This post show an example of how we can use SQL to generate the diagram of table relationship.
+
+  - url: https://www.postgresql.fastware.com/blog/inside-logical-replication-in-postgresql
+    title: "Inside logical replication in PostgreSQL: How it work"
+    description: |
+      Logical replication uses a publish and subscribe model with one or more subscribers subscribing to one or more publications on a publisher node. Subscribers pull data from the publications they subscribe to and may subsequently re-publish data to allow cascading replication or more complex configurations.
+
+  - url: https://www.infoq.com/articles/wonders-of-postgres-logical-decoding-messages/
+    title: "The Wonders of Postgres Logical Decoding Messages"
+    description: |
+      Did you know there’s a function in Postgres that lets you write data which you can’t query? A function that lets you persist data in all kinds and shapes but which will never show up in any table? Let me tell you about pg_logical_emit_message()! It’s a Postgres function that allows you to write messages to the write-ahead log (WAL) of the database.
+
+  - url: https://www.crunchydata.com/blog/introduction-to-postgres-backups
+    title: "Introduction to Postgres Backups"
+    description: |
+      There’s a variety of ways to back up your data and this post aims to explain the basic tools involved in backups and what options you have, from just getting started to more sophisticated production systems.
+
+  - url: https://mort.coffee/home/tar/
+    title: "The tar archive format, its extensions, and why GNU tar extracts in quadratic time"
+    description: |
+      Can you imagine being annoy by a very very slow untar and think you can beat it by writing your own untar? The OP did just that, lead us through the wolrd if tar format, why it is slow and a few tip we can do to speed up.
+
+  - url: https://blog.maximeheckel.com/posts/beautiful-and-mind-bending-effects-with-webgl-render-targets/
+    title: "Beautiful and mind-bending effects with WebGL Render Targets"
+
+  - url: https://medium.com/govtech-edu/how-we-keep-our-government-apps-running-with-high-reliability-a-peek-at-our-incident-management-fe1386d0fa43
+    title: "How We Keep Our Government Apps Running With High Reliability: A Peek at Our Incident Management Strategy"
+    description: |
+      Get to know Nadinastiti, our Technical Program Manager, and Estu Fardani, our Cloud Platform Engineer at GovTech Edu, as they shed light on the best practices for incident management in GovTech Edu’s engineering teams
+
+  - url: https://github.com/alangibson/awesome-crdt
+    title: awesome-crdt
+    description: |
+      A collection of awesome CRDT resources. Useful when you want to learn about collaborative editing 
+
+video:
+
+read_code:
+  - url: https://github.com/hyperonym/basaran
+    title: basaran
+    description: |
+      an open-source alternative to the OpenAI text completion API. It provides a compatible streaming API for your Hugging Face Transformers-based text generation models.
+    category: ['Python']
+
+  - url: https://github.com/neemspees/tragic-methods
+    title: tragic-method
+    description: |
+      A collection of script depicting the strange quirks of programming languages.
+    category: ['Go', 'python', 'javascript', 'c', 'typescript', 'php']
+
+  - url: https://github.com/praetorian-inc/noseyparker
+    title: noseyparker
+    description: |
+      a command-line program that finds secrets and sensitive information in textual data and Git history.
+    category: ['Rust']
+
+  - url: https://github.com/lucaong/minisearch
+    title: "Minisearch"
+    description: |
+      Tiny and powerful JavaScript full-text search engine for browser and Node
+    category: ['JavaScript']
+
+  - url: https://xenova.github.io/transformers.js/
+    title: transformers.js
+    description: |
+      Run 🤗 Transformers in your browser
+    category: ['JavaScript']
+
+  - url: https://github.com/leaanthony/go-ansi-parser
+    title: go-ansi-parser
+    description: |
+      Have you ever see code like `\u001b[1;31;40mHello World\033[0m` in your log because color code get send to text log? How can we parse them?
+    category: ['Go']
+
+  - url: https://github.com/mgechev/revive
+    title: revive
+    description: |
+      ~6x faster, stricter, configurable, extensible, and beautiful drop-in replacement for golint
+    category: ['Go']
+
+  - url: https://github.com/pedrozath/coltrane
+    title: coltrane
+    description: |
+      🎹🎸A music theory library with a command-line interface. Super cool as a guitar beginner to look up chord I must say
+    category: ['Ruby']
+
+tool:
+  - url: https://github.com/chainloop-dev/chainloop
+    title: chainloop
+    description: |
+      an open source software supply chain control plane, a single source of truth for artifacts plus a declarative attestation process. SecOps teams can declaratively state the attestation and artifacts expectations for their organization’s CI/CD workflows, while also resting assured that latest standards and best practices are put in place.
+
+  - url: https://github.com/0x6b/libgsqlite
+    title: libgsqlite
+    description: |
+      A SQLite extension which loads a Google Sheet as a virtual table.
+
+  - url: https://github.com/turbot/steampipe
+    title: steampipe
+    description: |
+      Use SQL to instantly query your cloud services (AWS, Azure, GCP and more). Open source CLI. No DB required
+
+  - url: https://www.tremor.so/components
+    title: Tremor Components
+    description: |
+      Ready, Beautiful UI Components for building analytical interfaces. Feed data and they show nice chart.
+
+  - url: https://github.com/AykutSarac/jsoncrack.com
+    title: jsoncrack
+    description: "Have you ever want to dig through a huge JSON object? filter out a certain array. Nested it etc. `jq` is great if you know the shape of object ahead of time. But if you're looking for a needle in a huge JSON, a visual tool might be better"
+
+  - url: https://modernfontstacks.com/
+    title: modern font stacks
+    description: |
+      Use system font avoid many gotcha such as layout shift, flashing. istant render because the font is pre-installed. But which font stack offer the best on all the OS, how does they looks like. Use this site to choose
+
+  - url: https://github.com/readysettech/readyset
+    title: readyset
+    description: |
+      a lightweight SQL caching engine written in Rust that helps developers enhance the performance and scalability of existing applications.
+
+  - url: https://github.com/cybertec-postgresql/pg_timetable
+    title: pg_timetable
+    description: |
+      Schedule job in Postgrs by using Postgres table itself. Using a cron you always have to deal with lock to ensure there are no 2 instances run at same time. Putting this in the db itself make operating simpler. You can schedule SQL query, system command, or built-in function. Refresh materialize view is a perfect match.
+
+  - url: https://github.com/levkk/pgcat
+    title: "pgcat"
+    description: "PostgreSQL pooler with sharding, load balancing and failover support. There is a post by [instacart on adopting it](https://tech.instacart.com/adopting-pgcat-a-nextgen-postgres-proxy-3cf284e68c2f)"
+
+  - url: https://github.com/GreptimeTeam/greptimedb
+    title: greptimedb
+    description: |
+      An open-source, cloud-native, distributed time-series database with PromQL/SQL/Python supported.
+
