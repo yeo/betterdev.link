@@ -20,6 +20,11 @@ links:
     title: "Storing OAuth tokens"
     description: "I recently start working on a new SaaS app and I evaluate where to store auth token. I has always store them in cookie with HTTPOnly flag. Here, Dan walk us through the storage layer of an auth token. Dan is also author of [letter to a news developer](https://letterstoanewdeveloper.com/) which you should subscribe if you haven't"
 
+  - url: https://eng.lyft.com/simulatedrides-how-lyft-uses-load-testing-to-ensure-reliable-service-during-peak-events-644dcb654454
+    title: "SimulatedRides: How Lyft uses load testing to ensure reliable service during peak events"
+    description: |
+      Lyft explains why record and playback are not suitable for them and lead them to develop a custom performance testing framework that worked in production.
+
   - url: https://www.exhypothesi.com/clocks-and-causality/
     title: "Clocks and Causality - Ordering Events in Distributed Systems"
     description: |
