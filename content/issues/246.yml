@@ -1,0 +1,137 @@
+time: "Apr 03, 2023"
+subject: "Is your Postgres ready for production and where to store your OAuth tokens"
+draft: false
+description: ""
+
+links:
+  - url: https://www.crunchydata.com/blog/is-your-postgres-ready-for-production
+    title: "Is your Postgres ready for production?"
+    description: |
+       your database ready for whatever may come on launch day or even 2 months in? Here's a handy checklist to make sure you're not caught flat footed.
+
+  - url: https://planetscale.com/blog/how-read-mysql-explains
+    title: "How to read MySQL EXPLAINs"
+    description: |
+      When you prepend the EXPLAIN keyword to the beginning of a query, it explains how the database executes that query and the estimated costs. By leveraging this internal MySQL tool, you can observe the following:
+      The ID of the query — The column always contains a number, which identifies the SELECT to which the row belongs.
+      The SELECT_TYPE — If you are running a SELECT, MySQL divides SELECT queries into simple and primary (complex) types, as described in the table below.
+
+  - url: https://fusionauth.io/learn/expert-advice/oauth/oauth-token-storage
+    title: "Storing OAuth tokens"
+    description: "I recently start working on a new SaaS app and I evaluate where to store auth token. I has always store them in cookie with HTTPOnly flag. Here, Dan walk us through the storage layer of an auth token. Dan is also author of [letter to a news developer](https://letterstoanewdeveloper.com/) which you should subscribe if you haven't"
+
+  - url: https://www.exhypothesi.com/clocks-and-causality/
+    title: "Clocks and Causality - Ordering Events in Distributed Systems"
+    description: |
+      In distributed systems, logical clocks play a key role in the ordering of system events. What are the various logical clock designs, and how do they help with event ordering? This article answers these questions.
+
+  - url: https://puzpuzpuz.dev/the-secret-life-of-fsync
+    title: "The Secret Life of fsync"
+    description: |
+      We have heard that commodity ssd/hdd don't provider durability such as a call to `fsync` won't flush data reliably and can suffering data loss in case of power failure. there is nothing the OS can do about it. enterprise grade drives had this capability with battery/capacitor. Lets find out those claims.
+
+  - url: https://longform.asmartbear.com/predict-the-future/
+    title: "Navigating the unpredictability of everything"
+    description: |
+      As a programmer, we always have to deal with unpredictability. unknow requirements ahead of time, unknow of scale of our product. So what can we do to navigate this landscape?
+
+  - url: https://calibreapp.com/blog/image-optimisation-guide
+    title: "The Ultimate Guide to Image Optimisation"
+    description: |
+      Image optimisation is often the first step in a person’s web performance and page speed journey. It’s a relatively easy fix with potentially high rewards. Optimising a single image isn’t complicated or time-consuming, and it could equate to site speed gains, better UX, and noticeably improved Core Web Vitals.
+
+  - url: https://kevinjmurphy.com/posts/programming-guitar-greatness/
+    title: "Anyone Can Play Guitar Series"
+    description: |
+      This is a really fun experiment. Sonic Pi is software to make sounds and music driven by code. Sonic Pi comes with an IDE of sorts. But you can also control it from a CLI to make sound. Pair it with musical notes parser and now we can play song.
+
+  - url: https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html
+    title: "Hello Dolly: Democratizing the magic of ChatGPT with open models"
+    description: |
+      We don't usually list product announcement but I think this is worth to mention.
+      We all know and love ChatGPT from OpenAI. Since then, Meta released LlaMA together with the weight.
+      Stanford built the Alpaca model, which was based on LLaMA, but tuned on a small dataset of 50,000 human-like questions and answers that, surprisingly, made it exhibit ChatGPT-like interactivity.
+      Databricks’ show that, dolly-v1-6b, a large language model (blog post) trained on the Databricks machine learning platform, demonstrates that a two-years-old open source model can do.
+      It's good experiment to play around with these models.
+
+video:
+  - url: https://topenddevs.com/podcasts/ruby-rogues/episodes/pitchfork-falcon-and-performant-http-servers-ruby-587
+    title: "Pitchfork, Falcon, and Performant HTTP Servers - RUBY 587"
+    description: "It's hard to imagine we're still writing a new HTTP servers during this age but here we're. the space is stillv very active with many optimization being done. This is a server to run Ruby app, but it always bring new knowledge generally. We will see how pre-forking helps save memory"
+
+read_code:
+  - url: https://github.com/evanw/thumbhash
+    title: thumbhash
+    description: "A very compact representation of a placeholder for an image. Store it inline with your data and show it while the real image is loading for a smoother loading experience. It's similar to BlurHash but with a few advanage"
+    category: ['Rust', 'Swift', 'JavaScript', 'Java']
+
+  - url: https://github.com/alexrudall/ruby-openai
+    title: ruby-openai
+    description: |
+      OpenAI API Ruby Client, Generate text with ChatGPT, transcribe and translate audio with Whisper, or create images with DALL·E...
+    category: ['Ruby']
+
+  - url: https://github.com/Studiosity/grover
+    title: grover
+    description: |
+      A Ruby gem to transform HTML into PDFs, PNGs or JPEGs using Google Puppeteer/Chromium. I used it to generate invoice for my app.
+    category: ['Ruby']
+
+  - url: https://github.com/openai/openai-python
+    title: python-openai
+    description: |
+      The OpenAI Python library provides convenient access to the OpenAI API from applications written in the Python language.
+    category: ['Python']
+
+  - url: https://github.com/hectorm/otpauth
+    title: otpauth
+    description: |
+      one time password generation for JS eco system: browser, node, deno and bun
+    category: ['JavaScript']
+
+  - url: https://github.com/pojntfx/go-nbd
+    title: go-nbd
+    description: |
+      Pure Go Network Block Device(NBD) server and client library. NBD is a network protocol that can be used to forward a block device (typically a hard disk or partition) from one machine to a second machine. It is similar to how EC2 EBS works.
+    category: ['Go']
+
+  - url: https://github.com/cloudquery/pg_gpt
+    title: pg_gpt
+    description: "Postgres <> ChatGPT using PGX Rust to write PG extension. If you always want to write Postgres extension but don't know where to start, and don't want to write C, this is a very small repository that build on top of PGX, you can see how easy it is to write Postgres plugin with PGX in Rust, Everything is abstracted out. I picked this example because it involve dealing with external HTTP API, which is common in web dev, and also because it's GPT :)"
+    category: ['Rust']
+
+  - url: https://github.com/loteoo/icsp
+    title: icsp
+    description: |
+      Command-line iCalendar (.ics) to CSV utility. Pure bash, no dependencies.
+    category: ['Bash']
+
+tool:
+  - url: https://github.com/oleander/git-fame-rb
+    title: git-fame
+    description: "A command-line tool that helps you summarize and pretty-print collaborators based on contributions"
+
+  - url: https://github.com/nsarrazin/serge
+    title: serge
+    description: |
+      A web interface for chatting with Alpaca through llama.cpp. Fully dockerized, with an easy to use API.
+
+  - url: https://github.com/fipso/ccurl.sh
+    title: ccurl
+    description: |
+      when dealing with third part API, we may usually use the copy as CURL of chrome to export a CURL command to run. Paste cookie in terminal is tedious. Turning out we can get the cookie value through chrome remote debuggin protocol. This small script show a way to do so.
+
+  - url: https://github.com/dominikh/gotraceui
+    title: gotraceui
+    description: |
+      a tool for visualizing and analyzing Go execution traces. It is meant to be a faster, more accessible, and more powerful alternative to go tool trace
+
+  - url: https://github.com/postgresml/pgcat
+    title: pgcat
+    description: |
+      PostgreSQL pooler with sharding, load balancing and failover support.
+
+  - url: https://github.com/scottpersinger/pgwarehouse
+    title: pgwarehouse
+    description: |
+      a tool to sync Postgres database to a Snowflake, ClickHouse, or DuckDB warehouse. You can do a full sync once initially setup, then incremental later on.
