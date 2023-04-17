@@ -1,0 +1,159 @@
+time: "Apr 17, 2023"
+subject: "Cryptographic Best Practices and A Journey through Color Space with FFmpeg"
+draft: false
+description: |
+  These continue to be big weeks in AI world. I share some LLM tools. Enjoy.
+
+
+links:
+  - url: https://gist.github.com/atoponce/07d8d4c833873be2f68c34f9afc5a78a
+    title: "Cryptographic Best Practices"
+    description: |
+      Putting cryptographic primitives together is a lot like putting a jigsaw puzzle together, where all the pieces are cut exactly the same way, but there is only one correct solution. Thankfully, there are some projects out there that are working hard to make sure developers are getting it right.
+
+  - url: https://canvatechblog.com/a-journey-through-color-space-with-ffmpeg-3a129bfd9b05
+    title: "A Journey through Color Space with FFmpeg"
+    description: |
+      For those who want to understand color spaces, transform videos from one color space to another, or read how I almost went crazy working out why my Canva-generated videos looked slightly off, color-wise
+
+  - url: https://blog.jonlu.ca/posts/mimessage?ref=betterdev
+    title: "Semantic search in iMessage, iMessage wrapped, and ai conversations"
+    description: "iMessage is slow and clunky when searching message. At the end, it's just text store in a SQLIte database. If we can reverse engineer it, we can yield better search result"
+
+  - url: https://louwrentius.com/i-made-my-blog-solar-powered-then-things-escalated.html
+    title: "I Made My Blog Solar-Powered, Then Things Escalated"
+    description: |
+      A very detail write up on how to generate enough power for the OP usage on his equipment. Fun experiment and I think it feeling great when knowing the blog is powered by Solar energy :)
+
+  - url: https://samwho.dev/load-balancing/
+    title: "Load Balancing"
+    description: |
+      In this post we're going to focus on the ways that a single load balancer might distribute HTTP requests to a set of servers. We'll start from the bottom and work our way up to modern load balancing algorithms.
+
+  - url: https://apenwarr.ca/log/20230415
+    title: "Systems design 2: What we hope we know"
+    description: "Someone asked if I could write about the rise of AI and Large Language Models (LLMs) and what I think that means for the future of people, technology, society, and so on. Although that's a fun topic, it left me with two problems: I know approximately nothing about AI, and predicting the future is hard even for people who know what they're talking about. Instead, I'll tell you a bunch of things I do know that are somehow related to the topic, and then you can predict the future yourself."
+
+  - url: https://slack.engineering/tracing-notifications
+    title: "Tracing Notifications at Slack"
+    description: |
+      Slack is a very complicated system with complicated rule. Mute channel, when to send notification, where(email or device), did user see this notification in email already? Debugging notification is complicated at Slack scale, so they build a system to trace the notification across the system.
+
+  - url: https://doordash.engineering/2022/06/07/improving-fault-tolerance-with-rpc-fallbacks-in-doordashs-microservices/
+    title: "Improving Fault Tolerance with RPC Fallbacks in DoorDash’s Microservices"
+    description: |
+      Challenge of Microservice is they call each others, one client request turns into many internal RPC call, and amplify the failure rate when making these requests due to nature of network. Retrying is often use, but if the service is completeley failed, how can we skip it immediately. This is DoorDash strategy for that
+
+  - url: https://www.highgo.ca/2023/04/10/setting-up-postgresql-failover-and-failback-the-right-way/
+    title: "Setting Up PostgreSQL Failover and Failback, the Right Way!"
+    description: |
+      help beginners understand and set up server replication in PostgreSQL using failover and failback. Postgres evolve fast and process to setup Postgres replication is way simpler than in Postgres 10 or 12 for example.
+
+  - url: https://sqlfordevs.com/non-overlapping-time-ranges
+    title: "Time Ranges without Overlapping"
+    description: |
+      Storing time ranges in a database is easy, but you must also prevent overlapping rows for some applications. Accomplishing this requirement can be challenging because of race conditions.
+
+  - url: https://dev.to/bolajiwahab/progress-reporting-in-postgresql-1i0d?ck_subscriber_id=1898308866
+    title: "Progress Reporting In PostgreSQL"
+    description: |
+      A tip to monitor the progress of certain operations in PostgreSQL? Yes, we can monitor the progress of these operations in PostgreSQL: index creation, re-index, vacuum, and more
+
+video:
+
+read_code:
+  - url: https://github.com/codesandbox/sandpack
+    title: sandpack
+    description: |
+      A component toolkit for creating live-running code editing experiences, using the power of CodeSandbox.
+
+  - url: https://github.com/tcdi/plrust/releases/tag/v1.0.0
+    title: "PL/Rust 1.0: Write Postgres Functions in Rust"
+    description: |
+      One of a neat way to extend Postgres is define your own function using SQL.
+      But needless to say SQL has its limit, so there are  PL/Python where you can define function with Python code.
+      Now that go futher, you can define function in Rust, which compile to native machine code, not interprer through Postgres engine, so you will get great performance
+    category: ['Rust']
+
+  - url: https://github.com/sunng87/pgwire
+    title: pgwire
+    description: |
+      PostgreSQL wire protocol implemented as a rust library.
+    category: ['Rust']
+
+
+  - url: https://github.com/MigOpsRepos/credcheck
+    title: credcheck
+    description: |
+      A PostgreSQL extension provides few general credential checks, which will be evaluated during the user creation, during the password change and user renaming. By using this extension, we can define a set of rules like password policy or password expiration
+    category: ['C']
+
+  - url: https://github.com/mrsked/mrsk
+    title: mrsk
+    description: |
+      A tool by DDH to deploy web app anywhere. Similar to capistrano but with a strong focus on docker deployment and coordination with load balancer.
+    category: ['Ruby']
+
+  - url: https://github.com/mlc-ai/web-llm
+    title: web-llm
+    description: |
+      This project brings language model chats directly onto web browsers. Everything runs inside the browser with no server support and accelerated with WebGPU. We can bring a lot of fun opportunities to build AI assistants for everyone and enable privacy while enjoying GPU acceleration.
+    category: ['Python']
+
+  - url: https://github.com/tiktoken-go/tokenizer
+    title: tokenizer
+    description: "Pure Go implementation of OpenAI's tiktoken tokenizer. Also checkout [OpenAI's Go API client](https://github.com/sashabaranov/go-openai)"
+    category: ['Go']
+
+
+tool:
+  - url: https://github.com/TabbyML/tabby
+    title: tabby
+    description: |
+      Self-hosted AI coding assistant
+
+  - url: https://github.com/stefanprodan/timoni
+    title: timoni
+    description: |
+      a package manager for Kubernetes, powered by CUE and inspired by Helm.
+
+  - url: https://github.com/wabarc/wayback
+    title: wayback
+    description: |
+      A self-hosted archiving service integrated with Internet Archive, archive.today, IPFS and beyond.
+
+  - url: https://github.com/guardllamanet/guardllama
+    title: guardllama
+    description: |
+      The Ultimate Open-Source VPN, Ad-blocker and DNS resolver 🦙🛡️
+
+  - url: https://github.com/javve/list.js
+    title: list.js
+    description: |
+      The perfect library for adding search, sort, filters and flexibility to tables, lists and various HTML elements. Built to be invisible and work on existing HTML.
+
+  - url: https://github.com/megaease/easeprobe
+    title: easeprobe
+    description: |
+      A simple, standalone, and lightweight tool that can do health/status checking, written in Go.
+
+  - url: https://github.com/hydradatabase/hydra
+    title: hydra
+    description: |
+      A modern, open source replacement for enterprise data warehouses
+
+  - url: https://github.com/supabase/supavisor
+    title: supavisor
+    description: |
+      A cloud-native, multi-tenant Postgres connection pooler
+
+  - url: https://pgpool.net/mediawiki/index.php/Main_Page
+    title: pgpool-II
+    description: |
+      a tool that can help you manage and optimize the performance of your PostgreSQL database cluster. Enable you to do Load balancing,  Connection pooling, Query caching and more.
+
+  - url: https://iconify.design/
+    title: "Iconify"
+    description: |
+      makes it easy to avoid vendor lock-in. You can use many open source icon sets with a large choice of open source icon components. Thousands of high quality icons from 100+ icon sets, all validated, cleaned up, optimised and always up to date
+
