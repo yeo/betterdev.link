@@ -12,6 +12,11 @@ links:
     description: |
       Curious exactly what happens when you run a program on your computer? Read this article to learn how multiprocessing works, what system calls really are, how computers manage memory with hardware interrupts, and how Linux loads executables. The site is also [available on github](https://github.com/hackclub/putting-the-you-in-cpu).
 
+  - url: https://blog.briankitano.com/llama-from-scratch/?utm_source=pocket_reader
+    title: "Llama from scratch (or how to implement a paper without crying)"
+    description: |
+      I want to provide some tips from my experience implementing a paper. I'm going to cover implementing a dramatically scaled-down version of [Llama](https://arxiv.org/pdf/2302.13971.pdf) for training [TinyShakespeare](https://github.com/karpathy/char-rnn/blob/master/data/tinyshakespeare/input.txt). This post is heavily inspired by Karpathy's Makemore series, which I highly recommend.
+
   - url: https://tech.instacart.com/zero-downtime-postgresql-cutovers-e6f16090fabf
     title: "Zero-Downtime PostgreSQL Cutovers"
     description: |
