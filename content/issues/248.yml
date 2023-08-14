@@ -1,0 +1,139 @@
+time: "Aug 14, 2023"
+subject: "Putting the “You” in CPU"
+draft: false
+description: |
+  Hi all,
+
+  I'm really sorry for sending out no issue in last few months. Works get in but I'm finally manage to spend time again on this newsletter. I missed it so much and cannot wait to share exciting link with everyone once again.
+
+links:
+  - url: https://cpu.land/
+    title: "Putting the “You” in CPU"
+    description: |
+      Curious exactly what happens when you run a program on your computer? Read this article to learn how multiprocessing works, what system calls really are, how computers manage memory with hardware interrupts, and how Linux loads executables. The site is also [available on github](https://github.com/hackclub/putting-the-you-in-cpu).
+
+  - url: https://tech.instacart.com/zero-downtime-postgresql-cutovers-e6f16090fabf
+    title: "Zero-Downtime PostgreSQL Cutovers"
+    description: |
+      Even when using Multi-AZ on RDS, there is still a chance of downtime where the DNS switch to the standby in other AZ and our app need to switch together. There is a brief moment the app is still connecting to the old primary instance. In this, Instacart shared how they achieved that.
+
+  - url: https://medium.com/@addyosmani/shopping-for-speed-on-ebay-com-6229711d7573
+    title: "Optimizing speed on eBay.com"
+    description: |
+      For every 100 milliseconds improvement in search page loading time, eBay saw a 0.5% increase in “Add to Cart” count. Through the adoption of Performance Budgets, and a focus on key user-centric performance metrics, eBay was able to make significant improvements to site speed.
+
+  - url: https://netflixtechblog.com/migrating-netflix-to-graphql-safely-8e1e4d4f1e72
+    title: "Migrating Netflix to GraphQL Safely"
+    description: |
+      In 2022, a major change was made to Netflix’s iOS and Android applications. They migrated Netflix’s mobile apps to GraphQL with zero downtime, which involved a total overhaul from the client to the API layer. lets dive into to see how they do this safely for 100s of millions of customers without disruption.
+
+  - url: https://dropbox.tech/infrastructure/four-years-of-smr-storage-what-we-love-and-whats-next
+    title: "After four years of SMR storage, here's what we love—and what comes next"
+    description: |
+      Dropbox for sure store tons of data. In 2018, they adopt high-density SMR (shingled magnetic recording) technology for storage drives. SMR technology has reduced the power requirements of storage servers, lowered the cost of each exabyte, and enabled more efficient server rack designs. Today, we will learn about all of that.
+
+  - url: https://postgres.ai/blog/20230722-10-postgres-tips-for-beginners
+    title: "10 Postgres tips for beginners"
+    description: |
+      Getting started with PostgreSQL can be both exciting and challenging. It's a whole eco system with so many toolings, features. In this post, [Postgre.ai](https://postgres.ai) team discuss 10 tips to for beginner to get started.
+
+  - url: https://blog.mastermind.dev/indexes-in-postgresql
+    title: "Understanding database Indexes in PostgreSQL"
+
+  - url: https://eclecticlight.co/2023/08/12/why-macos-anti-malware-scans-can-behave-oddly/
+    title: "Why macOS anti-malware scans can behave oddly"
+    description: |
+      macOS Catalina and later include an anti-malware scanning service, XProtect Remediator (XPR). Many didn't know about it. 
+
+  - url: https://medium.com/outreach-prague/lamport-clocks-determining-the-order-of-events-in-distributed-systems-41a9a8489177
+    title: "Lamport Clocks: Determining the Order of Events in Distributed Systems"
+    description: |
+      Distributed systems are behind many services that we use every day. A significant challenge of said systems is to understand and manage the order of events across these independent machines. How can we know which event happened before another? What caused what?”
+
+  - url: https://matklad.github.io/2023/05/21/resilient-ll-parsing-tutorial.html
+    title: "Resilient LL Parsing Tutorial"
+    description: |
+      In this tutorial, I will explain a particular approach to parsing, which gracefully handles syntax errors and is thus suitable for language servers, which, by their nature, have to handle incomplete and invalid code. Explaining the problem and the solution requires somewhat less than a trivial worked example, and I want to share a couple of tricks not directly related to resilience, so the tutorial builds a full, self-contained parser, instead of explaining abstractly just the resilience.
+video:
+
+read_code:
+  - url: https://github.com/zknill/sqledge
+    title: sqledge
+    description: |
+      Replicate postgres to SQLite on the edge.
+    category: ['Rust']
+
+  - url: https://github.com/risor-io/risor
+    title: risor
+    description: |
+      Fast and flexible scripting for Go developers and DevOps.
+    category: ['Go']
+
+  - url: https://github.com/spandanb/learndb-py
+    title: "learndb-py"
+    description: |
+      implementing a relational database management system (RDBMS) (sqlite clone) from scratch.
+    category: ['Python']
+
+  - url: https://github.com/mayu-live/framework
+    title: mayu
+    description: |
+      a live-streaming server-side component-based VDOM rendering framework written in Ruby
+    category: ['Ruby']
+
+  - url: https://github.com/moment/luxon
+    title: luxon
+    description: |
+      A library for working with dates and times in JS by Moment.
+    category: ['JavaScript']
+
+  - url: https://github.com/CatsJuice/svg-drawing
+    title: svg-drawing
+    description: |
+      A canvas for easy sketching and replay, exportable in SVG format.
+
+  - url: https://github.com/ebitengine/oto
+    title: oto
+    description: |
+      ♪ A low-level library to play sound on multiple platforms ♪
+    category: ['Go']
+tool:
+  - url: https://github.com/nolanlawson/fuite
+    title: fuite
+    description: "a CLI tool for finding memory leaks in web apps. Simply run and point it at your web app"
+
+  - url: https://github.com/tembo-io/pgmq
+    title: pqmq
+    description: |
+      A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.
+      Read the [introduction post by its creaator, tembo](https://tembo.io/blog/introducing-pgmq)
+
+  - url: https://github.com/sj26/mailcatcher
+    title: mailcatcher
+    description: |
+      If you ever want to preview email on your app, mailcatcher is perfect for that. The project emerged 12 years ago and I though it's was abandone but turning out still good going.
+
+  - url: https://www.hyperui.dev/
+    title: HyperUI
+    description: |
+      Free Open Source Tailwind CSS Components
+
+  - url: https://github.com/projectdiscovery/nuclei
+    title: nuclei
+    description: |
+      Fast and customizable vulnerability scanner based on simple YAML based DSL.
+
+  - url: https://petertyliu.github.io/toaster/
+    title: toaster
+    description: "Pure CSS 3D Editor"
+
+  - url: https://easings.net/
+    title: "Easing functions"
+    description: |
+      Easing functions specify the rate of change of a parameter over time. Very useful when doing animation. Widely use in CSS animation. This site is like a cheatcode to help you pick the right one.
+
+  - url: https://maily.to/
+    title: maily
+    description: |
+      Open source editor for creating beautiful, pre-designed, mobile-ready emails
+
