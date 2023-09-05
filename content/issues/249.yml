@@ -1,0 +1,101 @@
+time: "Sep 05, 2023"
+subject: "Putting the “You” in CPU"
+draft: false
+description: |
+  Happy tuesday everyone. We're back for other issue. Lot of exiciting news, I keep them short this week to send the issue out and keep my momentum :-).
+  Hope you like this issue.
+
+links:
+  - url: https://nelsonslog.wordpress.com/2023/08/16/running-my-own-llm/
+    title: "Running my own LLM"
+
+  - url: https://blog.0x7d0.dev/history/how-they-bypass-youtube-video-download-throttling/?utm_source=pocket_saves
+    title: "How They Bypass YouTube Video Download Throttling"
+
+  - url: https://snyk.io/blog/session-management-security/
+    title: "Session management security: Best practices for protecting user sessions"
+
+  - url: https://hexway.io/research/apple-bleee/
+    title: "Apple bleee. Everyone knows What Happens on Your iPhone"
+
+  - url: https://sethmlarson.dev/utf-8
+    title: "How does UTF-8 turn “😂” into “F09F9882”?"
+
+  - url: https://mazzo.li/posts/fast-pipes.html
+    title: "How fast are Linux pipes anyway?"
+
+  - url: https://blog.0x7d0.dev/history/how-they-bypass-youtube-video-download-throttling/
+    title: "How They Bypass YouTube Video Download Throttling"
+
+  - url: https://rtheunissen.github.io/bst/?
+    title: "Exploring the design space of binary search trees"
+
+  - url: https://www.crunchydata.com/blog/fun-with-postgresql-puzzles-and-recursive-functions-with-animations
+    title: "Fun with PostgreSQL Puzzles: Recursive Functions with Animations"
+
+  - url: https://blog.benthem.io/2023/08/16/what-actually-happens-when-you-run-copy-in-postgres.html
+    title: "What actually happens when you COPY in Postgres"
+
+video:
+
+read_code:
+  - url: https://github.com/matsadler/magnus/releases/tag/0.6.0
+    title: "Magnus"
+    description: "Ruby bindings for Rust. Write Ruby extension gems in Rust, or call Ruby from Rust."
+
+  - url: https://github.com/kjleitz/adornable
+    title: adornable
+    description: |
+      Python has a super cool feature where you add `@name` on top of a function and name is call, wrap your function inside. Now we can do similar with Python given then 
+  - url: https://github.com/Alpha-VLLM/LLaMA2-Accessory
+    title: LLaMA2-Accessory
+    description: |
+      An Open-source Toolkit for LLM Development 🚀
+    category: ['Python']
+
+  - url: https://github.com/libbpf/libbpf-rs
+    title: libbpf-rs
+    description: |
+      Minimal and opinionated eBPF tooling for the Rust ecosystem. Read the [introduction post](https://dxuuu.xyz/libbpf-rs.html) to play around
+    category: ['Rust']
+
+  - url: https://github.com/ekzhang/bore
+    title: bore
+    description: |
+      a simple CLI tool for making tunnels to localhost
+    category: ['Rust']
+
+tool:
+  - url: https://github.com/normal-computing/outlines
+    title: outlines
+    description: |
+      Generative Model Programming
+
+  - url: https://github.com/chdb-io/chdb
+    title: chDB
+    description: |
+      an embedded OLAP SQL Engine powered by ClickHouse
+
+  - url: https://github.com/getumbrel/llama-gpt
+    title: llama-gpt
+    description: |
+      A self-hosted, offline, ChatGPT-like chatbot. Powered by Llama 2. 100% private, with no data leaving your device.
+
+  - url: https://github.com/serge-chat/serge
+    title: serge
+    description: |
+      is a chat interface crafted with llama.cpp for running Alpaca models. No API keys, entirely self-hosted!
+
+  - url: https://github.com/Dicklesworthstone/llama_embeddings_fastapi_service
+    title: Llama2 Embeddings FastAPI Service
+
+  - url: https://github.com/gravitl/netmaker
+    title: netmaker
+    description: |
+      WireGuard® automation, quick way to setup VPN with admin ui to manage user.
+
+  - url: https://github.com/netbirdio/netbird
+    title: netbird
+    description: |
+      Another wireguard based VPN automation with SSO/MFA. Wireguard is very performance and easy to setup, but there isn't an easy solution to manage user out of the box. Therefore we need tool like netmaker or netbird
+
