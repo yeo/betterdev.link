@@ -1,16 +1,24 @@
-time: "Sep 05, 2023"
+time: "Sep 16, 2023"
 subject: "Putting the “You” in CPU"
 draft: false
 description: |
-  Happy tuesday everyone. We're back for other issue. Lot of exiciting news, I keep them short this week to send the issue out and keep my momentum :-).
-  Hope you like this issue.
+  Happy monday everyone. We're back for other issue. Lot of exiciting article. Hope you like this issue. This issue is a bit short and lack the summary but hope you still like it.
 
 links:
   - url: https://nelsonslog.wordpress.com/2023/08/16/running-my-own-llm/
     title: "Running my own LLM"
+    description: |
+      Instead of just using OpenAI and consume, we can look into how to run and play with a real LLM on your own computer. That will help us learn much faster, especially if we're dipping our toe into AI/ML. Also checkout the petals tool at the tool section in this  issue.
+
+  - url: https://sebastianraschka.com/blog/2023/optimizing-LLMs-dataset-perspective.html
+    title: "Optimizing LLMs From a Dataset Perspective"
+    description: |
+      This article focuses on improving the modeling performance of LLMs by finetuning them using carefully curated datasets. Specifically, this article highlights strategies that involve modifying, utilizing, or manipulating the datasets for instruction-based finetuning rather than altering the model architecture or training algorithms. This article will also explain how you can prepare your own datasets to finetune open-source LLMs.
 
   - url: https://blog.0x7d0.dev/history/how-they-bypass-youtube-video-download-throttling/?utm_source=pocket_saves
     title: "How They Bypass YouTube Video Download Throttling"
+    description: |
+      This sounds so easy. Just get youtube raw video and download it. But turning out they throttling it, how do those download script by pass it?
 
   - url: https://snyk.io/blog/session-management-security/
     title: "Session management security: Best practices for protecting user sessions"
@@ -24,9 +32,6 @@ links:
   - url: https://mazzo.li/posts/fast-pipes.html
     title: "How fast are Linux pipes anyway?"
 
-  - url: https://blog.0x7d0.dev/history/how-they-bypass-youtube-video-download-throttling/
-    title: "How They Bypass YouTube Video Download Throttling"
-
   - url: https://rtheunissen.github.io/bst/?
     title: "Exploring the design space of binary search trees"
 
@@ -36,17 +41,25 @@ links:
   - url: https://blog.benthem.io/2023/08/16/what-actually-happens-when-you-run-copy-in-postgres.html
     title: "What actually happens when you COPY in Postgres"
 
-video:
+  - url: https://tembo.io/blog/optimizing-postgres-auto-vacuum/
+    title: "Optimizing Postgres's Autovacuum for High-Churn Tables"
 
 read_code:
+  - url: https://github.com/Florents-Tselai/pgJQ
+    description: "Use jq in Postgres"
+    title: "pgJQ"
+
   - url: https://github.com/matsadler/magnus/releases/tag/0.6.0
     title: "Magnus"
     description: "Ruby bindings for Rust. Write Ruby extension gems in Rust, or call Ruby from Rust."
+    category: ['Ruby', 'Rust']
 
   - url: https://github.com/kjleitz/adornable
     title: adornable
     description: |
-      Python has a super cool feature where you add `@name` on top of a function and name is call, wrap your function inside. Now we can do similar with Python given then 
+      Python has a super cool feature where you add `@name` on top of a function and name is call, wrap your function inside. Now we can do similar to that in Ruby, implement entirely as a library at Ruby level. no new keyword, just pure Ruby syntax.
+    category: ['Ruby', 'Rust']
+
   - url: https://github.com/Alpha-VLLM/LLaMA2-Accessory
     title: LLaMA2-Accessory
     description: |
@@ -66,6 +79,10 @@ read_code:
     category: ['Rust']
 
 tool:
+  - url: https://petals.dev/?utm_source=pocket_saves
+    tite: "petals"
+    description: "Run large language models at home, BitTorrent‑style"
+
   - url: https://github.com/normal-computing/outlines
     title: outlines
     description: |
