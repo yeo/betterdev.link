@@ -32,6 +32,9 @@ links:
   - url: https://mazzo.li/posts/fast-pipes.html
     title: "How fast are Linux pipes anyway?"
 
+  - url: https://getaround.tech/exif-data-manipulation-javascript/
+    title: "JPEG and EXIF Data Manipulation in Javascript"
+
   - url: https://rtheunissen.github.io/bst/?
     title: "Exploring the design space of binary search trees"
 
