@@ -1,0 +1,140 @@
+time: "Sep 26, 2023"
+subject: "What's the toughest bug you ever found and fixed"
+draft: false
+description: |
+  This week, many resorts in Las Vegas got hack and have to shutdown their system. The hack appear to be executed by [BlackCat/ALPHV ransomware group](https://www.malwarebytes.com/blog/personal/2023/09/ransomware-group-steps-up-issues-statement-over-mgm-resorts-compromise) and you can read about [their statement and analysis here](https://www.malwarebytes.com/blog/personal/2023/09/ransomware-group-steps-up-issues-statement-over-mgm-resorts-compromise).
+
+links:
+  - url: https://stackoverflow.com/questions/169713/whats-the-toughest-bug-you-ever-found-and-fixed
+    title: "What's the toughest bug you ever found and fixed"
+    description: |
+      A jpeg parser, running on a surveillance camera, which crashed every time the company's CEO came into the room. Read to know why :-).
+
+  - url: https://jvns.ca/blog/2023/09/14/in-a-git-repository--where-do-your-files-live-/
+    title: "In a git repository, where do your files live?"
+    description: |
+      We know that it’s in your .git directory, but where exactly in there are all the versions of your old files?
+
+  - url: https://raduzaharia.medium.com/network-health-overview-with-mtr-ss-lsof-and-iperf3-8d0d2d191781
+    title: "Network health overview with mtr, ss, lsof and iperf3"
+    description: |
+      Sometimes our Internet connection seems weird, and we don’t understand why. We know something is wrong, but we cannot really pinpoint the issue. And other times, there is weird file access that goes undetected simply because we don’t know what to look for. Logs won't be helpful in those case because they might be logged. Lets' look at the tool that help us identity and analyze network traffic.
+
+  - url: https://blog.pragmaticengineer.com/how-microsoft-does-qa
+    title: "How Microsoft does Quality Assurance (QA)"
+    description: |
+      Microsoft has played an outsized role in the development and importance of quality assurance across the industry. Microsoft was the first major company to come up with a specialized testing role which went well beyond manual testing.
+
+  - url: https://www.macarthur.me/posts/priority-hints
+    title: "Get All That Network Activity Under Control with Priority Hints"
+    description: |
+      Open up the browser's network tab and you'll see a lot of activity. Assets are being downloaded, information's being submitted, events are being logged, and more. How can we priority more important request, and dedicated more browser(end-user) bandwidth to these.
+
+  - url: https://blog.sequin.io/all-the-ways-to-capture-changes-in-postgres/
+    title: "All the ways to capture changes in Postgres"
+    description: |
+      How do we track changes to a database and react to it? Such as sending an email when a new customer are added to the table out of bound?
+
+  - url: https://antonz.org/sql-join/
+    title: "SQL join flavors"
+    description: |
+      There is more to SQL joins than you might think. Let's explore them a bit. I confess that I didn't know about lateral join
+
+  - url: https://www.crunchydata.com/blog/active-active-postgres-16
+    title: "Active active Postgres 16"
+    description: |
+      While I'm a big fan of Postgres, I have used MongoDB extensively too and their replicaset is amazing. All the failover and done automatically, with built-in client auto-retry and auto discover help the whole setup. With Postgres, we still have a lot of work to do to get there, but thing are improving in Postgres 16.
+
+  - url: https://www.nodejs-security.com/blog/securing-your-nodejs-apps-by-analyzing-real-world-command-injection-examples
+    title: "Securing Your Node.js Apps by Analyzing Real-World Command Injection Examples"
+    description: |
+      No matter your stack is, at some point, NodeJS will enter the table. Knowing how to operate them securely is super useful.
+
+  - url: https://medium.com/paypal-tech/scaling-kafka-to-support-paypals-data-growth-a0b4da420fab
+    title: "Scaling Kafka to Support PayPal’s Data Growth"
+    description: |
+      To handle the tremendous growth of PayPal’s streaming data since its introduction, Kafka needed to scale seamlessly while ensuring high availability, fault tolerance, and optimal performance. In this blog post, we will provide a high-level overview of Kafka and discuss the steps taken to achieve high performance at scale while managing operational overhead, and our key learnings and takeaways.
+
+
+
+read_code:
+  - url: https://github.com/wanasit/chrono
+    title: chrono
+    description: |
+      a pure JS lib to turn arbitraty date string to right datetime such as "2 day ago", "week from now", "this friday"...etc
+    category: ['JavaScript']
+
+  - url: https://github.com/jjb/ruby-clock
+    title: ruby-clock
+    description: |
+      A ruby job scheduler which runs jobs each in their own thread in a persistent process.
+    category: ['Ruby']
+
+  - url: https://github.com/jsvine/pdfplumber
+    title: pdfplumber
+    description: |
+      Plumb a PDF for detailed information about each text character, rectangle, and line. Plus: Table extraction and visual debugging
+    category: ['Python']
+
+  - url: https://github.com/johnfercher/maroto/tree/v2
+    title: "Maroto"
+    description: |
+      In every engineer career, at some point, you would need to generate a PDF. This lib allow you to generate PDF as if working with bootstrap, a row has column, a column has component. Support many component for bar code,  data matrix, custom style.
+    category: ['Go']
+
+  - url: https://github.com/mudge/re2
+    title: re2
+    description: |
+      Ruby bindings to re2, a "fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python".
+    category: ['Ruby']
+
+  - url: https://github.com/lycheeverse/lychee
+    title: lychee
+    description: |
+      Fast, async, stream-based link checker written in Rust. Finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites and more!
+    category: ['Rust']
+
+
+video:
+  - url: https://www.youtube.com/watch?v=yM0vGK4axjA
+    title: "Go Passwordless with WebAuthn in Ruby"
+    description: |
+      A ~40 minute talk on WebAuthn, an authentication method that uses public-key cryptography together with biometrics. 
+    category: ['Ruby']
+
+tool:
+  - url: https://github.com/iawia002/lux
+    title: lux
+    description: |
+      Fast and simple video download library and CLI tool written in Go. Support many services like youtube, bilibili, tiktok, Tumblr, vimeo, instagram etc
+
+
+  - url: https://github.com/chaskiq/plain
+    title: "plain"
+    description: |
+      a Rails engine that serves as an Artificial Intelligence (AI) assistant for your Rails project.
+
+  - url: https://fx.wtf/
+    title: fx
+    description: |
+      Terminal JSON viewer & processor
+
+  - url: https://github.com/ybirader/pzip
+    title: pzip
+    description: |
+      A blazing fast concurrent zip archiver and extractor.
+
+  - url: https://github.com/PeerDB-io/peerdb
+    title: peerdb
+    description: |
+       Postgres-first data-movement platform that makes moving data in and out of Postgres fast and simple. It enables you to sync, transform and query data across your stores using simple SQL commands. We implement multiple Postgres native and infrastructural optimizations for 10x faster data-movement in and out of PostgreSQL.
+
+  - url: https://vale.sh
+    title: vale
+    description: |
+       an open-source, command-line tool that brings your editorial style guide to life. It runs entirely offline, no cloud. single binary. Think of it like a tool that you run to enforce a certain kind of rule and language for your document. It supports markup language well.
+
+  - url: https://github.com/electric-sql/electric
+    title: electric
+    description: |
+      Local-first sync layer for web and mobile apps. Build reactive, realtime, local-first apps directly on Postgres. Build your app with its standalone db, locally on device storage, sync to a Postgres db on the background for persistent across device, conflict free.
