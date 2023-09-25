@@ -1,8 +1,8 @@
-time: "Sep 26, 2023"
+time: "Sep 25, 2023"
 subject: "What's the toughest bug you ever found and fixed"
 draft: false
 description: |
-  This week, many resorts in Las Vegas got hack and have to shutdown their system. The hack appear to be executed by [BlackCat/ALPHV ransomware group](https://www.malwarebytes.com/blog/personal/2023/09/ransomware-group-steps-up-issues-statement-over-mgm-resorts-compromise) and you can read about [their statement and analysis here](https://www.malwarebytes.com/blog/personal/2023/09/ransomware-group-steps-up-issues-statement-over-mgm-resorts-compromise).
+  Hi everyone, This week, many resorts in Las Vegas got hack and have to shutdown their system. That means many operation is handled by paper and pen. The hack appears to be executed by [BlackCat/ALPHV ransomware group](https://www.malwarebytes.com/blog/personal/2023/09/ransomware-group-steps-up-issues-statement-over-mgm-resorts-compromise) and you can read about [their statement and analysis here](https://www.malwarebytes.com/blog/personal/2023/09/ransomware-group-steps-up-issues-statement-over-mgm-resorts-compromise). A reminder for all of us to be more caution with social engineering hacks.
 
 links:
   - url: https://stackoverflow.com/questions/169713/whats-the-toughest-bug-you-ever-found-and-fixed
