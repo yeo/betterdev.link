@@ -1,0 +1,172 @@
+time: "Oct 2, 2023"
+subject: "Writing a Debugger From Scratch"
+draft: false
+description: |
+  Last week, the famous Insomnia rugpull us and require an account to use the software. In process, many has lost their project data when the migration happen from local to cloud. There is a new uprising star emerge, let give [Bruno](https://github.com/usebruno/bruno) a try.
+
+links:
+- url: https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-5
+  title: "Writing a Debugger From Scratch - DbgRs Part 5 - Breakpoints"
+  description: |
+    There is an infamous saying: One cannot understand thing until they made it. In this series, Tim shared how to approach writing a debugger. This part is about breakpoints but make sure to check other parts too.
+
+- url: https://www.bejarano.io/hardening-macos/
+  title: "Hardening macOS"
+  description: |
+    There are many options that is convenience but it isn't secure enough. Such as disk encryption is not enable, lock screen isn't auto activate. This is a guide to enhance your security, especially useful when connecting to public wife for example.
+
+- url: https://www.crunchydata.com/blog/understanding-postgres-iops
+  title: "Understanding Postgres IOPS: Why They Matter Even When Everything Fits in Cache"
+  description: |
+    Disk IOPS (Input/Output Operations Per Second) is a key metric for measuring the performance of any disk system. It represents the number of read and write operations that can be performed per second. For PostgreSQL, which relies heavily on disk access, understanding and optimizing disk IOPS is crucial for achieving optimal performance. 
+
+- url: https://medium.com/trendyol-tech/from-chaos-to-recovery-how-we-restored-our-aws-microservice-after-accidental-deletion-at-dolap-43a17299d802
+  title: "From Chaos to Recovery: How We Restored Our AWS Microservice After Accidental Deletion at Dolap"
+  description: |
+    Dolap accidently remove their comment service infra. They click delete on "Cloudformation" stack, which is a process that cannot be cancel. Panic. The key thing help them is "deletion protection" on RDS. While normal stateless component will be removed, the core place where data remains is safe. So do yourself a favor and enable "deletion protection" on all of your stateful resource today.
+
+- url: https://www.macarthur.me/posts/more-aggressive-cache-headers
+  title: "Your Cache Headers Could Probably be More Aggressive"
+  description: |
+    It's common for modern hosts to cache static assets in a flexible, but not most optimal way. Let's explore why that is and what we can do to push cache performance (for some assets) even further.
+
+- url: https://kind.engineering/?utm_source=leadershipintech&utm_medium=newsletter&utm_campaign=the-musk-algorithm
+  title: "Kind Engineering: How To Engineer Kindness"
+  description: |
+    How to be kind and provide constructive feedback instead of being a brilliant jerk?
+
+- url: https://blog.postman.com/storage-challenges-in-the-evolution-of-database-architecture/
+  title: "Storage challenges in the evolution of database architecture"
+  description: |
+    AWS RDS has a physical storage size limit of 128TiB for each RDS cluster. Postman has a db of 95TB and growing at 2TB per month. So they plan to prune the old data. However, just drop a table won't reclaim the space. They needs to rebuild the table, but it's a costly process. This is real world engineering, read to see how they become creative and overcome the challenge.
+
+- url: https://notes.eatonphil.com/2023-10-01-intercepting-and-modifying-linux-system-calls-with-ptrace.html
+  title: "Intercepting and modifying Linux system calls with ptrace"
+  description: |
+    How software fails is interesting. But real-world errors can be infrequent to manifest. Fault injection is a formal-sounding term that just means: trying to explicitly trigger errors in the hopes of discovering bad logic, typically during automated tests.
+
+
+- url: https://dev.37signals.com/navigating-personal-information-with-care/
+  title: "Navigating personal information with care"
+  description: |
+    This article is a Rails solution by 37signals fork themselve. But many principal can be applied to anyone. Every engineer would need to debug issue, and have a need at poke into some kind of console app to access to the sensitive data. How do we log those access, get approval to run those. how they glue these parts together
+
+
+- url: https://docusaurus.io/blog/upgrading-frontend-dependencies-with-confidence-using-visual-regression-testing
+  title: "Upgrading frontend dependencies with confidence"
+  description: |
+    A very practicle advice you can do today to handle front-end upgrade. It leads us through a process of setting up github action, run and take screenshot of your app. Compare them visually. of course, we will need some tips to hide flaky element along the line. Such as when first load page there might be no pop-up, but waiting 5 second and a pop-up may appear. Or having animation that appear based on time.
+
+read_code:
+- url: https://github.com/bits-and-blooms/bitset
+  title: "bitset"
+  description: |
+    bitset is a mapping between non-negative integers and boolean values. It should be more efficient than map[uint] bool.
+  category: ['Go']
+
+- url: https://github.com/sugawarayuuta/sonnet
+  title: sonnet
+  description: |
+    High performance JSON library in Go. Fully compatible with the Go standard library, Both the encoder and the decoder passed all tests from it.
+  category: ['Go']
+
+- url: https://github.com/jonhoo/atone
+  title: atone
+  description: |
+    A VecDeque (and Vec) variant that spreads resize load across pushes.
+  category: ['Rust']
+
+- url: https://github.com/hulkholden/n64js
+  title: n64.js
+  description: |
+    an n64 emulator in JavaScript
+  category: ['JavaScript']
+
+- url: https://github.com/mistralai/mistral-src
+  title: mistral-sr
+  description: "Reference implementation of Mistral AI 7B v0.1 model."
+  category: ['Python']
+
+- url: https://github.com/tuzig/terminal7
+  title: terminal7
+  description: "a terminal multiplexer re-designed for remote servers and hi-res touch screens. A reincaranation of tmux and screen, Terminal7 is a hybrid app that works best on the iPad."
+  category: ['Python']
+
+- url: https://github.com/charkost/prosopite
+  title: prosopite
+  description: |
+     Rails N+1 queries auto-detection with zero false positives / false negatives.
+  category: ['Ruby']
+
+- url: https://github.com/rubygems/gemstash
+  title: gemstash
+  description: "A RubyGems.org cache and private gem server"
+  category: ['Ruby']
+
+- url: https://github.com/erictreacy/mimic.css
+  title: mimic.css
+  description: |
+    an css animations library because everyone else is doing it.
+  category: ['CSS']
+
+video:
+
+tool:
+  - url: https://github.com/laixintao/flameshow
+    title: flameshow
+    description: |
+      a terminal Flamegraph viewer.
+
+  - url: https://github.com/laixintao/iredis
+    title: iredis
+    description: |
+      A Terminal Client for Redis with AutoCompletion and Syntax Highlighting.
+
+  - url: https://github.com/googleapis/release-please
+    title: "release-please"
+    description: "generate release PRs based on the conventionalcommits.org spec"
+
+  - url: https://github.com/gitify-app/gitify
+    title: gitify
+    description: |
+      GitHub notifications on your menu bar. Available on macOS, Windows & Linux
+
+  - url: https://github.com/dnakov/little-rat
+    titl: little-rat
+    description: |
+      small chrome extension to monitor (and optionally block) other extensions' network calls
+
+  - url: https://ebitengine.org/en/blog/v2.6.0.html
+    title: ebitengine
+    description: |
+      open source game engine for the Go programming language. Ebitengine's simple API allows you to quickly and easily develop 2D games that can be deployed across multiple platforms, including Nintendo.
+
+  - url: https://instant.dev/
+    title: instant.dev
+    description: |
+      Build APIs with JavaScript and Postgres, fast.
+
+  - url: https://ollama.ai/
+    title: ollama
+    description: |
+      Get up and running with large language models, locally.
+
+  - url: https://ollama.ai/library/sqlcoder
+    title: sqlcoder
+    description: |
+       a 15B parameter model that is fine-tuned on a base StarCoder model. It slightly outperforms gpt-3.5-turbo for natural language to SQL generation tasks on the sql-eval framework, and outperforms popular open-source models. It also significantly outperforms text-davinci-003, a model that’s more than 10 times its size.
+
+  - url: https://github.com/hyperdxio/hyperdx
+    title: hyperdx
+    description: |
+      helps engineers figure out why production is broken faster by centralizing and correlating logs, metrics, traces, exceptions and session replays in one place. An open source and developer-friendly alternative to Datadog and New Relic.
+
+  - url: https://argo-cd.readthedocs.io/en/stable/
+    title: argo-cd
+    description: |
+      a declarative, GitOps continuous delivery tool for Kubernetes.
+
+  - url: https://woodpecker-ci.org/
+    title: woodpecker
+    description: |
+      a simple CI engine with great extensibility.
