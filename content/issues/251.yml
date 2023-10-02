@@ -4,6 +4,8 @@ draft: false
 description: |
   Last week, the famous Insomnia rugpull us and require an account to use the software. In process, many has lost their project data when the migration happen from local to cloud. There is a new uprising star emerge, let give [Bruno](https://github.com/usebruno/bruno) a try.
 
+  This week, I came across a very interesting tool to fork the db, a feature I think every engineer has been dream about. Still in beta but give [pg_branch](https://github.com/NAlexPear/pg_branch) a try. It's written in Rust so the code base is more approachable compare with C/C++.
+
 links:
 - url: https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-5
   title: "Writing a Debugger From Scratch - DbgRs Part 5 - Breakpoints"
@@ -30,7 +32,7 @@ links:
   description: |
     It's common for modern hosts to cache static assets in a flexible, but not most optimal way. Let's explore why that is and what we can do to push cache performance (for some assets) even further.
 
-- url: https://kind.engineering/?utm_source=leadershipintech&utm_medium=newsletter&utm_campaign=the-musk-algorithm
+- url: https://kind.engineering/
   title: "Kind Engineering: How To Engineer Kindness"
   description: |
     How to be kind and provide constructive feedback instead of being a brilliant jerk?
