@@ -1,0 +1,158 @@
+time: "Oct 16, 2023"
+subject: "Using AWK and R to parse 25TB"
+draft: false
+description: |
+  This week I come across a tool call [LocalAI](https://github.com/go-skynet/LocalAI). I always curious how to replicate OpenAI, have them run locally and this [LocalAI](https://github.com/go-skynet/LocalAI) is the answer, bill itself as free, Open Source OpenAI alternative. Self-hosted, community-driven and local-first. Drop-in replacement for OpenAI running on consumer-grade hardware. No GPU required. Runs ggml, gguf, GPTQ, onnx, TF compatible models: llama, llama2, rwkv, whisper, vicuna, koala, cerebras, falcon, dolly, starcoder. It defs live up to its hype with 12k+ stars on Github. Super easy to get started.
+
+links:
+  - url: https://livefreeordichotomize.com/posts/2019-06-04-using-awk-and-r-to-parse-25tb/index.html
+    title: "Using AWK and R to parse 25tb"
+    description: |
+      Knowing tools like awk, sed helps immensively when need to process text based log file fast. AWK in itself is a whole programing language. Lets follow this journy of bringing the query time and cost down from 8 minutes and $20 to a tenth of a second and less than a penny, 
+
+  - url: https://interviewnoodle.com/how-discord-stores-billions-of-messages-big-surprises-in-system-design-e48fa07a2665
+    title: "How Discord Stores Billions of Messages — Big Surprises in System Design"
+    description: |
+      The biggest supprise is they don't use cache.
+
+  - url: https://blog.meain.io/2023/what-is-in-dot-git/
+    title: "What is in that .git directory?"
+    description: |
+      Well, I think most of you reading this blog use git more or less on a daily basis, but have you ever looked into what is in the .git folder that git creates? Let's explore it together and understand what is going on in there.
+
+  - url: https://jakelazaroff.com/words/an-interactive-intro-to-crdts/
+    title: "An Interactive Intro to CRDTs"
+    description: |
+      Have you heard about CRDTs and wondered what they are? Maybe you’ve looked into them a bit, but ran into a wall of academic papers and math jargon? 
+
+  - url: https://www.polarsignals.com/blog/posts/2023/10/04/profiling-python-and-ruby-with-ebpf
+    title: "Profiling Python and Ruby using eBPF"
+    description: |
+      Dive into the internals of profiling interpreted Python and Ruby code using eBPF
+
+  - url: https://doordash.engineering/2023/08/15/bpfagent-ebpf-for-monitoring-at-doordash/
+    title: "BPFAgent: eBPF for Monitoring at DoorDash"
+    description: |
+      Metrics, logs, and traces provide vital information. But these signals almost entirely rely on application-level instrumentation, which can leave gaps or conflicting semantics across different systems. DoorDash decided to seek potential solutions that could provide a more complete and unified picture of their networking topology
+
+  - url: https://www.cycle.app/blog/scaling-graphql-with-postgres-lessons-learned-from-our-database-timeout-issues
+    title: "Scaling GraphQL with Postgres - Lessons learned from our database timeout issues"
+    description:  |
+      Cycle app has a lot of issue about time out db connection. They workaround by run health check more often to auto restart. Wh
+
+  - url: https://www.crunchydata.com/blog/five-great-features-of-postgres-partition-manager
+    title: "Five Great Features of the PostgreSQL Partition Manager"
+    description: |
+      pg_partman is a tool to partition your table into either time based or number based. In this article they discussed 5 important features to help managing large tables in PostgresSQL.
+
+  - url: https://wandb.ai/byyoung3/ml-news/reports/Fine-Tuning-Mistral7B-on-Python-Code-With-A-Single-GPU---Vmlldzo1NTg0NzY5
+    title: "Fine-Tuning Mistral7B on Python Code With A Single GPU!"
+
+  - url: https://kyndinfo.notion.site/Fluid-Simulation-f0516d9d12e245a08ae5c7545ac822dd
+    title: "Flui Simulation"
+    description: |
+      A step by step notion note of Kynd, explain how to design and implement a fluid simulation. Very detail at every step, together with codepen to run and follow. You will learn a lot follow this
+
+  - url: https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-7/
+    title: "Speeding up the JavaScript ecosystem - The barrel file debacle"
+    description: |
+      Part 7 of this series about JS performance. In this, Marvinhh discussed why the import-re-export in a index.js, while convenience for consumer cause perfomrnace degrade.
+
+
+read_code:
+- url: https://github.com/charmbracelet/mods
+  title: "mods"
+  description: |
+    LLM based AI is really good at interpreting the output of commands and returning the results in CLI friendly text formats like Markdown.
+  category: ['Go']
+
+- url: https://github.com/paradedb/paradedb
+  title: paradedb
+  description: |
+    PostgreSQL for Search
+  category: ['Rust']
+
+- url: https://github.com/Simonwep/selection
+  title: Viselect
+  description: |
+    A high performance and lightweight library to add a visual way of selecting elements, just like on your Desktop. Zero dependencies, super small. Support for major frameworks!
+
+  category: ['JavaScript']
+
+- url: https://github.com/fulcrum-so/ziggy-pydust
+  title: ziggy-pydust
+  description: |
+    A toolkit for building Python extensiions in Zig
+  category: ['Zig', 'Python']
+
+- url: https://github.com/airtai/faststream
+  title: faststream
+  description: |
+    simplifies the process of writing producers and consumers for message queues, handling all the parsing, networking and documentation generation automatically.
+  category: ['Python']
+
+- url: https://gitlab.com/os85/httpx
+  title: httpx
+  description: |
+    An HTTP client library for ruby that support HTTP/2
+  category: ['Ruby']
+
+- url: https://github.com/serpapi/nokolexbor
+  title: nokolexbor
+  description: |
+    Nokolexbor is a drop-in replacement for Nokogiri. It's 5.2x faster at parsing HTML and up to 997x faster at CSS selectors. Another similar one is [Oga](https://github.com/yorickpeterse/oga) but it has been lack of active development
+  category: ['Ruby']
+
+  category: ['CSS']
+
+video:
+
+tool:
+- url: https://github.com/evidence-dev/evidence
+  title: evidence
+  description: |
+    an open source, code-based alternative to drag-and-drop business intelligence tools. You can write markdown, and generate embed chart(through query your warehouse), like traditional BI tools but now can also embed them into markdown.
+
+- url: https://audiomotion.dev/#/
+  title: audiomotion
+  description: |
+    A high-resolution real-time audio spectrum analyzer JavaScript module with no dependencies
+
+- url: https://github.com/discourse/logster
+  title: logster
+  description: |
+    Log viewer UI and framework for rack
+
+- url: https://github.com/richardyc/Chrome-GPT
+  title: Chrome-GPT
+  description: An experimental AutoGPT agent that interacts with Chrome
+
+- url: https://github.com/ergo70/TRAKTOR
+  title: TRAKTOR
+  description: |
+    Set up true multimaster replication clusters with vanilla PostgreSQL servers.
+
+- url: https://github.com/stormatics/pg_cirrus
+  title: "pg_cirrus"
+  description: |
+    Set up 3-Node highly available PostgreSQL cluster
+
+- url: https://github.com/anderspitman/obligator
+  title: obligator
+  description: |
+    Simple and opinionated OpenID Connect server designed for self-hoster
+
+- url: https://authp.github.io/
+  title: "Caddy Security"
+  description: |
+    Auth Portal and Authorize Plugins for Caddy v2
+
+- url: https://github.com/payloadcms/payload
+  title: "payloadcms"
+  description: |
+    The best way to build a modern backend + admin UI. No black magic, all TypeScript, and fully open-source, Payload is both an app framework and a headless CMS.
+
+- url: https://github.com/rapidloop/pgmetrics
+  title: pgmetrics
+  description: |
+    Collect and display information and stats from a running PostgreSQL server. A must say to have, very easy to install with a single binary. A similar tools but tailor toward [Ruby/Rails is PgHero](https://github.com/ankane/pghero)
