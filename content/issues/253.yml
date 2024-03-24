@@ -1,0 +1,168 @@
+time: "Mar 24, 2023"
+subject: "Fifty Things you can do with a Software Defined Radio"
+draft: false
+description: |
+  Hi everyone,
+
+  I had come back this week and hope to return this newsletter more frequently. I'm so sorry if I have been letting anyone down without any updates. 
+
+  I had quite a few update from last when I was started. I had polish my side project [ec2.shop](ec2.shop), it's the best tool to quickly get a view all of on-demand, spot and reverse price all in the same page. Give it a try and let me know.
+
+  One thing has changed in my point of view since last year is I strongly belive we should self-hosted more nowsaday instead of relying on the free tier or cloud provider.
+
+  I had seen cases of people losing their year of photos when the google account get locked out, without any way to contract a real human being to resolve the issue. So moving forward, I'm adding a self-hosted section now to address these.
+
+  Because it has been a while I haven't send out this newsletter, if you no longer enjoy, you can click unsubscribe at the bottom of this email.
+
+links:
+  - url: https://blinry.org/50-things-with-sdr/
+    title: "Fifty Things you can do with a Software Defined Radio"
+    description: |
+      As a software engineer, I like to tinker around hardware projects, physical thing that you can touch, and show to our faimily.
+      Radio is fastinating because there are many valueable information being pass around. You can listen to airplane communication, track aircraft via ADS-B, you will write some code
+      to decode the signal and make sense of them. You can even throw a front-end to render them on a map for example.
+
+  - url: https://alexandrehtrb.github.io/posts/2024/03/http2-and-http3-explained/
+    title: "HTTP/2 and HTTP/3 explained"
+    description: |
+      Understand better how HTTP works in each version.
+
+  - url: https://explainextended.com/2023/12/31/happy-new-year-15/
+    title: "GPT in 500 lines of SQL"
+    description: |
+      It just proves that if you want something done right, you have to do it yourself.
+      Encouraged by this optimistic forecast, today we will implement a large language model in SQL.
+
+  - url: https://benjdd.com/posts/stylized-image-binning-algorithm/
+    title: "Stylized image binning algorithm"
+    description: |
+      Given a color image? How can we convert it to black and white, pixel-art-like images? The cool thing about these pixel-art image is they can be easily embed into a README.md and render great.
+      We will learn the binning algorithm, implement purely just with JavaScript.
+
+  - url: https://romgrk.com/posts/optimizing-javascript
+    title: "Optimizing Javascript for fun and for profit"
+    description: |
+      JavaScript is quick and easy to write. The language is very forgiable so can easily write code that isn't optimize. In this post we will learn a few way to optimize JS.
+
+  - url: https://www.figma.com/blog/how-figmas-databases-team-lived-to-tell-the-scale/
+    title: "How Figma’s databases team lived to tell the scale"
+    description: |
+      I'm honst everytime I get into Figma, I'm frustrated and think how everyone using them? The UI is so clunky, I always have to make sure  I don't accidently move something. But anyway, they operate at massive scale and today they share the story they migrate and shard their database.
+
+  - url: https://blog.bemi.io/soft-deleting-chaos/
+    title: "The Day Soft Deletes Caused Chaos"
+    description: |
+      Soft delete is the practice of not deleting the row physically but create a flag that we delete a row. It's very simple to implement because deleting data isn't easy. Such as deleting a user lead to remove many relevant data, relevant foreign key. Data can also refer to external data, such as user avatar store on S3. because of that, many use soft delete. it does add complexity for operation though, and what can go wrong, we will learn today.
+
+  - url: https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html
+    title: "Linux Crisis Tools"
+    description: |
+      When you have an outage caused by a performance issue, you don't want to lose precious time just to install the tools needed to diagnose it. Here is a list of "crisis tools" Bredan recommend installing on your Linux servers by default. I would suggest to add 4 mores: nmap, nc, netstat and strace
+
+  - url: https://r2p.dev/b/2024-03-18-1brc-go/
+    title: "One Billion Row Challenge - From 95s to 1.96s"
+    description: |
+      [The One Billion Row Challenge](https://www.morling.dev/blog/one-billion-row-challenge/) is to write a Java program for retrieving temperature measurement values from a text file and calculating the min, mean, and max temperature per weather station. There’s just one caveat: the file has 1,000,000,000 rows! It has been expand and adopt by many languages or eco system. This one show an optimization to bring up almost 20x performance. There one another similar challenge of [moving a billion postgres rows on 100 budget](https://blog.peerdb.io/moving-a-billion-postgres-rows-on-a-100-budget)
+
+
+read_code:
+  - url: https://github.com/mnutt/rotary
+    title: rotary
+    description: |
+      If you have a kid def you would want to do this. It'
+
+  - url: https://github.com/sunng87/pgwire
+    title: pgwire
+    description: |
+      Have you ever wonder what is the process of writing a database library ? This project shows that, implement PostgreSQL wire protocol in Rust
+    category: ['Rust']
+
+  - url: https://github.com/google/maxtext
+    title: maxtext
+    description: |
+      a high performance, arbitrarily scalable, open-source, simple, easily forkable, well-tested, batteries included LLM written in pure Python/Jax and targeting Google Cloud TPUs. MaxText typically achieves 55% to 60% model-flop utilization and scales from single host to very large clusters while staying simple and "optimization-free" thanks to the power of Jax and the XLA compiler.
+    category: ['Python']
+
+  - url: https://github.com/julienbourdeau/debugbar
+    title: debugbar
+    description: |
+      Powerful devtools for Ruby on Rails. Inspired by the Laravel Debugbar.
+    category: ['Ruby']
+
+  - url: https://github.com/felixge/fgprof
+    title: fgprof
+    description: |
+      fgprof is a sampling Go profiler that allows you to analyze On-CPU as well as Off-CPU (e.g. I/O) time together. I'm always interested in how to implement this CPU profiling tool. The project is less than 1000 LOC so you can grasp the idea behind quickly
+    category: ['Go']
+
+video:
+
+tool:
+  - url: https://github.com/xataio/pgzx
+    title: pgzx
+    description: |
+      There are already tool to help write Postgres extension with Rust such as [pgrx](https://kaiwern.com/posts/2022/07/20/writing-postgresql-extension-in-rust-with-pgx/). Now we can do with Zig. After the last 2 years working with Rust,
+      I feel like it's such as great language that is truely innovative compare with other, but there is still room for a low level language that isn't too strict such as Zig.
+      Using zig to write a postgess extension feel great.
+
+  - url: https://github.com/jakubfiala/atrament
+    title: atrament
+    description: |
+      A small JS library for beautiful drawing and handwriting on the HTML Canvas. An use case is you can use to take user signature and have it smoothen out.
+      Check the [demo](https://www.fiala.space/atrament/demo/) as well.
+
+  - url: https://github.com/Studiosity/grover
+    title: grover
+    description: |
+      A Ruby gem to transform HTML into PDFs, PNGs or JPEGs using Google Puppeteer/Chromium. Useful when generating invoice
+
+  - url: https://cartosvg.com/
+    title: "cargosvg: Elegant, simple interactive maps"
+    description: |
+      If you want to generate some kind of activity maps this is a good tool. Example in my [email forward app](https://mailwip.com) I had a world map on homepage which can probably re-impelemnt with this tool
+    
+  - url: https://www.goqite.com/
+    title: goqite
+    description: |
+      a persistent message queue Go library built on SQLite and inspired by AWS SQS (but much simpler).
+
+  - url: https://jan.ai/
+    title: janai
+    description: 
+      An open source alternative to ChatGPT that runs on the desktop.
+
+  - url: https://github.com/rubysec/ruby-advisory-db
+    title: ruby-advisory-db
+    description: "A database of vulnerable Ruby Gems. useful to not miss a vulnerable if you are using Ruby"
+
+  - url: https://github.com/dimitri/pgcopydb
+    title: pgcopydb
+    description: |
+      Copy a Postgres database to a target Postgres server (pg_dump | pg_restore on steroids)
+
+  - url: https://github.com/EchoVault/EchoVault
+    title: EchoVault
+    description: |
+      highly configurable, distributed, in-memory data store and cache implemented in Go. Think of it like a Redis alternative but speak the same protocol, therefore we can reuse the same client code, use the same our favorite Redis client in our language. With the recent Redis license change, it's time to look for alternative.
+
+self_hosted:
+  - url: https://jan.ai/
+    title: janai
+    description: 
+      An open source alternative to ChatGPT that runs on the desktop.
+
+  - url: https://github.com/pulsejet/memories
+    title: memories
+    description: Fast, modern and advanced photo management suite. Runs as a Nextcloud app. Can be use as a self-hosted solution instead of google photo.
+
+  - url: https://github.com/echoboomer/incident-bot
+    title: incident-bot
+    description: |
+      Incident management framework centered around a ChatOps bot for Slack to allow your teams to easily and effectively identify and manage technical incidents impacting your cloud infrastructure, your products, or your customers' ability to use your applications and services.
+
+  - url: https://github.com/turbot/powerpipe
+    title: powerpipe
+    description: |
+      Dashboards for DevOps. Visualize cloud configurations. Assess security posture against a massive library of benchmarks. Build custom dashboards with code.
+      Install it, connect with your account and it will analyze to show any potential issue.
+
