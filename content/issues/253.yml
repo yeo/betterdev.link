@@ -4,16 +4,17 @@ draft: false
 description: |
   Hi everyone,
 
-  I had come back this week and hope to return this newsletter more frequently. I'm so sorry if I have been letting anyone down without any updates. 
+  I've returned this week and hope to make this newsletter a more regular occurrence. I apologize if my absence and lack of updates have disappointed any of you.
 
-  I had quite a few update from last when I was started. I had polish my side project [ec2.shop](ec2.shop), it's the best tool to quickly get a view all of on-demand, spot and reverse price all in the same page. Give it a try and let me know.
+  Since we last caught up, I've made several updates. I've polished my side project, [ec2.shop](https://ec2.shop), which I believe is the best tool for quickly viewing all on-demand, spot, and reserve prices on a single page. Give it a try and let me know what you think.
 
-  One thing has changed in my point of view since last year is I strongly belive we should self-hosted more nowsaday instead of relying on the free tier or cloud provider.
+  One significant change in my perspective since last year is my strong belief in the importance of self-hosting more nowadays, rather than relying on free tiers or cloud providers.
+ 
+  I've witnessed cases where individuals have lost years of photos after being locked out of their Google accounts, with no means of contacting a real person to resolve the issue. Moving forward, I'll be adding a self-hosted section so we can started to move into the direction of owning our own content.
 
-  I had seen cases of people losing their year of photos when the google account get locked out, without any way to contract a real human being to resolve the issue. So moving forward, I'm adding a self-hosted section now to address these.
+  It's also the reason my newsletter platform is home-grown, self-made.
 
-  Because it has been a while I haven't send out this newsletter, if you no longer enjoy, you can click unsubscribe at the bottom of this email.
-
+  Since it's been a while since I last sent out this newsletter, if you find it's no longer to your liking, you can click unsubscribe at the bottom of this email.
 links:
   - url: https://blinry.org/50-things-with-sdr/
     title: "Fifty Things you can do with a Software Defined Radio"
