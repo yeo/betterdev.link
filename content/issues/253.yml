@@ -69,7 +69,7 @@ read_code:
   - url: https://github.com/mnutt/rotary
     title: rotary
     description: |
-      If you have a kid def you would want to do this. It'
+      do you remember years ago you can dial a number on the phone, they play some music. We replicate this setup here with old hardware, open source project like Asterisk to do that. If you have a kid def you would want to  look into it. Not an end to end soluition but I show a full setup, how thing tie together, which component you need.
 
   - url: https://github.com/sunng87/pgwire
     title: pgwire
