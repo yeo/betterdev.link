@@ -255,7 +255,7 @@
               {{ if .SelfHosted }}
               <div style="padding: 1.5rem 1.5rem 0rem 1.5rem; font-size: 1.1rem;">
                 <h3 class="subtitle"><strong>Self Hosted</strong></h3>
-                {{ range $key, $link := .Tools }}
+                {{ range $key, $link := .SelfHosted }}
                   {{ if $link.IsSponsor }}
                     <div class="issue-sponsor">
                       <a style="font-size: 1.3rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a> <span class="badge">(SPONSOR)</span>
