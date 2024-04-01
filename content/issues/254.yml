@@ -1,0 +1,180 @@
+time: "April 1, 2024"
+subject: "Garbage Collection for Systems Programmers and How radio work"
+draft: false
+description: |
+  Hi all,
+
+  We come back to my second week :). If you like BetterDev, refer to your friend, sponsor a few usd per month will help too.
+
+  In previous email, I said about a new self hosted section. Due to a bug the sefl hosted doesn't appear in email, you can go back to re-read the previous issue for awesome tool that you can run on your own hardware.
+
+  Onward to our news issue today.
+
+  First thing, there is a [suppy chain attack on xz](https://www.openwall.com/lists/oss-security/2024/03/29/4), it has assigned [CVE-2024-3094](https://nvd.nist.gov/vuln/detail/CVE-2024-3094), If you had install xz 5.6.x, that version is affected. If it's a server, better to destroy and rebuild a new server with xz 5.4.
+
+  If you're using mac,  you can check which xz version you had installed
+
+  ```
+  brew info xz
+  ```
+
+  If it return 5.6, perform an `brew upgrade xz` and it will rollback to 5.4.
+
+  Continue on this story, no one know the real identity of the attacker so far. He has spend 2 years contribute code in a legitimate way. 2 years of works. Had he implement the backdoor correctly and not causing slowness, probably no one has notice. Someone [shared a similar story on mastodon](https://rigor-mortis.nmrc.org/@simplenomad/112184869681420177).
+
+  Another dance in open source community is the Redis license change, rest assured that if you're just using Redis as an end-user theree is nothign change, you will be continue to use it. On top of that, Linux foundation has already launch [Valkey](https://github.com/valkey-io/valkey) , which is a fork of Redis right before the license change. In Redis codebase, top [changeset contributions by employe](https://lwn.net/SubscriberLink/966631/6bf2063136effa1e/) is Tencent, not even Redis Lab. Alibaba comes in third place, then Huawei. So I think there will be definetely a path to the official Redis, similar to the IO.js story back  in the old day, where everyone switch to the community fork. So no action require as an end-user, in the meantime, exploring the new ValKey project.
+
+links:
+- url: https://bitbashing.io/gc-for-systems-programmers.html
+  title: Garbage Collection for Systems Programmers
+  description: |
+    Let’s talk about one of the most performance-sensitive programs you run every day: your operating system. Since every speedup gives you more computer to compute with, an OS is never fast enough, so you can always find kernel and driver developers optimizing the bejesus out of their code.
+
+- url: https://lcamtuf.substack.com/p/radios-how-do-they-work
+  title: "Radios, how do they work?"
+  description: |
+    A brief introduction to antennas, superheterodyne receivers, and signal modulation schemes.
+
+- url: https://www.lydiahallie.com/blog/promise-execution
+  title: "JavaScript Visualized: Promise Execution"
+  description: |
+    Due to its easi of use, and its forgiven model, promise remain an unclear? should I use `return Promise<Value>` or, return Promise.Resolve(value). all of that. Let look deeper to understand their execution model.
+
+- url: https://knock.app/blog/hacking-postgresql-driver
+  title: "Hacking our PostgreSQL driver to get more out of Amazon RDS performance insights"
+  description: |
+    In the process of improving Knock performance, Knock engineers found ourselves in the weeds hacking our Postgres driver, and we wanted to share some fun learnings we've gathered so far.
+
+- url:  https://www.dzombak.com/blog/2024/03/Running-a-Raspberry-Pi-with-a-read-only-root-filesystem.html
+  title: "Running a Raspberry Pi with a read-only root filesystem"
+  description: |
+    Many applications that run on Raspberry Pis and similar single-board computers — for example, environmental data loggers that report to a central database server — don’t really need to store any state locally on the Pi’s SD card. This means you can run the Pi with a read-only root filesystem, which will dramatically increase the SD card’s lifetime. Also good discussion on [Hacker News](https://news.ycombinator.com/item?id=39869614) for [alternative method](https://news.ycombinator.com/item?id=39871093)
+
+- url: https://devnonsense.com/posts/how-does-linux-nat-a-ping/
+  title: "How does Linux nat a ping"
+  description: |
+    Pretty much any home computers are behind a NAT, mean multiple computer share a same public ip. In the TCP/UDP packet, there is a port, the pair ip:port can be used to track which host and send the packet back. But ping operate with ICMP, and ICMP packet doesnt have a port field. So how does NAT work for ICMP packets?
+
+- url: https://textslashplain.com/2024/03/27/attacker-techniques-gesture-jacking/
+  title: "Attacker Techniques: Gesture Jacking"
+  description: |
+    When a website ask you to hold down a key, what can happen? What is User Gesture? How to defend.
+
+- url: https://isovalent.com/blog/post/file-monitoring-with-ebpf-and-tetragon-part-1/
+  title: "File Monitoring with eBPF and Tetragon"
+  description: |
+    Anytime you start to implement HIPAA, SOC, NIST PCE-DSS, the file integrity monitoring come up? who changed this file? when? what is changed?
+    In this articule, we look into that with [Tetragon](https://github.com/cilium/tetragon).
+    Not just for security, say you have a config file, such as an env file that is source before application run, tracking changes to this file can help spot and solve problem in an outage too.
+
+- url: https://www.enterprisedb.com/blog/finding-memory-leaks-postgres-c-code
+  title: "finding memory leaks in Postgres C Code"
+  description: |
+    What is the process of this? what tooling, what setup, what is a step by step guide in layman term.
+
+- url: https://birchtree.me/blog/digital-wallets-and-the-only-apple-pay-does-this-mythology/
+  title: "Digital wallets and the “only Apple Pay does this” mythology"
+  description: |
+    Apple Pay is great, but I think there is some misunderstanding out there about the details of how it works.
+
+- url: https://dev.to/gkampitakis/memory-leaks-in-go-3pcn
+  title: "Memory leaks in Go"
+  description: |
+    A useful article to go over commont leaks in Go, method to find them.
+
+read_code:
+- url: https://github.com/sugawarayuuta/charcoal
+  title: charcoal
+  description: |
+    Faster utf8.Valid using multi-byte processing without SIMD. Up to 50% faster than the standard library. Can be a useful tool to deal with email parser for example where we want to filter out non utf8 character
+  category: ['Go']
+
+- url: https://github.com/pojntfx/weron
+  title: weron
+  description: |
+    Overlay networks based on WebRTC
+  category: ['Go']
+
+- url: https://github.com/taozhi8833998/node-sql-parser
+  title: node-sql-parser
+  description: |
+    Parse simple SQL statements into an abstract syntax tree (AST) with the visited tableList and convert it back to SQL
+  category: ['JavaScript']
+- url: https://github.com/mkozjak/node-telnet-client
+  title: node-telnet-client
+  description: |
+    A simple telnet client for Node.js
+  category: ['JavaScript']
+
+- url: https://github.com/predibase/lorax
+  title: lorax
+  description: |
+    Multi-LoRA inference server that scales to 1000s of fine-tuned LLMs
+  category: ['Python', 'LLM']
+
+- url: https://github.com/tensorchord/pgvecto.rs
+  title: pgvecto
+  description: |
+    Scalable, Low-latency and Hybrid-enabled Vector Search in Postgres. Revolutionize Vector Search, not Database.
+  category: ['Rust']
+
+- url: https://github.com/excid3/noticed
+  title: noticed
+  description: |
+    a gem that allows your application to send notifications of varying types, over various mediums, to various recipients. Be it a Slack notification to your own team when some internal event occurs or a notification to your user, sent as a text message, email, and real-time UI element in the browser, Noticed supports all of the above (at the same time)!
+  category: ['Ruby']
+
+video:
+
+tool:
+- url: https://github.com/electric-sql/pglite
+  title: pglite
+  description: |
+    Lightweight Postgres packaged as WASM into a TypeScript library for the browser, Node.js, Bun and Deno. Use case is you may run an interactive embeded postgres in browser for a playground postgres application.
+
+- url: https://github.com/cilium/tetragon
+  title: tetragon
+  description: |
+    owerful real-time, eBPF-based Security Observability and Runtime Enforcement such as monitoring file changes, block operation to file etc.
+
+- url: https://github.com/monogon-dev/monogon
+  title: monogon
+  description: |
+    A pure Go minimal operating system. Based on Linux and K8S. It runs on a fleet of bare metal or cloud machines and provides users with a hardened, production ready Kubernetes, without the overhead of traditional Linux distributions or configuration management systems.
+  category: ['Go']
+- url: https://github.com/Y2Z/monolith
+
+  title: monolith
+  description: |
+    CLI tool for saving complete web pages as a single HTML file
+
+- url: https://github.com/microsoft/retina
+  title: retina
+  description: |
+    eBPF distributed networking observability tool for Kubernetes.
+
+- url: https://atlassian.design/components/pragmatic-drag-and-drop/about
+  title: "Atlassian Pragmatic drag and drop"
+  description: " a performance focused drag and drop library that can be used to power any drag and drop experience on any tech stack. Pragmatic drag and drop makes working with the browsers powerful and flexible built in drag and drop functionality safe and easy."
+
+self_hosted:
+- url: https://github.com/quarylabs/quary
+  title: quary.dev
+  description: |
+    a SQL engine and CLI tool that lets you manage your data transformation projects with ease.
+    use Quary to transform their raw data tables into actionable and trustworthy insights. Teams do so by layering well documented and tested transformations into useful insights ready for consumptio
+
+- url: https://github.com/PixArt-alpha/PixArt-alpha
+  title: PixArt
+  description: |
+    Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis
+
+- url: https://github.com/azukaar/Cosmos-Server/
+  title:  Cosmos Server
+  description: |
+    A bundle of many app into a single web ui provide you with: app store, vpn , auth server, reverse proxy server, cron job and more.
+
+- url: https://github.com/HeyPuter/puter
+  title: puter
+  description: |
+     an advanced open-source desktop environment in the browser, designed to be feature-rich, exceptionally fast, and highly extensible. It can be used to build remote desktop environments or serve as an interface for cloud storage services, remote servers, web hosting platforms, and more
