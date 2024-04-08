@@ -1,0 +1,140 @@
+time: "Apr 8, 2024"
+subject: "What even is a JSON number"
+draft: false
+description: |
+  Hi all,
+
+  We come back with a new issue this week. If you like BetterDev, please help spead word out by refer to your friends. [Buy Me a coffee](https://www.buymeacoffee.com/betterdev) would be great too.
+
+  This week, I was helping a friend doing some network setup, and I realize there is many thing that I don't understand so I share a link to learn about linux networking. It's heavily in C, but I guess there is no way around to truly gasp these concept.
+
+links:
+- url: https://blog.trl.sn/blog/what-is-a-json-number/
+  title: "What even is a JSON number?"
+  description: |
+    Not a question people generally ponder, and seems fairly straightforward. It's a number, obviously! But the question turns out to be somewhat hard to answer, and for API designers especially, the answer is really important to know!
+
+- url: https://mtlynch.io/building-first-homelab-rack/
+  title: "Building My First Homelab Server Rack"
+  description: |
+    Michael share with us how he built his first homelab server rack, a genuine post without affiliate links so we know he wasn't bias.
+
+- url: https://www.cfclrk.com/articles/github_identities.html
+  title: "Using Multiple GitHub Accounts"
+  description: |
+    If you share laptop for home and work, or doing consultant for clients, you probably know the hassle of using different github account.
+    This short guide help you configure just that, to make your life easiser by having git automatically load the right account based on directory.
+
+- url: https://kcall.co.uk/ssd/index.html
+  title: "Everything I know about SSDs"
+  description: |
+    Solid State Devices using NAND Flash, how they differ from Hard Drives, and how they affect file deletion and recovery
+
+- url: https://ben.bolte.cc/pid-controller
+  title: pid-controller explainer
+  description: |
+    A PID controller is a way to solve problems with the following formulation:
+
+    You can change some input to the system, called the process variable
+    You have a sensor which monitors something about the system
+    You want the sensor measurement to be close to some target value, called the set point
+    
+    The PID controller is a good way to decide what the input to the system should be without knowing anything about the internal workings of the system, except that the change in output is roughly proportional to the input.
+
+- url: https://leontrolski.github.io/pglockpy.html
+  title: "Postgres Locks Explorer"
+  description: |
+    lock is a very powerful primitive. We use lock all the time in thread programming with mutex. Postgres offer locks to work as across server, so application can request lock and use the central Postgres server as a coordinator. This small website is like a flash card to review all different locks in Postgres.
+
+- url: https://pgdash.io/blog/taming-postgresql-wal-file-growth.html
+  title: "Taming PostgreSQL WAL File Growth"
+  description: |
+    Have  you ever wake up with an alert and look into Postgres datadir you notice pg_wal is growing massively in size? Read on to learn about why this happens, whether you should be concerned, and what you can do about it.
+
+- url: https://kerkour.com/sqlite-for-servers
+  title: Optimizing SQLite for servers
+  description: |
+    SQLite default config is optimized for embeded use case, so most people trying it will encounter poor performances and the dreaded SQLITE_BUSY error. However, you can configure SQLite to reach ~8,300 writes / s and ~168,000 read / s concurrently, with 0 errors, on a ~40€ / m commodity virtual server with 4 vCPUs
+
+- url: https://linux-kernel-labs.github.io/refs/heads/master/labs/networking.html
+  title: "Linux networking"
+  description: |
+    This is somewhat a very low level. But recently I found I had not enough knowledge to understand networking at a very fundamental level. What exactly happen when we make a request, how the tcp connection is open, how the package is sent. how it picks which ethernet interface to send to? So I decide to google around and found this. I plan to studying these. I think understand just 50% of this is already put you on top 10% of developers.
+
+read_code:
+- url: https://github.com/qax-os/excelize
+  title: excelize
+  description: |
+    Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets
+  category: ['Go']
+
+- url: https://github.com/jhawthorn/vernier
+  title: vernier
+  description: |
+    Next-generation Ruby 3.2.1+ sampling profiler. Tracks multiple threads, GVL activity, GC pauses, idle time, and more.
+  category: ['Ruby']
+
+- url: https://github.com/rpgp/rpgp
+  title: rpgp
+  description: "Pure rust implementation of OpenPGP"
+  category: ['Rust']
+
+- url: https://github.com/zengm-games/facesjs
+  title: facesjs
+  description: |
+    A JavaScript library for generating vector-based cartoon faces
+  category: ['JavaScript']
+
+video:
+
+tool:
+- url: https://www.postgresql.org/docs/current/app-pgbasebackup.html
+  title: pg_basebackup
+  description: |
+    Since Postgres 12, it has built-in support to take a base backup of a PostgreSQL cluster. If you have been glueing together pg_dump, pg_restore, etc you will love this tool too. Pair it with [an optinal compression setting](https://kmoppel.github.io/2024-03-27-best-basebackup-compression-settings-for-v15-and-above/) to get the best compression rate.
+
+- url: https://github.com/dolthub/doltgresql
+  title: doltgresql
+  description: |
+    Imagine a Postgres with git style log, diff, branch, and merge functionality. This is just that. The company behind it originaly released a MySQL flavored, but now they are taming Postgres.
+
+- url: https://github.com/AutoMQ/automq
+  title: automq
+  description: |
+    a cloud-native, serverless reinvented Kafka that is easily scalable, manage-less and cost-effective. It uses Object storage(s3, gcs) as the main storage. Using EBS for durable cache layer to accelerate write. It's 100% compatible with Apache Kafka greater than 0.9.x and not lose any good features of it, but cheaper and better.
+
+- url: https://github.com/drawdb-io/drawdb
+  title: drawdb
+  description: |
+     robust and user-friendly database entity relationship (DBER) editor right in your browser. Build diagrams with a few clicks, export sql scripts, customize your editor, and more without creating an account.
+
+- url: https://github.com/AndyObtiva/glimmer
+  title: glimmer
+  description: |
+    a DSL framework to build GUI app in Ruby. It contains a DSL engine to express he GUI, and a data binding lib to sync GUI with model attributes bidirectionally.
+
+self_hosted:
+- url: https://github.com/kanidm/kanidm
+  title: kanidm
+  description: |
+    a simple and secure identity management platform, allowing other applications and services to offload the challenge of authenticating and storing identities to Kanidm.
+
+- url: https://github.com/OneUptime/oneuptime
+  title: oneuptime
+  description: |
+    a comprehensive solution for monitoring and managing your online services. It replaces mukltiple tools with one platform: uptime monitoring, status page, incident management, log managemtn, metric monitoring
+- url: https://github.com/louislam/uptime-kuma
+  title: uptime-kuma
+  description: |
+     an easy-to-use self-hosted monitoring tool.
+
+- url: https://github.com/benvinegar/counterscale
+  title: counterscale
+  description: |
+    Scalable web analytics you run yourself on Cloudflare.
+
+- url: https://github.com/zoriya/Kyoo
+  title: Kyoo
+  description: |
+    The next-generation open-source media browser that redefines your streaming experience. Designed from the ground up, Kyoo stands out as a powerful alternative to Plex and Jellyfin.
+    Kyoo's philosophy revolves around simplicity. Set it up once, forget about configuration hassles. Once installed, your library undergoes automatic scanning, adding new episodes or movies as soon as they're moved into your library's folder. No need for a specific file structure or meticulously renamed files – Kyoo does the right thing
