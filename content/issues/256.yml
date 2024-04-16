@@ -1,0 +1,121 @@
+time: "Apr 15, 2024"
+subject: "How to write a code formatter and a search engine in 80 lines of Python"
+draft: false
+description: |
+  Hi all,
+
+  We come back with a new issue this week. If you like BetterDev, please help spead word out by refer to your friends. [Buy Me a coffee](https://www.buymeacoffee.com/betterdev) would be great too.
+
+  This issue is my favourite issue with a lot of pracitcal, action-able item which close to our day to day work.  I hope you like them.
+links:
+  - url: https://yorickpeterse.com/articles/how-to-write-a-code-formatter/
+    title: "How to write a code formatter"
+    description: |
+      We use code formatter all day long. But what is the process of implement such as a tool?
+
+  - url: https://www.alexmolas.com/2024/02/05/a-search-engine-in-80-lines.html
+    title: "A search engine in 80 lines of Python"
+    description: |
+      In this post I will walk you through the journey of buliding a search engine from scratch using Python. As usual, all the code I’ve written can be found on my GitHub (microsearch repo). This implementation doesn’t pretend to be a production-ready search engine, just a usable toy example showing how a search engine works under the hood.
+
+  - url: https://clemenswinter.com/2024/04/07/the-simple-beauty-of-xor-floating-point-compression/
+    title: "The Simple Beauty of XOR Floating Point Compression"
+    description: |
+      I recently implemented a small program to visualize the inner workings of a scheme that compresses floating point timeseries by XORing subsequent values. The resulting visualizations are quite neat and made it much easier for me to understand this beautiful algorithm than any of the explanations that I had previously encountered.
+
+  - url: https://render.com/blog/postgresql-simple-query-big-problem
+    title: "A simple query with a big problem"
+
+  - url: https://gajus.com/blog/setting-up-postgre-sql-for-running-integration-tests
+    title: "Setting up PostgreSQL for running integration tests"
+    description: |
+      I'll explain how to set up PostgreSQL for tests and discuss some common pitfalls to avoid.
+
+  - url: https://harper.blog/2024/04/12/i-accidentally-built-a-meme-search-engine/
+    title: "I accidentally built a meme search engine"
+    description: |
+      Or: how to learn about clip/siglip and vector encoding images
+
+  - url: https://eclecticlight.co/2024/04/10/how-macos-opens-a-file-in-the-correct-app/?utm_source=pocket_reader
+    title: "How macOS opens a file in the correct app"
+    description: |
+      One of feature of Mac is it can detect the right app to open a file, even without a file extension. How did it works and how it evolve
+
+  - url: https://0xda.de/blog/2024/04/can-you-grok-it/
+    title: "Can You Grok It – Hacking together my own dev tunnel service"
+    description: |
+      Lets learn how to re-create a service similar to ngrok by re-using existing software such as nginx and openssh. There is also a great repository for these [tunneling softwares](https://github.com/anderspitman/awesome-tunneling)
+
+  - url: https://www.quantamagazine.org/how-do-machines-grok-data-20240412/
+    title: How do machine grok data
+    description: |
+      By apparently overtraining them, researchers have seen neural networks discover novel solutions to problem
+
+read_code:
+- url: https://github.com/wouterken/crystalruby
+  title: crystal ruby
+  description: |
+    a gem that allows you to write Crystal code, inlined in Ruby. All you need is a modern crystal compiler installed on your system.
+  category: ['Ruby']
+
+- url: https://github.com/posit-dev/great-tables
+  title: great-tables
+  description: |
+    Easily generate information-rich, publication-quality tables from Python. Read [how it's built](https://posit-dev.github.io/great-tables/blog/design-philosophy/)
+  category: ['Python']
+
+- url: https://github.com/loft-sh/devpod
+  title: devpod
+  description: |
+    Like Codespaces but open-source, client-only and unopinionated: Works with any IDE and lets you use any cloud, kubernetes or just localhost docker. Pretty big so hard to grok all the code but will give an idea on how to approach these kind of system
+  category: ['Go']
+video:
+
+tool:
+- url: https://github.com/apernet/hysteria
+  title: hysteria
+  description: |
+    a powerful, lightning fast and censorship resistant proxy.
+
+- url: https://github.com/volllly/rotz
+  title: rotz
+  description: |
+    Fully cross platform dotfile manager and dev environment bootstrapper written in Rust.
+
+- url: https://github.com/Percona-Lab/pg_tde
+  title: pg_tde
+  description: |
+    This is an experimental encrypted access method for PostgreSQL 16. Read [introduction post](https://www.percona.com/blog/protect-your-postgresql-database-with-pg_tde-safe-and-secure/)
+
+- url: https://dhamaniasad.github.io/awesome-postgres/
+  title: awesome-postgres
+  description: |
+    A curated list of awesome PostgreSQL software, libraries, tools and resources,
+
+- url: https://github.com/nalgeon/redka
+  title: redka
+  description: |
+    Redis re-implemented with SQLite
+
+- url: https://github.com/supabase/index_advisor
+  tite: postgres index advisor
+  description: |
+    A PostgreSQL extension for recommending indexes to improve query performance.
+
+self_hosted:
+- url: https://github.com/akvorado/akvorado
+  title: akvorado
+  description: |
+    This program receives flows (currently Netflow/IPFIX and sFlow), enriches them with interface names (using SNMP), geo information (using IPinfo.io), and exports them to Kafka, then ClickHouse. It also exposes a web interface to browse the collected data.
+
+- url: https://github.com/mazzzystar/Queryable
+  title: Queryable
+  description: |
+    Run OpenAI's CLIP model on iOS to search photos.
+
+
+- url: https://github.com/stackframe-projects/stack
+  title: stack
+  description: |
+    an open-source, self-hostable, and highly customizable authentication and user management system.  Think of it as Supabase Auth or next-auth, but better.
+
