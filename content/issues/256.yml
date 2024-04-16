@@ -25,6 +25,15 @@ links:
 
   - url: https://render.com/blog/postgresql-simple-query-big-problem
     title: "A simple query with a big problem"
+    description: |
+      Render.com staging pipeline got blocked due to what looked like a simple query
+
+      SELECT e.id
+      FROM events e
+      JOIN postgres_dbs db ON (e.data ->> 'serviceId') = db.database_id
+      LIMIT 1;
+
+      Can you spot what's wrong? Let's read
 
   - url: https://gajus.com/blog/setting-up-postgre-sql-for-running-integration-tests
     title: "Setting up PostgreSQL for running integration tests"
@@ -36,7 +45,7 @@ links:
     description: |
       Or: how to learn about clip/siglip and vector encoding images
 
-  - url: https://eclecticlight.co/2024/04/10/how-macos-opens-a-file-in-the-correct-app/?utm_source=pocket_reader
+  - url: https://eclecticlight.co/2024/04/10/how-macos-opens-a-file-in-the-correct-app/
     title: "How macOS opens a file in the correct app"
     description: |
       One of feature of Mac is it can detect the right app to open a file, even without a file extension. How did it works and how it evolve
