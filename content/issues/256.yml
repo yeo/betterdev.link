@@ -40,6 +40,11 @@ links:
     description: |
       I'll explain how to set up PostgreSQL for tests and discuss some common pitfalls to avoid.
 
+  - url: https://blog.frontend-almanac.com/js-object-structure
+    title: "Object structure in JavaScript engines"
+    description: |
+      Love it or hate  it. We will stick with JavaScript for quite a long time. Understanding these objects and its memory lay out is a must to improve your performance optimization skill
+
   - url: https://harper.blog/2024/04/12/i-accidentally-built-a-meme-search-engine/
     title: "I accidentally built a meme search engine"
     description: |
@@ -78,9 +83,20 @@ read_code:
   description: |
     Like Codespaces but open-source, client-only and unopinionated: Works with any IDE and lets you use any cloud, kubernetes or just localhost docker. Pretty big so hard to grok all the code but will give an idea on how to approach these kind of system
   category: ['Go']
+
+- url: https://github.com/Distributive-Network/PythonMonkey
+  title: PythonMonkey
+  description: |
+    A Mozilla SpiderMonkey JavaScript engine embedded into the Python VM, using the Python engine to provide the JS host environment.
+
 video:
 
 tool:
+- url: https://github.com/pahen/madge
+  title: "madge"
+  description: |
+    is a developer tool for generating a visual graph of your module dependencies, finding circular dependencies, and giving you other useful info.
+
 - url: https://github.com/apernet/hysteria
   title: hysteria
   description: |
