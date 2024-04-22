@@ -1,0 +1,127 @@
+time: "Apr 22, 2024"
+subject: "Building a GPS Receiver"
+draft: false
+description: |
+  Hi all,
+
+  We come back with a new issue this week. If you like BetterDev, please help spead word out by refer to your friends. [Buy me a coffee](https://www.buymeacoffee.com/betterdev) would be great too.
+
+  This week I come across [awesome-secure-defaults](https://github.com/tldrsec/awesome-secure-defaults), a collection of libs to help us secure our app by setting right HTTP header, crypto libs, CSRF,...Browswing these kind of libs usually will help identify gap in your knowledge, because there is term or concept you might not know. So def give us a read. Now onward to our issue.
+
+links:
+- url: https://axleos.com/building-a-gps-receiver-part-1-hearing-whispers/
+  title: "Building a GPS Receiver, Part 1: Hearing Whispers"
+  description: |
+    I know zero thing about GPS receiver. And I may not build this after reading this article, but my knowledge indeed improve on this topic. I understand more about the technology that we use day to day
+
+- url: https://goodyduru.github.io/os/2023/09/08/ipc-introduction.html
+  title: How two processes can communicate in one device using IPC
+  description: |
+    Simple way we can use shared file, you can use a client <-> server, but that involve you are need to setup port, sending and serializing data.
+    What if you want your processes to be independent, to communicate, and yet not distribute some arcane shell scripts along with them? It turns out that other IPC mechanisms allow you to do all these.  This a series so make you check all the part.
+
+- url: https://aliramadhan.me/2024/03/31/trillion-rows.html?utm_source=pocket_reader
+  title: "Building a weather data warehouse: Loading a trillion rows of weather data into TimescaleDB"
+  description: |
+    Challenge of building a data warehouse. How to load a massive amount of data quickly,
+
+- url: https://www.netmeister.org/blog/dns-tcpdump.html
+  title: "DNS tcpdump by example"
+  description: |
+    analyze traffic of DNS is a easier and fun practice because it has no encryption, unlike HTTPS or SSH. So you can actually look at the payload.
+    In this article we will walk through th exercise to analyze this traffic of querying a DNS end to end, what happen, where do they get their data.
+    Knowing this knowledge will put you on the top 10% of software programmer.
+
+- url: https://slack.engineering/our-journey-migrating-to-aws-imdsv2/
+  title: "Slack Journey Migrating to AWS IMDSv2"
+  description: |
+    Have you ever query 169.254.169.254 you deal with AWS IDMS service. Anyone can query that from an EC2 instance. In 2019, they release IMDSv2, which require a token so it's more secure.
+    Slack running 60,000 AWS instance. How can they roll this out safely across the fleet of services on all these 60,000 server to use IDMSv2
+
+- url: https://developer.chrome.com/docs/devtools/performance/nodejs
+  title: "Profile Node.js performance with the Performance panel"
+  description: |
+    The JS Profiler is going away in  Chrome 124, so we would need to familiar ourself with the newer approach.
+
+- url: https://calculusmadeeasy.org/prologue.html
+  title: "Calculus made easy"
+  description: |
+    With all the trend about LLM, maybe time to dust up our math skill in high school.
+
+- url: https://fractaledmind.github.io/2024/04/15/sqlite-on-rails-the-how-and-why-of-optimal-performance/
+  title: "SQLite on Rails: The how and why of optimal performance"
+
+- url: https://hexacluster.ai/postgresql/rebuilding-tables-online-using-pg_repack-in-postgresql/
+  title: "Rebuilding Tables online using pg_repack in PostgreSQL"
+  description: |
+    Any database engine, including PostgreSQL, requires some routine maintenance to ensure optimal performance. Especially when there are massive delete or purge operations to delete rows from a Table, the fragmentation builds up within a table. Reclaim this fragmented space from disk requires a table to be rebuilt
+
+- url: https://docs.hatchet.run/blog/multi-tenant-queues
+  title: "An unfair advantage: multi-tenant queues in Postgres"
+
+read_code:
+  - url: https://github.com/handsontable/hyperformula
+    title: hyperformula
+    description: |
+      an open-source headless spreadsheet for business web apps. It comes with over 400 formulas, CRUD operations, undo-redo, clipboard support, and sorting. Built in TypeScript, supported by the Handsontable Team
+    category: ['JavaScript']
+
+  - url: https://github.com/gemfast/server
+    title: gemfast
+    description: |
+      a fast and secure rubygems server written in Go.
+    category: ['Ruby', 'Go']
+
+  - url: https://github.com/validates-email-format-of/validates_email_format_of
+    title: validates_email_format_of
+    description: |
+      Validate e-mail addreses against RFC 2822 and RFC 3696 with this Ruby on Rails plugin and gem.
+    category: ['Ruby']
+
+  - url: https://github.com/PKU-YuanGroup/Open-Sora-Plan
+    title: Open Sora Plan
+    description: |
+      This project aim to reproduce Sora (Open AI T2V model), they wish the open source community contribute to this project.
+    category: ['Python', 'ML']
+
+  - url: https://github.com/noborus/trdsql
+    title: "trdsql"
+    description: "CLI tool that can execute SQL queries on CSV, LTSV, JSON, YAML and TBLN. Can output to various formats."
+    category: ['Go']
+
+video:
+
+tool:
+  - url: https://www.lemonsqueezy.com/wedges/docs
+    title: wedges
+    description: |
+      An ever-expanding, open-source React UI library built with the Wedges Design System, Radix primitives, and Tailwind CSS.
+
+  - url: https://github.com/dolthub/go-mysql-server
+    title: go mysql server
+    description: |
+      A MySQL-compatible relational database with a storage agnostic query engine. Implemented in pure Go.
+  - url: https://github.com/BerriAI/litellm
+    title: litellm
+    description: |
+      Call all LLM APIs using the OpenAI format. Use Bedrock, Azure, OpenAI, Cohere, Anthropic, Ollama, Sagemaker, HuggingFace, Replicate (100+ LLMs)
+
+  - url: https://github.com/explodinggradients/ragas
+    title: ragas
+    description: |
+      Evaluation framework for your Retrieval Augmented Generation (RAG) pipelines
+  - url: https://pgxman.com/
+    title: pgxman
+    description: |
+      package manager for PostgreSQL extensions, along with a repository of packages. It integrates with native build systems for installation.
+
+self_hosted:
+  - url: https://github.com/zammad/zammad
+    title: zammad
+    description: |
+      a web based open source helpdesk/customer support system
+
+  - url: https://github.com/coollabsio/coolify
+    title: coolify
+    description: |
+      An open-source & self-hostable Heroku / Netlify / Vercel alternative.
