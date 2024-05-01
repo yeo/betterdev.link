@@ -1,0 +1,125 @@
+time: "Apr 30, 2024"
+subject: "Build an 8-bit computer from scratch and Home automation with ESP8266"
+draft: false
+description: |
+  Hi all,
+
+  We come back with a new issue this week. If you like BetterDev, please help spead word out by refer to your friends. [Buy me a coffee](https://www.buymeacoffee.com/betterdev) would be great too.
+
+links:
+  - url: https://eater.net/8bit
+    title: "Build an 8-bit computer from scratch"
+    description: |
+      An 8-bit microprocessor is a type of microprocessor that processes data and executes instructions using 8-bit binary numbers. In simple terms, it means that the processor can handle data in chunks that are 8 bits wide.
+      This tutorial walks through building a fully programmable 8-bit computer from simple logic gates on breadboards. Included are parts lists, sources, and schematics to make it easier to follow along or even build your own!
+
+  - url: https://tttapa.github.io/ESP8266/Chap01%20-%20ESP8266.html
+    title: "A Beginner's Guide to the ESP8266"
+    description: |
+      ESP8266 is just a chip name that many companies has designed their own board for it. The most interesting thing is they have Wifi so you can do a lot of IoT with it. Many of them cost just $5 for a board. Also, checkout the [ESPHome project](https://esphome.io) for similar thing as well.
+
+  - url: https://web.archive.org/web/20240423175847/https://threadreaderapp.com/thread/1782656618015904103.html
+    title: "Reverse engineering a software crack"
+    description: |
+      An amazing crack that doesn't patch the original binaries. How does it works? by using 
+
+  - url: https://jakearchibald.com/2024/attributes-vs-properties/
+    title: "HTML attributes vs DOM properties"
+    description: |
+      Given a dom node object, what is the different between div.getAttribute('foo') and div.foo? sometime they are same, some time they are different. why so?
+
+  - url: https://blog.peerdb.io/how-can-we-make-pgdump-and-pgrestore-5-times-faster
+    title: "How can we make pg_dump and pg_restore 5 times faster?"
+    description: |
+      In this blog, we'll discuss an idea called "Parallel Snapshotting". This idea could be integrated into Postgres upstream in the future to make pg_dump and pg_restore parallelizable at a single table level.
+
+  - url: https://dineshgowda.com/posts/exploring-the-enigma-of-database-vacuuming/
+    title: "Exploring the Enigma of Database Vacuuming"
+    description: |
+      Before we discuss what VACUUM does and its implication. How data is actually stored on disk. What happens when a tuple is inserted, updated, or deleted? Understanding this will help us understand what VACUUM does, why it’s needed, and its implications.
+
+  - url: https://everythingdevops.dev/what-is-amazon-resource-name-arn/
+    title: "What Is Amazon Resource Name (ARN)?"
+    description: |
+      In this article, you will understand ARNs and their significance within the Amazon Web Services (AWS) ecosystem. You'll get to dissect the structure of an ARN and how you can retrieve them. By the end of this article, identifying and deciphering ARNs will be a breeze for you.
+
+  - url: https://www.kencochrane.com/2020/08/01/build-and-sign-golang-binaries-for-macos-with-github-actions
+    title: "Build, notarize, and sign Golang binaries for MacOS with GitHub Actions"
+    description: |
+      Even it target at Go, this articule is useful for anyone want to sign binary so it can run on MacOS Catalina and later without gotting the unidentified warning.
+
+      
+read_code:
+  - url: https://github.com/ArhanChaudhary/NAND
+    title: NAND
+    description: |
+      is a Turing equivalent 16-bit computer made entirely from a clock and NAND gates emulated on the web. NAND features its own CPU, machine code language, assembly language, assembler, virtual machine language, virtual machine translator, programming language, compiler, IDE, and user interface. NAND is based on the Jack-VM-Hack platform specified in the Nand to Tetris course and its associated book. You absolutely have to checkout and see how this project is done
+    category: ['TypeScript', 'Rust']
+
+  - url: https://github.com/Shopify/autotuner#readme
+    title: autotuner
+    description: |
+      a tool designed to help you tune the garbage collector of your Rails app. Autotuner integrates into Rack as a middleware and collects data from the garbage collector between requests. It will then intelligently provide suggestions to tune the garbage collector for faster bootup, warmup, and response times. Read tehe [companion post](https://railsatscale.com/2024-04-24-autotuner-how-to-speed-up-your-rails-app/) too
+    category: ['Ruby']
+
+  - url: https://github.com/myshell-ai/OpenVoice
+    title: OpenVoice
+    description: |
+      Instant voice cloning by MyShell.
+    category: ['Python']
+
+video:
+  - url: https://www.youtube.com/watch?v=eiC58R16hb8
+    title: "The Event Loop, Web APIs, and (Micro)task Queue Visualized"
+
+tool:
+  - url: https://github.com/paradedb/paradedb
+    title: paradedb
+    description: |
+      an Elasticsearch alternative built on Postgres. We're modernizing the features of Elasticsearch's product suite, starting with real-time search and analytics.
+
+  - url: https://github.com/lacanoid/pgddl
+    title: pgddl
+    description: |
+      Have you ever want to generatea nice "CREATE TABLE" command from an existing tbale? or "CREATE USER" for an existing user? This tool help you generate that.
+
+  - url: https://github.com/dnaeon/makefile-graph
+    title: makefile-graph
+    description: |
+      Turn your makefile into a graph
+
+  - url: https://github.com/langgenius/dify?ref=console.dev
+    title: "dify"
+    description: |
+      an open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production.
+
+  - url: https://unovis.dev/
+    title: unovis
+    designed: |
+      A modular data visualization framework for React, Angular, Svelte, Vue and vanilla TypeScript or JavaScript
+
+  - url: https://esphome.io/
+    title: esphome
+    description: |
+      ESPHome is a system to control your microcontrollers by simple yet powerful configuration files and control them remotely through Home Automation systems.
+
+  - url: https://www.svgviewer.dev/
+    title: svgviewer
+    description: |
+       View, edit, and optimize SVGs.
+  - url: https://yqnn.github.io/svg-path-editor/
+    title: svg-path-editor
+
+    description: |
+      Online editor to create and manipulate SVG paths
+
+self_hosted:
+  - url: https://github.com/drakkan/sftpgo
+    title: sftpgo
+    description: |
+      Full-featured and highly configurable SFTP, HTTP/S, FTP/S and WebDAV server - S3, Google Cloud Storage, Azure Blob
+
+  - url: https://github.com/thomiceli/opengist
+    title: opengist
+    description: |
+      Self-hosted pastebin powered by Git, open-source alternative to Github Gist.
