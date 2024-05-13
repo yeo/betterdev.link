@@ -1,0 +1,188 @@
+time: "May 13, 2024"
+subject: "How LLMs Work, Explained Without Math and Turning AirPods into a Fitness Tracker to Fight Cancer"
+draft: false
+description: |
+  Hi all,
+
+  We come back with a new issue this week. If you like BetterDev, please help spead word out by refer to your friends. [Buy me a coffee](https://www.buymeacoffee.com/betterdev) would be great too.
+
+  This week I couldn't help myself to exploring many PostgreSQL concept and ChatGPT/LLAMA models. I especially love to use  I had use Postgres extensively and confident to say nowsaday with properly turning you just need it, no need Redis or any other key-value store.
+
+links:
+  - url: https://richarddas.com/blog/turning-airpods-into-fitness-trackers-to-fight-cancer/
+    title: "Turning AirPods into a Fitness Tracker to Fight Cancer"
+    description: |
+      A fun side project for a great cause featuring Core Motion, SwiftUI, a little help from AI, and a pair of AirPods to count 100 push-ups a day.
+
+  - url: https://blog.miguelgrinberg.com/post/how-llms-work-explained-without-math
+    title: "How LLMs Work, Explained Without Math"
+    description: |
+      A basic question I think a lot of people have about the GenAI revolution is where does the apparent intelligence these models have come from. In this article, I'm going to attempt to explain in simple terms and without using advanced math how generative text models work, to help you think about them as computer algorithms and not as magic.
+
+  - url: https://apeatling.com/articles/simple-guide-to-local-llm-fine-tuning-on-a-mac-with-mlx/
+    title: "A simple guide to local LLM fine-tuning on a Mac with MLX"
+    description: |
+      walk through the process of fine-tuning step-by-step. It won’t cost you a penny because we’re going to do it all on your own hardware using Apple’s MLX framework.
+
+  - url: https://brooker.co.za/blog/2024/05/09/nagle.html
+    title: "t’s always TCP_NODELAY. Every damn time"
+    description: |
+      The first thing I check when debugging latency issues in distributed systems is whether TCP_NODELAY is enabled. And it’s not just me. Every distributed system builder I know has lost hours to latency issues quickly fixed by enabling this simple socket option, suggesting that the default behavior is wrong, and perhaps that the whole concept is outmoded.
+
+  - url: https://yuanchuan.dev/time-based-css-animations
+    title: "Time based css animation"
+    description: |
+      Using time for animation is very common in shader programs and various other places. CSS can not start a timer like JavaScript does, but nowadays it's possible to define a custom variable with the CSS Houdini API to track time in milliseconds. The value of animation is calculate based on this custom variable. It's a different approach to perform animation compare to keyframes. This goes beyond my ability to understand, I'm not super good at CSS animation. But still a good read to dabble, I always like to perform animation with pure css.
+
+  - url: https://notso.boringsql.com/posts/how-not-to-change-postgresql-column-type/
+    title: "How not to change PostgreSQL column type"
+    description: |
+      One of the surprises that comes with developing applications and operating a database cluster behind them is the discrepancy between practice and theory, development environment and the production. A perfect example of such a mismatch is changing a column type. Super easy to change stuff in dev, but I dare you to randomly go in a prod db and change data type
+
+  - url: https://cryptobook.nakov.com/digital-signatures/ecdsa-sign-verify-messages
+    title: "ECDSA: Elliptic Curve Signatures"
+    description: |
+      When you generate SSH key like RSA or ECDSA and peform encryption and signature verification. What is the math behind them? I always though they are complicated, but they are way more straighforward when you dabble into its math.
+
+  - url: https://supabase.com/blog/postgres-bloat
+    title: "Postgres Bloat Minimization"
+    description: |
+      In database, there is always a trade off. You trade storage tooling gain cpu time. trade fragment for speed. all of that become bloated. How can we minimize these? 
+
+  - url: https://www.timescale.com/blog/13-tips-to-improve-postgresql-insert-performance/
+    title: "13 Tips to Improve PostgreSQL Insert Performance"
+  
+  - url: https://edgedelta.com/company/blog/applied-introduction-ebpf-go
+    title: "An Applied Introduction to eBPF with Go"
+    description: |
+      discusses how to develop eBPF programs with Go, with practical example at Edgedelata. A bit Go specific but learning about eBPF will boost your system programming knowledge.
+      
+
+  - url: https://yosefk.com/blog/a-100x-speedup-with-unsafe-python.html
+    title: "A 100x speedup with unsafe Python"
+    description: |
+      We're going to speed up some numpy code by 100x using "unsafe Python." Which is not quite the same as unsafe Rust, but it's a bit similar, and I'm not sure what else to call it...
+      Python specific but please read-on, I'm sure the same concept can be apply to any language that has a C-binding to native C library.
+
+read_code:
+  - url: https://github.com/skoji/gepub
+    title: gepub
+    description: |
+      a generic EPUB library for Ruby : supports EPUB 3
+    category: ['Ruby']
+
+  - url: https://github.com/run-llama/llama_parse
+    title: llama_parse
+    description: |
+      an API created by LlamaIndex to efficiently parse and represent files for efficient retrieval and context augmentation using LlamaIndex frameworks.
+    category: ['Python']
+
+  - url: https://github.com/sbdchd/squawk
+    title: squawk
+    description: |
+      A linter for Postgres, focus on migration.
+
+  - url: https://github.com/MHNightCat/superfile
+    title: superfile
+    description: |
+      Pretty fancy and modern terminal file manager. Even though I cannot see myself use this tool, I absolutely want to dig into its source code and see how it's done. One thing I always wanted to understand about the event/gui loop in these GUI/TUI app.
+    category: ['Go']
+
+  - url: https://github.com/NimbleMarkets/ntcharts
+    title: 
+
+  - url: https://github.com/travisdoor/tine
+    title: tine
+    description: |
+      a tiny text editor.
+    category: ['C']
+
+video:
+
+tool:
+  - url: https://pintorajs.vercel.app/
+    title: pintorajs
+    description: |
+      An extensible text-to-diagrams library that works in both browser and node.js.
+      Similar to tool like MermaidJS to draw diagram with text.
+
+  - url: https://github.com/abi/secret-llama
+    title: "secret-llama"
+    description: |
+      Fully private LLM chatbot that runs entirely with a browser with no server needed. Supports Mistral and LLama 3
+
+  - url: https://github.com/tlkh/asitop
+    title: asitop
+    description: |
+      Perf monitoring CLI tool for Apple Silicon
+
+  - url: https://github.com/context-labs/mactop
+    title: mactop
+    description: |
+      a terminal-based monitoring tool "top" designed to display real-time metrics for Apple Silicon chips. It provides a simple and efficient way to monitor CPU and GPU usage, E-Cores and P-Cores, power consumption, and other system metrics directly from your terminal!
+
+  - url: https://github.com/ahrm/sioyek
+    title: sioyek
+    description: |
+      a PDF viewer with a focus on textbooks and research papers
+
+  - url: https://github.com/hugeicons/hugeicons-react
+    title: hugeicons
+    description: |
+      A collection features over 3,800 stroke React icons, available at no charge and crafted to meet a diverse array of design requirements.
+
+  - url: https://github.com/pgmoneta/pgmoneta
+    title: pgmoneta
+    description: |
+      a backup / restore solution for PostgreSQL.
+
+  - url: https://github.com/tembo-io/pg_tier
+    title: pg_tier
+    description: |
+      A Postgres extension to tier data to external storage such as AWS S3.
+
+  - url: https://github.com/PeerDB-io/pgslot-notify-bot
+    title: pgslot-notify-bot
+    description: |
+      not monitoring pgslot closely and if a consumer die, you may wake up with a full disk of pgslot WAL. This small tool monitors their growth and alert via slack
+
+  - url: https://github.com/HexaCluster/pgdsat
+    title: pgdsat
+    description: |
+      PostgreSQL Database Security Assessment Tool
+
+  - url: https://github.com/judahpaul16/gpt-home
+    title: gpt-home
+    description: |
+      ChatGPT at home! Basically a better Google Nest Hub or Amazon Alexa home assistant. Built on the Raspberry Pi using the OpenAI API. A very cool hardware project with DIY style
+
+  - url: https://github.com/run-llama/llama_index
+    title: llama_index
+    description: |
+      a data framework for your LLM applications
+
+self_hosted:
+  - url: https://github.com/stalwartlabs/mail-server
+    title: stalwart mail server
+    description: |
+      A Mail server with a built-in admin ui. Replace all the tradition tooling like Postfix, DoveCot, roundcube or rainloop etc.
+
+  - url: https://github.com/mlc-ai/web-llm
+    title: web-llm
+    description: |
+      a modular and customizable javascript package that directly brings language model chats directly onto web browsers with hardware acceleration. Everything runs inside the browser with no server support and is accelerated with WebGPU.
+
+  - url: https://github.com/pydantic/logfire
+    title: logfire
+    description: |
+       an observability platform built by Pydantic team. Yes, it does has a web ui to help you view log and meric.
+
+  - url: https://github.com/IST-DASLab/PanzaMail
+    title: PanzaMail
+    description: |
+      an automated email assistant customized to your writing style and past email history. You can run in on your laptop, train it with your mbox data. The mbox data format can be easily export from thunderbird or mac mail app or many modern mail client.
+
+  - url: https://github.com/NHAS/wag
+    title: wag
+    description: |
+      Wag adds MFA, route restriction and device enrolment to wireguard.
