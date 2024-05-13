@@ -6,8 +6,7 @@ description: |
 
   We come back with a new issue this week. If you like BetterDev, please help spead word out by refer to your friends. [Buy me a coffee](https://www.buymeacoffee.com/betterdev) would be great too.
 
-  This week I couldn't help myself to exploring many PostgreSQL concept and ChatGPT/LLAMA models. I especially love to use  I had use Postgres extensively and confident to say nowsaday with properly turning you just need it, no need Redis or any other key-value store.
-
+  Many link about LLM this week, especially focus on fundamental knowledge and using them locally on your own hardware, instead of just a wrapper of OpenAI. 
 links:
   - url: https://richarddas.com/blog/turning-airpods-into-fitness-trackers-to-fight-cancer/
     title: "Turning AirPods into a Fitness Tracker to Fight Cancer"
@@ -89,7 +88,16 @@ read_code:
     category: ['Go']
 
   - url: https://github.com/NimbleMarkets/ntcharts
-    title: 
+    title: ntcharts
+    description: |
+      Terminal Charts for the Golang BubbleTea framework and your TUI
+    category: ['Go']
+
+  - url: https://github.com/gh2o/bash_tls/
+    title: bash_tls
+    description: |
+      a minimal TLS implement that is well enough to make a simple HTTPS request to most web servers. Very nice to understand what happen at the byte level in a TLS session
+    category: ['Bash']
 
   - url: https://github.com/travisdoor/tine
     title: tine
