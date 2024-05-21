@@ -64,6 +64,7 @@ links:
   - url: https://postgresql.verite.pro/blog/2024/05/13/advanced-psql-coproc.html
     title: "Advanced psql scripting with coproc"
     description: |
+      In this post, let’s see how to control psql from outside with the coproc functionality in bash.
 
 
 read_code:
@@ -91,3 +92,8 @@ self_hosted:
     title: stract
     description: |
       Stract is an open source web search engine hosted at [stract.com](stract.com) targeted towards tinkerers and developers.
+
+  - url: https://github.com/cloudinary-community/photobox
+    title: photobox
+    description: |
+      Photo library and interactive editor built with Next.js & Cloudinary
