@@ -1,0 +1,93 @@
+time: "May 21, 2024"
+subject: "The Worst Website In The Entire World and Uber Migrates 1T Records from DynamoDB to LedgerStore to Save $6M Annually"
+draft: false
+description: |
+  Hi all,
+
+  We come back with a new issue this week. If you like BetterDev, please help spead word out by refer to your friends. [Buy me a coffee](https://www.buymeacoffee.com/betterdev) would be great too.
+
+  I'm a bit busy this week so we don't have a lot of links but we will resume next week :-).
+links:
+  - url: https://www.uber.com/blog/migrating-from-dynamodb-to-ledgerstore/
+    title: "Uber Migrates 1T Records from DynamoDB to LedgerStore to Save $6M Annually"
+    description: |
+      Nothing as good as when company throw out the number. Pair it with another one detail on engineering aspect of [How LedgerStore supports trillions of indexes](https://www.uber.com/blog/how-ledgerstore-supports-trillions-of-indexes/)
+
+  - url: https://matduggan.com/the-worst-website-in-the-entire-world/?utm_source=pocket_reader
+    title: "The Worst Website In The Entire World"
+    description: |
+      You would have a good laugh after this. Please go ahead and read it. I won't spoil anything here.
+
+  - url: https://tech.ahrefs.com/how-ahrefs-saved-us-400m-in-3-years-by-not-going-to-the-cloud-8939dd930af8
+    title: "How Ahrefs Saved US$400M in 3 Years by NOT Going to the Cloud"
+    description: |
+      Title say it's all.
+
+  - url: https://siddharthsabron.in/blog/ocpp-server/
+    title: "Designing a Scalable OCPP server"
+    description: |
+      OCPP, short for Open Charge Point Protocol, is like the universal language of EV charging. It sets the standard for how charging stations talk to central systems, enabling functions like monitoring, management, billing, and even integration with third-party systems. This open-source protocol isn’t just a buzzword — it’s backed by a robust community of vendors and manufacturers, making it a widely adopted and trusted solution.
+
+  - url: https://docs.likejazz.com/llama3.np/
+    title: "Llama 3 implemented in pure NumPy"
+    description: |
+      Understand the exact structure with working implementation of the Llama 3 model.
+      This is over my head, but definetely something I want to dip my toe in. These Llama model is amazing.
+
+  - url: https://www.shortcut.com/blog/building-a-saas-app-you-should-probably-stick-to-a-single-subdomain
+    title: "Building a SaaS App? You should probably stick to a single subdomain"
+    description: |
+      When building a SaaS app, you will face the question: "should we use app.domain.com" or "company-name.domain.com" ? in this article, shortcut.com shared their approach.
+      For me, personally, I prefer to use a single subdomain because of the same login session can be shared to join other team.
+
+  - url: https://smudge.ai/blog/ratelimit-algorithms
+    title: "Visualizing algorithms for rate limiting"
+    description: |
+      rate limiting is like measureing speed? how can you measure speed at a given time? you need to measure volume, divide by time, but what define a time window? In this post, we’ll explore the three most common algorithms to answer each of these questions: Fixed windows, sliding windows and toke buckets
+
+  - url: https://jaywhy13.hashnode.dev/that-time-postgresql-said-no-thanks-i-dont-need-your-index
+    title: "That time PostgreSQL said \"no thanks, I don't need your index\""
+    description: |
+      An interesting tale of victory after PostgreSQL rejected our attempts to optimize a query. We had a query we were observing that was growing in latency. We analyzed it and determined the best course of action was to add an index. PostgreSQL disagreed, and outrightly refused to employ the index. Following is the story of the negotiation that took place to push past the blatant rejection of Postgres.
+
+  - url: https://render.com/blog/postgresql-slow-query-to-fast-via-stats
+    title: "PostgreSQL Stories: From slow query to fast—via stats"
+    description: |
+      You might have heard "it’s important to know your data" when working with databases. But what does that look like in practice?  This post is one answer: an example of how knowing our data helped us debug a slow query.
+
+  - url: https://mattermost.com/blog/making-a-postgres-query-1000-times-faster/
+    title: "Making a Postgres query 1,000 times faster"
+    description: |
+      Mattermost query Postgres data then index into ElasticSearch for search, but they discovered a slow query. The walk us through the investigation process and run EXPLAIN to debug the slowness.
+
+
+  - url: https://postgresql.verite.pro/blog/2024/05/13/advanced-psql-coproc.html
+    title: "Advanced psql scripting with coproc"
+    description: |
+
+
+read_code:
+
+video:
+
+tool:
+  - url: https://github.com/Snektron/pareas
+    title: pareas
+    description: |
+      GPU-accelerated compiler
+
+  - url: https://github.com/paradedb/paradedb/tree/dev/pg_lakehouse
+    title: pg_lakehouse
+    description: |
+      an extension that transforms Postgres into an analytical query engine over object stores like S3 and table formats like Delta Lake. Queries are pushed down to Apache DataFusion, which delivers excellent analytical performance. Combinations of the following object stores, table formats, and file formats are supported.
+
+  - url: https://github.com/reorg/pg_repack
+    title: pg_repack
+    description: |
+      Reorganize tables in PostgreSQL databases with minimal locks
+
+self_hosted:
+  - url: https://github.com/StractOrg/stract
+    title: stract
+    description: |
+      Stract is an open source web search engine hosted at [stract.com](stract.com) targeted towards tinkerers and developers.
