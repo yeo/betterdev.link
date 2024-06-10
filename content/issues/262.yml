@@ -1,4 +1,4 @@
-time: "June 10, 2024"
+time: "Jun 10, 2024"
 subject: "Hacking Millions of Modems (and Investigating Who Hacked My Modem)"
 draft: false
 description: |
@@ -20,11 +20,17 @@ links:
       Today, we won't go into that. We will simply go through a list of common scenartio and see how we can use printf to debug the situation.
       This is a Ruby article, but if you like the approach, they can easily ported to your own language. Methodlogy is what we will focus here.
 
-  - url: https://blog.dave.tf/post/linux-pid0/?utm_source=pocket_shared
+  - url: https://blog.dave.tf/post/linux-pid0/
     title: "What is PID 0?"
     description: |
       pid 1 is the first process the kernel start. If you user docker and want to run multiple process, you definetely had deal with the pid 1 before.
       but what about pid 0 ? what is that?
+
+  - url: https://mattweidner.com/2024/06/04/server-architectures.html
+    title: "Architectures for Central Server Collaboration"
+    description: |
+      If you need to do an editor, a web diagram drawing tool, how would you handle the real time aspect?
+      This post records some though on How to architect a real-time collaborative app when you do have a central server.
 
   - url: https://fobes.dev/ps2/detecting-emu-vu-floats
     title: "Detecting a PS2 Emulator: When 1*X does not equal X"
@@ -59,7 +65,7 @@ links:
       NIST 800 are guidelines, recommendations, technical specifications, and annual reports of NIST's cybersecurity activities. 800-108 focus on recommendation for Key Derivation Using Pseudorandom Functions. In this post, we will look into a novel security issue with this standard
 
 
-  - url: https://scottarc.blog/2024/06/02/encryption-at-rest-whose-threat-model-is-it-anyway/?utm_source=tldrdevops
+  - url: https://scottarc.blog/2024/06/02/encryption-at-rest-whose-threat-model-is-it-anyway/
     title: "Encryption At Rest: Whose Threat Model Is It Anyway?"
     description: |
       To quote to OP, "Unsurprisingly, I’ve heard a few infosec thought leader types insist that encryption-at-rest is security theater over the years. I disagree with this assessment in the absolute terms, but there is a nugget of truth in that assertion.". To which I agree.
@@ -145,7 +151,7 @@ tool:
     description: |
       a pure JavaScript library implementing the formats that are used in PKI applications (signing, encryption, certificate requests, OCSP and TSP requests/responses). It is built on WebCrypto (Web Cryptography API) and requires no plug-ins.
 
-  - url: https://github.com/sushrut141/pg_analytica?utm_source=pocket_shared
+  - url: https://github.com/sushrut141/pg_analytica?
     title: pg_analytica
     description: |
       Postgres extension that speeds up analytics queries by upto 90%
@@ -182,7 +188,7 @@ self_hosted:
     description: |
       a minimalist and opinionated feed reader
 
-  - url: https://github.com/laudspeaker/laudspeaker?utm_source=pocket_shared
+  - url: https://github.com/laudspeaker/laudspeaker
     title: laudspeaker
     description: |
       an Open Source Customer Engagement and Product Onboarding Platform. Open Source alternative to Braze / One Signal / Customer Io / Appcues / Pendo . Use Laudspeaker to design product onboarding flows and send product and event triggered emails, sms, push and more.
