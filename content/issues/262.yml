@@ -1,0 +1,198 @@
+time: "June 10, 2024"
+subject: "Hacking Millions of Modems (and Investigating Who Hacked My Modem)"
+draft: false
+description: |
+  Hi all,
+
+  We come back with a new issue this week. If you like BetterDev, please help spead word out by refer to your friends. [Buy me a coffee](https://www.buymeacoffee.com/betterdev) would be great too.
+
+links:
+  - url: https://samcurry.net/hacking-millions-of-modems
+    title: "Hacking Millions of Modems (and Investigating Who Hacked My Modem)"
+    description: |
+      What would you do if one day you're realized your modem was being hack and MiTM your request?
+      In this amazing and crazy stories, a Cox modem was hacked. The bug was also really interesting, if repeated a same request multiple time, we will eventually can by pass the authentication.
+
+  - url: https://tenderlovemaking.com/2016/02/05/i-am-a-puts-debuggerer/
+    title: "I am a puts debuggerer"
+    description: |
+      printf vs debugger is a holy war in programming, and has cause endless internet fight or fame.
+      Today, we won't go into that. We will simply go through a list of common scenartio and see how we can use printf to debug the situation.
+      This is a Ruby article, but if you like the approach, they can easily ported to your own language. Methodlogy is what we will focus here.
+
+  - url: https://blog.dave.tf/post/linux-pid0/?utm_source=pocket_shared
+    title: "What is PID 0?"
+    description: |
+      pid 1 is the first process the kernel start. If you user docker and want to run multiple process, you definetely had deal with the pid 1 before.
+      but what about pid 0 ? what is that?
+
+  - url: https://fobes.dev/ps2/detecting-emu-vu-floats
+    title: "Detecting a PS2 Emulator: When 1*X does not equal X"
+
+  - url: https://coder.com/blog/delivering-5x-faster-throughput-in-coder-2-12-0
+    title: "How We Improved the Performance of a Userspace TCP Stack in Go by 5X"
+    description: |
+      Throughput - the rate at which you can send or receive data across a network
+      Throughput is usually quoted in bits per second, and on modern internet networks, these range from a few millions of bits per second (Mb/s) to a few billions of bits per second (Gb/s).
+      If you had work with a remote connection such as SSH through a VPN tunnel you will notice the differencies of responsiveness when workign with  a code editor.
+      Coder is self-hosted cloud development environments, and they build their own TCP stacks, and share with us experience and their deep dive to increase perf 5x.
+
+  - url: https://thinhcorner.com/blog/hayday-game-schedule
+    title: "Cracking the Scheduling Code in Hay Day"
+    description: |
+      Hay Day is a game where you planted and sold fruit tree. Tree takes time to grow. Trade need to be matched. How can we put together these thing in a game?
+
+  - url: https://www.joshwcomeau.com/javascript/promises/
+    title: "Promises From The Ground Up"
+    description: |
+      In order to understand Promises, we need a surprisingly deep understanding of how JavaScript works and what its limitations are. Without that context, Promises won’t really make much sense.
+
+  - url: https://www.cybertec-postgresql.com/en/why-do-i-have-a-slow-commit-in-postgresql/
+    title: "why do i have a slow commit in PostgreSQL?"
+    description: |
+      Normally, COMMIT is a very fast statement in PostgreSQL, so that is worth investigating. In this article, I will explore the possible reasons for a slow COMMIT and discuss what you can do about it.
+
+
+  - url: https://scottarc.blog/2024/06/04/attacking-nist-sp-800-108/
+    title: "Attacking NIST SP 800-108"
+    description: |
+      NIST 800 are guidelines, recommendations, technical specifications, and annual reports of NIST's cybersecurity activities. 800-108 focus on recommendation for Key Derivation Using Pseudorandom Functions. In this post, we will look into a novel security issue with this standard
+
+
+  - url: https://scottarc.blog/2024/06/02/encryption-at-rest-whose-threat-model-is-it-anyway/?utm_source=tldrdevops
+    title: "Encryption At Rest: Whose Threat Model Is It Anyway?"
+    description: |
+      To quote to OP, "Unsurprisingly, I’ve heard a few infosec thought leader types insist that encryption-at-rest is security theater over the years. I disagree with this assessment in the absolute terms, but there is a nugget of truth in that assertion.". To which I agree.
+
+  - url: https://notso.boringsql.com/posts/custom-postgresql-extensions-with-rust/
+    title: "Custom PostgreSQL extensions with Rust"
+    description: |
+      I used to be able to pick-up Rust in a single week and become productive very fast. Rust has open us the ability to write low level component in such a high level language.
+      This article exporers [pgrx](https://github.com/pgcentralfoundation/pgrx), which simplifies the creation of custom PostgreSQL extensions to bring more logic closer to your database.
+
+read_code:
+  - url: https://github.com/meatfighter/ascii-silhouettify
+    description: |
+      Take an image. How can we generate an ascii-text that can resemble the image in terminal, with color. This projects show that kind of algorithm to do it. Read the [introduction post here too](https://meatfighter.com/ascii-silhouettify/)
+    title: 
+    category: ['JavaScript']
+
+  - url: https://github.com/tinylibs/tinypool
+    title: tinypool
+    description: |
+       A minimal and tiny Node.js Worker Thread Pool implementation (38KB)
+    category: ['NodeJS']
+
+  - url: https://github.com/destel/rill
+    title: rill
+    description: |
+      Go concurrency with channel transformations, type safety, batching and error handling. No boilerplate
+    category: ['Go']
+
+  - url: https://github.com/Workiva/go-datastructures
+    title: go-datastructures
+    description: |
+      A collection of useful, performant, and threadsafe Go datastructures.
+    category: ['Go']
+
+  - url: https://github.com/ankane/blind_index
+    title: blind_index
+    description: |
+      Securely search encrypted database fields
+    category: ['Ruby']
+
+  - url: https://github.com/THU-MIG/yolov10
+    title: yolov10
+    description: Real-Time End-to-End Object Detection
+    category: ['Python', 'ML']
+
+  - url: https://github.com/stanfordnlp/pyreft
+    title: "pyreft: Representation Finetuning for Language Models"
+    description: |
+      a representation fine-tuning (ReFT) library that supports adapting internal language model representations via trainable interventions
+    category: ['Python', 'ML']
+
+video:
+
+tool:
+  - url: https://github.com/k1LoW/tbls
+    title: tbls
+    description: |
+      a CI-Friendly tool for document a database, written in Go.
+      Document a database automatically in GFM format. Output database schema in many formats
+
+  - url: https://github.com/CrunchyData/pgCompare
+    title: pgCompare
+    description: |
+      a straightforward utility crafted to simplify the data comparison process, providing a robust solution for comparing data across various database platforms.
+
+  - url: https://katex.org/
+    title: katex
+    description: "The fastest math typesetting library for the web."
+
+  - url: https://github.com/dlvhdr/gh-dash
+    title: "gh-dash"
+    description: |
+      A GitHub CLI extension to display a dashboard with pull requests and issues by filters you care about.
+
+  - url: https://github.com/oapi-codegen/oapi-codegen
+    title: oapi-codegen
+    description: |
+      Generate Go client and server boilerplate from OpenAPI 3 specifications
+
+  - url: https://github.com/PeculiarVentures/PKI.js
+    title: PKI.js
+    description: |
+      a pure JavaScript library implementing the formats that are used in PKI applications (signing, encryption, certificate requests, OCSP and TSP requests/responses). It is built on WebCrypto (Web Cryptography API) and requires no plug-ins.
+
+  - url: https://github.com/sushrut141/pg_analytica?utm_source=pocket_shared
+    title: pg_analytica
+    description: |
+      Postgres extension that speeds up analytics queries by upto 90%
+
+  - url: https://github.com/motion-canvas/motion-canvas
+    title: motion-canvas
+    description: |
+      A TypeScript library that uses generators to program animations and an editor to preview that animation
+      Check the [introduction page](https://motioncanvas.io/)
+
+  - url: https://github.com/infiniflow/ragflow
+    title: ragflow
+    description: |
+      an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding. 
+
+self_hosted:
+  - url: https://github.com/khoj-ai/khoj
+    title: khoj
+    description: |
+      Your AI second brain. Get answers to your questions, whether they be online or in your own notes. Use online AI models (e.g gpt4) or private, local LLMs (e.g llama3). Self-host locally or use our cloud instance. Access from Obsidian, Emacs, Desktop app, Web or Whatsapp.
+
+  - url: https://github.com/coder/coder
+    title: coder
+    description: |
+      Coder enables organizations to set up development environments in their public or private cloud infrastructure.
+
+  - url: https://github.com/0x2E/fusion
+    title: fusion
+    description: |
+      an RSS aggregator and reader
+
+  - url: https://github.com/miniflux/v2
+    title: miniflux
+    description: |
+      a minimalist and opinionated feed reader
+
+  - url: https://github.com/laudspeaker/laudspeaker?utm_source=pocket_shared
+    title: laudspeaker
+    description: |
+      an Open Source Customer Engagement and Product Onboarding Platform. Open Source alternative to Braze / One Signal / Customer Io / Appcues / Pendo . Use Laudspeaker to design product onboarding flows and send product and event triggered emails, sms, push and more.
+
+  - url: https://github.com/Permify/permify
+    title: permify
+    description: |
+      Open source authorization service inspired by Google Zanzibar to build fine-grained and scalable authorization systems.
+
+  - url: https://github.com/piku/piku
+    title: piku
+    description: |
+      The tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers.
