@@ -63,16 +63,15 @@ links:
     description: |
       One of feature that CrowdStrike falcon provide is listen to system call to detect suspicious activity, such as when someone read `/etc/password`. How do they do that? In this we learn a way to do so throuhg eBPF to track these syscall.
 
-  - url: https://austingil.com/user-location-is-a-lie/
-    title: "The C̶a̶k̶e̶ User Location is a Lie!!!"
-
   - url: https://ongres.com/blog/fastest_way_copy_data_between_postgres_tables/
     title: "The fastest way to copy data between Postgres tables"
 
-  - url: https://notso.boringsql.com/posts/window-functions-introduction/
-    title: "Gentle Introduction to Window Functions in PostgreSQL"
-  - url: https://blog.maximeheckel.com/posts/the-art-of-dithering-and-retro-shading-web/
-    title: "The Art of Dithering and Retro Shading for the Web"
+      #  - url: https://austingil.com/user-location-is-a-lie/
+      #    title: "The C̶a̶k̶e̶ User Location is a Lie!!!"
+      #  - url: https://notso.boringsql.com/posts/window-functions-introduction/
+      #    title: "Gentle Introduction to Window Functions in PostgreSQL"
+      #  - url: https://blog.maximeheckel.com/posts/the-art-of-dithering-and-retro-shading-web/
+      #    title: "The Art of Dithering and Retro Shading for the Web"
 
 
 read_code:
@@ -178,4 +177,4 @@ self_hosted:
   - url: https://github.com/1fpsvideo/1fps
     title: 1fps
     description: |
-      Encrypted Screen Sharing, implement in Golang. The server component is on [https://github.com/1fpsvideo/server](1psvideo/server)
+      Encrypted Screen Sharing, implement in Golang. The server component is on [github.com/1fpsvideo/server](https://github.com/1fpsvideo/server)
