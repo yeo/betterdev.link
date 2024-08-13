@@ -6,17 +6,23 @@ description: |
 
   We come back with a new issue this week. If you like BetterDev, please help spead word out by refer to your friends. [Buy me a coffee](https://www.buymeacoffee.com/betterdev) would be great too.
 
-
 links:
   - url: https://www.vpdae.com/redirect/241i7j4wabio30d9dwvoebuefiok
     title: "Audit your app for free today with Alerty JavaScript SDK"
     description: |
       The Alerty JavaScript SDK takes 7 minutes to set up and covers your app and database with all the features you’d expect at a fraction of the big monitoring tools cost. But it doesn’t stop there. Alerty Agents use your frontend telemetry data to give you tailored guidance and feedback to debug issues and optimize your app’s performance. Audit your app for free today.
+    category: ['sponsor']
 
   - url: https://www.wiisfi.com/
     title: "Wi is Fi: Understanding Wi-Fi 4/5/6/6E/7 (802.11 n/ac/ax/be)"
     description: |
       Make your own educated Wi-Fi upgrade decisions. An extensive guide with everything and parameter about Wi-Fi protocol.
+
+
+  - url: https://newsletter.pragmaticengineer.com/p/the-biggest-ever-global-outage-lessons
+    title: "The biggest-ever global outage: lessons for software engineers"
+    description: |
+      Unless you were under a rock, you likely heard about the CrowdStrike / Windows outage that took down critical services like airlines, banks, supermarkets, police departments, hospitals, TV channels, and more, around the world. Gergely covers recap, root cause, fix, and learning in this post.
 
   - url: https://www.awelm.com/posts/kube-scheduler/
     title: "A Deeper Dive of kube-scheduler"
@@ -43,10 +49,6 @@ links:
     description: |
       best practices to avoid excess memory usage when managing updating the DOM to make your apps blazingly fast™️.
 
-  - url: https://blog.maximeheckel.com/posts/the-art-of-dithering-and-retro-shading-web/
-    title: "The Art of Dithering and Retro Shading for the Web"
-    description: |
-
   - url: https://www.cybertec-postgresql.com/en/speeding-up-index-creation-in-postgresql/
     title: "Speeding up index creation in PostgreSQL"
     description: "Without indexes, there are no such things as efficient search operations, no unique constraints, and no primary keys. The main question now is: what happens during index creation, and how can we speed up the process? Creating indexes on billions of rows is quite costly, because data has to be sorted and turned into an efficient search structure."
@@ -56,13 +58,22 @@ links:
     description: |
       In the rapidly evolving landscape of artificial intelligence, Mistral AI has emerged as a beacon of innovation, charting new territories in the realm of large language models (LLMs). With the introduction of its groundbreaking models, Mistral AI not only advances the frontier of machine learning but also democratizes access to cutting-edge technology. This guide aims to elucidate the intricacies of Mistral AI's offerings and provide a comprehensive roadmap for harnessing their capabilities locally.
 
+  - url: https://sh4dy.com/2024/08/03/beetracer/
+    title: Writing a system call tracer using eBPF.
+    description: |
+      One of feature that CrowdStrike falcon provide is listen to system call to detect suspicious activity, such as when someone read `/etc/password`. How do they do that? In this we learn a way to do so throuhg eBPF to track these syscall.
+
   - url: https://austingil.com/user-location-is-a-lie/
     title: "The C̶a̶k̶e̶ User Location is a Lie!!!"
 
   - url: https://ongres.com/blog/fastest_way_copy_data_between_postgres_tables/
     title: "The fastest way to copy data between Postgres tables"
+
   - url: https://notso.boringsql.com/posts/window-functions-introduction/
     title: "Gentle Introduction to Window Functions in PostgreSQL"
+  - url: https://blog.maximeheckel.com/posts/the-art-of-dithering-and-retro-shading-web/
+    title: "The Art of Dithering and Retro Shading for the Web"
+
 
 read_code:
   - url: https://github.com/jmigpin/editor
@@ -104,6 +115,16 @@ read_code:
 video:
 
 tool:
+  - url: https://github.com/GyulyVGC/sniffnet
+    title: sniffnet
+    description: |
+      Comfortably monitor your Internet traffic. Native, not electron, cross platform. Extensive featurset. Strongly suggest to give it a try, blow my mind with 17K stars on github and a vast amount of featurset.
+
+  - url: https://github.com/GreenmaskIO/greenmask
+    title: greenmask
+    description: |
+      a powerful open-source utility that is designed for logical database backup dumping, obfuscation, and restoration. It offers extensive functionality for backup, anonymization, and data masking
+
   - url: https://floating-ui.com/
     title: floating-ui
     description: "A JavaScript library to position floating elements and create interactions for them."
@@ -131,13 +152,18 @@ tool:
   - url: https://github.com/moderato-app/approf
     title: approf
     description: |
-      A native macOS app for pprof 
+      pprof is a tool for visualization and analysis of profiling data. Usually your language instrument tool generate pprof file, then you use a web tool to view it, or export to SVG. This is a native macOS app for pprof file.
 
-  - url: https://github.com/riverqueue/river
+  - url: https://github.com/pytorch/torchchat
+    title: torchchat
+    description: |
+      a small codebase showcasing the ability to run large language models (LLMs) seamlessly. With torchchat, you can run LLMs using Python, within your own (C/C++) application (desktop or server) and on iOS and Android.
+
+self_hosted:  - url: https://github.com/riverqueue/river
     title: river
     description: |
+      a full featured background job queue in Golang
 
-self_hosted:
   - url: https://github.com/ollama/ollama
     title: ollama
     description: |
@@ -147,3 +173,9 @@ self_hosted:
     title: webdav
     description: |
       A simple and standalone WebDAV server.
+
+  - url: https://github.com/1fpsvideo/1fps
+    title: 1fps
+    description: |
+      Encrypted Screen Sharing, implement in Golang. The server component is on [https://github.com/1fpsvideo/server](1psvideo/server)
+
