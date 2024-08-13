@@ -173,6 +173,7 @@ a {
             </div>
             {{ end }}
 
+
             <div class="issue-links">
               {{ range $key, $link := .Links }}
                 {{ if $link.IsSponsor }}
@@ -250,8 +251,8 @@ a {
 
               {{ if .SelfHosted }}
               <div style="padding: 1rem 1rem 0rem 1rem; font-size: 1rem;">
-                <h3 class="subtitle"><strong>Tools</strong></h3>
-                {{ range $key, $link := .Tools }}
+                <h3 class="subtitle"><strong>Self Hosted</strong></h3>
+                {{ range $key, $link := .SelfHosted }}
                   {{ if $link.IsSponsor }}
                   <div class="issue-sponsor">
                     <a style="font-size: 1.2rem; font-weight: 400;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a> <span class="badge">(SPONSOR)</span>
@@ -285,6 +286,9 @@ a {
 
                 <p>
                   <a href="https://www.buymeacoffee.com/betterdev">want to support my work?  buy me a coffee</a>
+                  {{ if eq .Name "262" }}
+                      <img src='https://www.vpdae.com/open/5e2f5bcd.gif?opens=1' width='1' height='1'>
+                  {{ end }}
                 </p>
               </div>
             </div>
