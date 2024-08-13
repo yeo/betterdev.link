@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:22.04
 
 # TODO: Switch to scrtach and multistage build
 # TODO: Switch to non root user
