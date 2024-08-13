@@ -159,7 +159,8 @@ tool:
     description: |
       a small codebase showcasing the ability to run large language models (LLMs) seamlessly. With torchchat, you can run LLMs using Python, within your own (C/C++) application (desktop or server) and on iOS and Android.
 
-self_hosted:  - url: https://github.com/riverqueue/river
+self_hosted:
+  - url: https://github.com/riverqueue/river
     title: river
     description: |
       a full featured background job queue in Golang
@@ -178,4 +179,3 @@ self_hosted:  - url: https://github.com/riverqueue/river
     title: 1fps
     description: |
       Encrypted Screen Sharing, implement in Golang. The server component is on [https://github.com/1fpsvideo/server](1psvideo/server)
-
