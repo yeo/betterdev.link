@@ -1,0 +1,149 @@
+time: "Aug 12, 2024"
+subject: "Wi is Fi: Understanding Wi-Fi 4/5/6/6E/7 (802.11 n/ac/ax/be)"
+draft: false
+description: |
+  Hi all,
+
+  We come back with a new issue this week. If you like BetterDev, please help spead word out by refer to your friends. [Buy me a coffee](https://www.buymeacoffee.com/betterdev) would be great too.
+
+
+links:
+  - url: https://www.vpdae.com/redirect/241i7j4wabio30d9dwvoebuefiok
+    title: "Audit your app for free today with Alerty JavaScript SDK"
+    description: |
+      The Alerty JavaScript SDK takes 7 minutes to set up and covers your app and database with all the features you’d expect at a fraction of the big monitoring tools cost. But it doesn’t stop there. Alerty Agents use your frontend telemetry data to give you tailored guidance and feedback to debug issues and optimize your app’s performance. Audit your app for free today.
+
+  - url: https://www.wiisfi.com/
+    title: "Wi is Fi: Understanding Wi-Fi 4/5/6/6E/7 (802.11 n/ac/ax/be)"
+    description: |
+      Make your own educated Wi-Fi upgrade decisions. An extensive guide with everything and parameter about Wi-Fi protocol.
+
+  - url: https://www.awelm.com/posts/kube-scheduler/
+    title: "A Deeper Dive of kube-scheduler"
+    description: |
+      Getting a proper understanding of kube-scheduler is difficult because there are no online resources explaining how it actually works. The scheduling framework README provides a good outline but isn’t comprehensive. The scheduling framework is also a somewhat leaky abstraction so you really do need to know how the scheduler works internally if you want to write a non-trivial plugin.
+
+  - url: https://shi-yan.github.io/webgpuunleashed/
+    title: "WebGPU Unleashed: A Practical Tutorial"
+    description: |
+      your gateway to the dynamic world of graphics programming. This free book will teach you graphics programming in JavaScript using WebGPU, drawing from my own learning journey.
+
+  - url: https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking#
+    title: "Introduction to Linux interfaces for virtual networking"
+    description: |
+      Linux has rich virtual networking capabilities that are used as basis for hosting VMs and containers, as well as cloud environments. In this post, I will give a brief introduction to all commonly used virtual network interface types. There is no code analysis, only a brief introduction to the interfaces and their usage on Linux. Anyone with a network background might be interested in this blog post. A list of interfaces can be obtained using the command ip link help.
+
+  - url: https://chevyray.dev/blog/creating-175-fonts/
+    title: "How I Created 175 Fonts Using Rust"
+    description: |
+      How hard it is to create font? Can we generate, build them dynamically like writing code? Yes, this page document the process on how to do just that by putting together many tools. You will also learn a fair bit amount about font structure too.
+
+  - url: https://frontendmasters.com/blog/patterns-for-memory-efficient-dom-manipulation/
+    title: "Patterns for Memory Efficient DOM Manipulation with Modern Vanilla JavaScript"
+    description: |
+      best practices to avoid excess memory usage when managing updating the DOM to make your apps blazingly fast™️.
+
+  - url: https://blog.maximeheckel.com/posts/the-art-of-dithering-and-retro-shading-web/
+    title: "The Art of Dithering and Retro Shading for the Web"
+    description: |
+
+  - url: https://www.cybertec-postgresql.com/en/speeding-up-index-creation-in-postgresql/
+    title: "Speeding up index creation in PostgreSQL"
+    description: "Without indexes, there are no such things as efficient search operations, no unique constraints, and no primary keys. The main question now is: what happens during index creation, and how can we speed up the process? Creating indexes on billions of rows is quite costly, because data has to be sorted and turned into an efficient search structure."
+
+  - url: https://cheatsheet.md/llm-leaderboard/how-to-run-mistral-locally.en
+    title: "How to Run Mistral Models Locally - A Complete Guide"
+    description: |
+      In the rapidly evolving landscape of artificial intelligence, Mistral AI has emerged as a beacon of innovation, charting new territories in the realm of large language models (LLMs). With the introduction of its groundbreaking models, Mistral AI not only advances the frontier of machine learning but also democratizes access to cutting-edge technology. This guide aims to elucidate the intricacies of Mistral AI's offerings and provide a comprehensive roadmap for harnessing their capabilities locally.
+
+  - url: https://austingil.com/user-location-is-a-lie/
+    title: "The C̶a̶k̶e̶ User Location is a Lie!!!"
+
+  - url: https://ongres.com/blog/fastest_way_copy_data_between_postgres_tables/
+    title: "The fastest way to copy data between Postgres tables"
+  - url: https://notso.boringsql.com/posts/window-functions-introduction/
+    title: "Gentle Introduction to Window Functions in PostgreSQL"
+
+read_code:
+  - url: https://github.com/jmigpin/editor
+    title: editor
+    description: |
+      Source code editor in pure Go.
+    category: ['Go']
+
+  - url: https://github.com/hacksider/Deep-Live-Cam
+    title: "Deep Live Cam"
+    description: |
+     real time face swap and one-click video deepfake with only a single image (uncensored)
+    category: ['Python']
+
+  - url: https://github.com/vyruss/pg_statviz
+    title: pg_statviz
+    description: |
+      a minimalist extension and utility pair for time series analysis and visualization of PostgreSQL internal statistics.
+    category: ['Python']
+
+  - url: https://github.com/canvg/canvg
+    title: canvg
+    description: |
+      SVG parser and renderer on Canvas. It takes the URL to the SVG file or the text of the SVG file, parses it in JavaScript and renders the result on Canvas. It also can be used to rasterize SVG images.
+    category: ['JavaScript']
+
+  - url: https://github.com/ambianic/peerfetch
+    title: peerfetch
+    description: |
+      Peer-to-peer HTTP over WebRTC.
+    category: ['JavaScript']
+
+  - url: https://github.com/googlefonts/fontations
+    title: fontations
+    description: |
+      a number of foundational crates for reading and manipulating OpenType font files. It is motivated by a desire to have more robust and performant open tools for a variety of font engineering and production tasks.
+    category: ['Rust']
+
+video:
+
+tool:
+  - url: https://floating-ui.com/
+    title: floating-ui
+    description: "A JavaScript library to position floating elements and create interactions for them."
+
+  - url: https://whirl.netlify.app/
+    title: whirl
+    description: |
+      CSS loading animations with minimal effort!
+
+  - url: https://www.svgviewer.dev/
+    title: svgviewer
+    description: |
+      a tool to view, edit svg in browser and export image in JSX, PNG or data uri.
+
+  - url: https://github.com/skavngr/rapidscan
+    title: rapidscan
+    description: |
+      The Multi-Tool Web Vulnerability Scanner
+
+  - url: https://github.com/OWASP/Nettacker
+    title: Nettacker
+    description: |
+      Automated Penetration Testing Framework - Open-Source Vulnerability Scanner - Vulnerability Management
+
+  - url: https://github.com/moderato-app/approf
+    title: approf
+    description: |
+      A native macOS app for pprof 
+
+  - url: https://github.com/riverqueue/river
+    title: river
+    description: |
+
+self_hosted:
+  - url: https://github.com/ollama/ollama
+    title: ollama
+    description: |
+      Get up and running with large language models.
+
+  - url: https://github.com/hacdias/webdav
+    title: webdav
+    description: |
+      A simple and standalone WebDAV server.
