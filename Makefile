@@ -28,7 +28,7 @@ chmod:
 deploy: build upload chmod
 
 docker:
-	docker build --platform=amd64 -t ${DOCKER_REPO}:${GIT_COMMIT} .
+	docker build --platform=linux/amd64 -t ${DOCKER_REPO}:${GIT_COMMIT} .
 	docker tag ${DOCKER_REPO}:${GIT_COMMIT} ${DOCKER_REPO}:latest
 	docker push ${DOCKER_REPO}:${GIT_COMMIT}
 	docker push ${DOCKER_REPO}:latest
