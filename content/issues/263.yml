@@ -23,8 +23,7 @@ links:
 
   - url: https://csswizardry.com/2024/08/blocking-render-why-whould-you-do-that/
     title: "blocking=render: Why would you do that?!"
-    description: |
-      WebKit have recently announced their intent to implement the blocking=render attribute for <script> and <style> elements, bringing them in line with support already available in Blink and generally positive sentiment in Firefox. The blocking=render attribute allows developers to explicitly mark a resource as render blocking, but… why on earth would you want to do that?!
+    description: "WebKit have recently announced their intent to implement the blocking=render attribute for `script` and `style` elements, bringing them in line with support already available in Blink and generally positive sentiment in Firefox. The blocking=render attribute allows developers to explicitly mark a resource as render blocking, but… why on earth would you want to do that?!"
 
   - url: https://leanrada.com/notes/sweep-and-prune/
     title: "Sort, sweep, and prune: Collision detection algorithms"
