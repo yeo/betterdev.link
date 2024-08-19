@@ -1,5 +1,5 @@
 time: "Aug 19, 2024"
-subject: "blocking=render: Why would you do that?!"
+subject: "What every SRE should know about GNU/Linux resolvers and Dual-Stack applications"
 draft: false
 description: |
   Hi all,
