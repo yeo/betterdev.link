@@ -58,6 +58,8 @@ links:
 read_code:
   - url: https://github.com/weppos/whois
     title: whois
+    description: |
+      whois implements in Ruby
     category: ['Ruby']
 
   - url: https://github.com/huandu/go-sqlbuilder
