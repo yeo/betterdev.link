@@ -1,0 +1,136 @@
+time: "Aug 20, 2024"
+subject: "blocking=render: Why would you do that?!"
+draft: false
+description: |
+  Hi all,
+
+  Another issue for another week. Trying to get back to my schedule. If you like BetterDev, please help spead word out by refer to your friends. [Buy me a coffee](https://www.buymeacoffee.com/betterdev) would be great too.
+
+  This week we had a big security issue with Github. If you had archive the whole directory, the Github token may leak into the artifact. Read more here: [https://unit42.paloaltonetworks.com/github-repo-artifacts-leak-tokens/](https://unit42.paloaltonetworks.com/github-repo-artifacts-leak-tokens/)
+
+  I also found this amazing tool call that [allow you to auto apply job to linkedin](https://github.com/feder-cr/linkedIn_auto_jobs_applier_with_AI). Try it out to increase your chance. The job market is tough these day.
+
+links:
+  - url: https://www.vpdae.com/redirect/241i7j4wabio30d9dwvoebuefiok
+    title: "Audit your app for free today with Alerty JavaScript SDK"
+    description: |
+      The Alerty JavaScript SDK takes 7 minutes to set up and covers your app and database with all the APM and error-tracking features you’d expect, all at a fraction of the big monitoring tools cost. But it doesn’t stop there. Alerty Agents use your frontend telemetry data to give you tailored guidance and feedback to debug issues and optimize your app’s performance. Audit your app for free today.
+    category: ['sponsor']
+ 
+  - url: https://biriukov.dev/docs/resolver-dual-stack-application/0-sre-should-know-about-gnu-linux-resolvers-and-dual-stack-applications/
+    title: "What every SRE should know about GNU/Linux resolvers and Dual-Stack applications"
+    description: " deep dive into the GNU/Linux local facilities used to convert a domain name or hostname into IP addresses, specifically in the context of dual-stack applications. Although it may seem simple at first glance, the entire process involving stub resolvers is filled with complexities and subtle nuances"
+
+  - url: https://csswizardry.com/2024/08/blocking-render-why-whould-you-do-that/
+    title: "blocking=render: Why would you do that?!"
+    description: |
+      WebKit have recently announced their intent to implement the blocking=render attribute for <script> and <style> elements, bringing them in line with support already available in Blink and generally positive sentiment in Firefox. The blocking=render attribute allows developers to explicitly mark a resource as render blocking, but… why on earth would you want to do that?!
+
+  - url: https://leanrada.com/notes/sweep-and-prune/
+    title: "Sort, sweep, and prune: Collision detection algorithms"
+    description: |
+      The problem of collision detection is pretty common in video game programming. It’s a prerequisite to the implementation of certain game mechanics or simulations. Here I’ll cover several related approaches, starting with the simplest and building up to the sweep-and-prune algorithm. I won’t cover other approaches, such as space partitioning or spatial tree subdivision.
+
+  - url: https://www.trevorlasn.com/blog/common-causes-of-memory-leaks-in-javascript
+    title: Common Causes of Memory Leaks in JavaScript
+    description: |
+      Memory leaks are a silent threat that gradually degrades performance, leads to crashes, and increases operational costs. Unlike obvious bugs, memory leaks are often subtle and difficult to spot until they start causing serious problems.
+
+  - url: https://www.nullpt.rs/compiling-browser-to-bypass-antibot-measures
+    title: "Compiling a Custom Browser to Bypass Anti-Bot Measures"
+    description: |
+      In this blog post, I will be documenting the journey veritas and I took to extract the AES keys and browser flags/fingerprint from the Supreme anti-bot system. This work was done using the ticket.js anti-bot from March, 2021, and is being published now that Supreme has migrated away from the ticket anti-bot system in favour of using Shopify. Extracting these keys allows for a complete bypass of the anti-bot system.
+
+  - url: https://ralphammer.com/a-quick-beginners-guide-to-animation/
+    title: "A quick beginner’s guide to animation"
+    description: |
+      Not a really programming article but I enjoy and learn something from it when trying to do some animation
+
+
+  - url: https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/
+    title: "Syntax Highlighting in Hand-Coded Websites"
+    description: "could it be possible to build syntax highlighting directly into a font, skipping JavaScript altogether? Could I somehow leverage OpenType features, by creating colored glyphs with the COLR table, and identifying and substituting code syntax with contextual alternates?"
+
+  - url: https://www.cybertec-postgresql.com/en/what-you-should-know-about-linux-memory-overcommit-in-postgresql/
+    title: "What you should know about Linux memory overcommit in PostgreSQL"
+    description: |
+      Useful as memory overcommit may be for other applications, it is bad news for your PostgreSQL database. With this article I am trying to raise the awareness of this problem. I'll give you hints for the proper kernel configuration and discuss the implications for a containerized setup
+
+read_code:
+  - url: https://github.com/weppos/whois
+    title: whois
+    category: ['Ruby']
+
+  - url: https://github.com/huandu/go-sqlbuilder
+    title: go-sqlbuilder
+    description: |
+      Ever want to see how a query builder is built? This could be a good read.
+    category: ['Go']
+
+  - url: https://github.com/a-h/templ
+    title: templ
+    description: |
+      A language for writing HTML user interfaces in Go.
+    category: ['Go']
+
+  - url: https://git.zx2c4.com/wireguard-rs/tree
+    title: wireguard-rs
+    description: |
+      Implementation of wireguard in Rust
+    category: ['Rust']
+
+  - url: https://github.com/timescale/pgai
+    title: pgai
+    description: |
+      Bring AI models closer to your PostgreSQL data
+    category: ['Python']
+
+video:
+
+tool:
+  - url: https://github.com/projectdiscovery/tldfinder
+    title: "tldfinder: A streamlined tool for discovering TLDs, associated domains, and related domain names."
+    description: |
+      Read the companion post [Hacking Beyond .com — Enumerating Private TLDs](https://cloud.google.com/blog/topics/threat-intelligence/enumerating-private-tlds)
+
+  - url: https://github.com/jokob-sk/NetAlertX
+    title: NetAlertX
+    description: |
+      WIFI / LAN intruder detector. Scans for devices connected to your network and alerts you if new and unknown devices are found.
+
+  - url: https://github.com/orcasecurity-research/AIGoat
+    title: AIGoat
+    description: |
+      AI-Goat is a deliberately vulnerable AI infrastructure hosted on AWS, designed to simulate the OWASP Machine Learning Security Top 10 risks (OWASP ML Top 10). You can deploy this into your own infra and practice exploting.
+      The app deployed with terraform, in a standalone VPC so you can quickly spin up and destroy everything without leaving something insecure  running in your infra.
+      Read the comprehensive [introduction post](https://orca.security/resources/blog/orca-ai-goat-open-source-environment-owasp-risks/)
+
+  - url: https://github.com/super-linter/super-linter
+    title: super-linter
+    description: |
+      Combination of multiple linters to run as a GitHub Action or standalone. One linter to rule them all.
+
+  - url: https://github.com/alipay/agentUniverse
+    title: agentUniverse
+    description: |
+      a multi-agent framework based on large language models. agentUniverse provides you with the flexible and easily extensible capability to build single agents.
+
+  - url: https://github.com/wpscanteam/wpscan/tree/master
+    title: wpscan
+    description: |
+      WPScan WordPress security scanne
+
+  - url: https://github.com/poundifdef/SmoothMQ
+    title: SmoothMQ
+    description: "An improved drop-in replacement for SQS"
+
+self_hosted:
+  - url: https://github.com/bunkerity/bunkerweb
+    title: "bunkerweb"
+    description: "Open-source and next-generation Web Application Firewall (WAF)"
+
+  - url: https://github.com/timelinize/timelinize
+    title: timelinize
+    description: |
+      Organize your photos & videos, chats & messages, location history, social media content, contacts, and more into a single cohesive timeline on your own computer where you can keep them alive forever. Written by Caddy's creator.
+
