@@ -1,0 +1,158 @@
+time: "Aug 26, 2024"
+subject: "Implement realtime mouse pointer and Postgres as a search engine"
+draft: false
+description: |
+  Hi all,
+
+  This week, where I live, I can already felt the autumn season is around. Hope everyone can enjoy a last few days of summer and be ready for fall season.
+
+  Many times, we as engineer are discourage from re-invent the wheel. If you want cache, use Redis, want seach, use ElasticSearch. Lets forget that shit thinking. Dive right in. Implement your own search engine. Write your own database. That's why this week I had include such a few links. I hope you like them.
+
+  Now onward to our newsletter. Again, if you like BetterDev, please help spead word out by refer to your friends. [Buy me a coffee](https://www.buymeacoffee.com/betterdev) would be great too.
+
+  
+links:
+  - url: https://www.canva.dev/blog/engineering/realtime-mouse-pointers/
+    title: "Realtime mouse pointer"
+    description: |
+      In collabortion app you will usually see the cursor of all the user moving around. How would we implement that? At scale. Canvas engineering share with us here. Some good find such as using a Binary serialization instead of JSON to reduce CPU load on backend
+
+  - url: https://anyblockers.com/posts/postgres-as-a-search-engine
+    title: "Postgres as a search engine"
+    description: "Build a retrieval system with semantic, full-text, and fuzzy search in Postgres to be used as a backbone in RAG pipelines. We will do all: full text search, semantic search, fuzzy search with Postgres"
+
+  - url: https://writings.stephenwolfram.com/2024/08/whats-really-going-on-in-machine-learning-some-minimal-models/
+    title: "What’s Really Going On in Machine Learning? Some Minimal Model"
+    description: "It’s surprising how little is known about the foundations of machine learning. Yes, from an engineering point of view, an immense amount has been figured out about how to build neural nets that do all kinds of impressive and sometimes almost magical things. But at a fundamental level we still don’t really know why neural nets “work”—and we don’t have any kind of “scientific big picture” of what’s going on inside them."
+
+  - url: https://qsantos.fr/2024/08/25/linux-pipes-are-slow/
+    title: Linux Pipes are Slow
+    description: |
+      Some programs use a particular system call “vmsplice” to move data faster through a pipe. When not using vmsplice, Linux pipes are slower than what I would have expected. Since we cannot always use it, lets see exactly why that was, and whether it could be improved.
+
+  - url: https://www.allthingsdistributed.com/2024/08/continuous-reinvention-a-brief-history-of-block-storage-at-aws.html
+    title: "Continuous reinvention: A brief history of block storage at AWS"
+    description: "Marc Olson has been part of the team shaping Elastic Block Store (EBS) for over a decade. In this post, Marc provides a fascinating insider’s perspective on the journey of EBS. He shares hard-won lessons in areas such as queueing theory, the importance of comprehensive instrumentation, and the value of incrementalism versus radical changes. Most importantly, he emphasizes how constraints can often breed creative solutions. It’s an insightful look at how one of AWS’s foundational services has evolved to meet the needs of our customers (and the pace at which they’re innovating)."
+
+  - url: https://lostintransit.se/2024/08/21/ethernet-history-deepdive-why-do-we-have-different-frame-types/
+    title: "Ethernet History Deepdive – Why Do We Have Different Frame Types?"
+    description: "Take us into the history of Ethernet to see why things happened the way they did. It will also significantly enhance your network knowledge."
+
+  - url: https://blog.sylver.dev/build-your-own-sqlite-part-1-listing-tables
+    title: "Build your own SQLite, Part 1: Listing tables"
+    description: "As developers, we use databases all the time. But how do they work? In this series, we'll try to answer that question by building our own SQLite-compatible database from scratch.Source code examples will be provided in Rust, but you are encouraged to follow along using your language of choice, as we won't be relying on many language-specific features or libraries."
+
+  - url: https://blog.devops.dev/advanced-monitoring-with-ai-and-prometheus-detecting-and-mitigating-memory-leaks-230c9d64fa30
+    title: "Advanced Monitoring with AI and Prometheus: Detecting and Mitigating Memory Leaks"
+    description: "Detect memory by just looking at growth rate of memory is simple. What if we train a model of leak pattern, and apply it to detect it sooner and more efficent?"
+
+  - url: https://drew.silcock.dev/blog/how-postgres-stores-data-on-disk/
+    title: "How Postgres stores data on disk – this one's a page turner"
+    description: "databases are basically magic, and SQL is the arcane tongue that allows you to channel that magic. In fact, it’s easy to think of databases like a black box where you make sure your tables are indexed sensibly and your queries aren’t doing anything silly, and the rest just happens. But at the end of day, they are just software, that works with hardware, and use some great tricks or abstraction. So we will dive into that"
+
+  - url: https://drew.silcock.dev/blog/how-postgres-stores-oversized-values/
+    title: "How Postgres stores oversized values – let's raise a TOAST"
+
+read_code:
+  - url: https://github.com/ankane/transformers-ruby
+    title:  transformers-ruby
+    description: |
+      State-of-the-art [transformers](https://github.com/huggingface/transformers) for Ruby
+    category: ['Ruby']
+
+  - url: https://github.com/samber/lo
+    title: "lo"
+    description: "A Lodash-style Go library based on Go 1.18+ Generics (map, filter, contains, find...)"
+    category: ['Go']
+
+  - url: https://github.com/elliotchance/pie
+    title: pie
+    description: " Enjoy a slice! A utility library for dealing with slices and maps that focuses on type safety and performance."
+    category: ['Go']
+
+  - url: https://github.com/beac0n/ruroco
+    title: ruroco
+    description: |
+      a tool that lets you execute commands on a server by sending UDP packets. The commands are configured on the server side, so the client does not define what is going to be executed, it only picks from existing commands.
+    category: ['Rust']
+
+  - url: https://github.com/asg017/sqlite-vec
+    title: sqlite-vec
+    description: |
+      A vector search SQLite extension that runs anywhere!
+    category: ['Python', 'Ruby', 'JavaScript', 'Go']
+
+  - url: https://github.com/ostris/ai-toolkit
+    title: ai-toolkit
+    description: |
+      Various AI scripts. Mostly Stable Diffusion stuff.
+    category: ['Python', 'AI', 'ML',]
+
+  - url: https://github.com/gka/chroma.js
+    title: chroma.js
+    description: |
+      JavaScript library for all kinds of color manipulations. Working with color is really fun because it invole a lot of matrix manipulation and some cool tip.
+    category: ['JavaScript']
+
+  - url: https://github.com/jamiebuilds/tinykeys
+    title: tinykeys
+    description: |
+      A tiny (~650 B) & modern library for keybindings
+    category: ['JavaScript']
+
+video:
+  - url: https://www.youtube.com/watch?v=WL0jY51PQR8
+    title: "Multiplatform Maps Built As Layers on Rust (with Ian Wagner)"
+
+tool:
+  - url: https://github.com/dnaeon/go-vcr
+    title: go-vcr
+    description: "Record and replay your HTTP interactions for fast, deterministic and accurate tests"
+
+  - url: https://vega.github.io/vega/
+    title: vega
+    description: |
+      a visualization grammar, a declarative language for creating, saving, and sharing interactive visualization designs. With Vega, you can describe the visual appearance and interactive behavior of a visualization in a JSON format, and generate web-based views using Canvas or SVG.
+
+  - url: https://milkdown.dev/
+    title: Milkdown
+    description: "A plugin driven framework to build WYSIWYG Markdown editor"
+  - url: https://github.com/julien040/anyquery
+    title: anyquery
+    description: |
+      Query anything (JSON, CSV, GitHub, Notion, Airtable, etc.) with SQL
+
+  - url: https://dozzle.dev/
+    title: dozzle
+    description: |
+      Real-time logging and monitoring for Docker in the browser
+
+  - url: https://github.com/duckdb/pg_duckdb
+    title: "pg_duckdb: DuckDB + Postgres extension"
+    description: |
+      DuckDB-powered Postgres for high performance apps & analytics. Check out the [introduction post](https://motherduck.com/blog/pg_duckdb-postgresql-extension-for-duckdb-motherduck/)
+
+  - url: https://github.com/janpfeifer/gonb
+    title: gonb
+    description: |
+      A Modern Go Kernel for Jupyter Notebooks
+
+self_hosted:
+  - url: https://github.com/kviklet/kviklet
+    title: kviklet
+    description: |
+      Pull Request-like Review/Approval flow for database queries. For compliant but smooth Engineering access to production.
+
+  - url: https://github.com/will-moss/isaiah
+    title: isaiah
+    description: "Self-hostable clone of lazydocker for the web. Manage your Docker fleet with ease"
+
+  - url: https://github.com/instantdb/instant
+    title: instant
+    description: |
+      Instant is a client-side database that makes it easy to build real-time and collaborative apps like Notion or Figma.
+
+  - url: https://github.com/markqvist/NomadNet
+    title: NomadNet
+    description: |
+       allows you to build private and resilient communications platforms that are in complete control and ownership of the people that use them. No signups, no agreements, no handover of any data, no permissions and gatekeepers.
