@@ -1,0 +1,120 @@
+time: "Sep 01, 2024"
+subject: "A collaborative IPv6 book and How SSH Secures Your Connection"
+draft: false
+description: |
+  Hi all,
+
+  Now, let's dive into the newsletter. If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+  
+links:
+  - url: https://github.com/becarpenter/book6
+    title: "A collaborative IPv6 book"
+    description: |
+      The intention is a practical introduction to IPv6 for technical people, kept up to date by active practitioners.
+
+  - url: https://noratrieb.dev/blog/posts/ssh-security/
+    title: "How SSH Secures Your Connection"
+    description: |
+      If you’ve ever remotely connected to any UNIX-like server, you have likely used SSH, short for “Secure Shell”. SSH provides, as the name implies, secure shell access to remote machines and is used pretty much everywhere. But what exactly does “secure” mean here, and how is this security provided by the protocol? This post will take a look at SSH’s security features and how they protect against example attacks.
+
+  - url: https://kittenlabs.de/blog/2024/09/01/extreme-pi-boot-optimization/
+    title: "Extreme Pi Boot Optimization"
+    description: |
+      🚀 3.5 sec to Linux userspace code
+
+  - url: https://blog.codingconfessions.com/p/cpython-vm-internals
+    title: "The Design & Implementation of the CPython Virtual Machine"
+    description: |
+      For every bytecode compiled language, the most interesting part of its implementation is its virtual machine. Even if you are not a compiler engineer, learning about such internal implementation can give you new performance tricks and insights that you may be able to use in other places of your job.
+
+  - url: https://alexharri.com/blog/clipboard
+    title: "The web's clipboard, and how it stores data of different types"
+    description: |
+      Have you ever notice when you copy the html text, sometime the format is kepted as well, such as table and font style? How does that kind of data is serialized and pass between the applications.
+
+  - url: https://zkintro.com/articles/programming-zkps-from-zero-to-hero
+    title: "Programming ZKPs: From Zero to Hero"
+    description: |
+      Imagine you want to prove that you have a key to a room? You don't need to show me the key. But if I look through the window, and see you're inside. I know you have the key. How can we apply that kind of process into programming to prove it?
+
+  - url: https://www.warpstream.com/blog/dealing-with-rejection-in-distributed-systems
+    title: "Dealing with rejection (in distributed systems)"
+    description: |
+      Backpressure is one of the most important practical details that every good distributed system has to get right if it’s going to stand a chance at survival in production. Without a good backpressuring system, a small increase in load or an errant client can easily knock over the entire system and leave it stuck in a death spiral from which it will never recover without manual intervention — usually by shutting off all the clients.
+
+  - url: https://pawelurbanek.com/rails-postgresql-performance
+    title: "Easy to Overlook PostgreSQL Performance Issues in Rails Apps"
+    description: |
+      It says Rails app in the title but it can be applied to app like Django or any kind of ORM and it abstracts you away from thinking and optimize your db. Example, 
+
+  - url: https://docs.aws.amazon.com/prescriptive-guidance/latest/tuning-postgresql-parameters/memory-parameters.html
+    title: "Tuning PostgreSQL parameters in Amazon RDS "
+    description: |
+      Tailor towards AWS RDS but it's good and generic guide to cover many PostgreSQL tuning parameters
+  
+read_code:
+  - url: https://github.com/vishvananda/netlink
+    title: netlink
+    description: |
+      package provides a simple netlink library for go. Netlink is the interface a user-space program in linux uses to communicate with the kernel. It can be used to add and remove interfaces, set ip addresses and routes, and configure ipsec.
+    category: ['Go']
+
+  - url: https://github.com/DannyBen/victor
+    title: victor
+    description: "a lightweight, zero-dependencies Ruby library that lets you build SVG images using Ruby code"
+    category: ['Ruby']
+
+  - url: https://github.com/rameerez/allgood
+    title: allgood
+    description: "✅ Quickly set up a health check page for your Rails app"
+    category: ['Ruby']
+
+  - url: https://github.com/Lightning-AI/LitServe
+    title: LitServe
+    description: |
+      is an easy-to-use, flexible serving engine for AI models built on FastAPI. Features like batching, streaming, and GPU autoscaling eliminate the need to rebuild a FastAPI server per model.
+    category: ['Python']
+
+video:
+  - url: https://magazine.sebastianraschka.com/p/building-llms-from-the-ground-up
+    title: Building LLMs from the Ground Up: A 3-hour Coding Workshop
+    description: |
+      If you have watched [Let's build GPT: from scratch, in code, spelled out](https://www.youtube.com/watch?v=kCc8FmEb1nY), then this is similar format, but they focus on different things. both are great.
+
+tool:
+  - url: https://github.com/williamtroup/Calendar.js
+    title: Calendar.js
+    description: |
+      A javascript drag & drop event calendar, that is fully responsive and compatible with all modern browsers. These kind of project you may not need it right now but come in handy when you need it at a later time
+
+  - url: https://github.com/finos/perspective
+    title: perspective
+    description: |A data visualization and analytics component, especially well-suited for large and/or streaming datasets.
+
+  - url: https://github.com/CrunchyData/pgmonitor-extension
+    title: pgmonitor-extension
+    description: |
+      This extension provides a means to collect metrics within a PostgreSQL database to be used by an external collection source (Prometheus exporter, Icinga/Nagios scraper, etc).
+      Read the [announcing post from CrunchyData](https://www.crunchydata.com/blog/announcing-an-open-source-monitoring-extension-for-postgres-with-pgmonitor)
+
+  - url: https://github.com/xataio/pgstream
+    title: pgstream
+    description: |
+       an open source Change-Data-Capture(CDC) command-line tool and library that offers Postgres replication support with DDL changes to any provided output. Once you have a stram of change happen to your data, it can solve many use case. Example, [implement webhooks](https://xata.io/blog/postgres-webhooks-with-pgstream)
+       
+  - url: https://github.com/aceberg/WatchYourLAN
+    title: WatchYourLAN
+    description: |
+      Lightweight network IP scanner. Can be used to notify about new hosts and monitor host online/offline history
+
+self_hosted:
+  - url: https://github.com/Cinnamon/kotaemon
+    title: kotaemon
+    description: |
+      An open-source RAG-based tool for chatting with your documents.
+
+  - url: https://github.com/entropy-research/Devon
+    title: Devon
+    description: |
+      An open-source pair programmer support many models such as openai, anthropic, deepseek coder
