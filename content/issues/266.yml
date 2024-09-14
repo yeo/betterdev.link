@@ -1,0 +1,106 @@
+time: "Sep 16, 2024"
+subject: "We Spent $20 To Achieve RCE And Accidentally Became The Admins Of .MOBI"
+draft: trus
+description: |
+  Hi all,
+
+  Hope everyone had a great week and looking forward to a new exiciting week.
+
+  Now, let's dive into the newsletter. If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external-trackers:
+  - "<img src='https://www.vpdae.com/open/70442353.gif?opens=1' width='1' height='1'>"
+
+links:
+  - url: https://www.vpdae.com/redirect/9buuwe3ccfskwiekk4lxhs639st
+    title: ""
+    description: |
+      Snyk is thrilled to announce DevSecCon 2024, Developing AI Trust Oct 8-9, a FREE virtual summit designed for DevOps, developer and security pros of all levels. Hear from John Hammond & Daniel Miessler on some of the critical strategies and prescriptive DevSecOps approach needed to build and maintain trust in the age of AI-powered development. Save your spot!
+      <img src='https://www.vpdae.com/open/70442353.gif?opens=1' width='1' height='1'>
+    category: ["sponsor"]
+
+  - url: https://labs.watchtowr.com/we-spent-20-to-achieve-rce-and-accidentally-became-the-admins-of-mobi/
+    title: "We Spent $20 To Achieve RCE And Accidentally Became The Admins Of .MOBI"
+    description: |
+      A tale of how not renewing domain allow one to register and control an endpoint, lead to RCE.  Another reminder that if you ever has a domain in use, then stopping using it, don't let it expired.
+      Also, yet another story to stick with traditional TLD such as .com, .net etc
+
+  - url: https://planetscale.com/blog/btrees-and-database-indexes
+    title: "B-trees and database indexes"
+    description: |
+      B-trees are used by many modern DBMSs. Learn how they work, how databases use them, and how your choice of primary key can affect index performance.
+
+  - url: https://www.joshwcomeau.com/css/has/
+    title: "The Undeniable Utility Of CSS :has"
+    description: |
+      CSS is getting better and better recently with ton of of highly-requested CSS features delivered.
+      Today, we will looks into the `:has` pseduo class and share some of the most interesting real-world use cases I’ve found so far, along with some truly mindblowing experiments.
+
+  - url: https://www.kenmuse.com/blog/the-many-shas-of-a-github-pull-request/
+    title: "The Many SHAs of a GitHub Pull Request"
+    description: |
+      If you ever want to get the SHA of the Github commit in a Github action. You will quickly realize depend on pull request or branch push, the data path to get the SHA is different. In this we will demystify it
+
+  - url: https://avestura.dev/blog/creating-a-git-commit-the-hard-way
+    title: "Creating a Git commit: The Hard Way"
+
+  - url: https://pyatl.dev/2024/09/01/bitten-by-unicode/
+    title: "Bitten by Unicode"
+    description: |
+      There are character that looks the same. But depending on where one type the message, it may be a different unicode code of the underlying data. So today we will learn the tail of hyphen and hyphen-minus.
+  - url: https://andyatkinson.com/copy-swap-drop-postgres-table-shrink
+    title: "Shrinking Big PostgreSQL tables: Copy-Swap-Drop"
+
+  - url: https://neon.tech/blog/dynamically-estimating-and-scaling-postgres-working-set-size
+    title: "Dynamically estimating and scaling Postgres’ working set size"
+
+  - url: https://medium.com/@dejanvu.developer/implementing-web-push-notifications-in-a-ruby-on-rails-application-dcd829e02df0
+    title: "Implementing Web Push Notifications in a Ruby on Rails Application"
+    description: |
+
+read_code:
+  - url: https://github.com/nuno-faria/tetris-sql
+    title: tetris-sql
+    description: |
+      Using SQL's Turing Completeness to Build Tetris
+    category: ["Postgres", "SQL"]
+
+  - url: https://github.com/1and1/acts_as_recursive_tree
+    title: acts_as_recursive_tree
+    description: |
+      Make use of recursive queries in Rails when using Postgresql or SQLite to retrieve tree-based data.
+    category: ["Ruby"]
+
+  - url: https://github.com/KwaiVGI/LivePortrait
+    title: LivePortrait
+    description: |
+      Efficient Portrait Animation with Stitching and Retargeting Control
+    category: ["Python", "ML"]
+
+video:
+
+tool:
+  - url: https://github.com/eduardolat/pgbackweb
+    title: pgbackweb
+    description: |
+      🐘 Effortless PostgreSQL backups with a user-friendly web interface! 🌐💾
+
+  - url: https://github.com/linagora/tmail-flutter
+    title: tmail-flutter
+    description: |
+      A multi-platform (Flutter) application for reading your emails, with your favorite devices, using the JMAP protocol!
+
+  - url: https://github.com/SVG-Edit/svgedit
+    title: svgedit
+
+self_hosted:
+  - url: https://gotify.net/
+    title: gotify
+    description: |
+      a simple server for sending and receiving messages. Can be use to send any custom push notification
+
+  - url: https://github.com/polarsource/polar
+    title: polar
+    description: |
+      An Open Source Lemon Squeezy alternative. You can self-hosted to manage on purchasing aspect, delivery and charging money of your digital product.
+
