@@ -149,9 +149,25 @@ a {
   </html>
 {{ end }}
 
+{{ define "sponsor" }}
+  <div class="issue-sponsor">
+    {{ if ne .Title "" }}
+        <a style="font-size: 1.2rem; font-weight: 400;" href="{{ .URI }}" target="_blank">{{ .Title }}</a> <span class="badge">(SPONSOR)</span>
+    {{ end }}
+
+    <p class="issue-description">
+        <a style="font-size: 1.2rem; font-weight: 400;" href="{{ .URI }}" target="_blank">
+        {{ .Description }}
+        </a>
+    </p>
+
+    {{ if .Action }}<a class='sponsor-action' href ="{{ .URI }}" target='_blank'>{{ .Action }}</a>{{ end }}
+  </div>
+{{ end }}
 
 {{ define "scripts" }}{{ end }}
   {{ define "post_scripts"}} {{ end }}
+
     {{ define "subscribe_form"}} {{ end }}
 
     {{ define "issue" }}
@@ -177,11 +193,7 @@ a {
             <div class="issue-links">
               {{ range $key, $link := .Links }}
                 {{ if $link.IsSponsor }}
-                <div class="issue-sponsor">
-                  <a style="font-size: 1.2rem; font-weight: 400; text-decoration: underline;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a> <span style="color: #f36c3d;">(SPONSOR)</span>
-                  <p>{{ $link.Description }}</p>
-                  {{ if $link.Action }}<a class='sponsor-action' href ="{{ $link.URI }}" target='_blank'>{{ $link.Action }}</a>{{ end }}
-                </div>
+                    {{ template "sponsor" $link }}
                 {{ else }}
                 <div class="issue-link">
                   <a style="font-size: 1.2rem; font-weight: 400;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
@@ -233,11 +245,7 @@ a {
                 <h3 class="subtitle"><strong>Tools</strong></h3>
                 {{ range $key, $link := .Tools }}
                   {{ if $link.IsSponsor }}
-                  <div class="issue-sponsor">
-                    <a style="font-size: 1.2rem; font-weight: 400;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a> <span class="badge">(SPONSOR)</span>
-                    <p class="issue-description">{{ $link.Description }}</p>
-                    {{ if $link.Action }}<a class='sponsor-action' href ="{{ $link.URI }}" target='_blank'>{{ $link.Action }}</a>{{ end }}
-                  </div>
+                    {{ template "sponsor" $link }}
                   {{ else }}
                   <div style="padding: 0 0 1rem 0" class="issue-link">
                     <a class="tools" style="font-size: 1.1rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
@@ -254,11 +262,7 @@ a {
                 <h3 class="subtitle"><strong>Self Hosted</strong></h3>
                 {{ range $key, $link := .SelfHosted }}
                   {{ if $link.IsSponsor }}
-                  <div class="issue-sponsor">
-                    <a style="font-size: 1.2rem; font-weight: 400;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a> <span class="badge">(SPONSOR)</span>
-                    <p class="issue-description">{{ $link.Description }}</p>
-                    {{ if $link.Action }}<a class='sponsor-action' href ="{{ $link.URI }}" target='_blank'>{{ $link.Action }}</a>{{ end }}
-                  </div>
+                    {{ template "sponsor" $link }}
                   {{ else }}
                   <div style="padding: 0 0 1rem 0" class="issue-link">
                     <a class="tools" style="font-size: 1.1rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
@@ -286,9 +290,11 @@ a {
 
                 <p>
                   <a href="https://www.buymeacoffee.com/betterdev">want to support my work?  buy me a coffee</a>
-                  {{ if eq .Name "262" }}
-                      <img src='https://www.vpdae.com/open/5e2f5bcd.gif?opens=1' width='1' height='1'>
+
+                  {{ if eq .Name "266" }}
+                      <img src='https://www.vpdae.com/open/70442353.gif?opens=1' width='1' height='1' />
                   {{ end }}
+
                 </p>
               </div>
             </div>
