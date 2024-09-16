@@ -1,10 +1,11 @@
 time: "Sep 16, 2024"
 subject: "How to Send a SWIFT Wire From Scratch"
+draft: false
 
 description: |
   Hi all,
 
-  Welcome to other issue of BetterDev. This week we will learn about making SWIFT payment, imagine you don't have to rely on Stripe, and just be able to make payment right from your bank through SWIFT Protocol.
+  Welcome to another issue of BetterDev. This week we will learn about making SWIFT payment, imagine you don't have to rely on Stripe, and just be able to make payment right from your bank through SWIFT Protocol.
 
   If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
 
