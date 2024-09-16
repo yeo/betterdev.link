@@ -43,17 +43,19 @@ func (l *Link) IsSponsor() bool {
 type Issues []Issue
 
 type Issue struct {
-	Subject     string        `yaml:"subject"`
-	Time        string        `yaml:"time"`
-	Links       []Link        `yaml:"links"`
-	CodeToRead  []Link        `yaml:"read_code"`
-	Tools       []Link        `yaml:"tool"`
-	Briefs      []Link        `yaml:"brief"`
-	Videos      []Link        `yaml:"video"`
-	Name        string        `yaml:"name"`
-	PubTime     time.Time     `yaml:"pub_time"`
-	Draft       bool          `yaml:"draft"`
-	Description template.HTML `yaml:"description"`
+	Subject          string          `yaml:"subject"`
+	Time             string          `yaml:"time"`
+	Links            []Link          `yaml:"links"`
+	CodeToRead       []Link          `yaml:"read_code"`
+	Tools            []Link          `yaml:"tool"`
+	Briefs           []Link          `yaml:"brief"`
+	Videos           []Link          `yaml:"video"`
+	SelfHosted       []Link          `yaml:"self_hosted"`
+	Name             string          `yaml:"name"`
+	PubTime          time.Time       `yaml:"pub_time"`
+	Draft            bool            `yaml:"draft"`
+	Description      template.HTML   `yaml:"description"`
+	ExternalSnippets []template.HTML `yaml:"external_snippets"`
 }
 
 func (issue Issue) FormatPubTime() string {
