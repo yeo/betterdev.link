@@ -1,23 +1,26 @@
 time: "Sep 16, 2024"
-subject: "We Spent $20 To Achieve RCE And Accidentally Became The Admins Of .MOBI"
-draft: true
+subject: "How to Send a SWIFT Wire From Scratch"
+
 description: |
   Hi all,
 
-  Hope everyone had a great week and looking forward to a new exiciting week.
+  Welcome to other issue of BetterDev. This week we will learn about making SWIFT payment, imagine you don't have to rely on Stripe, and just be able to make payment right from your bank through SWIFT Protocol.
 
-  Now, let's dive into the newsletter. If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
 
-external-trackers:
+external_snippets:
   - "<img src='https://www.vpdae.com/open/70442353.gif?opens=1' width='1' height='1'>"
 
 links:
   - url: https://www.vpdae.com/redirect/9buuwe3ccfskwiekk4lxhs639st
-    title: ""
+    title: "Snyk is thrilled to announce DevSecCon 2024, Developing AI Trust Oct 8-9, a FREE virtual summit designed for DevOps, developer and security pros of all levels"
     description: |
-      Snyk is thrilled to announce DevSecCon 2024, Developing AI Trust Oct 8-9, a FREE virtual summit designed for DevOps, developer and security pros of all levels. Hear from John Hammond & Daniel Miessler on some of the critical strategies and prescriptive DevSecOps approach needed to build and maintain trust in the age of AI-powered development. Save your spot!
-      <img src='https://www.vpdae.com/open/70442353.gif?opens=1' width='1' height='1'>
+      Hear from John Hammond & Daniel Miessler on some of the critical strategies and prescriptive DevSecOps approach needed to build and maintain trust in the age of AI-powered development. [Save your spot](https://www.vpdae.com/redirect/9buuwe3ccfskwiekk4lxhs639st)
     category: ["sponsor"]
+
+  - url: "https://www.iso20022js.com/guides/how-to-send-swift"
+    title: "How to Send a SWIFT Wire From Scratch"
+    description: "SWIFT is the most widely used international payment method in the world. In this tutorial we will be going over how to send a SWIFT wire programatically to your bank, what information you might need about your recipient to allow the payment to clear successfully, and the software you might need to do so. The following example can be implemented in code using iso20022.js."
 
   - url: https://labs.watchtowr.com/we-spent-20-to-achieve-rce-and-accidentally-became-the-admins-of-mobi/
     title: "We Spent $20 To Achieve RCE And Accidentally Became The Admins Of .MOBI"
@@ -30,11 +33,21 @@ links:
     description: |
       B-trees are used by many modern DBMSs. Learn how they work, how databases use them, and how your choice of primary key can affect index performance.
 
+  - url: https://blog.alexewerlof.com/p/slo-elastic-datadog-grafana
+    title: "SLO: Elastic vs Datadog vs Grafana"
+    description: |
+      A very hand-on comparison of SLO functionality on 3 platforms. Really good and detail write up if you're evaluating these observability platfor.
+
   - url: https://www.joshwcomeau.com/css/has/
     title: "The Undeniable Utility Of CSS :has"
     description: |
       CSS is getting better and better recently with ton of of highly-requested CSS features delivered.
       Today, we will looks into the `:has` pseduo class and share some of the most interesting real-world use cases I’ve found so far, along with some truly mindblowing experiments.
+
+  - url: https://www.amazon.science/blog/better-performing-25519-elliptic-curve-cryptography
+    title: "Better-performing “25519” elliptic-curve cryptography"
+    description: |
+      In recent years, you may notice we started to use SSH key with ED25519 instead of RSA. You will notice the key length is much shorter, but more secure. Another Two cryptographic algorithms that have become increasingly popular are x25519. AWS has optimized the x25519 and Ed25519 cryptographic algorithms in their AWS LibCrypto library, improving both performance and security and they share the benchmark and how we can use it here.
 
   - url: https://www.kenmuse.com/blog/the-many-shas-of-a-github-pull-request/
     title: "The Many SHAs of a GitHub Pull Request"
@@ -43,21 +56,19 @@ links:
 
   - url: https://avestura.dev/blog/creating-a-git-commit-the-hard-way
     title: "Creating a Git commit: The Hard Way"
+    description: |
+      To create git commit, we use Git high-level commands (also known as Porcelain commands) like git add, and git commit. However, there is another group of Git commands, known as Plumbing commands, that handle the low-level operations.  In this blog post, we want to create a Git commit using these low-level operations, and not the git commit command.
 
   - url: https://pyatl.dev/2024/09/01/bitten-by-unicode/
     title: "Bitten by Unicode"
     description: |
       There are character that looks the same. But depending on where one type the message, it may be a different unicode code of the underlying data. So today we will learn the tail of hyphen and hyphen-minus.
+
   - url: https://andyatkinson.com/copy-swap-drop-postgres-table-shrink
     title: "Shrinking Big PostgreSQL tables: Copy-Swap-Drop"
 
   - url: https://neon.tech/blog/dynamically-estimating-and-scaling-postgres-working-set-size
     title: "Dynamically estimating and scaling Postgres’ working set size"
-
-  - url: https://medium.com/@dejanvu.developer/implementing-web-push-notifications-in-a-ruby-on-rails-application-dcd829e02df0
-    title: "Implementing Web Push Notifications in a Ruby on Rails Application"
-    description: |
-
 read_code:
   - url: https://github.com/nuno-faria/tetris-sql
     title: tetris-sql
@@ -71,15 +82,43 @@ read_code:
       Make use of recursive queries in Rails when using Postgresql or SQLite to retrieve tree-based data.
     category: ["Ruby"]
 
+  - url: https://github.com/drwl/annotaterb
+    title: annotaterb
+    description: |
+      Adds comments summarizing the model schema or routes in your. Really good codebase to learn how to parse and insert code into the existing files
+    category: ['Ruby']
+
   - url: https://github.com/KwaiVGI/LivePortrait
     title: LivePortrait
     description: |
       Efficient Portrait Animation with Stitching and Retargeting Control
     category: ["Python", "ML"]
 
+  - url: https://github.com/moderato-app/live-pprof
+    title: live-pprof
+    description: |
+      Instead of cluttering up your computer with Docker, Prometheus, Grafana or even K8S just to monitor a Go app's heap size, use this package to Monitor a Go app's performance. Note that, it's build mainly for local dev
+    category: ["Go"]
+
+
+  - url: https://github.com/fastfloat/fast_float
+    title: fast_float
+    description: |
+      Fast and exact implementation of the C++ from_chars functions for number types: 4x to 10x faster than strtod, part of GCC 12, Chromium, Redis and WebKit/Safari. C++ is the language I never wrote, but I do plan to read to understand how float parse from characters works.
+
 video:
 
 tool:
+  - url: https://github.com/pixijs/pixijs
+    title: pixijs
+    description: |
+      to provide a fast, lightweight 2D library that works across all devices. The PixiJS renderer allows everyone to enjoy the power of hardware acceleration without prior knowledge of WebGL. Also, it's fast. Really fast.
+
+  - url: https://css-triggers.com/
+    title: css-triggers
+    description: |
+
+
   - url: https://github.com/eduardolat/pgbackweb
     title: pgbackweb
     description: |
@@ -92,15 +131,31 @@ tool:
 
   - url: https://github.com/SVG-Edit/svgedit
     title: svgedit
+    description: |
+      Powerful SVG-Editor for your browser
+
+  - url: https://github.com/containrrr/shoutrrr
+    title: shoutrrr
+    description: |
+      A notifications library and a CLI to send notification to multiple services such as discord, slack, telegram and more.
 
 self_hosted:
+  - url: "https://ntfy.sh/"
+    title: ntfy
+    description: |
+      ntfy (pronounced "notify") is a simple HTTP-based pub-sub notification service. With ntfy, you can send notifications to your phone or desktop via scripts from any computer, without having to sign up or pay any fees. You can push your custom notifcation to your phone for your own alert or automated system.
+
   - url: https://gotify.net/
     title: gotify
     description: |
-      a simple server for sending and receiving messages. Can be use to send any custom push notification
+      a simple server for sending and receiving messages. Can be use to send any custom push notification. Similar to the above project.
 
   - url: https://github.com/polarsource/polar
     title: polar
     description: |
       An Open Source Lemon Squeezy alternative. You can self-hosted to manage on purchasing aspect, delivery and charging money of your digital product.
 
+  - url: https://github.com/OpenBMB/MiniCPM-V
+    title: MiniCPM-V
+    description: |
+      a series of end-side multimodal LLMs (MLLMs) designed for vision-language understanding. The models take image, video and text as inputs and provide high-quality text output
