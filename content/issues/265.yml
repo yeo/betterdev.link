@@ -78,7 +78,7 @@ read_code:
 
 video:
   - url: https://magazine.sebastianraschka.com/p/building-llms-from-the-ground-up
-    title: Building LLMs from the Ground Up: A 3-hour Coding Workshop
+    title: "Building LLMs from the Ground Up: A 3-hour Coding Workshop"
     description: |
       If you have watched [Let's build GPT: from scratch, in code, spelled out](https://www.youtube.com/watch?v=kCc8FmEb1nY), then this is similar format, but they focus on different things. both are great.
 
@@ -90,7 +90,7 @@ tool:
 
   - url: https://github.com/finos/perspective
     title: perspective
-    description: |A data visualization and analytics component, especially well-suited for large and/or streaming datasets.
+    description: A data visualization and analytics component, especially well-suited for large and/or streaming datasets.
 
   - url: https://github.com/CrunchyData/pgmonitor-extension
     title: pgmonitor-extension
