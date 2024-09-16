@@ -18,13 +18,14 @@ import (
 	"gopkg.in/yaml.v2"
 )
 
-//TODO Move theme reference to config with DI
+// TODO Move theme reference to config with DI
 func Compile(source string) error {
 	page := buildPage()
 
 	createRSS(page)
 	createHome(page)
 	createIssues(page)
+	//createPost(page)
 
 	CopyDir("themes/yeo/assets", "public/assets")
 	CopyDir("static/", "public/")
@@ -212,6 +213,10 @@ func loadIssue(f os.FileInfo) (Issue, error) {
 
 	for i := range issue.Videos {
 		issue.Videos[i].Description = template.HTML(string(blackfriday.Run([]byte(issue.Videos[i].Description))))
+	}
+
+	for i := range issue.SelfHosted {
+		issue.SelfHosted[i].Description = template.HTML(string(blackfriday.Run([]byte(issue.SelfHosted[i].Description))))
 	}
 
 	return issue, nil
