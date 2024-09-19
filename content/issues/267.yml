@@ -1,0 +1,109 @@
+time: "Sep 23, 2024"
+subject: "Cryptography 101 with Alfred Menezes"
+draft: true
+
+description: |
+  Hi all,
+
+  Welcome to another issue of BetterDev. This week we will learn about some crypto, a topic many time we are taugh to just use a library instead of writing our own. Therefor, it's great to dive deep into the concept.
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+  - "<img src='https://www.vpdae.com/open/fd036eaf.gif?opens=1' width='1' height='1'>"
+
+links:
+  - url: https://www.vpdae.com/redirect/zrcr36zpo2etw2xrxs2s8vji2ws
+    title: "HubSpot's Smart CRM offers a comprehensive, customizable company record, allowing marketing, sales, and service teams to have a single, unified view of the customer"
+    description: |
+      However, most GTM teams still struggle to understand how customers are using their products. Now, teams can combine the power of HubSpot and Amplitude's customer behavior data to accelerate growth.
+
+      The new and improved Amplitude app for HubSpot allows you to uncover your most qualified leads using product usage insights. Now, marketers can use key product signals for personalized lead nurturing, pass qualified leads to Sales, and work with Service to re-ignite at-risk customers.
+
+      [Try the improved app today to enrich your HubSpot customer data with Amplitude’s product usage data](https://www.vpdae.com/redirect/zrcr36zpo2etw2xrxs2s8vji2ws)
+    category: ["sponsor"]
+
+  - url: https://jeremymorrell.dev/blog/minimal-js-tracing/?utm_source=pocket_shared
+    title: OpenTelemetry Tracing in 200 lines of code
+    description: |
+      Developers tend to treat tracing as deep magic, and OpenTelemetry is no exception.
+
+  - url: https://cryptography101.ca/
+    title: "Cryptography 101 with Alfred Menezes"
+    description: |
+      Alfred Menezes, a professor in the Department of Combinatorics and Optimization, Faculty of Mathematics, at the University of Waterloo in Canada. His research field is cryptography.
+      He has made quite a few of his lecture available for free, both of slide, video, exercises and handout.
+
+  - url: https://karenjex.blogspot.com/2024/09/optimising-your-database-for-analytics.html
+    title: "Optimising your Database for Analytics"
+    description: |
+      Your database is configured for the needs of your day-to-day application activity, but what if you need to run complex analytics queries against your application data? Let’s look at how you can optimise your database for an analytics workload without compromising the performance of your application.
+
+  - url: https://web.archive.org/web/20240423134349/http://www.idontplaydarts.com/2016/04/detecting-curl-pipe-bash-server-side/
+    title: 'Detecting the use of "curl | bash" server side'
+    description: |
+      Installing software by piping from curl to bash is obviously a bad idea and a knowledgable user will most likely check the content first. So wouldn't it be great if a malicious payload would only render when piped to bash? A few people have tried this before by checking for the curl user agent which is by no means fail safe - the user may simply curl the url on the commandline revealing your malicious code. Luckily the behaviour of curl (and wget) changes subtely when piped into bash. This allows an attacker to present two different versions of their script depending on the context :)
+
+  - url: https://bitfieldconsulting.com/posts/aes-encryption
+    title: "Cryptography in Go: AES encryption"
+    description: |
+
+read_code:
+  - url: https://github.com/satmihir/fair
+    title: fair
+    description: |
+      a Go library designed to ensure fairness in the resource-constrained environments. It helps distribute the limited resources (e.g., database/blob storage throughput, job execution resources etc.) evenly across multiple clients during the time of shortage, preventing over-allocation and starvation based on client behavior.
+    category: ['Go']
+
+  - url: https://github.com/lambda-fairy/maud
+    title: maud
+    description: |
+      Compile-time HTML templates for Rust
+    category: ['Rust']
+video:
+
+tool:
+  - url: https://github.com/yogeshojha/rengine
+    title: "The Ultimate Web Reconnaissance & Vulnerability Scanner 🚀"
+    description: |
+       your ultimate web application reconnaissance suite, designed to supercharge the recon process for security pros, pentesters, and bug bounty hunters. It is go-to web application reconnaissance suite that's designed to simplify and streamline the reconnaissance process for all the needs of security professionals, penetration testers, and bug bounty hunters
+
+
+  - url: https://github.com/zlwaterfield/scramble
+    title: "scramble"
+    description: |
+      an open-source Chrome extension that leverages AI to enhance your writing directly in your browser. It's designed to be a more customizable and privacy-respecting alternative to Grammarly.
+
+  - url: https://github.com/achristmascarl/rainfrog
+    title: rainfrog
+    description: |
+      a database management tui for postgres
+
+  - url: https://github.com/maelstrom-software/maelstrom
+    title: maelstrom
+    description: |
+      a suite of tools for running tests in isolated micro-containers locally on your machine or distributed across arbitrarily large clusters. Maelstrom currently has test runners for Rust, Go, and Python, with more on the way.
+
+  - url: https://github.com/dena-sohrabi/There
+    title: There
+    description: |
+      A native menubar app to track friends, teammates or city time zones on macOS.
+
+  - url: https://github.com/getsops/sops
+    title: sops
+    description: |
+      Simple and flexible tool for managing secrets. Used to be managed by Mozilla but become a community project now.
+
+self_hosted:
+  - url: https://github.com/kyutai-labs/moshi
+    title: moshi
+    description: |
+      a speech-text foundation model for real time dialogue
+
+  - url: https://github.com/ictnlp/LLaMA-Omni
+    title: "🦙🎧 LLaMA-Omni: Seamless Speech Interaction with Large Language Models"
+
+  - url: https://github.com/documenso/documenso
+    title: documenso
+    description: |
+      The Open Source DocuSign Alternative.
