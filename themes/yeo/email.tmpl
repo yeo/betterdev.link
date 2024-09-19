@@ -151,18 +151,18 @@ a {
 
 {{ define "sponsor" }}
   <div class="issue-sponsor">
-    {{ if ne .Title "" }}
-        <a style="font-size: 1.2rem; font-weight: 400;" href="{{ .URI }}" target="_blank">{{ .Title }}</a> <span class="badge">(SPONSOR)</span>
-    {{ end }}
-
-    <p class="issue-description">
-        <a style="font-size: 1.2rem; font-weight: 400;" href="{{ .URI }}" target="_blank">
-        {{ .Description }}
-        </a>
-    </p>
-
-    {{ if .Action }}<a class='sponsor-action' href ="{{ .URI }}" target='_blank'>{{ .Action }}</a>{{ end }}
+                <div class="issue-link">
+                  <a style="font-size: 1.2rem; font-weight: 400;" href="{{ .URI }}" target="_blank">{{ .Title }}</a>
+                  <p>{{ .Description }}</p>
+                </div>
+    <span class="badge">(SPONSOR)</span>
   </div>
+{{ end }}
+
+{{ define "snippets" }}
+  {{ range .ExternalSnippets }}
+      {{ . }}
+  {{ end }}
 {{ end }}
 
 {{ define "scripts" }}{{ end }}
@@ -294,6 +294,7 @@ a {
                   {{ if eq .Name "266" }}
                       <img src='https://www.vpdae.com/open/70442353.gif?opens=1' width='1' height='1' />
                   {{ end }}
+                  {{ template "snippets" . }}
 
                 </p>
               </div>
