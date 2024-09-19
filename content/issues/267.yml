@@ -28,11 +28,22 @@ links:
     description: |
       Developers tend to treat tracing as deep magic, and OpenTelemetry is no exception.
 
+  - url: https://nolanlawson.com/2024/09/18/improving-rendering-performance-with-css-content-visibility/
+    title: "Improving rendering performance with CSS content-visibility"
+    description: |
+      I’m on a fedi instance with 19k custom emojis […] and when I open the emoji picker […], the page freezes for like a full second at least and overall performance stutters for a while after that.
+      How can we improve performance here to render a bunch of emojis
+
   - url: https://cryptography101.ca/
     title: "Cryptography 101 with Alfred Menezes"
     description: |
       Alfred Menezes, a professor in the Department of Combinatorics and Optimization, Faculty of Mathematics, at the University of Waterloo in Canada. His research field is cryptography.
       He has made quite a few of his lecture available for free, both of slide, video, exercises and handout.
+
+  - url: https://math.ucr.edu/home/baez/what_is_entropy.pdf
+    title: "What is entropy?"
+    description: |
+      Engineer no doubt encounters the term entropy quite a bit when it come to randomess. But what is it? how to define it? This is the draft to a book about that exact topic. And here is [the introduction post by author](https://johncarlosbaez.wordpress.com/2024/07/20/what-is-entropy/).
 
   - url: https://karenjex.blogspot.com/2024/09/optimising-your-database-for-analytics.html
     title: "Optimising your Database for Analytics"
@@ -47,6 +58,14 @@ links:
   - url: https://bitfieldconsulting.com/posts/aes-encryption
     title: "Cryptography in Go: AES encryption"
     description: |
+      Lets learn how to encryption and decrypt with AES. You will learn stuff like AES-CBC or AWS-GCM. It uses Go as the language but the idea can be applied to your favorite langugage.
+
+  - url: https://hackmysql.com/why-mysql-replication-is-fast/
+    title: "Why MySQL Replication Is Fast"
+    description: |
+      Replication being slow—replication lag—is a common complaint, but MySQL replication is actually really fast. Let’s run a controlled experiment and peek inside the Performance Schema and binary logs to see why.
+
+
 
 read_code:
   - url: https://github.com/satmihir/fair
