@@ -43,8 +43,8 @@ links:
     title: OpenTelemetry Tracing in 200 lines of code
     description: |
       Developers tend to treat tracing as deep magic, and OpenTelemetry is no exception. OpenTelemetry may be even more mysterious given how many concepts your are exposed to even with beginning examples.
-    They are likely a lot simpler than you expect! Once you peel back the layers, I find a useful mental model of tracing looks like “fancy logging” combined with “context propagation” a.k.a “passing some IDs around”.
-    The examples are JS code but the concept can be applied to your favorite language SDK given OpenTelemetry popularity.
+      They are likely a lot simpler than you expect! Once you peel back the layers, I find a useful mental model of tracing looks like “fancy logging” combined with “context propagation” a.k.a “passing some IDs around”.
+      The examples are JS code but the concept can be applied to your favorite language SDK given OpenTelemetry popularity.
 
   - url: https://ittavern.com/visual-guide-to-ssh-tunneling-and-port-forwarding/
     title: "Visual guide to SSH tunneling and port"
@@ -76,6 +76,11 @@ links:
     description: |
       Replication being slow—replication lag—is a common complaint, but MySQL replication is actually really fast. Let’s run a controlled experiment and peek inside the Performance Schema and binary logs to see why.
 
+  - url: https://go.dev/blog/llmpowered
+    title: Building LLM-powered applications in Go
+    description: |
+      In other words, LLM-powered applications are a lot like other modern cloud-native applications: they require excellent support for REST and RPC protocols, concurrency and performance. These just so happen to be the areas where Go excels, making it a fantastic language for writing LLM-powered applications.
+      This blog post works through an example of using Go for a simple LLM-powered application. It starts by describing the problem the demo application is solving, and proceeds by presenting several variants of the application that all accomplish the same task, but use different packages to implement it. All the code for the demos of this post is available online.
 
 read_code:
   - url: https://github.com/satmihir/fair
@@ -106,6 +111,13 @@ read_code:
     title: LLaMA-Omni
     description: |
       a low-latency and high-quality end-to-end speech interaction model built upon Llama-3.1-8B-Instruct, aiming to achieve speech capabilities at the GPT-4o level.
+    category: ['Python']
+
+  - url: https://github.com/dleemiller/WordLlama
+    title: "WordLlama: Things you can do with the token embeddings of an LLM"
+    description: |
+      WordLlama is a fast, lightweight NLP toolkit that handles tasks like fuzzy-deduplication, similarity and ranking with minimal inference-time dependencies and optimized for CPU hardware.
+    category: ['Python']
 
 video:
   - url: https://www.youtube.com/watch?v=mTa2d3OLXhg
@@ -114,11 +126,15 @@ video:
       DHH is famous for creating Rails and very opinated in programming, focus on developer velocity and controversal take. He get on this podcast talk about programming, racing, and using AI/LLM in coding.
 
 tool:
+  - url: https://github.com/OpenBMB/MiniCPM
+    title: MiniCPM
+    description: |
+      An edge-side LLM that surpasses GPT-3.5-Turbo.
+
   - url: https://github.com/yogeshojha/rengine
     title: "The Ultimate Web Reconnaissance & Vulnerability Scanner 🚀"
     description: |
        your ultimate web application reconnaissance suite, designed to supercharge the recon process for security pros, pentesters, and bug bounty hunters. It is go-to web application reconnaissance suite that's designed to simplify and streamline the reconnaissance process for all the needs of security professionals, penetration testers, and bug bounty hunters
-
 
   - url: https://github.com/zlwaterfield/scramble
     title: "scramble"
@@ -178,3 +194,8 @@ self_hosted:
     title: openobserve
     description: |
       a cloud-native observability platform built specifically for logs, metrics, traces, analytics, RUM (Real User Monitoring - Performance, Errors, Session Replay) designed to work at petabyte scale.
+
+  - url: https://github.com/TzuHuanTai/RaspberryPi_WebRTC
+    title: RaspberryPi_WebRTC
+    description: |
+      Native WebRTC uses v4l2 hardware h264 and software openh264 encoder for live streaming on Raspberry Pi.
