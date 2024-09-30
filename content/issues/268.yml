@@ -1,0 +1,160 @@
+time: "Sep 30, 2024"
+subject: "Compiling to Assembly from Scratch and A Reintroduction to Programming"
+draft: false
+
+description: |
+  Hi all,
+
+  Welcome to another issue of BetterDev. This week PostgreSQL 17 is released. It has a lot of amazing feature. Time to update and look over the [release note](https://www.postgresql.org/docs/17/release-17.html). If you are a Postgres user, consider subscribe to [Postgres Weekly as well](https://postgresweekly.com)
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+  - "<img src='https://www.vpdae.com/open/02a214f9.gif?opens=1' width='1' height='1'>"
+
+links:
+  - url: https://www.vpdae.com/redirect/7n8wouvq0yqa2luiw8xz21b5gsf
+    title: "Not too many days left for DevSecCon 2024"
+    description: |
+      Developing AI Trust, hosted by Snyk on October 8-9. With 20+ sessions and 5 themed tracks, DevSecCon 2024 is packed with DevSecOps lessons and hands-on experiences from industry trailblazers. For all our developers, here’s one that you just can’t miss: Leonardo Zanivan from Okta, who will be discussing how to Secure Node.js Applications from Supply Chain Attacks. [Register today](https://www.vpdae.com/redirect/7n8wouvq0yqa2luiw8xz21b5gsf)!
+    category: ["sponsor"]
+
+  - url: https://keleshev.com/compiling-to-assembly-from-scratch/#table-of-contents
+    title: "Compiling to Assembly from Scratch"
+    description: |
+      Have you been trying to learn how compilers and programming languages work?
+      Then come along! Let’s make a compiler that goes all the way from source to assembly from scratch—no shortcuts
+      This book will teach you enough compiler theory and assembly programming to get going. It uses a subset of TypeScript that reads like pseudocode and targets ARM 32-bit instruction set.
+
+  - url: https://www.0de5.net/explore
+    title: "A Reintroduction to Programming"
+    description: |
+      Imagion composing a BMP image by hand, or writing a executable file manually? What kind of knowledge need to do that? Mastery of computer programming unlocks power, flexibility, speed, and debugging prowess across all of your work. We will learn in depth what you use every day, by exploring memory, instructions, syscalls, functions, structure and cognition.
+
+  - url: https://tembo.io/blog/image-search
+    title: "Building an image search engine on Postgres"
+    description: |
+      Have you ever want a search to find similar image? In this blog we’ll build a basic image search engine using Postgres. We’ll use a pre-trained model to generate embeddings for images and text, then store those embeddings in Postgres. The pgvector extension will enable us to conduct similarity searches on these embeddings using both images and raw-text as queries.
+
+  - url: https://christophergs.com/blog/production-rag-with-postgres-vector-store-open-source-models
+    title: "Production RAG with a Postgres Vector Store and Open-Source Models"
+    description: |
+      Part 6 of an AI Engineering open-source models tutorial series. We focus on RAG on this article. A RAG pipeline is what allows your AI model(s) to leverage the knowledge of your private/corporate data in its inference. It consists of the following stages: loading, indexing, storing, querying and evaluation.
+
+  - url: https://kettanaito.com/blog/dont-sleep-on-abort-controller
+    title: "Don't Sleep on AbortController"
+    description: |
+      In JavaScript, more often that not you may want to cancel a request? Imagine an auto-completed, when user type more, you may want to cancel the previous request, there is no point to get them.
+      AbortController is a global class in JavaScript that you can use to abort these fetch request. And also anything else, not just http request.
+
+  - url: https://fljd.in/en/2024/09/19/hierarchical-data-types/
+    title: "Hierarchical data types"
+    description: |
+      Parent-child relationship happens a lot in context of web dev. Even harder when it's nested. Example, nested comment. In this shortarticle we look at the `ltree` Postgres extension to store and retreive that data type.
+
+  - url: https://developer.chrome.com/blog/devtools-realtime-cwv
+    title: "Monitor your local and real-user Core Web Vitals performance in DevTools"
+    description: |
+
+  - url: https://discord.com/blog/how-discord-reduced-websocket-traffic-by-40-percent
+    title: "How Discord Reduced Websocket Traffic by 40%"
+
+  - url: https://neilmadden.blog/2024/09/18/digital-signatures-and-how-to-avoid-them/
+    title: "Digital signatures and how to avoid them"
+
+  - url: https://blog.bemi.io/the-ultimate-guide-to-postgresql-data-change-tracking/
+    title: The Ultimate Guide to PostgreSQL Data Change Tracking
+
+read_code:
+  - url: https://github.com/mikestefanello/pagoda
+    title: pagoda
+    description: |
+      Rapid, easy full-stack web development starter kit in Go
+    category: ['Go']
+
+  - url: https://github.com/deckarep/golang-set
+    title: golang-set
+    description: |
+      A simple, battle-tested and generic set type for the Go language. Trusted by Docker, 1Password, Ethereum and Hashicorp.
+    category: ['Go']
+
+  - url: https://github.com/pawurb/ruby-pg-extras
+    title: ruby-pg
+    description: |
+      Ruby PostgreSQL database performance insights. Locks, index usage, buffer cache hit ratios, vacuum stats and more. Also, if you're a Rails dev, checkout the [rails-pg-extras](https://github.com/pawurb/rails-pg-extras)
+    category: ['Ruby']
+
+  - url: https://github.com/elijah-potter/harper
+    title: harper
+    description: |
+      The Grammar Checker for Developers. Can be think of your own Grammarly replacement.
+    category: ['Rust']
+
+  - url: https://github.com/lds133/weather_landscape
+    title: weather_landscape
+    description: |
+      Visualizing Weather Forecasts Through Landscape Imagery.
+      Traditional weather stations often display sensor readings as raw numerical data. Navigating these dashboards can be overwhelming and stressful, as it requires significant effort to locate, interpret, and visualize specific parameters effectively.
+    category: ['Python']
+
+video:
+  - url: https://www.youtube.com/watch?v=Ua6LDIOVN1s
+    title: "18 months of pgvector learnings in 47 minutes"
+
+tool:
+  - url: https://github.com/go-jet/jet/
+    title: go-jet
+    description: |
+      Type safe SQL builder with code generation and automatic query result data mapping
+
+  - url: https://github.com/mgechev/revive
+    title: revive
+    description: |
+      🔥 ~6x faster, stricter, configurable, extensible, and beautiful drop-in replacement for golint. Use by a lot of other Go project to lint their Go code.
+
+  - url: https://github.com/amalshaji/portr
+    title: portr
+    description: |
+      Open source ngrok alternative designed for teams. Tunnel http, tcp or websocket connections.
+
+  - url: https://explain.dalibo.com/
+    title: dalibo
+    description: |
+      Visualizing and understanding PostgreSQL EXPLAIN plans made easy.
+
+  - url: https://github.com/bytebase/bytebase
+    title: bytebase
+    description: |
+      Have you ever feel tedious and risky when you acquire prod db credential, to run some kind of data modification query? Or feel wrong when giving someone access to a postgres db user and have to follow up when revoke/rotate password? Bytebase might solve these pain points. A single place to track change, query db, manage access. Bill itself World's most advanced database DevOps and CI/CD for Developer, DBA and Platform Engineering teams.
+
+  - url: https://github.com/iongion/container-desktop
+    title: container-desktop
+    description: |
+      Podman desktop companion
+
+  - url: https://github.com/schedule-x/schedule-x
+    title: schedule-x
+    description: |
+      an event calendar focused on covering the needs of modern web apps: responsive design, internationalization, and extensibility. You can ship it with default settings in a matter of minutes. Surely come in handy when you need some sort of calendar-ish displaying for your app
+
+self_hosted:
+  - url: https://github.com/MightyMoud/sidekick
+    title: sidekick
+    description: |
+      Run your own fly.io, or can be use as Heroku equivalent on your VPS. Single command will convert your server to a PaaS for your own.
+
+  - url: https://github.com/profilecity/vidur
+    title: vidur
+    description: |
+      If you want to host your own company carrers page, this is a good project to do it.
+
+  - url: https://github.com/MODSetter/SurfSense
+    title: SurfSense
+    description: |
+      Usually when surfing the internet, you want to save and bookmark content. This newsletter has a lot of great link too. But searching them out, remember when you save what? This tool help with that. Save your content, then ask this AI  about your content. Works Flawlessly with Ollama local LLMs.
+
+  - url: https://www.vpdae.com/redirect/7n8wouvq0yqa2luiw8xz21b5gsf
+    title: "Not too many days left for DevSecCon 2024"
+    description: |
+      Developing AI Trust, hosted by Snyk on October 8-9. With 20+ sessions and 5 themed tracks, DevSecCon 2024 is packed with DevSecOps lessons and hands-on experiences from industry trailblazers. For all our developers, here’s one that you just can’t miss: Leonardo Zanivan from Okta, who will be discussing how to Secure Node.js Applications from Supply Chain Attacks. [Register today](https://www.vpdae.com/redirect/7n8wouvq0yqa2luiw8xz21b5gsf)!
+    category: ["sponsor"]
