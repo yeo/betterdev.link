@@ -31,6 +31,11 @@ links:
     description: |
       Imagion composing a BMP image by hand, or writing a executable file manually? What kind of knowledge need to do that? Mastery of computer programming unlocks power, flexibility, speed, and debugging prowess across all of your work. We will learn in depth what you use every day, by exploring memory, instructions, syscalls, functions, structure and cognition.
 
+  - url: https://lyra.horse/blog/2024/09/using-youtube-to-steal-your-files/?utm_source=pocket_shared
+    title: "Using YouTube to steal your files"
+    description: |
+      In my security research I often come across weird quirks and behaviours that aren’t particularly useful beyond a neat party trick. It’s always a good idea to keep track of them though, perhaps one day they’ll be just the missing piece you need.
+
   - url: https://tembo.io/blog/image-search
     title: "Building an image search engine on Postgres"
     description: |
@@ -55,12 +60,15 @@ links:
   - url: https://developer.chrome.com/blog/devtools-realtime-cwv
     title: "Monitor your local and real-user Core Web Vitals performance in DevTools"
     description: |
+      This post is part of an ongoing series about Chrome's efforts to improve the DevTools Performance panel. Learn about these tools to help analyze performance of our front-end app. In this post we'll take a closer look at each of the new features: Real-time local Core Web Vitals performance, Real-user experience data, Recommendations to configure your local environment, Information to help you reproduce issues.
 
   - url: https://discord.com/blog/how-discord-reduced-websocket-traffic-by-40-percent
     title: "How Discord Reduced Websocket Traffic by 40%"
+    description: |
+      Websocket bandwidth is especially chatty for Discord because they need to broadcast the message to all connection client. Also, decreasing bandwidth usage would lead to a more responsive experience.
 
-  - url: https://neilmadden.blog/2024/09/18/digital-signatures-and-how-to-avoid-them/
-    title: "Digital signatures and how to avoid them"
+  - url: https://yieldcode.blog/post/npm-workspaces/?utm_source=pocket_shared
+    title: "Typescript Monorepo with NPM workspace"
 
   - url: https://blog.bemi.io/the-ultimate-guide-to-postgresql-data-change-tracking/
     title: The Ultimate Guide to PostgreSQL Data Change Tracking
