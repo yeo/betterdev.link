@@ -1,0 +1,191 @@
+time: "Oct 14, 2024"
+subject: "LLM from scratch with Pytorch"
+draft: true
+
+description: |
+  Hi all,
+
+  Welcome to another issue of BetterDev. The more I play with LLM, the more I liked them, they aren't perfect and definetely not gonna replace a real programming job IMHO. However, they excel a lot at identify pattern and repeative work. I think LLM will eventually become like email where majority of users will use an email provider, with a few host their own. That's why I had started to include more and more LLM related stuff, but following first principal rule. You will found many link to help us learn, understand LLM, build them from scratch as a programmer, not just as an end consumer.
+
+  If you have been worried wherether this newsletter has been converted into AI "hype", then definetely not. They had their use and I want to include these wonderful tools and knowledge for our audience.
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+  - <img src='https://www.vpdae.com/open/cad47120.gif?opens=1' width='1' height='1'>
+
+links:
+  - url: https://www.vpdae.com/redirect/3i4ylzfg9gbu142k28e7u6fvofp
+    title: "eamlessly Integrate Product Usage Insights with Your Customer Data"
+    description: |
+      Unlock unparalleled insights with the improved Amplitude app for HubSpot. This integration empowers you to seamlessly sync user data and behavior insights, ensuring real-time analytics at your fingertips. Elevate your customer engagement with advanced segmentation, allowing marketers to identify product qualified leads. [Try the app and start optimizing your strategies today](https://www.vpdae.com/redirect/3i4ylzfg9gbu142k28e7u6fvofp)
+    category: ['sponsor']
+
+  - url: https://medium.com/@msouza.os/llm-from-scratch-with-pytorch-9f21808c6319
+    title: "LLM from scratch with Pytorch"
+    description: |
+      Have you ever feel overwhelm with all the news about LLM? what is these 70B 4B or 3.5 4.0? Or when you go and check out the code of some project, it's super short and simple, where is the logic?
+      In this link, we go back to that root to understand how to build an LLM by using Pytorch.
+
+  - url: https://gwolf.org/2024/10/started-a-guide-to-writing-fuse-filesystems-in-python.html
+    title: "Started a guide to writing FUSE filesystems in Python"
+    description: |
+      Have you ever feel like iCloud drive, Google Drive or Dropbox app is magic? What power them? It's pretty much FUSE behind the scene. Can we turn random data available through RPC into a file system?
+
+  - url: https://brokencloudstorage.info/
+    title: "End-to-End Encrypted Cloud Storage in the Wild: A Broken Ecosystem"
+    description: |
+      Cloud storage is ubiquitous: Google Drive, Dropbox, and OneDrive are household names. However, these services do not provide end-to-end encryption (E2EE), meaning that the provider has access to the data stored on their servers. The promise of end-to-end encrypted cloud storage is that users can have the best of both worlds, keeping control of their data using cryptographic techniques, while still benefiting from low-cost storage solutions.
+
+  - url: https://kylezhe.ng/posts/crafting_qr_codes
+    title: "Crafting qr codes"
+    description: |
+      QRCode is everywhere nowsaday. However, they doesn't need to be just square black and white box. How can we generate QRcode that looks artsy while still readable to the decoder? 
+
+  - url: https://imbue.com/research/70b-infrastructure/
+    title: "From bare metal to a 70B model: infrastructure set-up and scripts"
+    description: |
+      In the span of a few months, with a small team of researchers and engineers, imblue trained a 70B parameter model from scratch on our own infrastructure that outperformed zero-shot GPT-4o on reasoning-related tasks. Today, we’re sharing an end-to-end guide for setting up the required infrastructure: from bringing up the initial cluster and installing the OS, to automatically recovering from errors encountered during training. In each step, we detail the challenges we encountered and how we resolved them. Along with our learnings, we’re releasing many of the infrastructure scripts we developed to ensure healthy hosts, so that other teams can more easily create stable infrastructure for their own model training.
+
+  - url: https://r.ena.to/blog/optimizing-postgres-table-layout-for-maximum-efficiency/
+    title: "Optimizing Postgres table layout for maximum efficiency"
+    description: |
+      When modeling a Postgres database, you probably don’t give much thought to the order of columns in your tables. After all, it seems like the kind of thing that wouldn’t affect storage or performance. But what if I told you that simply reordering your columns could reduce the size of your tables and indexes by 20%? This isn’t some obscure database trick — it’s a direct result of how Postgres aligns data on disk.
+
+  - url: https://ngrok.com/blog-post/how-we-built-ngroks-data-platform
+    title: "How ngrok build their data platform"
+    description: |
+      This article is a look at how ngrok built it, what they learned, as well as some selective deep dives I found interesting enough to be worth sharing in more detail, since they’ll bridge the gap between what people usually understand by the term “data engineering” and how we run data here at ngrok.  Some of this might even be useful (or, at the very least, interesting!) for your own data platform endeavors, whether your team is big or small.
+
+  - url: https://beeps.website/blog/2024-10-09-why-govuk-exit-this-page-doesnt-use-escape/
+    title: "Why GOV.UK’s Exit this Page component doesn’t use the Escape key"
+
+  #- url: https://www.superdurszlak.dev/posts/the-four-horsemen-of-network-communication/
+  #  title: ""
+
+  - url: https://blogsystem5.substack.com/p/dos-memory-models
+    title: "Revisiting the DOS memory models"
+
+  - url: https://netflixtechblog.com/pushy-to-the-limit-evolving-netflixs-websocket-proxy-for-the-future-b468bc0ff658
+    title: "Pushy to the Limit: Evolving Netflix’s WebSocket proxy for the future"
+    description: |
+      It's a very high level discussion of how Netflix improve and evolve their websocket infrastructure to perform many kind of tasks. There isn't much technical discussion on this post, but more about concept and system design. If something is proven to work at this scale for Netflix, it might work for us too. So could be a good read into how company with massive infra design their system. I also like how they throw numbers and calculation.
+
+read_code:
+  - url: https://github.com/ankane/neighbor
+    title: neighbor
+    description: |
+      Nearest neighbor search for Rails.
+    category: ['Ruby']
+
+  - url: https://github.com/zhengkyl/qrframe
+    title: qrframe
+    description: |
+      code-based qr code generator.
+    category: ['JavaScript']
+
+  - url: https://github.com/photostructure/exiftool-vendored.js/tree/main?tab=readme-ov-file
+    title: exiftool-vendored.js
+    description: |
+      Fast, cross-platform Node.js access to ExifTool.
+    category: ['Node.js']
+
+  - url: https://github.com/zhengkyl/fuqr
+    title: fuqr
+    description: |
+      an awesome qr code generator in Rust. Go beyond the normal QR Code, it can generate animation QR code as well. By the same author of above qrframe package.
+    category: ['Rust']
+
+  - url: https://github.com/samuel-vitorino/lm.rs
+    title: lm.rs
+    description: Minimal LLM inference in Rust
+    category: ['Rust', 'LLM']
+
+  - url: https://github.com/anordin95/run-llama-locally
+    title: run-llama-locally
+    description: |
+      Running Llama locally with minimal dependencies
+    category: ['Python', 'LLM']
+
+  - url: https://github.com/azuline/rose
+    title: rose
+    description: |
+      A music manager with a virtual filesystem.
+    category: ['Python', 'Fuse']
+
+  - url: https://github.com/andrearaponi/dito
+    title: dito
+    description: |
+      an advanced Layer 7 reverse proxy server written in Go
+    category: ['Go']
+
+video:
+  - url: https://www.youtube.com/watch?v=7VSVfQcaxFY
+    title: "How 1 Software Engineer Outperforms 138 - Lichess Case Study"
+
+  - url: https://www.youtube.com/watch?v=-ikCYKcPoqU
+    title: "Local RAG using Llama 3, Ollama, and PostgreSQL"
+
+tool:
+  - url: https://player.style/
+    title: "player.style"
+    description: |
+      Video and audio player themes built with Media Chrome, for every web player and every web app framework.
+
+  - url: https://github.com/stenzek/duckstation
+    title: duckstation
+    description: |
+      is an simulator/emulator of the Sony PlayStation(TM) console, focusing on playability, speed, and long-term maintainability. The goal is to be as accurate as possible while maintaining performance suitable for low-end devices. "Hack" options are discouraged, the default configuration should support all playable games with only some of the enhancements having compatibility issues.
+
+  - url: https://github.com/jdholtz/auto-southwest-check-in
+    title: auto-southwest-check-in
+    description: |
+      A Python script that automatically checks in to your Southwest flight 24 hours beforehand.
+
+  - url: https://github.com/Stengo/DeskPad
+    title: DeskPad
+    description: |
+      Certain workflows require sharing the entire screen (usually due to switching through multiple applications), but if the presenter has a much larger display than the audience it can be hard to see what is happening.
+      DeskPad creates a virtual display that is mirrored within its application window so that you can create a dedicated, easily shareable workspace.
+
+  - url: https://github.com/latentcat/qrbtf
+    title: qrbtf
+    description: |
+      AI & parametric QR code generator. View the actualy deployment on [https://qrbtf.com](https://qrbtf.com/en)
+
+  - url: https://github.com/sequinstream/sequin
+    title: sequin
+    description: |
+      Add streaming capabilities to Postgres.
+
+  - url: https://github.com/gitbutlerapp/gitbutler
+    title: gitbutler
+    description: |
+      A Git GUI branch management tool. Support Linux/Mac/Window. Build with Tauri/Rust/TypeScript so it won't be as slow as Electron. If you're a visual person, give it a try.
+
+  - url: https://github.com/theseus-rs/rsql
+    title: rsql
+    description: |
+      Command line interface for DuckDB, LibSQL, MariaDB, MySQL, PostgreSQL, Redshift, Snowflake, SQLite3 and SQL Server
+
+self_hosted:
+  - url: https://github.com/exo-explore/exo
+    title: exo
+    description: |
+      Run your own AI cluster at home with everyday devices
+
+  - url: https://github.com/peer-calls/peer-calls
+    title: peer-calls
+    description: |
+      Group peer to peer video calls for everyone written in Go and TypeScript
+
+  - url: https://github.com/mediar-ai/screenpipe
+    title: screenpipe
+    description: |
+      24/7 local AI screen & mic recording. Build AI apps that have the full context. Works with Ollama. Alternative to Rewind.ai. Open. Secure. You own your data.
+
+  - url: https://github.com/hyperknot/openfreemap?utm_source=pocket_shared
+    title: openfreemap
+    description: |
+      Free and open-source map hosting solution with custom styles for websites and apps, using OpenStreetMap data
+
