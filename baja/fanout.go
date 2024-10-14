@@ -11,6 +11,7 @@ import (
 	"log"
 	"os"
 	"strings"
+
 	// "text/template"
 
 	"github.com/yeo/betterdev.link/baja/dao"
@@ -18,6 +19,7 @@ import (
 	"github.com/yeo/betterdev.link/baja/server"
 
 	"crypto/sha256"
+
 	"github.com/PuerkitoBio/goquery"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
@@ -34,9 +36,16 @@ func customEmail(doc *goquery.Document, issue, email string) (string, error) {
 	doc.Find("a").Each(func(_ int, link *goquery.Selection) {
 		href, ok := link.Attr("href")
 
+		if strings.Contains(href, "vpdae.com") {
+			return
+		}
+
 		linkId := base64.URLEncoding.WithPadding(base64.NoPadding).EncodeToString([]byte(href))
 		if ok {
-			link.SetAttr("href", fmt.Sprintf("https://betterdev.link/links/%s?issue=%s&email=%x", linkId, issue, h.Sum(nil)))
+			link.SetAttr(
+				"href",
+				fmt.Sprintf("https://betterdev.link/links/%s?issue=%s&email=%x", linkId, issue, h.Sum(nil)),
+			)
 		}
 	})
 
