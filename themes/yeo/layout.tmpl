@@ -14,6 +14,22 @@
    </script>
 {{ end }}
 
+{{ define "sponsor" }}
+<div class="issue-sponsor">
+                  <div style="" class="issue-link">
+                    <a style="font-size: 1.3rem;" href="{{ .URI }}" target="_blank">{{ .Title }}</a>
+                    <p>{{ .Description }}</p>
+                  </div>
+   <span class="badge">(SPONSOR)</span>
+</div>
+{{ end }}
+
+{{ define "snippets" }}
+  {{ range .ExternalSnippets }}
+      {{ . }}
+  {{ end }}
+{{ end }}
+
 {{define "base"}}
 <!DOCTYPE html><html lang="en">
 
@@ -177,12 +193,7 @@
             <div >
               {{ range $key, $link := .Links }}
                 {{ if $link.IsSponsor }}
-                  <div class="issue-sponsor">
-                    <a style="font-size: 1.3rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a> <span class="badge">(SPONSOR)</span>
-                    <p class="issue-description">{{ $link.Description }}</p>
-                    {{ if $link.Action }}<a class='sponsor-action' href ="{{ $link.URI }}" target='_blank'>{{ $link.Action }}</a>{{ end }}
-
-                  </div>
+                  {{ template "sponsor" $link }}
                 {{ else }}
                   <div style="padding: 1.5rem 1.5rem 0rem 1.5rem;" class="issue-link">
                     <a style="font-size: 1.3rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
@@ -236,11 +247,7 @@
                 <h3 class="subtitle"><strong>Tools</strong></h3>
                 {{ range $key, $link := .Tools }}
                   {{ if $link.IsSponsor }}
-                    <div class="issue-sponsor">
-                      <a style="font-size: 1.3rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a> <span class="badge">(SPONSOR)</span>
-                      <p class="issue-description">{{ $link.Description }}</p>
-                      {{ if $link.Action }}<a class='sponsor-action' href ="{{ $link.URI }}" target='_blank'>{{ $link.Action }}</a>{{ end }}
-                    </div>
+                    {{ template "sponsor" $link }}
                   {{ else }}
                     <div style="padding: 0 0 0.5rem 0" class="issue-link">
                       <a style="font-size: 1rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
@@ -257,11 +264,7 @@
                 <h3 class="subtitle"><strong>Self Hosted</strong></h3>
                 {{ range $key, $link := .SelfHosted }}
                   {{ if $link.IsSponsor }}
-                    <div class="issue-sponsor">
-                      <a style="font-size: 1.3rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a> <span class="badge">(SPONSOR)</span>
-                      <p class="issue-description">{{ $link.Description }}</p>
-                      {{ if $link.Action }}<a class='sponsor-action' href ="{{ $link.URI }}" target='_blank'>{{ $link.Action }}</a>{{ end }}
-                    </div>
+                      {{ template "sponsor" $link }}
                   {{ else }}
                     <div style="padding: 0 0 0.5rem 0" class="issue-link">
                       <a style="font-size: 1rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
@@ -284,4 +287,6 @@
         </div>
       </div>
     </div>
+
+    {{ template "snippets" . }}
 {{ end }}
