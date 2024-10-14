@@ -196,7 +196,7 @@
                   {{ template "sponsor" $link }}
                 {{ else }}
                   <div style="padding: 1.5rem 1.5rem 0rem 1.5rem;" class="issue-link">
-                    <a style="font-size: 1.3rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
+                    <a style="font-size: 1.3rem;" href="{{ $link.UtmURI }}" target="_blank">{{ $link.Title }}</a>
                     <p>{{ $link.Description }}</p>
                   </div>
                 {{ end }}
@@ -207,7 +207,7 @@
                 <h3 class="subtitle"><strong>Brief</strong></h3>
                 {{ range $key, $link := .Briefs }}
                 <div style="padding: 0 0 1rem 0" class="issue-link">
-                  <a class="codereads" style="font-size: 1.1rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
+                  <a class="codereads" style="font-size: 1.1rem;" href="{{ $link.UtmURI }}" target="_blank">{{ $link.Title }}</a>
                   <p>{{ $link.Description }}</p>
                   {{ range $ci, $category := .Category }}<span class='tag'>{{ $category }}</span>{{ end }}<br>
                 </div>
@@ -220,7 +220,7 @@
                 <h3 class="subtitle"><strong>Code to read</strong></h3>
                 {{ range $key, $link := .CodeToRead }}
                 <div style="padding: 0 0 0.5rem 0" class="issue-link">
-                  <a style="font-size: 1rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
+                  <a style="font-size: 1rem;" href="{{ $link.UtmURI }}" target="_blank">{{ $link.Title }}</a>
                   <p>{{ $link.Description }}</p>
                   {{ range $ci, $category := .Category }}<span class='tag'>{{ $category }}</span>{{ end }}
                   <br>
@@ -234,7 +234,7 @@
                 <h3 class="subtitle"><strong>Video</strong></h3>
                 {{ range $key, $link := .Videos }}
                 <div style="padding: 0 0 1rem 0" class="issue-link">
-                  <a class="codereads" style="font-size: 1.1rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
+                  <a class="codereads" style="font-size: 1.1rem;" href="{{ $link.UtmURI }}" target="_blank">{{ $link.Title }}</a>
                   <p>{{ $link.Description }}</p>
                   {{ range $ci, $category := .Category }}<span class='tag'>{{ $category }}</span>{{ end }}
                 </div>
@@ -250,7 +250,7 @@
                     {{ template "sponsor" $link }}
                   {{ else }}
                     <div style="padding: 0 0 0.5rem 0" class="issue-link">
-                      <a style="font-size: 1rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
+                      <a style="font-size: 1rem;" href="{{ $link.UtmURI }}" target="_blank">{{ $link.Title }}</a>
                       <p>{{ $link.Description }}</p>
                       {{ range $ci, $category := .Category }}<span class='tag'>{{ $category }}</span>{{ end }}
                       </div>
@@ -267,7 +267,7 @@
                       {{ template "sponsor" $link }}
                   {{ else }}
                     <div style="padding: 0 0 0.5rem 0" class="issue-link">
-                      <a style="font-size: 1rem;" href="{{ $link.URI }}" target="_blank">{{ $link.Title }}</a>
+                      <a style="font-size: 1rem;" href="{{ $link.UtmURI }}" target="_blank">{{ $link.Title }}</a>
                       <p>{{ $link.Description }}</p>
                       {{ range $ci, $category := .Category }}<span class='tag'>{{ $category }}</span>{{ end }}
                       </div>

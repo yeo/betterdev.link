@@ -1,7 +1,9 @@
 package baja
 
 import (
+	"fmt"
 	"html/template"
+	"net/url"
 	"strconv"
 	"time"
 )
@@ -24,6 +26,7 @@ type Page struct {
 
 type Link struct {
 	URI         string        `yaml:"url"`
+	UtmURI      string        `yaml:"-"`
 	Title       string        `yaml:"title"`
 	Description template.HTML `yaml:"description"`
 	Category    []string      `yaml:"category"`
@@ -60,6 +63,30 @@ type Issue struct {
 
 func (issue Issue) FormatPubTime() string {
 	return issue.PubTime.Format("Mon, 2 Jan 2006 15:04:05 MST")
+}
+
+func (issue *Issue) Utmify(medium string) {
+	for i, link := range issue.Links {
+		parsedURL, err := url.Parse(link.URI)
+
+		if err != nil {
+			fmt.Println("Error parsing URL:", err)
+			issue.Links[i].UtmURI = issue.Links[i].URI
+			continue
+		}
+
+		// Get the existing query parameters
+		queryParams := parsedURL.Query()
+
+		// Add UTM parameters
+		queryParams.Set("utm_source", "betterdev.link")
+		queryParams.Set("utm_medium", medium)
+		queryParams.Set("utm_campaign", fmt.Sprintf("issue-%s", issue.Name))
+		parsedURL.RawQuery = queryParams.Encode()
+
+		// Rebuild the URL with the new query parameters
+		issue.Links[i].UtmURI = parsedURL.String()
+	}
 }
 
 func (issue Issues) Len() int {

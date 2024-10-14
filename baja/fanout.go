@@ -155,6 +155,7 @@ func Fanout(issueNumber string, mode string, confirm bool) {
 		log.Fatal("Cannot open issue file")
 	}
 	issue, err := loadIssue(f)
+	issue.Utmify("email")
 	if err != nil {
 		log.Fatal("Cannot parse issue content")
 	}

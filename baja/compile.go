@@ -121,6 +121,7 @@ func buildPage() Page {
 	for _, f := range files {
 		if strings.HasSuffix(f.Name(), ".yml") {
 			if issue, err := loadIssue(f); err == nil {
+				issue.Utmify("website")
 				issues = append(issues, issue)
 			}
 		}
