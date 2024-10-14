@@ -1,6 +1,6 @@
 time: "Oct 14, 2024"
 subject: "LLM from scratch with Pytorch"
-draft: true
+draft: false
 
 description: |
   Hi all,
@@ -45,28 +45,28 @@ links:
   - url: https://imbue.com/research/70b-infrastructure/
     title: "From bare metal to a 70B model: infrastructure set-up and scripts"
     description: |
-      In the span of a few months, with a small team of researchers and engineers, imblue trained a 70B parameter model from scratch on our own infrastructure that outperformed zero-shot GPT-4o on reasoning-related tasks. Today, we’re sharing an end-to-end guide for setting up the required infrastructure: from bringing up the initial cluster and installing the OS, to automatically recovering from errors encountered during training. In each step, we detail the challenges we encountered and how we resolved them. Along with our learnings, we’re releasing many of the infrastructure scripts we developed to ensure healthy hosts, so that other teams can more easily create stable infrastructure for their own model training.
+      With a small team and in a few monthes, imblue trained a 70B parameter model from scratch on their own infrastructure that outperformed zero-shot GPT-4o on reasoning-related tasks. They're sharing an end-to-end guide for setting up the required infrastructure: from bringing up the initial cluster and installing the OS, to automatically recovering from errors encountered during training.
 
   - url: https://r.ena.to/blog/optimizing-postgres-table-layout-for-maximum-efficiency/
     title: "Optimizing Postgres table layout for maximum efficiency"
     description: |
-      When modeling a Postgres database, you probably don’t give much thought to the order of columns in your tables. After all, it seems like the kind of thing that wouldn’t affect storage or performance. But what if I told you that simply reordering your columns could reduce the size of your tables and indexes by 20%? This isn’t some obscure database trick — it’s a direct result of how Postgres aligns data on disk.
+      what if I told you that simply reordering your columns could reduce the size of your tables and indexes by 20%? This isn’t some obscure database trick — it’s a direct result of how Postgres aligns data on disk.
 
   - url: https://ngrok.com/blog-post/how-we-built-ngroks-data-platform
     title: "How ngrok build their data platform"
     description: |
-      This article is a look at how ngrok built it, what they learned, as well as some selective deep dives I found interesting enough to be worth sharing in more detail, since they’ll bridge the gap between what people usually understand by the term “data engineering” and how we run data here at ngrok.  Some of this might even be useful (or, at the very least, interesting!) for your own data platform endeavors, whether your team is big or small.
+      This article is a look at how ngrok, a platform to enable you expose local service on your laptop to internet, built their data platform. Given their team size of 1 engineer, this maybe more useful and relevant to us more than scale of big corp(where there are hundred engineers building a data platform).
 
   - url: https://pthorpe92.dev/programming/systems/threads-async-runtimes-part0/
     title: "Confusing or misunderstood topics in systems programming"
     description: |
-      Threads and the general concept of concurrency are among the most widely misunderstood and confusing topics for newer developers. This is partially due to popular language features that abstract away the details, leaving many developers with a lack of understanding of the underlying concepts. This series is meant to help clarify some of these concepts and provide a better understanding of how they work.
+      Threads and the general concept of concurrency are among the most widely misunderstood and confusing topics for newer developers. This series is meant to help clarify some of these concepts and provide a better understanding of how they work.
 
   - url: https://beeps.website/blog/2024-10-09-why-govuk-exit-this-page-doesnt-use-escape/
     title: "Why GOV.UK’s Exit this Page component doesn’t use the Escape key"
 
-  #- url: https://www.superdurszlak.dev/posts/the-four-horsemen-of-network-communication/
-  #  title: ""
+  - url: https://www.superdurszlak.dev/posts/the-four-horsemen-of-network-communication/
+    title: "The Four Horsemen of network communication"
 
   - url: https://blogsystem5.substack.com/p/dos-memory-models
     title: "Revisiting the DOS memory models"
@@ -74,7 +74,7 @@ links:
   - url: https://netflixtechblog.com/pushy-to-the-limit-evolving-netflixs-websocket-proxy-for-the-future-b468bc0ff658
     title: "Pushy to the Limit: Evolving Netflix’s WebSocket proxy for the future"
     description: |
-      It's a very high level discussion of how Netflix improve and evolve their websocket infrastructure to perform many kind of tasks. There isn't much technical discussion on this post, but more about concept and system design. If something is proven to work at this scale for Netflix, it might work for us too. So could be a good read into how company with massive infra design their system. I also like how they throw numbers and calculation.
+      a very high level discussion of how Netflix improve and evolve their websocket infrastructure to perform many kind of tasks. There isn't much technical discussion on this post, but more about concept and system design.
 
 read_code:
   - url: https://github.com/ankane/neighbor
