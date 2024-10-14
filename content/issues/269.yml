@@ -16,7 +16,7 @@ external_snippets:
 
 links:
   - url: https://www.vpdae.com/redirect/3i4ylzfg9gbu142k28e7u6fvofp
-    title: "eamlessly Integrate Product Usage Insights with Your Customer Data"
+    title: "Seamlessly Integrate Product Usage Insights with Your Customer Data"
     description: |
       Unlock unparalleled insights with the improved Amplitude app for HubSpot. This integration empowers you to seamlessly sync user data and behavior insights, ensuring real-time analytics at your fingertips. Elevate your customer engagement with advanced segmentation, allowing marketers to identify product qualified leads. [Try the app and start optimizing your strategies today](https://www.vpdae.com/redirect/3i4ylzfg9gbu142k28e7u6fvofp)
     category: ['sponsor']
@@ -56,6 +56,11 @@ links:
     title: "How ngrok build their data platform"
     description: |
       This article is a look at how ngrok built it, what they learned, as well as some selective deep dives I found interesting enough to be worth sharing in more detail, since they’ll bridge the gap between what people usually understand by the term “data engineering” and how we run data here at ngrok.  Some of this might even be useful (or, at the very least, interesting!) for your own data platform endeavors, whether your team is big or small.
+
+  - url: https://pthorpe92.dev/programming/systems/threads-async-runtimes-part0/
+    title: "Confusing or misunderstood topics in systems programming"
+    description: |
+      Threads and the general concept of concurrency are among the most widely misunderstood and confusing topics for newer developers. This is partially due to popular language features that abstract away the details, leaving many developers with a lack of understanding of the underlying concepts. This series is meant to help clarify some of these concepts and provide a better understanding of how they work.
 
   - url: https://beeps.website/blog/2024-10-09-why-govuk-exit-this-page-doesnt-use-escape/
     title: "Why GOV.UK’s Exit this Page component doesn’t use the Escape key"
@@ -184,7 +189,7 @@ self_hosted:
     description: |
       24/7 local AI screen & mic recording. Build AI apps that have the full context. Works with Ollama. Alternative to Rewind.ai. Open. Secure. You own your data.
 
-  - url: https://github.com/hyperknot/openfreemap?utm_source=pocket_shared
+  - url: https://github.com/hyperknot/openfreemap
     title: openfreemap
     description: |
       Free and open-source map hosting solution with custom styles for websites and apps, using OpenStreetMap data
