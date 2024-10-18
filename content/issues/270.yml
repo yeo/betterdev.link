@@ -1,0 +1,95 @@
+time: "Oct 21, 2024"
+subject: "Should We Chat, Too? Security Analysis of WeChat’s MMTLS Encryption Protocol"
+draft: true
+
+description: |
+  Hi all,
+
+  Welcome to another issue of BetterDev! You guys probably all read the news about WordPress drama nowsaday. If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+  - <img src='https://www.vpdae.com/open/0cc668ee.gif?opens=1' width='1' height='1'>
+
+links:
+  - url: https://www.vpdae.com/redirect/okr0k9668lwao4gzt0sed1romcv
+    title: "WarpStream Makes Apache Kafka Simpler and More Affordable"
+    description: |
+      WarpStream is a drop-in replacement for Apache Kafka that has no interzone networking fees, no disks to manage and requires zero cross-account IAM access, so raw data never leaves your environment. You'll never again have to do things like partition or broker rebalancing, deal with snapshot replication issues or worry about over-provisioning, as auto-scaling is automatic and you're always right-sized. Join customers that have saved over 80% by replacing self-hosted Kafka and MSK with WarpStream. [Sign up for a free WarpStream account and get $400 in credits that never expire](https://www.vpdae.com/redirect/okr0k9668lwao4gzt0sed1romcv).
+    category: ['sponsor']
+  
+  - url: https://citizenlab.ca/2024/10/should-we-chat-too-security-analysis-of-wechats-mmtls-encryption-protocol/
+    title: "Should We Chat, Too? Security Analysis of WeChat’s MMTLS Encryption Protocol"
+    description: |
+      The first public analysis of the security and privacy properties of MMTLS, the main network protocol used by WeChat, an app with over one billion monthly active users. While they were unable to develop an attack to completely defeat WeChat’s encryption, the implementation is inconsistent with the level of cryptography you would expect in an app used by a billion users, such as its use of deterministic IVs and lack of forward secrecy.
+
+  - url: https://dri.es/my-solar-powered-and-self-hosted-website
+    title: "solar-powered and self-hosted website"
+    description: |
+      How cool it's to setup a website run on solar powered at home? Follow this journey.
+ 
+  - url: https://briandouglas.ie/sqlite-defaults/
+    title: "Sensible SQLite defaults"
+    description: |
+      SQLite got a lot of attention recently. If you ever try to use it for some high load you most likely disappointed at its performance. In this post we will look at a few sensible default to help that.
+    
+  - url: https://www.cybertec-postgresql.com/en/dealing-with-trigger-recursion-in-postgresql/
+    title: "Dealing with trigger recursion in PostgreSQL"
+
+  - url: https://xata.io/blog/migrations-and-exclusive-locks
+    title: Schema changes and the Postgres lock queue
+ 
+  - url: https://jpetazzo.github.io/2024/05/12/understanding-kubernetes-dns-hostnetwork-dnspolicy-dnsconfigforming/
+    title: "Understanding DNS resolution on Linux and Kubernetes"
+    description: |
+      Resolve DNS on k8s is a bit messy. For convenience there is a few way to hit a servie with just a name, a name and namespace or the cluster domain. What is the rule there?
+
+  - url: https://blog.orhun.dev/cant-trust-any-vpn/
+    title: "Fixing a DNS leak in OpenVPN setup"
+    description: |
+      After Turkey banned Discord, I had to jump through some hoops, fix my VPN, and learn a bit about how DNS works. Today I'm here to share what I have learned while trying to... you know. Find a way to use Discord again. Surprisingly, this ban ended up being a positive experience for me.
+
+read_code:
+  - url: https://github.com/denko-rb/denko
+    title: denko
+    description: |
+      Electronics programming in Ruby
+    category: ['Ruby']
+
+  - url: https://github.com/ratatui/ratatui
+    title: ratatui
+    description: |
+      A Rust crate for cooking up terminal user interfaces (TUIs)
+    category: ['Rust']
+
+video:
+
+tool:
+  - url: https://github.com/microsoft/openvmm
+    title: openvmm
+    description: |
+      a modular, cross-platform, general-purpose Virtual Machine Monitor (VMM), written in Rust.
+
+  - url: https://github.com/fujiapple852/trippy
+    title: trippy
+    description: |
+      Trippy combines the functionality of traceroute and ping and is designed to assist with the analysis of networking issues.
+  - url: https://github.com/pgroonga/pgroonga
+    title: pgroonga
+    description: |
+      a PostgreSQL extension to use Groonga as index. PGroonga makes PostgreSQL fast full text search platform for all languages!
+
+  - url: https://www.crunchydata.com/blog/pg_parquet-an-extension-to-connect-postgres-and-parquet
+    title: pg_parquet
+    description: |
+      If you ever want a way to export and load parquet file like how BigQuery does it, this finally happens for PostgreSQL.
+
+self_hosted:
+  - url: https://github.com/spliit-app/spliit
+    title: spliit
+    description: |
+      Free and Open Source Alternative to Splitwise. Share expenses with your friends and family.
+
+  - url: https://github.com/homebrewltd/ichigo
+    title: ichigo
+    description: |
+      Llama3.1 learns to Listen
