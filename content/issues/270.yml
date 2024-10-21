@@ -5,7 +5,7 @@ draft: true
 description: |
   Hi all,
 
-  Welcome to another issue of BetterDev!
+  Welcome to another issue of BetterDev! This week I come across Colmi, a smart ring where you can write your own software to interact with it. It's also have a $12.51 deal on AliExpress so very affordable to toy around with hardware.
   
   If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
 
@@ -24,6 +24,11 @@ links:
     description: |
       The first public analysis of the security and privacy properties of MMTLS, the main network protocol used by WeChat, an app with over one billion monthly active users. While they were unable to develop an attack to completely defeat WeChat’s encryption, the implementation is inconsistent with the level of cryptography you would expect in an app used by a billion users, such as its use of deterministic IVs and lack of forward secrecy.
 
+  - url: https://tahnok.github.io/colmi_r02_client/colmi_r02_client.html#what-is-the-colmi-r02
+    title: "Open source python client to read your data from the Colmi R02 family of Smart Rings"
+    description: |
+      Colmi is a cheap (as in $20) "smart ring" / fitness wearable that includes the following sensors: Accelerometer, sleep tracking, gestures, heart rate and blood oxygen. The coolest thing is you can write your own client to interact with it through bluetooth.
+
   - url: https://dri.es/my-solar-powered-and-self-hosted-website
     title: "solar-powered and self-hosted website"
     description: |
@@ -36,9 +41,18 @@ links:
     
   - url: https://www.cybertec-postgresql.com/en/dealing-with-trigger-recursion-in-postgresql/
     title: "Dealing with trigger recursion in PostgreSQL"
+    description: |
+      Many a beginner falls into the trap of trigger recursion at some point. Usually, the solution is to avoid recursion at all. But for some use cases, you may have to handle trigger recursion. This article tells you what you need to know about the topic. If you were ever troubled by the error message “stack depth limit exceeded”, here is the solution.
 
   - url: https://xata.io/blog/migrations-and-exclusive-locks
     title: Schema changes and the Postgres lock queue
+    description: |
+       There are two classes of breakage that can occur when applying database migrations:
+        
+         - Migrations that make incompatible changes to the schema, breaking client applications.
+         - Migrations that lock a database object for an unacceptable amount of time, causing the application to become unavailable as reads and writes start to fail.
+
+      Today we're going to talk about the second type of breakage: how long running queries together with DDL statements can lock out reads and writes from a table, causing application downtime.
  
   - url: https://jpetazzo.github.io/2024/05/12/understanding-kubernetes-dns-hostnetwork-dnspolicy-dnsconfigforming/
     title: "Understanding DNS resolution on Linux and Kubernetes"
@@ -49,6 +63,11 @@ links:
     title: "Fixing a DNS leak in OpenVPN setup"
     description: |
       After Turkey banned Discord, I had to jump through some hoops, fix my VPN, and learn a bit about how DNS works. Today I'm here to share what I have learned while trying to... you know. Find a way to use Discord again. Surprisingly, this ban ended up being a positive experience for me.
+
+  - url: https://dev.to/jagroop2001/building-a-chat-with-pdfs-using-pinataopenai-and-streamlit-3jb7
+    title: "Chat with your PDF using Pinata,OpenAI and Streamlit"
+    description: |
+      In this tutorial, we’ll build a simple chat interface that allows users to upload a PDF, retrieve its content using OpenAI’s API, and display the responses in a chat-like interface using Streamlit. W
 
 read_code:
   - url: https://github.com/denko-rb/denko
@@ -63,7 +82,17 @@ read_code:
       A Rust crate for cooking up terminal user interfaces (TUIs)
     category: ['Rust']
 
+  - url: https://github.com/Melkeydev/go-blueprint
+    title: go-blueprint
+    description: |
+      allows users to spin up a quick Go project using a popular framework
+    category: ['Go']
+
 video:
+  - url: https://www.youtube.com/watch?v=QxDf6VkqP4g
+    title: "Drawing with CSS: Clay Character"
+    description: |
+      Attempt to draw a figure that looks like made out of clay. We'll learn: Positioning, Gradient, mask, Clip-path and more.
 
 tool:
   - url: https://github.com/microsoft/openvmm
@@ -75,6 +104,7 @@ tool:
     title: trippy
     description: |
       Trippy combines the functionality of traceroute and ping and is designed to assist with the analysis of networking issues.
+
   - url: https://github.com/pgroonga/pgroonga
     title: pgroonga
     description: |
@@ -84,6 +114,11 @@ tool:
     title: pg_parquet
     description: |
       If you ever want a way to export and load parquet file like how BigQuery does it, this finally happens for PostgreSQL.
+
+  - url: https://github.com/julep-ai/julep
+    title: julep
+    description: |
+      A new DSL and server for AI agents and multi-step tasks
 
 self_hosted:
   - url: https://github.com/spliit-app/spliit
@@ -95,3 +130,8 @@ self_hosted:
     title: ichigo
     description: |
       Llama3.1 learns to Listen
+
+  - url: https://github.com/fishaudio/fish-speech
+    title: fish-speech
+    description: |
+      A TTS solution that support English, Japanaese, Korenan, Chinese, French, German, Arabic and Spanish. Including UI and WEBUI. Very well [document on self-hosted setup too](https://speech.fish.audio/)
