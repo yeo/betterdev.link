@@ -34,11 +34,19 @@ links:
     description: |
       How cool it's to setup a website run on solar powered at home? Follow this journey.
  
+  - url: https://www.uber.com/en-JO/blog/upgrading-ubers-mysql-fleet
+    title: "Upgrading Uber’s MySQL Fleet  to version 8.0"
+    description: |
+      Uber upgraded their databae from 5.7 to 8.0. If you had use Uber app, you can use the app is no joke. Routing driver, provide real time upgrade etc. A very complicated app. The strategy that they used to upgraded it is worth a read for us. One important point is not being able to rollback once a v8.0 node is promoted to primary. There is risk and they careful testing to accept that risk.
+
   - url: https://briandouglas.ie/sqlite-defaults/
     title: "Sensible SQLite defaults"
     description: |
       SQLite got a lot of attention recently. If you ever try to use it for some high load you most likely disappointed at its performance. In this post we will look at a few sensible default to help that.
-    
+ 
+  - url: https://mindhub365.com/sql/postgresql-streaming-replication-wal-what-it-is-and-how-to-configure-one
+    title: "PostgreSQL Streaming Replication (WAL); What It Is And How To Configure One"
+
   - url: https://www.cybertec-postgresql.com/en/dealing-with-trigger-recursion-in-postgresql/
     title: "Dealing with trigger recursion in PostgreSQL"
     description: |
@@ -91,6 +99,11 @@ video:
       Attempt to draw a figure that looks like made out of clay. We'll learn: Positioning, Gradient, mask, Clip-path and more.
 
 tool:
+  - url: https://github.com/AChep/keyguard-app
+    title: "Keyguard"
+    description: |
+      With new of Bitwarden moving to close source, this is an alternative client for the Bitwarden® platform, created to provide the best user experience possible.
+
   - url: https://github.com/microsoft/openvmm
     title: openvmm
     description: |
