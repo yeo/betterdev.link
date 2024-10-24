@@ -46,14 +46,16 @@ func (l *Link) IsSponsor() bool {
 type Issues []Issue
 
 type Issue struct {
-	Subject          string          `yaml:"subject"`
-	Time             string          `yaml:"time"`
-	Links            []Link          `yaml:"links"`
-	CodeToRead       []Link          `yaml:"read_code"`
-	Tools            []Link          `yaml:"tool"`
-	Briefs           []Link          `yaml:"brief"`
-	Videos           []Link          `yaml:"video"`
-	SelfHosted       []Link          `yaml:"self_hosted"`
+	Subject string `yaml:"subject"`
+	Time    string `yaml:"time"`
+
+	Links      []Link `yaml:"links"`
+	CodeToRead []Link `yaml:"read_code"`
+	Tools      []Link `yaml:"tool"`
+	Briefs     []Link `yaml:"brief"`
+	Videos     []Link `yaml:"video"`
+	SelfHosted []Link `yaml:"self_hosted"`
+
 	Name             string          `yaml:"name"`
 	PubTime          time.Time       `yaml:"pub_time"`
 	Draft            bool            `yaml:"draft"`
@@ -87,6 +89,115 @@ func (issue *Issue) Utmify(medium string) {
 		// Rebuild the URL with the new query parameters
 		issue.Links[i].UtmURI = parsedURL.String()
 	}
+	for i, link := range issue.CodeToRead {
+		parsedURL, err := url.Parse(link.URI)
+
+		if err != nil {
+			fmt.Println("Error parsing URL:", err)
+			issue.CodeToRead[i].UtmURI = issue.CodeToRead[i].URI
+			continue
+		}
+
+		// Get the existing query parameters
+		queryParams := parsedURL.Query()
+
+		// Add UTM parameters
+		queryParams.Set("utm_source", "betterdev.link")
+		queryParams.Set("utm_medium", medium)
+		queryParams.Set("utm_campaign", fmt.Sprintf("issue-%s", issue.Name))
+		parsedURL.RawQuery = queryParams.Encode()
+
+		// Rebuild the URL with the new query parameters
+		issue.CodeToRead[i].UtmURI = parsedURL.String()
+	}
+	for i, link := range issue.Briefs {
+		parsedURL, err := url.Parse(link.URI)
+
+		if err != nil {
+			fmt.Println("Error parsing URL:", err)
+			issue.Briefs[i].UtmURI = issue.Briefs[i].URI
+			continue
+		}
+
+		// Get the existing query parameters
+		queryParams := parsedURL.Query()
+
+		// Add UTM parameters
+		queryParams.Set("utm_source", "betterdev.link")
+		queryParams.Set("utm_medium", medium)
+		queryParams.Set("utm_campaign", fmt.Sprintf("issue-%s", issue.Name))
+		parsedURL.RawQuery = queryParams.Encode()
+
+		// Rebuild the URL with the new query parameters
+		issue.Briefs[i].UtmURI = parsedURL.String()
+	}
+
+	for i, link := range issue.Tools {
+		parsedURL, err := url.Parse(link.URI)
+
+		if err != nil {
+			fmt.Println("Error parsing URL:", err)
+			issue.Tools[i].UtmURI = issue.Tools[i].URI
+			continue
+		}
+
+		// Get the existing query parameters
+		queryParams := parsedURL.Query()
+
+		// Add UTM parameters
+		queryParams.Set("utm_source", "betterdev.link")
+		queryParams.Set("utm_medium", medium)
+		queryParams.Set("utm_campaign", fmt.Sprintf("issue-%s", issue.Name))
+		parsedURL.RawQuery = queryParams.Encode()
+
+		// Rebuild the URL with the new query parameters
+		issue.Tools[i].UtmURI = parsedURL.String()
+	}
+
+	for i, link := range issue.Videos {
+		parsedURL, err := url.Parse(link.URI)
+
+		if err != nil {
+			fmt.Println("Error parsing URL:", err)
+			issue.Videos[i].UtmURI = issue.Videos[i].URI
+			continue
+		}
+
+		// Get the existing query parameters
+		queryParams := parsedURL.Query()
+
+		// Add UTM parameters
+		queryParams.Set("utm_source", "betterdev.link")
+		queryParams.Set("utm_medium", medium)
+		queryParams.Set("utm_campaign", fmt.Sprintf("issue-%s", issue.Name))
+		parsedURL.RawQuery = queryParams.Encode()
+
+		// Rebuild the URL with the new query parameters
+		issue.Videos[i].UtmURI = parsedURL.String()
+	}
+
+	for i, link := range issue.SelfHosted {
+		parsedURL, err := url.Parse(link.URI)
+
+		if err != nil {
+			fmt.Println("Error parsing URL:", err)
+			issue.SelfHosted[i].UtmURI = issue.SelfHosted[i].URI
+			continue
+		}
+
+		// Get the existing query parameters
+		queryParams := parsedURL.Query()
+
+		// Add UTM parameters
+		queryParams.Set("utm_source", "betterdev.link")
+		queryParams.Set("utm_medium", medium)
+		queryParams.Set("utm_campaign", fmt.Sprintf("issue-%s", issue.Name))
+		parsedURL.RawQuery = queryParams.Encode()
+
+		// Rebuild the URL with the new query parameters
+		issue.SelfHosted[i].UtmURI = parsedURL.String()
+	}
+
 }
 
 func (issue Issues) Len() int {
