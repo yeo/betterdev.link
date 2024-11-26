@@ -1,0 +1,158 @@
+time: "Nov 26, 2024"
+subject: "Memory: The Forgotten History and Why did Windows 95 setup use three operating systems?"
+draft: true
+
+description: |
+  Hi all,
+
+  Welcome to thanksgiving issue of BetterDev. Hope everyone had a safe and warm thanksgiving. It's getting so cold these days. If you are in warzone such as Ukraina or Gaza, I really hope thing will become better.
+ 
+  AI field has been evolve quite fast this month with a lot of amazing tooling. I added many of them in self-hosted section to help you try them out.
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+links:
+  - url: https://lcamtuf.substack.com/p/memory-the-forgotten-history
+    title: "Memory: The Forgotten History"
+    description: |
+      This article explores the historical development of memory in computing, from the early innovations in storage to the evolution of modern memory technologies. It reflects on the forgotten milestones in memory history and their impact on current computing.
+
+  - url: https://devblogs.microsoft.com/oldnewthing/20241112-00/?p=110507
+    title: "Why did Windows 95 setup use three operating systems?"
+    description: |
+      why Windows 95 setup goes through three operating systems: MS-DOS, Windows 3.1, and then Windows 95. Why not go from MS-DOS straight to Windows 95?
+
+  - url: https://dotat.at/@/2024-10-22-tmp.html
+    title: "against /tmp"
+    description: |
+      Why using /tmp to store file is a usually a bad idea.
+
+  - url: https://blog.cloudflare.com/topaz-policy-engine-design/
+    title: "How we prevent conflicts in authoritative DNS configuration using formal verification"
+    description: |
+      Learn how CloudFlare use formal verification to mathematically prove properties about DNS addressing behavior, even when different systems (owned by different teams) at Cloudflare have contradictory views on which IP addresses should be returned.
+
+  - url: https://www.micron.com/about/blog/memory/dram/how-dram-changed-the-world
+    title: "How DRAM Changed the World"
+    description: |
+      This blog post from Micron explores the transformative role of DRAM (Dynamic Random Access Memory) in the evolution of technology. It highlights DRAM's impact on everything from personal computing to cloud infrastructures and its continued importance in the development of modern devices.
+
+  - url: https://substack.com/home/post/p-150506520
+    title: "Best Practices for Bulk Optimization of Queries in PostgreSQL"
+    description: |
+      After reading this article, you’ll learn about the techniques we use to analyze SQL query performance when dealing with millions of queries per day and monitoring hundreds of PostgreSQL servers.
+
+  - url: https://www.crunchydata.com/blog/loading-the-world-openstreetmap-import-in-under-4-hours
+    title: "Loading the World! OpenStreetMap Import In Under 4 Hours"
+    description: |
+      The OpenStreetMap (OSM) database builds almost 750GB of location data from a single file download. OSM notoriously takes a full day to run. A fresh open street map load involves both a massive write process and large index builds. It is a great performance stress-test bulk load for any Postgres system. I use it to stress the latest PostgreSQL versions and state-of-the-art hardware. The stress test validates new tuning tricks and identifies performance regressions.
+
+  - url: https://dev.to/shricodev/build-your-personal-siri-with-llama-3-like-a-pro-5h1o
+    title: "Build your own personal SIRI with LLAMA-3 like a PRO! "
+    description: |
+      In this easy-to-follow tutorial, you will learn how to build your own voice assistant Siri with the LLAMA-3 AI Model.
+
+  - url: https://biriukov.dev/docs/page-cache/0-linux-page-cache-for-sre/
+    title: "SRE deep dive into Linux Page Cache"
+    description: |
+      In this series of articles, I would like to talk about Linux Page Cache. I believe that the following knowledge of the theory and tools is essential and crucial for every SRE. This understanding can help both in usual and routine everyday DevOps-like tasks and in emergency debugging and firefighting. Page Cache is often left unattended, and its better understanding leads to the following:
+
+  - url: https://www.stephendiehl.com/posts/graphrag1/
+    title: "Tiny GraphRAG (Part 1)"
+    description: |
+      We're going to build a tiny 1000 line implementation of a GraphRAG algorithm originally invented by Microsoft. I consistently hear people talk about this algorithm at meetups, but it appears there are several orders of magnitude of people talking about it than actually using it or implementing it. Likely because the reference implementation is enormous and rather complex. So let's break it down and see if there's any merit to the hype around this approach.
+
+  - url: https://www.timescale.com/blog/boosting-postgres-insert-performance/
+    title: "Boosting Postgres INSERT Performance by 2x With UNNEST"
+
+  - url: https://www.pixelstech.net/article/1727412048-Why-TCP-needs-3-handshakes
+    title: "Why TCP needs 3 way handshakes"
+
+read_code:
+  - url: https://github.com/serpapi/nokolexbor
+    title: nokolexbor
+    description: High-performance HTML5 parser for Ruby based on Lexbor, with support for both CSS selectors and XPath. A drop-in replacement for Nokogiri.
+    category: ['Ruby', 'C']
+
+  - url: https://github.com/danini-the-panini/mittsu
+    title: mittsu
+    description: "Mittsu is a 3D Graphics Library for Ruby, based heavily on Three.js"
+    category: ['Ruby']
+  
+  - url: https://github.com/destel/rill
+    title: rill
+    description: "Go toolkit for clean, composable, channel-based concurrency"
+    category: ['Go']
+
+  - url: https://github.com/EricSmekens/jsep
+    title: jsep
+    description: "a simple expression parser written in JavaScript. It can parse JavaScript expressions but not operations. The difference between expressions and operations is akin to the difference between a cell in an Excel spreadsheet vs. a proper JavaScript program."
+    category: ['JavaScript']
+
+  - url: https://github.com/micromark/micromark
+    title: micromark
+    description: "small, safe, and great commonmark (optionally gfm) compliant markdown parser"
+    category: ['JavaScript']
+
+  - url: https://github.com/TutteInstitute/datamapplot
+    title: datamapplot
+    description: |
+      Creating beautiful plots of data maps
+    category: ['Python']
+
+video:
+
+tool:
+  - url: https://github.com/yorukot/superfile
+    title: superfile
+    description: |
+      Pretty fancy and modern terminal file manager
+
+  - url: https://github.com/SysSec-KAIST/LTESniffer
+    title: LTESniffer
+    description: "An Open-source LTE Downlink/Uplink Eavesdropper"
+
+  - url: https://github.com/dbohdan/memsparkline?utm_source=pocket_shared
+    title: memsparkline
+    description: "Track the RAM usage of a process and its descendants in real time"
+
+  - url: https://github.com/JustAman62/ovault
+    title: "ovault: Secure Vault for OAuth Credentials"
+    description: |
+      Ovault is an open-source tool designed to securely store OAuth credentials for applications. It offers encrypted storage, helping developers manage sensitive tokens without compromising security.
+
+  - url: https://github.com/Skyvern-AI/skyvern
+    title: skyvern
+    description: |
+      Automate browser-based workflows with LLMs and Computer Vision
+
+self_hosted:
+  - url: https://github.com/casdoor/casdoor
+    title: "An open-source UI-first Identity and Access Management (IAM) / Single-Sign-On (SSO) platform with web UI supporting OAuth 2.0, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, RADIUS, Google Workspace, Active Directory and Kerberos"
+
+  - url: https://github.com/magic-quill/MagicQuill
+    title: MagicQuill
+    description: |
+      An Intelligent Interactive Image Editing System
+
+  - url: https://github.com/Storia-AI/sage
+    title: sage
+    description: |
+      Chat with any codebase in under two minutes | Fully local or via third-party APIs
+
+  - url: https://github.com/DS4SD/docling
+    title: docling
+    description: "Docling parses documents and exports them to the desired format with ease and speed"
+
+  - url: https://github.com/fixie-ai/ultravox
+    title: ultravox
+    description:  a new kind of multimodal LLM that can understand text as well as human speech, without the need for a separate Audio Speech Recognition (ASR) stage
+
+  - url: https://github.com/zycyc/LAMBDA
+    title: LAMBDA
+    description: |
+      A local AI-powered email automation system that learns from your email style and creates draft responses for every unread email in your (Gmail) inbox.
+
+  - url: https://github.com/pingcap/autoflow
+    title: autoflow
+    description: "a Graph RAG based and conversational knowledge base tool built with TiDB Serverless Vector Storage. "
