@@ -141,6 +141,11 @@ tool:
     description: |
       Automate browser-based workflows with LLMs and Computer Vision
 
+  - url: https://lexical.dev/
+    title: lexical
+    description: |
+      An extensible text editor framework that does things differently. At somepoint you would definetely need a JS text editor, having another option is great.
+
 self_hosted:
   - url: https://github.com/casdoor/casdoor
     title: casdoor
