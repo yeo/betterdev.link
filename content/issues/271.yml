@@ -143,12 +143,18 @@ tool:
 
 self_hosted:
   - url: https://github.com/casdoor/casdoor
-    title: "An open-source UI-first Identity and Access Management (IAM) / Single-Sign-On (SSO) platform with web UI supporting OAuth 2.0, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, RADIUS, Google Workspace, Active Directory and Kerberos"
+    title: casdoor
+    description: "An open-source UI-first Identity and Access Management (IAM) / Single-Sign-On (SSO) platform with web UI supporting OAuth 2.0, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, RADIUS, Google Workspace, Active Directory and Kerberos"
 
   - url: https://github.com/magic-quill/MagicQuill
     title: MagicQuill
     description: |
       An Intelligent Interactive Image Editing System
+
+  - url: https://github.com/aigc-apps/EasyAnimate
+    title: EasyAnimate
+    description: |
+      An End-to-End Solution for High-Resolution and Long Video Generation Based on Transformer Diffusion
 
   - url: https://github.com/Storia-AI/sage
     title: sage
