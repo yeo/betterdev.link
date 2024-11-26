@@ -1,6 +1,6 @@
 time: "Nov 26, 2024"
 subject: "Memory: The Forgotten History and Why did Windows 95 setup use three operating systems?"
-draft: true
+draft: false
 
 description: |
   Hi all,
@@ -21,6 +21,11 @@ links:
     title: "Why did Windows 95 setup use three operating systems?"
     description: |
       why Windows 95 setup goes through three operating systems: MS-DOS, Windows 3.1, and then Windows 95. Why not go from MS-DOS straight to Windows 95?
+
+  - url: https://articles.foletta.org/post/2024-01-08-a-day-in-the-life-the-bgp-table/?utm_source=pocket_shared
+    title: "A Day in the Life: The Global BGP Table"
+    description: |
+      Border Gateway Protocol (BGP) is the routing protocol for the Internet. Much like the post office processing mail, BGP picks the most efficient routes for delivering Internet traffic.  In this post, we're exploring the intra-day shenanigans with an eye to finding some of the ridiculous things that go on out.
 
   - url: https://dotat.at/@/2024-10-22-tmp.html
     title: "against /tmp"
@@ -100,9 +105,19 @@ read_code:
       Creating beautiful plots of data maps
     category: ['Python']
 
+  - url: https://github.com/frectonz/pglite-fusion
+    title: pglite-fusion
+    description: "Embed an SQLite database in your PostgreSQL table. AKA multitenancy has been solved."
+    category: ['Rust']
+
 video:
 
 tool:
+  - url: https://powa.readthedocs.io/en/latest/
+    title: PoWA
+    description:  |
+      performance tool compatible with all PostgreSQL versions (down to 9.4) allowing to collect, aggregate and purge statistics gathered from multiple PostgreSQL instances from various Stats Extensions.
+
   - url: https://github.com/yorukot/superfile
     title: superfile
     description: |
@@ -112,7 +127,7 @@ tool:
     title: LTESniffer
     description: "An Open-source LTE Downlink/Uplink Eavesdropper"
 
-  - url: https://github.com/dbohdan/memsparkline?utm_source=pocket_shared
+  - url: https://github.com/dbohdan/memsparkline
     title: memsparkline
     description: "Track the RAM usage of a process and its descendants in real time"
 
