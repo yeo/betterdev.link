@@ -5,7 +5,7 @@ draft: false
 description: |
   Hi all,
 
-  It's chrismast time. Time for led lighting project. This year I came across this [WLED project](https://kno.wled.ge/), a fast and feature-rich implementation of an ESP8266/ESP32 webserver to control NeoPixel (WS2812B, WS2811, SK6812) LEDs or also SPI based chipsets like the WS2801 and APA102! They had all the resouces from hardware to software to UI and mobile app to contrl your light.
+  It's chrismast time. Time for led lighting project. This year I came across this [WLED project](https://kno.wled.ge/), a fast and feature-rich implementation of an ESP8266/ESP32 webserver to control NeoPixel (WS2812B, WS2811, SK6812) LEDs or also SPI based chipsets like the WS2801 and APA102! They had all the resouces from hardwares to softwares, Web UI,mobile app to control your leds.
 
   If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
 
@@ -31,7 +31,7 @@ links:
        it's a from-theory-to-practice guide and you may enjoy it if you are a developer and want to learn security
 
   - url: https://www.nullpt.rs/breaking-the-4chan-captcha#scraping-captchas-from-4chan
-    title: "Breaking the 4Chan CAPTCHA|"
+    title: "Breaking the 4Chan CAPTCHA"
     description: |
       This project was entered into as a learning experience, to enhance my knowledge of machine learning, as well as TensorFlow specifically. At the end, I wanted to have a trained machine learning model that runs in the browser to reliably (at least 80% accuracy, >90% preferred) solve the 4Chan CAPTCHA. These goals were achieved - let's talk about how I got there!
 
