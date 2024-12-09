@@ -56,6 +56,11 @@ links:
     description: |
       How to reduce complexity and move faster? Just Postgres for everything.
 
+  - url: https://joyofrails.com/articles/what-you-need-to-know-about-sqlite
+    title: "What you need to know about SQLite"
+    description: |
+      A compilation of lessons about what the SQLite database engine can and cannot do. It's written for Rails, but you can apply all the lessons to use SQLite generally.
+
   - url: https://notso.boringsql.com/posts/deletes-are-difficult/
     title: Deletes are difficult
     description: |
@@ -156,3 +161,13 @@ self_hosted:
     title: vince
     description: |
       Self Hosted Alternative To Google Analytics
+
+  - url: https://github.com/traceloop/openllmetry
+    title: "openllmetry"
+    description: |
+      Open-source observability for your LLM application, based on OpenTelemetry
+
+  - url: https://github.com/CatchTheTornado/pdf-extract-api
+    title: pdf-extract-api
+    description: |
+      Document (PDF) extraction and parse API using state of the art modern OCRs + Ollama supported models. Anonymize documents. Remove PII. Convert any document or picture to structured JSON or Markdown
