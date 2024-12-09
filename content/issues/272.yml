@@ -1,0 +1,158 @@
+time: "Dec 09, 2024"
+subject: "Memory: The Forgotten History and Why did Windows 95 setup use three operating systems?"
+draft: false
+
+description: |
+  Hi all,
+
+  It's chrismast time. Time for led lighting project. This year I came across this (WLED)[https://kno.wled.ge/], a fast and feature-rich implementation of an ESP8266/ESP32 webserver to control NeoPixel (WS2812B, WS2811, SK6812) LEDs or also SPI based chipsets like the WS2801 and APA102! They had all the resouces from hardware to software to UI and mobile app to contrl your light.
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+
+external_snippets:
+  - "<img src='https://www.vpdae.com/open/77309078.gif?opens=1' width='1' height='1'>"
+
+links:
+  - url: https://www.vpdae.com/redirect/45u6b5sfxgg06ndy9aggn0txdce
+    title: "Stop worrying about your to-do list."
+    description: |
+      Zapier connects the apps you use every day, so you can focus on what matters most.[Start working more efficiently - Create your free account today.](https://www.vpdae.com/redirect/45u6b5sfxgg06ndy9aggn0txdce).
+    category: ['sponsor']
+
+  - url: https://flatt.tech/research/posts/compromising-openwrt-supply-chain-sha256-collision/
+    title: "Compromising OpenWrt Supply Chain via Truncated SHA-256 Collision and Command Injection"
+    description: |
+      BetterDev usually doesn't include these kind of vulnerability report. However, this one is very interesting because it happen through using a cache key as a truncate hash of user input data, lead to collision. And caching is common particularlly in web dev, picking right cache key is important to avoid cache poisoning.
+
+  - url: https://github.com/skerkour/black-hat-rust
+    title: "Applied offensive security with Rust"
+    description: |
+       it's a from-theory-to-practice guide and you may enjoy it if you are a developer and want to learn security
+
+  - url: https://www.nullpt.rs/breaking-the-4chan-captcha#scraping-captchas-from-4chan
+    title: "Breaking the 4Chan CAPTCHA|"
+    description: |
+      This project was entered into as a learning experience, to enhance my knowledge of machine learning, as well as TensorFlow specifically. At the end, I wanted to have a trained machine learning model that runs in the browser to reliably (at least 80% accuracy, >90% preferred) solve the 4Chan CAPTCHA. These goals were achieved - let's talk about how I got there!
+
+  - url: https://www.cyberdemon.org/2024/03/20/submodules.html
+    title: "Demystifying git submodules"
+    description: |
+      Throughout my career, I have found git submodules to be a pain. Because I did not understand them, I kept getting myself into frustrating situations.
+      So, I finally sat down and learned how git tracks submodules. Turns out, it’s not complex at all. It’s just different from how git tracks regular files. It’s just one more thing you have to learn.
+
+  - url: https://blog.smidt.dev/posts/0003/
+    title: "Diving into eBPF: Building a Process Tracer from Scratch"
+    description: |
+      Today i want to share a story about how i ended up writing a simple process tracer for linux. Using eBPF in go to fix a github actions which i actually didn’t need. We will go over each piece and hopefully you will learn something form it.
+
+  - url: https://eieio.games/blog/writing-down-every-uuid/
+    title: "Writing down (and searching through) every UUID"
+    description: |
+      Most of time you see UUID re-present as text based, but it's actually a 128 bit integer. The OP makes [everyuuid.com](https://everyuuid.com) to display both the number and text based of every single UUID. They share the challenge of rendering, ordering an searching.
+
+  - url: https://github.com/Olshansk/postgres_for_everything
+    title: "PostgreSQL for everything"
+    description: |
+      How to reduce complexity and move faster? Just Postgres for everything.
+
+  - url: https://notso.boringsql.com/posts/deletes-are-difficult/
+    title: Deletes are difficult
+    description: |
+      We tend to optimize db for insert and select, and overlook delete. At first glance, the DELETE command seems straightforward. But more ofthen than not on production the delete break down. We’ll uncover why DELETE operations demand careful consideration and explore how to handle them effectively
+
+  - url: https://www.warpstream.com/blog/the-case-for-shared-storage
+    title: "The Case for Shared Storage"
+    description: |
+      If you operate Kafka, you know how important the storage layer is. In K8S, when a pod went down, and come back up, we need o make sure the storage is mounted to the same node, lead to slowness of pod because it needs to detach and re-attach volume. WarpStream is essentially serverless Kafka. They aim to solve this storage layer. In this post, they share with us why they choose to use a shared storage system.
+
+  - url: https://www.raymondcamden.com/2024/12/03/using-transformersjs-for-ai-in-the-browser
+    title: "Using Transformers.js for AI in the Browser"
+    description: |
+      A practical journey to use transformersjs.js to perform ML task directly in browser.
+
+  - url: https://kurtextrem.de/posts/improve-inp-react
+    title: "How To Improve Interaction-to-Next-Paint : React"
+
+read_code:
+  - url: https://github.com/sentriz/go-taglib
+    title: "go-taglib"
+    description: |
+      This project is a Go library for reading and writing audio metadata tags. It provides a portable solution with no external dependencies required, thanks to an embedded WASM binary. The most interesting part is WASM. So there is no CGO invoke at all even though taglib is a C++ codebase. A very interesting approach
+    category: ['Go']
+
+  - url: https://github.com/borewit/music-metadata
+    title: music-metadata
+    description: "Stream and file based music metadata parser for node. Supporting a wide range of audio and tag formats."
+    category: ['JavaScript']
+  
+  - url: https://github.com/pganalyze/pg_query
+    title: pg_query
+    description: Ruby extension to parse, deparse and normalize SQL queries using the PostgreSQL query parser
+    category: ['Ruby']
+
+  - url: https://github.com/squidowl/halloy
+    title: halloy
+    description: |
+      IRC application written in Rust
+    category: ['Rust']
+
+  - url: https://github.com/volfpeter/htmy
+    title: htmy
+    description: |
+      Async, pure-Python rendering engine.
+    category: ['Python']
+
+video:
+  - url: https://www.youtube.com/playlist?list=PLrmY5pVcnuE_jPv620IWQV0TsJ_RCmg13
+    title: "A 51 videos playlist to build your own git with Rust"
+
+  - url: https://www.youtube.com/watch?v=kG9l41Dtuyo
+    title: "Build a Stable Diffusion VAE From Scratch using Pytorch"
+
+tool:
+  - url: https://github.com/anchore/quill
+    title: quill
+    description: |
+      Simple mac binary signing and notarization from any platform (replacing the codesign utility for simple use cases).
+
+  - url: https://github.com/outerbase/studio?utm_source=pocket_shared
+    title: "studio"
+    description: |
+      A lightweight Database GUI in your browser. It supports connecting to Postgres, MySQL, and SQLite.
+
+  - url: https://github.com/jlowin/fastmcp
+    title: fastmcp
+    description: |
+      [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) servers are a new, standardized way to provide context and tools to your LLMs, and FastMCP makes building MCP servers simple and intuitive. Create tools, expose resources, and define prompts with clean, Pythonic code:
+
+  - url: https://github.com/hyperium/tonic
+    title: tonic
+    description: |
+      A rust implementation of gRPC, a high performance, open source, general RPC framework that puts mobile and HTTP/2 first.
+
+  - url: https://github.com/kaluma-project/kaluma
+    title: kaluma
+    description: |
+      A tiny and efficient JavaScript runtime for RP2040 (Raspberry Pi Pico).
+
+  - url: https://github.com/tiagorangel1/bunbuster/tree/main
+    title: bunbuster
+    description: |
+      Ridiculously fast web & TCP fuzzer designed for brute-forcing directories, subdomains, and files on web servers.
+
+self_hosted:
+  - url: https://github.com/SeekStorm/SeekStorm
+    title: SeekStorm
+    description: |
+      Sub-millisecond full-text search library & multi-tenancy server in Rust
+
+  - url: https://github.com/al1abb/invoify
+    title: invoify
+    description: |
+      An invoice generator app built using Next.js, Typescript, and Shadcn
+
+  - url: https://github.com/vinceanalytics/vince
+    title: vince
+    description: |
+      Self Hosted Alternative To Google Analytics
