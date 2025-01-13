@@ -7,6 +7,8 @@ description: |
 
   Happy new year. Welcome to the first issue of 2025. I'm trying to become more regular this year. Looking forward to a new year and hope everyone continue to build cool thing. For me, I was unable to launch my another SaaS last year. I did overhault my cloudcost https://ec2.shop and much more happy with its state now.
 
+  This week our sponsor is [WarpStream](https://www.vpdae.com/redirect/k7kvnm9mmen45caob7mevk59rv0), they have build an amazing Kafka alternative while 100% compatible with Kafka and way more cheaper. If you are running Kafka in Kubernetes, or looking to replace Redis with Kafka[like Honeybadger guys](https://www.honeybadger.io/blog/sidekiq-to-karafka/), then definetely give [WarpStream](https://www.vpdae.com/redirect/k7kvnm9mmen45caob7mevk59rv0) a try.
+
   If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
 
 
@@ -17,7 +19,7 @@ links:
   - url: https://www.vpdae.com/redirect/k7kvnm9mmen45caob7mevk59rv0
     title: "Pixel Federation Swaps Amazon MSK for WarpStream, Saves 83% on Apache Kafka Costs"
     description: |
-      The video game company Pixel Federation uses Kafka as the message bus to power its real-time data streaming infrastructure. However, they were leveraging Amazon MSK and their bill was growing faster than their data volumes and they had to use complex networking like VPC peering. By switching to WarpStream, they saved 83% and ditched VPC peering and manual partition rebalancing
+      The video game company Pixel Federation uses Kafka as the message bus to power its real-time data streaming infrastructure. However, they were leveraging Amazon MSK and their bill was growing faster than their data volumes and they had to use complex networking like VPC peering. [By switching to WarpStream, they saved 83% and ditched VPC peering and manual partition rebalancing](https://www.vpdae.com/redirect/k7kvnm9mmen45caob7mevk59rv0)
     category: ['sponsor']
 
   - url: https://operating-system-in-1000-lines.vercel.app/en/
