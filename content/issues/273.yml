@@ -1,0 +1,188 @@
+time: "Jan 12, 2024"
+subject: "Operating System in 1,000 Lines"
+draft: false
+
+description: |
+  Hi all,
+
+  Happy new year. Welcome to the first issue of 2025. I'll trying to become regular and more stable schedule this year.
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+
+external_snippets:
+  - "<img src='https://www.vpdae.com/open/422f070b.gif?opens=1' width='1' height='1'>"
+
+links:
+  - url: https://www.vpdae.com/redirect/k7kvnm9mmen45caob7mevk59rv0
+    title: "Pixel Federation Swaps Amazon MSK for WarpStream, Saves 83% on Apache Kafka Costs"
+    description: |
+      The video game company Pixel Federation uses Kafka as the message bus to power its real-time data streaming infrastructure. However, they were leveraging Amazon MSK and their bill was growing faster than their data volumes and they had to use complex networking like VPC peering. By switching to WarpStream, they saved 83% and ditched VPC peering and manual partition rebalancing
+    category: ['sponsor']
+
+  - url: https://operating-system-in-1000-lines.vercel.app/en/
+    title: "Operating System in 1,000 Lines"
+    description: |
+      build a small operating system from scratch, step by step.
+      You might get intimidated when you hear OS or kernel development, the basic functions of an OS (especially the kernel) are surprisingly simple. Even Linux, which is often cited as a huge open-source software, was only 8,413 lines in version 0.01. Today's Linux kernel is overwhelmingly large, but it started with a tiny codebase, just like your hobby project.
+      We'll implement basic context switching, paging, user mode, a command-line shell, a disk device driver, and file read/write operations in C. Sounds like a lot, however, it's only 1,000 lines of code!
+
+  - url: https://nicholas.carlini.com/writing/2025/regex-chess.html
+    title: "A 2-ply minimax chess engine in 84,688 regular expressions"
+    description: |
+      So without further ado, I present to you ... Regex Chess: sequence of 84,688 regular expressions that, when executed in order, will play a (valid; not entirely terrible) move given a chess board as input.
+
+  - url: https://www.seangoedecke.com/large-established-codebases/
+    title: "Mistakes engineers make in large established codebases"
+    description: |
+      Working in large established codebases is one of the hardest things to learn as a software engineer. You can’t practice it beforehand (no, open source does not give you the same experience). Personal projects can never teach you how to do it, because they’re necessarily small and from-scratch.
+
+  - url: https://aphyr.com/posts/378-seconds-since-the-epoch
+    title: "Seconds Since the Epoch"
+    description: |
+      People, myself included, like to say that POSIX time, also known as Unix time, is the number of seconds since the Unix epoch, which was 1970-01-01 at 00:00:00.
+      This is not true. Or rather, it isn’t true in the sense most people think. For example, it is presently 2024-12-25 at 18:51:26 UTC. The POSIX time is 1735152686. It has been 1735152713 seconds since the POSIX epoch. The POSIX time number is twenty-seven seconds lower.
+
+  - url: https://tailscale.com/blog/how-nat-traversal-works
+    title: "How NAT traversal works"
+    description: |
+      How 2 devices under a NAT can connect directly to each other without a server beind in the middle to relay traffic?
+
+  - url: https://blog.sdn.clinic/2025/01/linux-routing-fundamentals/
+    title: "Linux Routing Fundamentals"
+    description: |
+      Routing table define what what happens when an IP packet is sent from or through a Linux box.
+      But the simplify is which destination a package should send to? how do your computer know that a LAN ip need to send to othe laptop, and the rest go out to internet?
+
+  - url: https://8dcc.github.io/programming/pool-allocator.html
+    title: "Writing a simple pool allocator in C"
+    description: |
+      When you need memory for your program, you can malloc.
+      Similarly to malloc, a pool allocator allows the user to allocate memory at run time. The pool allocator, however, is much faster than malloc1, at the cost of having a fixed pool size. It allows the user to allocate and free memory blocks (referred to as chunks, from now on) in O(1) constant time. This implementation also uses very little memory: when creating the pool, a very small Pool structure is allocated, along with the pool itself. Free chunks are used to store information, so the memory impact is minimal.
+    
+  - url: https://blog.cloudflare.com/behind-the-scenes-with-stream-live-cloudflares-live-streaming-service/
+    title: "Behind the scenes with Stream Live, Cloudflare’s live streaming service"
+    description: |
+      Stream Live accepts audio/video content from broadcasters and makes that content available to viewers around the world in real time through the Cloudflare network. This post look into how they build broadcast ingestion with RTMPS, SRT, WHIP and Spectrum. The data is converted and store in their Durable Object, then serve to viewer through HLS or DASH protocol.
+
+  - url: https://benjamincongdon.me/blog/2021/08/17/B-Trees-More-Than-I-Thought-Id-Want-to-Know/
+    title: "B-Trees: More Than I Thought I'd Want to Know"
+    description: |
+      B-Trees were essentially “better” Binary Search Trees, with some hand-waving done that they had improved performance when used in database applications. But it's more than just that, today we will look into disk constraint, slotted pages to see how B-Tree node fit naturally into a page - a chunk of data that the harddrive read all in the same  time.
+
+  - url: https://jirevwe.github.io/sql-nulls-are-weird.html?utm_source=pocket_saves
+    title: "SQL NULLs are Weird"
+
+  - url: https://calendar.perfplanet.com/2024/breaking-up-with-long-tasks-or-how-i-learned-to-group-loops-and-wield-the-yield/
+    title: "Breaking Up with Long Tasks or: how I learned to group loops and wield the yield"
+    description: |
+      Arrays are in every web developer’s toolbox, and there are a dozen ways to iterate over them. Choose wrong, though, and all of that processing time will happen synchronously in one long, blocking task. The thing is, the most natural ways are the wrong ways.
+
+
+read_code:
+  - url: https://github.com/yoshoku/rumale
+    title: rumale
+    description: |
+      a machine learning library in Ruby. Rumale provides machine learning algorithms with interfaces similar to Scikit-Learn in Python.
+    category: ['Ruby']
+
+  - url: https://github.com/hybridgroup/go-haystack
+    title: "go-haystack"
+    description: |
+      Track personal Bluetooth devices via Apple's "Find My" network using OpenHaystack and Macless-Haystack with tools written in Go/TinyGo. No Apple hardware required!
+    category: ['Go']
+
+  - url: https://github.com/postalsys/postal-mime
+    title: postal-mime
+    description: |
+      Email parser for browser and serverless environments
+    category: ['JavaScript']
+
+  - url: https://github.com/QuivrHQ/MegaParse
+    title: MegaParse
+    description: |
+      File Parser optimised for LLM Ingestion with no loss 🧠 Parse PDFs, Docx, PPTx in a format that is ideal for LLMs.
+    category: ['Python']
+
+  - url: https://gitlab.com/smoores/storyteller/-/tree/main/epub?ref_type=heads
+    title: "@smoores/epub"
+    description: |
+      A Node.js library for inspecting, modifying, and creating EPUB 3 publications.
+
+video:
+  - url: https://www.youtube.com/watch?v=ZSKLA81tBis
+    title: "SQLite: How it works, by Richard Hipp"
+  - url: https://media.ccc.de/v/38c3-hacking-yourself-a-satellite-recovering-beesat-1
+    title: "Hacking yourself a satellite - recovering BEESAT-1"
+  - url: https://www.youtube.com/watch?v=lV82LDKT16A
+    title: "Let's build a AI Photo Generator with Python and FastAPI"
+
+tool:
+  - url: https://github.com/byawitz/ggh/
+    title: ggh
+    description: |
+      Recall your SSH sessions (also search your SSH config file)
+
+  - url: https://termo.rajnandan.com/
+    title: termo
+    description: |
+      a simple terminal emulator that can be used to create a terminal-like interface on your website
+  - url: https://github.com/kleisauke/wasm-vips
+    title: wasm-vips
+    description: |
+      libvips for the browser and Node.js, compiled to WebAssembly with Emscripten.
+  - url: https://github.com/dbohdan/recur
+    title: recur
+    description: |
+      Retry a command with exponential backoff and jitter (+ Starlark expressions)
+
+  - url: https://github.com/google/vanir
+    title: vanir
+    description: |
+      a source code-based static analysis tool that automatically identifies the list of missing security patches in the target system. By default, Vanir pulls up-to-date CVEs from Open Source Vulnerabilities (OSV) together with their corresponding signatures so that users can transparently scan missing patches for an up-to-date list of CVEs.
+  - url: https://github.com/apernet/OpenGFW
+    title: OpenGFW
+    description: |
+      OpenGFW is a flexible, easy-to-use, open source implementation of GFW (Great Firewall of China) on Linux
+
+  - url: https://www.postgresql.org/about/news/announce-pig-the-postgres-extension-wizard-2988/
+    title: "Pig: The Postgres Extension Wizard"
+    description: |
+      Ever wished installing or upgrading PostgreSQL extensions didn’t feel like digging through outdated readmes, cryptic configure scripts, or random GitHub forks & patches? The painful truth is that Postgres’s richness of extension often comes at the cost of complicated setups—especially if you’re juggling multiple distros or CPU architectures.
+      Enter Pig, a Go-based package manager built to tame Postgres and its ecosystem of 340+ extensions in one fell swoop.
+
+  - url: https://github.com/timescale/pgspot
+    title: pgspot
+    description: |
+      Spot vulnerabilities in postgres SQL scripts
+
+
+self_hosted:
+  - url: https://github.com/dmayboroda/minima
+    title: "minima"
+    description: "On-premises conversational RAG with configurable containers"
+
+  - url: https://github.com/superagent-ai/superagent
+    title: superagent
+    description: |
+       Run AI-agents with an API
+
+  - url: https://github.com/FormBee/FormBee
+    title: FormBee
+    description: |
+      an easy way to send form data that is submitted on your website to your email, Telegram, Webhooks, Etc. It is a "Form Backend" which means it allows you to have functional forms that send places without having to write any server side code yourself
+
+  - url: https://gitlab.com/smoores/storyteller/
+    title: "storyteller"
+    description: |
+      Storyteller is a self-hosted platform for creating and reading ebooks with synced narration. It's made of three components: the API server, the web interface, and the mobile apps. Together, these components allow you to take audiobooks and ebooks that you already own and automatically synchronize them, as well as read or listen to (or both!) the resulting synced books.
+
+  - url: https://github.com/idootop/MagicMirror
+    title: MagicMirror
+    description: |
+      Instant AI Face Swap, Hairstyles & Outfits — One click to a brand new you!
+
+  - url: https://github.com/authorizerdev/authorizer
+    title: authorizer
+    description: |
+      an open-source authentication and authorization solution for your applications. Bring your database and have complete control over the user information. You can self-host authorizer instances and connect to any database (Currently supports 11+ databases including Postgres, MySQL, SQLite, SQLServer, YugaByte, MariaDB, PlanetScale, CassandraDB, ScyllaDB, MongoDB, ArangoDB).
