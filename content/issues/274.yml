@@ -1,0 +1,180 @@
+time: "Mar 04, 2025"
+subject: "Hacking chromecast and Minecraft from scratch"
+draft: false
+
+description: |
+  Hi all,
+
+  Welcome to second issue of BetterDev. I'm lagging behind a few issues but catching up. There are many things happens with LLM/AI recently. I encourage to give these tools a try, on your own hardware.
+
+  As a reader of this newsletter, you probably has the itch to build some app all the time. My friend at [https://lapa.ninja] has been curating almost 7000 landing pages, all hand pick. So you can get the inspiration next time when you want to build a landing page or a dashboard for your app.
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+
+links:
+  - url: https://blog.gitbutler.com/how-git-core-devs-configure-git/
+    title: "How Core Git Developers Configure Git"
+    description: |
+      In this post, I’ll go through some of the perhaps obscure Git config settings that I have personally globally enabled and go into them to explain what they do and why they should probably be the default settings.
+
+  - url: https://vjerci.com/writings/chromecast/basics/
+    title: "Hacking chromecast"
+    description: |
+      Do you want to be able to discover chromecast device on your network and broadcast arbitrary media to it? Sure, there is many tools to do it. But what is the protocol behind it. This is a 4 part series dive into that. We will  learn the basic, the protocol, the casting server and gotcha.
+
+  - url: https://github.com/GianlucaP106/minecraft
+    title: "Minecraft from scratch"
+    description: |
+      A Minecraft clone from scratch with only modern OpenGL. No game engines or frameworks. Using Go so it's very h igh level and easy to follow.
+
+  - url: https://github.com/Hawzen/hdp
+    title: What would happen if we didn't use TCP or UDP?
+    description: |
+      Switches, bridges, routers, load balancers, firewalls—these network boxes keep the internet running. Routing, blocking, mirroring, duplicating and deduplicating traffic in ways most people never think about. Without them, this document wouldn’t have reached you
+
+  - url: https://blog.sylver.dev/build-your-own-sqlite-part-5-evaluating-queries
+    title: "Build your own SQLite, Part 5: Evaluating queries"
+    description: |
+      We had been featuring this series in previos issue. In this part we will learn how to evaluate a SQL query. If you are interesting of understanding deep into your stack, these article provide great approach into learning and rebuilding them.
+
+  - url: https://travisdowns.github.io/blog/2019/06/11/speed-limits.html
+    title: "Performance Speed Limits"
+    description: |
+      Sometimes you just want to know how fast your code can go, without benchmarking it. Sometimes you have benchmarked it and want to know how close you are to the maximum speed. Often you just need to know what the current limiting factor is, to guide your optimization decisions.
+
+  - url: https://www.shayon.dev/post/2025/40/scaling-with-postgresql-without-boiling-the-ocean/
+    title: "Scaling with PostgreSQL without boiling the ocean"
+    description: |
+      Scaling PostgreSQL successfully doesn’t always require a full team of DBAs and experts. The beauty of PostgreSQL is that solutions often lie within the database itself - by rethinking your data access patterns from first principles, you can solve many business problems at scale.
+
+  - url: https://eieio.games/blog/running-pong-in-240-browser-tabs/
+    title: "Running Pong in 240 Browser Tabs"
+    description: |
+      What do you do with your unclosed browser tabs? I find that they take up a lot of screen space. So this week I figured out how to run pong inside mine.
+
+  - url: https://medium.com/@radhian.amri/video-streaming-using-http-206-partial-content-in-go-4e89d96abdd0
+    title: "Video streaming using http 206 partial content"
+    description: |
+      Implementing video streaming might be a pain for some cases, especially when we talk about memory management alongside scalability of the application. One common way is using HTTP Live Streaming Protocol where a single video could be broken down into smaller chunks and sent through multiple HTTP requests. But then we need to transcode video ahead of time. Can we stream MP4 file? has it playable asap instead of downloading whole video? Turn out we can thank to the modern browser support of byte "Rang: byte" header.
+
+  - url: https://www.procustodibus.com/blog/2022/06/multi-hop-wireguard/#internet-gateway-as-a-spoke
+    title: "Multi-Hop WireGuard"
+    description: |
+      WireGuard is a very powerful VPN which support multiple topology and routing. Can come in very handy when you want to perform complex routing, especially in environment where you want to control egress. Give this a read to learn about these setups: Site Gateway as a Spoke, Internet Gateway as a Spoke, Chain of Hubs, Hub is Also a Site Gateway.
+
+  - url: https://gendignoux.com/blog/2025/03/03/rust-interning-2000x.html
+    title: "The power of interning: making a time series database 2000x smaller in Rust"
+    description: |
+      interning is a technique of storing only one copy of each unique piece of data in memory.Very common use in string so we don't need to store the string multiple time. Imagine big JSON document with repeated field. In this post we look into a time series database and how interning help with different data type.
+
+  - url: https://josephmate.github.io/2025-02-26-3200p-cpu-util/
+    title: "3,200% CPU Utilization"
+    description: |
+      A tale into debugging a Java program to see why it use all 32 cores.
+
+read_code:
+  - url: https://gist.github.com/tarruda/5b8c19779c8ff4e8100f0b37eb5981ea
+    title: "micro_events.py"
+    description: |
+      Micro event loop library to teach the basic concepts of python coroutines and how event loop libraries might be implemented
+    category: ['Python']
+
+  - url: https://github.com/commaai/opendbc
+    title: "opendbc"
+    description: |
+      Python API for your car. Control the gas, brake, steering, and more. Read the speed, steering angle, and more.
+    category: ['Python']
+
+  - url: https://github.com/adamcooke/authie
+    title: authie
+    description: "Improve user session security in Ruby on Rails applications with database session storage"
+    category: ['Ruby']
+
+  - url: https://github.com/jonathanyeong/bsky-parser
+    title: bsky-parser
+    description: "Bluesky text parser that outputs parsed text with rich text facets"
+    category: ['Ruby']
+
+  - url: https://github.com/rajibola/human-regex
+    title: human-regex
+    description: |
+      Human-friendly regular expression builder with English-like syntax.
+    category: ['TypeScript']
+  - url: https://github.com/le0pard/re2js
+    title: re2js
+    description: |
+       the JavaScript port of RE2, a regular expression engine that provides linear time matching
+    category: ['JavaScript']
+
+  - url: https://github.com/HugoSmits86/nativewebp
+    title: nativewebp
+    description: |
+      This is a native WebP encoder written entirely in Go, with no dependencies on libwebp or other external libraries. Designed for performance and efficiency, this encoder generates smaller files than the standard Go PNG encoder and is approximately 50% faster in execution
+    category: ['Go']
+
+
+video:
+  - url: https://newsletter.pragmaticengineer.com/p/live-streaming-at-world-record-scale
+    title: "Live streaming at world-record scale with Ashutosh Agrawal"
+    description: |
+      In May 2023, a live streaming world record was set with 32 million concurrent viewers watching the finale of the Indian Premier League (a cricket game). A chat with the architect behind this syste
+
+tool:
+  - url: https://github.com/cartography-cncf/cartography
+    title: cartography
+    description: |
+      a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database.
+
+  - url: https://github.com/vjerci/gochromecast
+    title: gochromecast
+    description: |
+      A simple tool to stream your media to android TV or chromecast device.
+
+  - url: https://waveform-renderer.vercel.app/
+    title: Waveform Renderer
+    description: |
+      A lightweight and customizable TypeScript library for rendering audio waveforms on HTML canvas. Create beautiful, interactive audio visualizations with ease.
+
+  - url: https://github.com/MatheusRich/rails-diff
+    title: rails-diff
+    description: "Compare Rails-generated files with the ones in your repository"
+
+  - url: https://github.com/CapSoftware/Cap
+    title: Cap.So
+    description: |
+      Open source Loom alternative. Beautiful, shareable screen recordings.
+
+  -  url: https://github.com/browserbase/stagehand
+    title: stagehand
+    description: |
+      An AI web browsing framework focused on simplicity and extensibility.
+
+  - url: https://github.com/BemiHQ/BemiDB
+    title: BemiDB
+    description: |
+      Postgres read replica optimized for analytics. It consists of a single binary that seamlessly connects to a Postgres database, replicates the data in a compressed columnar format, and allows you to run complex queries using its Postgres-compatible analytical query engine.
+  - url: https://github.com/cybertec-postgresql/pgwatch
+    title: pgwatch
+    description: PostgreSQL metrics monitor/dashboard
+
+self_hosted:
+  - url: https://github.com/docusealco/docuseal
+    title: docuseal
+    description: |
+      Open source DocuSign alternative. Create, fill, and sign digital documents
+
+  - url: https://github.com/TabbyML/tabby
+    title: tabby
+    description: |
+      Self-hosted AI coding assistant
+
+  - url: https://github.com/bentoml/OpenLLM
+    title: OpenLLM
+    description: |
+      Run any open-source LLMs, such as DeepSeek and Llama, as OpenAI compatible API endpoint in the cloud.
+
+  - url: https://github.com/Automattic/harper
+    title: harper
+    description: "The Grammar Checker for Developers"
