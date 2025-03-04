@@ -7,7 +7,7 @@ description: |
 
   Welcome to second issue of BetterDev. I'm lagging behind a few issues but catching up. There are many things happens with LLM/AI recently. I encourage to give these tools a try, on your own hardware.
 
-  As a reader of this newsletter, you probably has the itch to build some app all the time. My friend at [https://lapa.ninja] has been curating almost 7000 landing pages, all hand pick. So you can get the inspiration next time when you want to build a landing page or a dashboard for your app.
+  As a reader of this newsletter, you probably has the itch to build some app all the time. My friend at (lapa.ninja)[https://lapa.ninja] has been curating almost 7000 landing pages, all hand pick. So you can get the inspiration next time when you want to build a landing page or a dashboard for your app.
 
   If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
 
@@ -146,7 +146,7 @@ tool:
     description: |
       Open source Loom alternative. Beautiful, shareable screen recordings.
 
-  -  url: https://github.com/browserbase/stagehand
+  - url: https://github.com/browserbase/stagehand
     title: stagehand
     description: |
       An AI web browsing framework focused on simplicity and extensibility.
