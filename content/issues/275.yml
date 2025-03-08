@@ -1,0 +1,87 @@
+time: "Mar 10, 2025"
+subject: "Tracking You from a Thousand Miles Away! Turning a Bluetooth Device into an Apple AirTag Without Root Privileges"
+draft: true
+
+description: |
+  Hi all,
+
+  In the wave of [ByBit exchange being hack for 1.6billion](https://x.com/safe/status/1897663514975649938), and the hack is very sophisciated, exploit developer access key to change an s3 bucket. The attack start by having the developer run some untrusted docker compose with `privileged: true` I'll include a few more tools in security, vulnerable scan, and supply chain attack.
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+
+links:
+  - url: https://www.augmentcode.com/?utm_source=BetterDev&utm_medium=newsletter
+    title: "Developer AI for real software engineering work"
+    description: |
+      Lots of coding AIs have cool X demos on greenfield apps. But the day-to-day of a pro software engineer working on a team looks...a little different from vibe coding. Enter Augment Code. The first developer AI built for teams and large codebases, Augment works on codebases of millions of lines of code and thousands of files, bringing full codebase context to every keystroke. Customers like Datastax, Observe, Kong, and Lemonade trust Augment because it's fast, high quality, and secure. Even better - you don't have to switch your IDE - Augment works in VS Code, JetBrains, and even Vim. Augment is free to try and never trains on code without consent. [Start building for free today](https://www.augmentcode.com/?utm_source=BetterDev&utm_medium=newsletter).
+    category: ["sponsor"]
+
+  - url: https://nroottag.github.io/?utm_source=pocket_saves
+    title: "Tracking You from a Thousand Miles Away! Turning a Bluetooth Device into an Apple AirTag Without Root Privileges"
+    description: |
+      Imagine someone could turn your laptop, smartphone, or even your gaming console into a tracking device without your knowledge. Our research team discovered a way this can happen through Apple's Find My network The Find My network uses over a billion Apple devices worldwide. We found a security problem that lets hackers use this system to track almost any device with Bluetooth capabilities - not just Apple products. We call this attack "nRootTag."
+
+  - url: https://www.fogsecurity.io/blog/the-complete-guide-to-ransomware-protection-in-s3-and-kms
+    title: "The Complete Guide to Cloud-Native Ransomware Protection in Amazon S3 and KMS"
+    description: |
+      In this post, we'll cover how to prevent ransomware and provide resources & code for 11 different ransomware prevention use cases to ensure preventative controls are in place to prevent against types of ransomware attacks targeting AWS S3.  
+
+  - url: https://www.warpstream.com/blog/kafka-transactions-explained-twice
+    title: "Kafka Transactions Explained (Twice!)"
+    description: |
+      When consuming Kafka in a consumer group, the offset each consumer has bit read the message and ack it is recorded by Kafka. When they crashed or restart, they can resume from the commited ack position. But what happen if a record has been processed by consumer but failed to send the ack, the app will consume the record again on restarting. How can we somehow do 2 thing: commit the offset and the result of operation somehow in a single atomic operation. Enter Kafka transactions allow.
+
+  - url: https://genna.win/blog/convolution-simd/
+    title: Performance optimization, and how to do it wrong 
+    description: |
+      I recently tried to optimize convolutions using SIMD instructions, but what I thought would be a simple task ended up taking me days, with issue after issue popping up one after another. Some of them make sense in hindsight, but others were utterly baffling. While the specific examples are for direct convolution, these considerations apply to pretty much any code with a hot loop.
+
+  - url: https://www.richard-towers.com/2025/02/16/representing-graphs-in-postgres.html
+    title: Representing graphs in Postgresql
+    description: |
+      A very command problem when we need to re-present a relationship in databsae such as family, friend. Can come in very handy to write a single SQL query to find relationship instead of building them from the app level
+
+  - url: https://michael.stapelberg.ch/posts/2025-02-27-debug-hanging-go-programs/
+    title: Tips to debug hanging Go program
+    description: |
+      Go specific but come in very handy when working with Go app.
+
+
+read_code:
+  - url: https://github.com/EFForg/rayhunter
+    title: rayhunter
+    description: |
+      A tool to detect cell site simulators on an orbic mobile hotspot
+
+#https://github.com/HazyResearch/minions/tree/main
+#https://github.com/NovaSky-AI/SkyThought
+
+video:
+
+tool:
+  - url: https://github.com/faizann24/rogue/tree/main
+    title: rogue
+    description: |
+      An intelligent web vulnerability scanner agent powered by Large Language Models
+
+  - url: https://github.com/edoardottt/pphack
+    title: pphack
+    description: |
+      The Most Advanced Client-Side Prototype Pollution Scanner
+
+  - url: https://github.com/FerretDB/FerretDB
+    title: FerretDB
+    description: |
+      A truly Open Source MongoDB alternative
+
+  - url: https://github.com/kunai-project/kunai
+    title: kunai
+    description: |
+       powerful tool designed to bring actionable insights for tasks such as security monitoring and threat hunting on Linux systems. Think of it as the Linux counterpart to Sysmon on Windows, tailored for comprehensive and precise event monitoring.
+
+  - url: https://www.pgmustard.com/blog/postgres-query-plan-visualization-tools
+    title: "Postgres query plan visualization tools"
+
+#self_hosted:
