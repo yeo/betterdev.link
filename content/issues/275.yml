@@ -28,39 +28,122 @@ links:
     description: |
       In this post, we'll cover how to prevent ransomware and provide resources & code for 11 different ransomware prevention use cases to ensure preventative controls are in place to prevent against types of ransomware attacks targeting AWS S3.  
 
+  - url: https://tusharf5.com/posts/ssl-certificates-for-the-rest-of-us
+    title: "TLS/SSL Certificates - For The Rest Of Us"
+    description: |
+      The internet is insecure by default. Attackers can intercept and modify traffic, so we need a way to secure communication and verify the server’s identity. Encryption ensures data privacy, but without verification, hackers could impersonate a legitimate website, intercepting traffic while still using encryption. This is why TLS/SSL combines encryption with authentication.
+
   - url: https://www.warpstream.com/blog/kafka-transactions-explained-twice
     title: "Kafka Transactions Explained (Twice!)"
     description: |
       When consuming Kafka in a consumer group, the offset each consumer has bit read the message and ack it is recorded by Kafka. When they crashed or restart, they can resume from the commited ack position. But what happen if a record has been processed by consumer but failed to send the ack, the app will consume the record again on restarting. How can we somehow do 2 thing: commit the offset and the result of operation somehow in a single atomic operation. Enter Kafka transactions allow.
 
-  - url: https://genna.win/blog/convolution-simd/
-    title: Performance optimization, and how to do it wrong 
+  - url: https://tympanus.net/codrops/2025/03/03/css-meets-voxel-art-building-a-rendering-engine-with-stacked-grids/
+    title: "CSS Meets Voxel Art: Building a Rendering Engine with Stacked Grids"
     description: |
-      I recently tried to optimize convolutions using SIMD instructions, but what I thought would be a simple task ended up taking me days, with issue after issue popping up one after another. Some of them make sense in hindsight, but others were utterly baffling. While the specific examples are for direct convolution, these considerations apply to pretty much any code with a hot loop.
+      We usually don't include this tutorial style link but this one is really interesting to see. We will learn how transforms, perspective, and stacked grids can create a fully addressable 3D space and push the boundaries of what’s possible with pure CSS
+
+  - url: https://javascriptgametutorials.com/tutorials/react-three-fiber/crossy-road
+    title: "Crossy Road with React Three Fiber"
+    description: |
+      In this tutorial, we learn how to create a simplified clone of the mobile game Crossy Road with React Three Fiber. The goal of the game is to move a character through an endless path of static and moving obstacles. We have to go around the trees and avoid getting hit by a car or a truck. We start with the basic setup: setting up the scene, camera, and lighting. We learn how to draw the player and the map’s trees, cars, and trucks. We cover how to animate the vehicles and add event handlers to move the player through the map. Finally, we add logic to detect collisions between the player and the cars.
 
   - url: https://www.richard-towers.com/2025/02/16/representing-graphs-in-postgres.html
     title: Representing graphs in Postgresql
     description: |
       A very command problem when we need to re-present a relationship in databsae such as family, friend. Can come in very handy to write a single SQL query to find relationship instead of building them from the app level
 
+  - url: https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/xor
+    title: "XOR explanation"
+    description: |
+      XOR is every where. We use them in Linux permission: umask, chmod. We use them in Cryptography. We will learn about their hardware implementation, about their usage and all kind of trick to use them efficiently.
+
+  - url: https://www.gilesthomas.com/2025/03/llm-from-scratch-8-trainable-self-attention
+    title: "Writing an LLM from scratch, part 8 -- trainable self-attention"
+    description: |
+      Write up when following "Build a large language model from scratch" book.
+
+  - url: https://den.dev/blog/how-i-automated-podcast-transcription-with-local-ai
+    title: "How I Automated My Podcast Transcript Production With Local AI"
+    description: |
+      Den has been running podcast for half a decade. He use WhistpeX, run it locally and build a workflow to transcibe his podcast to text. He shared with us the setup. I think local ai is really useful and worth to explorer the self hosted path. It is much easiser to self hosted than we think even
+
   - url: https://michael.stapelberg.ch/posts/2025-02-27-debug-hanging-go-programs/
     title: Tips to debug hanging Go program
     description: |
       Go specific but come in very handy when working with Go app.
 
+  - url: https://fabiensanglard.net/fastdoom/index.html
+    title: "Why fastDOOM is fast"
+    description: |
+      FastDOOM was a port of DOOM but it is 30% faster. On some complicated map, it's even 48% faster. We will dive into the secret sauce of the technique that is used to optimized it. very low level thing like use the right assembly instruction to make code run in fewer instructions.
+
+  - url: https://genna.win/blog/convolution-simd/
+    title: Performance optimization, and how to do it wrong 
+    description: |
+      I recently tried to optimize convolutions using SIMD instructions, but what I thought would be a simple task ended up taking me days, with issue after issue popping up one after another. Some of them make sense in hindsight, but others were utterly baffling. While the specific examples are for direct convolution, these considerations apply to pretty much any code with a hot loop.
+
 
 read_code:
+  - url: https://github.com/oramasearch/orama
+    title: orama
+    description: |
+      A complete search engine and RAG pipeline in your browser, server or edge network with support for full-text, vector, and hybrid search in less than 2kb.
+    category: ['JavaScript']
+
+  - url: https://github.com/pdfslick/pdfslick
+    title: pdfslick
+    description: |
+      a library which enables viewing of and interaction with PDF documents in React and SolidJS apps. It's build on top of Mozilla's PDF.js, and utilises Zustand to provide a reactive store for the loaded documents.
+    category: ['JavaScript']
+
+  - url: https://github.com/zigzap/zap
+    title: "zap: blazingly fast backends in zig"
+    description: |
+      I recently pickup Zig and I think this is going to replace Rust and C for me when I needed them. It has all the power of Rust while less restricted, and have power of C while being more friendly than C.
+    category: ["Zig"]
+
   - url: https://github.com/EFForg/rayhunter
     title: rayhunter
     description: |
-      A tool to detect cell site simulators on an orbic mobile hotspot
+      A tool to detect cell site simulators on an Orbic mobile hotspot
+    category: ['Rust']
 
-#https://github.com/HazyResearch/minions/tree/main
-#https://github.com/NovaSky-AI/SkyThought
+  - url: https://github.com/floere/phony
+    title: phony
+    description: |
+      E164 international phone number normalizing, splitting, formatting.
+    category: ['Ruby']
 
+  - url: https://github.com/x-motemen/gore
+    title: gore
+    description: |
+      Yet another Go REPL that works nicely. Featured with line editing, code completion, and more.
+    category: ['Go']
+
+  - url: https://github.com/apiiro/PRevent
+    title: PRevent
+    description: |
+      Prevent merging of malicious code in pull requests
+    category: ['Python']
 video:
 
 tool:
+  - url: https://github.com/PeerDB-io/peerdb
+    title: "Peerdb: PostGres Replication Tool"
+    description: |
+      If you ever need to keep postgres in-sync with another datawarehouse, or even another postgres, this is the way to go.
+
+  - url: https://github.com/Blaizzy/mlx-audio
+    title: mlx-audio
+    description: |
+      A text-to-speech (TTS) and Speech-to-Speech (STS) library built on Apple's MLX framework, providing efficient speech synthesis on Apple Silicon
+
+  - url: https://github.com/sqldef/sqldef/tree/master
+    title: sqldef
+    description: |
+      Idempotent schema management for MySQL, PostgreSQL, and more
+
   - url: https://github.com/faizann24/rogue/tree/main
     title: rogue
     description: |
@@ -84,4 +167,27 @@ tool:
   - url: https://www.pgmustard.com/blog/postgres-query-plan-visualization-tools
     title: "Postgres query plan visualization tools"
 
-#self_hosted:
+self_hosted:
+  - url: https://github.com/gpustack/gpustack
+    title: gpustack
+    description: |
+      Manage GPU clusters for running AI models
+
+  - url: https://github.com/hook0/hook0
+    title: hook0
+    description: |
+      Open-source webhook server that helps you provide webhooks to your users. It handles for you a great amount of features that are usually tedious to (re)implement.
+
+  - url: https://github.com/dontizi/rlama
+    title: rlama
+    description: |
+      A powerful document AI question-answering tool that connects to your local Ollama models. Create, manage, and interact with RAG systems for all your document needs. Check out the [home page](https://rlama.dev/) too.
+  - url: https://github.com/NovaSky-AI/SkyThought
+    title: SkyThought
+    description: |
+      Sky-T1: Train your own O1 preview model within $450. Every setup and step is document in the repository. if you are about self hosted ai, this is for you.
+
+  - url: https://github.com/ElectricAlexis/NotaGen
+    title: NotaGen
+    description: |
+      a symbolic music generation model that explores the potential of producing high-quality classical sheet music. Inspired by the success of Large Language Models (LLMs), NotaGen adopts a three-stage training paradigm
