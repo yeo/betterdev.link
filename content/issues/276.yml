@@ -5,7 +5,7 @@ draft: false
 description: |
   Hi all,
 
-  This week the github action [tj-actions/changed-files](https://www.stepsecurity.io/blog/harden-runner-detection-tj-actions-changed-files-action-is-compromised) are compromise and steeling credential of github action env. I had always found the concept of trusting randome github action is scary. Especially github make the action appear under the global namespace `/marketplace/actions` make it seems trust worth. Had github adopt a <user-org>/name probably more people will aware. I recommend for any non official github action, fork it to your own org or account and review source code manually.
+  This week the github action [tj-actions/changed-files](https://www.stepsecurity.io/blog/harden-runner-detection-tj-actions-changed-files-action-is-compromised) are compromise and steeling credential of github action env. I had always found the concept of trusting randome github action is scary. Especially github make the action appear under the global namespace `/marketplace/actions` make it seems trust worth. Had github adopt a `<user-org>/name` probably more people will aware. I recommend for any non official github action, fork it to your own org or account and review source code manually.
 
   Second thing, if you has been using WHOIS to find out domain owner or registra info, that is going to change. ICANN is [Launching RDAP; Sunsetting WHOIS](https://www.icann.org/en/announcements/details/icann-update-launching-rdap-sunsetting-whois-27-01-2025-en. There are a [web version](https://lookup.icann.org/en) and a [CLI to replace whois too](https://github.com/icann/icann-rdap/wiki/RDAP-command).
 
