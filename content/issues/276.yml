@@ -1,0 +1,166 @@
+time: "Mar 18, 2025"
+subject: "IO devices and latency"
+draft: false
+
+description: |
+  Hi all,
+
+  This week the github action [tj-actions/changed-files](https://www.stepsecurity.io/blog/harden-runner-detection-tj-actions-changed-files-action-is-compromised) are compromise and steeling credential of github action env. I had always found the concept of trusting randome github action is scary. Especially github make the action appear under the global namespace `/marketplace/actions` make it seems trust worth. Had github adopt a <user-org>/name probably more people will aware. I recommend for any non official github action, fork it to your own org or account and review source code manually.
+
+  Second thing, if you has been using WHOIS to find out domain owner or registra info, that is going to change. ICANN is [Launching RDAP; Sunsetting WHOIS](https://www.icann.org/en/announcements/details/icann-update-launching-rdap-sunsetting-whois-27-01-2025-en. There are a [web version](https://lookup.icann.org/en) and a [CLI to replace whois too](https://github.com/icann/icann-rdap/wiki/RDAP-command).
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+
+links:
+  - url: https://www.augmentcode.com/?utm_source=BetterDev&utm_medium=newsletter
+    title: "Developer AI for real software engineering work"
+    description: |
+      Lots of coding AIs have cool X demos on greenfield apps. But the day-to-day of a pro software engineer working on a team looks...a little different from vibe coding. Enter Augment Code. The first developer AI built for teams and large codebases, Augment works on codebases of millions of lines of code and thousands of files, bringing full codebase context to every keystroke. Customers like Datastax, Observe, Kong, and Lemonade trust Augment because it's fast, high quality, and secure. Even better - you don't have to switch your IDE - Augment works in VS Code, JetBrains, and even Vim. Augment is free to try and never trains on code without consent. [Start building for free today](https://www.augmentcode.com/?utm_source=BetterDev&utm_medium=newsletter).
+    category: ["sponsor"]
+
+  - url: https://planetscale.com/blog/io-devices-and-latency?
+    title: IO devices and latency
+    description: |
+      Non-volatile storage is a cornerstone of modern computer systems. Every modern photo, email, bank balance, medical record, and other critical pieces of data are kept on digital storage devices, often replicated many times over for added durability. we're going to cover the history, functionality, and performance of non-volatile storage devices over the history of computing, all using fun and interactive visual elements.
+
+  - url: https://bughunters.google.com/blog/5424842357473280/zen-and-the-art-of-microcode-hacking
+    title: "Zen and the Art of Microcode Hacking"
+    description: |
+      Google release the full details of EntrySign, the AMD Zen microcode signature validation vulnerability which they initially disclosed on Feb 2025. This vulnerability allows an adversary with local administrator privileges (ring 0 from outside a VM) to load malicious microcode patches. We have demonstrated the ability to craft arbitrary malicious microcode patches on Zen 1 through Zen 4 CPUs
+
+  - url: https://blog.gitbutler.com/going-down-the-rabbit-hole-of-gits-new-bundle-uri/
+    title: "Going down the rabbit hole of Git's new bundle-uri"
+    description: |
+      Exploring an unpopular git bundle-uri that can help speed up Git by pre-populate git local object cache from https instead of fetching from git server.
+
+  - url: https://okaydev.co/articles/dive-into-webgpu-part-1
+    title: "Dive Into WebGPU — Part 1"
+    description: |
+      WebGPU is a modern graphics API designed to provide high-performance graphics and computation capabilities across different platforms, including web browsers, desktops, and mobile devices. It is intended to be a successor to the WebGL API, offering more advanced features, better performance, and greater flexibility for developers
+
+  - url: https://ishadeed.com/article/css-relative-colors/
+    title: "CSS Relative Colors"
+    description: |
+      CSS is evolving realy fast. This is a useful feature used to cover by CSS pre-processor like SCSS or LESS.
+
+  - url: https://seeinglogic.com/posts/visual-readability-patterns
+    title: "What Makes Code Hard To Read: Visual Patterns of Complexity"
+    description: |
+      The question everyone have an answer for. The OP share with us an interesting concept: visual patterns of code, specifically the ones that make their brain hurt!
+
+  - url: https://surfingcomplexity.blog/2025/03/09/paxos-made-visual-in-fizzbee/
+    title: "Paxos made visual in FizzBee"
+    description: |
+      Any distributed system you will hear the term Raft or Paxos. Some expert consider Paxos is super simple, some say it's the most complicated. In this post, the OP modeling Paxos with [FizzBee](https://fizzbee.io/), a design specification language and model checker to specify distributed systems at a much higher level of abstraction than a programming language for system analysis and design. So we will learn 2 things in this post.
+
+  - url: https://www.cybertec-postgresql.com/en/postgresql-1-trillion-rows-in-citus/
+    title: "PostgreSQL: 1 trillion rows in Citus"
+    description: |
+      "PostgreSQL scales" - we have all heard this phrase over and over again. However, the question is: What does this actually mean? Does it mean 1 million rows? Or maybe even 1 billion rows? So, on a rainy weekend, I decided to do a little experiment to figure out if it is possible to squeeze 1 trillion rows (= 1000 billion rows) into my local personal computer
+
+  - url: https://sbaziotis.com/compilers/getting-started-with-compilers.html
+    title: "Getting started with Compilers"
+    description: |
+      As an engineer we're all curious how a compilers to made. The bad news is there is no single resource to grasp all of that. The good news are all the resource widely available for us to get started.
+  - url: https://binarysecurity.no/posts/2025/03/api-connections
+    title: "Azure’s Weakest Link? How API Connections Spill Secrets"
+    description: |
+      Binary Security found the undocumented APIs for Azure API Connections. In this post we examine the inner workings of the Connections allowing us to escalate privileges and read secrets in backend resources for services ranging from Key Vaults, Storage Blobs, Defender ATP, to Enterprise Jira and SalesForce servers.
+
+read_code:
+  - url: https://github.com/crmne/ruby_llm
+    title: ruby_llm
+    description: |
+      A delightful Ruby way to work with AI. No configuration madness, no complex callbacks, no handler hell – just beautiful, expressive Ruby code.
+    category: ['Ruby']
+
+  - url: https://github.com/addyosmani/filter
+    title: filter
+    description: |
+       a powerful, web-based image editor built with React and TypeScript. It provides a modern, intuitive interface for quick image edits and filters, optimized for both desktop and mobile devices.
+    category: ['TypeScript']
+
+  - url: https://cmdk.paco.me/
+    title: "⌘K: Fast, composable, unstyled command menu for React."
+    description: |
+      If you ever need a short-cut like a spotlight search for your app. You would want this
+    category: ['JavaScript']
+
+  - url: https://github.com/jaypipes/ghw
+    title: ghw
+    description: |
+      Go HardWare discovery/inspection library
+    category: ['Go']
+
+  - url: https://github.com/nishantjoshi00/shelgon
+    title: shelgon
+    description: |
+      a robust Rust framework for building interactive REPL (Read-Eval-Print Loop) applications and custom shells. It provides a flexible, type-safe foundation with built-in terminal UI capabilities using ratatui.
+    category: ['Rust']
+
+  - url: https://github.com/octotools/octotools
+    title: octotools
+    description: |
+      An agentic framework with extensible tools for complex reasoning
+    category: ['Python']
+
+video:
+  - url: https://www.youtube.com/watch?v=pNlq-EVld70
+    title: "TypeScript get 10x faster by re-writing compiler in Go"
+    description: |
+      Very interesting and insightful from creator of C# and TypeScript.
+
+tool:
+  - url: https://github.com/wild-card-ai/agents-json
+    title: agents-json
+    description: |
+      The agents.json Specification is an open specification that formally describes contracts for API and agent interactions, built on top of the OpenAPI standar
+
+  - url: https://github.com/rajathjn/shorts_maker
+    title: shorts_maker
+    description: |
+      a Python package designed to facilitate the creation of engaging short videos or social media clips. It leverages a variety of external services and libraries to streamline the process of generating, processing, and uploading short content.
+
+  - url: https://jatin-yadav05.github.io/MotifyX/
+    title: MotifyX
+    description: |
+      Elevate your designs with our curated collection of modern background patterns. Preview, customize, and implement with just a few clicks.
+
+  - url: https://github.com/pipecat-ai/smart-turn
+    title: smart-turn
+    description: |
+      an open source, community-driven, native audio turn detection model. [Hugging Face](https://huggingface.co/pipecat-ai/smart-turn) model is available
+
+  - url: https://github.com/dicedb/dice
+    title: dicedb
+    description: |
+      an open-source, fast, reactive, in-memory database optimized for modern hardware.
+
+  - url: https://github.com/pgdogdev/pgdog
+    title: pgdog
+    description: |
+      Horizontal scaling for PostgreSQL.
+
+  - url: https://github.com/nubskr/nubmq
+    title: "nubmq"
+    description: |
+      A blazing-fast KV store written in pure Golang without any dependencies with native pub-sub support, engineered for high-frequency, contention-heavy workloads
+
+  - url: https://github.com/allenai/olmocr
+    title: "olmocr"
+    description: |
+      Toolkit for linearizing PDFs for LLM datasets/training
+
+self_hosted:
+  - url: https://github.com/suitenumerique/docs
+    title: docs
+    description: |
+      The open source document alternative to Notion or Outline. Build with Django and React
+
+  - url: https://github.com/Wan-Video/Wan2.1
+    title: Wan
+    description: |
+      Open and Advanced Large-Scale Video Generative Models
+
