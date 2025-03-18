@@ -55,6 +55,11 @@ links:
     description: |
       Any distributed system you will hear the term Raft or Paxos. Some expert consider Paxos is super simple, some say it's the most complicated. In this post, the OP modeling Paxos with [FizzBee](https://fizzbee.io/), a design specification language and model checker to specify distributed systems at a much higher level of abstraction than a programming language for system analysis and design. So we will learn 2 things in this post.
 
+  - url: https://ashwanirathee.com/blog/2025/sort2/
+    title: "Sorting Algorithms with CUDA!"
+    description: |
+      Building on a previous post on sorting algorithms, I implemented the same algorithms using CUDA to explore performance improvements through parallel computing. The goal is to see how we can leverage the power of parallel computing to speed up our sorting algorithms. I went for a NVIDIA recruiting event some days ago, that was a great event and it motivated me to try to rewrite the sorting algorithms using CUDA.
+
   - url: https://www.cybertec-postgresql.com/en/postgresql-1-trillion-rows-in-citus/
     title: "PostgreSQL: 1 trillion rows in Citus"
     description: |
@@ -64,7 +69,8 @@ links:
     title: "Getting started with Compilers"
     description: |
       As an engineer we're all curious how a compilers to made. The bad news is there is no single resource to grasp all of that. The good news are all the resource widely available for us to get started.
-  - url: https://binarysecurity.no/posts/2025/03/api-connections
+
+  - url: https://binarysecurity.no/posts/2025/03/api-connection
     title: "Azure’s Weakest Link? How API Connections Spill Secrets"
     description: |
       Binary Security found the undocumented APIs for Azure API Connections. In this post we examine the inner workings of the Connections allowing us to escalate privileges and read secrets in backend resources for services ranging from Key Vaults, Storage Blobs, Defender ATP, to Enterprise Jira and SalesForce servers.
