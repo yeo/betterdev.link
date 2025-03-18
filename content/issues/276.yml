@@ -112,6 +112,12 @@ read_code:
       An agentic framework with extensible tools for complex reasoning
     category: ['Python']
 
+  - url: https://github.com/markqvist/Reticulum
+    title: Reticulum
+    description: |
+      The cryptography-based networking stack for building unstoppable networks with LoRa, Packet Radio, WiFi and everything in between.
+    category: ['Python']
+
 video:
   - url: https://www.youtube.com/watch?v=pNlq-EVld70
     title: "TypeScript get 10x faster by re-writing compiler in Go"
