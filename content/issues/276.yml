@@ -119,6 +119,11 @@ video:
       Very interesting and insightful from creator of C# and TypeScript.
 
 tool:
+  - url: https://github.com/apiiro/PRevent/tree/main
+    title: PRevent
+    description: |
+      Prevent merging of malicious code in pull requests
+
   - url: https://github.com/wild-card-ai/agents-json
     title: agents-json
     description: |
