@@ -5,84 +5,122 @@ draft: false
 description: |
   Hi all,
 
-
   If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
 
 external_snippets:
 
 links:
+  - url: https://vasekrozhon.wordpress.com/2025/03/17/zero-knowledge-proofs/
+
   - url: https://wts.dev/posts/password-leak/
     title: "Leaking Passwords (and more!) on macOS"
+    description: |
+      A deep dive into how macOS can accidentally expose sensitive data like passwords due to clipboard behavior and debugging tools.
+
+  - url: https://frontendmasters.com/blog/overlapping-inline-backgrounds/
+    title: "A Deep Dive into the Inline Background Overlap Problem"
+    description: |
+      I'm honest here. I understand zero thing about this post. But I saw this quite often when putting text on blog post image, and I think it's useful for anyone into CSS.
 
   - url: https://cgmathprog.home.blog/2025/02/17/bpf-or-how-i-stopped-worrying-and-loved-the-kernel/?utm_source=www.programmerweekly.com&utm_medium=referral&utm_campaign=programmer-weekly-issue-244-march-6-2025
+    title: "BPF: Or How I Stopped Worrying and Loved the Kernel"
+    description: |
+      A practical look at how Berkeley Packet Filter (BPF) unlocks deep system insights and security monitoring, making you fall in love with the Linux kernel.
 
-  - url: 
+  - url: https://iliabylich.github.io/ruby-ractors-and-lock-free-data-structures/intro.html
+    title: 
+
+  - url: https://afine.com/history-of-null-pointer-dereferences-on-macos/
+
 read_code:
-    category: ['Ruby']
+  - url: https://github.com/smparsons/retroboy
+    title: retroboy
+    category: ['Rust']
 
-    category: ['TypeScript']
+  - url: https://github.com/julienbourdeau/debugbar
+  - url: https://github.com/ksylvest/rhino
+    title: rhino
+    description: |
+      A Rack web server written in Ruby from scratch.
+    category: ['Ruby']
 
   - url: https://github.com/rudransh61/Physix-go
     title: Physix-go
     description: |
-      A Simple Physics Engine in GoLang
+      A simple physics engine in GoLang that helps simulate motion, collisions, and forces with an easy-to-use API.
     category: ['Go']
-
-    category: ['Rust']
 
   - url: https://github.com/fastplotlib/fastplotlib
     title: fastplotlib
     description: |
-      Next-gen plotting library built using the pygfx rendering engine that utilizes Vulkan, DX12, or Metal via WGPU, so it is very fast! fastplotlib is an expressive plotting library that enables rapid prototyping for large scale exploratory scientific visualization.
+      A high-performance, expressive plotting library for large-scale data visualization, powered by modern GPU rendering (Vulkan, DX12, Metal).
     category: ['Python']
 
 video:
   - url: https://www.youtube.com/watch?v=qXJ3S3T3xJY
+    title: "Understanding IO Latency"
+    description: |
+      A breakdown of how input/output latency impacts performance across different hardware, from storage devices to network systems.
+  - url: https://www.youtube.com/watch?v=qXJ3S3T3xJY
     title: ""
-
 tool:
+  - url: https://github.com/prodaft/cradle/
+
+  - url: https://github.com/xataio/agent
+
+  - url: https://github.com/varnish/tinykvm
+  
+  -  url: https://github.com/johnbean393/Sidekick?utm_source=www.programmerweekly.com&utm_medium=newsletter&utm_campaign=programmer-weekly-issue-246-march-20-2025&_bhlid=b2e24d837bc4b224220fda5524538086443038c9
+
   - url: https://szymanowiczs.github.io/bolt3d
     title: "bolt3d"
     description: |
-      Generating 3D Scenes in Seconds      
+      Generate stunning 3D scenes in seconds with this lightweight, browser-based tool.
 
   - url: https://github.com/n0-computer/sendme
     title: sendme
     description: |
-      A tool to send files or directories
+      A minimalistic tool for quickly sending files or directories between devices, with a focus on ease of use.
 
   - url: https://github.com/sinclairtarget/git-who?ref=console.dev
     title: git-who
     description: |
-      tells you the people responsible for entire components or subsystems in a codebase. You can think of git-who sort of like git blame but for file trees rather than individual files.
+      Find out who’s responsible for entire components in a codebase—think of it as git blame but for file trees instead of single lines.
 
 self_hosted:
   - url: https://github.com/nafey/minimalytics
     title: minimalytics
     description: |
-      a standalone minimalist analytics tool built on SQLite. Designed for resource-constrained environments, it provides a lightweight solution for tracking and visualizing event data with a minimal footprint. Whether you're tracking internal services or need a simple analytics tool, Minimalytics delivers performance without the bloat
+      A lightweight, SQLite-based analytics tool designed for minimal resource usage—perfect for internal tracking or self-hosted analytics.
 
   - url: https://github.com/stack-auth/stack-auth
     title: stack-auth
-  - url: https://github.com/boxyhq/jackson
+    description: |
+      A self-hosted authentication and authorization system focused on security, flexibility, and ease of integration.
 
-    title: ""
-    description: ""
+  - url: https://github.com/boxyhq/jackson
+    title: Jackson
+    description: |
+      Enterprise SSO and directory sync solution, making it easier to integrate authentication for B2B applications.
 
   - url: https://goauthentik.io/
     title: goauthentik
+    description: |
+      An open-source identity provider that supports OAuth2, SAML, LDAP, and SCIM, built for modern authentication needs.
 
   - url: https://github.com/bknd-io/bknd
     title: bknd
     description: |
-      Lightweight Firebase/Supabase alternative built to run anywhere — incl. Next.js, Remix, Astro, Cloudflare, Bun, Node, AWS Lambda & more
+      A lightweight Firebase/Supabase alternative that runs anywhere—ideal for Next.js, Remix, Cloudflare, and serverless environments.
 
   - url: https://github.com/ComposioHQ/composio?ref=console.dev
     title: composio
     description: |
-      equip's your AI agents & LLMs with 100+ high-quality integrations via function calling
+      Equips AI agents and LLMs with 100+ high-quality integrations via function calling, making it easier to automate workflows.
 
   - url: https://github.com/containers/ramalama
     title: ramalama
     description: |
-      tool facilitates local management and serving of AI Models.
+      A tool for locally managing and serving AI models, providing a streamlined way to run and experiment with ML models on your own hardware.
+
+  - url: https://github.com/moghtech/komodo?utm_source=www.programmerweekly.com&utm_medium=newsletter&utm_campaign=programmer-weekly-issue-246-march-20-2025&_bhlid=6f69de11eddf0f3f0fde78af61cd914d1998deb1
