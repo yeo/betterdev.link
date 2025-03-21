@@ -1,0 +1,88 @@
+time: "Mar 18, 2025"
+subject: "IO devices and latency"
+draft: false
+
+description: |
+  Hi all,
+
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+
+links:
+  - url: https://wts.dev/posts/password-leak/
+    title: "Leaking Passwords (and more!) on macOS"
+
+  - url: https://cgmathprog.home.blog/2025/02/17/bpf-or-how-i-stopped-worrying-and-loved-the-kernel/?utm_source=www.programmerweekly.com&utm_medium=referral&utm_campaign=programmer-weekly-issue-244-march-6-2025
+
+  - url: 
+read_code:
+    category: ['Ruby']
+
+    category: ['TypeScript']
+
+  - url: https://github.com/rudransh61/Physix-go
+    title: Physix-go
+    description: |
+      A Simple Physics Engine in GoLang
+    category: ['Go']
+
+    category: ['Rust']
+
+  - url: https://github.com/fastplotlib/fastplotlib
+    title: fastplotlib
+    description: |
+      Next-gen plotting library built using the pygfx rendering engine that utilizes Vulkan, DX12, or Metal via WGPU, so it is very fast! fastplotlib is an expressive plotting library that enables rapid prototyping for large scale exploratory scientific visualization.
+    category: ['Python']
+
+video:
+  - url: https://www.youtube.com/watch?v=qXJ3S3T3xJY
+    title: ""
+
+tool:
+  - url: https://szymanowiczs.github.io/bolt3d
+    title: "bolt3d"
+    description: |
+      Generating 3D Scenes in Seconds      
+
+  - url: https://github.com/n0-computer/sendme
+    title: sendme
+    description: |
+      A tool to send files or directories
+
+  - url: https://github.com/sinclairtarget/git-who?ref=console.dev
+    title: git-who
+    description: |
+      tells you the people responsible for entire components or subsystems in a codebase. You can think of git-who sort of like git blame but for file trees rather than individual files.
+
+self_hosted:
+  - url: https://github.com/nafey/minimalytics
+    title: minimalytics
+    description: |
+      a standalone minimalist analytics tool built on SQLite. Designed for resource-constrained environments, it provides a lightweight solution for tracking and visualizing event data with a minimal footprint. Whether you're tracking internal services or need a simple analytics tool, Minimalytics delivers performance without the bloat
+
+  - url: https://github.com/stack-auth/stack-auth
+    title: stack-auth
+  - url: https://github.com/boxyhq/jackson
+
+    title: ""
+    description: ""
+
+  - url: https://goauthentik.io/
+    title: goauthentik
+
+  - url: https://github.com/bknd-io/bknd
+    title: bknd
+    description: |
+      Lightweight Firebase/Supabase alternative built to run anywhere — incl. Next.js, Remix, Astro, Cloudflare, Bun, Node, AWS Lambda & more
+
+  - url: https://github.com/ComposioHQ/composio?ref=console.dev
+    title: composio
+    description: |
+      equip's your AI agents & LLMs with 100+ high-quality integrations via function calling
+
+  - url: https://github.com/containers/ramalama
+    title: ramalama
+    description: |
+      tool facilitates local management and serving of AI Models.
