@@ -10,7 +10,17 @@ description: |
 external_snippets:
 
 links:
+  - url: https://tinyhack.com/2022/09/16/when-you-deleted-lib-on-linux-while-still-connected-via-ssh/
+
   - url: https://vasekrozhon.wordpress.com/2025/03/17/zero-knowledge-proofs/
+
+  - url: https://www.construction-physics.com/p/understanding-solar-energy
+    title: "Understanding Solar Energy"
+    description: |
+      This is an unusual artcile. It isn't related directly to programing but more on engineering, especially electrical engineering. Things that I cannot explain, I don't know. So it's good to understand how solar energy is created, how does it generate charge.
+
+  - url: https://greenvitriol.com/posts/sync-engine-for-everyone
+    title: "A synchronization engine for everyone"
 
   - url: https://wts.dev/posts/password-leak/
     title: "Leaking Passwords (and more!) on macOS"
@@ -32,6 +42,10 @@ links:
 
   - url: https://afine.com/history-of-null-pointer-dereferences-on-macos/
 
+  - url: https://eugeneyan.com/writing/recsys-llm/
+    title: Improving Recommendation Systems & Search in the Age of LLMs
+
+
 read_code:
   - url: https://github.com/smparsons/retroboy
     title: retroboy
@@ -44,6 +58,10 @@ read_code:
       A Rack web server written in Ruby from scratch.
     category: ['Ruby']
 
+  - url: https://github.com/Zouuup/landrun
+    title: landrun
+    description: |
+      At work, I recently need to be able to run untrusted code in a sandbox.
   - url: https://github.com/rudransh61/Physix-go
     title: Physix-go
     description: |
@@ -63,7 +81,13 @@ video:
       A breakdown of how input/output latency impacts performance across different hardware, from storage devices to network systems.
   - url: https://www.youtube.com/watch?v=qXJ3S3T3xJY
     title: ""
+
 tool:
+  - url: https://typespec.io/
+    title: typespec
+    description: |
+      You design your API in a `tsp` file with model, route. Then it generate OpenAPI docs, gRPC protobuf, client code, docs.
+
   - url: https://github.com/prodaft/cradle/
 
   - url: https://github.com/xataio/agent
