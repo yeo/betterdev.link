@@ -1,5 +1,5 @@
-time: "Mar 18, 2025"
-subject: "IO devices and latency"
+time: "Mar 24, 2025"
+subject: "What"
 draft: false
 
 description: |
@@ -76,13 +76,16 @@ read_code:
 
 video:
   - url: https://www.youtube.com/watch?v=qXJ3S3T3xJY
-    title: "Understanding IO Latency"
+    title: "Live streaming at world-record scale with Ashutosh Agrawa"
     description: |
-      A breakdown of how input/output latency impacts performance across different hardware, from storage devices to network systems.
-  - url: https://www.youtube.com/watch?v=qXJ3S3T3xJY
-    title: ""
+      In May 2023, a live streaming world record was set with 32 million concurrent viewers watching the finale of the Indian Premier League cricket finale. A chat with the architect behind this system: Ashutosh Agrawal, formerly Chief Architect of JioCinema (and currently Staff Software Engineer at Google DeepMind.)
 
 tool:
+  - url: https://github.com/ariga/atlas
+    title: atlas
+    description: |
+      Manage your database schema as code. It can diff and apply schema change similar to terraform
+
   - url: https://typespec.io/
     title: typespec
     description: |
