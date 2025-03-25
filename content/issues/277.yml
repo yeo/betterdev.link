@@ -1,9 +1,13 @@
-time: "Mar 24, 2025"
-subject: "What"
+time: "Mar 25, 2025"
+subject: "When You Deleted /lib on Linux While Still Connected via SSH"
 draft: false
 
 description: |
   Hi all,
+
+  Last week, NextJS has a new security vulnerability, (CVE-2025-29927](https://nextjs.org/blog/cve-2025-29927) that allow by pass middleware auth checking by setting a header to trick it into thinking this is an internal request and skip the auth middleware check. If you're hosted on Vercel there is no action to take, but if you run the vercel server in your infra, you should update.
+
+  Another one for k8s, if you're running ingress-nginx, you should update [this patch](https://www.wiz.io/blog/ingress-nginx-kubernetes-vulnerabilities). The attack require the ability to have a pod already running inside K8S network, such as sharing namespace with other users, or exposing admission controller webhook to internet. So if your cluster is dedicated to you, and not doing stuff like host network or expose admission controller service, you can buy sometime for the upgrade.
 
   If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
 
@@ -11,47 +15,68 @@ external_snippets:
 
 links:
   - url: https://tinyhack.com/2022/09/16/when-you-deleted-lib-on-linux-while-still-connected-via-ssh/
+    title: "When You Deleted /lib on Linux While Still Connected via SSH"
+    description: |
+      A classic tale of Linux horror. You’re SSH’d into a machine, you make one wrong move, and suddenly your system is broken. This post walks through how to recover from this self-inflicted nightmare.
+
+  - url: https://blog.jooq.org/think-about-sql-merge-in-terms-of-a-right-join/
+    title: "Think About SQL MERGE in Terms of a RIGHT JOIN"
+    description: |
+      RIGHT JOIN is an esoteric feature in the SQL language, and hardly ever seen in the real world, because almost every RIGHT JOIN can just be expressed as an equivalent LEFT JOIN. There is, however, one place in the SQL language where RIGHT JOIN is surprisingly ubiquitous and today we learn about it.
 
   - url: https://vasekrozhon.wordpress.com/2025/03/17/zero-knowledge-proofs/
+    title: "Zero-Knowledge Proofs"
+    description: |
+      An approachable introduction to the magic of zero-knowledge proofs—how they let you prove something without revealing the details. Perfect for anyone curious about cryptography without diving into hardcore math.
 
   - url: https://www.construction-physics.com/p/understanding-solar-energy
     title: "Understanding Solar Energy"
     description: |
-      This is an unusual artcile. It isn't related directly to programing but more on engineering, especially electrical engineering. Things that I cannot explain, I don't know. So it's good to understand how solar energy is created, how does it generate charge.
+      This one’s a bit outside the usual programming realm, but trust me—it’s fascinating. A deep dive into how solar panels actually work, the engineering behind them, and why understanding electricity at this level is surprisingly useful.
 
   - url: https://greenvitriol.com/posts/sync-engine-for-everyone
-    title: "A synchronization engine for everyone"
+    title: "A Synchronization Engine for Everyone"
+    description: |
+      Syncing data is one of those things that sounds easy until you try to build it. This post walks through a synchronization engine design that’s both simple and powerful.
 
   - url: https://wts.dev/posts/password-leak/
     title: "Leaking Passwords (and more!) on macOS"
     description: |
-      A deep dive into how macOS can accidentally expose sensitive data like passwords due to clipboard behavior and debugging tools.
+      A deep dive into how macOS can unintentionally leak sensitive data like passwords, thanks to clipboard behavior and debugging tools. A must-read for anyone who cares about security.
 
   - url: https://frontendmasters.com/blog/overlapping-inline-backgrounds/
     title: "A Deep Dive into the Inline Background Overlap Problem"
     description: |
-      I'm honest here. I understand zero thing about this post. But I saw this quite often when putting text on blog post image, and I think it's useful for anyone into CSS.
+      Ever tried putting text over an image and ended up with weird background overlaps? This post explains why that happens and how to fix it. If you do anything with CSS, you’ll want to bookmark this one.
 
-  - url: https://cgmathprog.home.blog/2025/02/17/bpf-or-how-i-stopped-worrying-and-loved-the-kernel/?utm_source=www.programmerweekly.com&utm_medium=referral&utm_campaign=programmer-weekly-issue-244-march-6-2025
+  - url: https://cgmathprog.home.blog/2025/02/17/bpf-or-how-i-stopped-worrying-and-loved-the-kernel/
     title: "BPF: Or How I Stopped Worrying and Loved the Kernel"
     description: |
-      A practical look at how Berkeley Packet Filter (BPF) unlocks deep system insights and security monitoring, making you fall in love with the Linux kernel.
-
-  - url: https://iliabylich.github.io/ruby-ractors-and-lock-free-data-structures/intro.html
-    title: 
+      BPF is like a superpower for peeking into Linux. Whether you care about performance monitoring, security, or just love cool system hacks, this is a fantastic read.
 
   - url: https://afine.com/history-of-null-pointer-dereferences-on-macos/
+    title: "A History of Null Pointer Dereferences on macOS"
+    description: |
+      A nostalgic yet technical look at how null pointer dereferences have plagued macOS over the years. Great for those who love debugging deep OS issues.
 
   - url: https://eugeneyan.com/writing/recsys-llm/
-    title: Improving Recommendation Systems & Search in the Age of LLMs
+    title: "Improving Recommendation Systems & Search in the Age of LLMs"
+    description: |
+      AI-powered recommendations are everywhere, but how do they really work? This post explores how LLMs are changing search and recommendation engines for the better.
 
+  - url: https://iliabylich.github.io/ruby-ractors-and-lock-free-data-structures/intro.html
+    title: "Ruby Ractors and Lock-Free Data Structures"
+    description: |
+      If you’re a Rubyist curious about parallelism, this is for you. A practical look at Ruby’s Ractors and how they enable truly parallel execution without locks.
 
 read_code:
   - url: https://github.com/smparsons/retroboy
     title: retroboy
+    description: "A Game Boy emulator written in Rust."
     category: ['Rust']
 
   - url: https://github.com/julienbourdeau/debugbar
+
   - url: https://github.com/ksylvest/rhino
     title: rhino
     description: |
@@ -61,93 +86,80 @@ read_code:
   - url: https://github.com/Zouuup/landrun
     title: landrun
     description: |
-      At work, I recently need to be able to run untrusted code in a sandbox.
+      Need to run untrusted code safely? This sandboxing tool might be your new best friend.
+    category: ['Go']
+
   - url: https://github.com/rudransh61/Physix-go
     title: Physix-go
     description: |
-      A simple physics engine in GoLang that helps simulate motion, collisions, and forces with an easy-to-use API.
+      A physics engine in Go that makes simulating motion, collisions, and forces as simple as possible.
     category: ['Go']
 
   - url: https://github.com/fastplotlib/fastplotlib
     title: fastplotlib
     description: |
-      A high-performance, expressive plotting library for large-scale data visualization, powered by modern GPU rendering (Vulkan, DX12, Metal).
+      A blazing-fast plotting library for massive datasets, using modern GPU rendering to keep things smooth.
     category: ['Python']
 
 video:
   - url: https://www.youtube.com/watch?v=qXJ3S3T3xJY
-    title: "Live streaming at world-record scale with Ashutosh Agrawa"
+    title: "Live Streaming at World-Record Scale with Ashutosh Agrawal"
     description: |
-      In May 2023, a live streaming world record was set with 32 million concurrent viewers watching the finale of the Indian Premier League cricket finale. A chat with the architect behind this system: Ashutosh Agrawal, formerly Chief Architect of JioCinema (and currently Staff Software Engineer at Google DeepMind.)
+      How do you handle 32 million concurrent viewers? Ashutosh Agrawal, former Chief Architect at JioCinema, breaks down the tech behind this mind-blowing achievement.
 
 tool:
+  - url: https://github.com/xataio/agent
+    title: xata agent
+    description: |
+       an open source agent that monitors your database, finds root causes of issues, and suggests fixes and improvements. It's like having a new SRE hire in your team, one with extensive experience in Postgres.
+
+  - url: https://sqlformat.darold.net/
+    title: pgFormatter
+    description: |
+      Free Online version of pgFormatter a PostgreSQL SQL syntax beautifier (no line limit here up to 100000 characters). This SQL formatter/beautifier supports keywords from SQL-92, SQL-99, SQL-2003, SQL-2008, SQL-2011 and PostgreSQL specifics keywords. May
+
   - url: https://github.com/ariga/atlas
     title: atlas
     description: |
-      Manage your database schema as code. It can diff and apply schema change similar to terraform
+      A database schema management tool that works like Terraform—diff, apply, and keep your schema in check.
 
   - url: https://typespec.io/
     title: typespec
     description: |
-      You design your API in a `tsp` file with model, route. Then it generate OpenAPI docs, gRPC protobuf, client code, docs.
+      Define your API once in a simple `tsp` file, then generate OpenAPI, gRPC, client code, and docs automatically.
 
-  - url: https://github.com/prodaft/cradle/
-
-  - url: https://github.com/xataio/agent
-
-  - url: https://github.com/varnish/tinykvm
-  
-  -  url: https://github.com/johnbean393/Sidekick?utm_source=www.programmerweekly.com&utm_medium=newsletter&utm_campaign=programmer-weekly-issue-246-march-20-2025&_bhlid=b2e24d837bc4b224220fda5524538086443038c9
-
-  - url: https://szymanowiczs.github.io/bolt3d
-    title: "bolt3d"
+  - url: https://www.ferronweb.org/
+    title: ferronweb
     description: |
-      Generate stunning 3D scenes in seconds with this lightweight, browser-based tool.
-
-  - url: https://github.com/n0-computer/sendme
-    title: sendme
-    description: |
-      A minimalistic tool for quickly sending files or directories between devices, with a focus on ease of use.
-
-  - url: https://github.com/sinclairtarget/git-who?ref=console.dev
-    title: git-who
-    description: |
-      Find out who’s responsible for entire components in a codebase—think of it as git blame but for file trees instead of single lines.
+      A fast, memory-safe web server powered by Rust. Similar to Caddy or Nginx but written in Rust.
 
 self_hosted:
   - url: https://github.com/nafey/minimalytics
     title: minimalytics
     description: |
-      A lightweight, SQLite-based analytics tool designed for minimal resource usage—perfect for internal tracking or self-hosted analytics.
+      A lightweight, no-nonsense analytics tool that runs on SQLite—great for privacy-conscious tracking.
 
   - url: https://github.com/stack-auth/stack-auth
     title: stack-auth
     description: |
-      A self-hosted authentication and authorization system focused on security, flexibility, and ease of integration.
+      A self-hosted authentication system that balances security, flexibility, and ease of integration.
 
   - url: https://github.com/boxyhq/jackson
     title: Jackson
     description: |
-      Enterprise SSO and directory sync solution, making it easier to integrate authentication for B2B applications.
+      An enterprise-grade SSO and directory sync solution to make authentication for B2B apps easier.
 
   - url: https://goauthentik.io/
     title: goauthentik
     description: |
-      An open-source identity provider that supports OAuth2, SAML, LDAP, and SCIM, built for modern authentication needs.
+      A modern identity provider supporting OAuth2, SAML, LDAP, and SCIM, perfect for self-hosted authentication.
 
   - url: https://github.com/bknd-io/bknd
     title: bknd
     description: |
-      A lightweight Firebase/Supabase alternative that runs anywhere—ideal for Next.js, Remix, Cloudflare, and serverless environments.
-
-  - url: https://github.com/ComposioHQ/composio?ref=console.dev
-    title: composio
-    description: |
-      Equips AI agents and LLMs with 100+ high-quality integrations via function calling, making it easier to automate workflows.
+      A Firebase/Supabase alternative that runs anywhere—ideal for serverless apps and Next.js projects.
 
   - url: https://github.com/containers/ramalama
     title: ramalama
     description: |
-      A tool for locally managing and serving AI models, providing a streamlined way to run and experiment with ML models on your own hardware.
-
-  - url: https://github.com/moghtech/komodo?utm_source=www.programmerweekly.com&utm_medium=newsletter&utm_campaign=programmer-weekly-issue-246-march-20-2025&_bhlid=6f69de11eddf0f3f0fde78af61cd914d1998deb1
+      A local tool for serving and managing AI models—run your own LLMs without relying on cloud services.
