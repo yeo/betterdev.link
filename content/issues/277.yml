@@ -75,13 +75,17 @@ read_code:
     description: "A Game Boy emulator written in Rust."
     category: ['Rust']
 
-  - url: https://github.com/julienbourdeau/debugbar
-
   - url: https://github.com/ksylvest/rhino
     title: rhino
     description: |
       A Rack web server written in Ruby from scratch.
     category: ['Ruby']
+
+  - url: https://github.com/konvajs/konva
+    title: konva
+    description: |
+      an HTML5 Canvas JavaScript framework that extends the 2d context by enabling canvas interactivity for desktop and mobile applications.
+    category: ['JavaScript']
 
   - url: https://github.com/Zouuup/landrun
     title: landrun
@@ -108,6 +112,16 @@ video:
       How do you handle 32 million concurrent viewers? Ashutosh Agrawal, former Chief Architect at JioCinema, breaks down the tech behind this mind-blowing achievement.
 
 tool:
+  - url: https://github.com/microsoft/playwright-mcp
+    title: playwright-mcp
+    description: |
+      A Model Context Protocol (MCP) server that provides browser automation capabilities using Playwright. This server enables LLMs to interact with web pages through structured accessibility snapshots, bypassing the need for screenshots or visually-tuned models.
+
+  - url: https://github.com/julienbourdeau/debugbar
+    title: debugbar
+    description: |
+      Powerful devtools for Ruby on Rails. Inspired by the Laravel Debugbar.
+
   - url: https://github.com/xataio/agent
     title: xata agent
     description: |
