@@ -5,7 +5,7 @@ draft: false
 description: |
   Hi all,
 
-  Last week, NextJS has a new security vulnerability, (CVE-2025-29927](https://nextjs.org/blog/cve-2025-29927) that allow by pass middleware auth checking by setting a header to trick it into thinking this is an internal request and skip the auth middleware check. If you're hosted on Vercel there is no action to take, but if you run the vercel server in your infra, you should update.
+  Last week, NextJS has a new security vulnerability, [CVE-2025-29927](https://nextjs.org/blog/cve-2025-29927) that allow by pass middleware auth checking by setting a header to trick it into thinking this is an internal request and skip the auth middleware check. If you're hosted on Vercel there is no action to take, but if you run the vercel server in your infra, you should update.
 
   Another one for k8s, if you're running ingress-nginx, you should update [this patch](https://www.wiz.io/blog/ingress-nginx-kubernetes-vulnerabilities). The attack require the ability to have a pod already running inside K8S network, such as sharing namespace with other users, or exposing admission controller webhook to internet. So if your cluster is dedicated to you, and not doing stuff like host network or expose admission controller service, you can buy sometime for the upgrade.
 
@@ -104,6 +104,12 @@ read_code:
     description: |
       A blazing-fast plotting library for massive datasets, using modern GPU rendering to keep things smooth.
     category: ['Python']
+
+  - url: https://github.com/EzequielRamis/zimdjson
+    title: zimdjson
+    description: |
+      Parsing gigabytes of JSON per second. Zig port of simdjson with fundamental features.
+    category: ['Zig']
 
 video:
   - url: https://www.youtube.com/watch?v=qXJ3S3T3xJY
