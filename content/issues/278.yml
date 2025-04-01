@@ -49,8 +49,12 @@ links:
     description: |
       Single sign-on for SSH is a dream. No longer dealing with key, edit ~/authorized_keys file, edit LDAP, or PAM file. Easily to revoke and offboard dev. 
 
+  - url: https://read.highgrowthengineer.com/p/mcps-simply-explained
+    title: "MCP (Model Context Protocol): Simply explained in 5 minutes"
+    description: "What MCP is, how it can save you time, and how it works behind the scenes"
+
 read_code:
-  - url: https://github.com/habedi/hann?utm_source=pocket_shared
+  - url: https://github.com/habedi/hann
     title: hann
     description: |
       A fast approximate nearest neighbor search library for Go
@@ -101,8 +105,18 @@ tool:
     description: |
       The slightly more awesome standard unix password manager for teams
 
+  - url: https://github.com/lakekeeper/lakekeeper
+    title: lakekeeper
+    description: |
+       an Apache-Licensed, secure, fast and easy to use Apache Iceberg REST Catalog written in Rust. Apache Iceberg is a project that allow us to run SQL query on a set of file(CSV, Parquet, JSON) directly from storage such as S3.
+
 self_hosted:
-  - url: https://github.com/MuhammadSaim/goavatar
+  - url: https://github.com/trailbaseio/trailbase
+    title: trailbase
+    description: |
+      An open, blazingly fast, single-executable Firebase alternative with type-safe REST & realtime APIs, built-in JS/ES6/TS runtime, SSR, auth and admin UI built on Rust, SQLite & V8.
+
+  - url: https://github.com/MuhammadSaim/goavatark
     title: goavatar
     description: |
       This package provides a simple way to generate unique, symmetric identicons based on an input string (e.g., an email address or username). It uses an MD5 hash to create a deterministic pattern and color scheme, then mirrors the design for a visually appealing avatar.
