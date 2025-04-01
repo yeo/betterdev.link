@@ -5,7 +5,8 @@ draft: false
 description: |
   Hi all,
 
-  So this week, [Github CodeQL leak their token](https://www.praetorian.com/blog/codeqleaked-public-secrets-exposure-leads-to-supply-chain-attack-on-github-codeql/), the token is only publicly expose for about 2seconds, but that's enough. Then, we had [Malware found on npm infecting local package with reverse shell](https://www.reversinglabs.com/blog/malicious-npm-patch-delivers-reverse-shell). And an [atop heap issue](https://openwall.com/lists/oss-security/2025/03/29/1). The world truly fall apart last week, no joke. That's why it's help to be paranoid whenever we run any piece of software on our CI, on our dependenies, always vetted it yourself.
+	So this week, [Github CodeQL leaked their token](https://www.praetorian.com/blog/codeqleaked-public-secrets-exposure-leads-to-supply-chain-attack-on-github-codeql/); the token was only publicly exposed for about 2 seconds, but that's enough. Then, we had [Malware found on npm infecting local packages with a reverse shell](https://www.reversinglabs.com/blog/malicious-npm-patch-delivers-reverse-shell). And an [atop heap issue](https://openwall.com/lists/oss-security/2025/03/29/1). The world truly fell apart last week, no joke. That's why it's helpful to be paranoid whenever we run any piece of software on our CI, on our dependencies—always vet them yourself.
+
 
   If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
 
@@ -14,44 +15,63 @@ external_snippets:
 links:
   - url: https://medium.com/@dichenldc/30-years-of-postgresql-buffer-manager-locking-design-evolution-e6e861d7072f
     title: "30 years of PostgreSQL buffer manager locking design evolution"
+    description: |
+      An in-depth exploration of the evolution of PostgreSQL's buffer manager locking mechanisms over three decades, highlighting key design decisions and their impact on performance and concurrency.
 
   - url: https://refactoringenglish.com/chapters/write-blog-posts-developers-read/
     title: "How to Write Blog Posts that Developers Read"
+    description: |
+      A guide offering practical advice on crafting technical blog posts that effectively engage and inform developer audiences, emphasizing clarity, structure, and relevance.
 
   - url: https://www.permit.io/blog/identity-tokens-best-practices
     title: "Identity Tokens Explained: Best Practices for Better Access Control"
+    description: |
+      An overview of identity tokens, detailing their role in authentication and authorization processes, and providing best practices for implementing secure and efficient access control mechanisms.
 
   - url: https://googleprojectzero.blogspot.com/2025/03/blasting-past-webp.html
     title: "Blasting Past Webp: An analysis of the NSO BLASTPASS iMessage exploit"
+    description: |
+      A technical analysis by Google's Project Zero team on the NSO Group's BLASTPASS exploit, which targeted Apple's iMessage using malicious WebP images to achieve zero-click remote code execution.
 
   - url: https://photonlines.substack.com/p/visual-focused-algorithms-cheat-sheet
     title: "Visual-Focused Algorithms Cheat Sheet"
+    description: |
+      A concise reference guide summarizing key algorithms related to visual data processing, offering quick insights into their applications and implementations.
 
   - url: https://sambroner.com/posts/raspberry-pi-train
     title: "Train & Weather Tracker with Raspberry Pi & E-Ink"
     description: |
-      If you had some old raspberry pi hanging around this could be a great hobby project.
+      If you have some old Raspberry Pi hardware lying around, this could be a great hobby project.
 
   - url: https://sirupsen.com/napkin/problem-10-mysql-transactions-per-second
     title: "MySQL transactions per second vs fsyncs per second"
+    description: |
+      An examination of the relationship between MySQL's transaction throughput and the filesystem's synchronization operations, discussing how fsync frequency impacts database performance.
 
   - url: https://tratt.net/laurie/blog/2025/better_shell_history_search.html
     title: "Better Shell History Search"
+    description: |
+      An article discussing techniques to enhance shell history search functionality, including the integration of tools like `fzf` for more efficient command retrieval and improved productivity. 
 
   - url: https://mccue.dev/pages/3-11-25-life-altering-postgresql-patterns
-    title: "Life Altering Postgresql Patterns"
+    title: "Life Altering PostgreSQL Patterns"
+    description: |
+      A discussion on transformative PostgreSQL design patterns, such as using UUID primary keys, implementing timestamp fields, enforcing strict foreign key constraints, utilizing schemas for organization, and employing enum tables for data integrity. 
 
   - url: https://dansvetlov.me/postgres-anomalies/
-    title: A Practical Guide to Taming Postgres Isolation Anomalies
-  
+    title: "A Practical Guide to Taming Postgres Isolation Anomalies"
+    description: |
+      A comprehensive guide addressing PostgreSQL's transaction isolation anomalies, providing practical examples and strategies to understand and mitigate issues like dirty reads, lost updates, and phantom reads. 
+
   - url: https://blog.cloudflare.com/open-sourcing-openpubkey-ssh-opkssh-integrating-single-sign-on-with-ssh/
     title: "Cloudflare open-sourcing OpenPubkey SSH (OPKSSH): integrating single sign-on with SSH"
     description: |
-      Single sign-on for SSH is a dream. No longer dealing with key, edit ~/authorized_keys file, edit LDAP, or PAM file. Easily to revoke and offboard dev. 
+      Single sign-on for SSH is a dream. No longer dealing with keys, editing ~/authorized_keys files, or modifying LDAP or PAM configurations. Easy to revoke and offboard developers.
 
   - url: https://read.highgrowthengineer.com/p/mcps-simply-explained
     title: "MCP (Model Context Protocol): Simply explained in 5 minutes"
-    description: "What MCP is, how it can save you time, and how it works behind the scenes"
+    description: |
+      An introduction to the Model Context Protocol (MCP), explaining its purpose, functionality, and how it can streamline development processes by providing contextual model information.
 
 read_code:
   - url: https://github.com/habedi/hann
