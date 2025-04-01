@@ -1,0 +1,121 @@
+time: "Mar 31, 2025"
+subject: "30 years of PostgreSQL buffer manager locking design evolution"
+draft: false
+
+description: |
+  Hi all,
+
+  So this week, [Github CodeQL leak their token](https://www.praetorian.com/blog/codeqleaked-public-secrets-exposure-leads-to-supply-chain-attack-on-github-codeql/), the token is only publicly expose for about 2seconds, but that's enough. Then, we had [Malware found on npm infecting local package with reverse shell](https://www.reversinglabs.com/blog/malicious-npm-patch-delivers-reverse-shell). And an [atop heap issue](https://openwall.com/lists/oss-security/2025/03/29/1). The world truly fall apart last week, no joke. That's why it's help to be paranoid whenever we run any piece of software on our CI, on our dependenies, always vetted it yourself.
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+
+links:
+  - url: https://medium.com/@dichenldc/30-years-of-postgresql-buffer-manager-locking-design-evolution-e6e861d7072f
+    title: "30 years of PostgreSQL buffer manager locking design evolution"
+
+  - url: https://refactoringenglish.com/chapters/write-blog-posts-developers-read/
+    title: "How to Write Blog Posts that Developers Read"
+
+  - url: https://www.permit.io/blog/identity-tokens-best-practices
+    title: "Identity Tokens Explained: Best Practices for Better Access Control"
+
+  - url: https://googleprojectzero.blogspot.com/2025/03/blasting-past-webp.html
+    title: "Blasting Past Webp: An analysis of the NSO BLASTPASS iMessage exploit"
+
+  - url: https://photonlines.substack.com/p/visual-focused-algorithms-cheat-sheet
+    title: "Visual-Focused Algorithms Cheat Sheet"
+
+  - url: https://sambroner.com/posts/raspberry-pi-train
+    title: "Train & Weather Tracker with Raspberry Pi & E-Ink"
+    description: |
+      If you had some old raspberry pi hanging around this could be a great hobby project.
+
+  - url: https://sirupsen.com/napkin/problem-10-mysql-transactions-per-second
+    title: "MySQL transactions per second vs fsyncs per second"
+
+  - url: https://tratt.net/laurie/blog/2025/better_shell_history_search.html
+    title: "Better Shell History Search"
+
+  - url: https://mccue.dev/pages/3-11-25-life-altering-postgresql-patterns
+    title: "Life Altering Postgresql Patterns"
+
+  - url: https://dansvetlov.me/postgres-anomalies/
+    title: A Practical Guide to Taming Postgres Isolation Anomalies
+  
+  - url: https://blog.cloudflare.com/open-sourcing-openpubkey-ssh-opkssh-integrating-single-sign-on-with-ssh/
+    title: "Cloudflare open-sourcing OpenPubkey SSH (OPKSSH): integrating single sign-on with SSH"
+    description: |
+      Single sign-on for SSH is a dream. No longer dealing with key, edit ~/authorized_keys file, edit LDAP, or PAM file. Easily to revoke and offboard dev. 
+
+read_code:
+  - url: https://github.com/habedi/hann?utm_source=pocket_shared
+    title: hann
+    description: |
+      A fast approximate nearest neighbor search library for Go
+    category: ['Go']
+
+  - url: https://github.com/rudransh61/Physix-go
+    title: Physix
+    description: |
+      A simple Physics engine in GoLang
+    category: ['Go']
+
+  - url: https://github.com/Kither12/shezem-rs/tree/main
+    title: shezem-rs
+    description: |
+      A Rust implementation of a fast audio fingerprinting system inspired by Shazam, for audio recognition and identification. It focuses on speed, efficiency and simplicity
+    category: ['Rust']
+
+  - url: https://github.com/pgr0ss/pgledger/tree/main
+    title: pgledger
+    description: |
+      A ledger implementation in PostgreSQL
+    category: ['PostgreSQL']
+
+video:
+  - url: https://www.youtube.com/playlist?list=PLUl4u3cNGP63VIBQVWguXxZZi0566y7Wf
+    title: "MIT 6.172 Performance Engineering of Software Systems, Fall 2018"
+    description: |
+      A course, not a single video. It provides a hands-on, project-based introduction to building scalable and high-performance software systems. The course programming language is in C. But don't let the C part discourage you, the metholody applied.
+
+tool:
+  - url: https://github.com/amd/gaia
+    title: "gaia"
+    description: |
+      A tool by AMD to run LLM Agents on Ryzen AI PCs in Minutes
+
+  - url: https://github.com/Stability-AI/stable-virtual-camera
+    title: stable-virtual-camera
+    description: |
+      Generative View Synthesis with Diffusion Models
+
+  - url: https://github.com/joanrod/star-vector
+    title: star-vector
+    description: |
+      a foundation model for SVG generation that transforms vectorization into a code generation task. Using a vision-language modeling architecture, StarVector processes both visual and textual inputs to produce high-quality SVG code with remarkable precision.
+
+  - url: https://github.com/gopasspw/gopass
+    title: gopass
+    description: |
+      The slightly more awesome standard unix password manager for teams
+
+self_hosted:
+  - url: https://github.com/MuhammadSaim/goavatar
+    title: goavatar
+    description: |
+      This package provides a simple way to generate unique, symmetric identicons based on an input string (e.g., an email address or username). It uses an MD5 hash to create a deterministic pattern and color scheme, then mirrors the design for a visually appealing avatar.
+
+  - url: https://github.com/teableio/teable
+    title: teable
+    description: |
+      ✨ The Next Gen Airtable Alternative: No-Code Postgres
+
+  - url: https://github.com/pocketbase/pocketbase
+    title: pocketbase
+
+  - url: https://github.com/hcengineering/platform
+    title: huly
+    description: |
+      All-in-One Project Management Platform (alternative to Linear, Jira, Slack, Notion, Motion)
