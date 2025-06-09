@@ -1,0 +1,166 @@
+time: "June 08, 2025"
+subject: "What is Entropy and How DCI Movie Delivery and Encryption works"
+draft: false
+
+description: |
+  Hi all,
+
+  I had been a heavy AI/LLM user. Recenntly I'm impressive with what Gemini can do. It helps me write a lot of helper and tedious script which will take me days or even weeks now I can do in 1/10 of time. So I plan to share more about LLM/AI to help all of us. Thing like "write a systemd timer" to "only keep the file created today to prevent disk filling".
+
+  Mozilla is shutting down Pocket on July 8, 2025. In spirit of self-hosted, I had switch to [linkding](https://linkding.link/]. I then use this [simple script](https://gist.github.com/v9n/7453a635acc2d7a84a28619b1e2ede7c) to import Pocket archive to linkding. The script was written by Gemini btw.
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+  - "<img src='https://www.vpdae.com/open/b6e5589c.gif?opens=1' width='1' height='1'>"
+
+links:
+  - url: https://www.vpdae.com/redirect/3wtmx0m2socmdrancrul6pnfvub
+    title: "Your data, built your way. Twilio Segment. For data you can depend on."
+    description: |
+      Customer Data You Can Depend On
+
+      We know you run your business on data, so you better be able to depend on it.
+
+      Twilio Segment was purpose-built so that you don’t have to worry about your data. Forget the data chaos, dissolve the silos between teams and tools, and bring your data together with ease.
+      
+      So that you can spend more time innovating and less time integrating.
+      
+      [Talk to sales and get a guided tour of Twilio Segment tailored to your business.](https://www.vpdae.com/redirect/3wtmx0m2socmdrancrul6pnfvub)
+    category: ['sponsor']
+
+  - url: https://jasonfantl.com/posts/What-is-Entropy
+    title: "What is Entropy?"
+    description: |
+      People say many things about entropy: entropy increases with time, entropy is disorder, entropy increases with energy, entropy determines the arrow of time, etc.. But I have no idea what entropy is, and from what I find, neither do most other people. This is the introduction I wish I had when first told about entropy, so hopefully you find it helpful. My goal is that by the end of this long post we will have a rigorous and intuitive understanding of those statements, and in particular, why the universe looks different when moving forward through time versus when traveling backward through time.
+
+  - url: https://serverless.industries/2024/05/31/digital-cinema.en.html
+    title: "How DCI Movie Delivery and Encryption works"
+    description: |
+      The Cinema Industry is using its own standards for creating and distributing movies in a secure way. The DCI (Digital Cinema Initiatives) specification defines everything from file formats and encryption to the projection systems itself.
+
+      The specification itself is publicly available but relies on various IEEE (Institute of Electrical and Electronics Engineers) and SMPTE (Society of Motion Picture and Television Engineers) standards, which have to be purchased.
+
+  - url: https://blog.lohr.dev/imap-introduction
+    title: "Talking To Your Mailserver Is Not as Hard as You Think!"
+    description: |
+      Email is very well distributed where you cannot get lock down by a provider. As long asyou own domain, you can move email anywhere. In email world, generally SMTP is for sending email and IMAP is for receiving mail. In this article, we focus on IMAPv4.
+
+  - url: https://www.ducktyped.org/p/why-is-it-called-a-cloud-if-its-not
+    title: "An illustrated guide to Amazon VPCs"
+
+  - url: https://diwank.space/field-notes-from-shipping-real-code-with-claude
+    title: "Field Notes From Shipping Real Code With Claude"
+    description: |
+      Think of this post as your field guide to a new way of building software. By the time you finish reading, you’ll understand not just the how but the why behind AI-assisted development that actually works.
+
+
+  - url: https://www.informationga.in/blog/building-an-ai-server-on-a-budget
+    title: "Building an AI Server on a Budget"
+    description: |
+      Instead of renting the GPU we can pay up-front cost to build a server with GPU. This post can serve as a simple foundation into this process with sourcing parts and assbler thing together.
+
+
+  - url: https://lichess.org/@/Mcie/blog/x-ray-defence-hidden-resource-sudden-lifeline/HERaZrZg
+    title: "X-Ray Defence: Hidden Resource, Sudden Lifeline"
+
+  - url: https://www.warpstream.com/blog/taking-out-the-trash-garbage-collection-of-object-storage-at-massive-scale
+    title: "Taking out the Trash: Garbage Collection of Object Storage at Massive Scale"
+
+  - url: https://www.warpstream.com/blog/a-trip-down-memory-lane-how-we-resolved-a-memory-leak-when-pprof-failed-us
+    title: "A Trip Down Memory Lane: How We Resolved a Memory Leak When pprof Failed Us"
+
+  - url: https://github.com/LukasOgunfeitimi/TikTok-ReverseEngineering
+    title: "TikTok VM Reverse Engineering (webmssdk.js)"
+    
+
+  - url: https://github.com/dontriskit/awesome-ai-system-prompts?utm_source=changelog-news
+    title: "Crafting Effective Prompts for Agentic AI Systems: Patterns and Practices"
+    description: |
+       Curated collection of system prompts for top AI tools. Perfect for AI agent builders and prompt engineers. Incuding: ChatGPT, Claude, Perplexity, Manus, Claude-Code, Loveable, v0, Grok, same new, windsurf, notion, and MetaAI.
+
+  - url: https://github.com/trimstray/the-book-of-secret-knowledge
+    title: The Book of Secret Knowledge 
+    description: |
+      A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
+
+read_code:
+
+
+video:
+  - url: https://github.com/yjacquin/fast-mcp
+    title: fast-mcp
+    description: |
+      Use Ruby DSL to let AI Model call function inside your Ruby app
+    category: ['Ruby']
+
+  - url: https://github.com/maquina-app/rails-mcp-server
+    title: rails-mcp-server
+    description: |
+      A Ruby implementation of a Model Context Protocol (MCP) server for Rails projects. This server allows LLMs (Large Language Models) to interact with Rails projects
+    category: ['Ruby']
+
+  - url: https://github.com/mark3labs/mcp-go
+    title: mcp-go
+    description: |
+      A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.
+    category: ['Go']
+
+  - url: https://github.com/ploMP4/chafa-go
+    title: chafa-go
+    description: |
+      Go bindings for the Chafa terminal graphics library. Render high quality images on the terminal without CGO or external dependencies.
+    category: ['Go']
+
+  - url: https://github.com/livingbio/typed-ffmpeg
+    title: "typed-ffmpeg"
+    description: |
+      offers a modern, Pythonic interface to FFmpeg, providing extensive support for complex filters with detailed typing and documentation.
+    category: ['Python']
+
+
+tool:
+  - url: https://github.com/neon443/AirAP
+    title: AirAP
+    description: |
+      airplay to an ios device, use your iphone as an airplay receiver
+
+  - url: https://github.com/microsoft/markitdown
+    title: markitdown
+    description: |
+      Python tool for converting files and office documents to Markdown.
+      
+  - url: https://github.com/shcherbak-ai/contextgem
+    title: contextgem
+    description: |
+      Effortless LLM extraction from documents
+
+  - url: https://github.com/koaning/smartfunc
+    title: "Turn docstrings into LLM-functions"
+
+  - url: https://github.com/crystaldba/postgres-mcp
+    title: "postgres-mcp"
+    description: |
+      Postgres MCP Pro is an open source Model Context Protocol (MCP) server built to support you and your AI agents throughout the entire development process—from initial coding, through testing and deployment, and to production tuning and maintenance.
+
+  - url: https://github.com/hapostgres/pg_auto_failover
+    title: pg_auto_failover
+    description: |
+      Postgres extension and service for automated failover and high-availability
+
+  - url: https://github.com/mgechev/revive
+    title: revive
+    description: |
+      🔥 ~6x faster, stricter, configurable, extensible, and beautiful drop-in replacement for golint
+
+self_hosted:
+  - url: https://github.com/Aider-AI/aider/
+    title: "aider: AI Pair Programming in Your Terminal"
+    description: |
+      Aider lets you pair program with LLMs to start a new project or build on your existing codebase.
+
+  - url: https://github.com/sissbruecker/linkding
+    title: linkding
+    description: "Self-hosted bookmark manager that is designed be to be minimal, fast, and easy to set up using Docker."
+
+
