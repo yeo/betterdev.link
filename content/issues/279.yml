@@ -73,6 +73,10 @@ links:
     description: |
       Think of this post as your field guide to a new way of building software. By the time you finish reading, you’ll understand not just the how but the why behind AI-assisted development that actually works.
 
+  - url: https://eshsoft.com/blog/how-reladiff-works
+    title: "How Reladiff Works"
+    description: |
+      diffing dataset is very useful in data engineering. incremental syncing, detect drift etc. how can we create a tool that could efficiently diff large SQL datasets across different databases and servers. This article build such as a tool with: Divide, Hash, And Conquer
 
   - url: https://www.informationga.in/blog/building-an-ai-server-on-a-budget
     title: "Building an AI Server on a Budget"
