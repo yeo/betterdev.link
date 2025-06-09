@@ -1,13 +1,13 @@
-time: "June 08, 2025"
+time: "Jun 08, 2025"
 subject: "What is Entropy and How DCI Movie Delivery and Encryption works"
 draft: false
 
 description: |
   Hi all,
 
-  I had been a heavy AI/LLM user. Recenntly I'm impressive with what Gemini can do. It helps me write a lot of helper and tedious script which will take me days or even weeks now I can do in 1/10 of time. So I plan to share more about LLM/AI to help all of us. Thing like "write a systemd timer" to "only keep the file created today to prevent disk filling".
+  I recently becomes a heavy LLM user in coding, It helps me write a lot of helper and tedious script which will take me days or even weeks now I can do in 1/10 of time. It is great when you know how to do something but dont' want to sit down and write it. Especially on UI.  So I plan to share more about LLM/AI to help all of us. 
 
-  Mozilla is shutting down Pocket on July 8, 2025. In spirit of self-hosted, I had switch to [linkding](https://linkding.link/]. I then use this [simple script](https://gist.github.com/v9n/7453a635acc2d7a84a28619b1e2ede7c) to import Pocket archive to linkding. The script was written by Gemini btw.
+  On other note, Mozilla is shutting down Pocket on July 8, 2025. In spirit of self-hosted, I had switch to [linkding](https://linkding.link/). I wrote this [simple script](https://gist.github.com/v9n/7453a635acc2d7a84a28619b1e2ede7c) to import Pocket archive to linkding. The script was written by Gemini btw.
 
   If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
 
@@ -19,13 +19,16 @@ links:
     title: "Your data, built your way. Twilio Segment. For data you can depend on."
     description: |
       Customer Data You Can Depend On
-
+      <br />
       We know you run your business on data, so you better be able to depend on it.
 
+      <br />
       Twilio Segment was purpose-built so that you don’t have to worry about your data. Forget the data chaos, dissolve the silos between teams and tools, and bring your data together with ease.
       
+      <br />
       So that you can spend more time innovating and less time integrating.
       
+      <br />
       [Talk to sales and get a guided tour of Twilio Segment tailored to your business.](https://www.vpdae.com/redirect/3wtmx0m2socmdrancrul6pnfvub)
     category: ['sponsor']
 
