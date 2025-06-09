@@ -44,6 +44,11 @@ links:
 
       The specification itself is publicly available but relies on various IEEE (Institute of Electrical and Electronics Engineers) and SMPTE (Society of Motion Picture and Television Engineers) standards, which have to be purchased.
 
+  - url: https://www.pixelstech.net/article/1747708863-openai%3a-scaling-postgresql-to-the-next-level
+    title: "OpenAI: Scaling PostgreSQL to the Next Level"
+    description: |
+      At scale of OpenAI, I imagine they might shard PostgreSQL. But they utilize an unsharded architecture with one writer and multiple readers, demonstrating that PostgreSQL can scale gracefully under massive read loads.
+
   - url: https://blog.lohr.dev/imap-introduction
     title: "Talking To Your Mailserver Is Not as Hard as You Think!"
     description: |
@@ -51,6 +56,13 @@ links:
 
   - url: https://www.ducktyped.org/p/why-is-it-called-a-cloud-if-its-not
     title: "An illustrated guide to Amazon VPCs"
+    description: |
+      In this section, I talk about why VPCs were invented and how they work. This is critical to understand because almost everything you do in AWS will happen inside of VPC. If you don't understand VPCs, it will be difficult to understand any of the other networking concepts.
+
+  - url: https://www.springtail.io/blog/postgres-logical-replication
+    title: "Understanding logical replication in Postgres"
+    description: |
+      A deeper look at how PostgreSQL logical replication works, from WAL internals and logical decoding to streaming protocols and replica lag. If you’ve ever wondered what’s happening under the hood, this post connects the dots.
 
   - url: https://diwank.space/field-notes-from-shipping-real-code-with-claude
     title: "Field Notes From Shipping Real Code With Claude"
@@ -123,6 +135,14 @@ video:
 
 
 tool:
+  - url: https://why-upgrade.depesz.com/show?from=17.4&to=17.5
+    title: "Why upgrade PostgreSQL?"
+    description: |
+      Build by the fame depesz, it tells you what you got between 2 PG version.
+  - url: https://postgresqlco.nf/doc/en/param/
+    title: "PostgreSQL Conf: Parameters Documentation"
+    description: |
+      A simple list of all PostgreSQL parameter.
   - url: https://github.com/neon443/AirAP
     title: AirAP
     description: |
@@ -155,6 +175,11 @@ tool:
     title: revive
     description: |
       🔥 ~6x faster, stricter, configurable, extensible, and beautiful drop-in replacement for golint
+
+  - url: https://github.com/pgsty/pg_exporter
+    title: pg_exporter
+    description: |
+      Advanced PostgreSQL & Pgbouncer Metrics Exporter for Prometheus
 
 self_hosted:
   - url: https://github.com/Aider-AI/aider/
