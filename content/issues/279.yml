@@ -58,6 +58,10 @@ links:
     title: "An illustrated guide to Amazon VPCs"
     description: |
       In this section, I talk about why VPCs were invented and how they work. This is critical to understand because almost everything you do in AWS will happen inside of VPC. If you don't understand VPCs, it will be difficult to understand any of the other networking concepts.
+  - url: https://behind.pretix.eu/2018/01/20/cups-driver/
+    title: "Writing your own CUPS printer driver in 100 lines of Python"
+    description: |
+      Printing on unix-like operating systems like Linux or macOS is usually done through the CUPS daemon. CUPS is responsible for handling printer configuration, scheduling print jobs and actually talking to the printer over the wire. In this article we discuss a printer system for ticket using FGL. And they implement a CUPS driver to take the rastered pixel data and ouput FGL.
 
   - url: https://www.springtail.io/blog/postgres-logical-replication
     title: "Understanding logical replication in Postgres"
@@ -75,6 +79,10 @@ links:
     description: |
       Instead of renting the GPU we can pay up-front cost to build a server with GPU. This post can serve as a simple foundation into this process with sourcing parts and assbler thing together.
 
+  - url: https://mattrighetti.com/2025/06/04/too-many-files-open
+    title: "Too Many Open Files"
+    description: |
+      Every backend dev will hit file limit at some point and we run something like `ulimit -n 65000` to fix it. But how we debug it, how we find out how many file it openning? and what is these file descriptor.
 
   - url: https://lichess.org/@/Mcie/blog/x-ray-defence-hidden-resource-sudden-lifeline/HERaZrZg
     title: "X-Ray Defence: Hidden Resource, Sudden Lifeline"
@@ -84,12 +92,10 @@ links:
 
   - url: https://www.warpstream.com/blog/a-trip-down-memory-lane-how-we-resolved-a-memory-leak-when-pprof-failed-us
     title: "A Trip Down Memory Lane: How We Resolved a Memory Leak When pprof Failed Us"
+    description: |
+      Warpstream control plane is written in Go, which has excellent built-in support for debugging application memory issues with pprof. We’ve used pprof hundreds of times in the past to debug performance issues, and usually memory leaks are particularly easy to spot. But in this case, this isn’t something that pprof could help with.
 
-  - url: https://github.com/LukasOgunfeitimi/TikTok-ReverseEngineering
-    title: "TikTok VM Reverse Engineering (webmssdk.js)"
-    
-
-  - url: https://github.com/dontriskit/awesome-ai-system-prompts?utm_source=changelog-news
+  - url: https://github.com/dontriskit/awesome-ai-system-prompts?
     title: "Crafting Effective Prompts for Agentic AI Systems: Patterns and Practices"
     description: |
        Curated collection of system prompts for top AI tools. Perfect for AI agent builders and prompt engineers. Incuding: ChatGPT, Claude, Perplexity, Manus, Claude-Code, Loveable, v0, Grok, same new, windsurf, notion, and MetaAI.
@@ -100,9 +106,6 @@ links:
       A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
 
 read_code:
-
-
-video:
   - url: https://github.com/yjacquin/fast-mcp
     title: fast-mcp
     description: |
@@ -133,8 +136,25 @@ video:
       offers a modern, Pythonic interface to FFmpeg, providing extensive support for complex filters with detailed typing and documentation.
     category: ['Python']
 
+  - url: https://github.com/xdadda/mini-photo-editor
+    title: mini-photo-editor
+    description: |
+      Online webgl photo editor with effects, filters and cropping
+    category: ['JavaScript']
+
+video:
+
 
 tool:
+  - url: https://github.com/sebastiancarlos/beachpatrol
+    title: beachpatrol
+    description: |
+      Browser's End-user Automation CLI Hub. Potentialize All Tasks Regarding Online Life.
+  - url: https://www.glowui.com/icons
+    title: glowui
+    description: |
+      442 open source icons in 2 styles, made for interfaces. MIT license
+
   - url: https://why-upgrade.depesz.com/show?from=17.4&to=17.5
     title: "Why upgrade PostgreSQL?"
     description: |
