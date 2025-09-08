@@ -1,0 +1,178 @@
+time: "Sep 08, 2025"
+subject: "Inside the Apollo '8-Ball' FDAI (Flight Director / Attitude Indicator)"
+draft: false
+
+description: |
+  Hi all,
+
+  We came back with other issue. I had got a new job with lot of duties last few month but things are cooling down so we're going back :).
+
+  My friend, [Joel Dare](https://joeldare.com/) has also start writing a news letter, you may consider to subscribe there. He's also creator of [neat](https://neat.joeldare.com/) which as its name, a very neat css framework.
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+  - "<img src='https://www.vpdae.com/open/b6e5589c.gif?opens=1' width='1' height='1'>"
+
+links:
+  - url: https://www.vpdae.com/redirect/v2eldz500zh14wqby87imjjqscd
+    title: "Transform Your Career: Build, Learn, and Network at AWS re:Invent 2025 | Las Vegas."
+    description: |
+      Transform your skills at AWS re:Invent 2025. Over five dynamic days, you’ll dive into technical training, explore the latest technologies, and build valuable peer connections.Take home practical solutions that deliver instant value to your work and advance your career.
+      <br />
+
+      Join us in Las Vegas from December 1-5 to:
+      <br />
+  
+      - Access insider knowledge through interactive labs, technical sessions, and workshops
+      - Accelerate your learning through direct mentorship from AWS experts
+      - Build your network and connect with peers who share your technical interests through AWS Community Programs at the Developer Pavilion
+      - Experience live music, amazing food, and more at re:Play, the ultimate tech celebration
+      - Attend in person and receive a 50% discount voucher for any AWS Certification exam
+      - Team up and save - Get one free pass for every 10 passes purchased*
+
+      [Our 2025 event catalog is now available! From experimenting with new solutions to interactive workshops and hands-on training, we've got something for everyone at AWS re:Invent](https://www.vpdae.com/redirect/v2eldz500zh14wqby87imjjqscd).
+    category: ['sponsor']
+
+  - url: https://www.righto.com/2025/06/inside-apollo-fdai.html
+    title: |
+      Inside the Apollo "8-Ball" FDAI (Flight Director / Attitude Indicator)"
+    description: |
+      The Apollo "8-Ball" FDAI (Flight Director/Attitude Indicator) was a crucial instrument in Apollo spacecraft, used to display the vehicle's orientation. The article details its complex internal workings, which include a multi-axis rotating ball mechanism driven by three motors and a servo loop. The specific unit examined was later modified for use in a Space Shuttle simulator, with changes made to its components and markings.
+
+  - url: https://namvdo.ai/cpu-branch-prediction/
+    title: "Branch prediction: Why CPUs can’t wait?"
+    description: |
+      There are some latency numbers that every programmer should know, according to Jeff Dean, and one of them is branch misprediction, which costs around 5ns in 2012, and the latency remains roughly the same as the time of writing this post. So what is branch prediction, what happens when it’s mispredicted, and why is it costly?
+
+  - url: https://stefan-marr.de/2025/08/how-to-slow-down-a-program/
+    title: "How to Slow Down a Program? And Why it Can Be Useful."
+    description: |
+      Making programs slower can be useful to find race conditions, to simulate speedups, and to assess how accurate profilers are.
+      To detect race conditions, we may want to use an approach similar to fuzzing. Instead of exploring a program’s implementation by varying its input, we can explore different instruction interleavings, thread or event schedules, by slowing down program parts to change timings. This approach allows us to identify concurrency bugs and is used by CHESS, WAFFLE, and NACD.
+
+  - url: https://www.thenile.dev/blog/uuidv7
+    title: "UUIDv7 Comes to PostgreSQL 18"
+    description: |
+      UIDv7 is a highly important and long-awaited feature that addresses a major pain point for developers who use UUIDs as primary keys in databases. Unlike older versions like UUIDv4, which are randomly generated and lead to poor performance and index bloat in B-tree indexes, UUIDv7 incorporates a Unix Epoch timestamp. This makes it time-ordered, ensuring that new UUIDs are inserted sequentially, which significantly improves performance for write-heavy workloads. The article emphasizes that this quiet but impactful addition "brings the best of both worlds" by providing global uniqueness while also being sortable and performance-friendly.
+
+  - url: https://codeberg.org/oils/oils.vim/src/branch/main/doc/algorithms.md
+    title: "Three Algorithms for YSH Syntax Highlighting"
+    description: |
+      I always like syntax highling algorithm. It's something we take for granted and didn't ask how it can be done. Andy walked us through how he do it for his own shell language.
+
+  - url: https://osor.io/text
+    title: "Rendering Crispy Text On The GPU"
+    description: |
+      The webpage describes a new method for GPU text rendering that uses vector data of glyphs instead of pre-baked textures, addressing issues like poor quality with certain fonts and large texture sizes. The approach involves loading raw Bézier curves, sending them to the GPU, and rasterizing them at runtime with a temporal accumulation technique for high-quality anti-aliasing. This method also allows for customized subpixel anti-aliasing to eliminate color fringing on different monitor layouts.
+
+  - url: https://madebyevan.com/algos/crdt-text-buffer/
+    title: "CRDT: Text Buffer"
+    description: |
+      Collaboratively editing strings of text is a common desire in peer-to-peer applications. For example, a note-taking app might represent each document as a single collaboratively-edited string of text.
+
+      The algorithm presented here is one way to do this. It comes from a family of algorithms called CRDTs, which I will not describe here. It's similar to the approaches taken by popular collaborative text editing libraries such as Yjs and Automerge. Other articles have already been written about these similar approaches (see the references section below), but this article also has a nice interactive visualization of what goes on under the hood.
+
+  - url: https://briefer.cloud/blog/posts/p-hacking/
+    title: "P-Hacking in Startups"
+    description: |
+      Speed kills rigor. In startups, the pressure to ship fast pushes teams to report anything that looks like an improvement. That’s how p-hacking happens. This piece breaks down three common cases—and how to avoid them
+
+  - url: https://xania.org/202506/how-compiler-explorer-works
+    title: "How Compiler Explorer Works in 2025"
+    description: |
+      explains how Compiler Explorer works, a popular online tool for compiling code and viewing assembly output. The site handles millions of compilations annually, using Google's nsjail tool for security to isolate compilation processes. To manage a massive 4 terabyte collection of over 4,700 compiler versions and reduce latency, it uses squashfs images mounted over NFS. The article concludes by discussing the site's future plans, including the addition of an AI explanation tool and user accounts.
+
+  - url: https://rrampage.github.io/2025/06/13/strace-tips-for-better-debugging/
+    title: "strace tips for better debugging"
+    description: |
+      Have you ever scratch your head and see why your program seems hang? with very low CPU utilization? When you do `strace` it just show a bunch of FUTEX. In this short article we just learn some useful options and flags of strace to debug these easiser
+
+  - url: https://tylercipriani.com/blog/2022/11/19/git-notes-gits-coolest-most-unloved-feature/
+    title: "Git Notes: git's coolest, most unloved­ feature"
+    description: |
+      the short of it is: they’re cool for appending notes from automated systems (like ticket or build systems) but not really for having interactive conversations with other developers (at least not yet)
+
+read_code:
+  - url: https://github.com/yousef-rafat/miniDiffusion
+    title: "miniDiffusion"
+    description: |
+      A reimplementation of Stable Diffusion 3.5 in pure PyTorch. The [Hacker News](https://news.ycombinator.com/item?id=44276476) thread also had a lot of userful and great comment.
+    category: ['Python']
+
+  - url: https://github.com/EbodShojaei/bake
+    title: bake
+    description: |
+      a Makefile formatter and linter. It only took 50 years!
+    category: ['Python']
+
+  - url: https://github.com/public-law/naturally
+    title: naturally
+    description: |
+      Natural ("version number") sorting with support for: name, legal doc numbering, 
+    category: ['Ruby']
+
+  - url: https://github.com/adamhl8/filterql
+    title: filterql
+    description: |
+      A tiny query language for filtering structured data
+    category: ['JavaScript']
+
+video:
+  - url: https://www.youtube.com/watch?v=hlWWG5WZHOA
+    title: Compiling Postgres to WASM with PGlite (PGConf.dev 2025)
+
+tool:
+  - url: https://github.com/3b1b/manim
+    title: manim
+    description: |
+      Animation engine for explanatory math videos
+
+  - url: https://github.com/halo/LinkLiar
+    title: LinkLiar
+    description: "Link-Layer MAC spoofing GUI for macOS"
+
+  - url: https://github.com/Orange-OpenSource/hurl
+    title: hurl
+    description: |
+      run and test HTTP requests with plain text.
+
+  - url: https://github.com/aws/pgactive
+    title: pgactive
+    description: |
+      Active-active Replication Extension for PostgreSQL (pgactive)
+
+  - url: https://github.com/hashmap-kz/pgrwl
+    title: pgrwl
+    description: |
+      Cloud-Native PostgreSQL WAL receiver. Stream, compress, encrypt, upload, retain and monitor your WAL archive.
+
+  - url: https://github.com/good-lly/s3mini
+    title: "s3mini"
+    description: |
+      Tiny S3 client. Edge computing ready. No-dep. In Typescript. Works with @cloudflare @minio @Backblaze @digitalocean @garagehq
+
+  - url: https://gonzo.controltheory.com/
+    title: gonzo
+    description: |
+      A powerful, real-time log analysis terminal UI inspired by k9s. Analyze log streams with beautiful charts, AI-powered insights, and advanced filtering - all from your terminal
+
+self_hosted:
+  - url: https://github.com/luminal-ai/luminal
+    title: luminal
+    description: |
+      a deep learning library that uses search-based compilation to achieve high performance.
+  - url: https://github.com/basecamp/once-campfire
+    title: once-campfire
+    description: |
+      web-based chat application. It supports many of the features you'd expect, including: room, DM, Seach, notificaiton and mention
+
+  - url: https://github.com/tensorchord/VectorChord
+    title: VectorChord
+    description: |
+      Scalable, fast, and disk-friendly vector search in Postgres, the successor of pgvecto.rs.
+
+  - url: https://github.com/BemiHQ/BemiDB
+    title: BemiDB
+    description: |
+      Open-source Snowflake and Fivetran alternative bundled together
