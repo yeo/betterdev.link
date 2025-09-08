@@ -13,6 +13,7 @@ description: |
 
 external_snippets:
   - "<img src=\"https://www.vpdae.com/open/bfc95698.gif?opens=1\" width=\"1\">"
+  - "<img src='https://www.vpdae.com/open/bfc95698.gif?opens=1' width='1' height='1'>"
 
 links:
   - url: https://www.vpdae.com/redirect/v2eldz500zh14wqby87imjjqscd
