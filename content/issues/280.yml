@@ -18,20 +18,23 @@ links:
   - url: https://www.vpdae.com/redirect/v2eldz500zh14wqby87imjjqscd
     title: "Transform Your Career: Build, Learn, and Network at AWS re:Invent 2025 | Las Vegas."
     description: |
-      Transform your skills at AWS re:Invent 2025. Over five dynamic days, you’ll dive into technical training, explore the latest technologies, and build valuable peer connections.Take home practical solutions that deliver instant value to your work and advance your career.
-      <br />
+      Transform your skills at AWS re:Invent 2025. Over five dynamic days, you’ll dive into technical training, explore the latest technologies, and build valuable peer connections.Take home practical solutions that deliver instant value to your work and advance your career.<br/><br>
 
-      Join us in Las Vegas from December 1-5 to:
-      <br />
+      Join us in Las Vegas from December 1-5 to:<br/><br>
   
-      - Access insider knowledge through interactive labs, technical sessions, and workshops
-      - Accelerate your learning through direct mentorship from AWS experts
-      - Build your network and connect with peers who share your technical interests through AWS Community Programs at the Developer Pavilion
-      - Experience live music, amazing food, and more at re:Play, the ultimate tech celebration
-      - Attend in person and receive a 50% discount voucher for any AWS Certification exam
-      - Team up and save - Get one free pass for every 10 passes purchased*
+      ● Access insider knowledge through interactive labs, technical sessions, and workshop<br>
 
-      [Our 2025 event catalog is now available! From experimenting with new solutions to interactive workshops and hands-on training, we've got something for everyone at AWS re:Invent](https://www.vpdae.com/redirect/v2eldz500zh14wqby87imjjqscd).
+      ● Accelerate your learning through direct mentorship from AWS experts<br/>
+
+      ● Build your network and connect with peers who share your technical interests through AWS Community Programs at the Developer Pavilion<br/>
+
+      ● Experience live music, amazing food, and more at re:Play, the ultimate tech celebration<br/>
+
+      ● Attend in person and receive a 50% discount voucher for any AWS Certification exam<br/>
+
+      ● Team up and save - Get one free pass for every 10 passes purchased*<br/><br>
+
+      Our 2025 event catalog is now available! From experimenting with new solutions to interactive workshops and hands-on training, we've got something for everyone at [AWS re:Invent](https://www.vpdae.com/redirect/v2eldz500zh14wqby87imjjqscd).
     category: ['sponsor']
 
   - url: https://www.righto.com/2025/06/inside-apollo-fdai.html
@@ -123,6 +126,11 @@ video:
     title: Compiling Postgres to WASM with PGlite (PGConf.dev 2025)
 
 tool:
+  - url: https://codeberg.org/chrisn/peaks.js
+    title: "peaks.js"
+    description: |
+      JavaScript UI component for interacting with audio waveforms
+
   - url: https://github.com/3b1b/manim
     title: manim
     description: |
