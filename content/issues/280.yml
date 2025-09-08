@@ -176,3 +176,13 @@ self_hosted:
     title: BemiDB
     description: |
       Open-source Snowflake and Fivetran alternative bundled together
+
+  - url: https://autobase.tech/
+    title: autobase
+    description: |
+      Open Source, self-hosted DBaaS / Automation platform for PostgreSQL. Autobase automates deployment and maintenance, ensuring high availability, scalability, and cost efficiency—even for teams without deep DBA expertise. Say goodbye to manual database management!
+
+  - url: https://github.com/microsandbox/microsandbox
+    title: microsandbox
+    description: |
+      Self-hosted plaform for secure execution of untrusted user/AI code
