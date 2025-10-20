@@ -1,0 +1,129 @@
+time: "Oct 20, 2025"
+subject: "How to create an OS from scratch"
+draft: false
+
+description: |
+  Hi all,
+
+  It's already autumn and we will continue to get more issue moving forward. Hope everyone have a great haloween ahead. I also shared a story about someone almost got hack by being trick into running code for an interview. Remind so stay safe these day, never run untrusted code on your machine.
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+  - "<img src='https://www.vpdae.com/open/09893839.gif?opens=1' width='1' height='1'>"
+
+links:
+  - url: https://www.vpdae.com/redirect/hdskc3nq5hrt576pu56rq17hxq4
+    title: "Build your next on HubSpot with the flexibility of an all-new Developer Platform"
+    description: |
+      The HubSpot Developer Platform gives you the tools to build, extend, and scale with confidence. Create AI-ready apps, integrations, and workflows faster with a unified platform designed to grow alongside your business.
+    category: ['sponsor']
+
+  - url: https://github.com/cfenollosa/os-tutorial/tree/master
+    title: "How to create an OS from scratch"
+    description: |
+      May sound overwhelm but it's very approachable with step by step building from previous foundation. Eg to write the initial boot loader you just need:
+        loop:
+            jmp loop
+        
+        times 510-($-$$) db 0
+        dw 0xaa55
+
+      A very detail setup so you can prepare emulator to start learning these.
+
+  - url: https://planetscale.com/blog/caching
+    title: Caching
+    description: |
+      Every time you use a computer, caches work to ensure your experience is fast. Everything a computer does from executing an instruction on the CPU, to requesting your X.com feed, to loading this very webpage, relies heavily on caching. You are about to enjoy a guided, interactive tour of caching: the most elegant, powerful, and pervasive innovation in computing.
+
+  - url: https://samwho.dev/big-o/
+    title: Big O
+    description: |
+      A visual introduction to big O notation.
+
+  - url: https://eli.thegreenplace.net/2025/consistent-hashing/
+    title: Consistent hashing
+    description: |
+      This post is an introduction to consistent hashing, an algorithm for designing a hash table such that only a small portion of keys has to be recomputed when the table's size changes.
+
+  - url: https://www.tigerdata.com/learn/understanding-postgresql-tablespaces
+    title: "Understanding PostgreSQL Tablespaces"
+    description: |
+      By default all of the Postgres data stay in the same directory, under the same path and therefore the same volume. This limit our scale, many cloud provider has a max volume size, and they all share same IO. What can we do to put the database at different location instead?
+
+  - url: https://blog.daviddodda.com/how-i-almost-got-hacked-by-a-job-interview
+    title: "How I Almost Got Hacked By A 'Job Interview"
+    description: |
+      Be careful out there with sophisicated phishing attempt nowadays. Bottom line is never ever run untrusted code directly on your machine.
+
+
+  - url: https://heikkila.dev/blog/find-where-a-specific-object-was-allocated-in-javascript/
+    title: "Find where a specific object was allocated in JavaScript with DevTools"
+    description: |
+      Maybe you’re debugging a network request, but the stack trace has been laundered away by a batching mechanism. Maybe you have an enormous React codebase with kilometers of prop drilling, and you can’t be bothered to hit Go To References all morning. In any case, sometimes you just wish you could see where that specific object in the debugger was created.
+
+  - url: https://garrido.io/notes/wireguard-topologies-for-self-hosting-at-home/
+    title: "WireGuard topologies for self-hosting at home"
+  - url: https://mazzo.li/posts/stopping-linux-threads.html
+    title: "How to stop Linux threads cleanly"
+    description: |
+      Once you get into the business of starting threads, you’re probably also in the business of stopping them. However the former is much easier than the latter. With “stopping” I mean stopping the thread while giving it a chance to run some cleanup operations before fully terminating. Or in other words, we want to terminate a thread while ensuring that memory is freed, locks are released, logs are flushed, and so on
+
+  - url: https://tanelpoder.com/posts/generate-qr-code-with-pure-sql-in-postgres/
+    title: "pqr.sql: Generate QR Codes with Pure SQL in PostgreSQL"
+read_code:
+  - url: https://github.com/rack/rack-attack
+    title: rack-attack
+    description: |
+      Rack middleware for blocking & throttling
+    category: ['Ruby']
+
+  - url: https://github.com/timtatt/sift
+    title: sift
+    description: |
+      A lightweight terminal UI for displaying Go tests
+    category: ['Go']
+
+  - url: https://github.com/ebitengine/oto
+    title: oto
+    description: |
+      ♪ A low-level library to play sound on multiple platforms ♪
+    category: ['Go']
+
+video:
+
+tool:
+  - url: https://pgsync.com/
+    title: pgsync
+    description: |
+       keeps PostgreSQL/MySQL/MariaDB as your source of truth and publishes denormalized documents to Elasticsearch/OpenSearch—continuously and transactionally.
+  - url: https://github.com/h4kbas/pgcalendar
+    title: pgcalendar
+    description: |
+      A PostgreSQL extension that provides infinite calendar functionality for recurring schedules with exceptions
+
+  - url: https://anchor.dev/relay
+    title: relay
+    description: |
+      Fast & free browser trusted HTTPS certificates
+
+  - url: https://github.com/BuilderIO/builder
+    title: builder
+    description: |
+      Visual Development for React, Vue, Svelte, Qwik, and more
+
+self_hosted:
+  - url: https://github.com/neondatabase-labs/elephantshark
+    title: elephantshark
+    description: |
+      helps monitor, understand and troubleshoot Postgres network traffic: Postgres clients, drivers and ORMs talking to Postgres servers, proxies and poolers (also: standby servers talking to their primaries and subscriber servers talking to their publishers).
+
+  - url: https://github.com/carverauto/serviceradar
+    title: serviceradar
+    description: |
+      powerful opensource network management and observability platform
+
+  - url: https://github.com/Basekick-Labs/arc
+    title: arc
+    description: |
+      Time-series data warehouse built for speed. 2.42M records/sec on local NVMe. DuckDB + Parquet + Arrow + flexible storage (local/MinIO/S3)
