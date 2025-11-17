@@ -111,9 +111,17 @@ read_code:
       A lightweight vLLM implementation built from scratch.
     category: ['Python']
 
+  - url: https://github.com/zensical/zensical
+    title: zensical
+    description: |
+      A modern static site generator by the creators of Material for MkDocs
 video:
 
 tool:
+  - url: https://github.com/datalab-to/chandra
+    title: chandra
+    description: |
+      OCR model that handles complex tables, forms, handwriting with full layout.
   - url: https://perspective-dev.github.io/
     title: perspective
     description: |
