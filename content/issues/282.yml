@@ -1,0 +1,175 @@
+time: "Nov 16, 2025"
+subject: "The Internet is Cool. Thank you, TCP"
+draft: false
+
+description: |
+  Hi all,
+
+  Sometime when my though wandering the world, I just wonder how amazing TCP was design. The world all connect together because of it. Sometime you disconnect your VPN, then re-connect, and your SSH connection just resume. How amazing resilient it is. Today we discover that by learning about TCP protocol.
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+  - "<img src='https://www.vpdae.com/open/5e6fb195.gif?opens=1' width='1' height='1'>"
+
+links:
+  - url: https://www.vpdae.com/redirect/cuvtbdltpqpb701tgdwzrvrbm3a
+    title: "Build automation tools for AI agents. Earn passive income and win your share of $1M in prizes"
+    description: |
+      Developers earned $563K in September alone building automation tools on Apify. Now there's $1M more in prizes through January 31. Build web scrapers, API wrappers, MCP servers for AI agents. Earn up to $2K per tool based on monthly active users, compete for $30K/$20K/$10K grand prizes, plus $2K weekly spotlight prizes. Ongoing marketplace revenue continues after the challenge ends.
+    category: ['sponsor']
+
+  - url: https://cefboud.com/posts/tcp-deep-dive-internals/
+    title: "The Internet is Cool. Thank you, TCP"
+    description: |
+      The internet is incredible. It’s nearly impossible to keep people away from. But it can also be unreliable: packets drop, links congest, bits mangle, and data corrupts. Oh, it’s dangerous out there! (I’m writing this in Kramer’s tone)
+
+  - url: https://karboosx.net/post/4eZxhBon/building-a-simple-search-engine-that-actually-works
+    title: "Building a Simple Search Engine That Actually Works"
+    description: |
+      Sometimes you just want something that: Works with your existing database, Doesn't require external services, Is easy to understand and debug. That's what the OP built. A search engine that uses your existing database, respects your current architecture, and gives you full control over how it works.
+
+  - url: https://www.marginalia.nu/log/a_123_index_io/
+    title: "Faster Index I/O with NVMe SSDs"
+    description: |
+      Marginalia is an experimental search engine. The Marginalia Search index has been partially rewritten to perform much better, using new data structures designed to make better use of modern hardware. This post will cover the new design, and will also touch upon some of the unexpected and unintuitive performance characteristics of NVMe SSDs when it comes to read sizes.
+
+  - url: https://software.rajivprab.com/2018/04/29/myths-programmers-believe-about-cpu-caches/
+    title: "Myths Programmers Believe about CPU Caches"
+    description: |
+      As a computer engineer who has spent half a decade working with caches at Intel and Sun, I’ve learnt a thing or two about cache-coherency. This was one of the hardest concepts to learn back in college – but once you’ve truly understood it, it gives you a great appreciation for system design principles.
+
+  - url: https://blog.wilsonl.in/blobd/
+    title: "Building blobd: single-machine object store with sub-millisecond reads and 15 GB/s uploads"
+    description: |
+      I decided to experiment with writing an object store from scratch as a fun learning exercise, and to see how much I could get out of NVMe disks I had on my bare metal machines. Specifically, I wanted to really optimize for random reads and small objects — serving user content where the lower the latency, the better. This would not focus on other features; S3 is bottomless, distributed, and managed for example.
+
+  - url: https://www.crunchydata.com/blog/postgres-internals-hiding-in-plain-sight
+    title: "Postgres Internals Hiding in Plain Sight"
+    description: |
+      Postgres has an awesome amount of data collected in its own internal tables. Postgres hackers know all about this  - but software developers and folks working with day to day Postgres tasks often miss out the good stuff. Today I want to walk through some of the most important Postgres internal data catalog details. What they are, what is in them, and how they might help you understand more about what is happening inside your database.
+
+  - url: https://peterullrich.com/listen-to-database-changes-through-the-postgres-wal
+    title: "Listen to Database Changes through the Postgres WAL"
+    description: |
+      This could be a cheap way to have a Kafka-like consumer out of the box by consuming your Postgres WAL log. WAL log is like a stream of change happen to your database (update/create/delete) and you can decode them to JSON to see the change and act on them
+
+  - url: https://www.polarsignals.com/blog/posts/2025/11/04/javascript-source-maps-internals
+    title: "The Inner Workings of JavaScript Source Maps"
+    description: |
+      A deep dive into how JavaScript source maps work under the hood, with examples showing how all the pieces fit together.
+
+  - url: https://jakearchibald.com/2025/importing-vs-fetching-json/
+    title: "Importing vs fetching JSON"
+    description: |
+      Beside the usualy way of `await fetch` to load JSON API, we now can also use `import` directly. We had this in NodeJS with build tool already but now it's natively available in the browser too. Lets see when we should use what.
+
+  - url: https://pzarycki.com/en/posts/js-nan/
+    title: "Why NaN !== NaN in JavaScript (and the IEEE 754 story behind it)"
+
+
+read_code:
+  - url: https://github.com/randoneering/pgFirstAid
+    title: pgFirstAid
+    description: |
+      Easy-to-deploy, open source PostgreSQL function that provides a prioritized list of actions to improve database stability and performance.
+    category: ['PGpgSQL']
+
+  - url: https://github.com/shayonj/pg_easy_replicate
+    title: pg_easy_replicate
+    description: |
+      Easily setup logical replication and switchover to new database with minimal downtime
+    category: ['Ruby', 'Postgres']
+
+  - url: https://github.com/toorshia/justgage
+    title: justgage
+    description: |
+      a handy JavaScript plugin for generating and animating nice & clean dashboard gauges. It is based on Raphaël library for vector drawing
+    category: ['JavaScript']
+
+  - url: https://github.com/isaac-mason/navcat
+    title: navcat
+    description: |
+      javascript navigation mesh construction and querying library for 3D floor-based navigation
+    category: ['JavaScript']
+
+  - url: https://github.com/ashish0kumar/stormy
+    title: stormy
+    description: |
+      Minimal neofetch-like weather CLI. Just fun code to read.
+    category: ['Go']
+
+  - url: https://github.com/gosuda/portal
+    title: portal
+    description: |
+      Public Open Relay To Access Localhost
+    category: ['Go']
+
+  - url: https://github.com/GeeeekExplorer/nano-vllm
+    title: nano-vllm
+    description: |
+      A lightweight vLLM implementation built from scratch.
+    category: ['Python']
+
+video:
+
+tool:
+  - url: https://perspective-dev.github.io/
+    title: perspective
+    description: |
+      Perspective is an interactive analytics and data visualization component, which is especially well-suited for large and/or streaming datasets. Use it to create user-configurable reports, dashboards, notebooks and applications, then deploy stand-alone in the browser, or in concert with Python and/or Jupyterlab.
+
+  - url: https://github.com/vyruss/pg_statviz
+    title: "pg_statviz"
+    description: |
+      A minimalist extension and utility pair for time series analysis and visualization of PostgreSQL internal statistics.
+
+  - url: https://github.com/bucardo/check_postgres
+    title: check_postgres
+    description: |
+      Nagios check_postgres plugin for checking status of PostgreSQL databases. You probably cannot use this as it's because it's for Nagios but the script can adopt to any monitoring system.
+
+  - url: https://github.com/phare/sloggo/
+    title: sloggo
+    description: |
+      Minimal RFC 5424 syslog collector and viewer based on DuckDB. Runs as a single, resource-friendly process
+  - url: https://github.com/brianvoe/slim-select
+    title: slim-select
+    description: |
+      Advanced select dropdown without any dependencies
+
+  - url: https://github.com/casbin/caswaf
+    title: caswaf
+    description: |
+      HTTP & OAuth Gateway and Web Application Firewall (WAF) based on ModSecurity
+
+  - url: https://github.com/mmastrac/stylus/
+    title: stylus
+    description: |
+      Lightweight status page for home infrastructure
+
+self_hosted:
+  - url: https://github.com/microsoft/call-center-ai
+    title: "call-center-ai"
+    description: |
+      Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!
+
+  - url: https://github.com/h44z/wg-portal/
+    title: wg-portal
+    description: |
+      WireGuard Configuration Portal with LDAP connection
+
+  - url: https://docs.vectorchord.ai/vectorchord/getting-started/overview.html
+    title: vectorchord
+    description: |
+      a PostgreSQL extension designed for scalable, high-performance, and disk-efficient vector similarity search.
+
+  - url: https://github.com/abhixdd/UptimeKit/
+    title: UptimeKit
+    description: |
+      A simple uptime monitoring dashboard to keep track of your websites and APIs.
+
+  - url: https://github.com/midday-ai/midday
+    title: midday
+    description: |
+      Invoicing, Time tracking, File reconciliation, Storage, Financial Overview & your own Assistant made for Freelancers
