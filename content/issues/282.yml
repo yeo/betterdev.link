@@ -75,6 +75,12 @@ read_code:
       Easy-to-deploy, open source PostgreSQL function that provides a prioritized list of actions to improve database stability and performance.
     category: ['PGpgSQL']
 
+  - url: https://github.com/thoughtbot/top_secret
+    title: top_secret
+    description: |
+      Filter sensitive information from free text before sending it to external services or APIs, such as chatbots and LLMs.
+    category: ['Ruby']
+
   - url: https://github.com/shayonj/pg_easy_replicate
     title: pg_easy_replicate
     description: |
@@ -115,6 +121,7 @@ read_code:
     title: zensical
     description: |
       A modern static site generator by the creators of Material for MkDocs
+    category: ['Python']
 video:
 
 tool:
