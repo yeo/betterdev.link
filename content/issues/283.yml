@@ -1,0 +1,167 @@
+time: "Dec 15, 2025"
+subject: " "How when AWS was down, we were not and How to hink about GPUs"
+draft: false
+
+description: |
+  Hi all,
+
+  Merry Christmas everyone. It's the end of years, take sometime off and enjoy the season.
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+  - "<img src='https://www.vpdae.com/open/6da840b5.gif?opens=1' width='1' height='1'>"
+
+links:
+  - url: https://www.vpdae.com/redirect/lq0ijqet0zw1vsbofyk9sbxqc2h
+    title: "What Actually Moved the Needle for Engineering Leaders in 2025 — With Salesforce, Snyk, Port & Qodo"
+    description: |
+      What's actually working for engineering teams — and what's not? Hear from Benjamin Stice (Salesforce VP Engineering), Clinton Herget (Snyk Field CTO), Yonatan Boguslavsky (Port CTO), and Dedy Kredo (Qodo Co-Founder) in this candid panel discussion. Three fast, honest segments: What we're leaving behind: practices, tools, or org habits that no longer serve the team (and how we're unwinding them without chaos). What we're doubling down on: the investments that produced real outcomes in quality, delivery, and developer experience, and how we're scaling them. What we're betting on next: the experiments and measured risks we'll run in 2026 to meet reliability, security, and growth goals. No platitudes. Just real lessons from leaders who've steered teams through a year of AI transformation.
+    category: ['sponsor']
+
+
+  - url: https://authress.io/knowledge-base/articles/2025/11/01/how-we-prevent-aws-downtime-impacts
+    title: "How when AWS was down, we were not"
+    description: |
+      One of the most massive AWS incidents transpired on October 20th. The long story short is that the DNS for DynamoDB was impacted for us-east-1, which created a health event for the entire region. It's the worst incident we've seen in a decade. authress shares with us how they maintain a high SLI to match our SLA reliability commitment even when the infrastructure and services we use don't.
+
+  - url: https://jax-ml.github.io/scaling-book/gpus/
+    title: "How to Think About GPUs"
+    description: |
+      Part 12 of "How to Scale Your Model", an free ebook that aim to demystify the science of scaling language models: how TPUs (and GPUs) work and how they communicate with each other, how LLMs run on real hardware, and how to parallelize your models during training and inference so they run efficiently at massive scale.
+
+  - url: https://info.varnish-software.com/blog/how-memory-maps-mmap-deliver-25x-faster-file-access-in-go
+    title: "How Memory Maps (mmap) Deliver 25x Faster File Access in Go"
+    description: |
+      Memory maps are a modern Unix mechanism where you can take a file and make it part of the virtual memory. In Unix context, modern means that it was introduced in the 1980s or later. You have a file, containing data, you mmap it and you'll get a pointer to where this resides. Now, instead of seeking and reading, you just read from this pointer, adjusting the offset to get to the right data.
+
+  - url: https://eli.thegreenplace.net/2025/bloom-filters
+    title: "Bloom filters"
+    description: |
+      The original motivation for the creation of Bloom filters is efficient set membership, using a probabilistic approach to significantly reduce the time and space required to reject items that are not members in a certain set.
+
+  - url: https://ochagavia.nl/blog/what-the-heck-is-aead-again
+    title: "What the heck is AEAD again"
+    description: |
+      It stands for “Authenticated Encryption with Associated Data” but if you are struggling to remember what is it. This post sumarize nicely.
+
+  - url: https://kb.databasedesignbook.com/posts/sql-joins/
+    title: "sql joins"
+    description: |
+      There are many SQL JOINs guides and tutorials, but this one takes a different approach. We try to avoid misleading wording and imagery, and we structure the material in a different way. The goal of this article is to clarify your mental model
+
+  - url: https://www.crunchydata.com/blog/postgres-scan-types-in-explain-plans
+    title: "Postgres Scan Types in EXPLAIN Plans"
+    description: |
+      The secret to unlocking performance gains often lies not just in what you ask in a query, but in how Postgres finds the answer. The Postgres EXPLAIN system is great for understanding how data is being queried. One of secretes to reading EXPLAIN plans is understanding the type of scan done to retrieve the data. The scan type can be the difference between a lightning-fast response or a slow quey
+
+  - url: https://addyo.substack.com/p/21-lessons-from-14-years-at-google
+    title: "21 Lessons from 14 Years at Google"
+    description: |
+      Addy Osmani is a legendary engineer. In his own words: "When I joined Google ~14 years ago, I thought the job was about writing great code. I was partly right. But the longer I’ve stayed, the more I’ve realized that the engineers who thrive aren’t necessarily the best programmers - they’re the ones who’ve figured out how to navigate everything around the code: the people, the politics, the alignment, the ambiguity."
+
+  - url: https://calendar.perfplanet.com/2025/the-anatomy-of-a-web-performance-report/
+    title: "The Anatomy of a Web Performance Report"
+    description: |
+      WebPerformance Report was designed around that principle. Although its underlying data comes from automated performance tests, the report itself is intentionally high-level. It is structured to help anyone, developers, designers, marketers, and executives, understand what happened, why it matters, and where the opportunities lie.
+      This article walks through the anatomy of a Web Performance Report, explaining each section, why it exists, and what decisions it enables.
+
+  - url: https://www.maxdesign.com.au/articles/two-trees.html
+    title: Did you know your browser has two accessibility trees?
+    description: |
+      To implement accessibility, Chrome has this pipeline
+      DOM mutation -> AXEvent -> Accessibility tree -> OS accessibility API -> Screen reader. But  here’s the strange part: Chrome doesn’t have one accessibility tree, it has two. This article traces the full lifecycle of an accessibility event. From the moment the DOM changes, through Blink’s internal systems, through its internal accessibility tree, and finally back out into the BrowserAccessibility tree that screen readers query.
+
+  - url: https://netflixtechblog.com/100x-faster-how-we-supercharged-netflix-maestros-workflow-engine-028e9637f041
+    title: "100X Faster: How We Supercharged Netflix Maestro’s Workflow Engine"
+    description: |
+
+
+read_code:
+  - url: https://github.com/basecamp/fizzy
+    title: fizzy
+    description: |
+      37signals release this kanban style app. A good opportunity to dive into the source and see how DHH write user facing code.
+    category: ['Ruby']
+
+  - url: https://github.com/williamtroup/Heat.js
+    title: Heat.js
+    description: |
+      🌞 A lightweight JavaScript library that generates customizable heat maps, charts, and statistics to visualize date-based activity and trends.
+    category: ['JavaScript']
+
+  - url: https://github.com/steveiliop56/tinyauth
+    title: tinyauth
+    description: |
+      The simplest way to protect your apps with a login screen.
+    category: ['Go', 'JavaScript']
+
+  - url: https://github.com/nathan-barry/tiny-diffusion/tree/main
+    title: tiny-diffusion
+    description: |
+      A character-level language diffusion model trained on Tiny Shakespeare
+    category: ['Python']
+
+  - url: https://github.com/ringtailsoftware/uvm32
+    title: uvm32
+    description: |
+      Minimalist, dependency-free virtual machine sandbox for microcontrollers and other resource-constrained devices. Single C file, no dynamic memory allocations, asynchronous design, pure C99
+    category: ['C', 'C99']
+video:
+
+tool:
+  - url: https://driverjs.com/
+    title: driverjs
+    description: |
+      Lightweight JavaScript library for product tours, highlights, and contextual help to guide users through your product
+
+  - url: https://github.com/KoljaB/RealtimeVoiceChat
+    title: "RealtimeVoiceChat"
+    description: |
+      This project lets you chat with a Large Language Model (LLM) using just your voice, receiving spoken responses in near real-time. Think of it as your own digital conversation partner.
+
+  - url: https://github.com/gavrielc/Nano-PDF
+    title: Nano-PDF
+    description: |
+      Edit PDF files with Nano Banana
+
+  - url: https://github.com/MartenBE/mkslides
+    title: mkslides
+    description: |
+      Use mkslides to easily turn markdown files into beautiful slides using the power of Reveal.js!
+
+  - url: https://dbdock.mintlify.app/
+    title: dbdock
+    description: |
+      Enterprise-grade PostgreSQL backup and restore. Beautiful CLI with real-time progress tracking.
+
+  - url: https://temboard.readthedocs.io/en/latest/
+    title: termboard
+    description: |
+       powerful management tool for PostgreSQL. You can use it to monitor, optimize or configure multiple PostgreSQL instances.
+
+  - url: https://github.com/ClickHouse/pg_clickhouse
+    title: pg_clickhouse
+    description: |
+      Interfaces to query ClickHouse databases from PostgreSQL
+
+  - url: https://github.com/tiny-craft/tiny-rdm
+    title: tiny-rdm
+    description: |
+      (Tiny Redis Desktop Manager) - A modern, colorful, super lightweight Redis GUI client for Mac, Windows, and Linux.
+
+self_hosted:
+  - url: https://github.com/readur/readur/
+    title: readur
+    description: |
+      Quick, painless, intuitive OCR platform written in Rust and TypeScript. Modern UI with modern API, with an emphasis on intuitive user experience.
+
+  - url: https://github.com/clidey/whodb
+    title: whodb
+    description: |
+      A lightweight next-gen data explorer - Postgres, MySQL, SQLite, MongoDB, Redis, MariaDB, Elastic Search, and Clickhouse with Chat interface
+
+  - url: https://github.com/ngoduykhanh/wireguard-ui
+    title: wireguard-ui
+    description: |
+      Wireguard web interface
