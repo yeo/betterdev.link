@@ -1,5 +1,5 @@
 time: "Dec 15, 2025"
-subject: " "How when AWS was down, we were not and How to hink about GPUs"
+subject: "How when AWS was down, we were not and How to hink about GPUs"
 draft: false
 
 description: |
@@ -18,7 +18,6 @@ links:
     description: |
       What's actually working for engineering teams — and what's not? Hear from Benjamin Stice (Salesforce VP Engineering), Clinton Herget (Snyk Field CTO), Yonatan Boguslavsky (Port CTO), and Dedy Kredo (Qodo Co-Founder) in this candid panel discussion. Three fast, honest segments: What we're leaving behind: practices, tools, or org habits that no longer serve the team (and how we're unwinding them without chaos). What we're doubling down on: the investments that produced real outcomes in quality, delivery, and developer experience, and how we're scaling them. What we're betting on next: the experiments and measured risks we'll run in 2026 to meet reliability, security, and growth goals. No platitudes. Just real lessons from leaders who've steered teams through a year of AI transformation.
     category: ['sponsor']
-
 
   - url: https://authress.io/knowledge-base/articles/2025/11/01/how-we-prevent-aws-downtime-impacts
     title: "How when AWS was down, we were not"
@@ -67,15 +66,10 @@ links:
       This article walks through the anatomy of a Web Performance Report, explaining each section, why it exists, and what decisions it enables.
 
   - url: https://www.maxdesign.com.au/articles/two-trees.html
-    title: Did you know your browser has two accessibility trees?
+    title: "Did you know your browser has two accessibility trees?"
     description: |
       To implement accessibility, Chrome has this pipeline
       DOM mutation -> AXEvent -> Accessibility tree -> OS accessibility API -> Screen reader. But  here’s the strange part: Chrome doesn’t have one accessibility tree, it has two. This article traces the full lifecycle of an accessibility event. From the moment the DOM changes, through Blink’s internal systems, through its internal accessibility tree, and finally back out into the BrowserAccessibility tree that screen readers query.
-
-  - url: https://netflixtechblog.com/100x-faster-how-we-supercharged-netflix-maestros-workflow-engine-028e9637f041
-    title: "100X Faster: How We Supercharged Netflix Maestro’s Workflow Engine"
-    description: |
-
 
 read_code:
   - url: https://github.com/basecamp/fizzy
@@ -87,7 +81,7 @@ read_code:
   - url: https://github.com/williamtroup/Heat.js
     title: Heat.js
     description: |
-      🌞 A lightweight JavaScript library that generates customizable heat maps, charts, and statistics to visualize date-based activity and trends.
+      A lightweight JavaScript library that generates customizable heat maps, charts, and statistics to visualize date-based activity and trends.
     category: ['JavaScript']
 
   - url: https://github.com/steveiliop56/tinyauth
@@ -107,9 +101,13 @@ read_code:
     description: |
       Minimalist, dependency-free virtual machine sandbox for microcontrollers and other resource-constrained devices. Single C file, no dynamic memory allocations, asynchronous design, pure C99
     category: ['C', 'C99']
-video:
 
 tool:
+  - url: https://github.com/domcyrus/rustnet
+    title: rustnet
+    description: |
+      A cross-platform network monitoring terminal UI tool built with Rust
+
   - url: https://driverjs.com/
     title: driverjs
     description: |
