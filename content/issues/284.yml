@@ -7,7 +7,7 @@ description: |
 
   Trivy is a security scanner to find vulnerabilities, misconfigurations, secrets and very widely used. Imagine, [Trivy got under attack itself](https://socket.dev/blog/trivy-under-attack-again-github-actions-compromise). Attackers compromised Trivy GitHub Actions by force-updating tags to deliver malware, exposing CI/CD secrets across affected pipelines.
 
-  Then last week, (two versions of the litellm Python package on PyPI were found to contain malicious code)[https://futuresearch.ai/blog/litellm-attack-transcript/].
+  Then last week, [two versions of the litellm Python package on PyPI were found to contain malicious code](https://futuresearch.ai/blog/litellm-attack-transcript/).
 
   All of that just mean we need to be extra triple careful when dealing with any external dependenies. Any external dep is a liability. In this issue we had included 2 tools that hopefully will allow us to run those app in sandbox instead.
 
