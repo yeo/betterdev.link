@@ -1,0 +1,173 @@
+time: "Mar 30, 2026"
+subject: "A DIY FPGA board can run Quake II"
+draft: false
+
+description: |
+  Hi all,
+
+  Trivy is a security scanner to find vulnerabilities, misconfigurations, secrets and very widely used. Imagine, [Trivy got under attack itself](https://socket.dev/blog/trivy-under-attack-again-github-actions-compromise). Attackers compromised Trivy GitHub Actions by force-updating tags to deliver malware, exposing CI/CD secrets across affected pipelines.
+
+  Then last week, (two versions of the litellm Python package on PyPI were found to contain malicious code)[https://futuresearch.ai/blog/litellm-attack-transcript/].
+
+  All of that just mean we need to be extra triple careful when dealing with any external dependenies. Any external dep is a liability. In this issue we had included 2 tools that hopefully will allow us to run those app in sandbox instead.
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+  - "<img src='https://www.vpdae.com/open/8f8e7b55.gif?opens=1' width='1' height='1'>"
+
+links:
+  - url: https://www.vpdae.com/redirect/m246a6fvtpqwipi7sr28azdydxl
+    title: "Autonoma — AI Agents That Find Your Bugs Before Your Users Do"
+    description: |
+      Let's be honest: your test suite is probably lying to you. You've got green checkmarks in CI, 80% coverage, and your last deploy still broke the checkout flow on mobile.
+
+      The problem isn't that you're bad at testing. It's that test maintenance is a full-time job nobody wants, and the coverage you think you have is mostly happy paths you already tested manually. Meanwhile, your users are the ones discovering the real bugs.
+      
+      Autonoma takes a different approach. Instead of making you write and maintain test scripts, it runs AI agents that navigate your web and mobile apps like real users: clicking through forms, testing edge cases, handling state transitions, all in parallel across hundreds of browsers and devices.
+      
+      The best thing? If after 30 days a bug reaches production, we will refund you the money.
+    category: ['sponsor']
+
+
+  - url: https://blog.mikhe.ch/quake2-on-fpga/part4.html
+    title: "My DIY FPGA board can run Quake II (part 4)"
+    description: |
+      An incredible story of someone dived into electronics design with almost zero prior experience. Their goal was ambitious: build an FPGA-based device capable of booting Linux, connecting to a screen and keyboard, and allowing me to write and compile code directly on the machine itself.
+
+  - url: https://richyen.com/postgres/2026/03/23/explain_options.html
+    title: "EXPLAIN's Other Superpowers"
+    description: |
+      Most people who work with PostgreSQL eventually learn two commands for query tuning: EXPLAIN and EXPLAIN ANALYZE. In this post we’ll take a look at a few of those lesser-known options.
+
+  - url: https://tomasz-gintowt.medium.com/postgresql-and-huge-pages-boosting-database-performance-the-right-way-32a27b25a819
+    title: "PostgreSQL and Huge Pages: Boosting Database Performance the Right Way"
+    description: |
+      When you run PostgreSQL on a high-performance server with a lot of RAM, one of the most overlooked performance tunings is Huge Pages.
+      Understanding and configuring Huge Pages correctly can significantly improve performance, especially for databases with large shared memory requirements.
+
+  - url: https://medium.com/cubbit/postgresql-wal-replication-checkpoints-6681b8e0a0f1
+    title: "PostgreSQL WAL replication and Checkpoints: why they might lag and how we fixed it"
+    description: |
+      Anyone who operate Postgres with high write will need to handle and optimize WAL and AutoVacuum. We can defer these job to AI, but it's better to understand all the knowledge.
+
+  - url: https://neon.com/blog/ctrl-c-in-psql-gives-me-the-heebie-jeebies
+    title: "Ctrl-C in psql gives me the heebie-jeebies"
+    description: |
+      Whatever the reason, if you’re a psql command-line user, Ctrl-C is in your muscle memory. So now you’re looking at the words Cancel request sent, followed shortly after by the not-really-an-error message ERROR: cancelling statement due to user request. But what’s going on behind the scenes?
+
+  - url: https://netflixtechblog.com/automating-rds-postgres-to-aurora-postgres-migration-261ca045447f
+    title: "Automating RDS Postgres to Aurora Postgres Migration"
+    description: |
+      In 2024, the Online Data Stores team at Netflix conducted a comprehensive review of the relational database technologies used across the company, and decide to standardize on Amazon Aurora PostgreSQL as the primary relational database offering for Netflix teams.
+
+  - url: https://www.openui.com/blog/rust-wasm-parser
+    title: "Rewriting our Rust WASM Parser in TypeScript"
+    description: |
+      Switching from Rust to TypeScript make the code faster. Not because Rust is slow, or TypeScript is fast. But simply the code to serialize/unserialize the object back and forth when passing between both world outweight the performance gain.
+
+  - url: https://dev.to/playfulprogramming/two-react-design-choices-developers-dont-like-but-cant-avoid-d6g
+    title: "Two React Design Choices Developers Don’t Like—But Can’t Avoid"
+    description: |
+      Developers have never been shy about disliking certain React APIs. They feel awkward, restrictive, or just plain counterintuitive. But the reality is that the two most complained‑about design choices in React weren’t arbitrary at all — they were early signs of deeper constraints that every UI model eventually runs into
+
+  - url: https://css-tricks.com/a-complete-guide-to-bookmarklets/
+    title: "A Complete Guide to Bookmarklets"
+    description: |
+      Imagine the ability to inject the JS code, and run it on any webpage whenever you click a bookmark, and it acts on the urrent page? That's what Bookmarklet is
+
+
+read_code:
+  - url: https://github.com/znkr/diff
+    title: diff
+    description: |
+      A difference algorithm module for Go
+    category: ['Go']
+
+  - url: https://github.com/kepano/defuddle
+    title: defuddle
+    description: |
+      Get the main content of any page as Markdown.
+    category: ['JavaScript']
+
+  - url: https://github.com/serpapi/nokolexbor
+    title: nokolexbor
+    description: |
+       drop-in replacement for Nokogiri. It's 4.7x faster at parsing HTML and up to 1352x faster at CSS selectors.
+    category: ['Ruby']
+
+
+tool:
+  - url: https://github.com/eugene1g/agent-safehouse
+    title: agent-safehouse
+    description: |
+      Sandbox your local AI agents so they can read/write only what they need
+
+  - url: https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox
+    title: edgejs
+    description: |
+      Running Node apps inside a WebAssembly Sandbox
+
+  - url: https://github.com/RecoLabs/gnata
+    title: gnata
+    description: |
+      Pure-Go implementation of JSONata 2.x for high-throughput streaming evaluation. And the story of [re-impelment it in Go with AI saves the compnay $500k USD per year](https://www.reco.ai/blog/we-rewrote-jsonata-with-ai)
+
+
+  - url: https://github.com/secretlint/secretlint
+    title: secretlint
+    description: |
+      Pluggable linting tool to prevent committing credential.
+
+
+  - url: https://codeberg.org/kdwarn/pgtui
+    title: pgtui
+    description: |
+      A Postgres TUI client that utilizes your terminal text editor for inserts & updates
+
+  - url: https://github.com/makroumi/slowql
+    title: slowql
+    description: |
+      SQL static analyzer for performance, security, compliance and cost. 272 rules. Completely offline. Works in CI pipelines.
+
+  - url: https://github.com/ClickHouse/pg_stat_ch
+    title: pg_stat_ch
+    description: |
+      A PostgreSQL extension that captures per-query execution telemetry and exports it to ClickHouse in real-time. Unlike pg_stat_statements which aggregates statistics in PostgreSQL, pg_stat_ch exports raw events to ClickHouse where aggregation happens via ClickHouse's powerful analytical engine.
+
+  - url: https://github.com/owenrumney/go-lsp
+    title: go-lsp
+    description: |
+      Go LSP helper library support 3.17 of the LSP specification
+
+self_hosted:
+  - url: https://github.com/tansu-io/tansu
+    title: tansu
+    description: |
+      Apache Kafka® compatible broker with S3, PostgreSQL, SQLite, Apache Iceberg and Delta Lake
+
+  - url: https://github.com/dflow-sh/dflow
+    title: dflow
+    description: |
+      Open-source alternative to Railway, Vercel and Heroku
+
+  - url: https://github.com/dokploy/dokploy
+    title: dokploy
+    description: |
+      Open Source Alternative to Vercel, Netlify and Heroku.
+
+  - url: https://github.com/goodrain/rainbond
+    title: rainbond
+    description: |
+      A container platform that needs no Kubernetes learning, Build, deploy, assemble, and manage apps on Kubernetes, no K8s expertise needed, all in a graphical platform.
+
+  - url: https://dobase.co/
+    title: dobase
+    description: |
+      Open-source app that replaces your scattered SaaS tools with a single self-hosted workspace. Mail, boards, docs, chat, and more — all under your control.
+
+
+  - url: https://github.com/anomalyco/opencode
+    title: opencode
+    description: |
+      The open source AI coding agent.
