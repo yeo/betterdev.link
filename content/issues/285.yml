@@ -156,9 +156,13 @@ tool:
 self_hosted:
   - url:  https://github.com/Infisical/infisical
     title: infisical
+    description: |
+      the open-source platform for secrets, certificates, and privileged access management.
 
   - url: https://github.com/versity/versitygw
     title: versitygw
+    description: |
+      A simple to deploy but feature rich S3 object storage server for your filesystem
 
   - url: https://garagehq.deuxfleurs.fr/
     title: garagehq
