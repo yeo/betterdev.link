@@ -1,0 +1,172 @@
+time: "May 11, 2026"
+subject: "Understanding Wi-Fi 4/5/6/6E/7/8 (802.11 n/ac/ax/be/bn)"
+draft: false
+
+description: |
+  Hi all,
+
+  We're back for another issue. I'm still trying my time to make this news letter become a weekly again :(.
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+  - "<img src='https://www.vpdae.com/open/161660c1.gif?opens=1' width='1' height='1'>"
+
+links:
+  - url: https://www.vpdae.com/redirect/fo69mqkcnowzual2rfe8gojggqv
+    title: "View the latest HubSpot Developer Platform updates in Spring Spotlight"
+    description: |
+      [Spring Spotlight 2026 is live and we’ve rounded up the top updates for developers here. Featuring](https://www.vpdae.com/redirect/fo69mqkcnowzual2rfe8gojggqv):
+
+      • AI-Assisted Development: Developer MCP Server lets you build apps faster with AI coding tools like Cursor, Claude Code, and Codex.
+
+      • Modern API Infrastructure: Date-based versioned APIs and versioned docs for predictable releases.
+
+      • MCP: Unlock HubSpot data via the HubSpot MCP Server (remote) to connect any compatible MCP client and create custom workflows and integrations.
+
+      • Projects 2026.03: Includes serverless functions, UI extension support, and migration from 2025.1 and 2023.2.
+    category: ['sponsor']
+
+
+  - url: https://www.wiisfi.com/
+    title: "Understanding Wi-Fi 4/5/6/6E/7/8 (802.11 n/ac/ax/be/bn)"
+  
+  - url: https://essenceia.github.io/projects/floating_dragon
+    title: "Floating point from scratch: Hard Mode"
+    description: |
+      In famous problem. 0.1 + 0.2 is equal 0.30000000000000004. Best way to 
+
+  - url: https://blog.codingconfessions.com/p/virtual-memory
+    title: "Virtual Memory: A Deep Dive into Page Tables, TLBs, and Linux Internals"
+    description: |
+      From page faults to NUMA topology: how the Linux kernel manages memory, and what that means for the performance of data-intensive systems
+
+  - url: https://kean.blog/post/lets-build-regex
+    title: "Let's Build a Regex Engine"
+    description: |
+      Ever wondered how regex works under the hood? How does it understand an incantation like "<\/?[\w\s]*>|<.+[\W]>" and magically produces a desired result? This series is going to describe exactly how it works and how to implement a feature-rich regex engine.
+
+  - url: https://gist.github.com/arianvp/5f59f1783e3eaf1a2d4cd8e952bb4acf
+    title: "Native Secure Enclave backed ssh keys on MacOS"
+    description: |
+      that MacOS Tahoe can generate and use secure-enclave backed SSH keys! This replaces projects like [secretive](https://github.com/maxgoedjen/secretive)
+
+  - url: https://lisyarus.github.io/blog/posts/making-your-own-programming-language.html
+    title: "Making your own programming language is easier than you think"
+    description: |
+      Most programmers dream of their own perfect programming language. 
+
+  - url: https://www.cybertec-postgresql.com/en/monitor-autovacuum-my-queries
+    title: "My queries to monitor autovacuum"
+    description: |
+      Without vacuum, deadtuple (dead row) are accumulate in Postgres, the engine needs to scan them and exclude them, vacuum suppose to delete them. Here are many tip and tricks to monitor that process
+
+  - url: https://www.figma.com/blog/pgkeeper-building-the-bouncer-we-needed-for-postgres/
+    title: "PGKeeper: Building the bouncer we needed for Postgres"
+    description: |
+      Figma outgrow pgbouncer and share experience writing their own Postgres connection pooling.
+
+  - url: https://cheatsheetseries.owasp.org/cheatsheets/NPM_Security_Cheat_Sheet.html
+    title: "NPM Security best practices"
+    description: |
+      cheatsheet covers several npm security best practices and productivity tips, useful for JavaScript and Node.js developers. This list was originally based on the 10 npm security best practices from the Snyk blog.
+  
+  - url: https://gitperf.com/index.html
+    title: "High Performance Git"
+
+read_code:
+  - url: https://github.com/imtomt/ymawky
+    title: ywawky
+    description: |
+      MacOS Web Server written entirely in ARM64 assembly
+    category: ['assembly']
+
+  - url: https://github.com/russellromney/honker
+    title: honker
+    description: |
+      SQLite extension + bindings for Postgres NOTIFY/LISTEN semantics with durable queues, streams, pub/sub, and scheduler
+    category: ['Rust']
+
+  - url: https://github.com/alebeck/boring
+    title: boring
+    description: |
+      A simple command line SSH tunnel manager that just works.
+    category: ['Go']
+
+  - url: https://github.com/bradenaw/backpressure
+    title: backpressure
+    description: |
+      Prioritized semaphore/rate-limiter/adaptive throttle for load management.
+    category: ['Go']
+
+tool:
+  - url: https://github.com/six-ddc/plow
+    title: plow
+    description: |
+      A high-performance HTTP benchmarking tool that includes a real-time web UI and terminal display
+
+  - url: https://github.com/rogerwelin/pg_column_tetris
+    title: pg_column_tetris
+    description: |
+      A PostgreSQL extension that can enforce optimal column alignment to minimize row padding waste.
+
+  - url: https://github.com/pgrwl/pgrwl
+    title: pgwrl
+    description: |
+      Cloud-native continuous backup for PostgreSQL - WAL/base-backup streaming, compression, encryption, retention, and monitoring in a single binary.
+
+  - url: https://github.com/NikolayS/leandex
+    title: leandex
+    description: |
+      a pure SQL / PL/pgSQL control plane for conservative autonomous reindexing, in the same extension-avoidance spirit as pg_ash and PgQue. It installs into a separate control database, talks to target databases through postgres_fdw user mappings and dblink, and rebuilds only with reindex index concurrently. No schema is installed into target databases. No C extension, no shared_preload_libraries, no sidecar worker, no restart.
+
+  - url: https://hyperframes.heygen.com/
+    title: hyperframes
+    description: |
+      HyperFrames lets AI agents compose videos by writing HTML, CSS & JS.
+
+  - url: https://github.com/trickle-labs/pg-trickle
+    title: pg-trickle
+    description: |
+      Have u ever has to write some cronjob to refresh materialized view? this tool handle all of that, natively inside Postgres
+
+  - url: https://www.remotion.dev/
+    title: remotion
+    description: |
+      Create real MP4 videos with React. Parametrize content, render server-side and build applications.
+
+  - url: https://github.com/engseclabs/trailtool
+    title: trailtool
+    description: |
+      aggregates CloudTrail logs to simplify analysis for AI agents
+self_hosted:
+  - url:  https://github.com/Infisical/infisical
+    title: infisical
+
+  - url: https://github.com/versity/versitygw
+    title: versitygw
+
+  - url: https://garagehq.deuxfleurs.fr/
+    title: garagehq
+    description: |
+      An S3 object store so reliable you can run it outside datacenters
+
+  - url: https://github.com/seaweedfs/seaweedfs
+    title: seaweedfs
+    description: |
+      a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling
+
+  - url: https://github.com/uroni/hs5
+    title: hs5
+    description: |
+      High-performance scale-up self-hosted simple storage service (hs5)
+
+  - url: https://github.com/pgsty/pigsty
+    title: pigsty
+    description: |
+      Enterprise-Grade OSS PostgreSQL Distribution with HA, PITR, IaC, Monitor, 12 kernel forks and 460 PG extensions. Best-of-breed products integrated as a platform. Self-host Postgres like a Pro!
+
+  - url: https://github.com/ongres/stackgres/
+    title: stackgres
+    description: |
+      a full-stack PostgreSQL distribution for Kubernetes, packed into an easy deployment unit. With a carefully selected and tuned set of surrounding PostgreSQL components.
