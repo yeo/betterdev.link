@@ -16,15 +16,15 @@ links:
   - url: https://www.vpdae.com/redirect/fo69mqkcnowzual2rfe8gojggqv
     title: "View the latest HubSpot Developer Platform updates in Spring Spotlight"
     description: |
-      Spring Spotlight 2026 is live and we’ve rounded up the top updates for developers here. Featuring:<br>
+      Spring Spotlight 2026 is live and we’ve rounded up the top updates for developers here. Featuring:<br><br>
 
-      <p style="padding-left: 1.5rem; padding-top: 1.5rem">• AI-Assisted Development: Developer MCP Server lets you build apps faster with AI coding tools like Cursor, Claude Code, and Codex.<br></p>
+      <p style="padding-left: 1.5rem; padding-top: 1.5rem; font-weight: bold">• AI-Assisted Development: Developer MCP Server lets you build apps faster with AI coding tools like Cursor, Claude Code, and Codex.<br></p>
 
-      <p style="padding-left: 1.5rem">• Modern API Infrastructure: Date-based versioned APIs and versioned docs for predictable releases.<br></p>
+      <p style="padding-left: 1.5rem; font-weight: bold">• Modern API Infrastructure: Date-based versioned APIs and versioned docs for predictable releases.<br></p>
 
-      <p style="padding-left: 1.5rem">• MCP: Unlock HubSpot data via the HubSpot MCP Server (remote) to connect any compatible MCP client and create custom workflows and integrations.<br></p>
+      <p style="padding-left: 1.5rem; font-weight: bold">• MCP: Unlock HubSpot data via the HubSpot MCP Server (remote) to connect any compatible MCP client and create custom workflows and integrations.<br></p>
 
-      <p style="padding-left: 1.5rem">• Projects 2026.03: Includes serverless functions, UI extension support, and migration from 2025.1 and 2023.2.<br></p>
+      <p style="padding-left: 1.5rem; font-weight: bold">• Projects 2026.03: Includes serverless functions, UI extension support, and migration from 2025.1 and 2023.2.<br></p>
     category: ['sponsor']
 
 
