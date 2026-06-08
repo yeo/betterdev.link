@@ -1,5 +1,5 @@
 time: "Jun 7, 2026"
-subject: "Pwnd Blaster: Hacking your PC using your speaker without ever touching it"
+subject: "How I Built an SMS Gateway with a $20 Android Phone"
 draft: false
 
 description: |
@@ -27,6 +27,12 @@ links:
       <p style="padding-left: 1.5rem"><span style="font-weight: bold">• Projects 2026.03</span>: Includes serverless functions, UI extension support, and migration from 2025.1 and 2023.2.<br></p>
     category: ['sponsor']
 
+
+  - url: https://jonno.nz/posts/built-an-sms-gateway-with-a-20-dollar-android-phone/
+    title: "How I Built an SMS Gateway with a $20 Android Phone"
+    description: |
+      Turn any Android phone into a programmable SMS gateway for your SaaS — no per-message fees, no carrier contracts, no vendor lock-in.
+
  
   - url: https://blog.nns.ee/2026/06/03/katana-badusb
     title: "Pwnd Blaster: Hacking your PC using your speaker without ever touching it"
@@ -36,6 +42,14 @@ links:
 
   - url: https://werwolv.net/posts/usb_for_sw_devs/
     title: "USB for Software Developers: An introduction to writing userspace USB drivers"
+
+  - url: https://www.valerieparhamthompson.com/posts/extended-statistics-postgres/
+    tite: Extended Statistics in Postgres
+
+  - url: https://neciudan.dev/everything-you-need-to-know-about-sourcemaps
+    title: "Everything you need to know about Sourcemaps"
+    description: |
+      Sourcemaps unlock some observability benefits but might expose your codebase. Check out how they work, and how to protect yourself.
 
   - url: https://segflow.github.io/post/fast-file-search-go/
     title: "Finding a needle in a 4 GB haystack: from 0.75 GB/s to 49 GB/s in Go"
@@ -101,3 +115,8 @@ self_hosted:
     title: "Pi FM Kitchen Radio Station"
     description: |
       Raspberry Pi Zero project that creates a self-updating 24/7 FM radio station for passive listening.
+
+  - url: https://github.com/tiagozip/cap
+    title: cap
+    description: |
+      Free, open-source and self-hosted CAPTCHA alternative to reCAPTCHA. Privacy-first and powered by proof-of-work and instrumentation challenges.
