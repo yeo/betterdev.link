@@ -1,0 +1,103 @@
+time: "Jun 7, 2026"
+subject: "Pwnd Blaster: Hacking your PC using your speaker without ever touching it"
+draft: false
+
+description: |
+  Hi all,
+
+  We're back for another issue. I'm still trying my time to make this news letter become a weekly again :(.
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+  - "<img src=\"https://www.vpdae.com/open/161660c1.gif?opens=1\" width=\"1\" height=\"1\">"
+
+links:
+  - url: https://www.vpdae.com/redirect/fo69mqkcnowzual2rfe8gojggqv
+    title: "View the latest HubSpot Developer Platform updates in Spring Spotlight"
+    description: |
+      Spring Spotlight 2026 is live and we’ve rounded up the top updates for developers here. Featuring:<br><br>
+
+      <p style="padding-left: 1.5rem; padding-top: 1.5rem"><span style="font-weight: bold">• AI-Assisted Development</span>: Developer MCP Server lets you build apps faster with AI coding tools like Cursor, Claude Code, and Codex.<br></p>
+
+      <p style="padding-left: 1.5rem"><span style="font-weight: bold">• Modern API Infrastructure</span>: Date-based versioned APIs and versioned docs for predictable releases.<br></p>
+
+      <p style="padding-left: 1.5rem"><span style="font-weight: bold">• MCP</span>: Unlock HubSpot data via the HubSpot MCP Server (remote) to connect any compatible MCP client and create custom workflows and integrations.<br></p>
+
+      <p style="padding-left: 1.5rem"><span style="font-weight: bold">• Projects 2026.03</span>: Includes serverless functions, UI extension support, and migration from 2025.1 and 2023.2.<br></p>
+    category: ['sponsor']
+
+ 
+  - url: https://blog.nns.ee/2026/06/03/katana-badusb
+    title: "Pwnd Blaster: Hacking your PC using your speaker without ever touching it"
+
+  - url: https://performance.dev/how-is-linear-so-fast-a-technical-breakdown
+    title: "How's Linear so fast? A technical breakdown"
+
+  - url: https://werwolv.net/posts/usb_for_sw_devs/
+    title: "USB for Software Developers: An introduction to writing userspace USB drivers"
+
+  - url: https://segflow.github.io/post/fast-file-search-go/
+    title: "Finding a needle in a 4 GB haystack: from 0.75 GB/s to 49 GB/s in Go"
+    description: |
+      A Go specific article, but it present a methodlogical though of process. We had a 4 GiB file that’s almost entirely zeros, exactly one non-zero int64 is hiding at offset Size - 8 (the last aligned slot). The task: find that offset, as fast as possible, in Go on Linux.
+
+  - url: https://lowtechguys.com/musicdecoy/
+    title: Stop the Music app from launching
+    description: |
+      Have u ever feel annoying with the useless Music app on macOS, u would love this tool. Typically it will be under Tool, but this is require deep understand on how everything works. Strongly recommend to learn its code, especially about the rcd(short for Remote Control Daemon)
+  
+  - url: https://danburzo.ro/http-caching-refresher
+    title: "HTTP caching, a refresher"
+    description: |
+      This is a fresh reading of RFC 9111 (2022), the latest iteration of the HTTP Caching standard.
+      The standard defines the Cache-Control HTTP header as a way to prescribe how caches should store and reuse HTTP responses, with regard to not just the browser cache, but to any other intermediary caches, such as proxies and content delivery networks, that may exist between the client and the origin server.
+
+read_code:
+  - url: https://jamiebuilds.github.io/tinykeys/
+    title: tinykeys
+    description: |
+      A tiny (~1KB) & modern library for keybindings.
+    category: ['JavaScript']
+
+  - url: https://github.com/krauseler/muxcard
+    title: "muxcard"
+    description: |
+      A literal credit-card sized computer with E-Paper display, ESP32 and NFC.
+
+tool:
+  - url: https://www.canirun.ai/device/rtx-5060-ti-16gb
+    title: "Can I run AI"
+    description: |
+      A nice tool to let us know which AI Model can be run locally with a given GPU
+
+  - url: https://tiptap.dev/docs/hocuspocus/getting-started/overview
+    title: hocuspocus
+    description: |
+       a suite of tools to bring collaboration to your application. It’s based on Y.js (by Kevin Jahns), which is amazing to sync and merge changes from clients in real-time
+
+  - url: https://fnox.jdx.dev/
+    title: fnox
+    description: |
+      A very swift way to encrypt secret, and commit it to the git repository. The sweetness come on how to onboard new team member, simply add their public key, do a re-encrypt and commit the change. Every team member now share the same secrets
+
+  - url: https://github.com/favonia/cloudflare-ddns
+    title: cloudflare-ddns
+    description: |
+      A small, feature-rich, and robust Cloudflare DDNS updater
+
+  - url: https://github.com/erickochen/purple
+    title: purple
+    description: |
+      Open-source terminal SSH manager that keeps ~/.ssh/config in sync with your cloud infra across 16 cloud providers.
+
+self_hosted:
+  - url: https://hot-updater.dev/
+    title: hot-updater
+    description: |
+      Self-hosted over-the-air updates for React Native
+
+  - url: https://github.com/trwmato/pi-fm-kitchen-radio
+    title: "Pi FM Kitchen Radio Station"
+    description: |
+      Raspberry Pi Zero project that creates a self-updating 24/7 FM radio station for passive listening.
