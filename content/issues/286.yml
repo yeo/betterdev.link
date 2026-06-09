@@ -67,6 +67,11 @@ links:
       This is a fresh reading of RFC 9111 (2022), the latest iteration of the HTTP Caching standard.
       The standard defines the Cache-Control HTTP header as a way to prescribe how caches should store and reuse HTTP responses, with regard to not just the browser cache, but to any other intermediary caches, such as proxies and content delivery networks, that may exist between the client and the origin server.
 
+  - url: https://oneuptime.com/blog/post/2026-03-20-ss-replacement-netstat-ipv4-sockets/view
+    title: "How to Use ss as a Replacement for netstat to View IPv4 Sockets"
+    description: |
+      Use the ss command as a modern, faster replacement for netstat to inspect IPv4 TCP and UDP sockets, listening ports, and connection states.
+
 read_code:
   - url: https://jamiebuilds.github.io/tinykeys/
     title: tinykeys
@@ -78,6 +83,13 @@ read_code:
     title: "muxcard"
     description: |
       A literal credit-card sized computer with E-Paper display, ESP32 and NFC.
+    category: ["C", "PCB"]
+
+  - url: https://github.com/LayoutitStudio/polycss
+    title: polycss
+    description: |
+      A CSS 3D engine for the DOM. Renders polygon meshes in HTML by leveraging matrix3d transforms.
+    category: ["JavaScript", "CSS"]
 
 tool:
   - url: https://www.canirun.ai/device/rtx-5060-ti-16gb
@@ -104,6 +116,11 @@ tool:
     title: purple
     description: |
       Open-source terminal SSH manager that keeps ~/.ssh/config in sync with your cloud infra across 16 cloud providers.
+
+  - url: https://www.svgstudio.org/
+    title: svgstudio
+    description: |
+      Animate your SVGs. Without losing your mind
 
 self_hosted:
   - url: https://hot-updater.dev/
