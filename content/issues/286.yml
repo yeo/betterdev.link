@@ -36,15 +36,23 @@ links:
  
   - url: https://blog.nns.ee/2026/06/03/katana-badusb
     title: "Pwnd Blaster: Hacking your PC using your speaker without ever touching it"
+    description: |
+      A researcher find that the Creative Sound Blaster Katana V2X accept unsigned firmware over Bluetooth without auth. Since the speaker already register itself as a HID device for volume control, an attacker can flash it remotely and turn it into a Rubber Ducky, injecting keystroke into ur PC from ~50 feet away. Vendor refuse to patch.
 
   - url: https://performance.dev/how-is-linear-so-fast-a-technical-breakdown
     title: "How's Linear so fast? A technical breakdown"
+    description: |
+      Linear feel fast not because of one trick, but a lot of small one compound together. The big idea: treat the browser DB as the source of truth, and the server is just a sync target. Mutation apply locally first, reconcile async. Add to that aggressive code-split with service worker precaching, granular MobX observables to keep re-render small, and animation only on GPU-composited properties.
 
   - url: https://werwolv.net/posts/usb_for_sw_devs/
     title: "USB for Software Developers: An introduction to writing userspace USB drivers"
+    description: |
+      A basic introduction to USB for people that don't need to know what happens on the wire. If u ever want to talk to a USB device from ur own app without diving into kernel land, this is a nice starting point.
 
   - url: https://www.valerieparhamthompson.com/posts/extended-statistics-postgres/
-    tite: Extended Statistics in Postgres
+    title: Extended Statistics in Postgres
+    description: |
+      Postgres planner can make bad estimate when columns are correlated. Extended statistics let u tell the planner about those relationship. The post walk through the three flavor - dependencies, mcv, and ndistinct - with real example showing how each one fix a different kind of wrong row estimate.
 
   - url: https://neciudan.dev/everything-you-need-to-know-about-sourcemaps
     title: "Everything you need to know about Sourcemaps"
