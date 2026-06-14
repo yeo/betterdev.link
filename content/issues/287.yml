@@ -1,0 +1,163 @@
+time: "Jun 15, 2026"
+subject: "Weekend trivia: your process' memory is a file"
+draft: false
+
+description: |
+  Hi everyone,
+
+  Summer has started in a few places, summer time no-school season is about to started. One thing for sure is no more drop-off and pick-up. Time to do some side projects. I strongly believe everyone should try and experiment with self-hosted LLM. If you can afford some card with 24GB-32GB VRAM, it could be great to get started. No worry, this newsletter won't turn into a AI/LLM junk, I simply think we should understand and control it, and especially the ability to self-host.
+
+  Even with AI development, I still want to talk to a person, this newsletter, you probably realized, full of grammars, typos. My English is not perfect, I tried but you can be sure these are hand writing by a person at 1:21AM Sunday when kids and wife are in deep sleep.
+
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+  - "<img src='https://www.vpdae.com/open/211421f8.gif?opens=1' width='1' height='1'>"
+
+links:
+  - url: https://www.vpdae.com/redirect/cyv568yz6xs9hoatt44wtmyi01b
+    title: "[Free Live Tech Session] How AI Agents Can Write, Test, And Fix Their Own Code In Kubernetes"
+    description: |
+      <p style="display: block; margin-block-start: 0.75rem;">Live technical workshop | June 18 | 11am ET / 8am PT | 45 min + Q&A<br></p>
+
+      <p style="display: block; margin-block-start: 1rem;">Your AI agent writes code fast. So fast it barely matters now. The bottleneck is what comes after: running it, watching it break against real infrastructure, and debugging the gap between what the agent assumed and what your cluster actually does.<br/></p>
+
+      <p style="display: block; margin-block-start: 1rem;">The agent never saw your queue payloads. It guessed your database schema. It has no idea that the downstream service returns 429 under real load. So you validate. Manually. Every time. That validation tax is the problem we're solving live on June 18..<br></p>
+
+      <p style="display: block; margin-block-start: 1rem;">What you'll watch happen in real time:</p>
+      <p style="display: block; margin-block-start: 0.25rem;">We'll connect a Cursor agent to a real Kubernetes cluster using mirrord and run the full loop: inspect live environment state, generate code informed by what's actually there, test immediately against real services, watch it fail, and watch the agent fix itself. No mocks. No deploy cycle. No human in the loop. The agent calls inspect, generate, test, fix autonomously. Total time from failure to working code: under 30 seconds.<br/></p>
+
+      <p style="display: block; margin-block-start: 1rem;">Engineering teams at monday.com and similar companies already run this pattern in production. 350+ engineers at monday.com use mirrord daily. They cut dev feedback loops from 30 minutes to 30 seconds.
+
+      <p style="display: block; margin-block-start: 1rem;">You'll leave with:</p>
+      <p style="display: block; margin-block-start: 0.25rem;">A reference architecture for wiring agents to real clusters safely. The exact prompts and mirrord config from the demo. A clear mental model for where human judgment still belongs and where agents can own the loop.</p>
+      <p style="display: block; margin-block-start: 0.25rem;">Built for engineers who are done validating what the agent should be validating itself.</p>
+
+      <p style="display: block; margin-block-start: 1rem;">Hosted by Arsh Sharma (Senior DevRel, MetalBear) and Aviram Hassan (Founder and CEO, <a href="https://metalbear.com">MetalBear</a>, co-creator of <a href="https://metalbear.com/mirrord/">mirrord</a>).</p>
+    category: ['sponsor']
+
+  - url: https://lcamtuf.substack.com/p/weekend-trivia-your-process-memory
+    title: "Weekend trivia: your process' memory is a file"
+    description: |
+      Some folks say that the design philosophy of Unix is that “everything is a file”. If you’re familiar with Unix-like platforms, you probably know that they don’t quite live up to the hype. But apparently, the memory of a process itself truely live up to this hype.
+
+  - url: https://perthirtysix.com/how-the-heck-does-gps-work
+    title: "How The Heck Does GPS Work?"
+    description: |
+      GPS is fundamentally a translation tool: it converts time into distance. A satellite sends a signal, your phone catches it, and the delay between those two events tells the phone exactly how far away the satellite is.  1 nanosecond of signal travel = 0.3 meters.
+
+  - url: https://6it.dev/blog/on-cpu-physics-and-cpu-cycles-80730
+    title: "On CPU Physics and CPU Cycles"
+    description: |
+      This is a DRAFT of the first part of Chapter 4 - On CPU Physics and CPU Cycles of a C++ books but I learn a lot about CPU in its physisc form and the communication between all component: cpu, ram, l1/2/3 cache.
+
+  - url: https://ranpara.net/posts/perceptron-explained-from-scratch/
+    title: "The Smallest Brain You Can Build"
+    description: |
+      A perceptron explained from scratch in Python, with interactive demos. Learn weights, bias, the decision boundary, epochs, learning rate, and why we normalize data.
+
+  - url: https://github.com/FareedKhan-dev/train-llm-from-scratch
+    title: "Train LLM From Scratch"
+    description: |
+      A straightforward method for training your LLM, from downloading data to generating text.
+
+  - url: https://crlf.link/log/entries/260525-1/
+    title: "Making a vintage LLM from scratch"
+    description: |
+      In this blog post, I will share the adventures I had creating my own LLM, from (almost) scratch, trained only on old texts.
+      I made my own base-training and fine-tuning scripts, data processing pipelines and custom datasets.
+
+  - url: https://imil.net/blog/posts/2026/rtx-5080-+-rtx-3090-setup-80+-tok-s-on-qwen-3.6-27b-q8/
+    title: "RTX 5080 + RTX 3090 Setup: 80+ Tok/s on Qwen 3.6 27B Q8"
+    description: |
+      Many LLM Model require more 24GB+ VRAM? what happen if you can combine 2 smaller GPU Card? This walk ou through that setup.
+
+  - url: https://brentfitzgerald.com/posts/appreciating-exif/
+    title: "Appreciating Exif"
+    description: |
+      Have you ever need to auto rotate a user profile picture, u read exif and rotate them? So let learn about this structure. They age well despite a standard being  invented long ago with so many gotchas.
+
+
+  - url: https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos
+    title: "How to Setup a Local Coding Agent on macOS"
+    description: |
+      Running Gemma 4 26B-A4B and Qwen3.6 35B-A3B locally with llama.cpp, MTP speculative decoding, multimodal support, and PI as a coding agent.
+
+
+  - url: https://frontendmasters.com/blog/the-fundamentals-and-dev-experience-of-css-function/
+    title: "The Fundamentals and Dev Experience of CSS @function"
+    
+  - url: https://dev.to/jaisonerick/reading-wi-fi-data-from-go-on-macos-after-apple-removed-airport-19g
+    title: "Reading Wi-Fi data from Go on macOS after Apple removed `airport`"
+
+read_code:
+  - url: https://github.com/golang-design/clipboard/releases/tag/v0.8.0
+    title: golang clipboard
+    description: true Go, no more CGO, cross platform. no C toolchain at build time and no libX11/libwayland at runtime
+    category: ['Go']
+
+  - url: https://github.com/davepl/BlinkenDisk
+    title: BlinkenDisk
+    description: "A tiny macOS utility that puts a red LED in your menu bar and lights it up whenever there's I/O activity on the local drives you choose to monitor."
+    category: ['Swift']
+
+  - url: https://github.com/danfry1/bonsai-js
+    title: bonsai
+    description: |
+      A safe, zero-dependency expression language for rules, filters, and templates
+    category: ['JavaScript']
+
+tool:
+  - url: https://github.com/mukul975/Anthropic-Cybersecurity-Skills
+    title: Anthropic Cybersecurity Skills
+    description: |
+      This repo contains 754 structured cybersecurity skills spanning 26 security domains, each following the agentskills.io open standard. Every skill is mapped to five industry frameworks — MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, MITRE D3FEND, and NIST AI RMF
+
+  - url: https://github.com/arnica/depsguard
+    title: depsguard
+    description: DepsGuard looks for npm, pnpm, yarn, bun, uv, pip, poetry, and aube on your machine, reads their config files, compares them to recommended supply-chain settings, and can apply fixes interactively.
+
+  - url: https://vettedconsumer.com/quant-picker/?b=70&active=70&hw=rtx-3090&kv=f16&need=8192
+    title: "Quant Picker"
+    description: |
+      Which GGUF File Should You Download"
+
+  - url: https://github.com/apple/container/blob/main/docs/container-machine.md
+    title: "MacOS Container Machine"
+    description: |
+      A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.
+  
+  - url: https://huggingface.co/moonshotai/Kimi-K2.7-Code
+    title: Kimi-K2.7-Code
+    description: a coding-focused agentic model built upon Kimi K2.6. With substantial improvements on real-world long-horizon coding tasks, it strengthens end-to-end task completion across complex software engineering workflows while improving token efficiency, reducing thinking-token usage by approximately 30% compared with Kimi K2.6.
+
+self_hosted:
+  - url: https://github.com/pewdiepie-archdaemon/odysseus
+    title: odysseus
+    description: |
+      Self-hosted AI workspace.
+  - url: https://zero.rocicorp.dev/docs/open-source
+    title: zero
+    description: |
+       makes web apps feel instant by syncing the data your UI needs into a local, normalized client datastore. Reads and writes hit that local store first, then sync continuously with your server in the background.
+
+  - url: https://kyushu.dev/
+    title: kyushu
+    description: |
+      A Self-Hostable Wasm Sandbox for JavaScript Workers
+
+  - url: https://github.com/matisiekpl/neond/
+    title: neond
+    description: |
+      DX-focused control plane for Postgres dedicated to non-critical workloads. Your postgres:latest replacement 🐘
+
+  - url: https://github.com/ory/talos
+    title: talos
+    description: |
+      Web-scale and security-hardened API key server for users, services, machine to machine, and AI agents. Token derivation brings fine-grained capability tokens to avoid common API key pitfalls. Apache2 open source for indie deployments, commercial for scalable and HA.
+
+  - url: https://github.com/ayushh0110/ScreenMind
+    title: ScreenMind
+    description: |
+      Captures your screen → Analyzes with Gemma 4 → Builds a searchable AI memory. 100% local. 100% private. Zero cloud dependencies.
