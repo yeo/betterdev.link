@@ -155,3 +155,8 @@ self_hosted:
     title: outpost
     description: |
       Open Source Outbound Webhooks and Event Destinations Infrastructure
+
+  - url: https://github.com/mjl-/mox
+    title: mox
+    description: |
+      modern full-featured open source secure mail server for low-maintenance self-hosted email
