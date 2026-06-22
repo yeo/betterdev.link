@@ -26,7 +26,7 @@ links:
       <p style="display: block; margin-block-start: 0.25rem;">→ Audit logging: It closed the visibility gap on when and why a secret changed.</p>
 
       <p style="display: block; margin-block-start: 1rem;">The payoff: spinning up a new service dropped from a multi-service manual chore to about 10 minutes. 21 services now sync through Infisical and 50+ engineering hours are saved per month.</p>
-      <p style="display: block; margin-block-start: 1rem;">As founding engineer Shashank Goyal put it: "With Infisical, you get the security benefit along with improved developer experience, it becomes a no-brainer.".</p>
+      <p style="display: block; margin-block-start: 1rem;">As founding engineer Shashank Goyal put it: "With Infisical, you get the security benefit along with improved developer experience, it becomes a no-brainer."</p>
       <p style="display: block; margin-block-start: 1rem;"><a href="https://www.vpdae.com/redirect/5vhsoxpyrlznbtw2znmhmqopv0a">Read the full case study.</a></p>
     category: ['sponsor']
 
