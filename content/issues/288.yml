@@ -1,16 +1,11 @@
-time: "Jun 2, 2026"
+time: "Jun 22, 2026"
 subject: "Parsing Gigabytes of JSON in second"
 draft: false
 
 description: |
   Hi everyone,
 
-  Summer has started in a few places, summer time no-school season is about to started. One thing for sure is no more drop-off and pick-up. Time to do some side projects. I strongly believe everyone should try and experiment with self-hosted LLM. If you can afford some card with 24GB-32GB VRAM, it could be great to get started. No worry, this newsletter won't turn into a AI/LLM junk, I simply think we should understand and control it, and especially the ability to self-host.
-
-  Even with AI development, I still want to talk to a person, this newsletter, you probably realized, full of grammars, typos. My English is not perfect, I tried but you can be sure these are hand writing by a person at 1:21AM Sunday when kids and wife are in deep sleep.
-
-
-  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+  We're back for another issue. We're become more regular now. If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
 
 external_snippets:
   - "<img src='https://www.vpdae.com/open/cb00ca49.gif?opens=1' width='1' height='1'>"
@@ -35,10 +30,6 @@ links:
       <p style="display: block; margin-block-start: 1rem;"><a href="https://www.vpdae.com/redirect/5vhsoxpyrlznbtw2znmhmqopv0a">Read the full case study.</a></p>
     category: ['sponsor']
 
-  - url: https://lwn.net/Articles/250967/
-    title: "What every programmer should know about memory, Part 1"
-    description: |
-      A long document by Ulrich Drepper. 
   - url: https://arxiv.org/pdf/1902.08318
     title: "Parsing Gigabytes of JSON per Second"
     description: |
@@ -49,6 +40,11 @@ links:
     description: |
       Fraud detection in transaction data is mostly SQL. Not machine learning, not graph databases, not whatever Gartner is hyping this year. SQL, run against the right tables, with the right joins, looking for the right shapes.
 
+  - url: https://shopify.engineering/scaling-inventory-reservations
+    title: "Shopify replaced Redis with MySQL for inventory reservations and it scaled"
+    description: |
+      Shopify needs no introduction of their scale. They have an oversell protection to track inventory buld on Redis, using DECR and INCR. But data now is lived on 2 system, and this cannot be done in an atomic manner because state is persisted outside of MySQL. Operating and scaling Redis in region awareness  also not easy. So they moved this to MySQL with SKIP LOCKED.
+
   - url: https://americanexpress.io/cell-based-architecture-for-resilient-payment-systems/
     title: "Cell-Based Architecture for Resilient Payment Systems"
     description: |
@@ -58,6 +54,8 @@ links:
     title: "When failover isn’t safe: Building high-availability PostgreSQL on Kubernetes"
     description: |
       DataDog regularly run a variety of gamedays to intentionally stress our platforms and learn how our systems and teams respond under real-world conditions. During that they discover when network latency increase, replica lag, primary failed and failover is no longer safe.
+
+
 
   - url: https://andyatkinson.com/postgresql-rds-scaling-aws-christmas-day-peak
     title: "From Christmas Outage to #1 App Store Ranking: An Aura Frames Postgres Scaling Retrospective"
