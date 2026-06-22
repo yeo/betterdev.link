@@ -1,0 +1,154 @@
+time: "Jun 2, 2026"
+subject: "Parsing Gigabytes of JSON in second"
+draft: false
+
+description: |
+  Hi everyone,
+
+  Summer has started in a few places, summer time no-school season is about to started. One thing for sure is no more drop-off and pick-up. Time to do some side projects. I strongly believe everyone should try and experiment with self-hosted LLM. If you can afford some card with 24GB-32GB VRAM, it could be great to get started. No worry, this newsletter won't turn into a AI/LLM junk, I simply think we should understand and control it, and especially the ability to self-host.
+
+  Even with AI development, I still want to talk to a person, this newsletter, you probably realized, full of grammars, typos. My English is not perfect, I tried but you can be sure these are hand writing by a person at 1:21AM Sunday when kids and wife are in deep sleep.
+
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+  - "<img src='https://www.vpdae.com/open/cb00ca49.gif?opens=1' width='1' height='1'>"
+
+links:
+  - url: https://www.vpdae.com/redirect/5vhsoxpyrlznbtw2znmhmqopv0a
+    title: "How OpenRouter centralized secrets sprawling across 70+ providers"
+    description: |
+      <p style="display: block; margin-block-start: 0.75rem;">Every new API key means tracking down which services need it, then updating each one by hand. At OpenRouter, that happened one to two times a week.<br></p>
+
+      <p style="display: block; margin-block-start: 1rem;">OpenRouter runs the largest AI gateway for developers, with infrastructure spanning Vercel, GCP, and Cloudflare and 70+ model providers. Each one ships its own keys, propagated manually with custom scripts, and no audit trail. A leaked production credential meant downtime and an SLA breach.<br/></p>
+
+      <p style="display: block; margin-block-start: 1rem;">The team adopted Cursor, Claude Code, Devin, and Codex, and each needed scoped access to run services end to end without reaching credentials it shouldn't.<br></p>
+
+      <p style="display: block; margin-block-start: 1rem;">OpenRouter centralized everything on Infisical:</p>
+      <p style="display: block; margin-block-start: 0.25rem;">→ Dynamic folder sync replaced the scripts: one folder for all provider keys, imported into the services that need them</p>
+      <p style="display: block; margin-block-start: 0.25rem;">→ Role-based access separates dev, admin, and break-glass production: A dedicated agent tier issues session-scoped credentials, so tools like Cursor and Claude Code pull dev secrets directly and run read-only cron jobs against production, scoped to exactly what they need.</p>
+      <p style="display: block; margin-block-start: 0.25rem;">→ Audit logging: It closed the visibility gap on when and why a secret changed.</p>
+
+      <p style="display: block; margin-block-start: 1rem;">The payoff: spinning up a new service dropped from a multi-service manual chore to about 10 minutes. 21 services now sync through Infisical and 50+ engineering hours are saved per month.</p>
+      <p style="display: block; margin-block-start: 1rem;">As founding engineer Shashank Goyal put it: "With Infisical, you get the security benefit along with improved developer experience, it becomes a no-brainer.".</p>
+      <p style="display: block; margin-block-start: 1rem;"><a href="https://www.vpdae.com/redirect/5vhsoxpyrlznbtw2znmhmqopv0a">Read the full case study.</a></p>
+    category: ['sponsor']
+
+  - url: https://lwn.net/Articles/250967/
+    title: "What every programmer should know about memory, Part 1"
+    description: |
+      A long document by Ulrich Drepper. 
+  - url: https://arxiv.org/pdf/1902.08318
+    title: "Parsing Gigabytes of JSON per Second"
+    description: |
+      Pair it with this [video](https://www.youtube.com/watch?v=wlvKAT7SZIQ) to learn how fast we can read a file? are we limited by disk or cpu?
+
+  - url: https://analytics.fixelsmith.com/posts/sql-fraud-patterns/
+    title: "Six SQL patterns I use to catch transaction fraud"
+    description: |
+      Fraud detection in transaction data is mostly SQL. Not machine learning, not graph databases, not whatever Gartner is hyping this year. SQL, run against the right tables, with the right joins, looking for the right shapes.
+
+  - url: https://americanexpress.io/cell-based-architecture-for-resilient-payment-systems/
+    title: "Cell-Based Architecture for Resilient Payment Systems"
+    description: |
+      The American Express core payments ecosystem is a global platform relied on by Card Members and partners around the world. Every day, it processes live payment transactions that require high availability, low latency, and predictable performance. To achieve this, the platform is built around a cell-based architecture that isolates failures, maintains low-latency processing, and scales capacity without expanding the failure domain
+
+  - url: https://www.datadoghq.com/blog/engineering/postgresql-ha-kubernetes/
+    title: "When failover isn’t safe: Building high-availability PostgreSQL on Kubernetes"
+    description: |
+      DataDog regularly run a variety of gamedays to intentionally stress our platforms and learn how our systems and teams respond under real-world conditions. During that they discover when network latency increase, replica lag, primary failed and failover is no longer safe.
+
+  - url: https://andyatkinson.com/postgresql-rds-scaling-aws-christmas-day-peak
+    title: "From Christmas Outage to #1 App Store Ranking: An Aura Frames Postgres Scaling Retrospective"
+    description: |
+      On Xmas 2024, Aura Frames API had problems under peak load, being unavailable for three hours. They implement multiple strategy to help improve Postgres performance significantly. We will learn all of that here: high cpu during vacum, increase latency, lag replica, index bloat due to high write. One of interested thing is they split heavy write tables to its own dedicated db, we cannot always do this, but if we can it reduce and isolated high load to that db only.
+
+  - url: https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/
+    title: "gitignore Isn’t the Only Way To Ignore Files in Git"
+    description: |
+      I’ve been using Git for so long and I just realized you can ignore files at three different levels and not just with .gitignore. The three files you can use to ignore files are: .gitignore, .git/info/exclude, ~/.config/git/ignore
+
+  - url: https://www.philipzucker.com/td4-4bit-cpu/
+    title: "Guide to the TD4 4-bit DIY CPU"
+    description: |
+      How hard it's to build a home made CPU? hard if you had to do the hardware component yourself. But assume if you can get the part. TD4 is a little 4bit CPU: 2 registers, 16 bytes ROM.Quite limited but still very cool and teaches a lot of principles of computer architecture.
+
+  - url: https://planetscale.com/blog/the-only-scalable-delete
+    title: "The only scalable delete in Postgres is DROP TABLE"
+
+
+
+  - url: https://sibexi.co/posts/epoll-vs-io_uring/
+    title: "epoll vs io_uring in Linux"
+
+  - url: https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/
+    title: "CS 6120: Advanced Compilers: The Self-Guided Online Course"
+
+read_code:
+  - url: https://github.com/concurrencykit/ck
+    title: concurrencykit
+    description: |
+      Modern concurrency primitives and building blocks for high performance applications, all in C99+
+    category: ['C']
+
+  - url: https://github.com/cauenapier/TownSquare
+    title: TownSquare
+    description: |
+      Your website, but inhabited. Very hard to explain, like convert visitor into real character can interact in a widget on your site. very fund interestint to check
+    category: ['JavaScript', 'Css']
+
+  - url: https://github.com/confh/Tiny
+    title: Tiny
+    description: |
+      A high-performance, concurrent bytecode virtual machine and language written in Go. Tiny combines the development speed of dynamic coding with a robust, multi-threaded runtime engine
+    category: ['Go']
+
+  - url: https://github.com/StarTrail-org/PixelRAG
+    title: PixelRAG
+    description: |
+      The end of web parsing. The beginning of scalable pixel-native search.
+    category: ['Python']
+
+  - url: https://github.com/yaroslav/kino
+    title: kino
+    description: |
+      A high-performance Ractor web server for Ruby 4.0+: Rack 3-based, with a Rust Tokio/Hyper front-end and Ractor-parallel Ruby workers and threaded fallback mode.
+    category: ['Ruby']
+
+tool:
+  - url: https://github.com/overflowy/make-look-scanned
+    title: make-look-scanned
+    description: |
+      Makes PDFs look scanned (CLI or in the browser via WASM)
+
+  - url: https://earendil-works.github.io/absurd/
+    title:  Absurd
+    description: |
+      is a Postgres-native durable workflow system. It moves the complexity of durable execution into the database layer via stored procedures, keeping SDKs lightweight and language-agnostic. The core principle is to handle tasks that may run for minutes, days, or years without losing state.
+
+  - url: https://github.com/ozontech/pg_doorman
+    title: pg_doorman
+    description: |
+      A multithreaded PostgreSQL connection pooler in Rust (MSRV 1.87). Alternative to PgBouncer, Odyssey, and PgCat. In production at Ozon for over three years across Go (pgx), .NET (Npgsql), Python (asyncpg, SQLAlchemy), and Node.js workloads.
+
+self_hosted:
+  - url: https://bootimus.com/
+    tilte: bootimus
+    description: |
+      Self-contained PXE and HTTP boot server. One binary. Zero config. Built-in proxyDHCP so you never touch your router. 50+ distros detected automatically.
+
+  - url: https://pxehost.com/
+    title: pxehost
+    description: |
+      is a friendly PXE server that lets you boot up Linux installers without a USB drive. It runs on macOS, Linux, and Windows.
+
+  - url: https://github.com/useplunk/plunk
+    title: plunk
+    description: |
+      The Open-Source Email Platform. Transactional emails, marketing campaigns, and workflow automation — in one platform. Self-hostable, $0.001 per email, no contact limits.
+
+  - url: https://github.com/warp-tech/warpgate
+    title: warpgate
+    description: |
+      Fully transparent SSH, HTTPS, Kubernetes, MySQL and Postgres bastion/PAM that doesn't need additional client-side software
