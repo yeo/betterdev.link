@@ -150,3 +150,8 @@ self_hosted:
     title: warpgate
     description: |
       Fully transparent SSH, HTTPS, Kubernetes, MySQL and Postgres bastion/PAM that doesn't need additional client-side software
+
+  - url: https://github.com/hookdeck/outpost
+    title: outpost
+    description: |
+      Open Source Outbound Webhooks and Event Destinations Infrastructure
