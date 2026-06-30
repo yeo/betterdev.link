@@ -1,0 +1,104 @@
+time: "Jun 30, 2026"
+subject: "TPU Deep Dive ad Portable Executables"
+draft: false
+
+description: |
+  Hi everyone,
+
+  With the rise of LLM, it's now become even more important to know the fundamental of tech, no longer just to be able to whipe up some quick script, but understanding technical merit at a deeer level. We will include more links about these in future issue.
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+  - "<img src='https://www.vpdae.com/open/f030e675.gif?opens=1' width='1' height='1'>"
+
+links:
+  - url: https://www.vpdae.com/redirect/hv0jj7q8s7h54hzez1qdgokijfp
+    title: "DBCode - a database IDE in your editor"
+    description: |
+      Connect 80+ databases (Postgres, MongoDB, Snowflake, and more) from VS Code, Cursor, or any fork. Browse and edit data, write schema-aware SQL, generate ERDs, run SQL notebooks, and turn plain English into queries with Copilot.
+    category: ['sponsor']
+
+  - url: https://henryhmko.github.io/posts/tpu/tpu.html
+    title: "TPU Deep Dive"
+    description:|
+      TPUs is Google's ASIC that focuses on two factors: extreme matmul throughput + energy efficiency. TPUs power the majority of Google's AI services. Of course, that includes training and inference of Gemini or Veo, but also deploying their recommendation models (DLRMs).
+
+  - url: https://anteiku.fun/papers/an-introduction-to-modern-malware-development-for-red-teams/02_portable_executables/
+    title: "Portable Executables"
+    description: |
+      One of the most famous file formats in computer history probably is the Portable Executable, popularly known as .exe. There is more to it than just being the binary file format of choice for Windows systems. In this chapter, we will deep-dive into what are portable executables? Where they live? What they eat?
+
+  - url: https://mcyoung.xyz/2023/11/27/simd-base64/
+    title: "Designing a SIMD Algorithm from Scratch"
+    description: |
+      SIMD means single instruction multiple data, also sometimes called vectorization. Instead of this
+
+        a[0] + b[0]
+        a[1] + b[1]
+        a[2] + b[2]
+        a[3] + b[3]
+
+      and doing them sequentially, we can do
+
+        [a0 a1 a2 a3]
+        +
+        [b0 b1 b2 b3]
+
+      Kind of like JavaScript Promise.all in term of syntax.
+
+      Designing a good, fast, portable SIMD algorithm is not a simple matter and requires thinking a little bit like a circuit designer.
+
+  - url: https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names
+    title: "p99 0 ms* autocomplete for 240 million domain names"
+    description: |
+      Author Wirewiki.com, a website to inspect internet infrastructure like domain names. It helps people check (historic) DNS records, DNS delegation, email deliverability config, etc. And it's super fast. He want the autocomplete to be instant.
+
+  - url: https://richyen.com/postgres/2026/06/22/pg_stats_how_postgres_internal_stats_work.html
+    title: "pg_stats: How Postgres Internal Stats Work"
+
+  - url: https://www.averylaird.com/programming/the%20text%20editor/2017/09/30/the-piece-table.html
+    title: "Text Editor: Data Structures"
+    description: |
+      The worst way to store and manipulate text is to use an array.
+      The good way is a binary tree structure called a rope. 
+      And the best way is a Gap Buffer.
+
+  - url: https://www.arshad.fyi/writings/engineering-high-performance-parsers
+    title: "Engineering High-Performance Parsers with Data-Oriented Design"
+    description: |
+      A parser is usually taught as a problem of grammars, but once the grammar is correct, almost all of the performance and most of the engineering difficulty live somewhere else, in how the resulting tree is represented in memory.
+
+  - url: https://blog.andr2i.com/posts/2026-06-22-optimization-catalog-how-4-bytes-of-padding-make-array-clearing-49-faster
+    title: "Optimization catalog. How 4 bytes of padding make array clearing 49% faster"
+    description: |
+      An alignment quirk on Intel and AMD CPUs: keeping a Go array 8-byte aligned (vs offset 4) makes clearing it up to 49% faster, thanks to how REP STOSQ works.
+
+read_code:
+
+tool:
+  - url: https://www.pghardstorage.org/
+    title: pghardstorage
+    description: |
+      pg_hardstorage is an open-source PostgreSQL backup tool — built so something as fundamental as your recovery story stays code you can read, run, and rely on.
+
+  - url: https://github.com/pg-sharding/spqr
+    title: spqr
+    description: |
+      Stateless Postgres Query Router.
+
+  - url: https://github.com/naver/billboard.js
+    title: billboard.js
+    description: |
+      Re-usable, easy interface JavaScript chart library based on D3.js, with SVG and Canvas rendering support
+
+  - url: https://www.wirewiki.com/
+    title: "wirewiki"
+    description: |
+      Want to learn more about DNS Resoltuon, MX record, DNS Trace. This tool has all, even including a DNS Hisory change
+
+self_hosted:
+  - url: https://github.com/jumpserver/jumpserver
+    title: jumpserver
+    description: |
+      an open-source Privileged Access Management (PAM) platform that provides DevOps and IT teams with on-demand and secure access to SSH, RDP, Kubernetes, Database and RemoteApp endpoints through a web browser.
