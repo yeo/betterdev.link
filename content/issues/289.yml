@@ -21,8 +21,7 @@ links:
 
   - url: https://henryhmko.github.io/posts/tpu/tpu.html
     title: "TPU Deep Dive"
-    description:|
-      TPUs is Google's ASIC that focuses on two factors: extreme matmul throughput + energy efficiency. TPUs power the majority of Google's AI services. Of course, that includes training and inference of Gemini or Veo, but also deploying their recommendation models (DLRMs).
+    description: "TPUs is Google's ASIC that focuses on two factors: extreme matmul throughput + energy efficiency. TPUs power the majority of Google's AI services. Of course, that includes training and inference of Gemini or Veo, but also deploying their recommendation models (DLRMs)."
 
   - url: https://anteiku.fun/papers/an-introduction-to-modern-malware-development-for-red-teams/02_portable_executables/
     title: "Portable Executables"
