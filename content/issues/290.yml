@@ -1,0 +1,142 @@
+time: "Jul 14, 2026"
+subject: "Designing Partitioning You Don't Have to Babysit"
+draft: false
+
+description: |
+  Hi everyone,
+
+  This is a really good issue IMHO with lot of link on fundamental of web dev and computer deep knowledge(syscall, cpu).
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+links:
+  - url: https://explainanalyze.com/p/designing-partitioning-you-dont-have-to-babysit/
+    title: "Designing Partitioning You Don't Have to Babysit"
+    description: |
+      Six months in, p_future holds 800M rows because the growth projection didn't survive the workload, and every ALTER to fix it needs a maintenance window nobody wants to schedule. The boundary management is two lines of DDL; the harder part is picking a partition key that doesn't leak into application code.
+
+  - url: https://sanyamserver.online/posts/cors/
+    title: "CORS: What is it protecting?"
+    description: |
+      is CORS a browser security measure or a server security measure?
+
+  - url: https://blog.weineng.me/posts/slowest_add/
+    title: "Data Access Patterns That Makes Your CPU Really Angry"
+    description: |
+      Given an array of data, what is the slowest way to sum up the integers? Is it adding the numbers from left to right, adding them randomly, or doing something else? In this post, we are going to build a data access pattern from the ground up that sums numbers as slowly as possible by exploiting memory pitfalls.
+
+  - url: https://www.youtube.com/watch?v=tadUeiNe5-g
+    title: "How CPUs Interact with So Many Different Devices"
+    description: |
+      In this video we learn the basics of I/O devices, and how the interact with the the CPU in general purpose systems.
+
+
+  - url: https://blog.codingconfessions.com/p/what-makes-system-calls-expensive
+    title: "What Makes System Calls Expensive"
+    description: |
+      A look at how Linux handles system calls on x86-64, why crossing into the kernel has a cost, and why that cost shows up in performance profiles.
+
+  - url: https://engineering.zalando.com/posts/2026/06/client-side-load-balancing.html
+    title: "Client-Side Load Balancing at a Million Requests Per Second"
+    description: |
+      How Zalando built an in-process client-side load balancer for a million requests per second of internal fan-out traffic, what we layered on top (N-ring fade-in, occupancy-based bounded load, and AZ-aware routing with a latency health factor), and how hardening that path cut cost and made the service resilient to the infrastructure underneath it.
+
+  - url: https://www.ubicloud.com/blog/postgresql-and-the-oom-killer-why-we-use-strict-memory-overcommit
+    title: "PostgreSQL and the OOM Killer: Why We Use Strict Memory Overcommit"
+    description: |
+      Have you ever come into some awaful situation where you run `kill` on a postgres process that handle a connection and then suddenly the whole Postgres restart, even though you just kill a single process that handle one connection. This post explains that.
+  - url: https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/
+    title: "What happens when you run a CUDA kernel"
+
+  - url: https://spin.atomicobject.com/running-local-llms/
+    title: "A Practical Guide to Running Local LLMs"
+    description: |
+      Let’s be clear. It’s going to be a long time before running a local LLM will produce the type of results that you can get from querying ChatGPT or Claude. However, self hosted is useful when privacy is critical or when response time is not important.
+
+  - url: https://github.com/jamesob/local-llm
+    title: "jamesob's guide to running SOTA LLMs locally"
+    description: |
+
+  - url: https://tech.coop.no/blog/platform-engineering/2026/06/25/automating-gcp-quota-monitoring-across-multiple-projects/
+    title: "Automating GCP quota monitoring across multiple projects"
+  
+  - url: https://peteris.rocks/blog/htop/
+    title: htop explain
+
+read_code:
+  - url: https://github.com/klauspost/radsort
+    title: radsort
+    description: |
+      A Go implementation of Radsort — a stable LSD radix sort with O(√n) space overhead, from "Parallel O(√n) Overhead LSD Radix Sort" by Robert Clausecker and Florian Schintke
+    category: ['Go']
+
+  - url: https://github.com/wneessen/go-mail/wiki
+    title: go-mail
+    description: |
+      Easy to use, yet comprehensive library for sending mails with Go.
+    category: ['Go']
+
+  - url: https://github.com/sindresorhus/terminal-image
+    title: terminal
+    description: |
+      Display images in the terminal
+    category: ['JavaScript']
+
+  - url: https://github.com/bradautomates/claude-video
+    title: claude-video
+    description: |
+      Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.
+    category: ['Python']
+
+tool:
+  - url: https://wordgard.net/
+    title: wordgard
+    description: |
+      Open-source JavaScript library implementing an in-browser rich-text editor. I especially like the Collaborative Editing with their client/server example.
+
+  - url: https://github.com/bitwire-it/ipblocklist
+    title: "ipblocklist"
+    description: |
+      IP lists full of bad IPs - Updated every 2H
+
+  - url: https://upyo.org/
+    title: upyo
+    description: |
+      Send email from anywhere your code runs.
+
+  - url: https://github.com/watzon/goshot
+    title: goshot
+    description: |
+      Create beautiful code screenshots with customizable styles
+
+  - url: https://github.com/mozilla-ai/llamafile
+    title: llamafile
+    description: |
+      Distribute and run LLMs with a single file.
+
+  - url: https://github.com/aristocratos/btop
+    title: btop
+    description: |
+      Resource monitor that shows usage and stats for processor, memory, disks, network and processes.
+      Similar to htop but better.
+
+  - url: https://github.com/291-Group/LAN-Orangutan
+    title: "LAN Orangutan"
+    description: |
+      is a lightweight network scanner with persistent device labeling, multi-network support, and Tailscale integration. Built by 291 Group."
+
+  - url: https://github.com/prest/prest
+    title: prest
+    description: |
+      a production-ready API that delivers instant REST and Model Context Protocol (MCP) APIs on top of your existing or new Postgres database—CRUD, custom SQL routes, auth, ACL, and a read-only MCP endpoint—without hand-writing a backend.
+
+self_hosted:
+  - url: https://github.com/NdoleStudio/httpsms
+    title: httpsms
+    description: |
+      Send and receive SMS messages using your Android phone programmatically via a simple HTTP API
+
+  - url: https://github.com/netalertx/NetAlertX
+    title: NetAlertX
+    description: |
+      Network Visibility & Asset Intelligence Framework
