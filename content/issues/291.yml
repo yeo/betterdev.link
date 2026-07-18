@@ -51,6 +51,14 @@ links:
 
   - url: https://onatm.dev/2026/07/16/homescale-part-1/
     title: "Let's Build PlanetScale From Scratch: Infrastructure"
+    description: |
+      This isn't about building a production system but more about a PoC and learning. The idea is we de-couple storage from compute, leverage the power of storage, especially CoW(Copy on write) to branching and do cool thing with database similar to PlanetScale.
+
+  - url: https://blog.apnic.net/2026/07/15/whos-running-all-those-tiny-rpki-servers/
+    title: "Who’s running all those tiny RPKI servers?"
+    description: |
+      Border Gateway Protocol (BGP) lacks built-in trust. Resource Public Key Infrastructure (RPKI) addresses that problem by letting address space holders cryptographically authorize which Autonomous System (AS) may originate their prefixes, via Route Origin Authorizations (ROAs) published through a chain of trust anchored at the five Regional Internet Registries (RIRs). But there are also independent operators contributes to this RPKI. In this post, we investigate who operates those small servers and why.
+      
 
 read_code:
   - url: https://pocketjs.dev/
@@ -63,6 +71,11 @@ tool:
     title: "yamux"
     description: |
       Golang connection multiplexing library
+
+  - url: https://github.com/martin-olivier/airgorah
+    title: airgorah
+    description: |
+      A WiFi security auditing software mainly based on aircrack-ng tools suite
 
 self_hosted:
   - url: https://github.com/fatedier/frp
