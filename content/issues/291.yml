@@ -44,6 +44,11 @@ links:
     description: |
       Database sharding is the best way to scale a Postgres or MySQL database for anything beyond a few terabytes of data. Let's look at how we go from a small single-node database, to one with a few terabytes spread across four shards, all the way up to one that is sharded across 768 servers and storing a petabyte of data
 
+  - url: https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/
+    title: "Measuring input latency on Linux: X11 vs Wayland, VRR, and DXVK"
+    description: |
+      People kept telling OP that Linux could perform way better than Windows when it comes to FPS, frame pacing and input latency. So he came up with an idea to actuallly measure that.
+
   - url: https://hakibenita.com/postgresql-partition-pruning
     title: "How to Achieve Pruning When Querying by Non-Partitioned Columns in PostgreSQL"
     description: |
@@ -58,13 +63,40 @@ links:
     title: "Who’s running all those tiny RPKI servers?"
     description: |
       Border Gateway Protocol (BGP) lacks built-in trust. Resource Public Key Infrastructure (RPKI) addresses that problem by letting address space holders cryptographically authorize which Autonomous System (AS) may originate their prefixes, via Route Origin Authorizations (ROAs) published through a chain of trust anchored at the five Regional Internet Registries (RIRs). But there are also independent operators contributes to this RPKI. In this post, we investigate who operates those small servers and why.
-      
+
+  - url: https://easylang.online/blog/branchless
+    title: "When ‘if’ slows you down, avoid it"
+    description: |
+      With modern CPUs, avoiding branch mispredictions is a key method for speeding up programs. One of the most effective ways to reduce mispredictions is to simply avoid branches.
+
+  - url: https://cpu.land/
+    title: "Putting the “You” in CPU"
+    description: |
+      Curious exactly what happens when you run a program on your computer? Read this article to learn how multiprocessing works, what system calls really are, how computers manage memory with hardware interrupts, and how Linux loads executables.
+
+  - url: https://bruceediger.com/posts/tftp-honeypot-results/
+    title: "TFTP Honey pot Results"
+    description: |
+      It just fun to read Honey pot result to see whats the scan or the threat actors do.
 
 read_code:
+  - url: https://github.com/color-js/color.js
+    title: colorjs
+    description: |
+      Color conversion & manipulation library by the editors of the CSS Color specifications
+    category: ['JavaScript']
+
   - url: https://pocketjs.dev/
     title: "pocketjs: Bare Metal Modern Web"
     description: |
       High-performance JSX UI outside the browser, with native rendering, standard Vue Vapor and Solid support, a Tailwind design system, and 60 FPS animation under an 8 MB memory budget.
+
+  - url: https://github.com/Michael-Manning/E-Paper-Climate-Logger
+    title: "Weathergotchi - an E-Paper Climate Logger"
+    description: |
+      an open-source, battery-powered temperature and humidity data logger with an always-on e-paper display. It records ambient conditions over time, stores readings in non-volatile memory, and displays current data along with a history graph. The device is designed for low power consumption, over 1 week of operation on a small Li‑Po battery.
+    category: ['C++']
+  
 
 tool:
   - url: https://github.com/hashicorp/yamux
@@ -77,8 +109,34 @@ tool:
     description: |
       A WiFi security auditing software mainly based on aircrack-ng tools suite
 
+  - url: https://developer.chrome.com/blog/agent-ready-toolkit
+    title: 
+
+  - url: https://visual-json.dev/
+    title: visual json
+    description: |
+      The Visual JSON Editor. Schema-aware, embeddable, extensible.
+
+  - url: https://github.com/likec4/likec4
+    title: likec4
+    description: |
+      a modeling language for describing software architecture and tools to generate diagrams from the model.
+
 self_hosted:
   - url: https://github.com/fatedier/frp
     title: frp
     description: |
       A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
+
+  - url: https://github.com/andrewjiang/palantir-for-family-trips
+    title: palantir for family trips
+    description: |
+      Because “three families are trying to get to the same cabin” is already a systems problem.
+
+      The repo is intentionally overbuilt for a small real-life use case. That is the point. It is a fun UI experiment, a trip-planning toy, and a mildly absurd attempt to make a family weekend feel like a live operations room.
+
+
+  - url: https://github.com/stupside/castor
+    title: castor
+    description: |
+      Point Castor at a web page you are watching, or at a direct stream URL, and it finds the video, extracts the stream, transcodes it for your TV, and casts in real time. It can also resolve an IMDB/TMDB id against sources you configure yourself, and burn in auto-generated subtitles.
