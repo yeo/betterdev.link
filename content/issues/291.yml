@@ -1,6 +1,6 @@
 time: "Jul 20, 2026"
 subject: "Text Editor Data Structures and A Short IPv6 Guide for Home IPv4 Admins"
-draft: true
+draft: false
 
 description: |
   Hi everyone,
@@ -24,20 +24,31 @@ links:
       <a href="https://www.vpdae.com/redirect/h427una93hb2dlis5f4iolk2rwk">Try mirrord free</a>.<br></p>
     category: ['sponsor']
 
+  - url: https://www.joanwestenberg.com/p/the-bread-paradox-why-convenience
+    title: "The bread paradox: why convenience always wins, and why SaaS isn’t doomed"
+    description: |
+      No, you're not going to code your own Jira
+
+  - url: https://internals-for-interns.com/posts/linux-kernel-vfs/
+    title: "Understanding the Linux Kernel: The VFS"
+    description: |
+      what actually happens when a program opens a file? file operations work identically on an ext4 file (the disk filesystem most Linux distributions use by default), a file in /proc that exists only as kernel memory, and a file on an NFS share on another machine. Same calls, same file descriptor semantics, same close() at the end.
+
   - url: https://cdacamar.github.io/data%20structures/algorithms/benchmarking/text%20editors/c++/editor-data-structures/
     title: "Text Editor Data Structures"
     description: |
       Text editors can be an interesting challenge to program. The types of problems that text editors need to solve can range from trivial to mind-bogglingly difficult. Recently, I have been on something of a spiritual journey to rework some internal data structures in an editor I have been building, specifically the most fundamental data structure to any text editor: the text.
+
+  - url: https://modal.com/blog/scaling-to-1-million-concurrent-sandboxes-in-seconds
+    title: "Scaling to 1 million concurrent sandboxes in seconds"
+    description: |
+      modal.com rebuilt their core sandbox platform from ground up to support run millions of sandboxes concurrently and create ten of thoudsands of sandboxes per second.
 
   - url: https://gist.github.com/timothyham/dd003dbad5614b425a8325ec820fd785
     title: "A Short IPv6 Guide for Home IPv4 Admins"
     description: |
       This guide is for homelab admins who understand IPv4s well but find setting up IPv6 hard or annoying because things work differently. In some ways, managing an IPv6 network can be simpler than IPv4, one just needs to learn some new concepts and discard some old ones
 
-  - url: https://www.joanwestenberg.com/p/the-bread-paradox-why-convenience
-    title: "The bread paradox: why convenience always wins, and why SaaS isn’t doomed"
-    description: |
-      No, you're not going to code your own Jira
 
   - url: https://planetscale.com/blog/making-768-servers-look-like-1
     title: "Making 768 servers look like 1"
@@ -109,9 +120,6 @@ tool:
     description: |
       A WiFi security auditing software mainly based on aircrack-ng tools suite
 
-  - url: https://developer.chrome.com/blog/agent-ready-toolkit
-    title: 
-
   - url: https://visual-json.dev/
     title: visual json
     description: |
@@ -122,7 +130,27 @@ tool:
     description: |
       a modeling language for describing software architecture and tools to generate diagrams from the model.
 
+  - url: https://github.com/huridocs/pdf-document-layout-analysis
+    title: "PDF Document Layout Analysis"
+    description: |
+      A Docker-powered microservice for intelligent PDF document layout analysis, OCR, and content extraction
+
+  - url: https://github.com/berbicanes/apiark
+    title: apiark
+    description: |
+      Privacy-first API platform built with Tauri v2. No login, no cloud, ~60 MB RAM. A lightweight Postman alternative.
+
 self_hosted:
+  - url: https://github.com/bluewave-labs/Checkmate
+    title: Checkmate
+    description: |
+      an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations.
+
+  - url: https://github.com/kOlapsis/maintenant
+    title: maintenant
+    description: |
+      Monitor everything. Manage nothing. Drop a single container. Your entire stack is monitored in seconds.
+
   - url: https://github.com/fatedier/frp
     title: frp
     description: |
