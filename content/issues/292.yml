@@ -1,5 +1,5 @@
 time: "Jul 27, 2026"
-subject: "Text Editor Data Structures and A Short IPv6 Guide for Home IPv4 Admins"
+subject: "North Korean campaign uses fake coding interviews to steal developer credentials"
 draft: true
 
 description: |
@@ -68,6 +68,11 @@ links:
 
   - url: https://dead.garden/blog/how-my-images-are-dithered.html
     title: "How my images are dithered"
+
+  - url: https://www.joshwcomeau.com/css/anchor-positioning/
+    title: "Getting Started with Anchor Positioning"
+    description: |
+      Have you ever  has to deal with a tool-tip on the top got cut-off and have to re-position to bottom? JavaScript used to be solve this problem, but it's awaful.  Fortunately, a shiny new browser API handles all of the tough stuff for us: the Anchor Positioning API.
 
 read_code:
   - url: https://blog.ktz.me/esp32-plane-radar/
