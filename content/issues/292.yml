@@ -1,0 +1,140 @@
+time: "Jul 27, 2026"
+subject: "Text Editor Data Structures and A Short IPv6 Guide for Home IPv4 Admins"
+draft: true
+
+description: |
+  Hi everyone,
+
+  Crazy story this week, North Korean campaign use fake coding interviews to steal credential, discover by ElasticSearch. Level up your guard and akways run coding interview in a sandbox. Quick and safe enough is to run inside a non root docker image. Stronger way is to use VM such as [container](https://github.com/apple/container) or FireCrakcer or qemu vm.
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+  - "<img src='https://www.vpdae.com/open/f00051f8.gif?opens=1' width='1' height='1'>"
+
+links:
+  - url: https://www.vpdae.com/redirect/fx0thtoscdrm1lcivbb5xfaut2h
+    title: "Accelerating your test suite in CI"
+    description: |
+      <p style="display: block; margin-block-start: 0.75rem;">For most teams the first CI bottleneck is the test suite. This post covers parallelism, sharding, prebuilt images, and a job-density rule that keeps wider sharding from wrecking your bill.<br></p>
+    category: ['sponsor']
+
+  - url: https://www.elastic.co/security-labs/contagious-interview-malware-svg-steganography
+    title: "New North Korean campaign uses fake coding interviews to steal developer credentials"
+    description: |
+      Elastic Security Labs found a new Contagious Interview campaign, tracked as REF9403, hiding malware inside SVG image files using steganography. To our knowledge, this specific infection chain has not been previously documented. We found it after the DPRK-aligned group targeted our own community Slack workspace with a fake job posting and a "coding challenge" project.
+
+  - url: https://tech.olx.com/handling-concurrency-on-the-web-with-web-locks-api-163b7e07eddd
+    title: "Handling concurrency on the Web with Web Locks API"
+    description: |
+      What should we implement lock mechanism across tab? Local storage, cookie?
+
+  - url: https://haqr.eu/tinyrenderer/
+    title: "tinyrenderer: Software rendering in 500 lines of bare C++"
+    description: |
+      Have  you feel overwhelm with 3d model? how does that work? How the code look like
+
+  - url: https://learnopengl.com/
+    title: learnopengl
+    description: |
+      Whether you are trying to learn OpenGL for academic purposes, to pursue a career or simply looking for a hobby, this book will teach you the basics, the intermediate, and all the advanced knowledge using modern (core-profile) OpenGL. The aim of LearnOpenGL is to show you all there is to modern OpenGL in an easy-to-understand fashion with clear examples, while also providing a useful reference for later studies.
+
+  - url: https://shi-yan.github.io/webgpuunleashed/
+    title: "WebGPU Unleashed: A Practical Tutorial"
+    description: |
+      Welcome to "WebGPU Unleashed" - your gateway to the dynamic world of graphics programming. This free book will teach you graphics programming in JavaScript using WebGPU, drawing from my own learning journey.
+
+  - url: https://eliemichel.github.io/LearnWebGPU/
+    title: LearnWebGPU
+    description: |
+      This documentation walks you through the use of the WebGPU graphics API to create native 3D applications in C++ from scratch, for Windows, Linux and macOS.
+
+  - url: https://mitchellh.com/writing/everyone-should-know-simd
+    title: "Everyone Should Know SIMD"
+    description: |
+      SIMD has a reputation for being complex. Many very good software engineers who dismiss it as something too complex to learn or a niche optimization meant for only the highest-performance software. SIMD can be simple to understand1, and common "process N values at a time" SIMD code to speed up a naive for loop almost always follows the same general shape. Another one to follow up [SIMD for Collision](https://box2d.org/posts/2026/07/simd-for-collision/)
+
+  - url: https://maurycyz.com/projects/bad_jpeg/
+    title: "Regressive JPEGs"
+    description: |
+
+  - url: https://www.0xkato.xyz/how-llms-actually-work/
+    title: "How LLMs Actually Work"
+    description: |
+      This post is a walkthrough of how LLMs work. Modern LLMs are mostly built by stacking transformer blocks over and over, so understanding the transformer machinery gets you most of the way there.
+
+  - url: https://www.apalrd.net/posts/2026/isp_mcast/
+    title: "Multicast TV Distribution on my Home Network"
+
+  - url: https://dead.garden/blog/how-my-images-are-dithered.html
+    title: "How my images are dithered"
+
+read_code:
+  - url: https://blog.ktz.me/esp32-plane-radar/
+    title: "An ESP32 based plane radar"
+    description: |
+      Plane radar is a neat little project that turns an ESP32-C3 and a 1.28-inch round display into a live aircraft radar. It pulls nearby ADS-B traffic, plots each aircraft by distance and bearing, and shows the details directly on the screen.
+ 
+  - url: https://yamafaktory.github.io/whetuu/
+    title: whetuu
+    description: |
+      An opinionated, zero-config cross-shell prompt written in Zig.
+    category: ['Zig']
+
+  - url: https://github.com/lemire/testingmlp
+    title: "Testing memory-level parallelism"
+    description: |
+      Processor cores can issue multiple memory requests. How many concurrent memory requests can your processor cores support? How to test that with code. lets learn. It's C and unfamiliar with web dev, but if I myself can read it, you can too.
+    category: ["C"]
+
+tool:
+  - url: https://microsoft.github.io/flint-chart/
+    title: "flint"
+    description: |
+      A Visualization Language for the AI Era
+
+  - url: https://github.com/onecli/onecli
+    title: onecli
+    description: |
+      Open-source credential gateway with a built-in vault. give your AI agents access to services without exposing keys.
+
+  - url: https://github.com/Infisical/agent-vault
+    title: agent-vault
+    description: |
+      A HTTP credential proxy and vault for AI agents like Claude Code, OpenClaw, Hermes, custom agents + harnesses, and more.
+
+  - url: https://github.com/a24films/puffgres
+    title: puffgres
+    description: |
+      Keep Postgres entities synced with turbopuffer using logical replication
+
+  - url: https://github.com/xataio/pgstream
+    title: pgstream
+    description: |
+      Postgres replication with DDL changes
+
+self_hosted:
+  - url: https://github.com/oblien/openship
+    title: Openship
+    description: |
+      Self-hosted deployment platform with built-in CI/CD. Point it at a repo — it builds, ships, routes, and TLS-terminates your app. Drive it from a desktop app, web dashboard, or CLI.
+
+  - url: https://github.com/KnockOutEZ/wigolo
+    title: wigolo
+    description: |
+      Local-first web intelligence for AI agents — no keys, no cloud, no metered bill.
+
+  - url: https://github.com/calesthio/Crucix
+    title: Crucix
+    description: |
+      Your own intelligence terminal. 27 sources. One command. Zero cloud.Watches the world from multiple data sources and pings you when something changes.
+
+  - url: https://github.com/Paymenter/Paymenter
+    title: Paymenter
+    description: |
+      Automate subscriptions, eliminate billing chaos, and grow your hosting business – without vendor lock-ins or hidden costs.
+
+  - url: https://github.com/jason5ng32/MyIP
+    title: MyIP
+    description: |
+      The best IP Toolbox. Check your IP address & geolocation, test IP for WebRTC and DNS IP leaks, run an IP quality check, browser fingerprint check, website availability check, network speed test, global latency test, MTR test, Whois search, and more.
