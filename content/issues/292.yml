@@ -22,7 +22,7 @@ links:
   - url: https://www.elastic.co/security-labs/contagious-interview-malware-svg-steganography
     title: "New North Korean campaign uses fake coding interviews to steal developer credentials"
     description: |
-      Elastic Security Labs found a new Contagious Interview campaign, tracked as REF9403, hiding malware inside SVG image files using steganography. To our knowledge, this specific infection chain has not been previously documented. We found it after the DPRK-aligned group targeted our own community Slack workspace with a fake job posting and a "coding challenge" project.
+      Elastic Security Labs found a new Contagious Interview campaign, tracked as REF9403, hiding malware inside SVG image files using steganography. To our knowledge, this specific infection chain has not been previously documented. We found it after the DPRK-aligned group targeted our own community Slack workspace with a fake job posting and a "coding challenge" project. Another similar [I Inspected My Take-Home Interview Project. It Was a Whole Operation.](https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/)
 
   - url: https://tech.olx.com/handling-concurrency-on-the-web-with-web-locks-api-163b7e07eddd
     title: "Handling concurrency on the Web with Web Locks API"
