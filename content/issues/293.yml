@@ -1,0 +1,84 @@
+time: "Aug 3, 2026"
+subject: "The startup's Postgres survival guide""
+draft: true
+
+description: |
+  Hi everyone,
+
+  In 2013, I was a PHP Dev, MySQL with its replication features and percona backup and mysql proxy is my bread and butter. In 2017, I starts to use Postres and in last 9 years I used ti for everything. I operated db up to 20TB on a 64GB RAM machine with thousand read/write, employee many optimization and Postgres never failed me. Strongly recommend.
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+  - "<img src='https://www.vpdae.com/open/7c622319.gif?opens=1' width='1' height='1'>"
+
+links:
+  - url: https://www.vpdae.com/redirect/n693tnmyws1shxluv15d2u9e3bu
+    title: "Your AI agent needs API access. It shouldn’t need the API key."
+    description: |
+      <p style="display: block; margin-block-start: 0.75rem;">AI agents need access to GitHub, Stripe, Linear, and other services to do useful work. But handing an agent a real API key creates credential exfiltration risk through prompt injection, a compromised runtime, or exposure to the LLM provider.<br></p>
+      <p style="display: block; margin-block-start: 0.75rem;">Infisical Agent Proxy lets agents use those services without ever seeing the underlying secret. The agent receives a placeholder, and the proxy swaps in the real credential only when the outbound request crosses the network boundary.<br></p>
+      <p style="display: block; margin-block-start: 0.75rem;">The result: developers can keep building and deploying agents without putting real credentials inside unpredictable workloads. Existing API calls, SDKs, CLIs, and MCP connections continue to work, and 30+ pre-built integrations reduce the configuration required.<br></p>
+      <p style="display: block; margin-block-start: 0.75rem;">See how Infisical Agent Proxy helps teams give AI agents access to the services they need without handing over the secrets behind them. Explore how it works, review the supported integrations, and start building for free with less credential risk.<br></p>
+    category: ['sponsor']
+
+  - url: https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html
+    title: Kimi K3 Architecture Notes
+    description: |
+      Kimi is a model developed outside of US and has surpass even Fable, gain immensively amount of traction. If you had a Mac with 64GB RAM, you can try [running Kimi K3 (2.8T parameters) on one Apple Silicon Mac](https://github.com/gavamedia/deltafin)
+
+  - url: https://hatchet.run/blog/postgres-survival-guide
+    title: "The startup's Postgres survival guide"
+    description: |
+      There are just so many Postgres setting, and we do not want to wait till the shit hit the fan to debug them.
+
+  - url: https://stormatics.tech/blogs/the-right-way-to-give-a-third-party-dba-access-to-your-postgresql-database
+    title: "The Right Way to Give a Third-Party DBA Access to Your PostgreSQL Database"
+
+  - url: https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers
+    title: "SQLite in Production"
+    description: |
+      Optimizing WAL Mode, Concurrency, and VFS Layers for Low-Latency App Servers"
+
+  - url: https://interrupt.memfault.com/blog/firmware-watchdog-best-practices
+    title: "A Guide to Watchdog Timers for Embedded Systems"
+    description: |
+      At some point you’ve probably had to unplug and plug back in an electronic device to get it to work again! System freezes and hangs are not only frustrating to an end user, but they can also be quite challenging to debug and fix. or some classes of devices, such as a satellite1, a manual reset is not even possible, making a wedged device a multi-million dollar “brick”. 
+
+  - url: https://users.ece.utexas.edu/~valvano/Volume1/E-Book/
+    title: "Embedded Systems - Shape The World"
+    description: |
+      When we turn on the coffee machine, when an oven run, a bridge report its temperature, embedded system is everywhere around us, in our daily life.
+
+  - url: https://www.greybeam.ai/blog/duckdb-internals-part-2
+    title: "DuckDB Internals: Why is DuckDB Fast"
+
+read_code:
+  - url: https://github.com/reflex-dev/xy
+    title: xy
+    description: |
+      An ultra-fast and customizable Python plotting library
+    category: ['Python']
+
+tool:
+  - url: https://github.com/drumih/turbo-fieldfare
+    title: turbo-fieldfare
+    description: |
+      Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook
+
+  - url: https://github.com/bholmesdev/hubble.md
+    title: hubble
+    description: |
+      The best notepad for you and your agents
+
+  - url: https://github.com/GONZOsint/geowifi
+    title: geowifi
+    description: |
+      Search WiFi geolocation data by BSSID and SSID on different public databases.
+
+  - url: https://github.com/ankandrew/fast-plate-ocr
+    title: fast-plate-ocr
+    description: |
+      Lightweight & fast OCR models for license plate text recognition.
+
+self_hosted:
