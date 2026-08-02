@@ -1,11 +1,13 @@
 time: "Aug 3, 2026"
-subject: "The startup's Postgres survival guide""
+subject: "The startup's Postgres survival guide"
 draft: true
 
 description: |
   Hi everyone,
 
   In 2013, I was a PHP Dev, MySQL with its replication features and percona backup and mysql proxy is my bread and butter. In 2017, I starts to use Postres and in last 9 years I used ti for everything. I operated db up to 20TB on a 64GB RAM machine with thousand read/write, employee many optimization and Postgres never failed me. Strongly recommend.
+
+  In 2018, I started to use Vault, love it. But these day I recommend [Infisical](https://www.vpdae.com/redirect/n693tnmyws1shxluv15d2u9e3bu), they are also a sponsor of BetterDev. It's more user-friendly and more practical than Vault, not locking too many thing behind enterprise feature. Another
 
   If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
 
@@ -35,6 +37,30 @@ links:
   - url: https://stormatics.tech/blogs/the-right-way-to-give-a-third-party-dba-access-to-your-postgresql-database
     title: "The Right Way to Give a Third-Party DBA Access to Your PostgreSQL Database"
 
+  - url: https://domenic.me/agentic-coding-setup/
+    title: "My Agentic Coding Setup, July 2026"
+    description: |
+      Domenic Denicola is the author behind jsdom. He shared with us how he setup his agentic coding. The biggest take a way is usage of tailnet and a linux vm to run thing and make accessible across devices with tailnet.
+
+  - url: https://nobodywho.ooo/posts/whats-in-a-gguf/
+    title: "What's in a GGUF, besides the weights - and what's still missing?"
+    description: |
+      GGUF is the file format that llama.cpp uses for language models. The safetensors are a bunch of json files. GGUF is a single file. What makes it work?
+
+  - url: https://csswizardry.com/2026/07/meaasuring-component-performance-with-the-container-timing-api/
+    title: "Measuring Component Performance with the Container Timing API"
+    description: |
+       Largest Contentful Paint gives us a useful high-level signal for the point at which the largest thing in the viewport was rendered. It is much less good at telling us when our things looked ready. Enter the Container Timing API: an experimental performance API that allows us to annotate a whole region of the DOM and receive entries as new, contentful parts of it are painted. 
+
+  - url: https://www.canva.dev/blog/engineering/session-revocations-at-scale
+    title: "Session revocations at scale"
+    description: |
+      Managing sessions for hundreds of millions of users is a tricky problem because every backend request needs to know which logged-in user made it. At Canva’s scale, this means answering this question hundreds of thousands of times every second. We keep session revocations directly in memory for the best possible performance and reliability, but as we grew, loading this cache during deploys became a bottleneck.
+
+
+  - url: https://theconsensus.dev/p/2026/07/19/observing-gos-garbage-collector-old-and-new.html
+    title: "Watching Go's new garbage collector move through the heap"
+
   - url: https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers
     title: "SQLite in Production"
     description: |
@@ -53,14 +79,42 @@ links:
   - url: https://www.greybeam.ai/blog/duckdb-internals-part-2
     title: "DuckDB Internals: Why is DuckDB Fast"
 
+  - url: https://github.com/slvDev/esp32-ai
+    title: "Running a 28.9M parameter LLM on an $8 microcontroller"
+    description: |
+       28.9 million parameter language model that generates text on an ESP32-S3, a microcontroller that costs about $8. It runs on the chip itself, with nothing sent to a server, and it writes each word to a small screen wired to the chip at roughly 9 tokens per second.
+
 read_code:
+  - url: https://github.com/pshenok/server-survival
+    title: server-survival
+    description: |
+      Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling.
+    category: ['JavaScript']
+
+  - url: https://github.com/pshenok/datacenter-survival
+    title: datacenter-survival
+    description: |
+      Build and run a datacenter: power chains, heat, cooling, PUE. Sister game of Server Survival — the physical layer of the cloud.
+    category: ['JavaScript']
+
   - url: https://github.com/reflex-dev/xy
     title: xy
     description: |
       An ultra-fast and customizable Python plotting library
     category: ['Python']
 
+  - url: https://github.com/syncular/syncular
+    title: syncular
+    description: |
+       offline-first SQL sync you can operate. Clients keep a real local SQLite database (OPFS in the browser, native SQLite elsewhere), writes go through an optimistic outbox, and one ordered commit log on the server stays the source of truth.
+    category: ['TypeScript', 'Rust']
+
 tool:
+  - url: https://maplibre.org/maplibre-gl-js/docs/
+    title: maplibre-gl
+    description: |
+      MapLibre GL JS is a TypeScript library that uses WebGL to render interactive maps from vector tiles in a browser. The map’s appearance is controlled by a style document whose structure and properties are defined by the MapLibre Style Spec. It is part of the MapLibre ecosystem, with a counterpart for Android, iOS and other platforms called MapLibre Native.
+
   - url: https://github.com/drumih/turbo-fieldfare
     title: turbo-fieldfare
     description: |
@@ -81,4 +135,44 @@ tool:
     description: |
       Lightweight & fast OCR models for license plate text recognition.
 
+  - url: https://github.com/yakhyo/uniface
+    title: uniface
+    description: |
+      A Unified Face Analysis Library for Python | Detection, alignment, landmarks, recognition, parsing, gaze, attributes and anti-spoofing under one API.
+
+  - url: https://github.com/FrigadeHQ/yap
+    title: yap
+    description: |
+      Free, open source voice dictation for macOS. On-device transcription with Apple's Speech framework. No cloud, no API keys, no account.
+
+  - url: https://pgext.cloud
+    title: pgext.cloud
+    description: |
+      Explore the superpowers of 2,230 PostgreSQL extensions, and the availability of 562 extension artifacts across 16 Linux platforms.
+
 self_hosted:
+  - url: https://github.com/learnhouse/learnhouse
+    title: learnhouse
+    description: |
+      The Next-gen Open Source learning platform for everyone
+
+  - url: https://github.com/block/buzz
+    title: buzz
+    description: |
+       self-hostable workspace where humans and AI agents share the same rooms.
+
+
+  - url: https://github.com/langchain-ai/openwiki
+    title: openwiki
+    description: |
+      a CLI that writes and maintains agent documentation for your codebase.
+
+  - url: https://github.com/letsseal/letsseal
+    title: letsseal
+    description: |
+      The open standard for proving any file is real, unaltered and sealed
+
+  - url: https://github.com/CoreBunch/Instatic
+    title: "Instatic"
+    description: |
+      The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.
