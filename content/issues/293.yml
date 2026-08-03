@@ -5,9 +5,9 @@ draft: true
 description: |
   Hi everyone,
 
-  In 2013, I was a PHP Dev, MySQL with its replication features and percona backup and mysql proxy is my bread and butter. In 2017, I starts to use Postres and in last 9 years I used ti for everything. I operated db up to 20TB on a 64GB RAM machine with thousand read/write, employee many optimization and Postgres never failed me. Strongly recommend.
+  In 2013, I was a PHP Dev, MySQL with its replication features and percona backup and mysql proxy are my bread and butter. In 2017, I starts to use Postres and in last 9 years I used it for everything. I operated db up to 20TB, use  many optimizations and Postgres never failed me and open many uses cases. That's reason this newsletter has a focus on Postgres too.
 
-  In 2018, I started to use Vault, love it. But these day I recommend [Infisical](https://www.vpdae.com/redirect/n693tnmyws1shxluv15d2u9e3bu), they are also a sponsor of BetterDev. It's more user-friendly and more practical than Vault, not locking too many thing behind enterprise feature. Another
+  In 2018, I started to use Vault, love it. But these day I recommend [Infisical](https://www.vpdae.com/redirect/n693tnmyws1shxluv15d2u9e3bu), they are also a sponsor of BetterDev. It's more user-friendly and more practical than Vault, not locking too many thing behind enterprise feature.
 
   If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
 
