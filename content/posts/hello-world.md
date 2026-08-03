@@ -24,8 +24,8 @@ tiny k8s cluster. <]
 
 ## How posts are written
 
-Posts are plain markdown files in `content/posts/`, with YAML front matter
-for `title`, `description`, `date` and `draft`.
+Posts are support a TOCs and a side notes so our reader can follow and link
+to each section easiser
 
 ### Table of contents
 

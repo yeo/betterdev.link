@@ -1,6 +1,6 @@
 time: "Aug 3, 2026"
 subject: "The startup's Postgres survival guide"
-draft: true
+draft: false
 
 description: |
   Hi everyone,
@@ -36,6 +36,9 @@ links:
 
   - url: https://stormatics.tech/blogs/the-right-way-to-give-a-third-party-dba-access-to-your-postgresql-database
     title: "The Right Way to Give a Third-Party DBA Access to Your PostgreSQL Database"
+    description: |
+      Giving an external team access to your PostgreSQL database is one of those decisions that deserves a little thought. The easiest option is to hand over a superuser account, but it’s rarely the right one. A better approach is to create a dedicated role with only the privileges they actually need, and it takes just a few minutes to set up. 
+
 
   - url: https://domenic.me/agentic-coding-setup/
     title: "My Agentic Coding Setup, July 2026"
@@ -57,10 +60,6 @@ links:
     description: |
       Managing sessions for hundreds of millions of users is a tricky problem because every backend request needs to know which logged-in user made it. At Canva’s scale, this means answering this question hundreds of thousands of times every second. We keep session revocations directly in memory for the best possible performance and reliability, but as we grew, loading this cache during deploys became a bottleneck.
 
-
-  - url: https://theconsensus.dev/p/2026/07/19/observing-gos-garbage-collector-old-and-new.html
-    title: "Watching Go's new garbage collector move through the heap"
-
   - url: https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers
     title: "SQLite in Production"
     description: |
@@ -76,13 +75,16 @@ links:
     description: |
       When we turn on the coffee machine, when an oven run, a bridge report its temperature, embedded system is everywhere around us, in our daily life.
 
-  - url: https://www.greybeam.ai/blog/duckdb-internals-part-2
-    title: "DuckDB Internals: Why is DuckDB Fast"
-
   - url: https://github.com/slvDev/esp32-ai
     title: "Running a 28.9M parameter LLM on an $8 microcontroller"
     description: |
        28.9 million parameter language model that generates text on an ESP32-S3, a microcontroller that costs about $8. It runs on the chip itself, with nothing sent to a server, and it writes each word to a small screen wired to the chip at roughly 9 tokens per second.
+
+  - url: https://www.greybeam.ai/blog/duckdb-internals-part-2
+    title: "DuckDB Internals: Why is DuckDB Fast"
+
+  - url: https://theconsensus.dev/p/2026/07/19/observing-gos-garbage-collector-old-and-new.html
+    title: "Watching Go's new garbage collector move through the heap"
 
 read_code:
   - url: https://github.com/pshenok/server-survival
