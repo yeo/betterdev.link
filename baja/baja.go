@@ -22,6 +22,8 @@ type Page struct {
 	Time   time.Time
 	Issue  Issue
 	Issues Issues
+	Post   Post
+	Posts  Posts
 }
 
 type Link struct {

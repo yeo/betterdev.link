@@ -25,7 +25,7 @@ func Compile(source string) error {
 	createRSS(page)
 	createHome(page)
 	createIssues(page)
-	//createPost(page)
+	createBlog(page)
 
 	CopyDir("themes/yeo/assets", "public/assets")
 	CopyDir("static/", "public/")

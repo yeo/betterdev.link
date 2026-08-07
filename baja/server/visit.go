@@ -3,6 +3,7 @@ package server
 import (
 	"encoding/base64"
 	"net/http"
+
 	// "errors"
 	// "fmt"
 	// "os"
@@ -28,6 +29,8 @@ func (s *Server) VisitLink(c echo.Context) error {
 	tracker := dts.TrackerService{s.db}
 	// TODO: Need input validation for issue/email and sanitize them
 	tracker.OpenURL(link, c.QueryParam("issue"), c.QueryParam("email"), string(c.RealIP()))
+
+	// https://newsletter.weskao.com/p/how-to-regain-control-of-a-meeting?utm_source=leadershipintech&utm_medium=newsletter&utm_campaign=how-hard-should-your-employer-work-to-retain-you&_bhlid=597db06abf3292bd45d631221a46baad70ef182f
 
 	return c.Redirect(http.StatusTemporaryRedirect, link)
 }
