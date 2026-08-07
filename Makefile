@@ -1,6 +1,7 @@
 GIT_COMMIT := $(shell git rev-list -1 HEAD)
 VERSION ?= 0.2
-DOCKER_REPO := quay.io/yeospace/betterdev
+#DOCKER_REPO := quay.io/yeospace/betterdev
+DOCKER_REPO := r.getopty.com/betterdev
 
 osx:
 	cd cmd && go build -ldflags "-X main.Version=$(VERSION) -X main.GitCommit=$(GIT_COMMIT)" -o ../bd
