@@ -1,11 +1,38 @@
-{{ define "title"}}
-	<title>Better Dev Link - Resource around the web on becoming a better programmer</title>
+{{ define "title" }}
+  <title>{{ .Post.Title }} - Better Dev Link</title>
+{{ end }}
+
+{{ define "page_css" }}
+  <link rel="stylesheet" href="/assets/css/blog.css?{{ .Time }}">
 {{ end }}
 
 {{ define "content" }}
-  <section class="section is-medium issue-links">
-  <div class="container">
-    {{ template "post" .Body  }}
+<section class="section blog">
+  <div class="container blog-container">
+    <article class="post">
+      <header class="post-header">
+        <h1>{{ .Post.Title }}</h1>
+        <p class="post-meta">
+          <time datetime="{{ .Post.Date }}">{{ .Post.FormatPubTime }}</time>
+          · {{ .Post.ReadingTime }} min read
+        </p>
+      </header>
+
+      {{ if .Post.TOC }}
+      <div class="toc">
+        <details open>
+          <summary>Table of Contents</summary>
+          <div class="inner">{{ .Post.TOC }}</div>
+        </details>
+      </div>
+      {{ end }}
+
+      <div class="post-body">
+        {{ .Post.Body }}
+      </div>
+    </article>
+
+    <p class="post-back"><a href="/blog/">← All writings</a></p>
   </div>
 </section>
 

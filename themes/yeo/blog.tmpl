@@ -1,0 +1,27 @@
+{{ define "title" }}
+  <title>Blog - Better Dev Link</title>
+{{ end }}
+
+{{ define "page_css" }}
+  <link rel="stylesheet" href="/assets/css/blog.css?{{ .Time }}">
+{{ end }}
+
+{{ define "content" }}
+<section class="section blog">
+  <div class="container blog-container">
+    <h1 class="blog-title">Writings</h1>
+
+    <ul class="post-list">
+      {{ range .Posts }}
+      <li>
+        <a href="/blog/{{ .Slug }}/">{{ .Title }}</a>
+        <time datetime="{{ .Date }}">{{ .FormatPubTime }}</time>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+
+{{ template "subscribe_form" . }}
+
+{{ end }}
