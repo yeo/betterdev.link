@@ -1,0 +1,82 @@
+time: "Aug 12, 2026"
+subject: |
+  “Code was never the hard part” is an insult to all programmers
+draft: true
+
+description: |
+  Hi everyone,
+
+  I'm slow and late this week but better than nothing. I'm keep doing this. I hope I didn't disappointed anyone with such a late and short issue
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+links:
+  - url: https://apoxy.dev/blog/oghttp2-vs-nghttp2
+    title: "A Tale of Two HTTP/2 Codecs"
+    description: |
+      a deep performance investigation into why Envoy's switch from nghttp2 to oghttp2 caused a ~20% CPU regression on HTTP/2 proxied traffic. The culprit wasn't the Huffman decoder but string handling in header block processing, with `std::string::push_back` alone eating 13-20% of CPU. Envoy ended up reverting the default in 1.37.
+
+  - url: https://www.gilesthomas.com/2025/09/maths-for-llms
+    title: "The maths you need to start understanding LLMs"
+    description: |
+      you don't need a PhD to understand how LLMs work under the hood. This post shows that high-school vectors and matrices are enough: embeddings, high-dimensional spaces, dot products for similarity, and matrix multiplication as projection between spaces.
+
+  - url: https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers
+    title: |
+      “Code was never the hard part” is an insult to all programmers
+    description: |
+      a pushback against the dismissive claim that "code was never the hard part". Programming is a genuinely difficult, skilled discipline, and the author argues we should embrace both technical excellence and customer empathy while adapting to AI, rather than retreating into denial or extreme positions.
+
+  - url: https://notashelf.dev/posts/taste-is-all-thats-left
+    title: "Taste Is All That's Left"
+    description: |
+      with AI removing the friction of writing software, taste - the ability to judge what deserves to exist - becomes the only genuinely scarce skill left. The difficulty of building used to force us to develop discernment through failure; frictionless generation has separated productivity from judgment, leaving us swimming in an ocean of "plausible" mediocrity.
+
+  - url: https://www.experimental-history.com/p/incentives-are-for-losers
+    title: "Incentives are for losers"
+    description: |
+      not a programming article, but a great essay on building your own value system instead of chasing external rewards. Chasing arbitrary incentives stunts genuine growth; the author makes the case for doing what's right regardless, through the story of abolitionist Charles Sumner, who pursued justice despite severe social and physical costs.
+
+  - url: https://www.andrewt.net/dithered-qr-codes/wtf/
+    title: "How to make error-diffused QR codes"
+    description: |
+      a fun deep dive into embedding photographs inside QR codes using Floyd-Steinberg dithering and error diffusion, producing codes that look like images while remaining fully scannable.
+
+  - url: https://www.allthingsdistributed.com/2026/08/on-building-scalable-control-planes.html
+    title: "On building scalable control planes"
+    description: |
+      lessons from a decade of building EC2's control plane - the system that reconciles desired infrastructure state with actual state - and how those pains shaped DSQL's architecture: per-connection micro-VMs, automatic read replicas with strong consistency, and transparent partitioning. DSQL's control plane even runs on DSQL itself.
+
+read_code:
+
+tool:
+  - url: https://github.com/betterleaks/betterleaks
+    title: betterleaks
+    description: |
+      a configurable, fast, and thorough secrets scanner. It is maintained by the folks who made Gitleaks, including the original author.
+
+  - url: https://github.com/zqxwce/vphone-ws
+    title: vphone-ws
+    description: |
+      a native macOS app for managing virtual iPhones - browse, create, and boot iOS research VMs from a single window. Built on Apple's Virtualization.framework for Apple Silicon.
+
+  - url: https://superfile.dev/
+    title: superfile
+    description: |
+      a pretty and modern terminal file manager written in Go, with customizable themes, plugins, and hotkeys. Works on Linux, macOS, and Windows.
+
+  - url: https://github.com/samyak2403/RepoStore
+    title: RepoStore
+    description: |
+      a GitHub-powered Android app store. It discovers public repositories with installable APK releases and lets you browse, install, and update them through a Play Store-style Material 3 interface.
+
+self_hosted:
+  - url: https://github.com/Gouryella/drip
+    title: drip
+    description: |
+      a self-hosted tunneling solution to securely expose local services to the internet without relying on third-party servers - think ngrok, but on your own infrastructure. Unlimited tunnels and bandwidth, custom domains with TLS, and BSD 3-Clause licensed.
+
+  - url: https://github.com/ente/ente
+    title: ente
+    description: |
+      a fully open-source, end-to-end encrypted cloud platform you can self-host. It includes Ente Photos (a Google Photos alternative with face detection and semantic search), Ente Auth (a 2FA authenticator), and Ente Locker (for documents and credentials), across iOS, Android, web, and desktop.
