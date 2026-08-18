@@ -67,11 +67,25 @@ read_code:
     title: wireblast
     description: |
       for Go readers: a high-performance packet generator - think "the iPerf of packet generators" - that hits line rate (138M packets per second on 100G NICs) from a single static Go binary using AF_XDP, no DPDK required. Supports UDP, TCP SYN, IMIX, raw Ethernet, and PCAP replay. Apache-2.0 licensed. Don't miss the amazing companion post [Wireblast: a 100Gbs packet generator in Go with AF_XDP](https://toonk.io/wireblast-building-a-line-rate-packet-generator-in-go-with-af_xdp/) where the author walks through how it's built.
+    category: ['Go']
+
+  - url: https://github.com/RockwellShah/filekey
+    title: filekey
+    description: |
+      a privacy-focused, accountless web app that encrypts and shares files with passkeys and AES-256, entirely on-device - it even works offline. The code is a great read if you want to see WebAuthn's PRF extension and HPKE cryptography used in a real product, and how to design a trustworthy offline-first app. GPLv3 licensed.
+    category: ['NodeJS']
+
+  - url: https://github.com/malmeloo/FindMy.py
+    title: FindMy.py
+    description: |
+      for Python readers: a library that queries Apple's FindMy network from any platform - no Mac required. It fetches and decrypts location reports for AirTags and iDevices, handles Apple account auth with 2FA, and scans for nearby devices, with both sync and async APIs. A fascinating read if you want to understand how Apple's crowd-sourced location network actually works under the hood. MIT licensed.
+    category: ['Python']
 
   - url: https://github.com/productdevbook/hucre
     title: hucre
     description: |
       a zero-dependency spreadsheet engine in pure TypeScript that reads and writes XLSX, CSV, ODS, JSON, NDJSON, and XML, with streaming support and round-trip preservation. A great codebase to study how binary/document format parsing and streaming architectures work without leaning on any external libraries. MIT licensed.
+    category: ['TypeScript']
 
 tool:
   - url: https://github.com/betterleaks/betterleaks
@@ -93,6 +107,16 @@ tool:
     title: filestash
     description: |
       a storage-agnostic, Dropbox-like file manager for your existing storage: FTP, SFTP, S3, SMB, WebDAV, IPFS, and about 20 other protocols. Plugin-driven, so backends, auth, and file viewers are all swappable. Written in Go, AGPL-3.0 licensed.
+
+  - url: https://github.com/lzhgus/Capso
+    title: Capso
+    description: |
+      a free, open-source screenshot and screen recording app for macOS - a native alternative to paid tools like CleanShot X. Area/window/fullscreen capture, video and GIF recording with webcam picture-in-picture, annotations, OCR, and screenshot history, with no paywall. Built with Swift 6 and SwiftUI.
+
+  - url: https://www.whatcable.uk/
+    title: WhatCable
+    description: |
+      a free macOS menu bar app that tells you what your USB-C cable can actually do - speed, power capability, and display support - based on what your Mac really detects, not what the packaging claims. Great for figuring out why a cable charges slowly or won't drive your monitor. For Apple Silicon Macs on macOS 14+, with a CLI for scripting.
 
   - url: https://github.com/samyak2403/RepoStore
     title: RepoStore
