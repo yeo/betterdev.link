@@ -124,6 +124,11 @@ tool:
       a GitHub-powered Android app store. It discovers public repositories with installable APK releases and lets you browse, install, and update them through a Play Store-style Material 3 interface.
 
 self_hosted:
+  - url: https://github.com/CorentinTh/enclosed
+    title: enclosed
+    description: |
+      a minimalistic web app for sharing end-to-end encrypted notes and files. AES-256-GCM encryption happens client-side so the server knows nothing, with password protection, expiration timers, and self-destruct after reading. Built with SolidJS and Hono, comes with a CLI, Apache-2.0 licensed.
+
   - url: https://github.com/songquanpeng/one-api
     title: one-api
     description: |
