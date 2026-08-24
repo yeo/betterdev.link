@@ -1,0 +1,129 @@
+time: "Aug 24, 2026"
+subject: ""
+draft: true
+
+description: |
+  Hi everyone,
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+  - "<img src='https://www.vpdae.com/open/a7c70674.gif?opens=1' width='1' height='1'>"
+
+links:
+  - url: https://www.vpdae.com/redirect/67nq75il4t3df2hayc0sxtwcj3
+    title: "Context rot is the new tech debt"
+    description: |
+      <p style="display: block; margin-block-start: 0.75rem;">Specs drift. Decisions live in threads. Agents build from whatever's easiest to find, which is usually wrong.<br></p>
+
+      <p style="display: block; margin-block-start: 0.75rem;"><a href="https://www.vpdae.com/redirect/67nq75il4t3df2hayc0sxtwcj3">Thor</a> keeps a synced answer across Slack, GitHub, and Linear so agents and humans are working from the same reality.<br></p>
+    category: ['sponsor']
+
+  - url: https://cursor.com/blog/git-at-any-scale
+    title: "Git at any scale"
+    description: |
+      Git is distributed by design, yet hosting it centrally is a nightmare. Ever wonder how GitHub survives that? This walks from their early attempt at distributing the filesystem, to Spokes and its consensus-based replication, and now Continuity - Cursor's write-ahead log design that just makes S3 the source of truth. No consensus, no routing table, add as many replicas as you want.
+
+  - url: https://molochinations.substack.com/p/shipping-video-calling-on-facebook
+    title: "Shipping Video Calling on Facebook"
+    description: |
+      2011, no WebRTC yet, so Facebook signed a contract with Skype and shipped their binary inside the client. Philip Su, the second engineer in the Seattle office, tells how it went: six weeks of 8am to midnight hotfixes, living on junk food, moving his family to Palo Alto. The fun part is the feature ended up exposing how unreliable Facebook's own message delivery was. He is also on [Ryan Peterman's podcast](https://www.youtube.com/watch?v=v2JxdjTi_1I) with more of these stories.
+
+  - url: https://ngrok.com/blog/compression-is-prediction
+    title: "Compression is prediction"
+    description: |
+      Turns out a compressor and an LLM do the same job: guess what comes next. Once you have seen a `q`, the odds the next letter is `u` jump to ~0.999 - that is the whole game. A nice read to build intuition on entropy and arithmetic coding, though please don't run an LLM to gzip your HTTP response.
+
+  - url: https://planetscale.com/blog/the-dangers-of-postgres-subtransactions
+    title: "The dangers of Postgres subtransactions"
+    description: |
+      You may never type a `SAVEPOINT` in your life, but every PL/pgSQL exception handler hands you a subtransaction for free. Go past 64 per backend and the snapshot overflows, every lookup falls into the `pg_subtrans` SLRU under a read lock, and the whole cluster crawls - even queries that have nothing to do with yours. Worse, it blocks a new read replica from entering hot standby, exactly when you are trying to scale out.
+
+  - url: https://mydbanotebook.org/posts/work_mem-its-a-trap/
+    title: "work_mem: it's a trap!"
+    description: |
+      I always read `work_mem` as a per sort/hash limit and left it there. It is not that simple - the memory is only released when the whole operation ends, so the chunks pile up and one badly shaped query can eat all your RAM with a perfectly modest setting. Fix the query and the statistics, not the knob.
+
+  - url: https://www.benjoffe.com/fast-day-of-week
+    title: "A faster way to calculate the day-of-the-week"
+    description: |
+      How do you get the weekday out of a day number? Modulo 7, right? Turns out 7 is a Mersenne number, so one multiply and a shift will do it - about a multiply plus two cycles. Same trick works for the mod 24 and mod 60 you hit everywhere else in timekeeping.
+
+  - url: https://blog.doubleword.ai/what-happens-when-a-gpu-reads-memory
+    title: "What happens when a GPU reads memory"
+    description: |
+      One `LDG.E` asks for 128 bytes, and this post follows it all the way down an RTX 4090: L1 first (15ns), then the TLB to turn virtual into physical, across the crossbar to one of 36 L2 slices (127ns), and if that misses too, the memory controller fires an activate plus four column reads at a DRAM bank - 255ns round trip before the warp's registers finally get their data. This is where all your kernel's stall cycles actually go.
+
+  - url: https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917
+    title: "Why your local LLM feels dumber than it is"
+    description: |
+      You pull the same weights everyone raves about, run them at home, and somehow it acts dumber. It is not in your head - the author tests it and the blame lands on the plumbing: different CUDA attention kernels give slightly different logits, KV-cache quantization compounds the error token after token, and simply picking FlashAttention 2 over Flash Inference or Triton is enough to flip the top-1 token. It shows up worst in tool use, where one flipped token means a malformed command. No magic fix, just: benchmark on your own workload and pick your quantization carefully.
+
+  - url: https://lea.verou.me/blog/2026/dark-mode-toggles/
+    title: "Dark mode toggles: two states are enough"
+    description: |
+      Light / Dark / System - we all ship that third button, and Lea Verou argues it is us leaking our implementation onto the user. Nobody hunts for the toggle to plan their future, they click it because their eyes hurt right now, so give them two states and be smart underneath: flip to the opposite of what they are seeing, only store an override when it differs from the system, and never silently drop an explicit choice just because it happens to match. A dedicated settings panel is the one place the three-state control still earns its keep.
+
+  - url: https://www.bram.us/2026/08/09/unlock-diagonal-scrolling-with-css-scroll-axis-lock-none/
+    title: "Unlock Immediate Diagonal Scrolling with CSS scroll-axis-lock: none"
+    description: |
+      Ever tried to pan a map diagonally on the web and felt it snap to one axis? That is the browser deciding your gesture is "mostly horizontal" and locking it. `scroll-axis-lock: none` turns that off and lets the container follow your input exactly - a small thing that makes maps and zoomed images feel right. Chromium 153+ only for now, Firefox and Safari still to come.
+
+read_code:
+
+tool:
+  - url: https://github.com/NVIDIA-NeMo/Switchyard
+    title: Switchyard
+    description: |
+      an LLM proxy in Rust that routes requests across providers and translates between the OpenAI and Anthropic APIs, so your app keeps one API while you swap the model behind it. Typed, composable routing algorithms and metrics come built in, handy for A/B testing and cutting the bill. Apache-2.0 licensed.
+
+  - url: https://lima-vm.io/
+    title: Lima
+    description: |
+      WSL2, but for your Mac: Linux VMs with file sharing and port forwarding that just work. It ships containerd and nerdctl, and runs Docker, Podman, or a k8s cluster just as happily. Odds are you already use it without knowing - Rancher Desktop, Colima, Finch, and Podman Desktop are all built on it. CNCF incubating, written in Go, Apache-2.0 licensed.
+
+  - url: https://github.com/FlashML-org/FreeToken
+    title: FreeToken
+    description: |
+      you don't need an H100. This runs 290B+ parameter MoE models at interactive speed on the GPU you already own - an RTX 30/40/50 card, or even a laptop. The trick is bandwidth-adaptive CPU-GPU co-execution, semantic-aware caching with anchor checkpoints, and shuffling VRAM between expert cache and KV memory on the fly, across MXFP4, NVFP4, FP8, and BF16. Speaks the Anthropic and OpenAI APIs, ships as both a desktop app and a CLI. Apache-2.0 licensed.
+
+  - url: https://github.com/tobi/omasnap
+    title: omasnap
+    description: |
+      how many CEOs still ship C++ on the weekend? This one is from Tobi Lutke, CEO of Shopify - a screenshot and annotation tool for Wayland/Hyprland that grew out of the Omarchy world. Region, window, fullscreen, and scrolling capture, annotations kept as movable vector layers, OCR, pinned always-on-top captures, and a working document that survives a crash with undo intact. C++ with Qt6, MIT licensed.
+
+self_hosted:
+  - url: https://github.com/DivinPrince/quickmail
+    title: quickmail
+    description: |
+      running your own mail on your own domain without begging Google or Fastmail for a mailbox. Threaded conversations, attachments, HTML rendered in a sandboxed iframe, multiple domains and users. The nice part is what it runs on: entirely Cloudflare Workers with D1 for the database and R2 for files, so deployment is one button and the bill is basically nothing. Sending goes through Resend or Cloudflare Email Service. SvelteKit and TypeScript, MIT licensed.
+
+  - url: https://logchef.app/getting-started/quickstart/
+    title: logchef
+    description: |
+      a log explorer that sits on top of the ClickHouse or VictoriaLogs you already run - it does not copy or re-ingest anything, a source just points at logs that are already there. You get a web UI, dashboards, saved queries, and alerting, and you can query with its own LogchefQL or drop down to LogsQL. Ships with a Docker compose that brings up ClickHouse, Dex SSO, and Vector with demo data, so you can see it working in a couple of minutes.
+
+  - url: https://github.com/Skyfay/DBackup
+    title: DBackup
+    description: |
+      the backup cron job you keep meaning to write properly, with a UI. It dumps Postgres, MySQL, MariaDB, MongoDB, Redis, SQLite, SQL Server and friends, encrypts and compresses, then ships them to any of 13+ destinations - S3, R2, Hetzner, SFTP, WebDAV, SMB, even Google Drive. GFS retention templates, a visual cron picker, and it yells at you on Discord, Slack, Telegram, ntfy, or plain SMTP when a run fails. Next.js and TypeScript, one docker-compose, GPL-3.0 licensed.
+
+  - url: https://github.com/plutonhq/pluton
+    title: pluton
+    description: |
+      another take on the same itch as DBackup above, but built on tools you already trust: Restic for incremental encrypted backups and Rclone for the destinations, which is how it claims 70+ storage providers. Scheduling, retention, replication, pre/post scripts, live progress, and one-click restore on top. Ships as a Docker container or a desktop installer for Windows, macOS, and Linux. Apache-2.0 licensed.
+
+  - url: https://github.com/geekdojo/rasputin-control-plane
+    title: rasputin-control-plane
+    description: |
+      k8s for your homelab, minus the k8s. Point it at a handful of Raspberry Pi or N100 boxes and it handles OS updates, app deploys with docker compose, and orchestration from one web UI. The design choices are the fun part: a single Go binary with NATS and SQLite embedded, so no Postgres, no Redis, no reverse proxy; agents only dial outbound; OS updates are atomic with automatic rollback; auth is passkey only, no passwords; and every state change becomes a visible, auditable job. Pre-alpha, AGPL-3.0 licensed.
+
+  - url: https://github.com/menahishayan/Kasa-Studio
+    title: Kasa Studio
+    description: |
+      turns cheap TP-Link Kasa bulbs into a studio lighting rig. It finds every bulb on your LAN, gives you per-light power, brightness, temperature and hue, lets you group them, and ships effects like strobe, pulsing, candle, fire, paparazzi and fireworks. All local over TP-Link's LAN protocol - no cloud, no account - just a Node server and a browser UI you can drive from your phone.
+
+  - url: https://github.com/Darkrock-Studios/hammer-editor
+    title: hammer-editor
+    description: |
+      a story writing app for novelists that is offline-first and keeps your manuscript in plain human-readable files, not some proprietary database - so it is still yours the day the project dies. Sync across devices with conflict resolution runs through a server you host yourself. Written in Kotlin with Compose, and it genuinely ships everywhere: Android, iOS, Windows, macOS, and Linux as snap, deb, rpm, AppImage, and Flatpak. MIT licensed.
