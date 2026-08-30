@@ -1,0 +1,34 @@
+time: "Aug 31, 2026"
+subject: ""
+draft: true
+
+description: |
+  Hi everyone,
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+links:
+
+read_code:
+
+tool:
+  - url: https://github.com/caronc/apprise
+    title: Apprise
+    description: |
+      the notification glue every project eventually hand-rolls, done once and done well: one Python library that speaks 100+ services - Slack, Discord, Telegram, ntfy, Matrix, plain old email - so adding "tell me when it breaks" is a line, not an integration per chat app. Every channel is just a URL, which makes your alert routing data you can version and pass around instead of code scattered across repos. Tag targets into groups, attach files, fire one event at all of them, and it quietly retries when a webhook hiccups. Ships as a library, a CLI you can call straight from cron, and a Dockerized REST API for when you would rather just POST to it. BSD-2-Clause licensed.
+
+self_hosted:
+  - url: https://github.com/truespar/sentio
+    title: sentio
+    description: |
+      a full email stack in Rust, built so your AI agents can have a real email address - mail lands as a structured webhook, replies go out over a REST API. Under the hood it is a proper SMTP server, not a wrapper: DKIM, SPF, DMARC, ARC, MTA-STS and DANE, three layers of anti-spam including an LLM pass, IP pools with warmup schedules, suppression lists, and DMARC/FBL report ingestion. Multi-tenant with isolated sending reputation per customer. Postgres, Redis, NATS and S3 behind it, one docker-compose to bring it up, MIT or Apache-2.0.
+
+  - url: https://github.com/coffeetron832/Giraffile
+    title: Giraffile
+    description: |
+      file sharing where the file never touches a server. You drag it into a drop zone, pick how long the link should live, and get a share URL, but the payload itself sits in the browser's IndexedDB and travels peer to peer to the recipient's machine over WebRTC. When the timer expires the file is destroyed for good - no logs, no cloud database, no tracking in between. Multiple files are zipped client-side with JSZip, a QR code covers the handoff to a phone, and the whole thing is plain JavaScript, MIT licensed.
+
+  - url: https://github.com/menahishayan/Kasa-Studio
+    title: Kasa Studio
+    description: |
+      turns the $10 TP-Link Kasa bulbs you already own into a studio lighting console. It finds every bulb on your LAN via UDP broadcast, then drives per-light and per-group power, intensity, color temperature and hue from a touch-friendly web UI you can run off your phone on the same Wi-Fi. The fun part is the FX engine: Kasa bulbs do not expose scene presets over the local protocol, so a small Node server times its own commands to fake Aputure-style effects - strobe, candle, fire, paparazzi, fireworks, cop car, lightning - each with a couple of tunable parameters, snapshotting the light's state and restoring it on stop. All local, no cloud account, open source.
