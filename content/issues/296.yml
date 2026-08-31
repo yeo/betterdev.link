@@ -11,9 +11,7 @@ links:
   - url: https://serpapi.com/?utm_source=betterdevlink&utm_campaign=betterdevlink_v1_homepage
     title: "Web Search Data for your AI and Apps"
     description: |
-      <p style="display: block; margin-block-start: 0.75rem;">Add Web Search to Your AI Agents.<br></p>
-
-      <p style="display: block; margin-block-start: 0.75rem;">Ground LLM responses with live, structured search results from Google and other engines with <a href="https://serpapi.com/?utm_source=betterdevlink&utm_campaign=betterdevlink_v1_homepage">SerpApi</a>, ready for tool calling and RAG pipelines.<br></p>
+      <p style="display: block; margin-block-start: 0.75rem;">Add Web Search to Your AI Agents. Ground LLM responses with live, structured search results from Google and other engines with <a href="https://serpapi.com/?utm_source=betterdevlink&utm_campaign=betterdevlink_v1_homepage">SerpApi</a>, ready for tool calling and RAG pipelines.<br></p>
     category: ['sponsor']
 
   - url: https://michalpitr.substack.com/p/build-your-own-inference-engine-from
