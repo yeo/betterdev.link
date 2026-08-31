@@ -1,5 +1,5 @@
 time: "Aug 31, 2026"
-subject: ""
+subject: "Build your own inference engine from scratch"
 draft: true
 
 description: |
@@ -8,27 +8,127 @@ description: |
   If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
 
 links:
+  - url: https://serpapi.com/?utm_source=betterdevlink&utm_campaign=betterdevlink_v1_homepage
+    title: "Web Search Data for your AI and Apps"
+    description: |
+      <p style="display: block; margin-block-start: 0.75rem;">Add Web Search to Your AI Agents.<br></p>
+
+      <p style="display: block; margin-block-start: 0.75rem;">Ground LLM responses with live, structured search results from Google and other engines with <a href="https://serpapi.com/?utm_source=betterdevlink&utm_campaign=betterdevlink_v1_homepage">SerpApi</a>, ready for tool calling and RAG pipelines.<br></p>
+    category: ['sponsor']
+
+  - url: https://michalpitr.substack.com/p/build-your-own-inference-engine-from
+    title: Build your own inference engine from scratch
+    description: |
+      Once some AI lab release an open weight model, we can download and run them. But what is the program that run them? that program is call inference engine. We will build one with less than 2000 lines. Another article that also give good overview is [vLLM-Style fast inference engine](https://medium.com/@alaminibrahim433/vllm-style-fast-inference-engine-building-from-scratch-on-cpu-1f2a1f31f02a). We learn why we need KV cache, why it's call token streaming.
+
+  - url: https://flaviocopes.com/deepsec/
+    title: A deep dive into DeepSec
+    description: |
+      Grep is cheap, agents are smart, so DeepSec uses both: a fast local pattern scan narrows your repo to the security-sensitive files, then Codex or Claude actually follows the data across them and writes up real findings, with a second pass throwing out the noise. Flavio runs it on his own site and watches 504 maybes collapse into a short list worth reading. Vercel's, open source, and it drops into CI.
+
+  - url: https://github.com/imthenachoman/How-To-Secure-A-Linux-Server
+    title: How To Secure A Linux Server
+    description: |
+      The checklist that turns a fresh Ubuntu or Debian box from an open door into something that shrugs off scans - key-only SSH, UFW, pruned setuid binaries, unattended security updates. Every step ships with the exact command and the reason behind it, so you harden a server on purpose instead of out of copy-paste fear.
+
+  - url: https://x.com/_avichawla/status/2093265776266637739
+    title: KV, Prefix, Prompt and Semantic Caching in LLMs, clearly explained
+    description: |
+      Four completely different things in your stack are all called "caching", and confusing them is why your token bill will not go down. Avi Chawla takes apart all four - KV, prefix, prompt, semantic - with runnable code, then lists what silently kills reuse: a timestamp in the system prompt, a reordered tool schema, a summarized history. The kicker is that three of them only cost you money on a miss, while the fourth cheerfully returns a wrong answer with a 200.
+
+  - url: https://www.crunchydata.com/blog/postgres-19-how-our-advice-has-changed-since-we-wrote-it
+    title: "Postgres 19: how our advice has changed since we wrote it"
+    description: |
+      Crunchy Data marks up its own years-old advice on loading, storage and indexing with everything Postgres 19 quietly made obsolete. Async I/O rewrites the cost model, JIT is off by default, LZ4 replaces pglz, COPY survives bad rows, and skip scan means that companion index you were about to add may already exist. Read it as a list of benchmarks you need to re-run before trusting an index strategy you settled on in 2021.
+
+  - url: https://clickhouse.com/blog/postgresql-19-wait-for-read-your-writes
+    title: "PostgreSQL 19: WAIT FOR and read-your-writes"
+    description: |
+      Have you ever done a read right after a write, got nothing back, and given up and pointed the whole path at the primary just to be sure? Postgres 19 adds WAIT FOR to fix exactly that: capture the WAL position after the write, hand it to the replica, and the read blocks until replay catches up - so only the queries that need freshness pay for it, and replication stays async for everyone else. Expect your pooler to inject it long before your app does.
+
+  - url: https://blog.cloudflare.com/dns-cache-memory-optimization-1111/
+    title: How we shrank 1.1.1.1's DNS cache by 56%
+    description: |
+      When you hold 250 billion cache entries, one wasted byte per entry costs 250 GB - so Cloudflare went hunting through their Rust structs and found 533 of them. Vec becomes Box<[T]> to drop the capacity field, three record sections collapse into one list addressed by u16 offsets instead of pointers, fat enum variants get boxed so the A records that are 80% of traffic stop paying for NAPTR's padding. 953 bytes down to 420, roughly 100 TB freed fleet-wide, and inserts got 43% faster on the way.
+
+  - url: https://blog.gaborkoos.com/posts/2026-08-14-Your-Modules-Are-Lying-to-You/
+    title: Your Modules Are Lying to You
+    description: |
+      Destructure a counter from an ESM module and it updates; do the identical thing with require() and it stays frozen at the old value forever. ESM links live bindings before anything runs, CommonJS hands you a copy of an object whenever require() gets there - and every weird thing downstream, circular imports, .default wrappers, the same package loaded twice as two instances, falls out of that one difference.
+
+  - url: https://blog.cloudflare.com/cloudflare-blog-uses-emdash/
+    title: The Cloudflare blog now runs on EmDash
+    description: |
+      Watching a big company do a live migration is always a good lesson, whatever the stack happens to be. Cloudflare moved this very blog onto a new CMS behind a proxy Worker that routed by cookie, fell back to the old site automatically on a 500, and shifted traffic 1% at a time until it hit 100% the same day - no downtime, no big bang cutover. The load testing they did before touching real traffic is worth a read on its own.
+
+  - url: https://boringsql.com/posts/mvcc-bad-bad/
+    title: Is Postgres MVCC really that bad?
+    description: |
+      Every "Postgres MVCC is broken" thread lists the same four charges - write amplification, bloat, one idle transaction freezing vacuum everywhere, and XID wraparound - and all four are fair. The good part is what comes after: the same questions get asked of Oracle's undo logs, SQL Server's tempdb, WiredTiger's cache, and CockroachDB's timestamped keys, and every one of them just moves the bill somewhere else. Postgres makes you pay in maintenance, but it also lets you open the page with pageinspect and see exactly what you owe.
 
 read_code:
+  - url: https://davatron5000.github.io/microlighter/
+    title: MicroLighter
+    description: |
+      a 2 KB syntax highlighter that never touches your DOM. Instead of wrapping every token in a `<span>`, Dave Rupert's tokenizer turns TextMate grammar matches into Range objects and hands them to the CSS Custom Highlight API, so styling happens through `::highlight()` and your `<pre><code>` stays exactly as you wrote it - still editable, still copyable. Worth reading as the clearest small example of that API in a real library, plus how far plain `RegExp` gets you when you skip Oniguruma and WASM. MIT licensed.
+    category: ['JavaScript']
+
+  - url: https://github.com/boyter/scc
+    title: scc
+    description: |
+      a code counter is a boring problem right up until you want it to chew through the Linux kernel in under a second - and that is what makes this codebase such a good read. Ben Boyter counts lines, comments and cyclomatic complexity with one byte-level state machine and no AST anywhere, then spends the rest of the repo on the parts nobody writes down: keeping allocations off the hot path, sizing worker pools for directory walking versus file processing, and when turning the GC off entirely is the honest answer. Pure Go, MIT licensed.
+    category: ['Go']
+
+  - url: https://yaroslav.io/opensource/kino
+    title: Kino
+    description: |
+      every Ruby server forks a process per core to get around the GVL, and you pay for that in memory - Kino uses Ractors instead, so one small process runs your Rack app on every core. The network layer is Rust with Tokio and Hyper, the workers are Ruby, and reading it is the fastest way to see what actually changes when your code has to be Ractor-shareable, plus how the two sides hand requests across. Rack 3 compatible, roughly 7x less memory than a Puma cluster on their benchmark, MIT licensed.
+    category: ['Ruby', 'Rust']
 
 tool:
   - url: https://github.com/caronc/apprise
     title: Apprise
     description: |
-      the notification glue every project eventually hand-rolls, done once and done well: one Python library that speaks 100+ services - Slack, Discord, Telegram, ntfy, Matrix, plain old email - so adding "tell me when it breaks" is a line, not an integration per chat app. Every channel is just a URL, which makes your alert routing data you can version and pass around instead of code scattered across repos. Tag targets into groups, attach files, fire one event at all of them, and it quietly retries when a webhook hiccups. Ships as a library, a CLI you can call straight from cron, and a Dockerized REST API for when you would rather just POST to it. BSD-2-Clause licensed.
+      one Python library that speaks 100+ notification services - Slack, Discord, Telegram, ntfy, Matrix, plain email - so "tell me when it breaks" is one line instead of an integration per chat app. Every destination is just a URL, which turns your alert routing into config you can version instead of code scattered across repos. Library, CLI you can call from cron, or a Dockerized REST API. BSD-2-Clause.
+
+  - url: https://github.com/ghostop14/sparrow-wifi
+    title: Sparrow-WiFi
+    description: |
+      an entire wardriving kit in one Python GUI: 2.4 and 5 GHz SSID scanning, BLE and Classic Bluetooth discovery, and - if you hang a HackRF or Ubertooth off it - live spectrum overlays that show the interference RSSI alone hides. Hunt mode tracks moving sources on a GPS map, and the same engine runs headless as a REST agent you can strap to a Pi, drone or rover. Ships Elasticsearch/Kibana dashboards and a DroneID app that turns a plain BLE adapter into a drone detector. GPL-3.0.
+
+  - url: https://github.com/certimate-go/certimate
+    title: Certimate
+    description: |
+      the certificate chore, automated on your own box: point it at a domain and it applies for the cert, deploys it where it actually has to live, then renews and redeploys on schedule so nothing expires at 2am again. 70+ DNS registrars on the way in, 150+ destinations on the way out - Kubernetes, CDNs, WAFs, load balancers, remote hosts over SSH - and a ping to Slack or email when something needs you. One Go binary or a docker run, ~16 MB of memory, everything stored locally. MIT.
+
+  - url: https://github.com/vyruss/pg_statviz
+    title: pg_statviz
+    description: |
+      Postgres tells you plenty about itself, but only about right now - this stores periodic snapshots of the stats views inside your own cluster and plots them. Call pgstatviz.snapshot() on a schedule, then draw buffers, cache hit ratio, connections, I/O, WAL, wait events, locks or replication lag over any date range, each with its rate of change beside it, so slow drift finally looks like a slope. No agent, no time-series database, no exporter sidecar. PostgreSQL License.
+
+  - url: https://gtkx.dev/
+    title: GTKX
+    description: |
+      native Linux desktop apps written in React and TypeScript, without Electron. JSX maps straight onto GTK4 and Adwaita widgets through a Rust backend, types are generated from GObject introspection so the whole tree is checked end to end, and you get hot reload, a Vitest + React Testing Library setup for GTK, and a CLI for create/dev/build. It is a plain Node program underneath, so npm still works. MPL-2.0.
 
 self_hosted:
   - url: https://github.com/truespar/sentio
     title: sentio
     description: |
-      a full email stack in Rust, built so your AI agents can have a real email address - mail lands as a structured webhook, replies go out over a REST API. Under the hood it is a proper SMTP server, not a wrapper: DKIM, SPF, DMARC, ARC, MTA-STS and DANE, three layers of anti-spam including an LLM pass, IP pools with warmup schedules, suppression lists, and DMARC/FBL report ingestion. Multi-tenant with isolated sending reputation per customer. Postgres, Redis, NATS and S3 behind it, one docker-compose to bring it up, MIT or Apache-2.0.
+      a full email stack in Rust, built so your agents can have a real address - mail arrives as a structured webhook, replies go out over a REST API. It is a proper SMTP server rather than a wrapper: DKIM, SPF, DMARC, ARC, MTA-STS and DANE, three layers of anti-spam including an LLM pass, IP pools with warmup, suppression lists, and per-tenant sending reputation. One docker-compose to bring it up, MIT or Apache-2.0.
 
   - url: https://github.com/coffeetron832/Giraffile
     title: Giraffile
     description: |
-      file sharing where the file never touches a server. You drag it into a drop zone, pick how long the link should live, and get a share URL, but the payload itself sits in the browser's IndexedDB and travels peer to peer to the recipient's machine over WebRTC. When the timer expires the file is destroyed for good - no logs, no cloud database, no tracking in between. Multiple files are zipped client-side with JSZip, a QR code covers the handoff to a phone, and the whole thing is plain JavaScript, MIT licensed.
+      file sharing where the file never touches a server: it sits in your browser's IndexedDB and travels peer to peer over WebRTC straight to the recipient. Pick how long the link lives and the payload is destroyed when the timer runs out - no logs, no cloud database, nothing to leak later. Client-side zipping and a QR code for the handoff to a phone, plain JavaScript, MIT.
 
   - url: https://github.com/menahishayan/Kasa-Studio
     title: Kasa Studio
     description: |
-      turns the $10 TP-Link Kasa bulbs you already own into a studio lighting console. It finds every bulb on your LAN via UDP broadcast, then drives per-light and per-group power, intensity, color temperature and hue from a touch-friendly web UI you can run off your phone on the same Wi-Fi. The fun part is the FX engine: Kasa bulbs do not expose scene presets over the local protocol, so a small Node server times its own commands to fake Aputure-style effects - strobe, candle, fire, paparazzi, fireworks, cop car, lightning - each with a couple of tunable parameters, snapshotting the light's state and restoring it on stop. All local, no cloud account, open source.
+      turns the $10 TP-Link Kasa bulbs you already own into a studio lighting console, driving power, intensity, temperature and hue per light or per group from a phone-friendly web UI on your own LAN. The fun part is the FX engine: Kasa bulbs expose no scene presets locally, so a small Node server times its own commands to fake strobe, candle, fire, paparazzi, fireworks, cop car and lightning. All local, no cloud account, open source.
+
+  - url: https://github.com/vllm-project/vllm
+    title: vLLM
+    description: |
+      the serving engine that stops LLM inference from being a memory bill. PagedAttention manages the KV cache like virtual memory in fixed-size blocks instead of letting every sequence pre-allocate a huge slab it never fills, and with continuous batching and tensor parallelism on top, throughput climbs several times over a naive HuggingFace setup. Loads most models straight from the Hugging Face hub and speaks the OpenAI API, so your clients keep working untouched. MIT.
+
