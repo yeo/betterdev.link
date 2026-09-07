@@ -1,0 +1,119 @@
+time: "Sep 7, 2026"
+subject: "The Depths of JavaScript: Minesweeper in 247 Bytes"
+draft: false
+
+description: |
+  Hi everyone,
+
+  This week I was working on code optimization, I asked AI to verified it. Typically, it should only need to verify with its local db. However, to be useful, it tried to SSH into my dev, qa, prod env and run the code against it. Good thing that it doesn't have credential(it event tried to use my secret cli to load it from my secret server). Remind if you use AI, put something in your docs to ensure it never connect to prod env, or even better, don't even have some script that can retreiver secret through cli(looking at your, aws and gcp cli).
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+links:
+  - url: https://serpapi.com/betterdevlink
+    title: "Web Search Data for your AI and Apps"
+    description: |
+      <p style="display: block; margin-block-start: 0.75rem;">Add Web Search to Your AI Agents. Ground LLM responses with live, structured search results from Google and other engines, ready for tool calling and RAG pipelines.<br></p>
+    category: ['sponsor']
+
+
+  - url: https://kciter.so/posts/the-expensive-main-thread/en/
+    title: The Browser's Main Thread Is Expensive
+    description: |
+      Mobile dev has learned to never block main thread for years. For us, web dev, I'm sure we were frustrated with slow scrolling side, click a button and the site seems freeze. And maybe we start make less network call, reduce the bundle size and so on. But it goes beyond that, the code is fine, they aren't slow but they block the main thread. We learn about it here.
+
+  - url: https://yui.dev/blog/minesweeper-in-247-bytes
+    title: "The Depths of JavaScript: Minesweeper in 247 Bytes"
+    description: |
+      features a randomly generated 8x8 board, lets you open cells with left click, toggle flags with right click, opens cells with zero neighboring mines recursively, and has basic win detection.
+      How is this even possible???
+
+  - url: https://jakearchibald.com/2026/css-custom-property-compute-time/
+    title: Controlling when CSS custom property values are computed
+    description: |
+      The same custom property gives you a different answer depending on whether you registered it. Unregistered, it is stored as a raw token stream and the functions inside it evaluate wherever you `var()` it - so `sibling-index()` reads the child's position, not the parent's. Add `@property` with a real syntax and it computes right there at the declaration instead. Same trap for `em`, `ch`, `lh` and container query units, and for relative URLs, which otherwise resolve against whichever stylesheet consumed them.
+
+  - url: https://x.com/sadkatwt/status/2093326670749184153
+    title: LSM Trees and Its Relation With Database
+    description: |
+      A beginner-friendly walk through the storage engine behind RocksDB, Cassandra, ScyllaDB and CockroachDB's Pebble: writes land in a WAL and a memtable, that table is flushed to immutable sorted files, and compaction merges them down a pyramid of levels each holding 10x the one above. Deletes are tombstones until the next compaction, and bloom filters keep a read off a thousand files. My favourite bit is why MemTables use a skip list rather than a red-black tree: rebalancing forces you to lock it.
+
+  - url: https://ewpratten.com/blog/ssh-secure-enclave/
+    title: Authenticating SSH sessions with Secure Enclave
+    description: |
+      In the day of AI, anything without physical confirmation, can be easily to be a "hack" or "workaround" with the LLM. SSH is the key to the kingdom. Today, we learn how to setup Secure Enclave to authenticate SSH. The nice thing about it is that the key cannot be extracted out. Mean if you migrate to a new laptop, the secure enclave seed won't follow you. Very secure, but also a rough edge.
+
+
+  - url: https://www.youtube.com/playlist?list=PL38NNHQLqJqYnNrTenxBvGJSPCkV9EOWk
+    title: "The CPU Cache (video playlist)"
+    description: |
+      Nine animated videos from BitLemon on the hardware that quietly decides how fast your code runs: cache organisation inside the CPU, the L1/L2/L3 hierarchy, SRAM vs DRAM, replacement policies, write-through vs write-back, virtual vs physical indexing, the four C's of misses, then two episodes building a cache simulator in C++. Worth it even if you never write assembly - a memory round trip costs about a hundred cache hits, so most slow code is laying its data out badly rather than doing too much work.
+
+  - url: https://tapoueh.org/blog/2026/08/introducing-yesql-practical-postgresql-one-concept-at-a-time/
+    title: "Introducing YeSQL: Practical PostgreSQL, One Concept at a Time"
+    description: |
+      It's always good to know how to do something. Like my wife said, youc an order food, but better if you can cook yourself. In this seris, we learn about many concept of practical PostgreSQL. Practical mean we will facing them every single day and anyone run a PostgresSQL db with modest workload face these sooner or later.
+
+
+  - url: https://0xax.dev/
+    title: "Systems Inside"
+    description: |
+      Just as I said above. Let learn system inside out. Alexander Kuleshov's home for the long-running [linux-insides](https://github.com/0xAX/linux-insides) project, now with a proper reader around it: 64 chapters of Linux kernel internals read straight from the source - boot from bootloader handoff through to decompression, interrupt gates, how a syscall is actually dispatched, vsyscall and vDSO, timers, spinlocks and seqlocks, memblock, per-CPU variables and initcalls. Beside it sits a finished seven-part x86-64 assembly series, and a newer set of Field Notes writing up real performance investigations.
+
+  - url: https://mvakde.github.io/blog/44-on-arc-1/
+    title: 44% on ARC-AGI-1 in 67 cents
+    description: |
+      A small transformer trained from scratch in 1.5 hours on a single 5090 - it beats many LLMs on ARC-AGI-1 and matches TRM/HRM, for 67 cents, open source. Each puzzle becomes a token sequence with its own learnt embedding, and positions come from 3D RoPE because a sequence holds two 2D grids; the ablations say those two choices are the whole story - drop either and 44% becomes 24%. Best bit is the anomaly the author cannot explain: dropping input tokens from the loss makes test loss worse while the score goes up.
+
+  - url: https://michael.stapelberg.ch/posts/2026-09-06-dcs-fast-turbopfor-go-simd/
+    title: "Debian Code Search: Fast TurboPFor with Go SIMD"
+    description: |
+      Debian Code Search carried a cgo dependency on the C TurboPFor integer codec for seven years, and Go 1.26's experimental `simd/archsimd` package finally let it go. The rewrite did not just match C - AVX512 kernels and bit-width specialisation beat it, and then a positional popcount trick for the encoder's block scanning took another 2x - though the post is honest that backporting both to C puts Go at about 1.4x slower. Also a good look at designing an allocation-free block and streaming API around a compression format.
+
+read_code:
+  - url: https://github.com/microsoft/tgrep
+    title: tgrep
+    description: |
+      for Rust readers: ripgrep scans every byte on every query, which stops being fine around a 400k-file monorepo. tgrep pre-builds a trigram index and runs a server beside it, so a search only opens the files that could match - up to 52x faster on gecko-dev, and it powers grep inside GitHub Copilot CLI. The good reading is the HybridIndex: an mmap'd on-disk reader, an in-memory overlay for whatever the file watcher has seen change, and a rayon indexer you can query while it is still building. MIT licensed.
+    category: ['Rust']
+
+tool:
+  - url: https://github.com/pgrundev/pgbot
+    title: pgbot
+    description: |
+      one static Go binary that connects to Postgres read-only, reads the statistics views the server already keeps about itself, and prints a graded health report - a score, findings bucketed CRITICAL/WARNING/NOTE, then a GOOD list naming what it checked and found fine. It also diffs against the last run, so "3.2x slower" and "3 unused indexes eating 18 GB" surface as changes instead of numbers you have to remember. No agent, no exporter, no write privilege anywhere in the path. Postgres 14-18, beta, Apache-2.0.
+
+  - url: https://github.com/pgrundev/pgterm
+    title: pgterm
+    description: |
+      htop for every Postgres you own - one tab per database showing connections, cache, locks, query regressions, unused indexes, vacuum and replication as a live status board, checked in the background so a tab that goes red is flagged without stealing focus from the one you are reading. The nice part is the security posture: config stores environment variable names rather than connection strings, URLs reach the engine through the child environment so nothing lands in `ps`, and there is no SQL console anywhere. Rust, drives pgbot underneath, Apache-2.0.
+
+  - url: https://github.com/skalesapp/skales
+    title: Skales
+    description: |
+      A desktop AI agent that installs like a normal app - no Docker, no terminal, no Python environment - and then does multi-step work on its own machine. `/goal` runs a task in the background across restarts, `/code` binds a folder to a chat with inline diffs and one-click undo. Bring a key from any of 15+ providers or point it at Ollama. Worth knowing what the repo is: distribution and issue tracker only - Skales is closed source under BSL 1.1, and the checked-in source is an unmaintained v7 snapshot.
+
+  - url: https://github.com/hybridgroup/yzma
+    title: yzma
+    description: |
+      llama.cpp inside your Go program, in the same process, with no cgo anywhere. It binds through `purego` and `ffi` and dlopens the prebuilt library at runtime, so you get a normal `go build`, cross compilation that still works, and a llama.cpp you can swap for a newer one without rebuilding. Over 96% of the API, text and multimodal, with CUDA, Metal, Vulkan, ROCm and SYCL, down to a Pi or a Jetson Orin. The surprise target is the browser: TinyGo plus a WebAssembly build, taking WebGPU or threads by what the page supports. Apache-2.0.
+
+  - url: https://github.com/dstotijn/hetty
+    title: hetty
+    description: |
+      we linked to this back in [issue #173](https://betterdev.link/issues/173) when it was a promising idea; six years on it is a genuinely feature-complete open source answer to Burp Suite Pro. A MITM proxy with searchable logs, interception for editing a request or response before it goes on, an HTTP client for hand-crafting and replaying anything you proxied, and scopes plus per-project database storage to keep an engagement tidy, all behind a web admin UI. One Go binary, with a `--chrome` flag that launches a browser already pointed at it and trusting the CA. Homebrew, snap, scoop or Docker, MIT.
+
+self_hosted:
+  - url: https://github.com/mayukh4/linux-android
+    title: linux-android
+    description: |
+      a pretty nifty hack: the old Android phone in your drawer is an arm64 box with a battery and a GPU, so put it to work. One Termux script - no root, no PC, no cloud - installs a real desktop (XFCE4, LXQt, MATE or KDE) with GPU acceleration through Turnip and Zink on Snapdragon, plus OpenSSH, so from then on you SSH in from your laptop and treat it as a little always-on server. A second script puts Home Assistant Core on the same phone. MIT, with a full video walkthrough.
+
+  - url: https://github.com/benmaster82/Kwipu
+    title: Kwipu
+    description: |
+      ask questions across a folder of Markdown notes and get an answer that connects several files, entirely on your own machine via Ollama. What makes it more than another RAG wrapper is that it reads the structure you already wrote: `[[wikilinks]]` and YAML frontmatter become graph triples, and retrieval blends vector similarity, BM25, temporal metadata and optional synonym expansion rather than picking one. Editing a note updates in place instead of rebuilding the graph, and it runs as an MCP server so Claude Desktop or Cursor can query your vault. Python, MIT.
+  - url: https://github.com/goposta/posta
+    title: Posta
+    description: |
+      a self-hosted SendGrid or Mailgun in one Go binary: send over your own SMTP through a single HTTP API, with templates, batch and scheduled sends, campaigns and subscriber lists, bounce and complaint handling, suppression and delivery analytics. Inbound is a real SMTP receiver that parses messages and attachments into webhooks, and a relay mode lets an existing SMTP client keep working while you migrate. The extra I liked: a public per-form endpoint your contact form posts to directly, with honeypot, origin allowlist, rate limits and spam scoring. Redis and Asynq underneath, AGPL-3.0.
