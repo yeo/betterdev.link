@@ -97,12 +97,12 @@ tool:
   - url: https://github.com/pgrundev/pgterm
     title: pgterm
     description: |
-      htop for every Postgres you own - one tab per database showing connections, locks, query regressions, unused indexes, vacuum and replication, checked in the background so a tab that goes red gets flagged while you read another.
+      htop for every Postgres you own. show locks, query regressions, unused indexes, vacuum and replication, checked in the background so a tab that goes red gets flagged while you read another.
 
   - url: https://github.com/skalesapp/skales
     title: Skales
     description: |
-      a desktop AI agent that installs like a normal app - no Docker, no terminal - and runs multi-step tasks in the background against any of 15+ providers or a local Ollama, though the repo is distribution only and the app itself is closed source.
+      a desktop AI agent that installs like a normal app, and runs multi-step tasks in the background against any of 15+ providers or a local Ollama, though the repo is distribution only and the app itself is closed source.
 
   - url: https://github.com/hybridgroup/yzma
     title: yzma
@@ -117,12 +117,13 @@ tool:
   - url: https://tailscale.com/blog/tailcat
     title: tailcat
     description: |
-      netcat over Tailscale's data plane with none of Tailscale attached - no accounts, no control plane, no root - just an address string you hand over out of band, after which the two ends NAT-punch to a direct WireGuard connection.
+      so we already know about headscale, implement of control server of tailscale. tailcat is an re-implementation of tailscale functionality without relying on tailscale, while still using the backbone of Wireguard, NAT traversal. So no account, no sign-up, no control server. Easy to use for small team or some quick experiement.
+
 
   - url: https://bdrouvot.github.io/2026/08/20/welcome-to-pg-shmemviz-postgresql-shared-memory-visualizer/
     title: pg_shmemviz
     description: |
-      snapshots PostgreSQL's shared memory and opens it in your browser as a physical map, reading DWARF from the postgres binary so you get real C structs, field offsets, compiler padding and NUMA placement down to the byte - two snapshots can be diffed. Dev and debugging only, never production.
+      snapshots PostgreSQL's shared memory and opens it in your browser as a physical map
 
 self_hosted:
   - url: https://github.com/mayukh4/linux-android
@@ -133,9 +134,9 @@ self_hosted:
   - url: https://github.com/benmaster82/Kwipu
     title: Kwipu
     description: |
-      ask questions across a folder of Markdown notes, fully local via Ollama, with `[[wikilinks]]` and YAML frontmatter turned into a real knowledge graph rather than just chunked into a vector store.
+      Given a folder of markdown, imagine your team docs, and connect with a LLM to ask question about these.
 
   - url: https://github.com/goposta/posta
     title: Posta
     description: |
-      a self-hosted SendGrid in one Go binary - an HTTP API for outbound, a real SMTP receiver that turns inbound mail into webhooks, and a relay mode so an existing SMTP client keeps working while you migrate.
+      a self-hosted SendGrid in one Go binary: an HTTP API for outbound, a real SMTP receiver that turns inbound mail into webhooks, and a relay mode so an existing SMTP client keeps working while you migrate.
