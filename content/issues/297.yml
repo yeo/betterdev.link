@@ -119,6 +119,11 @@ tool:
     description: |
       netcat over Tailscale's data plane with none of Tailscale attached - no accounts, no control plane, no root - just an address string you hand over out of band, after which the two ends NAT-punch to a direct WireGuard connection.
 
+  - url: https://bdrouvot.github.io/2026/08/20/welcome-to-pg-shmemviz-postgresql-shared-memory-visualizer/
+    title: pg_shmemviz
+    description: |
+      snapshots PostgreSQL's shared memory and opens it in your browser as a physical map, reading DWARF from the postgres binary so you get real C structs, field offsets, compiler padding and NUMA placement down to the byte - two snapshots can be diffed. Dev and debugging only, never production.
+
 self_hosted:
   - url: https://github.com/mayukh4/linux-android
     title: linux-android
