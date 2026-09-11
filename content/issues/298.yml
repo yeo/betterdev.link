@@ -50,6 +50,24 @@ links:
       Visa is not a bank, and it is not the one taking most of your merchant fee. On a $100 sale the issuer keeps $2.00 for carrying credit and fraud risk, the processor $0.35, and Visa itself $0.15 for routing and netting. What it really sells is settlement: $84.3B moved on an average day in 2024, backed by an $11.2B liquidity reserve.
 
 
+  - url: https://hdombrovskaya.wordpress.com/2026/08/25/how-to-optimize-when-you-cant-do-anything/
+    title: "How to optimize when you can't do anything!"
+    description: |
+      16 billion rows, 750 GB, and a date-overlap predicate no index is helping with - the GIST index that would fix it needs over a day to build, so it is off the table. What ships instead is a 2,000-row mapping table holding the earliest start_date per filter combination: join that first, and minutes become under 100ms.
+
+
+  - url: https://thebuild.com/blog/sixteen-locks-ought-to-be-enough-for-anybody/
+    title: Sixteen Locks Ought to Be Enough for Anybody
+    description: |
+      Each backend caches 16 relation locks in private memory; lock 17 falls through to the shared lock table behind 16 LWLocks, and the table carrying 20 indexes is exactly the one every query touches. Planning takes a lock on every index it considers, not the one it picks - 22 locks for a single query. Postgres 18 raises the fast path to 64.
+
+
+  - url: https://vincent.bernat.ch/en/blog/2026-spanning-tree
+    title: An Interactive Tour of the Spanning Tree Protocol
+    description: |
+      Cut a link in the diagram and watch the root election and the blocked ports rearrange themselves. The mechanism is a proposal-agreement handshake that syncs neighbours before a port starts forwarding, so a repair settles in under a second. The failure mode is count-to-infinity: lose the root in the wrong topology and bridges oscillate until BPDUs age out, 20+ seconds later.
+
+
 read_code:
   - url: https://www.drawably.dev/
     title: drawably
