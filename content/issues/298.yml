@@ -1,0 +1,81 @@
+time: "Sep 14, 2026"
+subject: "Making a Python interpreter in 1024 bytes"
+draft: true
+
+description: |
+  Hi everyone,
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+links:
+  - url: https://www.vpdae.com/redirect/7tww2utweep1nyg7vydaoinmugd
+    title: "Dragonfly: the multi-threaded, Redis-compatible data store that runs on a fraction of the nodes"
+    description: |
+      <p style="display: block; margin-block-start: 0.75rem;">Redis was designed in 2009 for single-core machines, and it still runs one core per process. On a modern 64-core server that means most of the machine sits idle, and the only way to use it is to shard across more nodes. You end up paying for compute your data store cannot reach.<br></p>
+      <p style="display: block; margin-block-start: 0.75rem;"><a href="https://www.vpdae.com/redirect/7tww2utweep1nyg7vydaoinmugd">Dragonfly</a> takes the other path. It is not a fork of Redis or Valkey. Its technical founder spent years as a principal engineer on AWS ElastiCache and saw where managed Redis hits a wall at scale, so he built a replacement from the ground up. It uses a thread-per-core, shared-nothing architecture and a new hash table design that cuts memory overhead by around 40% compared to Redis's dict. The result is roughly 6M ops/sec on a single node, so workloads that currently need a cluster fit comfortably on one machine. Instacart migrated to Dragonfly, cut average latency in half, and now runs 70% fewer nodes.<br></p>
+      <p style="display: block; margin-block-start: 0.75rem;"><a href="
+https://www.vpdae.com/redirect/7tww2utweep1nyg7vydaoinmugd">Dragonfly</a> speaks the Redis and Valkey wire protocol, so your existing clients and commands work unchanged. Open source, single binary, easy to benchmark against your own workload, and available as a fully managed cloud service if you would rather not run it yourself.<br></p>
+    category: ['sponsor']
+
+
+  - url: https://austinhenley.com/blog/python1024.html
+    title: Making a Python interpreter in 1024 bytes
+    description: |
+      1024 bytes of C, and it still runs if/else, while, for over range(), and function definitions. No AST, no bytecode: a recursive descent parser executes as it reads, and a loop just seeks backwards and reparses the source each iteration, letting the C stack do the recursion. Variables are single letters, so the ASCII value is the symbol table index.
+
+
+  - url: https://hawksley.dev/blog/get-free-arpa-domain
+    title: How to get a free .arpa domain
+    description: |
+      .arpa is the infrastructure TLD nobody sells you. A free Hurricane Electric IPv6 tunnel hands you a routed prefix, and that prefix is also a name: nibble-reverse it and the matching ip6.arpa zone is yours, rDNS delegation included. Delegate it to deSEC, CNAME to a host, and you have a site. The catch: most CAs won't issue for .arpa, so no HTTPS.
+
+
+  - url: https://boyter.org/posts/did-i-just-get-buster-scrugged/
+    title: Did I just get Buster Scrugged?
+    description: |
+      A rival counter, mezura, benchmarked 2.56x faster than scc, so Ben went strace hunting instead of arguing. The culprits were all his own: a thread pool spinning on futexes, and Go's `os.Open` firing 95,897 doomed epoll registrations on plain files. 2.37x later scc chews 1.5 GB of source in 167ms, and is 1.22x ahead.
+
+
+  - url: https://toonk.io/packetio/
+    title: Four ways to do super fast packet processing in Go
+    description: |
+      AF_PACKET, AF_XDP, DPDK and mlx5 Direct Verbs behind one Go API, so changing backend is mostly a different open call. The one worth the read is Direct Verbs: hardware steering lets your app claim specific flows while Linux keeps the interface as usual, and it still hits 148.6 Mpps on 64-byte packets.
+
+
+  - url: https://tautology.town/2026/06/01/card-networks.html
+    title: "What do Visa and Mastercard do? An intro to card networks"
+    description: |
+      Visa is not a bank, and it is not the one taking most of your merchant fee. On a $100 sale the issuer keeps $2.00 for carrying credit and fraud risk, the processor $0.35, and Visa itself $0.15 for routing and netting. What it really sells is settlement: $84.3B moved on an average day in 2024, backed by an $11.2B liquidity reserve.
+
+
+read_code:
+  - url: https://www.drawably.dev/
+    title: drawably
+    description: |
+      for CSS readers: 25 hand-drawn UI controls that re-sketch themselves on each mount and again on hover, real form inputs underneath and zero dependencies - open the [source](https://github.com/Danilaa1/drawably) to see how roughness, boil and ink variants are wired. React or vanilla, MIT.
+    category: ['CSS']
+
+  - url: https://github.com/AkihiroSuda/gomodjail
+    title: gomodjail
+    description: |
+      for Go readers: mark a dependency `// gomodjail:confined` in go.mod and it statically proves that module can never reach the filesystem, network, exec or raw syscalls, walking reachability with Capslock - reflection and assembly still escape it. Apache-2.0.
+    category: ['Go']
+
+  - url: https://github.com/charmbracelet/vhs
+    title: vhs
+    description: |
+      for Go readers: terminal GIFs as code - a `.tape` script of Type, Sleep and Wait commands run against a virtual terminal and rendered to GIF, MP4 or WebM, plus a `vhs serve` SSH endpoint so CI can record a demo it never installed. MIT.
+    category: ['Go']
+
+tool:
+  - url: https://github.com/nolabs-ai/nono
+    title: nono
+    description: |
+      sandboxes the agent, then sandboxes every tool it calls in its own nested child sandbox - so `git` or `curl` gets no filesystem, network or credentials that its own policy doesn't grant, with no daemon, container or VM in the way. Rust, Apache-2.0.
+
+self_hosted:
+  - url: https://github.com/NVIDIA/Personal-AI-Router
+    title: Personal AI Router
+    description: |
+      points one Ollama- and OpenAI-compatible endpoint at every idle machine at home, discovering their Ollama or LM Studio instances and routing each request to the best-placed node by queue depth and smoothed GPU utilization - it does not shard a model across boxes. Apache-2.0.
+
