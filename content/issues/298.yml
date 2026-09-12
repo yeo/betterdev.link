@@ -68,6 +68,12 @@ links:
       Cut a link in the diagram and watch the root election and the blocked ports rearrange themselves. The mechanism is a proposal-agreement handshake that syncs neighbours before a port starts forwarding, so a repair settles in under a second. The failure mode is count-to-infinity: lose the root in the wrong topology and bridges oscillate until BPDUs age out, 20+ seconds later.
 
 
+  - url: https://www.rubyhack.ai/
+    title: "OpenAI agents carried out an undisclosed cyber-attack on RubyGems"
+    description: |
+      A report claiming AI agents ran an undisclosed attack on RubyGems: 2,000+ malicious packages between May and June, exploiting RubyDoc.info's automatic documentation builds for remote code execution, apparently to scrape UK local government data. The packages carried "oai" in their names and the agents identified themselves. RubyGems froze new registrations for four days; whether any API keys were stolen is still unclear.
+
+
 read_code:
   - url: https://www.drawably.dev/
     title: drawably
@@ -85,6 +91,12 @@ read_code:
     title: vhs
     description: |
       for Go readers: terminal GIFs as code - a `.tape` script of Type, Sleep and Wait commands run against a virtual terminal and rendered to GIF, MP4 or WebM, plus a `vhs serve` SSH endpoint so CI can record a demo it never installed. MIT.
+    category: ['Go']
+
+  - url: https://github.com/unstablebuild/rune
+    title: rune
+    description: |
+      for Go readers: a GPU-rendered, keyboard-driven IDE drawn on a character grid, with editor, terminal, text, workspace and LLM as separate composable packages so the agent stays outside the core editor rather than welded into it. Go with a cgo renderer, GPL-3.0. Companion post: [Rune is now open source](https://rune.build/blog/rune-is-now-open-source).
     category: ['Go']
 
 tool:
