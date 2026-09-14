@@ -23,56 +23,65 @@ links:
   - url: https://austinhenley.com/blog/python1024.html
     title: Making a Python interpreter in 1024 bytes
     description: |
-      1024 bytes of C, and it still runs if/else, while, for over range(), and function definitions. No AST, no bytecode: a recursive descent parser executes as it reads, and a loop just seeks backwards and reparses the source each iteration, letting the C stack do the recursion. Variables are single letters, so the ASCII value is the symbol table index.
-
+      Codegolf next level. 1024 bytes of C, support if/else, while, for over range(), and function definitions. Ofcourse, not full feature Python, but mainly to prove it can parse and execute some simple Python. So no ast and byte code. It's a recursive descent parser executes code as it reads, and a loop just seeks backwards and reparses the source each iteration, letting the C stack do the recursion. Variables are single letters, so the ASCII value is the symbol table index.
 
   - url: https://hawksley.dev/blog/get-free-arpa-domain
     title: How to get a free .arpa domain
     description: |
-      .arpa is the infrastructure TLD nobody sells you. A free Hurricane Electric IPv6 tunnel hands you a routed prefix, and that prefix is also a name: nibble-reverse it and the matching ip6.arpa zone is yours, rDNS delegation included. Delegate it to deSEC, CNAME to a host, and you have a site. The catch: most CAs won't issue for .arpa, so no HTTPS.
+      .arpa is a special TLD, its mean is not to be used but more of to support network infra. Example, we know DNS -> IP. But IP can also resolve to DNS, call reverse DNS. But IP has no central storage look up, so to support that reverse DNS is done through a special in-addr.arpa. In this post, we kind of abuse that infra for ipv6, and use some tip. We will leverage a free Hurricane Electric feature with ip6.arpa domain. Catch is we cannot issue HTTPS because. But read on, the trick is cool
 
-
+  - url: https://serpapi.com/betterdevlink
+    title: "Real-Time Search Data for Your AI and Apps"
+    description: |
+      <p style="display: block; margin-block-start: 0.75rem;">Web Search Data, Ready as JSON and Markdown. SerpApi gives developers real-time, structured results from Google Search, Maps, Shopping, and 100+ search engine APIs through a simple API call.<br></p>
+    category: ['sponsor']
+    
   - url: https://boyter.org/posts/did-i-just-get-buster-scrugged/
     title: Did I just get Buster Scrugged?
     description: |
-      A rival counter, mezura, benchmarked 2.56x faster than scc, so Ben went strace hunting instead of arguing. The culprits were all his own: a thread pool spinning on futexes, and Go's `os.Open` firing 95,897 doomed epoll registrations on plain files. 2.37x later scc chews 1.5 GB of source in 167ms, and is 1.22x ahead.
+      When our rival make faster software than us, instead of feeling defensive, Ben put the hack hat on. Don't even read code, and bring on tooling like strace to fill out why his tool is slow, ended up making it faster and beat the rival. This is the hacker mindset, someone make it faster mean it has room to improve.
+
+  - url: https://vercel.com/blog/how-we-cut-cdn-metadata-lookup-latency-by-91-percent
+    title: How we cut CDN metadata lookup latency by 91%
+    description: |
+      Vercel reduce P99 from 215.8ms -> 19.1 ms. Each request needs to look metadata. Originally metadata is cache per path. Seems efficient. They now move to batch paths, group them. But big group cause in-efficient way. They find a balance, and pair with a bloom filter to reduce the metadata look up time.
+
+  - url: https://www.benjoffe.com/fast-time-of-day
+    title: Fast Time-of-Day Conversion
+    description: |
+      Who cares? My first re-action. Just took some damn time library, convert, or do 3 divisions yourself and call it a day. But the author is truely want to make this to next level. A daily timestamp [0..86399] can be converted into Hour, Minute and Second – with the latency of only two multiplications (and on some targets even lower!).
+
+  - url: https://hdombrovskaya.wordpress.com/2026/08/25/how-to-optimize-when-you-cant-do-anything/
+    title: "How to optimize when you can't do anything!"
+    description: |
+      What would you do when you have a big table, and you know adding a new index will help, but it would take a day to complete. What ships instead is a 2,000-row mapping table holding the earliest start_date per filter combination: join that first, and minutes become under 100ms.
+
+  - url: https://thebuild.com/blog/sixteen-locks-ought-to-be-enough-for-anybody/
+    title: Sixteen Locks Ought to Be Enough for Anybody
+    description: |
+      A fact about PostgreSQL that surprises everyone: every query against a table takes a lock on every index on that table, whether or not the query uses any of them. The lock are very cheap lock, AccessShareLock. But cheap is not free. Where does these lock store? Bad news, only 16 slot in a hared lock table. Contention is real
+ 
+  - url: https://www.rubyhack.ai/
+    title: "OpenAI agents carried out an undisclosed cyber-attack on RubyGems"
+    description: |
+      This truely read like novel. OpenAI tried to execution RubyGems infra. 2,000+ malicious packages between May and June, exploiting RubyDoc.info's automatic documentation builds for remote code execution, apparently to scrape UK local government data. The packages carried "oai" in their names and the agents identified themselves. RubyGems froze new registrations for four days, whether any API keys were stolen is still unclear.
+
+  - url: https://tautology.town/2026/06/01/card-networks.html
+    title: "What do Visa and Mastercard do? An intro to card networks"
+    description: |
+      Anytime we process payment with Stripe, the fee is painful. And it has been putting that on network fee. Turning out Visa is not taking most of that. On a $100 sale the issuer keeps $2.00 for carrying credit and fraud risk, the processor $0.35, and Visa itself $0.15 for routing and netting. What Visa really sells is settlement: $84.3B moved on an average day in 2024, backed by an $11.2B liquidity reserve.
+
+
+  - url: https://vincent.bernat.ch/en/blog/2026-spanning-tree
+    title: An Interactive Tour of the Spanning Tree Protocol(STP)
+    description: |
+      STP is a network layer-2 protocol that builds a loop-free logical topology by blocking redundant links. The point is to route traffic without causing forver loop in cycle. here we go through a super interactive tour to learn that
 
 
   - url: https://toonk.io/packetio/
     title: Four ways to do super fast packet processing in Go
     description: |
       AF_PACKET, AF_XDP, DPDK and mlx5 Direct Verbs behind one Go API, so changing backend is mostly a different open call. The one worth the read is Direct Verbs: hardware steering lets your app claim specific flows while Linux keeps the interface as usual, and it still hits 148.6 Mpps on 64-byte packets.
-
-
-  - url: https://tautology.town/2026/06/01/card-networks.html
-    title: "What do Visa and Mastercard do? An intro to card networks"
-    description: |
-      Visa is not a bank, and it is not the one taking most of your merchant fee. On a $100 sale the issuer keeps $2.00 for carrying credit and fraud risk, the processor $0.35, and Visa itself $0.15 for routing and netting. What it really sells is settlement: $84.3B moved on an average day in 2024, backed by an $11.2B liquidity reserve.
-
-
-  - url: https://hdombrovskaya.wordpress.com/2026/08/25/how-to-optimize-when-you-cant-do-anything/
-    title: "How to optimize when you can't do anything!"
-    description: |
-      16 billion rows, 750 GB, and a date-overlap predicate no index is helping with - the GIST index that would fix it needs over a day to build, so it is off the table. What ships instead is a 2,000-row mapping table holding the earliest start_date per filter combination: join that first, and minutes become under 100ms.
-
-
-  - url: https://thebuild.com/blog/sixteen-locks-ought-to-be-enough-for-anybody/
-    title: Sixteen Locks Ought to Be Enough for Anybody
-    description: |
-      Each backend caches 16 relation locks in private memory; lock 17 falls through to the shared lock table behind 16 LWLocks, and the table carrying 20 indexes is exactly the one every query touches. Planning takes a lock on every index it considers, not the one it picks - 22 locks for a single query. Postgres 18 raises the fast path to 64.
-
-
-  - url: https://vincent.bernat.ch/en/blog/2026-spanning-tree
-    title: An Interactive Tour of the Spanning Tree Protocol
-    description: |
-      Cut a link in the diagram and watch the root election and the blocked ports rearrange themselves. The mechanism is a proposal-agreement handshake that syncs neighbours before a port starts forwarding, so a repair settles in under a second. The failure mode is count-to-infinity: lose the root in the wrong topology and bridges oscillate until BPDUs age out, 20+ seconds later.
-
-
-  - url: https://www.rubyhack.ai/
-    title: "OpenAI agents carried out an undisclosed cyber-attack on RubyGems"
-    description: |
-      A report claiming AI agents ran an undisclosed attack on RubyGems: 2,000+ malicious packages between May and June, exploiting RubyDoc.info's automatic documentation builds for remote code execution, apparently to scrape UK local government data. The packages carried "oai" in their names and the agents identified themselves. RubyGems froze new registrations for four days; whether any API keys were stolen is still unclear.
-
 
 read_code:
   - url: https://www.drawably.dev/
@@ -81,33 +90,52 @@ read_code:
       for CSS readers: 25 hand-drawn UI controls that re-sketch themselves on each mount and again on hover, real form inputs underneath and zero dependencies - open the [source](https://github.com/Danilaa1/drawably) to see how roughness, boil and ink variants are wired. React or vanilla, MIT.
     category: ['CSS']
 
-  - url: https://github.com/AkihiroSuda/gomodjail
-    title: gomodjail
-    description: |
-      for Go readers: mark a dependency `// gomodjail:confined` in go.mod and it statically proves that module can never reach the filesystem, network, exec or raw syscalls, walking reachability with Capslock - reflection and assembly still escape it. Apache-2.0.
-    category: ['Go']
-
-  - url: https://github.com/charmbracelet/vhs
-    title: vhs
-    description: |
-      for Go readers: terminal GIFs as code - a `.tape` script of Type, Sleep and Wait commands run against a virtual terminal and rendered to GIF, MP4 or WebM, plus a `vhs serve` SSH endpoint so CI can record a demo it never installed. MIT.
-    category: ['Go']
 
   - url: https://github.com/unstablebuild/rune
     title: rune
     description: |
-      for Go readers: a GPU-rendered, keyboard-driven IDE drawn on a character grid, with editor, terminal, text, workspace and LLM as separate composable packages so the agent stays outside the core editor rather than welded into it. Go with a cgo renderer, GPL-3.0. Companion post: [Rune is now open source](https://rune.build/blog/rune-is-now-open-source).
+      a GPU-rendered, keyboard-driven IDE drawn on a character grid, with editor, terminal, text, workspace and LLM as separate composable packages so the agent stays outside the core editor rather than welded into it. Go with a cgo renderer, GPL-3.0. Companion post
     category: ['Go']
 
 tool:
+  - url: https://github.com/AkihiroSuda/gomodjail
+    title: gomodjail
+    description: |
+      mark a dependency `// gomodjail:confined` in go.mod and it statically proves that module can never reach the filesystem, network, exec or raw syscalls, walking reachability with Capslock - reflection and assembly still escape it.
+
+  - url: https://zackbartel.com/blog/2026/08/tether/
+    title: Tether
+    description: |
+      iPhone Continuity on a Linux Wayland desktop, reading iMessage and SMS straight off the phone over Bluetooth ANCS with no Mac relay - the [source](https://github.com/zackb/tether). It reverses engineer iMessage/SMS protocol, leverage tech like  [BlueFerry](https://github.com/erikwb/blueferry)
+
+  - url: https://github.com/charmbracelet/vhs
+    title: vhs
+    description: |
+      Recored your terminal
+
   - url: https://github.com/nolabs-ai/nono
     title: nono
     description: |
       sandboxes the agent, then sandboxes every tool it calls in its own nested child sandbox - so `git` or `curl` gets no filesystem, network or credentials that its own policy doesn't grant, with no daemon, container or VM in the way. Rust, Apache-2.0.
+
+  - url: https://github.com/capitalone/VulnHunter
+    title: VulnHunter
+    description: |
+      Claude Code skills that hunt vulnerabilities attacker-first, reasoning forward from entry points to dangerous sinks, then try to falsify each finding before reporting it - paired `/vulnhunter-fix` and `/vulnhunt-fix-verify` skills write a test-backed patch and check it independently. Apache-2.0.
 
 self_hosted:
   - url: https://github.com/NVIDIA/Personal-AI-Router
     title: Personal AI Router
     description: |
       points one Ollama- and OpenAI-compatible endpoint at every idle machine at home, discovering their Ollama or LM Studio instances and routing each request to the best-placed node by queue depth and smoothed GPU utilization - it does not shard a model across boxes. Apache-2.0.
+
+  - url: https://github.com/operacle/checkcle
+    title: CheckCle
+    description: |
+      uptime checks and server metrics in one PocketBase-backed Docker app - HTTP, DNS, ping, TCP and SSL-expiry checks run from distributed regional agents, next to CPU, RAM and disk from Linux and Windows hosts, with a public status page and alerts to Slack, Telegram or Matrix. MIT.
+
+  - url: https://github.com/max1874/ferry
+    title: Ferry
+    description: |
+      a LAN clipboard shaped like a chat: text, links, photos and files up to 64 MB land in one timeline every joined device reads, joined from a browser with no install and gated by a revocable device token. Go and SQLite, Docker or one binary, Apache-2.0.
 
