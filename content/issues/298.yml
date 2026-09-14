@@ -1,6 +1,6 @@
 time: "Sep 14, 2026"
 subject: "Making a Python interpreter in 1024 bytes"
-draft: true
+draft: false
 
 description: |
   Hi everyone,
@@ -33,7 +33,7 @@ links:
   - url: https://serpapi.com/betterdevlink
     title: "Real-Time Search Data for Your AI and Apps"
     description: |
-      <p style="display: block; margin-block-start: 0.75rem;">Web Search Data, Ready as JSON and Markdown. SerpApi gives developers real-time, structured results from Google Search, Maps, Shopping, and 100+ search engine APIs through a simple API call.<br></p>
+      <p style="display: block; margin-block-start: 0.75rem;">Web Search Data, Ready as JSON and Markdown. <a href="https://serpapi.com/betterdevlink">SerpApi</a> gives developers real-time, structured results from Google Search, Maps, Shopping, and 100+ search engine APIs through a simple API call.<br></p>
     category: ['sponsor']
     
   - url: https://boyter.org/posts/did-i-just-get-buster-scrugged/
