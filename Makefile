@@ -1,5 +1,5 @@
 GIT_COMMIT := $(shell git rev-list -1 HEAD)
-VERSION ?= 0.2
+VERSION ?= 0.3
 #DOCKER_REPO := quay.io/yeospace/betterdev
 DOCKER_REPO := r.getopty.com/betterdev
 
