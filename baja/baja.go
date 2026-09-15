@@ -33,6 +33,32 @@ type Link struct {
 	Description template.HTML `yaml:"description"`
 	Category    []string      `yaml:"category"`
 	Action      string        `yaml:"action"`
+	// Anchor is the element id used for #anchor links. Set it in yaml to
+	// override the slug generated from the title.
+	Anchor string `yaml:"anchor"`
+}
+
+// AssignAnchors gives every link in the issue a unique anchor, keeping any
+// anchor set explicitly in yaml and slugifying the title otherwise.
+func (issue *Issue) AssignAnchors() {
+	seen := map[string]bool{}
+	for _, links := range [][]Link{issue.Links, issue.Briefs, issue.CodeToRead, issue.Videos, issue.Tools, issue.SelfHosted} {
+		for i := range links {
+			base := slugify(links[i].Anchor)
+			if base == "" {
+				base = slugify(links[i].Title)
+			}
+			if base == "" {
+				base = "link"
+			}
+			anchor := base
+			for n := 2; seen[anchor]; n++ {
+				anchor = fmt.Sprintf("%s-%d", base, n)
+			}
+			seen[anchor] = true
+			links[i].Anchor = anchor
+		}
+	}
 }
 
 func (l *Link) IsSponsor() bool {

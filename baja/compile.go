@@ -220,6 +220,8 @@ func loadIssue(f os.FileInfo) (Issue, error) {
 		issue.SelfHosted[i].Description = template.HTML(string(blackfriday.Run([]byte(issue.SelfHosted[i].Description))))
 	}
 
+	issue.AssignAnchors()
+
 	return issue, nil
 }
 
