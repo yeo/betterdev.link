@@ -51,7 +51,6 @@ links:
     description: |
       Read file, write file, edit file, list files, search, run command - that is the whole surface of a coding agent, and only the first two plus the shell are really needed, since the shell is the get-out-of-jail card for everything else. Edit earns its place because without it a one-line change in a 500-line file regenerates all 500. Demo in R with `ellmer`.
 
-
 read_code:
 
 tool:
@@ -80,6 +79,16 @@ self_hosted:
     title: pizza-bot
     description: |
       despite the name it orders no pizza - it is a local-first inbox for long-running agents, where a task you kicked off lands in an Unread queue and anything needing approval waits in an Action queue. Docker compose, DeepAgents and LangGraph underneath. TypeScript, Apache-2.0.
+
+  - url: https://github.com/LumosLab-Innovation/OpenHunterAI
+    title: OpenHunterAI
+    description: |
+      a local AI red team for web, API and LLM targets - browser inspection, recon, ZAP and Nuclei signals fused together, with each finding forced through an evidence gate before it is reported. Docker compose, alpha, PolyForm Noncommercial.
+
+  - url: https://github.com/ddalcu/mlx-serve
+    title: mlx-serve
+    description: |
+      a 7 MB Zig binary that serves LLMs on Apple Silicon with no Python anywhere - it speaks the OpenAI, Anthropic and Ollama APIs on one local port, so existing clients point straight at it, and runs GGUF as well as MLX models. MIT.
   - url: https://serpapi.com/betterdevlink
     title: "Real-Time Search Data for Your AI and Apps"
     description: |
