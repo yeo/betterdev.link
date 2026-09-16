@@ -21,11 +21,6 @@ links:
       <p style="display: block; margin-block-start: 0.75rem;">Seats are limited.<br></p>
     category: ['sponsor']
 
-  - url: https://serpapi.com/betterdevlink
-    title: "Real-Time Search Data for Your AI and Apps"
-    description: |
-      <p style="display: block; margin-block-start: 0.75rem;">Web Search Data, Ready as JSON and Markdown. <a href="https://serpapi.com/betterdevlink">SerpApi</a> gives developers real-time, structured results from Google Search, Maps, Shopping, and 100+ search engine APIs through a simple API call.<br></p>
-    category: ['sponsor']
   - url: https://blog.master.dev/new-things-you-should-know-about-html-here-in-mid-2026/
     title: New things you should know about HTML here in mid 2026
     description: |
@@ -35,6 +30,26 @@ links:
     title: "The Real Cost of a Single Insert in Postgres"
     description: |
       A 40-byte sensor reading costs about 345 bytes of WAL before the commit returns - 8.6x write amplification. The 24-byte MVCC header is only the start: each index emits its own WAL record, and index maintenance alone is ~70% of the volume. Drop all three indexes and it falls to 2.44x. Fixes are batching with `COPY` and `wal_compression`.
+
+  - url: https://serpapi.com/betterdevlink
+    title: "Real-Time Search Data for Your AI and Apps"
+    description: |
+      <p style="display: block; margin-block-start: 0.75rem;">Web Search Data, Ready as JSON and Markdown. <a href="https://serpapi.com/betterdevlink">SerpApi</a> gives developers real-time, structured results from Google Search, Maps, Shopping, and 100+ search engine APIs through a simple API call.<br></p>
+    category: ['sponsor']
+  - url: https://kolemannix.com/blog/how-to-name-things/
+    title: How to Name Things
+    description: |
+      The thesis: name a thing for what it is, not for the job that made you write it. His example is `mergeTargetValuesIntoSourceTemplate()`, which turned out to be plain map union - the need-derived name hid that and stopped anyone reusing it. He is also against naming rules like never abbreviate, calling them a refusal to engage with the primitives.
+
+  - url: https://bkovac.github.io/modem-thing/
+    title: "Converting a $20 4G wireless hotspot into a texting device"
+    description: |
+      A $20 4G hotspot already runs Linux, so rather than bolt on a microcontroller the modem itself becomes the whole computer - OpenStick for the OS, a custom PCB for USB mode switching and power, a Clicks keyboard and a SHARP memory display. The DRM display driver is hand-written too, with Atkinson dithering. High-speed USB only enumerated after the wires were twisted tighter.
+
+  - url: https://tidydesign.substack.com/p/a-coding-agent-is-six-functions-in
+    title: "A coding agent is six functions in a trenchcoat"
+    description: |
+      Read file, write file, edit file, list files, search, run command - that is the whole surface of a coding agent, and only the first two plus the shell are really needed, since the shell is the get-out-of-jail card for everything else. Edit earns its place because without it a one-line change in a 500-line file regenerates all 500. Demo in R with `ellmer`.
 
 
 read_code:
@@ -55,4 +70,18 @@ tool:
     description: |
       runs a coding agent inside a throwaway microVM that mounts only the one project at `/work/<name>` and starts with no credentials, so it cannot reach your other repos, keychain or SSH agent - `hull` on macOS, `urunc` over KVM on Linux. Go, Apache-2.0, prerelease.
 
+  - url: https://github.com/smol-machines/smolvm
+    title: smolvm
+    description: |
+      each workload gets its own VM and guest kernel instead of a shared one, booting in under 200ms from an OCI image - and you can fork a running machine copy-on-write or freeze it into a portable `.smolmachine` file. libkrun underneath. Rust, Apache-2.0.
+
 self_hosted:
+  - url: https://github.com/pizza-bot-app/pizza-bot
+    title: pizza-bot
+    description: |
+      despite the name it orders no pizza - it is a local-first inbox for long-running agents, where a task you kicked off lands in an Unread queue and anything needing approval waits in an Action queue. Docker compose, DeepAgents and LangGraph underneath. TypeScript, Apache-2.0.
+  - url: https://serpapi.com/betterdevlink
+    title: "Real-Time Search Data for Your AI and Apps"
+    description: |
+      <p style="display: block; margin-block-start: 0.75rem;">Web Search Data, Ready as JSON and Markdown. <a href="https://serpapi.com/betterdevlink">SerpApi</a> gives developers real-time, structured results from Google Search, Maps, Shopping, and 100+ search engine APIs through a simple API call.<br></p>
+    category: ['sponsor']
