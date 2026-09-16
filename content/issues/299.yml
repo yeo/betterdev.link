@@ -1,0 +1,58 @@
+time: "Sep 21, 2026"
+subject: "The Real Cost of a Single Insert in Postgres"
+draft: true
+
+description: |
+  Hi everyone,
+
+  If you enjoy BetterDev, please spread the word by sharing it with your friends. And if you'd like to support my work, [buying me a coffee](https://www.buymeacoffee.com/betterdev) would be much appreciated.
+
+external_snippets:
+  - "<img src='https://www.vpdae.com/open/990ce33d.gif?opens=1' width='1' height='1'>"
+
+links:
+  - url: https://www.vpdae.com/redirect/nug17xschc256j6pm4qcwevdo3
+    title: "Prepathon 2026: Build, Ship & Scale at Velocity. A Free Online Event for Developers, DevOps & Engineering Leaders (Sep 22–23)"
+    description: |
+      <p style="display: block; margin-block-start: 0.75rem;">The decisions separating teams that ship reliably from teams that don't aren't always obvious. They live in how you structure ownership, where your infrastructure costs actually come from, and what happens to your architecture when velocity increases..<br></p>
+      <p style="display: block; margin-block-start: 0.75rem;">Prepathon 2026 is a free two-day online event from Cloudways running September 22-23, built around exactly these decisions.<br></p>
+      <p style="display: block; margin-block-start: 0.75rem;">Across two days you'll hear from engineers navigating them in production right now. What modern deployment looks like at scale. Where API-first product economics get complicated and how to structure ownership before the costs become a problem. How architecture and accountability shift when teams ship faster. And where AI-assisted development actually saves time versus where it introduces new failure modes.<br></p>
+      <p style="display: block; margin-block-start: 0.75rem;">Every session comes from engineers doing the work, not explaining what best practice should look like in theory.<br></p>
+      <p style="display: block; margin-block-start: 0.75rem;">Seats are limited.<br></p>
+    category: ['sponsor']
+
+  - url: https://serpapi.com/betterdevlink
+    title: "Real-Time Search Data for Your AI and Apps"
+    description: |
+      <p style="display: block; margin-block-start: 0.75rem;">Web Search Data, Ready as JSON and Markdown. <a href="https://serpapi.com/betterdevlink">SerpApi</a> gives developers real-time, structured results from Google Search, Maps, Shopping, and 100+ search engine APIs through a simple API call.<br></p>
+    category: ['sponsor']
+  - url: https://blog.master.dev/new-things-you-should-know-about-html-here-in-mid-2026/
+    title: New things you should know about HTML here in mid 2026
+    description: |
+      A roundup of what shipped in HTML lately. The one worth your time: `<geolocation>` and `<usermedia>`, real elements for asking permission, built with a recovery flow so someone who denied once can undo it - 65% manage that, against 10% with today's prompts. Also `appearance: base-select` to finally style `<select>`, `hidden="until-found"`, `focusgroup`, and Apple's `<model>` for 3D.
+
+  - url: https://www.tigerdata.com/blog/real-cost-of-single-insert-in-postgres
+    title: "The Real Cost of a Single Insert in Postgres"
+    description: |
+      A 40-byte sensor reading costs about 345 bytes of WAL before the commit returns - 8.6x write amplification. The 24-byte MVCC header is only the start: each index emits its own WAL record, and index maintenance alone is ~70% of the volume. Drop all three indexes and it falls to 2.44x. Fixes are batching with `COPY` and `wal_compression`.
+
+
+read_code:
+
+tool:
+  - url: https://github.com/cloud-custodian/cloud-custodian
+    title: cloud-custodian
+    description: |
+      the YAML rules engine for cloud governance, now CNCF incubating and well past AWS - one policy file filters resources and acts on them, and it provisions the Lambda or EventGrid trigger itself so rules fire on change rather than on a cron. Python, Apache-2.0.
+
+  - url: https://github.com/usestrix/strix
+    title: strix
+    description: |
+      autonomous pentest agents that run your code in a Docker sandbox and prove each finding with a working PoC rather than a maybe - HTTP proxy, headless browser and a Python sandbox for exploit dev. Python, Apache-2.0.
+
+  - url: https://github.com/brig-sh/brig
+    title: brig
+    description: |
+      runs a coding agent inside a throwaway microVM that mounts only the one project at `/work/<name>` and starts with no credentials, so it cannot reach your other repos, keychain or SSH agent - `hull` on macOS, `urunc` over KVM on Linux. Go, Apache-2.0, prerelease.
+
+self_hosted:
