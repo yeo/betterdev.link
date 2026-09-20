@@ -51,6 +51,11 @@ links:
     description: |
       Read file, write file, edit file, list files, search, run command - that is the whole surface of a coding agent, and only the first two plus the shell are really needed, since the shell is the get-out-of-jail card for everything else. Edit earns its place because without it a one-line change in a 500-line file regenerates all 500. Demo in R with `ellmer`.
 
+  - url: https://www.hacktron.ai/blog/hacking-openai
+    title: "Hacking OpenAI"
+    description: |
+      A HEIC image uploaded to OpenAI's Discourse forum reached a heap overflow in Debian 12's libheif through ImageMagick. The bug was fixed upstream with no CVE, so Debian never backported it. From the forum, an SSO misconfiguration let them take over employee ChatGPT and Codex accounts, and Codex opened a PR in OpenAI's internal monorepo. It took under 72 hours and paid a $6,500 bounty.
+
 read_code:
 
 tool:
