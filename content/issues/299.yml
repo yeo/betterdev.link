@@ -90,6 +90,11 @@ self_hosted:
     description: |
       a local AI red team for web, API and LLM targets - browser inspection, recon, ZAP and Nuclei signals fused together, with each finding forced through an evidence gate before it is reported. Docker compose, alpha, PolyForm Noncommercial.
 
+  - url: https://github.com/Heilonng23/openheard
+    title: openheard
+    description: |
+      a Canny alternative for feedback boards, roadmaps and changelogs that is one Cloudflare Worker plus a D1 database - no VPS or Postgres to keep alive, and it fits in the free tier. React 19, TanStack Start, AGPL-3.0.
+
   - url: https://github.com/ddalcu/mlx-serve
     title: mlx-serve
     description: |
